@@ -1,0 +1,48 @@
+backend:
+  name: github
+  repo: tvduasrodas/tvduasrodas
+  branch: main
+
+# IMPORTANTE:
+# Se você estiver usando o site em /test, mantenha:
+site_url: https://tvduasrodas.pages.dev/test
+display_url: https://tvduasrodas.pages.dev/test
+
+media_folder: "assets/img/uploads"
+public_folder: "/test/assets/img/uploads"
+
+collections:
+  - name: "articles"
+    label: "Matérias"
+    folder: "content/articles"
+    create: true
+    slug: "{{slug}}"
+    extension: "json"
+    format: "json"
+    fields:
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Kicker (ex: Review/Guia/Viagem)", name: "kicker", widget: "string", required: false }
+      - { label: "Tagline (ex: Review · Motos)", name: "tagline", widget: "string", required: false }
+      - { label: "Categoria", name: "category", widget: "select", options: ["motos", "bikes", "scooters", "eletrico", "viagem", "urbano", "equipamentos", "dicas"], required: false }
+      - { label: "Autor", name: "author", widget: "string", required: false }
+      - { label: "Data (texto)", name: "date", widget: "string", required: false }
+      - { label: "Tempo de leitura (ex: 6 min)", name: "readingTime", widget: "string", required: false }
+      - { label: "Patrocinador", name: "sponsor", widget: "string", required: false }
+      - { label: "Resumo", name: "summary", widget: "text", required: false }
+      - { label: "YouTube videoId", name: "videoId", widget: "string", required: false }
+
+      - label: "Hero"
+        name: "hero"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Tipo", name: "type", widget: "select", options: ["image", "video"], required: false }
+          - { label: "Imagem (opcional)", name: "image", widget: "image", required: false }
+          - { label: "Alt", name: "alt", widget: "string", required: false }
+          - { label: "Legenda", name: "caption", widget: "string", required: false }
+
+      # IMPORTANTE:
+      # Por enquanto vamos usar HTML mesmo (igual você já está fazendo no bodyHtml).
+      # Depois podemos migrar para Markdown e converter no JS automaticamente.
+      - { label: "Body HTML", name: "bodyHtml", widget: "text" }
