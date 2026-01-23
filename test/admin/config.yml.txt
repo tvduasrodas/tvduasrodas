@@ -1,12 +1,11 @@
 backend:
   name: github
   repo: TVDUASRODAS/TVDUASRODAS
-  branch: main  
+  branch: main
   base_url: "https://sveltia-cms-auth.tvduasrodas.workers.dev"
-  auth_endpoint: "auth"
 
-site_url: https://tvduasrodas.pages.dev/test
-display_url: https://tvduasrodas.pages.dev/test
+site_url: "https://tvduasrodas.pages.dev/test"
+display_url: "https://tvduasrodas.pages.dev/test"
 
 media_folder: "assets/img/uploads"
 public_folder: "/test/assets/img/uploads"
@@ -21,12 +20,12 @@ collections:
     fields:
       - { label: "Slug", name: "slug", widget: "string" }
       - { label: "Título", name: "title", widget: "string" }
-      - { label: "Kicker (ex: Review/Guia/Viagem)", name: "kicker", widget: "string", required: false }
-      - { label: "Tagline (ex: Review · Motos)", name: "tagline", widget: "string", required: false }
+      - { label: "Kicker", name: "kicker", widget: "string", required: false }
+      - { label: "Tagline", name: "tagline", widget: "string", required: false }
       - { label: "Categoria", name: "category", widget: "select", options: ["motos", "bikes", "scooters", "eletrico", "viagem", "urbano", "equipamentos", "dicas"], required: false }
       - { label: "Autor", name: "author", widget: "string", required: false }
-      - { label: "Data (texto)", name: "date", widget: "string", required: false }
-      - { label: "Tempo de leitura (ex: 6 min)", name: "readingTime", widget: "string", required: false }
+      - { label: "Data", name: "date", widget: "string", required: false }
+      - { label: "Tempo de leitura", name: "readingTime", widget: "string", required: false }
       - { label: "Patrocinador", name: "sponsor", widget: "string", required: false }
       - { label: "Resumo", name: "summary", widget: "text", required: false }
       - { label: "YouTube videoId", name: "videoId", widget: "string", required: false }
@@ -37,9 +36,8 @@ collections:
         required: false
         fields:
           - { label: "Tipo", name: "type", widget: "select", options: ["image", "video"], required: false }
-          - { label: "Imagem (opcional)", name: "image", widget: "image", required: false }
+          - { label: "Imagem", name: "image", widget: "image", required: false }
           - { label: "Alt", name: "alt", widget: "string", required: false }
           - { label: "Legenda", name: "caption", widget: "string", required: false }
 
-      # Por enquanto: HTML no corpo (depois a gente pode migrar para Markdown + conversão)
       - { label: "Body HTML", name: "bodyHtml", widget: "text" }
