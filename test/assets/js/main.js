@@ -469,7 +469,7 @@ document.addEventListener("DOMContentLoaded", () => {
             document.getElementById("articleBody").innerHTML =
                 "<p>Slug não informado na URL. Use <code>?slug=...</code>.</p>";
         } else {
-            fetch(`/content/articles/${slug}.json`)
+            fetch(`content/articles/${slug}.json`)
                 .then((res) => {
                     if (!res.ok) {
                         throw new Error("Não encontrado");
