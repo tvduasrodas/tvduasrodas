@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
             title: "Naked urbana 300cc: uso real na cidade",
             description: "Review completa da naked 300cc no trânsito urbano e em pequenos rolês.",
             type: "materia",
-            category: "motos",
+            category: "moto",
             url: "review-naked-300.html",
         },
         
