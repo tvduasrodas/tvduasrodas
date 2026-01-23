@@ -814,8 +814,38 @@ button {
     }
 
 .tv-live-section {
-    margin-bottom: 26px;
+    margin-top: 6px;
+    margin-bottom: 18px;
 }
+
+    /* Live em estilo “card escuro” menor */
+    .tv-live-section .live-box {
+        border-radius: 12px;
+        border: 1px solid #1f2937;
+        padding: 10px 12px 12px;
+        background: #020617;
+        color: #e5e7eb;
+        box-shadow: 0 12px 26px rgba(15, 23, 42, 0.45);
+    }
+
+        .tv-live-section .live-box p {
+            font-size: 13px;
+            color: #cbd5f5;
+            margin-bottom: 8px;
+        }
+
+        /* Botão da live com contraste correto */
+        .tv-live-section .live-box .btn-outline,
+        .tv-live-section .live-box [data-toggle-live] {
+            color: #f9fafb;
+            border-color: #e5e7eb;
+        }
+
+            .tv-live-section .live-box .btn-outline:hover,
+            .tv-live-section .live-box [data-toggle-live]:hover {
+                background: #e5e7eb;
+                color: #111827;
+            }
 
 .tv-playlist-grid .tv-video-card h3 {
     font-size: 14px;
@@ -1266,19 +1296,32 @@ button {
     }
 }
 
-/* INFO DO VÍDEO ATUAL NA TV */
+/* INFO DO VÍDEO ATUAL NA TV – card limpo */
 .tv-main-info {
-    margin-top: 12px;
-    margin-bottom: 18px;
+    margin-top: 4px;
+    margin-bottom: 16px;
+    padding: 10px 12px;
+    border-radius: 12px;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 6px 16px rgba(15, 23, 42, 0.08);
 }
 
     .tv-main-info h2 {
         font-size: 18px;
         margin-bottom: 4px;
+        color: #0f172a;
     }
 
     .tv-main-info p {
         font-size: 14px;
-        color: var(--text-muted);
+        color: #6b7280;
     }
+
+
+/* PLAYER PRINCIPAL – sombra mais leve e respiro */
+.tv-main-iframe {
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.35); /* bem mais suave que o padrão */
+    margin-bottom: 14px; /* afasta um pouco do texto abaixo */
+}
 
