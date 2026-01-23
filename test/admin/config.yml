@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: TVDUASRODAS/TVDUASRODAS
+  repo: tvduasrodas/tvduasrodas
   branch: main
   base_url: "https://sveltia-cms-auth.tvduasrodas.workers.dev"
 
