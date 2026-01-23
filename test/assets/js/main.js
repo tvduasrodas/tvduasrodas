@@ -95,6 +95,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const tvGallery = document.getElementById("tvGallery");
     const tvCards = tvGallery ? tvGallery.querySelectorAll(".tv-video-card") : [];
     const defaultVideoId = mainPlayer ? mainPlayer.dataset.defaultId : null;
+    const mainTitleEl = document.getElementById("tvMainTitle");
+    const mainDescEl = document.getElementById("tvMainDescription");
+
 
     function setMainVideo(videoId) {
         if (!mainPlayer) return;
@@ -105,12 +108,26 @@ document.addEventListener("DOMContentLoaded", () => {
         const baseSrc = "https://www.youtube.com/embed/";
         mainPlayer.src = baseSrc + finalId;
 
-        // Marca card ativo visualmente (borda, sombra etc.)
+        let currentCard = null;
+
+        // Marca card ativo e encontra o card atual
         tvCards.forEach((card) => {
             const cardId = normalizeYouTubeId(card.getAttribute("data-video-id"));
-            card.classList.toggle("active", cardId === finalId);
+            const isActive = cardId === finalId;
+            card.classList.toggle("active", isActive);
+            if (isActive) currentCard = card;
         });
+
+        // Atualiza título e descrição do vídeo atual
+        if (currentCard && mainTitleEl && mainDescEl) {
+            const titleEl = currentCard.querySelector("h3");
+            const descEl = currentCard.querySelector("p");
+
+            if (titleEl) mainTitleEl.textContent = titleEl.textContent;
+            if (descEl) mainDescEl.textContent = descEl.textContent;
+        }
     }
+
 
     // Lê ?v= da URL na página tv.html
     if (mainPlayer) {

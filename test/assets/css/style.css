@@ -1266,3 +1266,19 @@ button {
     }
 }
 
+/* INFO DO VÍDEO ATUAL NA TV */
+.tv-main-info {
+    margin-top: 12px;
+    margin-bottom: 18px;
+}
+
+    .tv-main-info h2 {
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+
+    .tv-main-info p {
+        font-size: 14px;
+        color: var(--text-muted);
+    }
+
