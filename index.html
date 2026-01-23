@@ -3,309 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TV Duas Rodas - Em breve</title>
+  <title>TV Duas Rodas – Em breve</title>
 
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    :root {
-      --bg-page: #f3f4f7;
-      --card-bg: #ffffff;
-      --accent-main: #e63946;
-      --accent-alt: #ffb703;
-      --text-main: #1f2933;
-      --text-muted: #6b7380;
-    }
-
-    body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-        sans-serif;
-      background: radial-gradient(circle at top, #ffffff 0, #f3f4f7 55%, #e9edf5 100%);
-      color: var(--text-main);
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 24px;
-    }
-
-    .wrapper {
-      width: 100%;
-      max-width: 1120px;
-    }
-
-    .brand-bar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 14px;
-      gap: 12px;
-    }
-
-    .brand-left {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
-
-    .brand-mark {
-      width: 40px;
-      height: 40px;
-      border-radius: 12px;
-      background: linear-gradient(135deg, var(--accent-main), var(--accent-alt));
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #fff;
-      font-weight: 800;
-      font-size: 15px;
-      letter-spacing: 0.08em;
-      box-shadow: 0 10px 26px rgba(0, 0, 0, 0.15);
-    }
-
-    .brand-text-main {
-      font-size: 20px;
-      font-weight: 700;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-    }
-
-    .brand-text-main span {
-      color: var(--accent-main);
-    }
-
-    .brand-sub {
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 0.18em;
-      color: var(--text-muted);
-      margin-top: 3px;
-    }
-
-    .brand-right {
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 0.16em;
-      color: var(--text-muted);
-      text-align: right;
-    }
-
-    .brand-right strong {
-      color: var(--text-main);
-    }
-
-    .card {
-      border-radius: 24px;
-      background: var(--card-bg);
-      box-shadow: 0 22px 55px rgba(15, 23, 42, 0.16);
-      padding: 26px 26px 26px;
-      display: grid;
-      grid-template-columns: minmax(0, 3fr) minmax(0, 3fr);
-      gap: 26px;
-    }
-
-    @media (max-width: 900px) {
-      .card {
-        grid-template-columns: 1fr;
-      }
-    }
-
-    @media (max-width: 600px) {
-      body {
-        padding: 16px;
-      }
-
-      .card {
-        padding: 20px 18px 20px;
-      }
-    }
-
-    /* LADO ESQUERDO */
-    .left {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-
-    .badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 4px 10px;
-      border-radius: 999px;
-      background: #f7f8fb;
-      border: 1px solid #e2e6f0;
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 0.16em;
-      color: var(--text-muted);
-      margin-bottom: 12px;
-    }
-
-    .badge-dot {
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background: radial-gradient(circle, #34d399, #059669);
-      box-shadow: 0 0 6px rgba(5, 150, 105, 0.9);
-    }
-
-    h1 {
-      font-size: clamp(26px, 3.4vw, 34px);
-      line-height: 1.2;
-      margin-bottom: 10px;
-    }
-
-    h1 span {
-      color: var(--accent-main);
-    }
-
-    .subtitle {
-      font-size: 14px;
-      color: var(--text-muted);
-      max-width: 460px;
-      margin-bottom: 20px;
-    }
-
-    .highlight {
-      display: inline-flex;
-      flex-direction: column;
-      gap: 4px;
-      padding: 10px 14px;
-      border-radius: 16px;
-      background: #fff6f3;
-      border: 1px solid #ffded2;
-      margin-bottom: 18px;
-    }
-
-    .highlight-label {
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 0.18em;
-      color: #b45309;
-    }
-
-    .highlight-main {
-      font-size: 17px;
-      font-weight: 600;
-      color: #9a3412;
-    }
-
-    .pill-row {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-bottom: 18px;
-    }
-
-    .pill {
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 0.16em;
-      padding: 4px 10px;
-      border-radius: 999px;
-      border: 1px solid #e2e6f0;
-      background: #f7f8fb;
-      color: var(--text-muted);
-    }
-
-    .info-text {
-      font-size: 12px;
-      color: var(--text-muted);
-    }
-
-    .info-text strong {
-      color: var(--text-main);
-    }
-
-    /* LADO DIREITO – FOTO / ARTE */
-    .right {
-      position: relative;
-      border-radius: 20px;
-      overflow: hidden;
-      min-height: 260px;
-      background:
-        linear-gradient(120deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.45)),
-        url("images/hero-duas-rodas.jpg") center/cover no-repeat;
-      /* 
-        DICA: troque "images/hero-duas-rodas.jpg" por uma foto sua
-        (moto, bike, scooter, rolê na estrada, etc.)
-      */
-      display: flex;
-      align-items: flex-end;
-      justify-content: space-between;
-      padding: 18px 18px 16px;
-    }
-
-    .right-tag {
-      background: rgba(15, 23, 42, 0.8);
-      padding: 10px 14px;
-      border-radius: 14px;
-      backdrop-filter: blur(6px);
-      color: #f9fafb;
-      max-width: 220px;
-      box-shadow: 0 12px 30px rgba(15, 23, 42, 0.6);
-    }
-
-    .right-tag-title {
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 0.18em;
-      color: #cbd5f5;
-      margin-bottom: 4px;
-    }
-
-    .right-tag-main {
-      font-size: 13px;
-      line-height: 1.4;
-    }
-
-    .stamp {
-      align-self: flex-start;
-      background: #f3f4ff;
-      border-radius: 999px;
-      padding: 6px 11px;
-      border: 1px solid #d4dcff;
-      font-size: 11px;
-      text-transform: uppercase;
-      letter-spacing: 0.18em;
-      color: #4f46e5;
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .stamp-dot {
-      width: 7px;
-      height: 7px;
-      border-radius: 50%;
-      background: #22c55e;
-    }
-
-    .bottom-note {
-      margin-top: 10px;
-      font-size: 11px;
-      color: #e5e7eb;
-    }
-
-    @media (max-width: 900px) {
-      .right {
-        min-height: 220px;
-      }
-
-      .stamp {
-        margin-bottom: 6px;
-      }
-    }
-  </style>
+  <!-- CSS externo -->
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
   <div class="wrapper">
-    <!-- BARRA SUPERIOR / MARCA -->
+
+    <!-- TOPO / MARCA -->
     <header class="brand-bar">
       <div class="brand-left">
         <div class="brand-mark">TV</div>
@@ -325,8 +31,9 @@
       </div>
     </header>
 
-    <!-- CARD PRINCIPAL -->
+    <!-- CONTEÚDO PRINCIPAL -->
     <main class="card">
+
       <!-- TEXTO -->
       <section class="left">
         <div class="badge">
@@ -340,34 +47,27 @@
         </h1>
 
         <p class="subtitle">
-          Conteúdo voltado a motos, bikes, scooters e veículos elétricos:
-          reviews, viagens, bastidores de oficina, dicas de manutenção, estilo
-          de vida e histórias reais da estrada e da cidade.
+          Conteúdo sobre motos, bikes, scooters e veículos elétricos:
+          reviews, viagens, lifestyle e histórias reais da estrada e da cidade.
         </p>
 
         <div class="highlight">
           <div class="highlight-label">Em breve · Coming soon</div>
           <div class="highlight-main">
-            Estamos ligando as câmeras e aquecendo os motores da TV Duas Rodas.
+            A TV Duas Rodas está aquecendo os motores.
           </div>
         </div>
 
         <div class="pill-row">
           <div class="pill">Motociclismo</div>
           <div class="pill">Ciclismo</div>
-          <div class="pill">Scooters &amp; elétricos</div>
-          <div class="pill">Trips &amp; rolês</div>
-          <div class="pill">Conteúdo em vídeo</div>
+          <div class="pill">Scooters</div>
+          <div class="pill">Elétricos</div>
+          <div class="pill">Lifestyle</div>
         </div>
-
-        <p class="info-text">
-          <strong>TV Duas Rodas</strong> será o ponto de encontro de quem ama
-          qualquer máquina com duas rodas — da bike simples à super moto, do
-          patinete elétrico às aventuras de viagem.
-        </p>
       </section>
 
-      <!-- FOTO / ARTE -->
+      <!-- IMAGEM / HERO -->
       <aside class="right">
         <div class="stamp">
           <span class="stamp-dot"></span>
@@ -375,18 +75,13 @@
         </div>
 
         <div class="right-tag">
-          <div class="right-tag-title">Pré-lançamento</div>
+          <div class="right-tag-title">TV Duas Rodas</div>
           <div class="right-tag-main">
-            Use esta imagem como destaque geral. Depois, troque por uma foto
-            real do seu universo: garagem, rolê de moto, bike na orla, grupo de
-            amigos, etc.
-          </div>
-          <div class="bottom-note">
-            Basta trocar o arquivo <strong>hero-duas-rodas.jpg</strong> na pasta
-            <strong>images</strong>.
+            Todas as máquinas, uma só paixão: duas rodas.
           </div>
         </div>
       </aside>
+
     </main>
   </div>
 </body>
