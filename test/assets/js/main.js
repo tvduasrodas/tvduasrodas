@@ -379,26 +379,37 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 searchResultsContainer.innerHTML = results
                     .map((item) => {
-                        const typeLabel =
-                            item.type === "materia"
-                                ? "Matéria"
-                                : item.type === "video_tv"
-                                    ? "Vídeo · TV"
-                                    : item.type === "video_home"
-                                        ? "Vídeo · Destaque"
-                                        : "Conteúdo";
+                        const isVideo =
+                            item.type === "video_tv" || item.type === "video_home";
+
+                        const typeLabel = isVideo
+                            ? "Vídeo"
+                            : "Matéria";
 
                         return `
-              <article class="card article-card">
-                <span class="category-tag">${typeLabel}${item.category ? " · " + item.category : ""
-                            }</span>
-                <h3>${item.title}</h3>
-                <p>${item.description}</p>
-                <a href="${item.url}" class="article-link">Abrir &rarr;</a>
-              </article>
-            `;
+      <article class="card article-card ${isVideo ? "search-video-card" : ""
+                            }">
+        <span class="category-tag">
+          ${typeLabel}${item.category ? " · " + item.category : ""}
+        </span>
+
+        ${isVideo
+                                ? `<div class="search-video-thumb">
+                 <span class="search-play-icon"></span>
+               </div>`
+                                : ""
+                            }
+
+        <h3>${item.title}</h3>
+        <p>${item.description}</p>
+        <a href="${item.url}" class="article-link">
+          ${isVideo ? "Assistir vídeo" : "Ler matéria"} &rarr;
+        </a>
+      </article>
+    `;
                     })
                     .join("");
+
             }
         }
     } else {
