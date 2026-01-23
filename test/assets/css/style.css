@@ -1474,5 +1474,167 @@ button {
     transform: scale(1.08);
 }
 
+.article-layout {
+    align-items: flex-start;
+}
+
+.article-main {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 18px 20px 20px;
+    box-shadow: 0 18px 40px rgba(15, 23, 42, 0.18);
+}
+
+.article-breadcrumb {
+    font-size: 12px;
+    color: #6b7280;
+    margin-bottom: 6px;
+}
+
+    .article-breadcrumb a {
+        color: #4b5563;
+    }
+
+.article-header h1 {
+    font-size: 26px;
+    margin: 6px 0 4px;
+}
+
+.article-meta {
+    font-size: 12px;
+    color: #9ca3af;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-bottom: 8px;
+}
+
+.article-sponsor {
+    font-size: 12px;
+    background: #eff6ff;
+    color: #1d4ed8;
+    padding: 6px 10px;
+    border-radius: 999px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 4px;
+}
+
+.article-hero {
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.article-hero-media img {
+    width: 100%;
+    border-radius: 16px;
+    display: block;
+}
+
+.article-hero-media figcaption {
+    font-size: 12px;
+    color: #6b7280;
+    margin-top: 4px;
+}
+
+.article-share {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    margin-bottom: 14px;
+}
+
+.share-btn {
+    width: 26px;
+    height: 26px;
+    border-radius: 999px;
+    border: none;
+    font-size: 11px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.share-fb {
+    background: #1877f2;
+}
+
+.share-tw {
+    background: #111827;
+}
+
+.share-wa {
+    background: #25d366;
+}
+
+.article-body p {
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.article-body h2 {
+    font-size: 18px;
+    margin: 14px 0 6px;
+}
+
+.article-body blockquote {
+    border-left: 4px solid #111827;
+    padding-left: 12px;
+    color: #4b5563;
+    font-style: italic;
+    margin: 10px 0;
+}
+
+.article-inline-media {
+    margin: 14px 0;
+}
+
+    .article-inline-media img {
+        width: 100%;
+        border-radius: 12px;
+    }
+
+.article-cta {
+    margin-top: 18px;
+    padding-top: 12px;
+    border-top: 1px solid #e5e7eb;
+}
+
+    .article-cta h3 {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+
+    .article-cta ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .article-cta li + li {
+        margin-top: 4px;
+    }
+
+.sidebar-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+    .sidebar-list li + li {
+        margin-top: 4px;
+    }
+
+    .sidebar-list a {
+        font-size: 14px;
+    }
+
+
 
 

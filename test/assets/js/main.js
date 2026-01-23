@@ -7,13 +7,15 @@ document.addEventListener("DOMContentLoaded", () => {
         // Exemplos – você pode ir aumentando essa lista
 
         // Matérias da revista (revista.html)
+
         {
-            title: "Review – Naked urbana 300cc",
-            description: "Avaliação completa da moto urbana 300cc, consumo, conforto e uso diário.",
+            title: "Naked urbana 300cc: uso real na cidade",
+            description: "Review completa da naked 300cc no trânsito urbano e em pequenos rolês.",
             type: "materia",
-            category: "review",
-            url: "revista.html", // se tiver página própria depois, mude o link
+            category: "motos",
+            url: "review-naked-300.html",
         },
+        
         {
             title: "Scooters elétricas na cidade",
             description: "Análise do uso de scooters EV no dia a dia e custo por km.",
