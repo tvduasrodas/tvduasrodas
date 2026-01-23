@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TV Duas Rodas - Em breve</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --bg-dark: #05070b;
+      --accent: #ff3b3b;
+      --accent-soft: #ff914d;
+      --text-main: #f5f5f5;
+      --text-muted: #b3b3b3;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        sans-serif;
+      background: radial-gradient(circle at top, #141824 0, #05070b 55%, #000 100%);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .noise-overlay {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      opacity: 0.06;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 160 160' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='noStitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.8'/%3E%3C/svg%3E");
+    }
+
+    .wrapper {
+      max-width: 960px;
+      width: 100%;
+      padding: 32px 20px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .card {
+      border-radius: 24px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      background: linear-gradient(
+        135deg,
+        rgba(15, 20, 35, 0.9),
+        rgba(5, 7, 11, 0.96)
+      );
+      box-shadow: 0 24px 70px rgba(0, 0, 0, 0.8);
+      padding: 28px 24px 32px;
+      display: grid;
+      grid-template-columns: minmax(0, 3fr) minmax(0, 2.5fr);
+      gap: 28px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card::before {
+      content: "";
+      position: absolute;
+      width: 380px;
+      height: 380px;
+      border-radius: 999px;
+      background: radial-gradient(circle, rgba(255, 59, 59, 0.4), transparent);
+      top: -120px;
+      right: -120px;
+      opacity: 0.5;
+      filter: blur(1px);
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      background: rgba(0, 0, 0, 0.45);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      color: var(--text-muted);
+      margin-bottom: 14px;
+    }
+
+    .badge-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: radial-gradient(circle, var(--accent) 0, #ffb347 80%);
+      box-shadow: 0 0 10px rgba(255, 59, 59, 0.9);
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .logo-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      border: 2px solid rgba(255, 255, 255, 0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .logo-icon::before,
+    .logo-icon::after {
+      content: "";
+      position: absolute;
+      border-radius: 50%;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+    }
+
+    .logo-icon::before {
+      width: 120%;
+      height: 120%;
+      border-top-color: transparent;
+      border-left-color: transparent;
+      transform: rotate(-20deg);
+    }
+
+    .logo-icon::after {
+      width: 160%;
+      height: 160%;
+      border-bottom-color: transparent;
+      border-right-color: transparent;
+      opacity: 0.3;
+      transform: rotate(35deg);
+    }
+
+    .wheel-mark {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border: 2px solid var(--accent);
+      border-top-color: transparent;
+      border-left-color: transparent;
+      transform: rotate(-35deg);
+      position: relative;
+    }
+
+    .wheel-mark::before {
+      content: "";
+      position: absolute;
+      width: 3px;
+      height: 3px;
+      border-radius: 50%;
+      background: var(--accent-soft);
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      box-shadow: 0 0 8px rgba(255, 145, 77, 0.9);
+    }
+
+    .logo-text-main {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .logo-text-main span {
+      color: var(--accent);
+    }
+
+    .logo-sub {
+      font-size: 11px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+    }
+
+    h1 {
+      font-size: clamp(28px, 4vw, 34px);
+      line-height: 1.2;
+      margin-bottom: 12px;
+    }
+
+    h1 span {
+      background: linear-gradient(120deg, var(--accent), var(--accent-soft));
+      -webkit-background-clip: text;
+      color: transparent;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: var(--text-muted);
+      max-width: 420px;
+      margin-bottom: 22px;
+    }
+
+    .coming {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      margin-bottom: 6px;
+      color: var(--text-muted);
+    }
+
+    .coming-big {
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    .coming-big span {
+      color: var(--accent-soft);
+    }
+
+    .notify-form {
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .notify-form input {
+      flex: 1 1 180px;
+      min-width: 0;
+      padding: 10px 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      background: rgba(3, 4, 8, 0.7);
+      color: var(--text-main);
+      font-size: 14px;
+      outline: none;
+    }
+
+    .notify-form input::placeholder {
+      color: rgba(255, 255, 255, 0.45);
+    }
+
+    .notify-form button {
+      border-radius: 999px;
+      padding: 10px 20px;
+      border: none;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      font-weight: 600;
+      cursor: pointer;
+      background: linear-gradient(120deg, var(--accent), var(--accent-soft));
+      color: #fff;
+      transition: transform 0.18s ease, box-shadow 0.18s ease,
+        filter 0.18s ease;
+      white-space: nowrap;
+    }
+
+    .notify-form button:hover {
+      transform: translateY(-1px);
+      filter: brightness(1.05);
+      box-shadow: 0 10px 25px rgba(255, 59, 59, 0.45);
+    }
+
+    .helper-text {
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-top: 6px;
+    }
+
+    .right {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .ring {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      backdrop-filter: blur(10px);
+      background: radial-gradient(
+        circle at center,
+        rgba(255, 59, 59, 0.06),
+        rgba(0, 0, 0, 0.9)
+      );
+      overflow: hidden;
+    }
+
+    .ring::before,
+    .ring::after {
+      content: "";
+      position: absolute;
+      border-radius: 50%;
+    }
+
+    .ring::before {
+      width: 90%;
+      height: 90%;
+      border: 1px dashed rgba(255, 255, 255, 0.25);
+      border-top-color: transparent;
+      border-right-color: transparent;
+    }
+
+    .ring::after {
+      width: 130%;
+      height: 130%;
+      border: 1px solid rgba(255, 145, 77, 0.25);
+      opacity: 0.55;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+    }
+
+    .wheel-dual {
+      width: 130px;
+      height: 80px;
+      position: relative;
+    }
+
+    .wheel {
+      position: absolute;
+      bottom: 0;
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      border: 4px solid rgba(255, 255, 255, 0.18);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+      background: radial-gradient(circle, #111, #000);
+      overflow: hidden;
+    }
+
+    .wheel::before {
+      content: "";
+      position: absolute;
+      inset: 9px;
+      border-radius: 50%;
+      border: 2px solid rgba(255, 255, 255, 0.2);
+      border-top-color: rgba(255, 59, 59, 0.85);
+      border-right-color: rgba(255, 145, 77, 0.9);
+    }
+
+    .wheel::after {
+      content: "";
+      position: absolute;
+      inset: 18px;
+      border-radius: 50%;
+      background: radial-gradient(circle, #fafafa, #999);
+      box-shadow: 0 0 8px rgba(255, 255, 255, 0.25);
+    }
+
+    .wheel-left {
+      left: 0;
+    }
+
+    .wheel-right {
+      right: 0;
+    }
+
+    .chassis {
+      position: absolute;
+      left: 8px;
+      right: 8px;
+      bottom: 28px;
+      height: 20px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, #151922, #05070b);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+      color: var(--text-muted);
+    }
+
+    .spark {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: radial-gradient(circle, var(--accent-soft), transparent);
+      box-shadow: 0 0 12px rgba(255, 145, 77, 0.9);
+    }
+
+    .category-tags {
+      position: absolute;
+      bottom: 12px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 6px;
+      font-size: 10px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      opacity: 0.9;
+    }
+
+    .footer {
+      margin-top: 14px;
+      font-size: 11px;
+      color: var(--text-muted);
+      text-align: left;
+    }
+
+    .footer span {
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+    @media (max-width: 780px) {
+      .card {
+        grid-template-columns: 1fr;
+        padding: 22px 18px 24px;
+      }
+
+      .right {
+        order: -1;
+      }
+
+      .ring {
+        width: 190px;
+        height: 190px;
+      }
+
+      .wrapper {
+        padding-inline: 16px;
+      }
+
+      .footer {
+        text-align: center;
+      }
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 24px;
+      }
+
+      .subtitle {
+        font-size: 13px;
+      }
+
+      .logo-text-main {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="noise-overlay"></div>
+
+  <div class="wrapper">
+    <div class="card">
+      <div class="left">
+        <div class="badge">
+          <span class="badge-dot"></span>
+          <span>Projeto em andamento</span>
+        </div>
+
+        <div class="logo">
+          <div class="logo-icon">
+            <div class="wheel-mark"></div>
+          </div>
+          <div>
+            <div class="logo-text-main">
+              TV <span>Duas Rodas</span>
+            </div>
+            <div class="logo-sub">motos • bikes • máquinas • lifestyle</div>
+          </div>
+        </div>
+
+        <h1>
+          Em breve, o canal definitivo para tudo que tem
+          <span>duas rodas</span>.
+        </h1>
+
+        <p class="subtitle">
+          Motocicletas, bicicletas, scooters, patinetes elétricos e qualquer
+          máquina movida por duas rodas. Conteúdos, reviews, vlogs de viagem,
+          bastidores de oficina e muito mais.
+        </p>
+
+        <div class="coming">Coming soon</div>
+        <div class="coming-big">
+          <span>EM BREVE</span> em
+          <strong>www.tvduasrodas.com</strong>
+        </div>
+
+        <form class="notify-form" action="#" method="post">
+          <input
+            type="email"
+            name="email"
+            placeholder="Digite seu e-mail para ser avisado"
+            required
+          />
+          <button type="submit">Me avise</button>
+        </form>
+        <div class="helper-text">
+          Não vamos enviar spam. Apenas novidades importantes sobre o lançamento.
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="ring">
+          <div class="wheel-dual">
+            <div class="chassis">
+              <div class="spark"></div>
+              TV DUAS RODAS
+              <div class="spark"></div>
+            </div>
+            <div class="wheel wheel-left"></div>
+            <div class="wheel wheel-right"></div>
+          </div>
+
+          <div class="category-tags">
+            <span>motos</span>
+            <span>bicicletas</span>
+            <span>elétricos</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      © <span>TV Duas Rodas</span> – todos os direitos reservados. Domínio:
+      tvduasrodas.com
+    </div>
+  </div>
+</body>
+</html>
