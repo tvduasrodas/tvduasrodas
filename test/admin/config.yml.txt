@@ -1,10 +1,8 @@
 backend:
   name: github
   repo: TVDUASRODAS/TVDUASRODAS
-  branch: main
-  # Depois que você criar o Worker OAuth, coloque a URL dele aqui:
-  # Ex: https://tvduasrodas-oauth.YOURNAME.workers.dev
-  base_url: "COLE_A_URL_DO_SEU_WORKER_AQUI"
+  branch: main  
+  base_url: "https://sveltia-cms-auth.tvduasrodas.workers.dev"
   auth_endpoint: "auth"
 
 site_url: https://tvduasrodas.pages.dev/test
