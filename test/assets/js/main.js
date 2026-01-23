@@ -28,8 +28,8 @@ document.addEventListener("DOMContentLoaded", () => {
             description: "Quedas, erros e situações inusitadas em duas rodas.",
             type: "video_tv",
             category: "cassetadas",
-            videoId: "dQw4w9WgXcQ", 
-            url: "tv.html?v=dQw4w9WgXcQ",
+            videoId: "xcPxjtQU1qc", 
+            url: "tv.html?v=xcPxjtQU1qc",
         },
         {
             title: "Cassetadas · Episódio 02",
@@ -78,8 +78,8 @@ document.addEventListener("DOMContentLoaded", () => {
             description: "Transmissão ao vivo com chat, convidados e novidades.",
             type: "video_home",
             category: "live",
-            videoId: "dQw4w9WgXcQ",
-            url: "tv.html?v=dQw4w9WgXcQ",
+            videoId: "xcPxjtQU1qc",
+            url: "tv.html?v=xcPxjtQU1qc",
         },
         {
             title: "Rolê de Rua · Episódio 01",
