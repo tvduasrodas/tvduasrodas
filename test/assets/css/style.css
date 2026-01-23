@@ -1161,4 +1161,108 @@ button {
     filter: brightness(0.85);
 }
 
+/* ============================
+   TV – CONTROLES DA GALERIA
+   ============================ */
+
+.tv-gallery-section {
+    padding-top: 32px;
+    padding-bottom: 0;
+}
+
+.tv-gallery-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 14px;
+    flex-wrap: wrap;
+}
+
+/* Filtro TV (separado do filtro da revista) */
+.tv-filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tv-filter-btn {
+    border-radius: 999px;
+    border: 1px solid #d1d5db;
+    background: #ffffff;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    padding: 5px 12px;
+    cursor: pointer;
+    color: #4b5563;
+}
+
+    .tv-filter-btn.active,
+    .tv-filter-btn:hover {
+        background: #111827;
+        color: #f9fafb;
+        border-color: #111827;
+    }
+
+/* Paginação TV */
+
+.tv-pagination {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    font-size: 12px;
+}
+
+.tv-pagination-bottom {
+    margin-top: 16px;
+    justify-content: center;
+}
+
+.tv-page-btn {
+    min-width: 28px;
+    padding: 4px 8px;
+    border-radius: 999px;
+    border: 1px solid #d1d5db;
+    background: #ffffff;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+    .tv-page-btn.active {
+        background: #111827;
+        color: #f9fafb;
+        border-color: #111827;
+    }
+
+    .tv-page-btn:hover {
+        background: #e5e7eb;
+    }
+
+/* Ajustes da galeria */
+
+.tv-gallery-grid .tv-video-card {
+    cursor: pointer;
+}
+
+    .tv-gallery-grid .tv-video-card .card {
+        box-shadow: 0 10px 26px rgba(15, 23, 42, 0.18);
+    }
+
+/* Sidebar – garantir vertical e alinhada */
+
+.ad-slot-sidebar {
+    width: 100%;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Ajuste de layout: sidebar ao lado em telas médias/grandes */
+
+@media (min-width: 901px) {
+    .layout-with-sidebar {
+        grid-template-columns: minmax(0, 3fr) minmax(260px, 1fr);
+    }
+}
 

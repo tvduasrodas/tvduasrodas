@@ -61,24 +61,53 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     /* ============================
-       TV PAGE – TROCAR PLAYER PELOS CARDS
+       FUNÇÕES YOUTUBE – NORMALIZAR ID
+       ============================ */
+    function normalizeYouTubeId(value) {
+        if (!value) return null;
+
+        // Se for URL
+        if (value.includes("youtube.com") || value.includes("youtu.be")) {
+            try {
+                const url = new URL(value);
+
+                // youtu.be/ID
+                if (url.hostname.includes("youtu.be")) {
+                    return url.pathname.replace("/", "");
+                }
+
+                // youtube.com/watch?v=ID
+                const v = url.searchParams.get("v");
+                if (v) return v;
+            } catch (e) {
+                // ignora erro e cai no return final
+            }
+        }
+
+        // Se não for URL, assume que já é ID
+        return value;
+    }
+
+    /* ============================
+       TV PAGE – PLAYER + GALERIA
        ============================ */
     const mainPlayer = document.getElementById("mainPlayer");
-    const tvCards = document.querySelectorAll(".tv-video-card");
+    const tvGallery = document.getElementById("tvGallery");
+    const tvCards = tvGallery ? tvGallery.querySelectorAll(".tv-video-card") : [];
     const defaultVideoId = mainPlayer ? mainPlayer.dataset.defaultId : null;
 
     function setMainVideo(videoId) {
         if (!mainPlayer) return;
-        const finalId = videoId || defaultVideoId;
+
+        const finalId = normalizeYouTubeId(videoId || defaultVideoId);
         if (!finalId) return;
 
         const baseSrc = "https://www.youtube.com/embed/";
-        // Mantém os mesmos parâmetros básicos, se quiser pode adicionar mais
         mainPlayer.src = baseSrc + finalId;
 
-        // Marca card ativo
+        // Marca card ativo visualmente (borda, sombra etc.)
         tvCards.forEach((card) => {
-            const cardId = card.getAttribute("data-video-id");
+            const cardId = normalizeYouTubeId(card.getAttribute("data-video-id"));
             card.classList.toggle("active", cardId === finalId);
         });
     }
@@ -97,7 +126,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // Clique nos cards da TV para trocar o vídeo principal
     if (tvCards.length && mainPlayer) {
         tvCards.forEach((card) => {
-            card.style.cursor = "pointer";
             card.addEventListener("click", () => {
                 const vid = card.getAttribute("data-video-id");
                 setMainVideo(vid);
@@ -108,5 +136,96 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
             });
         });
+    }
+
+    /* ============================
+       TV – FILTRO + PAGINAÇÃO DA GALERIA
+       ============================ */
+    const tvFilterButtons = document.querySelectorAll(".tv-filter-btn");
+    const paginationTop = document.getElementById("tvPaginationTop");
+    const paginationBottom = document.getElementById("tvPaginationBottom");
+
+    let tvCurrentPage = 1;
+    const tvPerPage = 6;
+    let tvCurrentFilter = "all";
+
+    function getFilteredCards() {
+        const cards = Array.from(tvCards);
+        if (tvCurrentFilter === "all") return cards;
+        return cards.filter(
+            (card) =>
+                card.getAttribute("data-category") === tvCurrentFilter
+        );
+    }
+
+    function renderTvPagination(totalPages) {
+        if (!paginationTop && !paginationBottom) return;
+
+        const containers = [paginationTop, paginationBottom].filter(Boolean);
+
+        containers.forEach((container) => {
+            container.innerHTML = "";
+
+            for (let i = 1; i <= totalPages; i++) {
+                const btn = document.createElement("button");
+                btn.type = "button";
+                btn.className = "tv-page-btn" + (i === tvCurrentPage ? " active" : "");
+                btn.textContent = i;
+                btn.dataset.page = i;
+
+                btn.addEventListener("click", () => {
+                    tvCurrentPage = i;
+                    renderTvGallery();
+                });
+
+                container.appendChild(btn);
+            }
+        });
+    }
+
+    function renderTvGallery() {
+        if (!tvGallery || !tvCards.length) return;
+
+        const filtered = getFilteredCards();
+        const totalPages = Math.max(
+            1,
+            Math.ceil(filtered.length / tvPerPage)
+        );
+
+        if (tvCurrentPage > totalPages) tvCurrentPage = totalPages;
+
+        const start = (tvCurrentPage - 1) * tvPerPage;
+        const end = start + tvPerPage;
+
+        // Esconde tudo
+        tvCards.forEach((card) => {
+            card.style.display = "none";
+        });
+
+        // Mostra apenas o que cabe na página atual
+        filtered.slice(start, end).forEach((card) => {
+            card.style.display = "";
+        });
+
+        renderTvPagination(totalPages);
+    }
+
+    // Eventos dos botões de filtro na TV
+    if (tvFilterButtons.length && tvCards.length) {
+        tvFilterButtons.forEach((btn) => {
+            btn.addEventListener("click", () => {
+                const filter = btn.getAttribute("data-filter");
+                tvCurrentFilter = filter;
+                tvCurrentPage = 1;
+
+                tvFilterButtons.forEach((b) => b.classList.remove("active"));
+                btn.classList.add("active");
+
+                renderTvGallery();
+            });
+        });
+
+        // Render inicial
+        renderTvGallery();
     }
 });
