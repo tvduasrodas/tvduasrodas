@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>TV Duas Rodas – Revista & Canal de Vídeo</title>
+
+  <!-- Favicons -->
+  <link rel="icon" href="assets/img/logoTVicon_web.ico" type="image/x-icon" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/logoTVicon_web_32x32.png" />
+  <link rel="icon" type="image/png" sizes="128x128" href="assets/img/logoTVicon_web_128x128.png" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="page-home">
+  <!-- BARRA TOPO (ANÚNCIO) -->
+  <div class="ad-bar">
+    <div class="container ad-bar-inner">
+      <span>Espaço para patrocinador topo · 970x90</span>
+      <!-- Exemplo de imagem: -->
+      <!-- <img src="assets/img/ad-top-placeholder.jpg" alt="Patrocinador topo" /> -->
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- LOGO -->
+      <div class="logo-wrapper">
+        <a href="index.html" class="logo-link">
+          <img src="assets/img/logotv.png" alt="TV Duas Rodas" class="logo-image" />
+        </a>
+        <div class="brand-sub">
+          Motos · Bikes · Scooters · Elétricos
+        </div>
+      </div>
+
+      <!-- NAV -->
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html" class="active">Início</a></li>
+          <li><a href="revista.html">Revista</a></li>
+          <li><a href="tv.html">TV &amp; Vídeos</a></li>
+          <li><a href="imprensa.html">Imprensa</a></li>
+          <li><a href="contato.html">Contato &amp; Patrocínios</a></li>
+        </ul>
+      </nav>
+
+      <!-- REDES SOCIAIS -->
+      <div class="social-header">
+        <a href="#" aria-label="YouTube" class="social-icon">YT</a>
+        <a href="#" aria-label="Instagram" class="social-icon">IG</a>
+        <a href="#" aria-label="TikTok" class="social-icon">TT</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO: DESTAQUE + TV AO VIVO / PRINCIPAL -->
+  <main>
+      <section class="hero hero-portal">
+          <div class="hero-bg"></div>
+          <div class="container hero-grid">
+              <!-- Destaque Revista -->
+              <article class="hero-article">
+                  <span class="label">Matéria em destaque</span>
+                  <h1>
+                      O universo das <span>duas rodas</span> em uma revista eletrônica e um canal de vídeo.
+                  </h1>
+                  <p>
+                      Notícias, testes, viagens, bastidores de oficina, gadgets, eletrônica e muito mais.
+                      Um hub completo para quem vive motos, bikes, scooters e elétricos.
+                  </p>
+                  <div class="hero-actions">
+                      <a href="revista.html" class="btn btn-primary">Ler matérias</a>
+                      <a href="tv.html" class="btn btn-ghost">Ir para TV &amp; Vídeos</a>
+                  </div>
+
+                  <ul class="hero-meta">
+                      <li>Reviews e testes</li>
+                      <li>Trips &amp; rolês</li>
+                      <li>Conteúdo técnico &amp; lifestyle</li>
+                  </ul>
+              </article>
+
+              <!-- Bloco TV -->
+              <aside class="hero-tv">
+                  <div class="hero-tv-header">
+                      <span class="label">TV Duas Rodas</span>
+                      <span class="status-dot status-off">off-air</span>
+                  </div>
+
+                  <!-- Player principal (YouTube embed) -->
+                  <div class="video-embed-wrapper">
+                      <!-- Substitua o src pelo ID do seu vídeo oficial -->
+                      <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                              title="Trailer TV Duas Rodas"
+                              frameborder="0"
+                              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                              allowfullscreen
+                              loading="lazy">
+                      </iframe>
+                  </div>
+
+                  <!-- Área Live (placeholder) -->
+                  <div class="live-box">
+                      <div class="live-info">
+                          <span class="live-label">Live Stream</span>
+                          <span class="live-status live-status-off">Offline</span>
+                      </div>
+                      <p>
+                          Quando estivermos ao vivo, este espaço será ocupado pela transmissão
+                          em tempo real (YouTube Live, Twitch ou outro player).
+                      </p>
+                      <button class="btn btn-small btn-outline" data-toggle-live>
+                          Simular Live On/Off (teste)
+                      </button>
+                  </div>
+              </aside>
+          </div>
+      </section>
+
+      <!-- BLOCO DE ANÚNCIOS / PATROCINADORES -->
+      <section class="section section-ads">
+          <div class="container ads-strip">
+              <div class="ad-slot ad-slot-medium">
+                  <span>Patrocinador 1 · 300x100</span>
+              </div>
+              <div class="ad-slot ad-slot-medium">
+                  <span>Patrocinador 2 · 300x100</span>
+              </div>
+              <div class="ad-slot ad-slot-medium">
+                  <span>Patrocinador 3 · 300x100</span>
+              </div>
+          </div>
+      </section>
+
+      <!-- REVISTA: ÚLTIMAS MATÉRIAS -->
+      <section class="section">
+          <div class="container">
+              <header class="section-header">
+                  <h2>Últimas da revista</h2>
+                  <p>Matérias recentes publicadas na TV Duas Rodas.</p>
+              </header>
+
+              <div class="grid article-grid">
+                  <!-- Cada article-card é uma matéria -->
+                  <article class="card article-card">
+                      <span class="category-tag">Moto</span>
+                      <h3>Teste completo: naked esportiva para o dia a dia</h3>
+                      <p>
+                          Uma análise detalhada de consumo, conforto, eletrônica embarcada e
+                          custo-benefício para quem usa moto todos os dias.
+                      </p>
+                      <a href="revista.html" class="article-link">Ler matéria &rarr;</a>
+                  </article>
+
+                  <article class="card article-card">
+                      <span class="category-tag">Bike</span>
+                      <h3>Pedal urbano: como montar a bike perfeita para a cidade</h3>
+                      <p>
+                          Equipamentos, travas, iluminação, pneus e setup ideal para quem
+                          combina bike, metrô e trabalho.
+                      </p>
+                      <a href="revista.html" class="article-link">Ler matéria &rarr;</a>
+                  </article>
+
+                  <article class="card article-card">
+                      <span class="category-tag">Scooter</span>
+                      <h3>Scooters e mobilidade inteligente no dia a dia</h3>
+                      <p>
+                          Comparativo entre modelos a combustão e elétricos, tempo de carga,
+                          autonomia e praticidade.
+                      </p>
+                      <a href="revista.html" class="article-link">Ler matéria &rarr;</a>
+                  </article>
+
+                  <article class="card article-card">
+                      <span class="category-tag">Elétrico</span>
+                      <h3>Patinetes, bikes e motos elétricas: o que vale a pena hoje?</h3>
+                      <p>
+                          Um guia inicial para quem quer entrar no mundo EV em duas rodas sem
+                          cair em ciladas.
+                      </p>
+                      <a href="revista.html" class="article-link">Ler matéria &rarr;</a>
+                  </article>
+              </div>
+          </div>
+      </section>
+
+      <!-- VÍDEOS EM DESTAQUE NA HOME -->
+      <section class="section">
+          <div class="container">
+              <header class="section-header">
+                  <h2>Vídeos em destaque</h2>
+                  <p>
+                      Últimos vídeos e cortes da TV Duas Rodas. Para ver a grade completa,
+                      acesse a área de TV &amp; Vídeos.
+                  </p>
+              </header>
+
+              <div class="grid video-grid">
+                  <!-- Card 1: AO VIVO / principal -->
+                  <article class="video-card live-card">
+                      <a href="tv.html?v=dQw4w9WgXcQ">
+                          <div class="video-thumb real-thumb">
+                              <!-- SUBSTITUA dQw4w9WgXcQ pelo ID do seu vídeo ao vivo -->
+                              <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg"
+                                   alt="TV Duas Rodas · Ao vivo" />
+                              <span class="badge-live">AO VIVO</span>
+                          </div>
+                          <div class="card" style="margin-top: 8px;">
+                              <h3>Live · TV Duas Rodas</h3>
+                              <p>
+                                  Transmissão ao vivo com chat, convidados, novidades e histórias
+                                  do universo duas rodas.
+                              </p>
+                              <span class="article-link">Assistir ao vivo &rarr;</span>
+                          </div>
+                      </a>
+                  </article>
+
+                  <!-- Card 2 -->
+                  <article class="video-card">
+                      <a href="tv.html?v=3GwjfUFyY6M">
+                          <div class="video-thumb real-thumb">
+                              <!-- SUBSTITUA 3GwjfUFyY6M pelo ID do seu vídeo -->
+                              <img src="https://img.youtube.com/vi/3GwjfUFyY6M/hqdefault.jpg"
+                                   alt="Rolê de Rua · Episódio 01" />
+                          </div>
+                          <div class="card" style="margin-top: 8px;">
+                              <h3>Rolê de Rua · Episódio 01</h3>
+                              <p>
+                                  Night ride pela cidade com foco na experiência de pilotagem e
+                                  clima de rolê.
+                              </p>
+                              <span class="article-link">Assistir &rarr;</span>
+                          </div>
+                      </a>
+                  </article>
+
+                  <!-- Card 3 -->
+                  <article class="video-card">
+                      <a href="tv.html?v=2vjPBrBU-TM">
+                          <div class="video-thumb real-thumb">
+                              <!-- SUBSTITUA 2vjPBrBU-TM pelo ID do seu vídeo -->
+                              <img src="https://img.youtube.com/vi/2vjPBrBU-TM/hqdefault.jpg"
+                                   alt="Garage Tech · Episódio 03" />
+                          </div>
+                          <div class="card" style="margin-top: 8px;">
+                              <h3>Garage Tech · Episódio 03</h3>
+                              <p>
+                                  Upgrade de iluminação, eletrônica embarcada e detalhes técnicos
+                                  na prática.
+                              </p>
+                              <span class="article-link">Assistir &rarr;</span>
+                          </div>
+                      </a>
+                  </article>
+              </div>
+
+              <div style="text-align:center; margin-top:18px;">
+                  <a href="tv.html" class="btn btn-outline btn-small">
+                      Ir para a página de TV &amp; Vídeos
+                  </a>
+              </div>
+          </div>
+      </section>
+
+
+      <!-- SEÇÃO SOCIAL / REDE SOCIAIS -->
+      <section class="section section-alt">
+          <div class="container social-section">
+              <header class="section-header">
+                  <h2>TV Duas Rodas nas redes</h2>
+                  <p>Clipes rápidos, bastidores, teasers e cortes exclusivos.</p>
+              </header>
+
+              <div class="social-grid">
+                  <div class="social-card">
+                      <h3>YouTube</h3>
+                      <p>Inscreva-se no canal para assistir episódios completos.</p>
+                      <a href="#" class="btn btn-primary btn-small">Ir para o canal</a>
+                  </div>
+
+                  <div class="social-card">
+                      <h3>Instagram</h3>
+                      <p>Fotos, stories, bastidores de gravações e bastantes reels.</p>
+                      <a href="#" class="btn btn-ghost btn-small">Ver perfil</a>
+                  </div>
+
+                  <div class="social-card">
+                      <h3>TikTok</h3>
+                      <p>Clipes curtos, cenas engraçadas e momentos marcantes.</p>
+                      <a href="#" class="btn btn-ghost btn-small">Ver TikTok</a>
+                  </div>
+              </div>
+
+              <!-- Exemplo simples de embed (opcional): feed do YouTube -->
+              <p class="social-note">
+                  No futuro podemos integrar embeds oficiais (Instagram/TikTok API ou
+                  widgets) sem mudar o layout base.
+              </p>
+          </div>
+      </section>
+  </main>
+
+  <!-- FOOTER COM ANÚNCIO -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <p>© <span>TV Duas Rodas</span> – todos os direitos reservados.</p>
+        <p class="footer-small">
+          Revista eletrônica &amp; canal de vídeo dedicado às duas rodas.
+        </p>
+      </div>
+
+      <div class="footer-ad">
+        <div class="ad-slot ad-slot-small">
+          <span>Patrocinador rodapé · 300x60</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
