@@ -1423,6 +1423,8 @@ button {
    RESULTADOS DE BUSCA – DIFERENCIAÇÃO DE VÍDEO
    ========================================================= */
 
+/* RESULTADOS DE BUSCA – DIFERENCIAÇÃO DE VÍDEO */
+
 .search-video-card {
     position: relative;
     overflow: hidden;
@@ -1463,7 +1465,7 @@ button {
         border-color: transparent transparent transparent #ffffff;
     }
 
-/* Hover deixa ainda mais claro que é vídeo */
+/* Hover */
 .search-video-card:hover .search-video-thumb {
     filter: brightness(1.15);
 }
@@ -1471,5 +1473,6 @@ button {
 .search-video-card:hover .search-play-icon {
     transform: scale(1.08);
 }
+
 
 

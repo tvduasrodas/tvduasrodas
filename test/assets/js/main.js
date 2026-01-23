@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
             description: "Quedas, erros e situações inusitadas em duas rodas.",
             type: "video_tv",
             category: "cassetadas",
+            videoId: "dQw4w9WgXcQ", 
             url: "tv.html?v=dQw4w9WgXcQ",
         },
         {
@@ -35,6 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
             description: "Mais momentos engraçados e imprevistos.",
             type: "video_tv",
             category: "cassetadas",
+            videoId: "3GwjfUFyY6M",
             url: "tv.html?v=3GwjfUFyY6M",
         },
         {
@@ -42,6 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
             description: "Saltos, curvas e técnica em pista de terra.",
             type: "video_tv",
             category: "cross",
+            videoId: "2vjPBrBU-TM",
             url: "tv.html?v=2vjPBrBU-TM",
         },
         {
@@ -49,6 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
             description: "Prova com vários pilotos e muita adrenalina.",
             type: "video_tv",
             category: "cross",
+            videoId: "L_jWHffIx5E",
             url: "tv.html?v=L_jWHffIx5E",
         },
         {
@@ -56,6 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
             description: "Rolê noturno passando pelos principais pontos da cidade.",
             type: "video_tv",
             category: "urbano",
+            videoId: "kXYiU_JCYtU",
             url: "tv.html?v=kXYiU_JCYtU",
         },
         {
@@ -63,6 +68,7 @@ document.addEventListener("DOMContentLoaded", () => {
             description: "Subida de serra com paradas em mirantes e visual incrível.",
             type: "video_tv",
             category: "viagem",
+            videoId: "hTWKbfoikeg",
             url: "tv.html?v=hTWKbfoikeg",
         },
 
@@ -72,6 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
             description: "Transmissão ao vivo com chat, convidados e novidades.",
             type: "video_home",
             category: "live",
+            videoId: "dQw4w9WgXcQ",
             url: "tv.html?v=dQw4w9WgXcQ",
         },
         {
@@ -79,6 +86,7 @@ document.addEventListener("DOMContentLoaded", () => {
             description: "Night ride pela cidade com foco na experiência de pilotagem.",
             type: "video_home",
             category: "urbano",
+            videoId: "3GwjfUFyY6M",
             url: "tv.html?v=3GwjfUFyY6M",
         },
     ];
@@ -382,31 +390,35 @@ document.addEventListener("DOMContentLoaded", () => {
                         const isVideo =
                             item.type === "video_tv" || item.type === "video_home";
 
-                        const typeLabel = isVideo
-                            ? "Vídeo"
-                            : "Matéria";
+                        const typeLabel = isVideo ? "Vídeo" : "Matéria";
+
+                        // Se for vídeo e tiver videoId, monta a URL do thumb
+                        const thumbStyle =
+                            isVideo && item.videoId
+                                ? `style="background-image:url('https://img.youtube.com/vi/${item.videoId}/hqdefault.jpg');background-size:cover;background-position:center;"`
+                                : "";
 
                         return `
-      <article class="card article-card ${isVideo ? "search-video-card" : ""
+          <article class="card article-card ${isVideo ? "search-video-card" : ""
                             }">
-        <span class="category-tag">
-          ${typeLabel}${item.category ? " · " + item.category : ""}
-        </span>
+            <span class="category-tag">
+              ${typeLabel}${item.category ? " · " + item.category : ""}
+            </span>
 
-        ${isVideo
-                                ? `<div class="search-video-thumb">
-                 <span class="search-play-icon"></span>
-               </div>`
+            ${isVideo
+                                ? `<div class="search-video-thumb" ${thumbStyle}>
+                     <span class="search-play-icon"></span>
+                   </div>`
                                 : ""
                             }
 
-        <h3>${item.title}</h3>
-        <p>${item.description}</p>
-        <a href="${item.url}" class="article-link">
-          ${isVideo ? "Assistir vídeo" : "Ler matéria"} &rarr;
-        </a>
-      </article>
-    `;
+            <h3>${item.title}</h3>
+            <p>${item.description}</p>
+            <a href="${item.url}" class="article-link">
+              ${isVideo ? "Assistir vídeo" : "Ler matéria"} &rarr;
+            </a>
+          </article>
+        `;
                     })
                     .join("");
 
