@@ -1161,12 +1161,4 @@ button {
     filter: brightness(0.85);
 }
 
-/* Play especial para LIVE */
-.live-card .video-thumb.real-thumb::after {
-    background: rgba(185, 28, 28, 0.75);
-}
-
-.live-card .video-thumb.real-thumb::before {
-    border-left-color: #fee2e2;
-}
 
