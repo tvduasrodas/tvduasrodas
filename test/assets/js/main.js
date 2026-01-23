@@ -13,8 +13,9 @@ document.addEventListener("DOMContentLoaded", () => {
             description: "Review completa da naked 300cc no trânsito urbano e em pequenos rolês.",
             type: "materia",
             category: "motos",
-            url: "review-naked-300.html",
+            url: "materia.html?slug=review-naked-300",
         },
+
 
         {
             title: "Scooters elétricas na cidade: vale a pena?",
@@ -450,6 +451,134 @@ document.addEventListener("DOMContentLoaded", () => {
                 headerSearchClear.style.display = "none";
                 headerSearchInput.focus();
             });
+        }
+    }
+
+    /* ============================
+   CARREGAMENTO DE MATÉRIA DINÂMICA (materia.html?slug=...)
+   ============================ */
+
+    const articleMain = document.getElementById("articleMain");
+
+    if (articleMain) {
+        const params = new URLSearchParams(window.location.search);
+        const slug = params.get("slug");
+
+        if (!slug) {
+            document.getElementById("articleTitle").textContent = "Matéria não encontrada";
+            document.getElementById("articleBody").innerHTML =
+                "<p>Slug não informado na URL. Use <code>?slug=...</code>.</p>";
+        } else {
+            fetch(`/content/articles/${slug}.json`)
+                .then((res) => {
+                    if (!res.ok) {
+                        throw new Error("Não encontrado");
+                    }
+                    return res.json();
+                })
+                .then((data) => {
+                    // Título da aba
+                    document.title = `${data.title} | TV Duas Rodas`;
+
+                    // Cabeçalho
+                    const tag = document.getElementById("articleTag");
+                    const titleEl = document.getElementById("articleTitle");
+                    const bcTag = document.getElementById("articleBreadcrumbTag");
+                    const authorEl = document.getElementById("articleAuthor");
+                    const dateEl = document.getElementById("articleDate");
+                    const readEl = document.getElementById("articleReadingTime");
+
+                    if (tag) tag.textContent = data.tagline || data.category || "Matéria";
+                    if (bcTag) bcTag.textContent = data.kicker || data.category || "Matéria";
+                    if (titleEl) titleEl.textContent = data.title || "";
+                    if (authorEl) authorEl.textContent = data.author
+                        ? `Por ${data.author}`
+                        : "Por Redação TV Duas Rodas";
+                    if (dateEl) dateEl.textContent = data.date || "";
+                    if (readEl) readEl.textContent = data.readingTime
+                        ? `Leitura: ${data.readingTime}`
+                        : "";
+
+                    // Patrocínio
+                    const sponsorWrapper = document.getElementById("articleSponsorWrapper");
+                    const sponsorEl = document.getElementById("articleSponsor");
+                    if (data.sponsor && sponsorWrapper && sponsorEl) {
+                        sponsorWrapper.hidden = false;
+                        sponsorEl.textContent = data.sponsor;
+                    }
+
+                    // HERO: vídeo ou imagem
+                    const hero = data.hero || {};
+                    const heroVideoWrapper = document.getElementById("articleHeroVideo");
+                    const heroIframe = document.getElementById("articleHeroIframe");
+                    const heroImageWrapper = document.getElementById("articleHeroImage");
+                    const heroImageTag = document.getElementById("articleHeroImageTag");
+                    const heroCaption = document.getElementById("articleHeroCaption");
+
+                    if (data.videoId && heroVideoWrapper && heroIframe) {
+                        heroVideoWrapper.hidden = false;
+                        heroIframe.src = `https://www.youtube.com/embed/${data.videoId}`;
+                        heroIframe.title = data.title || "Vídeo da matéria";
+
+                        // Botão "Assistir na TV & Vídeos"
+                        const ctaContainer = document.getElementById("articleVideoCtaContainer");
+                        if (ctaContainer) {
+                            ctaContainer.innerHTML = `
+              <div class="article-video-cta">
+                <a href="tv.html?v=${data.videoId}" class="btn btn-outline btn-small">
+                  Assistir na TV &amp; Vídeos &rarr;
+                </a>
+              </div>
+            `;
+                        }
+                    } else if (heroImageWrapper && heroImageTag) {
+                        heroImageWrapper.hidden = false;
+                        heroImageTag.src = hero.image || "";
+                        heroImageTag.alt = hero.alt || data.title || "";
+                        if (heroCaption) {
+                            heroCaption.textContent = hero.caption || "";
+                        }
+                    }
+
+                    // Corpo da matéria
+                    const bodyEl = document.getElementById("articleBody");
+                    if (bodyEl && data.bodyHtml) {
+                        bodyEl.innerHTML = data.bodyHtml;
+                    }
+
+                    // Compartilhamento
+                    const shareBaseUrl = `${window.location.origin}${window.location.pathname}?slug=${encodeURIComponent(
+                        data.slug || slug
+                    )}`;
+                    const shareFb = document.getElementById("shareFb");
+                    const shareTw = document.getElementById("shareTw");
+                    const shareWa = document.getElementById("shareWa");
+
+                    if (shareFb) {
+                        shareFb.href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(
+                            shareBaseUrl
+                        )}`;
+                    }
+                    if (shareTw) {
+                        shareTw.href = `https://twitter.com/intent/tweet?url=${encodeURIComponent(
+                            shareBaseUrl
+                        )}&text=${encodeURIComponent(data.title || "")}`;
+                    }
+                    if (shareWa) {
+                        shareWa.href = `https://api.whatsapp.com/send?text=${encodeURIComponent(
+                            `${data.title || "Matéria"} - ${shareBaseUrl}`
+                        )}`;
+                    }
+                })
+                .catch(() => {
+                    const titleEl = document.getElementById("articleTitle");
+                    const bodyEl = document.getElementById("articleBody");
+                    if (titleEl) titleEl.textContent = "Matéria não encontrada";
+                    if (bodyEl) {
+                        bodyEl.innerHTML =
+                            "<p>Não encontramos a matéria para este endereço. Verifique o link ou volte para a <a href='revista.html'>Revista</a>.</p>";
+                    }
+                });
         }
     }
 
