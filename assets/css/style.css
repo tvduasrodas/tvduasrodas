@@ -86,6 +86,35 @@ body {
   text-align: right;
 }
 
+/* ===== LOGO PNG ===== */
+
+.logo-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.logo-image {
+    max-width: 260px; /* ajuste se quiser maior/menor */
+    height: auto;
+    display: block;
+}
+
+.brand-sub {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--text-muted);
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .logo-image {
+        max-width: 200px;
+    }
+}
+
+
 /* ===== CARD ===== */
 
 .card {
