@@ -1325,3 +1325,81 @@ button {
     margin-bottom: 14px; /* afasta um pouco do texto abaixo */
 }
 
+/* =========================================================
+   BARRA DE BUSCA GLOBAL NO HEADER
+   ========================================================= */
+
+.site-search {
+    position: relative;
+    flex: 1;
+    max-width: 260px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+    .site-search input {
+        width: 100%;
+        padding: 7px 26px 7px 10px;
+        border-radius: 999px;
+        border: 1px solid #d1d5db;
+        font-size: 13px;
+        background: #f9fafb;
+        color: #111827;
+    }
+
+        .site-search input::placeholder {
+            color: #9ca3af;
+            font-size: 12px;
+        }
+
+        .site-search input:focus {
+            outline: none;
+            border-color: #111827;
+            box-shadow: 0 0 0 1px #1118271f;
+        }
+
+/* Botão de limpar (X) */
+
+.site-search-clear {
+    position: absolute;
+    top: 50%;
+    right: 6px;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    border-radius: 999px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    color: #9ca3af;
+    display: none; /* aparece só quando tem texto */
+}
+
+    .site-search-clear:hover {
+        background: #e5e7eb;
+        color: #111827;
+    }
+
+/* Quando o layout apertar, busca quebra pro próximo "andar" */
+
+@media (max-width: 960px) {
+    .header-inner {
+        flex-wrap: wrap;
+    }
+
+    .site-search {
+        order: 3;
+        width: 100%;
+        max-width: none;
+        margin-top: 6px;
+    }
+}
+
+/* Classe usada pela busca para esconder cards (sem quebrar paginação/filtro) */
+.search-hidden {
+    display: none !important;
+}
+
+

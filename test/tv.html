@@ -19,275 +19,294 @@
 
     <!-- HEADER -->
     <header class="site-header">
-        <div class="container header-inner">
-            <div class="logo-wrapper">
-                <a href="index.html" class="logo-link">
-                    <img src="assets/img/logotv.png" alt="TV Duas Rodas" class="logo-image" />
-                </a>
-                <div class="brand-sub">
-                    Motos · Bikes · Scooters · Elétricos
+        <header class="site-header">
+            <div class="container header-inner">
+                <!-- LOGO -->
+                <div class="logo-wrapper">
+                    <a href="index.html" class="logo-link">
+                        <img src="assets/img/logotv.png" alt="TV Duas Rodas" class="logo-image" />
+                    </a>
+                    <div class="brand-sub">
+                        Motos · Bikes · Scooters · Elétricos
+                    </div>
+                </div>
+
+                <!-- NAV -->
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="revista.html">Revista</a></li>
+                        <li><a href="tv.html">TV &amp; Vídeos</a></li>
+                        <li><a href="imprensa.html">Imprensa</a></li>
+                        <li><a href="contato.html">Contato &amp; Patrocínios</a></li>
+                    </ul>
+                </nav>
+
+                <!-- BUSCA GLOBAL -->
+                <div class="site-search">
+                    <input type="search"
+                           id="siteSearchInput"
+                           placeholder="Buscar no site..."
+                           aria-label="Buscar no site" />
+                    <button type="button"
+                            id="siteSearchClear"
+                            class="site-search-clear"
+                            aria-label="Limpar busca">
+                        ×
+                    </button>
+                </div>
+
+                <!-- REDES -->
+                <div class="social-header">
+                    <a href="#" class="social-icon">YT</a>
+                    <a href="#" class="social-icon">IG</a>
+                    <a href="#" class="social-icon">TT</a>
                 </div>
             </div>
-
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="revista.html">Revista</a></li>
-                    <li><a href="tv.html" class="active">TV &amp; Vídeos</a></li>
-                    <li><a href="imprensa.html">Imprensa</a></li>
-                    <li><a href="contato.html">Contato &amp; Patrocínios</a></li>
-                </ul>
-            </nav>
-
-            <div class="social-header">
-                <a href="#" class="social-icon">YT</a>
-                <a href="#" class="social-icon">IG</a>
-                <a href="#" class="social-icon">TT</a>
-            </div>
-        </div>
-    </header>
-
-    <!-- CONTEÚDO TV -->
-    <main class="section">
-        <div class="container layout-with-sidebar">
-            <!-- COLUNA PRINCIPAL -->
-            <div class="main-column">
-                <header class="section-header align-left">
-                    <h1>TV Duas Rodas · Vídeos &amp; Live</h1>
-                    <p>
-                        Player principal, transmissões ao vivo e uma galeria de vídeos filtrável
-                        por categoria. Ideal para quando o canal tiver muitos episódios.
-                    </p>
-                </header>
-
-                <!-- PLAYER PRINCIPAL -->
-                <section class="tv-main-player">
-                    <div class="tv-main-header">
-                        <span class="label">Player principal</span>
-                        <span class="status-dot status-off">off-air</span>
-                    </div>
-
-                    <div class="video-embed-wrapper tv-main-iframe">
-                        <!-- Troque data-default-id e src pelo ID do seu vídeo principal -->
-                        <iframe id="mainPlayer"
-                                data-default-id="dQw4w9WgXcQ"
-                                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                                title="TV Duas Rodas – Player principal"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen
-                                loading="lazy">
-                        </iframe>
-                    </div>
-                </section>
-
-                <!-- INFO DO VÍDEO ATUAL -->
-                <section class="tv-main-info">
-                    <h2 id="tvMainTitle">Live · TV Duas Rodas</h2>
-                    <p id="tvMainDescription">
-                        Player principal usado para transmissões ao vivo e especiais da TV Duas Rodas.
-                    </p>
-                </section>
+        </header>
 
 
-                <!-- LIVE STREAM -->
-                <section class="tv-live-section">
-                    <div class="live-box">
-                        <div class="live-info">
-                            <span class="live-label">Live Stream</span>
-                            <span class="live-status live-status-off">Offline</span>
-                        </div>
-                        <p>
-                            Quando houver transmissão ao vivo, este espaço pode exibir o player da live
-                            (YouTube Live, Twitch, etc.). No momento está em modo demonstração.
-                        </p>
-                        <button class="btn btn-small btn-outline" data-toggle-live>
-                            Simular Live On/Off (teste)
-                        </button>
-                    </div>
-                </section>
-
-                <!-- GALERIA DE VÍDEOS + FILTRO + PAGINAÇÃO -->
-                <section class="section tv-gallery-section">
+        <!-- CONTEÚDO TV -->
+        <main class="section">
+            <div class="container layout-with-sidebar">
+                <!-- COLUNA PRINCIPAL -->
+                <div class="main-column">
                     <header class="section-header align-left">
-                        <h2>Galeria de vídeos</h2>
+                        <h1>TV Duas Rodas · Vídeos &amp; Live</h1>
                         <p>
-                            Filtre por categoria e navegue pelas páginas de vídeos. Os cards
-                            trocam o vídeo exibido no player principal.
+                            Player principal, transmissões ao vivo e uma galeria de vídeos filtrável
+                            por categoria. Ideal para quando o canal tiver muitos episódios.
                         </p>
                     </header>
 
-                    <!-- CONTROLES (FILTRO + PAGINAÇÃO TOPO) -->
-                    <div class="tv-gallery-controls">
-                        <div class="tv-filter-bar">
-                            <button class="tv-filter-btn active" data-filter="all">Tudo</button>
-                            <button class="tv-filter-btn" data-filter="cassetadas">Cassetadas</button>
-                            <button class="tv-filter-btn" data-filter="cross">Cross</button>
-                            <button class="tv-filter-btn" data-filter="urbano">Urbano</button>
-                            <button class="tv-filter-btn" data-filter="viagem">Viagem</button>
+                    <!-- PLAYER PRINCIPAL -->
+                    <section class="tv-main-player">
+                        <div class="tv-main-header">
+                            <span class="label">Player principal</span>
+                            <span class="status-dot status-off">off-air</span>
                         </div>
-                        <div id="tvPaginationTop" class="tv-pagination"></div>
+
+                        <div class="video-embed-wrapper tv-main-iframe">
+                            <!-- Troque data-default-id e src pelo ID do seu vídeo principal -->
+                            <iframe id="mainPlayer"
+                                    data-default-id="dQw4w9WgXcQ"
+                                    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                                    title="TV Duas Rodas – Player principal"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen
+                                    loading="lazy">
+                            </iframe>
+                        </div>
+                    </section>
+
+                    <!-- INFO DO VÍDEO ATUAL -->
+                    <section class="tv-main-info">
+                        <h2 id="tvMainTitle">Live · TV Duas Rodas</h2>
+                        <p id="tvMainDescription">
+                            Player principal usado para transmissões ao vivo e especiais da TV Duas Rodas.
+                        </p>
+                    </section>
+
+
+                    <!-- LIVE STREAM -->
+                    <section class="tv-live-section">
+                        <div class="live-box">
+                            <div class="live-info">
+                                <span class="live-label">Live Stream</span>
+                                <span class="live-status live-status-off">Offline</span>
+                            </div>
+                            <p>
+                                Quando houver transmissão ao vivo, este espaço pode exibir o player da live
+                                (YouTube Live, Twitch, etc.). No momento está em modo demonstração.
+                            </p>
+                            <button class="btn btn-small btn-outline" data-toggle-live>
+                                Simular Live On/Off (teste)
+                            </button>
+                        </div>
+                    </section>
+
+                    <!-- GALERIA DE VÍDEOS + FILTRO + PAGINAÇÃO -->
+                    <section class="section tv-gallery-section">
+                        <header class="section-header align-left">
+                            <h2>Galeria de vídeos</h2>
+                            <p>
+                                Filtre por categoria e navegue pelas páginas de vídeos. Os cards
+                                trocam o vídeo exibido no player principal.
+                            </p>
+                        </header>
+
+                        <!-- CONTROLES (FILTRO + PAGINAÇÃO TOPO) -->
+                        <div class="tv-gallery-controls">
+                            <div class="tv-filter-bar">
+                                <button class="tv-filter-btn active" data-filter="all">Tudo</button>
+                                <button class="tv-filter-btn" data-filter="cassetadas">Cassetadas</button>
+                                <button class="tv-filter-btn" data-filter="cross">Cross</button>
+                                <button class="tv-filter-btn" data-filter="urbano">Urbano</button>
+                                <button class="tv-filter-btn" data-filter="viagem">Viagem</button>
+                            </div>
+                            <div id="tvPaginationTop" class="tv-pagination"></div>
+                        </div>
+
+                        <!-- GRID DA GALERIA -->
+                        <div class="grid video-grid tv-gallery-grid" id="tvGallery">
+                            <!-- Exemplo de vídeos – troque os IDs pelos seus -->
+                            <!-- CASSETADAS -->
+                            <article class="video-card tv-video-card"
+                                     data-video-id="dQw4w9WgXcQ"
+                                     data-category="cassetadas">
+                                <div class="video-thumb real-thumb">
+                                    <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg"
+                                         alt="Cassetadas 01" />
+                                </div>
+                                <div class="card" style="margin-top: 8px;">
+                                    <h3>Cassetadas · Episódio 01</h3>
+                                    <p>Quedas, erros e situações inusitadas em duas rodas.</p>
+                                </div>
+                            </article>
+
+                            <article class="video-card tv-video-card"
+                                     data-video-id="3GwjfUFyY6M"
+                                     data-category="cassetadas">
+                                <div class="video-thumb real-thumb">
+                                    <img src="https://img.youtube.com/vi/3GwjfUFyY6M/hqdefault.jpg"
+                                         alt="Cassetadas 02" />
+                                </div>
+                                <div class="card" style="margin-top: 8px;">
+                                    <h3>Cassetadas · Episódio 02</h3>
+                                    <p>Mais momentos engraçados e imprevistos.</p>
+                                </div>
+                            </article>
+
+                            <!-- CROSS -->
+                            <article class="video-card tv-video-card"
+                                     data-video-id="2vjPBrBU-TM"
+                                     data-category="cross">
+                                <div class="video-thumb real-thumb">
+                                    <img src="https://img.youtube.com/vi/2vjPBrBU-TM/hqdefault.jpg"
+                                         alt="Cross 01" />
+                                </div>
+                                <div class="card" style="margin-top: 8px;">
+                                    <h3>Cross · Treino na pista</h3>
+                                    <p>Saltos, curvas e técnica em pista de terra.</p>
+                                </div>
+                            </article>
+
+                            <article class="video-card tv-video-card"
+                                     data-video-id="L_jWHffIx5E"
+                                     data-category="cross">
+                                <div class="video-thumb real-thumb">
+                                    <img src="https://img.youtube.com/vi/L_jWHffIx5E/hqdefault.jpg"
+                                         alt="Cross 02" />
+                                </div>
+                                <div class="card" style="margin-top: 8px;">
+                                    <h3>Cross · Corrida completa</h3>
+                                    <p>Prova com vários pilotos e muita adrenalina.</p>
+                                </div>
+                            </article>
+
+                            <!-- URBANO -->
+                            <article class="video-card tv-video-card"
+                                     data-video-id="kXYiU_JCYtU"
+                                     data-category="urbano">
+                                <div class="video-thumb real-thumb">
+                                    <img src="https://img.youtube.com/vi/kXYiU_JCYtU/hqdefault.jpg"
+                                         alt="Rolê urbano 01" />
+                                </div>
+                                <div class="card" style="margin-top: 8px;">
+                                    <h3>Rolê urbano · Night ride</h3>
+                                    <p>Passando pelos principais pontos da cidade.</p>
+                                </div>
+                            </article>
+
+                            <article class="video-card tv-video-card"
+                                     data-video-id="eVTXPUF4Oz4"
+                                     data-category="urbano">
+                                <div class="video-thumb real-thumb">
+                                    <img src="https://img.youtube.com/vi/eVTXPUF4Oz4/hqdefault.jpg"
+                                         alt="Rolê urbano 02" />
+                                </div>
+                                <div class="card" style="margin-top: 8px;">
+                                    <h3>Rolê urbano · Dia de cidade</h3>
+                                    <p>Trânsito, atalhos e vida real sobre duas rodas.</p>
+                                </div>
+                            </article>
+
+                            <!-- VIAGEM -->
+                            <article class="video-card tv-video-card"
+                                     data-video-id="hTWKbfoikeg"
+                                     data-category="viagem">
+                                <div class="video-thumb real-thumb">
+                                    <img src="https://img.youtube.com/vi/hTWKbfoikeg/hqdefault.jpg"
+                                         alt="Viagem 01" />
+                                </div>
+                                <div class="card" style="margin-top: 8px;">
+                                    <h3>Viagem · Serra e mirantes</h3>
+                                    <p>Subida de serra com vários pontos de parada para apreciar o visual.</p>
+                                </div>
+                            </article>
+
+                            <article class="video-card tv-video-card"
+                                     data-video-id="60ItHLz5WEA"
+                                     data-category="viagem">
+                                <div class="video-thumb real-thumb">
+                                    <img src="https://img.youtube.com/vi/60ItHLz5WEA/hqdefault.jpg"
+                                         alt="Viagem 02" />
+                                </div>
+                                <div class="card" style="margin-top: 8px;">
+                                    <h3>Viagem · Litoral &amp; praia</h3>
+                                    <p>Estradas litorâneas, paradas em mirantes e trecho final na areia.</p>
+                                </div>
+                            </article>
+
+                            <!-- Você pode continuar adicionando mais vídeos aqui (mesma estrutura) -->
+                        </div>
+
+                        <!-- PAGINAÇÃO INFERIOR -->
+                        <div id="tvPaginationBottom" class="tv-pagination tv-pagination-bottom"></div>
+                    </section>
+                </div>
+
+                <!-- SIDEBAR (AGORA VERTICAL, DO LADO MESMO) -->
+                <aside class="sidebar">
+                    <div class="ad-slot ad-slot-sidebar">
+                        <span>Patrocinador lateral · 300x250</span>
                     </div>
 
-                    <!-- GRID DA GALERIA -->
-                    <div class="grid video-grid tv-gallery-grid" id="tvGallery">
-                        <!-- Exemplo de vídeos – troque os IDs pelos seus -->
-                        <!-- CASSETADAS -->
-                        <article class="video-card tv-video-card"
-                                 data-video-id="dQw4w9WgXcQ"
-                                 data-category="cassetadas">
-                            <div class="video-thumb real-thumb">
-                                <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg"
-                                     alt="Cassetadas 01" />
-                            </div>
-                            <div class="card" style="margin-top: 8px;">
-                                <h3>Cassetadas · Episódio 01</h3>
-                                <p>Quedas, erros e situações inusitadas em duas rodas.</p>
-                            </div>
-                        </article>
-
-                        <article class="video-card tv-video-card"
-                                 data-video-id="3GwjfUFyY6M"
-                                 data-category="cassetadas">
-                            <div class="video-thumb real-thumb">
-                                <img src="https://img.youtube.com/vi/3GwjfUFyY6M/hqdefault.jpg"
-                                     alt="Cassetadas 02" />
-                            </div>
-                            <div class="card" style="margin-top: 8px;">
-                                <h3>Cassetadas · Episódio 02</h3>
-                                <p>Mais momentos engraçados e imprevistos.</p>
-                            </div>
-                        </article>
-
-                        <!-- CROSS -->
-                        <article class="video-card tv-video-card"
-                                 data-video-id="2vjPBrBU-TM"
-                                 data-category="cross">
-                            <div class="video-thumb real-thumb">
-                                <img src="https://img.youtube.com/vi/2vjPBrBU-TM/hqdefault.jpg"
-                                     alt="Cross 01" />
-                            </div>
-                            <div class="card" style="margin-top: 8px;">
-                                <h3>Cross · Treino na pista</h3>
-                                <p>Saltos, curvas e técnica em pista de terra.</p>
-                            </div>
-                        </article>
-
-                        <article class="video-card tv-video-card"
-                                 data-video-id="L_jWHffIx5E"
-                                 data-category="cross">
-                            <div class="video-thumb real-thumb">
-                                <img src="https://img.youtube.com/vi/L_jWHffIx5E/hqdefault.jpg"
-                                     alt="Cross 02" />
-                            </div>
-                            <div class="card" style="margin-top: 8px;">
-                                <h3>Cross · Corrida completa</h3>
-                                <p>Prova com vários pilotos e muita adrenalina.</p>
-                            </div>
-                        </article>
-
-                        <!-- URBANO -->
-                        <article class="video-card tv-video-card"
-                                 data-video-id="kXYiU_JCYtU"
-                                 data-category="urbano">
-                            <div class="video-thumb real-thumb">
-                                <img src="https://img.youtube.com/vi/kXYiU_JCYtU/hqdefault.jpg"
-                                     alt="Rolê urbano 01" />
-                            </div>
-                            <div class="card" style="margin-top: 8px;">
-                                <h3>Rolê urbano · Night ride</h3>
-                                <p>Passando pelos principais pontos da cidade.</p>
-                            </div>
-                        </article>
-
-                        <article class="video-card tv-video-card"
-                                 data-video-id="eVTXPUF4Oz4"
-                                 data-category="urbano">
-                            <div class="video-thumb real-thumb">
-                                <img src="https://img.youtube.com/vi/eVTXPUF4Oz4/hqdefault.jpg"
-                                     alt="Rolê urbano 02" />
-                            </div>
-                            <div class="card" style="margin-top: 8px;">
-                                <h3>Rolê urbano · Dia de cidade</h3>
-                                <p>Trânsito, atalhos e vida real sobre duas rodas.</p>
-                            </div>
-                        </article>
-
-                        <!-- VIAGEM -->
-                        <article class="video-card tv-video-card"
-                                 data-video-id="hTWKbfoikeg"
-                                 data-category="viagem">
-                            <div class="video-thumb real-thumb">
-                                <img src="https://img.youtube.com/vi/hTWKbfoikeg/hqdefault.jpg"
-                                     alt="Viagem 01" />
-                            </div>
-                            <div class="card" style="margin-top: 8px;">
-                                <h3>Viagem · Serra e mirantes</h3>
-                                <p>Subida de serra com vários pontos de parada para apreciar o visual.</p>
-                            </div>
-                        </article>
-
-                        <article class="video-card tv-video-card"
-                                 data-video-id="60ItHLz5WEA"
-                                 data-category="viagem">
-                            <div class="video-thumb real-thumb">
-                                <img src="https://img.youtube.com/vi/60ItHLz5WEA/hqdefault.jpg"
-                                     alt="Viagem 02" />
-                            </div>
-                            <div class="card" style="margin-top: 8px;">
-                                <h3>Viagem · Litoral &amp; praia</h3>
-                                <p>Estradas litorâneas, paradas em mirantes e trecho final na areia.</p>
-                            </div>
-                        </article>
-
-                        <!-- Você pode continuar adicionando mais vídeos aqui (mesma estrutura) -->
+                    <div class="sidebar-box">
+                        <h3>Grade de programação</h3>
+                        <ul class="tv-schedule">
+                            <li><strong>Rolê de Rua</strong> – segundas &amp; quintas</li>
+                            <li><strong>Estrada Aberta</strong> – sábados</li>
+                            <li><strong>Garage Tech</strong> – quartas</li>
+                            <li><strong>Electric Zone</strong> – domingos</li>
+                        </ul>
                     </div>
 
-                    <!-- PAGINAÇÃO INFERIOR -->
-                    <div id="tvPaginationBottom" class="tv-pagination tv-pagination-bottom"></div>
-                </section>
+                    <div class="sidebar-box">
+                        <h3>Siga a TV</h3>
+                        <p>Inscreva-se no YouTube e acompanhe as lives e novos episódios.</p>
+                        <a href="#" class="btn btn-small btn-primary">Ir para o canal YouTube</a>
+                    </div>
+                </aside>
             </div>
+        </main>
 
-            <!-- SIDEBAR (AGORA VERTICAL, DO LADO MESMO) -->
-            <aside class="sidebar">
-                <div class="ad-slot ad-slot-sidebar">
-                    <span>Patrocinador lateral · 300x250</span>
+        <!-- FOOTER -->
+        <footer class="site-footer">
+            <div class="container footer-inner">
+                <div class="footer-left">
+                    <p>© <span>TV Duas Rodas</span> – todos os direitos reservados.</p>
+                    <p class="footer-small">TV &amp; Revista eletrônica para apaixonados por duas rodas.</p>
                 </div>
-
-                <div class="sidebar-box">
-                    <h3>Grade de programação</h3>
-                    <ul class="tv-schedule">
-                        <li><strong>Rolê de Rua</strong> – segundas &amp; quintas</li>
-                        <li><strong>Estrada Aberta</strong> – sábados</li>
-                        <li><strong>Garage Tech</strong> – quartas</li>
-                        <li><strong>Electric Zone</strong> – domingos</li>
-                    </ul>
-                </div>
-
-                <div class="sidebar-box">
-                    <h3>Siga a TV</h3>
-                    <p>Inscreva-se no YouTube e acompanhe as lives e novos episódios.</p>
-                    <a href="#" class="btn btn-small btn-primary">Ir para o canal YouTube</a>
-                </div>
-            </aside>
-        </div>
-    </main>
-
-    <!-- FOOTER -->
-    <footer class="site-footer">
-        <div class="container footer-inner">
-            <div class="footer-left">
-                <p>© <span>TV Duas Rodas</span> – todos os direitos reservados.</p>
-                <p class="footer-small">TV &amp; Revista eletrônica para apaixonados por duas rodas.</p>
-            </div>
-            <div class="footer-ad">
-                <div class="ad-slot ad-slot-small">
-                    <span>Patrocinador rodapé · 300x60</span>
+                <div class="footer-ad">
+                    <div class="ad-slot ad-slot-small">
+                        <span>Patrocinador rodapé · 300x60</span>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+        </footer>
 
-    <script src="assets/js/main.js"></script>
+        <script src="assets/js/main.js"></script>
 </body>
 </html>
