@@ -1,10 +1,12 @@
 backend:
   name: github
-  repo: tvduasrodas/tvduasrodas
+  repo: TVDUASRODAS/TVDUASRODAS
   branch: main
+  # Depois que você criar o Worker OAuth, coloque a URL dele aqui:
+  # Ex: https://tvduasrodas-oauth.YOURNAME.workers.dev
+  base_url: "COLE_A_URL_DO_SEU_WORKER_AQUI"
+  auth_endpoint: "auth"
 
-# IMPORTANTE:
-# Se você estiver usando o site em /test, mantenha:
 site_url: https://tvduasrodas.pages.dev/test
 display_url: https://tvduasrodas.pages.dev/test
 
@@ -16,7 +18,6 @@ collections:
     label: "Matérias"
     folder: "content/articles"
     create: true
-    slug: "{{slug}}"
     extension: "json"
     format: "json"
     fields:
@@ -42,7 +43,5 @@ collections:
           - { label: "Alt", name: "alt", widget: "string", required: false }
           - { label: "Legenda", name: "caption", widget: "string", required: false }
 
-      # IMPORTANTE:
-      # Por enquanto vamos usar HTML mesmo (igual você já está fazendo no bodyHtml).
-      # Depois podemos migrar para Markdown e converter no JS automaticamente.
+      # Por enquanto: HTML no corpo (depois a gente pode migrar para Markdown + conversão)
       - { label: "Body HTML", name: "bodyHtml", widget: "text" }
