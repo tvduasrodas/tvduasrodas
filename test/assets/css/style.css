@@ -1402,4 +1402,21 @@ button {
     display: none !important;
 }
 
+/* GRID DE RESULTADOS DA BUSCA */
+.search-results-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media (max-width: 960px) {
+    .search-results-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 640px) {
+    .search-results-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 

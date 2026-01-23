@@ -1,4 +1,89 @@
 document.addEventListener("DOMContentLoaded", () => {
+
+    /* ============================
+   ÍNDICE ESTÁTICO DE CONTEÚDOS PARA BUSCA
+   ============================ */
+    const SITE_INDEX = [
+        // Exemplos – você pode ir aumentando essa lista
+
+        // Matérias da revista (revista.html)
+        {
+            title: "Review – Naked urbana 300cc",
+            description: "Avaliação completa da moto urbana 300cc, consumo, conforto e uso diário.",
+            type: "materia",
+            category: "review",
+            url: "revista.html", // se tiver página própria depois, mude o link
+        },
+        {
+            title: "Scooters elétricas na cidade",
+            description: "Análise do uso de scooters EV no dia a dia e custo por km.",
+            type: "materia",
+            category: "eletrico",
+            url: "revista.html",
+        },
+
+        // Vídeos da TV (tv.html – galeria)
+        {
+            title: "Cassetadas · Episódio 01",
+            description: "Quedas, erros e situações inusitadas em duas rodas.",
+            type: "video_tv",
+            category: "cassetadas",
+            url: "tv.html?v=dQw4w9WgXcQ",
+        },
+        {
+            title: "Cassetadas · Episódio 02",
+            description: "Mais momentos engraçados e imprevistos.",
+            type: "video_tv",
+            category: "cassetadas",
+            url: "tv.html?v=3GwjfUFyY6M",
+        },
+        {
+            title: "Cross · Treino na pista",
+            description: "Saltos, curvas e técnica em pista de terra.",
+            type: "video_tv",
+            category: "cross",
+            url: "tv.html?v=2vjPBrBU-TM",
+        },
+        {
+            title: "Cross · Corrida completa",
+            description: "Prova com vários pilotos e muita adrenalina.",
+            type: "video_tv",
+            category: "cross",
+            url: "tv.html?v=L_jWHffIx5E",
+        },
+        {
+            title: "Rolê urbano · Night ride",
+            description: "Rolê noturno passando pelos principais pontos da cidade.",
+            type: "video_tv",
+            category: "urbano",
+            url: "tv.html?v=kXYiU_JCYtU",
+        },
+        {
+            title: "Viagem · Serra e mirantes",
+            description: "Subida de serra com paradas em mirantes e visual incrível.",
+            type: "video_tv",
+            category: "viagem",
+            url: "tv.html?v=hTWKbfoikeg",
+        },
+
+        // Vídeos em destaque na home (index.html)
+        {
+            title: "Live · TV Duas Rodas",
+            description: "Transmissão ao vivo com chat, convidados e novidades.",
+            type: "video_home",
+            category: "live",
+            url: "tv.html?v=dQw4w9WgXcQ",
+        },
+        {
+            title: "Rolê de Rua · Episódio 01",
+            description: "Night ride pela cidade com foco na experiência de pilotagem.",
+            type: "video_home",
+            category: "urbano",
+            url: "tv.html?v=3GwjfUFyY6M",
+        },
+    ];
+
+
     /* ============================
        FILTRO DE MATÉRIAS (REVISTA)
        ============================ */
@@ -247,50 +332,88 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     /* ============================
-   BUSCA GLOBAL NO SITE (CLIENT-SIDE)
-   ============================ */
-    const searchInput = document.getElementById("siteSearchInput");
-    const searchClear = document.getElementById("siteSearchClear");
+    PÁGINA DE RESULTADOS DE BUSCA (busca.html)
+    ============================ */
+    const searchResultsContainer = document.getElementById("searchResults");
+    const searchSummary = document.getElementById("searchSummary");
+    const headerSearchInput = document.getElementById("siteSearchInput");
+    const headerSearchClear = document.getElementById("siteSearchClear");
 
-    if (searchInput) {
-        const handleSiteSearch = () => {
-            const term = searchInput.value.trim().toLowerCase();
+    // Se estou na página busca.html
+    if (searchResultsContainer && searchSummary) {
+        const params = new URLSearchParams(window.location.search);
+        const termRaw = params.get("q") || "";
+        const term = termRaw.trim().toLowerCase();
 
-            if (searchClear) {
-                searchClear.style.display = term ? "block" : "none";
-            }
+        // Preenche o campo de busca no header com o termo atual
+        if (headerSearchInput) {
+            headerSearchInput.value = termRaw;
+        }
 
-            const searchCards = document.querySelectorAll(
-                ".article-card, .tv-video-card, .video-card"
-            );
-
-            if (!term || term.length < 2) {
-                searchCards.forEach((card) => {
-                    card.classList.remove("search-hidden");
-                });
-                return;
-            }
-
-            searchCards.forEach((card) => {
-                const text = card.innerText.toLowerCase();
-                if (text.includes(term)) {
-                    card.classList.remove("search-hidden");
-                } else {
-                    card.classList.add("search-hidden");
-                }
+        // Configura o botão "x" de limpar
+        if (headerSearchClear && headerSearchInput) {
+            headerSearchClear.style.display = termRaw ? "block" : "none";
+            headerSearchClear.addEventListener("click", () => {
+                headerSearchInput.value = "";
+                window.location.href = "busca.html"; // volta pra busca "vazia"
             });
-        };
+        }
 
-        searchInput.addEventListener("input", handleSiteSearch);
+        if (!term) {
+            searchSummary.textContent =
+                "Digite um termo na barra de busca acima para encontrar matérias, vídeos e conteúdos da TV Duas Rodas.";
+            searchResultsContainer.innerHTML = "";
+        } else {
+            // Filtra o índice
+            const results = SITE_INDEX.filter((item) => {
+                const haystack =
+                    (item.title + " " + item.description + " " + (item.category || "")).toLowerCase();
+                return haystack.includes(term);
+            });
 
-        if (searchClear) {
-            searchClear.addEventListener("click", () => {
-                searchInput.value = "";
-                handleSiteSearch();
-                searchInput.focus();
+            if (!results.length) {
+                searchSummary.textContent = `Nenhum resultado encontrado para “${termRaw}”.`;
+                searchResultsContainer.innerHTML = "";
+            } else {
+                searchSummary.textContent = `Encontrados ${results.length} resultado(s) para “${termRaw}”.`;
+
+                searchResultsContainer.innerHTML = results
+                    .map((item) => {
+                        const typeLabel =
+                            item.type === "materia"
+                                ? "Matéria"
+                                : item.type === "video_tv"
+                                    ? "Vídeo · TV"
+                                    : item.type === "video_home"
+                                        ? "Vídeo · Destaque"
+                                        : "Conteúdo";
+
+                        return `
+              <article class="card article-card">
+                <span class="category-tag">${typeLabel}${item.category ? " · " + item.category : ""
+                            }</span>
+                <h3>${item.title}</h3>
+                <p>${item.description}</p>
+                <a href="${item.url}" class="article-link">Abrir &rarr;</a>
+              </article>
+            `;
+                    })
+                    .join("");
+            }
+        }
+    } else {
+        // Não estou em busca.html, mas ainda quero que o botão "x" limpe o input
+        if (headerSearchInput && headerSearchClear) {
+            headerSearchClear.style.display = headerSearchInput.value ? "block" : "none";
+
+            headerSearchClear.addEventListener("click", () => {
+                headerSearchInput.value = "";
+                headerSearchClear.style.display = "none";
+                headerSearchInput.focus();
             });
         }
     }
+
 
 
 });
