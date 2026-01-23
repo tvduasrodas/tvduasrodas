@@ -22,55 +22,6 @@ document.addEventListener("DOMContentLoaded", () => {
                     } else {
                         card.style.display = "none";
                     }
-
-                    /* ============================
-   BUSCA GLOBAL NO SITE (CLIENT-SIDE)
-   ============================ */
-                    const searchInput = document.getElementById("siteSearchInput");
-                    const searchClear = document.getElementById("siteSearchClear");
-
-                    if (searchInput) {
-                        const handleSiteSearch = () => {
-                            const term = searchInput.value.trim().toLowerCase();
-
-                            if (searchClear) {
-                                searchClear.style.display = term ? "block" : "none";
-                            }
-
-                            // Quais elementos serão "buscáveis"
-                            const searchCards = document.querySelectorAll(
-                                ".article-card, .tv-video-card, .video-card"
-                            );
-
-                            // Se busca vazia ou muito curta, limpa filtro de busca
-                            if (!term || term.length < 2) {
-                                searchCards.forEach((card) => {
-                                    card.classList.remove("search-hidden");
-                                });
-                                return;
-                            }
-
-                            searchCards.forEach((card) => {
-                                const text = card.innerText.toLowerCase();
-                                if (text.includes(term)) {
-                                    card.classList.remove("search-hidden");
-                                } else {
-                                    card.classList.add("search-hidden");
-                                }
-                            });
-                        };
-
-                        searchInput.addEventListener("input", handleSiteSearch);
-
-                        if (searchClear) {
-                            searchClear.addEventListener("click", () => {
-                                searchInput.value = "";
-                                handleSiteSearch();
-                                searchInput.focus();
-                            });
-                        }
-                    }
-
                 });
             });
         });
@@ -294,4 +245,52 @@ document.addEventListener("DOMContentLoaded", () => {
         // Render inicial
         renderTvGallery();
     }
+
+    /* ============================
+   BUSCA GLOBAL NO SITE (CLIENT-SIDE)
+   ============================ */
+    const searchInput = document.getElementById("siteSearchInput");
+    const searchClear = document.getElementById("siteSearchClear");
+
+    if (searchInput) {
+        const handleSiteSearch = () => {
+            const term = searchInput.value.trim().toLowerCase();
+
+            if (searchClear) {
+                searchClear.style.display = term ? "block" : "none";
+            }
+
+            const searchCards = document.querySelectorAll(
+                ".article-card, .tv-video-card, .video-card"
+            );
+
+            if (!term || term.length < 2) {
+                searchCards.forEach((card) => {
+                    card.classList.remove("search-hidden");
+                });
+                return;
+            }
+
+            searchCards.forEach((card) => {
+                const text = card.innerText.toLowerCase();
+                if (text.includes(term)) {
+                    card.classList.remove("search-hidden");
+                } else {
+                    card.classList.add("search-hidden");
+                }
+            });
+        };
+
+        searchInput.addEventListener("input", handleSiteSearch);
+
+        if (searchClear) {
+            searchClear.addEventListener("click", () => {
+                searchInput.value = "";
+                handleSiteSearch();
+                searchInput.focus();
+            });
+        }
+    }
+
+
 });
