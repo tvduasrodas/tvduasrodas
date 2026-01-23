@@ -75,78 +75,178 @@
 
     <!-- CONTEÚDO REVISTA -->
     <main class="section">
-        <div class="container layout-with-sidebar">
-            <div class="main-column">
+        <div class="container layout-with-sidebar revista-layout">
+            <!-- COLUNA PRINCIPAL: CAPA DA REVISTA -->
+            <section class="revista-main">
+                <!-- TÍTULO DA SEÇÃO -->
                 <header class="section-header align-left">
                     <h1>Revista TV Duas Rodas</h1>
                     <p>
-                        Todas as matérias e conteúdos publicados. Depois você pode integrar
-                        um CMS (WordPress headless, Ghost, Strapi, etc.).
+                        Matérias especiais, reviews, guias e histórias do universo das duas rodas.
                     </p>
                 </header>
 
-                <div class="filter-bar">
-                    <button class="filter-btn active" data-filter="all">Tudo</button>
-                    <button class="filter-btn" data-filter="moto">Motos</button>
-                    <button class="filter-btn" data-filter="bike">Bikes</button>
-                    <button class="filter-btn" data-filter="scooter">Scooters</button>
-                    <button class="filter-btn" data-filter="eletrico">Elétricos</button>
-                </div>
+                <!-- DESTAQUE PRINCIPAL (CAPA) -->
+                <article class="revista-hero card">
+                    <div class="revista-hero-media">
+                        <a href="review-naked-300.html">
+                            <img src="assets/img/moto-naked-urbana.png"
+                                 alt="Naked urbana 300cc rodando na cidade à noite" />
+                        </a>
+                    </div>
 
-                <div class="grid article-grid" id="articleGrid">
-                    <!-- Exemplo de matérias com data-category -->
-                    <article class="card article-card" data-category="moto">
-                        <span class="category-tag">Moto</span>
-                        <h3>Título de matéria sobre motos</h3>
-                        <p>Resumo da matéria. Clique para ler mais em uma página futura.</p>
-                        <a href="#" class="article-link">Ler matéria &rarr;</a>
-                    </article>
+                    <div class="revista-hero-content">
+                        <span class="category-tag">Review · Motos</span>
+                        <h2>
+                            <a href="review-naked-300.html">
+                                Naked urbana 300cc: uso real na cidade
+                            </a>
+                        </h2>
+                        <p>
+                            Teste completo da naked 300cc no trânsito urbano, consumo, conforto,
+                            posição de pilotagem e como ela se comporta nos rolês de fim de semana.
+                        </p>
+                        <div class="revista-hero-meta">
+                            <span>Por Redação TV Duas Rodas</span>
+                            <span>•</span>
+                            <span>Publicado em 23 jan 2026</span>
+                        </div>
+                        <a href="review-naked-300.html" class="btn btn-primary btn-small">
+                            Ler matéria completa &rarr;
+                        </a>
+                    </div>
+                </article>
 
-                    <article class="card article-card" data-category="bike">
-                        <span class="category-tag">Bike</span>
-                        <h3>Título de matéria sobre bikes</h3>
-                        <p>Resumo da matéria. Você pode criar página individual depois.</p>
-                        <a href="#" class="article-link">Ler matéria &rarr;</a>
-                    </article>
-
-                    <article class="card article-card" data-category="scooter">
-                        <span class="category-tag">Scooter</span>
-                        <h3>Título de matéria sobre scooters</h3>
-                        <p>Resumo introdutório.</p>
-                        <a href="#" class="article-link">Ler matéria &rarr;</a>
-                    </article>
-
+                <!-- GRID DE CHAMADAS SECUNDÁRIAS -->
+                <section class="revista-grid">
+                    <!-- MATÉRIA 2 -->
                     <article class="card article-card" data-category="eletrico">
-                        <span class="category-tag">Elétrico</span>
-                        <h3>Título de matéria sobre elétricos</h3>
-                        <p>Resumo introdutório.</p>
-                        <a href="#" class="article-link">Ler matéria &rarr;</a>
+                        <span class="category-tag">Guia · Elétricos</span>
+                        <h3>
+                            <a href="guia-scooters-eletricas.html">
+                                Scooters elétricas na cidade: vale a pena?
+                            </a>
+                        </h3>
+                        <p>
+                            Custos de recarga, autonomia real, manutenção e se compensa trocar a moto
+                            a combustão por uma scooter elétrica para o dia a dia.
+                        </p>
+                        <a href="guia-scooters-eletricas.html" class="article-link">
+                            Ler matéria &rarr;
+                        </a>
                     </article>
 
-                    <article class="card article-card" data-category="moto">
-                        <span class="category-tag">Review - Moto</span>
-                        <h3>Naked urbana 300cc: uso real na cidade</h3>
-                        <p>Equilíbrio entre uso diário e diversão em uma naked de 300cc.</p>
-                        <a href="review-naked-300.html" class="article-link">Ler matéria &rarr;</a>
+                    <!-- MATÉRIA 3 -->
+                    <article class="card article-card" data-category="viagem">
+                        <span class="category-tag">Viagem · Estrada</span>
+                        <h3>
+                            <a href="viagem-serra-mirantes.html">
+                                Viagem de serra: mirantes, curvas e segurança
+                            </a>
+                        </h3>
+                        <p>
+                            Roteiro por estrada de serra com paradas em mirantes, dicas de pilotagem,
+                            equipamento e cuidados para rodar com segurança.
+                        </p>
+                        <a href="viagem-serra-mirantes.html" class="article-link">
+                            Ler matéria &rarr;
+                        </a>
                     </article>
 
+                    <!-- MATÉRIA 4 -->
+                    <article class="card article-card" data-category="urbano">
+                        <span class="category-tag">Rolê · Urbano</span>
+                        <h3>
+                            <a href="role-urbano-noturno.html">
+                                Rolê urbano noturno: luzes da cidade em duas rodas
+                            </a>
+                        </h3>
+                        <p>
+                            Um passeio noturno pelos principais pontos da cidade, falando de segurança,
+                            visibilidade, equipamento e experiência de pilotar à noite.
+                        </p>
+                        <a href="role-urbano-noturno.html" class="article-link">
+                            Ler matéria &rarr;
+                        </a>
+                    </article>
 
-                </div>
-            </div>
+                    <!-- MATÉRIA 5 – EXEMPLO EXTRA -->
+                    <article class="card article-card" data-category="equipamentos">
+                        <span class="category-tag">Equipamentos</span>
+                        <h3>
+                            <a href="guia-capacetes-urbanos.html">
+                                Capacetes urbanos: quais modelos valem o investimento?
+                            </a>
+                        </h3>
+                        <p>
+                            Analisamos diferentes modelos de capacete para uso urbano, falando de
+                            conforto, ruído, ventilação e custo-benefício.
+                        </p>
+                        <a href="guia-capacetes-urbanos.html" class="article-link">
+                            Ler matéria &rarr;
+                        </a>
+                    </article>
 
-            <!-- SIDEBAR COM ANÚNCIOS / IMPRENSA -->
-            <aside class="sidebar">
+                    <!-- MATÉRIA 6 – EXEMPLO EXTRA -->
+                    <article class="card article-card" data-category="dicas">
+                        <span class="category-tag">Dicas · Pilotagem</span>
+                        <h3>
+                            <a href="dicas-primeira-moto.html">
+                                Primeira moto: o que saber antes de comprar
+                            </a>
+                        </h3>
+                        <p>
+                            Cilindrada, tipo de moto, custos, documentação e tudo o que você precisa
+                            considerar antes de escolher a primeira moto.
+                        </p>
+                        <a href="dicas-primeira-moto.html" class="article-link">
+                            Ler matéria &rarr;
+                        </a>
+                    </article>
+                </section>
+
+                <!-- BLOCO OPCIONAL: ÚLTIMAS DA TV (CHAMADA PRA TV.HTML) -->
+                <section class="revista-tv-call">
+                    <div class="revista-tv-card">
+                        <div>
+                            <h3>Últimos vídeos da TV Duas Rodas</h3>
+                            <p>
+                                Assista às últimas cassetadas, reviews em vídeo, rolês e transmissões
+                                especiais no nosso canal.
+                            </p>
+                        </div>
+                        <a href="tv.html" class="btn btn-outline btn-small">
+                            Ir para TV &amp; Vídeos &rarr;
+                        </a>
+                    </div>
+                </section>
+            </section>
+
+            <!-- SIDEBAR: MAIS LIDAS / PATROCÍNIO -->
+            <aside class="sidebar revista-sidebar">
                 <div class="ad-slot ad-slot-sidebar">
                     <span>Patrocinador lateral · 300x250</span>
                 </div>
 
                 <div class="sidebar-box">
-                    <h3>Imprensa</h3>
+                    <h3>Mais lidas</h3>
+                    <ul class="sidebar-list">
+                        <li><a href="review-naked-300.html">Naked urbana 300cc: uso real na cidade</a></li>
+                        <li><a href="guia-scooters-eletricas.html">Scooters elétricas na cidade</a></li>
+                        <li><a href="viagem-serra-mirantes.html">Viagem de serra: mirantes e curvas</a></li>
+                        <li><a href="role-urbano-noturno.html">Rolê urbano noturno</a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-box">
+                    <h3>Assine a TV Duas Rodas</h3>
                     <p>
-                        Releases oficiais, logos em alta, fotos de divulgação e contato
-                        direto com a equipe.
+                        Receba novidades de matérias, vídeos e transmissões ao vivo diretamente
+                        no seu e-mail.
                     </p>
-                    <a href="imprensa.html" class="btn btn-small btn-outline">Área de imprensa</a>
+                    <button type="button" class="btn btn-small btn-primary">
+                        Em breve: cadastro de newsletter
+                    </button>
                 </div>
             </aside>
         </div>
