@@ -1110,3 +1110,54 @@ button {
     box-shadow: 0 12px 30px rgba(220, 38, 38, 0.35);
 }
 
+/* =========================================================
+   ÍCONE DE PLAY NOS THUMBS DE VÍDEO (GRID)
+   ========================================================= */
+
+/* Garante posição relativa */
+.video-thumb.real-thumb {
+    position: relative;
+}
+
+    /* Botão play */
+    .video-thumb.real-thumb::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        margin: auto;
+        width: 54px;
+        height: 54px;
+        border-radius: 999px;
+        background: rgba(0, 0, 0, 0.55);
+        box-shadow: 0 8px 22px rgba(0, 0, 0, 0.45);
+        backdrop-filter: blur(4px);
+        pointer-events: none;
+    }
+
+    /* Triângulo do play */
+    .video-thumb.real-thumb::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        margin: auto;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 9px 0 9px 14px;
+        border-color: transparent transparent transparent #ffffff;
+        transform: translateX(2px);
+        z-index: 2;
+        pointer-events: none;
+    }
+
+/* Hover: play cresce levemente */
+.video-card:hover .video-thumb.real-thumb::after {
+    transform: scale(1.08);
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/* Hover: thumb escurece levemente */
+.video-card:hover .video-thumb.real-thumb img {
+    filter: brightness(0.85);
+}
+
