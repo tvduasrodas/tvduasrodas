@@ -12,16 +12,30 @@ document.addEventListener("DOMContentLoaded", () => {
             title: "Naked urbana 300cc: uso real na cidade",
             description: "Review completa da naked 300cc no trânsito urbano e em pequenos rolês.",
             type: "materia",
-            category: "moto",
+            category: "motos",
             url: "review-naked-300.html",
         },
-        
+
         {
-            title: "Scooters elétricas na cidade",
-            description: "Análise do uso de scooters EV no dia a dia e custo por km.",
+            title: "Scooters elétricas na cidade: vale a pena?",
+            description: "Guia completo sobre consumo, autonomia, recarga e manutenção de scooters elétricas.",
             type: "materia",
             category: "eletrico",
-            url: "revista.html",
+            url: "guia-scooters-eletricas.html",
+        },
+        {
+            title: "Viagem de serra: mirantes, curvas e segurança",
+            description: "Dicas de roteiro, equipamento e pilotagem para aproveitar a serra com segurança.",
+            type: "materia",
+            category: "viagem",
+            url: "viagem-serra-mirantes.html",
+        },
+        {
+            title: "Rolê urbano noturno: luzes da cidade em duas rodas",
+            description: "Como curtir o rolê noturno com segurança e boa visibilidade.",
+            type: "materia",
+            category: "urbano",
+            url: "role-urbano-noturno.html",
         },
 
         // Vídeos da TV (tv.html – galeria)

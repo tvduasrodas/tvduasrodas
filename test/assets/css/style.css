@@ -1873,6 +1873,11 @@ button {
         color: #020617;
     }
 
+/* Espaçamento entre o player da matéria e o botão */
+.article-hero .btn {
+    margin-top: 14px;
+}
+
 
 
 
