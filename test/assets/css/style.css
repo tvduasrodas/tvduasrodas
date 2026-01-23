@@ -160,8 +160,9 @@ button {
 .logo-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    justify-content: center;
 }
+
 
 .logo-link {
     display: inline-block;
@@ -180,12 +181,17 @@ button {
     height: auto;
 }
 
+/* Subtítulo abaixo do logo */
 .brand-sub {
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 0.18em;
-    color: var(--text-muted);
+    font-size: 11px; /* menor */
+    font-weight: 500; /* mais leve */
+    letter-spacing: 0.4px; /* elegante */
+    color: #6b7280; /* cinza neutro */
+    margin-top: 2px;
+    line-height: 1.2;
+    white-space: nowrap; /* evita quebrar linha */
 }
+
 
 /* Navegação */
 
