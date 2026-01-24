@@ -114,9 +114,10 @@ collections:
             widget: "string"
             default: "Player principal TVDUASRODAS"
           - label: "URL ou ID do vídeo (YouTube)"
-            name: "youtube"
+            name: "youtube_url"
             widget: "string"
             hint: "Cole a URL completa ou só o ID do vídeo (ex: xcPxjtQU1qc)"
+
           - label: "Descrição (opcional)"
             name: "body"
             widget: "markdown"

@@ -283,12 +283,15 @@
         const GITHUB_REPO = "tvduasrodas";
         const GITHUB_BRANCH = "main"; // ou "master", se seu repo usar esse nome
 
+        // caminhos no repositório
         const VIDEOS_PATH = "content/videos";
         const LIVE_CONFIG_FILE = "content/home/live-status.md";
+        const HOME_CONFIG_FILE = "content/home/hero-player.md";
 
+        // URLs da API do GitHub
         const GITHUB_API_URL = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${VIDEOS_PATH}?ref=${GITHUB_BRANCH}`;
         const LIVE_CONFIG_API_URL = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${LIVE_CONFIG_FILE}?ref=${GITHUB_BRANCH}`;
-
+        const HOME_CONFIG_API_URL = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${HOME_CONFIG_FILE}?ref=${GITHUB_BRANCH}`;
 
 
         // Lê frontmatter YAML simples do topo do .md
