@@ -325,6 +325,7 @@
                 else if (k === "thumbnail" || k === "cover") result.thumbnail = v;
                 else if (k === "category") result.category = v;
                 else if (k === "featured") result.featured = v === "true";
+                else if (k === "videoId") result.videoId = v;
 
             });
 
@@ -610,15 +611,24 @@
                         const title = article.title || "Matéria sem título";
                         const category = article.category || "Notícias";
 
-                        // resumo: se não tiver summary no frontmatter, corta o body
                         const summary =
                             article.summary ||
                             makeExcerpt(article.body || "", 180);
 
                         const dateLabel = formatArticleDateLabel(article.date);
 
-                        // imagem: vem de thumbnail (que agora também recebe "cover")
-                        const imgSrc = article.thumbnail || "";
+                        // 👉 Imagem do card:
+                        // 1) se tiver thumbnail/cover → usa essa
+                        // 2) senão, se tiver videoId → usa thumb do YouTube
+                        let imgSrc = "";
+                        if (article.thumbnail) {
+                            imgSrc = article.thumbnail;
+                        } else if (article.videoId) {
+                            const cleanId = article.videoId.replace(/^['"]+|['"]+$/g, "").trim();
+                            if (cleanId) {
+                                imgSrc = `https://img.youtube.com/vi/${cleanId}/hqdefault.jpg`;
+                            }
+                        }
 
                         const articleUrl = `materia.html?slug=${encodeURIComponent(slug)}`;
 
