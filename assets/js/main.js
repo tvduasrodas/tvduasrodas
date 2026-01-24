@@ -495,7 +495,9 @@ document.addEventListener("DOMContentLoaded", () => {
             const [key, ...rest] = line.split(":");
             if (!key || !rest.length) return;
             const k = key.trim();
-            const v = rest.join(":").trim().replace(/^"|"$/g, "");
+            let v = rest.join(":").trim();
+            // remove aspas simples ou duplas no começo/fim: "valor", 'valor', '' etc.
+            v = v.replace(/^['"]|['"]$/g, "");
 
             if (k === "title") result.title = v;
             else if (k === "date") result.date = v;
@@ -508,6 +510,7 @@ document.addEventListener("DOMContentLoaded", () => {
             else if (k === "sponsor") result.sponsor = v;
             else if (k === "thumbnail") result.thumbnail = v;
             else if (k === "videoId") result.videoId = v;
+            else if (k === "cover") result.cover = v;
             else {
                 // guarda qualquer outro campo extra, se existir
                 result[k] = v;
@@ -646,38 +649,44 @@ document.addEventListener("DOMContentLoaded", () => {
                     const heroCaption = document.getElementById("articleHeroCaption");
                     const ctaContainer = document.getElementById("articleVideoCtaContainer");
 
-                    // 👉 Reset: some tudo antes de decidir o que mostrar
+                    // 👉 Reset: esconde tudo antes de decidir o que mostrar
                     if (heroVideoWrapper) heroVideoWrapper.hidden = true;
                     if (heroImageWrapper) heroImageWrapper.hidden = true;
                     if (ctaContainer) ctaContainer.innerHTML = "";
 
-                    // 👉 Descobrir qual campo tem a imagem:
-                    // - JSON antigo: hero.image
-                    // - CMS Notícias: normalmente thumbnail (imagem principal)
-                    let heroImage = "";
+                    // 👉 Usa um videoId sanitizado (sem aspas e sem vazio)
+                    let videoIdClean = (data.videoId || "").trim();
+                    videoIdClean = videoIdClean.replace(/^['"]+|['"]+$/g, "");
+                    if (videoIdClean === "''") videoIdClean = "";
 
+                    // 👉 Descobrir qual campo tem a imagem
+                    // - JSON antigo: hero.image
+                    // - CMS Notícias: cover (campo que existe no seu .md), ou thumbnail, ou image
+                    let heroImage = "";
                     if (hero.image) {
                         heroImage = hero.image;
+                    } else if (data.cover) {
+                        heroImage = data.cover;
                     } else if (data.thumbnail) {
                         heroImage = data.thumbnail;
                     } else if (data.image) {
                         heroImage = data.image;
                     }
 
-                    // 👉 Se tiver videoId, hero é VÍDEO
-                    if (data.videoId && heroVideoWrapper && heroIframe) {
+                    // 👉 Se tiver videoId válido, hero é VÍDEO
+                    if (videoIdClean && heroVideoWrapper && heroIframe) {
                         heroVideoWrapper.hidden = false;
-                        heroIframe.src = `https://www.youtube.com/embed/${data.videoId}`;
+                        heroIframe.src = `https://www.youtube.com/embed/${videoIdClean}`;
                         heroIframe.title = data.title || "Vídeo da matéria";
 
                         if (ctaContainer) {
                             ctaContainer.innerHTML = `
-              <div class="article-video-cta">
-                <a href="tv.html?v=${data.videoId}" class="btn btn-outline btn-small">
-                  Assistir na TV &amp; Vídeos &rarr;
-                </a>
-              </div>
-            `;
+      <div class="article-video-cta">
+        <a href="tv.html?v=${videoIdClean}" class="btn btn-outline btn-small">
+          Assistir na TV &amp; Vídeos &rarr;
+        </a>
+      </div>
+    `;
                         }
                     }
                     // 👉 Se NÃO tiver videoId, mas tiver imagem, hero é IMAGEM
@@ -689,6 +698,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             heroCaption.textContent = hero.caption || "";
                         }
                     }
+
 
                     // Corpo da matéria
                     const bodyEl = document.getElementById("articleBody");
