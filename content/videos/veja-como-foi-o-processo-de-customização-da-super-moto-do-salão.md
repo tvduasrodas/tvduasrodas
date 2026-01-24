@@ -6,7 +6,7 @@ duration: ''
 category: Outro
 tags:
   - moto, salao duas rodas, motocicleta,duas rodas
-featured: false
+featured: true
 thumbnail: https://img.youtube.com/vi/cgnpOCxjG8E/maxresdefault.jpg
 ---
 
