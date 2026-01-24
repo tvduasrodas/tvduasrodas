@@ -2,7 +2,7 @@
 // CONFIG PARA LISTAR MATÉRIAS (HOME) VIA GITHUB
 // ============================
 const GITHUB_OWNER = "tvduasrodas";      // ajuste se o repositório for outro
-const GITHUB_REPO = "tvduasrodas";       // idem
+const GITHUB_REPO = "tvduasrodas/tvduasrodas";       // idem
 const GITHUB_BRANCH = "main";
 const ARTICLES_PATH = "content/articles";
 const GITHUB_ARTICLES_API_URL =
