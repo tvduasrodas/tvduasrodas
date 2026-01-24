@@ -7,7 +7,7 @@ category: Notícia
 tags:
   - urbano,transito,moto
 featured: false
-thumbnail: ''
+thumbnail: https://i3.ytimg.com/vi/YXXGQKBRybs/hqdefault.jpg
 ---
 
 Uma Materia premiada para ajudar motociclistas a terem melhores referencias no transito.
