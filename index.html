@@ -554,29 +554,31 @@
 
                 const files = await res.json();
 
-                // Só arquivos .json dentro de /content/articles
-                const jsonFiles = files.filter(
-                    (f) => f.type === "file" && f.name.endsWith(".json")
+                // Agora: só arquivos .md dentro de /content/news
+                const mdFiles = files.filter(
+                    (f) => f.type === "file" && f.name.endsWith(".md")
                 );
 
-                // Lê o conteúdo de cada JSON
-                const articlePromises = jsonFiles.map(async (file) => {
+                const articlePromises = mdFiles.map(async (file) => {
                     const rawRes = await fetch(file.download_url);
-                    const data = await rawRes.json();
+                    const rawText = await rawRes.text();
+
+                    // Reaproveita a mesma parseFrontmatter dos vídeos
+                    const data = parseFrontmatter(rawText);
 
                     return {
                         ...data,
                         _dateObj: parseArticleDate(data.date),
-                        _fileSlug: file.name.replace(/\.json$/, "")
+                        _fileSlug: file.name.replace(/\.md$/, "")
                     };
                 });
 
                 let articles = await Promise.all(articlePromises);
 
-                // Ordenar da mais nova pra mais antiga
+                // Ordenar da mais nova para a mais antiga
                 articles.sort((a, b) => b._dateObj - a._dateObj);
 
-                // Pegar só 4 pra Home
+                // Pegar só 4 para a Home
                 articles = articles.slice(0, 4);
 
                 if (!articles.length) {
@@ -586,13 +588,15 @@
 
                 const cardsHTML = articles
                     .map((article) => {
-                        const slug = article.slug || article._fileSlug;
+                        const slug = article.slug || article._fileSlug; // slug = nome do arquivo se não tiver no frontmatter
                         const title = article.title || "Matéria sem título";
-                        const category = article.category || "revista";
-                        const summary = article.summary || "";
+                        const category = article.category || "Notícias";
                         const kicker = article.kicker || "";
+                        // Se não tiver summary no frontmatter, cria um resumo automático a partir do corpo
+                        const summary =
+                            article.summary ||
+                            makeExcerpt(article.body || "", 200);
 
-                        // link pra página da matéria (ajusta se usar outro esquema)
                         const articleUrl = `materia.html?slug=${encodeURIComponent(slug)}`;
 
                         return `
