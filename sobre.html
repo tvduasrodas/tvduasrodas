@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>Sobre a TVDUASRODAS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Aqui você pode linkar o mesmo CSS da sua landing, se tiver -->
+    <!-- <link rel="stylesheet" href="/css/style.css"> -->
+    <style>
+      body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          sans-serif;
+        background: #050505;
+        color: #f5f5f5;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        padding: 16px 24px;
+        border-bottom: 1px solid #222;
+      }
+      header a {
+        color: #f5f5f5;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      main {
+        max-width: 900px;
+        margin: 32px auto;
+        padding: 0 16px 40px;
+      }
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 0.75rem;
+      }
+      #about-content {
+        margin-top: 1.5rem;
+        line-height: 1.6;
+        font-size: 1rem;
+        color: #ddd;
+      }
+      #about-content p {
+        margin-bottom: 1rem;
+      }
+      .loading,
+      .error {
+        font-size: 0.95rem;
+        opacity: 0.8;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="/">← Voltar para a Home</a>
+    </header>
+    <main>
+      <h1>Sobre a TVDUASRODAS</h1>
+      <div id="about-content">
+        <p class="loading">Carregando conteúdo...</p>
+      </div>
+    </main>
+
+    <script>
+      // 👉 COLE AQUI A URL RAW DO SEU ARQUIVO SOBRE.MD
+      const RAW_SOBRE_URL =
+        "https://raw.githubusercontent.com/tvduasrodas/tvduasrodas/refs/heads/main/content/pages/sobre.md";
+
+      async function loadAbout() {
+        const container = document.getElementById("about-content");
+
+        try {
+          const res = await fetch(RAW_SOBRE_URL);
+          if (!res.ok) {
+            throw new Error("Erro ao buscar conteúdo: " + res.status);
+          }
+
+          const text = await res.text();
+
+          // Separar frontmatter (---) do corpo
+          let body = text;
+          if (text.startsWith("---")) {
+            const second = text.indexOf("---", 3);
+            if (second !== -1) {
+              body = text.slice(second + 3).trim();
+            }
+          }
+
+          // Conversão BEM simples de markdown -> HTML:
+          // - quebra linhas duplas em <p>
+          // - quebra simples em <br>
+          const paragraphs = body
+            .split(/\n\s*\n/)
+            .map((p) => `<p>${p.replace(/\n/g, "<br>")}</p>`)
+            .join("");
+
+          container.innerHTML = paragraphs || "<p>(Sem conteúdo)</p>";
+        } catch (err) {
+          console.error(err);
+          container.innerHTML =
+            '<p class="error">Não foi possível carregar o conteúdo. Tente novamente mais tarde.</p>';
+        }
+      }
+
+      loadAbout();
+    </script>
+  </body>
+</html>
