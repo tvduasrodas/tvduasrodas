@@ -1,107 +1,178 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="utf-8" />
-    <title>Sobre a TVDUASRODAS</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Aqui você pode linkar o mesmo CSS da sua landing, se tiver -->
-    <!-- <link rel="stylesheet" href="/css/style.css"> -->
-    <style>
-      body {
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-          sans-serif;
-        background: #050505;
-        color: #f5f5f5;
-        margin: 0;
-        padding: 0;
-      }
-      header {
-        padding: 16px 24px;
-        border-bottom: 1px solid #222;
-      }
-      header a {
-        color: #f5f5f5;
-        text-decoration: none;
-        font-weight: 600;
-      }
-      main {
-        max-width: 900px;
-        margin: 32px auto;
-        padding: 0 16px 40px;
-      }
-      h1 {
-        font-size: 2rem;
-        margin-bottom: 0.75rem;
-      }
-      #about-content {
-        margin-top: 1.5rem;
-        line-height: 1.6;
-        font-size: 1rem;
-        color: #ddd;
-      }
-      #about-content p {
-        margin-bottom: 1rem;
-      }
-      .loading,
-      .error {
-        font-size: 0.95rem;
-        opacity: 0.8;
-      }
-    </style>
-  </head>
-  <body>
-    <header>
-      <a href="/">← Voltar para a Home</a>
-    </header>
-    <main>
-      <h1>Sobre a TVDUASRODAS</h1>
-      <div id="about-content">
-        <p class="loading">Carregando conteúdo...</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Sobre – TV Duas Rodas</title>
+
+  <!-- Favicons -->
+  <link rel="icon" href="assets/img/logoTVicon_web.ico" type="image/x-icon" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/logoTVicon_web_32x32.png" />
+  <link rel="icon" type="image/png" sizes="128x128" href="assets/img/logoTVicon_web_128x128.png" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="page-internal">
+  <!-- BARRA TOPO (ANÚNCIO) -->
+  <div class="ad-bar">
+    <div class="container ad-bar-inner">
+      <span>Espaço para patrocinador topo · 970x90</span>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- LOGO -->
+      <div class="logo-wrapper">
+        <a href="index.html" class="logo-link">
+          <img src="assets/img/logotv.png" alt="TV Duas Rodas" class="logo-image" />
+        </a>
+        <div class="brand-sub">
+          Motos · Bikes · Scooters · Elétricos
+        </div>
       </div>
-    </main>
 
-    <script>
-      // 👉 COLE AQUI A URL RAW DO SEU ARQUIVO SOBRE.MD
-      const RAW_SOBRE_URL =
-        "https://raw.githubusercontent.com/tvduasrodas/tvduasrodas/refs/heads/main/content/pages/sobre.md";
+      <!-- NAV -->
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="revista.html">Revista</a></li>
+          <li><a href="tv.html">TV &amp; Vídeos</a></li>
+          <li><a href="imprensa.html">Imprensa</a></li>
+          <li><a href="contato.html">Contato &amp; Patrocínios</a></li>
+        </ul>
+      </nav>
 
-      async function loadAbout() {
-        const container = document.getElementById("about-content");
+      <!-- BUSCA GLOBAL -->
+      <form class="site-search" action="busca.html" method="get">
+        <div class="site-search-field">
+          <span class="search-icon" aria-hidden="true">🔍</span>
+          <input type="search"
+                 id="siteSearchInput"
+                 name="q"
+                 placeholder="Buscar no site..."
+                 aria-label="Buscar no site" />
+          <button type="button"
+                  id="siteSearchClear"
+                  class="site-search-clear"
+                  aria-label="Limpar busca">
+            ×
+          </button>
+        </div>
+      </form>
 
-        try {
-          const res = await fetch(RAW_SOBRE_URL);
-          if (!res.ok) {
-            throw new Error("Erro ao buscar conteúdo: " + res.status);
-          }
+      <!-- REDES -->
+      <div class="social-header">
+        <a href="#" class="social-icon">YT</a>
+        <a href="#" class="social-icon">IG</a>
+        <a href="#" class="social-icon">TT</a>
+      </div>
+    </div>
+  </header>
 
-          const text = await res.text();
+  <main class="section">
+    <div class="container layout-with-sidebar article-layout">
+      <!-- COLUNA PRINCIPAL -->
+      <div class="main-column article-main">
+        <header class="section-header align-left">
+          <h1>Sobre o TV Duas Rodas</h1>
+          <p>Revista eletrônica &amp; canal de vídeo dedicados ao universo das duas rodas.</p>
+        </header>
 
-          // Separar frontmatter (---) do corpo
-          let body = text;
-          if (text.startsWith("---")) {
-            const second = text.indexOf("---", 3);
-            if (second !== -1) {
-              body = text.slice(second + 3).trim();
-            }
-          }
+        <div class="article-body">
+          <p>
+            O <strong>TV Duas Rodas</strong> nasce como um hub completo para quem vive o mundo
+            de motos, bikes, scooters e veículos elétricos. Aqui você encontra matérias,
+            reviews, testes, viagens, bastidores de oficina, tecnologia, gadgets e muito mais.
+          </p>
 
-          // Conversão BEM simples de markdown -> HTML:
-          // - quebra linhas duplas em <p>
-          // - quebra simples em <br>
-          const paragraphs = body
-            .split(/\n\s*\n/)
-            .map((p) => `<p>${p.replace(/\n/g, "<br>")}</p>`)
-            .join("");
+          <p>
+            Nosso objetivo é entregar conteúdo relevante, honesto e bem produzido, tanto em
+            formato de <strong>revista eletrônica</strong> quanto em <strong>canal de vídeo</strong>,
+            aproximando entusiastas, iniciantes e também profissionais do setor.
+          </p>
 
-          container.innerHTML = paragraphs || "<p>(Sem conteúdo)</p>";
-        } catch (err) {
-          console.error(err);
-          container.innerHTML =
-            '<p class="error">Não foi possível carregar o conteúdo. Tente novamente mais tarde.</p>';
-        }
-      }
+          <h2>O que você encontra por aqui</h2>
+          <p>
+            Organizamos o conteúdo em diferentes frentes editoriais para facilitar a navegação:
+          </p>
+          <ul>
+            <li><strong>Reviews &amp; testes</strong> de motos, bikes, scooters e elétricos;</li>
+            <li><strong>Trips &amp; rolês</strong>: viagens, passeios e experiências na estrada;</li>
+            <li><strong>Conteúdo técnico</strong>: manutenção, dicas de oficina, upgrades;</li>
+            <li><strong>Gadgets &amp; eletrônica</strong>: acessórios, equipamentos e tecnologia;</li>
+            <li><strong>TV &amp; vídeos</strong> com episódios, quadros e cortes especiais.</li>
+          </ul>
 
-      loadAbout();
-    </script>
-  </body>
+          <h2>Linguagem acessível, foco em quem usa</h2>
+          <p>
+            O TV Duas Rodas é feito para quem realmente usa e gosta de duas rodas na vida real.
+            A linguagem é clara, direta e sem enrolação, sempre buscando explicar e mostrar na
+            prática como cada produto, serviço ou experiência funciona.
+          </p>
+
+          <h2>Independência editorial</h2>
+          <p>
+            Mesmo em conteúdos patrocinados, mantemos compromisso com a
+            <strong>transparência</strong>. Parcerias comerciais são sinalizadas e nossa
+            opinião não é vendida. O objetivo é construir confiança de longo prazo com o público.
+          </p>
+
+          <h2>Como apoiar o projeto</h2>
+          <p>
+            Se você representa uma marca e deseja associar sua imagem ao nosso conteúdo, acesse
+            a página de <a href="contato.html">Contato &amp; Patrocínios</a> para conhecer as
+            possibilidades de inserções, quadros dedicados, branded content e outras formas de parceria.
+          </p>
+        </div>
+      </div>
+
+      <!-- SIDEBAR -->
+      <aside class="sidebar">
+        <div class="sidebar-box">
+          <h3>TV Duas Rodas em resumo</h3>
+          <ul class="sidebar-list">
+            <li>Revista eletrônica temática</li>
+            <li>Canal de vídeo multi-plataforma</li>
+            <li>Conteúdo editorial + técnico</li>
+            <li>Foco em duas rodas &amp; mobilidade</li>
+          </ul>
+        </div>
+
+        <div class="sidebar-box">
+          <h3>Quer falar com a gente?</h3>
+          <p>Use o formulário em <a href="contato.html">Contato &amp; Patrocínios</a>.</p>
+        </div>
+
+        <div class="ad-slot ad-slot-sidebar">
+          <span>Espaço para patrocinador · 300x250</span>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <p>© <span>TV Duas Rodas</span> – todos os direitos reservados.</p>
+        <p class="footer-small">
+          Revista eletrônica &amp; canal de vídeo dedicado às duas rodas.
+        </p>
+      </div>
+
+      <div class="footer-ad">
+        <div class="ad-slot ad-slot-small">
+          <span>Patrocinador rodapé · 300x60</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="assets/js/main.js"></script>
+</body>
 </html>
