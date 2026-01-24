@@ -48,7 +48,8 @@ collections:
       - { label: "Título", name: "title", widget: "string" }
       - { label: "Data", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ssZ" }
       - { label: "Autor", name: "author", widget: "string", required: false, default: "TVDUASRODAS" }
-      - { label: "Categoria", name: "category", widget: "select", options: ["Mercado", "Lançamentos", "Eventos", "Opinião", "Outro"], default: "Mercado" }
+      - { label: "Categoria", name: "category", widget: "select", options: ["Moto", "Lançamentos", "Eventos", "Urbano", "Outro"], default: "Moto" }
+      - { name: "videoId", label: "ID do vídeo (YouTube)", widget: "string", required: false }
       - { label: "Imagem principal", name: "cover", widget: "image", required: false }
       - { label: "Conteúdo", name: "body", widget: "markdown" }
 
