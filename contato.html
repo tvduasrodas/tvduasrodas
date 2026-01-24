@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Contato &amp; Patrocínios – TV Duas Rodas</title>
+    <title>Contato &amp; Patrocínios – TV Duas Rodas</title>
 
-  <link rel="icon" href="assets/img/logoTVicon_web.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" href="assets/img/logoTVicon_web.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body class="page-internal">
     <div class="ad-bar">
@@ -124,6 +124,16 @@
                     </form>
                 </section>
 
+                <!-- BLOCO VINDO DO CMS (Contato) -->
+                <section class="contact-cms">
+                    <h2>Informações de contato</h2>
+                    <div id="contact-meta"></div>
+                    <div id="contact-content">
+                        <p>Carregando informações...</p>
+                    </div>
+                </section>
+
+
                 <!-- BLOCO PATROCÍNIOS -->
                 <section class="sponsor-section">
                     <h2>Patrocínios &amp; publicidade</h2>
@@ -177,5 +187,90 @@
             </div>
         </div>
     </footer>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            ...
+        </div>
+    </footer>
+
+    <script>
+      // 1) COLOQUE A URL RAW DO ARQUIVO content/pages/contato.md AQUI:
+      const RAW_CONTATO_URL =
+          "https://raw.githubusercontent.com/tvduasrodas/tvduasrodas/refs/heads/main/content/pages/contato.md
+      async function loadContactFromCMS() {
+        const metaEl = document.getElementById("contact-meta");
+        const contentEl = document.getElementById("contact-content");
+        const sponsorEmailLink = document.querySelector(".contact-email a");
+
+        try {
+          const res = await fetch(RAW_CONTATO_URL);
+          if (!res.ok) throw new Error("Erro ao buscar contato: " + res.status);
+
+          const text = await res.text();
+
+          let body = text;
+          let email = "";
+          let whatsapp = "";
+
+          // --- frontmatter ---
+          if (text.startsWith("---")) {
+            const second = text.indexOf("---", 3);
+            if (second !== -1) {
+              const frontmatter = text.slice(3, second).trim();
+              body = text.slice(second + 3).trim();
+
+              frontmatter.split("\n").forEach((line) => {
+                const [key, ...rest] = line.split(":");
+                const value = rest.join(":").trim();
+                if (key === "email") email = value;
+                if (key === "whatsapp") whatsapp = value;
+              });
+            }
+          }
+
+          // Monta bloco de email/whatsapp
+          let metaHtml = "";
+          if (email) {
+            metaHtml += `<p><strong>E-mail:</strong> <a href="mailto:${email}">${email}</a></p>`;
+          }
+          if (whatsapp) {
+            metaHtml += `<p><strong>WhatsApp:</strong> <a href="${whatsapp}" target="_blank" rel="noopener noreferrer">${whatsapp}</a></p>`;
+          }
+
+          if (metaEl) {
+            metaEl.innerHTML = metaHtml || "<p>(Sem dados de contato configurados.)</p>";
+          }
+
+          // Atualiza bloco de patrocínio com o mesmo e-mail, se existir
+          if (sponsorEmailLink && email) {
+            sponsorEmailLink.href = `mailto:${email}`;
+            sponsorEmailLink.textContent = email;
+          }
+
+          // Transforma markdown simples em HTML muito básico
+          const paragraphs = body
+            .split(/\n\s*\n/)
+            .map((p) => `<p>${p.replace(/\n/g, "<br>")}</p>`)
+            .join("");
+
+          if (contentEl) {
+            contentEl.innerHTML = paragraphs || "";
+          }
+        } catch (err) {
+          console.error(err);
+          if (contentEl) {
+            contentEl.innerHTML =
+              "<p>Não foi possível carregar as informações de contato.</p>";
+          }
+        }
+      }
+
+      loadContactFromCMS();
+    </script>
+</body>
+</html>
+
+
 </body>
 </html>
