@@ -3,7 +3,7 @@ title: RM EVENTO EM ITU SP
 date: 2026-01-24T01:07:00-05:00
 author: TVDUASRODAS
 category: Eventos
-videoId: https://www.youtube.com/watch?v=RFLNwn1At7M
+videoId: RFLNwn1At7M
 cover: https://i3.ytimg.com/vi/RFLNwn1At7M/hqdefault.jpg
 ---
 
