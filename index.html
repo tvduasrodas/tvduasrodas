@@ -212,7 +212,7 @@
                 </div>
             </div>
         </section>
-
+     
         <!-- LATEST VIDEOS -->
         <section class="latest-videos-section">
             <div class="container">
@@ -221,8 +221,8 @@
                     <p>Confira os vídeos mais recentes da TVDUASRODAS direto do canal.</p>
                 </header>
 
-                <div id="latest-videos-grid" class="latest-videos-grid">
-                    <!-- Os cards dos vídeos serão inseridos via JavaScript -->
+                <!-- Usa o mesmo grid de vídeos em destaque -->
+                <div id="latest-videos-grid" class="grid video-grid">
                     <p>Carregando vídeos...</p>
                 </div>
             </div>
@@ -425,6 +425,38 @@
             return isNaN(d.getTime()) ? new Date(0) : d;
         }
 
+        function extractYouTubeId(url) {
+            if (!url) return "";
+            try {
+                const u = new URL(url);
+                if (u.hostname.includes("youtu.be")) {
+                    return u.pathname.replace("/", "");
+                }
+                if (u.searchParams.has("v")) {
+                    return u.searchParams.get("v");
+                }
+                // formato /embed/ID
+                const parts = u.pathname.split("/");
+                const idx = parts.indexOf("embed");
+                if (idx !== -1 && parts[idx + 1]) {
+                    return parts[idx + 1];
+                }
+            } catch (e) {
+                // se não for URL válida, tenta heurística simples
+                if (url.length === 11 && !url.includes(" ")) return url;
+            }
+            return "";
+        }
+
+        function makeExcerpt(body, maxLen = 180) {
+            if (!body) return "Clique para assistir ao vídeo.";
+            // tira alguns caracteres típicos de markdown
+            const clean = body.replace(/[#*_`>-]/g, "").trim();
+            if (clean.length <= maxLen) return clean;
+            return clean.slice(0, maxLen).trim() + "...";
+        }
+
+
         async function loadLatestVideos() {
             const grid = document.getElementById("latest-videos-grid");
             if (!grid) return;
@@ -467,12 +499,14 @@
                 const cardsHTML = videos
                     .map((video) => {
                         const title = video.title || "Vídeo sem título";
-                        const youtubeUrl = video.youtube_url || "#";
-                        const category = video.category || "";
+                        const youtubeUrl = video.youtube_url || "";
                         const thumb = video.thumbnail || "";
-                        const dateStr = video._dateObj.getTime()
-                            ? video._dateObj.toLocaleDateString("pt-BR")
-                            : "";
+                        const body = video.body || "";
+                        const videoId = extractYouTubeId(youtubeUrl);
+                        // se tiver ID, manda pra tv.html?v=ID. Senão, cai no YouTube direto.
+                        const watchUrl = videoId
+                            ? `tv.html?v=${videoId}`
+                            : (youtubeUrl || "#");
 
                         // Ajusta o caminho da thumbnail (se não começar com /)
                         let thumbSrc = thumb;
@@ -480,29 +514,28 @@
                             thumbSrc = "/" + thumb.replace(/^\.?\//, "");
                         }
 
+                        const excerpt = makeExcerpt(body);
+
                         return `
-                <article class="video-card">
-                  <div class="video-thumb">
-                    ${thumbSrc
+      <article class="video-card">
+        <a href="${watchUrl}">
+          <div class="video-thumb real-thumb">
+            ${thumbSrc
                                 ? `<img src="${thumbSrc}" alt="${title}">`
                                 : ""
                             }
-                  </div>
-                  <div class="video-meta">
-                    ${category ? `<span>${category}</span>` : ""}${dateStr ? ` · <span>${dateStr}</span>` : ""
-                            }
-                  </div>
-                  <h3 class="video-title">${title}</h3>
-                  <div class="video-actions">
-                    ${youtubeUrl && youtubeUrl !== "#"
-                                ? `<a href="${youtubeUrl}" target="_blank" rel="noopener noreferrer">Assistir</a>`
-                                : ""
-                            }
-                  </div>
-                </article>
-              `;
+          </div>
+          <div class="card" style="margin-top: 8px;">
+            <h3>${title}</h3>
+            <p>${excerpt}</p>
+            <span class="article-link">Assistir &rarr;</span>
+          </div>
+        </a>
+      </article>
+    `;
                     })
                     .join("");
+
 
                 grid.innerHTML = cardsHTML;
             } catch (err) {
