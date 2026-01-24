@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Revista – TV Duas Rodas</title>
+    <title>Revista – TV Duas Rodas</title>
 
-  <link rel="icon" href="assets/img/logoTVicon_web.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" href="assets/img/logoTVicon_web.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body class="page-internal">
     <!-- BARRA TOPO (ANÚNCIO) -->
@@ -34,7 +34,7 @@
             <nav class="main-nav">
                 <ul>
                     <li><a href="index.html">Início</a></li>
-                    <li><a href="revista.html">Revista</a></li>
+                    <li><a href="revista.html" class="active">Revista</a></li>
                     <li><a href="tv.html">TV &amp; Vídeos</a></li>
                     <li><a href="imprensa.html">Imprensa</a></li>
                     <li><a href="contato.html">Contato &amp; Patrocínios</a></li>
@@ -61,8 +61,6 @@
                 </div>
             </form>
 
-
-
             <!-- REDES -->
             <div class="social-header">
                 <a href="#" class="social-icon">YT</a>
@@ -71,7 +69,6 @@
             </div>
         </div>
     </header>
-
 
     <!-- CONTEÚDO REVISTA -->
     <main class="section">
@@ -89,7 +86,7 @@
                 <!-- DESTAQUE PRINCIPAL (CAPA) -->
                 <article class="revista-hero card">
                     <div class="revista-hero-media">
-                        <a href="review-naked-300.html">
+                        <a href="materia.html?slug=review-naked-300">
                             <img src="assets/img/moto-naked-urbana.png"
                                  alt="Naked urbana 300cc rodando na cidade à noite" />
                         </a>
@@ -98,7 +95,7 @@
                     <div class="revista-hero-content">
                         <span class="category-tag">Review · Motos</span>
                         <h2>
-                            <a href="review-naked-300.html">
+                            <a href="materia.html?slug=review-naked-300">
                                 Naked urbana 300cc: uso real na cidade
                             </a>
                         </h2>
@@ -111,17 +108,38 @@
                             <span>•</span>
                             <span>Publicado em 23 jan 2026</span>
                         </div>
-                        <a href="materia.html?slug=review-naked-300" class="article-link">Ler matéria &rarr;</a>
+                        <a href="materia.html?slug=review-naked-300" class="article-link">
+                            Ler matéria &rarr;
+                        </a>
                     </div>
                 </article>
 
+                <!-- BARRA DE FILTRO DAS MATÉRIAS -->
+                <div class="filter-bar">
+                    <button type="button" class="filter-btn active" data-filter="all">
+                        Todas
+                    </button>
+                    <button type="button" class="filter-btn" data-filter="motos">
+                        Motos
+                    </button>
+                    <button type="button" class="filter-btn" data-filter="eletrico">
+                        Elétricos
+                    </button>
+                    <button type="button" class="filter-btn" data-filter="viagem">
+                        Viagem / Estrada
+                    </button>
+                    <button type="button" class="filter-btn" data-filter="urbano">
+                        Urbano / Rolê
+                    </button>
+                </div>
+
                 <!-- GRID DE CHAMADAS SECUNDÁRIAS -->
-                <section class="revista-grid">
+                <section class="revista-grid" id="articleGrid">
                     <!-- MATÉRIA 2 -->
                     <article class="card article-card" data-category="eletrico">
                         <span class="category-tag">Guia · Elétricos</span>
                         <h3>
-                            <a href="guia-scooters-eletricas.html">
+                            <a href="materia.html?slug=guia-scooters-eletricas">
                                 Scooters elétricas na cidade: vale a pena?
                             </a>
                         </h3>
@@ -138,7 +156,7 @@
                     <article class="card article-card" data-category="viagem">
                         <span class="category-tag">Viagem · Estrada</span>
                         <h3>
-                            <a href="viagem-serra-mirantes.html">
+                            <a href="materia.html?slug=viagem-serra-mirantes">
                                 Viagem de serra: mirantes, curvas e segurança
                             </a>
                         </h3>
@@ -155,7 +173,7 @@
                     <article class="card article-card" data-category="urbano">
                         <span class="category-tag">Rolê · Urbano</span>
                         <h3>
-                            <a href="role-urbano-noturno.html">
+                            <a href="materia.html?slug=role-urbano-noturno">
                                 Rolê urbano noturno: luzes da cidade em duas rodas
                             </a>
                         </h3>
@@ -167,7 +185,6 @@
                             Ler matéria &rarr;
                         </a>
                     </article>
-                    
                 </section>
 
                 <!-- BLOCO OPCIONAL: ÚLTIMAS DA TV (CHAMADA PRA TV.HTML) -->
@@ -196,22 +213,17 @@
                 <div class="sidebar-box">
                     <h3>Mais lidas</h3>
                     <ul class="sidebar-list">
-                        <li><a href="review-naked-300.html">Naked urbana 300cc: uso real na cidade</a></li>
-                        <li><a href="guia-scooters-eletricas.html">Scooters elétricas na cidade</a></li>
-                        <li><a href="viagem-serra-mirantes.html">Viagem de serra: mirantes e curvas</a></li>
-                        <li><a href="role-urbano-noturno.html">Rolê urbano noturno</a></li>
+                        <li><a href="materia.html?slug=review-naked-300">Naked urbana 300cc: uso real na cidade</a></li>
+                        <li><a href="materia.html?slug=guia-scooters-eletricas">Scooters elétricas na cidade</a></li>
+                        <li><a href="materia.html?slug=viagem-serra-mirantes">Viagem de serra: mirantes e curvas</a></li>
+                        <li><a href="materia.html?slug=role-urbano-noturno">Rolê urbano noturno</a></li>
                     </ul>
                 </div>
 
                 <div class="sidebar-box">
-                    <h3>Assine a TV Duas Rodas</h3>
-                    <p>
-                        Receba novidades de matérias, vídeos e transmissões ao vivo diretamente
-                        no seu e-mail.
-                    </p>
-                    <button type="button" class="btn btn-small btn-primary">
-                        Em breve: cadastro de newsletter
-                    </button>
+                    <h3>Quer anunciar aqui?</h3>
+                    <p>Espaço para sua marca aparecer em matérias da TV Duas Rodas.</p>
+                    <a href="contato.html" class="btn btn-small btn-primary">Falar com comercial</a>
                 </div>
             </aside>
         </div>
@@ -222,17 +234,19 @@
         <div class="container footer-inner">
             <div class="footer-left">
                 <p>© <span>TV Duas Rodas</span> – todos os direitos reservados.</p>
-                <p class="footer-small">Revista eletrônica &amp; canal de vídeo.</p>
+                <p class="footer-small">
+                    TV &amp; Revista eletrônica para apaixonados por duas rodas.
+                </p>
             </div>
-
             <div class="footer-ad">
                 <div class="ad-slot ad-slot-small">
-                    <span>Patrocinador rodapé · 300x60</span>
+                    <span>Patrocinador rodapé · 728x90</span>
                 </div>
             </div>
         </div>
     </footer>
 
+    <!-- JS -->
     <script src="assets/js/main.js"></script>
 </body>
 </html>
