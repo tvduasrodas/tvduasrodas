@@ -1,3 +1,36 @@
+// ============================
+// CONFIG PARA LISTAR MATÉRIAS (HOME) VIA GITHUB
+// ============================
+const GITHUB_OWNER = "tvduasrodas";      // ajuste se o repositório for outro
+const GITHUB_REPO = "tvduasrodas";       // idem
+const GITHUB_BRANCH = "main";
+const ARTICLES_PATH = "content/articles";
+const GITHUB_ARTICLES_API_URL =
+    `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${ARTICLES_PATH}?ref=${GITHUB_BRANCH}`;
+
+// Data no formato "23 jan 2026" → Date
+function parseArticleDate(dateStr) {
+    if (!dateStr) return new Date(0);
+    const direct = new Date(dateStr);
+    if (!isNaN(direct.getTime())) return direct;
+
+    const parts = dateStr.toLowerCase().trim().split(/\s+/);
+    if (parts.length < 3) return new Date(0);
+    const day = parseInt(parts[0], 10);
+    const monthStr = parts[1].slice(0, 3);
+    const year = parseInt(parts[2], 10);
+
+    const months = {
+        jan: 0, fev: 1, mar: 2, abr: 3, mai: 4, jun: 5,
+        jul: 6, ago: 7, set: 8, out: 9, nov: 10, dez: 11
+    };
+
+    const month = months[monthStr];
+    if (isNaN(day) || isNaN(year) || month === undefined) {
+        return new Date(0);
+    }
+    return new Date(year, month, day);
+}
 
 
 document.addEventListener("DOMContentLoaded", () => {
