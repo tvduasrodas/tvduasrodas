@@ -1,30 +1,30 @@
 ---
 title: RM EVENTO EM ITU SP
-date: 2026-01-24T01:07:00-05:00
+date: 2026-01-24T12:04:00-05:00
 author: TVDUASRODAS
 category: Eventos
 videoId: RFLNwn1At7M
 cover: ''
 ---
 
-Rodar de moto à noite pela cidade tem um clima todo especial: menos trânsito, temperaturas mais agradáveis e a iluminação dos prédios, avenidas e pontos turísticos. Mas também exige atenção redobrada.
+A categoria de motos naked de média cilindrada ganhou força nos últimos anos para quem usa a moto tanto no dia a dia quanto para um rolê mais divertido aos finais de semana. A naked 300cc que testamos na TV Duas Rodas promete equilíbrio entre conforto, economia e um toque esportivo.
 
-## Visibilidade: veja e seja visto
+## Posição de pilotagem e ergonomia
 
-Antes de sair, vale conferir farol alto, baixo, setas e lanterna. Uma lâmpada queimada faz mais diferença à noite do que de dia. Se a moto permitir, vale investir em iluminação de melhor qualidade, sempre dentro da lei.
+A posição de pilotagem é ligeiramente inclinada para frente, mas ainda confortável para quem vai encarar trânsito pesado todo dia. O banco tem boa densidade de espuma e a altura permite que pilotos de diferentes estaturas apoiem os pés com segurança.
 
-Roupas com detalhes refletivos e capacetes com faixas refletivas ajudam bastante a chamar a atenção de carros, principalmente em cruzamentos e retornos.
+Para uso urbano, o guidão mais largo ajuda a ter controle nas manobras de baixa velocidade, especialmente entre carros. Em viagens curtas, a ergonomia não incomoda e a proteção do vento é suficiente para cruzeiros moderados.
 
-## Rota do rolê: frio, buracos e trechos desertos
+## Motor, consumo e desempenho
 
-À noite, buracos e desníveis de asfalto ficam mais difíceis de ver, principalmente em ruas menos iluminadas. Se for rodar com um grupo, combine paradas em postos ou pontos conhecidos e evite se separar demais.
+O motor de 300cc entrega torque em baixa e média rotação, perfeito para sair rápido nos semáforos e retomar velocidade em avenidas. Em nossos testes, registramos consumo médio de **28 a 30 km/l** em uso misto, variando conforme o ritmo.
 
-## Postura no grupo: sem provar nada pra ninguém
+> “Para quem sai da 150/160 e quer subir de categoria sem sofrer com consumo, a 300cc naked é um salto bem equilibrado.”
 
-Se o rolê for em grupo, alinhe antes o ritmo de pilotagem. A ideia não é “mostrar quem anda mais”, mas curtir a cidade, conversar nos pontos de parada e voltar inteiro para casa.
+## Freios e segurança
 
-> “Rolê bom é o que começa e termina bem. Adrenalina a gente pode deixar para pista fechada, track day ou off-road controlado.”
+A moto conta com freios a disco nas duas rodas e sistema ABS de série, garantindo mais segurança em frenagens de emergência. O conjunto trabalha bem em piso molhado, sem sustos.
 
-## Finalizando a noite
+## Conclusão
 
-Ao voltar pra casa, diminua ainda mais o ritmo. Cansaço, sono e pista fria formam uma combinação perigosa. Aproveite o último trecho com calma, já pensando no próximo rolê.
+A naked urbana 300cc se destaca como uma opção inteligente para quem quer uma moto única para tudo: trabalho, deslocamento diário e lazer em duas rodas. Não é a mais radical do segmento, mas entrega um pacote honesto e equilibrado.
