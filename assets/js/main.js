@@ -569,6 +569,20 @@ document.addEventListener("DOMContentLoaded", () => {
         return html.join("\n");
     }
 
+    function formatArticleDate(str) {
+        if (!str) return "";
+        const d = new Date(str);
+        if (isNaN(d.getTime())) {
+            // Se não for uma data válida, devolve como veio
+            return str;
+        }
+        const meses = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"];
+        const dia = String(d.getDate()).padStart(2, "0");
+        const mes = meses[d.getMonth()];
+        const ano = d.getFullYear();
+        return `${dia} ${mes} ${ano}`;
+    }
+
 
     /* ============================
     CARREGAMENTO DE MATÉRIA DINÂMICA (materia?slug=...)
@@ -624,7 +638,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         authorEl.textContent = data.author
                             ? `Por ${data.author}`
                             : "Por Redação TV Duas Rodas";
-                    if (dateEl) dateEl.textContent = data.date || "";
+                    if (dateEl) dateEl.textContent = formatArticleDate(data.date);
                     if (readEl)
                         readEl.textContent = data.readingTime
                             ? `Leitura: ${data.readingTime}`

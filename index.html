@@ -313,14 +313,19 @@
                 const [key, ...rest] = line.split(":");
                 if (!key || !rest.length) return;
                 const k = key.trim();
-                const v = rest.join(":").trim().replace(/^"|"$/g, "");
+                let v = rest.join(":").trim();
+
+                // remove aspas simples ou duplas no começo/fim: "valor", 'valor', '' etc.
+                v = v.replace(/^['"]|['"]$/g, "");
 
                 if (k === "title") result.title = v;
-                if (k === "date") result.date = v;
-                if (k === "youtube_url" || k === "youtube") result.youtube_url = v;
-                if (k === "thumbnail") result.thumbnail = v;
-                if (k === "category") result.category = v;
-                if (k === "featured") result.featured = v === "true";
+                else if (k === "date") result.date = v;
+                else if (k === "youtube_url" || k === "youtube") result.youtube_url = v;
+                // alias: tanto "thumbnail" quanto "cover" viram thumbnail
+                else if (k === "thumbnail" || k === "cover") result.thumbnail = v;
+                else if (k === "category") result.category = v;
+                else if (k === "featured") result.featured = v === "true";
+
             });
 
             return result;
@@ -331,6 +336,20 @@
             const d = new Date(str);
             return isNaN(d.getTime()) ? new Date(0) : d;
         }
+
+        function formatArticleDateLabel(str) {
+            if (!str) return "";
+            const d = new Date(str);
+            if (isNaN(d.getTime())) {
+                return str;
+            }
+            const meses = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"];
+            const dia = String(d.getDate()).padStart(2, "0");
+            const mes = meses[d.getMonth()];
+            const ano = d.getFullYear();
+            return `${dia} ${mes} ${ano}`;
+        }
+
 
         function extractYouTubeId(url) {
             if (!url) return "";
@@ -554,7 +573,7 @@
 
                 const files = await res.json();
 
-                // Agora: só arquivos .md dentro de /content/news
+                // Só arquivos .md dentro de /content/news
                 const mdFiles = files.filter(
                     (f) => f.type === "file" && f.name.endsWith(".md")
                 );
@@ -563,22 +582,21 @@
                     const rawRes = await fetch(file.download_url);
                     const rawText = await rawRes.text();
 
-                    // Reaproveita a mesma parseFrontmatter dos vídeos
                     const data = parseFrontmatter(rawText);
 
                     return {
                         ...data,
-                        _dateObj: parseArticleDate(data.date),
+                        _dateObj: parseDateSafe(data.date),
                         _fileSlug: file.name.replace(/\.md$/, "")
                     };
                 });
 
                 let articles = await Promise.all(articlePromises);
 
-                // Ordenar da mais nova para a mais antiga
+                // Ordenar da mais nova pra mais antiga
                 articles.sort((a, b) => b._dateObj - a._dateObj);
 
-                // Pegar só 4 para a Home
+                // Pegar só 4 pra Home
                 articles = articles.slice(0, 4);
 
                 if (!articles.length) {
@@ -588,26 +606,41 @@
 
                 const cardsHTML = articles
                     .map((article) => {
-                        const slug = article.slug || article._fileSlug; // slug = nome do arquivo se não tiver no frontmatter
+                        const slug = article.slug || article._fileSlug;
                         const title = article.title || "Matéria sem título";
                         const category = article.category || "Notícias";
-                        const kicker = article.kicker || "";
-                        // Se não tiver summary no frontmatter, cria um resumo automático a partir do corpo
+
+                        // resumo: se não tiver summary no frontmatter, corta o body
                         const summary =
                             article.summary ||
-                            makeExcerpt(article.body || "", 200);
+                            makeExcerpt(article.body || "", 180);
+
+                        const dateLabel = formatArticleDateLabel(article.date);
+
+                        // imagem: vem de thumbnail (que agora também recebe "cover")
+                        const imgSrc = article.thumbnail || "";
 
                         const articleUrl = `materia.html?slug=${encodeURIComponent(slug)}`;
 
                         return `
           <article class="card article-card">
-            <span class="category-tag">
-              ${kicker ? `${kicker} · ` : ""}${category}
-            </span>
-            <h3>${title}</h3>
-            <p>${summary}</p>
-            <a href="${articleUrl}" class="article-link">
-              Ler matéria &rarr;
+            <a href="${articleUrl}">
+              ${imgSrc
+                                ? `
+              <div class="article-thumb real-thumb">
+                <img src="${imgSrc}" alt="${title}">
+              </div>
+              `
+                                : ""
+                            }
+              <span class="category-tag">${category}</span>
+              ${dateLabel
+                                ? `<span class="article-date">${dateLabel}</span>`
+                                : ""
+                            }
+              <h3>${title}</h3>
+              <p>${summary}</p>
+              <span class="article-link">Ler matéria &rarr;</span>
             </a>
           </article>
         `;
