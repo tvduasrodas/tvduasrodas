@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Revista – TV Duas Rodas</title>
+
+  <link rel="icon" href="assets/img/logoTVicon_web.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body class="page-internal">
+    <!-- BARRA TOPO (ANÚNCIO) -->
+    <div class="ad-bar">
+        <div class="container ad-bar-inner">
+            <span>Espaço para patrocinador topo · 970x90</span>
+        </div>
+    </div>
+
+    <!-- HEADER (mesmo da Home) -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <!-- LOGO -->
+            <div class="logo-wrapper">
+                <a href="index.html" class="logo-link">
+                    <img src="assets/img/logotv.png" alt="TV Duas Rodas" class="logo-image" />
+                </a>
+                <div class="brand-sub">
+                    Motos · Bikes · Scooters · Elétricos
+                </div>
+            </div>
+
+            <!-- NAV -->
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="revista.html">Revista</a></li>
+                    <li><a href="tv.html">TV &amp; Vídeos</a></li>
+                    <li><a href="imprensa.html">Imprensa</a></li>
+                    <li><a href="contato.html">Contato &amp; Patrocínios</a></li>
+                </ul>
+            </nav>
+
+            <!-- BUSCA GLOBAL -->
+            <form class="site-search" action="busca.html" method="get">
+                <div class="site-search-field">
+                    <span class="search-icon" aria-hidden="true">🔍</span>
+
+                    <input type="search"
+                           id="siteSearchInput"
+                           name="q"
+                           placeholder="Buscar no site..."
+                           aria-label="Buscar no site" />
+
+                    <button type="button"
+                            id="siteSearchClear"
+                            class="site-search-clear"
+                            aria-label="Limpar busca">
+                        ×
+                    </button>
+                </div>
+            </form>
+
+
+
+            <!-- REDES -->
+            <div class="social-header">
+                <a href="#" class="social-icon">YT</a>
+                <a href="#" class="social-icon">IG</a>
+                <a href="#" class="social-icon">TT</a>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- CONTEÚDO REVISTA -->
+    <main class="section">
+        <div class="container layout-with-sidebar revista-layout">
+            <!-- COLUNA PRINCIPAL: CAPA DA REVISTA -->
+            <section class="revista-main">
+                <!-- TÍTULO DA SEÇÃO -->
+                <header class="section-header align-left">
+                    <h1>Revista TV Duas Rodas</h1>
+                    <p>
+                        Matérias especiais, reviews, guias e histórias do universo das duas rodas.
+                    </p>
+                </header>
+
+                <!-- DESTAQUE PRINCIPAL (CAPA) -->
+                <article class="revista-hero card">
+                    <div class="revista-hero-media">
+                        <a href="review-naked-300.html">
+                            <img src="assets/img/moto-naked-urbana.png"
+                                 alt="Naked urbana 300cc rodando na cidade à noite" />
+                        </a>
+                    </div>
+
+                    <div class="revista-hero-content">
+                        <span class="category-tag">Review · Motos</span>
+                        <h2>
+                            <a href="review-naked-300.html">
+                                Naked urbana 300cc: uso real na cidade
+                            </a>
+                        </h2>
+                        <p>
+                            Teste completo da naked 300cc no trânsito urbano, consumo, conforto,
+                            posição de pilotagem e como ela se comporta nos rolês de fim de semana.
+                        </p>
+                        <div class="revista-hero-meta">
+                            <span>Por Redação TV Duas Rodas</span>
+                            <span>•</span>
+                            <span>Publicado em 23 jan 2026</span>
+                        </div>
+                        <a href="materia.html?slug=review-naked-300" class="article-link">Ler matéria &rarr;</a>
+                    </div>
+                </article>
+
+                <!-- GRID DE CHAMADAS SECUNDÁRIAS -->
+                <section class="revista-grid">
+                    <!-- MATÉRIA 2 -->
+                    <article class="card article-card" data-category="eletrico">
+                        <span class="category-tag">Guia · Elétricos</span>
+                        <h3>
+                            <a href="guia-scooters-eletricas.html">
+                                Scooters elétricas na cidade: vale a pena?
+                            </a>
+                        </h3>
+                        <p>
+                            Custos de recarga, autonomia real, manutenção e se compensa trocar a moto
+                            a combustão por uma scooter elétrica para o dia a dia.
+                        </p>
+                        <a href="materia.html?slug=guia-scooters-eletricas" class="article-link">
+                            Ler matéria &rarr;
+                        </a>
+                    </article>
+
+                    <!-- MATÉRIA 3 -->
+                    <article class="card article-card" data-category="viagem">
+                        <span class="category-tag">Viagem · Estrada</span>
+                        <h3>
+                            <a href="viagem-serra-mirantes.html">
+                                Viagem de serra: mirantes, curvas e segurança
+                            </a>
+                        </h3>
+                        <p>
+                            Roteiro por estrada de serra com paradas em mirantes, dicas de pilotagem,
+                            equipamento e cuidados para rodar com segurança.
+                        </p>
+                        <a href="materia.html?slug=viagem-serra-mirantes" class="article-link">
+                            Ler matéria &rarr;
+                        </a>
+                    </article>
+
+                    <!-- MATÉRIA 4 -->
+                    <article class="card article-card" data-category="urbano">
+                        <span class="category-tag">Rolê · Urbano</span>
+                        <h3>
+                            <a href="role-urbano-noturno.html">
+                                Rolê urbano noturno: luzes da cidade em duas rodas
+                            </a>
+                        </h3>
+                        <p>
+                            Um passeio noturno pelos principais pontos da cidade, falando de segurança,
+                            visibilidade, equipamento e experiência de pilotar à noite.
+                        </p>
+                        <a href="materia.html?slug=role-urbano-noturno" class="article-link">
+                            Ler matéria &rarr;
+                        </a>
+                    </article>
+                    
+                </section>
+
+                <!-- BLOCO OPCIONAL: ÚLTIMAS DA TV (CHAMADA PRA TV.HTML) -->
+                <section class="revista-tv-call">
+                    <div class="revista-tv-card">
+                        <div>
+                            <h3>Últimos vídeos da TV Duas Rodas</h3>
+                            <p>
+                                Assista às últimas cassetadas, reviews em vídeo, rolês e transmissões
+                                especiais no nosso canal.
+                            </p>
+                        </div>
+                        <a href="tv.html" class="btn btn-outline btn-small">
+                            Ir para TV &amp; Vídeos &rarr;
+                        </a>
+                    </div>
+                </section>
+            </section>
+
+            <!-- SIDEBAR: MAIS LIDAS / PATROCÍNIO -->
+            <aside class="sidebar revista-sidebar">
+                <div class="ad-slot ad-slot-sidebar">
+                    <span>Patrocinador lateral · 300x250</span>
+                </div>
+
+                <div class="sidebar-box">
+                    <h3>Mais lidas</h3>
+                    <ul class="sidebar-list">
+                        <li><a href="review-naked-300.html">Naked urbana 300cc: uso real na cidade</a></li>
+                        <li><a href="guia-scooters-eletricas.html">Scooters elétricas na cidade</a></li>
+                        <li><a href="viagem-serra-mirantes.html">Viagem de serra: mirantes e curvas</a></li>
+                        <li><a href="role-urbano-noturno.html">Rolê urbano noturno</a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-box">
+                    <h3>Assine a TV Duas Rodas</h3>
+                    <p>
+                        Receba novidades de matérias, vídeos e transmissões ao vivo diretamente
+                        no seu e-mail.
+                    </p>
+                    <button type="button" class="btn btn-small btn-primary">
+                        Em breve: cadastro de newsletter
+                    </button>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-left">
+                <p>© <span>TV Duas Rodas</span> – todos os direitos reservados.</p>
+                <p class="footer-small">Revista eletrônica &amp; canal de vídeo.</p>
+            </div>
+
+            <div class="footer-ad">
+                <div class="ad-slot ad-slot-small">
+                    <span>Patrocinador rodapé · 300x60</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
