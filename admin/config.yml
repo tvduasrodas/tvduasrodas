@@ -4,8 +4,8 @@ backend:
   branch: main
   base_url: "https://sveltia-cms-auth.tvduasrodas.workers.dev"
 
-site_url: "https://tvduasrodas.pages.dev/test"
-display_url: "https://tvduasrodas.pages.dev/test"
+site_url: "https://tvduasrodas.pages.dev/"
+display_url: "https://tvduasrodas.pages.dev/"
 
 media_folder: "assets/img/uploads"
 public_folder: "/assets/img/uploads"
