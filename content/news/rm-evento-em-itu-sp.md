@@ -4,7 +4,7 @@ date: 2026-01-24T01:07:00-05:00
 author: TVDUASRODAS
 category: Eventos
 videoId: RFLNwn1At7M
-cover: https://i3.ytimg.com/vi/RFLNwn1At7M/hqdefault.jpg
+cover: ''
 ---
 
 Rodar de moto à noite pela cidade tem um clima todo especial: menos trânsito, temperaturas mais agradáveis e a iluminação dos prédios, avenidas e pontos turísticos. Mas também exige atenção redobrada.
