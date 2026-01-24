@@ -638,6 +638,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     }
 
                     // HERO: vídeo ou imagem
+                    const hero = data.hero || {};
                     const heroVideoWrapper = document.getElementById("articleHeroVideo");
                     const heroIframe = document.getElementById("articleHeroIframe");
                     const heroImageWrapper = document.getElementById("articleHeroImage");
@@ -645,16 +646,26 @@ document.addEventListener("DOMContentLoaded", () => {
                     const heroCaption = document.getElementById("articleHeroCaption");
                     const ctaContainer = document.getElementById("articleVideoCtaContainer");
 
-                    const heroImage =
-                        data.hero_image || data.image || data.thumbnail || "";
-
-                    // Zera wrappers
+                    // 👉 Reset: some tudo antes de decidir o que mostrar
                     if (heroVideoWrapper) heroVideoWrapper.hidden = true;
                     if (heroImageWrapper) heroImageWrapper.hidden = true;
                     if (ctaContainer) ctaContainer.innerHTML = "";
 
+                    // 👉 Descobrir qual campo tem a imagem:
+                    // - JSON antigo: hero.image
+                    // - CMS Notícias: normalmente thumbnail (imagem principal)
+                    let heroImage = "";
+
+                    if (hero.image) {
+                        heroImage = hero.image;
+                    } else if (data.thumbnail) {
+                        heroImage = data.thumbnail;
+                    } else if (data.image) {
+                        heroImage = data.image;
+                    }
+
+                    // 👉 Se tiver videoId, hero é VÍDEO
                     if (data.videoId && heroVideoWrapper && heroIframe) {
-                        // Se algum dia você colocar videoId no frontmatter
                         heroVideoWrapper.hidden = false;
                         heroIframe.src = `https://www.youtube.com/embed/${data.videoId}`;
                         heroIframe.title = data.title || "Vídeo da matéria";
@@ -668,12 +679,14 @@ document.addEventListener("DOMContentLoaded", () => {
               </div>
             `;
                         }
-                    } else if (heroImage && heroImageWrapper && heroImageTag) {
+                    }
+                    // 👉 Se NÃO tiver videoId, mas tiver imagem, hero é IMAGEM
+                    else if (heroImage && heroImageWrapper && heroImageTag) {
                         heroImageWrapper.hidden = false;
                         heroImageTag.src = heroImage;
-                        heroImageTag.alt = data.title || "";
+                        heroImageTag.alt = (hero.alt || data.title || "").trim();
                         if (heroCaption) {
-                            heroCaption.textContent = data.hero_caption || "";
+                            heroCaption.textContent = hero.caption || "";
                         }
                     }
 
