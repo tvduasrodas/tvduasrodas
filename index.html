@@ -159,6 +159,7 @@
             </div>
         </section>
 
+
         <!-- REVISTA: ÚLTIMAS MATÉRIAS -->
         <section class="section">
             <div class="container">
@@ -167,51 +168,13 @@
                     <p>Matérias recentes publicadas na TV Duas Rodas.</p>
                 </header>
 
-                <div class="grid article-grid">
-                    <!-- Cada article-card é uma matéria -->
-                    <article class="card article-card">
-                        <span class="category-tag">Motos</span>
-                        <h3>Teste completo: naked esportiva para o dia a dia</h3>
-                        <p>
-                            Uma análise detalhada de consumo, conforto, eletrônica embarcada e
-                            custo-benefício para quem usa moto todos os dias.
-                        </p>
-                        <a href="materia.html?slug=review-naked-300" class="article-link">Ler matéria &rarr;</a>
-                    </article>
-
-
-                    <article class="card article-card">
-                        <span class="category-tag">Scooter</span>
-                        <h3>Scooters e mobilidade inteligente no dia a dia</h3>
-                        <p>
-                            Comparativo entre modelos a combustão e elétricos, tempo de carga,
-                            autonomia e praticidade.
-                        </p>
-                        <a href="materia.html?slug=guia-scooters-eletricas" class="article-link">Ler matéria &rarr;</a>
-                    </article>
-
-                    <article class="card article-card">
-                        <span class="category-tag">Rolê · Urbano</span>
-                        <h3>Rolê urbano noturno: luzes da cidade em duas rodas</h3>
-                        <p>
-                            Um passeio noturno pelos principais pontos da cidade, falando de segurança,
-                            visibilidade, equipamento e experiência de pilotar à noite.
-                        </p>
-                        <a href="materia.html?slug=role-urbano-noturno" class="article-link">Ler matéria &rarr;</a>
-                    </article>
-
-                    <article class="card article-card">
-                        <span class="category-tag">Viagem</span>
-                        <h3>Viagem de serra: mirantes, curvas e segurança</h3>
-                        <p>
-                            Roteiro por estrada de serra com paradas em mirantes, dicas de pilotagem,
-                            equipamento e cuidados para rodar com segurança.
-                        </p>
-                        <a href="materia.html?slug=viagem-serra-mirantes" class="article-link">Ler matéria &rarr;</a>
-                    </article>
+                <!-- AQUI O GRID DINÂMICO -->
+                <div id="latest-articles-grid" class="grid article-grid">
+                    <p>Carregando matérias...</p>
                 </div>
             </div>
         </section>
+
 
         <!-- LATEST VIDEOS -->
         <section class="latest-videos-section">
@@ -228,7 +191,7 @@
             </div>
         </section>
 
-        
+
         <!-- VÍDEOS EM DESTAQUE NA HOME -->
         <section class="section">
             <div class="container">
@@ -574,8 +537,132 @@
         }
 
 
+        // Caminho das matérias no seu repo (ajuste se for outro)
+        const ARTICLES_PATH = "content/articles"; // ou "content/articles", "content/posts" etc.
+        const GITHUB_ARTICLES_API_URL =
+            `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${ARTICLES_PATH}?ref=${GITHUB_BRANCH}`;
+
+        async function loadLatestArticles() {
+            const grid = document.getElementById("latest-articles-grid");
+            if (!grid) return;
+
+            try {
+                const res = await fetch(GITHUB_ARTICLES_API_URL);
+                if (!res.ok) {
+                    throw new Error("Erro ao listar matérias: " + res.status);
+                }
+
+                const files = await res.json();
+
+                // Só arquivos .json dentro de /content/articles
+                const jsonFiles = files.filter(
+                    (f) => f.type === "file" && f.name.endsWith(".json")
+                );
+
+                // Lê o conteúdo de cada JSON
+                const articlePromises = jsonFiles.map(async (file) => {
+                    const rawRes = await fetch(file.download_url);
+                    const data = await rawRes.json();
+
+                    return {
+                        ...data,
+                        _dateObj: parseArticleDate(data.date),
+                        _fileSlug: file.name.replace(/\.json$/, "")
+                    };
+                });
+
+                let articles = await Promise.all(articlePromises);
+
+                // Ordenar da mais nova pra mais antiga
+                articles.sort((a, b) => b._dateObj - a._dateObj);
+
+                // Pegar só 4 pra Home
+                articles = articles.slice(0, 4);
+
+                if (!articles.length) {
+                    grid.innerHTML = "<p>Nenhuma matéria publicada ainda.</p>";
+                    return;
+                }
+
+                const cardsHTML = articles
+                    .map((article) => {
+                        const slug = article.slug || article._fileSlug;
+                        const title = article.title || "Matéria sem título";
+                        const category = article.category || "revista";
+                        const summary = article.summary || "";
+                        const kicker = article.kicker || "";
+
+                        // link pra página da matéria (ajusta se usar outro esquema)
+                        const articleUrl = `materia.html?slug=${encodeURIComponent(slug)}`;
+
+                        return `
+          <article class="card article-card">
+            <span class="category-tag">
+              ${kicker ? `${kicker} · ` : ""}${category}
+            </span>
+            <h3>${title}</h3>
+            <p>${summary}</p>
+            <a href="${articleUrl}" class="article-link">
+              Ler matéria &rarr;
+            </a>
+          </article>
+        `;
+                    })
+                    .join("");
+
+                grid.innerHTML = cardsHTML;
+            } catch (err) {
+                console.error(err);
+                grid.innerHTML =
+                    "<p>Não foi possível carregar as matérias agora. Tente novamente mais tarde.</p>";
+            }
+        }
+
+
+        function parseArticleDate(dateStr) {
+            if (!dateStr) return new Date(0);
+
+            // tenta parse normal primeiro (caso mude o formato no futuro)
+            const direct = new Date(dateStr);
+            if (!isNaN(direct.getTime())) return direct;
+
+            // formato: "23 jan 2026"
+            const parts = dateStr.toLowerCase().trim().split(/\s+/);
+            if (parts.length < 3) return new Date(0);
+
+            const day = parseInt(parts[0], 10);
+            const monthStr = parts[1].slice(0, 3); // jan, fev, mar...
+            const year = parseInt(parts[2], 10);
+
+            const months = {
+                jan: 0,
+                fev: 1,
+                mar: 2,
+                abr: 3,
+                mai: 4,
+                jun: 5,
+                jul: 6,
+                ago: 7,
+                set: 8,
+                out: 9,
+                nov: 10,
+                dez: 11
+            };
+
+            const month = months[monthStr];
+
+            if (isNaN(day) || isNaN(year) || month === undefined) {
+                return new Date(0);
+            }
+
+            return new Date(year, month, day);
+        }
+
+
         loadLatestVideos();
         loadFeaturedVideos();
+        loadLatestArticles();
+
 
     </script>
 
