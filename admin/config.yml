@@ -74,7 +74,8 @@ collections:
           - { label: "WhatsApp (link)", name: "whatsapp", widget: "string", required: false, hint: "Ex: https://wa.me/55DDDNUMERO" }
           - { label: "Conteúdo", name: "body", widget: "markdown", required: false }
   
-            # 4) HOME / STATUS DE LIVE
+  
+          # 4) HOME / CONFIGURAÇÕES (STATUS + PLAYER)
   - name: "home"
     label: "Home"
     label_singular: "Home"
@@ -104,15 +105,6 @@ collections:
             required: false
             default: "Quando estivermos ao vivo, este espaço será ocupado pela transmissão em tempo real (YouTube Live, Twitch ou outro player)."
 
-  
-  # 5) CONFIGURAÇÃO DA HOME (PLAYER PRINCIPAL)
-  - name: "home"
-    label: "Home"
-    label_singular: "Home"
-    delete: false
-    editor:
-      preview: false
-    files:
       - file: "content/home/hero-player.md"
         name: "hero_player"
         label: "Player principal (Home)"
@@ -129,5 +121,6 @@ collections:
             name: "body"
             widget: "markdown"
             required: false
+
 
 
