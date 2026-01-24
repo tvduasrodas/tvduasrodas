@@ -4,7 +4,7 @@ date: 2026-01-24T01:11:00-05:00
 author: TVDUASRODAS
 category: Outro
 videoId: xcPxjtQU1qc
-cover: https://i0.wp.com/viagemdemoto.com/wp-content/uploads/2019/08/Viagem-de-moto-scooter-Brasil-01.jpg?w=1024&ssl=1
+cover: ''
 ---
 
 Subir uma serra de moto é um dos prazeres mais marcantes para quem ama duas rodas: curvas, visual, mirantes e aquela sensação de estar “escapando” da cidade. Mas, para a viagem ser boa, alguns cuidados são fundamentais.
