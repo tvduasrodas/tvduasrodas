@@ -213,6 +213,22 @@
             </div>
         </section>
 
+        <!-- LATEST VIDEOS -->
+        <section class="latest-videos-section">
+            <div class="container">
+                <header class="section-header align-left">
+                    <h2>Últimos vídeos</h2>
+                    <p>Confira os vídeos mais recentes da TVDUASRODAS direto do canal.</p>
+                </header>
+
+                <div id="latest-videos-grid" class="latest-videos-grid">
+                    <!-- Os cards dos vídeos serão inseridos via JavaScript -->
+                    <p>Carregando vídeos...</p>
+                </div>
+            </div>
+        </section>
+
+
         <!-- VÍDEOS EM DESTAQUE NA HOME -->
         <section class="section">
             <div class="container">
@@ -350,5 +366,155 @@
 
     <!-- JS -->
     <script src="assets/js/main.js"></script>
+    <script>
+        // CONFIGURE AQUI:
+        const GITHUB_OWNER = "tvduasrodas";
+        const GITHUB_REPO = "tvduasrodas/tvduasrodas";
+        const GITHUB_BRANCH = "main"; // ou "master", se seu repo usar esse nome
+        const VIDEOS_PATH = "content/videos";
+
+        const GITHUB_API_URL = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${VIDEOS_PATH}?ref=${GITHUB_BRANCH}`;
+
+        // Lê frontmatter YAML simples do topo do .md
+        function parseFrontmatter(text) {
+            const result = {
+                title: "",
+                date: "",
+                youtube_url: "",
+                thumbnail: "",
+                category: "",
+                featured: false,
+                body: "",
+            };
+
+            if (!text.startsWith("---")) {
+                result.body = text.trim();
+                return result;
+            }
+
+            const second = text.indexOf("---", 3);
+            if (second === -1) {
+                result.body = text.trim();
+                return result;
+            }
+
+            const fmRaw = text.slice(3, second).trim();
+            const body = text.slice(second + 3).trim();
+            result.body = body;
+
+            fmRaw.split("\n").forEach((line) => {
+                const [key, ...rest] = line.split(":");
+                if (!key || !rest.length) return;
+                const k = key.trim();
+                const v = rest.join(":").trim().replace(/^"|"$/g, "");
+
+                if (k === "title") result.title = v;
+                if (k === "date") result.date = v;
+                if (k === "youtube_url" || k === "youtube") result.youtube_url = v;
+                if (k === "thumbnail") result.thumbnail = v;
+                if (k === "category") result.category = v;
+                if (k === "featured") result.featured = v === "true";
+            });
+
+            return result;
+        }
+
+        // Converte string de data do frontmatter em Date segura
+        function parseDateSafe(str) {
+            const d = new Date(str);
+            return isNaN(d.getTime()) ? new Date(0) : d;
+        }
+
+        async function loadLatestVideos() {
+            const grid = document.getElementById("latest-videos-grid");
+            if (!grid) return;
+
+            try {
+                const res = await fetch(GITHUB_API_URL);
+                if (!res.ok) {
+                    throw new Error("Erro ao listar vídeos: " + res.status);
+                }
+
+                const files = await res.json();
+                const mdFiles = files.filter((f) => f.type === "file" && f.name.endsWith(".md"));
+
+                // Buscar conteúdo de cada .md
+                const videoPromises = mdFiles.map(async (file) => {
+                    const rawRes = await fetch(file.download_url);
+                    const rawText = await rawRes.text();
+                    const data = parseFrontmatter(rawText);
+
+                    return {
+                        ...data,
+                        // Para segurança, guarda date como Date mesmo
+                        _dateObj: parseDateSafe(data.date),
+                    };
+                });
+
+                let videos = await Promise.all(videoPromises);
+
+                // Ordenar por data desc (mais novos primeiros)
+                videos.sort((a, b) => b._dateObj - a._dateObj);
+
+                // Pegar só os 4 primeiros
+                videos = videos.slice(0, 4);
+
+                if (!videos.length) {
+                    grid.innerHTML = "<p>Nenhum vídeo encontrado ainda.</p>";
+                    return;
+                }
+
+                const cardsHTML = videos
+                    .map((video) => {
+                        const title = video.title || "Vídeo sem título";
+                        const youtubeUrl = video.youtube_url || "#";
+                        const category = video.category || "";
+                        const thumb = video.thumbnail || "";
+                        const dateStr = video._dateObj.getTime()
+                            ? video._dateObj.toLocaleDateString("pt-BR")
+                            : "";
+
+                        // Ajusta o caminho da thumbnail (se não começar com /)
+                        let thumbSrc = thumb;
+                        if (thumb && !thumb.startsWith("http") && !thumb.startsWith("/")) {
+                            thumbSrc = "/" + thumb.replace(/^\.?\//, "");
+                        }
+
+                        return `
+                <article class="video-card">
+                  <div class="video-thumb">
+                    ${thumbSrc
+                                ? `<img src="${thumbSrc}" alt="${title}">`
+                                : ""
+                            }
+                  </div>
+                  <div class="video-meta">
+                    ${category ? `<span>${category}</span>` : ""}${dateStr ? ` · <span>${dateStr}</span>` : ""
+                            }
+                  </div>
+                  <h3 class="video-title">${title}</h3>
+                  <div class="video-actions">
+                    ${youtubeUrl && youtubeUrl !== "#"
+                                ? `<a href="${youtubeUrl}" target="_blank" rel="noopener noreferrer">Assistir</a>`
+                                : ""
+                            }
+                  </div>
+                </article>
+              `;
+                    })
+                    .join("");
+
+                grid.innerHTML = cardsHTML;
+            } catch (err) {
+                console.error(err);
+                grid.innerHTML =
+                    "<p>Não foi possível carregar os vídeos agora. Tente novamente mais tarde.</p>";
+            }
+        }
+
+        loadLatestVideos();
+    </script>
+
+
 </body>
 </html>
