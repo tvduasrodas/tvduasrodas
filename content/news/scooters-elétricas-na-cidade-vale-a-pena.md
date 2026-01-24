@@ -4,7 +4,7 @@ date: 2026-01-24T01:11:00-05:00
 author: TVDUASRODAS
 category: Urbano
 videoId: ''
-cover: ''
+cover: /assets/img/uploads/01.png
 ---
 
 As scooters elétricas deixaram de ser apenas curiosidade de shopping e começaram a aparecer cada vez mais nas ruas. Mas será que, na prática, fazem sentido para o uso diário em cidades cheias, com trânsito pesado e calor como no Brasil?
