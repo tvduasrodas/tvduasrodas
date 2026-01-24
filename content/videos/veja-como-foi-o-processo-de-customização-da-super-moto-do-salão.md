@@ -6,8 +6,8 @@ duration: ''
 category: Outro
 tags:
   - moto, salao duas rodas, motocicleta,duas rodas
-featured: true
-thumbnail: https://img.youtube.com/vi/cgnpOCxjG8E/maxresdefault.jpg
+featured: false
+thumbnail: ''
 ---
 
 A primeira WEBTV especializada no mundo das duas rodas.
