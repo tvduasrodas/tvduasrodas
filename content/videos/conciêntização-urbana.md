@@ -6,7 +6,7 @@ duration: ''
 category: Notícia
 tags:
   - urbano,transito,moto
-featured: false
+featured: true
 thumbnail: https://i3.ytimg.com/vi/YXXGQKBRybs/hqdefault.jpg
 ---
 
