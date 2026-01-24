@@ -132,14 +132,19 @@
                             <span class="live-label">Live Stream</span>
                             <span class="live-status live-status-off">Offline</span>
                         </div>
-                        <p>
+                        <p class="live-message">
                             Quando estivermos ao vivo, este espaço será ocupado pela transmissão
                             em tempo real (YouTube Live, Twitch ou outro player).
                         </p>
-                        <button class="btn btn-small btn-outline" data-toggle-live>
-                            Simular Live On/Off (teste)
-                        </button>
+                        <a class="btn btn-small btn-outline live-cta"
+                           href="#"
+                           target="_blank"
+                           rel="noopener"
+                           style="display: none;">
+                            Assistir à transmissão
+                        </a>
                     </div>
+
                 </aside>
             </div>
         </section>
@@ -280,10 +285,11 @@
         const GITHUB_BRANCH = "main"; // ou "master", se seu repo usar esse nome
 
         const VIDEOS_PATH = "content/videos";
-        const HOME_CONFIG_FILE = "content/home/hero-player.md";
+        const LIVE_CONFIG_FILE = "content/home/live-status.md";
 
         const GITHUB_API_URL = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${VIDEOS_PATH}?ref=${GITHUB_BRANCH}`;
-        const HOME_CONFIG_API_URL = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${HOME_CONFIG_FILE}?ref=${GITHUB_BRANCH}`;
+        const LIVE_CONFIG_API_URL = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${LIVE_CONFIG_FILE}?ref=${GITHUB_BRANCH}`;
+
 
 
         // Lê frontmatter YAML simples do topo do .md
@@ -378,6 +384,84 @@
             }
             return "";
         }
+
+        async function loadLiveStatusFromConfig() {
+            const liveBox = document.querySelector(".live-box");
+            if (!liveBox) return;
+
+            const labelEl = liveBox.querySelector(".live-label");
+            const statusEl = liveBox.querySelector(".live-status");
+            const messageEl = liveBox.querySelector(".live-message");
+            const ctaEl = liveBox.querySelector(".live-cta");
+
+            try {
+                const res = await fetch(LIVE_CONFIG_API_URL);
+                if (!res.ok) {
+                    console.warn("Config da live não encontrada ou inacessível:", res.status);
+                    return;
+                }
+
+                const fileMeta = await res.json();
+                if (!fileMeta.download_url) {
+                    console.warn("Config da live sem download_url.");
+                    return;
+                }
+
+                const rawRes = await fetch(fileMeta.download_url);
+                const rawText = await rawRes.text();
+
+                const data = parseFrontmatter(rawText);
+
+                // Usamos 'featured' como flag de "ao vivo"
+                const isLive = !!data.featured;
+                const title = data.title || "Live Stream";
+                const liveUrl = data.youtube_url || "";
+                const fallbackOfflineMsg =
+                    "Quando estivermos ao vivo, este espaço será ocupado pela transmissão em tempo real (YouTube Live, Twitch ou outro player).";
+
+                const message = data.body || fallbackOfflineMsg;
+
+                if (labelEl) {
+                    labelEl.textContent = title;
+                }
+
+                if (isLive) {
+                    if (statusEl) {
+                        statusEl.textContent = "Ao vivo";
+                        statusEl.classList.remove("live-status-off");
+                        statusEl.classList.add("live-status-on");
+                    }
+
+                    if (messageEl) {
+                        messageEl.textContent = message || "Estamos ao vivo agora!";
+                    }
+
+                    if (ctaEl && liveUrl) {
+                        ctaEl.style.display = "inline-flex";
+                        ctaEl.setAttribute("href", liveUrl);
+                    } else if (ctaEl) {
+                        ctaEl.style.display = "none";
+                    }
+                } else {
+                    if (statusEl) {
+                        statusEl.textContent = "Offline";
+                        statusEl.classList.remove("live-status-on");
+                        statusEl.classList.add("live-status-off");
+                    }
+
+                    if (messageEl) {
+                        messageEl.textContent = message || fallbackOfflineMsg;
+                    }
+
+                    if (ctaEl) {
+                        ctaEl.style.display = "none";
+                    }
+                }
+            } catch (err) {
+                console.error("Erro ao carregar status da live:", err);
+            }
+        }
+
 
         async function loadHeroPlayerFromConfig() {
             const iframe = document.querySelector(".video-embed-wrapper iframe");
@@ -748,7 +832,7 @@
         }
 
 
-        loadHeroPlayerFromConfig();
+        loadLiveStatusFromConfig();
         loadLatestVideos();
         loadFeaturedVideos();
         loadLatestArticles();

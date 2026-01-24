@@ -74,7 +74,38 @@ collections:
           - { label: "WhatsApp (link)", name: "whatsapp", widget: "string", required: false, hint: "Ex: https://wa.me/55DDDNUMERO" }
           - { label: "Conteúdo", name: "body", widget: "markdown", required: false }
   
-  # 4) CONFIGURAÇÃO DA HOME (PLAYER PRINCIPAL)
+            # 4) HOME / STATUS DE LIVE
+  - name: "home"
+    label: "Home"
+    label_singular: "Home"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - file: "content/home/live-status.md"
+        name: "live_status"
+        label: "Status da Live"
+        fields:
+          - label: "Título da seção"
+            name: "title"
+            widget: "string"
+            default: "Live Stream"
+          - label: "Estamos ao vivo?"
+            name: "featured"
+            widget: "boolean"
+            default: false
+          - label: "URL da transmissão (YouTube, Twitch, etc.)"
+            name: "youtube_url"
+            widget: "string"
+            required: false
+          - label: "Texto de descrição"
+            name: "body"
+            widget: "markdown"
+            required: false
+            default: "Quando estivermos ao vivo, este espaço será ocupado pela transmissão em tempo real (YouTube Live, Twitch ou outro player)."
+
+  
+  # 5) CONFIGURAÇÃO DA HOME (PLAYER PRINCIPAL)
   - name: "home"
     label: "Home"
     label_singular: "Home"
