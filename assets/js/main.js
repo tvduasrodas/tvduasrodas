@@ -456,9 +456,121 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
+    // ============================
+    // HELPERS PARA MATÉRIA (MD + FRONTMATTER)
+    // ============================
+
+    function parseFrontmatterArticle(text) {
+        const result = {
+            title: "",
+            date: "",
+            category: "",
+            author: "",
+            summary: "",
+            kicker: "",
+            tagline: "",
+            readingTime: "",
+            sponsor: "",
+            thumbnail: "",
+            videoId: "",
+            body: "",
+        };
+
+        if (!text.startsWith("---")) {
+            result.body = text.trim();
+            return result;
+        }
+
+        const second = text.indexOf("---", 3);
+        if (second === -1) {
+            result.body = text.trim();
+            return result;
+        }
+
+        const fmRaw = text.slice(3, second).trim();
+        const body = text.slice(second + 3).trim();
+        result.body = body;
+
+        fmRaw.split("\n").forEach((line) => {
+            const [key, ...rest] = line.split(":");
+            if (!key || !rest.length) return;
+            const k = key.trim();
+            const v = rest.join(":").trim().replace(/^"|"$/g, "");
+
+            if (k === "title") result.title = v;
+            else if (k === "date") result.date = v;
+            else if (k === "category") result.category = v;
+            else if (k === "author") result.author = v;
+            else if (k === "summary") result.summary = v;
+            else if (k === "kicker") result.kicker = v;
+            else if (k === "tagline") result.tagline = v;
+            else if (k === "readingTime") result.readingTime = v;
+            else if (k === "sponsor") result.sponsor = v;
+            else if (k === "thumbnail") result.thumbnail = v;
+            else if (k === "videoId") result.videoId = v;
+            else {
+                // guarda qualquer outro campo extra, se existir
+                result[k] = v;
+            }
+        });
+
+        return result;
+    }
+
+    function markdownToHtml(md) {
+        const lines = md.split(/\r?\n/);
+        const html = [];
+        let inList = false;
+
+        for (let rawLine of lines) {
+            const line = rawLine.trim();
+
+            if (!line) {
+                if (inList) {
+                    html.push("</ul>");
+                    inList = false;
+                }
+                continue;
+            }
+
+            // Lista
+            if (/^[-*]\s+/.test(line)) {
+                if (!inList) {
+                    html.push("<ul>");
+                    inList = true;
+                }
+                const item = line.replace(/^[-*]\s+/, "");
+                html.push(`<li>${item}</li>`);
+                continue;
+            } else if (inList) {
+                html.push("</ul>");
+                inList = false;
+            }
+
+            // Títulos
+            if (/^###\s+/.test(line)) {
+                html.push(`<h3>${line.replace(/^###\s+/, "")}</h3>`);
+            } else if (/^##\s+/.test(line)) {
+                html.push(`<h2>${line.replace(/^##\s+/, "")}</h2>`);
+            } else if (/^#\s+/.test(line)) {
+                html.push(`<h1>${line.replace(/^#\s+/, "")}</h1>`);
+            } else {
+                html.push(`<p>${line}</p>`);
+            }
+        }
+
+        if (inList) {
+            html.push("</ul>");
+        }
+
+        return html.join("\n");
+    }
+
+
     /* ============================
-   CARREGAMENTO DE MATÉRIA DINÂMICA (materia.html?slug=...)
-   ============================ */
+    CARREGAMENTO DE MATÉRIA DINÂMICA (materia?slug=...)
+    AGORA LENDO /content/news/<slug>.md
+    ============================ */
 
     const articleMain = document.getElementById("articleMain");
 
@@ -467,20 +579,28 @@ document.addEventListener("DOMContentLoaded", () => {
         const slug = params.get("slug");
 
         if (!slug) {
-            document.getElementById("articleTitle").textContent = "Matéria não encontrada";
-            document.getElementById("articleBody").innerHTML =
-                "<p>Slug não informado na URL. Use <code>?slug=...</code>.</p>";
+            const titleEl = document.getElementById("articleTitle");
+            const bodyEl = document.getElementById("articleBody");
+            if (titleEl) titleEl.textContent = "Matéria não encontrada";
+            if (bodyEl) {
+                bodyEl.innerHTML =
+                    "<p>Slug não informado na URL. Use <code>?slug=...</code>.</p>";
+            }
         } else {
-            fetch(`content/news/${slug}.json`)
+            // Agora buscamos o .md em content/news
+            fetch(`content/news/${slug}.md`)
                 .then((res) => {
                     if (!res.ok) {
                         throw new Error("Não encontrado");
                     }
-                    return res.json();
+                    return res.text();
                 })
-                .then((data) => {
+                .then((rawText) => {
+                    const data = parseFrontmatterArticle(rawText);
+                    const bodyHtml = markdownToHtml(data.body || "");
+
                     // Título da aba
-                    document.title = `${data.title} | TV Duas Rodas`;
+                    document.title = `${data.title || "Matéria"} | TV Duas Rodas`;
 
                     // Cabeçalho
                     const tag = document.getElementById("articleTag");
@@ -490,40 +610,55 @@ document.addEventListener("DOMContentLoaded", () => {
                     const dateEl = document.getElementById("articleDate");
                     const readEl = document.getElementById("articleReadingTime");
 
-                    if (tag) tag.textContent = data.tagline || data.category || "Matéria";
-                    if (bcTag) bcTag.textContent = data.kicker || data.category || "Matéria";
+                    if (tag) {
+                        const baseCat = data.category || "Matéria";
+                        const kicker = data.kicker || data.tagline || "";
+                        tag.textContent = kicker ? `${baseCat} · ${kicker}` : baseCat;
+                    }
+                    if (bcTag) bcTag.textContent = data.category || "Matéria";
                     if (titleEl) titleEl.textContent = data.title || "";
-                    if (authorEl) authorEl.textContent = data.author
-                        ? `Por ${data.author}`
-                        : "Por Redação TV Duas Rodas";
+                    if (authorEl)
+                        authorEl.textContent = data.author
+                            ? `Por ${data.author}`
+                            : "Por Redação TV Duas Rodas";
                     if (dateEl) dateEl.textContent = data.date || "";
-                    if (readEl) readEl.textContent = data.readingTime
-                        ? `Leitura: ${data.readingTime}`
-                        : "";
+                    if (readEl)
+                        readEl.textContent = data.readingTime
+                            ? `Leitura: ${data.readingTime}`
+                            : "";
 
-                    // Patrocínio
+                    // Patrocínio (se algum dia você adicionar no frontmatter)
                     const sponsorWrapper = document.getElementById("articleSponsorWrapper");
                     const sponsorEl = document.getElementById("articleSponsor");
                     if (data.sponsor && sponsorWrapper && sponsorEl) {
                         sponsorWrapper.hidden = false;
                         sponsorEl.textContent = data.sponsor;
+                    } else if (sponsorWrapper) {
+                        sponsorWrapper.hidden = true;
                     }
 
                     // HERO: vídeo ou imagem
-                    const hero = data.hero || {};
                     const heroVideoWrapper = document.getElementById("articleHeroVideo");
                     const heroIframe = document.getElementById("articleHeroIframe");
                     const heroImageWrapper = document.getElementById("articleHeroImage");
                     const heroImageTag = document.getElementById("articleHeroImageTag");
                     const heroCaption = document.getElementById("articleHeroCaption");
+                    const ctaContainer = document.getElementById("articleVideoCtaContainer");
+
+                    const heroImage =
+                        data.hero_image || data.image || data.thumbnail || "";
+
+                    // Zera wrappers
+                    if (heroVideoWrapper) heroVideoWrapper.hidden = true;
+                    if (heroImageWrapper) heroImageWrapper.hidden = true;
+                    if (ctaContainer) ctaContainer.innerHTML = "";
 
                     if (data.videoId && heroVideoWrapper && heroIframe) {
+                        // Se algum dia você colocar videoId no frontmatter
                         heroVideoWrapper.hidden = false;
                         heroIframe.src = `https://www.youtube.com/embed/${data.videoId}`;
                         heroIframe.title = data.title || "Vídeo da matéria";
 
-                        // Botão "Assistir na TV & Vídeos"
-                        const ctaContainer = document.getElementById("articleVideoCtaContainer");
                         if (ctaContainer) {
                             ctaContainer.innerHTML = `
               <div class="article-video-cta">
@@ -533,22 +668,22 @@ document.addEventListener("DOMContentLoaded", () => {
               </div>
             `;
                         }
-                    } else if (heroImageWrapper && heroImageTag) {
+                    } else if (heroImage && heroImageWrapper && heroImageTag) {
                         heroImageWrapper.hidden = false;
-                        heroImageTag.src = hero.image || "";
-                        heroImageTag.alt = hero.alt || data.title || "";
+                        heroImageTag.src = heroImage;
+                        heroImageTag.alt = data.title || "";
                         if (heroCaption) {
-                            heroCaption.textContent = hero.caption || "";
+                            heroCaption.textContent = data.hero_caption || "";
                         }
                     }
 
                     // Corpo da matéria
                     const bodyEl = document.getElementById("articleBody");
-                    if (bodyEl && data.bodyHtml) {
-                        bodyEl.innerHTML = data.bodyHtml;
+                    if (bodyEl) {
+                        bodyEl.innerHTML = bodyHtml || "<p>Sem conteúdo.</p>";
                     }
 
-                    // Compartilhamento
+                    // Links de compartilhamento
                     const shareBaseUrl = `${window.location.origin}${window.location.pathname}?slug=${encodeURIComponent(
                         data.slug || slug
                     )}`;
@@ -578,11 +713,12 @@ document.addEventListener("DOMContentLoaded", () => {
                     if (titleEl) titleEl.textContent = "Matéria não encontrada";
                     if (bodyEl) {
                         bodyEl.innerHTML =
-                            "<p>Não encontramos a matéria para este endereço. Verifique o link ou volte para a <a href='revista.html'>Revista</a>.</p>";
+                            "<p>Não encontramos a matéria para este link. Verifique o endereço ou volte para a <a href='revista.html'>Revista</a>.</p>";
                     }
                 });
         }
     }
+
 
 
 
