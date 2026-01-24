@@ -73,4 +73,30 @@ collections:
           - { label: "E-mail de contato", name: "email", widget: "string", required: false }
           - { label: "WhatsApp (link)", name: "whatsapp", widget: "string", required: false, hint: "Ex: https://wa.me/55DDDNUMERO" }
           - { label: "Conteúdo", name: "body", widget: "markdown", required: false }
+  
+  # 4) CONFIGURAÇÃO DA HOME (PLAYER PRINCIPAL)
+  - name: "home"
+    label: "Home"
+    label_singular: "Home"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - file: "content/home/hero-player.md"
+        name: "hero_player"
+        label: "Player principal (Home)"
+        fields:
+          - label: "Título do player"
+            name: "title"
+            widget: "string"
+            default: "Player principal TVDUASRODAS"
+          - label: "URL ou ID do vídeo (YouTube)"
+            name: "youtube"
+            widget: "string"
+            hint: "Cole a URL completa ou só o ID do vídeo (ex: xcPxjtQU1qc)"
+          - label: "Descrição (opcional)"
+            name: "body"
+            widget: "markdown"
+            required: false
+
 

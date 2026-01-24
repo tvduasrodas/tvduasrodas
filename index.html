@@ -278,9 +278,13 @@
         const GITHUB_OWNER = "tvduasrodas";
         const GITHUB_REPO = "tvduasrodas";
         const GITHUB_BRANCH = "main"; // ou "master", se seu repo usar esse nome
+
         const VIDEOS_PATH = "content/videos";
+        const HOME_CONFIG_FILE = "content/home/hero-player.md";
 
         const GITHUB_API_URL = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${VIDEOS_PATH}?ref=${GITHUB_BRANCH}`;
+        const HOME_CONFIG_API_URL = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${HOME_CONFIG_FILE}?ref=${GITHUB_BRANCH}`;
+
 
         // Lê frontmatter YAML simples do topo do .md
         function parseFrontmatter(text) {
@@ -375,6 +379,44 @@
             return "";
         }
 
+        async function loadHeroPlayerFromConfig() {
+            const iframe = document.querySelector(".video-embed-wrapper iframe");
+            if (!iframe) return;
+
+            try {
+                const res = await fetch(HOME_CONFIG_API_URL);
+                if (!res.ok) {
+                    console.warn("Config da Home não encontrada ou inacessível:", res.status);
+                    return;
+                }
+
+                const fileMeta = await res.json();
+                if (!fileMeta.download_url) {
+                    console.warn("Config da Home sem download_url.");
+                    return;
+                }
+
+                const rawRes = await fetch(fileMeta.download_url);
+                const rawText = await rawRes.text();
+
+                const data = parseFrontmatter(rawText);
+
+                const youtubeUrl = data.youtube_url || data.youtube || "";
+                const videoId = extractYouTubeId(youtubeUrl);
+
+                if (videoId) {
+                    iframe.src = `https://www.youtube.com/embed/${videoId}`;
+                }
+
+                if (data.title) {
+                    iframe.title = data.title;
+                }
+            } catch (err) {
+                console.error("Erro ao carregar config da Home:", err);
+            }
+        }
+
+
         function makeExcerpt(body, maxLen = 180) {
             if (!body) return "Clique para assistir ao vídeo.";
             // tira alguns caracteres típicos de markdown
@@ -444,22 +486,22 @@
                         const excerpt = makeExcerpt(body);
 
                         return `
-      <article class="video-card">
-        <a href="${watchUrl}">
-          <div class="video-thumb real-thumb">
-            ${thumbSrc
+          <article class="video-card">
+            <a href="${watchUrl}">
+              <div class="video-thumb real-thumb">
+                ${thumbSrc
                                 ? `<img src="${thumbSrc}" alt="${title}">`
                                 : ""
                             }
-          </div>
-          <div class="card" style="margin-top: 8px;">
-            <h3>${title}</h3>
-            <p>${excerpt}</p>
-            <span class="article-link">Assistir &rarr;</span>
-          </div>
-        </a>
-      </article>
-    `;
+              </div>
+              <div class="card" style="margin-top: 8px;">
+                <h3>${title}</h3>
+                <p>${excerpt}</p>
+                <span class="article-link">Assistir &rarr;</span>
+              </div>
+            </a>
+          </article>
+        `;
                     })
                     .join("");
 
@@ -532,19 +574,19 @@
                         const excerpt = makeExcerpt(body);
 
                         return `
-          <article class="video-card">
-            <a href="${watchUrl}">
-              <div class="video-thumb real-thumb">
-                ${thumbSrc ? `<img src="${thumbSrc}" alt="${title}">` : ""}
-              </div>
-              <div class="card" style="margin-top: 8px;">
-                <h3>${title}</h3>
-                <p>${excerpt}</p>
-                <span class="article-link">Assistir &rarr;</span>
-              </div>
-            </a>
-          </article>
-        `;
+              <article class="video-card">
+                <a href="${watchUrl}">
+                  <div class="video-thumb real-thumb">
+                    ${thumbSrc ? `<img src="${thumbSrc}" alt="${title}">` : ""}
+                  </div>
+                  <div class="card" style="margin-top: 8px;">
+                    <h3>${title}</h3>
+                    <p>${excerpt}</p>
+                    <span class="article-link">Assistir &rarr;</span>
+                  </div>
+                </a>
+              </article>
+            `;
                     })
                     .join("");
 
@@ -633,27 +675,27 @@
                         const articleUrl = `materia.html?slug=${encodeURIComponent(slug)}`;
 
                         return `
-          <article class="card article-card">
-            <a href="${articleUrl}">
-              ${imgSrc
+              <article class="card article-card">
+                <a href="${articleUrl}">
+                  ${imgSrc
                                 ? `
-              <div class="article-thumb real-thumb">
-                <img src="${imgSrc}" alt="${title}">
-              </div>
-              `
+                  <div class="article-thumb real-thumb">
+                    <img src="${imgSrc}" alt="${title}">
+                  </div>
+                  `
                                 : ""
                             }
-              <span class="category-tag">${category}</span>
-              ${dateLabel
+                  <span class="category-tag">${category}</span>
+                  ${dateLabel
                                 ? `<span class="article-date">${dateLabel}</span>`
                                 : ""
                             }
-              <h3>${title}</h3>
-              <p>${summary}</p>
-              <span class="article-link">Ler matéria &rarr;</span>
-            </a>
-          </article>
-        `;
+                  <h3>${title}</h3>
+                  <p>${summary}</p>
+                  <span class="article-link">Ler matéria &rarr;</span>
+                </a>
+              </article>
+            `;
                     })
                     .join("");
 
@@ -706,9 +748,11 @@
         }
 
 
+        loadHeroPlayerFromConfig();
         loadLatestVideos();
         loadFeaturedVideos();
         loadLatestArticles();
+
 
 
     </script>
