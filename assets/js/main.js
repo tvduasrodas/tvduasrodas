@@ -118,8 +118,29 @@ async function loadMagazineFromCMS() {
             const categoryNormalized = normalizeCategory(categoryRaw);
             const date = data.date || "";
             const author = data.author || "TVDUASRODAS";
+
+            // novos campos que vêm do frontmatter
             const cover = data.cover || "";
+            const thumbnail = data.thumbnail || "";
+            let videoId = (data.videoId || "").trim();
+            // tira aspas e casos estranhos tipo '' no começo/fim
+            videoId = videoId.replace(/^['"]+|['"]+$/g, "");
+            if (videoId === "''") videoId = "";
+
             const excerpt = markdownToExcerpt(content, 220);
+
+            // decide qual imagem usar:
+            // 1) thumbnail do CMS
+            // 2) cover do CMS
+            // 3) thumb do YouTube se tiver videoId
+            let imgSrc = "";
+            if (thumbnail) {
+                imgSrc = thumbnail;
+            } else if (cover) {
+                imgSrc = cover;
+            } else if (videoId) {
+                imgSrc = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
+            }
 
             artigos.push({
                 slug,
@@ -128,12 +149,10 @@ async function loadMagazineFromCMS() {
                 categoryNormalized,
                 date,
                 author,
-                cover,
+                imgSrc,
                 excerpt,
             });
         }
-        
-
 
         // ordena por data desc (mais recente primeiro)
         artigos.sort((a, b) => (a.date < b.date ? 1 : -1));
@@ -148,29 +167,28 @@ async function loadMagazineFromCMS() {
             const linkHref = `materia.html?slug=${encodeURIComponent(artigo.slug)}`;
             const categoriaLabel = artigo.categoryRaw || "Matéria";
 
-            // Se quiser usar imagem de capa no card, dá pra incluir aqui
             let coverHtml = "";
-            if (artigo.cover) {
+            if (artigo.imgSrc) {
                 coverHtml = `
-                        <div class="article-card-cover">
-                            <img src="${artigo.cover}" alt="${artigo.title}">
-                        </div>
-                    `;
+                    <div class="article-card-cover">
+                        <img src="${artigo.imgSrc}" alt="${artigo.title}">
+                    </div>
+                `;
             }
 
             card.innerHTML = `
-                    ${coverHtml}
-                    <span class="category-tag">${categoriaLabel}</span>
-                    <h3>
-                        <a href="${linkHref}">
-                            ${artigo.title}
-                        </a>
-                    </h3>
-                    ${artigo.excerpt ? `<p>${artigo.excerpt}</p>` : ""}
-                    <a href="${linkHref}" class="article-link">
-                        Ler matéria &rarr;
+                ${coverHtml}
+                <span class="category-tag">${categoriaLabel}</span>
+                <h3>
+                    <a href="${linkHref}">
+                        ${artigo.title}
                     </a>
-                `;
+                </h3>
+                ${artigo.excerpt ? `<p>${artigo.excerpt}</p>` : ""}
+                <a href="${linkHref}" class="article-link">
+                    Ler matéria &rarr;
+                </a>
+            `;
 
             articleGrid.appendChild(card);
         });
@@ -185,6 +203,7 @@ async function loadMagazineFromCMS() {
         }
     }
 }
+
 
 
 
