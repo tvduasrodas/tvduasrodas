@@ -4,7 +4,6 @@
 const REPO_OWNER = "tvduasrodas";
 const REPO_NAME = "tvduasrodas";
 const NEWS_PATH = "content/news";
-const VIDEOS_PATH = "content/videos";
 
 async function fetchJson(url) {
     const resp = await fetch(url);
@@ -404,7 +403,7 @@ document.addEventListener("DOMContentLoaded", () => {
             description: "Quedas, erros e situações inusitadas em duas rodas.",
             type: "video_tv",
             category: "cassetadas",
-            videoId: "xcPxjtQU1qc",
+            videoId: "xcPxjtQU1qc", 
             url: "tv.html?v=xcPxjtQU1qc",
         },
         {
@@ -466,7 +465,7 @@ document.addEventListener("DOMContentLoaded", () => {
             url: "tv.html?v=3GwjfUFyY6M",
         },
     ];
-   
+
 
     /* ============================
        FILTRO DE MATÉRIAS (REVISTA)
@@ -726,211 +725,95 @@ document.addEventListener("DOMContentLoaded", () => {
     const headerSearchInput = document.getElementById("siteSearchInput");
     const headerSearchClear = document.getElementById("siteSearchClear");
 
-    // Sempre controla o botão "x" da barra de busca (todas as páginas)
-    if (headerSearchInput && headerSearchClear) {
-        const updateClearVisibility = () => {
-            headerSearchClear.style.display = headerSearchInput.value ? "block" : "none";
-        };
-
-        updateClearVisibility();
-        headerSearchInput.addEventListener("input", updateClearVisibility);
-    }
-
-    // Helpers de busca no CMS (matérias + vídeos)
-    async function loadSearchEntriesFromPath(path, type) {
-        const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${path}?ref=main`;
-
-        try {
-            const resp = await fetch(url);
-            if (!resp.ok) {
-                console.error("Erro ao listar arquivos de busca em", path, resp.status);
-                return [];
-            }
-
-            const files = await resp.json();
-            if (!Array.isArray(files)) return [];
-
-            const mdFiles = files.filter(
-                (f) => f.type === "file" && f.name.endsWith(".md")
-            );
-
-            const entries = [];
-
-            for (const file of mdFiles) {
-                try {
-                    const raw = await fetchText(file.download_url);
-                    const { data, content } = parseFrontMatter(raw);
-
-                    const slug = file.name.replace(/\.md$/, "");
-                    const title = data.title || slug;
-                    const category = data.category || "";
-                    const date = data.date || "";
-                    const description = data.summary || data.description || "";
-                    const thumbnail = data.thumbnail || data.cover || "";
-
-                    let videoId = (data.videoId || "").trim();
-                    videoId = videoId.replace(/^['"]+|['"]+$/g, "");
-                    if (videoId === "''") videoId = "";
-
-                    const youtube = data.youtube_url || data.youtube || "";
-
-                    const excerpt = markdownToExcerpt(content, 180);
-
-                    let urlTarget = "#";
-                    if (type === "materia") {
-                        urlTarget = `materia.html?slug=${encodeURIComponent(slug)}`;
-                    } else if (type === "video") {
-                        if (videoId) {
-                            urlTarget = `tv.html?videoId=${encodeURIComponent(videoId)}`;
-                        } else if (youtube) {
-                            urlTarget = youtube;
-                        } else {
-                            urlTarget = "tv.html";
-                        }
-                    }
-
-                    entries.push({
-                        type,
-                        slug,
-                        title,
-                        category,
-                        date,
-                        description,
-                        thumbnail,
-                        videoId,
-                        youtube,
-                        excerpt,
-                        url: urlTarget,
-                        content,
-                    });
-                } catch (e) {
-                    console.error("Erro ao carregar arquivo de busca", file.name, e);
-                }
-            }
-
-            return entries;
-        } catch (e) {
-            console.error("Erro de rede ao listar path", path, e);
-            return [];
-        }
-    }
-
-    async function buildCmsSearchIndex() {
-        // Carrega matérias e vídeos em paralelo
-        const [articles, videos] = await Promise.all([
-            loadSearchEntriesFromPath(NEWS_PATH, "materia"),
-            loadSearchEntriesFromPath(VIDEOS_PATH, "video"),
-        ]);
-
-        const all = [...articles, ...videos];
-
-        // ordena por data (mais recente primeiro)
-        all.sort((a, b) => {
-            const da = new Date(a.date || 0);
-            const db = new Date(b.date || 0);
-            return db - da;
-        });
-
-        return all;
-    }
-
-    function renderSearchResultCard(item) {
-        const isVideo = item.type === "video";
-        const typeLabel = isVideo ? "Vídeo" : "Matéria";
-        const categoryText = item.category ? " · " + item.category : "";
-
-        let thumbHtml = "";
-        if (isVideo && item.videoId) {
-            const thumbUrl = `https://img.youtube.com/vi/${item.videoId}/hqdefault.jpg`;
-            thumbHtml = `
-                <div class="search-video-thumb"
-                     style="background-image:url('${thumbUrl}');background-size:cover;background-position:center;">
-                    <span class="search-play-icon"></span>
-                </div>
-            `;
-        }
-
-        const text = item.excerpt || item.description || "";
-
-        return `
-          <article class="card article-card ${isVideo ? "search-video-card" : ""}">
-            <span class="category-tag">
-              ${typeLabel}${categoryText}
-            </span>
-            ${thumbHtml}
-            <h3>${item.title}</h3>
-            <p>${text}</p>
-            <a href="${item.url}" class="article-link">
-              ${isVideo ? "Assistir vídeo" : "Ler matéria"} &rarr;
-            </a>
-          </article>
-        `;
-    }
-
-    // Lógica específica da página busca.html
+    // Se estou na página busca.html
     if (searchResultsContainer && searchSummary) {
         const params = new URLSearchParams(window.location.search);
         const termRaw = params.get("q") || "";
         const term = termRaw.trim().toLowerCase();
 
-        // Preenche o campo da barra de busca
+        // Preenche o campo de busca no header com o termo atual
         if (headerSearchInput) {
             headerSearchInput.value = termRaw;
         }
 
-        // Na página de busca, o "x" limpa e volta pra busca vazia
+        // Configura o botão "x" de limpar
         if (headerSearchClear && headerSearchInput) {
+            headerSearchClear.style.display = termRaw ? "block" : "none";
             headerSearchClear.addEventListener("click", () => {
                 headerSearchInput.value = "";
-                window.location.href = "busca.html";
+                window.location.href = "busca.html"; // volta pra busca "vazia"
             });
         }
 
         if (!term) {
             searchSummary.textContent =
-                "Digite um termo na barra de busca acima para encontrar matérias e vídeos da TV Duas Rodas.";
+                "Digite um termo na barra de busca acima para encontrar matérias, vídeos e conteúdos da TV Duas Rodas.";
             searchResultsContainer.innerHTML = "";
         } else {
-            searchSummary.textContent = `Buscando por “${termRaw}” em matérias e vídeos...`;
-            searchResultsContainer.innerHTML = "";
+            // Filtra o índice
+            const results = SITE_INDEX.filter((item) => {
+                const haystack =
+                    (item.title + " " + item.description + " " + (item.category || "")).toLowerCase();
+                return haystack.includes(term);
+            });
 
-            (async () => {
-                try {
-                    const all = await buildCmsSearchIndex();
+            if (!results.length) {
+                searchSummary.textContent = `Nenhum resultado encontrado para “${termRaw}”.`;
+                searchResultsContainer.innerHTML = "";
+            } else {
+                searchSummary.textContent = `Encontrados ${results.length} resultado(s) para “${termRaw}”.`;
 
-                    const results = all.filter((item) => {
-                        const haystack = (
-                            (item.title || "") +
-                            " " +
-                            (item.description || "") +
-                            " " +
-                            (item.category || "") +
-                            " " +
-                            (item.content || "")
-                        ).toLowerCase();
+                searchResultsContainer.innerHTML = results
+                    .map((item) => {
+                        const isVideo =
+                            item.type === "video_tv" || item.type === "video_home";
 
-                        return haystack.includes(term);
-                    });
+                        const typeLabel = isVideo ? "Vídeo" : "Matéria";
 
-                    if (!results.length) {
-                        searchSummary.textContent = `Nenhum resultado encontrado para “${termRaw}”.`;
-                        searchResultsContainer.innerHTML = "";
-                    } else {
-                        searchSummary.textContent = `Encontrados ${results.length} resultado(s) para “${termRaw}”.`;
+                        // Se for vídeo e tiver videoId, monta a URL do thumb
+                        const thumbStyle =
+                            isVideo && item.videoId
+                                ? `style="background-image:url('https://img.youtube.com/vi/${item.videoId}/hqdefault.jpg');background-size:cover;background-position:center;"`
+                                : "";
 
-                        searchResultsContainer.innerHTML = results
-                            .map((item) => renderSearchResultCard(item))
-                            .join("");
-                    }
-                } catch (e) {
-                    console.error("Erro na busca CMS:", e);
-                    searchSummary.textContent = `Não foi possível buscar por “${termRaw}” agora. Tente novamente mais tarde.`;
-                    searchResultsContainer.innerHTML = "";
-                }
-            })();
+                        return `
+          <article class="card article-card ${isVideo ? "search-video-card" : ""
+                            }">
+            <span class="category-tag">
+              ${typeLabel}${item.category ? " · " + item.category : ""}
+            </span>
+
+            ${isVideo
+                                ? `<div class="search-video-thumb" ${thumbStyle}>
+                     <span class="search-play-icon"></span>
+                   </div>`
+                                : ""
+                            }
+
+            <h3>${item.title}</h3>
+            <p>${item.description}</p>
+            <a href="${item.url}" class="article-link">
+              ${isVideo ? "Assistir vídeo" : "Ler matéria"} &rarr;
+            </a>
+          </article>
+        `;
+                    })
+                    .join("");
+
+            }
+        }
+    } else {
+        // Não estou em busca.html, mas ainda quero que o botão "x" limpe o input
+        if (headerSearchInput && headerSearchClear) {
+            headerSearchClear.style.display = headerSearchInput.value ? "block" : "none";
+
+            headerSearchClear.addEventListener("click", () => {
+                headerSearchInput.value = "";
+                headerSearchClear.style.display = "none";
+                headerSearchInput.focus();
+            });
         }
     }
-
 
     // ============================
     // HELPERS PARA MATÉRIA (MD + FRONTMATTER)
