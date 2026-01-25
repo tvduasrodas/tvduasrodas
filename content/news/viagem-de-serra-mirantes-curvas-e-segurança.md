@@ -5,6 +5,7 @@ author: TVDUASRODAS
 category: Moto
 videoId: ''
 cover: https://blog.asxcapacete.com.br/wp-content/uploads/2025/01/Serra-do-Rio-do-Rastro-moto-como-chegar-1.jpg
+featured: true
 featured_revista: false
 ---
 
