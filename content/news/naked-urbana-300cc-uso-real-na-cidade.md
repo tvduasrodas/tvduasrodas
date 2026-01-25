@@ -5,6 +5,7 @@ author: TVDUASRODAS
 category: Moto
 videoId: WOj68S1XheE
 cover: ''
+featured: true
 featured_revista: false
 ---
 
