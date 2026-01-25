@@ -5,6 +5,7 @@ author: TVDUASRODAS
 category: Moto
 videoId: 6Y8sH7xPwjs
 cover: ''
+featured_revista: true
 ---
 
 A categoria de motos naked de média cilindrada ganhou força nos últimos anos para quem usa a moto tanto no dia a dia quanto para um rolê mais divertido aos finais de semana. A naked 300cc que testamos na TV Duas Rodas promete equilíbrio entre conforto, economia e um toque esportivo.
