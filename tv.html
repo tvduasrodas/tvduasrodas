@@ -572,34 +572,7 @@
             }
 
 
-
-                // Filtros por categoria
-                const filterButtonsTv = document.querySelectorAll(".tv-filter-btn");
-                if (filterButtonsTv.length) {
-                    filterButtonsTv.forEach((btn) => {
-                        btn.addEventListener("click", () => {
-                            const filter = btn.getAttribute("data-filter");
-
-                            filterButtonsTv.forEach((b) => b.classList.remove("active"));
-                            btn.classList.add("active");
-
-                            cards.forEach((card) => {
-                                const cat = card.getAttribute("data-category") || "outros";
-                                if (filter === "all" || filter === cat) {
-                                    card.style.display = "";
-                                } else {
-                                    card.style.display = "none";
-                                }
-                            });
-                        });
-                    });
-                }
-            }
-
-
-
             async function loadLiveStatusFromConfigTv() {
-                TV_IS_LIVE = true;
                 const liveBox = document.querySelector(".tv-live-section .live-box");
                 if (!liveBox) return;
 
@@ -688,16 +661,7 @@
 
                         if (ctaEl) {
                             ctaEl.style.display = "none";
-                        }
-
-                        const mainPlayer = document.getElementById("mainPlayer");
-
-                        if (mainPlayer) {
-                            const defaultId = mainPlayer.getAttribute("data-default-id");
-                            if (defaultId) {
-                                mainPlayer.src = `https://www.youtube.com/embed/${defaultId}`;
-                            }
-                        }
+                        }                        
 
                         if (statusDot) {
                             statusDot.textContent = "off-air";
