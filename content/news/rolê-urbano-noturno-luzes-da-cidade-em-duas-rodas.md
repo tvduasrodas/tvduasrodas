@@ -2,7 +2,7 @@
 title: 'Rolê urbano noturno: luzes da cidade em duas rodas'
 date: 2026-01-24T21:01:00-05:00
 author: TVDUASRODAS
-category: Moto
+category: Urbano
 videoId: W1e7F5OibhU
 cover: ''
 featured_revista: false
