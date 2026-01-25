@@ -328,8 +328,10 @@
             const GITHUB_BRANCH_TV = "main";
 
             const LIVE_CONFIG_FILE_TV = "content/home/live-status.md";
+            const cacheBustTv = Date.now();
+
             const LIVE_CONFIG_API_URL_TV =
-                `https://api.github.com/repos/${GITHUB_OWNER_TV}/${GITHUB_REPO_TV}/contents/${LIVE_CONFIG_FILE_TV}?ref=${GITHUB_BRANCH_TV}`;
+                `https://api.github.com/repos/${GITHUB_OWNER_TV}/${GITHUB_REPO_TV}/contents/${LIVE_CONFIG_FILE_TV}?ref=${GITHUB_BRANCH_TV}&cb=${cacheBustTv}`;
 
             // Parse simples de frontmatter YAML (igual ao da index)
             function parseFrontmatterTv(text) {

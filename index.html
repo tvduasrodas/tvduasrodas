@@ -289,7 +289,10 @@
 
         // URLs da API do GitHub
         const GITHUB_API_URL = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${VIDEOS_PATH}?ref=${GITHUB_BRANCH}`;
-        const LIVE_CONFIG_API_URL = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${LIVE_CONFIG_FILE}?ref=${GITHUB_BRANCH}`;
+        const cacheBust = Date.now();
+
+        const LIVE_CONFIG_API_URL =
+            `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${LIVE_CONFIG_FILE}?ref=${GITHUB_BRANCH}&cb=${cacheBust}`;
         const HOME_CONFIG_API_URL = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${HOME_CONFIG_FILE}?ref=${GITHUB_BRANCH}`;
 
 
