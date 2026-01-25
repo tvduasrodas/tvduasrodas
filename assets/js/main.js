@@ -260,7 +260,7 @@ function renderMagazineHero(article) {
 
     if (dateEl) {
         dateEl.textContent = article.date
-            ? "Publicado em " + formatArticleDate(article.date)
+            ? "Publicado em " + formatDatePtBr(article.date)
             : "";
     }
 
