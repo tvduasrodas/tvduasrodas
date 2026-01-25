@@ -25,7 +25,16 @@ collections:
       - { label: "Data de publicação", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ssZ" }
       - { label: "URL do YouTube", name: "youtube_url", widget: "string", hint: "Cole aqui o link completo do vídeo no YouTube" }
       - { label: "Duração (opcional)", name: "duration", widget: "string", required: false, hint: "Ex: 12:34" }
-      - { label: "Categoria", name: "category", widget: "select", options: ["Review", "Dica", "Viagem", "Vlog", "Notícia", "Outro"], default: "Review" }
+      - label: "Categoria"
+        name: "category"
+        widget: "select"
+        options:
+          - { label: "Cassetadas", value: "cassetadas" }
+          - { label: "Cross", value: "cross" }
+          - { label: "Urbano", value: "urbano" }
+          - { label: "Viagem", value: "viagem" }
+          - { label: "Outros", value: "outros" }
+        default: "urbano"
       - { label: "Tags", name: "tags", widget: "list", required: false, hint: "Ex: honda, yamaha, viagem" }
       - { label: "Destaque na Home?", name: "featured", widget: "boolean", default: false }
       - label: "Thumbnail"
