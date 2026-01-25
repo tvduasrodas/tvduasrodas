@@ -83,7 +83,8 @@
                 </header>
 
                 <!-- FORMULÁRIO (apenas front-end, sem backend por enquanto) -->
-                <section class="contact-section">
+                <section class="contact-section" action="https://formspree.io/f/mykeqojp"
+  method="POST">
                     <h2>Envie uma mensagem</h2>
                     <form class="contact-form" action="#" method="post">
                         <div class="form-row">
@@ -116,11 +117,8 @@
                             <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
                         </div>
 
-                        <button type="submit" class="btn btn-primary">Enviar mensagem (dummy)</button>
-                        <p class="form-note">
-                            Este formulário é apenas visual por enquanto. Depois podemos integrar com
-                            um serviço de envio (Formspree, Getform, backend próprio, etc.).
-                        </p>
+                        <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+                        
                     </form>
                 </section>
 
