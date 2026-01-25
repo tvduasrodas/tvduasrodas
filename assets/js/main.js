@@ -114,25 +114,25 @@ async function loadMagazineFromCMS() {
 
             const slug = file.name.replace(/\.md$/, "");
             const title = data.title || slug;
+
             const categoryRaw = data.category || "";
             const categoryNormalized = normalizeCategory(categoryRaw);
+
             const date = data.date || "";
             const author = data.author || "TVDUASRODAS";
 
-            // novos campos que vêm do frontmatter
             const cover = data.cover || "";
             const thumbnail = data.thumbnail || "";
             let videoId = (data.videoId || "").trim();
-            // tira aspas e casos estranhos tipo '' no começo/fim
             videoId = videoId.replace(/^['"]+|['"]+$/g, "");
             if (videoId === "''") videoId = "";
 
+            const featured =
+                String(data.featured || "").toLowerCase() === "true";
+
             const excerpt = markdownToExcerpt(content, 220);
 
-            // decide qual imagem usar:
-            // 1) thumbnail do CMS
-            // 2) cover do CMS
-            // 3) thumb do YouTube se tiver videoId
+            // decide qual imagem usar (para cards e, se quiser, para hero também)
             let imgSrc = "";
             if (thumbnail) {
                 imgSrc = thumbnail;
@@ -151,15 +151,31 @@ async function loadMagazineFromCMS() {
                 author,
                 imgSrc,
                 excerpt,
+                videoId,
+                featured,
             });
         }
 
         // ordena por data desc (mais recente primeiro)
         artigos.sort((a, b) => (a.date < b.date ? 1 : -1));
 
+        // define qual artigo vai para a HERO:
+        let heroArticle = artigos.find((a) => a.featured);
+        if (!heroArticle && artigos.length) {
+            heroArticle = artigos[0]; // fallback: mais recente
+        }
+
+        // Renderiza a HERO
+        if (heroArticle) {
+            renderMagazineHero(heroArticle);
+        }
+
+        // Monta o GRID, pulando o hero (para não duplicar)
         articleGrid.innerHTML = "";
 
         artigos.forEach((artigo) => {
+            if (heroArticle && artigo.slug === heroArticle.slug) return;
+
             const card = document.createElement("article");
             card.className = "card article-card";
             card.dataset.category = artigo.categoryNormalized;
@@ -204,6 +220,65 @@ async function loadMagazineFromCMS() {
     }
 }
 
+
+function renderMagazineHero(article) {
+    const hero = document.getElementById("revistaHero");
+    if (!hero || !article) return;
+
+    const linkEl = document.getElementById("revistaHeroLink");
+    const imgEl = document.getElementById("revistaHeroImage");
+    const catEl = document.getElementById("revistaHeroCategory");
+    const titleEl = document.getElementById("revistaHeroTitle");
+    const excerptEl = document.getElementById("revistaHeroExcerpt");
+    const authorEl = document.getElementById("revistaHeroAuthor");
+    const dateEl = document.getElementById("revistaHeroDate");
+    const readMoreEl = document.getElementById("revistaHeroReadMore");
+
+    const url = `materia.html?slug=${encodeURIComponent(article.slug)}`;
+
+    if (linkEl) linkEl.href = url;
+    if (readMoreEl) readMoreEl.href = url;
+
+    if (titleEl) {
+        titleEl.href = url;
+        titleEl.textContent = article.title || "Matéria em destaque";
+    }
+
+    if (catEl) {
+        catEl.textContent = article.categoryRaw || "Matéria";
+    }
+
+    if (excerptEl) {
+        excerptEl.textContent = article.excerpt || "";
+    }
+
+    if (authorEl) {
+        authorEl.textContent = article.author
+            ? "Por " + article.author
+            : "";
+    }
+
+    if (dateEl) {
+        dateEl.textContent = article.date
+            ? "Publicado em " + formatArticleDate(article.date)
+            : "";
+    }
+
+    // Escolhe imagem da hero:
+    // 1) thumbnailHero (se você quiser diferenciar)
+    // 2) thumbnail / cover
+    // 3) thumb do YouTube
+    let heroImgSrc = article.heroImgSrc || article.imgSrc || "";
+
+    if (!heroImgSrc && article.videoId) {
+        heroImgSrc = `https://img.youtube.com/vi/${article.videoId}/hqdefault.jpg`;
+    }
+
+    if (imgEl && heroImgSrc) {
+        imgEl.src = heroImgSrc;
+        imgEl.alt = article.title || "";
+    }
+}
 
 
 
