@@ -2,7 +2,7 @@
 title: 'Viagem de serra: mirantes, curvas e segurança'
 date: 2026-01-24T20:59:00-05:00
 author: TVDUASRODAS
-category: Moto
+category: Outro
 videoId: ''
 cover: https://blog.asxcapacete.com.br/wp-content/uploads/2025/01/Serra-do-Rio-do-Rastro-moto-como-chegar-1.jpg
 featured: true
