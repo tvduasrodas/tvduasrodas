@@ -220,6 +220,88 @@ async function loadMagazineFromCMS() {
     }
 }
 
+async function loadMoreArticlesSidebar() {
+    const sidebarRev = document.getElementById("moreArticlesSidebarRevista");
+    const sidebarMat = document.getElementById("moreArticlesSidebarMateria");
+
+    // Se nenhuma das duas páginas tiver o bloco, não faz nada
+    if (!sidebarRev && !sidebarMat) return;
+
+    try {
+        // Lista de arquivos em content/news
+        const apiListUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${NEWS_PATH}?ref=main`;
+        const files = await fetchJson(apiListUrl);
+
+        // pega só .md
+        const mdFiles = files.filter((f) => f.name.endsWith(".md"));
+
+        const artigos = [];
+
+        for (const file of mdFiles) {
+            const raw = await fetchText(file.download_url);
+            const { data, content } = parseFrontMatter(raw);
+
+            const slug = file.name.replace(/\.md$/, "");
+            const title = data.title || slug;
+            const categoryRaw = data.category || "";
+            const date = data.date || "";
+
+            artigos.push({
+                slug,
+                title,
+                categoryRaw,
+                date,
+                excerpt: markdownToExcerpt(content, 160),
+            });
+        }
+
+        if (!artigos.length) {
+            if (sidebarRev) sidebarRev.innerHTML = "<li>Nenhuma matéria encontrada.</li>";
+            if (sidebarMat) sidebarMat.innerHTML = "<li>Nenhuma matéria encontrada.</li>";
+            return;
+        }
+
+        // se estiver na página de matéria, evita repetir a matéria atual
+        const currentSlug = getSlugFromUrl(); // já existe no main.js
+        let candidatos = artigos;
+        if (currentSlug) {
+            candidatos = artigos.filter((a) => a.slug !== currentSlug);
+            if (!candidatos.length) {
+                candidatos = artigos; // fallback: se só tiver 1 matéria
+            }
+        }
+
+        // embaralha (aleatório)
+        candidatos.sort(() => Math.random() - 0.5);
+
+        // pega 4
+        const selecionados = candidatos.slice(0, 4);
+
+        const html = selecionados
+            .map((artigo) => {
+                const href = `materia.html?slug=${encodeURIComponent(artigo.slug)}`;
+                return `<li><a href="${href}">${artigo.title}</a></li>`;
+            })
+            .join("");
+
+        if (sidebarRev) {
+            sidebarRev.innerHTML = html;
+        }
+        if (sidebarMat) {
+            sidebarMat.innerHTML = html;
+        }
+    } catch (err) {
+        console.error("Erro ao carregar Mais matérias:", err);
+        if (sidebarRev) {
+            sidebarRev.innerHTML = "<li>Não foi possível carregar as matérias agora.</li>";
+        }
+        if (sidebarMat) {
+            sidebarMat.innerHTML = "<li>Não foi possível carregar as matérias agora.</li>";
+        }
+    }
+}
+
+
 
 function renderMagazineHero(article) {
     const hero = document.getElementById("revistaHero");
@@ -1035,6 +1117,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Dispara carregamento da Revista (lista de matérias)
     loadMagazineFromCMS();
+    loadMoreArticlesSidebar();
 
 
 
