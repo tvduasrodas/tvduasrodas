@@ -984,6 +984,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 const youtube = data.youtube_url || data.youtube || "";
 
+                // 🔽 NOVO: se for vídeo e não tiver videoId, extrai do link do YouTube
+                if (type === "video" && !videoId && youtube) {
+                    videoId = extractYouTubeId(youtube);
+                }
+
                 const excerpt = markdownToExcerpt(content, 180);
 
                 let url = "#";
