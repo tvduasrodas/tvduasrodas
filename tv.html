@@ -381,6 +381,31 @@
                 return result;
             }
 
+            function getYoutubeEmbedUrl(url) {
+                if (!url) return null;
+
+                // youtu.be/ID
+                if (url.includes("youtu.be/")) {
+                    const id = url.split("youtu.be/")[1].split(/[?&]/)[0];
+                    return `https://www.youtube.com/embed/${id}?autoplay=1`;
+                }
+
+                // youtube.com/watch?v=ID
+                if (url.includes("watch?v=")) {
+                    const id = url.split("watch?v=")[1].split(/[?&]/)[0];
+                    return `https://www.youtube.com/embed/${id}?autoplay=1`;
+                }
+
+                // youtube.com/live/ID
+                if (url.includes("/live/")) {
+                    const id = url.split("/live/")[1].split(/[?&]/)[0];
+                    return `https://www.youtube.com/embed/${id}?autoplay=1`;
+                }
+
+                return null;
+            }
+
+
             async function loadLiveStatusFromConfigTv() {
                 const liveBox = document.querySelector(".tv-live-section .live-box");
                 if (!liveBox) return;
@@ -441,6 +466,14 @@
                             ctaEl.style.display = "none";
                         }
 
+                        // 🔴 TROCA O PLAYER PRINCIPAL PARA O VÍDEO DA LIVE
+                        const mainPlayer = document.getElementById("mainPlayer");
+                        const embedUrl = getYoutubeEmbedUrl(liveUrl);
+
+                        if (mainPlayer && embedUrl) {
+                            mainPlayer.src = embedUrl;
+                        }
+
                         // atualiza a bolinha do player principal
                         if (statusDot) {
                             statusDot.textContent = "live";
@@ -460,6 +493,15 @@
 
                         if (ctaEl) {
                             ctaEl.style.display = "none";
+                        }
+
+                        const mainPlayer = document.getElementById("mainPlayer");
+
+                        if (mainPlayer) {
+                            const defaultId = mainPlayer.getAttribute("data-default-id");
+                            if (defaultId) {
+                                mainPlayer.src = `https://www.youtube.com/embed/${defaultId}`;
+                            }
                         }
 
                         if (statusDot) {
