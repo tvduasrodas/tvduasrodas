@@ -364,7 +364,7 @@ function renderMagazineHero(article) {
 }
 
 // ============================
-// HOME – ÚLTIMAS MATÉRIAS DA REVISTA
+// HOME – ÚLTIMAS MATÉRIAS DA REVISTA (index.html)
 // ============================
 async function loadHomeLatestArticles() {
     const grid = document.getElementById("latest-articles-grid");
@@ -375,7 +375,7 @@ async function loadHomeLatestArticles() {
         const files = await fetchJson(apiListUrl);
 
         const mdFiles = Array.isArray(files)
-            ? files.filter((f) => f.name.endsWith(".md"))
+            ? files.filter((f) => f.type === "file" && f.name.endsWith(".md"))
             : [];
 
         const artigos = [];
@@ -389,7 +389,24 @@ async function loadHomeLatestArticles() {
 
             const categoryRaw = data.category || "";
             const date = data.date || "";
+
+            const cover = data.cover || "";
+            const thumbnail = data.thumbnail || "";
+            let videoId = (data.videoId || "").trim();
+            videoId = videoId.replace(/^['"]+|['"]+$/g, "");
+            if (videoId === "''") videoId = "";
+
             const excerpt = markdownToExcerpt(content, 200);
+
+            // Mesma lógica da revista: thumb > cover > thumb do YouTube
+            let imgSrc = "";
+            if (thumbnail) {
+                imgSrc = thumbnail;
+            } else if (cover) {
+                imgSrc = cover;
+            } else if (videoId) {
+                imgSrc = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
+            }
 
             artigos.push({
                 slug,
@@ -397,6 +414,7 @@ async function loadHomeLatestArticles() {
                 categoryRaw,
                 date,
                 excerpt,
+                imgSrc,
             });
         }
 
@@ -410,7 +428,7 @@ async function loadHomeLatestArticles() {
             (a, b) => new Date(b.date || 0) - new Date(a.date || 0)
         );
 
-        const top = artigos.slice(0, 4); // mostra só 4 na home
+        const top = artigos.slice(0, 4); // mostra 4 cards na home
         grid.innerHTML = "";
 
         top.forEach((artigo) => {
@@ -422,7 +440,17 @@ async function loadHomeLatestArticles() {
             )}`;
             const categoriaLabel = artigo.categoryRaw || "Matéria";
 
+            let coverHtml = "";
+            if (artigo.imgSrc) {
+                coverHtml = `
+                    <div class="article-card-cover">
+                        <img src="${artigo.imgSrc}" alt="${artigo.title}">
+                    </div>
+                `;
+            }
+
             card.innerHTML = `
+                ${coverHtml}
                 <span class="category-tag">${categoriaLabel}</span>
                 <h3>
                     <a href="${linkHref}">
@@ -447,14 +475,16 @@ async function loadHomeLatestArticles() {
     }
 }
 
+
 // ============================
-// HOME – ÚLTIMOS VÍDEOS + VÍDEOS EM DESTAQUE
+// HOME – ÚLTIMOS VÍDEOS + VÍDEOS EM DESTAQUE (index.html)
 // ============================
 async function loadHomeVideos() {
     const latestGrid = document.getElementById("latest-videos-grid");
     const featuredGrid = document.getElementById("featured-videos-grid");
 
-    if (!latestGrid && !featuredGrid) return; // não está na home
+    // Se não estiver na home, não faz nada
+    if (!latestGrid && !featuredGrid) return;
 
     try {
         const apiListUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${VIDEOS_PATH}?ref=main`;
@@ -475,14 +505,28 @@ async function loadHomeVideos() {
             const category = data.category || "";
             const date = data.date || "";
 
+            const cover = data.cover || "";
+            const thumbnail = data.thumbnail || "";
+
             let videoId = (data.videoId || "").trim();
             videoId = videoId.replace(/^['"]+|['"]+$/g, "");
             if (videoId === "''") videoId = "";
 
             const youtube = data.youtube_url || data.youtube || "";
             const excerpt = markdownToExcerpt(content, 160);
-            const featured =
+            const featuredFlag =
                 String(data.featured || "").toLowerCase() === "true";
+
+            // Thumb para o vídeo:
+            // 1) YouTube (se tiver videoId) → 2) thumbnail → 3) cover
+            let thumbUrl = "";
+            if (videoId) {
+                thumbUrl = `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`;
+            } else if (thumbnail) {
+                thumbUrl = thumbnail;
+            } else if (cover) {
+                thumbUrl = cover;
+            }
 
             const url = videoId
                 ? `tv.html?v=${encodeURIComponent(videoId)}`
@@ -496,18 +540,21 @@ async function loadHomeVideos() {
                 videoId,
                 youtube,
                 excerpt,
-                featured,
+                featured: featuredFlag,
+                thumbUrl,
                 url,
             });
         }
 
         if (!videos.length) {
-            if (latestGrid)
+            if (latestGrid) {
                 latestGrid.innerHTML =
                     "<p>Nenhum vídeo cadastrado ainda.</p>";
-            if (featuredGrid)
+            }
+            if (featuredGrid) {
                 featuredGrid.innerHTML =
                     "<p>Nenhum vídeo em destaque ainda.</p>";
+            }
             return;
         }
 
@@ -516,24 +563,30 @@ async function loadHomeVideos() {
             (a, b) => new Date(b.date || 0) - new Date(a.date || 0)
         );
 
-        // ---------- Últimos vídeos ----------
+        // ---------- "Últimos vídeos" – SOMENTE 3 ----------
         if (latestGrid) {
             latestGrid.innerHTML = "";
-            videos.slice(0, 4).forEach((video) => {
+            const latest = videos.slice(0, 3); // AQUI trocamos para 3
+
+            latest.forEach((video) => {
                 const card = document.createElement("article");
                 card.className = "card video-card tv-video-card";
 
-                const thumbUrl = video.videoId
-                    ? `https://img.youtube.com/vi/${video.videoId}/hqdefault.jpg`
-                    : "";
+                // Usa .video-thumb.real-thumb + <img> para usar seu CSS de PLAY
+                const thumbHtml = video.thumbUrl
+                    ? `
+                    <a href="${video.url}" class="video-thumb real-thumb">
+                        <img src="${video.thumbUrl}" alt="${video.title}">
+                    </a>
+                `
+                    : `
+                    <a href="${video.url}" class="video-thumb placeholder small">
+                        <span>Ver vídeo</span>
+                    </a>
+                `;
 
                 card.innerHTML = `
-                    <a href="${video.url}" class="video-thumb" ${thumbUrl
-                        ? `style="background-image:url('${thumbUrl}');"`
-                        : ""
-                    }>
-                        <span class="video-play-icon"></span>
-                    </a>
+                    ${thumbHtml}
                     <div class="video-info">
                         <span class="category-tag">${video.category || "Vídeo"
                     }</span>
@@ -549,7 +602,7 @@ async function loadHomeVideos() {
             });
         }
 
-        // ---------- Vídeos em destaque ----------
+        // ---------- "Vídeos em destaque" ----------
         if (featuredGrid) {
             featuredGrid.innerHTML = "";
 
@@ -557,23 +610,26 @@ async function loadHomeVideos() {
             const list =
                 featuredVideos.length > 0
                     ? featuredVideos
-                    : videos.slice(0, 4); // fallback: pega os mais recentes
+                    : videos.slice(0, 3); // também 3 por padrão
 
             list.forEach((video) => {
                 const card = document.createElement("article");
                 card.className = "card video-card tv-video-card";
 
-                const thumbUrl = video.videoId
-                    ? `https://img.youtube.com/vi/${video.videoId}/hqdefault.jpg`
-                    : "";
+                const thumbHtml = video.thumbUrl
+                    ? `
+                    <a href="${video.url}" class="video-thumb real-thumb">
+                        <img src="${video.thumbUrl}" alt="${video.title}">
+                    </a>
+                `
+                    : `
+                    <a href="${video.url}" class="video-thumb placeholder small">
+                        <span>Ver vídeo</span>
+                    </a>
+                `;
 
                 card.innerHTML = `
-                    <a href="${video.url}" class="video-thumb" ${thumbUrl
-                        ? `style="background-image:url('${thumbUrl}');"`
-                        : ""
-                    }>
-                        <span class="video-play-icon"></span>
-                    </a>
+                    ${thumbHtml}
                     <div class="video-info">
                         <span class="category-tag">${video.category || "Vídeo"
                     }</span>
@@ -590,14 +646,17 @@ async function loadHomeVideos() {
         }
     } catch (e) {
         console.error("Erro ao carregar vídeos da home", e);
-        if (latestGrid)
+        if (latestGrid) {
             latestGrid.innerHTML =
                 "<p>Não foi possível carregar os vídeos agora.</p>";
-        if (featuredGrid)
+        }
+        if (featuredGrid) {
             featuredGrid.innerHTML =
                 "<p>Não foi possível carregar os vídeos em destaque agora.</p>";
+        }
     }
 }
+
 
 
 document.addEventListener("DOMContentLoaded", () => {
