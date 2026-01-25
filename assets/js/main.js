@@ -984,10 +984,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 const youtube = data.youtube_url || data.youtube || "";
 
-                // 🔽 NOVO: se for vídeo e não tiver videoId, extrai do link do YouTube
-                if (type === "video" && !videoId && youtube) {
+                // Agora: se NÃO tiver videoId, sempre tenta extrair do YouTube,
+                // tanto para vídeos quanto para matérias
+                if (!videoId && youtube) {
                     videoId = extractYouTubeId(youtube);
                 }
+
 
                 const excerpt = markdownToExcerpt(content, 180);
 
@@ -1053,44 +1055,62 @@ document.addEventListener("DOMContentLoaded", () => {
         const typeLabel = isVideo ? "Vídeo" : "Matéria";
         const categoryText = item.category ? " · " + item.category : "";
 
+        let thumbUrl = "";
+
+        if (isVideo) {
+            // Vídeos: 1) thumb YouTube (videoId) 2) thumbnail/cover
+            if (item.videoId) {
+                thumbUrl = `https://img.youtube.com/vi/${item.videoId}/hqdefault.jpg`;
+            } else if (item.thumbnail) {
+                thumbUrl = item.thumbnail;
+            }
+        } else {
+            // Matérias: 1) thumbnail/cover 2) se não tiver, usa thumb automático do YouTube se tiver vídeo
+            if (item.thumbnail) {
+                thumbUrl = item.thumbnail;
+            } else if (item.videoId) {
+                thumbUrl = `https://img.youtube.com/vi/${item.videoId}/hqdefault.jpg`;
+            }
+        }
+
         let thumbHtml = "";
 
-        // Thumb para vídeo (YouTube)
-        if (isVideo && item.videoId) {
-            const thumbUrl = `https://img.youtube.com/vi/${item.videoId}/hqdefault.jpg`;
-            thumbHtml = `
+        if (thumbUrl) {
+            if (isVideo) {
+                // Vídeo: com ícone de play
+                thumbHtml = `
                 <div class="search-video-thumb"
                      style="background-image:url('${thumbUrl}');background-size:cover;background-position:center;">
                     <span class="search-play-icon"></span>
                 </div>
             `;
-        }
-
-        // Thumb para matéria (usa thumbnail/cover se tiver)
-        if (!isVideo && item.thumbnail) {
-            thumbHtml = `
+            } else {
+                // Matéria: sem ícone de play
+                thumbHtml = `
                 <div class="search-video-thumb"
-                     style="background-image:url('${item.thumbnail}');background-size:cover;background-position:center;">
+                     style="background-image:url('${thumbUrl}');background-size:cover;background-position:center;">
                 </div>
             `;
+            }
         }
 
         const text = item.excerpt || "Clique para ver mais.";
 
         return `
-          <article class="card article-card ${isVideo ? "search-video-card" : ""}">
-            <span class="category-tag">
-              ${typeLabel}${categoryText}
-            </span>
-            ${thumbHtml}
-            <h3>${item.title}</h3>
-            <p>${text}</p>
-            <a href="${item.url}" class="article-link">
-              ${isVideo ? "Assistir vídeo" : "Ler matéria"} &rarr;
-            </a>
-          </article>
-        `;
+      <article class="card article-card ${isVideo ? "search-video-card" : ""}">
+        <span class="category-tag">
+          ${typeLabel}${categoryText}
+        </span>
+        ${thumbHtml}
+        <h3>${item.title}</h3>
+        <p>${text}</p>
+        <a href="${item.url}" class="article-link">
+          ${isVideo ? "Assistir vídeo" : "Ler matéria"} &rarr;
+        </a>
+      </article>
+    `;
     }
+
 
     // --- Controle do botão "x" em QUALQUER página ---
     if (headerSearchInput && headerSearchClear) {
