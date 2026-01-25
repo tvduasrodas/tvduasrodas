@@ -4,6 +4,7 @@
 const REPO_OWNER = "tvduasrodas";
 const REPO_NAME = "tvduasrodas";
 const NEWS_PATH = "content/news";
+const VIDEOS_PATH = "content/videos";
 
 async function fetchJson(url) {
     const resp = await fetch(url);
@@ -366,87 +367,6 @@ function renderMagazineHero(article) {
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    /* ============================
-   ÍNDICE ESTÁTICO DE CONTEÚDOS PARA BUSCA
-   ============================ */
-    const SITE_INDEX = [
-        // Exemplos – você pode ir aumentando essa lista
-
-        // Matérias da revista (revista.html)
-
-        {
-            title: "Scooters elétricas na cidade: vale a pena?",
-            description: "Guia completo sobre consumo, autonomia, recarga e manutenção de scooters elétricas.",
-            type: "materia",
-            category: "eletrico",
-            url: "materia.html?slug=guia-scooters-eletricas",
-        },
-        {
-            title: "Viagem de serra: mirantes, curvas e segurança",
-            description: "Dicas de roteiro, equipamento e pilotagem para aproveitar a serra com segurança.",
-            type: "materia",
-            category: "viagem",
-            url: "materia.html?slug=viagem-serra-mirantes",
-        },
-        {
-            title: "Rolê urbano noturno: luzes da cidade em duas rodas",
-            description: "Como curtir o rolê noturno com segurança e boa visibilidade.",
-            type: "materia",
-            category: "urbano",
-            url: "materia.html?slug=role-urbano-noturno",
-        },
-
-
-        // Vídeos da TV (tv.html – galeria)
-        {
-            title: "Cassetadas · Episódio 01",
-            description: "Quedas, erros e situações inusitadas em duas rodas.",
-            type: "video_tv",
-            category: "cassetadas",
-            videoId: "xcPxjtQU1qc", 
-            url: "tv.html?v=xcPxjtQU1qc",
-        },
-        {
-            title: "Cassetadas · Episódio 02",
-            description: "Mais momentos engraçados e imprevistos.",
-            type: "video_tv",
-            category: "cassetadas",
-            videoId: "3GwjfUFyY6M",
-            url: "tv.html?v=3GwjfUFyY6M",
-        },
-        {
-            title: "Cross · Treino na pista",
-            description: "Saltos, curvas e técnica em pista de terra.",
-            type: "video_tv",
-            category: "cross",
-            videoId: "2vjPBrBU-TM",
-            url: "tv.html?v=2vjPBrBU-TM",
-        },
-        {
-            title: "Cross · Corrida completa",
-            description: "Prova com vários pilotos e muita adrenalina.",
-            type: "video_tv",
-            category: "cross",
-            videoId: "L_jWHffIx5E",
-            url: "tv.html?v=L_jWHffIx5E",
-        },
-        {
-            title: "Rolê urbano · Night ride",
-            description: "Rolê noturno passando pelos principais pontos da cidade.",
-            type: "video_tv",
-            category: "urbano",
-            videoId: "kXYiU_JCYtU",
-            url: "tv.html?v=kXYiU_JCYtU",
-        },
-        {
-            title: "Viagem · Serra e mirantes",
-            description: "Subida de serra com paradas em mirantes e visual incrível.",
-            type: "video_tv",
-            category: "viagem",
-            videoId: "hTWKbfoikeg",
-            url: "tv.html?v=hTWKbfoikeg",
-        },
-
         // Vídeos em destaque na home (index.html)
         {
             title: "Live · TV Duas Rodas",
@@ -718,14 +638,161 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     /* ============================
-    PÁGINA DE RESULTADOS DE BUSCA (busca.html)
-    ============================ */
+PÁGINA DE RESULTADOS DE BUSCA (busca.html)
+============================ */
     const searchResultsContainer = document.getElementById("searchResults");
     const searchSummary = document.getElementById("searchSummary");
     const headerSearchInput = document.getElementById("siteSearchInput");
     const headerSearchClear = document.getElementById("siteSearchClear");
 
-    // Se estou na página busca.html
+    // --- Helpers da busca no CMS (matérias + vídeos) ---
+
+    async function loadSearchEntriesFromPath(path, type) {
+        const apiListUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${path}?ref=main`;
+
+        let files = [];
+        try {
+            files = await fetchJson(apiListUrl);
+        } catch (e) {
+            console.error("Erro ao listar arquivos para busca em", path, e);
+            return [];
+        }
+
+        if (!Array.isArray(files)) return [];
+
+        const mdFiles = files.filter((f) => f.type === "file" && f.name.endsWith(".md"));
+        const entries = [];
+
+        for (const file of mdFiles) {
+            try {
+                const raw = await fetchText(file.download_url);
+                const { data, content } = parseFrontMatter(raw);
+
+                const slug = file.name.replace(/\.md$/, "");
+                const title = data.title || slug;
+                const category = data.category || "";
+                const date = data.date || "";
+
+                const thumbnail = data.thumbnail || data.cover || "";
+
+                let videoId = (data.videoId || "").trim();
+                videoId = videoId.replace(/^['"]+|['"]+$/g, "");
+                if (videoId === "''") videoId = "";
+
+                const youtube = data.youtube_url || data.youtube || "";
+
+                const excerpt = markdownToExcerpt(content, 180);
+
+                let url = "#";
+                if (type === "materia") {
+                    url = `materia.html?slug=${encodeURIComponent(slug)}`;
+                } else if (type === "video") {
+                    if (videoId) {
+                        url = `tv.html?v=${encodeURIComponent(videoId)}`;
+                    } else if (youtube) {
+                        url = youtube;
+                    } else {
+                        url = "tv.html";
+                    }
+                }
+
+                entries.push({
+                    type,
+                    slug,
+                    title,
+                    category,
+                    date,
+                    thumbnail,
+                    videoId,
+                    youtube,
+                    excerpt,
+                    content,
+                    url,
+                });
+            } catch (e) {
+                console.error("Erro ao carregar arquivo de busca", file.name, e);
+            }
+        }
+
+        return entries;
+    }
+
+    async function buildCmsSearchIndex() {
+        // sempre inclui matérias
+        const promises = [loadSearchEntriesFromPath(NEWS_PATH, "materia")];
+
+        // se você já criou VIDEOS_PATH, descomenta a linha abaixo
+        if (typeof VIDEOS_PATH !== "undefined") {
+            promises.push(loadSearchEntriesFromPath(VIDEOS_PATH, "video"));
+        }
+
+        const resultsByType = await Promise.all(promises);
+        const all = resultsByType.flat();
+
+        // ordena por data (mais recente primeiro)
+        all.sort((a, b) => {
+            const da = new Date(a.date || 0);
+            const db = new Date(b.date || 0);
+            return db - da;
+        });
+
+        return all;
+    }
+
+    function renderSearchResultCard(item) {
+        const isVideo = item.type === "video";
+        const typeLabel = isVideo ? "Vídeo" : "Matéria";
+        const categoryText = item.category ? " · " + item.category : "";
+
+        // Thumb para vídeo (YouTube) – mesma ideia da lógica antiga
+        let thumbHtml = "";
+        if (isVideo && item.videoId) {
+            const thumbUrl = `https://img.youtube.com/vi/${item.videoId}/hqdefault.jpg`;
+            thumbHtml = `
+                <div class="search-video-thumb"
+                     style="background-image:url('${thumbUrl}');background-size:cover;background-position:center;">
+                    <span class="search-play-icon"></span>
+                </div>
+            `;
+        }
+
+        // Se você quiser thumbs de matérias também:
+        if (!isVideo && item.thumbnail) {
+            thumbHtml = `
+                <div class="search-video-thumb"
+                     style="background-image:url('${item.thumbnail}');background-size:cover;background-position:center;">
+                </div>
+            `;
+        }
+
+        const text = item.excerpt || "Clique para ver mais.";
+
+        return `
+          <article class="card article-card ${isVideo ? "search-video-card" : ""}">
+            <span class="category-tag">
+              ${typeLabel}${categoryText}
+            </span>
+            ${thumbHtml}
+            <h3>${item.title}</h3>
+            <p>${text}</p>
+            <a href="${item.url}" class="article-link">
+              ${isVideo ? "Assistir vídeo" : "Ler matéria"} &rarr;
+            </a>
+          </article>
+        `;
+    }
+
+    // --- Controle do botão "x" em QUALQUER página ---
+    if (headerSearchInput && headerSearchClear) {
+        const updateClearVisibility = () => {
+            headerSearchClear.style.display = headerSearchInput.value ? "block" : "none";
+        };
+        updateClearVisibility();
+
+        headerSearchInput.addEventListener("input", updateClearVisibility);
+    }
+
+    // --- Lógica específica da página busca.html ---
     if (searchResultsContainer && searchSummary) {
         const params = new URLSearchParams(window.location.search);
         const termRaw = params.get("q") || "";
@@ -736,71 +803,57 @@ document.addEventListener("DOMContentLoaded", () => {
             headerSearchInput.value = termRaw;
         }
 
-        // Configura o botão "x" de limpar
+        // Configura o botão "x" de limpar: volta para busca "vazia"
         if (headerSearchClear && headerSearchInput) {
             headerSearchClear.style.display = termRaw ? "block" : "none";
             headerSearchClear.addEventListener("click", () => {
                 headerSearchInput.value = "";
-                window.location.href = "busca.html"; // volta pra busca "vazia"
+                window.location.href = "busca.html";
             });
         }
 
         if (!term) {
             searchSummary.textContent =
-                "Digite um termo na barra de busca acima para encontrar matérias, vídeos e conteúdos da TV Duas Rodas.";
+                "Digite um termo na barra de busca acima para encontrar matérias e vídeos da TV Duas Rodas.";
             searchResultsContainer.innerHTML = "";
         } else {
-            // Filtra o índice
-            const results = SITE_INDEX.filter((item) => {
-                const haystack =
-                    (item.title + " " + item.description + " " + (item.category || "")).toLowerCase();
-                return haystack.includes(term);
-            });
+            searchSummary.textContent = `Buscando por “${termRaw}” em matérias e vídeos...`;
+            searchResultsContainer.innerHTML = "";
 
-            if (!results.length) {
-                searchSummary.textContent = `Nenhum resultado encontrado para “${termRaw}”.`;
-                searchResultsContainer.innerHTML = "";
-            } else {
-                searchSummary.textContent = `Encontrados ${results.length} resultado(s) para “${termRaw}”.`;
+            (async () => {
+                try {
+                    const all = await buildCmsSearchIndex();
 
-                searchResultsContainer.innerHTML = results
-                    .map((item) => {
-                        const isVideo =
-                            item.type === "video_tv" || item.type === "video_home";
+                    const results = all.filter((item) => {
+                        const haystack = (
+                            (item.title || "") +
+                            " " +
+                            (item.category || "") +
+                            " " +
+                            (item.excerpt || "") +
+                            " " +
+                            (item.content || "")
+                        ).toLowerCase();
 
-                        const typeLabel = isVideo ? "Vídeo" : "Matéria";
+                        return haystack.includes(term);
+                    });
 
-                        // Se for vídeo e tiver videoId, monta a URL do thumb
-                        const thumbStyle =
-                            isVideo && item.videoId
-                                ? `style="background-image:url('https://img.youtube.com/vi/${item.videoId}/hqdefault.jpg');background-size:cover;background-position:center;"`
-                                : "";
-
-                        return `
-          <article class="card article-card ${isVideo ? "search-video-card" : ""
-                            }">
-            <span class="category-tag">
-              ${typeLabel}${item.category ? " · " + item.category : ""}
-            </span>
-
-            ${isVideo
-                                ? `<div class="search-video-thumb" ${thumbStyle}>
-                     <span class="search-play-icon"></span>
-                   </div>`
-                                : ""
-                            }
-
-            <h3>${item.title}</h3>
-            <p>${item.description}</p>
-            <a href="${item.url}" class="article-link">
-              ${isVideo ? "Assistir vídeo" : "Ler matéria"} &rarr;
-            </a>
-          </article>
-        `;
-                    })
-                    .join("");
-
-            }
+                    if (!results.length) {
+                        searchSummary.textContent = `Nenhum resultado encontrado para “${termRaw}”.`;
+                        searchResultsContainer.innerHTML = "";
+                    } else {
+                        searchSummary.textContent = `Encontrados ${results.length} resultado(s) para “${termRaw}”.`;
+                        searchResultsContainer.innerHTML = results
+                            .map((item) => renderSearchResultCard(item))
+                            .join("");
+                    }
+                } catch (e) {
+                    console.error("Erro na busca CMS:", e);
+                    searchSummary.textContent =
+                        `Não foi possível buscar por “${termRaw}” agora. Tente novamente mais tarde.`;
+                    searchResultsContainer.innerHTML = "";
+                }
+            })();
         }
     } else {
         // Não estou em busca.html, mas ainda quero que o botão "x" limpe o input
@@ -814,6 +867,8 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         }
     }
+
+   
 
     // ============================
     // HELPERS PARA MATÉRIA (MD + FRONTMATTER)
