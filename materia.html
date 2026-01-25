@@ -8,175 +8,171 @@
   <link rel="icon" href="assets/img/logoTVicon_web.ico" type="image/x-icon" />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
-<body class="page-internal">
-  <!-- BARRA TOPO (ANÚNCIO) -->
-  <div class="ad-bar">
-    <div class="container ad-bar-inner">
-      <span>Espaço para patrocinador topo · 970x90</span>
+<body class="page-internal page-materia">
+    <!-- BARRA TOPO (ANÚNCIO) -->
+    <div class="ad-bar">
+        <div class="container ad-bar-inner">
+            <span>Espaço para patrocinador topo · 970x90</span>
+        </div>
     </div>
-  </div>
 
-  <!-- HEADER (igual às outras páginas internas) -->
-  <header class="site-header">
-    <div class="container header-inner">
-      <div class="logo-wrapper">
-        <a href="index.html" class="logo-link">
-          <img src="assets/img/logotv.png" alt="TV Duas Rodas" class="logo-image" />
-        </a>
-        <div class="brand-sub">
-          Motos · Bikes · Scooters · Elétricos
+    <!-- HEADER (igual às outras páginas internas) -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="logo-wrapper">
+                <a href="index.html" class="logo-link">
+                    <img src="assets/img/logotv.png" alt="TV Duas Rodas" class="logo-image" />
+                </a>
+                <div class="brand-sub">
+                    Motos · Bikes · Scooters · Elétricos
+                </div>
+            </div>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="revista.html" class="active">Revista</a></li>
+                    <li><a href="tv.html">TV &amp; Vídeos</a></li>
+                    <li><a href="imprensa.html">Imprensa</a></li>
+                    <li><a href="contato.html">Contato &amp; Patrocínios</a></li>
+                </ul>
+            </nav>
+
+            <form class="site-search" action="busca.html" method="get">
+                <div class="site-search-field">
+                    <span class="search-icon" aria-hidden="true">🔍</span>
+                    <input type="search"
+                           id="siteSearchInput"
+                           name="q"
+                           placeholder="Buscar no site..."
+                           aria-label="Buscar no site" />
+                    <button type="button"
+                            id="siteSearchClear"
+                            class="site-search-clear"
+                            aria-label="Limpar busca">
+                        ×
+                    </button>
+                </div>
+            </form>
+
+            <div class="social-header">
+                <a href="#" class="social-icon">YT</a>
+                <a href="#" class="social-icon">IG</a>
+                <a href="#" class="social-icon">TT</a>
+            </div>
         </div>
-      </div>
+    </header>
 
-      <nav class="main-nav">
-        <ul>
-          <li><a href="index.html">Início</a></li>
-          <li><a href="revista.html" class="active">Revista</a></li>
-          <li><a href="tv.html">TV &amp; Vídeos</a></li>
-          <li><a href="imprensa.html">Imprensa</a></li>
-          <li><a href="contato.html">Contato &amp; Patrocínios</a></li>
-        </ul>
-      </nav>
+    <!-- CONTEÚDO GENÉRICO DA MATÉRIA (preenchido via JS) -->
+    <main class="section">
+        <div class="container layout-with-sidebar article-layout">
+            <!-- COLUNA PRINCIPAL -->
+            <article class="article-main" id="articleMain">
+                <div class="article-breadcrumb">
+                    <a href="revista.html">Revista</a> &raquo;
+                    <span id="articleBreadcrumbTag">Categoria</span>
+                </div>
 
-      <form class="site-search" action="busca.html" method="get">
-        <div class="site-search-field">
-          <span class="search-icon" aria-hidden="true">🔍</span>
-          <input
-            type="search"
-            id="siteSearchInput"
-            name="q"
-            placeholder="Buscar no site..."
-            aria-label="Buscar no site"
-          />
-          <button
-            type="button"
-            id="siteSearchClear"
-            class="site-search-clear"
-            aria-label="Limpar busca">
-            ×
-          </button>
+                <header class="article-header">
+                    <span class="category-tag" id="articleTag">Categoria · Tipo</span>
+                    <h1 id="articleTitle">Título da matéria</h1>
+                    <div class="article-meta">
+                        <span id="articleAuthor">Por Redação TV Duas Rodas</span>
+                        <span>•</span>
+                        <span id="articleDate">Data</span>
+                        <span>•</span>
+                        <span id="articleReadingTime">Leitura: 0 min</span>
+                    </div>
+
+                    <div class="article-sponsor" id="articleSponsorWrapper" hidden>
+                        <span>Patrocínio:</span>
+                        <strong id="articleSponsor"></strong>
+                    </div>
+                </header>
+
+                <!-- HERO (vídeo OU imagem) -->
+                <section class="article-hero">
+                    <!-- VÍDEO -->
+                    <div class="video-embed-wrapper" id="articleHeroVideo" hidden>
+                        <iframe id="articleHeroIframe"
+                                src=""
+                                title=""
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen
+                                loading="lazy">
+                        </iframe>
+                    </div>
+
+                    <!-- IMAGEM -->
+                    <figure class="article-hero-media" id="articleHeroImage" hidden>
+                        <img id="articleHeroImageTag" src="" alt="" />
+                        <figcaption id="articleHeroCaption"></figcaption>
+                    </figure>
+
+                    <!-- Botão "Assistir na TV & Vídeos" gerado via JS quando tiver videoId -->
+                    <div id="articleVideoCtaContainer"></div>
+                </section>
+
+                <!-- SHARE -->
+                <section class="article-share" id="articleShare">
+                    <span>Compartilhar:</span>
+                    <a href="#" id="shareFb" target="_blank" rel="noopener" class="share-btn share-fb">FB</a>
+                    <a href="#" id="shareTw" target="_blank" rel="noopener" class="share-btn share-tw">X</a>
+                    <a href="#" id="shareWa" target="_blank" rel="noopener" class="share-btn share-wa">WA</a>
+                </section>
+
+                <!-- CORPO DA MATÉRIA -->
+                <section class="article-body" id="articleBody">
+                    <!-- Conteúdo vem do JSON (bodyHtml) -->
+                </section>
+
+                <!-- CTA "Veja também" -->
+                <section class="article-cta" id="articleCta">
+                    <!-- Links relacionados (se quiser, dá pra preencher via JSON também depois) -->
+                </section>
+            </article>
+
+            <!-- SIDEBAR (pode manter como estática por enquanto) -->
+            <aside class="sidebar">
+                <div class="ad-slot ad-slot-sidebar">
+                    <span>Patrocinador lateral · 300x250</span>
+                </div>
+
+                <div class="sidebar-box">
+                    <h3>Mais lidas</h3>
+                    <ul class="sidebar-list">
+                        <li><a href="materia.html?slug=review-naked-300">Naked urbana 300cc</a></li>
+                        <li><a href="materia.html?slug=guia-scooters-eletricas">Scooters elétricas</a></li>
+                        <li><a href="materia.html?slug=viagem-serra-mirantes">Viagem de serra</a></li>
+                        <li><a href="materia.html?slug=role-urbano-noturno">Rolê urbano noturno</a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-box">
+                    <h3>Quer anunciar aqui?</h3>
+                    <p>Espaço para sua marca aparecer em matérias da TV Duas Rodas.</p>
+                    <a href="contato.html" class="btn btn-small btn-primary">Falar com comercial</a>
+                </div>
+            </aside>
         </div>
-      </form>
+    </main>
 
-      <div class="social-header">
-        <a href="#" class="social-icon">YT</a>
-        <a href="#" class="social-icon">IG</a>
-        <a href="#" class="social-icon">TT</a>
-      </div>
-    </div>
-  </header>
-
-  <!-- CONTEÚDO GENÉRICO DA MATÉRIA (preenchido via JS) -->
-  <main class="section">
-    <div class="container layout-with-sidebar article-layout">
-      <!-- COLUNA PRINCIPAL -->
-      <article class="article-main" id="articleMain">
-        <div class="article-breadcrumb">
-          <a href="revista.html">Revista</a> &raquo;
-          <span id="articleBreadcrumbTag">Categoria</span>
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-left">
+                <p>© <span>TV Duas Rodas</span> – todos os direitos reservados.</p>
+                <p class="footer-small">TV &amp; Revista eletrônica para apaixonados por duas rodas.</p>
+            </div>
+            <div class="footer-ad">
+                <div class="ad-slot ad-slot-small">
+                    <span>Patrocinador rodapé · 300x60</span>
+                </div>
+            </div>
         </div>
+    </footer>
 
-        <header class="article-header">
-          <span class="category-tag" id="articleTag">Categoria · Tipo</span>
-          <h1 id="articleTitle">Título da matéria</h1>
-          <div class="article-meta">
-            <span id="articleAuthor">Por Redação TV Duas Rodas</span>
-            <span>•</span>
-            <span id="articleDate">Data</span>
-            <span>•</span>
-            <span id="articleReadingTime">Leitura: 0 min</span>
-          </div>
-
-          <div class="article-sponsor" id="articleSponsorWrapper" hidden>
-            <span>Patrocínio:</span>
-            <strong id="articleSponsor"></strong>
-          </div>
-        </header>
-
-        <!-- HERO (vídeo OU imagem) -->
-        <section class="article-hero">
-          <!-- VÍDEO -->
-          <div class="video-embed-wrapper" id="articleHeroVideo" hidden>
-            <iframe
-              id="articleHeroIframe"
-              src=""
-              title=""
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-              loading="lazy">
-            </iframe>
-          </div>
-
-          <!-- IMAGEM -->
-          <figure class="article-hero-media" id="articleHeroImage" hidden>
-            <img id="articleHeroImageTag" src="" alt="" />
-            <figcaption id="articleHeroCaption"></figcaption>
-          </figure>
-
-          <!-- Botão "Assistir na TV & Vídeos" gerado via JS quando tiver videoId -->
-          <div id="articleVideoCtaContainer"></div>
-        </section>
-
-        <!-- SHARE -->
-        <section class="article-share" id="articleShare">
-          <span>Compartilhar:</span>
-          <a href="#" id="shareFb" target="_blank" rel="noopener" class="share-btn share-fb">FB</a>
-          <a href="#" id="shareTw" target="_blank" rel="noopener" class="share-btn share-tw">X</a>
-          <a href="#" id="shareWa" target="_blank" rel="noopener" class="share-btn share-wa">WA</a>
-        </section>
-
-        <!-- CORPO DA MATÉRIA -->
-        <section class="article-body" id="articleBody">
-          <!-- Conteúdo vem do JSON (bodyHtml) -->
-        </section>
-
-        <!-- CTA "Veja também" -->
-        <section class="article-cta" id="articleCta">
-          <!-- Links relacionados (se quiser, dá pra preencher via JSON também depois) -->
-        </section>
-      </article>
-
-      <!-- SIDEBAR (pode manter como estática por enquanto) -->
-      <aside class="sidebar">
-        <div class="ad-slot ad-slot-sidebar">
-          <span>Patrocinador lateral · 300x250</span>
-        </div>
-
-        <div class="sidebar-box">
-          <h3>Mais lidas</h3>
-          <ul class="sidebar-list">
-            <li><a href="materia.html?slug=review-naked-300">Naked urbana 300cc</a></li>
-            <li><a href="materia.html?slug=guia-scooters-eletricas">Scooters elétricas</a></li>
-            <li><a href="materia.html?slug=viagem-serra-mirantes">Viagem de serra</a></li>
-            <li><a href="materia.html?slug=role-urbano-noturno">Rolê urbano noturno</a></li>
-          </ul>
-        </div>
-
-        <div class="sidebar-box">
-          <h3>Quer anunciar aqui?</h3>
-          <p>Espaço para sua marca aparecer em matérias da TV Duas Rodas.</p>
-          <a href="contato.html" class="btn btn-small btn-primary">Falar com comercial</a>
-        </div>
-      </aside>
-    </div>
-  </main>
-
-  <!-- FOOTER -->
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div class="footer-left">
-        <p>© <span>TV Duas Rodas</span> – todos os direitos reservados.</p>
-        <p class="footer-small">TV &amp; Revista eletrônica para apaixonados por duas rodas.</p>
-      </div>
-      <div class="footer-ad">
-        <div class="ad-slot ad-slot-small">
-          <span>Patrocinador rodapé · 300x60</span>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <script src="assets/js/main.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

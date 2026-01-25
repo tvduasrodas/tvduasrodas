@@ -1,3 +1,191 @@
+// ============================
+// CONFIG GITHUB / CMS
+// ============================
+const REPO_OWNER = "tvduasrodas";
+const REPO_NAME = "tvduasrodas";
+const NEWS_PATH = "content/news";
+
+async function fetchJson(url) {
+    const resp = await fetch(url);
+    if (!resp.ok) {
+        throw new Error("Erro ao buscar: " + url);
+    }
+    return resp.json();
+}
+
+async function fetchText(url) {
+    const resp = await fetch(url);
+    if (!resp.ok) {
+        throw new Error("Erro ao buscar texto: " + url);
+    }
+    return resp.text();
+}
+
+// Parse simples de frontmatter YAML
+function parseFrontMatter(markdown) {
+    if (!markdown.startsWith("---")) {
+        return { data: {}, content: markdown };
+    }
+    const endIndex = markdown.indexOf("\n---", 3);
+    if (endIndex === -1) {
+        return { data: {}, content: markdown };
+    }
+
+    const fmRaw = markdown.slice(3, endIndex).trim();
+    const body = markdown.slice(endIndex + 4).trim();
+    const data = {};
+
+    fmRaw.split("\n").forEach((line) => {
+        const idx = line.indexOf(":");
+        if (idx === -1) return;
+        const key = line.slice(0, idx).trim();
+        let value = line.slice(idx + 1).trim();
+        // tira aspas simples ou duplas
+        value = value.replace(/^['"]|['"]$/g, "");
+        data[key] = value;
+    });
+
+    return { data, content: body };
+}
+
+function markdownToExcerpt(markdown, limit = 220) {
+    const text = markdown
+        .replace(/```[\s\S]*?```/g, "") // blocos de código
+        .replace(/`([^`]+)`/g, "$1")
+        .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1") // links [texto](url)
+        .replace(/[#>*_`-]/g, "")
+        .replace(/\r?\n+/g, " ")
+        .trim();
+
+    if (text.length <= limit) return text;
+    return text.slice(0, limit).replace(/\s+\S*$/, "") + "...";
+}
+
+function normalizeCategory(cat) {
+    if (!cat) return "outro";
+    const c = cat.toLowerCase();
+
+    if (c.includes("moto")) return "motos";
+    if (c.includes("elétr") || c.includes("eletr")) return "eletrico";
+    if (c.includes("viagem") || c.includes("estrada")) return "viagem";
+    if (c.includes("urbano") || c.includes("cidade")) return "urbano";
+
+    return "outro";
+}
+
+function formatDatePtBr(iso) {
+    if (!iso) return "";
+    const d = new Date(iso);
+    if (Number.isNaN(d.getTime())) return iso;
+    return d.toLocaleDateString("pt-BR", {
+        day: "2-digit",
+        month: "short",
+        year: "numeric",
+    });
+}
+
+function getSlugFromUrl() {
+    const params = new URLSearchParams(window.location.search);
+    return params.get("slug");
+}
+
+// ============================
+// REVISTA – CARREGAR MATÉRIAS DO CMS
+// ============================
+async function loadMagazineFromCMS() {
+    const articleGrid = document.getElementById("articleGrid");
+    if (!articleGrid) return; // não está na revista
+
+    const loadingEl = document.getElementById("articleGridLoading");
+
+    try {
+        // Lista de arquivos em content/news
+        const apiListUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${NEWS_PATH}?ref=main`;
+        const files = await fetchJson(apiListUrl);
+
+        // pega só .md
+        const mdFiles = files.filter((f) => f.name.endsWith(".md"));
+
+        const artigos = [];
+
+        for (const file of mdFiles) {
+            const raw = await fetchText(file.download_url);
+            const { data, content } = parseFrontMatter(raw);
+
+            const slug = file.name.replace(/\.md$/, "");
+            const title = data.title || slug;
+            const categoryRaw = data.category || "";
+            const categoryNormalized = normalizeCategory(categoryRaw);
+            const date = data.date || "";
+            const author = data.author || "TVDUASRODAS";
+            const cover = data.cover || "";
+            const excerpt = markdownToExcerpt(content, 220);
+
+            artigos.push({
+                slug,
+                title,
+                categoryRaw,
+                categoryNormalized,
+                date,
+                author,
+                cover,
+                excerpt,
+            });
+        }
+        
+
+
+        // ordena por data desc (mais recente primeiro)
+        artigos.sort((a, b) => (a.date < b.date ? 1 : -1));
+
+        articleGrid.innerHTML = "";
+
+        artigos.forEach((artigo) => {
+            const card = document.createElement("article");
+            card.className = "card article-card";
+            card.dataset.category = artigo.categoryNormalized;
+
+            const linkHref = `materia.html?slug=${encodeURIComponent(artigo.slug)}`;
+            const categoriaLabel = artigo.categoryRaw || "Matéria";
+
+            // Se quiser usar imagem de capa no card, dá pra incluir aqui
+            let coverHtml = "";
+            if (artigo.cover) {
+                coverHtml = `
+                        <div class="article-card-cover">
+                            <img src="${artigo.cover}" alt="${artigo.title}">
+                        </div>
+                    `;
+            }
+
+            card.innerHTML = `
+                    ${coverHtml}
+                    <span class="category-tag">${categoriaLabel}</span>
+                    <h3>
+                        <a href="${linkHref}">
+                            ${artigo.title}
+                        </a>
+                    </h3>
+                    ${artigo.excerpt ? `<p>${artigo.excerpt}</p>` : ""}
+                    <a href="${linkHref}" class="article-link">
+                        Ler matéria &rarr;
+                    </a>
+                `;
+
+            articleGrid.appendChild(card);
+        });
+
+        if (!artigos.length && loadingEl) {
+            loadingEl.textContent = "Nenhuma matéria cadastrada ainda.";
+        }
+    } catch (err) {
+        console.error(err);
+        if (loadingEl) {
+            loadingEl.textContent = "Não foi possível carregar as matérias agora.";
+        }
+    }
+}
+
 
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -11,35 +199,27 @@ document.addEventListener("DOMContentLoaded", () => {
         // Matérias da revista (revista.html)
 
         {
-            title: "Naked urbana 300cc: uso real na cidade",
-            description: "Review completa da naked 300cc no trânsito urbano e em pequenos rolês.",
-            type: "materia",
-            category: "motos",
-            url: "materia.html?slug=review-naked-300",
-        },
-
-
-        {
             title: "Scooters elétricas na cidade: vale a pena?",
             description: "Guia completo sobre consumo, autonomia, recarga e manutenção de scooters elétricas.",
             type: "materia",
             category: "eletrico",
-            url: "guia-scooters-eletricas.html",
+            url: "materia.html?slug=guia-scooters-eletricas",
         },
         {
             title: "Viagem de serra: mirantes, curvas e segurança",
             description: "Dicas de roteiro, equipamento e pilotagem para aproveitar a serra com segurança.",
             type: "materia",
             category: "viagem",
-            url: "viagem-serra-mirantes.html",
+            url: "materia.html?slug=viagem-serra-mirantes",
         },
         {
             title: "Rolê urbano noturno: luzes da cidade em duas rodas",
             description: "Como curtir o rolê noturno com segurança e boa visibilidade.",
             type: "materia",
             category: "urbano",
-            url: "role-urbano-noturno.html",
+            url: "materia.html?slug=role-urbano-noturno",
         },
+
 
         // Vídeos da TV (tv.html – galeria)
         {
@@ -118,14 +298,15 @@ document.addEventListener("DOMContentLoaded", () => {
     const articleGrid = document.getElementById("articleGrid");
 
     if (filterButtons.length && articleGrid) {
-        const cards = articleGrid.querySelectorAll(".article-card");
-
         filterButtons.forEach((btn) => {
             btn.addEventListener("click", () => {
                 const filter = btn.getAttribute("data-filter");
 
                 filterButtons.forEach((b) => b.classList.remove("active"));
                 btn.classList.add("active");
+
+                // Busca os cards SEMPRE na hora do clique
+                const cards = articleGrid.querySelectorAll(".article-card");
 
                 cards.forEach((card) => {
                     const category = card.getAttribute("data-category");
@@ -138,6 +319,8 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         });
     }
+
+
 
     /* ============================
        SIMULAÇÃO LIVE ON/OFF (HOME / TV)
@@ -756,6 +939,8 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
+    // Dispara carregamento da Revista (lista de matérias)
+    loadMagazineFromCMS();
 
 
 
