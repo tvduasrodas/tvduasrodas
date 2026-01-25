@@ -96,8 +96,8 @@
                         <div class="video-embed-wrapper tv-main-iframe">
                             <!-- Troque data-default-id e src pelo ID do seu vídeo principal -->
                             <iframe id="mainPlayer"
-                                    data-default-id="dQw4w9WgXcQ"
-                                    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                                    data-default-id=""
+                                    src="https://www.youtube.com/embed/"
                                     title="TV Duas Rodas – Player principal"
                                     frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -546,7 +546,6 @@
             }
 
 
-
             function initTvGalleryBehavior() {
                 const mainPlayer = document.getElementById("mainPlayer");
                 const cards = document.querySelectorAll("#tvGallery .tv-video-card");
@@ -561,9 +560,25 @@
 
                         const embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
                         mainPlayer.src = embedUrl;
+
+                        // 🔽 AUTO-SCROLL PRO PLAYER PRINCIPAL
+                        const tvMainSection = document.querySelector(".tv-main-player");
+                        if (tvMainSection) {
+                            window.scrollTo({
+                                top: tvMainSection.offsetTop - 80, // ajusta se o header for maior/menor
+                                behavior: "smooth",
+                            });
+                        } else {
+                            // fallback, se por algum motivo não achar a section
+                            mainPlayer.scrollIntoView({
+                                behavior: "smooth",
+                                block: "center",
+                            });
+                        }
                     });
                 });
             }
+
 
             function setupTvFilters() {
                 const filterButtonsTv = document.querySelectorAll(".tv-filter-btn");
