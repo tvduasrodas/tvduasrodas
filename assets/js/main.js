@@ -367,6 +367,105 @@ function renderMagazineHero(article) {
 
 document.addEventListener("DOMContentLoaded", () => {
 
+    /* ============================
+   ÍNDICE ESTÁTICO DE CONTEÚDOS PARA BUSCA
+   ============================ */
+    const SITE_INDEX = [
+        // Exemplos – você pode ir aumentando essa lista
+
+        // Matérias da revista (revista.html)
+
+        {
+            title: "Scooters elétricas na cidade: vale a pena?",
+            description: "Guia completo sobre consumo, autonomia, recarga e manutenção de scooters elétricas.",
+            type: "materia",
+            category: "eletrico",
+            url: "materia.html?slug=guia-scooters-eletricas",
+        },
+        {
+            title: "Viagem de serra: mirantes, curvas e segurança",
+            description: "Dicas de roteiro, equipamento e pilotagem para aproveitar a serra com segurança.",
+            type: "materia",
+            category: "viagem",
+            url: "materia.html?slug=viagem-serra-mirantes",
+        },
+        {
+            title: "Rolê urbano noturno: luzes da cidade em duas rodas",
+            description: "Como curtir o rolê noturno com segurança e boa visibilidade.",
+            type: "materia",
+            category: "urbano",
+            url: "materia.html?slug=role-urbano-noturno",
+        },
+
+
+        // Vídeos da TV (tv.html – galeria)
+        {
+            title: "Cassetadas · Episódio 01",
+            description: "Quedas, erros e situações inusitadas em duas rodas.",
+            type: "video_tv",
+            category: "cassetadas",
+            videoId: "xcPxjtQU1qc",
+            url: "tv.html?v=xcPxjtQU1qc",
+        },
+        {
+            title: "Cassetadas · Episódio 02",
+            description: "Mais momentos engraçados e imprevistos.",
+            type: "video_tv",
+            category: "cassetadas",
+            videoId: "3GwjfUFyY6M",
+            url: "tv.html?v=3GwjfUFyY6M",
+        },
+        {
+            title: "Cross · Treino na pista",
+            description: "Saltos, curvas e técnica em pista de terra.",
+            type: "video_tv",
+            category: "cross",
+            videoId: "2vjPBrBU-TM",
+            url: "tv.html?v=2vjPBrBU-TM",
+        },
+        {
+            title: "Cross · Corrida completa",
+            description: "Prova com vários pilotos e muita adrenalina.",
+            type: "video_tv",
+            category: "cross",
+            videoId: "L_jWHffIx5E",
+            url: "tv.html?v=L_jWHffIx5E",
+        },
+        {
+            title: "Rolê urbano · Night ride",
+            description: "Rolê noturno passando pelos principais pontos da cidade.",
+            type: "video_tv",
+            category: "urbano",
+            videoId: "kXYiU_JCYtU",
+            url: "tv.html?v=kXYiU_JCYtU",
+        },
+        {
+            title: "Viagem · Serra e mirantes",
+            description: "Subida de serra com paradas em mirantes e visual incrível.",
+            type: "video_tv",
+            category: "viagem",
+            videoId: "hTWKbfoikeg",
+            url: "tv.html?v=hTWKbfoikeg",
+        },
+
+        // Vídeos em destaque na home (index.html)
+        {
+            title: "Live · TV Duas Rodas",
+            description: "Transmissão ao vivo com chat, convidados e novidades.",
+            type: "video_home",
+            category: "live",
+            videoId: "xcPxjtQU1qc",
+            url: "tv.html?v=xcPxjtQU1qc",
+        },
+        {
+            title: "Rolê de Rua · Episódio 01",
+            description: "Night ride pela cidade com foco na experiência de pilotagem.",
+            type: "video_home",
+            category: "urbano",
+            videoId: "3GwjfUFyY6M",
+            url: "tv.html?v=3GwjfUFyY6M",
+        },
+    ];
    
 
     /* ============================
