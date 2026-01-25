@@ -117,22 +117,27 @@
                     </section>
 
 
-                    <!-- LIVE STREAM -->
+                    <!-- LIVE STREAM (ligado ao CMS, igual à Home) -->
                     <section class="tv-live-section">
                         <div class="live-box">
                             <div class="live-info">
                                 <span class="live-label">Live Stream</span>
                                 <span class="live-status live-status-off">Offline</span>
                             </div>
-                            <p>
-                                Quando houver transmissão ao vivo, este espaço pode exibir o player da live
-                                (YouTube Live, Twitch, etc.). No momento está em modo demonstração.
+                            <p class="live-message">
+                                Quando estivermos ao vivo, este espaço será ocupado pela transmissão
+                                em tempo real (YouTube Live, Twitch ou outro player).
                             </p>
-                            <button class="btn btn-small btn-outline" data-toggle-live>
-                                Simular Live On/Off (teste)
-                            </button>
+                            <a class="btn btn-small btn-outline live-cta"
+                               href="#"
+                               target="_blank"
+                               rel="noopener"
+                               style="display: none;">
+                                Assistir à transmissão
+                            </a>
                         </div>
                     </section>
+
 
                     <!-- GALERIA DE VÍDEOS + FILTRO + PAGINAÇÃO -->
                     <section class="section tv-gallery-section">
@@ -316,5 +321,160 @@
         </footer>
 
         <script src="assets/js/main.js"></script>
+        <script>
+            // Config GitHub (mesma config da Home)
+            const GITHUB_OWNER_TV = "tvduasrodas";
+            const GITHUB_REPO_TV = "tvduasrodas";
+            const GITHUB_BRANCH_TV = "main";
+
+            const LIVE_CONFIG_FILE_TV = "content/home/live-status.md";
+            const LIVE_CONFIG_API_URL_TV =
+                `https://api.github.com/repos/${GITHUB_OWNER_TV}/${GITHUB_REPO_TV}/contents/${LIVE_CONFIG_FILE_TV}?ref=${GITHUB_BRANCH_TV}`;
+
+            // Parse simples de frontmatter YAML (igual ao da index)
+            function parseFrontmatterTv(text) {
+                const result = {
+                    title: "",
+                    date: "",
+                    youtube_url: "",
+                    thumbnail: "",
+                    category: "",
+                    featured: false,
+                    body: "",
+                };
+
+                if (!text.startsWith("---")) {
+                    result.body = text.trim();
+                    return result;
+                }
+
+                const second = text.indexOf("---", 3);
+                if (second === -1) {
+                    result.body = text.trim();
+                    return result;
+                }
+
+                const fmRaw = text.slice(3, second).trim();
+                const body = text.slice(second + 3).trim();
+                result.body = body;
+
+                fmRaw.split("\n").forEach((line) => {
+                    const [key, ...rest] = line.split(":");
+                    if (!key || !rest.length) return;
+                    const k = key.trim();
+                    let v = rest.join(":").trim();
+
+                    // remove aspas simples ou duplas no começo/fim
+                    v = v.replace(/^['"]|['"]$/g, "");
+
+                    if (k === "title") result.title = v;
+                    else if (k === "date") result.date = v;
+                    else if (k === "youtube_url" || k === "youtube") result.youtube_url = v;
+                    else if (k === "thumbnail" || k === "cover") result.thumbnail = v;
+                    else if (k === "category") result.category = v;
+                    else if (k === "featured") result.featured = (v === "true");
+                    else if (k === "videoId") result.videoId = v;
+                });
+
+                return result;
+            }
+
+            async function loadLiveStatusFromConfigTv() {
+                const liveBox = document.querySelector(".tv-live-section .live-box");
+                if (!liveBox) return;
+
+                const labelEl = liveBox.querySelector(".live-label");
+                const statusEl = liveBox.querySelector(".live-status");
+                const messageEl = liveBox.querySelector(".live-message");
+                const ctaEl = liveBox.querySelector(".live-cta");
+
+                // bolinha "off-air / live" do player principal
+                const statusDot = document.querySelector(".tv-main-header .status-dot");
+
+                try {
+                    const res = await fetch(LIVE_CONFIG_API_URL_TV);
+                    if (!res.ok) {
+                        console.warn("Config da live (TV) não encontrada:", res.status);
+                        return;
+                    }
+
+                    const fileMeta = await res.json();
+                    if (!fileMeta.download_url) {
+                        console.warn("Config da live sem download_url.");
+                        return;
+                    }
+
+                    const rawRes = await fetch(fileMeta.download_url);
+                    const rawText = await rawRes.text();
+
+                    const data = parseFrontmatterTv(rawText);
+
+                    const isLive = !!data.featured; // featured: true = Ao vivo
+                    const title = data.title || "Live Stream";
+                    const liveUrl = data.youtube_url || "";
+                    const fallbackOfflineMsg =
+                        "Quando estivermos ao vivo, este espaço será ocupado pela transmissão em tempo real (YouTube Live, Twitch ou outro player).";
+
+                    const message = data.body || fallbackOfflineMsg;
+
+                    if (labelEl) {
+                        labelEl.textContent = title;
+                    }
+
+                    if (isLive) {
+                        if (statusEl) {
+                            statusEl.textContent = "Ao vivo";
+                            statusEl.classList.remove("live-status-off");
+                            statusEl.classList.add("live-status-on");
+                        }
+
+                        if (messageEl) {
+                            messageEl.textContent = message || "Estamos ao vivo agora!";
+                        }
+
+                        if (ctaEl && liveUrl) {
+                            ctaEl.style.display = "inline-flex";
+                            ctaEl.href = liveUrl;
+                        } else if (ctaEl) {
+                            ctaEl.style.display = "none";
+                        }
+
+                        // atualiza a bolinha do player principal
+                        if (statusDot) {
+                            statusDot.textContent = "live";
+                            statusDot.classList.remove("status-off");
+                            statusDot.classList.add("status-on");
+                        }
+                    } else {
+                        if (statusEl) {
+                            statusEl.textContent = "Offline";
+                            statusEl.classList.remove("live-status-on");
+                            statusEl.classList.add("live-status-off");
+                        }
+
+                        if (messageEl) {
+                            messageEl.textContent = message || fallbackOfflineMsg;
+                        }
+
+                        if (ctaEl) {
+                            ctaEl.style.display = "none";
+                        }
+
+                        if (statusDot) {
+                            statusDot.textContent = "off-air";
+                            statusDot.classList.remove("status-on");
+                            statusDot.classList.add("status-off");
+                        }
+                    }
+                } catch (err) {
+                    console.error("Erro ao carregar status da live (TV):", err);
+                }
+            }
+
+            // dispara assim que o DOM estiver pronto
+            document.addEventListener("DOMContentLoaded", () => {
+                loadLiveStatusFromConfigTv();
+            });
+        </script>
 </body>
 </html>
