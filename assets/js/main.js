@@ -688,7 +688,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // HOME – carrega últimas matérias e vídeos (se os grids existirem na página)
     loadHomeLatestArticles();
-    loadHomeVideos();
 
     /* ============================
        FILTRO DE MATÉRIAS (REVISTA)
