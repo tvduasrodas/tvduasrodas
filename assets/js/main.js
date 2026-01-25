@@ -4,7 +4,7 @@
 const REPO_OWNER = "tvduasrodas";
 const REPO_NAME = "tvduasrodas";
 const NEWS_PATH = "content/news";
-const VIDEOS_PATH = "content/videos";
+const SEARCH_VIDEOS_PATH = "content/videos";
 
 async function fetchJson(url) {
     const resp = await fetch(url);
@@ -511,7 +511,7 @@ async function loadHomeVideos() {
     if (!latestGrid && !featuredGrid) return;
 
     try {
-        const apiListUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${VIDEOS_PATH}?ref=main`;
+        const apiListUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${SEARCH_VIDEOS_PATH}?ref=main`;
         const files = await fetchJson(apiListUrl);
 
         const mdFiles = Array.isArray(files)
@@ -1024,9 +1024,9 @@ document.addEventListener("DOMContentLoaded", () => {
         // sempre inclui matérias
         const promises = [loadSearchEntriesFromPath(NEWS_PATH, "materia")];
 
-        // se você já criou VIDEOS_PATH no topo do arquivo, inclui vídeos também
-        if (typeof VIDEOS_PATH !== "undefined") {
-            promises.push(loadSearchEntriesFromPath(VIDEOS_PATH, "video"));
+        // também inclui vídeos do CMS (content/videos) para a busca
+        if (typeof SEARCH_VIDEOS_PATH !== "undefined") {
+            promises.push(loadSearchEntriesFromPath(SEARCH_VIDEOS_PATH, "video"));
         }
 
         const resultsByType = await Promise.all(promises);
@@ -1041,6 +1041,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         return all;
     }
+
 
     function renderSearchResultCard(item) {
         const isVideo = item.type === "video";
