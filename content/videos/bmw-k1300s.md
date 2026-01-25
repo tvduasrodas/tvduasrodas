@@ -3,7 +3,7 @@ title: BMW K1300S
 date: 2026-01-23T22:58:00-05:00
 youtube_url: https://www.youtube.com/watch?v=ljLuW8t_wfM
 duration: ''
-category: Review
+category: urbano
 tags:
   - moto,bmw
 featured: false
