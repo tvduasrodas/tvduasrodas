@@ -1,10 +1,11 @@
 ---
 title: 'Viagem de serra: mirantes, curvas e segurança'
-date: 2026-01-24T01:11:00-05:00
+date: 2026-01-24T20:59:00-05:00
 author: TVDUASRODAS
-category: Outro
-videoId: xcPxjtQU1qc
-cover: ''
+category: Moto
+videoId: ''
+cover: https://blog.asxcapacete.com.br/wp-content/uploads/2025/01/Serra-do-Rio-do-Rastro-moto-como-chegar-1.jpg
+featured_revista: false
 ---
 
 Subir uma serra de moto é um dos prazeres mais marcantes para quem ama duas rodas: curvas, visual, mirantes e aquela sensação de estar “escapando” da cidade. Mas, para a viagem ser boa, alguns cuidados são fundamentais.

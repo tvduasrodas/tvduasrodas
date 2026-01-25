@@ -1,10 +1,11 @@
 ---
 title: 'Rolê urbano noturno: luzes da cidade em duas rodas'
-date: 2026-01-24T11:21:00-05:00
+date: 2026-01-24T21:01:00-05:00
 author: TVDUASRODAS
-category: Urbano
-videoId: ''
-cover: https://mobilidade.estadao.com.br/wp-content/uploads/2023/01/estrada-romeiros-768x512.jpg
+category: Moto
+videoId: W1e7F5OibhU
+cover: ''
+featured_revista: false
 ---
 
 Rodar de moto à noite pela cidade tem um clima todo especial: menos trânsito, temperaturas mais agradáveis e a iluminação dos prédios, avenidas e pontos turísticos. Mas também exige atenção redobrada.

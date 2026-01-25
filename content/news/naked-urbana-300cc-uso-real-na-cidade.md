@@ -3,7 +3,7 @@ title: 'Naked urbana 300cc: uso real na cidade'
 date: 2026-01-24T20:06:00-05:00
 author: TVDUASRODAS
 category: Moto
-videoId: 6Y8sH7xPwjs
+videoId: WOj68S1XheE
 cover: ''
 featured_revista: false
 ---

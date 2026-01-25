@@ -1,8 +1,8 @@
 ---
 title: 'Scooters elétricas na cidade: vale a pena?'
-date: 2026-01-24T11:07:00-05:00
+date: 2026-01-24T20:56:00-05:00
 author: TVDUASRODAS
-category: Urbano
+category: Moto
 videoId: ''
 cover: /assets/img/uploads/01.png
 featured_revista: true
@@ -42,8 +42,3 @@ Sem óleo de motor, filtro de ar, filtro de óleo e velas, a scooter elétrica r
 - Quem não precisa pegar tanta rodovia ou longos trechos em alta velocidade.
 
 Se essa é a sua realidade, vale muito a pena colocar na ponta do lápis e testar uma scooter elétrica. Só não esqueça de considerar garantia, disponibilidade de assistência técnica e custo para trocar a bateria daqui a alguns anos.
-
-### Veja também
-
-- [Vídeo – Scooters elétricas na cidade](tv.html?v=3GwjfUFyY6M)
-- [Review – Naked urbana 300cc](review-naked-300.html)
