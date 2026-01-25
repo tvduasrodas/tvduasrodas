@@ -17,8 +17,7 @@
         </div>
     </div>
 
-    <!-- HEADER -->
-    <header class="site-header">
+    <!-- HEADER -->    
         <header class="site-header">
             <div class="container header-inner">
                 <!-- LOGO -->
@@ -163,117 +162,9 @@
 
                         <!-- GRID DA GALERIA -->
                         <div class="grid video-grid tv-gallery-grid" id="tvGallery">
-                            <!-- Exemplo de vídeos – troque os IDs pelos seus -->
-                            <!-- CASSETADAS -->
-                            <article class="video-card tv-video-card"
-                                     data-video-id="dQw4w9WgXcQ"
-                                     data-category="cassetadas">
-                                <div class="video-thumb real-thumb">
-                                    <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg"
-                                         alt="Cassetadas 01" />
-                                </div>
-                                <div class="card" style="margin-top: 8px;">
-                                    <h3>Cassetadas · Episódio 01</h3>
-                                    <p>Quedas, erros e situações inusitadas em duas rodas.</p>
-                                </div>
-                            </article>
-
-                            <article class="video-card tv-video-card"
-                                     data-video-id="3GwjfUFyY6M"
-                                     data-category="cassetadas">
-                                <div class="video-thumb real-thumb">
-                                    <img src="https://img.youtube.com/vi/3GwjfUFyY6M/hqdefault.jpg"
-                                         alt="Cassetadas 02" />
-                                </div>
-                                <div class="card" style="margin-top: 8px;">
-                                    <h3>Cassetadas · Episódio 02</h3>
-                                    <p>Mais momentos engraçados e imprevistos.</p>
-                                </div>
-                            </article>
-
-                            <!-- CROSS -->
-                            <article class="video-card tv-video-card"
-                                     data-video-id="2vjPBrBU-TM"
-                                     data-category="cross">
-                                <div class="video-thumb real-thumb">
-                                    <img src="https://img.youtube.com/vi/2vjPBrBU-TM/hqdefault.jpg"
-                                         alt="Cross 01" />
-                                </div>
-                                <div class="card" style="margin-top: 8px;">
-                                    <h3>Cross · Treino na pista</h3>
-                                    <p>Saltos, curvas e técnica em pista de terra.</p>
-                                </div>
-                            </article>
-
-                            <article class="video-card tv-video-card"
-                                     data-video-id="L_jWHffIx5E"
-                                     data-category="cross">
-                                <div class="video-thumb real-thumb">
-                                    <img src="https://img.youtube.com/vi/L_jWHffIx5E/hqdefault.jpg"
-                                         alt="Cross 02" />
-                                </div>
-                                <div class="card" style="margin-top: 8px;">
-                                    <h3>Cross · Corrida completa</h3>
-                                    <p>Prova com vários pilotos e muita adrenalina.</p>
-                                </div>
-                            </article>
-
-                            <!-- URBANO -->
-                            <article class="video-card tv-video-card"
-                                     data-video-id="kXYiU_JCYtU"
-                                     data-category="urbano">
-                                <div class="video-thumb real-thumb">
-                                    <img src="https://img.youtube.com/vi/kXYiU_JCYtU/hqdefault.jpg"
-                                         alt="Rolê urbano 01" />
-                                </div>
-                                <div class="card" style="margin-top: 8px;">
-                                    <h3>Rolê urbano · Night ride</h3>
-                                    <p>Passando pelos principais pontos da cidade.</p>
-                                </div>
-                            </article>
-
-                            <article class="video-card tv-video-card"
-                                     data-video-id="eVTXPUF4Oz4"
-                                     data-category="urbano">
-                                <div class="video-thumb real-thumb">
-                                    <img src="https://img.youtube.com/vi/eVTXPUF4Oz4/hqdefault.jpg"
-                                         alt="Rolê urbano 02" />
-                                </div>
-                                <div class="card" style="margin-top: 8px;">
-                                    <h3>Rolê urbano · Dia de cidade</h3>
-                                    <p>Trânsito, atalhos e vida real sobre duas rodas.</p>
-                                </div>
-                            </article>
-
-                            <!-- VIAGEM -->
-                            <article class="video-card tv-video-card"
-                                     data-video-id="hTWKbfoikeg"
-                                     data-category="viagem">
-                                <div class="video-thumb real-thumb">
-                                    <img src="https://img.youtube.com/vi/hTWKbfoikeg/hqdefault.jpg"
-                                         alt="Viagem 01" />
-                                </div>
-                                <div class="card" style="margin-top: 8px;">
-                                    <h3>Viagem · Serra e mirantes</h3>
-                                    <p>Subida de serra com vários pontos de parada para apreciar o visual.</p>
-                                </div>
-                            </article>
-
-                            <article class="video-card tv-video-card"
-                                     data-video-id="60ItHLz5WEA"
-                                     data-category="viagem">
-                                <div class="video-thumb real-thumb">
-                                    <img src="https://img.youtube.com/vi/60ItHLz5WEA/hqdefault.jpg"
-                                         alt="Viagem 02" />
-                                </div>
-                                <div class="card" style="margin-top: 8px;">
-                                    <h3>Viagem · Litoral &amp; praia</h3>
-                                    <p>Estradas litorâneas, paradas em mirantes e trecho final na areia.</p>
-                                </div>
-                            </article>
-
-                            <!-- Você pode continuar adicionando mais vídeos aqui (mesma estrutura) -->
+                            <p>Carregando vídeos…</p>
                         </div>
+
 
                         <!-- PAGINAÇÃO INFERIOR -->
                         <div id="tvPaginationBottom" class="tv-pagination tv-pagination-bottom"></div>
@@ -333,6 +224,12 @@
             const LIVE_CONFIG_API_URL_TV =
                 `https://api.github.com/repos/${GITHUB_OWNER_TV}/${GITHUB_REPO_TV}/contents/${LIVE_CONFIG_FILE_TV}?ref=${GITHUB_BRANCH_TV}&cb=${cacheBustTv}`;
 
+            // mesmos vídeos da Home
+            const VIDEOS_PATH_TV = "content/videos";
+            const GITHUB_API_URL_TV_VIDEOS =
+                `https://api.github.com/repos/${GITHUB_OWNER_TV}/${GITHUB_REPO_TV}/contents/${VIDEOS_PATH_TV}?ref=${GITHUB_BRANCH_TV}&cb=${cacheBustTv}`;
+
+
             // Parse simples de frontmatter YAML (igual ao da index)
             function parseFrontmatterTv(text) {
                 const result = {
@@ -381,6 +278,43 @@
                 return result;
             }
 
+            // Converte string de data em Date, com fallback
+            function parseDateSafeTv(str) {
+                if (!str) return new Date(0);
+                const d = new Date(str);
+                if (isNaN(d.getTime())) return new Date(0);
+                return d;
+            }
+
+            // Extrai ID do YouTube de uma URL
+            function extractYouTubeIdTv(url) {
+                if (!url) return "";
+                try {
+                    if (url.includes("youtu.be/")) {
+                        return url.split("youtu.be/")[1].split(/[?&]/)[0];
+                    }
+                    if (url.includes("watch?v=")) {
+                        return url.split("watch?v=")[1].split("&")[0];
+                    }
+                    if (url.includes("shorts/")) {
+                        return url.split("shorts/")[1].split(/[?&]/)[0];
+                    }
+                } catch (e) {
+                    console.warn("Erro ao extrair ID do YouTube:", e);
+                }
+                // se não bater nenhum padrão, talvez já seja o ID
+                return url;
+            }
+
+            // Cria um resumo do texto (body) para a descrição
+            function makeExcerptTv(body, maxLen = 180) {
+                if (!body) return "Clique para assistir ao vídeo.";
+                const clean = body.replace(/[#*_`>-]/g, "").trim();
+                if (clean.length <= maxLen) return clean;
+                return clean.slice(0, maxLen).trim() + "…";
+            }
+
+
             function getYoutubeEmbedUrl(url) {
                 if (!url) return null;
 
@@ -404,6 +338,138 @@
 
                 return null;
             }
+
+            async function loadTvGalleryFromVideos() {
+                const grid = document.getElementById("tvGallery");
+                if (!grid) return;
+
+                try {
+                    // Lista arquivos .md em content/videos
+                    const res = await fetch(GITHUB_API_URL_TV_VIDEOS);
+                    if (!res.ok) {
+                        throw new Error("Erro ao listar vídeos: " + res.status);
+                    }
+
+                    const files = await res.json();
+                    const mdFiles = files.filter((f) => f.type === "file" && f.name.endsWith(".md"));
+
+                    // Busca conteúdo de cada .md
+                    const videoPromises = mdFiles.map(async (file) => {
+                        const rawRes = await fetch(file.download_url);
+                        const rawText = await rawRes.text();
+
+                        const data = parseFrontmatterTv(rawText);
+
+                        return {
+                            ...data,
+                            _dateObj: parseDateSafeTv(data.date),
+                        };
+                    });
+
+                    let videos = await Promise.all(videoPromises);
+
+                    // Ordenar por data desc (mais recentes primeiro)
+                    videos.sort((a, b) => b._dateObj - a._dateObj);
+
+                    // Evitar duplicados por videoId (caso algum arquivo repita)
+                    const seenIds = new Set();
+                    videos = videos.filter((video) => {
+                        const videoId = extractYouTubeIdTv(video.youtube_url || video.videoId || "");
+                        if (!videoId) return false;
+                        if (seenIds.has(videoId)) return false;
+                        seenIds.add(videoId);
+                        return true;
+                    });
+
+                    if (!videos.length) {
+                        grid.innerHTML = "<p>Nenhum vídeo encontrado ainda.</p>";
+                        return;
+                    }
+
+                    // Monta HTML dos cards
+                    const cardsHTML = videos
+                        .map((video) => {
+                            const title = video.title || "Vídeo sem título";
+                            const youtubeUrl = video.youtube_url || "";
+                            const body = video.body || "";
+                            const category = (video.category || "outros").toLowerCase();
+                            const videoId = extractYouTubeIdTv(youtubeUrl || video.videoId || "");
+
+                            // thumbnail: se frontmatter tiver caminho local, ajusta
+                            let thumbSrc = video.thumbnail || "";
+                            if (thumbSrc && !thumbSrc.startsWith("http") && !thumbSrc.startsWith("/")) {
+                                thumbSrc = "/" + thumbSrc.replace(/^\.?\//, "");
+                            }
+
+                            const excerpt = makeExcerptTv(body);
+
+                            return `
+        <article class="video-card tv-video-card"
+                 data-video-id="${videoId}"
+                 data-category="${category}">
+          <div class="video-thumb real-thumb">
+            ${thumbSrc ? `<img src="${thumbSrc}" alt="${title}">` : ""}
+          </div>
+          <div class="card" style="margin-top: 8px;">
+            <h3>${title}</h3>
+            <p>${excerpt}</p>
+          </div>
+        </article>
+      `;
+                        })
+                        .join("");
+
+                    grid.innerHTML = cardsHTML;
+
+                    // Depois que montar os cards, ligar os cliques no player principal
+                    initTvGalleryBehavior();
+                } catch (err) {
+                    console.error(err);
+                    grid.innerHTML =
+                        "<p>Não foi possível carregar os vídeos agora. Tente novamente mais tarde.</p>";
+                }
+            }
+
+            function initTvGalleryBehavior() {
+                const mainPlayer = document.getElementById("mainPlayer");
+                const cards = document.querySelectorAll("#tvGallery .tv-video-card");
+
+                if (!mainPlayer || !cards.length) return;
+
+                // Clique nos cards troca o vídeo do player principal
+                cards.forEach((card) => {
+                    card.addEventListener("click", () => {
+                        const videoId = card.getAttribute("data-video-id");
+                        if (!videoId) return;
+
+                        const embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
+                        mainPlayer.src = embedUrl;
+                    });
+                });
+
+                // Filtros por categoria
+                const filterButtonsTv = document.querySelectorAll(".tv-filter-btn");
+                if (filterButtonsTv.length) {
+                    filterButtonsTv.forEach((btn) => {
+                        btn.addEventListener("click", () => {
+                            const filter = btn.getAttribute("data-filter");
+
+                            filterButtonsTv.forEach((b) => b.classList.remove("active"));
+                            btn.classList.add("active");
+
+                            cards.forEach((card) => {
+                                const cat = card.getAttribute("data-category") || "outros";
+                                if (filter === "all" || filter === cat) {
+                                    card.style.display = "";
+                                } else {
+                                    card.style.display = "none";
+                                }
+                            });
+                        });
+                    });
+                }
+            }
+
 
 
             async function loadLiveStatusFromConfigTv() {
@@ -518,6 +584,7 @@
             // dispara assim que o DOM estiver pronto
             document.addEventListener("DOMContentLoaded", () => {
                 loadLiveStatusFromConfigTv();
+                loadTvGalleryFromVideos();
             });
         </script>
 </body>
