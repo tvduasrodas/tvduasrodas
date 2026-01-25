@@ -479,6 +479,30 @@ async function loadHomeLatestArticles() {
 // ============================
 // HOME – ÚLTIMOS VÍDEOS + VÍDEOS EM DESTAQUE (index.html)
 // ============================
+
+// Helper só para esta função: extrai ID de URL do YouTube
+function extractYouTubeId(url) {
+    if (!url) return "";
+    try {
+        const u = new URL(url);
+
+        // youtu.be/ID
+        if (u.hostname.includes("youtu.be")) {
+            return u.pathname.replace("/", "").trim();
+        }
+
+        // youtube.com/watch?v=ID
+        const v = u.searchParams.get("v");
+        if (v) return v.trim();
+    } catch (e) {
+        // Se não for uma URL válida, tenta um fallback simples
+    }
+
+    // Fallback: pega o último "pedaço" depois de / ou =
+    const parts = url.split(/\/|=|\?/).filter(Boolean);
+    return parts.length ? parts[parts.length - 1].trim() : "";
+}
+
 async function loadHomeVideos() {
     const latestGrid = document.getElementById("latest-videos-grid");
     const featuredGrid = document.getElementById("featured-videos-grid");
@@ -508,11 +532,19 @@ async function loadHomeVideos() {
             const cover = data.cover || "";
             const thumbnail = data.thumbnail || "";
 
+            // Lê youtube/youtube_url
+            const youtube = data.youtube_url || data.youtube || "";
+
+            // 1) tenta pegar do campo videoId
             let videoId = (data.videoId || "").trim();
             videoId = videoId.replace(/^['"]+|['"]+$/g, "");
             if (videoId === "''") videoId = "";
 
-            const youtube = data.youtube_url || data.youtube || "";
+            // 2) se não tiver videoId, extrai do youtube
+            if (!videoId && youtube) {
+                videoId = extractYouTubeId(youtube);
+            }
+
             const excerpt = markdownToExcerpt(content, 160);
             const featuredFlag =
                 String(data.featured || "").toLowerCase() === "true";
@@ -566,7 +598,7 @@ async function loadHomeVideos() {
         // ---------- "Últimos vídeos" – SOMENTE 3 ----------
         if (latestGrid) {
             latestGrid.innerHTML = "";
-            const latest = videos.slice(0, 3); // AQUI trocamos para 3
+            const latest = videos.slice(0, 3); // 3 vídeos
 
             latest.forEach((video) => {
                 const card = document.createElement("article");
@@ -588,13 +620,9 @@ async function loadHomeVideos() {
                 card.innerHTML = `
                     ${thumbHtml}
                     <div class="video-info">
-                        <span class="category-tag">${video.category || "Vídeo"
-                    }</span>
+                        <span class="category-tag">${video.category || "Vídeo"}</span>
                         <h3><a href="${video.url}">${video.title}</a></h3>
-                        ${video.excerpt
-                        ? `<p>${video.excerpt}</p>`
-                        : ""
-                    }
+                        ${video.excerpt ? `<p>${video.excerpt}</p>` : ""}
                     </div>
                 `;
 
@@ -631,13 +659,9 @@ async function loadHomeVideos() {
                 card.innerHTML = `
                     ${thumbHtml}
                     <div class="video-info">
-                        <span class="category-tag">${video.category || "Vídeo"
-                    }</span>
+                        <span class="category-tag">${video.category || "Vídeo"}</span>
                         <h3><a href="${video.url}">${video.title}</a></h3>
-                        ${video.excerpt
-                        ? `<p>${video.excerpt}</p>`
-                        : ""
-                    }
+                        ${video.excerpt ? `<p>${video.excerpt}</p>` : ""}
                     </div>
                 `;
 
@@ -656,6 +680,7 @@ async function loadHomeVideos() {
         }
     }
 }
+
 
 
 
