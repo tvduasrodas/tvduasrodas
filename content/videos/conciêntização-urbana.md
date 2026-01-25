@@ -3,7 +3,7 @@ title: Conciêntização Urbana
 date: 2026-01-23T22:53:00-05:00
 youtube_url: https://www.youtube.com/watch?v=YXXGQKBRybs
 duration: ''
-category: Notícia
+category: urbano
 tags:
   - urbano,transito,moto
 featured: true
