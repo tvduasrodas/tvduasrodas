@@ -1,6 +1,6 @@
 ---
 title: 'Viagem de serra: mirantes, curvas e segurança'
-date: 2026-01-24T21:45:00-05:00
+date: 2026-01-24T21:47:00-05:00
 author: TVDUASRODAS
 category: Outro
 videoId: ''
