@@ -339,6 +339,11 @@
                 return null;
             }
 
+            function getVideoIdFromUrlParam() {
+                const params = new URLSearchParams(window.location.search);
+                return params.get("v");
+            }
+
             async function loadTvGalleryFromVideos() {
                 const grid = document.getElementById("tvGallery");
                 if (!grid) return;
@@ -388,11 +393,19 @@
 
                     // Guarda globalmente
                     tvVideos = videos;
-
-                    // ⚪ Se NÃO estiver ao vivo, define o ÚLTIMO VÍDEO como padrão do player
+                   
                     const mainPlayer = document.getElementById("mainPlayer");
-                    if (mainPlayer && tvVideos.length && !TV_IS_LIVE) {
-                        const latestVideo = tvVideos[0]; // como estão ordenados por data desc, [0] é o mais recente
+                    const videoFromUrl = getVideoIdFromUrlParam();
+
+                    // 🎯 PRIORIDADE 1: vídeo vindo da Home (?v=)
+                    if (mainPlayer && videoFromUrl) {
+                        mainPlayer.setAttribute("data-default-id", videoFromUrl);
+                        mainPlayer.src = `https://www.youtube.com/embed/${videoFromUrl}?autoplay=1`;
+                    }
+
+                    // ⚪ PRIORIDADE 2: último vídeo publicado (somente se NÃO tiver ?v= e NÃO estiver ao vivo)
+                    else if (mainPlayer && tvVideos.length && !TV_IS_LIVE) {
+                        const latestVideo = tvVideos[0];
                         const latestId = extractYouTubeIdTv(
                             latestVideo.youtube_url || latestVideo.videoId || ""
                         );
@@ -402,6 +415,7 @@
                             mainPlayer.src = `https://www.youtube.com/embed/${latestId}`;
                         }
                     }
+
 
                     // Renderiza a grade (página 1, filtro atual)
                     tvCurrentPage = 1;
