@@ -367,27 +367,6 @@ function renderMagazineHero(article) {
 
 document.addEventListener("DOMContentLoaded", () => {
 
-  
-        // Vídeos em destaque na home (index.html)
-        {
-            title: "Live · TV Duas Rodas",
-            description: "Transmissão ao vivo com chat, convidados e novidades.",
-            type: "video_home",
-            category: "live",
-            videoId: "xcPxjtQU1qc",
-            url: "tv.html?v=xcPxjtQU1qc",
-        },
-        {
-            title: "Rolê de Rua · Episódio 01",
-            description: "Night ride pela cidade com foco na experiência de pilotagem.",
-            type: "video_home",
-            category: "urbano",
-            videoId: "3GwjfUFyY6M",
-            url: "tv.html?v=3GwjfUFyY6M",
-        },
-    ];
-
-
     /* ============================
        FILTRO DE MATÉRIAS (REVISTA)
        ============================ */
