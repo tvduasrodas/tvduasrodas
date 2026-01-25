@@ -221,6 +221,14 @@
             const GITHUB_API_URL_TV_VIDEOS =
                 `https://api.github.com/repos/${GITHUB_OWNER_TV}/${GITHUB_REPO_TV}/contents/${VIDEOS_PATH_TV}?ref=${GITHUB_BRANCH_TV}&cb=${cacheBustTv}`;
 
+            // Estado global
+            let TV_IS_LIVE = false;        // se a live está ON ou não
+            let tvVideos = [];             // todos os vídeos carregados do CMS
+            let tvCurrentFilter = "all";   // filtro atual (all, cassetadas, cross, etc.)
+            let tvCurrentPage = 1;         // página atual
+            const TV_VIDEOS_PER_PAGE = 4;  // nº de vídeos por página
+
+
 
             // Parse simples de frontmatter YAML (igual ao da index)
             function parseFrontmatterTv(text) {
@@ -378,49 +386,152 @@
                         return;
                     }
 
-                    // Monta HTML dos cards
-                    const cardsHTML = videos
-                        .map((video) => {
-                            const title = video.title || "Vídeo sem título";
-                            const youtubeUrl = video.youtube_url || "";
-                            const body = video.body || "";
-                            const category = (video.category || "outros").toLowerCase();
-                            const videoId = extractYouTubeIdTv(youtubeUrl || video.videoId || "");
+                    // Guarda globalmente
+                    tvVideos = videos;
 
-                            // thumbnail: se frontmatter tiver caminho local, ajusta
-                            let thumbSrc = video.thumbnail || "";
-                            if (thumbSrc && !thumbSrc.startsWith("http") && !thumbSrc.startsWith("/")) {
-                                thumbSrc = "/" + thumbSrc.replace(/^\.?\//, "");
-                            }
+                    // ⚪ Se NÃO estiver ao vivo, define o ÚLTIMO VÍDEO como padrão do player
+                    const mainPlayer = document.getElementById("mainPlayer");
+                    if (mainPlayer && tvVideos.length && !TV_IS_LIVE) {
+                        const latestVideo = tvVideos[0]; // como estão ordenados por data desc, [0] é o mais recente
+                        const latestId = extractYouTubeIdTv(
+                            latestVideo.youtube_url || latestVideo.videoId || ""
+                        );
 
-                            const excerpt = makeExcerptTv(body);
+                        if (latestId) {
+                            mainPlayer.setAttribute("data-default-id", latestId);
+                            mainPlayer.src = `https://www.youtube.com/embed/${latestId}`;
+                        }
+                    }
 
-                            return `
-        <article class="video-card tv-video-card"
-                 data-video-id="${videoId}"
-                 data-category="${category}">
-          <div class="video-thumb real-thumb">
-            ${thumbSrc ? `<img src="${thumbSrc}" alt="${title}">` : ""}
-          </div>
-          <div class="card" style="margin-top: 8px;">
-            <h3>${title}</h3>
-            <p>${excerpt}</p>
-          </div>
-        </article>
-      `;
-                        })
-                        .join("");
-
-                    grid.innerHTML = cardsHTML;
-
-                    // Depois que montar os cards, ligar os cliques no player principal
-                    initTvGalleryBehavior();
+                    // Renderiza a grade (página 1, filtro atual)
+                    tvCurrentPage = 1;
+                    renderTvGallery();
                 } catch (err) {
                     console.error(err);
                     grid.innerHTML =
                         "<p>Não foi possível carregar os vídeos agora. Tente novamente mais tarde.</p>";
                 }
             }
+
+            function renderTvGallery() {
+                const grid = document.getElementById("tvGallery");
+                if (!grid) return;
+
+                if (!tvVideos.length) {
+                    grid.innerHTML = "<p>Nenhum vídeo encontrado ainda.</p>";
+                    return;
+                }
+
+                // Aplica filtro
+                const filtered = tvVideos.filter((video) => {
+                    const cat = (video.category || "outros").toLowerCase();
+                    if (tvCurrentFilter === "all") return true;
+                    return cat === tvCurrentFilter;
+                });
+
+                if (!filtered.length) {
+                    grid.innerHTML = "<p>Nenhum vídeo encontrado para este filtro.</p>";
+                    renderTvPagination(0);
+                    return;
+                }
+
+                // Paginação
+                const totalPages = Math.ceil(filtered.length / TV_VIDEOS_PER_PAGE);
+                if (tvCurrentPage > totalPages) tvCurrentPage = totalPages;
+                if (tvCurrentPage < 1) tvCurrentPage = 1;
+
+                const start = (tvCurrentPage - 1) * TV_VIDEOS_PER_PAGE;
+                const end = start + TV_VIDEOS_PER_PAGE;
+                const pageVideos = filtered.slice(start, end);
+
+                // Monta HTML dos cards da página atual
+                const cardsHTML = pageVideos
+                    .map((video) => {
+                        const title = video.title || "Vídeo sem título";
+                        const youtubeUrl = video.youtube_url || "";
+                        const body = video.body || "";
+                        const category = (video.category || "outros").toLowerCase();
+                        const videoId = extractYouTubeIdTv(youtubeUrl || video.videoId || "");
+
+                        // thumbnail: se frontmatter tiver caminho local, ajusta
+                        let thumbSrc = video.thumbnail || "";
+                        if (thumbSrc && !thumbSrc.startsWith("http") && !thumbSrc.startsWith("/")) {
+                            thumbSrc = "/" + thumbSrc.replace(/^\.?\//, "");
+                        }
+
+                        const excerpt = makeExcerptTv(body);
+
+                        return `
+      <article class="video-card tv-video-card"
+               data-video-id="${videoId}"
+               data-category="${category}">
+        <div class="video-thumb real-thumb">
+          ${thumbSrc ? `<img src="${thumbSrc}" alt="${title}">` : ""}
+        </div>
+        <div class="card" style="margin-top: 8px;">
+          <h3>${title}</h3>
+          <p>${excerpt}</p>
+        </div>
+      </article>
+    `;
+                    })
+                    .join("");
+
+                grid.innerHTML = cardsHTML;
+
+                // Liga cliques nos cards para trocar o player
+                initTvGalleryBehavior();
+
+                // Renderiza paginação (topo e rodapé)
+                renderTvPagination(totalPages);
+            }
+
+            function renderTvPagination(totalPages) {
+                const top = document.getElementById("tvPaginationTop");
+                const bottom = document.getElementById("tvPaginationBottom");
+
+                if (!top || !bottom) return;
+
+                if (!totalPages || totalPages <= 1) {
+                    top.innerHTML = "";
+                    bottom.innerHTML = "";
+                    return;
+                }
+
+                let html = "";
+                for (let p = 1; p <= totalPages; p++) {
+                    html += `<button class="tv-page-btn ${p === tvCurrentPage ? "active" : ""}" data-page="${p}">${p}</button>`;
+                }
+
+                top.innerHTML = html;
+                bottom.innerHTML = html;
+
+                const attach = (container) => {
+                    container.querySelectorAll(".tv-page-btn").forEach((btn) => {
+                        btn.addEventListener("click", () => {
+                            const page = parseInt(btn.getAttribute("data-page"), 10);
+                            if (!isNaN(page) && page !== tvCurrentPage) {
+                                tvCurrentPage = page;
+                                renderTvGallery();
+
+                                // opcional: rolar até a seção de vídeos
+                                const section = document.querySelector(".tv-gallery-section");
+                                if (section) {
+                                    window.scrollTo({
+                                        top: section.offsetTop - 80,
+                                        behavior: "smooth",
+                                    });
+                                }
+                            }
+                        });
+                    });
+                };
+
+                attach(top);
+                attach(bottom);
+            }
+
+
 
             function initTvGalleryBehavior() {
                 const mainPlayer = document.getElementById("mainPlayer");
@@ -438,6 +549,29 @@
                         mainPlayer.src = embedUrl;
                     });
                 });
+            }
+
+            function setupTvFilters() {
+                const filterButtonsTv = document.querySelectorAll(".tv-filter-btn");
+                if (!filterButtonsTv.length) return;
+
+                filterButtonsTv.forEach((btn) => {
+                    btn.addEventListener("click", () => {
+                        const filter = btn.getAttribute("data-filter") || "all";
+                        tvCurrentFilter = filter;
+                        tvCurrentPage = 1;
+
+                        // visual: botão ativo
+                        filterButtonsTv.forEach((b) => b.classList.remove("active"));
+                        btn.classList.add("active");
+
+                        // re-renderiza com filtro aplicado
+                        renderTvGallery();
+                    });
+                });
+            }
+
+
 
                 // Filtros por categoria
                 const filterButtonsTv = document.querySelectorAll(".tv-filter-btn");
@@ -465,6 +599,7 @@
 
 
             async function loadLiveStatusFromConfigTv() {
+                TV_IS_LIVE = true;
                 const liveBox = document.querySelector(".tv-live-section .live-box");
                 if (!liveBox) return;
 
@@ -507,6 +642,7 @@
                     }
 
                     if (isLive) {
+                        TV_IS_LIVE = true;
                         if (statusEl) {
                             statusEl.textContent = "Ao vivo";
                             statusEl.classList.remove("live-status-off");
@@ -539,6 +675,7 @@
                             statusDot.classList.add("status-on");
                         }
                     } else {
+                        TV_IS_LIVE = false;
                         if (statusEl) {
                             statusEl.textContent = "Offline";
                             statusEl.classList.remove("live-status-on");
@@ -577,6 +714,7 @@
             document.addEventListener("DOMContentLoaded", () => {
                 loadLiveStatusFromConfigTv();
                 loadTvGalleryFromVideos();
+                setupTvFilters();
             });
         </script>
 </body>
