@@ -51,6 +51,8 @@ collections:
       - { label: "Categoria", name: "category", widget: "select", options: ["Moto", "Lançamentos", "Eventos", "Urbano", "Outro"], default: "Moto" }
       - { name: "videoId", label: "ID do vídeo (YouTube)", widget: "string", required: false }
       - { label: "Imagem principal", name: "cover", widget: "image", required: false }
+   # 👉 NOVO CAMPO: destaque na capa da Revista
+      - { label: "Destacar na capa da Revista?", name: "featured_revista", widget: "boolean", required: false, default: false }
       - { label: "Conteúdo", name: "body", widget: "markdown" }
 
   # 3) PÁGINAS FIXAS (SOBRE, CONTATO, ETC.)
