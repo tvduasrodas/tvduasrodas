@@ -1,7 +1,7 @@
 ---
 title: 2026 Supercross A2 SX 4.5.0
-date: 2026-01-25T11:46:00-05:00
-youtube_url: https://www.youtube.com/watch?v=Q6pznYWe3p0
+date: 2026-01-25T16:11:00-05:00
+youtube_url: https://www.youtube.com/watch?v=3Gnr1w5iBWI
 duration: ''
 category: cross
 tags:
