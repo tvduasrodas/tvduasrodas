@@ -3,7 +3,7 @@ title: RM Supermoto - Kartodromo ITU
 date: 2026-01-23T23:03:00-05:00
 youtube_url: https://www.youtube.com/watch?v=RFLNwn1At7M
 duration: ''
-category: Outro
+category: outros
 tags:
   - RMsupermoto,kartrodomo,moto
 featured: false
