@@ -3,7 +3,7 @@ title: OSTRA CYCLE Rio das Ostras
 date: 2026-01-23T22:22:00-05:00
 youtube_url: https://www.youtube.com/watch?v=xcPxjtQU1qc
 duration: ''
-category: Outro
+category: viagem
 tags:
   - ostra cycle,rio das ostras,rj,moto
 featured: false
