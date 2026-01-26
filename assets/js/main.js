@@ -70,7 +70,7 @@ function normalizeCategory(cat) {
     if (c.includes("lancamentos")) return "lancamentos";
     if (c.includes("viagem")) return "viagem";
     if (c.includes("urbano")) return "urbano";
-    if (c.includes("test")) return "Tests";
+    if (c.includes("test")) return "tests";
 
     return "outro";
 }
