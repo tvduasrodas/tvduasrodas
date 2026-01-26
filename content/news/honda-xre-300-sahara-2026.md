@@ -2,7 +2,7 @@
 title: Honda XRE 300 Sahara 2026
 date: 2026-01-26T02:13:00-05:00
 author: TVDUASRODAS
-category: Moto
+category: Lancamentos
 videoId: ''
 cover: /assets/img/uploads/PROOM_Sahara 300 2026_MOV_ (39).jpg
 featured: false
