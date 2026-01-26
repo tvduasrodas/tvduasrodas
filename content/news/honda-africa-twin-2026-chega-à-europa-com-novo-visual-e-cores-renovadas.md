@@ -2,7 +2,7 @@
 title: Honda Africa Twin 2026 - novo visual e cores renovadas
 date: 2026-01-26T01:15:00-05:00
 author: TVDUASRODAS
-category: Lançamentos
+category: Moto
 videoId: tNDicuj6nBA
 cover: ''
 featured: true
