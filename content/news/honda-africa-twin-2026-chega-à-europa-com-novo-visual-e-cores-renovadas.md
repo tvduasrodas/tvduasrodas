@@ -8,35 +8,37 @@ cover: ''
 featured: true
 ---
 
-## **Honda Africa Twin 2026 chega à Europa com novo visual e cores renovadas**
+## Honda Africa Twin 2026: especificações e tecnologia da big trail de referência
 
-A Honda anunciou oficialmente a **linha 2026 da CRF1100L Africa Twin para o mercado europeu**, e desta vez a grande novidade está no **visual totalmente atualizado**: cores e grafismos novos que renovam o visual da icônica big trail, sem mudanças no conjunto mecânico.
+A **Honda Africa Twin 2026** segue como uma das motocicletas mais completas do segmento **big trail**, combinando desempenho off-road, conforto em longas viagens e tecnologia de ponta. Disponível nas versões **Standard** e **Adventure Sports**, o modelo atende tanto quem busca aventura em terrenos difíceis quanto quem prioriza viagens rodoviárias de longa distância.
 
-### 🏍️ **Novas opções de cores para a versão padrão**
+### Motor e transmissão
 
-A versão “standard” da Africa Twin agora conta com **três esquemas de pintura** distintos, que trazem personalidade ao modelo:
+Ambas as versões são equipadas com motor **bicilíndrico paralelo de 1.084 cc**, arrefecido a líquido, com comando **SOHC Unicam**, oito válvulas e virabrequim a 270°, que garante entrega de torque forte e progressiva.
+A Africa Twin pode ser escolhida com **câmbio manual de 6 marchas** ou com a consagrada **transmissão automática DCT (Dual Clutch Transmission)**, que permite trocas suaves e rápidas, com modos Drive, Sport e Manual.
 
-- **Grand Prix Red** – vermelho vibrante com grafismos modernizados.
-- **Matt Ballistic Black Metallic** – preto com acabamento fosco metálico, mais agressivo.
-- **Pearl Glare White** – branco perolizado com detalhes esportivos.
+### Chassi e suspensões
 
-### 🌍 **Cores exclusivas na versão Adventure Sports**
+O chassi é do tipo **berço semiduplo em aço**, com subchassi traseiro em alumínio.
+A versão **Standard** aposta em vocação off-road, com rodas **21” dianteira e 18” traseira** e maior curso de suspensão.
+Já a **Adventure Sports ES** foca no touring, trazendo roda dianteira **19”**, menor curso de suspensão e o sistema **Showa EERA**, que ajusta eletronicamente o amortecimento em tempo real conforme a pilotagem e o terreno.
 
-Para a versão Adventure Sports — voltada a quem faz longas viagens — a Honda também amplia as opções visuais, com destaque para:
+### Tecnologia e eletrônica
 
-- **Matt Iridium Gray Metallic** com rodas douradas e grafismos exclusivos.
-- **Pearl Glare White Tricolor** com estilo inspirado na HRC (Honda Racing Corporation) e rodas douradas.
+A Africa Twin 2026 conta com uma avançada central eletrônica gerenciada por uma **IMU de 6 eixos**, que atua no controle de tração (HSTC), controle de wheelie, ABS em curvas e modos de pilotagem.
+São **seis modos de condução** (Tour, Urban, Gravel, Off-Road e dois personalizáveis), além de **controle de cruzeiro de série**.
 
-Essas combinações ressaltam o caráter aventureiro da Africa Twin e reforçam sua presença no segmento das grandes trails premium na Europa.
+O painel é uma tela **TFT colorida de 6,5 polegadas sensível ao toque**, compatível com **Apple CarPlay e Android Auto**, permitindo integração total com smartphones via Bluetooth ou cabo USB.
 
-### ⚙️ **Mecânica e tecnologia continuam consagradas**
+### Conforto e autonomia
 
-Embora o foco da atualização tenha sido o visual, a **alma da Africa Twin permanece intacta**:
+O assento possui densidade otimizada para longas distâncias e **ajuste de altura sem ferramentas**.
+A capacidade do tanque varia conforme a versão:
 
-- Motor **bicilíndrico paralelo de 1.084 cm³** com potência em torno de **102 cv** e torque equilibrado, preparado tanto para estrada quanto off-road.
-- Sistema eletrônico completo com **modos de pilotagem adaptáveis**, controle de tração, **ABS em curva**, TFT colorido e muito mais.
-- Disponível com transmissão manual de seis marchas ou **Dual Clutch Transmission (DCT)**, popular entre motociclistas europeus por sua praticidade.
+- **Standard:** cerca de 19 litros (5,0 galões)
+- **Adventure Sports:** aproximadamente 25 litros (6,6 galões), garantindo grande autonomia para viagens longas.
 
-### 🔎 **Expectativas para o Brasil**
+### Peso e freios
 
-Até o momento, a Honda **não confirmou oficialmente** se as novas cores e grafismos da linha 2026 serão disponibilizados no Brasil, mas existe a expectativa de que algumas delas sejam incorporadas nos próximos ciclos de atualização.
+A Africa Twin Standard pesa cerca de **231 kg**, enquanto a Adventure Sports ES chega a **243 kg** (com tanque cheio).
+Os freios contam com **discos duplos dianteiros de 310 mm**, pinças radiais de quatro pistões e ABS com modo off-road, com possibilidade de desativação do ABS traseiro.
