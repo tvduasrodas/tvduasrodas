@@ -7,7 +7,7 @@ category: cross
 tags:
   - cross,super cross,moto
 featured: false
-thumbnail: https://img.youtube.com/vi/aj8vDOYdcG8/maxresdefault.jpg
+thumbnail: /assets/img/uploads/arenacross.jpg
 ---
 
 2026 Supercross Anaheim 2 - 250 Main Event
