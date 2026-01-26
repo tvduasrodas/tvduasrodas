@@ -1,5 +1,5 @@
 ---
-title: Honda Africa Twin 2026 chega à Europa com novo visual e cores renovadas
+title: Honda Africa Twin 2026 - novo visual e cores renovadas
 date: 2026-01-26T01:15:00-05:00
 author: TVDUASRODAS
 category: Lançamentos
