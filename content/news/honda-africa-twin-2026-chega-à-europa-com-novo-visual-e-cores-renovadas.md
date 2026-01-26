@@ -4,7 +4,7 @@ date: 2026-01-26T01:38:00-05:00
 author: TVDUASRODAS
 category: Lançamentos
 videoId: tNDicuj6nBA
-cover: ''
+cover: /assets/img/uploads/Africa Twin Adventure Sports2026.png
 featured: true
 ---
 
