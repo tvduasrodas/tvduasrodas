@@ -92,6 +92,76 @@ function getSlugFromUrl() {
 }
 
 // ============================
+// REVISTA – PAGINAÇÃO DO GRID
+// ============================
+let revistaCardsAll = [];
+let revistaCurrentPage = 1;
+const revistaPerPage = 6;
+let revistaCurrentFilter = "all";
+
+function getFilteredRevistaCards() {
+    if (!revistaCardsAll.length) return [];
+    if (revistaCurrentFilter === "all") return revistaCardsAll;
+
+    return revistaCardsAll.filter(
+        (card) => card.getAttribute("data-category") === revistaCurrentFilter
+    );
+}
+
+function renderRevistaPagination(totalPages) {
+    const paginationContainer = document.getElementById("revistaPagination");
+    if (!paginationContainer) return;
+
+    paginationContainer.innerHTML = "";
+
+    // Se só tem 1 página, não mostra nada
+    if (totalPages <= 1) return;
+
+    for (let i = 1; i <= totalPages; i++) {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "revista-page-btn" + (i === revistaCurrentPage ? " active" : "");
+        btn.textContent = i;
+        btn.dataset.page = i;
+
+        btn.addEventListener("click", () => {
+            revistaCurrentPage = i;
+            renderRevistaGrid();
+        });
+
+        paginationContainer.appendChild(btn);
+    }
+}
+
+function renderRevistaGrid() {
+    const articleGrid = document.getElementById("articleGrid");
+    if (!articleGrid || !revistaCardsAll.length) return;
+
+    const filtered = getFilteredRevistaCards();
+    const totalPages = Math.max(1, Math.ceil(filtered.length / revistaPerPage));
+
+    if (revistaCurrentPage > totalPages) {
+        revistaCurrentPage = totalPages;
+    }
+
+    const start = (revistaCurrentPage - 1) * revistaPerPage;
+    const end = start + revistaPerPage;
+
+    // Esconde todos
+    revistaCardsAll.forEach((card) => {
+        card.style.display = "none";
+    });
+
+    // Mostra apenas os da página atual
+    filtered.slice(start, end).forEach((card) => {
+        card.style.display = "";
+    });
+
+    renderRevistaPagination(totalPages);
+}
+
+
+// ============================
 // REVISTA – CARREGAR MATÉRIAS DO CMS
 // ============================
 async function loadMagazineFromCMS() {
@@ -210,6 +280,14 @@ async function loadMagazineFromCMS() {
 
             articleGrid.appendChild(card);
         });
+
+        // Atualiza array global de cards e reseta paginação
+        revistaCardsAll = Array.from(articleGrid.querySelectorAll(".article-card"));
+        revistaCurrentPage = 1;
+        revistaCurrentFilter = "all";
+
+        // Renderiza o grid paginado (máx. 6 por página)
+        renderRevistaGrid();
 
         if (!artigos.length && loadingEl) {
             loadingEl.textContent = "Nenhuma matéria cadastrada ainda.";
@@ -699,22 +777,18 @@ document.addEventListener("DOMContentLoaded", () => {
     if (filterButtons.length && articleGrid) {
         filterButtons.forEach((btn) => {
             btn.addEventListener("click", () => {
-                const filter = btn.getAttribute("data-filter");
+                const filter = btn.getAttribute("data-filter") || "all";
 
+                // Atualiza estado visual do botão
                 filterButtons.forEach((b) => b.classList.remove("active"));
                 btn.classList.add("active");
 
-                // Busca os cards SEMPRE na hora do clique
-                const cards = articleGrid.querySelectorAll(".article-card");
+                // Atualiza filtro global e reseta para a página 1
+                revistaCurrentFilter = filter;
+                revistaCurrentPage = 1;
 
-                cards.forEach((card) => {
-                    const category = card.getAttribute("data-category");
-                    if (filter === "all" || filter === category) {
-                        card.style.display = "";
-                    } else {
-                        card.style.display = "none";
-                    }
-                });
+                // Re-renderiza o grid com base no filtro + paginação
+                renderRevistaGrid();
             });
         });
     }
