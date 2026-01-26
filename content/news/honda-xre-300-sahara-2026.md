@@ -56,4 +56,4 @@ A moto também sai de fábrica com **garantia de 3 anos sem limite de quilometra
 
 Com um pacote equilibrado entre **desempenho, conforto e tecnologia**, a **Honda XRE 300 Sahara 2026** reafirma sua posição como uma das melhores opções de trail versátil no segmento de média cilindrada no Brasil. Ideal para quem busca uma moto capaz de enfrentar o dia a dia urbano e aventuras nos finais de semana, ela combina tradição Honda com soluções práticas e úteis para o motociclista moderno.
 
-![](https://cmssaladeimprensa.honda.com.br//sites/default/files/styles/hd_exibicao/public/2025-08/PROOM_Sahara%20300%202026_EST_%20%284%29.jpg?itok=FLQGvsfV)
+![](/assets/img/uploads/proom_sahara.jpg)
