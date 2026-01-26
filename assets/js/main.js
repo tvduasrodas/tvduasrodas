@@ -68,8 +68,9 @@ function normalizeCategory(cat) {
 
     if (c.includes("moto")) return "motos";
     if (c.includes("lancamentos")) return "lancamentos";
-    if (c.includes("viagem") || c.includes("estrada")) return "viagem";
-    if (c.includes("urbano") || c.includes("cidade")) return "urbano";
+    if (c.includes("viagem")) return "viagem";
+    if (c.includes("urbano")) return "urbano";
+    if (c.includes("test")) return "Tests";
 
     return "outro";
 }
