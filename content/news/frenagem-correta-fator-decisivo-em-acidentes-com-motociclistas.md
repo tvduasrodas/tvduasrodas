@@ -1,8 +1,8 @@
 ---
 title: 'Frenagem correta: fator decisivo em acidentes com motociclistas'
-date: 2026-01-26T11:12:00-05:00
+date: 2026-01-26T16:26:00-05:00
 author: Duas Rodas News
-category: Moto
+category: tests
 videoId: 4-mkhw1okBU
 cover: ''
 featured: false
