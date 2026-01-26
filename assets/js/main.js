@@ -67,7 +67,7 @@ function normalizeCategory(cat) {
     const c = cat.toLowerCase();
 
     if (c.includes("moto")) return "motos";
-    if (c.includes("Lançamentos") || c.includes("Lançamentos")) return "Lançamentos";
+    if (c.includes("lancamentos") || c.includes("Lancamentos")) return "Lançamentos";
     if (c.includes("viagem") || c.includes("estrada")) return "viagem";
     if (c.includes("urbano") || c.includes("cidade")) return "urbano";
 
