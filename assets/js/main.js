@@ -120,7 +120,7 @@ function renderRevistaPagination(totalPages) {
     for (let i = 1; i <= totalPages; i++) {
         const btn = document.createElement("button");
         btn.type = "button";
-        btn.className = "revista-page-btn" + (i === revistaCurrentPage ? " active" : "");
+        btn.className = "tv-page-btn" + (i === revistaCurrentPage ? " active" : "");
         btn.textContent = i;
         btn.dataset.page = i;
 
