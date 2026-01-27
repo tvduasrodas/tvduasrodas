@@ -22,7 +22,7 @@ featured: false
 ### Como colisões com veículos motorizados e problemas de controle estão entre os principais riscos, a CPSC orienta os consumidores a:
 
 - Assista ao **PSA (anúncio de utilidade pública) da CPSC** sobre condução segura.
-- [https://www.youtube.com/watch?v=VGVP_4qlIII](https://www.youtube.com/watch?v=VGVP_4qlIII)
+- https://www.youtube.com/watch?v=VGVP_4qlIII
 - **Use sempre capacete de ciclismo** ao pilotar, para proteger a cabeça em caso de queda.
 - Antes de usar, **verifique se há danos**, incluindo a inspeção do guidão, freios, acelerador, campainha, luzes, pneus, cabos e quadro.
 - **Veja e seja visto.** A maioria das mortes envolve veículos motorizados. Muitos dispositivos de micromobilidade são pequenos, rápidos e silenciosos, o que dificulta que outras pessoas os percebam, especialmente em estacionamentos e garagens.
