@@ -1592,6 +1592,53 @@ button {
     margin: 14px 0 6px;
 }
 
+/* Texto principal da matéria */
+.article-body {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #111827;
+}
+
+    /* Links dentro da matéria */
+    .article-body a {
+        color: var(--accent-main);
+        text-decoration: underline;
+        word-break: break-word; /* evita quebrar layout com URL muito longa */
+    }
+
+        .article-body a:hover {
+            opacity: 0.9;
+        }
+
+    /* Listas bem alinhadas */
+    .article-body ul,
+    .article-body ol {
+        margin: 0 0 10px 1.4rem;
+        padding-left: 0;
+    }
+
+    .article-body li {
+        margin-bottom: 4px;
+    }
+
+    /* Destaques de texto */
+    .article-body strong {
+        font-weight: 600;
+    }
+
+    .article-body em {
+        font-style: italic;
+    }
+
+    /* Imagens internas ao corpo da matéria */
+    .article-body img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin: 10px 0;
+    }
+
+
 .article-body blockquote {
     border-left: 4px solid #111827;
     padding-left: 12px;
