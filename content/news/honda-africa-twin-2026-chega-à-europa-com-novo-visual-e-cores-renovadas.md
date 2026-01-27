@@ -10,36 +10,36 @@ featured: true
 
 ## Honda Africa Twin 2026 chega à Europa com novo visual e tecnologia consagrada
 
-A **Honda Africa Twin 2026** desembarca no mercado europeu com **novas cores e grafismos**, reforçando o visual moderno da big trail sem abrir mão da sua identidade aventureira. A atualização estética mantém viva a proposta da Africa Twin, que segue como uma das referências globais quando o assunto é **aventura on-road e off-road**.
+A Honda Africa Twin 2026 desembarca no mercado europeu com novas cores e grafismos, reforçando o visual moderno da big trail sem abrir mão de sua identidade aventureira. A atualização estética mantém viva a proposta da Africa Twin, que segue como uma das principais referências globais quando o assunto é aventura on-road e off-road.
 
-Disponível nas versões **Standard** e **Adventure Sports**, a Africa Twin entrega o conceito **“True Adventure”** da Honda, oferecendo ao motociclista a liberdade de escolher entre uma condução mais esportiva fora de estrada ou o máximo conforto para longas viagens.
+Disponível nas versões Standard e Adventure Sports, a Africa Twin mantém o conceito “True Adventure” da Honda, oferecendo ao motociclista a liberdade de escolher entre uma condução mais esportiva fora de estrada ou o máximo conforto para longas viagens.
 
-### Duas propostas, uma mesma essência
+## Duas propostas, uma mesma essência
 
-A versão **Standard** aposta em agilidade e vocação off-road, com rodas **21 polegadas na dianteira e 18 polegadas na traseira**, além de suspensões de longo curso que favorecem trilhas e terrenos irregulares. O tanque de combustível garante autonomia suficiente sem comprometer a ergonomia e o controle da moto.
+A versão Standard aposta em agilidade e forte vocação off-road. O conjunto utiliza rodas de 21 polegadas na dianteira e 18 polegadas na traseira, além de suspensões de longo curso que favorecem trilhas e terrenos irregulares. O tanque de combustível garante autonomia adequada sem comprometer a ergonomia e o controle da motocicleta.
 
-Já a **Africa Twin Adventure Sports ES** é voltada ao turismo de longa distância, equipada com tanque de maior capacidade, carenagem mais envolvente e foco em estabilidade no asfalto. O conjunto inclui o sistema **Showa EERA**, que ajusta eletronicamente o amortecimento da suspensão em tempo real, melhorando o conforto e a segurança em diferentes condições de pilotagem.
+Já a Africa Twin Adventure Sports ES é voltada ao turismo de longa distância. O modelo conta com tanque de maior capacidade, carenagem mais envolvente e foco em estabilidade no asfalto. O pacote inclui o sistema Showa EERA, que ajusta eletronicamente o amortecimento da suspensão em tempo real, elevando o conforto e a segurança em diferentes condições de pilotagem.
 
-### Motor, transmissão e desempenho
+## Motor, transmissão e desempenho
 
-Ambas as versões utilizam o motor **bicilíndrico paralelo de 1.084 cm³**, arrefecido a líquido, com comando **SOHC Unicam** e virabrequim a 270°, característica que garante entrega de torque linear e excelente tração, especialmente fora de estrada.
+Ambas as versões utilizam o motor bicilíndrico paralelo de 1.084 cm³, arrefecido a líquido, com comando SOHC Unicam e virabrequim a 270°. Essa configuração garante uma entrega de torque linear e excelente tração, especialmente em uso fora de estrada.
 
-A Africa Twin 2026 pode ser equipada com **câmbio manual de seis marchas** ou com a consagrada **transmissão automática DCT (Dual Clutch Transmission)**, tecnologia pioneira da Honda no segmento. O sistema permite trocas rápidas e suaves, com modos Drive, Sport e Manual, além de recursos como detecção de inclinação e modo G, que ajusta o comportamento da embreagem conforme o tipo de terreno.
+A Africa Twin 2026 pode ser equipada com câmbio manual de seis marchas ou com a consagrada transmissão automática DCT (Dual Clutch Transmission), tecnologia pioneira da Honda no segmento. O sistema oferece trocas rápidas e suaves, com modos Drive, Sport e Manual, além de recursos como detecção de inclinação e modo G, que ajusta o comportamento da embreagem conforme o tipo de terreno.
 
-### Eletrônica e conectividade
+## Eletrônica e conectividade
 
-O pacote tecnológico é um dos pontos fortes do modelo. A Africa Twin conta com uma **IMU de seis eixos**, responsável por gerenciar controle de tração (HSTC), controle de wheelie, ABS em curvas, frenagem otimizada e modos de pilotagem.
+O pacote tecnológico segue como um dos grandes destaques do modelo. A Africa Twin conta com uma IMU de seis eixos, responsável por gerenciar o controle de tração (HSTC), controle de wheelie, ABS em curvas, frenagem otimizada e modos de pilotagem.
 
-São **seis modos de condução**: Tour, Urban, Gravel, Off-Road e dois modos personalizáveis, permitindo ao piloto ajustar potência, freio motor, ABS e suspensão conforme sua preferência.
+São seis modos de condução disponíveis: Tour, Urban, Gravel, Off-Road e dois modos personalizáveis, permitindo ao piloto ajustar potência, freio motor, ABS e suspensão de acordo com sua preferência.
 
-O painel **TFT colorido de 6,5 polegadas sensível ao toque** oferece excelente visualização e é compatível com **Apple CarPlay e Android Auto**, garantindo integração completa com smartphones.
+O painel TFT colorido de 6,5 polegadas sensível ao toque oferece excelente visualização e é compatível com Apple CarPlay e Android Auto, garantindo integração completa com smartphones.
 
-### Conforto, segurança e acabamento
+## Conforto, segurança e acabamento
 
-O assento possui densidade otimizada para reduzir a fadiga em longas viagens e conta com **ajuste de altura sem ferramentas**. O para-brisa ajustável permite melhor proteção aerodinâmica, enquanto o sistema de iluminação em curva — exclusivo da versão Adventure Sports — melhora a visibilidade durante a pilotagem noturna.
+O assento possui densidade otimizada para reduzir a fadiga em longas viagens e conta com ajuste de altura sem necessidade de ferramentas. O para-brisa ajustável melhora a proteção aerodinâmica, enquanto o sistema de iluminação em curva — exclusivo da versão Adventure Sports — amplia a visibilidade durante a pilotagem noturna.
 
-Os freios utilizam **discos duplos dianteiros de 310 mm com pinças radiais**, ABS com modo off-road e possibilidade de desativação do ABS traseiro, reforçando o controle em situações extremas.
+O sistema de freios utiliza discos duplos dianteiros de 310 mm com pinças radiais, ABS com modo off-road e possibilidade de desativação do ABS traseiro, reforçando o controle em situações extremas.
 
-### Um ícone que evolui sem perder sua identidade
+## Um ícone que evolui sem perder sua identidade
 
-Com visual renovado e um conjunto mecânico e tecnológico já consagrado, a **Honda Africa Twin 2026** reafirma seu posto como uma das big trails mais completas do mercado europeu. A expectativa agora fica por conta da chegada dessas atualizações a outros mercados nos próximos ciclos da marca.
+Com visual renovado e um conjunto mecânico e tecnológico já consagrado, a Honda Africa Twin 2026 reafirma sua posição como uma das big trails mais completas do mercado europeu. A expectativa agora fica por conta da chegada dessas atualizações a outros mercados nos próximos ciclos da marca.
