@@ -1,8 +1,8 @@
 ---
 title: O que é uma gravel bike?
-date: 2026-01-26T17:35:00-05:00
+date: 2026-01-26T21:14:00-05:00
 author: TVDUASRODAS
-category: Urbano
+category: bikes
 videoId: ''
 cover: /assets/img/uploads/GravelBike.png
 featured: false
