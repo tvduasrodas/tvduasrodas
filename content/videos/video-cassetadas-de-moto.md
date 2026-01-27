@@ -7,7 +7,7 @@ category: cassetadas
 tags:
   - moto, motovlog, sustos, fechadas, observações, diárias, quedas de motos
 featured: false
-thumbnail: ''
+thumbnail: /assets/img/uploads/videocassetadas.png
 ---
 
 Não repita esses erros. Não pratique direção perigosa. Não desrespeite as leis de trânsito.
