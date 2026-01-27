@@ -8,7 +8,7 @@ cover: /assets/img/uploads/ElectricBike_0-2.png
 featured: false
 ---
 
-**Patinetes elétricos, bicicletas elétricas e hoverboards** cresceram em popularidade nos últimos anos como uma forma de ir e voltar do trabalho, da escola ou simplesmente por diversão.
+Patinetes elétricos, bicicletas elétricas e hoverboards cresceram em popularidade nos últimos anos como uma forma de ir e voltar do trabalho, da escola ou simplesmente por diversão.
 
 O relatório mais recente aponta que lesões atendidas em prontos-socorros e mortes envolvendo esses produtos também estão aumentando. Diante do crescimento nos casos de ferimentos, a CPSC (United States Consumer Product Safety Commission) alerta os consumidores para que utilizem esses dispositivos com cautela e segurança.
 
@@ -28,7 +28,7 @@ Os consumidores devem seguir as orientações abaixo para reduzir riscos de inc�
 Como colisões com veículos motorizados e problemas de controle estão entre os principais riscos, a CPSC orienta os consumidores a adotar as seguintes medidas:
 
 - Assista ao vídeo oficial da CPSC sobre condução segura:
-[https://www.youtube.com/watch?v=VGVP_4qlIII](https://www.youtube.com/watch?v=VGVP_4qlIII)
+- https://www.youtube.com/watch?v=VGVP_4qlIII
 - Use sempre capacete de ciclismo ao pilotar, protegendo a cabeça em caso de queda.
 - Antes de utilizar o dispositivo, verifique se há danos, incluindo a inspeção do guidão, freios, acelerador, campainha, luzes, pneus, cabos e estrutura.
 - Veja e seja visto. A maioria das mortes envolve veículos motorizados. Muitos dispositivos de micromobilidade são pequenos, rápidos e silenciosos, o que dificulta que outras pessoas percebam sua presença, especialmente em estacionamentos e garagens.
