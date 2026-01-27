@@ -68,6 +68,7 @@ function normalizeCategory(cat) {
 
     if (c.includes("moto")) return "motos";
     if (c.includes("lancamentos")) return "lancamentos";
+    if (c.includes("bikes")) return "bikes";
     if (c.includes("viagem")) return "viagem";
     if (c.includes("urbano")) return "urbano";
     if (c.includes("test")) return "tests";
