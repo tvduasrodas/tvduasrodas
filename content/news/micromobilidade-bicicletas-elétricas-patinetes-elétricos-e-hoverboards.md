@@ -4,7 +4,7 @@ date: 2026-01-27T10:40:00-05:00
 author: TVDUASRODAS
 category: Urbano
 videoId: ''
-cover: /assets/img/uploads/ElectricBike_0.png
+cover: /assets/img/uploads/ElectricBike_0-1.png
 featured: false
 ---
 
