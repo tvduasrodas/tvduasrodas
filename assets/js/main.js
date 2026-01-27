@@ -76,6 +76,66 @@ function normalizeCategory(cat) {
     return "outro";
 }
 
+// ============================
+// ARTIGO – TRANSFORMAR URLs EM LINKS
+// ============================
+function linkifyArticleBody() {
+    const container = document.getElementById("articleBody");
+    if (!container) return;
+
+    const urlRegex = /\b((https?:\/\/[^\s<]+)|(www\.[^\s<]+))/gi;
+
+    function walk(node) {
+        if (node.nodeType === Node.TEXT_NODE) {
+            const text = node.textContent;
+            if (!urlRegex.test(text)) return;
+
+            const frag = document.createDocumentFragment();
+            let lastIndex = 0;
+
+            text.replace(urlRegex, (match, _full, _httpPart, _wwwPart, offset) => {
+                if (offset > lastIndex) {
+                    frag.appendChild(
+                        document.createTextNode(text.slice(lastIndex, offset))
+                    );
+                }
+
+                const a = document.createElement("a");
+                let href = match;
+
+                if (!/^https?:\/\//i.test(href)) {
+                    href = "https://" + href;
+                }
+
+                a.href = href;
+                a.target = "_blank";
+                a.rel = "noopener noreferrer";
+                a.textContent = match;
+
+                frag.appendChild(a);
+                lastIndex = offset + match.length;
+            });
+
+            if (lastIndex < text.length) {
+                frag.appendChild(document.createTextNode(text.slice(lastIndex)));
+            }
+
+            node.parentNode.replaceChild(frag, node);
+        }
+        else if (
+            node.nodeType === Node.ELEMENT_NODE &&
+            node.tagName !== "A" &&
+            node.tagName !== "SCRIPT" &&
+            node.tagName !== "STYLE"
+        ) {
+            Array.from(node.childNodes).forEach(walk);
+        }
+    }
+
+    walk(container);
+}
+
+
 function formatDatePtBr(iso) {
     if (!iso) return "";
     const d = new Date(iso);
@@ -1537,6 +1597,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     const bodyEl = document.getElementById("articleBody");
                     if (bodyEl) {
                         bodyEl.innerHTML = bodyHtml || "<p>Sem conteúdo.</p>";
+                        linkifyArticleBody();
                     }
 
                     // Links de compartilhamento
