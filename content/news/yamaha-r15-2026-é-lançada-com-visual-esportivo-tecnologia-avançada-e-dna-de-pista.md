@@ -52,4 +52,4 @@ Mesmo com visual agressivo e tecnologias modernas, a Yamaha R15 2026 mantém sua
 
 ## Conclusão
 
-A **Yamaha R15 2026** chega como uma opção extremamente competitiva no segmento de motos esportivas de baixa cilindrada. Com design inspirado em modelos de alta performance, bom pacote tecnológico e conjunto mecânico eficiente, ela se posiciona como uma escolha certeira para jovens pilotos, iniciantes e apaixonados por esportividade.
+A Yamaha R15 2026 chega como uma opção extremamente competitiva no segmento de motos esportivas de baixa cilindrada. Com design inspirado em modelos de alta performance, bom pacote tecnológico e conjunto mecânico eficiente, ela se posiciona como uma escolha certeira para jovens pilotos, iniciantes e apaixonados por esportividade.
