@@ -1517,6 +1517,29 @@ document.addEventListener("DOMContentLoaded", () => {
                     const data = parseFrontmatterArticle(rawText);
                     const bodyHtml = markdownToHtml(data.body || "");
 
+                    // ============================
+                    // SEO DINÂMICO DA MATÉRIA
+                    // ============================
+
+                    // Título da aba (usa o título da matéria)
+                    const articleTitle = data.title || "Matéria";
+                    document.title = `${articleTitle} | TVDUASRODAS`;
+
+                    // Meta description (usa summary, se tiver, ou gera um resumo do corpo)
+                    const articleExcerpt =
+                        data.summary && data.summary.trim()
+                            ? data.summary.trim()
+                            : markdownToExcerpt(data.body || "", 200);
+
+                    let metaDesc = document.querySelector('meta[name="description"]');
+                    if (!metaDesc) {
+                        metaDesc = document.createElement("meta");
+                        metaDesc.setAttribute("name", "description");
+                        document.head.appendChild(metaDesc);
+                    }
+                    metaDesc.setAttribute("content", articleExcerpt);
+
+
                     // Título da aba
                     document.title = `${data.title || "Matéria"} | TV Duas Rodas`;
 
@@ -1612,29 +1635,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         if (heroCaption) {
                             heroCaption.textContent = hero.caption || "";
                         }
-                    }
-
-                    // ============================
-                    // SEO DINÂMICO DA MATÉRIA
-                    // ============================
-
-                    // Title dinâmico
-                    if (article.title) {
-                        document.title = `${article.title} | TVDUASRODAS`;
-                    }
-
-                    // Meta description dinâmica
-                    let metaDesc = document.querySelector('meta[name="description"]');
-                    if (!metaDesc) {
-                        metaDesc = document.createElement("meta");
-                        metaDesc.setAttribute("name", "description");
-                        document.head.appendChild(metaDesc);
-                    }
-
-                    if (article.excerpt) {
-                        metaDesc.setAttribute("content", article.excerpt);
-                    }
-
+                    }                    
 
                     // Corpo da matéria
                     const bodyEl = document.getElementById("articleBody");
