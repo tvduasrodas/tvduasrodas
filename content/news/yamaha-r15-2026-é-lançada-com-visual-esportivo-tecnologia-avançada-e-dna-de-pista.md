@@ -8,9 +8,7 @@ cover: /assets/img/uploads/r1501.jpg
 featured: false
 ---
 
-# Yamaha R15 2026 é lançada com visual esportivo, tecnologia avançada e DNA de pista
-
-A **Yamaha R15 2026** chega ao mercado reafirmando sua posição como uma das **sportbikes de baixa cilindrada mais desejadas do mundo**. Inspirada diretamente nas irmãs maiores da família R, como a R7 e a R1, a nova geração aposta em **design agressivo, eletrônica refinada e ciclística precisa**, mantendo o equilíbrio entre esportividade, eficiência e acessibilidade.
+A Yamaha R15 2026 chega ao mercado reafirmando sua posição como uma das sportbikes de baixa cilindrada mais desejadas do mundo. Inspirada diretamente nas irmãs maiores da família R, como a R7 e a R1, a nova geração aposta em design agressivo, eletrônica refinada e ciclística precisa, mantendo o equilíbrio entre esportividade, eficiência e acessibilidade.
 
 ## Design inspirado na linha R-Series
 
