@@ -26,23 +26,23 @@ Esse conjunto proporciona acelerações progressivas, baixo consumo de combustí
 
 ## Ciclística e segurança de nível superior
 
-A ciclística é um dos grandes destaques do modelo. A R15 2026 utiliza **chassi Deltabox**, reconhecido pela rigidez e estabilidade, aliado a uma **suspensão dianteira invertida (USD)** que melhora o controle em curvas e frenagens mais fortes.
+A ciclística é um dos grandes destaques do modelo. A R15 2026 utiliza o chassi Deltabox, reconhecido pela rigidez estrutural e excelente estabilidade, aliado a uma suspensão dianteira invertida (USD), que melhora significativamente o controle em curvas e frenagens mais exigentes.
 
 ![Yamaha R15 Visao Lateral](/assets/img/uploads/r1503.jpg)
 
-O sistema de freios conta com **disco nas duas rodas e ABS de dois canais**, oferecendo maior segurança tanto no uso urbano quanto em pilotagem esportiva.
+O sistema de freios conta com disco nas duas rodas e ABS de dois canais, oferecendo mais segurança tanto no uso urbano quanto em uma pilotagem esportiva.
 
 ## Tecnologia e conectividade
 
-A Yamaha equipou a R15 2026 com um **painel digital completo**, trazendo informações como:
+A Yamaha equipou a R15 2026 com um painel digital completo, que exibe informações como:
 
-- velocidade,
-- rotação do motor,
-- indicador de marcha,
-- consumo médio e instantâneo,
-- alertas do sistema eletrônico.
+- Velocidade
+- Rotações do motor
+- Indicador de marcha
+- Consumo médio e instantâneo
+- Alertas do sistema eletrônico
 
-Em alguns mercados, o modelo também oferece **conectividade via aplicativo Yamaha**, permitindo monitoramento da moto, lembretes de manutenção e notificações diretamente no smartphone.
+Em alguns mercados, o modelo também oferece conectividade via aplicativo Yamaha, permitindo monitoramento da moto, lembretes de manutenção e notificações diretamente no smartphone.
 
 ## Uma esportiva acessível e versátil
 
