@@ -46,7 +46,7 @@ Em alguns mercados, o modelo também oferece conectividade via aplicativo Yamaha
 
 ## Uma esportiva acessível e versátil
 
-Mesmo com visual agressivo e tecnologias modernas, a Yamaha R15 2026 mantém sua proposta de ser uma **esportiva acessível**, ideal para quem deseja entrar no universo das motos carenadas sem abrir mão de economia, confiabilidade e baixo custo de manutenção.
+Mesmo com visual agressivo e tecnologias modernas, a Yamaha R15 2026 mantém sua proposta de ser uma esportiva acessível. O modelo é ideal para quem deseja entrar no universo das motos carenadas sem abrir mão de economia, confiabilidade e baixo custo de manutenção.
 
 ![Yamaha R15 2026 Peitoral](/assets/img/uploads/r1502.jpg)
 
