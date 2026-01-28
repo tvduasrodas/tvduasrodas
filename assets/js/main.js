@@ -1614,6 +1614,27 @@ document.addEventListener("DOMContentLoaded", () => {
                         }
                     }
 
+                    // ============================
+                    // SEO DINÂMICO DA MATÉRIA
+                    // ============================
+
+                    // Title dinâmico
+                    if (article.title) {
+                        document.title = `${article.title} | TVDUASRODAS`;
+                    }
+
+                    // Meta description dinâmica
+                    let metaDesc = document.querySelector('meta[name="description"]');
+                    if (!metaDesc) {
+                        metaDesc = document.createElement("meta");
+                        metaDesc.setAttribute("name", "description");
+                        document.head.appendChild(metaDesc);
+                    }
+
+                    if (article.excerpt) {
+                        metaDesc.setAttribute("content", article.excerpt);
+                    }
+
 
                     // Corpo da matéria
                     const bodyEl = document.getElementById("articleBody");
