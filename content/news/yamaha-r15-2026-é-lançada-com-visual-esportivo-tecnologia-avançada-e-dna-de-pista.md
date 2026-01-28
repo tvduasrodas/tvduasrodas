@@ -12,17 +12,17 @@ A Yamaha R15 2026 chega ao mercado reafirmando sua posição como uma das sportb
 
 ## Design inspirado na linha R-Series
 
-Visualmente, a R15 2026 segue a identidade global da Yamaha, com linhas afiadas e aerodinâmica funcional. O conjunto frontal ganhou **novo farol central em LED com DRL integrado**, remetendo às superesportivas da marca, além de carenagens laterais redesenhadas para melhor fluxo de ar e estabilidade em alta velocidade.
+Visualmente, a R15 2026 segue a identidade global da Yamaha, com linhas afiadas e aerodinâmica funcional. O conjunto frontal ganhou novo farol central em LED com DRL integrado, remetendo às superesportivas da marca, além de carenagens laterais redesenhadas para melhor fluxo de ar e estabilidade em alta velocidade.
 
 ![Yamaha R15 2026 Visao Frontal](/assets/img/uploads/r1504.jpg)
 
-O assento em dois níveis reforça a proposta esportiva, enquanto o tanque esculpido melhora a ergonomia para condução agressiva ou uso diário.
+O assento em dois níveis reforça a proposta esportiva, enquanto o tanque esculpido melhora a ergonomia tanto para uma condução mais agressiva quanto para o uso diário.
 
 ## Motor eficiente e desempenho equilibrado
 
-No coração da Yamaha R15 2026 está o conhecido motor **monocilíndrico de 155 cc**, arrefecido a líquido, com **sistema VVA (Variable Valve Actuation)**, que entrega bom torque em baixas rotações e desempenho consistente em altas.
+No coração da Yamaha R15 2026 está o conhecido motor monocilíndrico de 155 cc, arrefecido a líquido, equipado com o sistema VVA (Variable Valve Actuation). Essa tecnologia garante bom torque em baixas rotações e desempenho consistente em altas.
 
-Esse conjunto proporciona acelerações progressivas, baixo consumo de combustível e confiabilidade mecânica, características que tornaram a R15 um sucesso global, especialmente entre pilotos iniciantes e entusiastas do motociclismo esportivo.
+Esse conjunto proporciona acelerações progressivas, baixo consumo de combustível e elevada confiabilidade mecânica, características que transformaram a R15 em um sucesso global, especialmente entre pilotos iniciantes e entusiastas do motociclismo esportivo.
 
 ## Ciclística e segurança de nível superior
 
