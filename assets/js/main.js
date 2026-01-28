@@ -1405,8 +1405,9 @@ document.addEventListener("DOMContentLoaded", () => {
         let inList = false;
 
         for (let rawLine of lines) {
-            const line = rawLine.trim();
+            let line = rawLine.trim();
 
+            // Linha em branco → fecha lista se estiver aberta
             if (!line) {
                 if (inList) {
                     html.push("</ul>");
@@ -1415,7 +1416,26 @@ document.addEventListener("DOMContentLoaded", () => {
                 continue;
             }
 
-            // Lista
+            // IMAGEM sozinha na linha: ![alt](url)
+            const imgMatch = line.match(/^!\[([^\]]*)\]\(([^)]+)\)/);
+            if (imgMatch) {
+                if (inList) {
+                    html.push("</ul>");
+                    inList = false;
+                }
+
+                const alt = imgMatch[1] || "";
+                const src = imgMatch[2];
+
+                html.push(`
+                <figure class="article-inline-media">
+                    <img src="${src}" alt="${alt}">
+                </figure>
+            `);
+                continue;
+            }
+
+            // LISTA com - ou *
             if (/^[-*]\s+/.test(line)) {
                 if (!inList) {
                     html.push("<ul>");
@@ -1429,7 +1449,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 inList = false;
             }
 
-            // Títulos
+            // TÍTULOS
             if (/^###\s+/.test(line)) {
                 html.push(`<h3>${line.replace(/^###\s+/, "")}</h3>`);
             } else if (/^##\s+/.test(line)) {
@@ -1437,6 +1457,7 @@ document.addEventListener("DOMContentLoaded", () => {
             } else if (/^#\s+/.test(line)) {
                 html.push(`<h1>${line.replace(/^#\s+/, "")}</h1>`);
             } else {
+                // PARÁGRAFO normal
                 html.push(`<p>${line}</p>`);
             }
         }
@@ -1447,6 +1468,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         return html.join("\n");
     }
+
 
     function formatArticleDate(str) {
         if (!str) return "";
