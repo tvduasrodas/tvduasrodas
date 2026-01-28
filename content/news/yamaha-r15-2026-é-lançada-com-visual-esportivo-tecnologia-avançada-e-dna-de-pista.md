@@ -2,7 +2,7 @@
 title: Yamaha R15 2026 é lançada com visual esportivo, tecnologia avançada e DNA de pista
 date: 2026-01-28T14:15:00-05:00
 author: TVDUASRODAS
-category: Moto
+category: Lancamentos
 videoId: ''
 cover: /assets/img/uploads/r1501.jpg
 featured: false
