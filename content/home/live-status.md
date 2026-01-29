@@ -1,5 +1,5 @@
 ---
 title: Live Stream
-featured: false
-youtube_url: https://www.youtube.com/watch?v=3Gnr1w5iBWI
+featured: true
+youtube_url: https://www.youtube.com/watch?v=Mm6gHtLj_ZY
 ---
