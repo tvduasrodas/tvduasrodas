@@ -1,4 +1,4 @@
 ---
 title: TV Duas Rodas
-youtube_url: https://www.youtube.com/watch?v=Mm6gHtLj_ZY
+youtube_url: https://www.youtube.com/watch?v=Mm6gHtLj_ZY?autoplay=1&mute=1&playsinline=1
 ---
