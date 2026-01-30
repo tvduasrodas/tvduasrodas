@@ -7,7 +7,7 @@ const NEWS_PATH = "content/news";
 const SEARCH_VIDEOS_PATH = "content/videos";
 // Base do Worker que faz proxy para o GitHub
 // Troque pela URL REAL do seu Worker (exemplo):
-const WORKER_BASE_URL = "https://tvduasrodas-api.tvduasrodas.workers.dev";
+const WORKER_BASE_URL = "https://tvduasrodas.com/api/github-list?path=content/news";
 
 
 async function fetchJson(url) {
@@ -245,7 +245,7 @@ async function loadMagazineFromCMS() {
 
     try {
         // Lista de arquivos em content/news
-        const apiListUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${NEWS_PATH}?ref=main`;
+        const apiListUrl = `https://tvduasrodas.com/api/github-list?path=${NEWS_PATH}`;
         const files = await fetchJson(apiListUrl);
 
         // pega só .md
@@ -382,7 +382,7 @@ async function loadMoreArticlesSidebar() {
 
     try {
         // Lista de arquivos em content/news
-        const apiListUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${NEWS_PATH}?ref=main`;
+        const apiListUrl = `https://tvduasrodas.com/api/github-list?path=${NEWS_PATH}`;
         const files = await fetchJson(apiListUrl);
 
         // pega só .md
@@ -523,7 +523,7 @@ async function loadHomeLatestArticles() {
     if (!grid) return; // não está na home
 
     try {
-        const apiListUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${NEWS_PATH}?ref=main`;
+        const apiListUrl = `https://tvduasrodas.com/api/github-list?path=${NEWS_PATH}`;
         const files = await fetchJson(apiListUrl);
 
         const mdFiles = Array.isArray(files)
@@ -663,7 +663,7 @@ async function loadHomeVideos() {
     if (!latestGrid && !featuredGrid) return;
 
     try {
-        const apiListUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${SEARCH_VIDEOS_PATH}?ref=main`;
+        const apiListUrl = `https://tvduasrodas.com/api/github-list?path=${SEARCH_VIDEOS_PATH}`;
         const files = await fetchJson(apiListUrl);
 
         const mdFiles = Array.isArray(files)
@@ -1099,7 +1099,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // --- Helpers da busca no CMS (matérias + vídeos) ---
 
     async function loadSearchEntriesFromPath(path, type) {
-        const apiListUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${path}?ref=main`;
+        const apiListUrl = `https://tvduasrodas.com/api/github-list?path=${path}`;
 
         let files = [];
         try {
