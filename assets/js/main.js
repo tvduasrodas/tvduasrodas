@@ -5,34 +5,49 @@ const REPO_OWNER = "tvduasrodas";
 const REPO_NAME = "tvduasrodas";
 const NEWS_PATH = "content/news";
 const SEARCH_VIDEOS_PATH = "content/videos";
-// Base do Worker que faz proxy para o GitHub
-// Troque pela URL REAL do seu Worker (exemplo):
-const WORKER_BASE_URL = "https://tvduasrodas.com/api/github-list?path=content/news";
-
 
 async function fetchJson(url) {
-    // Envia a URL original do GitHub para o worker
-    const proxyUrl = `${WORKER_BASE_URL}/json?url=${encodeURIComponent(url)}`;
+    // Prefixo das chamadas ao GitHub "contents"
+    const ghPrefix = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/`;
 
-    const resp = await fetch(proxyUrl);
+    // Se a URL for do tipo "contents/..." do GitHub,
+    // vamos passar pelo Worker tvduasrodas.com/api/github-list
+    if (url.startsWith(ghPrefix)) {
+        try {
+            // Ex.: url = "https://api.github.com/repos/.../contents/content/news?ref=main"
+            const pathWithQuery = url.slice(ghPrefix.length);      // "content/news?ref=main"
+            const pathOnly = pathWithQuery.split("?")[0];          // "content/news"
+
+            const workerUrl = `https://tvduasrodas.com/api/github-list?path=${encodeURIComponent(pathOnly)}`;
+
+            const resp = await fetch(workerUrl);
+            if (!resp.ok) {
+                console.error("Worker retornou erro:", resp.status, workerUrl);
+                throw new Error("Worker falhou");
+            }
+
+            return resp.json();
+        } catch (e) {
+            // Se o Worker falhar, faz fallback para o GitHub direto
+            console.error("Erro ao usar o Worker, tentando GitHub direto:", e);
+        }
+    }
+
+    // Comportamento padrão (GitHub direto ou qualquer outra URL JSON)
+    const resp = await fetch(url);
     if (!resp.ok) {
-        throw new Error("Erro ao buscar (worker/json): " + proxyUrl);
+        throw new Error("Erro ao buscar: " + url);
     }
     return resp.json();
 }
 
-
 async function fetchText(url) {
-    // Envia a URL original do GitHub para o worker
-    const proxyUrl = `${WORKER_BASE_URL}/text?url=${encodeURIComponent(url)}`;
-
-    const resp = await fetch(proxyUrl);
+    const resp = await fetch(url);
     if (!resp.ok) {
-        throw new Error("Erro ao buscar texto (worker/text): " + proxyUrl);
+        throw new Error("Erro ao buscar texto: " + url);
     }
     return resp.text();
 }
-
 
 // Parse simples de frontmatter YAML
 function parseFrontMatter(markdown) {
@@ -245,7 +260,7 @@ async function loadMagazineFromCMS() {
 
     try {
         // Lista de arquivos em content/news
-        const apiListUrl = `https://tvduasrodas.com/api/github-list?path=${NEWS_PATH}`;
+        const apiListUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${NEWS_PATH}?ref=main`;
         const files = await fetchJson(apiListUrl);
 
         // pega só .md
@@ -382,7 +397,7 @@ async function loadMoreArticlesSidebar() {
 
     try {
         // Lista de arquivos em content/news
-        const apiListUrl = `https://tvduasrodas.com/api/github-list?path=${NEWS_PATH}`;
+        const apiListUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${NEWS_PATH}?ref=main`;
         const files = await fetchJson(apiListUrl);
 
         // pega só .md
@@ -523,7 +538,7 @@ async function loadHomeLatestArticles() {
     if (!grid) return; // não está na home
 
     try {
-        const apiListUrl = `https://tvduasrodas.com/api/github-list?path=${NEWS_PATH}`;
+        const apiListUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${NEWS_PATH}?ref=main`;
         const files = await fetchJson(apiListUrl);
 
         const mdFiles = Array.isArray(files)
@@ -663,7 +678,7 @@ async function loadHomeVideos() {
     if (!latestGrid && !featuredGrid) return;
 
     try {
-        const apiListUrl = `https://tvduasrodas.com/api/github-list?path=${SEARCH_VIDEOS_PATH}`;
+        const apiListUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${SEARCH_VIDEOS_PATH}?ref=main`;
         const files = await fetchJson(apiListUrl);
 
         const mdFiles = Array.isArray(files)
@@ -1099,7 +1114,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // --- Helpers da busca no CMS (matérias + vídeos) ---
 
     async function loadSearchEntriesFromPath(path, type) {
-        const apiListUrl = `https://tvduasrodas.com/api/github-list?path=${path}`;
+        const apiListUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${path}?ref=main`;
 
         let files = [];
         try {
