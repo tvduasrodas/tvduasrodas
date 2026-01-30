@@ -406,22 +406,31 @@ async function loadMoreArticlesSidebar() {
         const artigos = [];
 
         for (const file of mdFiles) {
-            const raw = await fetchText(file.download_url);
-            const { data, content } = parseFrontMatter(raw);
-
             const slug = file.name.replace(/\.md$/, "");
-            const title = data.title || slug;
-            const categoryRaw = data.category || "";
-            const date = data.date || "";
+            const localUrl = `${NEWS_PATH}/${slug}.md`; // ex: content/news/minha-materia.md
 
-            artigos.push({
-                slug,
-                title,
-                categoryRaw,
-                date,
-                excerpt: markdownToExcerpt(content, 160),
-            });
+            try {
+                const raw = await fetchText(localUrl);
+                const { data, content } = parseFrontMatter(raw);
+
+                const title = data.title || slug;
+                const categoryRaw = data.category || "";
+                const date = data.date || "";
+
+                artigos.push({
+                    slug,
+                    title,
+                    categoryRaw,
+                    date,
+                    excerpt: markdownToExcerpt(content, 160),
+                });
+            } catch (err) {
+                console.warn("Falha ao carregar matéria da sidebar:", localUrl, err);
+                // se um arquivo der erro, segue pros próximos sem quebrar tudo
+                continue;
+            }
         }
+
 
         if (!artigos.length) {
             if (sidebarRev) sidebarRev.innerHTML = "<li>Nenhuma matéria encontrada.</li>";
