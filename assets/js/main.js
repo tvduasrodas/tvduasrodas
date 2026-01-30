@@ -5,22 +5,34 @@ const REPO_OWNER = "tvduasrodas";
 const REPO_NAME = "tvduasrodas";
 const NEWS_PATH = "content/news";
 const SEARCH_VIDEOS_PATH = "content/videos";
+// Base do Worker que faz proxy para o GitHub
+// Troque pela URL REAL do seu Worker (exemplo):
+const WORKER_BASE_URL = "https://tvduasrodas-api.tvduasrodas.workers.dev";
+
 
 async function fetchJson(url) {
-    const resp = await fetch(url);
+    // Envia a URL original do GitHub para o worker
+    const proxyUrl = `${WORKER_BASE_URL}/json?url=${encodeURIComponent(url)}`;
+
+    const resp = await fetch(proxyUrl);
     if (!resp.ok) {
-        throw new Error("Erro ao buscar: " + url);
+        throw new Error("Erro ao buscar (worker/json): " + proxyUrl);
     }
     return resp.json();
 }
 
+
 async function fetchText(url) {
-    const resp = await fetch(url);
+    // Envia a URL original do GitHub para o worker
+    const proxyUrl = `${WORKER_BASE_URL}/text?url=${encodeURIComponent(url)}`;
+
+    const resp = await fetch(proxyUrl);
     if (!resp.ok) {
-        throw new Error("Erro ao buscar texto: " + url);
+        throw new Error("Erro ao buscar texto (worker/text): " + proxyUrl);
     }
     return resp.text();
 }
+
 
 // Parse simples de frontmatter YAML
 function parseFrontMatter(markdown) {
