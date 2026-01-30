@@ -1566,6 +1566,20 @@ document.addEventListener("DOMContentLoaded", () => {
                     }
                     metaDesc.setAttribute("content", articleExcerpt);
 
+                    // === CANONICAL SEO (URL oficial da matéria) ===
+                    const canonicalUrl = `${window.location.origin}${window.location.pathname}?slug=${encodeURIComponent(
+                        data.slug || slug
+                    )}`;
+
+                    let canonicalLink = document.querySelector("link[rel='canonical']");
+                    if (!canonicalLink) {
+                        canonicalLink = document.createElement("link");
+                        canonicalLink.setAttribute("rel", "canonical");
+                        document.head.appendChild(canonicalLink);
+                    }
+                    canonicalLink.setAttribute("href", canonicalUrl);
+
+
 
                     // Título da aba
                     document.title = `${data.title || "Matéria"} | TV Duas Rodas`;
