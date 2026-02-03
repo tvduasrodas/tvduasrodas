@@ -8,7 +8,7 @@ cover: ''
 featured: false
 ---
 
-Por muitos anos tratado como um “brinquedo evoluído”, o **scooter freestyle **— também conhecido como **kick scooter** — atravessou uma transformação silenciosa e hoje ocupa um espaço sólido entre os esportes urbanos mais relevantes do mundo. Em 2026, a modalidade vive seu auge técnico, com **atletas profissionais, circuitos internacionais, marcas especializadas e eventos transmitidos globalmente**.
+Por muitos anos tratado como um “brinquedo evoluído”, o scooter freestyle — também conhecido como kick scooter — atravessou uma transformação silenciosa e hoje ocupa um espaço sólido entre os esportes urbanos mais relevantes do mundo. Em 2026, a modalidade vive seu auge técnico, com **atletas profissionais, circuitos internacionais, marcas especializadas e eventos transmitidos globalmente**.
 
 ![](/assets/img/uploads/RS_SCOOTER_MEN_PRO_FINAL_29052025_KINE_Theo_t_shoot0064.jpg)
 
