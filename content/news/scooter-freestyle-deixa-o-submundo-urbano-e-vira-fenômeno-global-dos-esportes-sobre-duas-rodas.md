@@ -26,9 +26,9 @@ As provas incluem categorias **street e park**, com julgamentos baseados em difi
 
 Em 2026, o scooter freestyle apresenta forte presença em:
 
-- **Europa**, especialmente França, Reino Unido e Espanha
-- **Austrália**, com atletas dominando rankings internacionais
-- **Estados Unidos**, onde o street scooter cresce em paralelo ao BMX
+- Europa, especialmente França, Reino Unido e Espanha
+- Austrália, com atletas dominando rankings internacionais
+- Estados Unidos, onde o street scooter cresce em paralelo ao BMX
 
 Eventos internacionais reúnem milhares de espectadores presenciais e milhões de visualizações online, impulsionados por vídeos curtos, POVs de manobras e conteúdos altamente virais.
 
