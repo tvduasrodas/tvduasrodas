@@ -1,5 +1,5 @@
 ---
-title: Scooter Freestyle deixa o submundo urbano e vira fenômeno global dos esportes sobre duas rodas
+title: Scooter Freestyle o submundo urbano em  esportes sobre duas rodas
 date: 2026-02-03T12:35:00-05:00
 author: TVDUASRODAS
 category: Eventos
