@@ -4,7 +4,7 @@ date: 2026-02-04T00:10:00-05:00
 author: TVDUASRODAS
 category: bikes
 videoId: ''
-cover: ''
+cover: /assets/img/uploads/KTM-Electric-Cycle.jpg
 featured: false
 ---
 
@@ -29,7 +29,7 @@ A bike utiliza múltiplos níveis de pedal assistido, permitindo ao ciclista esc
 - modos mais econômicos para quem quer pedalar mais e poupar bateria;
 - modos mais fortes para quem precisa chegar rápido ou prefere esforço físico mínimo.
 
-Essa combinação, segundo os portais que divulgaram o lançamento, faz com que a KTM Electric Cycle entregue um comportamento equilibrado, sem aquele “tranco” de alguns kits elétricos de baixa qualidade, mas também sem parecer fraca em situações do mundo real. 
+Essa combinação, segundo os portais que divulgaram o lançamento, faz com que a KTM Electric Cycle entregue um comportamento equilibrado, sem aquele “tranco” de alguns kits elétricos de baixa qualidade, mas também sem parecer fraca em situações do mundo real.
 
 ## Autonomia de até 580 km e recarga em 10 minutos
 
@@ -41,7 +41,7 @@ O número que mais chamou atenção na ficha técnica é a autonomia declarada d
 - trabalhadores que usam a bike para ir e voltar do trabalho,
 - estudantes que cruzam a cidade diariamente.
 
-Outro ponto que se destaca é o sistema de recarga rápida em 10 minutos, que promete recuperar energia suficiente para mais um bom trecho de deslocamento. Para quem esqueceu de carregar a bike à noite ou precisa de um “pit stop” rápido antes de outra rota de entrega, isso pode mudar o jogo. 
+Outro ponto que se destaca é o sistema de recarga rápida em 10 minutos, que promete recuperar energia suficiente para mais um bom trecho de deslocamento. Para quem esqueceu de carregar a bike à noite ou precisa de um “pit stop” rápido antes de outra rota de entrega, isso pode mudar o jogo.
 
 ## Equipamentos e tecnologia
 
@@ -52,7 +52,7 @@ A KTM Electric Cycle não nasce “pelada”. Entre os recursos destacados pelos
 - Iluminação full LED dianteira e traseira, melhorando a visibilidade noturna e a percepção por parte dos carros;
 - Possibilidade, em versões mais completas, de conectividade com smartphone via app, permitindo monitorar status da bateria, registrar rotas, acionar funções de segurança e até rastreamento em caso de furto.
 
-A KTM ainda não detalhou oficialmente todos os pacotes e versões, mas a expectativa é que a marca aproveite a experiência da linha KTM E-Ride (motos elétricas como Freeride E e SX-E) para levar parte dessa eletrônica embarcada para sua nova bicicleta. 
+A KTM ainda não detalhou oficialmente todos os pacotes e versões, mas a expectativa é que a marca aproveite a experiência da linha KTM E-Ride (motos elétricas como Freeride E e SX-E) para levar parte dessa eletrônica embarcada para sua nova bicicleta.
 
 ## Público-alvo: do trabalhador urbano ao entusiasta de tecnologia
 
@@ -81,7 +81,7 @@ Para o universo das duas rodas, isso significa:
 
 - produtos mais bem acabados e confiáveis;
 - mais opções para quem quer sair do motor a combustão;
-- uma ponte natural para atrair jovens e novos usuários para o “mundo laranja” da KTM. 
+- uma ponte natural para atrair jovens e novos usuários para o “mundo laranja” da KTM.
 
 ## Ficha técnica preliminar – KTM Electric Cycle 350W
 
