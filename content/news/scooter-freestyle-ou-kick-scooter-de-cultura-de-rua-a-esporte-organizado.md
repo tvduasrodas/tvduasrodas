@@ -3,8 +3,8 @@ title: Scooter Freestyle ou kick scooter De cultura de rua a esporte organizado
 date: 2026-02-04T11:18:00-05:00
 author: TVDUASRODAS
 category: Eventos
-videoId: CTV1ZWCh_Mw
-cover: ''
+videoId: ''
+cover: /assets/img/uploads/RS_SCOOTER_MEN_PRO_FINAL_29052025_KINE_Theo_t_shoot0080.jpg
 featured: false
 ---
 
