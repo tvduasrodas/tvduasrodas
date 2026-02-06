@@ -8,6 +8,8 @@ cover: /assets/img/uploads/WN7(4).jpg
 featured: false
 ---
 
+![](/assets/img/uploads/WN7%289%29.jpg)
+
 A Honda WN7 marca um momento histórico para a indústria de duas rodas. Apresentada como o primeiro modelo elétrico global da Honda, a WN7 representa muito mais do que uma nova motocicleta: ela simboliza a entrada definitiva da marca japonesa em uma nova era da mobilidade, onde sustentabilidade, tecnologia e tradição mecânica passam a caminhar juntas.
 
 Conhecida mundialmente por sua confiabilidade e engenharia conservadora — no melhor sentido da palavra — a Honda aposta na WN7 como um produto de transição: moderna o suficiente para representar o futuro, mas com identidade clara de motocicleta “de verdade”, sem exageros futuristas ou soluções pouco práticas.
