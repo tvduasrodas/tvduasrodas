@@ -37,10 +37,14 @@
 <body class="page-home">
     <!-- BARRA TOPO (ANÚNCIO) -->
     <div class="ad-bar">
-        <div class="container ad-bar-inner">
-            <!-- Exemplo de imagem: -->
-            <!-- <img src="assets/img/ad-top-placeholder.jpg" alt="Patrocinador topo" /> -->
-        </div>
+        <!-- ADS -->
+        <div id="ezoic-pub-ad-placeholder-101" class="ad-slot ad-slot-sidebar"></div>
+        <script>
+            ezstandalone.cmd.push(function () {
+                ezstandalone.showAds(101);
+            });
+        </script>
+        <!-- END ADS -->
     </div>
 
     <!-- HEADER -->
@@ -584,22 +588,22 @@
                         const excerpt = makeExcerpt(body);
 
                         return `
-          <article class="video-card">
-            <a href="${watchUrl}">
-              <div class="video-thumb real-thumb">
-                ${thumbSrc
+              <article class="video-card">
+                <a href="${watchUrl}">
+                  <div class="video-thumb real-thumb">
+                    ${thumbSrc
                                 ? `<img src="${thumbSrc}" alt="${title}">`
                                 : ""
                             }
-              </div>
-              <div class="card" style="margin-top: 8px;">
-                <h3>${title}</h3>
-                <p>${excerpt}</p>
-                <span class="article-link">Assistir &rarr;</span>
-              </div>
-            </a>
-          </article>
-        `;
+                  </div>
+                  <div class="card" style="margin-top: 8px;">
+                    <h3>${title}</h3>
+                    <p>${excerpt}</p>
+                    <span class="article-link">Assistir &rarr;</span>
+                  </div>
+                </a>
+              </article>
+            `;
                     })
                     .join("");
 
@@ -672,19 +676,19 @@
                         const excerpt = makeExcerpt(body);
 
                         return `
-              <article class="video-card">
-                <a href="${watchUrl}">
-                  <div class="video-thumb real-thumb">
-                    ${thumbSrc ? `<img src="${thumbSrc}" alt="${title}">` : ""}
-                  </div>
-                  <div class="card" style="margin-top: 8px;">
-                    <h3>${title}</h3>
-                    <p>${excerpt}</p>
-                    <span class="article-link">Assistir &rarr;</span>
-                  </div>
-                </a>
-              </article>
-            `;
+                  <article class="video-card">
+                    <a href="${watchUrl}">
+                      <div class="video-thumb real-thumb">
+                        ${thumbSrc ? `<img src="${thumbSrc}" alt="${title}">` : ""}
+                      </div>
+                      <div class="card" style="margin-top: 8px;">
+                        <h3>${title}</h3>
+                        <p>${excerpt}</p>
+                        <span class="article-link">Assistir &rarr;</span>
+                      </div>
+                    </a>
+                  </article>
+                `;
                     })
                     .join("");
 
@@ -773,27 +777,27 @@
                         const articleUrl = `materia.html?slug=${encodeURIComponent(slug)}`;
 
                         return `
-              <article class="card article-card">
-                <a href="${articleUrl}">
-                  ${imgSrc
+                  <article class="card article-card">
+                    <a href="${articleUrl}">
+                      ${imgSrc
                                 ? `
-                  <div class="article-thumb real-thumb">
-                    <img src="${imgSrc}" alt="${title}">
-                  </div>
-                  `
+                      <div class="article-thumb real-thumb">
+                        <img src="${imgSrc}" alt="${title}">
+                      </div>
+                      `
                                 : ""
                             }
-                  <span class="category-tag">${category}</span>
-                  ${dateLabel
+                      <span class="category-tag">${category}</span>
+                      ${dateLabel
                                 ? `<span class="article-date">${dateLabel}</span>`
                                 : ""
                             }
-                  <h3>${title}</h3>
-                  <p>${summary}</p>
-                  <span class="article-link">Ler matéria &rarr;</span>
-                </a>
-              </article>
-            `;
+                      <h3>${title}</h3>
+                      <p>${summary}</p>
+                      <span class="article-link">Ler matéria &rarr;</span>
+                    </a>
+                  </article>
+                `;
                     })
                     .join("");
 
