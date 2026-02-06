@@ -88,3 +88,5 @@ Para a Honda, é o começo.
 Para o mercado, um sinal forte de que a transição elétrica está oficialmente em curso.
 
 TVDUASRODAS continuará acompanhando os próximos anúncios, testes e a chegada da WN7 às ruas.
+
+![](/assets/img/uploads/WN7(4).jpg)
