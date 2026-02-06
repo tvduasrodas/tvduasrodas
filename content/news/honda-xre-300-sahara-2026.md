@@ -4,7 +4,7 @@ date: 2026-01-26T02:13:00-05:00
 author: TVDUASRODAS
 category: Lancamentos
 videoId: ''
-cover: /assets/img/uploads/PROOM_Sahara 300 2026_MOV_ (39).jpg
+cover: /assets/img/uploads/300 2026(4).jpg
 featured: false
 ---
 
@@ -17,6 +17,8 @@ A Honda XRE 300 Sahara 2026 chega ao mercado como uma trail versátil e moderna,
 A Sahara 300 mantém o perfil aventureiro característico da linha, com roda dianteira aro 21 e traseira aro 18 em alumínio, além de suspensões de longo curso que favorecem o uso em diferentes tipos de terreno. O design remete às motos crossover da família Honda, como a CB 500X, mas com identidade própria voltada para aventuras urbanas e trilhas leves.
 
 A linha 2026 traz novas opções de cores para as versões Standard, Rally e Adventure, reforçando o estilo e a personalidade da trail.
+
+![](/assets/img/uploads/300%202026%283%29.jpg)
 
 ## Motor e desempenho
 
@@ -42,6 +44,8 @@ A suspensão dianteira conta com garfo telescópico com 245 mm de curso, enquant
 
 A altura do assento é de 859 mm, favorecendo ergonomia e controle para diferentes perfis de pilotos. Já a distância mínima do solo de 269 mm transmite mais confiança em trechos fora de estrada.
 
+![](/assets/img/uploads/300%202026%282%29.jpg)
+
 ## Versões, cores e preços
 
 A Honda XRE 300 Sahara 2026 é oferecida em três versões, cada uma com esquema de cores exclusivo:
@@ -51,6 +55,8 @@ A Honda XRE 300 Sahara 2026 é oferecida em três versões, cada uma com esquema
 - XRE 300 Sahara Adventure – Bege Fosco – R$ 32.108
 
 O modelo sai de fábrica com garantia de três anos sem limite de quilometragem, oferecendo ainda mais tranquilidade aos proprietários.
+
+![](/assets/img/uploads/300%202026%281%29.jpg)
 
 ## Conclusão
 
