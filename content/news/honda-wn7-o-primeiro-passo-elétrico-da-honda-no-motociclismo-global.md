@@ -3,7 +3,7 @@ title: 'Honda WN7: o primeiro passo elétrico da Honda no motociclismo global'
 date: 2026-02-06T00:13:00-05:00
 author: TVDUASRODAS
 category: Lancamentos
-videoId: https://www.youtube.com/watch?v=NxretVtSMSE
+videoId: NxretVtSMSE
 cover: /assets/img/uploads/WN7(4).jpg
 featured: false
 ---
