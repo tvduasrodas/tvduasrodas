@@ -75,6 +75,8 @@ A WN7 deve servir como base tecnológica para uma nova família de motocicletas 
 A Honda WN7 não tenta revolucionar o motociclismo da noite para o dia. Em vez disso, ela propõe algo mais sólido:
 evoluir com responsabilidade.
 
+![](/assets/img/uploads/WN7(4).jpg)
+
 ![](/assets/img/uploads/WN7%283%29.jpg)
 
 Ao apostar em uma moto elétrica prática, confiável e visualmente acessível, a Honda envia um recado claro ao mercado:
@@ -88,5 +90,3 @@ Para a Honda, é o começo.
 Para o mercado, um sinal forte de que a transição elétrica está oficialmente em curso.
 
 TVDUASRODAS continuará acompanhando os próximos anúncios, testes e a chegada da WN7 às ruas.
-
-![](/assets/img/uploads/WN7(4).jpg)
