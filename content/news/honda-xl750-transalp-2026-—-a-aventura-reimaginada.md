@@ -10,7 +10,7 @@ featured: false
 
 A Honda XL750 Transalp 2026 é a mais recente evolução da lendária linha Transalp — um modelo que retorna com força total para dominar o segmento _mid-weight adventure_ (trilhas leves, estrada e viagens longas). Projetada para ser versátil, confiável e com desempenho moderno, a Transalp chega como uma das motos mais interessantes da categoria.
 
- ![](/assets/img/uploads/transalp0.jpg)
+ ![](/assets/img/uploads/transalp0.jpg "Honda XL750 Transalp")
 
 ## Design e Conceito
 
@@ -18,7 +18,7 @@ O nome _Transalp_ carrega décadas de história — originalmente associado a mo
 
 O chassi em aço tipo _Diamond_ oferece rigidez ideal e equilíbrio, enquanto a geometria foi pensada para uma pilotagem estável tanto em estrada quanto em terra.
 
- ![](/assets/img/uploads/transalp06.jpg)
+ ![](/assets/img/uploads/transalp06.jpg "Honda Transalp 2026")
 
 ## Motor e Desempenho
 
@@ -33,7 +33,7 @@ No coração da Transalp está um motor bicilíndrico em paralelo de 755 cc, com
 
 O trabalho de _Throttle By Wire_ permite escolher entre múltiplos modos de pilotagem: Sport, Standard, Gravel, Rain e dois modos personalizados (_User_), ajustando resposta do acelerador, controle de tração e frenagem do motor.
 
- ![](/assets/img/uploads/transalp03.jpg)
+ ![](/assets/img/uploads/transalp03.jpg "Honda Transalp Motor")
 
 ## Chassi, Suspensão e Dinâmica
 
@@ -49,7 +49,7 @@ Principais dados:
 
 Essa configuração garante boa absorção de impactos, conforto em longas jornadas e controle em terrenos variados — desde rodovias a estradas de terra.
 
- ![](/assets/img/uploads/transalp02.jpg)
+ ![](/assets/img/uploads/transalp02.jpg "Honda Transalp Chassi")
 
 ## Tecnologia e Eletrônica
 
@@ -76,7 +76,7 @@ A Transalp combina desempenho com eficiência:
 
 Esse equilíbrio entre desempenho e economia coloca a Transalp como uma moto prática tanto para deslocamentos diários quanto para aventuras de vários dias.
 
-![](/assets/img/uploads/transalp04.jpg)
+![](/assets/img/uploads/transalp04.jpg "Honda Transalp Frontal")
 
 ## Comparação com Concorrentes
 
@@ -86,7 +86,7 @@ Em comparação com outras _adventure bikes_ de média cilindrada, a Transalp se
 ✔ Autonomia superior devido ao tanque bem aproveitado e economia eficiente.
 ✔ Versatilidade real para estrada e off-road leve sem excessiva complexidade eletrônica.
 
- ![](/assets/img/uploads/transalp05.jpg)
+ ![](/assets/img/uploads/transalp05.jpg "Honda Transalp Panel")
 
 ## Impressões de Pilotagem
 
@@ -98,7 +98,7 @@ Pilotos destacam ergonomia confortável, posição natural de pilotagem e respos
 
 Embora o preço possa variar conforme o mercado, estimativas internacionais colocam a XL750 Transalp na faixa média-alta de aventura touring, com o modelo base começando em valores competitivos frente aos rivais.
 
- ![](/assets/img/uploads/transalp01.jpg)
+ ![](/assets/img/uploads/transalp01.jpg "Transalp 2026")
 
 ## Conclusão — A Nova Era da Transalp
 
