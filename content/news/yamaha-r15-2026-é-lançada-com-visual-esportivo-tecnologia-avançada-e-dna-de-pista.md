@@ -14,7 +14,7 @@ A Yamaha R15 2026 chega ao mercado reafirmando sua posição como uma das sportb
 
 Visualmente, a R15 2026 segue a identidade global da Yamaha, com linhas afiadas e aerodinâmica funcional. O conjunto frontal ganhou novo farol central em LED com DRL integrado, remetendo às superesportivas da marca, além de carenagens laterais redesenhadas para melhor fluxo de ar e estabilidade em alta velocidade.
 
-![Yamaha R15 2026 Visao Frontal](/assets/img/uploads/r1504.jpg)
+![](/assets/img/uploads/r1504.jpg "Yamaha R15 Frontal")
 
 O assento em dois níveis reforça a proposta esportiva, enquanto o tanque esculpido melhora a ergonomia tanto para uma condução mais agressiva quanto para o uso diário.
 
@@ -28,7 +28,7 @@ Esse conjunto proporciona acelerações progressivas, baixo consumo de combustí
 
 A ciclística é um dos grandes destaques do modelo. A R15 2026 utiliza o chassi Deltabox, reconhecido pela rigidez estrutural e excelente estabilidade, aliado a uma suspensão dianteira invertida (USD), que melhora significativamente o controle em curvas e frenagens mais exigentes.
 
-![Yamaha R15 Visao Lateral](/assets/img/uploads/r1503.jpg)
+![](/assets/img/uploads/r1503.jpg "Yamaha R15 2026")
 
 O sistema de freios conta com disco nas duas rodas e ABS de dois canais, oferecendo mais segurança tanto no uso urbano quanto em uma pilotagem esportiva.
 
@@ -48,7 +48,7 @@ Em alguns mercados, o modelo também oferece conectividade via aplicativo Yamaha
 
 Mesmo com visual agressivo e tecnologias modernas, a Yamaha R15 2026 mantém sua proposta de ser uma esportiva acessível. O modelo é ideal para quem deseja entrar no universo das motos carenadas sem abrir mão de economia, confiabilidade e baixo custo de manutenção.
 
-![Yamaha R15 2026 Peitoral](/assets/img/uploads/r1502.jpg)
+![](/assets/img/uploads/r1502.jpg "Yamaha R15 Carenagem")
 
 ## Conclusão
 
