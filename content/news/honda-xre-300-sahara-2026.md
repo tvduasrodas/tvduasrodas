@@ -18,7 +18,7 @@ A Sahara 300 mantém o perfil aventureiro característico da linha, com roda dia
 
 A linha 2026 traz novas opções de cores para as versões Standard, Rally e Adventure, reforçando o estilo e a personalidade da trail.
 
-![](/assets/img/uploads/300%202026%283%29.jpg)
+![](/assets/img/uploads/300%202026%283%29.jpg "XRE 300")
 
 ## Motor e desempenho
 
@@ -44,7 +44,7 @@ A suspensão dianteira conta com garfo telescópico com 245 mm de curso, enquant
 
 A altura do assento é de 859 mm, favorecendo ergonomia e controle para diferentes perfis de pilotos. Já a distância mínima do solo de 269 mm transmite mais confiança em trechos fora de estrada.
 
-![](/assets/img/uploads/300%202026%282%29.jpg)
+![](/assets/img/uploads/300%202026%282%29.jpg "XRE 300 motor")
 
 ## Versões, cores e preços
 
@@ -56,7 +56,7 @@ A Honda XRE 300 Sahara 2026 é oferecida em três versões, cada uma com esquema
 
 O modelo sai de fábrica com garantia de três anos sem limite de quilometragem, oferecendo ainda mais tranquilidade aos proprietários.
 
-![](/assets/img/uploads/300%202026%281%29.jpg)
+![](/assets/img/uploads/300%202026%281%29.jpg "XRE 300 cores")
 
 ## Conclusão
 
