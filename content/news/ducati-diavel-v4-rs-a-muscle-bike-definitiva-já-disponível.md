@@ -14,7 +14,7 @@ A **Ducati Diavel V4 RS** chega ao mercado como a interpretação mais extrema d
 
 Visualmente, a Diavel V4 RS impõe respeito. A silhueta musculosa, o tanque largo e o conjunto óptico full LED reforçam a identidade “power cruiser”, enquanto detalhes em **fibra de carbono** e acabamentos premium evidenciam o foco esportivo. A posição de pilotagem é confortável para o uso diário, mas com ergonomia preparada para acelerar forte quando o asfalto permite.
 
-![](/assets/img/uploads/Diavel%20V4%20RS-ext_top-1769832397972.jpg)
+![](/assets/img/uploads/Diavel%20V4%20RS-ext_top-1769832397972.jpg "Ducati Diavel V4 RS Frontal")
 
 ## Motor de DNA MotoGP
 
@@ -27,7 +27,7 @@ No coração da V4 RS está o **Desmosedici Stradale V4**, um motor de **1.103 c
 - Câmbio de 6 marchas com **quickshifter bidirecional**
 - Refrigeração e durabilidade pensadas para uso esportivo
 
-![](/assets/img/uploads/Ducati4.png)
+![](/assets/img/uploads/Ducati4.png "Ducati Diavel V4 RS Motor")
 
 ## Eletrônica e ciclística de alto nível
 
@@ -49,7 +49,7 @@ A Ducati Diavel V4 RS ocupa um espaço único. Não é uma naked tradicional, ne
 - Entusiastas de motos exclusivas
 - Quem busca uma máquina para impressionar na cidade e acelerar forte na estrada
 
-![](/assets/img/uploads/Ducati1.png)
+![](/assets/img/uploads/Ducati1.png "Ducati Diavel V4 RS 2026")
 
 ## Ficha técnica (resumo)
 
@@ -61,7 +61,7 @@ A Ducati Diavel V4 RS ocupa um espaço único. Não é uma naked tradicional, ne
 - **Eletrônica:** IMU 6 eixos, modos de pilotagem, TC, WC, launch control
 - **Status:** **Já disponível**
 
-![](/assets/img/uploads/Diavel%20V4%20RS-ext_side_driver-1769832385134.jpg)
+![](/assets/img/uploads/Diavel%20V4%20RS-ext_side_driver-1769832385134.jpg "Ducati Diavel V4 RS Painel")
 
 ## Conclusão
 
