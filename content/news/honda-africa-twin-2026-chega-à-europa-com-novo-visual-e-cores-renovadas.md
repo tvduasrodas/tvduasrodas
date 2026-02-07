@@ -20,6 +20,8 @@ A versão Standard aposta em agilidade e forte vocação off-road. O conjunto ut
 
 Já a Africa Twin Adventure Sports ES é voltada ao turismo de longa distância. O modelo conta com tanque de maior capacidade, carenagem mais envolvente e foco em estabilidade no asfalto. O pacote inclui o sistema Showa EERA, que ajusta eletronicamente o amortecimento da suspensão em tempo real, elevando o conforto e a segurança em diferentes condições de pilotagem.
 
+![](/assets/img/uploads/Africa_Twin.jpg "Honda Africa Twin")
+
 ## Motor, transmissão e desempenho
 
 Ambas as versões utilizam o motor bicilíndrico paralelo de 1.084 cm³, arrefecido a líquido, com comando SOHC Unicam e virabrequim a 270°. Essa configuração garante uma entrega de torque linear e excelente tração, especialmente em uso fora de estrada.
@@ -39,6 +41,8 @@ O painel TFT colorido de 6,5 polegadas sensível ao toque oferece excelente visu
 O assento possui densidade otimizada para reduzir a fadiga em longas viagens e conta com ajuste de altura sem necessidade de ferramentas. O para-brisa ajustável melhora a proteção aerodinâmica, enquanto o sistema de iluminação em curva — exclusivo da versão Adventure Sports — amplia a visibilidade durante a pilotagem noturna.
 
 O sistema de freios utiliza discos duplos dianteiros de 310 mm com pinças radiais, ABS com modo off-road e possibilidade de desativação do ABS traseiro, reforçando o controle em situações extremas.
+
+![](/assets/img/uploads/Africa_Twin_colors.jpg "Africa Twin Modelos")
 
 ## Um ícone que evolui sem perder sua identidade
 
