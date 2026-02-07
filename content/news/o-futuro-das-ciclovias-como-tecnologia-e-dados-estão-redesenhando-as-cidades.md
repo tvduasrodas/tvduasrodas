@@ -12,7 +12,7 @@ Durante décadas, ciclovias foram tratadas como soluções simples: pintar faixa
 
 O crescimento acelerado de bicicletas elétricas, patinetes e outros meios de micromobilidade fez com que gestores públicos, urbanistas e engenheiros de tráfego repensassem uma pergunta fundamental: **como projetar infraestrutura para um trânsito que muda em tempo real?**
 
-![](/assets/img/uploads/final-mile-layout-comp-012722.jpg)
+![](/assets/img/uploads/final-mile-layout-comp-012722.jpg "Ciclovia Inteligente")
 
 ## Da intuição aos dados concretos
 
@@ -27,7 +27,7 @@ Essas tecnologias permitem mapear com precisão:
 
 Com essas informações, o planejamento deixa de ser genérico e passa a ser **cirúrgico**, focado em resolver problemas reais.
 
-![](/assets/img/uploads/ciclo2.png)
+![](/assets/img/uploads/ciclo2.png "Ciclovia urbano")
 
 ## Ciclovias inteligentes: o que já está sendo aplicado
 
@@ -40,7 +40,7 @@ Em projetos mais avançados, ciclovias estão recebendo soluções que até pouc
 
 Essas iniciativas não apenas aumentam a segurança, como também tornam o uso da bicicleta **mais previsível e confiável** para quem depende dela diariamente.
 
-![](/assets/img/uploads/ciclo1.png)
+![](/assets/img/uploads/ciclo1.png "ciclovia do futuro")
 
 ## A convivência entre diferentes tipos de usuários
 
@@ -78,7 +78,7 @@ Especialistas apontam que o futuro das ciclovias será marcado por três pilares
 
 Isso significa ciclovias que evoluem constantemente, acompanhando mudanças no comportamento da população e no avanço da tecnologia.
 
-![](/assets/img/uploads/ciclo3.png)
+![](/assets/img/uploads/ciclo3.png "ciclovia integrada")
 
 ## Conclusão
 
