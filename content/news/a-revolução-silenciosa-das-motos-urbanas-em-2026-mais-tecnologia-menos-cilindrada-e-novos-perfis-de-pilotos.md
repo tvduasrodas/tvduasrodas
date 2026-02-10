@@ -30,7 +30,7 @@ Se antes a potência bruta era o principal atrativo, hoje o destaque está na ef
 
 Essas motos não são apenas meios de transporte — elas se tornaram plataformas inteligentes de mobilidade.
 
-![](/assets/img/uploads/urbano6.webp)
+![](/assets/img/uploads/urbano3.webp)
 
 ***
 
