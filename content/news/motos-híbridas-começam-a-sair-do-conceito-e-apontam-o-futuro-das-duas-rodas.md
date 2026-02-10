@@ -10,7 +10,7 @@ featured: false
 
 O futuro das duas rodas começa a ganhar forma fora dos salões e cada vez mais perto das ruas. As motos híbridas, que combinam motor a combustão com assistência elétrica, deixaram de ser apenas estudos de engenharia e avançam para uma nova fase: a da aplicação real no dia a dia.
 
-![](/assets/img/uploads/hibrido3.webp)
+![Moto Hibrida](/assets/img/uploads/hibrido3.webp "Moto Hibrida")
 
 A proposta não é substituir totalmente os motores tradicionais, mas criar uma solução intermediária que una eficiência, desempenho urbano e redução de emissões, sem os desafios atuais das motos 100% elétricas.
 
@@ -26,9 +26,9 @@ O sistema híbrido utiliza um motor elétrico auxiliar, geralmente integrado ao 
 
 Além disso, parte dos projetos já trabalha com recuperação de energia nas frenagens, tecnologia semelhante ao KERS usado na Fórmula 1, reaproveitando energia que normalmente seria perdida.
 
-![](/assets/img/uploads/hibrido2.webp)
+![Moto Hibrida Como Funciona](/assets/img/uploads/hibrido2.webp "Moto Hibrida Como Funciona")
 
-![](/assets/img/uploads/hibrido5.png)
+![Moto Hibrida Como Funciona](/assets/img/uploads/hibrido5.png "Moto Hibrida Como Funciona")
 
 ***
 
@@ -68,7 +68,7 @@ A tendência é que os primeiros modelos híbridos cheguem ao mercado em segment
 
 Ou seja, motos onde eficiência, conforto e versatilidade pesam mais do que desempenho extremo.
 
-![](/assets/img/uploads/hibrido6.jpg)
+![Moto Hibrida Lancamento](/assets/img/uploads/hibrido6.jpg "Moto Hibrida Lancamento")
 
 ***
 
@@ -84,4 +84,4 @@ Não se trata de uma moda passageira, mas de uma mudança estrutural na forma co
 
 O TVDUASRODAS seguirá acompanhando de perto o avanço das motos híbridas, os primeiros lançamentos comerciais e o impacto dessa tecnologia no mercado brasileiro e internacional.
 
-![](/assets/img/uploads/hibrido4.avif)
+![Moto Hibrida](/assets/img/uploads/hibrido4.avif "Moto Hibrida")
