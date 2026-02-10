@@ -8,13 +8,13 @@ cover: /assets/img/uploads/WN7(4).jpg
 featured: false
 ---
 
-![](/assets/img/uploads/WN7%289%29.jpg "Honda WN7")
+![Honda WN7](/assets/img/uploads/WN7%289%29.jpg "Honda WN7")
 
 A Honda WN7 marca um momento histórico para a indústria de duas rodas. Apresentada como o primeiro modelo elétrico global da Honda, a WN7 representa muito mais do que uma nova motocicleta: ela simboliza a entrada definitiva da marca japonesa em uma nova era da mobilidade, onde sustentabilidade, tecnologia e tradição mecânica passam a caminhar juntas.
 
 Conhecida mundialmente por sua confiabilidade e engenharia conservadora — no melhor sentido da palavra — a Honda aposta na WN7 como um produto de transição: moderna o suficiente para representar o futuro, mas com identidade clara de motocicleta “de verdade”, sem exageros futuristas ou soluções pouco práticas.
 
- ![](/assets/img/uploads/WN7%287%29.jpg "Honda WN7")
+ ![Honda WN7](/assets/img/uploads/WN7%287%29.jpg "Honda WN7")
 
 ## Design: familiar, mas com DNA elétrico
 
@@ -35,7 +35,7 @@ Entre os destaques técnicos divulgados pela Honda estão:
 
 A proposta não é competir com superesportivas elétricas, mas entregar confiabilidade, previsibilidade e eficiência, três pilares históricos da marca.
 
- ![](/assets/img/uploads/WN7%286%29.jpg "Honda WN7 Tanque")
+ ![Honda WN7 Tanque](/assets/img/uploads/WN7%286%29.jpg "Honda WN7 Tanque")
 
 ## Autonomia e recarga: pragmatismo japonês
 
@@ -58,7 +58,7 @@ A Honda WN7 traz um pacote tecnológico alinhado com os padrões atuais da marca
 
 Tudo isso sem sobrecarregar o piloto com menus complexos ou interfaces confusas.
 
- ![](/assets/img/uploads/WN7%285%29.jpg "Honda WN7 Painel")
+ ![Honda WN7 Painel](/assets/img/uploads/WN7%285%29.jpg "Honda WN7 Painel")
 
 ## Produção, mercado e estratégia global
 
@@ -77,7 +77,7 @@ A WN7 deve servir como base tecnológica para uma nova família de motocicletas 
 A Honda WN7 não tenta revolucionar o motociclismo da noite para o dia. Em vez disso, ela propõe algo mais sólido:
 evoluir com responsabilidade.
 
-![](/assets/img/uploads/WN7%283%29.jpg "Honda WN7 Frontal")
+![Honda WN7 Frontal](/assets/img/uploads/WN7%283%29.jpg "Honda WN7 Frontal")
 
 Ao apostar em uma moto elétrica prática, confiável e visualmente acessível, a Honda envia um recado claro ao mercado:
 o futuro será elétrico, mas continuará sendo feito de motocicletas — não apenas de gadgets sobre duas rodas.
