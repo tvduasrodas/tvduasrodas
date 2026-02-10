@@ -2,7 +2,7 @@
 title: 'A Revolução Silenciosa das Motos Urbanas em 2026: Mais Tecnologia, Menos Cilindrada e Novos Perfis de Pilotos'
 date: 2026-02-10T13:18:00-05:00
 author: TVDUASRODAS
-category: Moto
+category: Urbano
 videoId: ''
 cover: /assets/img/uploads/urbano7.jpg
 featured: false
