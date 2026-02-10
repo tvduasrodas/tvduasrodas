@@ -12,7 +12,7 @@ featured: false
 
 Em 2026, o mercado de motocicletas vive uma transformação silenciosa, porém profunda. Longe dos holofotes das superbikes e das disputas de velocidade, as motos urbanas de baixa e média cilindrada estão assumindo um papel central no ecossistema das duas rodas.
 
-![](/assets/img/uploads/urbano1.avif)
+![Moto Urbana](/assets/img/uploads/urbano1.avif "Moto Urbana")
 
 Essa mudança não acontece por acaso. Ela é resultado direto de fatores como trânsito cada vez mais denso, custo de manutenção elevado, novas regulamentações ambientais e um novo perfil de motociclista, mais racional, conectado e urbano.
 
@@ -30,7 +30,7 @@ Se antes a potência bruta era o principal atrativo, hoje o destaque está na ef
 
 Essas motos não são apenas meios de transporte — elas se tornaram plataformas inteligentes de mobilidade.
 
-![](/assets/img/uploads/urbano3.webp)
+![Painel eletronico moto](/assets/img/uploads/urbano3.webp "Painel eletronico moto")
 
 ***
 
@@ -45,7 +45,7 @@ Outro ponto-chave dessa transformação é o comportamento do piloto. Em 2026, c
 
 Esse público impulsiona a demanda por motos mais leves, fáceis de pilotar e tecnologicamente assistidas, reduzindo barreiras de entrada para novos usuários.
 
-![](/assets/img/uploads/urbano4.webp)
+![Bicicleta Eletrica](/assets/img/uploads/urbano4.webp "Bicicleta Eletrica")
 
 ***
 
@@ -60,7 +60,7 @@ Em grandes centros, o crescimento é visível principalmente entre:
 - Criadores de conteúdo
 - Serviços urbanos e delivery especializado
 
-![](/assets/img/uploads/urbano5.webp)
+![Patinete Eletrico](/assets/img/uploads/urbano5.webp "Patinete Eletrico")
 
 ***
 
@@ -70,7 +70,7 @@ Diferente de décadas passadas, o discurso de 2026 coloca a segurança no centro
 
 Isso explica a padronização de sistemas eletrônicos, melhores freios, iluminação em LED de alta visibilidade e estruturas mais rígidas, mesmo em motos de entrada.
 
-![](/assets/img/uploads/urbano4.avif)
+![Patinete Eletrico](/assets/img/uploads/urbano4.avif "Patinete Eletrico")
 
 ***
 
@@ -80,4 +80,4 @@ A motocicleta urbana de 2026 não busca impressionar pelo excesso, mas sim conve
 
 Mais do que uma tendência, trata-se de uma evolução inevitável do mercado de duas rodas.
 
-![](/assets/img/uploads/urbano2.jpg)
+![Motos Urbanas](/assets/img/uploads/urbano2.jpg "Motos Urbanas")
