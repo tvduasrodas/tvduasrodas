@@ -4,13 +4,15 @@ date: 2026-07-20T13:00:00-04:00
 author: TVDUASRODAS
 category: Eventos
 videoId: ''
-cover: /assets/img/uploads/moto1000gp-cascavel-2026-capa.png
+cover: /assets/img/uploads/moto1000gp-cascavel-2026-capa-v2.webp
 featured: false
 ---
 
 O Campeonato Brasileiro de Motovelocidade 2026 já tem data e local confirmados para seu próximo encontro. A quarta etapa do MOTO1000GP está marcada para **2 de agosto, em Cascavel (PR)**, no Autódromo Internacional Zilmar Beux. A rodada, batizada de GP Paraná pelo organizador, chega em um momento importante: ela marca a metade do calendário de oito etapas da temporada.
 
 Para o público, é a oportunidade de acompanhar de perto algumas das motos mais rápidas do cenário nacional. Para pilotos e equipes, Cascavel abre uma fase em que cada ponto passa a pesar ainda mais na disputa pelos títulos.
+
+![Motos de competição alinhadas no grid de largada](/assets/img/uploads/moto1000gp-cascavel-2026-grid.webp "A formação do grid reúne máquinas e pilotos de diferentes categorias antes da largada")
 
 ## O que está confirmado para Cascavel
 
@@ -29,6 +31,8 @@ O resultado deixa uma expectativa especial para Cascavel. Scheib e Granado mostr
 Outras categorias também chegam com vencedores recentes. Em Curvelo, **Mario Salles** venceu a GP600, enquanto **Eduardo Marques** levou a GP Light. As corridas completas das três classes estão disponíveis no canal oficial do MOTO1000GP no YouTube e foram selecionadas pela TVDUASRODAS para quem quiser revisar a etapa anterior.
 
 [Assista à corrida principal da GP1000 em Curvelo](https://www.youtube.com/watch?v=4KOXingAdHw) e encontre as demais provas na seção TV & Vídeos.
+
+![Equipe preparando uma motocicleta de competição nos boxes](/assets/img/uploads/moto1000gp-cascavel-2026-boxes.webp "Nos boxes, cada ajuste pode fazer diferença no desempenho durante a etapa")
 
 ## Por que Cascavel merece atenção
 
