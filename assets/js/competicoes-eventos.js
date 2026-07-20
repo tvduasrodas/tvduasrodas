@@ -175,9 +175,6 @@
             events.sort((a, b) => String(a.start_date).localeCompare(String(b.start_date)));
             competitionGrid.innerHTML = competitions.map(competitionCard).join("");
             document.getElementById("ceEventList").innerHTML = events.map(eventCard).join("");
-            document.getElementById("ceCompetitionCount").textContent = competitions.length;
-            document.getElementById("ceEventCount").textContent = events.length;
-            document.getElementById("ceUpdatedCount").textContent = competitions.filter((x) => x.standings?.length || x.rounds?.length).length;
 
             const modalities = [...new Set(competitions.map((x) => x.modality).filter(Boolean))].sort();
             const filter = document.getElementById("ceModalityFilter");
