@@ -2152,6 +2152,25 @@ button {
 }
 
 @media (max-width: 640px) {
+    .main-nav {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .main-nav ul {
+        max-width: 100%;
+        gap: 8px;
+        font-size: 10px;
+        letter-spacing: .045em;
+    }
+
+    .site-search {
+        width: 100%;
+        min-width: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
     .ce-hero { padding: 46px 0 64px; }
     .ce-hero__grid { gap: 38px; }
     .ce-hero h1 { font-size: 42px; }
