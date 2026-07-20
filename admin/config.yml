@@ -57,7 +57,7 @@ collections:
       - { label: "Título", name: "title", widget: "string" }
       - { label: "Data", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ssZ" }
       - { label: "Autor", name: "author", widget: "string", required: false, default: "TVDUASRODAS" }
-      - { label: "Categoria", name: "category", widget: "select", options: ["Moto", "Lancamentos", "bikes", "Eventos", "Urbano", "tests", "Outro"], default: "Moto" }
+      - { label: "Categoria", name: "category", widget: "select", options: [{label: "Motos", value: "Moto"}, {label: "Lançamentos", value: "Lancamentos"}, {label: "Testes", value: "tests"}, {label: "Bikes", value: "bikes"}, {label: "Eventos", value: "Eventos"}, {label: "Urbanização e mobilidade", value: "Urbanizacao"}, {label: "Dicas", value: "Dicas"}, {label: "Segurança", value: "Seguranca"}, {label: "Tecnologia", value: "Tecnologia"}, {label: "Outro", value: "Outro"}], default: "Moto" }
       - { name: "videoId", label: "ID do vídeo (YouTube)", widget: "string", required: false }
       - { label: "Imagem principal", name: "cover", widget: "image", required: false }
       - { label: "Destacar na capa da Revista?", name: "featured", widget: "boolean", required: false, default: false }
