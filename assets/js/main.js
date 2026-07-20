@@ -1435,6 +1435,67 @@ document.addEventListener("DOMContentLoaded", () => {
         return result;
     }
 
+    function escapeHtml(value) {
+        return String(value ?? "")
+            .replace(/&/g, "&amp;")
+            .replace(/</g, "&lt;")
+            .replace(/>/g, "&gt;")
+            .replace(/"/g, "&quot;")
+            .replace(/'/g, "&#39;");
+    }
+
+    function sanitizeMarkdownUrl(rawUrl) {
+        const value = String(rawUrl || "").trim();
+        if (!value) return "#";
+
+        try {
+            const parsed = new URL(value, window.location.origin);
+            if (parsed.protocol !== "http:" && parsed.protocol !== "https:") {
+                return "#";
+            }
+
+            // Preserva caminhos relativos/locais; normaliza links externos.
+            const hasProtocol = /^[a-z][a-z0-9+.-]*:/i.test(value);
+            return hasProtocol ? parsed.href : value;
+        } catch (error) {
+            console.warn("URL Markdown inválida ignorada:", value, error);
+            return "#";
+        }
+    }
+
+    function renderInlineMarkdown(value) {
+        const tokens = [];
+        let tokenized = String(value || "");
+
+        // Protege código e links antes de escapar o restante do HTML.
+        tokenized = tokenized.replace(/`([^`]+)`/g, (_, code) => {
+            const token = `@@MDTOKEN${tokens.length}@@`;
+            tokens.push(`<code>${escapeHtml(code)}</code>`);
+            return token;
+        });
+
+        tokenized = tokenized.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (_, label, rawUrl) => {
+            const token = `@@MDTOKEN${tokens.length}@@`;
+            const safeUrl = sanitizeMarkdownUrl(rawUrl);
+            const external = /^https?:\/\//i.test(safeUrl);
+            const attrs = external ? ' target="_blank" rel="noopener noreferrer"' : "";
+            tokens.push(`<a href="${escapeHtml(safeUrl)}"${attrs}>${escapeHtml(label)}</a>`);
+            return token;
+        });
+
+        let rendered = escapeHtml(tokenized)
+            .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+            .replace(/__([^_]+)__/g, "<strong>$1</strong>")
+            .replace(/(^|[\s(])\*([^*\n]+)\*/g, "$1<em>$2</em>")
+            .replace(/(^|[\s(])_([^_\n]+)_/g, "$1<em>$2</em>");
+
+        tokens.forEach((html, index) => {
+            rendered = rendered.split(`@@MDTOKEN${index}@@`).join(html);
+        });
+
+        return rendered;
+    }
+
     function markdownToHtml(md) {
         const lines = md.split(/\r?\n/);
         const html = [];
@@ -1453,7 +1514,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
 
             // IMAGEM sozinha na linha: ![alt](url)
-            const imgMatch = line.match(/^!\[([^\]]*)\]\(([^)]+)\)/);
+            const imgMatch = line.match(/^!\[([^\]]*)\]\(\s*(\S+?)(?:\s+["']([^"']*)["'])?\s*\)$/);
             if (imgMatch) {
                 if (inList) {
                     html.push("</ul>");
@@ -1461,11 +1522,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
 
                 const alt = imgMatch[1] || "";
-                const src = imgMatch[2];
+                const src = sanitizeMarkdownUrl(imgMatch[2]);
+                const caption = imgMatch[3] || "";
 
                 html.push(`
                 <figure class="article-inline-media">
-                    <img src="${src}" alt="${alt}">
+                    <img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}" loading="lazy">
+                    ${caption ? `<figcaption>${escapeHtml(caption)}</figcaption>` : ""}
                 </figure>
             `);
                 continue;
@@ -1478,7 +1541,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     inList = true;
                 }
                 const item = line.replace(/^[-*]\s+/, "");
-                html.push(`<li>${item}</li>`);
+                html.push(`<li>${renderInlineMarkdown(item)}</li>`);
                 continue;
             } else if (inList) {
                 html.push("</ul>");
@@ -1487,14 +1550,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
             // TÍTULOS
             if (/^###\s+/.test(line)) {
-                html.push(`<h3>${line.replace(/^###\s+/, "")}</h3>`);
+                html.push(`<h3>${renderInlineMarkdown(line.replace(/^###\s+/, ""))}</h3>`);
             } else if (/^##\s+/.test(line)) {
-                html.push(`<h2>${line.replace(/^##\s+/, "")}</h2>`);
+                html.push(`<h2>${renderInlineMarkdown(line.replace(/^##\s+/, ""))}</h2>`);
             } else if (/^#\s+/.test(line)) {
-                html.push(`<h1>${line.replace(/^#\s+/, "")}</h1>`);
+                html.push(`<h1>${renderInlineMarkdown(line.replace(/^#\s+/, ""))}</h1>`);
             } else {
                 // PARÁGRAFO normal
-                html.push(`<p>${line}</p>`);
+                html.push(`<p>${renderInlineMarkdown(line)}</p>`);
             }
         }
 
