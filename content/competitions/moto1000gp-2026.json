@@ -9,23 +9,107 @@
   "organizer": "MOTO1000GP / CBM",
   "official_url": "https://m1gp.com.br/",
   "results_url": "https://www.cbm.esp.br/site/public/calendario",
-  "cover": "/assets/img/competicoes-eventos-default.svg",
-  "image_credit": "Arte: TVDUASRODAS",
+  "cover": "/assets/img/uploads/moto1000gp-2026-capa.webp",
+  "image_credit": "Foto: MOTO1000GP / divulgação · Arte: TVDUASRODAS",
   "featured": true,
   "summary": "O Brasileiro de Motovelocidade percorre os principais autódromos do país em oito etapas na temporada 2026.",
   "last_updated": "2026-07-20T13:00:00-04:00",
-  "next_stage": {"name":"4ª etapa","start_date":"2026-08-02","end_date":"2026-08-02","venue":"Autódromo Internacional Zilmar Beux","city":"Cascavel","state":"PR","note":""},
-  "categories": ["GP1000", "GP600", "GP Light"],
+  "next_stage": {
+    "name": "4ª etapa",
+    "start_date": "2026-08-02",
+    "end_date": "2026-08-02",
+    "venue": "Autódromo Internacional Zilmar Beux",
+    "city": "Cascavel",
+    "state": "PR",
+    "note": ""
+  },
+  "categories": [
+    "GP1000",
+    "GP600",
+    "GP Light"
+  ],
   "standings": [],
   "rounds": [
-    {"order":1,"start_date":"2026-04-12","end_date":"2026-04-12","name":"1ª etapa","location":"Interlagos, São Paulo, SP","status":"concluida","winner":"","results_url":"https://m1gp.com.br/"},
-    {"order":2,"start_date":"2026-05-24","end_date":"2026-05-24","name":"2ª etapa","location":"Goiânia, GO","status":"concluida","winner":"","results_url":"https://m1gp.com.br/"},
-    {"order":3,"start_date":"2026-07-05","end_date":"2026-07-05","name":"3ª etapa","location":"Curvelo, MG","status":"concluida","winner":"Maxi Scheib (GP1000); Mario Salles (GP600); Eduardo Marques (GP Light)","results_url":"https://m1gp.com.br/"},
-    {"order":4,"start_date":"2026-08-02","end_date":"2026-08-02","name":"4ª etapa","location":"Cascavel, PR","status":"agendada","winner":"","results_url":"https://m1gp.com.br/"},
-    {"order":5,"start_date":"2026-08-22","end_date":"2026-08-22","name":"5ª etapa","location":"Interlagos, São Paulo, SP","status":"agendada","winner":"","results_url":"https://m1gp.com.br/"},
-    {"order":6,"start_date":"2026-09-27","end_date":"2026-09-27","name":"6ª etapa","location":"Santa Cruz do Sul, RS","status":"agendada","winner":"","results_url":"https://m1gp.com.br/"},
-    {"order":7,"start_date":"2026-11-08","end_date":"2026-11-08","name":"7ª etapa","location":"Cuiabá, MT","status":"agendada","winner":"","results_url":"https://m1gp.com.br/"},
-    {"order":8,"start_date":"2026-12-06","end_date":"2026-12-06","name":"Final","location":"Goiânia, GO","status":"agendada","winner":"","results_url":"https://m1gp.com.br/"}
+    {
+      "order": 1,
+      "start_date": "2026-04-12",
+      "end_date": "2026-04-12",
+      "name": "1ª etapa",
+      "location": "Interlagos, São Paulo, SP",
+      "status": "concluida",
+      "winner": "",
+      "results_url": "https://m1gp.com.br/"
+    },
+    {
+      "order": 2,
+      "start_date": "2026-05-24",
+      "end_date": "2026-05-24",
+      "name": "2ª etapa",
+      "location": "Goiânia, GO",
+      "status": "concluida",
+      "winner": "",
+      "results_url": "https://m1gp.com.br/"
+    },
+    {
+      "order": 3,
+      "start_date": "2026-07-05",
+      "end_date": "2026-07-05",
+      "name": "3ª etapa",
+      "location": "Curvelo, MG",
+      "status": "concluida",
+      "winner": "Maxi Scheib (GP1000); Mario Salles (GP600); Eduardo Marques (GP Light)",
+      "results_url": "https://m1gp.com.br/"
+    },
+    {
+      "order": 4,
+      "start_date": "2026-08-02",
+      "end_date": "2026-08-02",
+      "name": "4ª etapa",
+      "location": "Cascavel, PR",
+      "status": "agendada",
+      "winner": "",
+      "results_url": "https://m1gp.com.br/"
+    },
+    {
+      "order": 5,
+      "start_date": "2026-08-22",
+      "end_date": "2026-08-22",
+      "name": "5ª etapa",
+      "location": "Interlagos, São Paulo, SP",
+      "status": "agendada",
+      "winner": "",
+      "results_url": "https://m1gp.com.br/"
+    },
+    {
+      "order": 6,
+      "start_date": "2026-09-27",
+      "end_date": "2026-09-27",
+      "name": "6ª etapa",
+      "location": "Santa Cruz do Sul, RS",
+      "status": "agendada",
+      "winner": "",
+      "results_url": "https://m1gp.com.br/"
+    },
+    {
+      "order": 7,
+      "start_date": "2026-11-08",
+      "end_date": "2026-11-08",
+      "name": "7ª etapa",
+      "location": "Cuiabá, MT",
+      "status": "agendada",
+      "winner": "",
+      "results_url": "https://m1gp.com.br/"
+    },
+    {
+      "order": 8,
+      "start_date": "2026-12-06",
+      "end_date": "2026-12-06",
+      "name": "Final",
+      "location": "Goiânia, GO",
+      "status": "agendada",
+      "winner": "",
+      "results_url": "https://m1gp.com.br/"
+    }
   ],
   "related_videos": [],
   "body": "## Cobertura da temporada\n\nEsta central reúne calendário, vencedores e, quando publicados pela organização, os documentos de classificação do MOTO1000GP. Os resultados oficiais têm prioridade sobre informações provisórias de pista."

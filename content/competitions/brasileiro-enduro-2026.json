@@ -1,1 +1,27 @@
-{"title":"Campeonatos Brasileiros de Enduro 2026","short_name":"Enduro Brasil","season":"2026","country":"Brasil","scope":"Nacional","modality":"Enduro","status":"em_andamento","organizer":"Confederação Brasileira de Motociclismo","official_url":"https://www.cbm.esp.br/","results_url":"https://www.cbm.esp.br/site/public/calendario","cover":"/assets/img/competicoes-eventos-default.svg","image_credit":"Arte: TVDUASRODAS","featured":false,"summary":"Acompanhamento das temporadas nacionais de Enduro, Enduro de Regularidade e Hard Enduro.","last_updated":"2026-07-20T13:00:00-04:00","next_stage":{},"categories":["Enduro","Enduro de Regularidade","Hard Enduro"],"standings":[],"rounds":[],"related_videos":[],"body":"## Modalidades de resistência\n\nCalendários e resultados são verificados na CBM e nos organizadores de cada etapa antes da atualização."}
+{
+  "title": "Campeonatos Brasileiros de Enduro 2026",
+  "short_name": "Enduro Brasil",
+  "season": "2026",
+  "country": "Brasil",
+  "scope": "Nacional",
+  "modality": "Enduro",
+  "status": "em_andamento",
+  "organizer": "Confederação Brasileira de Motociclismo",
+  "official_url": "https://www.cbm.esp.br/",
+  "results_url": "https://www.cbm.esp.br/site/public/calendario",
+  "cover": "/assets/img/uploads/brasileiro-enduro-2026-capa.webp",
+  "image_credit": "Foto: Janjão Santiago / CBM · Arte: TVDUASRODAS",
+  "featured": false,
+  "summary": "Acompanhamento das temporadas nacionais de Enduro, Enduro de Regularidade e Hard Enduro.",
+  "last_updated": "2026-07-20T13:00:00-04:00",
+  "next_stage": {},
+  "categories": [
+    "Enduro",
+    "Enduro de Regularidade",
+    "Hard Enduro"
+  ],
+  "standings": [],
+  "rounds": [],
+  "related_videos": [],
+  "body": "## Modalidades de resistência\n\nCalendários e resultados são verificados na CBM e nos organizadores de cada etapa antes da atualização."
+}

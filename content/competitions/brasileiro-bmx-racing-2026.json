@@ -1,1 +1,23 @@
-{"title":"Campeonato Brasileiro de BMX Racing 2026","short_name":"Brasileiro BMX","season":"2026","country":"Brasil","scope":"Nacional","modality":"BMX Racing","status":"em_andamento","organizer":"Confederação Brasileira de Ciclismo","official_url":"https://www.cbc.esp.br/","results_url":"https://www.cbc.esp.br/modalidades/calendario/busca/","cover":"/assets/img/competicoes-eventos-default.svg","image_credit":"Arte: TVDUASRODAS","featured":false,"summary":"Resultados, campeões e agenda do BMX Racing nacional em suas diferentes categorias.","last_updated":"2026-07-20T13:00:00-04:00","next_stage":{},"categories":[],"standings":[],"rounds":[],"related_videos":[],"body":"## BMX nacional\n\nA central reúne as atualizações oficiais da CBC para atletas e público do BMX Racing."}
+{
+  "title": "Campeonato Brasileiro de BMX Racing 2026",
+  "short_name": "Brasileiro BMX",
+  "season": "2026",
+  "country": "Brasil",
+  "scope": "Nacional",
+  "modality": "BMX Racing",
+  "status": "em_andamento",
+  "organizer": "Confederação Brasileira de Ciclismo",
+  "official_url": "https://www.cbc.esp.br/",
+  "results_url": "https://www.cbc.esp.br/modalidades/calendario/busca/",
+  "cover": "/assets/img/uploads/brasileiro-bmx-racing-2026-capa.webp",
+  "image_credit": "Foto: Thiago Lemos / CBC · Arte: TVDUASRODAS",
+  "featured": false,
+  "summary": "Resultados, campeões e agenda do BMX Racing nacional em suas diferentes categorias.",
+  "last_updated": "2026-07-20T13:00:00-04:00",
+  "next_stage": {},
+  "categories": [],
+  "standings": [],
+  "rounds": [],
+  "related_videos": [],
+  "body": "## BMX nacional\n\nA central reúne as atualizações oficiais da CBC para atletas e público do BMX Racing."
+}

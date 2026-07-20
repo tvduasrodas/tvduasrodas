@@ -1,1 +1,23 @@
-{"title":"SuperBike Brasil 2026","short_name":"SuperBike Brasil","season":"2026","country":"Brasil","scope":"Nacional","modality":"Motovelocidade","status":"em_andamento","organizer":"SuperBike Brasil","official_url":"https://superbike.com.br/","results_url":"https://superbike.com.br/","cover":"/assets/img/competicoes-eventos-default.svg","image_credit":"Arte: TVDUASRODAS","featured":false,"summary":"Calendário, resultados e classificação de uma das principais competições de motovelocidade do país.","last_updated":"2026-07-20T13:00:00-04:00","next_stage":{},"categories":[],"standings":[],"rounds":[],"related_videos":[],"body":"## Em acompanhamento\n\nA TVDUASRODAS acompanha comunicados, etapas e resultados publicados pelos canais oficiais do campeonato."}
+{
+  "title": "SuperBike Brasil 2026",
+  "short_name": "SuperBike Brasil",
+  "season": "2026",
+  "country": "Brasil",
+  "scope": "Nacional",
+  "modality": "Motovelocidade",
+  "status": "em_andamento",
+  "organizer": "SuperBike Brasil",
+  "official_url": "https://superbike.com.br/",
+  "results_url": "https://superbike.com.br/",
+  "cover": "/assets/img/uploads/superbike-brasil-2026-capa.webp",
+  "image_credit": "Foto: SuperBike Brasil / divulgação · Arte: TVDUASRODAS",
+  "featured": false,
+  "summary": "Calendário, resultados e classificação de uma das principais competições de motovelocidade do país.",
+  "last_updated": "2026-07-20T13:00:00-04:00",
+  "next_stage": {},
+  "categories": [],
+  "standings": [],
+  "rounds": [],
+  "related_videos": [],
+  "body": "## Em acompanhamento\n\nA TVDUASRODAS acompanha comunicados, etapas e resultados publicados pelos canais oficiais do campeonato."
+}

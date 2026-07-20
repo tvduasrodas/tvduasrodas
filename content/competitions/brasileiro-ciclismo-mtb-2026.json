@@ -1,2 +1,35 @@
 {
-  "title":"Campeonato Brasileiro de Ciclismo MTB 2026","short_name":"Brasileiro MTB","season":"2026","country":"Brasil","scope":"Nacional","modality":"Ciclismo MTB","status":"em_andamento","organizer":"Confederação Brasileira de Ciclismo","official_url":"https://www.cbc.esp.br/","results_url":"https://www.cbc.esp.br/modalidades/calendario/busca/","cover":"/assets/img/competicoes-eventos-default.svg","image_credit":"Arte: TVDUASRODAS","featured":false,"summary":"Campeonatos nacionais de mountain bike com provas XCO, XCC e XCE sob organização da CBC.","last_updated":"2026-07-20T13:00:00-04:00","next_stage":{"name":"Campeonato Brasileiro MTB XCO/XCC/XCE","start_date":"2026-07-23","end_date":"2026-07-26","venue":"","city":"São José dos Campos","state":"SP","note":"Consulte a programação oficial da CBC."},"categories":["XCO","XCC","XCE"],"standings":[],"rounds":[],"related_videos":[],"body":"## Ciclismo nacional\n\nA central acompanhará resultados, campeões brasileiros e documentos oficiais das principais disciplinas de mountain bike com interesse para o público nacional."}
+  "title": "Campeonato Brasileiro de Ciclismo MTB 2026",
+  "short_name": "Brasileiro MTB",
+  "season": "2026",
+  "country": "Brasil",
+  "scope": "Nacional",
+  "modality": "Ciclismo MTB",
+  "status": "em_andamento",
+  "organizer": "Confederação Brasileira de Ciclismo",
+  "official_url": "https://www.cbc.esp.br/",
+  "results_url": "https://www.cbc.esp.br/modalidades/calendario/busca/",
+  "cover": "/assets/img/uploads/brasileiro-ciclismo-mtb-2026-capa.webp",
+  "image_credit": "Foto de arquivo (2024): Alan Modesto / CBC · Arte: TVDUASRODAS",
+  "featured": false,
+  "summary": "Campeonatos nacionais de mountain bike com provas XCO, XCC e XCE sob organização da CBC.",
+  "last_updated": "2026-07-20T13:00:00-04:00",
+  "next_stage": {
+    "name": "Campeonato Brasileiro MTB XCO/XCC/XCE",
+    "start_date": "2026-07-23",
+    "end_date": "2026-07-26",
+    "venue": "",
+    "city": "São José dos Campos",
+    "state": "SP",
+    "note": "Consulte a programação oficial da CBC."
+  },
+  "categories": [
+    "XCO",
+    "XCC",
+    "XCE"
+  ],
+  "standings": [],
+  "rounds": [],
+  "related_videos": [],
+  "body": "## Ciclismo nacional\n\nA central acompanhará resultados, campeões brasileiros e documentos oficiais das principais disciplinas de mountain bike com interesse para o público nacional."
+}

@@ -1,2 +1,27 @@
 {
-  "title":"MotoGP 2026","short_name":"MotoGP","season":"2026","country":"Internacional","scope":"Mundial","modality":"Motovelocidade","status":"em_andamento","organizer":"FIM / Dorna Sports","official_url":"https://www.motogp.com/","results_url":"https://www.motogp.com/en/gp-results","cover":"/assets/img/competicoes-eventos-default.svg","image_credit":"Arte: TVDUASRODAS","featured":false,"summary":"Calendário, resultados e classificação do Mundial de Motovelocidade com contexto em português para o público brasileiro.","last_updated":"2026-07-20T13:00:00-04:00","next_stage":{},"categories":["MotoGP","Moto2","Moto3"],"standings":[],"rounds":[],"related_videos":[],"body":"## Cobertura internacional relevante\n\nA TVDUASRODAS acompanha o MotoGP por sua relevância para o público brasileiro. Calendário e classificações serão atualizados somente com dados oficiais do campeonato."}
+  "title": "MotoGP 2026",
+  "short_name": "MotoGP",
+  "season": "2026",
+  "country": "Internacional",
+  "scope": "Mundial",
+  "modality": "Motovelocidade",
+  "status": "em_andamento",
+  "organizer": "FIM / Dorna Sports",
+  "official_url": "https://www.motogp.com/",
+  "results_url": "https://www.motogp.com/en/gp-results",
+  "cover": "/assets/img/uploads/motogp-2026-capa.webp",
+  "image_credit": "Foto de arquivo (2015): Adrian Saxton / CC BY 3.0 · Arte: TVDUASRODAS",
+  "featured": false,
+  "summary": "Calendário, resultados e classificação do Mundial de Motovelocidade com contexto em português para o público brasileiro.",
+  "last_updated": "2026-07-20T13:00:00-04:00",
+  "next_stage": {},
+  "categories": [
+    "MotoGP",
+    "Moto2",
+    "Moto3"
+  ],
+  "standings": [],
+  "rounds": [],
+  "related_videos": [],
+  "body": "## Cobertura internacional relevante\n\nA TVDUASRODAS acompanha o MotoGP por sua relevância para o público brasileiro. Calendário e classificações serão atualizados somente com dados oficiais do campeonato."
+}

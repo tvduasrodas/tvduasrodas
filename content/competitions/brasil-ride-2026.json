@@ -1,1 +1,23 @@
-{"title":"Brasil Ride 2026","short_name":"Brasil Ride","season":"2026","country":"Brasil","scope":"Nacional","modality":"Ciclismo MTB","status":"em_andamento","organizer":"Brasil Ride","official_url":"https://site.brasilride.com.br/","results_url":"https://site.brasilride.com.br/","cover":"/assets/img/competicoes-eventos-default.svg","image_credit":"Arte: TVDUASRODAS","featured":false,"summary":"Principais provas, resultados e informações do circuito Brasil Ride de mountain bike.","last_updated":"2026-07-20T13:00:00-04:00","next_stage":{},"categories":[],"standings":[],"rounds":[],"related_videos":[],"body":"## Mountain bike\n\nA TVDUASRODAS acompanha o calendário e os resultados oficiais das provas Brasil Ride com interesse nacional."}
+{
+  "title": "Brasil Ride 2026",
+  "short_name": "Brasil Ride",
+  "season": "2026",
+  "country": "Brasil",
+  "scope": "Nacional",
+  "modality": "Ciclismo MTB",
+  "status": "em_andamento",
+  "organizer": "Brasil Ride",
+  "official_url": "https://site.brasilride.com.br/",
+  "results_url": "https://site.brasilride.com.br/",
+  "cover": "/assets/img/uploads/brasil-ride-2026-capa.webp",
+  "image_credit": "Foto de arquivo (2019): Fabio Piva / Brasil Ride · Arte: TVDUASRODAS",
+  "featured": false,
+  "summary": "Principais provas, resultados e informações do circuito Brasil Ride de mountain bike.",
+  "last_updated": "2026-07-20T13:00:00-04:00",
+  "next_stage": {},
+  "categories": [],
+  "standings": [],
+  "rounds": [],
+  "related_videos": [],
+  "body": "## Mountain bike\n\nA TVDUASRODAS acompanha o calendário e os resultados oficiais das provas Brasil Ride com interesse nacional."
+}

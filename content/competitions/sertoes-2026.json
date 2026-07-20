@@ -1,1 +1,25 @@
-{"title":"Sertões 2026","short_name":"Sertões","season":"2026","country":"Brasil","scope":"Nacional","modality":"Rally Raid","status":"em_andamento","organizer":"Sertões","official_url":"https://sertoes.com.br/","results_url":"https://sertoes.com.br/","cover":"/assets/img/competicoes-eventos-default.svg","image_credit":"Arte: TVDUASRODAS","featured":false,"summary":"Cobertura das motos no maior rally do Brasil, com etapas, resultados e classificação por categoria.","last_updated":"2026-07-20T13:00:00-04:00","next_stage":{},"categories":["Motos"],"standings":[],"rounds":[],"related_videos":[],"body":"## Foco nas duas rodas\n\nNesta central, o Sertões é acompanhado com foco nas categorias de motocicletas e nas informações relevantes ao público de duas rodas."}
+{
+  "title": "Sertões 2026",
+  "short_name": "Sertões",
+  "season": "2026",
+  "country": "Brasil",
+  "scope": "Nacional",
+  "modality": "Rally Raid",
+  "status": "em_andamento",
+  "organizer": "Sertões",
+  "official_url": "https://sertoes.com.br/",
+  "results_url": "https://sertoes.com.br/",
+  "cover": "/assets/img/uploads/sertoes-2026-capa.webp",
+  "image_credit": "Foto: Rapha Rodrigues / Sertões · Arte: TVDUASRODAS",
+  "featured": false,
+  "summary": "Cobertura das motos no maior rally do Brasil, com etapas, resultados e classificação por categoria.",
+  "last_updated": "2026-07-20T13:00:00-04:00",
+  "next_stage": {},
+  "categories": [
+    "Motos"
+  ],
+  "standings": [],
+  "rounds": [],
+  "related_videos": [],
+  "body": "## Foco nas duas rodas\n\nNesta central, o Sertões é acompanhado com foco nas categorias de motocicletas e nas informações relevantes ao público de duas rodas."
+}

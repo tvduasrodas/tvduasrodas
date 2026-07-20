@@ -1,1 +1,26 @@
-{"title":"MXGP 2026","short_name":"MXGP","season":"2026","country":"Internacional","scope":"Mundial","modality":"Motocross","status":"em_andamento","organizer":"FIM / Infront Moto Racing","official_url":"https://www.mxgp.com/","results_url":"https://www.mxgp.com/results","cover":"/assets/img/competicoes-eventos-default.svg","image_credit":"Arte: TVDUASRODAS","featured":false,"summary":"Mundial de Motocross com resultados e classificação das categorias MXGP e MX2.","last_updated":"2026-07-20T13:00:00-04:00","next_stage":{},"categories":["MXGP","MX2"],"standings":[],"rounds":[],"related_videos":[],"body":"## Interesse internacional\n\nA cobertura destaca etapas e resultados relevantes ao público brasileiro, sempre com base nos dados oficiais da competição."}
+{
+  "title": "MXGP 2026",
+  "short_name": "MXGP",
+  "season": "2026",
+  "country": "Internacional",
+  "scope": "Mundial",
+  "modality": "Motocross",
+  "status": "em_andamento",
+  "organizer": "FIM / Infront Moto Racing",
+  "official_url": "https://www.mxgp.com/",
+  "results_url": "https://www.mxgp.com/results",
+  "cover": "/assets/img/uploads/mxgp-2026-capa.webp",
+  "image_credit": "Foto: MXGP / Infront Moto Racing · Arte: TVDUASRODAS",
+  "featured": false,
+  "summary": "Mundial de Motocross com resultados e classificação das categorias MXGP e MX2.",
+  "last_updated": "2026-07-20T13:00:00-04:00",
+  "next_stage": {},
+  "categories": [
+    "MXGP",
+    "MX2"
+  ],
+  "standings": [],
+  "rounds": [],
+  "related_videos": [],
+  "body": "## Interesse internacional\n\nA cobertura destaca etapas e resultados relevantes ao público brasileiro, sempre com base nos dados oficiais da competição."
+}
