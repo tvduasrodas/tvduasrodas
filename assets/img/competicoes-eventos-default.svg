@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Competições e eventos TV Duas Rodas</title>
+  <desc id="desc">Arte editorial abstrata com pista, rodas e luzes em vermelho e laranja.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090d18"/>
+      <stop offset="0.56" stop-color="#151b2b"/>
+      <stop offset="1" stop-color="#240b0c"/>
+    </linearGradient>
+    <linearGradient id="track" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ef4423"/>
+      <stop offset="1" stop-color="#ffb000"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#ff6b25" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#ff6b25" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1270" cy="190" r="390" fill="url(#glow)"/>
+  <path d="M-100 760C300 520 510 865 815 618s480-170 900-455" fill="none" stroke="#fff" stroke-opacity=".08" stroke-width="120"/>
+  <path d="M-100 760C300 520 510 865 815 618s480-170 900-455" fill="none" stroke="url(#track)" stroke-width="14"/>
+  <path d="M110 760h250M1180 200h310" stroke="#fff" stroke-opacity=".15" stroke-width="5" stroke-dasharray="24 24"/>
+  <g fill="none" stroke="#f8fafc" stroke-width="18" opacity=".9">
+    <circle cx="1120" cy="560" r="118"/>
+    <circle cx="1425" cy="560" r="118"/>
+    <path d="m1120 560 142-205 163 205h-305l185-118 120 118" stroke-linejoin="round"/>
+  </g>
+  <text x="110" y="170" fill="#fff" font-family="Arial, sans-serif" font-size="78" font-weight="800">COMPETIÇÕES</text>
+  <text x="110" y="250" fill="#ff7a26" font-family="Arial, sans-serif" font-size="62" font-weight="700">&amp; EVENTOS</text>
+  <text x="114" y="305" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="26" letter-spacing="8">TVDUASRODAS</text>
+</svg>

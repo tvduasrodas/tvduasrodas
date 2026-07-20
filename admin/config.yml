@@ -63,7 +63,119 @@ collections:
       - { label: "Destacar na capa da Revista?", name: "featured", widget: "boolean", required: false, default: false }
       - { label: "Conteúdo", name: "body", widget: "markdown" }
 
-  # 3) PÁGINAS FIXAS (SOBRE, CONTATO, ETC.)
+  # 3) COMPETIÇÕES
+  - name: "competitions"
+    label: "Competições"
+    label_singular: "Competição"
+    folder: "content/competitions"
+    create: true
+    format: "json"
+    extension: "json"
+    slug: "{{slug}}"
+    summary: "{{title}} — temporada {{season}}"
+    filter: { field: "title", pattern: ".+" }
+    fields:
+      - { label: "Nome completo", name: "title", widget: "string" }
+      - { label: "Nome curto", name: "short_name", widget: "string" }
+      - { label: "Temporada", name: "season", widget: "string", default: "2026" }
+      - { label: "País", name: "country", widget: "string", default: "Brasil" }
+      - { label: "Abrangência", name: "scope", widget: "select", options: ["Estadual", "Nacional", "Continental", "Mundial"], default: "Nacional" }
+      - { label: "Modalidade", name: "modality", widget: "string" }
+      - { label: "Situação", name: "status", widget: "select", options: [{label: "Em andamento", value: "em_andamento"}, {label: "Agendada", value: "agendada"}, {label: "Concluída", value: "concluida"}, {label: "Cancelada", value: "cancelado"}], default: "em_andamento" }
+      - { label: "Organizador", name: "organizer", widget: "string" }
+      - { label: "Site oficial", name: "official_url", widget: "string" }
+      - { label: "Resultados oficiais", name: "results_url", widget: "string", required: false }
+      - { label: "Imagem de capa", name: "cover", widget: "image", required: false }
+      - { label: "Crédito da imagem", name: "image_credit", widget: "string", required: false }
+      - { label: "Fonte da imagem", name: "image_source", widget: "string", required: false }
+      - { label: "Destaque", name: "featured", widget: "boolean", default: false }
+      - { label: "Resumo", name: "summary", widget: "text" }
+      - { label: "Última atualização", name: "last_updated", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ssZ" }
+      - label: "Próxima etapa"
+        name: "next_stage"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Nome", name: "name", widget: "string", required: false }
+          - { label: "Data inicial", name: "start_date", widget: "date", format: "YYYY-MM-DD", required: false }
+          - { label: "Data final", name: "end_date", widget: "date", format: "YYYY-MM-DD", required: false }
+          - { label: "Local", name: "venue", widget: "string", required: false }
+          - { label: "Cidade", name: "city", widget: "string", required: false }
+          - { label: "Estado", name: "state", widget: "string", required: false }
+          - { label: "Observação", name: "note", widget: "string", required: false }
+      - { label: "Categorias", name: "categories", widget: "list", required: false }
+      - label: "Classificação"
+        name: "standings"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Categoria", name: "category", widget: "string" }
+          - { label: "Posição", name: "position", widget: "number", value_type: "int" }
+          - { label: "Competidor", name: "competitor", widget: "string" }
+          - { label: "Equipe", name: "team", widget: "string", required: false }
+          - { label: "Pontos", name: "points", widget: "number" }
+      - label: "Etapas e resultados"
+        name: "rounds"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Ordem", name: "order", widget: "number", value_type: "int" }
+          - { label: "Data inicial", name: "start_date", widget: "date", format: "YYYY-MM-DD" }
+          - { label: "Data final", name: "end_date", widget: "date", format: "YYYY-MM-DD", required: false }
+          - { label: "Nome", name: "name", widget: "string" }
+          - { label: "Local", name: "location", widget: "string" }
+          - { label: "Situação", name: "status", widget: "select", options: [{label: "Agendada", value: "agendada"}, {label: "Concluída", value: "concluida"}, {label: "Cancelada", value: "cancelado"}] }
+          - { label: "Vencedor(es)", name: "winner", widget: "text", required: false }
+          - { label: "Link do resultado", name: "results_url", widget: "string", required: false }
+      - label: "Vídeos relacionados"
+        name: "related_videos"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "URL", name: "url", widget: "string" }
+      - { label: "Texto explicativo", name: "body", widget: "markdown", required: false }
+
+  # 4) EVENTOS
+  - name: "events"
+    label: "Eventos"
+    label_singular: "Evento"
+    folder: "content/events"
+    create: true
+    format: "json"
+    extension: "json"
+    slug: "{{slug}}"
+    summary: "{{title}} — {{start_date}}"
+    filter: { field: "title", pattern: ".+" }
+    fields:
+      - { label: "Nome do evento", name: "title", widget: "string" }
+      - { label: "Data inicial", name: "start_date", widget: "date", format: "YYYY-MM-DD" }
+      - { label: "Data final", name: "end_date", widget: "date", format: "YYYY-MM-DD", required: false }
+      - { label: "Cidade", name: "city", widget: "string" }
+      - { label: "Estado", name: "state", widget: "string" }
+      - { label: "Local", name: "venue", widget: "string" }
+      - { label: "Situação", name: "status", widget: "select", options: [{label: "Próximo", value: "proximo"}, {label: "Em andamento", value: "em_andamento"}, {label: "Encerrado", value: "encerrado"}, {label: "Cancelado", value: "cancelado"}], default: "proximo" }
+      - { label: "Tipo", name: "event_type", widget: "string" }
+      - { label: "Site oficial", name: "official_url", widget: "string" }
+      - { label: "Ingressos / acesso", name: "ticket_url", widget: "string", required: false }
+      - { label: "Sala de imprensa", name: "press_url", widget: "string", required: false }
+      - { label: "Imagem de capa", name: "cover", widget: "image", required: false }
+      - { label: "Crédito da imagem", name: "image_credit", widget: "string", required: false }
+      - { label: "Destaque", name: "featured", widget: "boolean", default: false }
+      - { label: "Entrada gratuita", name: "free", widget: "boolean", default: false }
+      - { label: "Resumo", name: "summary", widget: "text" }
+      - { label: "Atrações", name: "attractions", widget: "list", required: false }
+      - label: "Vídeos"
+        name: "videos"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "URL", name: "url", widget: "string" }
+      - { label: "Informações completas", name: "body", widget: "markdown", required: false }
+      - { label: "Última atualização", name: "last_updated", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ssZ" }
+
+  # 5) PÁGINAS FIXAS (SOBRE, CONTATO, ETC.)
   - name: "pages"
     label: "Páginas"
     label_singular: "Página"
