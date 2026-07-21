@@ -1891,7 +1891,6 @@ button {
 .revista-programa-content small { color: #ffb18b; font-size: 10px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
 .revista-programa-content strong { margin: 4px 0 2px; color: #fff; font-size: 23px; line-height: 1; }
 .revista-programa-content em { color: #e2e8f0; font-size: 12px; font-style: normal; }
-.article-program-meta { display: block; margin: -3px 0 7px; color: #ea580c; font-size: 10px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
 .revista-empty { margin: 0 0 22px; padding: 18px; border: 1px dashed #cbd5e1; border-radius: 12px; color: #64748b; text-align: center; }
 .tv-schedule a { color: inherit; }
 .tv-schedule-note { margin-top: 10px; color: #64748b; font-size: 12px; line-height: 1.45; }

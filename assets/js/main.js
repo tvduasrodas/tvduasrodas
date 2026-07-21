@@ -372,7 +372,6 @@ async function loadMagazineFromCMS() {
             card.innerHTML = `
                 ${coverHtml}
                 <span class="category-tag">${artigo.programLabel || categoriaLabel}</span>
-                ${artigo.program ? `<span class="article-program-meta">Episódio em texto e fotos · ${artigo.episodeDuration || "45 min"}</span>` : ""}
                 <h3>
                     <a href="${linkHref}">
                         ${artigo.title}
@@ -1748,8 +1747,6 @@ document.addEventListener("DOMContentLoaded", () => {
                     const authorEl = document.getElementById("articleAuthor");
                     const dateEl = document.getElementById("articleDate");
                     const readEl = document.getElementById("articleReadingTime");
-                    const programFormatEl = document.getElementById("articleProgramFormat");
-                    const programSeparatorEl = document.getElementById("articleProgramSeparator");
 
                     if (tag) {
                         const baseCat = data.programLabel || data.category || "Matéria";
@@ -1767,11 +1764,6 @@ document.addEventListener("DOMContentLoaded", () => {
                         readEl.textContent = data.readingTime
                             ? `Leitura: ${data.readingTime}`
                             : "";
-                    if (programFormatEl && programSeparatorEl && data.episodeDuration) {
-                        programFormatEl.hidden = false;
-                        programSeparatorEl.hidden = false;
-                        programFormatEl.textContent = `Episódio editorial: ${data.episodeDuration}`;
-                    }
 
                     // Patrocínio (se algum dia você adicionar no frontmatter)
                     const sponsorWrapper = document.getElementById("articleSponsorWrapper");
