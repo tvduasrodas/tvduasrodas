@@ -8,16 +8,44 @@
   "status": "em_andamento",
   "organizer": "SuperBike Brasil",
   "official_url": "https://superbike.com.br/",
-  "results_url": "https://superbike.com.br/",
+  "results_url": "https://superbike.com.br/maxi-scheib-conquista-segunda-vitoria-consecutiva-assume-a-lideranca-e-homenageia-o-brasil/",
   "cover": "/assets/img/uploads/superbike-brasil-2026-capa.webp",
   "image_credit": "Foto: SuperBike Brasil / divulgação · Arte: TVDUASRODAS",
   "featured": false,
-  "summary": "Calendário, resultados e classificação de uma das principais competições de motovelocidade do país.",
-  "last_updated": "2026-07-20T13:00:00-04:00",
-  "next_stage": {},
-  "categories": [],
+  "summary": "Maxi Scheib lidera a SuperBike Pro após a 3ª etapa; a próxima rodada será em 26 de julho, em Interlagos.",
+  "last_updated": "2026-07-20T22:51:51-04:00",
+  "next_stage": {
+    "name": "4ª etapa — SuperBike Brasil",
+    "start_date": "2026-07-26",
+    "end_date": "2026-07-26",
+    "venue": "Autódromo José Carlos Pace (Interlagos)",
+    "city": "São Paulo",
+    "state": "SP",
+    "note": "Data e local exibidos no calendário oficial do SuperBike Brasil, sujeito a atualização do organizador."
+  },
+  "categories": ["SuperBike Pro", "SuperBike Evo", "SuperBike Light", "SuperBike Master", "SuperBike Rookie", "SuperSport 600", "SuperSport 400"],
+  "latest_result": {
+    "event": "3ª etapa — Interlagos",
+    "session": "SuperBike Pro",
+    "date": "2026-05-10",
+    "note": "Maxi Scheib venceu e assumiu a liderança da SuperBike Pro. Felipe Gonçalves e Felipe Macan completaram o pódio; Julio Fortunato venceu na SuperBike Evo.",
+    "source_url": "https://superbike.com.br/maxi-scheib-conquista-segunda-vitoria-consecutiva-assume-a-lideranca-e-homenageia-o-brasil/",
+    "classification": [
+      {"position":"1º","competitor":"Maxi Scheib","team":"JD43HPA Racing","time_gap":"Vencedor","points":null},
+      {"position":"2º","competitor":"Felipe Gonçalves","team":"","time_gap":"Não informado no comunicado","points":null},
+      {"position":"3º","competitor":"Felipe Macan","team":"","time_gap":"Não informado no comunicado","points":null},
+      {"position":"4º","competitor":"Julio Fortunato","team":"SportPlus","time_gap":"1º na SuperBike Evo","points":null}
+    ]
+  },
   "standings": [],
-  "rounds": [],
+  "rounds": [
+    {"order":1,"start_date":"2026-02-15","end_date":"2026-02-15","name":"1ª etapa","location":"Interlagos, São Paulo, SP","status":"concluida","winner":"Resultado por categoria não consolidado no portal consultado","results_url":"https://superbike.com.br/resultados/"},
+    {"order":2,"start_date":"2026-04-04","end_date":"2026-04-04","name":"2ª etapa","location":"Interlagos, São Paulo, SP","status":"concluida","winner":"Resultado por categoria não consolidado no portal consultado","results_url":"https://superbike.com.br/resultados/"},
+    {"order":3,"start_date":"2026-05-09","end_date":"2026-05-10","name":"3ª etapa","location":"Interlagos, São Paulo, SP","status":"concluida","winner":"Maxi Scheib (SuperBike Pro); Julio Fortunato (SuperBike Evo)","results_url":"https://superbike.com.br/maxi-scheib-conquista-segunda-vitoria-consecutiva-assume-a-lideranca-e-homenageia-o-brasil/"},
+    {"order":4,"start_date":"2026-07-26","end_date":"2026-07-26","name":"4ª etapa","location":"Interlagos, São Paulo, SP","status":"agendada","winner":"","results_url":"https://superbike.com.br/calendario-2026/"},
+    {"order":5,"start_date":"","end_date":"","name":"5ª etapa","location":"Local a definir","status":"agendada","winner":"","results_url":"https://superbike.com.br/calendario-2026/"},
+    {"order":6,"start_date":"2026-12-06","end_date":"2026-12-06","name":"6ª etapa","location":"Local a definir","status":"agendada","winner":"","results_url":"https://superbike.com.br/calendario-2026/"}
+  ],
   "related_videos": [],
-  "body": "## Em acompanhamento\n\nA TVDUASRODAS acompanha comunicados, etapas e resultados publicados pelos canais oficiais do campeonato."
+  "body": "## Resultado mais recente\n\nNa SuperBike Pro da terceira etapa, Maxi Scheib venceu em Interlagos e assumiu a liderança do campeonato. Felipe Gonçalves terminou em segundo e Felipe Macan foi o terceiro. A mesma rodada teve Julio Fortunato como vencedor da SuperBike Evo.\n\nA organização também publicou vencedores da SuperSport 400, SuperBike Master, Light, Senior e Rookie. A tabela consolidada de pontos não está disponível na página pública de resultados consultada em 20 de julho; por isso, a classificação geral será incluída apenas quando houver fonte oficial verificável.\n\n## Próxima etapa\n\nO calendário oficial indica a quarta etapa em Interlagos, São Paulo (SP), em 26 de julho. Datas e locais posteriores permanecem sujeitos à confirmação do organizador."
 }

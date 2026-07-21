@@ -53,6 +53,26 @@ Registro editorial de fontes e imagens usadas na implantação inicial da centra
 - A CBM não publicou uma classificação de pontos do campeonato depois desta prova na página consultada às 20h50 (ET); a tabela de `standings` continua vazia de forma intencional, com nova consulta prevista no próximo ciclo.
 - Nenhuma imagem foi adicionada ou alterada: a capa local já publicada, seu crédito e o registro de direitos permanecem os mesmos.
 
+### SuperBike Brasil — atualização de calendário e resultado em 20 de julho de 2026, 21h52 (ET)
+
+- Calendário vigente: [SuperBike Brasil — Calendário 2026](https://superbike.com.br/calendario-2026/). A página lista Interlagos nas três primeiras etapas, a quarta em 26 de julho e a sexta em 6 de dezembro, com aviso de que as datas e praças podem mudar.
+- Resultado mais recente da classe principal: [Maxi Scheib vence a SuperBike Pro na 3ª etapa](https://superbike.com.br/maxi-scheib-conquista-segunda-vitoria-consecutiva-assume-a-lideranca-e-homenageia-o-brasil/). O comunicado oficial informa Maxi Scheib, Felipe Gonçalves e Felipe Macan no pódio; Julio Fortunato venceu a SuperBike Evo.
+- Resultados complementares da terceira etapa: [SuperBike Light, Master, Senior e Rookie](https://superbike.com.br/felipe-comerlatto-domina-a-master-e-vaguiner-trindade-estreia-com-vitoria-na-light/) e [SuperSport 400](https://superbike.com.br/valentino-dematte-vence-na-supersport-400-pela-2a-vez-na-temporada/).
+- A consulta à [página pública de resultados](https://superbike.com.br/resultados/) às 21h52 (ET) não retornou tabela de pontos consolidada. `standings` permanece vazio intencionalmente e será reavaliado no próximo ciclo; não foi criada imagem nem alterada a capa existente.
+
+### SuperBike Brasil — auditoria de pendência em 20 de julho de 2026, 22h51 (ET)
+
+- O [calendário oficial de 2026](https://superbike.com.br/calendario-2026/) continua a indicar dez etapas, mas só detalha as quatro primeiras, a sexta etapa em 6 de dezembro e uma quinta etapa sem data e sem praça definida. O registro da 5ª etapa foi incluído na central como agendado, com data e local a confirmar, sem inventar informação.
+- A [página pública de resultados](https://superbike.com.br/resultados/) segue sem tabela de pontos consolidada e sem resultado da 4ª etapa, prevista para 26 de julho. `standings` permanece vazio por ausência de dado oficial público; consultar novamente no próximo ciclo.
+- Nenhuma imagem foi baixada ou alterada nesta auditoria. Não há notícia ou vídeo novo e verificável desde a execução anterior que justifique publicação autônoma.
+
+### MOTO1000GP — atualização de classificação em 20 de julho de 2026, 23h53 (ET)
+
+- Classificação e documentos de resultado: [Resultados 2026 — MOTO1000GP](https://m1gp.com.br/area-desportiva/resultados-2026-m1gp/). A página pública traz as classificações completas de GP1000, GP Light, GP600 e Daytona 660 Cup após três etapas.
+- Confirmação independente do pódio e da liderança da rodada de Curvelo: [CBM — terceira etapa do MOTO1000GP](https://www.cbm.esp.br/noticias/2026/07/06/equilibrio-e-alta-velocidade-curvelo-sedia-terceira-etapa-do-moto1000gp-com-recorde-de-publico).
+- Próxima etapa e calendário: [MOTO1000GP — calendário 2026](https://m1gp.com.br/), com Cascavel (PR) em 2 de agosto como 4ª etapa.
+- Dados incorporados à central: classificação completa das quatro categorias principais; pódios da 3ª etapa; líderes e pontuações; próxima etapa. Nenhuma imagem foi adicionada ou alterada: a capa local, seu crédito e o registro de direitos permanecem os mesmos.
+
 ## Eventos
 
 - [Capital Moto Week](https://www.capitalmotoweek.com.br/).
