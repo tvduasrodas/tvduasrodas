@@ -20,6 +20,16 @@ Registro editorial de fontes e imagens usadas na implantação inicial da centra
 - WorldSBK: [site oficial](https://www.worldsbk.com/).
 - MXGP: [site oficial](https://www.mxgp.com/).
 
+### MotoGP — atualização de resultados em 20 de julho de 2026, 20h32 (ET)
+
+- Classificação completa da corrida principal do GP da Alemanha: [MotoGP — RAC Classification, Sachsenring, 12/07/2026](https://www.motogp.com/en/gp-results/2026/ger/motogp/rac/classification).
+- Classificação oficial de pilotos após 11 etapas: [MotoGP — Riders' Championship 2026](https://www.motogp.com/en/world-standing/2026/motogp/championship-standings).
+- Calendário oficial com 22 etapas: [MotoGP 2026 Calendar](https://www.motogp.com/en/news/2026/01/01/2026-motogp-calendar-revealed/755478).
+- Próxima etapa: [GP da Grã-Bretanha, Silverstone, 7 a 9 de agosto](https://www.motogp.com/en/calendar/2026/event/great-britain/41aa319a-8ec5-49d6-aa99-4e2059c88098).
+- Relato oficial da corrida e contexto do campeonato: [Marc Márquez vence no Sachsenring](https://www.motogp.com/en/news/2026/07/12/game-on-marc-marquez-pockets-perfect-sachsenring-weekend-to-ignite-title-charge/1076928).
+- Dados publicados: resultado completo da MotoGP na Alemanha, classificação completa de pilotos, situação de Diogo Moreira, vencedores das 11 etapas concluídas e calendário restante.
+- Nenhuma imagem nova foi adicionada nesta atualização; a capa existente e seu crédito aberto permanecem inalterados.
+
 ## Eventos
 
 - [Capital Moto Week](https://www.capitalmotoweek.com.br/).
