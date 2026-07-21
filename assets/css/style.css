@@ -1859,6 +1859,43 @@ button {
     margin-right: 24px;
 }
 
+.revista-programas {
+    margin: 0 0 28px;
+    padding: 22px;
+    border-radius: 18px;
+    color: #fff;
+    background: #070b13;
+}
+
+.revista-programas-heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 28px; margin-bottom: 18px; }
+.revista-programas-heading h2 { margin: 4px 0 0; color: #fff; font-size: 25px; }
+.revista-programas-heading p { max-width: 430px; color: #cbd5e1; font-size: 13px; line-height: 1.55; }
+.revista-programas-kicker { color: #ff6a2b; font-size: 11px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+.revista-programas-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+
+.revista-programa-card {
+    position: relative;
+    min-height: 190px;
+    overflow: hidden;
+    border: 2px solid transparent;
+    border-radius: 14px;
+    color: #fff;
+    background: #111827;
+}
+
+.revista-programa-card.active { border-color: #ff642e; box-shadow: 0 0 0 3px rgba(255,100,46,.18); }
+.revista-programa-card img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform .25s ease; }
+.revista-programa-card:hover img { transform: scale(1.035); }
+.revista-programa-overlay { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(2,6,23,.06) 20%, rgba(2,6,23,.96) 100%); }
+.revista-programa-content { position: absolute; inset: auto 16px 14px; z-index: 1; display: flex; flex-direction: column; align-items: flex-start; }
+.revista-programa-content small { color: #ffb18b; font-size: 10px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.revista-programa-content strong { margin: 4px 0 2px; color: #fff; font-size: 23px; line-height: 1; }
+.revista-programa-content em { color: #e2e8f0; font-size: 12px; font-style: normal; }
+.article-program-meta { display: block; margin: -3px 0 7px; color: #ea580c; font-size: 10px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
+.revista-empty { margin: 0 0 22px; padding: 18px; border: 1px dashed #cbd5e1; border-radius: 12px; color: #64748b; text-align: center; }
+.tv-schedule a { color: inherit; }
+.tv-schedule-note { margin-top: 10px; color: #64748b; font-size: 12px; line-height: 1.45; }
+
 /* HERO DA REVISTA (DESTAQUE PRINCIPAL) */
 
 .revista-hero {
@@ -2000,6 +2037,12 @@ button {
 }
 
 @media (max-width: 640px) {
+    .revista-programas { padding: 16px; }
+    .revista-programas-heading { display: block; }
+    .revista-programas-heading p { margin-top: 8px; }
+    .revista-programas-grid { grid-template-columns: 1fr; }
+    .revista-programa-card { min-height: 165px; }
+
     .revista-grid {
         grid-template-columns: 1fr;
     }

@@ -11,6 +11,17 @@ Até o encerramento das 20h (horário Eastern), o worker deve entregar:
 3. Todas as **atualizações urgentes de competições e eventos** encontradas em fontes oficiais: resultados, classificação, liderança, calendário ou informação de serviço.
 4. **SEO, sitemap, publicação, validação pública e Google Search Console** para toda URL nova.
 
+## Grade fixa dos programas da Revista
+
+Os programas funcionam agora como episódios especiais em texto e fotos, estruturados para equivaler a um futuro programa de 45 minutos. A pauta da Revista deve respeitar esta grade sempre que o dia corresponder:
+
+- **Rolê de Rua:** segundas e quintas — mobilidade, vida urbana, personagens, rotas curtas, scooters, motos e bicicletas na cidade.
+- **Garage Tech:** quartas — mecânica, manutenção, componentes, ferramentas e tecnologia explicada.
+- **Estrada Aberta:** sábados — rotas, turismo, preparação, segurança e histórias de viagem.
+- **Electric Zone:** domingos — veículos elétricos, baterias, recarga, eletrônica, infraestrutura e mobilidade limpa.
+
+Cada episódio precisa ter capa horizontal, no mínimo duas imagens internas quando houver material oficial, texto aprofundado, blocos temáticos com marcação equivalente a 45 minutos, fontes oficiais, links internos e campos `program`, `programLabel`, `episodeDuration` e `readingTime`. Em terças e sextas, a pauta permanece livre entre notícia forte, lançamento, teste baseado em dados oficiais, dica ou matéria própria.
+
 Conteúdo fraco, duplicado, rumor ou texto inventado não cumpre a meta. Quando não houver release forte, a matéria diária deve ser uma pauta própria útil e durável, sustentada por fontes técnicas ou oficiais.
 
 ## 08h — Radar editorial e notícias
@@ -74,4 +85,3 @@ Conteúdo fraco, duplicado, rumor ou texto inventado não cumpre a meta. Quando 
 - Não deixar publicação válida somente no computador: validar, fazer commit, push e confirmar no site.
 - Toda execução gera relatório visível: checado sem novidade, publicado com URL ou ação necessária.
 - CAPTCHA, 2FA, novo OAuth, pagamento ou nova permissão exigem Wesley; tarefas independentes continuam.
-

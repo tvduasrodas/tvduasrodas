@@ -191,6 +191,13 @@ function getFilteredRevistaCards() {
     if (!revistaCardsAll.length) return [];
     if (revistaCurrentFilter === "all") return revistaCardsAll;
 
+    if (revistaCurrentFilter.startsWith("program:")) {
+        const program = revistaCurrentFilter.slice("program:".length);
+        return revistaCardsAll.filter(
+            (card) => card.getAttribute("data-program") === program
+        );
+    }
+
     return revistaCardsAll.filter(
         (card) => card.getAttribute("data-category") === revistaCurrentFilter
     );
@@ -226,6 +233,7 @@ function renderRevistaGrid() {
     if (!articleGrid || !revistaCardsAll.length) return;
 
     const filtered = getFilteredRevistaCards();
+    const emptyEl = document.getElementById("revistaEmpty");
     const totalPages = Math.max(1, Math.ceil(filtered.length / revistaPerPage));
 
     if (revistaCurrentPage > totalPages) {
@@ -244,6 +252,8 @@ function renderRevistaGrid() {
     filtered.slice(start, end).forEach((card) => {
         card.style.display = "";
     });
+
+    if (emptyEl) emptyEl.hidden = filtered.length !== 0;
 
     renderRevistaPagination(totalPages);
 }
@@ -289,6 +299,9 @@ async function loadMagazineFromCMS() {
 
             const featured =
                 String(data.featured || "").toLowerCase() === "true";
+            const program = (data.program || "").trim();
+            const programLabel = (data.programLabel || "").trim();
+            const episodeDuration = (data.episodeDuration || "").trim();
 
             const excerpt = markdownToExcerpt(content, 220);
 
@@ -313,6 +326,9 @@ async function loadMagazineFromCMS() {
                 excerpt,
                 videoId,
                 featured,
+                program,
+                programLabel,
+                episodeDuration,
             });
         }
 
@@ -339,6 +355,7 @@ async function loadMagazineFromCMS() {
             const card = document.createElement("article");
             card.className = "card article-card";
             card.dataset.category = artigo.categoryNormalized;
+            card.dataset.program = artigo.program;
 
             const linkHref = `materia.html?slug=${encodeURIComponent(artigo.slug)}`;
             const categoriaLabel = artigo.categoryRaw || "Matéria";
@@ -354,7 +371,8 @@ async function loadMagazineFromCMS() {
 
             card.innerHTML = `
                 ${coverHtml}
-                <span class="category-tag">${categoriaLabel}</span>
+                <span class="category-tag">${artigo.programLabel || categoriaLabel}</span>
+                ${artigo.program ? `<span class="article-program-meta">Episódio em texto e fotos · ${artigo.episodeDuration || "45 min"}</span>` : ""}
                 <h3>
                     <a href="${linkHref}">
                         ${artigo.title}
@@ -372,7 +390,11 @@ async function loadMagazineFromCMS() {
         // Atualiza array global de cards e reseta paginação
         revistaCardsAll = Array.from(articleGrid.querySelectorAll(".article-card"));
         revistaCurrentPage = 1;
-        revistaCurrentFilter = "all";
+        const requestedProgram = new URLSearchParams(window.location.search).get("programa");
+        revistaCurrentFilter = requestedProgram ? `program:${requestedProgram}` : "all";
+        document.querySelectorAll("[data-program-filter]").forEach((link) => {
+            link.classList.toggle("active", link.getAttribute("data-program-filter") === requestedProgram);
+        });
 
         // Renderiza o grid paginado (máx. 6 por página)
         renderRevistaGrid();
@@ -879,6 +901,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 // Atualiza estado visual do botão
                 filterButtons.forEach((b) => b.classList.remove("active"));
                 btn.classList.add("active");
+                document.querySelectorAll("[data-program-filter]").forEach((item) => item.classList.remove("active"));
+                window.history.replaceState({}, "", "revista.html");
 
                 // Atualiza filtro global e reseta para a página 1
                 revistaCurrentFilter = filter;
@@ -889,6 +913,21 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         });
     }
+
+    document.querySelectorAll("[data-program-filter]").forEach((link) => {
+        link.addEventListener("click", (event) => {
+            event.preventDefault();
+            const program = link.getAttribute("data-program-filter") || "";
+            revistaCurrentFilter = `program:${program}`;
+            revistaCurrentPage = 1;
+            filterButtons.forEach((button) => button.classList.remove("active"));
+            document.querySelectorAll("[data-program-filter]").forEach((item) => item.classList.remove("active"));
+            link.classList.add("active");
+            window.history.replaceState({}, "", `revista.html?programa=${encodeURIComponent(program)}`);
+            renderRevistaGrid();
+            document.getElementById("articleGrid")?.scrollIntoView({ behavior: "smooth", block: "start" });
+        });
+    });
 
 
 
@@ -1622,7 +1661,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
                     // Título da aba (usa o título da matéria)
                     const articleTitle = data.title || "Matéria";
-                    document.title = `${articleTitle} | TVDUASRODAS`;
+                    const seoTitle = data.seoTitle || articleTitle;
+                    document.title = `${seoTitle} | TVDUASRODAS`;
 
                     // Meta description (usa summary, se tiver, ou gera um resumo do corpo)
                     const articleExcerpt =
@@ -1651,10 +1691,55 @@ document.addEventListener("DOMContentLoaded", () => {
                     }
                     canonicalLink.setAttribute("href", canonicalUrl);
 
+                    const socialImageRaw = data.cover || data.thumbnail || "";
+                    const socialImage = socialImageRaw
+                        ? new URL(socialImageRaw, window.location.origin).href
+                        : "";
+                    const upsertMeta = (selector, attribute, value) => {
+                        let element = document.head.querySelector(selector);
+                        if (!element) {
+                            element = document.createElement("meta");
+                            const [name, attrValue] = attribute;
+                            element.setAttribute(name, attrValue);
+                            document.head.appendChild(element);
+                        }
+                        element.setAttribute("content", value);
+                    };
+
+                    upsertMeta('meta[property="og:type"]', ["property", "og:type"], "article");
+                    upsertMeta('meta[property="og:title"]', ["property", "og:title"], seoTitle);
+                    upsertMeta('meta[property="og:description"]', ["property", "og:description"], articleExcerpt);
+                    upsertMeta('meta[property="og:url"]', ["property", "og:url"], canonicalUrl);
+                    upsertMeta('meta[property="og:site_name"]', ["property", "og:site_name"], "TVDUASRODAS");
+                    upsertMeta('meta[name="twitter:card"]', ["name", "twitter:card"], "summary_large_image");
+                    upsertMeta('meta[name="twitter:title"]', ["name", "twitter:title"], seoTitle);
+                    upsertMeta('meta[name="twitter:description"]', ["name", "twitter:description"], articleExcerpt);
+                    if (socialImage) {
+                        upsertMeta('meta[property="og:image"]', ["property", "og:image"], socialImage);
+                        upsertMeta('meta[name="twitter:image"]', ["name", "twitter:image"], socialImage);
+                    }
+
+                    document.getElementById("articleStructuredData")?.remove();
+                    const structuredData = document.createElement("script");
+                    structuredData.type = "application/ld+json";
+                    structuredData.id = "articleStructuredData";
+                    structuredData.textContent = JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "Article",
+                        headline: articleTitle,
+                        description: articleExcerpt,
+                        image: socialImage ? [socialImage] : undefined,
+                        datePublished: data.date || undefined,
+                        author: { "@type": "Organization", name: data.author || "TVDUASRODAS" },
+                        publisher: { "@type": "Organization", name: "TVDUASRODAS" },
+                        mainEntityOfPage: canonicalUrl
+                    });
+                    document.head.appendChild(structuredData);
+
 
 
                     // Título da aba
-                    document.title = `${data.title || "Matéria"} | TV Duas Rodas`;
+                    document.title = `${seoTitle} | TV Duas Rodas`;
 
                     // Cabeçalho
                     const tag = document.getElementById("articleTag");
@@ -1663,9 +1748,11 @@ document.addEventListener("DOMContentLoaded", () => {
                     const authorEl = document.getElementById("articleAuthor");
                     const dateEl = document.getElementById("articleDate");
                     const readEl = document.getElementById("articleReadingTime");
+                    const programFormatEl = document.getElementById("articleProgramFormat");
+                    const programSeparatorEl = document.getElementById("articleProgramSeparator");
 
                     if (tag) {
-                        const baseCat = data.category || "Matéria";
+                        const baseCat = data.programLabel || data.category || "Matéria";
                         const kicker = data.kicker || data.tagline || "";
                         tag.textContent = kicker ? `${baseCat} · ${kicker}` : baseCat;
                     }
@@ -1680,6 +1767,11 @@ document.addEventListener("DOMContentLoaded", () => {
                         readEl.textContent = data.readingTime
                             ? `Leitura: ${data.readingTime}`
                             : "";
+                    if (programFormatEl && programSeparatorEl && data.episodeDuration) {
+                        programFormatEl.hidden = false;
+                        programSeparatorEl.hidden = false;
+                        programFormatEl.textContent = `Episódio editorial: ${data.episodeDuration}`;
+                    }
 
                     // Patrocínio (se algum dia você adicionar no frontmatter)
                     const sponsorWrapper = document.getElementById("articleSponsorWrapper");
