@@ -1644,7 +1644,7 @@ document.addEventListener("DOMContentLoaded", () => {
             }
         } else {
             // Agora buscamos o .md em content/news
-            fetch(`content/news/${slug}.md`)
+            fetch(`content/news/${slug}.md`, { cache: "no-store" })
                 .then((res) => {
                     if (!res.ok) {
                         throw new Error("Não encontrado");
