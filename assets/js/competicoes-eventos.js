@@ -166,29 +166,68 @@
         </article>`;
     }
 
+    function competitionDirectoryItem(item) {
+        const next = item.next_stage || {};
+        return `<a class="ce-directory-item" data-modality="${esc((item.modality || "").toLowerCase())}" href="competicao.html?slug=${encodeURIComponent(item.slug)}">
+            <span><small>${esc(item.modality || "Competição")} · ${esc(item.scope || item.country || "")}</small><strong>${esc(item.title)}</strong></span>
+            <span class="ce-directory-item__next">${next.start_date ? `<small>Próxima etapa</small><strong>${esc(formatDate(next.start_date))}</strong>` : "<small>Calendário</small><strong>Consultar</strong>"}</span>
+            <b aria-hidden="true">→</b>
+        </a>`;
+    }
+
+    function calendarItem(item) {
+        const location = [item.city, item.state].filter(Boolean).join("/") || item.location || "Local a confirmar";
+        const detail = item.competition_slug ? `competicao.html?slug=${encodeURIComponent(item.competition_slug)}` : safeUrl(item.official_url);
+        return `<article class="ce-calendar-item" data-modality="${esc((item.modality || "").toLowerCase())}">
+            <div class="ce-calendar-item__date"><strong>${esc(formatRange(item.start_date, item.end_date))}</strong><span>${esc(location)}</span></div>
+            <div class="ce-calendar-item__body"><small>${esc(item.modality || "Duas rodas")}</small><h3>${esc(item.title)}</h3><p>${esc(item.stage || "Programação oficial")}${item.note ? ` · ${esc(item.note)}` : ""}</p></div>
+            <a href="${esc(detail)}" ${item.competition_slug ? "" : 'target="_blank" rel="noopener noreferrer"'} aria-label="Ver ${esc(item.title)}">Ver detalhes →</a>
+        </article>`;
+    }
+
     async function loadLanding() {
         const competitionGrid = document.getElementById("ceCompetitionGrid");
         if (!competitionGrid) return;
         try {
-            const [competitions, events] = await Promise.all([loadCollection("competitions"), loadCollection("events")]);
+            const [competitions, events, calendar] = await Promise.all([
+                loadCollection("competitions"),
+                loadCollection("events"),
+                fetchData("content/calendar/cbm-2026.json").catch(() => ({ entries: [] }))
+            ]);
             competitions.sort((a, b) => Number(Boolean(b.featured)) - Number(Boolean(a.featured)) || String(a.title).localeCompare(String(b.title)));
             events.sort((a, b) => String(a.start_date).localeCompare(String(b.start_date)));
-            competitionGrid.innerHTML = competitions.map(competitionCard).join("");
+            const featured = competitions.filter((item) => item.featured);
+            competitionGrid.innerHTML = (featured.length ? featured : competitions.slice(0, 6)).map(competitionCard).join("");
+            const directory = document.getElementById("ceCompetitionDirectory");
+            directory.innerHTML = competitions.map(competitionDirectoryItem).join("");
             document.getElementById("ceEventList").innerHTML = events.map(eventCard).join("");
+
+            const calendarEntries = Array.isArray(calendar.entries) ? calendar.entries
+                .sort((a, b) => String(a.start_date).localeCompare(String(b.start_date))) : [];
+            const calendarList = document.getElementById("ceCalendarList");
+            calendarList.innerHTML = calendarEntries.length ? calendarEntries.map(calendarItem).join("") : '<div class="ce-empty"><strong>Agenda em atualização.</strong><p>Consulte novamente em breve.</p></div>';
 
             const modalities = [...new Set(competitions.map((x) => x.modality).filter(Boolean))].sort();
             const filter = document.getElementById("ceModalityFilter");
             modalities.forEach((name) => filter.insertAdjacentHTML("beforeend", `<option value="${esc(name.toLowerCase())}">${esc(name)}</option>`));
+            const calendarFilter = document.getElementById("ceCalendarFilter");
+            [...new Set(calendarEntries.map((x) => x.modality).filter(Boolean))].sort()
+                .forEach((name) => calendarFilter.insertAdjacentHTML("beforeend", `<option value="${esc(name.toLowerCase())}">${esc(name)}</option>`));
             const search = document.getElementById("ceSearch");
             const apply = () => {
                 const term = search.value.toLowerCase().trim();
                 const modality = filter.value;
-                competitionGrid.querySelectorAll(".ce-card").forEach((card) => {
+                document.querySelectorAll(".ce-card, .ce-directory-item").forEach((card) => {
                     card.hidden = Boolean((modality && card.dataset.modality !== modality) || (term && !card.textContent.toLowerCase().includes(term)));
                 });
             };
             search.addEventListener("input", apply);
             filter.addEventListener("change", apply);
+            calendarFilter.addEventListener("change", () => {
+                calendarList.querySelectorAll(".ce-calendar-item").forEach((item) => {
+                    item.hidden = Boolean(calendarFilter.value && item.dataset.modality !== calendarFilter.value);
+                });
+            });
         } catch (error) {
             console.error(error);
             competitionGrid.innerHTML = '<div class="ce-empty"><strong>Não foi possível carregar a central agora.</strong><p>Tente novamente em alguns instantes.</p></div>';

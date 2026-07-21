@@ -1,0 +1,12 @@
+{
+  "title":"GP Ohvale Brasil 2026","short_name":"GP Ohvale Brasil","season":"2026","country":"Brasil","scope":"Nacional","modality":"Motovelocidade de base","status":"em_andamento","organizer":"Confederação Brasileira de Motociclismo / GP Ohvale Brasil","official_url":"https://cbm.esp.br/site/public/index.php/competicoes/cbm/gp-ohvale-brasil","results_url":"https://cbm.esp.br/site/public/index.php/competicoes/cbm/gp-ohvale-brasil","cover":"/assets/img/competicoes-eventos-default.svg","image_credit":"Arte institucional: TVDUASRODAS","featured":false,"summary":"Motovelocidade de formação para jovens pilotos, com calendário nacional e participação latino-americana.","last_updated":"2026-07-21T12:00:00-04:00",
+  "next_stage":{"name":"4ª etapa","start_date":"2026-08-08","end_date":"2026-08-09","note":"Local a definir"},
+  "categories":["GP0 110","GP0 160","GP0 190"],"standings":[],
+  "rounds":[
+    {"order":1,"start_date":"2026-04-18","name":"1ª etapa","location":"Laranjal Paulista/SP","status":"concluida"},
+    {"order":2,"start_date":"2026-05-16","name":"2ª etapa","location":"Registro/SP","status":"concluida"},
+    {"order":3,"start_date":"2026-06-20","end_date":"2026-06-21","name":"3ª etapa","location":"Laranjal Paulista/SP","status":"concluida"},
+    {"order":4,"start_date":"2026-08-08","end_date":"2026-08-09","name":"4ª etapa","location":"A definir","status":"agendada"},
+    {"order":5,"start_date":"2026-09-18","end_date":"2026-09-19","name":"5ª etapa","location":"Registro/SP","status":"agendada"}
+  ],"related_videos":[],"body":"## Formação de novos pilotos\n\nO GP Ohvale Brasil reúne jovens competidores e funciona como categoria de formação da motovelocidade."
+}

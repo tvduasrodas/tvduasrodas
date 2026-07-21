@@ -1,0 +1,12 @@
+{
+  "title":"Campeonato Brasileiro de Hard Enduro 2026","short_name":"Hard Enduro Brasil","season":"2026","country":"Brasil","scope":"Nacional","modality":"Hard Enduro","status":"em_andamento","organizer":"Confederação Brasileira de Motociclismo","official_url":"https://cbm.esp.br/competicoes/cbm/campeonato-brasileiro-de-hard-enduro","results_url":"https://www.cbm.esp.br/modalidades/hard-enduro","cover":"/assets/img/competicoes-eventos-default.svg","image_credit":"Arte institucional: TVDUASRODAS","featured":false,"summary":"Calendário, resultados e classificação do Brasileiro de Hard Enduro.","last_updated":"2026-07-21T12:00:00-04:00",
+  "next_stage":{"name":"3ª etapa","start_date":"2026-08-14","end_date":"2026-08-16","city":"Poços de Caldas","state":"MG"},
+  "categories":["Gold Pró","Gold","Silver","Bronze","Iron","Over 40","Feminina"],"standings":[],
+  "rounds":[
+    {"order":1,"start_date":"2026-03-27","name":"1ª etapa","location":"Jandaia do Sul/PR","status":"concluida"},
+    {"order":2,"start_date":"2026-05-14","end_date":"2026-05-17","name":"2ª etapa — Barãomaniacs","location":"Barão de Cocais/MG","status":"concluida","winner":"Gold Pró: Rigor Rico","results_url":"https://cbm.esp.br/noticias/2026/05/19/rigor-rico-vence-o-baraomaniacs-2026-e-confirma-forca-brasileira-no-hard-enduro-latino-americano"},
+    {"order":3,"start_date":"2026-08-14","end_date":"2026-08-16","name":"3ª etapa","location":"Poços de Caldas/MG","status":"agendada"},
+    {"order":4,"start_date":"2026-10-16","end_date":"2026-10-18","name":"4ª etapa","location":"Brumadinho/MG","status":"agendada"},
+    {"order":5,"start_date":"2026-11-20","end_date":"2026-11-22","name":"5ª etapa","location":"Socorro/SP","status":"agendada"}
+  ],"related_videos":[],"body":"## Obstáculos naturais e resistência\n\nO Brasileiro de Hard Enduro reúne categorias de diferentes níveis técnicos. Resultados e pontos são publicados quando disponibilizados pela CBM."
+}

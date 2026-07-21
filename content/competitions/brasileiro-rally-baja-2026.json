@@ -1,0 +1,13 @@
+{
+  "title":"Campeonato Brasileiro de Rally Baja 2026","short_name":"Rally Baja Brasil","season":"2026","country":"Brasil","scope":"Nacional","modality":"Rally Baja","status":"em_andamento","organizer":"Confederação Brasileira de Motociclismo","official_url":"https://www.cbm.esp.br/modalidades/rally-baja","results_url":"https://www.cbm.esp.br/calendario/rally-baja","cover":"/assets/img/competicoes-eventos-default.svg","image_credit":"Arte institucional: TVDUASRODAS","featured":false,"summary":"Calendário, resultados e classificação do campeonato nacional de Rally Baja.","last_updated":"2026-07-21T12:00:00-04:00",
+  "next_stage":{"name":"4ª etapa — Rota Sudeste","start_date":"2026-09-26","end_date":"2026-09-27","note":"Local a confirmar"},
+  "categories":[],"standings":[],
+  "rounds":[
+    {"order":1,"start_date":"2026-02-07","name":"1ª etapa — Cuesta","location":"A confirmar","status":"concluida"},
+    {"order":2,"start_date":"2026-03-14","name":"2ª etapa — Barretos","location":"Barretos/SP","status":"concluida"},
+    {"order":3,"start_date":"2026-07-04","name":"3ª etapa — Serra Azul","location":"A confirmar","status":"concluida"},
+    {"order":4,"start_date":"2026-09-26","end_date":"2026-09-27","name":"4ª etapa — Rota Sudeste","location":"A confirmar","status":"agendada"},
+    {"order":5,"start_date":"2026-10-17","end_date":"2026-10-18","name":"5ª etapa — Poeira","location":"A confirmar","status":"agendada"},
+    {"order":6,"start_date":"2026-12-05","end_date":"2026-12-06","name":"6ª etapa — Terra Verde","location":"A confirmar","status":"agendada"}
+  ],"related_videos":[],"body":"## Velocidade e resistência fora de estrada\n\nO Rally Baja combina deslocamentos e especiais cronometradas. Locais ainda não divulgados permanecem indicados como a confirmar."
+}

@@ -13,8 +13,8 @@
   "image_credit": "Foto: MX1 GP Brasil / divulgação · Arte: TVDUASRODAS",
   "featured": false,
   "summary": "A principal temporada nacional de motocross, acompanhada a partir do calendário, regulamentos e resultados oficiais da CBM.",
-  "last_updated": "2026-07-20T13:00:00-04:00",
-  "next_stage": {},
+  "last_updated": "2026-07-21T12:00:00-04:00",
+  "next_stage": {"name":"7ª e 8ª etapas","start_date":"2026-07-31","city":"Santa Cruz do Capibaribe","state":"PE"},
   "categories": [
     "MX1",
     "MX2",
@@ -25,7 +25,12 @@
     "MXJR"
   ],
   "standings": [],
-  "rounds": [],
+  "rounds": [
+    {"order":7,"start_date":"2026-07-31","name":"7ª e 8ª etapas","location":"Santa Cruz do Capibaribe/PE","status":"agendada"},
+    {"order":9,"start_date":"2026-09-12","end_date":"2026-09-13","name":"9ª etapa","location":"Brumadinho/MG","status":"agendada"},
+    {"order":10,"start_date":"2026-09-13","name":"10ª etapa","location":"A confirmar","status":"agendada"},
+    {"order":11,"start_date":"2026-09-27","name":"11ª etapa","location":"A confirmar","status":"agendada"}
+  ],
   "related_videos": [],
   "body": "## Monitoramento oficial\n\nA TVDUASRODAS acompanha as etapas do Brasileiro de Motocross e publicará nesta página o calendário consolidado, os resultados e a liderança por categoria assim que forem confirmados pela organização."
 }

@@ -1,5 +1,5 @@
 {
-  "title": "Campeonatos Brasileiros de Enduro 2026",
+  "title": "Campeonato Brasileiro de Enduro 2026",
   "short_name": "Enduro Brasil",
   "season": "2026",
   "country": "Brasil",
@@ -7,21 +7,23 @@
   "modality": "Enduro",
   "status": "em_andamento",
   "organizer": "Confederação Brasileira de Motociclismo",
-  "official_url": "https://www.cbm.esp.br/",
+  "official_url": "https://www.cbm.esp.br/modalidades/enduro",
   "results_url": "https://www.cbm.esp.br/site/public/calendario",
   "cover": "/assets/img/uploads/brasileiro-enduro-2026-capa.webp",
   "image_credit": "Foto: Janjão Santiago / CBM · Arte: TVDUASRODAS",
   "featured": false,
-  "summary": "Acompanhamento das temporadas nacionais de Enduro, Enduro de Regularidade e Hard Enduro.",
-  "last_updated": "2026-07-20T13:00:00-04:00",
-  "next_stage": {},
+  "summary": "Etapas, resultados e classificação do Campeonato Brasileiro de Enduro.",
+  "last_updated": "2026-07-21T12:00:00-04:00",
+  "next_stage": {"name":"4ª etapa","start_date":"2026-08-07","end_date":"2026-08-09","city":"Ponta Grossa","state":"PR"},
   "categories": [
-    "Enduro",
-    "Enduro de Regularidade",
-    "Hard Enduro"
+    "Enduro"
   ],
   "standings": [],
-  "rounds": [],
+  "rounds": [
+    {"order":4,"start_date":"2026-08-07","end_date":"2026-08-09","name":"4ª etapa","location":"Ponta Grossa/PR","status":"agendada"},
+    {"order":5,"start_date":"2026-09-18","end_date":"2026-09-20","name":"5ª etapa","location":"Socorro/SP","status":"agendada"},
+    {"order":6,"start_date":"2026-11-06","end_date":"2026-11-08","name":"6ª etapa","location":"A confirmar","status":"agendada"}
+  ],
   "related_videos": [],
-  "body": "## Modalidades de resistência\n\nCalendários e resultados são verificados na CBM e nos organizadores de cada etapa antes da atualização."
+  "body": "## Resistência e técnica\n\nCalendário e resultados são verificados na CBM e nos organizadores de cada etapa. Enduro de Regularidade e Hard Enduro agora possuem páginas próprias para evitar a mistura de classificações."
 }
