@@ -30,6 +30,13 @@ Registro editorial de fontes e imagens usadas na implantação inicial da centra
 - Dados publicados: resultado completo da MotoGP na Alemanha, classificação completa de pilotos, situação de Diogo Moreira, vencedores das 11 etapas concluídas e calendário restante.
 - Nenhuma imagem nova foi adicionada nesta atualização; a capa existente e seu crédito aberto permanecem inalterados.
 
+### WorldSBK — atualização de resultados em 20 de julho de 2026, 20h45 (ET)
+
+- Classificação oficial após a oitava etapa: [WorldSBK — Championship standings, Donington Park](https://www.worldsbk.com/en/news/2026/06/14/2026-worldsbk-championship-standings/1014570).
+- Resultado e seis primeiros da Corrida 2: [WorldSBK — Bulega vence em Donington](https://www.worldsbk.com/en/news/2026/07/12/report-bulega-victorious-at-donington-park-as-lecuona-battles-from-tenth-to-p2-ducati-win-manufacturers-title/1077948).
+- Dados publicados: resultado mais recente, dez primeiros do Mundial, oito etapas concluídas e quatro etapas futuras.
+- Nenhuma imagem nova foi adicionada; a capa aberta já registrada permanece inalterada.
+
 ## Eventos
 
 - [Capital Moto Week](https://www.capitalmotoweek.com.br/).

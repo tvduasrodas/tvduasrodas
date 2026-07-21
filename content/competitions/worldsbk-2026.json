@@ -8,20 +8,67 @@
   "status": "em_andamento",
   "organizer": "FIM / WorldSBK",
   "official_url": "https://www.worldsbk.com/",
-  "results_url": "https://www.worldsbk.com/en/results%20statistics",
+  "results_url": "https://www.worldsbk.com/en/news/2026/06/14/2026-worldsbk-championship-standings/1014570",
   "cover": "/assets/img/uploads/worldsbk-2026-capa.webp",
   "image_credit": "Foto de arquivo (2024): Jearle / CC BY-SA 4.0 · Arte: TVDUASRODAS",
   "featured": false,
-  "summary": "Mundial de Superbike, Supersport e categorias associadas, acompanhado em português para o público brasileiro.",
-  "last_updated": "2026-07-20T13:00:00-04:00",
-  "next_stage": {},
+  "summary": "Nicolò Bulega lidera o WorldSBK 2026 com 491 pontos após Donington; Iker Lecuona é o segundo colocado.",
+  "last_updated": "2026-07-20T20:45:00-04:00",
+  "next_stage": {
+    "name": "9ª etapa — França",
+    "start_date": "2026-09-04",
+    "end_date": "2026-09-06",
+    "venue": "Circuit de Nevers Magny-Cours",
+    "city": "Magny-Cours",
+    "state": "França",
+    "note": "Retorno do campeonato após a pausa de verão."
+  },
   "categories": [
     "WorldSBK",
     "WorldSSP",
     "WorldWCR"
   ],
-  "standings": [],
-  "rounds": [],
+  "latest_result": {
+    "event": "WorldSBK — Donington Park",
+    "session": "Corrida 2",
+    "date": "2026-07-12",
+    "note": "Nicolò Bulega venceu a Corrida 2; Iker Lecuona ganhou a Corrida 1. A Ducati confirmou o título de construtores.",
+    "source_url": "https://www.worldsbk.com/en/news/2026/07/12/report-bulega-victorious-at-donington-park-as-lecuona-battles-from-tenth-to-p2-ducati-win-manufacturers-title/1077948",
+    "classification": [
+      { "position": "1º", "competitor": "Nicolò Bulega", "team": "Aruba.it Racing - Ducati", "time_gap": "Vencedor", "points": 25 },
+      { "position": "2º", "competitor": "Iker Lecuona", "team": "Aruba.it Racing - Ducati", "time_gap": "+4.161", "points": 20 },
+      { "position": "3º", "competitor": "Yari Montella", "team": "Barni Spark Racing Team", "time_gap": "+6.850", "points": 16 },
+      { "position": "4º", "competitor": "Axel Bassani", "team": "bimota by Kawasaki Racing Team", "time_gap": "+15.346", "points": 13 },
+      { "position": "5º", "competitor": "Alex Lowes", "team": "bimota by Kawasaki Racing Team", "time_gap": "+15.582", "points": 11 },
+      { "position": "6º", "competitor": "Garrett Gerloff", "team": "Kawasaki WorldSBK Team", "time_gap": "+16.656", "points": 10 }
+    ]
+  },
+  "standings": [
+    { "category": "WorldSBK", "position": 1, "competitor": "Nicolò Bulega", "team": "Aruba.it Racing - Ducati", "points": 491 },
+    { "category": "WorldSBK", "position": 2, "competitor": "Iker Lecuona", "team": "Aruba.it Racing - Ducati", "points": 358 },
+    { "category": "WorldSBK", "position": 3, "competitor": "Yari Montella", "team": "Barni Spark Racing Team", "points": 211 },
+    { "category": "WorldSBK", "position": 4, "competitor": "Alex Lowes", "team": "bimota by Kawasaki Racing Team", "points": 182 },
+    { "category": "WorldSBK", "position": 5, "competitor": "Sam Lowes", "team": "ELF Marc VDS Racing Team", "points": 177 },
+    { "category": "WorldSBK", "position": 6, "competitor": "Axel Bassani", "team": "bimota by Kawasaki Racing Team", "points": 153 },
+    { "category": "WorldSBK", "position": 7, "competitor": "Lorenzo Baldassarri", "team": "Team GoEleven", "points": 145 },
+    { "category": "WorldSBK", "position": 8, "competitor": "Garrett Gerloff", "team": "Kawasaki WorldSBK Team", "points": 110 },
+    { "category": "WorldSBK", "position": 9, "competitor": "Álvaro Bautista", "team": "Barni Spark Racing Team", "points": 107 },
+    { "category": "WorldSBK", "position": 10, "competitor": "Miguel Oliveira", "team": "ROKiT BMW Motorrad WorldSBK Team", "points": 106 }
+  ],
+  "rounds": [
+    { "order": 1, "start_date": "2026-02-20", "end_date": "2026-02-22", "name": "Austrália", "location": "Phillip Island, Austrália", "status": "concluida", "winner": "Nicolò Bulega — três vitórias", "results_url": "https://www.worldsbk.com/en/results%20statistics" },
+    { "order": 2, "start_date": "2026-03-27", "end_date": "2026-03-29", "name": "Portugal", "location": "Portimão, Portugal", "status": "concluida", "winner": "Nicolò Bulega — três vitórias", "results_url": "https://www.worldsbk.com/en/results%20statistics" },
+    { "order": 3, "start_date": "2026-04-17", "end_date": "2026-04-19", "name": "Países Baixos", "location": "Assen, Países Baixos", "status": "concluida", "winner": "Nicolò Bulega — três vitórias", "results_url": "https://www.worldsbk.com/en/results%20statistics" },
+    { "order": 4, "start_date": "2026-05-01", "end_date": "2026-05-03", "name": "Hungria", "location": "Balaton Park, Hungria", "status": "concluida", "winner": "Nicolò Bulega — três vitórias", "results_url": "https://www.worldsbk.com/en/results%20statistics" },
+    { "order": 5, "start_date": "2026-05-15", "end_date": "2026-05-17", "name": "Tchéquia", "location": "Most, Tchéquia", "status": "concluida", "winner": "Nicolò Bulega — três vitórias", "results_url": "https://www.worldsbk.com/en/results%20statistics" },
+    { "order": 6, "start_date": "2026-05-29", "end_date": "2026-05-31", "name": "Aragão", "location": "MotorLand Aragón, Espanha", "status": "concluida", "winner": "Nicolò Bulega — três vitórias", "results_url": "https://www.worldsbk.com/en/results%20statistics" },
+    { "order": 7, "start_date": "2026-06-12", "end_date": "2026-06-14", "name": "Emília-Romanha", "location": "Misano, Itália", "status": "concluida", "winner": "Nicolò Bulega — três vitórias", "results_url": "https://www.worldsbk.com/en/results%20statistics" },
+    { "order": 8, "start_date": "2026-07-10", "end_date": "2026-07-12", "name": "Reino Unido", "location": "Donington Park, Reino Unido", "status": "concluida", "winner": "Iker Lecuona (Corrida 1); Nicolò Bulega (Superpole e Corrida 2)", "results_url": "https://www.worldsbk.com/en/news/2026/07/12/report-bulega-victorious-at-donington-park-as-lecuona-battles-from-tenth-to-p2-ducati-win-manufacturers-title/1077948" },
+    { "order": 9, "start_date": "2026-09-04", "end_date": "2026-09-06", "name": "França", "location": "Magny-Cours, França", "status": "agendada", "winner": "", "results_url": "https://www.worldsbk.com/en/calendar" },
+    { "order": 10, "start_date": "2026-09-25", "end_date": "2026-09-27", "name": "Cremona", "location": "Cremona, Itália", "status": "agendada", "winner": "", "results_url": "https://www.worldsbk.com/en/calendar" },
+    { "order": 11, "start_date": "2026-10-09", "end_date": "2026-10-11", "name": "Estoril", "location": "Estoril, Portugal", "status": "agendada", "winner": "", "results_url": "https://www.worldsbk.com/en/calendar" },
+    { "order": 12, "start_date": "2026-10-16", "end_date": "2026-10-18", "name": "Espanha", "location": "Jerez, Espanha", "status": "agendada", "winner": "", "results_url": "https://www.worldsbk.com/en/calendar" }
+  ],
   "related_videos": [],
-  "body": "## Cobertura mundial\n\nResultados e classificações serão incorporados a partir das comunicações e tabelas oficiais do WorldSBK."
+  "body": "## Situação do campeonato\n\nNicolò Bulega lidera com 491 pontos e abriu 133 de vantagem sobre Iker Lecuona depois da oitava etapa. Yari Montella ocupa o terceiro lugar. A Ducati garantiu em Donington o título de construtores de 2026.\n\n## Próxima etapa\n\nO WorldSBK retorna de 4 a 6 de setembro em Magny-Cours, na França. A TVDUASRODAS atualiza resultados, classificação e calendário com base nas comunicações oficiais do campeonato."
 }
