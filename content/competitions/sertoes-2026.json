@@ -8,18 +8,42 @@
   "status": "em_andamento",
   "organizer": "Sertões",
   "official_url": "https://sertoes.com.br/",
-  "results_url": "https://sertoes.com.br/",
+  "results_url": "https://www.cbm.esp.br/noticias/2026/07/13/bruno-crivilin-e-rodrigo-varela-sao-os-campeoes-do-sertoes-series-parana",
   "cover": "/assets/img/uploads/sertoes-2026-capa.webp",
   "image_credit": "Foto: Rapha Rodrigues / Sertões · Arte: TVDUASRODAS",
   "featured": false,
-  "summary": "Cobertura das motos no maior rally do Brasil, com etapas, resultados e classificação por categoria.",
-  "last_updated": "2026-07-20T13:00:00-04:00",
-  "next_stage": {},
-  "categories": [
-    "Motos"
-  ],
+  "summary": "Bruno Crivilin venceu as motos no Sertões Series Paraná; a temporada segue com o Sertões Petrobras em agosto.",
+  "last_updated": "2026-07-20T20:50:00-04:00",
+  "next_stage": {
+    "name": "Sertões Petrobras",
+    "start_date": "2026-08-22",
+    "end_date": "2026-08-30",
+    "venue": "A definir pela organização",
+    "city": "Brasil",
+    "state": "",
+    "note": "Segunda prova do Sertões Series 2026, segundo o calendário oficial."
+  },
+  "categories": ["Motos"],
+  "latest_result": {
+    "event": "Sertões Series Paraná",
+    "session": "Classificação final — motos",
+    "date": "2026-07-11",
+    "note": "Bruno Crivilin (Honda Racing Rally) venceu a geral e a Moto1. A CBM divulgou os cinco primeiros da classificação final; a classificação de pontos do campeonato ainda não foi publicada pela entidade.",
+    "source_url": "https://www.cbm.esp.br/noticias/2026/07/13/bruno-crivilin-e-rodrigo-varela-sao-os-campeoes-do-sertoes-series-parana",
+    "classification": [
+      {"position":"1º","competitor":"Bruno Crivilin","team":"Honda Racing Rally","time_gap":"5h34min41s","points":null},
+      {"position":"2º","competitor":"Adrien Metge","team":"Yamaha IMS Rally Team","time_gap":"5h38min56s","points":null},
+      {"position":"3º","competitor":"Gabriel Bruning","team":"Yamaha IMS Rally Team","time_gap":"5h39min59s","points":null},
+      {"position":"4º","competitor":"Ricardo \"Bob\" Martins","team":"Yamaha IMS Rally Team","time_gap":"6h03min26s","points":null},
+      {"position":"5º","competitor":"Luciano Gomes","team":"Yamaha IMS Rally Team","time_gap":"6h19min49s","points":null}
+    ]
+  },
   "standings": [],
-  "rounds": [],
+  "rounds": [
+    {"order":1,"start_date":"2026-07-09","end_date":"2026-07-11","name":"Sertões Series Paraná","location":"Siqueira Campos, PR","status":"concluida","winner":"Bruno Crivilin (Motos); Rodrigo Varela/Matheus Mazzei (UTVs)","results_url":"https://www.cbm.esp.br/noticias/2026/07/13/bruno-crivilin-e-rodrigo-varela-sao-os-campeoes-do-sertoes-series-parana"},
+    {"order":2,"start_date":"2026-08-22","end_date":"2026-08-30","name":"Sertões Petrobras","location":"Brasil","status":"agendada","winner":"","results_url":"https://rally.sertoes.com.br/sertoes-series-2026/"},
+    {"order":3,"start_date":"2026-10-30","end_date":"2026-11-01","name":"Sertões Series São Paulo","location":"São Paulo, SP","status":"agendada","winner":"","results_url":"https://rally.sertoes.com.br/sertoes-series-2026/"}
+  ],
   "related_videos": [],
-  "body": "## Foco nas duas rodas\n\nNesta central, o Sertões é acompanhado com foco nas categorias de motocicletas e nas informações relevantes ao público de duas rodas."
+  "body": "## Resultado mais recente\n\nO Sertões Series Paraná abriu a temporada entre 9 e 11 de julho, em Siqueira Campos (PR), e também foi válido pelo Campeonato Brasileiro de Rally Raid. Bruno Crivilin venceu a classificação geral das motos e a Moto1. Gabriel Bruning, Raquel Stein, Luciano Gomes e Ricardo \"Bob\" Martins venceram, respectivamente, Moto2, Moto3, Over e Big Trail.\n\nA CBM publicou os cinco primeiros da classificação final das motos, reproduzidos no quadro de resultado desta página. A entidade ainda não divulgou uma tabela de pontos do campeonato após a prova; por isso, a classificação do campeonato permanece em aberto e será atualizada somente com documento oficial.\n\n## Próxima etapa\n\nA programação oficial do Sertões Series prevê o Sertões Petrobras de 22 a 30 de agosto e o Sertões Series São Paulo de 30 de outubro a 1º de novembro."
 }
