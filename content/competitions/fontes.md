@@ -45,6 +45,14 @@ Registro editorial de fontes e imagens usadas na implantação inicial da centra
 - Dados publicados: dez primeiros do resultado geral da MXGP em Foxhills, dez primeiros da classificação MXGP, dez primeiros da classificação MX2 e calendário completo.
 - Nenhuma imagem nova foi adicionada nesta atualização; a capa do release oficial de Foxhills já registrada permanece inalterada.
 
+### Sertões — atualização de resultado em 20 de julho de 2026, 20h50 (ET)
+
+- Resultado oficial e classificação final das motos: [CBM — Bruno Crivilin e Rodrigo Varela são os campeões do Sertões Series Paraná](https://www.cbm.esp.br/noticias/2026/07/13/bruno-crivilin-e-rodrigo-varela-sao-os-campeoes-do-sertoes-series-parana).
+- Calendário oficial da temporada: [Sertões Series 2026](https://rally.sertoes.com.br/sertoes-series-2026/).
+- Dados publicados: cinco primeiros da classificação final das motos, vencedores das cinco categorias de motos, etapa concluída e duas próximas provas do Sertões Series.
+- A CBM não publicou uma classificação de pontos do campeonato depois desta prova na página consultada às 20h50 (ET); a tabela de `standings` continua vazia de forma intencional, com nova consulta prevista no próximo ciclo.
+- Nenhuma imagem foi adicionada ou alterada: a capa local já publicada, seu crédito e o registro de direitos permanecem os mesmos.
+
 ## Eventos
 
 - [Capital Moto Week](https://www.capitalmotoweek.com.br/).
