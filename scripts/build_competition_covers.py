@@ -6,7 +6,7 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
+from PIL import Image, ImageFilter, ImageOps
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -105,11 +105,6 @@ COVERS = {
 }
 
 
-def font(size: int, bold: bool = False) -> ImageFont.FreeTypeFont:
-    name = "arialbd.ttf" if bold else "arial.ttf"
-    return ImageFont.truetype(str(Path("C:/Windows/Fonts") / name), size)
-
-
 def cover_crop(image: Image.Image, focus: tuple[float, float]) -> Image.Image:
     image = ImageOps.exif_transpose(image).convert("RGB")
     scale = max(WIDTH / image.width, HEIGHT / image.height)
@@ -121,56 +116,46 @@ def cover_crop(image: Image.Image, focus: tuple[float, float]) -> Image.Image:
 
 
 def open_logo(path: Path) -> Image.Image:
-    return Image.open(path).convert("RGBA")
+    logo = Image.open(path).convert("RGBA")
+    alpha_bbox = logo.getchannel("A").getbbox()
+    return logo.crop(alpha_bbox) if alpha_bbox else logo
 
 
-def fit_logo(logo: Image.Image, max_width: int = 480, max_height: int = 205) -> Image.Image:
-    ratio = min(max_width / logo.width, max_height / logo.height, 1)
+def fit_logo(logo: Image.Image, max_width: int = 720, max_height: int = 300) -> Image.Image:
+    ratio = min(max_width / logo.width, max_height / logo.height)
     size = (max(1, round(logo.width * ratio)), max(1, round(logo.height * ratio)))
-    return logo.resize(size, Image.Resampling.LANCZOS) if ratio < 1 else logo.copy()
+    return logo.resize(size, Image.Resampling.LANCZOS)
 
 
 def make_cover(slug: str, data: dict, output: Path) -> None:
     with Image.open(data["photo"]) as photo:
         base = cover_crop(photo, data["focus"]).convert("RGBA")
 
-    # Gradiente escuro preserva a foto e garante leitura da marca em miniatura.
-    shade = Image.new("RGBA", (WIDTH, HEIGHT), (0, 0, 0, 0))
-    shade_px = shade.load()
-    for x in range(WIDTH):
-        alpha = round(205 * max(0, 1 - x / 850) + 35)
-        for y in range(HEIGHT):
-            vertical = round(42 * abs(y - HEIGHT / 2) / (HEIGHT / 2))
-            shade_px[x, y] = (4, 8, 16, min(235, alpha + vertical))
-    base.alpha_composite(shade)
-
-    draw = ImageDraw.Draw(base, "RGBA")
-    draw.rounded_rectangle((42, 48, 610, 627), radius=30, fill=(5, 10, 20, 145), outline=(255, 255, 255, 40), width=2)
-    draw.rounded_rectangle((42, 48, 55, 627), radius=7, fill=(255, 91, 45, 255))
+    # Escurecimento leve e uniforme: preserva a foto e dá contraste ao logo.
+    base.alpha_composite(Image.new("RGBA", (WIDTH, HEIGHT), (3, 7, 14, 82)))
 
     logo = open_logo(data["logo"])
     if "logo_crop" in data:
         logo = logo.crop(data["logo_crop"])
+        alpha_bbox = logo.getchannel("A").getbbox()
+        logo = logo.crop(alpha_bbox) if alpha_bbox else logo
     logo = fit_logo(logo)
-    logo_x = 82 + (480 - logo.width) // 2
-    logo_y = 91 + (205 - logo.height) // 2
-    if data.get("light_logo_plate"):
-        draw.rounded_rectangle(
-            (logo_x - 24, logo_y - 18, logo_x + logo.width + 24, logo_y + logo.height + 18),
-            radius=18,
-            fill=(255, 255, 255, 235),
-        )
-    shadow = Image.new("RGBA", logo.size, (0, 0, 0, 0))
-    shadow.alpha_composite(logo)
-    shadow = shadow.filter(ImageFilter.GaussianBlur(8))
-    base.alpha_composite(shadow, (logo_x + 5, logo_y + 7))
-    base.alpha_composite(logo, (logo_x, logo_y))
+    logo_x = (WIDTH - logo.width) // 2
+    logo_y = (HEIGHT - logo.height) // 2
 
-    title_font = font(51 if "\n" not in data["title"] else 43, bold=True)
-    draw.multiline_text((82, 337), data["title"], font=title_font, fill="white", spacing=7)
-    draw.rounded_rectangle((82, 526, 300, 573), radius=22, fill=(255, 91, 45, 235))
-    draw.text((105, 537), "TEMPORADA 2026", font=font(20, bold=True), fill="white")
-    draw.text((82, 590), f"Foto: {data['credit']}", font=font(16), fill=(225, 230, 238, 220))
+    # Um brilho escuro suave substitui painéis, títulos e outros textos.
+    glow_pad = 56
+    glow = Image.new("RGBA", (logo.width + glow_pad * 2, logo.height + glow_pad * 2), (0, 0, 0, 0))
+    glow_alpha = Image.new("L", glow.size, 0)
+    glow_alpha.paste(185, (glow_pad, glow_pad, glow_pad + logo.width, glow_pad + logo.height))
+    glow_alpha = glow_alpha.filter(ImageFilter.GaussianBlur(34))
+    glow.putalpha(glow_alpha)
+    base.alpha_composite(glow, (logo_x - glow_pad, logo_y - glow_pad))
+
+    shadow = Image.new("RGBA", logo.size, (0, 0, 0, 210))
+    shadow.putalpha(logo.getchannel("A").filter(ImageFilter.GaussianBlur(9)))
+    base.alpha_composite(shadow, (logo_x + 7, logo_y + 9))
+    base.alpha_composite(logo, (logo_x, logo_y))
 
     output.parent.mkdir(parents=True, exist_ok=True)
     base.convert("RGB").save(output, "PNG", optimize=True)

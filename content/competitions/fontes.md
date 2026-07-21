@@ -55,7 +55,7 @@ Os cartões sem foto oficial usam apenas a arte editorial própria `assets/img/c
 
 ## Capas padronizadas com marcas — 20 de julho de 2026
 
-As 12 capas abaixo foram montadas pela TVDUASRODAS em proporção 16:9. O tratamento aplicado foi limitado a recorte, camada escura, inserção identificativa da marca, título, temporada e crédito. Não houve remoção de marca-d'água nem alteração do conteúdo esportivo das fotografias.
+As 12 capas abaixo foram remontadas pela TVDUASRODAS em proporção 16:9. O tratamento visual foi limitado ao recorte da fotografia, leve camada escura e logotipo oficial centralizado. Títulos, modalidade, temporada e créditos sobrepostos foram removidos para evitar duplicação com o texto dos cards. Os créditos continuam registrados nesta página e nos dados de cada competição. Não houve remoção de marca-d'água nem alteração do conteúdo esportivo das fotografias.
 
 | Competição | Foto e origem | Marca | Crédito e condição registrada |
 |---|---|---|---|
@@ -78,6 +78,6 @@ As fotografias públicas do site MotoGP e do site WorldSBK não foram usadas por
 
 - Arquivos publicados em `assets/img/uploads/*-2026-capa.webp`.
 - Dimensões finais: 1200 × 675 px em todas as capas.
-- WebP qualidade 82, processado com `scripts/optimize_image.py` do fluxo editorial.
-- Peso final entre 30,5 KB e 109,8 KB, abaixo da meta de 350 KB para capa.
+- WebP qualidade 82, processado pelo gerador local `scripts/build_competition_covers.py` e pela rotina de conversão Pillow.
+- Peso final entre 33,9 KB e 159,8 KB, abaixo da meta de 350 KB para capa.
 - Os PNGs de composição e os originais permanecem no pacote de revisão `editorial/competition-covers-2026`; somente os WebP otimizados são referenciados pelo site.
