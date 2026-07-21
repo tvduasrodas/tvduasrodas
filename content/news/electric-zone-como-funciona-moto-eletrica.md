@@ -29,7 +29,7 @@ O fluxo básico pode ser resumido assim: **rede elétrica → carregador → bat
 
 Ao conectar a moto à tomada ou a um carregador rápido compatível, o sistema verifica temperatura, tensão, aterramento e condições da bateria antes de aceitar potência. Em movimento, sensores acompanham a solicitação do acelerador, a rotação do motor, a carga disponível e os limites térmicos. Se algo sair da faixa segura, a eletrônica pode reduzir o desempenho ou interromper a operação.
 
-![Painel TFT da Honda WN7 mostrando as informações de condução e energia](/assets/img/uploads/electric-zone-painel-tft.webp "Painel TFT de 5 polegadas da Honda WN7. Foto: Honda Motor Europe / divulgação")
+![Painel TFT da Honda WN7 mostrando as informações de condução e energia](/assets/img/uploads/electric-zone-painel-tft.webp?v=20260721-1 "Painel TFT de 5 polegadas da Honda WN7. Foto: Honda Motor Europe / divulgação")
 
 ## 10–20 min | Células, módulos, bateria e BMS
 
@@ -49,7 +49,7 @@ A **PDU**, ou unidade de distribuição de potência, organiza o fluxo de alta t
 
 O motor elétrico converte energia elétrica em movimento por meio de campos magnéticos. Seu torque pode aparecer desde rotações muito baixas, característica que explica a sensação de resposta imediata. Na WN7, a Honda divulga pico de 50 kW e 100 Nm. O motor e a PDU são integrados e recebem refrigeração líquida, enquanto a transmissão final usa correia.
 
-![Conjunto lateral da Honda WN7 com bateria, motor e transmissão integrados ao chassi](/assets/img/uploads/electric-zone-bateria-motor.webp "Arquitetura compacta da Honda WN7. Foto: Honda Motor Europe / divulgação")
+![Conjunto lateral da Honda WN7 com bateria, motor e transmissão integrados ao chassi](/assets/img/uploads/electric-zone-bateria-motor.webp?v=20260721-1 "Arquitetura compacta da Honda WN7. Foto: Honda Motor Europe / divulgação")
 
 ## 29–35 min | Frenagem regenerativa
 
@@ -65,7 +65,7 @@ Há dois caminhos principais. Na recarga em corrente alternada, a energia passa 
 
 A Honda informa para a WN7 compatibilidade com CCS2 e recarga de 20% a 80% em cerca de 30 minutos em condições especificadas. Em uma unidade doméstica de parede, a fabricante indica carga completa em aproximadamente 2,4 horas; em uma tomada convencional compatível, cerca de 5,5 horas. Infraestrutura, tensão local, potência disponível, temperatura e instalação elétrica podem mudar esses tempos.
 
-![Conector de recarga instalado na Honda WN7](/assets/img/uploads/electric-zone-conector-recarga.webp "Porta de recarga da Honda WN7. Foto: Honda Motor Europe / divulgação")
+![Conector de recarga instalado na Honda WN7](/assets/img/uploads/electric-zone-conector-recarga.webp?v=20260721-1 "Porta de recarga da Honda WN7. Foto: Honda Motor Europe / divulgação")
 
 ## 40–44 min | Segurança e vida útil
 
