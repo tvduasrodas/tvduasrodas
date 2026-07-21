@@ -3,7 +3,7 @@ title: Harley-Davidson Model 6A (1910)
 date: 2026-01-26T22:24:00-05:00
 youtube_url: rR3rAdf4EwA
 duration: ''
-category: urbano
+category: historia
 tags:
   - 1910 Harley, 1910 Harley Davidson, Ian Biddle
 featured: false

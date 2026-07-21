@@ -3,7 +3,7 @@ title: Como funciona um câmbio DCT (Dual Clutch) nas motos — vale a pena?
 date: 2026-02-04T12:31:00-05:00
 youtube_url: https://www.youtube.com/watch?v=tkIvOQxyRpY
 duration: ''
-category: outros
+category: tecnologia
 tags:
   - DCT,motos
 featured: false

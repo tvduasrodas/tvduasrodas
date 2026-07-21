@@ -31,10 +31,20 @@ collections:
         options:
           - { label: "Cassetadas", value: "cassetadas" }
           - { label: "Cross", value: "cross" }
-          - { label: "Urbano", value: "urbano" }
-          - { label: "Viagem", value: "viagem" }
+          - { label: "Competições", value: "competicoes" }
+          - { label: "Eventos", value: "eventos" }
+          - { label: "Urbano e Mobilidade", value: "urbano" }
+          - { label: "Lançamentos", value: "lancamentos" }
+          - { label: "Testes e Avaliações", value: "testes" }
+          - { label: "Dicas e Mecânica", value: "dicas" }
+          - { label: "Tecnologia", value: "tecnologia" }
+          - { label: "Viagem e Turismo", value: "viagem" }
+          - { label: "História e Cultura", value: "historia" }
+          - { label: "Customização", value: "customizacao" }
+          - { label: "Institucional", value: "institucional" }
           - { label: "Outros", value: "outros" }
-        default: "urbano"
+        default: "outros"
+        hint: "Escolha a categoria editorial específica. Use Outros somente quando nenhuma das categorias disponíveis representar o vídeo."
       - { label: "Tags", name: "tags", widget: "list", required: false, hint: "Ex: honda, yamaha, viagem" }
       - { label: "Destaque na Home?", name: "featured", widget: "boolean", default: false }
       - label: "Thumbnail"

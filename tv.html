@@ -148,12 +148,8 @@
 
                     <!-- CONTROLES (FILTRO + PAGINAÇÃO TOPO) -->
                     <div class="tv-gallery-controls">
-                        <div class="tv-filter-bar">
+                        <div class="tv-filter-bar" id="tvFilterBar" aria-label="Categorias de vídeos">
                             <button class="tv-filter-btn active" data-filter="all">Tudo</button>
-                            <button class="tv-filter-btn" data-filter="cassetadas">Cassetadas</button>
-                            <button class="tv-filter-btn" data-filter="cross">Cross</button>
-                            <button class="tv-filter-btn" data-filter="urbano">Urbano</button>
-                            <button class="tv-filter-btn" data-filter="viagem">Viagem</button>
                         </div>
                         <div id="tvPaginationTop" class="tv-pagination"></div>
                     </div>
@@ -238,6 +234,83 @@
         let tvCurrentFilter = "all";   // filtro atual (all, cassetadas, cross, etc.)
         let tvCurrentPage = 1;         // página atual
         const TV_VIDEOS_PER_PAGE = 6;  // nº de vídeos por página
+
+        const TV_CATEGORY_LABELS = {
+            cassetadas: "Cassetadas",
+            cross: "Cross",
+            competicoes: "Competições",
+            eventos: "Eventos",
+            urbano: "Urbano e Mobilidade",
+            lancamentos: "Lançamentos",
+            testes: "Testes e Avaliações",
+            dicas: "Dicas e Mecânica",
+            tecnologia: "Tecnologia",
+            viagem: "Viagem e Turismo",
+            historia: "História e Cultura",
+            customizacao: "Customização",
+            institucional: "Institucional",
+            outros: "Outros",
+        };
+
+        const TV_CATEGORY_ORDER = Object.keys(TV_CATEGORY_LABELS);
+
+        function normalizeTvCategory(value) {
+            const normalized = (value || "outros")
+                .trim()
+                .toLowerCase()
+                .normalize("NFD")
+                .replace(/[\u0300-\u036f]/g, "")
+                .replace(/[^a-z0-9]+/g, "-")
+                .replace(/^-|-$/g, "");
+
+            const aliases = {
+                competicao: "competicoes",
+                competition: "competicoes",
+                competitions: "competicoes",
+                lancamento: "lancamentos",
+                teste: "testes",
+                avaliacao: "testes",
+                historico: "historia",
+                personalizacao: "customizacao",
+            };
+
+            return aliases[normalized] || normalized || "outros";
+        }
+
+        function getTvCategoryLabel(category) {
+            const key = normalizeTvCategory(category);
+            if (TV_CATEGORY_LABELS[key]) return TV_CATEGORY_LABELS[key];
+            return key
+                .split("-")
+                .filter(Boolean)
+                .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+                .join(" ") || "Outros";
+        }
+
+        function renderTvCategoryFilters() {
+            const bar = document.getElementById("tvFilterBar");
+            if (!bar) return;
+
+            const available = [...new Set(tvVideos.map((video) => normalizeTvCategory(video.category)))];
+            available.sort((a, b) => {
+                const ai = TV_CATEGORY_ORDER.indexOf(a);
+                const bi = TV_CATEGORY_ORDER.indexOf(b);
+                if (ai === -1 && bi === -1) return getTvCategoryLabel(a).localeCompare(getTvCategoryLabel(b), "pt-BR");
+                if (ai === -1) return 1;
+                if (bi === -1) return -1;
+                return ai - bi;
+            });
+
+            bar.innerHTML = [
+                '<button class="tv-filter-btn active" data-filter="all">Tudo</button>',
+                ...available.map((category) =>
+                    `<button class="tv-filter-btn" data-filter="${category}">${getTvCategoryLabel(category)}</button>`
+                ),
+            ].join("");
+
+            tvCurrentFilter = "all";
+            setupTvFilters();
+        }
 
 
 
@@ -404,6 +477,7 @@
 
                 // Guarda globalmente
                 tvVideos = videos;
+                renderTvCategoryFilters();
 
                 const mainPlayer = document.getElementById("mainPlayer");
                 const videoFromUrl = getVideoIdFromUrlParam();
@@ -449,7 +523,7 @@
 
             // Aplica filtro
             const filtered = tvVideos.filter((video) => {
-                const cat = (video.category || "outros").toLowerCase();
+                const cat = normalizeTvCategory(video.category);
                 if (tvCurrentFilter === "all") return true;
                 return cat === tvCurrentFilter;
             });
@@ -475,7 +549,7 @@
                     const title = video.title || "Vídeo sem título";
                     const youtubeUrl = video.youtube_url || "";
                     const body = video.body || "";
-                    const category = (video.category || "outros").toLowerCase();
+                    const category = normalizeTvCategory(video.category);
                     const videoId = extractYouTubeIdTv(youtubeUrl || video.videoId || "");
 
                     // thumbnail: se frontmatter tiver caminho local, ajusta
@@ -494,6 +568,7 @@
               ${thumbSrc ? `<img src="${thumbSrc}" alt="${title}">` : ""}
             </div>
             <div class="card" style="margin-top: 8px;">
+              <span class="category-tag">${getTvCategoryLabel(category)}</span>
               <h3>${title}</h3>
               <p>${excerpt}</p>
             </div>
@@ -718,7 +793,6 @@
         document.addEventListener("DOMContentLoaded", () => {
             loadLiveStatusFromConfigTv();
             loadTvGalleryFromVideos();
-            setupTvFilters();
         });
     </script>
 </body>
