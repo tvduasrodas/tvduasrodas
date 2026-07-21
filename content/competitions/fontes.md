@@ -37,6 +37,14 @@ Registro editorial de fontes e imagens usadas na implantação inicial da centra
 - Dados publicados: resultado mais recente, dez primeiros do Mundial, oito etapas concluídas e quatro etapas futuras.
 - Nenhuma imagem nova foi adicionada; a capa aberta já registrada permanece inalterada.
 
+### MXGP — atualização de resultados em 20 de julho de 2026, 21h00 (ET)
+
+- Resultado geral oficial de Foxhills e classificação dos campeonatos: [MXGP da Grã-Bretanha — Herlings e Farres vencem](https://www.mxgp.com/news/it%E2%80%99s-fabulous-foxhills-herlings-and-farres-monster-energy-mxgp-great-britain).
+- Calendário oficial com 19 etapas: [MXGP — calendário 2026](https://www.mxgp.com/calendar).
+- Próxima etapa: [GP da Tchéquia, em Loket, 25 e 26 de julho](https://www.mxgp.com/news/tickets-now-available-2026-mxgp-czech-republic-loket).
+- Dados publicados: dez primeiros do resultado geral da MXGP em Foxhills, dez primeiros da classificação MXGP, dez primeiros da classificação MX2 e calendário completo.
+- Nenhuma imagem nova foi adicionada nesta atualização; a capa do release oficial de Foxhills já registrada permanece inalterada.
+
 ## Eventos
 
 - [Capital Moto Week](https://www.capitalmotoweek.com.br/).
