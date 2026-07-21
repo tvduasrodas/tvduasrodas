@@ -1,6 +1,11 @@
-self.options = {
-    "domain": "3nbf4.com",
-    "zoneId": 10590923
-}
-self.lary = ""
-importScripts('https://3nbf4.com/act/files/service-worker.min.js?r=sw')
+// Limpeza do antigo service worker da rede de anúncios.
+self.addEventListener("install", () => self.skipWaiting());
+
+self.addEventListener("activate", (event) => {
+    event.waitUntil(
+        Promise.all([
+            self.registration.unregister(),
+            caches.keys().then((keys) => Promise.all(keys.map((key) => caches.delete(key))))
+        ])
+    );
+});
