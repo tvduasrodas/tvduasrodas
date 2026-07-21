@@ -1,0 +1,22 @@
+{
+  "title": "CIMAMotor 2026",
+  "start_date": "2026-09-19",
+  "end_date": "2026-09-22",
+  "city": "Chongqing",
+  "state": "China",
+  "venue": "Chongqing International Expo Center",
+  "status": "proximo",
+  "event_type": "Salão internacional de motocicletas",
+  "official_url": "https://en.cimamotor.com/exhibition",
+  "ticket_url": "https://en.cimamotor.com/exhibition",
+  "press_url": "https://en.cimamotor.com/exhibition",
+  "cover": "/assets/img/competicoes-eventos-default.svg",
+  "image_credit": "Arte institucional: TVDUASRODAS",
+  "featured": true,
+  "free": false,
+  "summary": "O salão de Chongqing apresenta motocicletas, scooters, elétricos, peças e tecnologias de uma das maiores indústrias do setor.",
+  "attractions": ["Lançamentos de motocicletas", "Scooters e modelos elétricos", "Peças e acessórios", "Tecnologia e indústria"],
+  "videos": [],
+  "body": "## A indústria asiática em destaque\n\nA CIMAMotor reúne fabricantes, fornecedores e novas tecnologias em Chongqing. Para o público brasileiro, o evento ajuda a antecipar produtos e tendências que podem chegar a outros mercados. Confirme a programação e as regras de visitação no site oficial.",
+  "last_updated": "2026-07-21T15:00:00-04:00"
+}

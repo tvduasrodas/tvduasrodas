@@ -2,6 +2,17 @@
     "use strict";
 
     const DEFAULT_IMAGE = "/assets/img/competicoes-eventos-default.svg";
+    const LIST_LIMIT = 8;
+    const HIGHLIGHT_SLUGS = [
+        "arena-cross-brasil-2026",
+        "moto1000gp-2026",
+        "motogp-2026",
+        "brasileiro-motocross-2026",
+        "superbike-brasil-2026",
+        "sertoes-2026",
+        "brasileiro-ciclismo-mtb-2026",
+        "worldsbk-2026"
+    ];
     const statusLabels = {
         em_andamento: "Em andamento",
         proximo: "Próximo",
@@ -166,15 +177,6 @@
         </article>`;
     }
 
-    function competitionDirectoryItem(item) {
-        const next = item.next_stage || {};
-        return `<a class="ce-directory-item" data-modality="${esc((item.modality || "").toLowerCase())}" href="competicao.html?slug=${encodeURIComponent(item.slug)}">
-            <span><small>${esc(item.modality || "Competição")} · ${esc(item.scope || item.country || "")}</small><strong>${esc(item.title)}</strong></span>
-            <span class="ce-directory-item__next">${next.start_date ? `<small>Próxima etapa</small><strong>${esc(formatDate(next.start_date))}</strong>` : "<small>Calendário</small><strong>Consultar</strong>"}</span>
-            <b aria-hidden="true">→</b>
-        </a>`;
-    }
-
     function calendarItem(item) {
         const location = [item.city, item.state].filter(Boolean).join("/") || item.location || "Local a confirmar";
         const detail = item.competition_slug ? `competicao.html?slug=${encodeURIComponent(item.competition_slug)}` : safeUrl(item.official_url);
@@ -196,37 +198,59 @@
             ]);
             competitions.sort((a, b) => Number(Boolean(b.featured)) - Number(Boolean(a.featured)) || String(a.title).localeCompare(String(b.title)));
             events.sort((a, b) => String(a.start_date).localeCompare(String(b.start_date)));
-            const featured = competitions.filter((item) => item.featured);
-            competitionGrid.innerHTML = (featured.length ? featured : competitions.slice(0, 6)).map(competitionCard).join("");
-            const directory = document.getElementById("ceCompetitionDirectory");
-            directory.innerHTML = competitions.map(competitionDirectoryItem).join("");
-            document.getElementById("ceEventList").innerHTML = events.map(eventCard).join("");
+            const highlights = HIGHLIGHT_SLUGS.map((slug) => competitions.find((item) => item.slug === slug)).filter(Boolean);
+            competitionGrid.innerHTML = highlights.slice(0, LIST_LIMIT).map(competitionCard).join("");
+
+            const competitionSelect = document.getElementById("ceCompetitionSelect");
+            competitions.slice().sort((a, b) => String(a.title).localeCompare(String(b.title))).forEach((item) => {
+                competitionSelect.insertAdjacentHTML("beforeend", `<option value="${esc(item.slug)}">${esc(item.title)}</option>`);
+            });
+            const competitionOpen = document.getElementById("ceCompetitionOpen");
+            competitionSelect.addEventListener("change", () => { competitionOpen.disabled = !competitionSelect.value; });
+            competitionOpen.addEventListener("click", () => {
+                if (competitionSelect.value) window.location.href = `competicao.html?slug=${encodeURIComponent(competitionSelect.value)}`;
+            });
 
             const calendarEntries = Array.isArray(calendar.entries) ? calendar.entries
                 .sort((a, b) => String(a.start_date).localeCompare(String(b.start_date))) : [];
             const calendarList = document.getElementById("ceCalendarList");
-            calendarList.innerHTML = calendarEntries.length ? calendarEntries.map(calendarItem).join("") : '<div class="ce-empty"><strong>Agenda em atualização.</strong><p>Consulte novamente em breve.</p></div>';
-
-            const modalities = [...new Set(competitions.map((x) => x.modality).filter(Boolean))].sort();
-            const filter = document.getElementById("ceModalityFilter");
-            modalities.forEach((name) => filter.insertAdjacentHTML("beforeend", `<option value="${esc(name.toLowerCase())}">${esc(name)}</option>`));
             const calendarFilter = document.getElementById("ceCalendarFilter");
             [...new Set(calendarEntries.map((x) => x.modality).filter(Boolean))].sort()
                 .forEach((name) => calendarFilter.insertAdjacentHTML("beforeend", `<option value="${esc(name.toLowerCase())}">${esc(name)}</option>`));
-            const search = document.getElementById("ceSearch");
-            const apply = () => {
-                const term = search.value.toLowerCase().trim();
-                const modality = filter.value;
-                document.querySelectorAll(".ce-card, .ce-directory-item").forEach((card) => {
-                    card.hidden = Boolean((modality && card.dataset.modality !== modality) || (term && !card.textContent.toLowerCase().includes(term)));
-                });
+
+            let calendarExpanded = false;
+            const calendarMore = document.getElementById("ceCalendarMore");
+            const renderCalendar = () => {
+                const filtered = calendarEntries.filter((item) => !calendarFilter.value || (item.modality || "").toLowerCase() === calendarFilter.value);
+                const shown = calendarExpanded ? filtered : filtered.slice(0, LIST_LIMIT);
+                calendarList.innerHTML = shown.length ? shown.map(calendarItem).join("") : '<div class="ce-empty"><strong>Nenhuma data nesta modalidade.</strong><p>Escolha outro filtro.</p></div>';
+                calendarMore.hidden = filtered.length <= LIST_LIMIT;
+                calendarMore.textContent = calendarExpanded ? "Mostrar somente os próximos 8" : `Mostrar agenda completa (${filtered.length})`;
             };
-            search.addEventListener("input", apply);
-            filter.addEventListener("change", apply);
             calendarFilter.addEventListener("change", () => {
-                calendarList.querySelectorAll(".ce-calendar-item").forEach((item) => {
-                    item.hidden = Boolean(calendarFilter.value && item.dataset.modality !== calendarFilter.value);
-                });
+                calendarExpanded = false;
+                renderCalendar();
+            });
+            calendarMore.addEventListener("click", () => { calendarExpanded = !calendarExpanded; renderCalendar(); });
+            renderCalendar();
+
+            const eventList = document.getElementById("ceEventList");
+            const eventMore = document.getElementById("ceEventMore");
+            let eventsExpanded = false;
+            const renderEvents = () => {
+                eventList.innerHTML = (eventsExpanded ? events : events.slice(0, LIST_LIMIT)).map(eventCard).join("");
+                eventMore.hidden = events.length <= LIST_LIMIT;
+                eventMore.textContent = eventsExpanded ? "Mostrar somente os próximos 8" : `Mostrar todos os eventos (${events.length})`;
+            };
+            eventMore.addEventListener("click", () => { eventsExpanded = !eventsExpanded; renderEvents(); });
+            renderEvents();
+
+            const eventSelect = document.getElementById("ceEventSelect");
+            events.forEach((item) => eventSelect.insertAdjacentHTML("beforeend", `<option value="${esc(item.slug)}">${esc(item.title)} — ${esc(formatDate(item.start_date))}</option>`));
+            const eventOpen = document.getElementById("ceEventOpen");
+            eventSelect.addEventListener("change", () => { eventOpen.disabled = !eventSelect.value; });
+            eventOpen.addEventListener("click", () => {
+                if (eventSelect.value) window.location.href = `evento.html?slug=${encodeURIComponent(eventSelect.value)}`;
             });
         } catch (error) {
             console.error(error);

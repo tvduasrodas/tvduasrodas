@@ -1,0 +1,22 @@
+{
+  "title": "Italian Bike Festival 2026",
+  "start_date": "2026-09-04",
+  "end_date": "2026-09-06",
+  "city": "Misano Adriatico",
+  "state": "Itália",
+  "venue": "Misano World Circuit",
+  "status": "proximo",
+  "event_type": "Festival internacional de bicicletas",
+  "official_url": "https://italianbikefestival.net/en/",
+  "ticket_url": "https://italianbikefestival.net/en/",
+  "press_url": "https://italianbikefestival.net/en/",
+  "cover": "/assets/img/competicoes-eventos-default.svg",
+  "image_credit": "Arte institucional: TVDUASRODAS",
+  "featured": true,
+  "free": true,
+  "summary": "A indústria da bicicleta se reúne no circuito de Misano com novidades, testes e experiências para o público.",
+  "attractions": ["Lançamentos de bicicletas", "Testes e experiências", "Marcas internacionais", "Mobilidade e turismo sobre duas rodas"],
+  "videos": [],
+  "body": "## Bicicletas no circuito de Misano\n\nO Italian Bike Festival conecta fabricantes, profissionais e consumidores em uma programação dedicada a bicicletas, componentes e experiências. A agenda e as condições de entrada podem mudar; confirme os detalhes no canal oficial.",
+  "last_updated": "2026-07-21T15:00:00-04:00"
+}

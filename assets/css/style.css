@@ -2127,6 +2127,7 @@ button {
 .ce-filters input, .ce-filters select { min-height: 44px; padding: 0 14px; border: 1px solid #d8dee9; border-radius: 10px; background: #fff; color: #1f2937; font: inherit; }
 
 .ce-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
+.ce-competitions .ce-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .ce-card { overflow: hidden; border: 1px solid #e2e8f0; border-radius: 18px; background: #fff; box-shadow: 0 12px 30px rgba(15,23,42,.06); transition: transform .2s ease, box-shadow .2s ease; }
 .ce-card:hover { transform: translateY(-4px); box-shadow: 0 20px 42px rgba(15,23,42,.11); }
 .ce-card__media { position: relative; display: block; aspect-ratio: 16/9; overflow: hidden; background: #111827; }
@@ -2144,19 +2145,15 @@ button {
 .ce-next small { color: #6b7280; }
 .ce-text-link { color: #dd3f21; font-size: 13px; font-weight: 800; }
 
-.ce-directory-wrap { margin-top: 44px; }
-.ce-subheading { margin-bottom: 18px; }
-.ce-subheading h3 { margin: 5px 0; color: #111827; font-size: 25px; }
-.ce-subheading p { color: #64748b; }
-.ce-directory { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
-.ce-directory-item { display: grid; grid-template-columns: 1fr auto 24px; align-items: center; gap: 18px; min-width: 0; padding: 17px 19px; border: 1px solid #e2e8f0; border-radius: 13px; background: #fff; color: #172033; transition: border-color .2s ease, transform .2s ease; }
-.ce-directory-item:hover { transform: translateY(-2px); border-color: #f06a43; }
-.ce-directory-item span, .ce-directory-item small, .ce-directory-item strong { display: block; min-width: 0; }
-.ce-directory-item small { color: #d94829; font-size: 10px; font-weight: 800; letter-spacing: .07em; text-transform: uppercase; }
-.ce-directory-item strong { margin-top: 3px; overflow: hidden; text-overflow: ellipsis; color: #172033; }
-.ce-directory-item__next { min-width: 105px; padding-left: 16px; border-left: 1px solid #e5e7eb; }
-.ce-directory-item__next small { color: #7b8798; }
-.ce-directory-item b { color: #e64c2c; font-size: 20px; }
+.ce-picker { display: flex; align-items: flex-end; gap: 12px; margin-top: 28px; padding: 18px; border: 1px solid #e2e8f0; border-radius: 14px; background: #fff; }
+.ce-picker label { flex: 1; }
+.ce-picker label > span { display: block; margin-bottom: 7px; color: #475569; font-size: 12px; font-weight: 800; }
+.ce-picker select { width: 100%; min-height: 44px; padding: 0 13px; border: 1px solid #cfd7e3; border-radius: 9px; background: #fff; color: #1f2937; font: inherit; }
+.ce-picker .btn { min-height: 44px; margin: 0; }
+.ce-picker .btn:disabled { cursor: not-allowed; opacity: .48; }
+.ce-picker--dark { border-color: #273244; background: #111827; }
+.ce-picker--dark label > span { color: #cbd5e1; }
+.ce-picker--dark .btn-outline { border-color: #64748b; color: #fff; }
 
 .ce-calendar { background: #f7f8fa; }
 .ce-calendar-list { display: grid; gap: 10px; }
@@ -2171,6 +2168,9 @@ button {
 .ce-calendar-item > a { color: #d94425; font-size: 13px; font-weight: 800; white-space: nowrap; }
 .ce-calendar-source { margin-top: 18px; color: #64748b; font-size: 12px; }
 .ce-calendar-source a { color: #d94425; font-weight: 700; }
+.ce-more { display: block; margin: 18px auto 0; padding: 11px 18px; border: 1px solid #d6dde7; border-radius: 999px; background: #fff; color: #c94225; font: inherit; font-size: 13px; font-weight: 800; cursor: pointer; }
+.ce-more:hover { border-color: #e45b39; }
+.ce-more--dark { border-color: #3a4659; background: #111827; color: #ff7651; }
 
 .ce-status { display: inline-flex; align-items: center; width: max-content; padding: 6px 9px; border-radius: 999px; background: #e5e7eb; color: #374151; font-size: 10px; font-weight: 800; letter-spacing: .055em; text-transform: uppercase; }
 .ce-status--em_andamento { background: #dcfce7; color: #166534; }
@@ -2248,6 +2248,7 @@ button {
 @media (max-width: 1180px) {
     .main-nav ul { gap: 10px; font-size: 11px; letter-spacing: .09em; }
     .ce-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .ce-competitions .ce-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 
 @media (max-width: 900px) {
@@ -2283,9 +2284,9 @@ button {
     .ce-hero__grid { gap: 38px; }
     .ce-hero h1 { font-size: 42px; }
     .ce-grid { grid-template-columns: 1fr; }
-    .ce-directory { grid-template-columns: 1fr; }
-    .ce-directory-item { grid-template-columns: 1fr 22px; }
-    .ce-directory-item__next { display: none !important; }
+    .ce-competitions .ce-grid { grid-template-columns: 1fr; }
+    .ce-picker { align-items: stretch; flex-direction: column; }
+    .ce-picker .btn { width: 100%; }
     .ce-calendar-item { grid-template-columns: 1fr; gap: 10px; }
     .ce-calendar-item__date { padding: 0 0 10px; border-right: 0; border-bottom: 1px solid #e5e7eb; }
     .ce-calendar-item > a { grid-column: 1; }

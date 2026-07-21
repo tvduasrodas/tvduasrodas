@@ -1,0 +1,22 @@
+{
+  "title": "EICMA 2026",
+  "start_date": "2026-11-05",
+  "end_date": "2026-11-08",
+  "city": "Milão",
+  "state": "Itália",
+  "venue": "Fiera Milano Rho",
+  "status": "proximo",
+  "event_type": "Salão internacional de motocicletas",
+  "official_url": "https://www.eicma.it/en/homepage/",
+  "ticket_url": "https://www.eicma.it/en/homepage/",
+  "press_url": "https://www.eicma.it/en/homepage/",
+  "cover": "/assets/img/competicoes-eventos-default.svg",
+  "image_credit": "Arte institucional: TVDUASRODAS",
+  "featured": true,
+  "free": false,
+  "summary": "O principal salão mundial de motocicletas volta a Milão com lançamentos, tecnologia e tendências da indústria.",
+  "attractions": ["Estreias mundiais", "Motocicletas e scooters", "Mobilidade elétrica", "Acessórios e tecnologia"],
+  "videos": [],
+  "body": "## O grande salão de Milão\n\nA EICMA é uma vitrine internacional para lançamentos, conceitos, equipamentos e soluções de mobilidade. As datas apresentadas correspondem aos dias abertos ao público; a organização também reserva dias anteriores para imprensa e profissionais. Consulte o canal oficial antes da visita.",
+  "last_updated": "2026-07-21T15:00:00-04:00"
+}

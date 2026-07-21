@@ -1,0 +1,22 @@
+{
+  "title": "Motorcycle Live 2026",
+  "start_date": "2026-11-21",
+  "end_date": "2026-11-29",
+  "city": "Birmingham",
+  "state": "Reino Unido",
+  "venue": "NEC Birmingham",
+  "status": "proximo",
+  "event_type": "Salão e festival de motocicletas",
+  "official_url": "https://www.motorcyclelive.co.uk/",
+  "ticket_url": "https://www.motorcyclelive.co.uk/",
+  "press_url": "https://www.motorcyclelive.co.uk/",
+  "cover": "/assets/img/competicoes-eventos-default.svg",
+  "image_credit": "Arte institucional: TVDUASRODAS",
+  "featured": true,
+  "free": false,
+  "summary": "Nove dias de novidades, experiências e atrações de motociclismo no NEC Birmingham.",
+  "attractions": ["Novos modelos", "Experiências interativas", "Equipamentos e acessórios", "Pilotos e convidados"],
+  "videos": [],
+  "body": "## Motociclismo para ver e experimentar\n\nO Motorcycle Live combina exposição de marcas com atrações interativas e conteúdo para diferentes perfis de motociclistas. A grade completa, os ingressos e as regras de participação devem ser consultados no site oficial.",
+  "last_updated": "2026-07-21T15:00:00-04:00"
+}

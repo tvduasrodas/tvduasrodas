@@ -1,0 +1,22 @@
+{
+  "title": "Sturgis Motorcycle Rally 2026",
+  "start_date": "2026-08-07",
+  "end_date": "2026-08-16",
+  "city": "Sturgis",
+  "state": "EUA",
+  "venue": "Sturgis e região de Black Hills",
+  "status": "proximo",
+  "event_type": "Encontro internacional de motociclistas",
+  "official_url": "https://www.sturgis-sd.gov/rally-events-department",
+  "ticket_url": "https://www.sturgis-sd.gov/rally-events-department",
+  "press_url": "https://www.sturgis-sd.gov/rally-events-department",
+  "cover": "/assets/img/competicoes-eventos-default.svg",
+  "image_credit": "Arte institucional: TVDUASRODAS",
+  "featured": true,
+  "free": false,
+  "summary": "Um dos maiores encontros de motociclistas do mundo ocupa Sturgis e as estradas de Black Hills por dez dias.",
+  "attractions": ["Passeios por Black Hills", "Exposições e lançamentos", "Shows e programação urbana", "Encontros de motociclistas"],
+  "videos": [],
+  "body": "## Sturgis em 2026\n\nA programação oficial reúne experiências de motociclismo, música e turismo rodoviário em Sturgis e na região de Black Hills. Algumas atividades são abertas e outras exigem ingresso próprio. Consulte a página oficial da cidade para horários, regras de circulação e atualizações.",
+  "last_updated": "2026-07-21T15:00:00-04:00"
+}
