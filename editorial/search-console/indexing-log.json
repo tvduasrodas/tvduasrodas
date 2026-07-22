@@ -2,7 +2,7 @@
   "property": "https://tvduasrodas.com/",
   "authorized_account": "tvduasrodas@gmail.com",
   "sitemap": "https://tvduasrodas.com/sitemap.xml",
-  "updated_at": "2026-07-20T16:36:00-04:00",
+  "updated_at": "2026-07-22T18:05:54-04:00",
   "entries": [
     {
       "url": "https://www.tvduasrodas.com/competicoes-eventos.html",
@@ -19,6 +19,48 @@
       "indexing_requested": true,
       "request_result": "Adicionado à fila de rastreamento prioritário",
       "next_request_allowed_at": "2026-07-27"
+    },
+    {
+      "url": "https://tvduasrodas.com/materia?slug=como-pilotar-moto-na-chuva-com-seguranca",
+      "slug": "como-pilotar-moto-na-chuva-com-seguranca",
+      "type": "materia",
+      "published_at": "2026-07-22",
+      "inspected_at": "2026-07-22T17:45:00-04:00",
+      "account": "tvduasrodas@gmail.com",
+      "property": "sc-domain:tvduasrodas.com",
+      "index_status_before": "O URL não está no Google — O Google não reconhece o URL",
+      "sitemap": "https://tvduasrodas.com/sitemap.xml",
+      "sitemap_status": "Reenviado e processado em 2026-07-22; 84 URLs encontradas",
+      "indexing_requested": true,
+      "request_result": "Adicionado à fila de rastreamento prioritário"
+    },
+    {
+      "url": "https://tvduasrodas.com/materia?slug=garage-tech-corrente-moto-limpeza-lubrificacao",
+      "slug": "garage-tech-corrente-moto-limpeza-lubrificacao",
+      "type": "materia",
+      "published_at": "2026-07-22",
+      "inspected_at": "2026-07-22T17:58:00-04:00",
+      "account": "tvduasrodas@gmail.com",
+      "property": "sc-domain:tvduasrodas.com",
+      "index_status_before": "O URL não está no Google — O Google não reconhece o URL",
+      "sitemap": "https://tvduasrodas.com/sitemap.xml",
+      "sitemap_status": "Reenviado e processado em 2026-07-22; 84 URLs encontradas",
+      "indexing_requested": true,
+      "request_result": "Adicionado à fila de rastreamento prioritário"
+    },
+    {
+      "url": "https://tvduasrodas.com/tv?v=5RFKngTPvQY",
+      "slug": "motos-mais-vendidas-junho-2026-ranking",
+      "type": "video",
+      "published_at": "2026-07-22",
+      "inspected_at": "2026-07-22T18:04:00-04:00",
+      "account": "tvduasrodas@gmail.com",
+      "property": "sc-domain:tvduasrodas.com",
+      "index_status_before": "O URL não está no Google — O Google não reconhece o URL",
+      "sitemap": "https://tvduasrodas.com/sitemap.xml",
+      "sitemap_status": "Reenviado e processado em 2026-07-22; 84 URLs encontradas",
+      "indexing_requested": true,
+      "request_result": "Adicionado à fila de rastreamento prioritário"
     }
   ]
 }
