@@ -13,14 +13,14 @@ Até o encerramento das 20h (horário Eastern), o worker deve entregar:
 
 ## Grade fixa dos programas da Revista
 
-Os programas funcionam agora como episódios especiais em texto e fotos, estruturados para equivaler a um futuro programa de 45 minutos. A pauta da Revista deve respeitar esta grade sempre que o dia corresponder:
+Os programas funcionam agora como episódios especiais em texto e fotos. A pauta da Revista deve respeitar esta grade sempre que o dia corresponder:
 
 - **Rolê de Rua:** segundas e quintas — mobilidade, vida urbana, personagens, rotas curtas, scooters, motos e bicicletas na cidade.
 - **Garage Tech:** quartas — mecânica, manutenção, componentes, ferramentas e tecnologia explicada.
 - **Estrada Aberta:** sábados — rotas, turismo, preparação, segurança e histórias de viagem.
 - **Electric Zone:** domingos — veículos elétricos, baterias, recarga, eletrônica, infraestrutura e mobilidade limpa.
 
-Cada episódio precisa ter capa horizontal, no mínimo duas imagens internas quando houver material oficial, texto aprofundado, blocos temáticos com marcação equivalente a 45 minutos, fontes oficiais, links internos e campos `program`, `programLabel`, `episodeDuration` e `readingTime`. Em terças e sextas, a pauta permanece livre entre notícia forte, lançamento, teste baseado em dados oficiais, dica ou matéria própria.
+Cada episódio precisa ter capa horizontal, no mínimo duas imagens internas quando houver material oficial, texto aprofundado, fontes oficiais, links internos e campos `program`, `programLabel`, `episodeDuration` e `readingTime`. A duração planejada e qualquer estrutura de futuro programa em vídeo são informações internas: nunca publicar ao leitor marcações de minutos, bastidores ou avisos sobre um futuro TV Show. Em terças e sextas, a pauta permanece livre entre notícia forte, lançamento, teste baseado em dados oficiais, dica ou matéria própria.
 
 Conteúdo fraco, duplicado, rumor ou texto inventado não cumpre a meta. Quando não houver release forte, a matéria diária deve ser uma pauta própria útil e durável, sustentada por fontes técnicas ou oficiais.
 
@@ -64,7 +64,23 @@ Conteúdo fraco, duplicado, rumor ou texto inventado não cumpre a meta. Quando 
 - Revisar URLs novas e materialmente alteradas do dia.
 - Executar a lista de SEO e confirmar o site público.
 - Enviar o sitemap atualizado ao Google Search Console e solicitar indexação das novas páginas, sempre usando `tvduasrodas@gmail.com`.
-- Publicar um relatório visível com entregas, URLs, fontes, SEO/Search Console e qualquer bloqueio real.
+- Depois da última atualização, publicar o relatório diário consolidado descrito abaixo. O relatório deve cobrir o dia inteiro, e não apenas a execução das 20h.
+
+## Relatório diário consolidado — depois da última atualização
+
+Na execução das 20h, depois de publicar, validar e indexar o último lote do dia, o worker deve enviar a Wesley um relatório visível em português brasileiro com tudo o que foi feito desde 00h no horário Eastern.
+
+O fechamento deve conter:
+
+1. **Resumo do dia:** quantidade de matérias, vídeos, competições, eventos e URLs criadas ou atualizadas.
+2. **Revista:** título, categoria, status e URL de cada matéria nova ou materialmente atualizada.
+3. **TV:** título, categoria, canal/origem e URL de cada vídeo incluído.
+4. **Competições e eventos:** resultados, classificações, lideranças, calendários, novos cadastros e fontes oficiais consultadas.
+5. **Imagens e experiência do site:** capas, compressões e correções visuais ou funcionais relevantes.
+6. **SEO e publicação:** sitemap, total de URLs, URLs novas, validação pública e situação do Google Search Console.
+7. **Pendências reais:** CAPTCHA, 2FA, autenticação, fonte oficial ainda indisponível ou qualquer item que exija Wesley. Se não houver, declarar `Nenhuma pendência`.
+
+Para montar o relatório, conferir o histórico de publicações e alterações do dia inteiro. Não contar simples correções de cache como novas matérias. Não afirmar que o Google indexou uma página quando houve apenas solicitação; usar os estados corretos, como `sitemap processado`, `indexação solicitada` ou `indexada`, conforme a confirmação visível.
 
 ## Lista obrigatória para cada nova página ou URL
 
