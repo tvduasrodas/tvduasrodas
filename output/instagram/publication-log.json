@@ -1,0 +1,50 @@
+[
+  {
+    "url": "https://tvduasrodas.com/materia?slug=electric-zone-como-funciona-moto-eletrica",
+    "type": "program",
+    "title": "Electric Zone: como funciona uma moto elétrica",
+    "preparedAt": "2026-07-22T16:30:00-04:00",
+    "feed": {
+      "asset": "output/instagram/2026-07-22/electric-zone-como-funciona-moto-eletrica/feed-electric-zone.jpg",
+      "caption": "output/instagram/2026-07-22/electric-zone-como-funciona-moto-eletrica/legenda-feed.txt",
+      "status": "PUBLICADO",
+      "publishedAt": "2026-07-22T16:35:37-04:00",
+      "permalink": "https://www.instagram.com/tvduasrodasofc/p/DbG9YonjzLS/",
+      "commentAttempt": {
+        "text": "⚡ Leia a matéria completa: https://tvduasrodas.com/materia?slug=electric-zone-como-funciona-moto-eletrica",
+        "attemptedAt": "2026-07-22T17:05:58-04:00",
+        "status": "ENVIADO_SEM_CONFIRMACAO",
+        "pinned": false,
+        "note": "A caixa foi enviada e limpa no Meta Business Suite, mas o painel permaneceu com 0 comentários e a caixa de entrada do Instagram está desconectada. URLs em comentários não são clicáveis."
+      }
+    },
+    "stories": {
+      "asset": "output/instagram/2026-07-22/electric-zone-como-funciona-moto-eletrica/stories-electric-zone-musica.mp4",
+      "poster": "output/instagram/2026-07-22/electric-zone-como-funciona-moto-eletrica/stories-electric-zone.jpg",
+      "copy": "output/instagram/2026-07-22/electric-zone-como-funciona-moto-eletrica/texto-stories.txt",
+      "status": "PUBLICADO",
+      "publishedAt": "2026-07-22T17:00:00-04:00",
+      "permalink": "https://www.instagram.com/stories/tvduasrodasofc/",
+      "audio": {
+        "type": "TRILHA_INSTRUMENTAL_ORIGINAL_SINTETIZADA",
+        "durationSeconds": 15,
+        "embedded": true,
+        "codec": "AAC"
+      },
+      "cta": "LINK CLICÁVEL NO PERFIL",
+      "linkStrategy": {
+        "method": "CTA_PARA_LINK_DO_PERFIL",
+        "profileLinkUpdate": "BLOQUEADO_PELO_INSTAGRAM_WEB",
+        "note": "O Instagram Web informou que a edição de links do perfil está disponível somente no aplicativo móvel. Nenhum adesivo falso foi usado no Story substituto."
+      },
+      "removedOriginal": {
+        "asset": "output/instagram/2026-07-22/electric-zone-como-funciona-moto-eletrica/stories-electric-zone.jpg",
+        "publishedAt": "2026-07-22T16:48:42-04:00",
+        "deletedAt": "2026-07-22T16:57:00-04:00",
+        "status": "EXCLUIDO",
+        "reason": "O campo de link do Meta Business Suite foi achatado como elemento visual e não permaneceu interativo."
+      }
+    },
+    "imageCredit": "Honda Motor Europe / divulgação"
+  }
+]
