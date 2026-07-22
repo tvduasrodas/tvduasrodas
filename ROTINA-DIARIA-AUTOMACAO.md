@@ -111,9 +111,10 @@ Para montar o relatório, conferir o histórico de publicações e alterações 
 Quando o `git push origin main` falhar, não aguardar a próxima janela editorial: tentar novamente em até 15 minutos e seguir esta ordem de recuperação.
 
 1. Repetir o push pelo Git local configurado para o repositório operacional.
-2. Tentar publicar pelo conector GitHub autorizado, somente no repositório `tvduasrodas/tvduasrodas` e na branch `main`.
-3. Se a rede local ou o conector falharem, tentar o push manual pelo aplicativo GitHub Desktop, exclusivamente no clone `C:\Users\Wesley\Documents\TVDUASRODAS\tvduasrodas`; nunca usar o clone antigo em `Documents\GitHub`.
-4. Se alguma via exigir CAPTCHA, 2FA, OAuth, permissão nova ou estiver bloqueada, enviar e-mail imediato a Wesley com o commit pendente, horário Eastern e erro resumido. Continuar as tarefas independentes e repetir a recuperação a cada 15 minutos até a confirmação de que `main` está sincronizada.
+2. Se o push remoto falhar, abrir o aplicativo GitHub Desktop caso ele não esteja aberto e tentar o push manual, exclusivamente no clone `C:\Users\Wesley\Documents\TVDUASRODAS\tvduasrodas`; nunca usar o clone antigo em `Documents\GitHub`.
+3. Se o controle do GitHub Desktop falhar por permissão, abrir uma nova tarefa e executar o plugin Computer Use com a instrução: `Abrir Github Desktop App e fazer o push do último commit do repositório tvduasrodas`.
+4. Se o push na nova tarefa ocorrer, retomar imediatamente a programação restante, incluindo validação pública, sitemap e Search Console quando aplicável.
+5. Se ainda não for possível publicar, enviar e-mail imediato a Wesley com o commit pendente, horário Eastern e erro resumido, para intervenção manual. Continuar tarefas independentes.
 
 ## Regras permanentes
 
