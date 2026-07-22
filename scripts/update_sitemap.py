@@ -39,6 +39,12 @@ STATIC_PAGES = [
     ("/competicoes-eventos.html", "0.9"),
 ]
 
+# Update this date when a standalone static page receives a material edit.
+# Dynamic collection pages derive their dates from content automatically.
+STATIC_LASTMOD_OVERRIDES = {
+    "/sobre.html": "2026-07-22",
+}
+
 
 def iso_day(value: object, fallback: str) -> str:
     if not value:
@@ -150,7 +156,10 @@ def main(*, check_only: bool = False) -> None:
 
     for path, priority in STATIC_PAGES:
         full_url = f"{BASE_URL}{path}"
-        lastmod = section_dates.get(path, old_dates.get(full_url, today))
+        lastmod = section_dates.get(
+            path,
+            STATIC_LASTMOD_OVERRIDES.get(path, old_dates.get(full_url, today)),
+        )
         add_url(urls, path, lastmod, priority)
 
     for slug, lastmod in news:
