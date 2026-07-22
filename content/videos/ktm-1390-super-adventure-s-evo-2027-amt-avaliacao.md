@@ -2,6 +2,8 @@
 title: 'KTM 1390 Super Adventure S EVO 2027: vídeo detalha a trail com câmbio AMT'
 date: 2026-07-22T11:15:00-04:00
 youtube_url: https://www.youtube.com/watch?v=9seHLIFwIMA
+channel: RevZilla
+language: en
 duration: '45:16'
 category: testes
 tags:

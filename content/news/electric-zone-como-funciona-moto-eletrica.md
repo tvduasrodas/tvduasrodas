@@ -3,6 +3,7 @@ title: "Electric Zone: bateria, BMS, inversor e regeneração — como funciona 
 date: "2026-07-21T11:55:00-04:00"
 author: "Redação TVDUASRODAS"
 category: "Tecnologia"
+contentType: "program"
 program: "electric-zone"
 programLabel: "Electric Zone"
 episodeDuration: "45 min"

@@ -16,6 +16,7 @@ from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 
 ROOT = Path(__file__).resolve().parents[1]
+EDITORIAL_RULES_V2 = "2026-07-23"
 FRONTMATTER = re.compile(r"\A---\s*\n(.*?)\n---", re.DOTALL)
 FIELD = re.compile(r"^([A-Za-z_][\w-]*):\s*(.*?)\s*$", re.MULTILINE)
 ASSET = re.compile(r"(?:href|src)=[\"']([^\"']+)[\"']", re.IGNORECASE)
@@ -79,6 +80,32 @@ def main() -> int:
                 )
             if collection == "news" and values.get("date", "").startswith(today.date().isoformat()):
                 daily_news.append(values)
+            published_date = values.get("date", "")[:10]
+            if collection == "news":
+                content_type = values.get("contentType")
+                if content_type and content_type not in {"article", "news", "program"}:
+                    errors.append(
+                        f"Tipo editorial inválido: {path.relative_to(ROOT)}: {content_type}"
+                    )
+                if published_date >= EDITORIAL_RULES_V2 and not content_type:
+                    errors.append(f"contentType ausente: {path.relative_to(ROOT)}")
+                if content_type == "program":
+                    for field in ("program", "programLabel", "episodeDuration", "readingTime"):
+                        if not values.get(field):
+                            errors.append(
+                                f"Programa sem {field}: {path.relative_to(ROOT)}"
+                            )
+                elif values.get("program"):
+                    errors.append(
+                        f"Publicação comum marcada como programa: {path.relative_to(ROOT)}"
+                    )
+            if collection == "videos" and published_date >= EDITORIAL_RULES_V2:
+                if values.get("language") != "pt-BR":
+                    errors.append(
+                        f"Vídeo novo sem áudio pt-BR: {path.relative_to(ROOT)}"
+                    )
+                if not values.get("channel"):
+                    errors.append(f"Canal do vídeo ausente: {path.relative_to(ROOT)}")
             cover = values.get("cover") or values.get("thumbnail")
             if cover and cover.startswith("/"):
                 target = ROOT / unquote(cover.lstrip("/"))

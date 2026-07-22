@@ -2,6 +2,8 @@
 title: 'BMW R 12 G/S 2026: avaliação no uso diário'
 date: 2026-07-21T11:45:00-04:00
 youtube_url: https://www.youtube.com/watch?v=ahW_nLGrDU8
+channel: RevZilla
+language: en
 duration: '35:00'
 category: testes
 tags:
