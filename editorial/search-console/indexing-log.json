@@ -1,0 +1,24 @@
+{
+  "property": "https://tvduasrodas.com/",
+  "authorized_account": "tvduasrodas@gmail.com",
+  "sitemap": "https://tvduasrodas.com/sitemap.xml",
+  "updated_at": "2026-07-20T16:36:00-04:00",
+  "entries": [
+    {
+      "url": "https://www.tvduasrodas.com/competicoes-eventos.html",
+      "slug": "competicoes-eventos",
+      "type": "pagina",
+      "published_at": "2026-07-20",
+      "inspected_at": "2026-07-20T16:36:00-04:00",
+      "account": "tvduasrodas@gmail.com",
+      "property": "sc-domain:tvduasrodas.com",
+      "index_status_before": "O URL não está no Google — O Google não reconhece o URL",
+      "live_test": "O URL está disponível para o Google",
+      "sitemap": "https://tvduasrodas.com/sitemap.xml",
+      "sitemap_status": "Processado em 2026-07-20; 58 URLs encontradas",
+      "indexing_requested": true,
+      "request_result": "Adicionado à fila de rastreamento prioritário",
+      "next_request_allowed_at": "2026-07-27"
+    }
+  ]
+}
