@@ -70,15 +70,24 @@ Conteúdo fraco, duplicado, rumor ou texto inventado não cumpre a meta. Quando 
 
 Na execução das 20h, depois de publicar, validar e indexar o último lote do dia, o worker deve enviar a Wesley um relatório visível em português brasileiro com tudo o que foi feito desde 00h no horário Eastern.
 
-O fechamento deve conter:
+Usar sempre o formato compacto abaixo, com um parágrafo por categoria e links clicáveis nos títulos publicados:
 
-1. **Resumo do dia:** quantidade de matérias, vídeos, competições, eventos e URLs criadas ou atualizadas.
-2. **Revista:** título, categoria, status e URL de cada matéria nova ou materialmente atualizada.
-3. **TV:** título, categoria, canal/origem e URL de cada vídeo incluído.
-4. **Competições e eventos:** resultados, classificações, lideranças, calendários, novos cadastros e fontes oficiais consultadas.
-5. **Imagens e experiência do site:** capas, compressões e correções visuais ou funcionais relevantes.
-6. **SEO e publicação:** sitemap, total de URLs, URLs novas, validação pública e situação do Google Search Console.
-7. **Pendências reais:** CAPTCHA, 2FA, autenticação, fonte oficial ainda indisponível ou qualquer item que exija Wesley. Se não houver, declarar `Nenhuma pendência`.
+```text
+Relatório de hoje — DD/MM/AAAA
+**Revista:** publicações e atualizações do dia, com título e URL.
+**TV:** vídeos incluídos, com título, URL e categoria.
+**Competições:** resultados, classificações, lideranças e campeonatos cadastrados ou atualizados.
+**Eventos:** eventos e informações de serviço adicionados ou atualizados.
+**Calendário:** alterações de datas, etapas e agenda.
+**Revista/programas:** novos episódios, áreas ou mudanças nos programas especiais.
+**Imagens e desempenho:** capas, compressão, cache e correções visuais relevantes.
+**SEO:** sitemap, total de URLs e validações realizadas.
+**Google Search Console:** estado do sitemap e das solicitações de indexação.
+**Pendências:** bloqueios, autenticações ou aprovações; se não houver, informar isso claramente.
+A rotina continua às **08h, 11h, 14h, 17h e 20h**, com o relatório completo enviado após a execução das 20h.
+```
+
+Quando uma categoria não tiver mudança, escrever `sem atualização no dia` em vez de omiti-la. O relatório deve ser objetivo como o modelo, mas incluir todos os itens efetivamente publicados ou alterados no dia.
 
 Para montar o relatório, conferir o histórico de publicações e alterações do dia inteiro. Não contar simples correções de cache como novas matérias. Não afirmar que o Google indexou uma página quando houve apenas solicitação; usar os estados corretos, como `sitemap processado`, `indexação solicitada` ou `indexada`, conforme a confirmação visível.
 
