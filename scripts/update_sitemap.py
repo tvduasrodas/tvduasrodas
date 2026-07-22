@@ -8,6 +8,7 @@ remain valid URLs for search engines.
 
 from __future__ import annotations
 
+import argparse
 import json
 import re
 from datetime import date, datetime
@@ -78,10 +79,25 @@ def previous_dates() -> dict[str, str]:
 
 def public_slugs(collection: str) -> list[str]:
     index_path = ROOT / "content" / collection / "index.json"
-    if index_path.exists():
-        return json.loads(index_path.read_text(encoding="utf-8-sig"))
     suffix = ".json" if collection in {"competitions", "events"} else ".md"
-    return sorted(path.stem for path in (ROOT / "content" / collection).glob(f"*{suffix}"))
+    files = {
+        path.stem
+        for path in (ROOT / "content" / collection).glob(f"*{suffix}")
+        if path.name != "index.json"
+    }
+    if not index_path.exists():
+        return sorted(files)
+
+    indexed = json.loads(index_path.read_text(encoding="utf-8-sig"))
+    missing_files = [slug for slug in indexed if slug not in files]
+    if missing_files:
+        raise FileNotFoundError(
+            f"{collection}/index.json references missing files: {', '.join(missing_files)}"
+        )
+
+    # Union with files on disk so a newly created public record can never be
+    # silently omitted from the sitemap merely because index.json is stale.
+    return list(dict.fromkeys([*indexed, *sorted(files - set(indexed))]))
 
 
 def json_date(path: Path, fallback: str) -> str:
@@ -93,7 +109,7 @@ def add_url(urls: list[tuple[str, str, str]], path: str, lastmod: str, priority:
     urls.append((f"{BASE_URL}{path}", lastmod, priority))
 
 
-def main() -> None:
+def main(*, check_only: bool = False) -> None:
     today = date.today().isoformat()
     old_dates = previous_dates()
     urls: list[tuple[str, str, str]] = []
@@ -161,9 +177,32 @@ def main() -> None:
 
     ET.indent(urlset, space="  ")
     xml = ET.tostring(urlset, encoding="unicode", xml_declaration=True)
-    SITEMAP.write_text(xml + "\n", encoding="utf-8", newline="\n")
-    print(f"Updated {SITEMAP.name}: {len(urls)} URLs, newest content {newest}")
+    expected = xml + "\n"
+    breakdown = (
+        f"static={len(STATIC_PAGES)}, news={len(news)}, videos={len(videos)}, "
+        f"competitions={len(competitions)}, events={len(events)}"
+    )
+
+    if check_only:
+        current = SITEMAP.read_text(encoding="utf-8") if SITEMAP.exists() else ""
+        if current != expected:
+            raise SystemExit(
+                f"STALE {SITEMAP.name}: expected {len(urls)} URLs ({breakdown}). "
+                "Run scripts/update_sitemap.py and publish the result."
+            )
+        print(f"OK {SITEMAP.name}: {len(urls)} URLs ({breakdown}), newest {newest}")
+        return
+
+    SITEMAP.write_text(expected, encoding="utf-8", newline="\n")
+    print(f"Updated {SITEMAP.name}: {len(urls)} URLs ({breakdown}), newest {newest}")
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--check",
+        action="store_true",
+        help="Fail without writing when sitemap.xml does not match public content.",
+    )
+    args = parser.parse_args()
+    main(check_only=args.check)

@@ -27,6 +27,9 @@ Conteúdo fraco, duplicado, rumor ou texto inventado não cumpre a meta. Quando 
 ## 08h — Radar editorial e notícias
 
 - Ler a memória da execução anterior e rodar `python scripts/check_daily_targets.py`.
+- Fazer a **primeira verificação obrigatória de SEO do dia** com `python scripts/update_sitemap.py --check`.
+- Conferir se o fechamento de SEO do dia anterior foi concluído: sitemap gerado depois da última publicação, enviado ao Google Search Console e URLs novas solicitadas para indexação. Se faltar qualquer etapa, corrigir, publicar e concluir usando somente `tvduasrodas@gmail.com` antes de seguir.
+- Se o sitemap estiver desatualizado, executar `python scripts/update_sitemap.py`, validar a contagem por coleção, publicar e reenviar o sitemap no Search Console.
 - Verificar de forma incremental salas de imprensa brasileiras, fabricantes, Abraciclo, recalls, CBM, CBC e calendários já monitorados.
 - Dar prioridade a recall, segurança, lançamento brasileiro, mudança de mercado, evento próximo e resultado urgente.
 - Publicar no máximo uma atualização principal nesta janela quando houver novidade forte.
@@ -62,8 +65,9 @@ Conteúdo fraco, duplicado, rumor ou texto inventado não cumpre a meta. Quando 
 - Rodar `python scripts/check_daily_targets.py --require-complete`.
 - Se faltar matéria ou vídeo, produzir e publicar o item pendente antes de encerrar, respeitando qualidade, fontes e direitos.
 - Revisar URLs novas e materialmente alteradas do dia.
-- Executar a lista de SEO e confirmar o site público.
-- Enviar o sitemap atualizado ao Google Search Console e solicitar indexação das novas páginas, sempre usando `tvduasrodas@gmail.com`.
+- Fazer a **segunda verificação obrigatória de SEO do dia**. Se houve qualquer publicação, nova página, vídeo, competição, evento ou mudança de URL, executar `python scripts/update_sitemap.py`, depois `python scripts/update_sitemap.py --check`, publicar e confirmar o sitemap no site público.
+- Se não houve mudança no site, ainda assim executar `python scripts/update_sitemap.py --check` e registrar a validação no relatório.
+- Quando houve atualização, enviar o sitemap atualizado ao Google Search Console e solicitar indexação de **todas** as URLs novas, sempre usando `tvduasrodas@gmail.com`.
 - Depois da última atualização, publicar o relatório diário consolidado descrito abaixo. O relatório deve cobrir o dia inteiro, e não apenas a execução das 20h.
 
 ## Relatório diário consolidado — depois da última atualização
@@ -97,7 +101,7 @@ Para montar o relatório, conferir o histórico de publicações e alterações 
 2. Validar título SEO, meta description, canonical, Open Graph/Twitter, imagem social, texto alternativo, links internos e schema pertinente.
 3. Comprimir imagens e confirmar capa e imagens internas carregando.
 4. Executar `python scripts/update_sitemap.py`.
-5. Validar XML, URLs únicas e ausência de fragmentos inválidos como `#U` ou `%23U`.
+5. Executar `python scripts/update_sitemap.py --check` e validar a contagem `static + news + videos + competitions + events`, XML, URLs únicas e ausência de fragmentos inválidos como `#U` ou `%23U`.
 6. Fazer commit apenas dos arquivos relacionados e push para `origin/main`.
 7. Confirmar a URL, imagem, layout e sitemap no domínio público.
 8. No Google Search Console, entrar somente como `tvduasrodas@gmail.com`, reenviar `https://tvduasrodas.com/sitemap.xml` após o lote publicado e solicitar indexação das URLs novas. Nunca usar `wesleyrodrigo29@gmail.com`.
