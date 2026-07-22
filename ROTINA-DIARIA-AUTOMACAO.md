@@ -106,6 +106,15 @@ Para montar o relatório, conferir o histórico de publicações e alterações 
 7. Confirmar a URL, imagem, layout e sitemap no domínio público.
 8. No Google Search Console, entrar somente como `tvduasrodas@gmail.com`, reenviar `https://tvduasrodas.com/sitemap.xml` após o lote publicado e solicitar indexação das URLs novas. Nunca usar `wesleyrodrigo29@gmail.com`.
 
+### Recuperação obrigatória de publicação
+
+Quando o `git push origin main` falhar, não aguardar a próxima janela editorial: tentar novamente em até 15 minutos e seguir esta ordem de recuperação.
+
+1. Repetir o push pelo Git local configurado para o repositório operacional.
+2. Tentar publicar pelo conector GitHub autorizado, somente no repositório `tvduasrodas/tvduasrodas` e na branch `main`.
+3. Se a rede local ou o conector falharem, tentar o push manual pelo aplicativo GitHub Desktop, exclusivamente no clone `C:\Users\Wesley\Documents\TVDUASRODAS\tvduasrodas`; nunca usar o clone antigo em `Documents\GitHub`.
+4. Se alguma via exigir CAPTCHA, 2FA, OAuth, permissão nova ou estiver bloqueada, enviar e-mail imediato a Wesley com o commit pendente, horário Eastern e erro resumido. Continuar as tarefas independentes e repetir a recuperação a cada 15 minutos até a confirmação de que `main` está sincronizada.
+
 ## Regras permanentes
 
 - Repositório único: `C:\Users\Wesley\Documents\TVDUASRODAS\tvduasrodas`, branch `main`.
