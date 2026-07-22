@@ -45,6 +45,25 @@
         "reason": "O campo de link do Meta Business Suite foi achatado como elemento visual e não permaneceu interativo."
       }
     },
+    "reel": {
+      "asset": "output/instagram/2026-07-22/electric-zone-como-funciona-moto-eletrica/reel-electric-zone-como-funciona.mp4",
+      "cover": "output/instagram/2026-07-22/electric-zone-como-funciona-moto-eletrica/reel-electric-zone-capa.jpg",
+      "caption": "output/instagram/2026-07-22/electric-zone-como-funciona-moto-eletrica/legenda-reel.txt",
+      "status": "PUBLICADO",
+      "publishedAt": "2026-07-22T17:23:49-04:00",
+      "permalink": "https://www.instagram.com/tvduasrodasofc/reels/",
+      "durationSeconds": 25.3,
+      "dimensions": "1080x1920",
+      "videoCodec": "H.264",
+      "audio": {
+        "type": "TRILHA_INSTRUMENTAL_ORIGINAL_SINTETIZADA",
+        "embedded": true,
+        "codec": "AAC",
+        "copyrightCheck": "APROVADO_PELA_META"
+      },
+      "visibility": "PUBLICO",
+      "publicationConfirmation": "Your reel has been published according to your chosen publishing options."
+    },
     "imageCredit": "Honda Motor Europe / divulgação"
   }
 ]
