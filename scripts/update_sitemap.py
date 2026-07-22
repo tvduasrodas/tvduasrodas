@@ -26,7 +26,6 @@ STATIC_PAGES = [
     ("/revista.html", "0.9"),
     ("/tv.html", "0.9"),
     ("/materia.html", "0.7"),
-    ("/busca.html", "0.6"),
     ("/sobre.html", "0.5"),
     ("/contato.html", "0.5"),
     ("/imprensa.html", "0.5"),
@@ -43,6 +42,14 @@ STATIC_PAGES = [
 # Dynamic collection pages derive their dates from content automatically.
 STATIC_LASTMOD_OVERRIDES = {
     "/sobre.html": "2026-07-22",
+    "/contato.html": "2026-07-22",
+    "/imprensa.html": "2026-07-22",
+    "/politica-de-privacidade.html": "2026-07-22",
+    "/termos.html": "2026-07-22",
+    "/guia-scooters-eletricas.html": "2026-07-22",
+    "/review-naked-300.html": "2026-07-22",
+    "/role-urbano-noturno.html": "2026-07-22",
+    "/viagem-serra-mirantes.html": "2026-07-22",
 }
 
 

@@ -4,6 +4,8 @@ Versão fixada em 21 de julho de 2026. Esta rotina é obrigatória para o worker
 
 ## Metas editoriais mínimas do dia
 
+Antes de escolher ou classificar qualquer pauta, calcular novamente a data e o dia da semana em `America/New_York`. Não reutilizar o dia da semana registrado por uma execução anterior. Declarar no resumo da janela o dia calculado e o programa correspondente. Se uma urgência editorial substituir a grade fixa, registrar explicitamente a exceção e o motivo.
+
 Até o encerramento das 20h (horário Eastern), o worker deve entregar:
 
 1. Pelo menos **uma matéria nova para a Revista**, alternando notícias, lançamentos, testes baseados em dados oficiais, dicas, manutenção, segurança, mobilidade urbana, tecnologia, elétricos, scooters, bicicletas e matérias próprias.
@@ -108,13 +110,16 @@ Para montar o relatório, conferir o histórico de publicações e alterações 
 
 ### Recuperação obrigatória de publicação
 
-Quando o `git push origin main` falhar, não aguardar a próxima janela editorial: tentar novamente em até 15 minutos e seguir esta ordem de recuperação.
+Para cada lote, seguir esta ordem sem antecipar o uso do plugin Computer Use:
 
-1. Repetir o push pelo Git local configurado para o repositório operacional.
-2. Se o push remoto falhar, abrir o aplicativo GitHub Desktop caso ele não esteja aberto e tentar o push manual, exclusivamente no clone `C:\Users\Wesley\Documents\TVDUASRODAS\tvduasrodas`; nunca usar o clone antigo em `Documents\GitHub`.
-3. Se o controle do GitHub Desktop falhar por permissão, abrir uma nova tarefa e executar o plugin Computer Use com a instrução: `Abrir Github Desktop App e fazer o push do último commit do repositório tvduasrodas`.
-4. Se o push na nova tarefa ocorrer, retomar imediatamente a programação restante, incluindo validação pública, sitemap e Search Console quando aplicável.
-5. Se ainda não for possível publicar, enviar e-mail imediato a Wesley com o commit pendente, horário Eastern e erro resumido, para intervenção manual. Continuar tarefas independentes.
+1. Fazer diretamente o commit somente dos arquivos relacionados à tarefa.
+2. Se o commit direto funcionar, tentar diretamente o push para `origin/main`.
+3. Se não for possível fazer o commit direto, abrir uma nova tarefa com o plugin Computer Use para fazer o commit e o push pelo GitHub Desktop.
+4. Se o commit direto funcionar, mas o push remoto direto falhar, abrir uma nova tarefa com o plugin Computer Use para fazer o push manual pelo GitHub Desktop.
+5. Na nova tarefa, usar exatamente esta instrução, sem acrescentar ou remover texto: `abrir Github Desktop app e fazer commit de tarefas pendentes em caso nao houver necessidate de fazer commit fazer push.`
+6. Usar exclusivamente o clone `C:\Users\Wesley\Documents\TVDUASRODAS\tvduasrodas`; nunca usar o clone antigo em `Documents\GitHub`.
+7. Se a nova tarefa concluir a publicação, retomar imediatamente a programação restante, incluindo validação pública, sitemap e Search Console quando aplicável.
+8. Se ainda não for possível publicar, enviar e-mail imediato a Wesley com o commit pendente, horário Eastern e erro resumido, para intervenção manual. Continuar tarefas independentes.
 
 ## Regras permanentes
 

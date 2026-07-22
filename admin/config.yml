@@ -67,7 +67,7 @@ collections:
       - { label: "Título", name: "title", widget: "string" }
       - { label: "Data", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ssZ" }
       - { label: "Autor", name: "author", widget: "string", required: false, default: "TVDUASRODAS" }
-      - { label: "Categoria", name: "category", widget: "select", options: [{label: "Motos", value: "Moto"}, {label: "Lançamentos", value: "Lancamentos"}, {label: "Testes", value: "tests"}, {label: "Bikes", value: "bikes"}, {label: "Eventos", value: "Eventos"}, {label: "Urbanização e mobilidade", value: "Urbanizacao"}, {label: "Dicas", value: "Dicas"}, {label: "Segurança", value: "Seguranca"}, {label: "Tecnologia", value: "Tecnologia"}, {label: "Outro", value: "Outro"}], default: "Moto" }
+      - { label: "Categoria", name: "category", widget: "select", options: [{label: "Motos", value: "Moto"}, {label: "Lançamentos", value: "Lancamentos"}, {label: "Testes", value: "tests"}, {label: "Bikes", value: "bikes"}, {label: "Eventos", value: "Eventos"}, {label: "Urbanização e mobilidade", value: "Urbanizacao"}, {label: "Urbano", value: "Urbano"}, {label: "Dicas", value: "Dicas"}, {label: "Dicas e manutenção", value: "Dicas e Manutenção"}, {label: "Segurança", value: "Seguranca"}, {label: "Tecnologia", value: "Tecnologia"}, {label: "Outro", value: "Outro"}], default: "Moto" }
       - label: "Programa da Revista"
         name: "program"
         widget: "select"
@@ -124,8 +124,8 @@ collections:
         required: false
         fields:
           - { label: "Nome", name: "name", widget: "string", required: false }
-          - { label: "Data inicial", name: "start_date", widget: "date", format: "YYYY-MM-DD", required: false }
-          - { label: "Data final", name: "end_date", widget: "date", format: "YYYY-MM-DD", required: false }
+          - { label: "Data inicial", name: "start_date", widget: "datetime", type: "date", format: "YYYY-MM-DD", required: false }
+          - { label: "Data final", name: "end_date", widget: "datetime", type: "date", format: "YYYY-MM-DD", required: false }
           - { label: "Local", name: "venue", widget: "string", required: false }
           - { label: "Cidade", name: "city", widget: "string", required: false }
           - { label: "Estado", name: "state", widget: "string", required: false }
@@ -147,8 +147,8 @@ collections:
         required: false
         fields:
           - { label: "Ordem", name: "order", widget: "number", value_type: "int" }
-          - { label: "Data inicial", name: "start_date", widget: "date", format: "YYYY-MM-DD" }
-          - { label: "Data final", name: "end_date", widget: "date", format: "YYYY-MM-DD", required: false }
+          - { label: "Data inicial", name: "start_date", widget: "datetime", type: "date", format: "YYYY-MM-DD" }
+          - { label: "Data final", name: "end_date", widget: "datetime", type: "date", format: "YYYY-MM-DD", required: false }
           - { label: "Nome", name: "name", widget: "string" }
           - { label: "Local", name: "location", widget: "string" }
           - { label: "Situação", name: "status", widget: "select", options: [{label: "Agendada", value: "agendada"}, {label: "Concluída", value: "concluida"}, {label: "Cancelada", value: "cancelado"}] }
@@ -176,8 +176,8 @@ collections:
     filter: { field: "title", pattern: ".+" }
     fields:
       - { label: "Nome do evento", name: "title", widget: "string" }
-      - { label: "Data inicial", name: "start_date", widget: "date", format: "YYYY-MM-DD" }
-      - { label: "Data final", name: "end_date", widget: "date", format: "YYYY-MM-DD", required: false }
+      - { label: "Data inicial", name: "start_date", widget: "datetime", type: "date", format: "YYYY-MM-DD" }
+      - { label: "Data final", name: "end_date", widget: "datetime", type: "date", format: "YYYY-MM-DD", required: false }
       - { label: "Cidade", name: "city", widget: "string" }
       - { label: "Estado", name: "state", widget: "string" }
       - { label: "Local", name: "venue", widget: "string" }
