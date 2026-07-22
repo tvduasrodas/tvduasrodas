@@ -1,0 +1,10 @@
+# Registro de fontes e imagens — 22/07/2026
+
+## Como pilotar moto na chuva: checklist de segurança antes de sair
+
+- Fontes consultadas em 22/07/2026: DNIT, [Motociclista, pilote com mais segurança e cuidado](https://www.gov.br/dnit/pt-br/assuntos/noticias/motociclista-pilote-com-mais-seguranca-e-cuidado); DNIT, [Motociclista, no trânsito a atenção precisa ser redobrada](https://www.gov.br/dnit/pt-br/assuntos/noticias/motociclista-no-transito-a-atencao-precisa-ser-redobrada); Senatran, [Guia do Motociclista](https://www.gov.br/infraestrutura/pt-br/assuntos/transito/arquivos-senatran/educacao/publicacoes/cartilha_motociclista_final-1.pdf).
+- Não foi localizado material oficial de imprensa apropriado e com termos editoriais claros para esta pauta própria. Foram usadas ilustrações originais geradas por IA, sem marcas, logotipos, pessoas reconhecíveis ou aparência de registro documental. Crédito exigido: `Ilustração editorial gerada por IA`.
+- `guia-pilotar-moto-chuva-capa.jpg`: origem `exec-1b9d0066-f831-4bc8-91d2-52fbcdde2b67.png`, OpenAI Media Service, 1672×941 px, 2.80 MB; publicação 1600×900 px, JPEG qualidade 78, 289.2 KB. Capa. Metadados de procedência foram preservados apenas no original de revisão; JPEG publicado não preserva os metadados C2PA.
+- `guia-pilotar-moto-chuva-pneu.jpg`: origem `exec-69a1dd22-1251-4b71-8ffb-5ec7cf217234.png`, OpenAI Media Service; publicação 1400×1050 px, JPEG qualidade 76, 213.7 KB. Imagem interna de pneus. Metadados C2PA mantidos no original de revisão.
+- `guia-pilotar-moto-chuva-equipamentos.jpg`: origem `exec-246fb6b8-7d81-4e7b-a216-ea9ffd8f6b19.png`, OpenAI Media Service; publicação 1400×1050 px, JPEG qualidade 76, 215.7 KB. Imagem interna de equipamentos. Metadados C2PA mantidos no original de revisão.
+- A tentativa obrigatória de `scripts/optimize_image.py` foi bloqueada porque o ambiente não possui o módulo Pillow e a instalação foi impedida pela política de rede. As versões publicadas foram reduzidas localmente com codificação JPEG e atendem aos limites de peso (capa <350 KB; internas <250 KB).
