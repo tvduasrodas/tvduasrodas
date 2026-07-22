@@ -7,7 +7,7 @@
     <title>TV & VIDEOS DA TVDUASRODAS.com</title>
 
     <meta name="description" content="Portal brasileiro especializado em motos, scooters, bicicletas e tecnologia duas rodas. Notícias, lançamentos, testes e vídeos." />
-    <link rel="canonical" href="https://tvduasrodas.com/tv.html" />
+    <link rel="canonical" href="https://tvduasrodas.com/tv" />
 
     <meta name="robots" content="index, follow" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -488,6 +488,61 @@
                 if (mainPlayer && videoFromUrl) {
                     mainPlayer.setAttribute("data-default-id", videoFromUrl);
                     mainPlayer.src = `https://www.youtube.com/embed/${videoFromUrl}?autoplay=1`;
+
+                    const selectedVideo = tvVideos.find((video) =>
+                        extractYouTubeIdTv(video.youtube_url || video.videoId || "") === videoFromUrl
+                    );
+                    if (selectedVideo) {
+                        const videoTitle = selectedVideo.title || "Vídeo TVDUASRODAS";
+                        const videoDescription = makeExcerptTv(selectedVideo.body || "") ||
+                            "Vídeo selecionado pela TVDUASRODAS para quem acompanha o universo das duas rodas.";
+                        const canonicalUrl = `${window.location.origin}${window.location.pathname}?v=${encodeURIComponent(videoFromUrl)}`;
+                        const thumbnailUrl = selectedVideo.thumbnail
+                            ? new URL(selectedVideo.thumbnail, window.location.origin).href
+                            : `https://i3.ytimg.com/vi/${videoFromUrl}/hqdefault.jpg`;
+
+                        document.title = `${videoTitle} | TVDUASRODAS`;
+                        const metaDescription = document.querySelector('meta[name="description"]');
+                        if (metaDescription) metaDescription.setAttribute("content", videoDescription);
+                        const canonical = document.querySelector('link[rel="canonical"]');
+                        if (canonical) canonical.setAttribute("href", canonicalUrl);
+
+                        const setMeta = (selector, attribute, value) => {
+                            let element = document.head.querySelector(selector);
+                            if (!element) {
+                                element = document.createElement("meta");
+                                element.setAttribute(attribute[0], attribute[1]);
+                                document.head.appendChild(element);
+                            }
+                            element.setAttribute("content", value);
+                        };
+                        setMeta('meta[property="og:type"]', ["property", "og:type"], "video.other");
+                        setMeta('meta[property="og:title"]', ["property", "og:title"], videoTitle);
+                        setMeta('meta[property="og:description"]', ["property", "og:description"], videoDescription);
+                        setMeta('meta[property="og:url"]', ["property", "og:url"], canonicalUrl);
+                        setMeta('meta[property="og:image"]', ["property", "og:image"], thumbnailUrl);
+                        setMeta('meta[name="twitter:card"]', ["name", "twitter:card"], "summary_large_image");
+                        setMeta('meta[name="twitter:title"]', ["name", "twitter:title"], videoTitle);
+                        setMeta('meta[name="twitter:description"]', ["name", "twitter:description"], videoDescription);
+                        setMeta('meta[name="twitter:image"]', ["name", "twitter:image"], thumbnailUrl);
+
+                        document.getElementById("videoStructuredData")?.remove();
+                        const structuredData = document.createElement("script");
+                        structuredData.type = "application/ld+json";
+                        structuredData.id = "videoStructuredData";
+                        structuredData.textContent = JSON.stringify({
+                            "@context": "https://schema.org",
+                            "@type": "VideoObject",
+                            name: videoTitle,
+                            description: videoDescription,
+                            thumbnailUrl: [thumbnailUrl],
+                            uploadDate: selectedVideo.date || undefined,
+                            embedUrl: `https://www.youtube.com/embed/${videoFromUrl}`,
+                            contentUrl: selectedVideo.youtube_url || `https://www.youtube.com/watch?v=${videoFromUrl}`,
+                            inLanguage: selectedVideo.language || "pt-BR"
+                        });
+                        document.head.appendChild(structuredData);
+                    }
                 }
 
                 // ⚪ PRIORIDADE 2: último vídeo publicado (somente se NÃO tiver ?v= e NÃO estiver ao vivo)

@@ -23,33 +23,32 @@ SITEMAP = ROOT / "sitemap.xml"
 
 STATIC_PAGES = [
     ("/", "1.0"),
-    ("/revista.html", "0.9"),
-    ("/tv.html", "0.9"),
-    ("/materia.html", "0.7"),
-    ("/sobre.html", "0.5"),
-    ("/contato.html", "0.5"),
-    ("/imprensa.html", "0.5"),
-    ("/termos.html", "0.3"),
-    ("/politica-de-privacidade.html", "0.3"),
-    ("/guia-scooters-eletricas.html", "0.7"),
-    ("/review-naked-300.html", "0.7"),
-    ("/role-urbano-noturno.html", "0.7"),
-    ("/viagem-serra-mirantes.html", "0.7"),
-    ("/competicoes-eventos.html", "0.9"),
+    ("/revista", "0.9"),
+    ("/tv", "0.9"),
+    ("/sobre", "0.5"),
+    ("/contato", "0.5"),
+    ("/imprensa", "0.5"),
+    ("/termos", "0.3"),
+    ("/politica-de-privacidade", "0.3"),
+    ("/guia-scooters-eletricas", "0.7"),
+    ("/review-naked-300", "0.7"),
+    ("/role-urbano-noturno", "0.7"),
+    ("/viagem-serra-mirantes", "0.7"),
+    ("/competicoes-eventos", "0.9"),
 ]
 
 # Update this date when a standalone static page receives a material edit.
 # Dynamic collection pages derive their dates from content automatically.
 STATIC_LASTMOD_OVERRIDES = {
-    "/sobre.html": "2026-07-22",
-    "/contato.html": "2026-07-22",
-    "/imprensa.html": "2026-07-22",
-    "/politica-de-privacidade.html": "2026-07-22",
-    "/termos.html": "2026-07-22",
-    "/guia-scooters-eletricas.html": "2026-07-22",
-    "/review-naked-300.html": "2026-07-22",
-    "/role-urbano-noturno.html": "2026-07-22",
-    "/viagem-serra-mirantes.html": "2026-07-22",
+    "/sobre": "2026-07-22",
+    "/contato": "2026-07-22",
+    "/imprensa": "2026-07-22",
+    "/politica-de-privacidade": "2026-07-22",
+    "/termos": "2026-07-22",
+    "/guia-scooters-eletricas": "2026-07-22",
+    "/review-naked-300": "2026-07-22",
+    "/role-urbano-noturno": "2026-07-22",
+    "/viagem-serra-mirantes": "2026-07-22",
 }
 
 
@@ -155,10 +154,9 @@ def main(*, check_only: bool = False) -> None:
     newest = max(all_dynamic_dates, default=today)
     section_dates = {
         "/": newest,
-        "/revista.html": max((value for _, value in news), default=today),
-        "/materia.html": max((value for _, value in news), default=today),
-        "/tv.html": max((value for _, value in videos), default=today),
-        "/competicoes-eventos.html": max((value for _, value in competitions + events), default=today),
+        "/revista": max((value for _, value in news), default=today),
+        "/tv": max((value for _, value in videos), default=today),
+        "/competicoes-eventos": max((value for _, value in competitions + events), default=today),
     }
 
     for path, priority in STATIC_PAGES:
@@ -171,16 +169,16 @@ def main(*, check_only: bool = False) -> None:
 
     for slug, lastmod in news:
         encoded = quote(slug, safe="-._~")
-        add_url(urls, f"/materia.html?slug={encoded}", lastmod, "0.8")
+        add_url(urls, f"/materia?slug={encoded}", lastmod, "0.8")
 
     for video_id, lastmod in videos:
-        add_url(urls, f"/tv.html?v={video_id}", lastmod, "0.7")
+        add_url(urls, f"/tv?v={video_id}", lastmod, "0.7")
 
     for slug, lastmod in competitions:
-        add_url(urls, f"/competicao.html?slug={quote(slug, safe='-._~')}", lastmod, "0.8")
+        add_url(urls, f"/competicao?slug={quote(slug, safe='-._~')}", lastmod, "0.8")
 
     for slug, lastmod in events:
-        add_url(urls, f"/evento.html?slug={quote(slug, safe='-._~')}", lastmod, "0.7")
+        add_url(urls, f"/evento?slug={quote(slug, safe='-._~')}", lastmod, "0.7")
 
     namespace = "http://www.sitemaps.org/schemas/sitemap/0.9"
     ET.register_namespace("", namespace)
