@@ -23,6 +23,15 @@ PACKS = {
         "badge":"GARAGE TECH", "feed":"CORRENTE DE MOTO:\nCUIDADO CERTO", "story":"CORRENTE LIMPA,\nMOTO SEGURA", "cover":"CUIDE DA CORRENTE", "cta":"VEJA O ROTEIRO SEGURO", 
         "scenes":[("GARAGE TECH", "NÃO É SÓ ESTÉTICA", "Corrente, coroa e pinhão formam um conjunto."), ("INSPEÇÃO", "COMECE PELA FOLGA", "A medida correta está no manual do seu modelo."), ("LIMPEZA", "MOTO SEMPRE PARADA", "Nada de ligar o motor para girar a roda."), ("PRODUTO", "EVITE IMPROVISOS", "Use produto compatível com correntes seladas."), ("LUBRIFICAÇÃO", "POUCO E NO LUGAR CERTO", "Excesso acumula poeira e não protege melhor."), ("DESGASTE", "HORA DE PROCURAR OFICINA", "Elos travados e dentes deformados pedem avaliação.")],
         "images":["garage-tech-corrente-capa.jpg","garage-tech-corrente-capa.jpg","garage-tech-corrente-limpeza.jpg","garage-tech-corrente-limpeza.jpg","garage-tech-corrente-lubrificacao.jpg","garage-tech-corrente-capa.jpg"]},
+    "capital": {
+        "badge":"AGENDA TVDUASRODAS", "feed":"CAPITAL MOTO WEEK\nCOMEÇA HOJE", "story":"10 DIAS DE\nMOTOS E ROCK", "cover":"CAPITAL MOTO WEEK 2026", "cta":"CONFIRA O SERVIÇO NO PORTAL",
+        "scenes":[("BRASÍLIA", "COMEÇA HOJE", "O festival vai de 23 de julho a 1º de agosto."),
+                  ("LOCAL", "GRANJA DO TORTO", "Dez dias de experiências no universo das duas rodas."),
+                  ("PROGRAMAÇÃO", "MAIS DE 100 SHOWS", "Confirme horários e atrações nos canais oficiais."),
+                  ("SERVIÇO", "PLANEJE A IDA", "Consulte ingressos, acessos e regras antes de sair."),
+                  ("SEGURANÇA", "VOLTA TAMBÉM CONTA", "Combine transporte e não pilote depois de beber."),
+                  ("AGENDA", "ACOMPANHE O PORTAL", "Veja atualizações em TVDUASRODAS.COM.")],
+        "images":["capital-moto-week-editorial.png"] * 6},
 }
 
 def f(n, bold=False): return ImageFont.truetype(str(FB if bold else FR), n)

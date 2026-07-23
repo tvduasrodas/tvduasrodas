@@ -1,8 +1,8 @@
 # Fontes oficiais da agenda de eventos
 
-Consulta editorial realizada em 21 de julho de 2026. Datas e locais devem ser reconferidos antes de cada atualização.
+Consulta editorial atualizada em 23 de julho de 2026. Datas e locais devem ser reconferidos antes de cada atualização.
 
-- Capital Moto Week: https://www.capitalmotoweek.com.br/
+- Capital Moto Week: https://www.capitalmotoweek.com.br/ — consulta em 23/07/2026; início confirmado para 23 de julho e término em 1º de agosto, no Parque Granja do Torto, Brasília/DF.
 - Shimano Fest: https://shimanofest.com.br/
 - Sturgis Motorcycle Rally — City of Sturgis: https://www.sturgis-sd.gov/rally-events-department
 - MADE Handmade Bike Show: https://made.bike/event/2026-made-bike-show-event/

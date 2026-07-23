@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://tvduasrodas.com/</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://tvduasrodas.com/revista</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://tvduasrodas.com/tv</loc>
-    <lastmod>2026-07-22</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
@@ -62,7 +62,7 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/competicoes-eventos</loc>
-    <lastmod>2026-07-21</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
@@ -153,6 +153,16 @@
   <url>
     <loc>https://tvduasrodas.com/materia?slug=o-que-%C3%A9-uma-gravel-bike</loc>
     <lastmod>2026-01-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/materia?slug=pontos-cegos-moto-cidade-como-pilotar-com-margem</loc>
+    <lastmod>2026-07-23</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/materia?slug=role-de-rua-23-07-2026-rotas-curtas</loc>
+    <lastmod>2026-07-23</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -253,6 +263,11 @@
   <url>
     <loc>https://tvduasrodas.com/tv?v=RFLNwn1At7M</loc>
     <lastmod>2026-01-23</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/tv?v=SqNAgjojPJM</loc>
+    <lastmod>2026-07-23</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -372,7 +387,7 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/evento?slug=capital-moto-week-2026</loc>
-    <lastmod>2026-07-20</lastmod>
+    <lastmod>2026-07-23</lastmod>
     <priority>0.7</priority>
   </url>
   <url>

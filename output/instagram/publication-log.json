@@ -65,5 +65,106 @@
       "publicationConfirmation": "Your reel has been published according to your chosen publishing options."
     },
     "imageCredit": "Honda Motor Europe / divulgação"
+  },
+  {
+    "url": "https://tvduasrodas.com/materia?slug=como-pilotar-moto-na-chuva-com-seguranca",
+    "type": "article",
+    "title": "Como pilotar moto na chuva: checklist de segurança antes de sair",
+    "preparedAt": "2026-07-22T18:20:00-04:00",
+    "validation": {
+      "publicUrl": "CONFIRMADA",
+      "validatedAt": "2026-07-22T18:19:00-04:00",
+      "imageRights": "ILUSTRACOES_IA_IDENTIFICADAS_NO_ARTIGO",
+      "profileCta": "ACESSE TVDUASRODAS.COM"
+    },
+    "feed": {
+      "asset": null,
+      "caption": "Gancho: chuva muda a aderência e a visibilidade. Contexto: confira pneus, freios, equipamentos e margem de segurança antes do trajeto. CTA: siga @tvduasrodasofc. #MotoNaChuva #SegurancaNoTransito #Motociclismo #DicasDeMoto #TVDUASRODAS",
+      "status": "FALHA_DE_GERACAO_LOCAL",
+      "reprocessedAt": "2026-07-22T20:35:00-04:00",
+      "reprocessNote": "Ambiente local continua sem biblioteca de composição de imagens e sem codificador de vídeo MP4 disponível; nenhum arquivo nem publicação foi criado."
+    },
+    "stories": {
+      "asset": null,
+      "copy": "Chuva pede mais margem. Antes de sair, confira pneus, freios e visibilidade. ACESSE TVDUASRODAS.COM",
+      "status": "FALHA_DE_GERACAO_LOCAL",
+      "reprocessedAt": "2026-07-22T20:35:00-04:00",
+      "cta": "ACESSE TVDUASRODAS.COM"
+    },
+    "reel": {
+      "asset": null,
+      "cover": null,
+      "caption": "Pilota na chuva? O checklist começa antes de ligar a moto: pneus, freios, luzes, viseira e espaço para reduzir com calma. Qual cuidado você nunca deixa de fazer? Siga @tvduasrodasofc e acesse TVDUASRODAS.COM. #MotoNaChuva #PilotagemSegura #SegurancaNoTransito #Motociclismo #DicasDeMoto #TVDUASRODAS",
+      "status": "FALHA_DE_GERACAO_LOCAL",
+      "reprocessedAt": "2026-07-22T20:35:00-04:00",
+      "targetDurationSeconds": "24-28",
+      "audio": "TRILHA_INSTRUMENTAL_ORIGINAL_LOCAL_PENDENTE"
+    }
+  },
+  {
+    "url": "https://tvduasrodas.com/materia?slug=garage-tech-corrente-moto-limpeza-lubrificacao",
+    "type": "program",
+    "title": "Garage Tech: corrente de moto — como inspecionar, limpar e lubrificar",
+    "validatedAt": "2026-07-22T18:19:00-04:00",
+    "validation": {
+      "publicUrl": "INDISPONIVEL_NO_SITE_PUBLICO",
+      "reason": "A URL pública exibiu o template genérico, sem o título e o conteúdo da edição."
+    },
+    "feed": { "status": "NAO_ELEGIVEL_URL_INDISPONIVEL" },
+    "stories": { "status": "NAO_ELEGIVEL_URL_INDISPONIVEL" },
+    "reel": { "status": "NAO_ELEGIVEL_URL_INDISPONIVEL" }
+  },
+  {
+    "url": "https://tvduasrodas.com/evento.html?slug=capital-moto-week-2026",
+    "type": "event",
+    "title": "Capital Moto Week 2026",
+    "preparedAt": "2026-07-23T08:32:22-04:00",
+    "validation": {
+      "publicUrl": "CONFIRMADA",
+      "validatedAt": "2026-07-23T08:32:22-04:00",
+      "officialSource": "https://www.capitalmotoweek.com.br/",
+      "factsConfirmed": "23 de julho a 1º de agosto de 2026; Parque Granja do Torto, Brasília/DF; mais de 100 shows em 10 dias.",
+      "imageRights": "SEM_FOTO_OU_LOGO_DO_EVENTO_REUTILIZADO; ARTE_EDITORIAL_PROPRIA_COM_IMAGEM_GERADA_POR_IA"
+    },
+    "feed": {
+      "asset": "output/instagram/capital-moto-week-2026/feed.jpg",
+      "caption": "Brasília recebe dez dias de motos, rock e experiências no Capital Moto Week 2026. O festival acontece de 23 de julho a 1º de agosto no Parque Granja do Torto, com mais de 100 shows e atrações para quem vive o universo das duas rodas. Antes de sair, confirme horários e ingressos no canal oficial. Siga @tvduasrodasofc para acompanhar a agenda sobre duas rodas. #CapitalMotoWeek #CMW2026 #Motociclismo #Brasilia #EventosDeMoto #TVDUASRODAS",
+      "status": "PUBLICADO",
+      "attemptedAt": "2026-07-23T08:32:22-04:00",
+      "publishedAt": "2026-07-23T09:10:00-04:00",
+      "permalink": "https://www.instagram.com/tvduasrodasofc/p/DbIvYw0kXuf/",
+      "dimensions": "1080x1350"
+    },
+    "stories": {
+      "asset": "output/instagram/capital-moto-week-2026/story.jpg",
+      "poster": "output/instagram/capital-moto-week-2026/story.jpg",
+      "copy": "Capital Moto Week 2026: 23 JUL a 1 AGO, Brasília/DF. Motos, rock e mais de 100 shows em 10 dias. ACESSE TVDUASRODAS.COM",
+      "status": "PUBLICADO",
+      "attemptedAt": "2026-07-23T08:32:22-04:00",
+      "publishedAt": "2026-07-23T09:16:00-04:00",
+      "permalink": "https://www.instagram.com/stories/tvduasrodasofc/",
+      "cta": "ACESSE TVDUASRODAS.COM",
+      "dimensions": "1080x1920",
+      "publicationConfirmation": "Meta Business Suite confirmou que o Story estava sendo publicado e concluiu o processamento sem erro."
+    },
+    "reel": {
+      "asset": "output/instagram/capital-moto-week-2026/reel.mp4",
+      "cover": "output/instagram/capital-moto-week-2026/reel-cover.jpg",
+      "caption": "O Capital Moto Week 2026 abre a agenda em Brasília: são 10 dias de motos, rock e experiências no Parque Granja do Torto, de 23 de julho a 1º de agosto. Qual atração você quer ver por lá? Siga @tvduasrodasofc e acesse TVDUASRODAS.COM. #CapitalMotoWeek #CMW2026 #Motociclismo #Brasilia #EventosDeMoto #RockENRoll #TVDUASRODAS",
+      "status": "PUBLICADO",
+      "attemptedAt": "2026-07-23T08:32:22-04:00",
+      "publishedAt": "2026-07-23T09:14:00-04:00",
+      "permalink": "https://www.instagram.com/tvduasrodasofc/reel/DbIvxO_vfAB/",
+      "durationSeconds": 22.2,
+      "dimensions": "1080x1920",
+      "videoCodec": "H.264",
+      "audio": {
+        "type": "TRILHA_INSTRUMENTAL_ORIGINAL_SINTETIZADA",
+        "embedded": true,
+        "codec": "AAC"
+      },
+      "scenesPlanned": ["Gancho: CMW 2026 começa em Brasília", "Datas e local", "10 dias e mais de 100 shows", "Experiências e serviço", "CTA: siga @tvduasrodasofc e acesse TVDUASRODAS.COM"],
+      "publicationConfirmation": "Your reel has been shared."
+    }
   }
 ]
