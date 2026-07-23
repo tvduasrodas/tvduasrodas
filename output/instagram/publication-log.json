@@ -177,9 +177,42 @@
       "validatedAt": "2026-07-23T11:34:08-04:00",
       "imageRights": "ILUSTRACOES_IA_IDENTIFICADAS_NO_ARTIGO"
     },
-    "feed": { "asset": null, "caption": "output/instagram/2026-07-23/role-de-rua-23-07-2026-rotas-curtas/legenda-feed.txt", "status": "FALHA_DE_GERACAO_LOCAL" },
-    "stories": { "asset": null, "copy": "output/instagram/2026-07-23/role-de-rua-23-07-2026-rotas-curtas/texto-stories.txt", "cta": "ACESSE TVDUASRODAS.COM", "status": "FALHA_DE_GERACAO_LOCAL" },
-    "reel": { "asset": null, "cover": null, "caption": "output/instagram/2026-07-23/role-de-rua-23-07-2026-rotas-curtas/legenda-reel.txt", "targetDurationSeconds": "24-28", "audio": "TRILHA_INSTRUMENTAL_ORIGINAL_LOCAL_PENDENTE", "status": "FALHA_DE_GERACAO_LOCAL" }
+    "feed": {
+      "asset": "output/instagram/2026-07-23/role-de-rua-23-07-2026-rotas-curtas/feed.jpg",
+      "caption": "output/instagram/2026-07-23/role-de-rua-23-07-2026-rotas-curtas/legenda-feed.txt",
+      "status": "PUBLICADO",
+      "publishedAt": "2026-07-23T15:42:00-04:00",
+      "metaContentId": "18304889197303724",
+      "dimensions": "1080x1350",
+      "publicationConfirmation": "Meta Business Suite confirmou: Your post is published."
+    },
+    "stories": {
+      "asset": "output/instagram/2026-07-23/role-de-rua-23-07-2026-rotas-curtas/story.mp4",
+      "poster": "output/instagram/2026-07-23/role-de-rua-23-07-2026-rotas-curtas/story-base.jpg",
+      "copy": "output/instagram/2026-07-23/role-de-rua-23-07-2026-rotas-curtas/texto-stories.txt",
+      "cta": "ACESSE TVDUASRODAS.COM",
+      "status": "PUBLICADO",
+      "publishedAt": "2026-07-23T15:49:00-04:00",
+      "permalink": "https://www.instagram.com/stories/tvduasrodasofc/",
+      "durationSeconds": 14,
+      "dimensions": "1080x1920",
+      "videoCodec": "H.264",
+      "audioCodec": "AAC",
+      "publicationConfirmation": "Meta Business Suite confirmou o processamento e removeu o aviso de publicação sem registrar erro."
+    },
+    "reel": {
+      "asset": "output/instagram/2026-07-23/role-de-rua-23-07-2026-rotas-curtas/reel.mp4",
+      "cover": "output/instagram/2026-07-23/role-de-rua-23-07-2026-rotas-curtas/reel-cover.jpg",
+      "caption": "output/instagram/2026-07-23/role-de-rua-23-07-2026-rotas-curtas/legenda-reel.txt",
+      "status": "PUBLICADO",
+      "publishedAt": "2026-07-23T15:45:00-04:00",
+      "metaContentId": "18081780524668411",
+      "durationSeconds": 28,
+      "dimensions": "1080x1920",
+      "videoCodec": "H.264",
+      "audio": { "type": "TRILHA_INSTRUMENTAL_ORIGINAL_SINTETIZADA", "embedded": true, "codec": "AAC" },
+      "publicationConfirmation": "Reel confirmado na lista Published do Meta Business Suite."
+    }
   },
   {
     "url": "https://tvduasrodas.com/materia?slug=pontos-cegos-moto-cidade-como-pilotar-com-margem",
@@ -191,8 +224,41 @@
       "validatedAt": "2026-07-23T11:34:08-04:00",
       "imageRights": "ILUSTRACOES_IA_IDENTIFICADAS_NO_ARTIGO"
     },
-    "feed": { "asset": null, "caption": "output/instagram/2026-07-23/pontos-cegos-moto-cidade-como-pilotar-com-margem/legenda-feed.txt", "status": "FALHA_DE_GERACAO_LOCAL" },
-    "stories": { "asset": null, "copy": "output/instagram/2026-07-23/pontos-cegos-moto-cidade-como-pilotar-com-margem/texto-stories.txt", "cta": "ACESSE TVDUASRODAS.COM", "status": "FALHA_DE_GERACAO_LOCAL" },
-    "reel": { "asset": null, "cover": null, "caption": "output/instagram/2026-07-23/pontos-cegos-moto-cidade-como-pilotar-com-margem/legenda-reel.txt", "targetDurationSeconds": "24-28", "audio": "TRILHA_INSTRUMENTAL_ORIGINAL_LOCAL_PENDENTE", "status": "FALHA_DE_GERACAO_LOCAL" }
+    "feed": {
+      "asset": "output/instagram/2026-07-23/pontos-cegos-moto-cidade-como-pilotar-com-margem/feed.jpg",
+      "caption": "output/instagram/2026-07-23/pontos-cegos-moto-cidade-como-pilotar-com-margem/legenda-feed.txt",
+      "status": "PUBLICADO",
+      "publishedAt": "2026-07-23T15:41:00-04:00",
+      "metaContentId": "18136559773600305",
+      "dimensions": "1080x1350",
+      "publicationConfirmation": "Meta Business Suite confirmou: You published a post through Meta Business Suite."
+    },
+    "stories": {
+      "asset": "output/instagram/2026-07-23/pontos-cegos-moto-cidade-como-pilotar-com-margem/story.mp4",
+      "poster": "output/instagram/2026-07-23/pontos-cegos-moto-cidade-como-pilotar-com-margem/story-base.jpg",
+      "copy": "output/instagram/2026-07-23/pontos-cegos-moto-cidade-como-pilotar-com-margem/texto-stories.txt",
+      "cta": "ACESSE TVDUASRODAS.COM",
+      "status": "PUBLICADO",
+      "publishedAt": "2026-07-23T15:47:00-04:00",
+      "permalink": "https://www.instagram.com/stories/tvduasrodasofc/",
+      "durationSeconds": 14,
+      "dimensions": "1080x1920",
+      "videoCodec": "H.264",
+      "audioCodec": "AAC",
+      "publicationConfirmation": "Meta Business Suite confirmou o processamento e removeu o aviso de publicação sem registrar erro."
+    },
+    "reel": {
+      "asset": "output/instagram/2026-07-23/pontos-cegos-moto-cidade-como-pilotar-com-margem/reel.mp4",
+      "cover": "output/instagram/2026-07-23/pontos-cegos-moto-cidade-como-pilotar-com-margem/reel-cover.jpg",
+      "caption": "output/instagram/2026-07-23/pontos-cegos-moto-cidade-como-pilotar-com-margem/legenda-reel.txt",
+      "status": "PUBLICADO",
+      "publishedAt": "2026-07-23T15:44:00-04:00",
+      "metaContentId": "17915358549222491",
+      "durationSeconds": 28,
+      "dimensions": "1080x1920",
+      "videoCodec": "H.264",
+      "audio": { "type": "TRILHA_INSTRUMENTAL_ORIGINAL_SINTETIZADA", "embedded": true, "codec": "AAC" },
+      "publicationConfirmation": "Reel confirmado na lista Published do Meta Business Suite."
+    }
   }
 ]
