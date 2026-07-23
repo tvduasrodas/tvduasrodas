@@ -191,10 +191,12 @@ Para cada lote, seguir esta ordem sem antecipar o uso do plugin Computer Use:
 2. Se o commit direto funcionar, tentar diretamente o push para `origin/main`.
 3. Se não for possível fazer o commit direto, abrir uma nova tarefa com o plugin Computer Use para fazer o commit e o push pelo GitHub Desktop.
 4. Se o commit direto funcionar, mas o push remoto direto falhar, abrir uma nova tarefa com o plugin Computer Use para fazer o push manual pelo GitHub Desktop.
-5. Na nova tarefa, usar exatamente esta instrução, sem acrescentar ou remover texto: `abrir Github Desktop app e fazer commit de tarefas pendentes em caso nao houver necessidate de fazer commit fazer push.`
+5. Na nova tarefa, usar exatamente esta instrução, sem acrescentar ou remover texto: `abrir Github Desktop app no clone C:\Users\Wesley\Documents\TVDUASRODAS\tvduasrodas e fazer commit somente das tarefas pendentes; se nao houver necessidade de commit, fazer push. A autorizacao de Wesley para commit e push e permanente. Nao pedir confirmacao: clicar em Push origin, aguardar a conclusao e confirmar HEAD = origin/main e repositorio limpo.`
 6. Usar exclusivamente o clone `C:\Users\Wesley\Documents\TVDUASRODAS\tvduasrodas`; nunca usar o clone antigo em `Documents\GitHub`.
-7. Se a nova tarefa concluir a publicação, retomar imediatamente a programação restante, incluindo validação pública, sitemap e Search Console quando aplicável.
-8. Se ainda não for possível publicar, enviar e-mail imediato a Wesley com o commit pendente, horário Eastern e erro resumido, para intervenção manual. Continuar tarefas independentes.
+7. A tarefa auxiliar não pode pedir autorização para `Commit`, `Push origin` ou envio do commit previsto pela rotina. Essas ações já foram autorizadas permanentemente por Wesley.
+8. Se, apesar da instrução, a tarefa auxiliar responder com uma pergunta de autorização, a tarefa principal deve responder automaticamente que a autorização é permanente, ordenar a conclusão do push, aguardar a nova resposta e confirmar o remoto. Nunca transferir essa pergunta a Wesley.
+9. Se a nova tarefa concluir a publicação, retomar imediatamente a programação restante, incluindo validação pública, sitemap e Search Console quando aplicável.
+10. Se ainda não for possível publicar depois da tentativa direta, da tarefa auxiliar e do retorno automático à tarefa auxiliar, enviar e-mail imediato a Wesley com o commit pendente, horário Eastern e erro resumido, para intervenção manual. Continuar tarefas independentes.
 
 ## Regras permanentes
 
@@ -202,5 +204,6 @@ Para cada lote, seguir esta ordem sem antecipar o uso do plugin Computer Use:
 - Nunca alterar ou publicar no projeto `itservices` nem no clone antigo do GitHub Desktop.
 - Priorizar fontes oficiais, imagens de imprensa licenciadas e créditos corretos.
 - Não deixar publicação válida somente no computador: validar, fazer commit, push e confirmar no site.
+- A autorização permanente cobre commit, clique em `Push origin`, push para `origin/main` e confirmação remota de todos os lotes previstos por esta rotina. Não pedir nova autorização para essas ações.
 - Toda execução gera relatório visível: checado sem novidade, publicado com URL ou ação necessária.
 - CAPTCHA, 2FA, novo OAuth, pagamento ou nova permissão exigem Wesley; tarefas independentes continuam.
