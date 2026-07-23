@@ -1,6 +1,14 @@
 # Rotina diária fixada — TVDUASRODAS
 
-Versão atualizada em 22 de julho de 2026. Esta rotina é obrigatória para o worker e não pode ser reduzida, substituída ou ignorada sem uma nova instrução expressa de Wesley. O portal não é somente competições e eventos.
+Versão atualizada em 23 de julho de 2026. Esta rotina é obrigatória para o worker e não pode ser reduzida, substituída ou ignorada sem uma nova instrução expressa de Wesley. O portal não é somente competições e eventos.
+
+## Sincronização obrigatória entre este arquivo e as automações
+
+- Este arquivo é a fonte principal e soberana das regras de todas as automações da TVDUASRODAS.
+- Sempre que qualquer configuração, prompt, horário, escopo, formato, ferramenta, recuperação ou regra de uma automação for criada ou alterada, a mesma mudança deve ser registrada neste arquivo durante a mesma execução.
+- Uma alteração de automação não pode ser considerada concluída enquanto este arquivo não estiver sincronizado, validado, incluído em commit e publicado em `origin/main`.
+- Se existir diferença entre a configuração de uma automação e este arquivo, interromper o encerramento, corrigir a divergência e aplicar a recuperação obrigatória de publicação.
+- O relatório da alteração deve confirmar explicitamente: `configuração da automação atualizada`, `ROTINA-DIARIA-AUTOMACAO.md sincronizado`, `commit publicado` e `origin/main confirmado`.
 
 ## Isolamento obrigatório de cada janela automatizada
 
@@ -45,6 +53,21 @@ Toda criação ou alteração pública deve encerrar o próprio ciclo de SEO ant
 7. Se push, acesso público ou Search Console falhar, registrar a pendência e aplicar a recuperação prevista neste documento; não adiar silenciosamente até 20h.
 
 A auditoria das 20h é uma camada adicional de segurança para localizar qualquer SEO pendente do dia. Ela não substitui o SEO imediato de cada lote.
+
+## Instagram — somente Reels e Stories
+
+- A automação `Instagram TVDUASRODAS — Reels e Stories` executa diariamente às **08h30, 11h30, 14h30, 17h30 e 20h30**, em `America/New_York`, depois das janelas editoriais principais.
+- Cada conteúdo novo elegível do portal deve gerar somente **um Reel** e **um Story** coordenados, sem duplicação.
+- É proibido criar, agendar ou publicar posts de Feed, fotografias no grid ou carrosséis. A opção `Create post` do Meta Business Suite não deve ser usada.
+- O Feed existente deve ser preservado. Não excluir publicações antigas. Registros antigos com Feed são apenas histórico e não autorizam repetição.
+- Para novos registros em `output/instagram/publication-log.json`, omitir o campo de Feed ou registrar `NAO_APLICAVEL_POR_REGRA`, sem gerar arquivo ou publicação para o Feed.
+- Stories devem usar formato vertical `1080x1920`, vídeo MP4 de 12 a 15 segundos, H.264 com áudio AAC e trilha original ou comprovadamente licenciada.
+- Reels devem usar formato vertical `1080x1920`, MP4 H.264 com áudio AAC, preferencialmente entre 20 e 35 segundos, gancho nos primeiros dois segundos, 4 a 7 cenas, textos dentro da área segura, capa legível e CTA para seguir `@tvduasrodasofc` e acessar `TVDUASRODAS.COM`.
+- Não usar música comercial sem licença, não fabricar cenas documentais e não afirmar publicação sem confirmação visível na conta profissional `@tvduasrodasofc`.
+- Usar obrigatoriamente `Create reel` para Reels e `Create story` para Stories. Nunca publicar o vídeo como post comum.
+- Registrar separadamente, para cada Story e Reel: arquivo, duração, trilha, horário, destino, permalink ou identificador disponível e confirmação verdadeira da publicação.
+- Todos os arquivos e registros criados pela automação do Instagram devem ser incluídos em commit e push para `origin/main` antes do encerramento. Se o push direto falhar, aplicar imediatamente a seção **Recuperação obrigatória de publicação** deste documento.
+- A automação do Instagram não pode declarar conclusão com arquivos apenas locais, commit à frente de `origin/main` ou publicação sem confirmação.
 
 ## Grade fixa dos programas da Revista
 
