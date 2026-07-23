@@ -1,2 +1,6 @@
 # Pacotes editoriais locais aguardando revisão; não publicar no site.
 editorial/drafts/
+
+# Dependências locais usadas apenas pelos geradores de mídia.
+.python-deps/
+.reel-deps/
