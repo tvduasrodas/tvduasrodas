@@ -5,6 +5,7 @@ Versão atualizada em 23 de julho de 2026. Esta rotina é obrigatória para o wo
 ## Sincronização obrigatória entre este arquivo e as automações
 
 - Este arquivo é a fonte principal e soberana das regras de todas as automações da TVDUASRODAS.
+- Todas as regras universais deste arquivo se aplicam a todas as automações atuais e futuras do projeto e a cada ocorrência programada, sem diferença de rigor entre horários.
 - Sempre que qualquer configuração, prompt, horário, escopo, formato, ferramenta, recuperação ou regra de uma automação for criada ou alterada, a mesma mudança deve ser registrada neste arquivo durante a mesma execução.
 - Uma alteração de automação não pode ser considerada concluída enquanto este arquivo não estiver sincronizado, validado, incluído em commit e publicado em `origin/main`.
 - Se existir diferença entre a configuração de uma automação e este arquivo, interromper o encerramento, corrigir a divergência e aplicar a recuperação obrigatória de publicação.
@@ -12,12 +13,24 @@ Versão atualizada em 23 de julho de 2026. Esta rotina é obrigatória para o wo
 
 ## Isolamento obrigatório de cada janela automatizada
 
-- Cada horário programado — **08h, 11h, 14h, 17h e 20h**, em `America/New_York` — deve iniciar em uma **nova tarefa independente do Codex**. É proibido continuar a execução automática em uma tarefa usada por uma janela anterior.
+- Cada ocorrência de qualquer automação — horários editoriais às **08h, 11h, 14h, 17h e 20h** e horários do Instagram às **08h30, 11h30, 14h30, 17h30 e 20h30**, em `America/New_York` — deve iniciar em uma **nova tarefa independente do Codex**. É proibido continuar qualquer execução automática em uma tarefa usada por outra ocorrência, mesmo quando pertencer à mesma automação.
 - A primeira ação da nova tarefa deve ser abrir e ler **integralmente** `C:\Users\Wesley\Documents\TVDUASRODAS\tvduasrodas\ROTINA-DIARIA-AUTOMACAO.md`. Nenhuma pesquisa, diagnóstico, seleção de pauta, edição, publicação ou uso da memória pode ocorrer antes dessa leitura.
+- Nenhum skill, memória, navegador, pesquisa, diagnóstico, arquivo auxiliar ou outra ferramenta pode ser consultado antes da leitura integral deste documento.
 - Depois da leitura, este arquivo deve ser tratado como **autoridade operacional absoluta** para toda a janela. Conversas anteriores, resumos e memória são apenas contexto e nunca podem reduzir, substituir, reinterpretar ou adiar uma regra obrigatória daqui.
 - A memória da automação pode ser consultada somente **depois** da leitura integral deste arquivo e serve para continuidade factual e prevenção de duplicidade, não para transportar o peso ou o raciocínio da tarefa anterior.
 - Se a execução perceber que não está em uma tarefa nova e independente, deve interromper o trabalho nessa tarefa e iniciar uma nova tarefa antes de prosseguir. Não é permitido compensar essa falha resumindo ou limpando a conversa existente.
 - A execução deve declarar no primeiro resumo interno da janela: `nova tarefa confirmada`, `ROTINA-DIARIA-AUTOMACAO.md lida integralmente`, data, dia da semana e horário calculados em Eastern.
+
+## Particionamento das automações e aplicação das regras
+
+Existem duas automações ativas vinculadas ao projeto `TVDUASRODAS`, e não uma configuração separada para cada horário:
+
+1. `Atualizações otimizadas TV Duas Rodas`: uma única configuração executada às **08h, 11h, 14h, 17h e 20h**. O horário determina qual janela editorial deste documento deve ser executada; todas as regras universais, especialmente leitura inicial, isolamento, qualidade, validação, commit, push, recuperação, Search Console e relatório, valem igualmente nas cinco ocorrências.
+2. `Instagram TVDUASRODAS — Reels e Stories`: uma única configuração executada às **08h30, 11h30, 14h30, 17h30 e 20h30**. Todas as regras universais valem igualmente nas cinco ocorrências, acrescidas das regras específicas da seção **Instagram — somente Reels e Stories**.
+
+- É proibido criar versões de regras diferentes por horário dentro da mesma automação. Uma regra universal adicionada ou alterada deve ser aplicada à configuração completa e, portanto, a todas as ocorrências daquela automação.
+- Diferenças entre horários podem existir somente no trabalho editorial específico descrito nas seções 08h, 11h, 14h, 17h e 20h, nunca nas regras de leitura obrigatória, isolamento, autorização, commit, push, recuperação ou confirmação remota.
+- Se uma nova automação for criada para este projeto, ela deve ser adicionada a esta seção e receber integralmente o bloco universal de leitura, isolamento, publicação e recuperação antes de ser ativada.
 
 ## Metas editoriais mínimas do dia
 
