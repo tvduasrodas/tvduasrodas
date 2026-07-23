@@ -2,7 +2,7 @@
   "property": "https://tvduasrodas.com/",
   "authorized_account": "tvduasrodas@gmail.com",
   "sitemap": "https://tvduasrodas.com/sitemap.xml",
-  "updated_at": "2026-07-22T18:05:54-04:00",
+  "updated_at": "2026-07-23T09:57:05-04:00",
   "entries": [
     {
       "url": "https://www.tvduasrodas.com/competicoes-eventos.html",
@@ -59,6 +59,48 @@
       "index_status_before": "O URL não está no Google — O Google não reconhece o URL",
       "sitemap": "https://tvduasrodas.com/sitemap.xml",
       "sitemap_status": "Reenviado e processado em 2026-07-22; 84 URLs encontradas",
+      "indexing_requested": true,
+      "request_result": "Adicionado à fila de rastreamento prioritário"
+    },
+    {
+      "url": "https://tvduasrodas.com/materia?slug=pontos-cegos-moto-cidade-como-pilotar-com-margem",
+      "slug": "pontos-cegos-moto-cidade-como-pilotar-com-margem",
+      "type": "materia",
+      "published_at": "2026-07-23",
+      "inspected_at": "2026-07-23T09:54:00-04:00",
+      "account": "tvduasrodas@gmail.com",
+      "property": "sc-domain:tvduasrodas.com",
+      "index_status_before": "O URL não está no Google — Detectada, mas não indexada no momento",
+      "sitemap": "https://tvduasrodas.com/sitemap.xml",
+      "sitemap_status": "Reenviado em 2026-07-23; sitemap público validado com 87 URLs",
+      "indexing_requested": true,
+      "request_result": "Adicionado à fila de rastreamento prioritário"
+    },
+    {
+      "url": "https://tvduasrodas.com/materia?slug=role-de-rua-23-07-2026-rotas-curtas",
+      "slug": "role-de-rua-23-07-2026-rotas-curtas",
+      "type": "programa",
+      "published_at": "2026-07-23",
+      "inspected_at": "2026-07-23T09:55:00-04:00",
+      "account": "tvduasrodas@gmail.com",
+      "property": "sc-domain:tvduasrodas.com",
+      "index_status_before": "O URL não está no Google — O Google não reconhece o URL",
+      "sitemap": "https://tvduasrodas.com/sitemap.xml",
+      "sitemap_status": "Reenviado em 2026-07-23; sitemap público validado com 87 URLs",
+      "indexing_requested": true,
+      "request_result": "Adicionado à fila de rastreamento prioritário"
+    },
+    {
+      "url": "https://tvduasrodas.com/tv?v=SqNAgjojPJM",
+      "slug": "royal-enfield-classic-500-revisao-dez-anos",
+      "type": "video",
+      "published_at": "2026-07-23",
+      "inspected_at": "2026-07-23T09:56:00-04:00",
+      "account": "tvduasrodas@gmail.com",
+      "property": "sc-domain:tvduasrodas.com",
+      "index_status_before": "O URL não está no Google — Detectada, mas não indexada no momento",
+      "sitemap": "https://tvduasrodas.com/sitemap.xml",
+      "sitemap_status": "Reenviado em 2026-07-23; sitemap público validado com 87 URLs",
       "indexing_requested": true,
       "request_result": "Adicionado à fila de rastreamento prioritário"
     }
