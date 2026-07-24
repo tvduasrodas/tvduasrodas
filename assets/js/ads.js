@@ -115,7 +115,7 @@
             elements.forEach((element) => {
                 const slot = config.slots?.[element.dataset.adSlot];
                 if (!slot) return;
-                const elementCategory = element.dataset.adCategory || category;
+                const elementCategory = element.dataset.adCategoryOverride || category;
                 const campaign = chooseCampaign(config, elementCategory, slot.format);
                 renderCreative(element, campaign, slot.format, elementCategory, config.formats?.[slot.format]);
             });
