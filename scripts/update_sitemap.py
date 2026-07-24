@@ -11,6 +11,7 @@ from __future__ import annotations
 import argparse
 import json
 import re
+import unicodedata
 from datetime import date, datetime
 from pathlib import Path
 from urllib.parse import quote
@@ -116,6 +117,11 @@ def json_date(path: Path, fallback: str) -> str:
     data = json.loads(path.read_text(encoding="utf-8-sig"))
     return iso_day(data.get("last_updated") or data.get("date") or data.get("start_date"), fallback)
 
+def slugify(value: str) -> str:
+    normalized = unicodedata.normalize("NFD", value)
+    ascii_value = "".join(char for char in normalized if unicodedata.category(char) != "Mn")
+    return re.sub(r"(^-+|-+$)", "", re.sub(r"[^a-z0-9]+", "-", ascii_value.lower()))
+
 
 def add_url(urls: list[tuple[str, str, str]], path: str, lastmod: str, priority: str) -> None:
     urls.append((f"{BASE_URL}{path}", lastmod, priority))
@@ -149,14 +155,30 @@ def main(*, check_only: bool = False) -> None:
         (slug, json_date(ROOT / "content" / "events" / f"{slug}.json", today))
         for slug in public_slugs("events")
     ]
+    calendar_data = json.loads(
+        (ROOT / "content" / "calendar" / "cbm-2026.json").read_text(encoding="utf-8-sig")
+    )
+    calendar_events = [
+        (
+            slugify(f"{item.get('title', '')}-{item.get('start_date', '')}"),
+            iso_day(item.get("start_date"), today),
+        )
+        for item in calendar_data.get("entries", [])
+        if not item.get("competition_slug")
+    ]
+    existing_event_slugs = {slug for slug, _ in events}
+    calendar_events = [
+        item for item in calendar_events
+        if item[0] and item[0] not in existing_event_slugs
+    ]
 
-    all_dynamic_dates = [lastmod for _, lastmod in news + videos + competitions + events]
+    all_dynamic_dates = [lastmod for _, lastmod in news + videos + competitions + events + calendar_events]
     newest = max(all_dynamic_dates, default=today)
     section_dates = {
         "/": newest,
         "/revista": max((value for _, value in news), default=today),
         "/tv": max((value for _, value in videos), default=today),
-        "/competicoes-eventos": max((value for _, value in competitions + events), default=today),
+        "/competicoes-eventos": max((value for _, value in competitions + events + calendar_events), default=today),
     }
 
     for path, priority in STATIC_PAGES:
@@ -180,6 +202,9 @@ def main(*, check_only: bool = False) -> None:
     for slug, lastmod in events:
         add_url(urls, f"/evento?slug={quote(slug, safe='-._~')}", lastmod, "0.7")
 
+    for slug, lastmod in calendar_events:
+        add_url(urls, f"/evento?slug={quote(slug, safe='-._~')}", lastmod, "0.7")
+
     namespace = "http://www.sitemaps.org/schemas/sitemap/0.9"
     ET.register_namespace("", namespace)
     urlset = ET.Element(f"{{{namespace}}}urlset")
@@ -194,7 +219,8 @@ def main(*, check_only: bool = False) -> None:
     expected = xml + "\n"
     breakdown = (
         f"static={len(STATIC_PAGES)}, news={len(news)}, videos={len(videos)}, "
-        f"competitions={len(competitions)}, events={len(events)}"
+        f"competitions={len(competitions)}, events={len(events)}, "
+        f"calendar_events={len(calendar_events)}"
     )
 
     if check_only:

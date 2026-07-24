@@ -1158,7 +1158,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const headerSearchInput = document.getElementById("siteSearchInput");
     const headerSearchClear = document.getElementById("siteSearchClear");
 
-    // --- Helpers da busca no CMS (matérias + vídeos) ---
+    // --- Helpers da busca geral (matérias, vídeos, competições e eventos) ---
 
     async function loadSearchEntriesFromPath(path, type) {
         const apiListUrl = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/${path}?ref=main`;
@@ -1237,9 +1237,82 @@ document.addEventListener("DOMContentLoaded", () => {
         return entries;
     }
 
+    function searchSlug(value) {
+        return String(value || "")
+            .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+            .toLowerCase().replace(/[^a-z0-9]+/g, "-")
+            .replace(/^-+|-+$/g, "");
+    }
+
+    async function loadJsonSearchCollection(folder, type) {
+        try {
+            const slugs = await fetchJson(`content/${folder}/index.json`);
+            const items = await Promise.all((Array.isArray(slugs) ? slugs : []).map(async (slug) => {
+                try {
+                    const item = await fetchJson(`content/${folder}/${encodeURIComponent(slug)}.json`);
+                    const isCompetition = type === "competicao";
+                    return {
+                        type,
+                        slug,
+                        title: item.title || slug,
+                        category: item.modality || item.event_type || "",
+                        date: item.last_updated || item.start_date || "",
+                        thumbnail: item.cover || "",
+                        excerpt: item.summary || "",
+                        content: [
+                            item.body || "",
+                            item.city || "",
+                            item.state || "",
+                            item.venue || "",
+                            ...(item.attractions || []),
+                            ...(item.rounds || []).flatMap((round) => [round.name, round.location, round.winner])
+                        ].filter(Boolean).join(" "),
+                        url: `${isCompetition ? "competicao" : "evento"}.html?slug=${encodeURIComponent(slug)}`
+                    };
+                } catch (error) {
+                    console.warn("Registro ignorado na busca geral:", slug, error);
+                    return null;
+                }
+            }));
+            return items.filter(Boolean);
+        } catch (error) {
+            console.warn(`Coleção ${folder} indisponível na busca geral:`, error);
+            return [];
+        }
+    }
+
+    async function loadCalendarSearchEntries() {
+        try {
+            const calendar = await fetchJson("content/calendar/cbm-2026.json");
+            return (Array.isArray(calendar.entries) ? calendar.entries : [])
+                .filter((item) => !item.competition_slug)
+                .map((item) => {
+                    const slug = searchSlug(`${item.title}-${item.start_date || ""}`);
+                    return {
+                        type: "evento",
+                        slug,
+                        title: item.title,
+                        category: item.modality || "Competição e evento",
+                        date: item.start_date || "",
+                        thumbnail: "/assets/img/competicoes-eventos-default.svg",
+                        excerpt: [item.stage, item.city, item.state].filter(Boolean).join(" · "),
+                        content: [item.title, item.stage, item.modality, item.city, item.state, item.location, item.note].filter(Boolean).join(" "),
+                        url: `evento.html?slug=${encodeURIComponent(slug)}`
+                    };
+                });
+        } catch (error) {
+            console.warn("Agenda indisponível na busca geral:", error);
+            return [];
+        }
+    }
+
     async function buildCmsSearchIndex() {
-        // sempre inclui matérias
-        const promises = [loadSearchEntriesFromPath(NEWS_PATH, "materia")];
+        const promises = [
+            loadSearchEntriesFromPath(NEWS_PATH, "materia"),
+            loadJsonSearchCollection("competitions", "competicao"),
+            loadJsonSearchCollection("events", "evento"),
+            loadCalendarSearchEntries()
+        ];
 
         // também inclui vídeos do CMS (content/videos) para a busca
         if (typeof SEARCH_VIDEOS_PATH !== "undefined") {
@@ -1247,7 +1320,13 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         const resultsByType = await Promise.all(promises);
-        const all = resultsByType.flat();
+        const seen = new Set();
+        const all = resultsByType.flat().filter((item) => {
+            const key = `${item.type}:${searchSlug(item.title)}`;
+            if (seen.has(key)) return false;
+            seen.add(key);
+            return true;
+        });
 
         // ordena por data (mais recente primeiro)
         all.sort((a, b) => {
@@ -1262,7 +1341,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     function renderSearchResultCard(item) {
         const isVideo = item.type === "video";
-        const typeLabel = isVideo ? "Vídeo" : "Matéria";
+        const typeLabels = {
+            video: "Vídeo",
+            materia: "Matéria",
+            competicao: "Competição",
+            evento: "Evento"
+        };
+        const typeLabel = typeLabels[item.type] || "Conteúdo";
         const categoryText = item.category ? " · " + item.category : "";
 
         let thumbUrl = "";
@@ -1315,7 +1400,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <h3>${item.title}</h3>
         <p>${text}</p>
         <a href="${item.url}" class="article-link">
-          ${isVideo ? "Assistir vídeo" : "Ler matéria"} &rarr;
+          ${isVideo ? "Assistir vídeo" : item.type === "materia" ? "Ler matéria" : "Abrir página"} &rarr;
         </a>
       </article>
     `;
@@ -1354,10 +1439,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (!term) {
             searchSummary.textContent =
-                "Digite um termo na barra de busca acima para encontrar matérias e vídeos da TV Duas Rodas.";
+                "Digite um termo para encontrar matérias, vídeos, competições, etapas e eventos da TV Duas Rodas.";
             searchResultsContainer.innerHTML = "";
         } else {
-            searchSummary.textContent = `Buscando por “${termRaw}” em matérias e vídeos...`;
+            searchSummary.textContent = `Buscando por “${termRaw}” em todo o site...`;
             searchResultsContainer.innerHTML = "";
 
             (async () => {
