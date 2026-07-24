@@ -206,7 +206,7 @@
         </div>
     </footer>
 
-    <script src="assets/js/ads.js?v=20260724g"></script>
+    <script src="assets/js/ads.js?v=20260724h"></script>
     <script src="assets/js/main.js?v=20260724e"></script>
     <script>
         // Config GitHub (mesma config da Home)
@@ -319,6 +319,7 @@
                 youtube_url: "",
                 thumbnail: "",
                 category: "",
+                ad_category: "",
                 featured: false,
                 body: "",
             };
@@ -352,6 +353,7 @@
                 else if (k === "youtube_url" || k === "youtube") result.youtube_url = v;
                 else if (k === "thumbnail" || k === "cover") result.thumbnail = v;
                 else if (k === "category") result.category = v;
+                else if (k === "ad_category") result.ad_category = v;
                 else if (k === "featured") result.featured = (v === "true");
                 else if (k === "videoId") result.videoId = v;
             });
@@ -573,6 +575,24 @@
                 // Renderiza a grade (página 1, filtro atual)
                 tvCurrentPage = 1;
                 renderTvGallery();
+                const activeVideoId = videoFromUrl || (
+                    !TV_IS_LIVE && tvVideos[0]
+                        ? extractYouTubeIdTv(tvVideos[0].youtube_url || tvVideos[0].videoId || "")
+                        : ""
+                );
+                const activeVideo = tvVideos.find((video) =>
+                    extractYouTubeIdTv(video.youtube_url || video.videoId || "") === activeVideoId
+                );
+                if (activeVideo) {
+                    window.TVAds?.setContext({
+                        type: "video",
+                        ad_category: activeVideo.ad_category,
+                        title: activeVideo.title,
+                        category: activeVideo.category,
+                        tags: activeVideo.tags,
+                        body: activeVideo.body
+                    });
+                }
             } catch (err) {
                 console.error(err);
                 grid.innerHTML =
