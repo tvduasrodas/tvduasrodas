@@ -61,6 +61,22 @@ Até o encerramento das 20h (horário Eastern), o worker deve entregar:
 - Edições de programa usam `contentType: "program"` e não participam da contagem da matéria diária nem da rotação de categorias das matérias próprias.
 - Notícia cujo conteúdo principal seja agenda, serviço ou programação deve ir para Eventos. Resultado, classificação, etapa, liderança ou calendário esportivo deve atualizar Competições. Só publicar também na Revista quando existir uma reportagem editorial própria, com contexto e valor além da atualização estrutural.
 
+## Cobertura obrigatória de abertura, encerramento e situação
+
+Esta regra vale para **todos os eventos e todas as competições** cadastrados, nacionais ou internacionais, inclusive festivais, feiras, encontros, campeonatos, etapas e rodadas de vários dias.
+
+1. Em toda ocorrência editorial, comparar a data atual em `America/New_York` com `start_date` e `end_date`, conferir o canal oficial e atualizar a situação estrutural:
+   - Eventos: `proximo` antes da abertura, `em_andamento` entre início e fim, `encerrado` depois do último dia e `cancelado` somente com confirmação oficial.
+   - Competições/campeonatos: `agendada` antes do início, `em_andamento` durante a temporada ou etapa, `concluida` depois do encerramento e `cancelado` somente com confirmação oficial. Aplicar o mesmo controle a cada item de `rounds`.
+   - Adiamento, mudança de data ou interrupção devem atualizar imediatamente datas, resumo, calendário e fonte oficial; nunca tratar ausência de notícia como cancelamento.
+2. No **dia seguinte ao primeiro dia** de cada evento ou competição, publicar obrigatoriamente uma notícia original na Revista explicando como foi a abertura. A matéria deve usar fonte oficial publicada depois da abertura, registrar fatos confirmados, destaques, serviço para os dias restantes e linkar a página estrutural do evento ou campeonato.
+3. No **dia seguinte ao último dia**, publicar obrigatoriamente uma matéria de balanço completo: principais acontecimentos, resultados ou atrações, vencedores e classificação quando houver, números oficiais disponíveis, contexto e próximos passos. Atualizar a página estrutural para `encerrado` ou `concluida` no mesmo lote.
+4. Em competição ou evento de **um único dia**, a matéria publicada no dia seguinte deve ser um balanço completo único e cumprir simultaneamente as obrigações de abertura e encerramento; não criar dois textos artificiais sobre o mesmo fato.
+5. Em competições por etapas, a obrigação se aplica à etapa/rodada monitorada: primeiro dia no dia seguinte à abertura da etapa e balanço no dia seguinte ao seu término. A página da temporada permanece `em_andamento` enquanto houver etapa futura confirmada.
+6. Não declarar presença da TVDUASRODAS, público, resultado, ocorrência, show realizado ou experiência presencial sem confirmação. Quando a fonte oficial ainda não tiver publicado o balanço necessário, registrar a obrigação como pendente e refazer a busca nas janelas seguintes do mesmo dia; publicar assim que a confirmação oficial estiver disponível.
+7. Antes de criar a matéria, verificar duplicidade por evento, competição, etapa, data e tipo de balanço. Registrar a cobertura na página estrutural ou no controle editorial para impedir publicação duplicada.
+8. Cada notícia de abertura ou encerramento é conteúdo novo elegível para um Story e um Reel na próxima ocorrência da automação do Instagram, seguindo a regra de apenas uma publicação por formato e sem Feed.
+
 ## SEO imediato após cada publicação
 
 Toda criação ou alteração pública deve encerrar o próprio ciclo de SEO antes de a execução seguir para outra pauta. Não esperar 20h.
@@ -106,6 +122,7 @@ Conteúdo fraco, duplicado, rumor ou texto inventado não cumpre a meta. Quando 
 ## 08h — Radar editorial e notícias
 
 - Ler a memória da execução anterior e rodar `python scripts/check_daily_targets.py`.
+- Auditar situações e obrigações T+1 de todos os eventos, competições e rodadas. Publicar antes das pautas discricionárias qualquer matéria de primeiro dia ou balanço final vencida, além de corrigir `proximo/agendada`, `em_andamento`, `encerrado/concluida` ou `cancelado` conforme fonte oficial.
 - Fazer a **primeira verificação obrigatória de SEO do dia** com `python scripts/update_sitemap.py --check`.
 - Conferir se o fechamento de SEO do dia anterior foi concluído: sitemap gerado depois da última publicação, enviado ao Google Search Console e URLs novas solicitadas para indexação. Se faltar qualquer etapa, corrigir, publicar e concluir usando somente `tvduasrodas@gmail.com` antes de seguir.
 - Se o sitemap estiver desatualizado, executar `python scripts/update_sitemap.py`, validar a contagem por coleção, publicar e reenviar o sitemap no Search Console.
@@ -140,6 +157,7 @@ Conteúdo fraco, duplicado, rumor ou texto inventado não cumpre a meta. Quando 
 ## 17h — Competições, eventos e segunda rodada de notícias
 
 - Verificar resultados, pódios, pontos, liderança, etapas, calendários e documentos oficiais publicados desde a última checagem.
+- Repetir a auditoria de situação e de matérias T+1. Se a fonte oficial de uma abertura ou encerramento ainda não estava disponível às 08h, pesquisar novamente e publicar o balanço assim que houver confirmação suficiente.
 - Atualizar páginas existentes e preservar histórico; não publicar apenas o vencedor quando a tabela oficial completa estiver disponível.
 - Verificar eventos nacionais e internacionais relevantes ao público brasileiro.
 - Se não houver mudança esportiva, procurar notícia relevante de produto, mercado, recall, segurança, mobilidade ou ciclismo. A janela não termina apenas com “sem novidade em competições”.
@@ -147,6 +165,7 @@ Conteúdo fraco, duplicado, rumor ou texto inventado não cumpre a meta. Quando 
 ## 20h — Fechamento obrigatório e auditoria final de SEO
 
 - Rodar `python scripts/check_daily_targets.py --require-complete`.
+- Confirmar que nenhuma obrigação vencida de matéria do primeiro dia ou do balanço final ficou sem publicação e que todas as situações de eventos, campeonatos e rodadas refletem datas e comunicados oficiais.
 - Se faltar matéria independente, vídeo elegível em pt-BR ou programa fixo do dia, produzir e publicar cada item pendente antes de encerrar, respeitando qualidade, fontes, diversidade e direitos.
 - Revisar URLs novas e materialmente alteradas do dia.
 - Fazer a **auditoria final obrigatória de SEO do dia**. Verificar se cada push público já teve sitemap reenviado e, para cada URL nova, indexação solicitada imediatamente após a publicação. Corrigir qualquer lacuna encontrada.
