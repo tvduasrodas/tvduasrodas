@@ -118,14 +118,35 @@
     "url": "https://tvduasrodas.com/materia?slug=garage-tech-corrente-moto-limpeza-lubrificacao",
     "type": "program",
     "title": "Garage Tech: corrente de moto — como inspecionar, limpar e lubrificar",
-    "validatedAt": "2026-07-24T15:08:00-04:00",
+    "validatedAt": "2026-07-24T17:18:00-04:00",
     "validation": {
-      "publicUrl": "INDISPONIVEL_NO_SITE_PUBLICO",
-      "reason": "Revalidada em 24/07: a URL pública continua exibindo o template genérico, sem o título e o conteúdo da edição."
+      "publicUrl": "CONFIRMADA_NO_NAVEGADOR",
+      "reason": "Revalidada em 24/07: o conteúdo dinâmico carregou o título e a edição completa no domínio público."
     },
-    "feed": { "status": "NAO_ELEGIVEL_URL_INDISPONIVEL" },
-    "stories": { "status": "NAO_ELEGIVEL_URL_INDISPONIVEL" },
-    "reel": { "status": "NAO_ELEGIVEL_URL_INDISPONIVEL" }
+    "feed": { "status": "NAO_APLICAVEL_POR_REGRA" },
+    "stories": {
+      "asset": "output/instagram/2026-07-24/garage-tech-corrente-moto-limpeza-lubrificacao/story.mp4",
+      "copy": "output/instagram/2026-07-24/garage-tech-corrente-moto-limpeza-lubrificacao/texto-story.txt",
+      "durationSeconds": 14,
+      "dimensions": "1080x1920",
+      "videoCodec": "H.264",
+      "audioCodec": "AAC",
+      "status": "PENDENTE_AUTENTICACAO_META",
+      "attemptedAt": "2026-07-24T17:18:00-04:00",
+      "reason": "Meta Business Suite abriu a tela de login; não havia sessão autenticada disponível para Create story."
+    },
+    "reel": {
+      "asset": "output/instagram/2026-07-24/garage-tech-corrente-moto-limpeza-lubrificacao/reel.mp4",
+      "cover": "output/instagram/2026-07-24/garage-tech-corrente-moto-limpeza-lubrificacao/reel-cover.jpg",
+      "caption": "output/instagram/2026-07-24/garage-tech-corrente-moto-limpeza-lubrificacao/legenda-reel.txt",
+      "durationSeconds": 24,
+      "dimensions": "1080x1920",
+      "videoCodec": "H.264",
+      "audioCodec": "AAC",
+      "status": "PENDENTE_AUTENTICACAO_META",
+      "attemptedAt": "2026-07-24T17:18:00-04:00",
+      "reason": "Meta Business Suite abriu a tela de login; não havia sessão autenticada disponível para Create reel."
+    }
   },
   {
     "url": "https://tvduasrodas.com/evento.html?slug=capital-moto-week-2026",
