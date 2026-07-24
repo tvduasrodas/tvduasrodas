@@ -6,6 +6,7 @@ channel: Canal Motoplay
 language: pt-BR
 duration: '41:40'
 category: lancamentos
+ad_category: motos
 tags:
   - CFMOTO
   - Ibex 450

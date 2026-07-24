@@ -1706,6 +1706,23 @@ document.addEventListener("DOMContentLoaded", () => {
         return `${dia} ${mes} ${ano}`;
     }
 
+    function insertArticleMidAd(bodyEl) {
+        if (!bodyEl || bodyEl.querySelector('[data-ad-slot="article-inline"]')) return;
+        const blocks = [...bodyEl.children].filter((element) =>
+            ["P", "FIGURE", "H2", "H3", "UL", "OL", "BLOCKQUOTE"].includes(element.tagName)
+        );
+        const ad = document.createElement("aside");
+        ad.className = "tdr-ad-slot tdr-ad-slot--article-inline";
+        ad.dataset.adSlot = "article-inline";
+        ad.setAttribute("aria-label", "Publicidade contextual no meio da matéria");
+        if (!blocks.length) {
+            bodyEl.appendChild(ad);
+            return;
+        }
+        const midpoint = Math.max(1, Math.floor(blocks.length / 2));
+        blocks[midpoint].insertAdjacentElement("afterend", ad);
+    }
+
 
     /* ============================
     CARREGAMENTO DE MATÉRIA DINÂMICA (materia?slug=...)
@@ -1923,8 +1940,18 @@ document.addEventListener("DOMContentLoaded", () => {
                     const bodyEl = document.getElementById("articleBody");
                     if (bodyEl) {
                         bodyEl.innerHTML = bodyHtml || "<p>Sem conteúdo.</p>";
+                        insertArticleMidAd(bodyEl);
                         linkifyArticleBody();
                     }
+                    window.TVAds?.setContext({
+                        type: "article",
+                        ad_category: data.ad_category,
+                        title: data.title,
+                        category: data.category,
+                        program: data.programLabel || data.program,
+                        tags: data.tags,
+                        body: data.body
+                    });
 
                     // Links de compartilhamento
                     const shareBaseUrl = `${window.location.origin}${window.location.pathname}?slug=${encodeURIComponent(

@@ -47,6 +47,7 @@ collections:
           - { label: "Outros", value: "outros" }
         default: "outros"
         hint: "Escolha a categoria editorial específica. Use Outros somente quando nenhuma das categorias disponíveis representar o vídeo."
+      - { label: "Categoria publicitária", name: "ad_category", widget: "select", required: false, options: [{label: "Automática pelo conteúdo", value: ""}, {label: "Motos", value: "motos"}, {label: "Bicicletas", value: "bicicletas"}, {label: "Scooters", value: "scooters"}, {label: "Elétricos", value: "eletricos"}, {label: "Mobilidade", value: "mobilidade"}, {label: "Tecnologia", value: "tecnologia"}, {label: "Competições", value: "competicoes"}, {label: "Eventos", value: "eventos"}, {label: "Geral", value: "geral"}], default: "", hint: "Use Automática quando título, categoria e tags identificarem claramente o tema. Escolha manualmente apenas para corrigir ambiguidades." }
       - { label: "Tags", name: "tags", widget: "list", required: false, hint: "Ex: honda, yamaha, viagem" }
       - { label: "Destaque na Home?", name: "featured", widget: "boolean", default: false }
       - label: "Thumbnail"
@@ -79,6 +80,7 @@ collections:
         default: "article"
         hint: "Programas não contam como matéria diária. Notícias podem repetir categoria; matérias próprias não podem repetir categoria na mesma semana."
       - { label: "Categoria", name: "category", widget: "select", options: [{label: "Motos", value: "Moto"}, {label: "Lançamentos", value: "Lancamentos"}, {label: "Testes", value: "tests"}, {label: "Bikes", value: "bikes"}, {label: "Eventos", value: "Eventos"}, {label: "Urbanização e mobilidade", value: "Urbanizacao"}, {label: "Urbano", value: "Urbano"}, {label: "Dicas", value: "Dicas"}, {label: "Dicas e manutenção", value: "Dicas e Manutenção"}, {label: "Segurança", value: "Seguranca"}, {label: "Tecnologia", value: "Tecnologia"}, {label: "Outro", value: "Outro"}], default: "Moto" }
+      - { label: "Categoria publicitária", name: "ad_category", widget: "select", required: false, options: [{label: "Automática pelo conteúdo", value: ""}, {label: "Motos", value: "motos"}, {label: "Bicicletas", value: "bicicletas"}, {label: "Scooters", value: "scooters"}, {label: "Elétricos", value: "eletricos"}, {label: "Mobilidade", value: "mobilidade"}, {label: "Tecnologia", value: "tecnologia"}, {label: "Competições", value: "competicoes"}, {label: "Eventos", value: "eventos"}, {label: "Geral", value: "geral"}], default: "", hint: "Controla os anúncios da matéria ou programa; Automática usa título, categoria, programa, tags e texto." }
       - label: "Programa da Revista"
         name: "program"
         widget: "select"
@@ -119,6 +121,7 @@ collections:
       - { label: "País", name: "country", widget: "string", default: "Brasil" }
       - { label: "Abrangência", name: "scope", widget: "select", options: ["Estadual", "Nacional", "Continental", "Mundial"], default: "Nacional" }
       - { label: "Modalidade", name: "modality", widget: "string" }
+      - { label: "Categoria publicitária", name: "ad_category", widget: "select", required: false, options: [{label: "Automática pela modalidade", value: ""}, {label: "Motos", value: "motos"}, {label: "Bicicletas", value: "bicicletas"}, {label: "Scooters", value: "scooters"}, {label: "Elétricos", value: "eletricos"}, {label: "Competições", value: "competicoes"}, {label: "Eventos", value: "eventos"}, {label: "Geral", value: "geral"}], default: "" }
       - { label: "Situação", name: "status", widget: "select", options: [{label: "Em andamento", value: "em_andamento"}, {label: "Agendada", value: "agendada"}, {label: "Concluída", value: "concluida"}, {label: "Cancelada", value: "cancelado"}], default: "em_andamento" }
       - { label: "Organizador", name: "organizer", widget: "string" }
       - { label: "Site oficial", name: "official_url", widget: "string" }
@@ -194,6 +197,7 @@ collections:
       - { label: "Local", name: "venue", widget: "string" }
       - { label: "Situação", name: "status", widget: "select", options: [{label: "Próximo", value: "proximo"}, {label: "Em andamento", value: "em_andamento"}, {label: "Encerrado", value: "encerrado"}, {label: "Cancelado", value: "cancelado"}], default: "proximo" }
       - { label: "Tipo", name: "event_type", widget: "string" }
+      - { label: "Categoria publicitária", name: "ad_category", widget: "select", required: false, options: [{label: "Automática pelo tipo e título", value: ""}, {label: "Motos", value: "motos"}, {label: "Bicicletas", value: "bicicletas"}, {label: "Scooters", value: "scooters"}, {label: "Elétricos", value: "eletricos"}, {label: "Mobilidade", value: "mobilidade"}, {label: "Tecnologia", value: "tecnologia"}, {label: "Competições", value: "competicoes"}, {label: "Eventos", value: "eventos"}, {label: "Geral", value: "geral"}], default: "" }
       - { label: "Site oficial", name: "official_url", widget: "string" }
       - { label: "Ingressos / acesso", name: "ticket_url", widget: "string", required: false }
       - { label: "Sala de imprensa", name: "press_url", widget: "string", required: false }

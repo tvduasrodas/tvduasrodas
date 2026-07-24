@@ -76,6 +76,24 @@ Até o encerramento das 20h (horário Eastern), o worker deve entregar:
 - Edições de programa usam `contentType: "program"` e não participam da contagem da matéria diária nem da rotação de categorias das matérias próprias.
 - Notícia cujo conteúdo principal seja agenda, serviço ou programação deve ir para Eventos. Resultado, classificação, etapa, liderança ou calendário esportivo deve atualizar Competições. Só publicar também na Revista quando existir uma reportagem editorial própria, com contexto e valor além da atualização estrutural.
 
+## Regra obrigatória de anúncios contextuais
+
+- Todo anúncio exibido em matéria, artigo, programa, vídeo, competição ou evento deve corresponder ao tema principal do conteúdo. É proibido exibir campanha de Bicicletas em conteúdo de Motos, campanha de Motos em conteúdo de Scooters ou qualquer outra combinação incompatível.
+- As categorias publicitárias oficiais são: `motos`, `bicicletas`, `scooters`, `eletricos`, `mobilidade`, `tecnologia`, `competicoes`, `eventos` e `geral`.
+- Toda nova publicação deve receber `ad_category` explícita quando houver ambiguidade. Quando o campo estiver vazio, o sistema pode inferir a categoria por título, categoria editorial, programa, modalidade, tipo de evento, tags e texto. A automação deve revisar a inferência antes de publicar; `geral` é apenas fallback e não deve substituir uma categoria identificável.
+- Campanhas e patrocinadores são administrados centralmente em `content/ads/config.json`. É proibido gravar o patrocinador diretamente em uma única matéria ou trocar banners página por página. A inclusão ou substituição de uma campanha de Scooters, por exemplo, deve atualizar automaticamente todos os espaços elegíveis de conteúdos classificados como Scooters.
+- Os formatos comerciais oficiais são:
+  1. `retangulo-lateral-300` — **Retângulo Lateral 300**, criação de 300 × 250 px, no topo da lateral de matérias e vídeos.
+  2. `faixa-editorial-728` — **Faixa Editorial 728**, criação de 728 × 90 px, no meio da matéria e na área contextual do vídeo.
+  3. `billboard-cobertura-970` — **Billboard de Cobertura 970**, criação de 970 × 250 px, em competições, eventos e páginas especiais.
+- Em matéria ou programa individual são obrigatórios dois espaços: o Retângulo Lateral 300 antes de `Mais matérias` e a Faixa Editorial 728 inserida no meio real do corpo editorial. A faixa nunca deve ficar imediatamente abaixo da imagem hero.
+- Em vídeo, o Retângulo Lateral 300 e a Faixa Editorial 728 devem acompanhar a categoria do vídeo selecionado no player e mudar quando o usuário selecionar outro vídeo.
+- Em competição ou evento, o Billboard de Cobertura 970 deve usar primeiro a modalidade ou o tema específico: MTB, BMX e ciclismo recebem Bicicletas; MotoGP, motocross, enduro e similares recebem Motos; festivais ou feiras sem produto predominante podem receber Eventos.
+- Campanha com situação inativa, data futura ou período encerrado não pode aparecer. Na ausência de campanha ativa da categoria e do formato, usar somente a campanha institucional `geral`.
+- No celular, as peças devem ser responsivas, preservar proporção, legibilidade, área segura e link. A dimensão comercial continua sendo a criação desktop registrada no plano.
+- Antes de encerrar qualquer alteração publicitária, validar pelo menos uma página de Motos e uma de Bicicletas, confirmar categorias diferentes no DOM, conferir os dois espaços da matéria, testar troca de vídeo, competição/evento, responsividade, links e ausência de deslocamento de layout.
+- Nomes, dimensões, regras de venda, pacotes e requisitos ficam documentados em `PLANO-COMERCIAL-ANUNCIOS.md`. Mudanças de formato exigem atualização simultânea desse plano, desta rotina, de `content/ads/config.json` e das automações.
+
 ## Matriz obrigatória de fontes confiáveis para eventos e competições
 
 É proibido concluir que “não há resultado”, “não há classificação” ou “a fonte oficial ainda não publicou” depois de consultar somente a página principal, a área de notícias ou um único domínio. Para cada campeonato, torneio, etapa, rodada ou evento, a pesquisa deve percorrer a matriz abaixo e procurar também páginas, PDFs, planilhas, APIs, arquivos para download e plataformas externas vinculadas.

@@ -36,6 +36,10 @@ def main() -> int:
     args = parser.parse_args()
     errors: list[str] = []
     warnings: list[str] = []
+    ad_categories = {
+        "motos", "bicicletas", "scooters", "eletricos", "mobilidade",
+        "tecnologia", "competicoes", "eventos", "geral",
+    }
 
     json_files = sorted((ROOT / "content").rglob("*.json"))
     json_files += sorted((ROOT / "editorial").rglob("*.json"))
@@ -77,6 +81,11 @@ def main() -> int:
             if category and category not in allowed_categories[collection]:
                 errors.append(
                     f"Categoria fora do CMS: {path.relative_to(ROOT)}: {category}"
+                )
+            ad_category = values.get("ad_category")
+            if ad_category and ad_category not in ad_categories:
+                errors.append(
+                    f"Categoria publicitária inválida: {path.relative_to(ROOT)}: {ad_category}"
                 )
             if collection == "news" and values.get("date", "").startswith(today.date().isoformat()):
                 daily_news.append(values)
@@ -156,6 +165,39 @@ def main() -> int:
     config = (ROOT / "admin" / "config.yml").read_text(encoding="utf-8-sig")
     if re.search(r'widget:\s*["\']date["\']', config):
         errors.append("Sveltia CMS: ainda existem campos com widget date obsoleto")
+
+    ads_path = ROOT / "content" / "ads" / "config.json"
+    try:
+        ads = json.loads(ads_path.read_text(encoding="utf-8-sig"))
+        formats = ads.get("formats", {})
+        required_formats = {
+            "retangulo-lateral-300": (300, 250),
+            "faixa-editorial-728": (728, 90),
+            "billboard-cobertura-970": (970, 250),
+        }
+        for name, (width, height) in required_formats.items():
+            item = formats.get(name, {})
+            if (item.get("width"), item.get("height")) != (width, height):
+                errors.append(f"Formato publicitário inválido: {name}")
+        campaigns = ads.get("campaigns", [])
+        campaign_ids = [item.get("id") for item in campaigns]
+        if len(campaign_ids) != len(set(campaign_ids)):
+            errors.append("Campanhas publicitárias com IDs duplicados")
+        for campaign in campaigns:
+            invalid_categories = set(campaign.get("categories", [])) - ad_categories
+            invalid_formats = set(campaign.get("formats", [])) - set(formats)
+            if invalid_categories:
+                errors.append(
+                    f"Campanha {campaign.get('id')} com categoria inválida: "
+                    f"{', '.join(sorted(invalid_categories))}"
+                )
+            if invalid_formats:
+                errors.append(
+                    f"Campanha {campaign.get('id')} com formato inválido: "
+                    f"{', '.join(sorted(invalid_formats))}"
+                )
+    except (OSError, json.JSONDecodeError) as exc:
+        errors.append(f"Configuração publicitária inválida: {exc}")
 
     try:
         sitemap = ET.parse(ROOT / "sitemap.xml").getroot()

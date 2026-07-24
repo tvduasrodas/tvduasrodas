@@ -3,6 +3,7 @@ title: "Brasileiro de MTB 2026: Cocuzzi e Iara abrem disputa com títulos no XCE
 date: "2026-07-24T14:18:00-04:00"
 author: "Redação TVDUASRODAS"
 category: "Eventos"
+ad_category: bicicletas
 contentType: "news"
 readingTime: "6 min"
 kicker: "Primeiro dia"

@@ -259,6 +259,112 @@ button {
 .site-ad-rectangle a:focus-visible { outline: 3px solid rgba(255, 122, 24, .4); outline-offset: 3px; }
 .site-ad-rectangle--article { margin: 22px 0 30px; }
 
+/* Sistema publicitário contextual */
+
+.tdr-ad-slot {
+    width: 100%;
+    margin: 24px auto;
+}
+
+.sidebar > .tdr-ad-slot:first-child { margin-top: 0; }
+.article-body > .tdr-ad-slot { margin: 36px 0; }
+
+.tdr-ad {
+    position: relative;
+    isolation: isolate;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,.16);
+    border-radius: 16px;
+    color: #fff;
+    background:
+        radial-gradient(circle at 88% 12%, rgba(255,122,24,.38), transparent 34%),
+        linear-gradient(135deg, #070b12, #182235);
+    box-shadow: 0 14px 34px rgba(15,23,42,.22);
+    transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+
+.tdr-ad:hover,
+.tdr-ad:focus-visible {
+    border-color: #ff7a18;
+    color: #fff;
+    box-shadow: 0 18px 42px rgba(234,88,12,.24);
+    transform: translateY(-2px);
+}
+
+.tdr-ad:focus-visible { outline: 3px solid rgba(255,122,24,.42); outline-offset: 3px; }
+.tdr-ad > img { position: absolute; inset: 0; z-index: -2; width: 100%; height: 100%; object-fit: cover; }
+.tdr-ad > img + .tdr-ad__content::before { content: ""; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, rgba(4,7,12,.96), rgba(4,7,12,.58)); }
+
+.tdr-ad__content {
+    display: flex;
+    min-width: 0;
+    padding: 22px 25px;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tdr-ad__content small {
+    margin-bottom: 7px;
+    color: #ff9b4a;
+    font-size: 9px;
+    font-weight: 900;
+    letter-spacing: .13em;
+    text-transform: uppercase;
+}
+
+.tdr-ad__content strong { max-width: 720px; font-size: clamp(21px, 2.4vw, 32px); line-height: 1.04; }
+.tdr-ad__content > span { max-width: 720px; margin-top: 8px; color: #cbd5e1; font-size: 13px; line-height: 1.4; }
+.tdr-ad__content em { width: max-content; margin-top: 12px; padding: 7px 11px; border-radius: 999px; color: #141922; background: #ff8a32; font-size: 10px; font-style: normal; font-weight: 900; text-transform: uppercase; }
+.tdr-ad__format { position: absolute; right: 12px; bottom: 9px; color: rgba(255,255,255,.52); font-size: 8px; letter-spacing: .05em; }
+
+.tdr-ad-slot--retangulo-lateral-300 { max-width: 300px; }
+.tdr-ad-slot--retangulo-lateral-300 .tdr-ad { aspect-ratio: 300 / 250; }
+.tdr-ad-slot--retangulo-lateral-300 .tdr-ad__content { padding: 20px; }
+.tdr-ad-slot--retangulo-lateral-300 .tdr-ad__content strong { font-size: 24px; }
+.tdr-ad-slot--retangulo-lateral-300 .tdr-ad__content > span { font-size: 11px; }
+
+.tdr-ad-slot--faixa-editorial-728 { max-width: 728px; }
+.tdr-ad-slot--faixa-editorial-728 .tdr-ad { min-height: 90px; }
+.tdr-ad-slot--faixa-editorial-728 .tdr-ad__content { display: grid; grid-template-columns: minmax(190px, 1.1fr) minmax(210px, 1.4fr) auto; align-items: center; gap: 14px; padding: 15px 20px; }
+.tdr-ad-slot--faixa-editorial-728 .tdr-ad__content small { grid-column: 1; margin: 0; }
+.tdr-ad-slot--faixa-editorial-728 .tdr-ad__content strong { grid-column: 1; font-size: 19px; }
+.tdr-ad-slot--faixa-editorial-728 .tdr-ad__content > span { grid-column: 2; grid-row: 1 / span 2; margin: 0; font-size: 11px; }
+.tdr-ad-slot--faixa-editorial-728 .tdr-ad__content em { grid-column: 3; grid-row: 1 / span 2; margin: 0; white-space: nowrap; }
+
+.tdr-ad-slot--billboard-cobertura-970 { max-width: 970px; }
+.tdr-ad-slot--billboard-cobertura-970 .tdr-ad { aspect-ratio: 970 / 250; min-height: 190px; }
+
+.tdr-ad-slot--bicicletas .tdr-ad { background: radial-gradient(circle at 88% 12%, rgba(34,197,94,.38), transparent 34%), linear-gradient(135deg, #07110c, #123222); }
+.tdr-ad-slot--bicicletas .tdr-ad__content small { color: #7ee2a0; }
+.tdr-ad-slot--bicicletas .tdr-ad__content em { background: #4ade80; }
+.tdr-ad-slot--scooters .tdr-ad { background: radial-gradient(circle at 88% 12%, rgba(56,189,248,.4), transparent 34%), linear-gradient(135deg, #071019, #123247); }
+.tdr-ad-slot--scooters .tdr-ad__content small { color: #7dd3fc; }
+.tdr-ad-slot--scooters .tdr-ad__content em { background: #38bdf8; }
+.tdr-ad-slot--eletricos .tdr-ad { background: radial-gradient(circle at 88% 12%, rgba(163,230,53,.38), transparent 34%), linear-gradient(135deg, #0c1305, #253913); }
+.tdr-ad-slot--eletricos .tdr-ad__content small { color: #bef264; }
+.tdr-ad-slot--eletricos .tdr-ad__content em { background: #a3e635; }
+.tdr-ad-slot--competicoes .tdr-ad { background: radial-gradient(circle at 88% 12%, rgba(239,68,68,.42), transparent 34%), linear-gradient(135deg, #140707, #3b1515); }
+.tdr-ad-slot--eventos .tdr-ad { background: radial-gradient(circle at 88% 12%, rgba(168,85,247,.42), transparent 34%), linear-gradient(135deg, #100719, #301348); }
+.tdr-ad-slot--eventos .tdr-ad__content small { color: #d8b4fe; }
+.tdr-ad-slot--eventos .tdr-ad__content em { background: #c084fc; }
+.tdr-ad-slot--mobilidade .tdr-ad { background: radial-gradient(circle at 88% 12%, rgba(14,165,233,.4), transparent 34%), linear-gradient(135deg, #06121a, #0c3248); }
+.tdr-ad-slot--tecnologia .tdr-ad { background: radial-gradient(circle at 88% 12%, rgba(99,102,241,.42), transparent 34%), linear-gradient(135deg, #08091a, #202255); }
+
+@media (max-width: 700px) {
+    .tdr-ad-slot { max-width: 100%; }
+    .tdr-ad-slot--faixa-editorial-728 .tdr-ad,
+    .tdr-ad-slot--billboard-cobertura-970 .tdr-ad { min-height: 180px; aspect-ratio: auto; }
+    .tdr-ad-slot--faixa-editorial-728 .tdr-ad__content { display: flex; padding: 20px; }
+    .tdr-ad-slot--faixa-editorial-728 .tdr-ad__content small { margin-bottom: 7px; }
+    .tdr-ad-slot--faixa-editorial-728 .tdr-ad__content strong { font-size: 22px; }
+    .tdr-ad-slot--faixa-editorial-728 .tdr-ad__content > span { margin-top: 8px; font-size: 12px; }
+    .tdr-ad-slot--faixa-editorial-728 .tdr-ad__content em { margin-top: 12px; }
+    .tdr-ad__format { display: none; }
+}
+
 .sponsor-promo:hover .sponsor-promo__button,
 .sponsor-promo:focus-visible .sponsor-promo__button {
     background: #ffad42;

@@ -1,0 +1,151 @@
+{
+  "version": "2026-07-24",
+  "formats": {
+    "retangulo-lateral-300": {
+      "commercial_name": "Retângulo Lateral 300",
+      "width": 300,
+      "height": 250,
+      "use": "Topo da coluna lateral de matérias e vídeos"
+    },
+    "faixa-editorial-728": {
+      "commercial_name": "Faixa Editorial 728",
+      "width": 728,
+      "height": 90,
+      "use": "Meio de matérias e área contextual de vídeos"
+    },
+    "billboard-cobertura-970": {
+      "commercial_name": "Billboard de Cobertura 970",
+      "width": 970,
+      "height": 250,
+      "use": "Competições, eventos e páginas especiais"
+    }
+  },
+  "slots": {
+    "article-sidebar": { "format": "retangulo-lateral-300" },
+    "article-inline": { "format": "faixa-editorial-728" },
+    "video-sidebar": { "format": "retangulo-lateral-300" },
+    "video-inline": { "format": "faixa-editorial-728" },
+    "detail-billboard": { "format": "billboard-cobertura-970" },
+    "central-billboard": { "format": "billboard-cobertura-970" }
+  },
+  "category_rules": {
+    "scooters": ["scooter", "scooters", "vespa", "pcx", "nmax", "xmax", "citycom"],
+    "eletricos": ["elétrico", "eletrica", "elétrica", "eletricos", "elétricos", "e-bike", "ebike", "bateria", "recarga", "electric zone"],
+    "bicicletas": ["bicicleta", "bicicletas", "bike", "bikes", "ciclismo", "mtb", "bmx", "xco", "xcc", "xce", "xcm", "downhill", "gravel", "pedal", "paraciclismo"],
+    "motos": ["moto", "motos", "motocicleta", "motociclismo", "motogp", "worldsbk", "superbike", "motocross", "arenacross", "arena cross", "enduro", "rally", "motovelocidade", "big trail", "hard enduro", "moto climb", "cfmoto"],
+    "mobilidade": ["mobilidade", "urbano", "urbanização", "cidade", "trânsito", "segurança"],
+    "tecnologia": ["tecnologia", "mecânica", "manutenção", "garage tech", "componente"],
+    "competicoes": ["competição", "competicoes", "competições", "campeonato", "classificação", "resultado"],
+    "eventos": ["evento", "eventos", "festival", "feira", "salão", "encontro"]
+  },
+  "campaigns": [
+    {
+      "id": "casa-motos-2026",
+      "status": "active",
+      "categories": ["motos"],
+      "formats": ["retangulo-lateral-300", "faixa-editorial-728", "billboard-cobertura-970"],
+      "label": "Publicidade · Motos",
+      "title": "Sua marca acelera com quem vive de moto.",
+      "description": "Campanhas para motociclistas, produtos, equipamentos, oficinas e experiências.",
+      "cta": "Anuncie em Motos",
+      "url": "contato.html#patrocinio",
+      "theme": "motos"
+    },
+    {
+      "id": "casa-bicicletas-2026",
+      "status": "active",
+      "categories": ["bicicletas"],
+      "formats": ["retangulo-lateral-300", "faixa-editorial-728", "billboard-cobertura-970"],
+      "label": "Publicidade · Bicicletas",
+      "title": "Pedale com uma audiência apaixonada.",
+      "description": "Espaço para marcas de bicicletas, componentes, vestuário, provas e serviços.",
+      "cta": "Anuncie em Bicicletas",
+      "url": "contato.html#patrocinio",
+      "theme": "bicicletas"
+    },
+    {
+      "id": "casa-scooters-2026",
+      "status": "active",
+      "categories": ["scooters"],
+      "formats": ["retangulo-lateral-300", "faixa-editorial-728", "billboard-cobertura-970"],
+      "label": "Publicidade · Scooters",
+      "title": "Sua marca no ritmo da mobilidade urbana.",
+      "description": "Conecte produtos e serviços a quem escolhe scooter para o dia a dia.",
+      "cta": "Anuncie em Scooters",
+      "url": "contato.html#patrocinio",
+      "theme": "scooters"
+    },
+    {
+      "id": "casa-eletricos-2026",
+      "status": "active",
+      "categories": ["eletricos"],
+      "formats": ["retangulo-lateral-300", "faixa-editorial-728", "billboard-cobertura-970"],
+      "label": "Publicidade · Elétricos",
+      "title": "Energia para a nova mobilidade.",
+      "description": "Campanhas de veículos elétricos, baterias, recarga e tecnologia limpa.",
+      "cta": "Anuncie em Elétricos",
+      "url": "contato.html#patrocinio",
+      "theme": "eletricos"
+    },
+    {
+      "id": "casa-competicoes-2026",
+      "status": "active",
+      "categories": ["competicoes"],
+      "formats": ["retangulo-lateral-300", "faixa-editorial-728", "billboard-cobertura-970"],
+      "label": "Publicidade · Competições",
+      "title": "Sua marca acompanha cada largada.",
+      "description": "Presença em resultados, classificações, etapas e coberturas esportivas.",
+      "cta": "Patrocine Competições",
+      "url": "contato.html#patrocinio",
+      "theme": "competicoes"
+    },
+    {
+      "id": "casa-eventos-2026",
+      "status": "active",
+      "categories": ["eventos"],
+      "formats": ["retangulo-lateral-300", "faixa-editorial-728", "billboard-cobertura-970"],
+      "label": "Publicidade · Eventos",
+      "title": "Encontre o público antes, durante e depois do evento.",
+      "description": "Divulgação contextual para festivais, feiras, encontros e experiências.",
+      "cta": "Patrocine Eventos",
+      "url": "contato.html#patrocinio",
+      "theme": "eventos"
+    },
+    {
+      "id": "casa-mobilidade-2026",
+      "status": "active",
+      "categories": ["mobilidade"],
+      "formats": ["retangulo-lateral-300", "faixa-editorial-728", "billboard-cobertura-970"],
+      "label": "Publicidade · Mobilidade",
+      "title": "Sua solução no caminho de quem move a cidade.",
+      "description": "Mobilidade urbana, segurança, serviços e infraestrutura.",
+      "cta": "Anuncie em Mobilidade",
+      "url": "contato.html#patrocinio",
+      "theme": "mobilidade"
+    },
+    {
+      "id": "casa-tecnologia-2026",
+      "status": "active",
+      "categories": ["tecnologia"],
+      "formats": ["retangulo-lateral-300", "faixa-editorial-728", "billboard-cobertura-970"],
+      "label": "Publicidade · Tecnologia",
+      "title": "Tecnologia para quem entende de duas rodas.",
+      "description": "Ferramentas, manutenção, componentes, conectividade e inovação.",
+      "cta": "Anuncie em Tecnologia",
+      "url": "contato.html#patrocinio",
+      "theme": "tecnologia"
+    },
+    {
+      "id": "casa-geral-2026",
+      "status": "active",
+      "categories": ["geral"],
+      "formats": ["retangulo-lateral-300", "faixa-editorial-728", "billboard-cobertura-970"],
+      "label": "Publicidade · TVDUASRODAS",
+      "title": "Sua marca em movimento.",
+      "description": "Revista, vídeos, competições e eventos para o universo das duas rodas.",
+      "cta": "Conheça os formatos",
+      "url": "contato.html#patrocinio",
+      "theme": "geral"
+    }
+  ]
+}

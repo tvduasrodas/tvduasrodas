@@ -15,7 +15,7 @@
 
 
     <link rel="icon" href="assets/img/logoTVicon_web.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="assets/css/style.css?v=20260721-1" />
+    <link rel="stylesheet" href="assets/css/style.css?v=20260724e" />
 </head>
 <body class="page-internal">
     <!-- BARRA TOPO (ANÚNCIO) -->
@@ -114,6 +114,8 @@
                     </div>
                 </section>
 
+                <aside class="tdr-ad-slot" data-ad-slot="video-inline" aria-label="Publicidade contextual do vídeo"></aside>
+
 
                 <!-- LIVE STREAM (ligado ao CMS, igual à Home) -->
                 <section class="tv-live-section">
@@ -168,15 +170,7 @@
 
             <!-- SIDEBAR (AGORA VERTICAL, DO LADO MESMO) -->
             <aside class="sidebar">
-                <a class="sponsor-promo" href="contato.html#patrocinio" aria-label="Conheça as oportunidades de patrocínio da TV Duas Rodas">
-                    <img src="assets/img/uploads/patrocine-tvduasrodas-sidebar-2026.webp" alt="" width="1375" height="1144" loading="eager" />
-                    <span class="sponsor-promo__content">
-                        <span class="sponsor-promo__eyebrow">Sua marca em movimento</span>
-                        <strong>Patrocine quem vive sobre duas rodas.</strong>
-                        <span class="sponsor-promo__text">Revista, vídeos e eventos para um público apaixonado.</span>
-                        <span class="sponsor-promo__button">Quero patrocinar</span>
-                    </span>
-                </a>
+                <aside class="tdr-ad-slot" data-ad-slot="video-sidebar" aria-label="Publicidade contextual do vídeo"></aside>
 
                 <div class="sidebar-box">
                     <h3>Grade de programação</h3>
@@ -212,7 +206,8 @@
         </div>
     </footer>
 
-    <script src="assets/js/main.js?v=20260721-3"></script>
+    <script src="assets/js/ads.js?v=20260724e"></script>
+    <script src="assets/js/main.js?v=20260724e"></script>
     <script>
         // Config GitHub (mesma config da Home)
         const GITHUB_OWNER_TV = "tvduasrodas";
@@ -542,6 +537,14 @@
                             inLanguage: selectedVideo.language || "pt-BR"
                         });
                         document.head.appendChild(structuredData);
+                        window.TVAds?.setContext({
+                            type: "video",
+                            ad_category: selectedVideo.ad_category,
+                            title: selectedVideo.title,
+                            category: selectedVideo.category,
+                            tags: selectedVideo.tags,
+                            body: selectedVideo.body
+                        });
                     }
                 }
 
@@ -555,6 +558,14 @@
                     if (latestId) {
                         mainPlayer.setAttribute("data-default-id", latestId);
                         mainPlayer.src = `https://www.youtube.com/embed/${latestId}`;
+                        window.TVAds?.setContext({
+                            type: "video",
+                            ad_category: latestVideo.ad_category,
+                            title: latestVideo.title,
+                            category: latestVideo.category,
+                            tags: latestVideo.tags,
+                            body: latestVideo.body
+                        });
                     }
                 }
 
@@ -703,6 +714,19 @@
 
                     const embedUrl = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
                     mainPlayer.src = embedUrl;
+                    const selectedVideo = tvVideos.find((video) =>
+                        extractYouTubeIdTv(video.youtube_url || video.videoId || "") === videoId
+                    );
+                    if (selectedVideo) {
+                        window.TVAds?.setContext({
+                            type: "video",
+                            ad_category: selectedVideo.ad_category,
+                            title: selectedVideo.title,
+                            category: selectedVideo.category,
+                            tags: selectedVideo.tags,
+                            body: selectedVideo.body
+                        });
+                    }
 
                     // 🔽 AUTO-SCROLL PRO PLAYER PRINCIPAL
                     const tvMainSection = document.querySelector(".tv-main-player");
