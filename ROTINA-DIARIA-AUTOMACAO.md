@@ -21,6 +21,14 @@ Versão atualizada em 23 de julho de 2026. Esta rotina é obrigatória para o wo
 - Se a execução perceber que não está em uma tarefa nova e independente, deve interromper o trabalho nessa tarefa e iniciar uma nova tarefa antes de prosseguir. Não é permitido compensar essa falha resumindo ou limpando a conversa existente.
 - A execução deve declarar no primeiro resumo interno da janela: `nova tarefa confirmada`, `ROTINA-DIARIA-AUTOMACAO.md lida integralmente`, data, dia da semana e horário calculados em Eastern.
 
+## Visibilidade obrigatória da última tarefa automática
+
+- A tarefa criada para cada ocorrência automática nunca deve ser arquivada ao concluir.
+- Ao finalizar a execução, depois do relatório e de todas as validações obrigatórias, usar a ferramenta nativa de navegação do Codex para abrir e manter visível a própria tarefa da ocorrência. A última tarefa automática concluída deve permanecer como a tarefa aberta no aplicativo, para que Wesley veja imediatamente onde a automação parou.
+- Nunca usar Computer Use para controlar a interface do Codex. Para abrir a tarefa, usar somente a ferramenta nativa de navegação de tarefas do aplicativo.
+- Se a navegação para a própria tarefa não estiver disponível, manter a tarefa sem arquivamento, entregar a resposta final completa e registrar no relatório que a abertura automática da tarefa não pôde ser confirmada.
+- Não retornar automaticamente a uma tarefa anterior depois da conclusão. A ocorrência mais recente tem prioridade de visibilidade.
+
 ## Particionamento das automações e aplicação das regras
 
 Existem duas automações ativas vinculadas ao projeto `TVDUASRODAS`, e não uma configuração separada para cada horário:
