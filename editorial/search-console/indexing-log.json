@@ -2,7 +2,7 @@
   "property": "https://tvduasrodas.com/",
   "authorized_account": "tvduasrodas@gmail.com",
   "sitemap": "https://tvduasrodas.com/sitemap.xml",
-  "updated_at": "2026-07-24T14:27:00-04:00",
+  "updated_at": "2026-07-24T15:48:00-04:00",
   "entries": [
     {
       "url": "https://www.tvduasrodas.com/competicoes-eventos.html",
@@ -129,6 +129,20 @@
       "index_status_before": "O URL não está no Google — Detectada, mas não indexada no momento",
       "sitemap": "https://tvduasrodas.com/sitemap.xml",
       "sitemap_status": "Reenviado em 2026-07-24; sitemap público validado com 91 URLs; processamento periódico do Google pendente",
+      "indexing_requested": true,
+      "request_result": "Adicionado à fila de rastreamento prioritário"
+    },
+    {
+      "url": "https://tvduasrodas.com/competicao.html?slug=brasileiro-downhill-2026",
+      "slug": "brasileiro-downhill-2026",
+      "type": "competicao",
+      "published_at": "2026-07-24",
+      "inspected_at": "2026-07-24T15:48:00-04:00",
+      "account": "tvduasrodas@gmail.com",
+      "property": "sc-domain:tvduasrodas.com",
+      "index_status_before": "A página não está indexada — O Google não reconhece o URL",
+      "sitemap": "https://tvduasrodas.com/sitemap.xml",
+      "sitemap_status": "Reenviado em 2026-07-24; sitemap público validado com 92 URLs",
       "indexing_requested": true,
       "request_result": "Adicionado à fila de rastreamento prioritário"
     }
