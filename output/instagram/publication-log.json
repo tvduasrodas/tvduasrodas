@@ -131,10 +131,12 @@
       "dimensions": "1080x1920",
       "videoCodec": "H.264",
       "audioCodec": "AAC",
-      "status": "PENDENTE_FALHA_INTERFACE_META",
+      "status": "PUBLICADO",
       "attemptedAt": "2026-07-24T17:18:00-04:00",
       "retriedAt": "2026-07-24T17:34:55-04:00",
-      "reason": "A sessão de @tvduasrodasofc foi confirmada no Meta Business Suite, mas Create story não abriu o fluxo de upload nem expôs campo de arquivo após a ação. Nenhum Story foi enviado."
+      "publishedAt": "2026-07-24T17:35:00-04:00",
+      "permalink": "https://www.instagram.com/stories/tvduasrodasofc/",
+      "publicationConfirmation": "Story de 14 segundos confirmado na lista Active do Meta Business Suite, com 23 horas restantes."
     },
     "reel": {
       "asset": "output/instagram/2026-07-24/garage-tech-corrente-moto-limpeza-lubrificacao/reel.mp4",
@@ -144,10 +146,12 @@
       "dimensions": "1080x1920",
       "videoCodec": "H.264",
       "audioCodec": "AAC",
-      "status": "PENDENTE_FALHA_INTERFACE_META",
+      "status": "PUBLICADO",
       "attemptedAt": "2026-07-24T17:18:00-04:00",
       "retriedAt": "2026-07-24T17:34:55-04:00",
-      "reason": "A sessão de @tvduasrodasofc foi confirmada no Meta Business Suite, mas Create story não abriu o fluxo de upload nem expôs campo de arquivo após a ação; o Reel não foi iniciado para evitar uma publicação parcial ou duplicada."
+      "publishedAt": "2026-07-24T17:40:00-04:00",
+      "metaContentId": "18109509632055819",
+      "publicationConfirmation": "Reel de 24 segundos confirmado na lista Published do Meta Business Suite."
     }
   },
   {
