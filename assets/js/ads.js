@@ -23,16 +23,22 @@
         return configPromise;
     }
 
-    function contextText(context) {
+    function contextText(context, includeBody = true) {
         return normalize([
             context.category,
             context.title,
             context.modality,
             context.event_type,
             context.program,
-            context.body,
+            includeBody ? context.body : "",
             ...(Array.isArray(context.tags) ? context.tags : [])
         ].filter(Boolean).join(" "));
+    }
+
+    function categoryFromText(text, rules, priority) {
+        return priority.find((category) =>
+            (rules[category] || []).some((keyword) => text.includes(normalize(keyword)))
+        );
     }
 
     function resolveCategory(context, config) {
@@ -49,14 +55,12 @@
             geral: "geral"
         };
         if (explicitAliases[explicitCategory]) return explicitAliases[explicitCategory];
-        const text = contextText(context);
         const rules = config.category_rules || {};
         const priority = ["scooters", "eletricos", "bicicletas", "motos", "mobilidade", "tecnologia", "competicoes", "eventos"];
-        for (const category of priority) {
-            if ((rules[category] || []).some((keyword) => text.includes(normalize(keyword)))) {
-                return category;
-            }
-        }
+        const primaryCategory = categoryFromText(contextText(context, false), rules, priority);
+        if (primaryCategory) return primaryCategory;
+        const bodyCategory = categoryFromText(normalize(context.body), rules, priority);
+        if (bodyCategory) return bodyCategory;
         if (context.type === "competition") return "competicoes";
         if (context.type === "event") return "eventos";
         return "geral";
