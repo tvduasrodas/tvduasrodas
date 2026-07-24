@@ -31,11 +31,14 @@ Versão atualizada em 24 de julho de 2026. Esta rotina é obrigatória para o wo
 
 ## Particionamento das automações e aplicação das regras
 
-Existem três automações ativas vinculadas ao projeto `TVDUASRODAS`, e não uma configuração separada para cada horário:
+Existem quatro configurações ativas vinculadas ao projeto `TVDUASRODAS`, organizadas em três rotinas lógicas:
 
 1. `Atualizações otimizadas TV Duas Rodas`: uma única configuração executada às **08h, 11h, 14h, 17h e 20h**. O horário determina qual janela editorial deste documento deve ser executada; todas as regras universais, especialmente leitura inicial, isolamento, qualidade, validação, commit, push, recuperação, Search Console e relatório, valem igualmente nas cinco ocorrências.
 2. `Instagram TVDUASRODAS — Reels e Stories`: uma única configuração executada às **08h30, 11h30, 14h30, 17h30 e 20h30**. Todas as regras universais valem igualmente nas cinco ocorrências, acrescidas das regras específicas da seção **Instagram — somente Reels e Stories**.
-3. `Recuperação de pendências TVDUASRODAS`: uma única configuração executada às **08h40, 11h40, 14h40, 17h10 e 20h10**. Ela audita se as ocorrências editoriais e de Instagram anteriores rodaram e terminaram corretamente, retoma trabalhos pausados ou com falha e conclui todo backlog executável sem duplicar publicações.
+3. `Recuperação de pendências TVDUASRODAS`: uma única rotina lógica implementada por duas configurações coordenadas, porque o agendador exige grupos com o mesmo minuto:
+   - `Recuperação de pendências TVDUASRODAS — manhã e tarde`, às **08h40, 11h40 e 14h40**.
+   - `Recuperação de pendências TVDUASRODAS — fim do dia`, às **17h10 e 20h10**.
+   As duas usam as mesmas regras, auditam se as ocorrências editoriais e de Instagram anteriores rodaram e terminaram corretamente, retomam trabalhos pausados ou com falha e concluem todo backlog executável sem duplicar publicações.
 
 - É proibido criar versões de regras diferentes por horário dentro da mesma automação. Uma regra universal adicionada ou alterada deve ser aplicada à configuração completa e, portanto, a todas as ocorrências daquela automação.
 - Diferenças entre horários podem existir somente no trabalho editorial específico descrito nas seções 08h, 11h, 14h, 17h e 20h, nunca nas regras de leitura obrigatória, isolamento, autorização, commit, push, recuperação ou confirmação remota.

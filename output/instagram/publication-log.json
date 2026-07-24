@@ -80,35 +80,48 @@
     "feed": {
       "asset": null,
       "caption": "Gancho: chuva muda a aderência e a visibilidade. Contexto: confira pneus, freios, equipamentos e margem de segurança antes do trajeto. CTA: siga @tvduasrodasofc. #MotoNaChuva #SegurancaNoTransito #Motociclismo #DicasDeMoto #TVDUASRODAS",
-      "status": "FALHA_DE_GERACAO_LOCAL",
-      "reprocessedAt": "2026-07-22T20:35:00-04:00",
-      "reprocessNote": "Ambiente local continua sem biblioteca de composição de imagens e sem codificador de vídeo MP4 disponível; nenhum arquivo nem publicação foi criado."
+      "status": "NAO_APLICAVEL_REGRA_ATUAL_SEM_FEED",
+      "reprocessedAt": "2026-07-24T15:07:00-04:00",
+      "reprocessNote": "A rotina vigente exige Story e Reel separados e não publica no Feed."
     },
     "stories": {
-      "asset": null,
+      "asset": "output/instagram/2026-07-24/como-pilotar-moto-na-chuva-com-seguranca/story.mp4",
       "copy": "Chuva pede mais margem. Antes de sair, confira pneus, freios e visibilidade. ACESSE TVDUASRODAS.COM",
-      "status": "FALHA_DE_GERACAO_LOCAL",
-      "reprocessedAt": "2026-07-22T20:35:00-04:00",
-      "cta": "ACESSE TVDUASRODAS.COM"
+      "status": "PUBLICADO",
+      "reprocessedAt": "2026-07-24T15:06:00-04:00",
+      "publishedAt": "2026-07-24T15:06:00-04:00",
+      "permalink": "https://www.instagram.com/stories/tvduasrodasofc/",
+      "cta": "ACESSE TVDUASRODAS.COM",
+      "durationSeconds": 14,
+      "publicationConfirmation": "Meta Business Suite concluiu o compartilhamento e retornou ao Planner sem erro."
     },
     "reel": {
-      "asset": null,
-      "cover": null,
+      "asset": "output/instagram/2026-07-24/como-pilotar-moto-na-chuva-com-seguranca/reel.mp4",
+      "cover": "output/instagram/2026-07-24/como-pilotar-moto-na-chuva-com-seguranca/reel-cover.jpg",
       "caption": "Pilota na chuva? O checklist começa antes de ligar a moto: pneus, freios, luzes, viseira e espaço para reduzir com calma. Qual cuidado você nunca deixa de fazer? Siga @tvduasrodasofc e acesse TVDUASRODAS.COM. #MotoNaChuva #PilotagemSegura #SegurancaNoTransito #Motociclismo #DicasDeMoto #TVDUASRODAS",
-      "status": "FALHA_DE_GERACAO_LOCAL",
-      "reprocessedAt": "2026-07-22T20:35:00-04:00",
-      "targetDurationSeconds": "24-28",
-      "audio": "TRILHA_INSTRUMENTAL_ORIGINAL_LOCAL_PENDENTE"
+      "status": "PUBLICADO",
+      "reprocessedAt": "2026-07-24T15:07:00-04:00",
+      "publishedAt": "2026-07-24T15:07:00-04:00",
+      "permalink": "https://www.instagram.com/tvduasrodasofc/reels/",
+      "durationSeconds": 23.2,
+      "dimensions": "1080x1920",
+      "videoCodec": "H.264",
+      "audio": {
+        "type": "TRILHA_INSTRUMENTAL_ORIGINAL_SINTETIZADA",
+        "embedded": true,
+        "codec": "AAC"
+      },
+      "publicationConfirmation": "Reel confirmado na lista Published do Meta Business Suite às 15:07."
     }
   },
   {
     "url": "https://tvduasrodas.com/materia?slug=garage-tech-corrente-moto-limpeza-lubrificacao",
     "type": "program",
     "title": "Garage Tech: corrente de moto — como inspecionar, limpar e lubrificar",
-    "validatedAt": "2026-07-22T18:19:00-04:00",
+    "validatedAt": "2026-07-24T15:08:00-04:00",
     "validation": {
       "publicUrl": "INDISPONIVEL_NO_SITE_PUBLICO",
-      "reason": "A URL pública exibiu o template genérico, sem o título e o conteúdo da edição."
+      "reason": "Revalidada em 24/07: a URL pública continua exibindo o template genérico, sem o título e o conteúdo da edição."
     },
     "feed": { "status": "NAO_ELEGIVEL_URL_INDISPONIVEL" },
     "stories": { "status": "NAO_ELEGIVEL_URL_INDISPONIVEL" },
@@ -310,7 +323,7 @@
       "publicationConfirmation": "Reel confirmado no calendário do Meta Business Suite às 13:12, com a legenda publicada e ID 18134797213713680."
     }
   },
-  {"url":"https://tvduasrodas.com/materia.html?slug=bagagem-na-moto-como-distribuir-fixar-e-viajar","type":"article","title":"Bagagem na moto: como distribuir, fixar e viajar com segurança","preparedAt":"2026-07-24T14:44:00-04:00","stories":{"asset":"output/instagram/2026-07-24/bagagem-na-moto-como-distribuir-fixar-e-viajar/story.mp4","durationSeconds":14,"status":"PUBLICADO","publishedAt":"2026-07-24T14:44:00-04:00","permalink":"https://www.instagram.com/stories/tvduasrodasofc/","publicationConfirmation":"Meta Business Suite exibiu o Story como Active no Planner."},"reel":{"asset":"output/instagram/2026-07-24/bagagem-na-moto-como-distribuir-fixar-e-viajar/reel.mp4","cover":"output/instagram/2026-07-24/bagagem-na-moto-como-distribuir-fixar-e-viajar/reel-cover.jpg","caption":"output/instagram/2026-07-24/bagagem-na-moto-como-distribuir-fixar-e-viajar/legenda-reel.txt","durationSeconds":23.2,"status":"EM_UPLOAD_SEM_PUBLICACAO_CONFIRMADA"}},
-  {"url":"https://tvduasrodas.com/materia.html?slug=capital-moto-week-2026-primeiro-dia-abertura","type":"news","title":"Capital Moto Week 2026: como foi a abertura da Cidade da Moto","preparedAt":"2026-07-24T14:45:00-04:00","stories":{"asset":"output/instagram/2026-07-24/capital-moto-week-2026-primeiro-dia-abertura/story.mp4","durationSeconds":14,"status":"PUBLICADO","publishedAt":"2026-07-24T14:45:00-04:00","permalink":"https://www.instagram.com/stories/tvduasrodasofc/","publicationConfirmation":"Meta Business Suite exibiu o Story como Active no Planner."},"reel":{"asset":"output/instagram/2026-07-24/capital-moto-week-2026-primeiro-dia-abertura/reel.mp4","cover":"output/instagram/2026-07-24/capital-moto-week-2026-primeiro-dia-abertura/reel-cover.jpg","caption":"output/instagram/2026-07-24/capital-moto-week-2026-primeiro-dia-abertura/legenda-reel.txt","durationSeconds":23.2,"status":"PENDENTE_PUBLICACAO"}},
-  {"url":"https://tvduasrodas.com/materia.html?slug=brasileiro-mtb-2026-primeiro-dia-xce","type":"news","title":"Brasileiro de MTB 2026: Cocuzzi e Iara abrem disputa com títulos no XCE","preparedAt":"2026-07-24T14:46:00-04:00","stories":{"asset":"output/instagram/2026-07-24/brasileiro-mtb-2026-primeiro-dia-xce/story.mp4","durationSeconds":14,"status":"PUBLICANDO_SEM_CONFIRMACAO_FINAL","attemptedAt":"2026-07-24T14:46:00-04:00","permalink":"https://www.instagram.com/stories/tvduasrodasofc/"},"reel":{"asset":"output/instagram/2026-07-24/brasileiro-mtb-2026-primeiro-dia-xce/reel.mp4","cover":"output/instagram/2026-07-24/brasileiro-mtb-2026-primeiro-dia-xce/reel-cover.jpg","caption":"output/instagram/2026-07-24/brasileiro-mtb-2026-primeiro-dia-xce/legenda-reel.txt","durationSeconds":23.2,"status":"PENDENTE_PUBLICACAO"}}
+  {"url":"https://tvduasrodas.com/materia.html?slug=bagagem-na-moto-como-distribuir-fixar-e-viajar","type":"article","title":"Bagagem na moto: como distribuir, fixar e viajar com segurança","preparedAt":"2026-07-24T14:44:00-04:00","stories":{"asset":"output/instagram/2026-07-24/bagagem-na-moto-como-distribuir-fixar-e-viajar/story.mp4","durationSeconds":14,"status":"PUBLICADO","publishedAt":"2026-07-24T14:44:00-04:00","permalink":"https://www.instagram.com/stories/tvduasrodasofc/","metaContentId":"18151221775479562","publicationConfirmation":"Meta Business Suite exibiu o Story como Active no Planner."},"reel":{"asset":"output/instagram/2026-07-24/bagagem-na-moto-como-distribuir-fixar-e-viajar/reel.mp4","cover":"output/instagram/2026-07-24/bagagem-na-moto-como-distribuir-fixar-e-viajar/reel-cover.jpg","caption":"output/instagram/2026-07-24/bagagem-na-moto-como-distribuir-fixar-e-viajar/legenda-reel.txt","durationSeconds":23.2,"status":"PUBLICADO","publishedAt":"2026-07-24T14:55:00-04:00","permalink":"https://www.instagram.com/tvduasrodasofc/reels/","publicationConfirmation":"Reel confirmado na lista Published do Meta Business Suite às 14:55."}},
+  {"url":"https://tvduasrodas.com/materia.html?slug=capital-moto-week-2026-primeiro-dia-abertura","type":"news","title":"Capital Moto Week 2026: como foi a abertura da Cidade da Moto","preparedAt":"2026-07-24T14:45:00-04:00","stories":{"asset":"output/instagram/2026-07-24/capital-moto-week-2026-primeiro-dia-abertura/story.mp4","durationSeconds":14,"status":"PUBLICADO","publishedAt":"2026-07-24T14:45:00-04:00","permalink":"https://www.instagram.com/stories/tvduasrodasofc/","metaContentId":"18131023840649867","publicationConfirmation":"Meta Business Suite exibiu o Story como Active no Planner."},"reel":{"asset":"output/instagram/2026-07-24/capital-moto-week-2026-primeiro-dia-abertura/reel.mp4","cover":"output/instagram/2026-07-24/capital-moto-week-2026-primeiro-dia-abertura/reel-cover.jpg","caption":"output/instagram/2026-07-24/capital-moto-week-2026-primeiro-dia-abertura/legenda-reel.txt","durationSeconds":23.2,"status":"PUBLICADO","publishedAt":"2026-07-24T14:57:00-04:00","permalink":"https://www.instagram.com/tvduasrodasofc/reels/","publicationConfirmation":"Reel confirmado na lista Published do Meta Business Suite às 14:57."}},
+  {"url":"https://tvduasrodas.com/materia.html?slug=brasileiro-mtb-2026-primeiro-dia-xce","type":"news","title":"Brasileiro de MTB 2026: Cocuzzi e Iara abrem disputa com títulos no XCE","preparedAt":"2026-07-24T14:46:00-04:00","stories":{"asset":"output/instagram/2026-07-24/brasileiro-mtb-2026-primeiro-dia-xce/story.mp4","durationSeconds":14,"status":"PUBLICADO","publishedAt":"2026-07-24T14:46:00-04:00","permalink":"https://www.instagram.com/stories/tvduasrodasofc/","metaContentId":"17960141550008533","publicationConfirmation":"Meta Business Suite exibiu o Story como Active no Planner."},"reel":{"asset":"output/instagram/2026-07-24/brasileiro-mtb-2026-primeiro-dia-xce/reel.mp4","cover":"output/instagram/2026-07-24/brasileiro-mtb-2026-primeiro-dia-xce/reel-cover.jpg","caption":"output/instagram/2026-07-24/brasileiro-mtb-2026-primeiro-dia-xce/legenda-reel.txt","durationSeconds":23.2,"status":"PUBLICADO","publishedAt":"2026-07-24T14:58:00-04:00","permalink":"https://www.instagram.com/tvduasrodasofc/reel/DbL79ZGFHpt/","publicationConfirmation":"Reel confirmado na lista Published do Meta Business Suite às 14:58."}}
 ]
