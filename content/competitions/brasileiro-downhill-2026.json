@@ -1,0 +1,83 @@
+{
+  "title": "Campeonato Brasileiro de Downhill 2026",
+  "short_name": "Brasileiro DHI",
+  "season": "2026",
+  "country": "Brasil",
+  "scope": "Nacional",
+  "modality": "Downhill",
+  "status": "em_andamento",
+  "organizer": "Confederação Brasileira de Ciclismo e FECIERJ",
+  "official_url": "https://cbc.esp.br/modalidades/evento/busca/mtb/id/1352",
+  "results_url": "https://www.cbc.esp.br/modalidades/resultados/busca/mtb",
+  "cover": "/assets/img/uploads/brasileiro-ciclismo-mtb-2026-capa.webp",
+  "image_credit": "Imagem de arquivo MTB (2024): Alan Modesto / CBC · Arte: TVDUASRODAS",
+  "featured": false,
+  "summary": "Campeonato nacional de Downhill em andamento no Parque das Águas Salutaris, em Paraíba do Sul, com treinos em 24 de julho, tomada de tempo no sábado e finais no domingo.",
+  "last_updated": "2026-07-24T15:40:00-04:00",
+  "next_stage": {
+    "name": "Campeonato Brasileiro de Downhill 2026",
+    "start_date": "2026-07-24",
+    "end_date": "2026-07-26",
+    "venue": "Parque das Águas Salutaris - pista do Morro da Torre",
+    "city": "Paraíba do Sul",
+    "state": "RJ",
+    "note": "Treinos em 24/07, tomada de tempo em 25/07 e finais das categorias oficiais em 26/07."
+  },
+  "coverage": {
+    "first_day": {
+      "date": "2026-07-24",
+      "due_on": "2026-07-25",
+      "status": "agendado"
+    },
+    "final_day": {
+      "date": "2026-07-26",
+      "due_on": "2026-07-27",
+      "status": "agendado"
+    }
+  },
+  "categories": [
+    "Elite",
+    "Júnior",
+    "Juvenil",
+    "Sub-30",
+    "Master",
+    "E-bike",
+    "Enduro",
+    "Open"
+  ],
+  "standings": [],
+  "rounds": [
+    {
+      "order": 1,
+      "start_date": "2026-07-24",
+      "end_date": "2026-07-24",
+      "name": "Treinos e congresso técnico",
+      "location": "Parque das Águas Salutaris, Paraíba do Sul/RJ",
+      "status": "em_andamento",
+      "winner": "",
+      "results_url": "https://cbc.esp.br/modalidades/evento/busca/mtb/id/1352"
+    },
+    {
+      "order": 2,
+      "start_date": "2026-07-25",
+      "end_date": "2026-07-25",
+      "name": "Tomada de tempo classificatória",
+      "location": "Morro da Torre, Paraíba do Sul/RJ",
+      "status": "agendada",
+      "winner": "",
+      "results_url": "https://www.cbc.esp.br/modalidades/resultados/busca/mtb"
+    },
+    {
+      "order": 3,
+      "start_date": "2026-07-26",
+      "end_date": "2026-07-26",
+      "name": "Finais das categorias oficiais",
+      "location": "Morro da Torre, Paraíba do Sul/RJ",
+      "status": "agendada",
+      "winner": "",
+      "results_url": "https://www.cbc.esp.br/modalidades/resultados/busca/mtb"
+    }
+  ],
+  "related_videos": [],
+  "body": "## Campeonato em andamento\n\nO Brasileiro de Downhill 2026 começou em 24 de julho no Parque das Águas Salutaris, em Paraíba do Sul. A pista do Morro da Torre tem 1.200 metros de extensão e 160 metros de desnível, conforme a página oficial da CBC.\n\nA sexta-feira é dedicada ao reconhecimento, aos treinos por grupos e ao congresso técnico. A tomada de tempo classificatória está marcada para sábado, a partir das 13h. As finais das categorias oficiais começam no domingo, às 10h15, com premiação prevista para as 14h.\n\nA TVDUASRODAS verificará a área de resultados da CBC, os documentos anexos, a FECIERJ e eventuais plataformas oficiais de cronometragem. A classificação será incorporada integralmente quando publicada."
+}

@@ -8,12 +8,12 @@
   "status": "em_andamento",
   "organizer": "Confederação Brasileira de Ciclismo",
   "official_url": "https://www.cbc.esp.br/",
-  "results_url": "https://www.cbc.esp.br/modalidades/calendario/busca/",
+  "results_url": "https://www.cbc.esp.br/modalidades/resultados/busca/mtb",
   "cover": "/assets/img/uploads/brasileiro-ciclismo-mtb-2026-capa.webp",
   "image_credit": "Foto de arquivo (2024): Alan Modesto / CBC · Arte: TVDUASRODAS",
   "featured": false,
-  "summary": "Campeonato em andamento: Luiz Henrique Cocuzzi e Iara Caetano conquistaram os primeiros títulos no XCE, e a programação segue com XCC e XCO até 26 de julho.",
-  "last_updated": "2026-07-24T14:18:00-04:00",
+  "summary": "Campeonato em andamento: o resultado oficial completo do XCE já está publicado, com títulos de Luiz Henrique Cocuzzi e Iara Caetano; a programação segue com XCC e XCO até 26 de julho.",
+  "last_updated": "2026-07-24T15:35:00-04:00",
   "next_stage": {
     "name": "Campeonato Brasileiro MTB XCO/XCC/XCE",
     "start_date": "2026-07-23",
@@ -42,8 +42,162 @@
     "XCC",
     "XCE"
   ],
-  "standings": [],
-  "rounds": [],
+  "standings_eyebrow": "Resultado oficial",
+  "standings_title": "Classificação final do XCE",
+  "standings_value_label": "Situação",
+  "standings": [
+    {
+      "category": "XCE Elite Feminino",
+      "position": 1,
+      "competitor": "Iara Caetano Leite",
+      "team": "ACELFI",
+      "points": "Classificada"
+    },
+    {
+      "category": "XCE Elite Feminino",
+      "position": 2,
+      "competitor": "Luiza Cocuzzi",
+      "team": "ACRS Cycling Team / SEMEL / Audax / Royal Ciclo",
+      "points": "Classificada"
+    },
+    {
+      "category": "XCE Elite Feminino",
+      "position": 3,
+      "competitor": "Mayara Ketlly Silva dos Santos",
+      "team": "Avulso/BA",
+      "points": "Classificada"
+    },
+    {
+      "category": "XCE Elite Feminino",
+      "position": 4,
+      "competitor": "Maria Luiza Vargas Duwe",
+      "team": "Avulso/SC",
+      "points": "Classificada"
+    },
+    {
+      "category": "XCE Elite Feminino",
+      "position": 5,
+      "competitor": "Ana Beatriz Vargas Duwe",
+      "team": "Avulso/SC",
+      "points": "Classificada"
+    },
+    {
+      "category": "XCE Elite Feminino",
+      "position": 6,
+      "competitor": "Stefanye Lindolfo da Silva",
+      "team": "Instituto Hoffmann / Taubaté",
+      "points": "Classificada"
+    },
+    {
+      "category": "XCE Elite Feminino",
+      "position": 7,
+      "competitor": "Fabiane Baggio de Meira",
+      "team": "Avaí F.C. / FME Florianópolis / APGF",
+      "points": "Classificada"
+    },
+    {
+      "category": "XCE Elite Feminino",
+      "position": 8,
+      "competitor": "Nivea Maria Apolinario de Andrade",
+      "team": "Instituto Hoffmann / Taubaté",
+      "points": "Classificada"
+    },
+    {
+      "category": "XCE Elite Masculino",
+      "position": 1,
+      "competitor": "Luiz Henrique Cocuzzi",
+      "team": "ACRS Cycling Team / SEMEL / Audax / Royal Ciclo",
+      "points": "Classificado"
+    },
+    {
+      "category": "XCE Elite Masculino",
+      "position": 2,
+      "competitor": "Axel Kruger",
+      "team": "SECEL Jaraguá do Sul",
+      "points": "Classificado"
+    },
+    {
+      "category": "XCE Elite Masculino",
+      "position": 3,
+      "competitor": "Gianlucka Guarnieri Adami",
+      "team": "Avulso/MG",
+      "points": "Classificado"
+    },
+    {
+      "category": "XCE Elite Masculino",
+      "position": 4,
+      "competitor": "Rafael Beghelli Schirato Assis",
+      "team": "Avulso/SP",
+      "points": "Classificado"
+    },
+    {
+      "category": "XCE Elite Masculino",
+      "position": 5,
+      "competitor": "Valmor Hausmann",
+      "team": "Avulso/SC",
+      "points": "Classificado"
+    },
+    {
+      "category": "XCE Elite Masculino",
+      "position": 6,
+      "competitor": "Mario Couto Grego Santos",
+      "team": "Avulso/SC",
+      "points": "Classificado"
+    },
+    {
+      "category": "XCE Elite Masculino",
+      "position": 7,
+      "competitor": "Lazaro Jesus Moreira",
+      "team": "Avulso/MG",
+      "points": "Classificado"
+    },
+    {
+      "category": "XCE Elite Masculino",
+      "position": 8,
+      "competitor": "Daniel Grossi Soares de Souza",
+      "team": "ACELFI",
+      "points": "Classificado"
+    },
+    {
+      "category": "XCE Elite Masculino",
+      "position": 9,
+      "competitor": "Juliano Cocuzzi",
+      "team": "Avulso/SC",
+      "points": "Classificado"
+    }
+  ],
+  "rounds": [
+    {
+      "order": 1,
+      "start_date": "2026-07-23",
+      "end_date": "2026-07-23",
+      "name": "Cross Country Eliminator (XCE)",
+      "location": "Mobai Bike Land, São José dos Campos/SP",
+      "status": "concluida",
+      "winner": "Luiz Henrique Cocuzzi (masculino); Iara Caetano Leite (feminino)",
+      "results_url": "https://www.cbc.esp.br/arquivos/w7bd2d50zb.pdf"
+    },
+    {
+      "order": 2,
+      "start_date": "2026-07-24",
+      "end_date": "2026-07-24",
+      "name": "Cross Country Short Track (XCC)",
+      "location": "Mobai Bike Land, São José dos Campos/SP",
+      "status": "em_andamento",
+      "winner": "",
+      "results_url": "https://www.cbc.esp.br/modalidades/resultados/busca/mtb"
+    },
+    {
+      "order": 3,
+      "start_date": "2026-07-25",
+      "end_date": "2026-07-26",
+      "name": "Cross Country Olímpico (XCO)",
+      "location": "Mobai Bike Land, São José dos Campos/SP",
+      "status": "agendada",
+      "winner": "",
+      "results_url": "https://www.cbc.esp.br/modalidades/resultados/busca/mtb"
+    }
+  ],
   "related_videos": [],
-  "body": "## Situação atual\n\nO Campeonato Brasileiro de Mountain Bike XCO-XCC-XCE está em andamento no Mobai Bike Land, em São José dos Campos. Luiz Henrique Cocuzzi e Iara Caetano conquistaram os primeiros títulos da edição nas provas de Eliminator (XCE).\n\nA programação segue até 26 de julho com as disputas de Short Track (XCC) e Cross Country Olímpico (XCO). A cobertura do primeiro dia está publicada na Revista da TVDUASRODAS, e o balanço final será publicado no dia seguinte ao encerramento."
+  "body": "## Situação atual\n\nO Campeonato Brasileiro de Mountain Bike XCO-XCC-XCE está em andamento no Mobai Bike Land, em São José dos Campos. A CBC publicou a classificação final completa do Eliminator (XCE): Iara Caetano Leite venceu entre as mulheres, seguida por Luiza Cocuzzi e Mayara Ketlly; Luiz Henrique Cocuzzi ganhou no masculino, com Axel Kruger em segundo e Gianlucka Guarnieri Adami em terceiro.\n\nA tabela desta página reproduz todos os atletas classificados no documento oficial do XCE, não apenas o pódio. O PDF foi publicado na área de Resultados da CBC, separada da notícia de abertura.\n\nA programação segue até 26 de julho com as disputas de Short Track (XCC) e Cross Country Olímpico (XCO). Os documentos de cada prova serão incorporados assim que aparecerem na CBC ou na plataforma oficial vinculada. A cobertura do primeiro dia está publicada na Revista da TVDUASRODAS, e o balanço final será publicado no dia seguinte ao encerramento."
 }

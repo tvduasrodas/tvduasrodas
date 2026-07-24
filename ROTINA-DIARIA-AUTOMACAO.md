@@ -46,12 +46,12 @@ Existem quatro configurações ativas vinculadas ao projeto `TVDUASRODAS`, organ
 
 ## Auditoria automática e recuperação de pendências
 
-- Em cada horário de recuperação, perguntar operacionalmente: `Existe alguma pendência vencida e executável nas automações editorial ou de Instagram?` A resposta deve vir de uma auditoria real do repositório, das páginas públicas, dos registros de publicação, dos estados de eventos e competições e das execuções anteriores; nunca de suposição.
+- Em cada horário de recuperação, perguntar operacionalmente: `Existe alguma pendência vencida e executável nas automações editorial ou de Instagram?` A resposta deve vir de uma auditoria real do repositório, das páginas públicas, dos registros de publicação, dos estados de eventos e competições, da matriz de fontes confiáveis e das execuções anteriores; nunca de suposição.
 - Conferir se a janela imediatamente anterior foi iniciada, se publicou tudo que era obrigatório e se chegou a commit, push, validação pública, sitemap, Search Console e registro final. Para Instagram, conferir Story e Reel separadamente e nunca exigir Feed.
 - Detectar também pendências antigas ainda abertas, incluindo estados `FALHA`, `PENDENTE`, `NAO_ELEGIVEL_URL_INDISPONIVEL` que possam ter mudado, arquivos locais sem commit, branch à frente do remoto, URL já pública sem SEO concluído, evento com situação incompatível com a data e cobertura T+1 vencida.
 - Quando houver ação executável, a automação de recuperação assume imediatamente a autorização permanente de Wesley para pesquisar, editar, gerar mídia, publicar no portal, publicar Story e Reel, usar as sessões autenticadas, solicitar indexação, fazer commit e enviar para `origin/main`. Não pedir novamente autorização para essas ações previstas.
 - A recuperação deve reexecutar somente a parte faltante e preservar idempotência. Antes de criar ou publicar, consultar URLs, slugs e `output/instagram/publication-log.json` para não repetir matéria, Story ou Reel já confirmado.
-- Não considerar como pendência vencida um balanço cuja data futura ainda não chegou nem uma solicitação do Google já aceita e ainda em processamento. Fontes oficiais ainda indisponíveis devem ser registradas como monitoramento externo e reconsultadas nas próximas ocorrências, sem inventar dados.
+- Não considerar como pendência vencida um balanço cuja data futura ainda não chegou nem uma solicitação do Google já aceita e ainda em processamento. A indisponibilidade de uma única fonte não encerra a busca: consultar áreas de resultados, documentos, prestadores contratados e fontes secundárias confiáveis conforme a matriz. Somente a ausência de dados após essa auditoria ampliada pode ser registrada como monitoramento externo, sem inventar informações.
 - CAPTCHA, 2FA, novo OAuth, pagamento ou nova permissão continuam exigindo Wesley. Esses bloqueios não autorizam contornar proteções e não impedem a conclusão de tarefas independentes.
 - A ocorrência somente pode encerrar depois de concluir todas as pendências executáveis encontradas, validar o resultado, publicar os arquivos relacionados e confirmar `HEAD == origin/main`. Se nada estiver vencido, registrar objetivamente `nenhuma pendência executável`.
 
@@ -65,7 +65,7 @@ Até o encerramento das 20h (horário Eastern), o worker deve entregar:
 2. Nos dias da grade fixa, **uma nova edição do programa correspondente**, com `contentType: "program"`, além da matéria diária. A edição deve ser identificada como a edição daquela semana e nunca pode ser contada como matéria diária.
 3. Pelo menos **um vídeo novo para a TV com áudio em português brasileiro**, incorporado do YouTube, confiável, não duplicado e classificado na categoria correta. Vídeo em inglês, espanhol ou outro idioma não cumpre a meta, mesmo quando título e descrição estiverem traduzidos.
 4. Diversificar a TV durante a semana: não repetir categoria de vídeo nem canal de origem na mesma semana editorial, salvo transmissão ou atualização oficial urgente, com exceção explicada no relatório. Alternar testes, competições, cross, eventos, urbano, lançamentos, dicas, tecnologia, viagem, história, customização, entretenimento e outras categorias pertinentes.
-5. Todas as **atualizações urgentes de competições e eventos** encontradas em fontes oficiais: resultados, classificação, liderança, calendário ou informação de serviço.
+5. Todas as **atualizações urgentes de competições e eventos** encontradas na matriz obrigatória de fontes confiáveis: resultados, classificação, liderança, calendário ou informação de serviço.
 6. **SEO, sitemap, publicação, validação pública e Google Search Console imediatamente após cada lote publicado**, sem esperar o fechamento das 20h.
 
 ### Rotação semanal de matérias
@@ -75,6 +75,30 @@ Até o encerramento das 20h (horário Eastern), o worker deve entregar:
 - Notícias factuais usam `contentType: "news"` e podem repetir categoria quando houver novidade real, desdobramento ou atualização verificável.
 - Edições de programa usam `contentType: "program"` e não participam da contagem da matéria diária nem da rotação de categorias das matérias próprias.
 - Notícia cujo conteúdo principal seja agenda, serviço ou programação deve ir para Eventos. Resultado, classificação, etapa, liderança ou calendário esportivo deve atualizar Competições. Só publicar também na Revista quando existir uma reportagem editorial própria, com contexto e valor além da atualização estrutural.
+
+## Matriz obrigatória de fontes confiáveis para eventos e competições
+
+É proibido concluir que “não há resultado”, “não há classificação” ou “a fonte oficial ainda não publicou” depois de consultar somente a página principal, a área de notícias ou um único domínio. Para cada campeonato, torneio, etapa, rodada ou evento, a pesquisa deve percorrer a matriz abaixo e procurar também páginas, PDFs, planilhas, APIs, arquivos para download e plataformas externas vinculadas.
+
+1. **Fonte primária reguladora:** federação, confederação, liga, entidade sancionadora ou organizador responsável.
+2. **Área específica de dados:** páginas de resultados, ranking, classificação, documentos oficiais, comunicados, calendário, regulamento e arquivos anexos da entidade. A área de notícias nunca substitui essa verificação.
+3. **Prestador oficial contratado:** empresa de cronometragem, inscrição, apuração, live timing, arbitragem ou gestão esportiva indicada pelo organizador, como plataformas externas de resultados. Quando estiver vinculada pela entidade ou pelo regulamento, essa plataforma é uma fonte primária autorizada mesmo estando em outro domínio.
+4. **Fontes primárias complementares:** federação estadual ou nacional parceira, equipe, piloto/atleta, fabricante, circuito, promotor local ou assessoria oficial, usadas para confirmar fatos específicos e localizar documentos.
+5. **Fontes secundárias confiáveis:** veículos especializados estabelecidos, agências de notícias e imprensa regional com autoria, data, identificação do evento e dados verificáveis. Servem para descoberta, contexto e confirmação cruzada; rumor, perfil anônimo, agregador sem origem e reprodução sem autoria não servem.
+
+- Usar **uma ou mais fontes confiáveis**, nunca limitar a pesquisa artificialmente a um único site. Sempre que disponível, pelo menos uma fonte deve ser primária ou um prestador oficialmente contratado.
+- Para resultado, pódio, pontos ou classificação, buscar confirmação em **duas fontes confiáveis** quando houver risco de atualização, divergência ou documento provisório. Se existir apenas um documento primário completo e inequívoco, ele pode sustentar a atualização, mas a busca nas demais camadas deve ser registrada.
+- Se somente fontes secundárias confiáveis tiverem publicado o dado, exigir pelo menos duas confirmações independentes, identificar a informação como provisória quando couber e substituir pela tabela primária assim que ela aparecer.
+- Não publicar apenas o vencedor quando houver tabela completa. Atualizar `standings`, `latest_result`, `rounds`, vencedor, pontos, liderança, `results_url`, data da checagem e links dos documentos disponíveis.
+- Em divergência, preservar o dado anterior, registrar as versões conflitantes e procurar regulamento, júri, boletim ou documento posterior. A fonte mais recente e com autoridade direta prevalece.
+- Antes de declarar ausência de dados, registrar no controle editorial quais camadas foram consultadas, URLs, data e horário. “Sem publicação” só é um estado válido depois dessa busca ampliada.
+
+## Descoberta obrigatória de eventos ainda não cadastrados
+
+- A cobertura não pode se limitar aos itens já presentes no portal. Nas janelas de 08h e 17h e nas auditorias de recuperação, pesquisar calendários nacionais e internacionais de motociclismo, ciclismo, MTB, BMX, estrada, pista, paraciclismo, motocross, supercross, arena cross, enduro, hard enduro, rally, rally raid, baja, trial, motovelocidade, scooter, e-bike, mobilidade, encontros, festivais, feiras, salões e demais modalidades relacionadas às duas rodas.
+- Cruzar calendários de confederações, federações, ligas, organizadores, circuitos, plataformas oficiais contratadas e veículos especializados confiáveis. Verificar Brasil, América Latina e competições internacionais relevantes ao público brasileiro.
+- Ao localizar evento confirmado ainda não cadastrado, criar ou atualizar imediatamente a página estrutural, calendário, datas, modalidade, local, fonte e situação. Não esperar o evento começar para cadastrá-lo.
+- Eventos e competições descobertos depois da abertura entram imediatamente no fluxo de recuperação: cadastrar, corrigir situação, incorporar resultados/classificação já disponíveis e cumprir as coberturas de abertura e encerramento sem duplicação.
 
 ## Cobertura obrigatória de abertura, encerramento e situação
 
@@ -88,7 +112,7 @@ Esta regra vale para **todos os eventos e todas as competições** cadastrados, 
 3. No **dia seguinte ao último dia**, publicar obrigatoriamente uma matéria de balanço completo: principais acontecimentos, resultados ou atrações, vencedores e classificação quando houver, números oficiais disponíveis, contexto e próximos passos. Atualizar a página estrutural para `encerrado` ou `concluida` no mesmo lote.
 4. Em competição ou evento de **um único dia**, a matéria publicada no dia seguinte deve ser um balanço completo único e cumprir simultaneamente as obrigações de abertura e encerramento; não criar dois textos artificiais sobre o mesmo fato.
 5. Em competições por etapas, a obrigação se aplica à etapa/rodada monitorada: primeiro dia no dia seguinte à abertura da etapa e balanço no dia seguinte ao seu término. A página da temporada permanece `em_andamento` enquanto houver etapa futura confirmada.
-6. Não declarar presença da TVDUASRODAS, público, resultado, ocorrência, show realizado ou experiência presencial sem confirmação. Quando a fonte oficial ainda não tiver publicado o balanço necessário, registrar a obrigação como pendente e refazer a busca nas janelas seguintes do mesmo dia; publicar assim que a confirmação oficial estiver disponível.
+6. Não declarar presença da TVDUASRODAS, público, resultado, ocorrência, show realizado ou experiência presencial sem confirmação. Quando a primeira fonte consultada ainda não tiver publicado o balanço necessário, percorrer toda a matriz de fontes confiáveis. Só depois dessa busca ampliada registrar a obrigação como monitoramento externo; refazer a busca nas janelas seguintes e publicar assim que houver confirmação suficiente.
 7. Antes de criar a matéria, verificar duplicidade por evento, competição, etapa, data e tipo de balanço. Registrar a cobertura na página estrutural ou no controle editorial para impedir publicação duplicada.
 8. Cada notícia de abertura ou encerramento é conteúdo novo elegível para um Story e um Reel na próxima ocorrência da automação do Instagram, seguindo a regra de apenas uma publicação por formato e sem Feed.
 
@@ -141,7 +165,8 @@ Conteúdo fraco, duplicado, rumor ou texto inventado não cumpre a meta. Quando 
 - Fazer a **primeira verificação obrigatória de SEO do dia** com `python scripts/update_sitemap.py --check`.
 - Conferir se o fechamento de SEO do dia anterior foi concluído: sitemap gerado depois da última publicação, enviado ao Google Search Console e URLs novas solicitadas para indexação. Se faltar qualquer etapa, corrigir, publicar e concluir usando somente `tvduasrodas@gmail.com` antes de seguir.
 - Se o sitemap estiver desatualizado, executar `python scripts/update_sitemap.py`, validar a contagem por coleção, publicar e reenviar o sitemap no Search Console.
-- Verificar de forma incremental salas de imprensa brasileiras, fabricantes, Abraciclo, recalls, CBM, CBC e calendários já monitorados.
+- Verificar de forma incremental salas de imprensa brasileiras, fabricantes, Abraciclo, recalls, CBM, CBC, áreas específicas de resultados/ranking, prestadores oficiais contratados e calendários já monitorados.
+- Fazer descoberta ativa de eventos e competições ainda não cadastrados, seguindo a matriz de fontes; não limitar a auditoria ao acervo existente.
 - Dar prioridade a recall, segurança, lançamento brasileiro, mudança de mercado, evento próximo e resultado urgente.
 - Publicar no máximo uma atualização principal nesta janela quando houver novidade forte.
 - Não encerrar o dia nem considerar as metas cumpridas apenas porque competições não mudaram.
@@ -171,10 +196,10 @@ Conteúdo fraco, duplicado, rumor ou texto inventado não cumpre a meta. Quando 
 
 ## 17h — Competições, eventos e segunda rodada de notícias
 
-- Verificar resultados, pódios, pontos, liderança, etapas, calendários e documentos oficiais publicados desde a última checagem.
-- Repetir a auditoria de situação e de matérias T+1. Se a fonte oficial de uma abertura ou encerramento ainda não estava disponível às 08h, pesquisar novamente e publicar o balanço assim que houver confirmação suficiente.
+- Verificar resultados, pódios, pontos, liderança, etapas e calendários em todas as camadas da matriz de fontes confiáveis, incluindo PDFs, planilhas, APIs e prestadores oficiais em domínios externos.
+- Repetir a auditoria de situação e de matérias T+1. Se a primeira fonte de uma abertura ou encerramento ainda não estava disponível às 08h, pesquisar novamente em toda a matriz e publicar o balanço assim que houver confirmação suficiente.
 - Atualizar páginas existentes e preservar histórico; não publicar apenas o vencedor quando a tabela oficial completa estiver disponível.
-- Verificar eventos nacionais e internacionais relevantes ao público brasileiro.
+- Verificar eventos nacionais e internacionais relevantes ao público brasileiro e cadastrar os confirmados que ainda não existam no portal.
 - Se não houver mudança esportiva, procurar notícia relevante de produto, mercado, recall, segurança, mobilidade ou ciclismo. A janela não termina apenas com “sem novidade em competições”.
 
 ## 20h — Fechamento obrigatório e auditoria final de SEO
