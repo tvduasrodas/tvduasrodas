@@ -1,6 +1,6 @@
 # Rotina diária fixada — TVDUASRODAS
 
-Versão atualizada em 23 de julho de 2026. Esta rotina é obrigatória para o worker e não pode ser reduzida, substituída ou ignorada sem uma nova instrução expressa de Wesley. O portal não é somente competições e eventos.
+Versão atualizada em 24 de julho de 2026. Esta rotina é obrigatória para o worker e não pode ser reduzida, substituída ou ignorada sem uma nova instrução expressa de Wesley. O portal não é somente competições e eventos.
 
 ## Sincronização obrigatória entre este arquivo e as automações
 
@@ -13,7 +13,7 @@ Versão atualizada em 23 de julho de 2026. Esta rotina é obrigatória para o wo
 
 ## Isolamento obrigatório de cada janela automatizada
 
-- Cada ocorrência de qualquer automação — horários editoriais às **08h, 11h, 14h, 17h e 20h** e horários do Instagram às **08h30, 11h30, 14h30, 17h30 e 20h30**, em `America/New_York` — deve iniciar em uma **nova tarefa independente do Codex**. É proibido continuar qualquer execução automática em uma tarefa usada por outra ocorrência, mesmo quando pertencer à mesma automação.
+- Cada ocorrência de qualquer automação — horários editoriais às **08h, 11h, 14h, 17h e 20h**, horários do Instagram às **08h30, 11h30, 14h30, 17h30 e 20h30** e auditorias de recuperação às **08h40, 11h40, 14h40, 17h10 e 20h10**, em `America/New_York` — deve iniciar em uma **nova tarefa independente do Codex**. É proibido continuar qualquer execução automática em uma tarefa usada por outra ocorrência, mesmo quando pertencer à mesma automação.
 - A primeira ação da nova tarefa deve ser abrir e ler **integralmente** `C:\Users\Wesley\Documents\TVDUASRODAS\tvduasrodas\ROTINA-DIARIA-AUTOMACAO.md`. Nenhuma pesquisa, diagnóstico, seleção de pauta, edição, publicação ou uso da memória pode ocorrer antes dessa leitura.
 - Nenhum skill, memória, navegador, pesquisa, diagnóstico, arquivo auxiliar ou outra ferramenta pode ser consultado antes da leitura integral deste documento.
 - Depois da leitura, este arquivo deve ser tratado como **autoridade operacional absoluta** para toda a janela. Conversas anteriores, resumos e memória são apenas contexto e nunca podem reduzir, substituir, reinterpretar ou adiar uma regra obrigatória daqui.
@@ -31,14 +31,26 @@ Versão atualizada em 23 de julho de 2026. Esta rotina é obrigatória para o wo
 
 ## Particionamento das automações e aplicação das regras
 
-Existem duas automações ativas vinculadas ao projeto `TVDUASRODAS`, e não uma configuração separada para cada horário:
+Existem três automações ativas vinculadas ao projeto `TVDUASRODAS`, e não uma configuração separada para cada horário:
 
 1. `Atualizações otimizadas TV Duas Rodas`: uma única configuração executada às **08h, 11h, 14h, 17h e 20h**. O horário determina qual janela editorial deste documento deve ser executada; todas as regras universais, especialmente leitura inicial, isolamento, qualidade, validação, commit, push, recuperação, Search Console e relatório, valem igualmente nas cinco ocorrências.
 2. `Instagram TVDUASRODAS — Reels e Stories`: uma única configuração executada às **08h30, 11h30, 14h30, 17h30 e 20h30**. Todas as regras universais valem igualmente nas cinco ocorrências, acrescidas das regras específicas da seção **Instagram — somente Reels e Stories**.
+3. `Recuperação de pendências TVDUASRODAS`: uma única configuração executada às **08h40, 11h40, 14h40, 17h10 e 20h10**. Ela audita se as ocorrências editoriais e de Instagram anteriores rodaram e terminaram corretamente, retoma trabalhos pausados ou com falha e conclui todo backlog executável sem duplicar publicações.
 
 - É proibido criar versões de regras diferentes por horário dentro da mesma automação. Uma regra universal adicionada ou alterada deve ser aplicada à configuração completa e, portanto, a todas as ocorrências daquela automação.
 - Diferenças entre horários podem existir somente no trabalho editorial específico descrito nas seções 08h, 11h, 14h, 17h e 20h, nunca nas regras de leitura obrigatória, isolamento, autorização, commit, push, recuperação ou confirmação remota.
 - Se uma nova automação for criada para este projeto, ela deve ser adicionada a esta seção e receber integralmente o bloco universal de leitura, isolamento, publicação e recuperação antes de ser ativada.
+
+## Auditoria automática e recuperação de pendências
+
+- Em cada horário de recuperação, perguntar operacionalmente: `Existe alguma pendência vencida e executável nas automações editorial ou de Instagram?` A resposta deve vir de uma auditoria real do repositório, das páginas públicas, dos registros de publicação, dos estados de eventos e competições e das execuções anteriores; nunca de suposição.
+- Conferir se a janela imediatamente anterior foi iniciada, se publicou tudo que era obrigatório e se chegou a commit, push, validação pública, sitemap, Search Console e registro final. Para Instagram, conferir Story e Reel separadamente e nunca exigir Feed.
+- Detectar também pendências antigas ainda abertas, incluindo estados `FALHA`, `PENDENTE`, `NAO_ELEGIVEL_URL_INDISPONIVEL` que possam ter mudado, arquivos locais sem commit, branch à frente do remoto, URL já pública sem SEO concluído, evento com situação incompatível com a data e cobertura T+1 vencida.
+- Quando houver ação executável, a automação de recuperação assume imediatamente a autorização permanente de Wesley para pesquisar, editar, gerar mídia, publicar no portal, publicar Story e Reel, usar as sessões autenticadas, solicitar indexação, fazer commit e enviar para `origin/main`. Não pedir novamente autorização para essas ações previstas.
+- A recuperação deve reexecutar somente a parte faltante e preservar idempotência. Antes de criar ou publicar, consultar URLs, slugs e `output/instagram/publication-log.json` para não repetir matéria, Story ou Reel já confirmado.
+- Não considerar como pendência vencida um balanço cuja data futura ainda não chegou nem uma solicitação do Google já aceita e ainda em processamento. Fontes oficiais ainda indisponíveis devem ser registradas como monitoramento externo e reconsultadas nas próximas ocorrências, sem inventar dados.
+- CAPTCHA, 2FA, novo OAuth, pagamento ou nova permissão continuam exigindo Wesley. Esses bloqueios não autorizam contornar proteções e não impedem a conclusão de tarefas independentes.
+- A ocorrência somente pode encerrar depois de concluir todas as pendências executáveis encontradas, validar o resultado, publicar os arquivos relacionados e confirmar `HEAD == origin/main`. Se nada estiver vencido, registrar objetivamente `nenhuma pendência executável`.
 
 ## Metas editoriais mínimas do dia
 
