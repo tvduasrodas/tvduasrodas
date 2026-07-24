@@ -131,9 +131,10 @@
       "dimensions": "1080x1920",
       "videoCodec": "H.264",
       "audioCodec": "AAC",
-      "status": "PENDENTE_AUTENTICACAO_META",
+      "status": "PENDENTE_FALHA_INTERFACE_META",
       "attemptedAt": "2026-07-24T17:18:00-04:00",
-      "reason": "Meta Business Suite abriu a tela de login; não havia sessão autenticada disponível para Create story."
+      "retriedAt": "2026-07-24T17:34:55-04:00",
+      "reason": "A sessão de @tvduasrodasofc foi confirmada no Meta Business Suite, mas Create story não abriu o fluxo de upload nem expôs campo de arquivo após a ação. Nenhum Story foi enviado."
     },
     "reel": {
       "asset": "output/instagram/2026-07-24/garage-tech-corrente-moto-limpeza-lubrificacao/reel.mp4",
@@ -143,9 +144,10 @@
       "dimensions": "1080x1920",
       "videoCodec": "H.264",
       "audioCodec": "AAC",
-      "status": "PENDENTE_AUTENTICACAO_META",
+      "status": "PENDENTE_FALHA_INTERFACE_META",
       "attemptedAt": "2026-07-24T17:18:00-04:00",
-      "reason": "Meta Business Suite abriu a tela de login; não havia sessão autenticada disponível para Create reel."
+      "retriedAt": "2026-07-24T17:34:55-04:00",
+      "reason": "A sessão de @tvduasrodasofc foi confirmada no Meta Business Suite, mas Create story não abriu o fluxo de upload nem expôs campo de arquivo após a ação; o Reel não foi iniciado para evitar uma publicação parcial ou duplicada."
     }
   },
   {
