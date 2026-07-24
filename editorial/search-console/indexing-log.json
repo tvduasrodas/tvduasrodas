@@ -2,7 +2,7 @@
   "property": "https://tvduasrodas.com/",
   "authorized_account": "tvduasrodas@gmail.com",
   "sitemap": "https://tvduasrodas.com/sitemap.xml",
-  "updated_at": "2026-07-23T09:57:05-04:00",
+  "updated_at": "2026-07-24T13:39:39-04:00",
   "entries": [
     {
       "url": "https://www.tvduasrodas.com/competicoes-eventos.html",
@@ -101,6 +101,20 @@
       "index_status_before": "O URL não está no Google — Detectada, mas não indexada no momento",
       "sitemap": "https://tvduasrodas.com/sitemap.xml",
       "sitemap_status": "Reenviado em 2026-07-23; sitemap público validado com 87 URLs",
+      "indexing_requested": true,
+      "request_result": "Adicionado à fila de rastreamento prioritário"
+    },
+    {
+      "url": "https://tvduasrodas.com/materia?slug=capital-moto-week-2026-primeiro-dia-abertura",
+      "slug": "capital-moto-week-2026-primeiro-dia-abertura",
+      "type": "noticia",
+      "published_at": "2026-07-24",
+      "inspected_at": "2026-07-24T13:39:00-04:00",
+      "account": "tvduasrodas@gmail.com",
+      "property": "sc-domain:tvduasrodas.com",
+      "index_status_before": "O URL não está no Google — Detectada, mas não indexada no momento",
+      "sitemap": "https://tvduasrodas.com/sitemap.xml",
+      "sitemap_status": "Reenviado e processado em 2026-07-24; 90 URLs encontradas",
       "indexing_requested": true,
       "request_result": "Adicionado à fila de rastreamento prioritário"
     }
