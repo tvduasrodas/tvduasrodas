@@ -260,5 +260,23 @@
       "audio": { "type": "TRILHA_INSTRUMENTAL_ORIGINAL_SINTETIZADA", "embedded": true, "codec": "AAC" },
       "publicationConfirmation": "Reel confirmado na lista Published do Meta Business Suite."
     }
+  },
+  {
+    "url": "https://tvduasrodas.com/tv.html?v=6ZJM4sa06AY",
+    "type": "video",
+    "title": "CFMOTO Ibex 450: Canal Motoplay apresenta a trail e seus destaques",
+    "detectedAt": "2026-07-24T11:32:23-04:00",
+    "validation": {
+      "publicUrl": "CONFIRMADA_NO_NAVEGADOR",
+      "portalCard": "CONFIRMADO",
+      "youtubeChannel": "Canal Motoplay",
+      "reason": "O player público exibiu o título original em inglês; o áudio pt-BR declarado no frontmatter não pôde ser confirmado visualmente nesta janela."
+    },
+    "stories": {
+      "status": "NAO_ELEGIVEL_AUDIO_PT_BR_NAO_CONFIRMADO"
+    },
+    "reel": {
+      "status": "NAO_ELEGIVEL_AUDIO_PT_BR_NAO_CONFIRMADO"
+    }
   }
 ]
