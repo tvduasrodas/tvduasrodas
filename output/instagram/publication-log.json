@@ -270,13 +270,44 @@
       "publicUrl": "CONFIRMADA_NO_NAVEGADOR",
       "portalCard": "CONFIRMADO",
       "youtubeChannel": "Canal Motoplay",
-      "reason": "O player público exibiu o título original em inglês; o áudio pt-BR declarado no frontmatter não pôde ser confirmado visualmente nesta janela."
+      "audioOriginal": "pt-BR",
+      "audioVerification": "CONFIRMADO",
+      "reason": "O YouTube exibiu a reprodução em inglês como Auto-dubbed, enquanto título e descrição originais estão em português; duração oficial confirmada em 41min40s."
     },
     "stories": {
-      "status": "NAO_ELEGIVEL_AUDIO_PT_BR_NAO_CONFIRMADO"
+      "asset": "output/instagram/2026-07-24/cfmoto-ibex-450-apresentacao-canal-motoplay/story.mp4",
+      "poster": "output/instagram/2026-07-24/cfmoto-ibex-450-apresentacao-canal-motoplay/story-poster.jpg",
+      "copy": "output/instagram/2026-07-24/cfmoto-ibex-450-apresentacao-canal-motoplay/texto-story.txt",
+      "status": "PUBLICADO",
+      "publishedAt": "2026-07-24T13:09:00-04:00",
+      "permalink": "https://www.instagram.com/stories/tvduasrodasofc/",
+      "metaContentIds": ["18106343324177526", "17905598634460089"],
+      "durationSeconds": 14,
+      "dimensions": "1080x1920",
+      "videoCodec": "H.264",
+      "audioCodec": "AAC",
+      "cta": "ACESSE TVDUASRODAS.COM",
+      "publicationConfirmation": "Meta Business Suite exibiu os dois segmentos do Story como Instagram Active no calendário, ambos às 13:09."
     },
     "reel": {
-      "status": "NAO_ELEGIVEL_AUDIO_PT_BR_NAO_CONFIRMADO"
+      "asset": "output/instagram/2026-07-24/cfmoto-ibex-450-apresentacao-canal-motoplay/reel.mp4",
+      "cover": "output/instagram/2026-07-24/cfmoto-ibex-450-apresentacao-canal-motoplay/reel-cover.jpg",
+      "caption": "output/instagram/2026-07-24/cfmoto-ibex-450-apresentacao-canal-motoplay/legenda-reel.txt",
+      "status": "PUBLICADO",
+      "publishedAt": "2026-07-24T13:12:00-04:00",
+      "permalink": "https://www.instagram.com/tvduasrodasofc/reels/",
+      "metaContentId": "18134797213713680",
+      "durationSeconds": 30,
+      "dimensions": "1080x1920",
+      "videoCodec": "H.264",
+      "audio": {
+        "type": "TRILHA_INSTRUMENTAL_ORIGINAL_SINTETIZADA",
+        "embedded": true,
+        "codec": "AAC",
+        "copyrightCheck": "APROVADO_PELA_META"
+      },
+      "visibility": "PUBLICO",
+      "publicationConfirmation": "Reel confirmado no calendário do Meta Business Suite às 13:12, com a legenda publicada e ID 18134797213713680."
     }
   }
 ]
