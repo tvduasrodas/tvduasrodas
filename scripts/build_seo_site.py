@@ -255,6 +255,7 @@ def page_shell(
     schemas: list[dict[str, Any]],
     image: str = "/assets/img/logotv.png",
     page_type: str = "website",
+    scripts: str = "",
 ) -> str:
     canonical_url = absolute_url(canonical)
     image_url = absolute_url(image)
@@ -282,7 +283,7 @@ def page_shell(
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
   <link rel="canonical" href="{esc(canonical_url)}">
   <link rel="icon" href="/assets/img/logoTVicon_web.ico">
-  <link rel="stylesheet" href="/assets/css/style.css?v=20260725seo">
+  <link rel="stylesheet" href="/assets/css/style.css?v=20260725video">
   <meta property="og:locale" content="pt_BR">
   <meta property="og:type" content="{esc(page_type)}">
   <meta property="og:site_name" content="TVDUASRODAS">
@@ -299,7 +300,7 @@ def page_shell(
     <div class="container header-inner">
       <div class="logo-wrapper"><a href="/" class="logo-link"><img src="/assets/img/logotv.png" alt="TVDUASRODAS" class="logo-image"></a><div class="brand-sub">Motos · Bikes · Scooters · Elétricos</div></div>
       <nav class="main-nav" aria-label="Navegação principal"><ul>
-        <li><a href="/">Início</a></li><li><a href="/revista">Revista</a></li><li><a href="/videos/">Vídeos</a></li>
+        <li><a href="/">Início</a></li><li><a href="/revista">Revista</a></li><li><a href="/videos/">TV &amp; Vídeos</a></li>
         <li><a href="/competicoes-eventos">Competições &amp; Eventos</a></li><li><a href="/assuntos/">Assuntos</a></li><li><a href="/arquivo.html">Arquivo</a></li>
       </ul></nav>
     </div>
@@ -309,6 +310,8 @@ def page_shell(
     <p>© TVDUASRODAS — conteúdo sobre o universo das duas rodas.</p>
     <p class="footer-small"><a href="/sobre">Sobre</a> · <a href="/contato">Contato</a> · <a href="/sitemap.xml">Sitemap</a></p>
   </div></div></footer>
+  <script src="/assets/js/ads.js?v=20260725a"></script>
+  {scripts}
 </body>
 </html>
 """
@@ -328,8 +331,9 @@ def card(item: dict[str, Any]) -> str:
         f'alt="{esc(item["title"])}" loading="lazy" decoding="async"></a>'
         if image else ""
     )
+    video_class = " seo-card--video" if item.get("kind") == "video" else ""
     return (
-        f'<article class="seo-card">{media}<div><span class="seo-eyebrow">{esc(eyebrow)}</span>'
+        f'<article class="seo-card{video_class}">{media}<div><span class="seo-eyebrow">{esc(eyebrow)}</span>'
         f'<h3><a href="{esc(item["url"])}">{esc(item["title"])}</a></h3>'
         f'<p>{esc(item.get("summary", ""))}</p></div></article>'
     )
@@ -341,12 +345,37 @@ def related_items(current: dict[str, Any], all_items: list[dict[str, Any]], limi
     for item in all_items:
         if item["url"] == current["url"]:
             continue
-        score = len(base & words(item.get("search_text", "")))
-        if item.get("topics") and current.get("topics"):
-            score += 3 * len(set(item["topics"]) & set(current["topics"]))
-        if score:
+        # Na TV, o formato faz parte do contexto: vídeo recomenda somente vídeo.
+        if current.get("kind") == "video" and item.get("kind") != "video":
+            continue
+        shared_topics = set(item.get("topics", [])) & set(current.get("topics", []))
+        shared_brands = set(item.get("brands", [])) & set(current.get("brands", []))
+        shared_modalities = {
+            slug for slug, _ in item.get("modalities", [])
+        } & {
+            slug for slug, _ in current.get("modalities", [])
+        }
+        same_category = (
+            normalize(item.get("category", "")) == normalize(current.get("category", ""))
+            and bool(current.get("category"))
+        )
+        lexical = min(len(base & words(item.get("search_text", ""))), 5)
+        score = (
+            lexical
+            + 12 * len(shared_topics)
+            + 8 * len(shared_brands)
+            + 10 * len(shared_modalities)
+            + (6 if same_category else 0)
+        )
+        # Evita relação baseada apenas em uma palavra genérica.
+        if score >= 3:
             scored.append((score, item))
-    return [item for _, item in sorted(scored, key=lambda pair: (-pair[0], pair[1]["title"]))[:limit]]
+    return [
+        item for _, item in sorted(
+            scored,
+            key=lambda pair: (-pair[0], pair[1].get("kind", ""), pair[1]["title"]),
+        )[:limit]
+    ]
 
 
 def relation_blocks(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
@@ -362,10 +391,25 @@ def relation_blocks(item: dict[str, Any], all_items: list[dict[str, Any]]) -> st
     chips_html = f'<nav class="seo-relations" aria-label="Assuntos relacionados">{"".join(chips)}</nav>' if chips else ""
     related_html = ""
     if related:
-        related_html = (
-            '<section class="seo-related"><h2>Conteúdos relacionados</h2><div class="seo-grid">'
-            + "".join(card(value) for value in related) + "</div></section>"
-        )
+        kind_labels = {
+            "article": "Matérias relacionadas",
+            "video": "Vídeos relacionados",
+            "competition": "Competições relacionadas",
+            "event": "Eventos relacionados",
+            "guide": "Guias relacionados",
+        }
+        grouped: dict[str, list[dict[str, Any]]] = defaultdict(list)
+        for value in related:
+            grouped[value.get("kind", "article")].append(value)
+        related_html = '<section class="seo-related"><h2>Conteúdos relacionados</h2>'
+        for kind in ("video", "article", "competition", "event", "guide"):
+            values = grouped.get(kind, [])
+            if values:
+                related_html += (
+                    f'<section class="seo-related-group"><h3>{kind_labels[kind]}</h3>'
+                    f'<div class="seo-grid">{"".join(card(value) for value in values)}</div></section>'
+                )
+        related_html += "</section>"
     return chips_html + related_html
 
 
@@ -560,6 +604,7 @@ def render_video(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
   <header><span class="seo-eyebrow">Vídeo · {esc(item["category"])}</span><h1>{esc(item["title"])}</h1>
   <p class="seo-lead">{esc(item["summary"])}</p><p class="seo-meta">{esc(item.get("channel"))} · {esc(iso_day(item["date"]))}</p></header>
   <div class="seo-video"><iframe src="https://www.youtube.com/embed/{esc(item["video_id"])}" title="{esc(item["title"])}" allowfullscreen loading="eager"></iframe></div>
+  <aside class="tdr-ad-slot" data-ad-slot="video-inline" aria-label="Banner de patrocinador relacionado ao vídeo"></aside>
   <div class="seo-prose">{markdown(item["body"])}</div>
   {relation_blocks(item, all_items)}
 </article>"""
@@ -784,6 +829,144 @@ def render_collection(
     )
 
 
+def render_video_collection(collection: list[dict[str, Any]]) -> str:
+    videos = sorted(
+        (item for item in collection if item.get("video_id")),
+        key=lambda item: (item.get("lastmod", ""), item["title"]),
+        reverse=True,
+    )
+    description = (
+        "Player central e catálogo de vídeos da TVDUASRODAS sobre motos, bicicletas, "
+        "competições, tecnologia e mobilidade."
+    )
+    if not videos:
+        return render_collection(
+            label="TV & Vídeos", description=description, canonical="/videos/", collection=[]
+        )
+
+    current = videos[0]
+    category_pairs = sorted({
+        (slugify(video.get("category", "outros")) or "outros", video.get("category", "Outros"))
+        for video in videos
+    })
+    filters = ['<button class="video-hub-filter is-active" type="button" data-filter="all">Todos</button>']
+    filters.extend(
+        f'<button class="video-hub-filter" type="button" data-filter="{esc(slug)}">{esc(label)}</button>'
+        for slug, label in category_pairs
+    )
+    cards = []
+    for video in videos:
+        category_slug = slugify(video.get("category", "outros")) or "outros"
+        cards.append(
+            f'<article class="seo-card seo-card--video video-hub-card" '
+            f'data-category="{esc(category_slug)}" data-video-id="{esc(video["video_id"])}" '
+            f'data-video-title="{esc(video["title"])}">'
+            f'<a class="seo-card__media" href="{esc(video["url"])}" '
+            f'aria-label="Reproduzir {esc(video["title"])} no player principal">'
+            f'<img src="{esc(video["image"])}" alt="{esc(video["title"])}" loading="lazy" decoding="async"></a>'
+            f'<div><span class="seo-eyebrow">Vídeo · {esc(video.get("category", "Vídeos"))}</span>'
+            f'<h3><a href="{esc(video["url"])}">{esc(video["title"])}</a></h3>'
+            f'<p>{esc(video.get("summary", ""))}</p></div></article>'
+        )
+
+    body = f"""
+<nav class="seo-breadcrumb"><a href="/">Início</a> › TV &amp; Vídeos</nav>
+<header class="seo-collection-header video-hub-heading"><span class="seo-eyebrow">TVDUASRODAS</span>
+<h1>TV &amp; Vídeos</h1><p class="seo-lead">{esc(description)}</p></header>
+<aside class="tdr-ad-slot" data-ad-slot="central-billboard" data-ad-category-override="geral"
+aria-label="Espaço para banner de patrocinador"></aside>
+<section class="video-hub-player" aria-labelledby="videoHubTitle">
+  <div class="video-hub-player__label"><span>Agora no player</span><strong id="videoHubTitle">{esc(current["title"])}</strong></div>
+  <div class="seo-video"><iframe id="videoHubPlayer" src="https://www.youtube.com/embed/{esc(current["video_id"])}"
+  title="{esc(current["title"])}" allowfullscreen loading="eager"></iframe></div>
+</section>
+<section class="video-hub-library" aria-labelledby="videoLibraryTitle">
+  <header><span class="seo-eyebrow">Somente vídeos</span><h2 id="videoLibraryTitle">Escolha por categoria</h2>
+  <p>Selecione uma categoria e clique em um vídeo para reproduzi-lo no player principal.</p></header>
+  <div class="video-hub-filters" aria-label="Categorias de vídeos">{"".join(filters)}</div>
+  <div class="seo-grid video-hub-grid">{"".join(cards)}</div>
+  <p class="video-hub-empty" hidden>Nenhum vídeo encontrado nesta categoria.</p>
+</section>"""
+    schema = {
+        "@type": "CollectionPage",
+        "@id": f"{BASE_URL}/videos/#colecao",
+        "name": "TV & Vídeos",
+        "description": description,
+        "url": f"{BASE_URL}/videos/",
+        "mainEntity": {
+            "@type": "ItemList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": position,
+                    "name": video["title"],
+                    "url": absolute_url(video["url"]),
+                }
+                for position, video in enumerate(videos, 1)
+            ],
+        },
+        "inLanguage": "pt-BR",
+    }
+    scripts = """<script>
+(() => {
+  const player = document.getElementById("videoHubPlayer");
+  const title = document.getElementById("videoHubTitle");
+  const cards = [...document.querySelectorAll(".video-hub-card")];
+  const filters = [...document.querySelectorAll(".video-hub-filter")];
+  const empty = document.querySelector(".video-hub-empty");
+  const play = (card, autoplay = true) => {
+    if (!card || !player) return;
+    const id = card.dataset.videoId;
+    const label = card.dataset.videoTitle || "Vídeo TVDUASRODAS";
+    player.src = `https://www.youtube.com/embed/${id}${autoplay ? "?autoplay=1" : ""}`;
+    player.title = label;
+    if (title) title.textContent = label;
+    cards.forEach((item) => item.classList.toggle("is-playing", item === card));
+    window.TVAds?.setContext({ type: "video", title: label, category: card.dataset.category });
+    document.querySelector(".video-hub-player")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+  filters.forEach((button) => button.addEventListener("click", () => {
+    const category = button.dataset.filter;
+    let visible = 0;
+    filters.forEach((item) => item.classList.toggle("is-active", item === button));
+    cards.forEach((card) => {
+      const show = category === "all" || card.dataset.category === category;
+      card.hidden = !show;
+      if (show) visible += 1;
+    });
+    if (empty) empty.hidden = visible !== 0;
+  }));
+  cards.forEach((card) => card.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", (event) => {
+      if (event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+      event.preventDefault();
+      play(card);
+    });
+  }));
+  const requested = new URLSearchParams(location.search).get("v");
+  const initial = cards.find((card) => card.dataset.videoId === requested) || cards[0];
+  if (initial) {
+    initial.classList.add("is-playing");
+    window.TVAds?.setContext({
+      type: "video",
+      title: initial.dataset.videoTitle,
+      category: initial.dataset.category
+    });
+  }
+})();
+</script>"""
+    return page_shell(
+        title="TV & Vídeos",
+        description=description,
+        canonical="/videos/",
+        body=body,
+        schemas=[schema, breadcrumb_schema([("Início", "/"), ("TV & Vídeos", "/videos/")])],
+        image=current["image"],
+        page_type="website",
+        scripts=scripts,
+    )
+
+
 def build() -> None:
     items, people = load_content()
     manifest: list[dict[str, Any]] = []
@@ -826,8 +1009,11 @@ def build() -> None:
         person_index.append(person_item)
         manifest.append({"url": canonical, "lastmod": max(r["competition"]["lastmod"] for r in records), "priority": "0.6", "kind": "person"})
 
+    video_items = [i for i in items if i["kind"] == "video"]
+    write_page("/videos/", render_video_collection(video_items))
+    manifest.append({"url": "/videos/", "lastmod": TODAY, "priority": "0.9", "kind": "index"})
+
     indexes = [
-        ("Vídeos", "Vídeos sobre motos, bicicletas, competições, tecnologia e mobilidade.", "/videos/", [i for i in items if i["kind"] == "video"]),
         ("Atletas e pilotos", "Índice de atletas e pilotos citados em classificações oficiais publicadas pela TVDUASRODAS.", "/atletas/", person_index),
         ("Assuntos", "Temas centrais da cobertura editorial da TVDUASRODAS.", "/assuntos/", [
             {"title": label, "url": f"/assuntos/{slug}/", "summary": f"Matérias, vídeos, eventos e competições sobre {label.lower()}.", "kind_label": "Tema"}
