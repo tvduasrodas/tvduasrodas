@@ -17,8 +17,9 @@
 
     <link rel="icon" href="assets/img/logoTVicon_web.ico" type="image/x-icon" />
     <link rel="stylesheet" href="assets/css/style.css?v=20260725ads1" />
+    <link rel="stylesheet" href="assets/css/tv-page.css?v=20260725a" />
 </head>
-<body class="page-internal">
+<body class="page-internal page-tv">
     <!-- BARRA TOPO (ANÚNCIO) -->
     <div class="ad-bar">
         <!-- ADS -->        
@@ -110,12 +111,49 @@
                                 frameborder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 allowfullscreen
-                                loading="lazy">
+                                loading="eager">
                         </iframe>
                     </div>
                 </section>
 
-                <aside class="tdr-ad-slot" data-ad-slot="video-inline" aria-label="Publicidade contextual do vídeo"></aside>
+                <section class="tv-programming" aria-labelledby="tvProgrammingTitle">
+                    <header class="tv-programming__header">
+                        <div>
+                            <span class="tv-programming__eyebrow">Programação TVDUASRODAS</span>
+                            <h2 id="tvProgrammingTitle">Grade de programação</h2>
+                            <p>Programas recorrentes do canal e suas reportagens relacionadas.</p>
+                        </div>
+                        <a href="https://www.youtube.com/@tvduasrodas?sub_confirmation=1"
+                           class="btn btn-small btn-primary">Acompanhar no YouTube</a>
+                    </header>
+                    <div class="tv-programming__grid">
+                        <a class="tv-program-card" href="revista.html?programa=role-de-rua">
+                            <span>Segundas e quintas</span>
+                            <strong>Rolê de Rua</strong>
+                            <p>Rotas urbanas, encontros e cultura sobre duas rodas.</p>
+                        </a>
+                        <a class="tv-program-card" href="revista.html?programa=garage-tech">
+                            <span>Quartas</span>
+                            <strong>Garage Tech</strong>
+                            <p>Manutenção, oficina, equipamentos e tecnologia.</p>
+                        </a>
+                        <a class="tv-program-card" href="revista.html?programa=estrada-aberta">
+                            <span>Sábados</span>
+                            <strong>Estrada Aberta</strong>
+                            <p>Viagens, planejamento, segurança e experiências na estrada.</p>
+                        </a>
+                        <a class="tv-program-card" href="revista.html?programa=electric-zone">
+                            <span>Domingos</span>
+                            <strong>Electric Zone</strong>
+                            <p>Mobilidade elétrica, bicicletas, scooters e inovação.</p>
+                        </a>
+                    </div>
+                </section>
+
+                <div class="tv-ad-break">
+                    <span class="tv-ad-break__label">Publicidade</span>
+                    <aside class="tdr-ad-slot" data-ad-slot="video-inline" aria-label="Publicidade contextual da TV"></aside>
+                </div>
 
 
                 <!-- LIVE STREAM (ligado ao CMS, igual à Home) -->
@@ -169,27 +207,6 @@
                 </section>
             </div>
 
-            <!-- SIDEBAR (AGORA VERTICAL, DO LADO MESMO) -->
-            <aside class="sidebar">
-                <aside class="tdr-ad-slot" data-ad-slot="video-sidebar" aria-label="Publicidade contextual do vídeo"></aside>
-
-                <div class="sidebar-box">
-                    <h3>Grade de programação</h3>
-                    <ul class="tv-schedule">
-                        <li><a href="revista.html?programa=role-de-rua"><strong>Rolê de Rua</strong> – segundas &amp; quintas</a></li>
-                        <li><a href="revista.html?programa=estrada-aberta"><strong>Estrada Aberta</strong> – sábados</a></li>
-                        <li><a href="revista.html?programa=garage-tech"><strong>Garage Tech</strong> – quartas</a></li>
-                        <li><a href="revista.html?programa=electric-zone"><strong>Electric Zone</strong> – domingos</a></li>
-                    </ul>
-                    <p class="tv-schedule-note">Acompanhe as reportagens de cada programa na Revista TVDUASRODAS.</p>
-                </div>
-
-                <div class="sidebar-box">
-                    <h3>Siga a TV</h3>
-                    <p>Inscreva-se no YouTube e acompanhe as lives e novos episódios.</p>
-                    <a href="https://www.youtube.com/@tvduasrodas?sub_confirmation=1" class="btn btn-small btn-primary">Ir para o canal YouTube</a>
-                </div>
-            </aside>
         </div>
     </main>
 
@@ -560,7 +577,7 @@
 
                     if (latestId) {
                         mainPlayer.setAttribute("data-default-id", latestId);
-                        mainPlayer.src = `https://www.youtube.com/embed/${latestId}`;
+                        mainPlayer.src = `https://www.youtube.com/embed/${latestId}?autoplay=1&mute=1&playsinline=1&rel=0`;
                         window.TVAds?.setContext({
                             type: "video",
                             ad_category: latestVideo.ad_category,

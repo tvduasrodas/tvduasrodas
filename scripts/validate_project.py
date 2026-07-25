@@ -151,6 +151,13 @@ def main() -> int:
                 errors.append(f"Meta description ausente: {path.name}")
             if not re.search(r'rel=["\']canonical["\']', text, re.IGNORECASE):
                 errors.append(f"Canonical ausente: {path.name}")
+        if path.name == "tv.html":
+            if len(re.findall(r'class=["\'][^"\']*tv-program-card', text)) < 4:
+                errors.append("Grade de programação da TV incompleta")
+            if 'data-ad-slot="video-sidebar"' in text:
+                errors.append("Publicidade lateral da TV voltou a competir com o player")
+            if "autoplay=1&mute=1&playsinline=1" not in text:
+                errors.append("Autoplay silencioso do vídeo mais recente ausente")
         for ref in ASSET.findall(text):
             if "${" in ref:
                 continue
