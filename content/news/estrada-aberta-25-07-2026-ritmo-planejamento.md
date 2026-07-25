@@ -48,7 +48,7 @@ Depois da viagem, anote o que funcionou: onde abasteceu, qual parada foi tranqui
 
 O **Estrada Aberta** de hoje fica com esse convite: deixe o caminho ser parte da viagem. Quando o tempo tem folga e o ritmo respeita a condição da pista, sobra mais atenção para pilotar e mais memória boa para levar para casa.
 
-Veja também: [Parada segura na viagem de moto: como planejar sem improviso](materia.html?slug=parada-segura-moto-viagem-como-planejar).
+Veja também: [Parada segura na viagem de moto: como planejar sem improviso](/materias/parada-segura-moto-viagem-como-planejar/).
 
 ## Fontes oficiais consultadas
 

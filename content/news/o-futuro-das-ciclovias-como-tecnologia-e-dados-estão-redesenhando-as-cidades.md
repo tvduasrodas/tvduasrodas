@@ -4,7 +4,7 @@ date: 2026-01-30T23:23:00-05:00
 author: TVDUASRODAS
 category: Urbano
 videoId: ''
-cover: /assets/img/uploads/ofuturociclovia.png
+cover: /assets/img/uploads/futuro-ciclovia-seo.webp
 featured: false
 ---
 
@@ -12,7 +12,7 @@ Durante décadas, ciclovias foram tratadas como soluções simples: pintar faixa
 
 O crescimento acelerado de bicicletas elétricas, patinetes e outros meios de micromobilidade fez com que gestores públicos, urbanistas e engenheiros de tráfego repensassem uma pergunta fundamental: **como projetar infraestrutura para um trânsito que muda em tempo real?**
 
-![](/assets/img/uploads/final-mile-layout-comp-012722.jpg "Ciclovia Inteligente")
+![Projeto urbano de ciclovia inteligente e conectada](/assets/img/uploads/final-mile-layout-seo.webp "Ciclovia inteligente")
 
 ## Da intuição aos dados concretos
 
@@ -27,7 +27,7 @@ Essas tecnologias permitem mapear com precisão:
 
 Com essas informações, o planejamento deixa de ser genérico e passa a ser **cirúrgico**, focado em resolver problemas reais.
 
-![](/assets/img/uploads/ciclo2.png "Ciclovia urbano")
+![Ciclovia integrada ao espaço urbano](/assets/img/uploads/ciclo2-seo.webp "Ciclovia urbana")
 
 ## Ciclovias inteligentes: o que já está sendo aplicado
 
@@ -40,7 +40,7 @@ Em projetos mais avançados, ciclovias estão recebendo soluções que até pouc
 
 Essas iniciativas não apenas aumentam a segurança, como também tornam o uso da bicicleta **mais previsível e confiável** para quem depende dela diariamente.
 
-![](/assets/img/uploads/ciclo1.png "ciclovia do futuro")
+![Conceito tecnológico para a ciclovia do futuro](/assets/img/uploads/ciclo1-seo.webp "Ciclovia do futuro")
 
 ## A convivência entre diferentes tipos de usuários
 
@@ -78,7 +78,7 @@ Especialistas apontam que o futuro das ciclovias será marcado por três pilares
 
 Isso significa ciclovias que evoluem constantemente, acompanhando mudanças no comportamento da população e no avanço da tecnologia.
 
-![](/assets/img/uploads/ciclo3.png "ciclovia integrada")
+![Rede de ciclovia integrada à mobilidade da cidade](/assets/img/uploads/ciclo3-seo.webp "Ciclovia integrada")
 
 ## Conclusão
 

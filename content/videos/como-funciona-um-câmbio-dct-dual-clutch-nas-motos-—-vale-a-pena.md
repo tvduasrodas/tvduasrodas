@@ -7,7 +7,7 @@ category: tecnologia
 tags:
   - DCT,motos
 featured: false
-thumbnail: /assets/img/uploads/dctcambio.png
+thumbnail: /assets/img/uploads/dct-cambio-seo.webp
 ---
 
 O DCT já equipa modelos como Africa Twin, Gold Wing e NC 750X, mostrando que a automação não é mais exclusividade do mundo automotivo.

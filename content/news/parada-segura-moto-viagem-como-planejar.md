@@ -50,7 +50,7 @@ Tenha documentos, contatos de assistência e água em local acessível. Em viage
 
 Uma boa viagem não é medida por quantas horas a moto ficou sem parar. Ela é construída com escolhas que deixam atenção, máquina e margem de segurança trabalhando juntas.
 
-Veja também: [Bagagem na moto: como distribuir, fixar e viajar com segurança](materia.html?slug=bagagem-na-moto-como-distribuir-fixar-e-viajar).
+Veja também: [Bagagem na moto: como distribuir, fixar e viajar com segurança](/materias/bagagem-na-moto-como-distribuir-fixar-e-viajar/).
 
 ## Fontes oficiais consultadas
 

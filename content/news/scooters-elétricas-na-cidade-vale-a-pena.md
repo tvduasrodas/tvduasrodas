@@ -4,7 +4,7 @@ date: 2026-01-24T20:56:00-05:00
 author: TVDUASRODAS
 category: Moto
 videoId: ''
-cover: /assets/img/uploads/01.png
+cover: /assets/img/uploads/01-seo.webp
 featured_revista: true
 ---
 

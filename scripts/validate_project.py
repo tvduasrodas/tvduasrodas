@@ -56,7 +56,7 @@ def main() -> int:
     allowed_categories = {
         "news": {
             "Moto", "Lancamentos", "tests", "bikes", "Eventos", "Urbanizacao",
-            "Urbano", "Dicas", "Dicas e Manutenção", "Seguranca", "Tecnologia", "Outro",
+            "Urbano", "Dicas", "Dicas e Manutenção", "Seguranca", "Segurança", "Tecnologia", "Outro",
         },
         "videos": {
             "cassetadas", "cross", "competicoes", "eventos", "urbano", "lancamentos",
@@ -159,8 +159,84 @@ def main() -> int:
             if not local:
                 continue
             target = ROOT / local
+            html_fallback = ROOT / f"{local}.html"
+            if not target.exists() and html_fallback.exists():
+                target = html_fallback
+            elif (ref.endswith("/") or not target.suffix) and not target.is_file():
+                target = target / "index.html"
             if not target.exists():
                 errors.append(f"Referência local ausente: {path.name} -> {ref}")
+
+    generated_roots = (
+        "materias", "videos", "competicoes", "eventos", "guias",
+        "atletas", "assuntos", "marcas", "modalidades",
+    )
+    generated_html = sorted(
+        page
+        for folder in generated_roots
+        for page in (ROOT / folder).rglob("index.html")
+        if (ROOT / folder).exists()
+    )
+    generated_canonicals: set[str] = set()
+    for path in generated_html:
+        text = path.read_text(encoding="utf-8-sig")
+        relative = path.relative_to(ROOT)
+        for pattern, label in (
+            (r'<html[^>]+lang=["\']pt-BR["\']', "idioma pt-BR"),
+            (r"<title>\s*.+?</title>", "title"),
+            (r'<meta[^>]+name=["\']description["\']', "meta description"),
+            (r'<meta[^>]+name=["\']robots["\'][^>]+index', "robots index"),
+            (r"<h1[^>]*>.+?</h1>", "h1"),
+        ):
+            if not re.search(pattern, text, re.IGNORECASE | re.DOTALL):
+                errors.append(f"{label} ausente: {relative}")
+        canonical_match = re.search(
+            r'<link[^>]+rel=["\']canonical["\'][^>]+href=["\']([^"\']+)',
+            text, re.IGNORECASE,
+        )
+        if not canonical_match:
+            errors.append(f"Canonical ausente: {relative}")
+        elif canonical_match.group(1) in generated_canonicals:
+            errors.append(f"Canonical duplicado: {canonical_match.group(1)}")
+        else:
+            generated_canonicals.add(canonical_match.group(1))
+        for payload in re.findall(
+            r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
+            text, re.IGNORECASE | re.DOTALL,
+        ):
+            try:
+                json.loads(payload)
+            except json.JSONDecodeError as exc:
+                errors.append(f"JSON-LD inválido: {relative}: {exc}")
+        for ref in ASSET.findall(text):
+            parsed = urlsplit(ref)
+            if parsed.scheme or parsed.netloc or ref.startswith(("#", "mailto:", "tel:", "data:")):
+                continue
+            local = unquote(parsed.path).lstrip("/")
+            if not local:
+                continue
+            target = ROOT / local
+            html_fallback = ROOT / f"{local}.html"
+            if not target.exists() and html_fallback.exists():
+                target = html_fallback
+            elif ref.endswith("/") or not target.suffix:
+                target = target / "index.html" if not target.is_file() else target
+            if not target.exists():
+                errors.append(f"Link/recurso gerado ausente: {relative} -> {ref}")
+
+    manifest_path = ROOT / "content" / "seo-manifest.json"
+    try:
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8-sig"))
+        manifest_urls = [item.get("url", "") for item in manifest]
+        if len(manifest_urls) != len(set(manifest_urls)):
+            errors.append("Manifesto SEO contém URLs duplicadas")
+        for url in manifest_urls:
+            target = ROOT / url.strip("/")
+            target = target / "index.html" if url.endswith("/") else target
+            if not target.exists():
+                errors.append(f"Manifesto SEO aponta para arquivo ausente: {url}")
+    except (OSError, json.JSONDecodeError) as exc:
+        errors.append(f"Manifesto SEO inválido: {exc}")
 
     config = (ROOT / "admin" / "config.yml").read_text(encoding="utf-8-sig")
     if re.search(r'widget:\s*["\']date["\']', config):
@@ -207,14 +283,29 @@ def main() -> int:
             errors.append("sitemap.xml contém URLs duplicadas")
         if any("#U" in url or "%23U" in url for url in urls):
             errors.append("sitemap.xml contém fragmento inválido #U")
+        if any("?slug=" in url or "?v=" in url for url in urls):
+            errors.append("sitemap.xml ainda contém URL dinâmica não canônica")
         for name in noindex_paths:
             if any(urlsplit(url).path.rstrip("/").endswith(f"/{name}") for url in urls):
                 errors.append(f"Página noindex presente no sitemap: {name}")
     except (OSError, ET.ParseError) as exc:
         errors.append(f"sitemap.xml inválido: {exc}")
 
+    published_sources = [
+        *sorted((ROOT / "content").rglob("*.md")),
+        *sorted((ROOT / "content").rglob("*.json")),
+        *sorted(ROOT.glob("*.html")),
+    ]
+    published_text = "\n".join(
+        path.read_text(encoding="utf-8-sig", errors="ignore")
+        for path in published_sources
+    )
     for image in sorted((ROOT / "assets" / "img" / "uploads").glob("*")):
-        if image.is_file() and image.stat().st_size > 350 * 1024:
+        if (
+            image.is_file()
+            and image.name in published_text
+            and image.stat().st_size > 350 * 1024
+        ):
             warnings.append(
                 f"Imagem acima de 350 KB: {image.relative_to(ROOT)} "
                 f"({image.stat().st_size / 1024:.0f} KB)"

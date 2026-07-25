@@ -74,7 +74,7 @@ Nos primeiros quilômetros, pare em local seguro e confira novamente as cintas, 
 
 Viajar leve não é abrir mão de conforto; é preservar margem para a motocicleta trabalhar como foi projetada. Quando cada item tem peso, posição e fixação conhecidos, o piloto pode concentrar atenção na estrada — e não em uma mala que começou a se mover.
 
-Veja também: [Como pilotar moto na chuva: checklist de segurança antes de sair](materia.html?slug=como-pilotar-moto-na-chuva-com-seguranca).
+Veja também: [Como pilotar moto na chuva: checklist de segurança antes de sair](/materias/como-pilotar-moto-na-chuva-com-seguranca/).
 
 ## Fontes oficiais consultadas
 

@@ -4,7 +4,7 @@ date: 2026-01-26T21:14:00-05:00
 author: TVDUASRODAS
 category: bikes
 videoId: ''
-cover: /assets/img/uploads/GravelBike.png
+cover: /assets/img/uploads/gravel-bike-seo.webp
 featured: false
 ---
 

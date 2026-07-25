@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Generate sitemap.xml from the public content collections.
 
-Run this script after adding or updating an article, video, competition, or
-event. Query-string values are percent-encoded so accented Portuguese slugs
-remain valid URLs for search engines.
+Execute ``build_seo_site.py`` antes deste script. O sitemap publica somente as
+URLs canônicas com HTML estático; os antigos endereços com parâmetros ficam
+fora para não dividir sinais de indexação.
 """
 
 from __future__ import annotations
@@ -189,38 +189,54 @@ def main(*, check_only: bool = False) -> None:
         )
         add_url(urls, path, lastmod, priority)
 
-    for slug, lastmod in news:
-        encoded = quote(slug, safe="-._~")
-        add_url(urls, f"/materia?slug={encoded}", lastmod, "0.8")
-
-    for video_id, lastmod in videos:
-        add_url(urls, f"/tv?v={video_id}", lastmod, "0.7")
-
-    for slug, lastmod in competitions:
-        add_url(urls, f"/competicao?slug={quote(slug, safe='-._~')}", lastmod, "0.8")
-
-    for slug, lastmod in events:
-        add_url(urls, f"/evento?slug={quote(slug, safe='-._~')}", lastmod, "0.7")
-
-    for slug, lastmod in calendar_events:
-        add_url(urls, f"/evento?slug={quote(slug, safe='-._~')}", lastmod, "0.7")
+    manifest_path = ROOT / "content" / "seo-manifest.json"
+    if not manifest_path.exists():
+        raise FileNotFoundError(
+            "content/seo-manifest.json ausente; execute scripts/build_seo_site.py"
+        )
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8-sig"))
+    for item in manifest:
+        add_url(
+            urls,
+            str(item["url"]),
+            iso_day(item.get("lastmod"), today),
+            str(item.get("priority", "0.6")),
+        )
 
     namespace = "http://www.sitemaps.org/schemas/sitemap/0.9"
+    image_namespace = "http://www.google.com/schemas/sitemap-image/1.1"
+    video_namespace = "http://www.google.com/schemas/sitemap-video/1.1"
     ET.register_namespace("", namespace)
+    ET.register_namespace("image", image_namespace)
+    ET.register_namespace("video", video_namespace)
+    media_by_url = {
+        f"{BASE_URL}{item['url']}": item
+        for item in manifest
+    }
     urlset = ET.Element(f"{{{namespace}}}urlset")
     for loc, lastmod, priority in urls:
         item = ET.SubElement(urlset, f"{{{namespace}}}url")
         ET.SubElement(item, f"{{{namespace}}}loc").text = loc
         ET.SubElement(item, f"{{{namespace}}}lastmod").text = lastmod
         ET.SubElement(item, f"{{{namespace}}}priority").text = priority
+        media = media_by_url.get(loc, {})
+        if media.get("image"):
+            image = ET.SubElement(item, f"{{{image_namespace}}}image")
+            ET.SubElement(image, f"{{{image_namespace}}}loc").text = media["image"]
+        if media.get("video"):
+            video_data = media["video"]
+            video = ET.SubElement(item, f"{{{video_namespace}}}video")
+            ET.SubElement(video, f"{{{video_namespace}}}thumbnail_loc").text = video_data["thumbnail"]
+            ET.SubElement(video, f"{{{video_namespace}}}title").text = video_data["title"]
+            ET.SubElement(video, f"{{{video_namespace}}}description").text = video_data["description"]
+            ET.SubElement(video, f"{{{video_namespace}}}player_loc").text = video_data["player"]
+            ET.SubElement(video, f"{{{video_namespace}}}publication_date").text = video_data["upload_date"]
 
     ET.indent(urlset, space="  ")
     xml = ET.tostring(urlset, encoding="unicode", xml_declaration=True)
     expected = xml + "\n"
     breakdown = (
-        f"static={len(STATIC_PAGES)}, news={len(news)}, videos={len(videos)}, "
-        f"competitions={len(competitions)}, events={len(events)}, "
-        f"calendar_events={len(calendar_events)}"
+        f"static={len(STATIC_PAGES)}, canonical_generated={len(manifest)}"
     )
 
     if check_only:

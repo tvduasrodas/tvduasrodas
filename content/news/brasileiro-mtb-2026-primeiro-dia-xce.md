@@ -1,5 +1,5 @@
 ---
-title: "Brasileiro de MTB 2026: Cocuzzi e Iara abrem disputa com títulos no XCE"
+title: "Brasileiro de MTB 2026: Cocuzzi e Iara Caetano Leite vencem o XCE"
 date: "2026-07-24T14:18:00-04:00"
 author: "Redação TVDUASRODAS"
 category: "Eventos"
@@ -7,15 +7,15 @@ ad_category: bicicletas
 contentType: "news"
 readingTime: "6 min"
 kicker: "Primeiro dia"
-summary: "Luiz Henrique Cocuzzi e Iara Caetano conquistaram os primeiros títulos nacionais no Cross Country Eliminator, em São José dos Campos."
-seoTitle: "Brasileiro de MTB 2026: como foi o primeiro dia"
+summary: "Luiz Henrique Cocuzzi e Iara Caetano Leite conquistaram os primeiros títulos nacionais no XCE Elite do Campeonato Brasileiro de MTB 2026."
+seoTitle: "Iara Caetano Leite vence XCE do Brasileiro de MTB 2026"
 cover: "/assets/img/uploads/brasileiro-mtb-2026-primeiro-dia-capa.webp"
 featured: true
 ---
 
 O **Campeonato Brasileiro de Mountain Bike XCO-XCC-XCE 2026** começou na quinta-feira, 23 de julho, com velocidade, baterias curtas e os primeiros campeões definidos no Mobai Bike Land, em São José dos Campos (SP). A abertura foi dedicada ao **Cross Country Eliminator (XCE)**, formato em que cada largada reduz o grupo até a disputa decisiva.
 
-Ao fim do primeiro dia, **Luiz Henrique Cocuzzi** venceu a Elite Masculina e **Iara Caetano** conquistou a Elite Feminina. Os dois receberam as primeiras camisas de campeões brasileiros desta edição, que continua até domingo, 26 de julho, com provas de Short Track (XCC) e Cross Country Olímpico (XCO).
+Ao fim do primeiro dia, **Luiz Henrique Cocuzzi** venceu a Elite Masculina e **Iara Caetano Leite** conquistou a Elite Feminina. Os dois receberam as primeiras camisas de campeões brasileiros desta edição, que continua até domingo, 26 de julho, com provas de Short Track (XCC) e Cross Country Olímpico (XCO).
 
 *Foto de capa: Ueverton Santos/CBC.*
 
@@ -27,13 +27,13 @@ O resultado colocou Luiz Henrique Cocuzzi no alto do pódio, com Axel Kruger na 
 
 O XCE concentra muita decisão em pouco tempo. Como as baterias são curtas e eliminatórias, uma largada ruim ou um erro de trajetória pode impedir a passagem à fase seguinte. A recuperação imediata de Cocuzzi na final foi, portanto, o movimento decisivo da abertura.
 
-## Iara Caetano confirmou a força no Eliminator
+## Iara Caetano Leite confirmou a força no Eliminator
 
-A final feminina também reuniu atletas com histórico de títulos. **Luiza Cocuzzi**, campeã brasileira e pan-americana, estava entre as favoritas, mas Iara Caetano encontrou espaço no fim da primeira reta, assumiu a liderança e sustentou o ritmo até a bandeirada.
+A final feminina também reuniu atletas com histórico de títulos. **Luiza Cocuzzi**, campeã brasileira e pan-americana, estava entre as favoritas, mas Iara Caetano Leite encontrou espaço no fim da primeira reta, assumiu a liderança e sustentou o ritmo até a bandeirada.
 
-Iara conquistou o ouro, Luiza ficou com a prata e **Mayara Kelly dos Santos** completou o pódio com o bronze. Segundo o relato oficial da Confederação Brasileira de Ciclismo, a campeã destacou o equilíbrio entre as adversárias e a importância de aproveitar cada oportunidade em uma prova tão rápida.
+Iara Caetano Leite conquistou o ouro, Luiza ficou com a prata e **Mayara Ketlly Silva dos Santos** completou o pódio com o bronze. Segundo o relato oficial da Confederação Brasileira de Ciclismo, a campeã destacou o equilíbrio entre as adversárias e a importância de aproveitar cada oportunidade em uma prova tão rápida.
 
-O resultado recoloca Iara no topo nacional de uma disciplina que já faz parte de sua trajetória. Mais do que abrir a contagem de medalhas do evento, a vitória mostrou como o Eliminator premia explosão, leitura de corrida e precisão desde a largada.
+O resultado recoloca Iara Caetano Leite no topo nacional de uma disciplina que já faz parte de sua trajetória. Mais do que abrir a contagem de medalhas do evento, a vitória mostrou como o Eliminator premia explosão, leitura de corrida e precisão desde a largada.
 
 ![Ciclistas disputam posição em trecho de terra durante prova de mountain bike cross country](/assets/img/uploads/brasileiro-mtb-2026-primeiro-dia-prova.webp "O Brasileiro reúne as disciplinas XCE, XCC e XCO no Mobai Bike Land.")
 
@@ -45,7 +45,7 @@ O primeiro dia transformou a expectativa da programação em resultados concreto
 
 O campeonato é organizado pela Confederação Brasileira de Ciclismo e pela Federação Paulista de Ciclismo, em parceria com o Mobai Bike Land. O bike park recebe atletas de diferentes categorias e concentra, na mesma programação, três formatos do mountain bike cross country.
 
-O regulamento oficial reúne Elite, Sub-23 e Júnior em duas disputas do XCE: Elite Feminino e Elite Masculino. Portanto, as duas classificações do Eliminator representam todas as categorias previstas para essa disciplina, e não uma seleção editorial. A [central da competição na TVDUASRODAS](competicao.html?slug=brasileiro-ciclismo-mtb-2026) reproduz a classificação oficial completa, inclusive atletas fora do pódio e o registro de quem não largou.
+O regulamento oficial reúne Elite, Sub-23 e Júnior em duas disputas do XCE: Elite Feminino e Elite Masculino. Portanto, as duas classificações do Eliminator representam todas as categorias previstas para essa disciplina, e não uma seleção editorial. A [central da competição na TVDUASRODAS](/competicoes/brasileiro-ciclismo-mtb-2026/) reproduz a classificação oficial completa, inclusive atletas fora do pódio e o registro de quem não largou.
 
 ## O que ainda acontece em São José dos Campos
 
@@ -62,7 +62,7 @@ O encerramento está previsto para domingo, 26 de julho. No dia seguinte, a TVDU
 - Modalidades: XCE, XCC e XCO
 - [Página oficial do evento na CBC](https://www.cbc.esp.br/modalidades/evento/id/1344)
 - [Resultados oficiais de MTB](https://www.cbc.esp.br/modalidades/resultados/busca/mtb)
-- [Central da competição na TVDUASRODAS](competicao.html?slug=brasileiro-ciclismo-mtb-2026)
+- [Central da competição na TVDUASRODAS](/competicoes/brasileiro-ciclismo-mtb-2026/)
 
 ## Fontes oficiais consultadas
 

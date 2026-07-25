@@ -72,7 +72,7 @@ Depois de alguns dias, revise o trajeto: onde houve conflito? Qual cruzamento ex
 
 O melhor **Rolê de Rua** não é o que bate recorde. É o que pode ser repetido sem susto, respeita quem divide o espaço e faz a cidade caber melhor na rotina.
 
-Veja também: [Pontos cegos na cidade: como pilotar moto com mais margem](materia.html?slug=pontos-cegos-moto-cidade-como-pilotar-com-margem).
+Veja também: [Pontos cegos na cidade: como pilotar moto com mais margem](/materias/pontos-cegos-moto-cidade-como-pilotar-com-margem/).
 
 ## Fontes oficiais consultadas
 

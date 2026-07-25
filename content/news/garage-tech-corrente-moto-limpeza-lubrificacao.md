@@ -54,7 +54,7 @@ Não confunda limpeza externa com recuperação de uma corrente desgastada. Se h
 
 Manutenção preventiva não substitui revisão profissional, mas ajuda o motociclista a enxergar problemas cedo e a preservar a transmissão final. O objetivo do **Garage Tech** é justamente esse: explicar o que observar e onde termina a intervenção segura de casa.
 
-Veja também: [Como pilotar moto na chuva: checklist de segurança antes de sair](materia.html?slug=como-pilotar-moto-na-chuva-com-seguranca).
+Veja também: [Como pilotar moto na chuva: checklist de segurança antes de sair](/materias/como-pilotar-moto-na-chuva-com-seguranca/).
 
 ## Fontes oficiais consultadas
 

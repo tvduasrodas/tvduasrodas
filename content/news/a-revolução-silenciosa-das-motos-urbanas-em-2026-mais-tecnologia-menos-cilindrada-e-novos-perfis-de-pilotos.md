@@ -4,7 +4,7 @@ date: 2026-02-10T13:18:00-05:00
 author: TVDUASRODAS
 category: Urbano
 videoId: ''
-cover: /assets/img/uploads/urbano7.jpg
+cover: /assets/img/uploads/urbano7-seo.webp
 featured: false
 ---
 

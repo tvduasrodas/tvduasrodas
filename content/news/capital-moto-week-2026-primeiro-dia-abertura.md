@@ -59,7 +59,7 @@ Motociclistas pilotando e sem garupa têm entrada gratuita durante o festival, s
 - Local: Parque Granja do Torto, Brasília (DF)
 - Situação: em andamento
 - Programação e ingressos: [site oficial do Capital Moto Week](https://www.capitalmotoweek.com.br/)
-- Página atualizada na TVDUASRODAS: [Capital Moto Week 2026](evento.html?slug=capital-moto-week-2026)
+- Página atualizada na TVDUASRODAS: [Capital Moto Week 2026](/eventos/capital-moto-week-2026/)
 
 A TVDUASRODAS voltará ao evento no dia seguinte ao encerramento com o balanço completo da edição, usando os números e destaques confirmados pela organização.
 

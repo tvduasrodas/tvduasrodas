@@ -1,0 +1,24 @@
+# TVDUASRODAS
+
+Portal editorial brasileiro sobre motos, bicicletas, scooters, veículos elétricos,
+mobilidade, segurança, tecnologia, competições, resultados esportivos e eventos.
+
+## Índices canônicos
+
+- Arquivo completo: https://tvduasrodas.com/arquivo.html
+- Assuntos: https://tvduasrodas.com/assuntos/
+- Marcas: https://tvduasrodas.com/marcas/
+- Modalidades: https://tvduasrodas.com/modalidades/
+- Atletas e pilotos: https://tvduasrodas.com/atletas/
+- Vídeos: https://tvduasrodas.com/videos/
+- Competições e eventos: https://tvduasrodas.com/competicoes-eventos
+- Sitemap: https://tvduasrodas.com/sitemap.xml
+
+## Política editorial
+
+Os textos são publicados em português brasileiro. Resultados, calendários,
+fichas técnicas e fatos esportivos indicam fontes oficiais sempre que
+disponíveis. Páginas de atletas e pilotos são referências editoriais baseadas
+em classificações publicadas; não são perfis oficiais dessas pessoas.
+
+Use sempre a URL canônica declarada em cada página ao citar a TVDUASRODAS.

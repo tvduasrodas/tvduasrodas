@@ -61,7 +61,7 @@ Equipamento de proteção continua indispensável. Capacete afivelado, viseira o
 
 Pilotar fora do ponto cego não é buscar uma posição perfeita. É revisar continuamente onde você está, quem consegue vê-lo e o que faria se um veículo mudasse de direção naquele instante. Essa margem mental e física transforma prevenção em hábito.
 
-Veja também: [Como pilotar moto na chuva: checklist de segurança antes de sair](materia.html?slug=como-pilotar-moto-na-chuva-com-seguranca).
+Veja também: [Como pilotar moto na chuva: checklist de segurança antes de sair](/materias/como-pilotar-moto-na-chuva-com-seguranca/).
 
 ## Fontes oficiais consultadas
 

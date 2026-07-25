@@ -7,7 +7,7 @@ category: historia
 tags:
   - 1910 Harley, 1910 Harley Davidson, Ian Biddle
 featured: false
-thumbnail: /assets/img/uploads/harley1910.png
+thumbnail: /assets/img/uploads/harley-1910-seo.webp
 ---
 
 Em **1910**, a Harley ainda era uma empresa pequena, competindo com Indian, Excelsior e outras marcas que hoje nem existem mais.

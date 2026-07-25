@@ -6,6 +6,13 @@ const REPO_NAME = "tvduasrodas";
 const NEWS_PATH = "content/news";
 const SEARCH_VIDEOS_PATH = "content/videos";
 
+function cleanContentSlug(value) {
+    return String(value || "")
+        .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase().replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-+|-+$/g, "");
+}
+
 async function fetchJson(url) {
     // Prefixo das chamadas ao GitHub "contents"
     const ghPrefix = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/`;
@@ -357,7 +364,7 @@ async function loadMagazineFromCMS() {
             card.dataset.category = artigo.categoryNormalized;
             card.dataset.program = artigo.program;
 
-            const linkHref = `materia.html?slug=${encodeURIComponent(artigo.slug)}`;
+            const linkHref = `/materias/${cleanContentSlug(artigo.slug)}/`;
             const categoriaLabel = artigo.categoryRaw || "Matéria";
 
             let coverHtml = "";
@@ -477,7 +484,7 @@ async function loadMoreArticlesSidebar() {
 
         const html = selecionados
             .map((artigo) => {
-                const href = `materia.html?slug=${encodeURIComponent(artigo.slug)}`;
+                const href = `/materias/${cleanContentSlug(artigo.slug)}/`;
                 return `<li><a href="${href}">${artigo.title}</a></li>`;
             })
             .join("");
@@ -514,7 +521,7 @@ function renderMagazineHero(article) {
     const dateEl = document.getElementById("revistaHeroDate");
     const readMoreEl = document.getElementById("revistaHeroReadMore");
 
-    const url = `materia.html?slug=${encodeURIComponent(article.slug)}`;
+    const url = `/materias/${cleanContentSlug(article.slug)}/`;
 
     if (linkEl) linkEl.href = url;
     if (readMoreEl) readMoreEl.href = url;
@@ -632,9 +639,7 @@ async function loadHomeLatestArticles() {
             const card = document.createElement("article");
             card.className = "card article-card";
 
-            const linkHref = `materia.html?slug=${encodeURIComponent(
-                artigo.slug
-            )}`;
+            const linkHref = `/materias/${cleanContentSlug(artigo.slug)}/`;
             const categoriaLabel = artigo.categoryRaw || "Matéria";
 
             let coverHtml = "";
@@ -757,9 +762,7 @@ async function loadHomeVideos() {
                 thumbUrl = cover;
             }
 
-            const url = videoId
-                ? `tv.html?v=${encodeURIComponent(videoId)}`
-                : youtube || "tv.html";
+            const url = `/videos/${cleanContentSlug(slug)}/`;
 
             videos.push({
                 slug,
@@ -1205,15 +1208,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 let url = "#";
                 if (type === "materia") {
-                    url = `materia.html?slug=${encodeURIComponent(slug)}`;
+                    url = `/materias/${cleanContentSlug(slug)}/`;
                 } else if (type === "video") {
-                    if (videoId) {
-                        url = `tv.html?v=${encodeURIComponent(videoId)}`;
-                    } else if (youtube) {
-                        url = youtube;
-                    } else {
-                        url = "tv.html";
-                    }
+                    url = `/videos/${cleanContentSlug(slug)}/`;
                 }
 
                 entries.push({
@@ -1297,7 +1294,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         thumbnail: "/assets/img/competicoes-eventos-default.svg",
                         excerpt: [item.stage, item.city, item.state].filter(Boolean).join(" · "),
                         content: [item.title, item.stage, item.modality, item.city, item.state, item.location, item.note].filter(Boolean).join(" "),
-                        url: `evento.html?slug=${encodeURIComponent(slug)}`
+                        url: `/eventos/${cleanContentSlug(slug)}/`
                     };
                 });
         } catch (error) {
@@ -1780,9 +1777,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     metaDesc.setAttribute("content", articleExcerpt);
 
                     // === CANONICAL SEO (URL oficial da matéria) ===
-                    const canonicalUrl = `${window.location.origin}${window.location.pathname}?slug=${encodeURIComponent(
-                        data.slug || slug
-                    )}`;
+                    const canonicalUrl = `${window.location.origin}/materias/${cleanContentSlug(data.slug || slug)}/`;
 
                     let canonicalLink = document.querySelector("link[rel='canonical']");
                     if (!canonicalLink) {

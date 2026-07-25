@@ -533,6 +533,7 @@
 
                     return {
                         ...data,
+                        slug: file.name.replace(/\.md$/i, ""),
                         // Para segurança, guarda date como Date mesmo
                         _dateObj: parseDateSafe(data.date),
                     };
@@ -559,9 +560,7 @@
                         const body = video.body || "";
                         const videoId = extractYouTubeId(youtubeUrl);
                         // se tiver ID, manda pra tv.html?v=ID. Senão, cai no YouTube direto.
-                        const watchUrl = videoId
-                            ? `tv.html?v=${videoId}`
-                            : (youtubeUrl || "#");
+                        const watchUrl = `/videos/${cleanContentSlug(video.slug)}/`;
 
                         // Ajusta o caminho da thumbnail (se não começar com /)
                         let thumbSrc = thumb;
@@ -622,6 +621,7 @@
 
                     return {
                         ...data,
+                        slug: file.name.replace(/\.md$/i, ""),
                         _dateObj: parseDateSafe(data.date),
                     };
                 });
@@ -650,7 +650,7 @@
                         const body = video.body || "";
                         const videoId = extractYouTubeId(youtubeUrl);
 
-                        const watchUrl = videoId ? `tv.html?v=${videoId}` : (youtubeUrl || "#");
+                        const watchUrl = `/videos/${cleanContentSlug(video.slug)}/`;
 
                         let thumbSrc = thumb;
                         if (thumb && !thumb.startsWith("http") && !thumb.startsWith("/")) {
@@ -758,7 +758,7 @@
                             }
                         }
 
-                        const articleUrl = `materia.html?slug=${encodeURIComponent(slug)}`;
+                        const articleUrl = `/materias/${cleanContentSlug(slug)}/`;
 
                         return `
                   <article class="card article-card">

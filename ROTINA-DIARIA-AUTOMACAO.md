@@ -155,7 +155,7 @@ Esta regra vale para **todos os eventos e todas as competições** cadastrados, 
 
 Toda criação ou alteração pública deve encerrar o próprio ciclo de SEO antes de a execução seguir para outra pauta. Não esperar 20h.
 
-1. Preparar SEO completo e executar `python scripts/update_sitemap.py` e `python scripts/update_sitemap.py --check`.
+1. Preparar SEO completo, executar `python scripts/build_seo_site.py`, depois `python scripts/update_sitemap.py` e `python scripts/update_sitemap.py --check`. O gerador é obrigatório após qualquer inclusão ou alteração em matérias, vídeos, competições, eventos, resultados, marcas ou modalidades.
 2. Fazer commit e push do lote.
 3. Confirmar no domínio público a página alterada e o sitemap publicado.
 4. Reenviar `https://tvduasrodas.com/sitemap.xml` no Google Search Console usando somente `tvduasrodas@gmail.com`.
@@ -278,12 +278,13 @@ Para montar o relatório, conferir o histórico de publicações e alterações 
 1. Verificar duplicidade e criar slug curto, descritivo e preferencialmente sem acentos.
 2. Validar título SEO, meta description, canonical, Open Graph/Twitter, imagem social, texto alternativo, links internos e schema pertinente.
 3. Comprimir imagens e confirmar capa e imagens internas carregando.
-4. Executar `python scripts/update_sitemap.py`.
-5. Executar `python scripts/update_sitemap.py --check` e validar a contagem `static + news + videos + competitions + events`, XML, URLs únicas e ausência de fragmentos inválidos como `#U` ou `%23U`.
-6. Fazer commit apenas dos arquivos relacionados e push para `origin/main`.
-7. Confirmar a URL, imagem, layout e sitemap no domínio público.
-8. No Google Search Console, entrar somente como `tvduasrodas@gmail.com`, reenviar `https://tvduasrodas.com/sitemap.xml` após o lote publicado e solicitar indexação das URLs novas. Nunca usar `wesleyrodrigo29@gmail.com`.
-9. Concluir os passos 1 a 8 imediatamente após o push. Não aguardar a execução das 20h; às 20h apenas auditar e corrigir pendências.
+4. Executar `python scripts/build_seo_site.py` para atualizar as páginas HTML canônicas, relações internas, entidades e o manifesto SEO.
+5. Executar `python scripts/update_sitemap.py`.
+6. Executar `python scripts/update_sitemap.py --check` e validar a contagem `static + canonical_generated`, XML, URLs únicas e ausência de fragmentos inválidos como `#U` ou `%23U`.
+7. Fazer commit apenas dos arquivos relacionados e push para `origin/main`.
+8. Confirmar a URL, imagem, layout e sitemap no domínio público.
+9. No Google Search Console, entrar somente como `tvduasrodas@gmail.com`, reenviar `https://tvduasrodas.com/sitemap.xml` após o lote publicado e solicitar indexação das URLs novas. Nunca usar `wesleyrodrigo29@gmail.com`.
+10. Concluir os passos 1 a 9 imediatamente após o push. Não aguardar a execução das 20h; às 20h apenas auditar e corrigir pendências.
 
 ### Recuperação obrigatória de publicação
 

@@ -82,7 +82,7 @@ A melhor maneira de entender uma moto elétrica é abandonar a ideia de um únic
 
 Este é o ponto de partida do **Electric Zone**. Nas próximas edições, a série vai aprofundar temas como saúde da bateria, tipos de recarga, autonomia real, custo por quilômetro, motos, scooters e bicicletas elétricas — sempre separando dados oficiais de experiência prática.
 
-Veja também: [Honda WN7 e o primeiro passo elétrico da marca no motociclismo global](materia.html?slug=honda-wn7-o-primeiro-passo-elétrico-da-honda-no-motociclismo-global).
+Veja também: [Honda WN7 e o primeiro passo elétrico da marca no motociclismo global](/materias/honda-wn7-o-primeiro-passo-eletrico-da-honda-no-motociclismo-global/).
 
 ## Fontes oficiais consultadas
 
