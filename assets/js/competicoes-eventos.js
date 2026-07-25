@@ -332,7 +332,7 @@
         const categories = [...new Set(items.map((x) => x.category || "Geral"))];
         return categories.map((category) => {
             const rows = items.filter((x) => (x.category || "Geral") === category).sort((a, b) => a.position - b.position);
-            return `<div class="ce-standing-group"><h3>${esc(category)}</h3><div class="ce-table-wrap"><table class="ce-table"><thead><tr><th>Pos.</th><th>Competidor</th><th>Equipe</th><th>${esc(valueLabel)}</th></tr></thead><tbody>${rows.map((x) => `<tr><td><strong>${esc(x.position)}º</strong></td><td>${esc(x.competitor)}</td><td>${esc(x.team || "—")}</td><td><strong>${esc(x.points ?? "—")}</strong></td></tr>`).join("")}</tbody></table></div></div>`;
+            return `<div class="ce-standing-group"><h3>${esc(category)}</h3><div class="ce-table-wrap"><table class="ce-table"><thead><tr><th>Pos.</th><th>Competidor</th><th>Equipe</th><th>${esc(valueLabel)}</th></tr></thead><tbody>${rows.map((x) => `<tr><td><strong>${esc(x.display_position || `${x.position}º`)}</strong></td><td>${esc(x.competitor)}</td><td>${esc(x.team || "—")}</td><td><strong>${esc(x.points ?? "—")}</strong></td></tr>`).join("")}</tbody></table></div></div>`;
         }).join("");
     }
 

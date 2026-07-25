@@ -152,9 +152,10 @@ collections:
         fields:
           - { label: "Categoria", name: "category", widget: "string" }
           - { label: "Posição", name: "position", widget: "number", value_type: "int" }
+          - { label: "Posição exibida", name: "display_position", widget: "string", required: false, hint: "Use para estados oficiais como DNF, DNS ou DSQ." }
           - { label: "Competidor", name: "competitor", widget: "string" }
           - { label: "Equipe", name: "team", widget: "string", required: false }
-          - { label: "Pontos", name: "points", widget: "number" }
+          - { label: "Resultado ou pontos", name: "points", widget: "string" }
       - label: "Etapas e resultados"
         name: "rounds"
         widget: "list"

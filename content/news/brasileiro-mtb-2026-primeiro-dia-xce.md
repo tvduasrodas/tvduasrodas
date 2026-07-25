@@ -45,11 +45,11 @@ O primeiro dia transformou a expectativa da programação em resultados concreto
 
 O campeonato é organizado pela Confederação Brasileira de Ciclismo e pela Federação Paulista de Ciclismo, em parceria com o Mobai Bike Land. O bike park recebe atletas de diferentes categorias e concentra, na mesma programação, três formatos do mountain bike cross country.
 
-Os resultados completos por categoria devem ser consultados na área oficial da CBC. A TVDUASRODAS registra nesta cobertura apenas os pódios da Elite expressamente confirmados no comunicado da entidade.
+O regulamento oficial reúne Elite, Sub-23 e Júnior em duas disputas do XCE: Elite Feminino e Elite Masculino. Portanto, as duas classificações do Eliminator representam todas as categorias previstas para essa disciplina, e não uma seleção editorial. A [central da competição na TVDUASRODAS](competicao.html?slug=brasileiro-ciclismo-mtb-2026) reproduz a classificação oficial completa, inclusive atletas fora do pódio e o registro de quem não largou.
 
 ## O que ainda acontece em São José dos Campos
 
-Depois do Eliminator, o programa segue com as disputas de **Short Track (XCC)** e **Cross Country Olímpico (XCO)**. O XCC mantém a intensidade em um circuito curto, enquanto o XCO amplia a duração e exige constância técnica e física em voltas mais longas.
+Depois do Eliminator, o programa segue com as disputas de **Short Track (XCC)** e **Cross Country Olímpico (XCO)**. No XCC, Elite e Sub-23 formam classificações conjuntas Feminina e Masculina. O XCO amplia a duração e distribui títulos em 30 categorias oficiais, entre Infantil, Infantojuvenil, Juvenil, Júnior, Sub-23, Elite, Sub-30 e as divisões Master femininas e masculinas.
 
 O encerramento está previsto para domingo, 26 de julho. No dia seguinte, a TVDUASRODAS publicará o balanço completo do campeonato, com os campeões e resultados confirmados pela CBC.
 

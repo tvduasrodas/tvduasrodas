@@ -13,8 +13,8 @@
   "cover": "/assets/img/uploads/brasileiro-ciclismo-mtb-2026-capa.webp",
   "image_credit": "Foto de arquivo (2024): Alan Modesto / CBC · Arte: TVDUASRODAS",
   "featured": false,
-  "summary": "Campeonato em andamento: o resultado oficial completo do XCE já está publicado, com títulos de Luiz Henrique Cocuzzi e Iara Caetano; a programação segue com XCC e XCO até 26 de julho.",
-  "last_updated": "2026-07-24T15:35:00-04:00",
+  "summary": "Cobertura integral das 34 classificações oficiais: resultados completos do XCE e do XCC já publicados; as 30 categorias do XCO estão identificadas e aguardam os documentos oficiais da CBC.",
+  "last_updated": "2026-07-25T15:51:00-04:00",
   "next_stage": {
     "name": "Campeonato Brasileiro MTB XCO/XCC/XCE",
     "start_date": "2026-07-23",
@@ -22,7 +22,7 @@
     "venue": "",
     "city": "São José dos Campos",
     "state": "SP",
-    "note": "Etapa em andamento; consulte a programação oficial da CBC."
+    "note": "XCO em andamento; todas as 30 categorias oficiais estão relacionadas abaixo e aguardam a publicação dos resultados."
   },
   "coverage": {
     "first_day": {
@@ -39,13 +39,44 @@
     }
   },
   "categories": [
-    "XCO",
-    "XCC",
-    "XCE"
+    "XCE Elite Feminino (Elite + Sub-23 + Júnior)",
+    "XCE Elite Masculino (Elite + Sub-23 + Júnior)",
+    "XCC Elite Feminino (Elite + Sub-23)",
+    "XCC Elite Masculino (Elite + Sub-23)",
+    "XCO Feminino Infantil",
+    "XCO Feminino Infantojuvenil",
+    "XCO Feminino Juvenil",
+    "XCO Feminino Júnior",
+    "XCO Feminino Sub-23",
+    "XCO Feminino Elite",
+    "XCO Feminino Master A1",
+    "XCO Feminino Master A2",
+    "XCO Feminino Master B1",
+    "XCO Feminino Master B2",
+    "XCO Feminino Master C1",
+    "XCO Feminino Master C2",
+    "XCO Feminino Master D1",
+    "XCO Feminino Master D (65+)",
+    "XCO Masculino Infantil",
+    "XCO Masculino Infantojuvenil",
+    "XCO Masculino Juvenil",
+    "XCO Masculino Júnior",
+    "XCO Masculino Sub-23",
+    "XCO Masculino Elite",
+    "XCO Masculino Sub-30",
+    "XCO Masculino Master A1",
+    "XCO Masculino Master A2",
+    "XCO Masculino Master B1",
+    "XCO Masculino Master B2",
+    "XCO Masculino Master C1",
+    "XCO Masculino Master C2",
+    "XCO Masculino Master D1",
+    "XCO Masculino Master D2",
+    "XCO Masculino Master E"
   ],
-  "standings_eyebrow": "Resultado oficial",
-  "standings_title": "Classificação final do XCE",
-  "standings_value_label": "Situação",
+  "standings_eyebrow": "Resultados oficiais completos",
+  "standings_title": "Classificações finais do XCE e do XCC",
+  "standings_value_label": "Voltas / tempo / situação",
   "standings": [
     {
       "category": "XCE Elite Feminino",
@@ -165,6 +196,282 @@
       "competitor": "Juliano Cocuzzi",
       "team": "Avulso/SC",
       "points": "Classificado"
+    },
+    {
+      "category": "XCE Elite Masculino",
+      "position": 10,
+      "display_position": "DNS",
+      "competitor": "Erick Rodrigues Pereira Fagundes",
+      "team": "São José Ciclismo / Instituto Athlon",
+      "points": "Não largou"
+    },
+    {
+      "category": "XCC Elite Feminino (Elite + Sub-23)",
+      "position": 1,
+      "competitor": "Raiza Goulão Henrique",
+      "team": "Avulso/GO",
+      "points": "8 voltas · 24:32.657"
+    },
+    {
+      "category": "XCC Elite Feminino (Elite + Sub-23)",
+      "position": 2,
+      "competitor": "Giuliana Salvini Morgen",
+      "team": "GEN2RISE",
+      "points": "8 voltas · 24:42.994"
+    },
+    {
+      "category": "XCC Elite Feminino (Elite + Sub-23)",
+      "position": 3,
+      "competitor": "Hercilia Najara Ferreira de Souza",
+      "team": "ACELFI",
+      "points": "8 voltas · 26:07.400"
+    },
+    {
+      "category": "XCC Elite Feminino (Elite + Sub-23)",
+      "position": 4,
+      "competitor": "Gabriela Pereira Ferolla",
+      "team": "Avulso/SC",
+      "points": "8 voltas · 26:33.360"
+    },
+    {
+      "category": "XCC Elite Feminino (Elite + Sub-23)",
+      "position": 5,
+      "competitor": "Luiza Cocuzzi",
+      "team": "ACRS Cycling Team / SEMEL / Audax / Royal Ciclo",
+      "points": "8 voltas · 27:19.581"
+    },
+    {
+      "category": "XCC Elite Feminino (Elite + Sub-23)",
+      "position": 6,
+      "competitor": "Marcela Lima Braga Matos",
+      "team": "Clube de Ciclismo de Indaiatuba",
+      "points": "7 voltas · 24:02.529"
+    },
+    {
+      "category": "XCC Elite Feminino (Elite + Sub-23)",
+      "position": 7,
+      "competitor": "Luiza Euzebio de Souza",
+      "team": "Clube Maringaense de Ciclismo",
+      "points": "6 voltas · 20:45.634"
+    },
+    {
+      "category": "XCC Elite Feminino (Elite + Sub-23)",
+      "position": 8,
+      "competitor": "Carolina Ferreira",
+      "team": "Soul Extreme",
+      "points": "6 voltas · 20:55.583"
+    },
+    {
+      "category": "XCC Elite Feminino (Elite + Sub-23)",
+      "position": 9,
+      "competitor": "Ana Laura Oliveira de Moraes",
+      "team": "Soul Extreme",
+      "points": "5 voltas · 17:24.210"
+    },
+    {
+      "category": "XCC Elite Feminino (Elite + Sub-23)",
+      "position": 10,
+      "competitor": "Sabrina Oliveira da Silva",
+      "team": "ACRS Cycling Team / SEMEL / Audax / Royal Ciclo",
+      "points": "5 voltas · 17:24.841"
+    },
+    {
+      "category": "XCC Elite Feminino (Elite + Sub-23)",
+      "position": 11,
+      "competitor": "Anna Vitoria de Oliveira Vieira",
+      "team": "Avulso/BA",
+      "points": "5 voltas · 17:31.190"
+    },
+    {
+      "category": "XCC Elite Feminino (Elite + Sub-23)",
+      "position": 12,
+      "competitor": "Nina Carvalho dos Santos",
+      "team": "Associação Mountain Bike BH",
+      "points": "5 voltas · 17:32.635"
+    },
+    {
+      "category": "XCC Elite Feminino (Elite + Sub-23)",
+      "position": 13,
+      "display_position": "DNF",
+      "competitor": "Iara Caetano Leite",
+      "team": "ACELFI",
+      "points": "2 voltas · não terminou"
+    },
+    {
+      "category": "XCC Elite Masculino (Elite + Sub-23)",
+      "position": 1,
+      "competitor": "Alex Junior Malacarne",
+      "team": "Avulso/PR",
+      "points": "9 voltas · 24:02.736"
+    },
+    {
+      "category": "XCC Elite Masculino (Elite + Sub-23)",
+      "position": 2,
+      "competitor": "Gustavo Xavier de Oliveira Pereira",
+      "team": "Clube Maringaense de Ciclismo",
+      "points": "9 voltas · 24:10.084"
+    },
+    {
+      "category": "XCC Elite Masculino (Elite + Sub-23)",
+      "position": 3,
+      "competitor": "José Gabriel Marques de Almeida",
+      "team": "Avaí F.C. / FME Florianópolis / APGF",
+      "points": "9 voltas · 24:33.042"
+    },
+    {
+      "category": "XCC Elite Masculino (Elite + Sub-23)",
+      "position": 4,
+      "competitor": "Ulan Bastos Galinski",
+      "team": "BH Coloma Team",
+      "points": "9 voltas · 25:00.811"
+    },
+    {
+      "category": "XCC Elite Masculino (Elite + Sub-23)",
+      "position": 5,
+      "competitor": "Nicolas Rafhael Amancio Romao Machado",
+      "team": "Avulso/SC",
+      "points": "9 voltas · 25:10.632"
+    },
+    {
+      "category": "XCC Elite Masculino (Elite + Sub-23)",
+      "position": 6,
+      "competitor": "Luiz Miguel Campos Honorio",
+      "team": "Avulso/MG",
+      "points": "9 voltas · 25:19.333"
+    },
+    {
+      "category": "XCC Elite Masculino (Elite + Sub-23)",
+      "position": 7,
+      "competitor": "Gustavo Roma de Oliveira Filho",
+      "team": "Avulso/SP",
+      "points": "9 voltas · 25:28.574"
+    },
+    {
+      "category": "XCC Elite Masculino (Elite + Sub-23)",
+      "position": 8,
+      "competitor": "Mario Couto Grego Santos",
+      "team": "Avulso/SC",
+      "points": "9 voltas · 25:40.246"
+    },
+    {
+      "category": "XCC Elite Masculino (Elite + Sub-23)",
+      "position": 9,
+      "competitor": "Francisco Matheus Martins da Silva",
+      "team": "Avulso/BA",
+      "points": "9 voltas · 25:47.000"
+    },
+    {
+      "category": "XCC Elite Masculino (Elite + Sub-23)",
+      "position": 10,
+      "competitor": "Rodrigo Silva Rosa",
+      "team": "ACC / SEDEC / Concórdia",
+      "points": "9 voltas · 26:06.925"
+    },
+    {
+      "category": "XCC Elite Masculino (Elite + Sub-23)",
+      "position": 11,
+      "competitor": "Matheus Eduardo Franciscon",
+      "team": "Soul Extreme",
+      "points": "9 voltas · 26:31.550"
+    },
+    {
+      "category": "XCC Elite Masculino (Elite + Sub-23)",
+      "position": 12,
+      "competitor": "Eiki Yamauchi Leoncio",
+      "team": "Soul Extreme",
+      "points": "8 voltas · 23:09.090"
+    },
+    {
+      "category": "XCC Elite Masculino (Elite + Sub-23)",
+      "position": 13,
+      "competitor": "Flavio de Jesus Lobo Neto",
+      "team": "Avulso/BA",
+      "points": "8 voltas · 23:12.103"
+    },
+    {
+      "category": "XCC Elite Masculino (Elite + Sub-23)",
+      "position": 14,
+      "competitor": "Luiz Henrique Cocuzzi",
+      "team": "ACRS Cycling Team / SEMEL / Audax / Royal Ciclo",
+      "points": "6 voltas · 17:51.266"
+    },
+    {
+      "category": "XCC Elite Masculino (Elite + Sub-23)",
+      "position": 15,
+      "competitor": "Lucio Otavio Soares",
+      "team": "Avulso/MG",
+      "points": "5 voltas · 14:56.173"
+    },
+    {
+      "category": "XCC Elite Masculino (Elite + Sub-23)",
+      "position": 16,
+      "competitor": "Tales Jardel Soares",
+      "team": "Soul Extreme",
+      "points": "5 voltas · 14:59.578"
+    },
+    {
+      "category": "XCC Elite Masculino (Elite + Sub-23)",
+      "position": 17,
+      "competitor": "Gustavo de Souza Nogueira",
+      "team": "ACELFI",
+      "points": "5 voltas · 15:00.946"
+    },
+    {
+      "category": "XCC Elite Masculino (Elite + Sub-23)",
+      "position": 18,
+      "competitor": "Rafael Beghelli Schirato Assis",
+      "team": "Avulso/SP",
+      "points": "5 voltas · 15:03.771"
+    },
+    {
+      "category": "XCC Elite Masculino (Elite + Sub-23)",
+      "position": 19,
+      "competitor": "Carlos Alberto Fernandes Olimpio",
+      "team": "Associação de Ciclismo Campo Mourão",
+      "points": "5 voltas · 15:16.430"
+    },
+    {
+      "category": "XCC Elite Masculino (Elite + Sub-23)",
+      "position": 20,
+      "competitor": "Gianlucka Guarnieri Adami",
+      "team": "Avulso/MG",
+      "points": "4 voltas · 12:36.679"
+    },
+    {
+      "category": "XCC Elite Masculino (Elite + Sub-23)",
+      "position": 21,
+      "competitor": "Axel Kruger",
+      "team": "SECEL Jaraguá do Sul",
+      "points": "4 voltas · 12:46.742"
+    },
+    {
+      "category": "XCC Elite Masculino (Elite + Sub-23)",
+      "position": 22,
+      "competitor": "Caio Bergamasco Santana",
+      "team": "Avulso/SP",
+      "points": "4 voltas · 12:56.299"
+    },
+    {
+      "category": "XCC Elite Masculino (Elite + Sub-23)",
+      "position": 23,
+      "competitor": "Valmor Hausmann",
+      "team": "Avulso/SC",
+      "points": "4 voltas · 13:09.774"
+    },
+    {
+      "category": "XCC Elite Masculino (Elite + Sub-23)",
+      "position": 24,
+      "competitor": "Arthur Fernandes Franco",
+      "team": "Avulso/MG",
+      "points": "2 voltas · 7:15.368"
+    },
+    {
+      "category": "XCC Elite Masculino (Elite + Sub-23)",
+      "position": 25,
+      "display_position": "DNF",
+      "competitor": "Vinicius Howe",
+      "team": "Soul Extreme",
+      "points": "1 volta · não terminou"
     }
   ],
   "rounds": [
@@ -184,9 +491,9 @@
       "end_date": "2026-07-24",
       "name": "Cross Country Short Track (XCC)",
       "location": "Mobai Bike Land, São José dos Campos/SP",
-      "status": "em_andamento",
-      "winner": "",
-      "results_url": "https://www.cbc.esp.br/modalidades/resultados/busca/mtb"
+      "status": "concluida",
+      "winner": "Alex Junior Malacarne (masculino); Raiza Goulão Henrique (feminino)",
+      "results_url": "https://www.cbc.esp.br/arquivos/930667xcwx.pdf"
     },
     {
       "order": 3,
@@ -194,11 +501,11 @@
       "end_date": "2026-07-26",
       "name": "Cross Country Olímpico (XCO)",
       "location": "Mobai Bike Land, São José dos Campos/SP",
-      "status": "agendada",
+      "status": "em_andamento",
       "winner": "",
       "results_url": "https://www.cbc.esp.br/modalidades/resultados/busca/mtb"
     }
   ],
   "related_videos": [],
-  "body": "## Situação atual\n\nO Campeonato Brasileiro de Mountain Bike XCO-XCC-XCE está em andamento no Mobai Bike Land, em São José dos Campos. A CBC publicou a classificação final completa do Eliminator (XCE): Iara Caetano Leite venceu entre as mulheres, seguida por Luiza Cocuzzi e Mayara Ketlly; Luiz Henrique Cocuzzi ganhou no masculino, com Axel Kruger em segundo e Gianlucka Guarnieri Adami em terceiro.\n\nA tabela desta página reproduz todos os atletas classificados no documento oficial do XCE, não apenas o pódio. O PDF foi publicado na área de Resultados da CBC, separada da notícia de abertura.\n\nA programação segue até 26 de julho com as disputas de Short Track (XCC) e Cross Country Olímpico (XCO). Os documentos de cada prova serão incorporados assim que aparecerem na CBC ou na plataforma oficial vinculada. A cobertura do primeiro dia está publicada na Revista da TVDUASRODAS, e o balanço final será publicado no dia seguinte ao encerramento."
+  "body": "## Situação atual\n\nO Campeonato Brasileiro de Mountain Bike XCO-XCC-XCE está em andamento no Mobai Bike Land, em São José dos Campos. A CBC já publicou os resultados finais completos do XCE e do XCC. Esta página reproduz todos os nomes desses documentos, inclusive DNF e DNS, e não apenas vencedores ou pódios.\n\nNo XCE, Luiz Henrique Cocuzzi e Iara Caetano Leite foram campeões. No XCC, Alex Junior Malacarne venceu o masculino e Raiza Goulão Henrique ganhou o feminino.\n\n## Por que XCE e XCC têm duas classificações\n\nIsso decorre do regulamento, não de uma seleção editorial. No XCE, Elite, Sub-23 e Júnior competem reunidos nas classificações oficiais Elite Feminino e Elite Masculino. No XCC, Elite e Sub-23 são reunidos nas classificações Elite Feminino e Elite Masculino. As categorias de origem e a classificação conjunta estão identificadas nesta página.\n\n## Todas as categorias do XCO\n\nO XCO tem 30 categorias oficiais. No feminino: Infantil, Infantojuvenil, Juvenil, Júnior, Sub-23, Elite, Master A1, Master A2, Master B1, Master B2, Master C1, Master C2, Master D1 e Master D (65+). No masculino: Infantil, Infantojuvenil, Juvenil, Júnior, Sub-23, Elite, Sub-30, Master A1, Master A2, Master B1, Master B2, Master C1, Master C2, Master D1, Master D2 e Master E.\n\nAs provas de sábado, 25 de julho, abrangem a prova amadora, Infantil, Infantojuvenil, Sub-30 e as divisões Master. As provas de domingo, 26 de julho, abrangem Juvenil, Júnior, Sub-23 e Elite. A prova amadora integra a programação, mas não é categoria oficial do Campeonato Brasileiro.\n\n**Status verificado em 25 de julho de 2026, às 15h51 (horário de Nova York):** a área oficial da CBC ainda não publicou os PDFs do XCO. Por isso, nenhuma categoria foi retirada; todas permanecem relacionadas como em disputa ou aguardando resultado oficial. Assim que os documentos forem publicados, cada classificação deverá ser incorporada integralmente.\n\n## Etapa e classificação geral\n\nEste Campeonato Brasileiro é um evento único para cada disciplina e categoria, não um circuito com várias etapas e pontuação geral acumulada. Portanto, a classificação final de cada prova também define a classificação do campeonato. O ranking nacional da CBC é uma apuração separada e não deve ser apresentado como classificação geral deste evento.\n\nFontes oficiais: Guia Técnico do Campeonato Brasileiro MTB XCO-XCC-XCE 2026; resultados finais do XCE e do XCC; área de Resultados da CBC. A cobertura do primeiro dia está publicada na Revista da TVDUASRODAS, e o balanço final será publicado no dia seguinte ao encerramento."
 }

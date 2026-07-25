@@ -32,7 +32,8 @@ Tratamento: redimensionamento proporcional e conversão para WebP com `scripts/o
 
 ## Limites editoriais
 
-- A matéria registra apenas resultados confirmados no comunicado oficial.
+- A matéria narrativa destaca a abertura, mas a central estrutural reproduz integralmente os documentos oficiais do XCE e do XCC e mantém visíveis todas as categorias do XCO.
+- O guia técnico esclarece que as duas classificações do XCE são conjuntas para Elite, Sub-23 e Júnior; não representam omissão de categorias.
 - A segunda foto é uma imagem oficial de contexto da competição e não é descrita como registro de uma bateria específica do primeiro dia.
 - O texto não declara presença física da TVDUASRODAS.
 - O balanço final permanece obrigatório para 27/07/2026, dia seguinte ao encerramento.
