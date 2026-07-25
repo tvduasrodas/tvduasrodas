@@ -1,7 +1,7 @@
 (function () {
     "use strict";
 
-    const CONFIG_URL = "content/ads/config.json";
+    const CONFIG_URL = "/content/ads/config.json";
     let configPromise;
     let currentContext = {};
 
@@ -51,15 +51,20 @@
         const main = document.querySelector("main");
         if (!main) return;
         const container = main.querySelector(".container") || main;
+        const hasSidebarLayout = container.classList.contains("layout-with-sidebar");
+        const target = hasSidebarLayout
+            ? container.querySelector(":scope > .main-column, :scope > .revista-main, :scope > .article-main")
+            : container;
+        if (!target) return;
         const slot = document.createElement("aside");
         slot.className = "tdr-ad-slot tdr-ad-slot--automatic";
-        slot.dataset.adSlot = "central-billboard";
+        slot.dataset.adSlot = hasSidebarLayout ? "article-inline" : "central-billboard";
         slot.setAttribute("aria-label", "Publicidade contextual");
-        const heading = container.querySelector(
+        const heading = target.querySelector(
             ":scope > .seo-collection-header, :scope > .page-header, :scope > header"
         );
         if (heading) heading.insertAdjacentElement("afterend", slot);
-        else container.insertAdjacentElement("afterbegin", slot);
+        else target.insertAdjacentElement("afterbegin", slot);
     }
 
     function loadConfig() {

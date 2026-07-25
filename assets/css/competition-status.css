@@ -1,0 +1,125 @@
+.ce-status--adiada {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.ce-status--cancelada {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.ce-status--a_confirmar,
+.ce-status--a-confirmar {
+    background: #e5e7eb;
+    color: #374151;
+}
+
+.ce-status--resultado {
+    display: inline-grid;
+    grid-template-columns: auto 1fr;
+    gap: 0 7px;
+    border-radius: 10px;
+    background: #ecfdf5;
+    color: #047857;
+    text-transform: none;
+}
+
+.ce-status--resultado::before {
+    content: "";
+    grid-row: 1 / span 2;
+    align-self: center;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: currentColor;
+}
+
+.ce-status--resultado span {
+    font-size: .58rem;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+}
+
+.ce-status--resultado strong {
+    color: #065f46;
+    font-size: .72rem;
+}
+
+.seo-result-status {
+    display: inline-flex;
+    align-items: center;
+    width: max-content;
+    max-width: 100%;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: #e5e7eb;
+    color: #374151;
+    font-size: .72rem;
+    font-weight: 850;
+    line-height: 1.2;
+}
+
+.seo-result-status::before {
+    content: "";
+    flex: 0 0 auto;
+    width: 7px;
+    height: 7px;
+    margin-right: 7px;
+    border-radius: 50%;
+    background: currentColor;
+}
+
+.seo-result-status--agendada,
+.seo-result-status--proximo {
+    background: #ffedd5;
+    color: #9a3412;
+}
+
+.seo-result-status--em-andamento {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.seo-result-status--concluida,
+.seo-result-status--encerrado {
+    background: #e0e7ff;
+    color: #3730a3;
+}
+
+.seo-result-status--adiada {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.seo-result-status--cancelada {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.seo-result-status--a-confirmar {
+    background: #e5e7eb;
+    color: #374151;
+}
+
+.seo-result-status--resultado {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    border-radius: 10px;
+    background: #ecfdf5;
+    color: #047857;
+}
+
+.seo-result-status--resultado::before {
+    grid-row: 1 / span 2;
+}
+
+.seo-result-status--resultado span {
+    font-size: .6rem;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+}
+
+.seo-result-status--resultado strong {
+    color: #065f46;
+    font-size: .78rem;
+}

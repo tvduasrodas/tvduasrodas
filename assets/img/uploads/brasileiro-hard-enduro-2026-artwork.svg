@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+  <title id="t">Campeonato Brasileiro de Hard Enduro 2026</title><desc id="d">Arte editorial TVDUASRODAS com rochas, aclive e motocicleta de enduro.</desc>
+  <defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#130809"/><stop offset="1" stop-color="#522417"/></linearGradient><linearGradient id="a"><stop stop-color="#ff3d21"/><stop offset="1" stop-color="#ffc126"/></linearGradient></defs>
+  <rect width="1200" height="675" fill="url(#g)"/><path d="M0 560 165 410l140 80 180-240 150 125 210-230 355 330v200H0Z" fill="#ffdfbf" opacity=".12"/><path d="m-20 610 205-135 180 30 155-210 175 105 240-220 285 185" fill="none" stroke="url(#a)" stroke-width="16"/>
+  <g transform="translate(800 330) rotate(-17)" fill="none" stroke="#fff" stroke-width="14"><circle cx="0" cy="130" r="65"/><circle cx="220" cy="130" r="65"/><path d="m0 130 90-130 130 130H0L112 65l108 65M88 0h82l38 55"/></g>
+  <text x="72" y="105" fill="#ff7a26" font-family="Arial,sans-serif" font-size="25" font-weight="800" letter-spacing="6">TVDUASRODAS • 2026</text><text x="72" y="215" fill="#fff" font-family="Arial,sans-serif" font-size="70" font-weight="900">BRASILEIRO</text><text x="72" y="295" fill="#fff" font-family="Arial,sans-serif" font-size="70" font-weight="900">HARD ENDURO</text>
+</svg>

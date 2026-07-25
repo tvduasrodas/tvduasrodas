@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+  <title id="t">Campeonato Brasileiro de Enduro de Regularidade 2026</title><desc id="d">Arte editorial TVDUASRODAS com trilha, cronômetro e relevo.</desc>
+  <defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#07130b"/><stop offset="1" stop-color="#315027"/></linearGradient><linearGradient id="a"><stop stop-color="#b8ef32"/><stop offset="1" stop-color="#ff8a24"/></linearGradient></defs>
+  <rect width="1200" height="675" fill="url(#g)"/><path d="M0 470c220-130 390 100 600-65s360 80 600-50v320H0Z" fill="#d8ffb0" opacity=".1"/><path d="M-50 600c300-255 470-35 700-210s380 35 610-130" fill="none" stroke="url(#a)" stroke-width="16" stroke-dasharray="36 18"/>
+  <g transform="translate(870 315)" fill="none" stroke="#fff" stroke-width="18"><circle cx="0" cy="90" r="118"/><path d="M0-28v42M-42-55h84M0 90l55-48"/></g>
+  <text x="72" y="105" fill="#c9f454" font-family="Arial,sans-serif" font-size="25" font-weight="800" letter-spacing="6">TVDUASRODAS • 2026</text><text x="72" y="205" fill="#fff" font-family="Arial,sans-serif" font-size="58" font-weight="900">ENDURO DE</text><text x="72" y="275" fill="#fff" font-family="Arial,sans-serif" font-size="58" font-weight="900">REGULARIDADE</text>
+</svg>

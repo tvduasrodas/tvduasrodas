@@ -535,7 +535,7 @@
     "url": "/competicoes/brasileiro-big-trail-2026/",
     "lastmod": "2026-07-21",
     "priority": "0.8",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "image": "https://tvduasrodas.com/assets/img/uploads/brasileiro-big-trail-2026-artwork.svg",
     "kind": "competition"
   },
   {
@@ -570,21 +570,21 @@
     "url": "/competicoes/brasileiro-enduro-regularidade-2026/",
     "lastmod": "2026-07-21",
     "priority": "0.8",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "image": "https://tvduasrodas.com/assets/img/uploads/brasileiro-enduro-regularidade-2026-artwork.svg",
     "kind": "competition"
   },
   {
     "url": "/competicoes/brasileiro-hard-enduro-2026/",
     "lastmod": "2026-07-21",
     "priority": "0.8",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "image": "https://tvduasrodas.com/assets/img/uploads/brasileiro-hard-enduro-2026-artwork.svg",
     "kind": "competition"
   },
   {
     "url": "/competicoes/brasileiro-moto-climb-2026/",
     "lastmod": "2026-07-21",
     "priority": "0.8",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "image": "https://tvduasrodas.com/assets/img/uploads/brasileiro-moto-climb-2026-artwork.svg",
     "kind": "competition"
   },
   {
@@ -598,21 +598,21 @@
     "url": "/competicoes/brasileiro-rally-baja-2026/",
     "lastmod": "2026-07-21",
     "priority": "0.8",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "image": "https://tvduasrodas.com/assets/img/uploads/brasileiro-rally-baja-2026-artwork.svg",
     "kind": "competition"
   },
   {
     "url": "/competicoes/brasileiro-rally-raid-2026/",
     "lastmod": "2026-07-21",
     "priority": "0.8",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "image": "https://tvduasrodas.com/assets/img/uploads/brasileiro-rally-raid-2026-artwork.svg",
     "kind": "competition"
   },
   {
     "url": "/competicoes/gp-ohvale-brasil-2026/",
     "lastmod": "2026-07-21",
     "priority": "0.8",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "image": "https://tvduasrodas.com/assets/img/uploads/gp-ohvale-brasil-2026-artwork.svg",
     "kind": "competition"
   },
   {
@@ -2253,6 +2253,12 @@
   },
   {
     "url": "/videos/",
+    "lastmod": "2026-07-25",
+    "priority": "0.9",
+    "kind": "index"
+  },
+  {
+    "url": "/materias/",
     "lastmod": "2026-07-25",
     "priority": "0.9",
     "kind": "index"

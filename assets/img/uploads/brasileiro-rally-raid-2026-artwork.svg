@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+  <title id="t">Campeonato Brasileiro de Rally Raid 2026</title><desc id="d">Arte editorial TVDUASRODAS com horizonte, rota de navegação e motocicleta de rally raid.</desc>
+  <defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#06151b"/><stop offset=".6" stop-color="#174a50"/><stop offset="1" stop-color="#7d431f"/></linearGradient><linearGradient id="a"><stop stop-color="#28d7d1"/><stop offset="1" stop-color="#ff9a2e"/></linearGradient></defs>
+  <rect width="1200" height="675" fill="url(#g)"/><path d="M0 450c185-85 380 62 580-32s402-62 620 36v221H0Z" fill="#c8fff6" opacity=".12"/><path d="M-30 560c230-170 460 55 690-85s360-65 570-10" fill="none" stroke="url(#a)" stroke-width="15" stroke-dasharray="55 16"/>
+  <g transform="translate(790 340)" fill="none" stroke="#fff" stroke-width="14"><circle cx="0" cy="130" r="65"/><circle cx="220" cy="130" r="65"/><path d="m0 130 95-130 125 130H0l118-63 102 63M93 0h72l35 52"/></g>
+  <text x="72" y="105" fill="#65efe2" font-family="Arial,sans-serif" font-size="25" font-weight="800" letter-spacing="6">TVDUASRODAS • 2026</text><text x="72" y="215" fill="#fff" font-family="Arial,sans-serif" font-size="70" font-weight="900">RALLY RAID</text><text x="76" y="275" fill="#c9fff8" font-family="Arial,sans-serif" font-size="30" font-weight="800" letter-spacing="7">CAMPEONATO BRASILEIRO</text>
+</svg>

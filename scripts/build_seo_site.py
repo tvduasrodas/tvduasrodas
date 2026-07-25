@@ -315,6 +315,7 @@ def page_shell(
     image: str = "/assets/img/logotv.png",
     page_type: str = "website",
     scripts: str = "",
+    extra_styles: tuple[str, ...] = (),
 ) -> str:
     canonical_url = absolute_url(canonical)
     image_url = absolute_url(image)
@@ -342,7 +343,8 @@ def page_shell(
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
   <link rel="canonical" href="{esc(canonical_url)}">
   <link rel="icon" href="/assets/img/logoTVicon_web.ico">
-  <link rel="stylesheet" href="/assets/css/style.css?v=20260725competitionblocks">
+  <link rel="stylesheet" href="/assets/css/style.css?v=20260725responsive1">
+{"".join(f'  <link rel="stylesheet" href="{esc(path)}">' for path in extra_styles)}
   <meta property="og:locale" content="pt_BR">
   <meta property="og:type" content="{esc(page_type)}">
   <meta property="og:site_name" content="TVDUASRODAS">
@@ -369,7 +371,7 @@ def page_shell(
     <p>© TVDUASRODAS — conteúdo sobre o universo das duas rodas.</p>
     <p class="footer-small"><a href="/sobre">Sobre</a> · <a href="/contato">Contato</a> · <a href="/sitemap.xml">Sitemap</a></p>
   </div></div></footer>
-  <script src="/assets/js/ads.js?v=20260725b"></script>
+  <script src="/assets/js/ads.js?v=20260725c"></script>
 {scripts}
 </body>
 </html>
@@ -385,9 +387,14 @@ def write_page(path: str, content: str) -> None:
 def card(item: dict[str, Any]) -> str:
     eyebrow = item.get("kind_label", item.get("category", "Conteúdo"))
     image = item.get("image", "")
+    needs_artwork_label = item.get("kind") in {"event", "competition"} and "competicoes-eventos-default" in image
+    artwork_label = (
+        f'<span class="seo-card__artwork-label"><small>TVDUASRODAS</small><strong>{esc(item["title"])}</strong></span>'
+        if needs_artwork_label else ""
+    )
     media = (
         f'<a class="seo-card__media" href="{esc(item["url"])}"><img src="{esc(image)}" '
-        f'alt="{esc(item["title"])}" loading="lazy" decoding="async"></a>'
+        f'alt="{esc(item["title"])}" loading="lazy" decoding="async">{artwork_label}</a>'
         if image else ""
     )
     video_class = " seo-card--video" if item.get("kind") == "video" else ""
@@ -654,11 +661,9 @@ def render_article(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str
   <header><span class="seo-eyebrow">{esc(item["category"])}</span><h1>{esc(item["title"])}</h1>
   <p class="seo-lead">{esc(item["summary"])}</p><p class="seo-meta">Por {esc(item["author"])} · {esc(iso_day(item["date"]))}</p></header>
   {f'<figure class="seo-hero"><img src="{esc(image)}" alt="{esc(item["title"])}"><figcaption>{esc(item["title"])}</figcaption></figure>' if image else ""}
-  <div class="seo-ad-pair">
-    <aside class="tdr-ad-slot" data-ad-slot="article-sidebar"{ad_override(item)} aria-label="Publicidade lateral relacionada à matéria"></aside>
-    <aside class="tdr-ad-slot" data-ad-slot="article-inline"{ad_override(item)} aria-label="Banner relacionado à matéria"></aside>
-  </div>
+  <aside class="tdr-ad-slot" data-ad-slot="article-sidebar"{ad_override(item)} aria-label="Publicidade relacionada à matéria"></aside>
   <div class="seo-prose">{markdown(item["body"])}</div>
+  <aside class="tdr-ad-slot" data-ad-slot="article-inline"{ad_override(item)} aria-label="Banner relacionado à matéria"></aside>
   {relation_blocks(item, all_items)}
 </article>"""
     return page_shell(
@@ -689,11 +694,9 @@ def render_video(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
   <header><span class="seo-eyebrow">Vídeo · {esc(item["category"])}</span><h1>{esc(item["title"])}</h1>
   <p class="seo-lead">{esc(item["summary"])}</p><p class="seo-meta">{esc(item.get("channel"))} · {esc(iso_day(item["date"]))}</p></header>
   <div class="seo-video"><iframe src="https://www.youtube.com/embed/{esc(item["video_id"])}" title="{esc(item["title"])}" allowfullscreen loading="eager"></iframe></div>
-  <div class="seo-ad-pair">
-    <aside class="tdr-ad-slot" data-ad-slot="video-sidebar"{ad_override(item)} aria-label="Publicidade lateral relacionada ao vídeo"></aside>
-    <aside class="tdr-ad-slot" data-ad-slot="video-inline"{ad_override(item)} aria-label="Banner relacionado ao vídeo"></aside>
-  </div>
+  <aside class="tdr-ad-slot" data-ad-slot="video-sidebar"{ad_override(item)} aria-label="Publicidade relacionada ao vídeo"></aside>
   <div class="seo-prose">{markdown(item["body"])}</div>
+  <aside class="tdr-ad-slot" data-ad-slot="video-inline"{ad_override(item)} aria-label="Banner relacionado ao vídeo"></aside>
   {relation_blocks(item, all_items)}
 </article>"""
     return page_shell(
@@ -716,20 +719,37 @@ def linked_markdown(text: str, people: dict[str, list[dict[str, Any]]]) -> str:
     return rendered
 
 
+def render_round_outcome(stage: dict[str, Any]) -> str:
+    winner = str(stage.get("winner") or "").strip()
+    if winner:
+        return (
+            '<span class="seo-result-status seo-result-status--resultado">'
+            f'<span>Resultado</span><strong>{esc(winner)}</strong></span>'
+        )
+    status = str(stage.get("status") or "a confirmar").strip()
+    status_key = slugify(status)
+    labels = {
+        "agendada": "Agendada",
+        "proximo": "Próxima",
+        "em-andamento": "Em andamento",
+        "concluida": "Concluída",
+        "encerrado": "Encerrada",
+        "adiada": "Adiada",
+        "cancelada": "Cancelada",
+        "a-confirmar": "A confirmar",
+    }
+    return (
+        f'<span class="seo-result-status seo-result-status--{esc(status_key)}">'
+        f'{esc(labels.get(status_key, status.replace("_", " ").capitalize()))}</span>'
+    )
+
+
 def render_competition(
     item: dict[str, Any], all_items: list[dict[str, Any]], people: dict[str, list[dict[str, Any]]]
 ) -> str:
     data = item["data"]
     canonical = item["url"]
     standings = data.get("standings", [])
-    category_names = list(dict.fromkeys(
-        [str(category) for category in data.get("categories", []) if category]
-        + [str(result.get("category") or "Geral") for result in standings]
-    ))
-    category_cards = "".join(
-        f'<div class="seo-category-card"><span>Categoria</span><strong>{esc(category)}</strong></div>'
-        for category in category_names
-    )
     standings_groups = []
     for category in dict.fromkeys(str(result.get("category") or "Geral") for result in standings):
         category_rows = []
@@ -776,7 +796,7 @@ def render_competition(
         )
     rounds = "".join(
         f"<tr><td>{esc(stage.get('name'))}</td><td>{esc(stage.get('start_date'))}</td>"
-        f"<td>{esc(stage.get('location'))}</td><td>{esc(stage.get('winner') or stage.get('status'))}</td></tr>"
+        f"<td>{esc(stage.get('location'))}</td><td>{render_round_outcome(stage)}</td></tr>"
         for stage in data.get("rounds", [])
     )
     start = data.get("next_stage", {}).get("start_date") or (data.get("rounds") or [{}])[0].get("start_date")
@@ -808,11 +828,11 @@ def render_competition(
 <article class="seo-article">
   <header><span class="seo-eyebrow">{esc(data.get("modality"))} · Temporada {esc(data.get("season"))}</span>
   <h1>{esc(item["title"])}</h1><p class="seo-lead">{esc(item["summary"])}</p>
-  <p class="seo-meta">Organização: {esc(data.get("organizer"))} · Atualizado em {esc(item["lastmod"])}</p></header>
+  <p class="seo-meta">Organização: {esc(data.get("organizer"))} · Atualizado em {esc(item["lastmod"])}</p>
+  <div class="ce-actions"><a class="btn btn-primary" href="{esc(data.get("official_url"))}" target="_blank" rel="noopener">Visitar site oficial ↗</a>{('<a class="btn btn-outline" href="' + esc(data.get("results_url")) + '" target="_blank" rel="noopener">Resultados oficiais ↗</a>') if data.get("results_url") and data.get("results_url") != data.get("official_url") else ''}</div></header>
   <aside class="tdr-ad-slot" data-ad-slot="detail-billboard" data-ad-category-override="competicoes" aria-label="Patrocínio da cobertura da competição"></aside>
-  <figure class="seo-hero"><img src="{esc(item["image"])}" alt="{esc(item["title"])}"><figcaption>{esc(data.get("image_credit"))}</figcaption></figure>
+  <figure class="seo-hero seo-artwork-hero"><img src="{esc(item["image"])}" alt="{esc(item["title"])}">{('<span class="seo-artwork-hero__label"><small>TVDUASRODAS · Competição</small><strong>' + esc(item["title"]) + '</strong></span>') if 'competicoes-eventos-default' in item["image"] else ''}<figcaption>{esc(data.get("image_credit"))}</figcaption></figure>
   <div class="seo-prose">{linked_markdown(item["body"], people)}</div>
-{('<section class="seo-competition-section" id="categorias"><header><span class="seo-block-label">Divisões da competição</span><h2>Categorias</h2></header><div class="seo-category-grid">' + category_cards + '</div></section>') if category_cards else ''}
 {('<section class="seo-competition-section" id="resultado-recente"><header><span class="seo-block-label">Resultado oficial mais recente</span><h2>' + esc(latest_result.get("event") or "Último resultado") + '</h2><p>' + esc(" · ".join(filter(None, [latest_result.get("session"), latest_result.get("date")]))) + '</p></header><div class="seo-competition-stack">' + "".join(latest_groups) + '</div></section>') if latest_groups else ''}
   <section class="seo-competition-section" id="classificacao"><header><span class="seo-block-label">{esc(data.get("standings_eyebrow") or "Classificação oficial")}</span><h2>{esc(data.get("standings_title") or "Classificação do campeonato")}</h2></header>
   {('<div class="seo-competition-stack">' + ''.join(standings_groups) + '</div>') if standings_groups else '<div class="seo-competition-empty"><strong>Classificação aguardando publicação oficial.</strong><p>Os blocos de cada categoria serão incluídos após a divulgação da entidade organizadora.</p></div>'}
@@ -825,6 +845,7 @@ def render_competition(
         title=item["title"], description=item["summary"], canonical=canonical, body=body,
         schemas=[schema, breadcrumb_schema([("Início", "/"), ("Competições", "/competicoes-eventos"), (item["title"], canonical)])],
         image=item["image"],
+        extra_styles=("/assets/css/competition-status.css?v=20260725a",),
     )
 
 
@@ -854,9 +875,10 @@ def render_event(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
 <nav class="seo-breadcrumb"><a href="/">Início</a> › <a href="/competicoes-eventos">Eventos</a> › {esc(item["title"])}</nav>
 <article class="seo-article">
   <header><span class="seo-eyebrow">{esc(item["category"])}</span><h1>{esc(item["title"])}</h1>
-  <p class="seo-lead">{esc(item["summary"])}</p></header>
+  <p class="seo-lead">{esc(item["summary"])}</p>
+  <div class="ce-actions"><a class="btn btn-primary" href="{esc(data.get("official_url"))}" target="_blank" rel="noopener">Visitar site oficial do evento ↗</a>{('<a class="btn btn-outline" href="' + esc(data.get("ticket_url")) + '" target="_blank" rel="noopener">Ingressos / acesso ↗</a>') if data.get("ticket_url") and data.get("ticket_url") != data.get("official_url") else ''}</div></header>
   <aside class="tdr-ad-slot" data-ad-slot="detail-billboard" data-ad-category-override="eventos" aria-label="Patrocínio da cobertura do evento"></aside>
-  <figure class="seo-hero"><img src="{esc(item["image"])}" alt="{esc(item["title"])}"><figcaption>{esc(data.get("image_credit"))}</figcaption></figure>
+  <figure class="seo-hero seo-artwork-hero"><img src="{esc(item["image"])}" alt="{esc(item["title"])}">{('<span class="seo-artwork-hero__label"><small>TVDUASRODAS · Evento</small><strong>' + esc(item["title"]) + '</strong></span>') if 'competicoes-eventos-default' in item["image"] else ''}<figcaption>{esc(data.get("image_credit"))}</figcaption></figure>
   <section class="seo-service"><div><span>Data</span><strong>{esc(data.get("start_date"))} a {esc(data.get("end_date") or data.get("start_date"))}</strong></div>
   <div><span>Local</span><strong>{esc(location_name)}</strong><small>{esc(data.get("city"))}/{esc(data.get("state"))}</small></div></section>
   <div class="seo-prose">{markdown(item["body"])}</div>
@@ -948,6 +970,14 @@ def render_collection(
     breadcrumb_parent: tuple[str, str] | None = None,
 ) -> str:
     cards = "".join(card(item) for item in sorted(collection, key=lambda x: (x.get("lastmod", ""), x["title"]), reverse=True))
+    lead_ad = (
+        '<aside class="tdr-ad-slot" data-ad-slot="article-inline" aria-label="Publicidade entre as matérias"></aside>'
+        if canonical == "/materias/" else ""
+    )
+    closing_ad = (
+        '<aside class="tdr-ad-slot" data-ad-slot="article-sidebar" aria-label="Publicidade após as matérias"></aside>'
+        if canonical == "/materias/" else ""
+    )
     schema = {
         "@type": "CollectionPage", "@id": f"{absolute_url(canonical)}#colecao",
         "name": label, "description": description, "url": absolute_url(canonical),
@@ -961,7 +991,7 @@ def render_collection(
     body = f"""
 <nav class="seo-breadcrumb">{" › ".join(f'<a href="{url}">{esc(name)}</a>' for name, url in crumbs[:-1])} › {esc(label)}</nav>
 <header class="seo-collection-header"><span class="seo-eyebrow">TVDUASRODAS</span><h1>{esc(label)}</h1><p class="seo-lead">{esc(description)}</p></header>
-<div class="seo-grid">{cards or '<p>Nenhum conteúdo publicado nesta coleção.</p>'}</div>"""
+{lead_ad}<div class="seo-grid">{cards or '<p>Nenhum conteúdo publicado nesta coleção.</p>'}</div>{closing_ad}"""
     return page_shell(
         title=label, description=description, canonical=canonical, body=body,
         schemas=[schema, breadcrumb_schema(crumbs)],
@@ -1012,13 +1042,29 @@ def render_video_collection(collection: list[dict[str, Any]]) -> str:
 <nav class="seo-breadcrumb"><a href="/">Início</a> › TV &amp; Vídeos</nav>
 <header class="seo-collection-header video-hub-heading"><span class="seo-eyebrow">TVDUASRODAS</span>
 <h1>TV &amp; Vídeos</h1><p class="seo-lead">{esc(description)}</p></header>
-<aside class="tdr-ad-slot" data-ad-slot="central-billboard" data-ad-category-override="geral"
-aria-label="Espaço para banner de patrocinador"></aside>
-<section class="video-hub-player" aria-labelledby="videoHubTitle">
-  <div class="video-hub-player__label"><span>Agora no player</span><strong id="videoHubTitle">{esc(current["title"])}</strong></div>
-  <div class="seo-video"><iframe id="videoHubPlayer" src="https://www.youtube.com/embed/{esc(current["video_id"])}"
-  title="{esc(current["title"])}" allowfullscreen loading="eager"></iframe></div>
-</section>
+<div class="video-hub-feature">
+  <section class="video-hub-player" aria-labelledby="videoHubTitle">
+    <div class="video-hub-player__label"><span>Agora no player</span><strong id="videoHubTitle">{esc(current["title"])}</strong></div>
+    <div class="seo-video"><iframe id="videoHubPlayer" src="https://www.youtube.com/embed/{esc(current["video_id"])}"
+    title="{esc(current["title"])}" allowfullscreen loading="eager"></iframe></div>
+  </section>
+  <section class="video-hub-programming" aria-labelledby="videoProgrammingTitle">
+    <header class="video-hub-programming__header"><span class="seo-eyebrow">Programação TVDUASRODAS</span>
+      <h2 id="videoProgrammingTitle">Grade de programação</h2>
+      <p>Programas recorrentes do canal e suas reportagens relacionadas.</p>
+    </header>
+    <div class="video-hub-programming__grid">
+      <a class="video-hub-program-card" href="/revista?programa=role-de-rua"><span>Segundas e quintas</span><strong>Rolê de Rua</strong><p>Rotas urbanas, encontros e cultura sobre duas rodas.</p></a>
+      <a class="video-hub-program-card" href="/revista?programa=garage-tech"><span>Quartas</span><strong>Garage Tech</strong><p>Manutenção, oficina, equipamentos e tecnologia.</p></a>
+      <a class="video-hub-program-card" href="/revista?programa=estrada-aberta"><span>Sábados</span><strong>Estrada Aberta</strong><p>Viagens, planejamento, segurança e experiências na estrada.</p></a>
+      <a class="video-hub-program-card" href="/revista?programa=electric-zone"><span>Domingos</span><strong>Electric Zone</strong><p>Mobilidade elétrica, bicicletas, scooters e inovação.</p></a>
+    </div>
+  </section>
+</div>
+<div class="video-hub-ad"><span class="video-hub-ad__label">Publicidade</span>
+  <aside class="tdr-ad-slot" data-ad-slot="video-inline" data-ad-category-override="geral"
+  aria-label="Publicidade contextual da TV"></aside>
+</div>
 <section class="video-hub-library" aria-labelledby="videoLibraryTitle">
   <header><span class="seo-eyebrow">Somente vídeos</span><h2 id="videoLibraryTitle">Escolha por categoria</h2>
   <p>Selecione uma categoria e clique em um vídeo para reproduzi-lo no player principal.</p></header>
@@ -1151,6 +1197,15 @@ def build() -> None:
     video_items = [i for i in items if i["kind"] == "video"]
     write_page("/videos/", render_video_collection(video_items))
     manifest.append({"url": "/videos/", "lastmod": TODAY, "priority": "0.9", "kind": "index"})
+
+    article_items = [i for i in items if i["kind"] == "article"]
+    write_page("/materias/", render_collection(
+        label="Matérias",
+        description="Notícias, testes, lançamentos, viagens, mobilidade e cultura sobre duas rodas.",
+        canonical="/materias/",
+        collection=article_items,
+    ))
+    manifest.append({"url": "/materias/", "lastmod": TODAY, "priority": "0.9", "kind": "index"})
 
     indexes = [
         ("Atletas e pilotos", "Índice de atletas e pilotos citados em classificações oficiais publicadas pela TVDUASRODAS.", "/atletas/", person_index),
