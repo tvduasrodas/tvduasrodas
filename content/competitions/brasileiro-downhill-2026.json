@@ -13,7 +13,7 @@
   "image_credit": "Imagem de arquivo MTB (2024): Alan Modesto / CBC · Arte: TVDUASRODAS",
   "featured": false,
   "summary": "Campeonato nacional de Downhill em andamento no Parque das Águas Salutaris, em Paraíba do Sul, com treinos em 24 de julho, tomada de tempo no sábado e finais no domingo.",
-  "last_updated": "2026-07-24T15:40:00-04:00",
+  "last_updated": "2026-07-25T20:00:00-04:00",
   "next_stage": {
     "name": "Campeonato Brasileiro de Downhill 2026",
     "start_date": "2026-07-24",
@@ -27,7 +27,7 @@
     "first_day": {
       "date": "2026-07-24",
       "due_on": "2026-07-25",
-      "status": "agendado"
+      "status": "monitoramento_externo"
     },
     "final_day": {
       "date": "2026-07-26",
@@ -53,7 +53,7 @@
       "end_date": "2026-07-24",
       "name": "Treinos e congresso técnico",
       "location": "Parque das Águas Salutaris, Paraíba do Sul/RJ",
-      "status": "em_andamento",
+      "status": "concluida",
       "winner": "",
       "results_url": "https://cbc.esp.br/modalidades/evento/busca/mtb/id/1352"
     },
@@ -63,7 +63,7 @@
       "end_date": "2026-07-25",
       "name": "Tomada de tempo classificatória",
       "location": "Morro da Torre, Paraíba do Sul/RJ",
-      "status": "agendada",
+      "status": "em_andamento",
       "winner": "",
       "results_url": "https://www.cbc.esp.br/modalidades/resultados/busca/mtb"
     },

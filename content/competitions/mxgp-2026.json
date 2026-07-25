@@ -13,7 +13,7 @@
   "image_credit": "Foto: MXGP / Infront Moto Racing · Arte: TVDUASRODAS",
   "featured": false,
   "summary": "Lucas Coenen lidera a MXGP por 11 pontos após Foxhills; Guillem Farres assumiu a ponta da MX2.",
-  "last_updated": "2026-07-20T21:00:00-04:00",
+  "last_updated": "2026-07-25T20:00:00-04:00",
   "next_stage": {
     "name": "13ª etapa — GP da Tchéquia",
     "start_date": "2026-07-25",
@@ -81,7 +81,7 @@
     { "order": 10, "start_date": "2026-06-27", "end_date": "2026-06-28", "name": "GP de Portugal", "location": "Águeda, Portugal", "status": "concluida", "winner": "Jeffrey Herlings (MXGP); Guillem Farres (MX2)", "results_url": "https://www.mxgp.com/news/%C3%A1gueda-acclaim-herlings-and-farres-mxgp-portugal" },
     { "order": 11, "start_date": "2026-07-04", "end_date": "2026-07-05", "name": "GP da África do Sul", "location": "Johannesburgo, África do Sul", "status": "concluida", "winner": "Lucas Coenen (MXGP); Guillem Farres (MX2)", "results_url": "https://www.mxgp.com/news/joy-johannesburg-lucas-coenen-and-farres-mxgp-south-africa" },
     { "order": 12, "start_date": "2026-07-18", "end_date": "2026-07-19", "name": "GP da Grã-Bretanha", "location": "Foxhills, Reino Unido", "status": "concluida", "winner": "Jeffrey Herlings (MXGP); Guillem Farres (MX2)", "results_url": "https://www.mxgp.com/news/it%E2%80%99s-fabulous-foxhills-herlings-and-farres-monster-energy-mxgp-great-britain" },
-    { "order": 13, "start_date": "2026-07-25", "end_date": "2026-07-26", "name": "GP da Tchéquia", "location": "Loket, Tchéquia", "status": "agendada", "winner": "", "results_url": "https://www.mxgp.com/news/tickets-now-available-2026-mxgp-czech-republic-loket" },
+    { "order": 13, "start_date": "2026-07-25", "end_date": "2026-07-26", "name": "GP da Tchéquia", "location": "Loket, Tchéquia", "status": "em_andamento", "winner": "", "results_url": "https://www.mxgp.com/news/tickets-now-available-2026-mxgp-czech-republic-loket" },
     { "order": 14, "start_date": "2026-08-01", "end_date": "2026-08-02", "name": "GP de Flandres", "location": "Lommel, Bélgica", "status": "agendada", "winner": "", "results_url": "https://www.mxgp.com/calendar" },
     { "order": 15, "start_date": "2026-08-15", "end_date": "2026-08-16", "name": "GP da Suécia", "location": "Uddevalla, Suécia", "status": "agendada", "winner": "", "results_url": "https://www.mxgp.com/calendar" },
     { "order": 16, "start_date": "2026-08-22", "end_date": "2026-08-23", "name": "GP dos Países Baixos", "location": "Arnhem, Países Baixos", "status": "agendada", "winner": "", "results_url": "https://www.mxgp.com/calendar" },
