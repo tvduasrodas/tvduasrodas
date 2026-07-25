@@ -8,7 +8,7 @@ readingTime: "9 min"
 kicker: "Preparação para estrada"
 summary: "Limite de carga, equilíbrio entre os lados, fixação e uma inspeção antes de sair ajudam a preservar a estabilidade da motocicleta durante a viagem."
 seoTitle: "Bagagem na moto: como distribuir e fixar com segurança"
-cover: "/assets/img/uploads/bagagem-moto-viagem-capa.webp"
+cover: "/assets/img/uploads/bagagem-moto-preparacao-capa.webp"
 featured: false
 ---
 
@@ -30,7 +30,7 @@ A orientação geral dos manuais é manter a massa próxima ao centro da motocic
 
 Um baú traseiro é prático, mas fica alto e afastado do centro. Quanto maior o peso colocado ali, maior pode ser a influência sobre a direção e a estabilidade. Respeite o limite específico do baú e do bagageiro, que normalmente é menor que a capacidade total da moto. Uma mala grande não transforma o suporte em uma estrutura mais resistente.
 
-![Motociclista confere malas laterais equilibradas em uma motocicleta parada, em ilustração editorial gerada por IA](/assets/img/uploads/bagagem-moto-distribuicao.webp "Ilustração editorial gerada por IA: distribuição simétrica da bagagem antes da viagem.")
+![Duas malas laterais abertas recebem volumes organizados de forma equilibrada, em ilustração editorial gerada por IA](/assets/img/uploads/bagagem-moto-equilibrio.webp "Ilustração editorial gerada por IA exclusivamente para esta matéria: distribuição equilibrada da carga entre as malas laterais.")
 
 Compare os dois lados depois de arrumar. A moto não deve ficar visivelmente inclinada por causa da carga nem exigir esforço desigual para sair do descanso. Se usar apenas uma mala lateral, reduza o peso e siga as instruções do fabricante do sistema; muitos conjuntos são projetados para trabalhar em pares.
 
@@ -42,7 +42,7 @@ Com a moto parada, movimente cada volume com as mãos. A bagagem não deve desli
 
 Nada pode encobrir lanterna, luz de freio, indicadores de direção, placa ou refletores. Os retrovisores precisam continuar oferecendo campo útil. Se uma mala cria um ponto cego novo ou aumenta demais a largura, reorganize o conjunto antes de sair.
 
-![Mãos com luvas verificam a cinta de uma mala compacta longe da roda e da transmissão, em ilustração editorial gerada por IA](/assets/img/uploads/bagagem-moto-fixacao.webp "Ilustração editorial gerada por IA: inspeção da fixação e da distância para partes móveis.")
+![Mãos com luvas verificam uma cinta presa ao ponto de ancoragem e afastada da roda e do escapamento, em ilustração editorial gerada por IA](/assets/img/uploads/bagagem-moto-cinta-segura.webp "Ilustração editorial gerada por IA exclusivamente para esta matéria: ponta da cinta recolhida e longe de partes móveis e quentes.")
 
 ## Pneus e suspensão seguem o manual
 
@@ -83,4 +83,4 @@ Veja também: [Como pilotar moto na chuva: checklist de segurança antes de sair
 - [Honda Brasil — manuais do proprietário de motocicletas](https://www.honda.com.br/pos-venda/manuais)
 - [Yamaha Motor do Brasil — manuais do proprietário](https://www.yamaha-motor.com.br/pos-venda/manual-do-proprietario)
 
-**Nota editorial:** as imagens desta matéria são ilustrações geradas por inteligência artificial para explicar preparação e fixação de bagagem. Não retratam uma pessoa, motocicleta, estrada ou viagem real e não substituem o manual do proprietário.
+**Nota editorial:** as três imagens desta matéria foram geradas por inteligência artificial exclusivamente para explicar preparação, equilíbrio e fixação de bagagem. Não foram reutilizadas em outra publicação, não retratam pessoa, motocicleta, estrada ou viagem real e não substituem o manual do proprietário.

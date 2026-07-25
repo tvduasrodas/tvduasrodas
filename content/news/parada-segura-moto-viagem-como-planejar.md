@@ -9,7 +9,7 @@ readingTime: "8 min"
 kicker: "Viagem responsável"
 summary: "Planejar combustível, descanso, clima e local de parada reduz decisões apressadas durante uma viagem de moto."
 seoTitle: "Parada segura na viagem de moto: planejamento e cuidados"
-cover: "/assets/img/uploads/bagagem-moto-viagem-capa.webp"
+cover: "/assets/img/uploads/parada-segura-moto-viagem-capa.webp"
 featured: false
 ---
 
@@ -23,7 +23,7 @@ Divida o percurso em segmentos e marque postos, cidades ou áreas de serviço an
 
 Escolha locais iluminados, com circulação de pessoas e espaço para estacionar sem ficar exposto ao fluxo. Evite parar logo depois de curvas, em acostamento estreito, na saída de túneis ou em áreas onde outros veículos tenham pouca visibilidade. Se houver uma necessidade urgente, reduza gradualmente e procure o ponto seguro mais próximo.
 
-![Motociclista confere bagagem e planejamento antes de uma viagem, em ilustração editorial gerada por IA](/assets/img/uploads/bagagem-moto-distribuicao.webp "Ilustração editorial gerada por IA: preparação de moto para viagem.")
+![Motociclista consulta a previsão do tempo no celular durante uma parada, com a moto estacionada ao fundo, em ilustração editorial gerada por IA](/assets/img/uploads/parada-segura-moto-viagem-clima.webp "Ilustração editorial gerada por IA exclusivamente para esta matéria: revisão do clima com a motocicleta parada.")
 
 ## Pare antes de perder concentração
 
@@ -37,7 +37,7 @@ Obra, neblina, fila, pane, chuva intensa ou mal-estar não são falhas de planej
 
 Tenha documentos, contatos de assistência e água em local acessível. Em viagens longas, avise alguém sobre o roteiro e a previsão de chegada, sem transformar esse horário em obrigação. Chegar mais tarde é preferível a tentar compensar minutos com velocidade ou ultrapassagens sem margem.
 
-![Mãos com luvas verificam a fixação de uma mala compacta, em ilustração editorial gerada por IA](/assets/img/uploads/bagagem-moto-fixacao.webp "Ilustração editorial gerada por IA: inspeção de fixação durante uma parada.")
+![Motociclista alonga as pernas em uma área de serviço, com a moto estacionada em vaga segura, em ilustração editorial gerada por IA](/assets/img/uploads/parada-segura-moto-viagem-descanso.webp "Ilustração editorial gerada por IA exclusivamente para esta matéria: pausa planejada para recuperar a atenção.")
 
 ## Checklist rápido de parada
 
@@ -58,4 +58,4 @@ Veja também: [Bagagem na moto: como distribuir, fixar e viajar com segurança](
 - [DNIT — boas práticas para segurança no trânsito](https://www.gov.br/dnit/pt-br/assuntos/noticias/confira-as-dicas-do-dnit-de-boas-praticas-para-seguranca-no-transito)
 - [PRF — orientações de segurança para motociclistas](https://www.gov.br/prf/pt-br/noticias/estaduais/paraiba/2024/maio/prf-orienta-motociclistas-sobre-cuidados-no-transito)
 
-**Nota editorial:** as imagens são ilustrações geradas por inteligência artificial, reaproveitadas de material editorial próprio e identificadas como tal. Não retratam uma viagem, pessoa ou motocicleta real.
+**Nota editorial:** as três imagens foram geradas por inteligência artificial exclusivamente para esta matéria. Não foram reutilizadas em outra publicação e não retratam viagem, pessoa, motocicleta ou local real.
