@@ -342,7 +342,7 @@ def page_shell(
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
   <link rel="canonical" href="{esc(canonical_url)}">
   <link rel="icon" href="/assets/img/logoTVicon_web.ico">
-  <link rel="stylesheet" href="/assets/css/style.css?v=20260725ads1">
+  <link rel="stylesheet" href="/assets/css/style.css?v=20260725competitionblocks">
   <meta property="og:locale" content="pt_BR">
   <meta property="og:type" content="{esc(page_type)}">
   <meta property="og:site_name" content="TVDUASRODAS">
@@ -553,6 +553,23 @@ def load_content() -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]
                 "team": result.get("team", ""),
                 "result": result.get("points") or result.get("time_gap", ""),
             })
+        latest_result = data.get("latest_result") or {}
+        for result in latest_result.get("classification", []):
+            name = str(result.get("competitor", "")).strip()
+            if not name:
+                continue
+            category = result.get("category") or latest_result.get("session", "")
+            existing = people[normalize(name)]
+            if any(record["competition"]["url"] == item["url"] and record["category"] == category for record in existing):
+                continue
+            existing.append({
+                "name": name,
+                "competition": item,
+                "category": category,
+                "position": result.get("display_position") or result.get("position", ""),
+                "team": result.get("team", ""),
+                "result": result.get("points") or result.get("time_gap", ""),
+            })
 
     for path in sorted((ROOT / "content/events").glob("*.json")):
         if path.name == "index.json":
@@ -705,14 +722,57 @@ def render_competition(
     data = item["data"]
     canonical = item["url"]
     standings = data.get("standings", [])
-    rows = []
-    for result in standings:
-        name = result.get("competitor", "")
-        rows.append(
-            f"<tr><td>{esc(result.get('display_position') or result.get('position'))}</td>"
-            f'<td><a href="/atletas/{slugify(name)}/"><strong>{esc(name)}</strong></a></td>'
-            f"<td>{esc(result.get('category'))}</td><td>{esc(result.get('team'))}</td>"
-            f"<td>{esc(result.get('points') or result.get('time_gap'))}</td></tr>"
+    category_names = list(dict.fromkeys(
+        [str(category) for category in data.get("categories", []) if category]
+        + [str(result.get("category") or "Geral") for result in standings]
+    ))
+    category_cards = "".join(
+        f'<div class="seo-category-card"><span>Categoria</span><strong>{esc(category)}</strong></div>'
+        for category in category_names
+    )
+    standings_groups = []
+    for category in dict.fromkeys(str(result.get("category") or "Geral") for result in standings):
+        category_rows = []
+        for result in [entry for entry in standings if str(entry.get("category") or "Geral") == category]:
+            name = result.get("competitor", "")
+            category_rows.append(
+                f"<tr><td>{esc(result.get('display_position') or result.get('position'))}</td>"
+                f'<td><a href="/atletas/{slugify(name)}/"><strong>{esc(name)}</strong></a></td>'
+                f"<td>{esc(result.get('team'))}</td>"
+                f"<td>{esc(result.get('points') or result.get('time_gap'))}</td></tr>"
+            )
+        standings_groups.append(
+            f'<section class="seo-competition-block seo-standing-block">'
+            f'<header><span class="seo-block-label">Classificação por categoria</span><h3>{esc(category)}</h3></header>'
+            f'<div class="seo-table"><table><thead><tr><th>Pos.</th><th>Atleta/piloto</th>'
+            f'<th>Equipe</th><th>Resultado</th></tr></thead><tbody>{"".join(category_rows)}</tbody></table></div>'
+            f'</section>'
+        )
+    latest_result = data.get("latest_result") or {}
+    latest_classification = latest_result.get("classification") or []
+    latest_groups = []
+    for category in dict.fromkeys(
+        str(result.get("category") or latest_result.get("session") or "Geral")
+        for result in latest_classification
+    ):
+        latest_rows = []
+        for result in [
+            entry for entry in latest_classification
+            if str(entry.get("category") or latest_result.get("session") or "Geral") == category
+        ]:
+            name = result.get("competitor", "")
+            latest_rows.append(
+                f"<tr><td>{esc(result.get('display_position') or result.get('position'))}</td>"
+                f'<td><a href="/atletas/{slugify(name)}/"><strong>{esc(name)}</strong></a></td>'
+                f"<td>{esc(result.get('team'))}</td><td>{esc(result.get('time_gap'))}</td>"
+                f"<td>{esc(result.get('points'))}</td></tr>"
+            )
+        latest_groups.append(
+            f'<section class="seo-competition-block seo-result-block">'
+            f'<header><span class="seo-block-label">Resultado da categoria</span><h3>{esc(category)}</h3></header>'
+            f'<div class="seo-table"><table><thead><tr><th>Pos.</th><th>Atleta/piloto</th>'
+            f'<th>Equipe</th><th>Tempo / diferença</th><th>Pontos</th></tr></thead>'
+            f'<tbody>{"".join(latest_rows)}</tbody></table></div></section>'
         )
     rounds = "".join(
         f"<tr><td>{esc(stage.get('name'))}</td><td>{esc(stage.get('start_date'))}</td>"
@@ -752,10 +812,12 @@ def render_competition(
   <aside class="tdr-ad-slot" data-ad-slot="detail-billboard" data-ad-category-override="competicoes" aria-label="Patrocínio da cobertura da competição"></aside>
   <figure class="seo-hero"><img src="{esc(item["image"])}" alt="{esc(item["title"])}"><figcaption>{esc(data.get("image_credit"))}</figcaption></figure>
   <div class="seo-prose">{linked_markdown(item["body"], people)}</div>
-  <section><h2>{esc(data.get("standings_title") or "Classificação e resultados")}</h2>
-  {('<div class="seo-table"><table><thead><tr><th>Pos.</th><th>Atleta/piloto</th><th>Categoria</th><th>Equipe</th><th>Resultado</th></tr></thead><tbody>' + ''.join(rows) + '</tbody></table></div>') if rows else '<p>Classificação aguardando publicação oficial.</p>'}
+{('<section class="seo-competition-section" id="categorias"><header><span class="seo-block-label">Divisões da competição</span><h2>Categorias</h2></header><div class="seo-category-grid">' + category_cards + '</div></section>') if category_cards else ''}
+{('<section class="seo-competition-section" id="resultado-recente"><header><span class="seo-block-label">Resultado oficial mais recente</span><h2>' + esc(latest_result.get("event") or "Último resultado") + '</h2><p>' + esc(" · ".join(filter(None, [latest_result.get("session"), latest_result.get("date")]))) + '</p></header><div class="seo-competition-stack">' + "".join(latest_groups) + '</div></section>') if latest_groups else ''}
+  <section class="seo-competition-section" id="classificacao"><header><span class="seo-block-label">{esc(data.get("standings_eyebrow") or "Classificação oficial")}</span><h2>{esc(data.get("standings_title") or "Classificação do campeonato")}</h2></header>
+  {('<div class="seo-competition-stack">' + ''.join(standings_groups) + '</div>') if standings_groups else '<div class="seo-competition-empty"><strong>Classificação aguardando publicação oficial.</strong><p>Os blocos de cada categoria serão incluídos após a divulgação da entidade organizadora.</p></div>'}
   </section>
-  <section><h2>Etapas e calendário</h2>{('<div class="seo-table"><table><thead><tr><th>Etapa</th><th>Data</th><th>Local</th><th>Resultado/situação</th></tr></thead><tbody>' + rounds + '</tbody></table></div>') if rounds else '<p>Calendário em confirmação.</p>'}</section>
+  <section class="seo-competition-section" id="calendario"><header><span class="seo-block-label">Programação da temporada</span><h2>Etapas e calendário</h2></header>{('<div class="seo-competition-block"><div class="seo-table"><table><thead><tr><th>Etapa</th><th>Data</th><th>Local</th><th>Resultado/situação</th></tr></thead><tbody>' + rounds + '</tbody></table></div></div>') if rounds else '<div class="seo-competition-empty"><strong>Calendário em confirmação.</strong></div>'}</section>
   <aside class="seo-source"><strong>Fonte e atualização</strong><p>Dados conferidos com a entidade ou organização oficial. <a href="{esc(data.get("official_url"))}" target="_blank" rel="noopener noreferrer">Consultar fonte oficial</a>.</p></aside>
   {relation_blocks(item, all_items)}
 </article>"""

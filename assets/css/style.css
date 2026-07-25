@@ -2417,8 +2417,18 @@ button {
 .ce-anchor-nav a { padding: 9px 14px; border-radius: 8px; color: #475569; font-size: 13px; font-weight: 700; }
 .ce-anchor-nav a:hover { background: #fff1ed; color: #d94123; }
 .ce-detail-section { padding: 34px 0; scroll-margin-top: 150px; }
-.ce-standing-group { margin-top: 20px; }
-.ce-standing-group h3 { margin-bottom: 10px; color: #111827; }
+.ce-detail-section--panel { margin: 22px 0; padding: 28px; border: 1px solid #dfe5ec; border-radius: 18px; background: #fff; box-shadow: 0 10px 28px rgba(15,23,42,.05); }
+.ce-group-stack { display: grid; gap: 22px; }
+.ce-standing-group { overflow: hidden; border: 1px solid #dce3eb; border-radius: 15px; background: #f8fafc; }
+.ce-standing-group header { padding: 18px 20px 14px; border-bottom: 1px solid #e2e8f0; background: #f8fafc; }
+.ce-standing-group h3 { margin: 4px 0 0; color: #111827; }
+.ce-group-label { color: #e04829; font-size: 10px; font-weight: 900; text-transform: uppercase; letter-spacing: .1em; }
+.ce-standing-group .ce-table-wrap { border: 0; border-radius: 0; }
+.ce-category-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; }
+.ce-category-card { padding: 18px; border: 1px solid #dce3eb; border-left: 4px solid #ef4b2c; border-radius: 12px; background: #f8fafc; }
+.ce-category-card span, .ce-category-card strong { display: block; }
+.ce-category-card span { margin-bottom: 5px; color: #e04829; font-size: 10px; font-weight: 900; text-transform: uppercase; letter-spacing: .1em; }
+.ce-category-card strong { color: #111827; }
 .ce-table-wrap { overflow-x: auto; border: 1px solid #e0e5ec; border-radius: 14px; background: #fff; }
 .ce-table { width: 100%; border-collapse: collapse; color: #334155; font-size: 14px; }
 .ce-table th { padding: 13px 16px; background: #101723; color: #cbd5e1; font-size: 10px; text-align: left; text-transform: uppercase; letter-spacing: .08em; }
@@ -2792,6 +2802,26 @@ button {
 .seo-table table{width:100%;border-collapse:collapse;min-width:720px}
 .seo-table th,.seo-table td{padding:12px 14px;border-bottom:1px solid #eaecf0;text-align:left;vertical-align:top}
 .seo-table th{background:#f9fafb;font-size:.8rem;text-transform:uppercase;letter-spacing:.04em}
+.seo-competition-section{margin:30px 0;padding:26px;border:1px solid #dfe5ec;border-radius:18px;background:#fff;box-shadow:0 10px 28px rgba(15,23,42,.05);scroll-margin-top:140px}
+.seo-competition-section>header{margin-bottom:20px}
+.seo-competition-section>header h2{margin:.25rem 0 .4rem}
+.seo-block-label{color:#c63f25;font-size:.68rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase}
+.seo-category-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
+.seo-category-card{padding:18px;border:1px solid #dce3eb;border-left:4px solid #ef4b2c;border-radius:12px;background:#f8fafc}
+.seo-category-card span,.seo-category-card strong{display:block}
+.seo-category-card span{margin-bottom:5px;color:#c63f25;font-size:.65rem;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
+.seo-category-card strong{color:#111827}
+.seo-competition-stack{display:grid;gap:22px}
+.seo-competition-block{overflow:hidden;border:1px solid #dce3eb;border-radius:15px;background:#f8fafc}
+.seo-competition-block>header{padding:18px 20px 14px;border-bottom:1px solid #e2e8f0}
+.seo-competition-block>header h3{margin:.25rem 0 0}
+.seo-competition-block .seo-table{margin:0;border:0;border-radius:0}
+.seo-competition-empty{padding:22px;border:1px dashed #cbd5e1;border-radius:12px;background:#f8fafc;color:#64748b}
+.seo-competition-empty strong{display:block;margin-bottom:4px;color:#1f2937}
+@media(max-width:700px){
+    .ce-detail-section--panel,.seo-competition-section{padding:18px}
+    .ce-category-grid,.seo-category-grid{grid-template-columns:1fr}
+}
 .seo-source{margin:38px 0;padding:20px;border-left:4px solid #a51d26;background:#fff;border-radius:0 12px 12px 0}
 .seo-source p{margin:.45rem 0 0}
 .seo-service{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:26px 0}
