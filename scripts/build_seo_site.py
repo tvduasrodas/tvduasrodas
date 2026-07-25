@@ -634,13 +634,13 @@ def render_competition(
   <h1>{esc(item["title"])}</h1><p class="seo-lead">{esc(item["summary"])}</p>
   <p class="seo-meta">Organização: {esc(data.get("organizer"))} · Atualizado em {esc(item["lastmod"])}</p></header>
   <figure class="seo-hero"><img src="{esc(item["image"])}" alt="{esc(item["title"])}"><figcaption>{esc(data.get("image_credit"))}</figcaption></figure>
-  {relation_blocks(item, all_items)}
   <div class="seo-prose">{linked_markdown(item["body"], people)}</div>
   <section><h2>{esc(data.get("standings_title") or "Classificação e resultados")}</h2>
   {('<div class="seo-table"><table><thead><tr><th>Pos.</th><th>Atleta/piloto</th><th>Categoria</th><th>Equipe</th><th>Resultado</th></tr></thead><tbody>' + ''.join(rows) + '</tbody></table></div>') if rows else '<p>Classificação aguardando publicação oficial.</p>'}
   </section>
   <section><h2>Etapas e calendário</h2>{('<div class="seo-table"><table><thead><tr><th>Etapa</th><th>Data</th><th>Local</th><th>Resultado/situação</th></tr></thead><tbody>' + rounds + '</tbody></table></div>') if rounds else '<p>Calendário em confirmação.</p>'}</section>
   <aside class="seo-source"><strong>Fonte e atualização</strong><p>Dados conferidos com a entidade ou organização oficial. <a href="{esc(data.get("official_url"))}" target="_blank" rel="noopener noreferrer">Consultar fonte oficial</a>.</p></aside>
+  {relation_blocks(item, all_items)}
 </article>"""
     return page_shell(
         title=item["title"], description=item["summary"], canonical=canonical, body=body,
