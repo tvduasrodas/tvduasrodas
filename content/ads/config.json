@@ -13,6 +13,12 @@
       "height": 90,
       "use": "Meio de matérias e área contextual de vídeos"
     },
+    "faixa-home-970": {
+      "commercial_name": "Faixa Premium Home 970",
+      "width": 970,
+      "height": 120,
+      "use": "Faixa horizontal compacta entre o destaque e as notícias da página inicial"
+    },
     "billboard-cobertura-970": {
       "commercial_name": "Billboard de Cobertura 970",
       "width": 970,
@@ -25,6 +31,7 @@
     "article-inline": { "format": "faixa-editorial-728" },
     "video-sidebar": { "format": "retangulo-lateral-300" },
     "video-inline": { "format": "faixa-editorial-728" },
+    "home-premium": { "format": "faixa-home-970" },
     "detail-billboard": { "format": "billboard-cobertura-970" },
     "central-billboard": { "format": "billboard-cobertura-970" }
   },
@@ -139,7 +146,7 @@
       "id": "casa-geral-2026",
       "status": "active",
       "categories": ["geral"],
-      "formats": ["retangulo-lateral-300", "faixa-editorial-728", "billboard-cobertura-970"],
+      "formats": ["retangulo-lateral-300", "faixa-editorial-728", "faixa-home-970", "billboard-cobertura-970"],
       "label": "Publicidade · TVDUASRODAS",
       "title": "Sua marca em movimento.",
       "description": "Revista, vídeos, competições e eventos para o universo das duas rodas.",

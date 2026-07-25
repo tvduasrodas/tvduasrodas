@@ -334,6 +334,14 @@ button {
 .tdr-ad-slot--faixa-editorial-728 .tdr-ad__content > span { grid-column: 2; grid-row: 1 / span 2; margin: 0; font-size: 11px; }
 .tdr-ad-slot--faixa-editorial-728 .tdr-ad__content em { grid-column: 3; grid-row: 1 / span 2; margin: 0; white-space: nowrap; }
 
+.tdr-ad-slot--faixa-home-970 { width: 100%; max-width: 970px; }
+.tdr-ad-slot--faixa-home-970 .tdr-ad { min-height: 120px; border-radius: 16px; box-shadow: 0 12px 30px rgba(15,23,42,.14); }
+.tdr-ad-slot--faixa-home-970 .tdr-ad__content { display: grid; grid-template-columns: minmax(230px, 1.05fr) minmax(260px, 1.25fr) auto; align-items: center; gap: 22px; padding: 18px 24px; }
+.tdr-ad-slot--faixa-home-970 .tdr-ad__content small { grid-column: 1; margin: 0; }
+.tdr-ad-slot--faixa-home-970 .tdr-ad__content strong { grid-column: 1; font-size: clamp(20px, 2.1vw, 27px); }
+.tdr-ad-slot--faixa-home-970 .tdr-ad__content > span { grid-column: 2; grid-row: 1 / span 2; margin: 0; font-size: 12px; }
+.tdr-ad-slot--faixa-home-970 .tdr-ad__content em { grid-column: 3; grid-row: 1 / span 2; margin: 0; white-space: nowrap; }
+
 .tdr-ad-slot--billboard-cobertura-970 { max-width: 970px; }
 .tdr-ad-slot--billboard-cobertura-970 .tdr-ad { aspect-ratio: 970 / 250; min-height: 190px; }
 .seo-ad-pair { display: grid; grid-template-columns: minmax(240px, 300px) minmax(0, 728px); align-items: start; gap: 24px; margin: 32px 0; }
@@ -360,8 +368,10 @@ button {
     .seo-ad-pair { grid-template-columns: 1fr; }
     .tdr-ad-slot { max-width: 100%; }
     .tdr-ad-slot--faixa-editorial-728 .tdr-ad,
+    .tdr-ad-slot--faixa-home-970 .tdr-ad,
     .tdr-ad-slot--billboard-cobertura-970 .tdr-ad { min-height: 180px; aspect-ratio: auto; }
     .tdr-ad-slot--faixa-editorial-728 .tdr-ad__content { display: flex; padding: 20px; }
+    .tdr-ad-slot--faixa-home-970 .tdr-ad__content { display: flex; gap: 0; padding: 20px; }
     .tdr-ad-slot--faixa-editorial-728 .tdr-ad__content small { margin-bottom: 7px; }
     .tdr-ad-slot--faixa-editorial-728 .tdr-ad__content strong { font-size: 22px; }
     .tdr-ad-slot--faixa-editorial-728 .tdr-ad__content > span { margin-top: 8px; font-size: 12px; }
@@ -386,7 +396,15 @@ button {
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.section.section-ads {
+    padding: 24px 0 30px;
+}
+
+.section-ads + .section {
+    padding-top: 30px;
 }
 
 /* =========================================================

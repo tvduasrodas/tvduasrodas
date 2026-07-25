@@ -273,6 +273,7 @@ def main() -> int:
         required_formats = {
             "retangulo-lateral-300": (300, 250),
             "faixa-editorial-728": (728, 90),
+            "faixa-home-970": (970, 120),
             "billboard-cobertura-970": (970, 250),
         }
         for name, (width, height) in required_formats.items():
