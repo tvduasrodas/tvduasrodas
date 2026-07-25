@@ -361,7 +361,7 @@ def page_shell(
     <div class="container header-inner">
       <div class="logo-wrapper"><a href="/" class="logo-link"><img src="/assets/img/logotv.png" alt="TVDUASRODAS" class="logo-image"></a><div class="brand-sub">Motos · Bikes · Scooters · Elétricos</div></div>
       <nav class="main-nav" aria-label="Navegação principal"><ul>
-        <li><a href="/">Início</a></li><li><a href="/revista">Revista</a></li><li><a href="/videos/">TV &amp; Vídeos</a></li>
+        <li><a href="/">Início</a></li><li><a href="/revista">Revista</a></li><li><a href="/tv">TV &amp; Vídeos</a></li>
         <li><a href="/competicoes-eventos">Competições &amp; Eventos</a></li><li><a href="/assuntos/">Assuntos</a></li><li><a href="/arquivo.html">Arquivo</a></li>
       </ul></nav>
     </div>
