@@ -336,6 +336,9 @@ button {
 
 .tdr-ad-slot--billboard-cobertura-970 { max-width: 970px; }
 .tdr-ad-slot--billboard-cobertura-970 .tdr-ad { aspect-ratio: 970 / 250; min-height: 190px; }
+.seo-ad-pair { display: grid; grid-template-columns: minmax(240px, 300px) minmax(0, 728px); align-items: start; gap: 24px; margin: 32px 0; }
+.seo-ad-pair .tdr-ad-slot { margin: 0; }
+.tdr-ad-slot--automatic { margin: 28px auto 36px; }
 
 .tdr-ad-slot--bicicletas .tdr-ad { background: radial-gradient(circle at 88% 12%, rgba(34,197,94,.38), transparent 34%), linear-gradient(135deg, #07110c, #123222); }
 .tdr-ad-slot--bicicletas .tdr-ad__content small { color: #7ee2a0; }
@@ -354,6 +357,7 @@ button {
 .tdr-ad-slot--tecnologia .tdr-ad { background: radial-gradient(circle at 88% 12%, rgba(99,102,241,.42), transparent 34%), linear-gradient(135deg, #08091a, #202255); }
 
 @media (max-width: 700px) {
+    .seo-ad-pair { grid-template-columns: 1fr; }
     .tdr-ad-slot { max-width: 100%; }
     .tdr-ad-slot--faixa-editorial-728 .tdr-ad,
     .tdr-ad-slot--billboard-cobertura-970 .tdr-ad { min-height: 180px; aspect-ratio: auto; }

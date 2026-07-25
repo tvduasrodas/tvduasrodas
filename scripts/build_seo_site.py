@@ -119,6 +119,28 @@ def category_label(value: str) -> str:
     return CATEGORY_LABELS.get(slugify(value), value)
 
 
+def advertising_category(item: dict[str, Any], fallback: str = "geral") -> str:
+    explicit = slugify(str(item.get("ad_category", "")))
+    if explicit:
+        return explicit
+    if item.get("kind") == "competition":
+        return "competicoes"
+    if item.get("kind") == "event":
+        return "eventos"
+    topics = set(item.get("topics", []))
+    for category in (
+        "scooters", "eletricos", "bicicletas", "motos",
+        "mobilidade", "tecnologia", "competicoes", "eventos",
+    ):
+        if category in topics:
+            return category
+    return fallback
+
+
+def ad_override(item: dict[str, Any], fallback: str = "geral") -> str:
+    return f' data-ad-category-override="{esc(advertising_category(item, fallback))}"'
+
+
 def plain_excerpt(value: str, limit: int = 220) -> str:
     text = re.sub(r"!\[([^\]]*)\]\([^)]+\)", r"\1", value)
     text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
@@ -320,7 +342,7 @@ def page_shell(
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
   <link rel="canonical" href="{esc(canonical_url)}">
   <link rel="icon" href="/assets/img/logoTVicon_web.ico">
-  <link rel="stylesheet" href="/assets/css/style.css?v=20260725video">
+  <link rel="stylesheet" href="/assets/css/style.css?v=20260725ads1">
   <meta property="og:locale" content="pt_BR">
   <meta property="og:type" content="{esc(page_type)}">
   <meta property="og:site_name" content="TVDUASRODAS">
@@ -347,7 +369,7 @@ def page_shell(
     <p>© TVDUASRODAS — conteúdo sobre o universo das duas rodas.</p>
     <p class="footer-small"><a href="/sobre">Sobre</a> · <a href="/contato">Contato</a> · <a href="/sitemap.xml">Sitemap</a></p>
   </div></div></footer>
-  <script src="/assets/js/ads.js?v=20260725a"></script>
+  <script src="/assets/js/ads.js?v=20260725b"></script>
 {scripts}
 </body>
 </html>
@@ -476,6 +498,7 @@ def load_content() -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]
             "summary": summary, "body": body, "date": meta.get("date", TODAY),
             "lastmod": iso_day(meta.get("updated_at") or meta.get("date")),
             "category": category_label(meta.get("category", "Revista")), "author": meta.get("author", "Redação TVDUASRODAS"),
+            "ad_category": meta.get("ad_category", ""),
             "image": meta.get("cover", ""), "url": f"/materias/{slugify(slug)}/",
             "search_text": " ".join((title, summary, body, str(meta.get("tags", "")))),
         }
@@ -493,6 +516,7 @@ def load_content() -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]
             "summary": plain_excerpt(body), "body": body,
             "date": meta.get("date", TODAY), "lastmod": iso_day(meta.get("date")),
             "category": category_label(meta.get("category", "Vídeos")), "channel": meta.get("channel", ""),
+            "ad_category": meta.get("ad_category", ""),
             "duration": meta.get("duration", ""), "youtube": youtube, "video_id": video_id,
             "image": meta.get("thumbnail", f"https://i.ytimg.com/vi/{video_id}/hqdefault.jpg"),
             "url": f"/videos/{slugify(slug)}/",
@@ -511,6 +535,7 @@ def load_content() -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]
             "title": data.get("title", slug), "summary": data.get("summary", ""),
             "body": data.get("body", ""), "date": data.get("last_updated", TODAY),
             "lastmod": iso_day(data.get("last_updated")), "category": data.get("modality", "Competição"),
+            "ad_category": data.get("ad_category", ""),
             "image": data.get("cover", ""), "url": f"/competicoes/{slug}/",
             "data": data, "modalities": modalities,
             "search_text": json.dumps(data, ensure_ascii=False),
@@ -540,6 +565,7 @@ def load_content() -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]
             "body": data.get("body", ""), "date": data.get("start_date", TODAY),
             "lastmod": iso_day(data.get("last_updated") or data.get("start_date")),
             "category": data.get("event_type", "Evento"), "image": data.get("cover", ""),
+            "ad_category": data.get("ad_category", ""),
             "url": f"/eventos/{slug}/", "data": data,
             "search_text": json.dumps(data, ensure_ascii=False),
         }
@@ -576,6 +602,7 @@ def load_content() -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]
             "title": data.get("title", slug), "summary": data.get("summary", ""),
             "body_html": data.get("bodyHtml", ""), "date": data.get("date", TODAY),
             "lastmod": iso_day(data.get("date")), "category": data.get("category", "Guia"),
+            "ad_category": data.get("ad_category", ""),
             "image": data.get("hero", {}).get("image", ""), "url": f"/guias/{slug}/",
             "search_text": " ".join((data.get("title", ""), data.get("summary", ""), body_text)),
         }
@@ -610,6 +637,10 @@ def render_article(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str
   <header><span class="seo-eyebrow">{esc(item["category"])}</span><h1>{esc(item["title"])}</h1>
   <p class="seo-lead">{esc(item["summary"])}</p><p class="seo-meta">Por {esc(item["author"])} · {esc(iso_day(item["date"]))}</p></header>
   {f'<figure class="seo-hero"><img src="{esc(image)}" alt="{esc(item["title"])}"><figcaption>{esc(item["title"])}</figcaption></figure>' if image else ""}
+  <div class="seo-ad-pair">
+    <aside class="tdr-ad-slot" data-ad-slot="article-sidebar"{ad_override(item)} aria-label="Publicidade lateral relacionada à matéria"></aside>
+    <aside class="tdr-ad-slot" data-ad-slot="article-inline"{ad_override(item)} aria-label="Banner relacionado à matéria"></aside>
+  </div>
   <div class="seo-prose">{markdown(item["body"])}</div>
   {relation_blocks(item, all_items)}
 </article>"""
@@ -641,7 +672,10 @@ def render_video(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
   <header><span class="seo-eyebrow">Vídeo · {esc(item["category"])}</span><h1>{esc(item["title"])}</h1>
   <p class="seo-lead">{esc(item["summary"])}</p><p class="seo-meta">{esc(item.get("channel"))} · {esc(iso_day(item["date"]))}</p></header>
   <div class="seo-video"><iframe src="https://www.youtube.com/embed/{esc(item["video_id"])}" title="{esc(item["title"])}" allowfullscreen loading="eager"></iframe></div>
-  <aside class="tdr-ad-slot" data-ad-slot="video-inline" aria-label="Banner de patrocinador relacionado ao vídeo"></aside>
+  <div class="seo-ad-pair">
+    <aside class="tdr-ad-slot" data-ad-slot="video-sidebar"{ad_override(item)} aria-label="Publicidade lateral relacionada ao vídeo"></aside>
+    <aside class="tdr-ad-slot" data-ad-slot="video-inline"{ad_override(item)} aria-label="Banner relacionado ao vídeo"></aside>
+  </div>
   <div class="seo-prose">{markdown(item["body"])}</div>
   {relation_blocks(item, all_items)}
 </article>"""
@@ -715,6 +749,7 @@ def render_competition(
   <header><span class="seo-eyebrow">{esc(data.get("modality"))} · Temporada {esc(data.get("season"))}</span>
   <h1>{esc(item["title"])}</h1><p class="seo-lead">{esc(item["summary"])}</p>
   <p class="seo-meta">Organização: {esc(data.get("organizer"))} · Atualizado em {esc(item["lastmod"])}</p></header>
+  <aside class="tdr-ad-slot" data-ad-slot="detail-billboard" data-ad-category-override="competicoes" aria-label="Patrocínio da cobertura da competição"></aside>
   <figure class="seo-hero"><img src="{esc(item["image"])}" alt="{esc(item["title"])}"><figcaption>{esc(data.get("image_credit"))}</figcaption></figure>
   <div class="seo-prose">{linked_markdown(item["body"], people)}</div>
   <section><h2>{esc(data.get("standings_title") or "Classificação e resultados")}</h2>
@@ -758,6 +793,7 @@ def render_event(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
 <article class="seo-article">
   <header><span class="seo-eyebrow">{esc(item["category"])}</span><h1>{esc(item["title"])}</h1>
   <p class="seo-lead">{esc(item["summary"])}</p></header>
+  <aside class="tdr-ad-slot" data-ad-slot="detail-billboard" data-ad-category-override="eventos" aria-label="Patrocínio da cobertura do evento"></aside>
   <figure class="seo-hero"><img src="{esc(item["image"])}" alt="{esc(item["title"])}"><figcaption>{esc(data.get("image_credit"))}</figcaption></figure>
   <section class="seo-service"><div><span>Data</span><strong>{esc(data.get("start_date"))} a {esc(data.get("end_date") or data.get("start_date"))}</strong></div>
   <div><span>Local</span><strong>{esc(location_name)}</strong><small>{esc(data.get("city"))}/{esc(data.get("state"))}</small></div></section>
@@ -784,6 +820,10 @@ def render_guide(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
 <article class="seo-article"><header><span class="seo-eyebrow">{esc(item["category"])}</span><h1>{esc(item["title"])}</h1>
 <p class="seo-lead">{esc(item["summary"])}</p></header>
 <figure class="seo-hero"><img src="{esc(item["image"])}" alt="{esc(item["title"])}"></figure>
+<div class="seo-ad-pair">
+  <aside class="tdr-ad-slot" data-ad-slot="article-sidebar"{ad_override(item)} aria-label="Publicidade lateral relacionada ao guia"></aside>
+  <aside class="tdr-ad-slot" data-ad-slot="article-inline"{ad_override(item)} aria-label="Banner relacionado ao guia"></aside>
+</div>
 <div class="seo-prose">{item.get("body_html", "")}</div>{relation_blocks(item, all_items)}</article>"""
     return page_shell(
         title=item["title"], description=item["summary"], canonical=canonical, body=body,

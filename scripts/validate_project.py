@@ -138,6 +138,8 @@ def main() -> int:
     dynamic_pages = {"materia.html", "competicao.html", "evento.html"}
     for path in sorted(ROOT.glob("*.html")):
         text = path.read_text(encoding="utf-8-sig")
+        if "assets/js/ads.js" not in text:
+            errors.append(f"Sistema publicitário ausente: {path.name}")
         if not re.search(r"<html[^>]+lang=[\"']pt-BR[\"']", text, re.IGNORECASE):
             errors.append(f"Idioma pt-BR ausente: {path.name}")
         if not re.search(r"<title>\s*.+?\s*</title>", text, re.IGNORECASE | re.DOTALL):
@@ -185,6 +187,21 @@ def main() -> int:
             re.search(r'<meta[^>]+http-equiv=["\']refresh["\']', text, re.IGNORECASE)
             and re.search(r'<meta[^>]+name=["\']robots["\'][^>]+noindex', text, re.IGNORECASE)
         )
+        if not is_redirect and "assets/js/ads.js" not in text:
+            errors.append(f"Sistema publicitário ausente: {relative}")
+        slots = set(re.findall(r'data-ad-slot=["\']([^"\']+)', text))
+        folder = relative.parts[0]
+        if not is_redirect and folder in {"materias", "guias"}:
+            for required_slot in {"article-sidebar", "article-inline"}:
+                if required_slot not in slots:
+                    errors.append(f"Espaço {required_slot} ausente: {relative}")
+        elif not is_redirect and folder == "videos" and relative.parts[-2] != "videos":
+            for required_slot in {"video-sidebar", "video-inline"}:
+                if required_slot not in slots:
+                    errors.append(f"Espaço {required_slot} ausente: {relative}")
+        elif not is_redirect and folder in {"competicoes", "eventos"}:
+            if "detail-billboard" not in slots:
+                errors.append(f"Espaço detail-billboard ausente: {relative}")
         for pattern, label in (
             (r'<html[^>]+lang=["\']pt-BR["\']', "idioma pt-BR"),
             (r"<title>\s*.+?</title>", "title"),

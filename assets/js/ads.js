@@ -13,6 +13,55 @@
         .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
         .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
 
+    function pageContext() {
+        const path = window.location.pathname.toLowerCase();
+        const description = document.querySelector('meta[name="description"]')?.content || "";
+        const heading = document.querySelector("main h1")?.textContent || "";
+        const mainText = document.querySelector("main")?.innerText?.slice(0, 5000) || "";
+        let type = "page";
+        let adCategory = "";
+        const institutional = [
+            "/sobre", "/contato", "/imprensa", "/politica-de-privacidade",
+            "/termos", "/busca", "/arquivo", "/revista"
+        ].some((segment) => path.includes(segment));
+        if (institutional) {
+            type = "institutional";
+            adCategory = "geral";
+        } else if (path.includes("/competicoes/") || /competição|campeonato/i.test(heading)) {
+            type = "competition";
+            adCategory = "competicoes";
+        } else if (path.includes("/eventos/")) {
+            type = "event";
+            adCategory = "eventos";
+        } else if (path.includes("/videos/") || /tv\s*&\s*vídeos/i.test(heading)) {
+            type = "video";
+        } else if (path.includes("/materias/") || path.includes("/guias/")) {
+            type = "article";
+        }
+        return {
+            type,
+            ad_category: adCategory,
+            title: [document.title, heading].filter(Boolean).join(" "),
+            body: [description, mainText].filter(Boolean).join(" ")
+        };
+    }
+
+    function ensureDefaultSlot(root = document) {
+        if (root !== document || document.querySelector("[data-ad-slot]")) return;
+        const main = document.querySelector("main");
+        if (!main) return;
+        const container = main.querySelector(".container") || main;
+        const slot = document.createElement("aside");
+        slot.className = "tdr-ad-slot tdr-ad-slot--automatic";
+        slot.dataset.adSlot = "central-billboard";
+        slot.setAttribute("aria-label", "Publicidade contextual");
+        const heading = container.querySelector(
+            ":scope > .seo-collection-header, :scope > .page-header, :scope > header"
+        );
+        if (heading) heading.insertAdjacentElement("afterend", slot);
+        else container.insertAdjacentElement("afterbegin", slot);
+    }
+
     function loadConfig() {
         if (!configPromise) {
             configPromise = fetch(CONFIG_URL, { cache: "no-store" }).then((response) => {
@@ -109,7 +158,8 @@
     }
 
     async function refresh(root = document, context = currentContext) {
-        currentContext = { ...currentContext, ...context };
+        if (root === document) ensureDefaultSlot(root);
+        currentContext = { ...pageContext(), ...currentContext, ...context };
         try {
             const config = await loadConfig();
             const category = resolveCategory(currentContext, config);
