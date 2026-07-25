@@ -75,6 +75,27 @@ STOPWORDS = {
     "que", "se", "sem", "um", "uma", "2026", "tvduasrodas",
 }
 
+CATEGORY_LABELS = {
+    "bikes": "Bicicletas",
+    "cassetadas": "Cassetadas",
+    "competicoes": "Competições",
+    "cross": "Cross",
+    "customizacao": "Customização",
+    "dicas": "Dicas",
+    "eventos": "Eventos",
+    "historia": "História",
+    "institucional": "Institucional",
+    "lancamentos": "Lançamentos",
+    "outros": "Outros",
+    "seguranca": "Segurança",
+    "tecnologia": "Tecnologia",
+    "testes": "Testes",
+    "tests": "Testes",
+    "urbano": "Urbano",
+    "urbanizacao": "Urbanização",
+    "viagem": "Viagem",
+}
+
 
 def read_text(path: Path) -> str:
     return path.read_text(encoding="utf-8-sig")
@@ -92,6 +113,22 @@ def slugify(value: str) -> str:
 
 def normalize(value: str) -> str:
     return slugify(value).replace("-", " ")
+
+
+def category_label(value: str) -> str:
+    return CATEGORY_LABELS.get(slugify(value), value)
+
+
+def plain_excerpt(value: str, limit: int = 220) -> str:
+    text = re.sub(r"!\[([^\]]*)\]\([^)]+\)", r"\1", value)
+    text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = re.sub(r"[*_`#>|]", "", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    if len(text) <= limit:
+        return text
+    shortened = text[: limit + 1].rsplit(" ", 1)[0].rstrip(" ,;:—-")
+    return f"{shortened}…"
 
 
 def iso_day(value: Any) -> str:
@@ -311,7 +348,7 @@ def page_shell(
     <p class="footer-small"><a href="/sobre">Sobre</a> · <a href="/contato">Contato</a> · <a href="/sitemap.xml">Sitemap</a></p>
   </div></div></footer>
   <script src="/assets/js/ads.js?v=20260725a"></script>
-  {scripts}
+{scripts}
 </body>
 </html>
 """
@@ -433,12 +470,12 @@ def load_content() -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]
         meta, body = frontmatter(path)
         slug = path.stem
         title = meta.get("title", slug)
-        summary = meta.get("summary") or re.sub(r"[*#\[\]()]", "", body)[:220]
+        summary = meta.get("summary") or plain_excerpt(body)
         item = {
             "kind": "article", "kind_label": "Matéria", "slug": slug, "title": title,
             "summary": summary, "body": body, "date": meta.get("date", TODAY),
             "lastmod": iso_day(meta.get("updated_at") or meta.get("date")),
-            "category": meta.get("category", "Revista"), "author": meta.get("author", "Redação TVDUASRODAS"),
+            "category": category_label(meta.get("category", "Revista")), "author": meta.get("author", "Redação TVDUASRODAS"),
             "image": meta.get("cover", ""), "url": f"/materias/{slugify(slug)}/",
             "search_text": " ".join((title, summary, body, str(meta.get("tags", "")))),
         }
@@ -453,9 +490,9 @@ def load_content() -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]
         title = meta.get("title", slug)
         item = {
             "kind": "video", "kind_label": "Vídeo", "slug": slug, "title": title,
-            "summary": re.sub(r"[*#\[\]()]", "", body)[:220], "body": body,
+            "summary": plain_excerpt(body), "body": body,
             "date": meta.get("date", TODAY), "lastmod": iso_day(meta.get("date")),
-            "category": meta.get("category", "Vídeos"), "channel": meta.get("channel", ""),
+            "category": category_label(meta.get("category", "Vídeos")), "channel": meta.get("channel", ""),
             "duration": meta.get("duration", ""), "youtube": youtube, "video_id": video_id,
             "image": meta.get("thumbnail", f"https://i.ytimg.com/vi/{video_id}/hqdefault.jpg"),
             "url": f"/videos/{slugify(slug)}/",

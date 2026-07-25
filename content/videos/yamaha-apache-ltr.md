@@ -10,4 +10,4 @@ featured: false
 thumbnail: https://i3.ytimg.com/vi/14f8YEyFuuo/hqdefault.jpg
 ---
 
-A Dafra lança uma moto economica para o uso do dia-a-dia e vem cheia de vantagens.
+A Dafra lança uma moto econômica para o uso diário e oferece diversas vantagens.

@@ -4,6 +4,4 @@ email: tvduasrodas@gmail.com
 ---
 Entre em contato com a TVDUASRODAS.
 
-
-
-Aqui você pode colocar instruções, horários de atendimento, links ou o que quiser.
+Envie dúvidas, sugestões de pauta, propostas comerciais ou informações sobre eventos e competições. Nossa equipe responderá pelo e-mail informado nesta página.

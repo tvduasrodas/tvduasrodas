@@ -30,7 +30,7 @@ Se antes a potência bruta era o principal atrativo, hoje o destaque está na ef
 
 Essas motos não são apenas meios de transporte — elas se tornaram plataformas inteligentes de mobilidade.
 
-![Painel eletronico moto](/assets/img/uploads/urbano3.webp "Painel eletronico moto")
+![Painel eletrônico de uma moto](/assets/img/uploads/urbano3.webp "Painel eletrônico de uma moto")
 
 ***
 
@@ -45,7 +45,7 @@ Outro ponto-chave dessa transformação é o comportamento do piloto. Em 2026, c
 
 Esse público impulsiona a demanda por motos mais leves, fáceis de pilotar e tecnologicamente assistidas, reduzindo barreiras de entrada para novos usuários.
 
-![Bicicleta Eletrica](/assets/img/uploads/urbano4.webp "Bicicleta Eletrica")
+![Bicicleta elétrica](/assets/img/uploads/urbano4.webp "Bicicleta elétrica")
 
 ***
 
@@ -60,7 +60,7 @@ Em grandes centros, o crescimento é visível principalmente entre:
 - Criadores de conteúdo
 - Serviços urbanos e delivery especializado
 
-![Patinete Eletrico](/assets/img/uploads/urbano5.webp "Patinete Eletrico")
+![Patinete elétrico](/assets/img/uploads/urbano5.webp "Patinete elétrico")
 
 ***
 
@@ -70,7 +70,7 @@ Diferente de décadas passadas, o discurso de 2026 coloca a segurança no centro
 
 Isso explica a padronização de sistemas eletrônicos, melhores freios, iluminação em LED de alta visibilidade e estruturas mais rígidas, mesmo em motos de entrada.
 
-![Patinete Eletrico](/assets/img/uploads/urbano4.avif "Patinete Eletrico")
+![Patinete elétrico](/assets/img/uploads/urbano4.avif "Patinete elétrico")
 
 ***
 

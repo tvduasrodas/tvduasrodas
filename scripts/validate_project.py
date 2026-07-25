@@ -181,11 +181,18 @@ def main() -> int:
     for path in generated_html:
         text = path.read_text(encoding="utf-8-sig")
         relative = path.relative_to(ROOT)
+        is_redirect = bool(
+            re.search(r'<meta[^>]+http-equiv=["\']refresh["\']', text, re.IGNORECASE)
+            and re.search(r'<meta[^>]+name=["\']robots["\'][^>]+noindex', text, re.IGNORECASE)
+        )
         for pattern, label in (
             (r'<html[^>]+lang=["\']pt-BR["\']', "idioma pt-BR"),
             (r"<title>\s*.+?</title>", "title"),
             (r'<meta[^>]+name=["\']description["\']', "meta description"),
-            (r'<meta[^>]+name=["\']robots["\'][^>]+index', "robots index"),
+            (
+                r'<meta[^>]+name=["\']robots["\'][^>]+(?:index|noindex)',
+                "diretiva robots",
+            ),
             (r"<h1[^>]*>.+?</h1>", "h1"),
         ):
             if not re.search(pattern, text, re.IGNORECASE | re.DOTALL):
@@ -196,9 +203,9 @@ def main() -> int:
         )
         if not canonical_match:
             errors.append(f"Canonical ausente: {relative}")
-        elif canonical_match.group(1) in generated_canonicals:
+        elif canonical_match.group(1) in generated_canonicals and not is_redirect:
             errors.append(f"Canonical duplicado: {canonical_match.group(1)}")
-        else:
+        elif not is_redirect:
             generated_canonicals.add(canonical_match.group(1))
         for payload in re.findall(
             r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
@@ -311,7 +318,10 @@ def main() -> int:
                 f"({image.stat().st_size / 1024:.0f} KB)"
             )
 
-    checks = [[sys.executable, "scripts/update_sitemap.py", "--check"]]
+    checks = [
+        [sys.executable, "scripts/update_sitemap.py", "--check"],
+        [sys.executable, "scripts/audit_ptbr.py"],
+    ]
     if args.require_daily:
         checks.append([sys.executable, "scripts/check_daily_targets.py", "--require-complete"])
     for command in checks:

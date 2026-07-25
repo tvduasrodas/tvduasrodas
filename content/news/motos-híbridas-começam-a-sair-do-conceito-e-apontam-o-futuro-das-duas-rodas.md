@@ -26,9 +26,9 @@ O sistema híbrido utiliza um motor elétrico auxiliar, geralmente integrado ao 
 
 Além disso, parte dos projetos já trabalha com recuperação de energia nas frenagens, tecnologia semelhante ao KERS usado na Fórmula 1, reaproveitando energia que normalmente seria perdida.
 
-![Moto Hibrida Como Funciona](/assets/img/uploads/hibrido2.webp "Moto Hibrida Como Funciona")
+![Como funciona uma moto híbrida](/assets/img/uploads/hibrido2.webp "Como funciona uma moto híbrida")
 
-![Moto Hibrida Como Funciona](/assets/img/uploads/hibrido5.png "Moto Hibrida Como Funciona")
+![Como funciona uma moto híbrida](/assets/img/uploads/hibrido5.png "Como funciona uma moto híbrida")
 
 ***
 
@@ -84,4 +84,4 @@ Não se trata de uma moda passageira, mas de uma mudança estrutural na forma co
 
 O TVDUASRODAS seguirá acompanhando de perto o avanço das motos híbridas, os primeiros lançamentos comerciais e o impacto dessa tecnologia no mercado brasileiro e internacional.
 
-![Moto Hibrida](/assets/img/uploads/hibrido4.avif "Moto Hibrida")
+![Moto híbrida](/assets/img/uploads/hibrido4.avif "Moto híbrida")
