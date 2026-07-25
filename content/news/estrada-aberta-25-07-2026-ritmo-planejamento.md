@@ -12,7 +12,7 @@ ad_category: "motos"
 kicker: "Turismo e segurança"
 summary: "A viagem de moto fica mais prazerosa quando o ritmo considera condições da estrada, clima, descanso e margem para imprevistos."
 seoTitle: "Estrada Aberta: como definir um ritmo seguro para viajar de moto"
-cover: "/assets/img/uploads/programa-estrada-aberta-capa.webp"
+cover: "/assets/img/uploads/estrada-aberta-25-07-2026-capa.webp"
 featured: false
 ---
 
@@ -26,7 +26,7 @@ Duas rotas com a mesma quilometragem podem exigir tempos muito diferentes. Serra
 
 Se o roteiro depender de atravessar uma área desconhecida ao anoitecer, considere sair antes, encurtar o caminho ou reservar uma parada. A melhor decisão pode ser não completar o plano original naquele dia.
 
-![Motociclista prepara malas laterais equilibradas antes de uma viagem, em ilustração editorial gerada por IA](/assets/img/uploads/bagagem-moto-distribuicao.webp "Ilustração editorial gerada por IA: preparação para um roteiro de estrada.")
+![Motociclista segue em ritmo moderado por uma rodovia sinuosa, em ilustração editorial gerada por IA](/assets/img/uploads/estrada-aberta-25-07-2026-ritmo.webp "Ilustração editorial gerada por IA exclusivamente para esta edição: leitura da estrada e ritmo com margem.")
 
 ## O ritmo nasce da condição, não da vontade
 
@@ -38,7 +38,7 @@ Ao viajar em grupo, combine pontos de encontro em vez de transformar a velocidad
 
 Uma parada planejada permite recuperar foco e observar a moto. Confira a fixação da bagagem, a pressão e o aspecto dos pneus quando apropriado, além de luzes e possíveis vazamentos. Beba água, ajuste roupa para a temperatura e revise o trecho seguinte antes de sair.
 
-![Luvas verificam a cinta de uma mala longe de partes móveis, em ilustração editorial gerada por IA](/assets/img/uploads/bagagem-moto-fixacao.webp "Ilustração editorial gerada por IA: revisão de bagagem numa parada segura.")
+![Motociclista verifica o pneu e a bagagem em uma área de descanso, em ilustração editorial gerada por IA](/assets/img/uploads/estrada-aberta-25-07-2026-parada.webp "Ilustração editorial gerada por IA exclusivamente para esta edição: pausa planejada e inspeção da motocicleta.")
 
 O celular é uma ferramenta de rota, não um comando de guidão. Pare em local permitido para conferir mapas, avisar a chegada ou alterar o destino. Se houver fadiga, chuva forte ou qualquer condição que tire a margem de conforto, a decisão madura é descansar ou encerrar o trecho.
 
@@ -56,4 +56,4 @@ Veja também: [Parada segura na viagem de moto: como planejar sem improviso](mat
 - [DNIT — normas e cuidados para transporte de cargas em motocicletas](https://www.gov.br/dnit/pt-br/fique-atento-as-normas-para-o-transporte-de-cargas-para-os-motociclistas/)
 - [PRF — orientações de segurança para motociclistas](https://www.gov.br/prf/pt-br/noticias/estaduais/paraiba/2024/maio/prf-orienta-motociclistas-sobre-cuidados-no-transito)
 
-**Nota editorial:** imagens de ilustração por IA, reaproveitadas de acervo editorial próprio; não representam pessoas, motos ou viagens reais.
+**Nota editorial:** as três imagens desta edição foram geradas por inteligência artificial exclusivamente para esta publicação. Não foram reutilizadas em outra matéria e não representam pessoas, motocicletas, estradas ou viagens reais.

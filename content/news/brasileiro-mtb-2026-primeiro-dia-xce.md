@@ -17,9 +17,7 @@ O **Campeonato Brasileiro de Mountain Bike XCO-XCC-XCE 2026** começou na quinta
 
 Ao fim do primeiro dia, **Luiz Henrique Cocuzzi** venceu a Elite Masculina e **Iara Caetano** conquistou a Elite Feminina. Os dois receberam as primeiras camisas de campeões brasileiros desta edição, que continua até domingo, 26 de julho, com provas de Short Track (XCC) e Cross Country Olímpico (XCO).
 
-![Luiz Henrique Cocuzzi e Iara Caetano exibem medalhas e camisas de campeões brasileiros ao lado de suas bicicletas](/assets/img/uploads/brasileiro-mtb-2026-primeiro-dia-capa.webp "Luiz Henrique Cocuzzi e Iara Caetano conquistaram os títulos da abertura no XCE.")
-
-*Foto: Ueverton Santos/CBC.*
+*Foto de capa: Ueverton Santos/CBC.*
 
 ## Cocuzzi reagiu na final masculina
 

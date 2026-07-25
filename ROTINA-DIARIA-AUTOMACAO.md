@@ -1,6 +1,6 @@
 # Rotina diária fixada — TVDUASRODAS
 
-Versão atualizada em 24 de julho de 2026. Esta rotina é obrigatória para o worker e não pode ser reduzida, substituída ou ignorada sem uma nova instrução expressa de Wesley. O portal não é somente competições e eventos.
+Versão atualizada em 25 de julho de 2026. Esta rotina é obrigatória para o worker e não pode ser reduzida, substituída ou ignorada sem uma nova instrução expressa de Wesley. O portal não é somente competições e eventos.
 
 ## Sincronização obrigatória entre este arquivo e as automações
 
@@ -67,6 +67,17 @@ Até o encerramento das 20h (horário Eastern), o worker deve entregar:
 4. Diversificar a TV durante a semana: não repetir categoria de vídeo nem canal de origem na mesma semana editorial, salvo transmissão ou atualização oficial urgente, com exceção explicada no relatório. Alternar testes, competições, cross, eventos, urbano, lançamentos, dicas, tecnologia, viagem, história, customização, entretenimento e outras categorias pertinentes.
 5. Todas as **atualizações urgentes de competições e eventos** encontradas na matriz obrigatória de fontes confiáveis: resultados, classificação, liderança, calendário ou informação de serviço.
 6. **SEO, sitemap, publicação, validação pública e Google Search Console imediatamente após cada lote publicado**, sem esperar o fechamento das 20h.
+
+## Regra absoluta de não repetição de imagens e vídeos
+
+- É proibido repetir em uma nova publicação qualquer imagem ou vídeo já usado no portal, na Revista, na TV, em programas, competições, eventos, capas, corpo de matéria, redes sociais ou outro conteúdo da TVDUASRODAS. A proibição vale tanto para arquivos idênticos quanto para cópias renomeadas, recomprimidas, recortadas, redimensionadas, convertidas para outro formato ou visualmente equivalentes.
+- A regra inclui material de sites e fontes oficiais, bancos de imprensa, acervo próprio, capturas, ilustrações e imagens geradas por inteligência artificial. Uma imagem gerada por IA para uma publicação não pode ser reaproveitada em outra, mesmo quando o assunto for parecido.
+- A imagem de capa nunca pode ser repetida dentro do corpo da mesma página. Cada posição visual deve usar um arquivo e uma composição distintos.
+- Antes de selecionar ou publicar mídia, pesquisar todas as referências existentes em `content/news`, `content/videos`, `content/competitions`, `content/events`, `content/articles`, saídas sociais e demais coleções; comparar nome, URL, ID de vídeo, hash do arquivo e semelhança visual. Havendo dúvida razoável de repetição, rejeitar a mídia e escolher outra.
+- Para notícias, resultados, lançamentos, programas e eventos em andamento, usar o material mais recente disponível e diretamente relacionado ao fato, à etapa, ao produto, ao local e à data cobertos. É proibido usar foto genérica ou antiga de modo que pareça retratar o acontecimento atual.
+- As únicas exceções são retrospectivas claramente identificadas ou referências editoriais explícitas a artigo, notícia, vídeo ou acontecimento do passado. Nesses casos, a legenda e o texto devem informar que se trata de arquivo, incluir a data ou o contexto original e apontar o conteúdo anterior relacionado. A exceção deve ser registrada no relatório da execução.
+- Se não houver mídia oficial atual, autorizada e inédita suficiente, documentar a busca e produzir uma solução visual nova e honesta, como ilustração editorial exclusiva ou gráfico baseado em dados confirmados. Nunca preencher espaço repetindo uma imagem.
+- A validação anterior ao commit deve confirmar: nenhuma capa repetida no corpo; nenhuma mídia já usada em outra publicação; créditos e direitos corretos; atualidade e correspondência factual; carregamento local; e ausência de cópias visuais disfarçadas por nome, corte ou formato.
 
 ### Rotação semanal de matérias
 
@@ -208,7 +219,7 @@ Conteúdo fraco, duplicado, rumor ou texto inventado não cumpre a meta. Quando 
 - Quando houver programa fixo no dia, produzir também uma edição separada com `contentType: "program"`. O programa não substitui a matéria diária e a matéria diária não substitui o programa.
 - Quando não houver notícia ou lançamento forte, usar pauta própria durável: segurança, manutenção, pilotagem, compra, documentação, viagem, mobilidade, urbanização, tecnologia, bicicletas, scooters ou elétricos.
 - Usar texto original em pt-BR, sem copiar releases e sem afirmar teste presencial que não ocorreu.
-- Priorizar capa oficial horizontal e duas imagens internas autorizadas. Baixar, otimizar e publicar localmente; não usar hotlink. IA somente quando não houver material oficial adequado.
+- Priorizar capa oficial horizontal e duas imagens internas autorizadas, sempre atuais, distintas entre si e inéditas em todo o acervo publicado. Baixar, otimizar e publicar localmente; não usar hotlink. IA somente quando não houver material oficial adequado e sempre com geração exclusiva para a publicação, sem reaproveitamento.
 - Registrar fontes, direitos, créditos e tratamento das imagens.
 - Após cada lote publicado, concluir imediatamente sitemap, push, validação pública e Search Console.
 
@@ -290,6 +301,7 @@ Para cada lote, seguir esta ordem sem antecipar o uso do plugin Computer Use:
 - Repositório único: `C:\Users\Wesley\Documents\TVDUASRODAS\tvduasrodas`, branch `main`.
 - Nunca alterar ou publicar no projeto `itservices` nem no clone antigo do GitHub Desktop.
 - Priorizar fontes oficiais, imagens de imprensa licenciadas e créditos corretos.
+- Nunca repetir imagens ou vídeos, inclusive mídia de fonte oficial, acervo próprio ou gerada por IA; somente retrospectiva ou referência explícita ao passado pode usar arquivo, com identificação, data, contexto e link para o conteúdo anterior.
 - Não deixar publicação válida somente no computador: validar, fazer commit, push e confirmar no site.
 - A autorização permanente cobre commit, clique em `Push origin`, push para `origin/main` e confirmação remota de todos os lotes previstos por esta rotina. Não pedir nova autorização para essas ações.
 - Toda execução gera relatório visível: checado sem novidade, publicado com URL ou ação necessária.
