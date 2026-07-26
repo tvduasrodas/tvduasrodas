@@ -8,48 +8,146 @@
   "status": "em_andamento",
   "organizer": "Confederação Brasileira de Motociclismo",
   "official_url": "https://www.cbm.esp.br/modalidades/rally-baja",
-  "results_url": "https://www.cbm.esp.br/calendario/rally-baja",
+  "results_url": "https://satcron.com.br/novo/2026/2613-rse.html",
   "cover": "/assets/img/uploads/brasileiro-rally-baja-2026-artwork.svg",
   "image_credit": "Arte editorial: TVDUASRODAS",
   "featured": false,
-  "summary": "Calendário, resultados e classificação do campeonato nacional de Rally Baja.",
-  "last_updated": "2026-07-26T07:34:37.414943+00:00",
+  "summary": "Resultados oficiais de Barretos e do Rally Rota Sudeste, calendário e situação da classificação do Brasileiro de Rally Baja.",
+  "last_updated": "2026-07-26T15:01:55.7076419-04:00",
   "next_stage": {
-    "name": "4ª etapa — Rota Sudeste",
+    "name": "4ª etapa — nome a confirmar",
     "start_date": "2026-09-26",
     "end_date": "2026-09-27",
-    "note": "Local a confirmar"
+    "note": "A CBM mantém as datas de 26 e 27 de setembro, mas o nome da prova precisa ser confirmado após o Rally Rota Sudeste ter sido realizado em julho."
   },
-  "categories": [],
+  "categories": [
+    "Motos",
+    "UTVs"
+  ],
+  "latest_result": {
+    "event": "Rally Rota Sudeste 2026",
+    "session": "Classificação geral",
+    "date": "2026-07-05",
+    "note": "A CBM publicou os cinco primeiros das motos e dos UTVs, confirmados pelos resultados oficiais da Chronosat. A classificação acumulada do campeonato ainda não foi disponibilizada.",
+    "source_url": "https://satcron.com.br/novo/2026/2613-rse.html",
+    "classification": [
+      {
+        "position": "1º",
+        "competitor": "Nicolaz Rodrigues",
+        "team": "",
+        "time_gap": "3h06min33s",
+        "points": null,
+        "category": "Motos"
+      },
+      {
+        "position": "2º",
+        "competitor": "Felipe Limonta",
+        "team": "LMT Motosports",
+        "time_gap": "3h22min06s",
+        "points": null,
+        "category": "Motos"
+      },
+      {
+        "position": "3º",
+        "competitor": "Paolo Sforza",
+        "team": "Racetech",
+        "time_gap": "3h33min04s",
+        "points": null,
+        "category": "Motos"
+      },
+      {
+        "position": "4º",
+        "competitor": "Rodolfo Bazetto",
+        "team": "Caminhos das Serras",
+        "time_gap": "3h42min19s",
+        "points": null,
+        "category": "Motos"
+      },
+      {
+        "position": "5º",
+        "competitor": "Ricardo Nascimento",
+        "team": "Multracing",
+        "time_gap": "3h44min31s",
+        "points": null,
+        "category": "Motos"
+      },
+      {
+        "position": "1º",
+        "competitor": "Bruno Varela",
+        "team": "Varela Rally",
+        "time_gap": "2h53min29s",
+        "points": null,
+        "category": "UTVs"
+      },
+      {
+        "position": "2º",
+        "competitor": "Kaique Bentivoglio",
+        "team": "Cotton Racing / Polaris One",
+        "time_gap": "2h59min09s",
+        "points": null,
+        "category": "UTVs"
+      },
+      {
+        "position": "3º",
+        "competitor": "Conrado Matsumoto",
+        "team": "Cotton Racing",
+        "time_gap": "3h00min32s",
+        "points": null,
+        "category": "UTVs"
+      },
+      {
+        "position": "4º",
+        "competitor": "Daniel Trecenti",
+        "team": "HPS Racing",
+        "time_gap": "3h03min05s",
+        "points": null,
+        "category": "UTVs"
+      },
+      {
+        "position": "5º",
+        "competitor": "Reinaldo Varela / Tulio Taniguchi",
+        "team": "Varela Rally",
+        "time_gap": "3h03min49s",
+        "points": null,
+        "category": "UTVs"
+      }
+    ]
+  },
   "standings": [],
   "rounds": [
     {
       "order": 1,
       "start_date": "2026-02-07",
       "name": "1ª etapa — Cuesta",
-      "location": "A confirmar",
-      "status": "concluida"
+      "location": "Botucatu/SP",
+      "status": "concluida",
+      "results_url": "https://satcron.com.br/novo/2026/2601-cuesta.html"
     },
     {
       "order": 2,
       "start_date": "2026-03-14",
       "name": "2ª etapa — Barretos",
       "location": "Barretos/SP",
-      "status": "concluida"
+      "status": "concluida",
+      "winner": "Nicolaz Rodriguez (Motos); Bruno Varela (UTVs)",
+      "results_url": "https://satcron.com.br/novo/2026/2602-barretos.html"
     },
     {
       "order": 3,
       "start_date": "2026-07-04",
-      "name": "3ª etapa — Serra Azul",
-      "location": "A confirmar",
-      "status": "concluida"
+      "end_date": "2026-07-05",
+      "name": "3ª etapa — Rally Rota Sudeste",
+      "location": "Barra Bonita/SP",
+      "status": "concluida",
+      "winner": "Nicolaz Rodrigues (Motos); Bruno Varela (UTVs)",
+      "results_url": "https://satcron.com.br/novo/2026/2613-rse.html"
     },
     {
       "order": 4,
       "start_date": "2026-09-26",
       "end_date": "2026-09-27",
-      "name": "4ª etapa — Rota Sudeste",
-      "location": "A confirmar",
+      "name": "4ª etapa — nome a confirmar",
+      "location": "São Paulo (local a confirmar)",
       "status": "agendada"
     },
     {
@@ -70,7 +168,7 @@
     }
   ],
   "related_videos": [],
-  "body": "## Temporada 2026\n\nCampeonato Brasileiro de Rally Baja 2026 é acompanhada pela TVDUASRODAS na modalidade Rally Baja, sob organização de Confederação Brasileira de Motociclismo. O status registrado é em_andamento.\n\n## Próxima etapa e calendário\n\nA referência mais recente é 4ª etapa — Rota Sudeste, com data 2026-09-26 e local a confirmar. Alterações de data e local são conferidas nos canais oficiais.\n\n## Classificação e resultados\n\nAs fontes oficiais consultadas ainda não disponibilizaram classificação consolidada para publicação. Quando houver documento oficial, atletas, equipes, categorias, posições, tempos e pontos serão publicados com páginas relacionadas para os competidores identificados.\n\n## Fontes\n\nA apuração registra Canal oficial ou página indicada pela entidade; Resultados oficiais; Piloto morre ao sofrer acidente em prova do Brasileiro de Rally Baja | Ge; Cidade sedia 19ª edição do Rally Rota Sudeste no fim de semana - Jornal O Mirante. Cada link permanece visível na página para permitir a conferência dos dados e da data de atualização.",
+  "body": "## Resultado mais recente\n\nO Rally Rota Sudeste foi realizado de 3 a 5 de julho em Barra Bonita (SP). Nicolaz Rodrigues venceu a classificação geral das motos com 3h06min33s, enquanto Bruno Varela ganhou nos UTVs com 2h53min29s. Os cinco primeiros de cada modalidade, divulgados pela CBM e confirmados pela Chronosat, estão no quadro de resultado desta página.\n\nNos resultados finais por categoria, os vencedores das motos foram Felipe Limonta (MT1), Nicolaz Rodrigues (MT2), Paolo Sforza (MT3) e Rodolfo Bazetto (MBR). Nos UTVs, venceram Daniel Trecenti (UT1), Rodrigo Matsumoto (UT2), João Paulo Milan e Lou Rival Roldan (Double), Gunter Hinkelmann (Over 50), Reinaldo Varela e Tulio Taniguchi (Over 55), Parley Fiamoncini (Over Pro), Rafael Salomao e Mateus Mazzeli (Start) e Bruno Varela (Ultimate). A página de resultados oficiais reúne também as parciais, penalidades e documentos completos.\n\n## Resultado de Barretos\n\nNa rodada disputada em 14 e 15 de março, Nicolaz Rodriguez venceu a classificação geral das motos e Bruno Varela foi o campeão entre os UTVs. O comunicado da CBM e a página da Chronosat dão acesso à apuração da prova.\n\n## Classificação do campeonato\n\nA CBM ainda não publicou uma tabela acumulada de pontos da temporada, e a pasta de ranking disponibilizada pela Chronosat permanece vazia. Por isso, a classificação do campeonato segue em aberto; os dados acima são resultados das provas, não a classificação geral de 2026.\n\n## Próxima etapa e calendário\n\nA CBM mantém uma rodada em 26 e 27 de setembro. O calendário anterior identifica essa prova como Rally Rota Sudeste, mas um comunicado oficial mais recente confirma que o Rally Rota Sudeste já foi realizado em julho, substituindo a referência anterior ao Rally Serra Azul. Até uma nova confirmação da entidade, o nome e o local da rodada de setembro permanecem a confirmar.",
   "sources": [
     {
       "url": "https://www.cbm.esp.br/modalidades/rally-baja",
@@ -80,17 +178,39 @@
     },
     {
       "url": "https://www.cbm.esp.br/calendario/rally-baja",
-      "label": "Resultados oficiais",
+      "label": "Calendário oficial do Rally Baja",
       "type": "fonte primária ou canal oficial",
-      "supports": "dados de agenda, identificação e situação do evento"
+      "supports": "datas previstas e situação da classificação acumulada"
     },
     {
-      "url": "https://ge.globo.com/google/amp/sp/tem-esporte/noticia/2026/02/08/piloto-morre-ao-sofrer-acidente-em-prova-do-campeonato-brasileiro-de-rally-baja.ghtml",
-      "label": "Piloto morre ao sofrer acidente em prova do Brasileiro de Rally Baja | Ge",
-      "type": "fonte específica independente",
-      "supports": "data e edição",
-      "relevance_score": 19,
-      "discovery_method": "busca_editorial_indexada"
+      "url": "https://www.cbm.esp.br/noticias/2026/02/19/sportbay-assume-naming-rights-do-brasileiro-de-rally-raid-e-rally-baja-em-2026",
+      "label": "Calendário da temporada 2026 publicado pela CBM",
+      "type": "fonte primária ou canal oficial",
+      "supports": "datas e nomes originalmente anunciados para as provas"
+    },
+    {
+      "url": "https://www.cbm.esp.br/noticias/2026/03/16/16-rally-barretos-levantou-poeira-e-espirrou-lama-na-terra-do-peao",
+      "label": "Resultado oficial do Rally Barretos 2026",
+      "type": "fonte primária ou canal oficial",
+      "supports": "vencedores gerais de motos e UTVs e acesso à cronometragem completa"
+    },
+    {
+      "url": "https://www.cbm.esp.br/noticias/2026/07/06/rally-rota-sudeste-conclui-19-edicao-em-barra-bonita-com-grandes-disputas-nas-motos-e-nos-utv-s",
+      "label": "Resultado oficial do Rally Rota Sudeste 2026",
+      "type": "fonte primária ou canal oficial",
+      "supports": "local, datas, vencedores, tempos e cinco primeiros de motos e UTVs"
+    },
+    {
+      "url": "https://satcron.com.br/novo/2026/2613-rse.html",
+      "label": "Chronosat — documentos oficiais do Rally Rota Sudeste 2026",
+      "type": "apuração e cronometragem oficial",
+      "supports": "resultados finais gerais e por categoria, parciais, penalidades e regulamentos"
+    },
+    {
+      "url": "https://satcron.com.br/novo/resultados.html",
+      "label": "Chronosat — central de resultados",
+      "type": "apuração e cronometragem oficial",
+      "supports": "índice das páginas de resultados das provas"
     },
     {
       "url": "https://www.motoremacao.com.br/noticia/rally-rota-sudeste-agitara-barra-bonita-de-3-a-5-de-julho-pelo-brasileiro-de-baja",
@@ -101,27 +221,27 @@
       "discovery_method": "busca_editorial_indexada"
     }
   ],
-  "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
+  "source_checked_at": "2026-07-26T15:01:55.7076419-04:00",
   "research_status": {
     "required_specific_independent_sources": 2,
-    "specific_independent_domains_found": 3,
+    "specific_independent_domains_found": 2,
     "status": "fontes_cruzadas",
     "attempts": [
       "busca por título exato, cidade, UF e ano",
       "busca ampliada por programação, organizador, prefeitura e imprensa local",
       "busca visual/social em Instagram, Facebook e YouTube"
     ],
-    "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
+    "reviewed_at": "2026-07-26T15:01:55.7076419-04:00",
     "editorial_rule": "Dados confirmados por duas ou mais fontes específicas independentes."
   },
   "classification_status": {
     "status": "aguardando_publicacao_oficial",
-    "checked_at": "2026-07-26T07:23:03.259252+00:00",
-    "note": "As fontes oficiais consultadas ainda não disponibilizaram classificação consolidada para publicação."
+    "checked_at": "2026-07-26T15:01:55.7076419-04:00",
+    "note": "A CBM publicou resultados de provas, mas ainda não disponibilizou a classificação acumulada de pontos da temporada; a pasta de ranking da Chronosat também está vazia."
   },
   "calendar_status": {
-    "status": "publicado",
-    "checked_at": "2026-07-26T07:23:03.259252+00:00",
-    "note": "Etapas disponíveis na tabela da página."
+    "status": "publicado_com_divergencia",
+    "checked_at": "2026-07-26T15:01:55.7076419-04:00",
+    "note": "As datas estão publicadas, mas há divergência oficial nos nomes das provas de julho e setembro; a rodada de setembro permanece com nome e local a confirmar."
   }
 }

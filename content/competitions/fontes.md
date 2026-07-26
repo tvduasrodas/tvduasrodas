@@ -73,6 +73,17 @@ Registro editorial de fontes e imagens usadas na implantação inicial da centra
 - Próxima etapa e calendário: [MOTO1000GP — calendário 2026](https://m1gp.com.br/), com Cascavel (PR) em 2 de agosto como 4ª etapa.
 - Dados incorporados à central: classificação completa das quatro categorias principais; pódios da 3ª etapa; líderes e pontuações; próxima etapa. Nenhuma imagem foi adicionada ou alterada: a capa local, seu crédito e o registro de direitos permanecem os mesmos.
 
+### Rally Baja — atualização de resultados em 26 de julho de 2026, 15h02 (ET)
+
+- Resultado oficial do Rally Barretos: [CBM — Nicolaz Rodriguez vence nas motos e Bruno Varela nos UTVs](https://www.cbm.esp.br/noticias/2026/03/16/16-rally-barretos-levantou-poeira-e-espirrou-lama-na-terra-do-peao). O comunicado também encaminha para a cronometragem completa da prova.
+- Resultado oficial do Rally Rota Sudeste: [CBM — classificação geral e cinco primeiros de motos e UTVs](https://www.cbm.esp.br/noticias/2026/07/06/rally-rota-sudeste-conclui-19-edicao-em-barra-bonita-com-grandes-disputas-nas-motos-e-nos-utv-s).
+- Apuração completa: [Chronosat — documentos oficiais do Rally Rota Sudeste 2026](https://satcron.com.br/novo/2026/2613-rse.html), com resultados finais gerais e por categoria, parciais, penalidades e regulamentos. A fonte foi localizada pela [central pública de resultados](https://satcron.com.br/novo/resultados.html).
+- Vencedores por categoria confirmados nos PDFs finais oficiais: Felipe Limonta (MT1), Nicolaz Rodrigues (MT2), Paolo Sforza (MT3), Rodolfo Bazetto (MBR), Daniel Trecenti (UT1), Rodrigo Matsumoto (UT2), João Paulo Milan/Lou Rival Roldan (Double), Gunter Hinkelmann (Over 50), Reinaldo Varela/Tulio Taniguchi (Over 55), Parley Fiamoncini (Over Pro), Rafael Salomao/Mateus Mazzeli (Start) e Bruno Varela (Ultimate).
+- Calendário anunciado em fevereiro: [CBM — temporada 2026 do Rally Baja](https://www.cbm.esp.br/noticias/2026/02/19/sportbay-assume-naming-rights-do-brasileiro-de-rally-raid-e-rally-baja-em-2026). A publicação identifica Rally Serra Azul em julho e Rally Rota Sudeste em setembro.
+- Divergência registrada: o comunicado oficial de 6 de julho confirma que o Rally Rota Sudeste ocorreu em Barra Bonita, de 3 a 5 de julho, embora o calendário da modalidade ainda mostre “Serra Azul” nessa data e “Rota Sudeste” em setembro. A prova de julho foi atualizada pelo resultado efetivamente publicado; o nome e o local da rodada de 26 e 27 de setembro ficaram a confirmar.
+- A CBM ainda não publicou uma classificação acumulada de pontos e a pasta “Ranking do Campeonato” da Chronosat estava vazia na consulta. `standings` permanece vazio de forma intencional; a página distingue os resultados das provas da classificação do campeonato.
+- Nenhuma imagem foi adicionada ou alterada nesta atualização.
+
 ## Eventos
 
 - [Capital Moto Week](https://www.capitalmotoweek.com.br/).
