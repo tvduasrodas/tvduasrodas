@@ -175,6 +175,7 @@ def main() -> int:
         "queue": queue,
     }
     if args.json:
+        report["queue"] = queue[: max(args.limit, 0)]
         print(json.dumps(report, ensure_ascii=False, indent=2))
         return 0
 

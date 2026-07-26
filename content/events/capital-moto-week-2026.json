@@ -1,4 +1,82 @@
 {
-  "ad_category":"motos",
-  "title":"Capital Moto Week 2026","start_date":"2026-07-23","end_date":"2026-08-01","city":"Brasília","state":"DF","venue":"Parque Granja do Torto","status":"em_andamento","event_type":"Festival de motociclismo e música","official_url":"https://www.capitalmotoweek.com.br/","ticket_url":"https://www.capitalmotoweek.com.br/","press_url":"https://www.capitalmotoweek.com.br/news","cover":"/assets/img/competicoes-eventos-default.svg","image_credit":"Arte: TVDUASRODAS","featured":true,"free":false,"summary":"Festival em andamento: a Cidade da Moto abriu em 23 de julho e segue com shows, motociclismo e experiências até 1º de agosto, em Brasília.","attractions":["BMW F 900 GS Pro São Paulo Yellow — estreia pública","Nazareth","Masters of Voices","Velvet Chains","Di Ferrero","Eagle-Eye Cherry","Supla","Matanza Ritual","Raimundos","Marcelo Falcão","Tihuana","Barão Vermelho — formação original","Tirolesa e bungee jump","Roda-gigante e palcos temáticos"],"videos":[],"coverage":{"first_day":{"date":"2026-07-23","due_on":"2026-07-24","status":"publicado","article_url":"/materia?slug=capital-moto-week-2026-primeiro-dia-abertura","published_at":"2026-07-24T13:31:00-04:00"},"final_day":{"date":"2026-08-01","due_on":"2026-08-02","status":"agendado"}},"body":"## Situação atual\n\nO Capital Moto Week está em andamento. A Cidade da Moto abriu os portões em 23 de julho; a cobertura do primeiro dia está disponível na Revista da TVDUASRODAS. O balanço completo será publicado no dia seguinte ao encerramento.\n\n## Serviço\n\nO evento segue até 1º de agosto de 2026 no Parque Granja do Torto, em Brasília. O festival reúne shows, atrações radicais, gastronomia, expositores e experiências ligadas ao motociclismo. A BMW Motorrad confirmou a apresentação pública da F 900 GS Pro São Paulo Yellow durante o evento. Consulte os canais oficiais para horários, classificação etária, ingressos e eventuais alterações de programação.","last_updated":"2026-07-24T13:31:00-04:00"
+  "ad_category": "motos",
+  "title": "Capital Moto Week 2026",
+  "start_date": "2026-07-23",
+  "end_date": "2026-08-01",
+  "city": "Brasília",
+  "state": "DF",
+  "venue": "Parque Granja do Torto",
+  "status": "em_andamento",
+  "event_type": "Festival de motociclismo e música",
+  "official_url": "https://www.capitalmotoweek.com.br/",
+  "ticket_url": "https://www.capitalmotoweek.com.br/",
+  "press_url": "https://www.capitalmotoweek.com.br/news",
+  "cover": "/assets/img/competicoes-eventos-default.svg",
+  "image_credit": "Arte: TVDUASRODAS",
+  "featured": true,
+  "free": false,
+  "summary": "Festival em andamento: a Cidade da Moto abriu em 23 de julho e segue com shows, motociclismo e experiências até 1º de agosto, em Brasília.",
+  "attractions": [
+    "BMW F 900 GS Pro São Paulo Yellow — estreia pública",
+    "Nazareth",
+    "Masters of Voices",
+    "Velvet Chains",
+    "Di Ferrero",
+    "Eagle-Eye Cherry",
+    "Supla",
+    "Matanza Ritual",
+    "Raimundos",
+    "Marcelo Falcão",
+    "Tihuana",
+    "Barão Vermelho — formação original",
+    "Tirolesa e bungee jump",
+    "Roda-gigante e palcos temáticos"
+  ],
+  "videos": [],
+  "coverage": {
+    "first_day": {
+      "date": "2026-07-23",
+      "due_on": "2026-07-24",
+      "status": "publicado",
+      "article_url": "/materia?slug=capital-moto-week-2026-primeiro-dia-abertura",
+      "published_at": "2026-07-24T13:31:00-04:00"
+    },
+    "final_day": {
+      "date": "2026-08-01",
+      "due_on": "2026-08-02",
+      "status": "agendado"
+    }
+  },
+  "body": "## Situação atual\n\nO Capital Moto Week está em andamento no Parque de Exposições Granja do Torto, em Brasília. A abertura do primeiro dia ocorreu às 17h; de segunda a sexta, os portões abrem ao meio-dia, e aos sábados e no domingo, às 9h. Os shows do Palco Principal começam após as 18h.\n\n## Acesso\n\nA venda oficial é feita pela Bilheteria Digital. Piloto sem garupa não paga, sujeito à lotação. Moto com garupa entra gratuitamente de segunda a sexta até 18h e aos sábados e domingos até 15h, também sujeita à lotação. Crianças de até 12 anos e pessoas com deficiência têm regras próprias de gratuidade; menores de 16 anos devem estar acompanhados por responsável legal.\n\n## Estrutura\n\nO complexo reúne mais de 100 shows, cinco palcos, praças de alimentação, área comercial, atrações radicais, roda-gigante, camping e espaço para motorhomes. Há banheiros, chuveiros, fraldário e áreas acessíveis para pessoas com deficiência.\n\n## Estacionamento\n\nO mapa oficial identifica o E2 como estacionamento público. E1, E4 e E6 atendem PCD ou veículos credenciados conforme a área. A organização recomenda conferir o mapa e as condições do dia antes do deslocamento.",
+  "last_updated": "2026-07-26T01:15:00-04:00",
+  "timezone": "America/Sao_Paulo",
+  "local_start": "2026-07-23T17:00:00-03:00",
+  "local_end": "2026-08-02T03:00:00-03:00",
+  "time_label": "23/7 às 17h; dias úteis às 12h; sábados e domingo às 9h",
+  "street_address": "Parque de Exposições Granja do Torto",
+  "neighborhood": "Granja do Torto",
+  "postal_code": "70636-200",
+  "full_address": "Parque de Exposições Granja do Torto, Granja do Torto, Brasília - DF, CEP 70636-200",
+  "parking": "Estacionamento público E2; áreas E1, E4 e E6 para PCD e veículos credenciados, conforme o mapa oficial",
+  "admission_status": "Ingressos pela Bilheteria Digital; piloto sem garupa tem gratuidade, sujeito à lotação; há faixas de gratuidade para moto com garupa",
+  "organizer": "Capital Moto Week",
+  "contact": "(61) 3204-3236; imprensa@capitalmotoweek.com.br",
+  "source_url": "https://www.capitalmotoweek.com.br/info",
+  "source_label": "Informações gerais e mapa oficial do Capital Moto Week",
+  "verification_status": "fonte_oficial_com_mapa_inspecionado",
+  "source_checked_at": "2026-07-26T01:15:00-04:00",
+  "status_checked_at": "2026-07-26T01:15:00-04:00",
+  "visual_verification": {
+    "type": "mapa_oficial_do_complexo",
+    "source_url": "https://www.capitalmotoweek.com.br/",
+    "checked_at": "2026-07-26T01:15:00-04:00",
+    "confirmed_fields": [
+      "venue",
+      "parking_areas",
+      "camping",
+      "food_courts",
+      "attractions",
+      "lineup"
+    ]
+  }
 }

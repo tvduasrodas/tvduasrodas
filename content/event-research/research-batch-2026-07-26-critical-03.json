@@ -1,0 +1,56 @@
+{
+  "batch_id": "2026-07-26-prioridade-critica-03",
+  "checked_at": "2026-07-26T02:05:00-04:00",
+  "updates": [
+    {
+      "target_file": "content/events/agenda-comunitaria-2026.json",
+      "slug": "falcoes-raca-liberta-mc-guarulhos-sp-2026-07-23",
+      "patch": {
+        "title": "31º Aniversário Falcões Raça Liberta MC",
+        "short_name": "Falcões Raça Liberta — 31 anos",
+        "timezone": "America/Sao_Paulo",
+        "local_start": "2026-07-23T12:00:00-03:00",
+        "local_end": "2026-07-26T00:00:00-03:00",
+        "time_label": "A partir das 12h de 23 de julho; programação até 26 de julho",
+        "city": "Guarulhos",
+        "venue": "Espaço Inter — antiga Philips",
+        "street_address": "Rodovia Presidente Dutra, km 225, pista lateral, sentido Rio de Janeiro",
+        "full_address": "Espaço Inter, Rodovia Presidente Dutra, km 225, pista lateral, sentido Rio de Janeiro, Guarulhos - SP",
+        "status": "concluida",
+        "status_basis": "A página de divulgação registra término à 0h de 26 de julho; sem balanço final localizado.",
+        "status_checked_at": "2026-07-26T02:05:00-04:00",
+        "organizer": "Falcões Raça Liberta Moto Clube",
+        "official_url": "https://jacaremoto.com.br/events/31o-aniversario-falcoes-raca-liberta-guarulhos-sp/",
+        "source_url": "https://radio4tempos.radio.br/evento/322193/31-aniversario-dos-falcoes-raca-liberta-mc-guarulhossp",
+        "source_label": "Flyer da Rádio 4 Tempos e serviço do Jacaremoto",
+        "verification_status": "flyer_inspecionado_visual_e_servico_confirmado",
+        "source_checked_at": "2026-07-26T02:05:00-04:00",
+        "visual_verification": {
+          "type": "flyer",
+          "source_url": "https://platform-upload.cdn-brlogic.com/245346/event/435a5af75fcba0cb8dc003897885ecad.png",
+          "checked_at": "2026-07-26T02:05:00-04:00",
+          "confirmed_fields": ["edition", "event_name", "dates", "organizer_logo"]
+        },
+        "admission_status": "Não informado no flyer nem nas páginas consultadas",
+        "parking": "Não informado no flyer nem nas páginas consultadas",
+        "summary": "Celebração de 31 anos do Falcões Raça Liberta em Guarulhos, de 23 a 26 de julho, com dois palcos simultâneos e mais de 20 bandas.",
+        "attractions": [
+          "Mais de 20 bandas",
+          "Dois palcos simultâneos",
+          "Encontro de motos e cultura biker"
+        ],
+        "body": "## Serviço completo\n\nO 31º Aniversário do Falcões Raça Liberta MC foi anunciado para 23 a 26 de julho de 2026 no Espaço Inter, antiga Philips, na Rodovia Presidente Dutra, km 225, pista lateral, sentido Rio de Janeiro, em Guarulhos.\n\n## Programação\n\nA divulgação informa dois palcos simultâneos e mais de 20 bandas ao longo dos quatro dias. A página da Rádio 4 Tempos registra início às 12h de 23 de julho e término à meia-noite do dia 26.\n\n## Verificação visual\n\nO flyer foi inspecionado e confirma a 31ª edição, o nome Falcões Raça Liberta e o período de 23 a 26 de julho. O endereço foi confirmado na página de serviço do Jacaremoto.\n\n## Acesso e estacionamento\n\nO material disponível não informa ingresso, gratuidade, estacionamento, camping ou regras de acesso. Esses dados não foram presumidos.",
+        "last_updated": "2026-07-26T02:05:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/agenda-comunitaria-2026.json",
+      "slug": "falcoes-mc-guarulhos-sp-2026-07-23",
+      "patch": {
+        "duplicate_of": "falcoes-raca-liberta-mc-guarulhos-sp-2026-07-23",
+        "verification_status": "nome_abreviado_incorporado_ao_evento_canonico",
+        "last_updated": "2026-07-26T02:05:00-04:00"
+      }
+    }
+  ]
+}

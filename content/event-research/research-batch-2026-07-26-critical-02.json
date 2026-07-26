@@ -1,0 +1,186 @@
+{
+  "batch_id": "2026-07-26-prioridade-critica-02",
+  "checked_at": "2026-07-26T01:45:00-04:00",
+  "updates": [
+    {
+      "target_file": "content/events/agenda-comunitaria-2026.json",
+      "slug": "motofest-angra-dos-reis-rj-2026-07-23",
+      "patch": {
+        "title": "28º Angra MotoFest",
+        "short_name": "Angra MotoFest",
+        "timezone": "America/Sao_Paulo",
+        "local_start": "2026-07-23T20:00:00-03:00",
+        "local_end": "2026-07-26T22:00:00-03:00",
+        "time_label": "Quinta e sexta a partir das 20h; sábado e domingo a partir das 10h",
+        "city": "Angra dos Reis",
+        "venue": "Praia do Anil",
+        "street_address": "Praia do Anil",
+        "neighborhood": "Centro",
+        "full_address": "Praia do Anil, Centro, Angra dos Reis - RJ",
+        "status": "em_andamento",
+        "status_basis": "Programação oficial confirmada até a noite de 26 de julho.",
+        "status_checked_at": "2026-07-26T01:45:00-04:00",
+        "organizer": "Prefeitura de Angra dos Reis, Secretaria de Cultura e Patrimônio e Moto Clube Piratas de Angra",
+        "official_url": "https://angra.rj.gov.br/noticias/14-07-2026/angra-motofest-tera-show-da-banda-malta-e-manobras-radicais",
+        "source_url": "https://angra.rj.gov.br/noticias/14-07-2026/angra-motofest-tera-show-da-banda-malta-e-manobras-radicais",
+        "source_label": "Programação oficial da Prefeitura de Angra dos Reis",
+        "verification_status": "fonte_oficial_com_arte_inspecionada",
+        "source_checked_at": "2026-07-26T01:45:00-04:00",
+        "visual_verification": {
+          "type": "pagina_oficial_e_arte_de_divulgacao",
+          "source_url": "https://angra.rj.gov.br/noticias/14-07-2026/angra-motofest-tera-show-da-banda-malta-e-manobras-radicais",
+          "checked_at": "2026-07-26T01:45:00-04:00",
+          "confirmed_fields": ["dates", "venue", "lineup", "show_times", "camping", "food", "exhibitors"]
+        },
+        "admission_status": "Não informado na comunicação oficial consultada",
+        "parking": "Não informado na comunicação oficial consultada",
+        "summary": "Um dos maiores encontros de motociclistas do Rio acontece de 23 a 26 de julho na Praia do Anil, com Malta, outras 11 atrações, wheeling, feira, alimentação e acolhimento a motociclistas.",
+        "attractions": [
+          "Banda Malta",
+          "Panorama",
+          "Edu Gomes",
+          "Interceptor V8",
+          "MotoRoad Band",
+          "Opus Dört",
+          "Bloody Mary",
+          "Faixa Etária",
+          "Segredo de Estado",
+          "Banda Iris",
+          "Corredor X",
+          "Galera do Vinil",
+          "Wheeling com Adrenalina Moto Show",
+          "Praça de alimentação e estandes",
+          "Camping coberto para motociclistas"
+        ],
+        "body": "## Serviço completo\n\nO 28º Angra MotoFest acontece de 23 a 26 de julho de 2026 na Praia do Anil, em Angra dos Reis. A Prefeitura classifica o encontro entre os maiores do gênero no estado.\n\n## Programação\n\nQuinta: Panorama, às 20h. Sexta: Edu Gomes, às 20h; Interceptor V8, às 22h; Malta, à meia-noite. Sábado: feira e som mecânico das 10h às 15h, MotoRoad Band, Opus Dört, wheeling, Bloody Mary, Faixa Etária e Segredo de Estado. Domingo: feira e som mecânico, Banda Iris, duas apresentações de wheeling, Corredor X e Galera do Vinil.\n\n## Estrutura\n\nA programação inclui praça de alimentação, estandes de produtos e serviços e manobras da equipe Adrenalina Moto Show. Motociclistas visitantes coletados contam com camping coberto, café da manhã e churrasco gratuito providenciados pelo Moto Clube Piratas de Angra.\n\n## Acesso e estacionamento\n\nA comunicação oficial consultada não informa cobrança de ingresso nem estacionamento. A TVDUASRODAS não presume gratuidade ou disponibilidade de vagas.",
+        "last_updated": "2026-07-26T01:45:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/agenda-comunitaria-2026.json",
+      "slug": "piratas-de-angra-mc-angra-dos-reis-rj-2026-07-23",
+      "patch": {
+        "duplicate_of": "motofest-angra-dos-reis-rj-2026-07-23",
+        "verification_status": "organizador_incorporado_ao_evento_canonico",
+        "last_updated": "2026-07-26T01:45:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/agenda-comunitaria-2026.json",
+      "slug": "caveira-s-brasil-mc-marica-rj-2026-07-23",
+      "patch": {
+        "title": "10º Maricá Moto Fest",
+        "short_name": "Maricá Moto Fest",
+        "timezone": "America/Sao_Paulo",
+        "local_start": "2026-07-23T18:00:00-03:00",
+        "local_end": "2026-07-26T23:00:00-03:00",
+        "time_label": "Quinta e sexta a partir das 18h; sábado a partir das 16h; domingo a partir das 17h",
+        "city": "Maricá",
+        "venue": "Orla de Itaipuaçu",
+        "street_address": "Avenida Benvindo Taques Horta",
+        "neighborhood": "Itaipuaçu",
+        "full_address": "Avenida Benvindo Taques Horta, orla de Itaipuaçu, trecho final em direção ao Recanto, Maricá - RJ",
+        "status": "em_andamento",
+        "status_basis": "Programação confirmada até 21h de domingo, 26 de julho.",
+        "status_checked_at": "2026-07-26T01:45:00-04:00",
+        "organizer": "Caveiras Motoclube e João Rock Produções",
+        "support": ["Prefeitura de Maricá", "Codemar", "Secretaria de Turismo, Comércio, Indústria e Mercado Interno"],
+        "official_url": "https://boletimrj.com.br/marica-moto-fest-divulga-programacao-completa-com-quatro-dias-de-rock-em-itaipuacu/",
+        "source_url": "https://boletimrj.com.br/marica-moto-fest-divulga-programacao-completa-com-quatro-dias-de-rock-em-itaipuacu/",
+        "source_label": "Programação publicada com base no calendário municipal e Diário Oficial de Maricá",
+        "verification_status": "programacao_e_arte_inspecionadas",
+        "source_checked_at": "2026-07-26T01:45:00-04:00",
+        "visual_verification": {
+          "type": "pagina_com_arte_e_programacao",
+          "source_url": "https://boletimrj.com.br/marica-moto-fest-divulga-programacao-completa-com-quatro-dias-de-rock-em-itaipuacu/",
+          "checked_at": "2026-07-26T01:45:00-04:00",
+          "confirmed_fields": ["edition", "dates", "address", "lineup", "show_times", "organizer"]
+        },
+        "admission_status": "Valor ou gratuidade não confirmados para a edição de 2026",
+        "parking": "Não informado no material consultado",
+        "summary": "Festival de quatro dias na orla de Itaipuaçu, com 13 apresentações de rock e encerramento da Blitz no domingo.",
+        "attractions": [
+          "Banda Cult",
+          "Wallas",
+          "Helena de Tróia",
+          "Drenna",
+          "Rock Sound Machine",
+          "Faixa Etária",
+          "Nostálgica",
+          "Vizinhos de Marte",
+          "Thiago Dantas",
+          "Os Imortais com Valério Araújo",
+          "Onvecna",
+          "Thunderock",
+          "Blitz",
+          "Exposição de motos, gastronomia e expositores"
+        ],
+        "body": "## Serviço completo\n\nO 10º Maricá Moto Fest acontece de 23 a 26 de julho de 2026 na Avenida Benvindo Taques Horta, na orla de Itaipuaçu, no trecho final em direção ao Recanto.\n\n## Programação\n\nQuinta: Banda Cult, Wallas e Helena de Tróia. Sexta: Drenna, Rock Sound Machine e Faixa Etária. Sábado: Nostálgica, Vizinhos de Marte, Thiago Dantas e Os Imortais com Valério Araújo. Domingo: Onvecna, Thunderock e Blitz, com encerramento previsto para começar às 21h.\n\n## Estrutura e organização\n\nAlém dos shows, a divulgação prevê encontro de motociclistas e motoclubes, exposição de motos, feira de expositores e gastronomia. A organização é atribuída ao Caveiras Motoclube e à João Rock Produções, com apoio municipal.\n\n## Acesso e estacionamento\n\nA gratuidade observada em edição anterior não foi tratada como confirmação para 2026. As fontes consultadas não informam valor de entrada nem estacionamento.",
+        "last_updated": "2026-07-26T01:45:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/agenda-comunitaria-2026.json",
+      "slug": "moto-rock-festival-de-inverno-baependi-mg-2026-07-24",
+      "patch": {
+        "title": "Moto Rock — Festival de Inverno de Baependi",
+        "short_name": "Moto Rock Baependi",
+        "timezone": "America/Sao_Paulo",
+        "local_start": "2026-07-24T20:00:00-03:00",
+        "local_end": "2026-07-25T23:59:00-03:00",
+        "time_label": "Sexta a partir das 20h; sábado a partir das 15h",
+        "city": "Baependi",
+        "venue": "Praça Monsenhor Marcos",
+        "street_address": "Praça Monsenhor Marcos",
+        "neighborhood": "Centro",
+        "full_address": "Praça Monsenhor Marcos, Centro, Baependi - MG",
+        "status": "concluida",
+        "status_basis": "A programação divulgada encerrou-se em 25 de julho; sem balanço final localizado.",
+        "status_checked_at": "2026-07-26T01:45:00-04:00",
+        "organizer": "Secretaria Municipal de Cultura e Turismo de Baependi e Prefeitura de Baependi",
+        "official_url": "https://motofestbrasil.com.br/motofest/baependi-moto-rock-festival-de-inverno",
+        "source_url": "https://motofestbrasil.com.br/motofest/baependi-moto-rock-festival-de-inverno",
+        "source_label": "Página do evento com banner, endereço e programação",
+        "verification_status": "pagina_com_banner_inspecionada",
+        "source_checked_at": "2026-07-26T01:45:00-04:00",
+        "visual_verification": {
+          "type": "banner_e_pagina_do_evento",
+          "source_url": "https://motofestbrasil.com.br/motofest/baependi-moto-rock-festival-de-inverno",
+          "checked_at": "2026-07-26T01:45:00-04:00",
+          "confirmed_fields": ["dates", "times", "venue", "lineup", "organizer"]
+        },
+        "admission_status": "Não informado no material consultado",
+        "parking": "Não informado no material consultado",
+        "summary": "Programação do Festival de Inverno na Praça Monsenhor Marcos, com seis atrações de rock em 24 e 25 de julho.",
+        "attractions": [
+          "Banda Skull Face",
+          "Appetite Brasil — cover Guns N' Roses",
+          "Banda Coyotes",
+          "DJ Mathias Ematne",
+          "Banda Honey Bomb",
+          "U2 Go Home Tribute"
+        ],
+        "body": "## Serviço completo\n\nO Moto Rock do Festival de Inverno de Baependi teve programação divulgada para 24 e 25 de julho de 2026 na Praça Monsenhor Marcos, no Centro.\n\n## Programação\n\nSexta: Banda Skull Face, às 20h, e Appetite Brasil, cover de Guns N' Roses, às 22h. Sábado: Banda Coyotes, às 15h; DJ Mathias Ematne, às 19h; Banda Honey Bomb, às 20h; U2 Go Home Tribute, às 22h.\n\n## Organização\n\nRealização da Secretaria Municipal de Cultura e Turismo e da Prefeitura de Baependi. O material consultado não informa entrada, estacionamento ou estrutura adicional.",
+        "last_updated": "2026-07-26T01:45:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/agenda-comunitaria-2026.json",
+      "slug": "moto-rock-festival-baependi-mg-2026-07-24",
+      "patch": {
+        "duplicate_of": "moto-rock-festival-de-inverno-baependi-mg-2026-07-24",
+        "verification_status": "duplicata_confirmada",
+        "last_updated": "2026-07-26T01:45:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/agenda-comunitaria-2026.json",
+      "slug": "14-encontro-nacional-de-motociclistas-sao-joao-del-rei-mg-2026-07-24",
+      "patch": {
+        "duplicate_of": "14-encontro-nacional-sao-joao-del-rei-mg-2026-07-23",
+        "verification_status": "duplicata_por_data_interna_do_mesmo_evento",
+        "last_updated": "2026-07-26T01:45:00-04:00"
+      }
+    }
+  ]
+}

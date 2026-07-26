@@ -15,8 +15,43 @@
   "featured": true,
   "free": false,
   "summary": "Nove dias de novidades, experiências e atrações de motociclismo no NEC Birmingham.",
-  "attractions": ["Novos modelos", "Experiências interativas", "Equipamentos e acessórios", "Pilotos e convidados"],
+  "attractions": [
+    "Novos modelos",
+    "Experiências interativas",
+    "Equipamentos e acessórios",
+    "Pilotos e convidados"
+  ],
   "videos": [],
-  "body": "## Motociclismo para ver e experimentar\n\nO Motorcycle Live combina exposição de marcas com atrações interativas e conteúdo para diferentes perfis de motociclistas. A grade completa, os ingressos e as regras de participação devem ser consultados no site oficial.",
-  "last_updated": "2026-07-21T15:00:00-04:00"
+  "body": "## Serviço\n\nO Motorcycle Live 2026 acontece de 21 a 29 de novembro no National Exhibition Centre, em Birmingham, Reino Unido. O evento abre diariamente das 10h às 17h.\n\n## Atrações\n\nA organização anuncia mais de 250 expositores, lançamentos de motos, tecnologia, equipamentos de segurança, áreas de pilotagem, entretenimento e a zona gratuita Learn2Ride para introdução prática ao motociclismo.\n\n## Ingressos e estacionamento\n\nOs ingressos são pagos e vendidos pelo site oficial. O NEC oferece estacionamento para carros com opção de reserva antecipada. Quem chega de moto ou scooter pode utilizar o bike park gratuito, monitorado pela segurança do NEC e sujeito à disponibilidade.",
+  "last_updated": "2026-07-26T01:15:00-04:00",
+  "timezone": "Europe/London",
+  "local_start": "2026-11-21T10:00:00+00:00",
+  "local_end": "2026-11-29T17:00:00+00:00",
+  "time_label": "Diariamente, das 10h às 17h",
+  "street_address": "National Exhibition Centre",
+  "postal_code": "B40 1NT",
+  "full_address": "National Exhibition Centre (NEC), Birmingham, B40 1NT, Reino Unido",
+  "admission_status": "Ingressos pagos; preços e modalidades disponíveis no site oficial",
+  "parking": "Estacionamento de carros com reserva antecipada; bike park gratuito para visitantes em moto ou scooter, sujeito à disponibilidade",
+  "organizer": "Motorcycle Live",
+  "contact": "enquiries@motorcyclelive.co.uk",
+  "source_url": "https://www.motorcyclelive.co.uk/information/",
+  "source_label": "Informações oficiais do Motorcycle Live 2026",
+  "verification_status": "fonte_oficial_com_mapa_inspecionado",
+  "source_checked_at": "2026-07-26T01:15:00-04:00",
+  "status_checked_at": "2026-07-26T01:15:00-04:00",
+  "visual_verification": {
+    "type": "pagina_oficial_de_servico",
+    "source_url": "https://www.motorcyclelive.co.uk/information/",
+    "checked_at": "2026-07-26T01:15:00-04:00",
+    "confirmed_fields": [
+      "dates",
+      "times",
+      "venue",
+      "postcode",
+      "parking",
+      "attractions",
+      "tickets"
+    ]
+  }
 }

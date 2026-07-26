@@ -1,0 +1,369 @@
+{
+  "batch_id": "2026-07-26-prioridade-critica-01",
+  "checked_at": "2026-07-26T01:15:00-04:00",
+  "updates": [
+    {
+      "target_file": "content/events/agenda-comunitaria-2026.json",
+      "slug": "capital-moto-week-brasilia-df-2026-07-23",
+      "patch": {
+        "duplicate_of": "capital-moto-week-2026",
+        "verification_status": "duplicata_confirmada",
+        "source_checked_at": "2026-07-26T01:15:00-04:00",
+        "last_updated": "2026-07-26T01:15:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/agenda-comunitaria-2026.json",
+      "slug": "14-encontro-nacional-sao-joao-del-rei-mg-2026-07-23",
+      "patch": {
+        "title": "14º Encontro Nacional de Motociclistas de São João del-Rei",
+        "short_name": "14º Encontro Nacional de Motociclistas",
+        "timezone": "America/Sao_Paulo",
+        "local_start": "2026-07-23T00:00:00-03:00",
+        "local_end": "2026-07-26T23:59:00-03:00",
+        "time_label": "De 23 a 26 de julho; horários diários não divulgados na fonte consultada",
+        "city": "São João del-Rei",
+        "venue": "Avenida Presidente Tancredo Neves",
+        "street_address": "Avenida Presidente Tancredo Neves",
+        "neighborhood": "Centro Histórico",
+        "full_address": "Avenida Presidente Tancredo Neves, Centro Histórico, São João del-Rei - MG",
+        "status": "em_andamento",
+        "status_basis": "Evento anunciado de 23 a 26 de julho de 2026; sem aviso de cancelamento localizado.",
+        "status_checked_at": "2026-07-26T01:15:00-04:00",
+        "organizer": "AMEM-SJDR e Anderson Preto",
+        "contact": "Anderson Preto: (32) 99905-4227; Cláudia: (32) 99987-8002",
+        "contact_url": "https://www.instagram.com/amem_sjdr/",
+        "official_url": "https://www.instagram.com/amem_sjdr/",
+        "source_url": "https://jacaremoto.com.br/events/14o-encontro-nacional-de-motociclistas-de-sao-joao-del-rei-mg/",
+        "source_label": "Página do evento no Jacaremoto, com flyer e serviço",
+        "verification_status": "pagina_com_flyer_inspecionada",
+        "source_checked_at": "2026-07-26T01:15:00-04:00",
+        "visual_verification": {
+          "type": "flyer_e_pagina_do_evento",
+          "source_url": "https://jacaremoto.com.br/events/14o-encontro-nacional-de-motociclistas-de-sao-joao-del-rei-mg/",
+          "checked_at": "2026-07-26T01:15:00-04:00",
+          "confirmed_fields": ["dates", "address", "organizer", "admission", "camping", "music"]
+        },
+        "free": true,
+        "admission_status": "Entrada franca",
+        "parking": "Não informado no material consultado",
+        "summary": "Encontro nacional no Centro Histórico de São João del-Rei, de 23 a 26 de julho, com entrada franca, 11 bandas, camping, alimentação e expositores.",
+        "attractions": [
+          "11 bandas confirmadas",
+          "Sete Galo",
+          "Velotrol",
+          "Lurex Queen",
+          "These Days",
+          "Área de camping com chuveiro quente",
+          "Área de alimentação e expositores",
+          "Troféus para motoclubes e motogrupos"
+        ],
+        "body": "## Serviço completo\n\nO 14º Encontro Nacional de Motociclistas de São João del-Rei foi anunciado para 23 a 26 de julho de 2026, na Avenida Presidente Tancredo Neves, no Centro Histórico. A entrada é franca.\n\n## Estrutura e atrações\n\nA divulgação informa 11 bandas, incluindo Sete Galo, Velotrol, Lurex Queen e These Days, além de área de camping com chuveiro quente, alimentação, expositores e troféus para motoclubes e motogrupos.\n\n## Organização e contato\n\nRealização de AMEM-SJDR e Anderson Preto. Contatos divulgados: Anderson Preto, (32) 99905-4227; Cláudia, (32) 99987-8002.\n\n## Estacionamento e horários\n\nO material consultado não detalha horários diários nem estacionamento. Esses campos permanecem explicitamente como não informados.",
+        "last_updated": "2026-07-26T01:15:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/agenda-comunitaria-2026.json",
+      "slug": "14-encontro-nacional-de-motociclistas-sao-joao-del-rei-mg-2026-07-23",
+      "patch": {
+        "duplicate_of": "14-encontro-nacional-sao-joao-del-rei-mg-2026-07-23",
+        "verification_status": "duplicata_confirmada",
+        "last_updated": "2026-07-26T01:15:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/agenda-comunitaria-2026.json",
+      "slug": "amem-sjdr-sao-joao-del-rei-mg-2026-07-23",
+      "patch": {
+        "duplicate_of": "14-encontro-nacional-sao-joao-del-rei-mg-2026-07-23",
+        "verification_status": "organizador_incorporado_ao_evento_canonico",
+        "last_updated": "2026-07-26T01:15:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/agenda-comunitaria-2026.json",
+      "slug": "4-encontro-nacional-de-motociclistas-ouro-preto-mg-2026-07-24",
+      "patch": {
+        "title": "4º Encontro Nacional de Motociclistas de Ouro Preto",
+        "short_name": "4º Encontro Nacional de Motociclistas",
+        "timezone": "America/Sao_Paulo",
+        "local_start": "2026-07-24T17:00:00-03:00",
+        "local_end": "2026-07-26T17:00:00-03:00",
+        "time_label": "Sexta a partir das 17h; sábado a partir das 10h; domingo a partir das 8h",
+        "city": "Ouro Preto",
+        "venue": "Autoparque da Bauxita",
+        "street_address": "Rua dos Eucaliptos",
+        "neighborhood": "Bauxita",
+        "full_address": "Autoparque da Bauxita, Rua dos Eucaliptos, Bauxita, Ouro Preto - MG",
+        "status": "em_andamento",
+        "status_basis": "Programação confirmada para 24 a 26 de julho; encerramento previsto às 17h de domingo.",
+        "status_checked_at": "2026-07-26T01:15:00-04:00",
+        "organizer": "ARONG e comissão de 13 motoclubes e motogrupos da região",
+        "support": ["Prefeitura de Ouro Preto", "Secretaria Municipal de Cultura e Turismo"],
+        "official_url": "https://www.ouropreto.mg.gov.br/transparencia/diario-publicacoes/3977",
+        "source_url": "https://www.itatiaia.com.br/ouropreto/encontro-nacional-de-motociclistas-reune-shows-e-atividades-em-ouro-preto/",
+        "source_label": "Serviço e programação divulgados pela Itatiaia; apoio confirmado no Diário Oficial de Ouro Preto",
+        "verification_status": "fontes_oficiais_e_programacao_inspecionadas",
+        "source_checked_at": "2026-07-26T01:15:00-04:00",
+        "visual_verification": {
+          "type": "arte_de_divulgacao_e_pagina_de_servico",
+          "source_url": "https://www.itatiaia.com.br/ouropreto/encontro-nacional-de-motociclistas-reune-shows-e-atividades-em-ouro-preto/",
+          "checked_at": "2026-07-26T01:15:00-04:00",
+          "confirmed_fields": ["dates", "times", "venue", "lineup", "camping", "parking_rules"]
+        },
+        "admission_status": "Não informado no material consultado",
+        "parking": "Estacionamento interno exclusivo para motocicletas, triciclos e veículos similares",
+        "summary": "Evento no Autoparque da Bauxita, de 24 a 26 de julho, com shows, bênção aos motociclistas, camping coberto, alimentação e expositores.",
+        "attractions": [
+          "Haro Rock",
+          "Os Traias",
+          "Maurinho Trio",
+          "Tutu Marambah",
+          "Alpha Machines",
+          "Velotrol",
+          "Legião II",
+          "Rock Rotom",
+          "Mustang",
+          "Sabbra Cadabra",
+          "Bênção aos motociclistas",
+          "Camping coberto com café da manhã",
+          "Praça de alimentação e expositores"
+        ],
+        "body": "## Serviço completo\n\nO 4º Encontro Nacional de Motociclistas de Ouro Preto acontece de 24 a 26 de julho de 2026 no Autoparque da Bauxita, na Rua dos Eucaliptos. A abertura foi marcada para 17h de sexta-feira; no sábado, as atividades começam às 10h; no domingo, a bênção está prevista para 8h e o encerramento para 17h.\n\n## Programação\n\nSexta: Haro Rock, às 19h, e Os Traias, às 21h. Sábado: Maurinho Trio, Tutu Marambah, Alpha Machines, Velotrol, Legião II e Rock Rotom. Domingo: bênção aos motociclistas, Mustang e Sabbra Cadabra.\n\n## Estrutura e regras\n\nHá camping coberto, com funcionamento de sexta às 19h até domingo ao meio-dia e café da manhã para campistas. A divulgação também informa praça de alimentação, expositores, arrecadação de alimentos e troféus. Não é permitida a entrada de coolers nem garrafas de vidro. O estacionamento interno é reservado a motos, triciclos e similares.\n\n## Organização\n\nA Prefeitura de Ouro Preto confirmou apoio ao evento e parceria com a ARONG, entidade que representa a comissão organizadora formada por 13 motoclubes e motogrupos. O valor de entrada não foi localizado nas fontes consultadas.",
+        "last_updated": "2026-07-26T01:15:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/agenda-comunitaria-2026.json",
+      "slug": "4-encotnro-nacional-de-motociclistas-ouro-preto-mg-2026-07-24",
+      "patch": {
+        "duplicate_of": "4-encontro-nacional-de-motociclistas-ouro-preto-mg-2026-07-24",
+        "verification_status": "duplicata_com_erro_de_digitacao",
+        "last_updated": "2026-07-26T01:15:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/agenda-comunitaria-2026.json",
+      "slug": "divina-motofest-divinopolis-mg-2026-07-24",
+      "patch": {
+        "title": "4º Divina MotoFest",
+        "short_name": "Divina MotoFest",
+        "timezone": "America/Sao_Paulo",
+        "local_start": "2026-07-24T19:00:00-03:00",
+        "local_end": "2026-07-25T23:00:00-03:00",
+        "time_label": "Sexta a partir das 19h; sábado a partir das 13h",
+        "city": "Divinópolis",
+        "venue": "Praça da Bíblia",
+        "street_address": "Avenida Paraná",
+        "neighborhood": "São José",
+        "full_address": "Praça da Bíblia, Avenida Paraná, bairro São José, Divinópolis - MG",
+        "status": "concluida",
+        "status_basis": "Programação oficial encerrada em 25 de julho; sem balanço final localizado até a verificação.",
+        "status_checked_at": "2026-07-26T01:15:00-04:00",
+        "organizer": "Prefeitura de Divinópolis e Secretaria Municipal de Cultura",
+        "support": ["União dos Motoclubes de Divinópolis", "Polícia Militar", "Equipes de segurança privada"],
+        "contact": "Braga: (37) 99198-2245; Éder: (37) 99987-6424",
+        "contact_url": "https://www.instagram.com/dm_divinamotofest/",
+        "official_url": "https://www.divinopolis.mg.gov.br/portal/noticias/0/3/28487/divina-moto-fest-comeca-hoje-com-grandes-shows-estrutura-completa-e-seguranca-reforcada",
+        "source_url": "https://www.divinopolis.mg.gov.br/portal/noticias/0/3/28487/divina-moto-fest-comeca-hoje-com-grandes-shows-estrutura-completa-e-seguranca-reforcada",
+        "source_label": "Serviço e programação oficiais da Prefeitura de Divinópolis",
+        "verification_status": "fonte_oficial_com_arte_inspecionada",
+        "source_checked_at": "2026-07-26T01:15:00-04:00",
+        "visual_verification": {
+          "type": "pagina_oficial_e_arte_de_divulgacao",
+          "source_url": "https://www.divinopolis.mg.gov.br/portal/noticias/0/3/28487/divina-moto-fest-comeca-hoje-com-grandes-shows-estrutura-completa-e-seguranca-reforcada",
+          "checked_at": "2026-07-26T01:15:00-04:00",
+          "confirmed_fields": ["dates", "times", "venue", "lineup", "security", "access_rules"]
+        },
+        "free": true,
+        "admission_status": "Entrada gratuita",
+        "parking": "Não informado na comunicação oficial consultada; a Avenida Paraná teve trecho interditado durante o evento",
+        "summary": "Festival gratuito realizado em 24 e 25 de julho na Praça da Bíblia, com sete shows, alimentação, expositores, segurança reforçada e estrutura sanitária.",
+        "attractions": [
+          "Banda Akira",
+          "Dias de Truta",
+          "Sávio Calegari",
+          "Prisma Tela",
+          "O Salto",
+          "Chula Rock Band",
+          "Tianastácia",
+          "Praça de alimentação e expositores",
+          "40 banheiros químicos"
+        ],
+        "body": "## Serviço completo\n\nO 4º Divina MotoFest foi realizado em 24 e 25 de julho de 2026 na Praça da Bíblia, na Avenida Paraná, bairro São José, em Divinópolis. A entrada foi gratuita.\n\n## Programação\n\nNa sexta-feira, Banda Akira às 19h e Dias de Truta às 21h. No sábado, a programação começou às 13h com Sávio Calegari, seguida por Prisma Tela, O Salto, Chula Rock Band e Tianastácia, às 21h.\n\n## Estrutura e segurança\n\nA Prefeitura informou atuação da Polícia Militar e segurança privada, 40 banheiros químicos, alimentação e expositores. Garrafas de vidro, objetos perfurantes e equipamentos de som foram proibidos. Coolers e caixas térmicas foram permitidos quando as bebidas estivessem em latas ou garrafas plásticas.\n\n## Trânsito e estacionamento\n\nO trecho da Avenida Paraná entre a Rua Candeias e a Rua Guapé permaneceu interditado para montagem e desmontagem. A comunicação oficial não detalhou estacionamento para o público.",
+        "last_updated": "2026-07-26T01:15:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/agenda-comunitaria-2026.json",
+      "slug": "4-motofest-divinopolis-mg-2026-07-24",
+      "patch": {
+        "duplicate_of": "divina-motofest-divinopolis-mg-2026-07-24",
+        "verification_status": "duplicata_confirmada",
+        "last_updated": "2026-07-26T01:15:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/agenda-comunitaria-2026.json",
+      "slug": "13-fest-moto-rock-baixo-guandu-es-2026-07-24",
+      "patch": {
+        "title": "13º Fest Moto Rock de Baixo Guandu — cancelado",
+        "short_name": "13º Fest Moto Rock",
+        "timezone": "America/Sao_Paulo",
+        "time_label": "Evento cancelado; não houve horário de realização",
+        "city": "Baixo Guandu",
+        "venue": "Baixo Guandu",
+        "street_address": "Endereço não aplicável após o cancelamento",
+        "full_address": "Baixo Guandu - ES; evento cancelado",
+        "status": "cancelada",
+        "status_basis": "A organização anunciou o cancelamento após reunião com a administração pública.",
+        "status_checked_at": "2026-07-26T01:15:00-04:00",
+        "organizer": "União dos Motociclistas de Baixo Guandu",
+        "contact": "(27) 99614-2971",
+        "official_url": "https://mototour.com.br/cancelado-13-fest-moto-rock",
+        "source_url": "https://mototour.com.br/cancelado-13-fest-moto-rock",
+        "source_label": "Comunicado de cancelamento no Mototour",
+        "verification_status": "cancelamento_confirmado",
+        "source_checked_at": "2026-07-26T01:15:00-04:00",
+        "visual_verification": {
+          "type": "comunicado_de_cancelamento",
+          "source_url": "https://mototour.com.br/cancelado-13-fest-moto-rock",
+          "checked_at": "2026-07-26T01:15:00-04:00",
+          "confirmed_fields": ["event_name", "dates", "cancellation", "organizer", "contact"]
+        },
+        "free": true,
+        "admission_status": "Não haveria cobrança de ingressos; evento cancelado",
+        "parking": "Não aplicável: evento cancelado",
+        "summary": "A 13ª edição, prevista para 24 e 25 de julho em Baixo Guandu, foi cancelada pela organização após reunião com a administração pública.",
+        "attractions": ["Evento cancelado"],
+        "body": "## Evento cancelado\n\nA União dos Motociclistas de Baixo Guandu comunicou o cancelamento do 13º Fest Moto Rock, que estava previsto para 24 e 25 de julho de 2026.\n\n## Motivo informado\n\nSegundo o comunicado publicado no Mototour, a decisão foi tomada pelos motoclubes idealizadores e organizadores após uma reunião com a administração pública. Não houve cobrança de ingressos. Contato divulgado pela organização: (27) 99614-2971.",
+        "last_updated": "2026-07-26T01:15:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/capital-moto-week-2026.json",
+      "slug": null,
+      "patch": {
+        "timezone": "America/Sao_Paulo",
+        "local_start": "2026-07-23T17:00:00-03:00",
+        "local_end": "2026-08-02T03:00:00-03:00",
+        "time_label": "23/7 às 17h; dias úteis às 12h; sábados e domingo às 9h",
+        "street_address": "Parque de Exposições Granja do Torto",
+        "neighborhood": "Granja do Torto",
+        "postal_code": "70636-200",
+        "full_address": "Parque de Exposições Granja do Torto, Granja do Torto, Brasília - DF, CEP 70636-200",
+        "parking": "Estacionamento público E2; áreas E1, E4 e E6 para PCD e veículos credenciados, conforme o mapa oficial",
+        "admission_status": "Ingressos pela Bilheteria Digital; piloto sem garupa tem gratuidade, sujeito à lotação; há faixas de gratuidade para moto com garupa",
+        "organizer": "Capital Moto Week",
+        "contact": "(61) 3204-3236; imprensa@capitalmotoweek.com.br",
+        "source_url": "https://www.capitalmotoweek.com.br/info",
+        "source_label": "Informações gerais e mapa oficial do Capital Moto Week",
+        "verification_status": "fonte_oficial_com_mapa_inspecionado",
+        "source_checked_at": "2026-07-26T01:15:00-04:00",
+        "status_checked_at": "2026-07-26T01:15:00-04:00",
+        "visual_verification": {
+          "type": "mapa_oficial_do_complexo",
+          "source_url": "https://www.capitalmotoweek.com.br/",
+          "checked_at": "2026-07-26T01:15:00-04:00",
+          "confirmed_fields": ["venue", "parking_areas", "camping", "food_courts", "attractions", "lineup"]
+        },
+        "body": "## Situação atual\n\nO Capital Moto Week está em andamento no Parque de Exposições Granja do Torto, em Brasília. A abertura do primeiro dia ocorreu às 17h; de segunda a sexta, os portões abrem ao meio-dia, e aos sábados e no domingo, às 9h. Os shows do Palco Principal começam após as 18h.\n\n## Acesso\n\nA venda oficial é feita pela Bilheteria Digital. Piloto sem garupa não paga, sujeito à lotação. Moto com garupa entra gratuitamente de segunda a sexta até 18h e aos sábados e domingos até 15h, também sujeita à lotação. Crianças de até 12 anos e pessoas com deficiência têm regras próprias de gratuidade; menores de 16 anos devem estar acompanhados por responsável legal.\n\n## Estrutura\n\nO complexo reúne mais de 100 shows, cinco palcos, praças de alimentação, área comercial, atrações radicais, roda-gigante, camping e espaço para motorhomes. Há banheiros, chuveiros, fraldário e áreas acessíveis para pessoas com deficiência.\n\n## Estacionamento\n\nO mapa oficial identifica o E2 como estacionamento público. E1, E4 e E6 atendem PCD ou veículos credenciados conforme a área. A organização recomenda conferir o mapa e as condições do dia antes do deslocamento.",
+        "last_updated": "2026-07-26T01:15:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/shimano-fest-2026.json",
+      "slug": null,
+      "patch": {
+        "timezone": "America/Sao_Paulo",
+        "local_start": "2026-08-20T09:00:00-03:00",
+        "local_end": "2026-08-23T17:00:00-03:00",
+        "time_label": "20 a 22/8, das 9h às 20h; 23/8, das 9h às 17h",
+        "street_address": "Avenida Auro Soares de Moura Andrade, 664",
+        "neighborhood": "Barra Funda",
+        "postal_code": "01156-001",
+        "full_address": "Memorial da América Latina, Avenida Auro Soares de Moura Andrade, 664, Barra Funda, São Paulo - SP, CEP 01156-001; entrada pelo Portão 13",
+        "admission_status": "Inscrição gratuita; 20 e 21/8 exclusivos para profissionais com CNPJ do setor, 22 e 23/8 abertos ao público",
+        "parking": "Estacionamento existente no complexo; preço e regras específicos do evento ainda não divulgados",
+        "organizer": "Shimano Latin America",
+        "contact": "contato@shimanofest.com.br",
+        "source_url": "https://shimanofest.com.br/index.php/o-evento/informacoes-2/",
+        "source_label": "Página oficial de informações do Shimano Fest 2026",
+        "verification_status": "fonte_oficial_com_arte_inspecionada",
+        "source_checked_at": "2026-07-26T01:15:00-04:00",
+        "status_checked_at": "2026-07-26T01:15:00-04:00",
+        "visual_verification": {
+          "type": "pagina_oficial_com_mapa_e_arte",
+          "source_url": "https://shimanofest.com.br/index.php/o-evento/informacoes-2/",
+          "checked_at": "2026-07-26T01:15:00-04:00",
+          "confirmed_fields": ["dates", "times", "address", "entrance_gate", "access_rules", "attractions"]
+        },
+        "body": "## Datas e públicos\n\nO Shimano Fest 2026 acontece de 20 a 23 de agosto no Memorial da América Latina. Os dias 20 e 21, das 9h às 20h, são exclusivos para profissionais do mercado, com credenciamento e vínculo a CNPJ ativo do setor. O Festival da Bike abre ao público em 22 de agosto, das 9h às 20h, e 23 de agosto, das 9h às 17h, mediante inscrição gratuita.\n\n## Endereço e entrada\n\nMemorial da América Latina, Avenida Auro Soares de Moura Andrade, 664, Barra Funda, São Paulo. A entrada informada pela organização é exclusivamente pelo Portão 13.\n\n## Programação\n\nA estrutura anunciada inclui Arena Kids, Auditório Diversidade, test ride, Short Track, Arena Radical, Palco Show, Pedal Santuu e Shimano, Desafio Mecânico, estúdio e praça de alimentação.\n\n## Estacionamento\n\nO complexo possui estacionamento, mas preço, acesso e funcionamento específicos durante o Shimano Fest ainda não foram divulgados pela organização.",
+        "last_updated": "2026-07-26T01:15:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/festival-moto-brasil-2026.json",
+      "slug": null,
+      "patch": {
+        "start_date": "2026-10-16",
+        "end_date": "2026-10-18",
+        "timezone": "America/Sao_Paulo",
+        "time_label": "Horários de visitação ainda não divulgados pela organização",
+        "venue": "Riocentro — Pavilhão 2",
+        "street_address": "Avenida Salvador Allende, 6555",
+        "neighborhood": "Barra Olímpica",
+        "postal_code": "22783-127",
+        "full_address": "Riocentro, Pavilhão 2, Avenida Salvador Allende, 6555, Barra Olímpica, Rio de Janeiro - RJ, CEP 22783-127",
+        "admission_status": "Ingressos e regras de acesso ainda não divulgados pela organização",
+        "parking": "Riocentro possui estacionamento com mais de 5.800 vagas; tarifas podem mudar em eventos de grande porte",
+        "organizer": "Rioplan e Agência BTT",
+        "contact_url": "https://www.fmotobrasil.com.br/",
+        "source_url": "https://www.fmotobrasil.com.br/",
+        "source_label": "Site oficial do Festival Moto Brasil e agenda oficial do Riocentro",
+        "verification_status": "fontes_oficiais_com_artes_inspecionadas",
+        "source_checked_at": "2026-07-26T01:15:00-04:00",
+        "status_checked_at": "2026-07-26T01:15:00-04:00",
+        "visual_verification": {
+          "type": "sites_oficiais_do_evento_e_local",
+          "source_url": "https://riocentro.com.br/",
+          "checked_at": "2026-07-26T01:15:00-04:00",
+          "confirmed_fields": ["dates", "venue", "pavilion", "address", "parking_capacity", "event_scale"]
+        },
+        "summary": "Festival nacional de 16 a 18 de outubro no Pavilhão 2 do Riocentro, reunindo motocicletas, marcas, lançamentos, experiências e cultura custom.",
+        "body": "## Evento\n\nO Festival Moto Brasil 2026 está anunciado para 16, 17 e 18 de outubro no Rio de Janeiro. A agenda do Riocentro confirma a ocupação do Pavilhão 2; o complexo fica na Avenida Salvador Allende, 6555, Barra Olímpica.\n\n## Conteúdo previsto\n\nA organização apresenta o evento como um dos maiores encontros motociclísticos do país, com marcas, lançamentos, acessórios, experiências, entretenimento e cultura custom. A expectativa comercial divulgada é de mais de 65 mil visitantes e mais de 200 marcas parceiras.\n\n## Acesso e estacionamento\n\nHorários de visitação, ingressos e regras de acesso ainda não foram publicados. O Riocentro informa estacionamento com mais de 5.800 vagas e alerta que tarifas e condições podem mudar em eventos de grande porte.",
+        "last_updated": "2026-07-26T01:15:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/motorcycle-live-2026.json",
+      "slug": null,
+      "patch": {
+        "timezone": "Europe/London",
+        "local_start": "2026-11-21T10:00:00+00:00",
+        "local_end": "2026-11-29T17:00:00+00:00",
+        "time_label": "Diariamente, das 10h às 17h",
+        "street_address": "National Exhibition Centre",
+        "postal_code": "B40 1NT",
+        "full_address": "National Exhibition Centre (NEC), Birmingham, B40 1NT, Reino Unido",
+        "admission_status": "Ingressos pagos; preços e modalidades disponíveis no site oficial",
+        "parking": "Estacionamento de carros com reserva antecipada; bike park gratuito para visitantes em moto ou scooter, sujeito à disponibilidade",
+        "organizer": "Motorcycle Live",
+        "contact": "enquiries@motorcyclelive.co.uk",
+        "source_url": "https://www.motorcyclelive.co.uk/information/",
+        "source_label": "Informações oficiais do Motorcycle Live 2026",
+        "verification_status": "fonte_oficial_com_mapa_inspecionado",
+        "source_checked_at": "2026-07-26T01:15:00-04:00",
+        "status_checked_at": "2026-07-26T01:15:00-04:00",
+        "visual_verification": {
+          "type": "pagina_oficial_de_servico",
+          "source_url": "https://www.motorcyclelive.co.uk/information/",
+          "checked_at": "2026-07-26T01:15:00-04:00",
+          "confirmed_fields": ["dates", "times", "venue", "postcode", "parking", "attractions", "tickets"]
+        },
+        "body": "## Serviço\n\nO Motorcycle Live 2026 acontece de 21 a 29 de novembro no National Exhibition Centre, em Birmingham, Reino Unido. O evento abre diariamente das 10h às 17h.\n\n## Atrações\n\nA organização anuncia mais de 250 expositores, lançamentos de motos, tecnologia, equipamentos de segurança, áreas de pilotagem, entretenimento e a zona gratuita Learn2Ride para introdução prática ao motociclismo.\n\n## Ingressos e estacionamento\n\nOs ingressos são pagos e vendidos pelo site oficial. O NEC oferece estacionamento para carros com opção de reserva antecipada. Quem chega de moto ou scooter pode utilizar o bike park gratuito, monitorado pela segurança do NEC e sujeito à disponibilidade.",
+        "last_updated": "2026-07-26T01:15:00-04:00"
+      }
+    }
+  ]
+}

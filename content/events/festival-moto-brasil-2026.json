@@ -1,3 +1,55 @@
 {
-  "title":"Festival Moto Brasil 2026","start_date":"2026-10-16","end_date":"2026-10-18","city":"Rio de Janeiro","state":"RJ","venue":"Rio de Janeiro","status":"proximo","event_type":"Festival e salão de motocicletas","official_url":"https://www.fmotobrasil.com.br/","ticket_url":"https://www.fmotobrasil.com.br/","press_url":"https://www.fmotobrasil.com.br/","cover":"/assets/img/competicoes-eventos-default.svg","image_credit":"Arte: TVDUASRODAS","featured":false,"free":false,"summary":"Evento nacional de motocicletas com marcas, lançamentos, experiências, entretenimento e cultura custom.","attractions":["Exposição de motocicletas e acessórios","Lançamentos e experiências de marcas","Cultura custom","Atrações e entretenimento"],"videos":[],"body":"## Evento\n\nA TVDUASRODAS acompanhará a programação, as marcas confirmadas, lançamentos e informações de serviço divulgadas pela organização.","last_updated":"2026-07-20T13:00:00-04:00"
+  "title": "Festival Moto Brasil 2026",
+  "start_date": "2026-10-16",
+  "end_date": "2026-10-18",
+  "city": "Rio de Janeiro",
+  "state": "RJ",
+  "venue": "Riocentro — Pavilhão 2",
+  "status": "proximo",
+  "event_type": "Festival e salão de motocicletas",
+  "official_url": "https://www.fmotobrasil.com.br/",
+  "ticket_url": "https://www.fmotobrasil.com.br/",
+  "press_url": "https://www.fmotobrasil.com.br/",
+  "cover": "/assets/img/competicoes-eventos-default.svg",
+  "image_credit": "Arte: TVDUASRODAS",
+  "featured": false,
+  "free": false,
+  "summary": "Festival nacional de 16 a 18 de outubro no Pavilhão 2 do Riocentro, reunindo motocicletas, marcas, lançamentos, experiências e cultura custom.",
+  "attractions": [
+    "Exposição de motocicletas e acessórios",
+    "Lançamentos e experiências de marcas",
+    "Cultura custom",
+    "Atrações e entretenimento"
+  ],
+  "videos": [],
+  "body": "## Evento\n\nO Festival Moto Brasil 2026 está anunciado para 16, 17 e 18 de outubro no Rio de Janeiro. A agenda do Riocentro confirma a ocupação do Pavilhão 2; o complexo fica na Avenida Salvador Allende, 6555, Barra Olímpica.\n\n## Conteúdo previsto\n\nA organização apresenta o evento como um dos maiores encontros motociclísticos do país, com marcas, lançamentos, acessórios, experiências, entretenimento e cultura custom. A expectativa comercial divulgada é de mais de 65 mil visitantes e mais de 200 marcas parceiras.\n\n## Acesso e estacionamento\n\nHorários de visitação, ingressos e regras de acesso ainda não foram publicados. O Riocentro informa estacionamento com mais de 5.800 vagas e alerta que tarifas e condições podem mudar em eventos de grande porte.",
+  "last_updated": "2026-07-26T01:15:00-04:00",
+  "timezone": "America/Sao_Paulo",
+  "time_label": "Horários de visitação ainda não divulgados pela organização",
+  "street_address": "Avenida Salvador Allende, 6555",
+  "neighborhood": "Barra Olímpica",
+  "postal_code": "22783-127",
+  "full_address": "Riocentro, Pavilhão 2, Avenida Salvador Allende, 6555, Barra Olímpica, Rio de Janeiro - RJ, CEP 22783-127",
+  "admission_status": "Ingressos e regras de acesso ainda não divulgados pela organização",
+  "parking": "Riocentro possui estacionamento com mais de 5.800 vagas; tarifas podem mudar em eventos de grande porte",
+  "organizer": "Rioplan e Agência BTT",
+  "contact_url": "https://www.fmotobrasil.com.br/",
+  "source_url": "https://www.fmotobrasil.com.br/",
+  "source_label": "Site oficial do Festival Moto Brasil e agenda oficial do Riocentro",
+  "verification_status": "fontes_oficiais_com_artes_inspecionadas",
+  "source_checked_at": "2026-07-26T01:15:00-04:00",
+  "status_checked_at": "2026-07-26T01:15:00-04:00",
+  "visual_verification": {
+    "type": "sites_oficiais_do_evento_e_local",
+    "source_url": "https://riocentro.com.br/",
+    "checked_at": "2026-07-26T01:15:00-04:00",
+    "confirmed_fields": [
+      "dates",
+      "venue",
+      "pavilion",
+      "address",
+      "parking_capacity",
+      "event_scale"
+    ]
+  }
 }
