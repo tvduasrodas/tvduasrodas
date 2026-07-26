@@ -60,7 +60,7 @@ def main() -> int:
         },
         "videos": {
             "cassetadas", "cross", "competicoes", "eventos", "urbano", "lancamentos",
-            "testes", "dicas", "tecnologia", "viagem", "historia", "customizacao",
+            "testes", "dicas", "tecnologia", "bicicletas-bmx", "viagem", "historia", "customizacao",
             "institucional", "outros",
         },
     }

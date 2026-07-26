@@ -40,6 +40,7 @@ collections:
           - { label: "Testes e Avaliações", value: "testes" }
           - { label: "Dicas e Mecânica", value: "dicas" }
           - { label: "Tecnologia", value: "tecnologia" }
+          - { label: "Bicicletas/BMX", value: "bicicletas-bmx" }
           - { label: "Viagem e Turismo", value: "viagem" }
           - { label: "História e Cultura", value: "historia" }
           - { label: "Customização", value: "customizacao" }
