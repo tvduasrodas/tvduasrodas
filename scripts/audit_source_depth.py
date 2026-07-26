@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import argparse
 import json
 import re
 from pathlib import Path
@@ -121,6 +122,8 @@ def evaluate(kind: str, slug: str, data: dict[str, Any]) -> dict[str, Any]:
         "slug": slug,
         "title": data.get("title"),
         "date": data.get("start_date") or data.get("season"),
+        "city": data.get("city"),
+        "state": data.get("state"),
         "source_count": len(sources),
         "independent_domains": len(domains),
         "specific_independent_domains": len(specific_domains),
@@ -132,6 +135,10 @@ def evaluate(kind: str, slug: str, data: dict[str, Any]) -> dict[str, Any]:
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output", type=Path)
+    parser.add_argument("--quiet", action="store_true")
+    args = parser.parse_args()
     results = [evaluate(*row) for row in inventory()]
     canonical = [item for item in results if not item.get("duplicate_of")]
     incomplete = [item for item in canonical if not item["complete"]]
@@ -148,7 +155,13 @@ def main() -> int:
         "by_kind": by_kind,
         "queue": incomplete,
     }
-    print(json.dumps(report, ensure_ascii=False, indent=2))
+    serialized = json.dumps(report, ensure_ascii=False, indent=2)
+    if args.output:
+        output = args.output if args.output.is_absolute() else ROOT / args.output
+        output.parent.mkdir(parents=True, exist_ok=True)
+        output.write_text(serialized + "\n", encoding="utf-8")
+    if not args.quiet:
+        print(serialized)
     return 1 if incomplete else 0
 
 

@@ -1,0 +1,2570 @@
+{
+  "completed": {
+    "14-encontro-nacional-sao-joao-del-rei-mg-2026-07-23": {
+      "index": 0,
+      "sources": 3,
+      "domains": 3,
+      "checked_at": "2026-07-26T08:16:54.136762+00:00"
+    },
+    "motofest-angra-dos-reis-rj-2026-07-23": {
+      "index": 1,
+      "sources": 4,
+      "domains": 3,
+      "checked_at": "2026-07-26T08:16:54.415018+00:00"
+    },
+    "caveira-s-brasil-mc-marica-rj-2026-07-23": {
+      "index": 2,
+      "sources": 6,
+      "domains": 5,
+      "checked_at": "2026-07-26T08:16:54.692971+00:00"
+    },
+    "falcoes-raca-liberta-mc-guarulhos-sp-2026-07-23": {
+      "index": 3,
+      "sources": 4,
+      "domains": 4,
+      "checked_at": "2026-07-26T08:16:54.966551+00:00"
+    },
+    "13-fest-moto-rock-baixo-guandu-es-2026-07-24": {
+      "index": 4,
+      "sources": 5,
+      "domains": 4,
+      "checked_at": "2026-07-26T08:16:55.255999+00:00"
+    },
+    "moto-rock-festival-de-inverno-baependi-mg-2026-07-24": {
+      "index": 5,
+      "sources": 3,
+      "domains": 3,
+      "checked_at": "2026-07-26T08:16:55.544430+00:00"
+    },
+    "divina-motofest-divinopolis-mg-2026-07-24": {
+      "index": 6,
+      "sources": 5,
+      "domains": 3,
+      "checked_at": "2026-07-26T08:16:55.852605+00:00"
+    },
+    "4-encontro-nacional-de-motociclistas-ouro-preto-mg-2026-07-24": {
+      "index": 7,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:16:56.132773+00:00"
+    },
+    "cat-s-do-asfalto-mc-pesqueira-pe-2026-07-24": {
+      "index": 8,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:16:56.389466+00:00"
+    },
+    "xiii-motofest-pesqueira-pe-2026-07-24": {
+      "index": 9,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:16:56.672319+00:00"
+    },
+    "motofest-cambuci-rj-2026-07-24": {
+      "index": 10,
+      "sources": 6,
+      "domains": 4,
+      "checked_at": "2026-07-26T08:16:56.970063+00:00"
+    },
+    "mc-campos-campos-dos-goytacazes-rj-2026-07-24": {
+      "index": 0,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:12.970412+00:00"
+    },
+    "mc-campos-compos-dos-goytacazes-rj-2026-07-24": {
+      "index": 1,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:13.669562+00:00"
+    },
+    "rider-s-do-norte-mg-jaru-ro-2026-07-24": {
+      "index": 13,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:16:57.844522+00:00"
+    },
+    "piratas-de-aco-mc-100-censura-rio-claro-sp-2026-07-24": {
+      "index": 0,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:52:27.055143+00:00"
+    },
+    "4-u-m-a-aguai-sp-2026-07-24": {
+      "index": 0,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:07:25.860321+00:00"
+    },
+    "abominados-mc-braganca-paulista-sp-2026-07-24": {
+      "index": 17,
+      "sources": 5,
+      "domains": 4,
+      "checked_at": "2026-07-26T08:18:34.663028+00:00"
+    },
+    "piratas-de-aco-mc-e-100-censura-rio-claro-sp-2026-07-24": {
+      "index": 18,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:18:34.927616+00:00"
+    },
+    "rio-riders-brasil-mc-brasilia-df-2026-07-25": {
+      "index": 2,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:34:56.566458+00:00"
+    },
+    "aguias-da-liberdade-mc-conselheiro-lafaiete-mg-2026-07-25": {
+      "index": 24,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:21:04.643260+00:00"
+    },
+    "mc-aguias-de-cristo-divino-mg-2026-07-25": {
+      "index": 3,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:15.092619+00:00"
+    },
+    "2-encontro-de-motociclistas-nova-resende-mg-2026-07-25": {
+      "index": 5,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:16.554629+00:00"
+    },
+    "motorock-turmalina-mg-2026-07-25": {
+      "index": 6,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:17.015228+00:00"
+    },
+    "carcaca-mc-araruama-rj-2026-07-25": {
+      "index": 7,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:17.745566+00:00"
+    },
+    "pererecas-mc-belford-roxo-rj-2026-07-25": {
+      "index": 30,
+      "sources": 5,
+      "domains": 4,
+      "checked_at": "2026-07-26T08:21:43.381024+00:00"
+    },
+    "cavaleiros-sem-rumo-campos-dos-goytacazes-rj-2026-07-25": {
+      "index": 32,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:22:20.830448+00:00"
+    },
+    "os-aguias-da-ilha-do-governador-mc-ilha-do-governador-rj-2026-07-25": {
+      "index": 33,
+      "sources": 6,
+      "domains": 5,
+      "checked_at": "2026-07-26T08:22:21.156928+00:00"
+    },
+    "mad-ducks-mc-rio-de-janeiro-rj-2026-07-25": {
+      "index": 34,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:22:21.453728+00:00"
+    },
+    "5-moto-encontro-da-casa-rural-barrra-do-ribeiro-rs-2026-07-25": {
+      "index": 9,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:19.188265+00:00"
+    },
+    "insanos-mc-birigui-sp-2026-07-25": {
+      "index": 11,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:35:23.823641+00:00"
+    },
+    "2-biker-fest-feraz-de-vasconcelos-sp-2026-07-25": {
+      "index": 10,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:19.908352+00:00"
+    },
+    "motocafe-jales-sp-2026-07-25": {
+      "index": 11,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:20.375111+00:00"
+    },
+    "web-riders-mirassol-sp-2026-07-25": {
+      "index": 13,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:21.868372+00:00"
+    },
+    "2-bike-fest-poa-sp-2026-07-25": {
+      "index": 16,
+      "sources": 2,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:35:38.877901+00:00"
+    },
+    "fmc-sao-paulo-sp-2026-07-25": {
+      "index": 14,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:22.579407+00:00"
+    },
+    "dia-dos-motociclistas-alagoinhas-ba-2026-07-26": {
+      "index": 17,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:24.523602+00:00"
+    },
+    "festival-gorila-carmo-do-paranaiba-mg-2026-07-26": {
+      "index": 18,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:25.229511+00:00"
+    },
+    "karangos-e-motocas-mc-duque-de-caxias-mg-2026-07-26": {
+      "index": 53,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:28:01.021688+00:00"
+    },
+    "escorpioes-do-horizonte-mc-fortuna-de-minas-mg-2026-07-26": {
+      "index": 54,
+      "sources": 4,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:28:01.329656+00:00"
+    },
+    "insanos-mc-patos-de-minas-mg-2026-07-26": {
+      "index": 22,
+      "sources": 4,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:36:35.335231+00:00"
+    },
+    "pimentas-do-asfalto-mc-pimenta-mg-2026-07-26": {
+      "index": 56,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:28:02.000411+00:00"
+    },
+    "ecam-2026-serra-do-salitre-mg-2026-07-26": {
+      "index": 20,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:26.649264+00:00"
+    },
+    "karangos-e-motocas-mc-duque-de-caxias-rj-2026-07-26": {
+      "index": 62,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:30:33.002036+00:00"
+    },
+    "black-skull-mc-mesqueita-rj-2026-07-26": {
+      "index": 24,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:29.591469+00:00"
+    },
+    "falcoes-de-aco-mc-volta-redonda-rj-2026-07-26": {
+      "index": 66,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:31:47.919445+00:00"
+    },
+    "2-motofest-itapevi-sp-2026-07-26": {
+      "index": 28,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:32.274353+00:00"
+    },
+    "cafe-beneficente-presidente-prudente-sp-2026-07-26": {
+      "index": 29,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:32.993306+00:00"
+    },
+    "snakes-mc-salto-sp-2026-07-26": {
+      "index": 33,
+      "sources": 4,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:37:06.071376+00:00"
+    },
+    "cavaleiros-do-asfalto-sao-paulo-sp-2026-07-26": {
+      "index": 75,
+      "sources": 5,
+      "domains": 4,
+      "checked_at": "2026-07-26T08:34:55.021524+00:00"
+    },
+    "sinners-mc-sao-paulo-sp-2026-07-26": {
+      "index": 30,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:52:26.649190+00:00"
+    },
+    "encontro-de-motociclistas-votuporanga-sp-2026-07-26": {
+      "index": 77,
+      "sources": 4,
+      "domains": 3,
+      "checked_at": "2026-07-26T08:34:55.649681+00:00"
+    },
+    "insanos-mc-rio-de-janeiro-rj-2026-07-27": {
+      "index": 35,
+      "sources": 6,
+      "domains": 3,
+      "checked_at": "2026-07-26T09:37:12.368818+00:00"
+    },
+    "encontro-de-motociclistas-belo-horizonte-mg-2026-07-28": {
+      "index": 31,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:34.492952+00:00"
+    },
+    "ilha-mc-ilha-do-governador-rj-2026-07-28": {
+      "index": 32,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:35.209524+00:00"
+    },
+    "porto-real-mc-resende-rj-2026-07-29": {
+      "index": 33,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:35.932348+00:00"
+    },
+    "motofest-iguatu-ce-2026-07-30": {
+      "index": 34,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:36.426582+00:00"
+    },
+    "3-encontro-de-motociclistas-penedo-mg-2026-07-30": {
+      "index": 35,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:37.157346+00:00"
+    },
+    "motofest-bezerros-pe-2026-07-30": {
+      "index": 36,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:37.618545+00:00"
+    },
+    "motofest-iguatu-pr-2026-07-30": {
+      "index": 37,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:38.099343+00:00"
+    },
+    "motofest-delmiro-al-2026-07-31": {
+      "index": 88,
+      "sources": 4,
+      "domains": 3,
+      "checked_at": "2026-07-26T08:36:12.660821+00:00"
+    },
+    "motofest-delmiro-gouveia-al-2026-07-31": {
+      "index": 90,
+      "sources": 4,
+      "domains": 3,
+      "checked_at": "2026-07-26T08:36:50.114951+00:00"
+    },
+    "motofest-serra-es-2026-07-31": {
+      "index": 38,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:38.593953+00:00"
+    },
+    "7-encontro-nacional-de-motociclsitas-e-motoclubes-aimores-mg-2026-07-31": {
+      "index": 95,
+      "sources": 4,
+      "domains": 3,
+      "checked_at": "2026-07-26T08:38:42.293431+00:00"
+    },
+    "14-motofest-extrema-mg-2026-07-31": {
+      "index": 97,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:39:19.783514+00:00"
+    },
+    "motofest-manhumirim-mg-2026-07-31": {
+      "index": 41,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:49.778497+00:00"
+    },
+    "uma-aguai-sp-2026-07-24": {
+      "index": 2,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:52:28.284892+00:00"
+    },
+    "fraternos-do-cerrado-mc-brasilia-df-2026-07-25": {
+      "index": 3,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:52:28.473389+00:00"
+    },
+    "kveiras-do-amanhecer-belo-horizonte-mg-2026-07-25": {
+      "index": 2,
+      "sources": 1,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:14.378797+00:00"
+    },
+    "pit-stop-hanbai-belo-horizonte-mg-2026-07-25": {
+      "index": 2,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:07:28.305772+00:00"
+    },
+    "aguais-da-liberdade-mc-conselheiro-lafaiete-mg-2026-07-25": {
+      "index": 3,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:07:29.485494+00:00"
+    },
+    "motorock-e-amizade-itauna-mg-2026-07-25": {
+      "index": 4,
+      "sources": 1,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:15.848057+00:00"
+    },
+    "pererecas-mc-belford-roxo-rio-de-janeiro-rj-2026-07-25": {
+      "index": 8,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:18.459752+00:00"
+    },
+    "bodes-do-asfalto-mc-sao-goncalo-rj-2026-07-25": {
+      "index": 6,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:00:19.739003+00:00"
+    },
+    "yamaha-vmax-mairipora-sp-2026-07-25": {
+      "index": 12,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:21.069270+00:00"
+    },
+    "epidemia-da-estrada-mc-peruibe-sp-2026-07-25": {
+      "index": 11,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:52:43.165980+00:00"
+    },
+    "dia-do-motociclsita-sao-paulo-sp-2026-07-25": {
+      "index": 7,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:07:52.366951+00:00"
+    },
+    "subversivos-mc-sao-paulo-sp-2026-07-25": {
+      "index": 8,
+      "sources": 5,
+      "domains": 3,
+      "checked_at": "2026-07-26T09:07:58.817440+00:00"
+    },
+    "beneficente-votorantim-sp-2026-07-25": {
+      "index": 15,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:23.039993+00:00"
+    },
+    "9-passeio-dia-do-motociclista-maceio-al-2026-07-26": {
+      "index": 16,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:23.814251+00:00"
+    },
+    "missa-dos-motociclistas-catas-altas-mg-2026-07-26": {
+      "index": 19,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:25.952824+00:00"
+    },
+    "119-festa-de-nossa-senhora-da-abadia-pirajuba-mg-2026-07-26": {
+      "index": 11,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:08:02.085749+00:00"
+    },
+    "2-moto-cafe-tres-marias-mg-2026-07-26": {
+      "index": 21,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:27.369487+00:00"
+    },
+    "encoontro-de-motociclistas-sume-pb-2026-07-26": {
+      "index": 22,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:28.093807+00:00"
+    },
+    "serra-branca-mc-sume-pb-2026-07-26": {
+      "index": 23,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:28.859039+00:00"
+    },
+    "guerreiros-da-igualdade-mc-mage-rj-2026-07-26": {
+      "index": 21,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:52:50.905240+00:00"
+    },
+    "imperador-do-asfalto-mc-porto-real-rj-2026-07-26": {
+      "index": 25,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:30.336509+00:00"
+    },
+    "aguia-viva-mc-itabaiana-se-2026-07-26": {
+      "index": 23,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:52:52.102566+00:00"
+    },
+    "1-bencao-dos-motociclistas-e-motoristas-aracatuba-sp-2026-07-26": {
+      "index": 26,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:31.047941+00:00"
+    },
+    "dia-do-motociclista-assis-sp-2026-07-26": {
+      "index": 25,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:52:53.235895+00:00"
+    },
+    "esquadrao-quadrangular-e-motociclistas-com-cristo-assis-sp-2026-07-26": {
+      "index": 27,
+      "sources": 1,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:31.788756+00:00"
+    },
+    "50-missa-dos-motociclistas-sao-jose-do-rio-preto-sp-2026-07-26": {
+      "index": 27,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:52:54.877683+00:00"
+    },
+    "missa-dos-motociclistas-volta-redonda-rj-2026-07-27": {
+      "index": 30,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:33.708886+00:00"
+    },
+    "quinta-do-motociclista-arapiraca-al-2026-07-30": {
+      "index": 29,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:52:56.120255+00:00"
+    },
+    "motorock-brumado-ba-2026-07-31": {
+      "index": 19,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:08:11.166111+00:00"
+    },
+    "7-serra-moto-fest-serra-es-2026-07-31": {
+      "index": 22,
+      "sources": 4,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:01:02.224501+00:00"
+    },
+    "1-irmaos-de-alma-alto-paraiso-de-goias-go-2026-07-31": {
+      "index": 39,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:39.372865+00:00"
+    },
+    "carnotores-carmo-do-rio-claro-mg-2026-07-31": {
+      "index": 40,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:49.327933+00:00"
+    },
+    "motofest-prog-manhumirim-mg-2026-07-31": {
+      "index": 22,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:08:14.668607+00:00"
+    },
+    "mc-rota-452-oliveira-fortes-mg-2026-07-31": {
+      "index": 35,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:53:01.642882+00:00"
+    },
+    "cachorro-grande-mg-niteroi-rj-2026-07-31": {
+      "index": 43,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:51.292555+00:00"
+    },
+    "guardioes-de-raul-mc-sumidouro-rj-2026-07-31": {
+      "index": 27,
+      "sources": 5,
+      "domains": 3,
+      "checked_at": "2026-07-26T09:01:15.263122+00:00"
+    },
+    "guardioes-do-santuario-mc-bom-jesus-dos-perdoes-sp-2026-07-31": {
+      "index": 38,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:53:03.907295+00:00"
+    },
+    "campeonato-amapaense-de-ciclismo-2026-macapa-ap-2026-08-01": {
+      "index": 39,
+      "sources": 5,
+      "domains": 3,
+      "checked_at": "2026-07-26T08:53:10.776442+00:00"
+    },
+    "soberanos-sobre-rodas-mc-guarapari-es-2026-08-01": {
+      "index": 40,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:53:10.959602+00:00"
+    },
+    "5-cerol-to-fora-frutal-mg-2026-08-01": {
+      "index": 45,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:52.510318+00:00"
+    },
+    "ronin-mc-itabira-mg-2026-08-01": {
+      "index": 29,
+      "sources": 4,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:01:20.651792+00:00"
+    },
+    "2-encontro-de-motocicilstas-lavras-novas-mg-2026-08-01": {
+      "index": 25,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:08:17.699536+00:00"
+    },
+    "2-encontro-de-motociclistas-lavras-novas-mg-2026-08-01": {
+      "index": 44,
+      "sources": 4,
+      "domains": 3,
+      "checked_at": "2026-07-26T08:53:16.003532+00:00"
+    },
+    "vulcano-mc-macae-rj-2026-08-01": {
+      "index": 45,
+      "sources": 4,
+      "domains": 3,
+      "checked_at": "2026-07-26T08:53:16.214966+00:00"
+    },
+    "desalmado-mg-nova-iguacu-rj-2026-08-01": {
+      "index": 46,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:53.208018+00:00"
+    },
+    "ferramentas-mc-rio-de-janerio-rj-2026-08-01": {
+      "index": 47,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:53.947723+00:00"
+    },
+    "falcoes-do-asfalto-mc-cacapava-sp-2026-08-01": {
+      "index": 48,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:53:21.122991+00:00"
+    },
+    "bodes-do-asfalto-mc-praia-grande-sp-2026-08-01": {
+      "index": 53,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:58.373680+00:00"
+    },
+    "3-encontro-de-motociclistas-taquaritinga-sp-2026-08-01": {
+      "index": 50,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:53:26.258927+00:00"
+    },
+    "3-apoio-ao-motociclistas-uberaba-mg-2026-08-02": {
+      "index": 51,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:53:26.480987+00:00"
+    },
+    "corujas-do-asfalto-mc-mage-rj-2026-08-02": {
+      "index": 52,
+      "sources": 6,
+      "domains": 3,
+      "checked_at": "2026-07-26T08:53:26.673473+00:00"
+    },
+    "evneto-em-conjunto-sao-pedro-d-aldeia-rj-2026-08-02": {
+      "index": 55,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:59.908926+00:00"
+    },
+    "niver-triplo-sao-pedro-d-aldeia-rj-2026-08-02": {
+      "index": 56,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:00.654743+00:00"
+    },
+    "brazilian-custom-mc-guaicara-sp-2026-08-02": {
+      "index": 57,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:01.378736+00:00"
+    },
+    "beneficente-gdr-jaci-sp-2026-08-02": {
+      "index": 58,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:02.102503+00:00"
+    },
+    "sombras-mc-ribeirao-preto-sp-2026-08-02": {
+      "index": 57,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:53:46.869654+00:00"
+    },
+    "diveneta-mc-cabo-frio-rj-2026-08-06": {
+      "index": 58,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:53:48.840657+00:00"
+    },
+    "1-moto-acampamento-raiz-itanhandu-mg-2026-08-07": {
+      "index": 66,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:06.963461+00:00"
+    },
+    "minas-gerais-mc-tres-coracoes-mg-2026-08-07": {
+      "index": 60,
+      "sources": 4,
+      "domains": 3,
+      "checked_at": "2026-07-26T08:53:52.564241+00:00"
+    },
+    "5-sexta-do-guara-garanhuns-pe-2026-08-07": {
+      "index": 61,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:53:56.057660+00:00"
+    },
+    "5-encontro-estadual-de-motociclistas-jucurutu-rn-2026-08-07": {
+      "index": 62,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:53:58.051527+00:00"
+    },
+    "amigos-do-asfalto-mc-ibatiba-es-2026-08-08": {
+      "index": 71,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:10.087953+00:00"
+    },
+    "jaguar-negro-mc-e-the-steel-skulls-mc-belo-horizonte-mg-2026-08-08": {
+      "index": 72,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:10.815858+00:00"
+    },
+    "griffon-s-mc-goiana-mg-2026-08-08": {
+      "index": 74,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:12.028879+00:00"
+    },
+    "2-weekend-of-bikers-pudente-de-morais-mg-2026-08-08": {
+      "index": 75,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:12.783690+00:00"
+    },
+    "confraria-das-aguias-mg-skulls-on-the-ride-mc-contagem-mg-2026-08-08": {
+      "index": 76,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:13.512731+00:00"
+    },
+    "jaguar-negro-mc-the-steel-skulls-mc-belo-horizonte-mg-2026-08-08": {
+      "index": 87,
+      "sources": 1,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:41:04.684149+00:00"
+    },
+    "terapia-na-estrada-macae-rj-2026-08-08": {
+      "index": 77,
+      "sources": 1,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:14.249269+00:00"
+    },
+    "discipulo-e-honta-mc-rio-de-janeiro-rj-2026-08-08": {
+      "index": 78,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:14.987601+00:00"
+    },
+    "niver-sao-goncalo-rj-2026-08-08": {
+      "index": 71,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:54:14.433217+00:00"
+    },
+    "guardioes-do-horizonte-mc-porto-da-folha-se-2026-08-08": {
+      "index": 79,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:15.708128+00:00"
+    },
+    "speed-night-fest-brigui-sp-2026-08-08": {
+      "index": 80,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:26.854990+00:00"
+    },
+    "ratel-mc-santa-cruz-do-rio-pardo-sp-2026-08-08": {
+      "index": 74,
+      "sources": 4,
+      "domains": 3,
+      "checked_at": "2026-07-26T08:54:18.621196+00:00"
+    },
+    "mundicas-o-chamado-da-estrada-nova-pauliceia-sp-2026-08-09": {
+      "index": 95,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:41:28.912597+00:00"
+    },
+    "mundicas-mg-o-chamado-da-estrada-nova-pauliceia-gaviao-peixoto-sp-2026-08-09": {
+      "index": 82,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:28.294466+00:00"
+    },
+    "mc-urubus-obesos-ibia-mg-2026-08-14": {
+      "index": 46,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:08:45.076342+00:00"
+    },
+    "motofest-lambari-mg-2026-08-14": {
+      "index": 87,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:31.462320+00:00"
+    },
+    "perdidos-do-asfalto-mc-matozinhos-mg-2026-08-14": {
+      "index": 88,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:32.189171+00:00"
+    },
+    "caveiras-brasil-mc-petropolis-rj-2026-08-14": {
+      "index": 91,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:33.962922+00:00"
+    },
+    "imperial-moto-week-petropolis-rj-2026-08-14": {
+      "index": 55,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:02:40.675712+00:00"
+    },
+    "guardioes-de-ouro-mc-sao-goncalo-rj-2026-08-14": {
+      "index": 82,
+      "sources": 5,
+      "domains": 4,
+      "checked_at": "2026-07-26T08:54:26.584892+00:00"
+    },
+    "mg-fora-de-rota-sao-pedro-do-butia-rs-2026-08-14": {
+      "index": 93,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:35.512484+00:00"
+    },
+    "lakraio-s-mc-bertioga-sp-2026-08-14": {
+      "index": 57,
+      "sources": 5,
+      "domains": 3,
+      "checked_at": "2026-07-26T09:02:45.780463+00:00"
+    },
+    "22-anos-mantra-mc-sao-joao-da-boa-vista-sp-2026-08-14": {
+      "index": 94,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:36.218862+00:00"
+    },
+    "bufalos-mg-marechal-floriano-es-2026-08-15": {
+      "index": 95,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:36.969658+00:00"
+    },
+    "aguais-de-cristo-mc-belo-horizonte-mg-2026-08-15": {
+      "index": 108,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:42:49.637076+00:00"
+    },
+    "12-acampamento-nacional-rat-bike-do-brasil-jeceaba-mg-2026-08-15": {
+      "index": 97,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:38.446943+00:00"
+    },
+    "cavaleiros-sem-rumo-campos-dos-goytacazes-rj-2026-08-15": {
+      "index": 89,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:54:35.969679+00:00"
+    },
+    "cavaleiros-sem-rumo-mc-campos-dos-goytacazes-rj-2026-08-15": {
+      "index": 90,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:54:39.093203+00:00"
+    },
+    "ilha-mc-ilha-do-governador-rj-2026-08-15": {
+      "index": 91,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:54:41.289989+00:00"
+    },
+    "terapia-na-estrada-macae-rj-2026-08-15": {
+      "index": 100,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:40.713615+00:00"
+    },
+    "garras-sobre-rodas-rio-de-janeiro-rj-2026-08-15": {
+      "index": 56,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:08:58.700455+00:00"
+    },
+    "garras-sobre-rodas-mc-rio-de-janeiro-rj-2026-08-15": {
+      "index": 94,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:54:44.352538+00:00"
+    },
+    "5-praia-rock-chopper-mc-saquarema-rj-2026-08-15": {
+      "index": 101,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:41.459099+00:00"
+    },
+    "anjos-de-cristo-mc-teresopolis-rj-2026-08-15": {
+      "index": 96,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:54:48.527013+00:00"
+    },
+    "santa-custom-mc-franca-sp-2026-08-15": {
+      "index": 97,
+      "sources": 4,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:54:49.553132+00:00"
+    },
+    "1-comando-motor-fest-guaruja-sp-2026-08-15": {
+      "index": 103,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:42.923187+00:00"
+    },
+    "lady-rider-mg-jacana-sao-paulo-sp-2026-08-15": {
+      "index": 104,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:43.632605+00:00"
+    },
+    "andarilhos-mc-jundiai-sp-2026-08-15": {
+      "index": 60,
+      "sources": 4,
+      "domains": 4,
+      "checked_at": "2026-07-26T09:09:05.079858+00:00"
+    },
+    "2-encotnro-de-motociclistas-nhandeara-sp-2026-08-15": {
+      "index": 107,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:45.808607+00:00"
+    },
+    "ronin-mc-itabira-mg-2026-08-16": {
+      "index": 108,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:46.551944+00:00"
+    },
+    "companhia-do-asfalto-mg-itaborai-rj-2026-08-16": {
+      "index": 109,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:47.285857+00:00"
+    },
+    "guardiao-noturno-mc-mage-rj-2026-08-16": {
+      "index": 110,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:48.007931+00:00"
+    },
+    "highway-rangers-mc-volta-redonda-rj-2026-08-16": {
+      "index": 105,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:55:03.076647+00:00"
+    },
+    "vila-roberto-pindorama-sp-2026-08-16": {
+      "index": 106,
+      "sources": 5,
+      "domains": 3,
+      "checked_at": "2026-07-26T08:55:04.557241+00:00"
+    },
+    "anjos-da-ilha-mc-sao-jose-de-ribamar-ma-2026-08-21": {
+      "index": 114,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:50.207389+00:00"
+    },
+    "anjos-ilha-mc-sao-luis-ma-2026-08-21": {
+      "index": 66,
+      "sources": 4,
+      "domains": 3,
+      "checked_at": "2026-07-26T09:09:24.841396+00:00"
+    },
+    "urubus-da-serra-mc-boa-esperanca-mg-2026-08-21": {
+      "index": 74,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:03:26.746356+00:00"
+    },
+    "guardioes-de-ipanema-mg-ipanema-mg-2026-08-21": {
+      "index": 110,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:55:09.083661+00:00"
+    },
+    "mc-anjos-da-estrada-belo-horizonte-mg-2026-08-22": {
+      "index": 119,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:53.687585+00:00"
+    },
+    "espirito-de-agua-mc-contagem-mg-2026-08-22": {
+      "index": 120,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:04.483016+00:00"
+    },
+    "espirito-de-aguia-mc-contagem-mg-2026-08-22": {
+      "index": 113,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:55:14.490018+00:00"
+    },
+    "aguias-do-redentor-mc-itamarandiba-mg-2026-08-22": {
+      "index": 121,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:05.219212+00:00"
+    },
+    "cowboys-do-vento-mc-matinhos-pr-2026-08-22": {
+      "index": 122,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:05.933299+00:00"
+    },
+    "mc-renascidos-da-irmandade-belford-roxo-rj-2026-08-22": {
+      "index": 123,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:06.676954+00:00"
+    },
+    "5-moto-acampamento-major-vieira-sc-2026-08-22": {
+      "index": 80,
+      "sources": 4,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:03:42.660922+00:00"
+    },
+    "sacrans-mc-aracatuba-sp-2026-08-22": {
+      "index": 118,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:55:27.691658+00:00"
+    },
+    "guardiao-do-destino-mf-salto-de-pirapora-sp-2026-08-22": {
+      "index": 126,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:08.847085+00:00"
+    },
+    "amigos-na-estrada-mc-sao-jose-do-vale-do-rio-preto-rj-2026-08-23": {
+      "index": 129,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:10.823781+00:00"
+    },
+    "amigos-na-estrada-mc-sao-jose-do-vale-rio-preto-rj-2026-08-23": {
+      "index": 132,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:55:14.315172+00:00"
+    },
+    "motorockfest-arrial-d-ajuda-ba-2026-08-26": {
+      "index": 131,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:12.268314+00:00"
+    },
+    "ralladuz-mc-tres-marias-mg-2026-08-27": {
+      "index": 123,
+      "sources": 5,
+      "domains": 4,
+      "checked_at": "2026-07-26T08:55:35.435623+00:00"
+    },
+    "mc-os-lobos-formosa-go-2026-08-29": {
+      "index": 124,
+      "sources": 4,
+      "domains": 3,
+      "checked_at": "2026-07-26T08:55:37.409340+00:00"
+    },
+    "caveira-solidaria-mc-rio-de-janeiro-rj-2026-08-29": {
+      "index": 125,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:55:38.761701+00:00"
+    },
+    "cavera-do-asfalto-mc-jaboticabal-sp-2026-08-29": {
+      "index": 140,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:17.738216+00:00"
+    },
+    "turma-de-cachorro-loco-mc-maua-sp-2026-08-29": {
+      "index": 77,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:09:36.775022+00:00"
+    },
+    "2-encontro-de-motociclista-santa-fe-do-sul-sp-2026-08-30": {
+      "index": 141,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:18.462041+00:00"
+    },
+    "patrulheiros-do-norte-mc-conceicao-da-barra-es-2026-09-04": {
+      "index": 79,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:09:38.916613+00:00"
+    },
+    "mc-brucutu-s-bom-jesus-do-amparo-mg-2026-09-04": {
+      "index": 144,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:20.351873+00:00"
+    },
+    "mg-stl-so-para-loucos-sao-thome-das-letras-mg-2026-09-04": {
+      "index": 131,
+      "sources": 4,
+      "domains": 3,
+      "checked_at": "2026-07-26T08:55:45.663934+00:00"
+    },
+    "box-10-mc-uberaba-mg-2026-09-04": {
+      "index": 132,
+      "sources": 6,
+      "domains": 4,
+      "checked_at": "2026-07-26T08:55:47.524838+00:00"
+    },
+    "caveiras-de-fogo-mc-cachoeiras-de-macacu-rj-2026-09-04": {
+      "index": 148,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:23.073510+00:00"
+    },
+    "14-encontro-de-motociclstas-rio-bonito-rj-2026-09-04": {
+      "index": 150,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:24.352359+00:00"
+    },
+    "dragoes-de-ouro-mc-santo-antonio-de-padua-rj-2026-09-04": {
+      "index": 135,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:55:50.766804+00:00"
+    },
+    "barra-fest-rock-barra-bonita-sp-2026-09-04": {
+      "index": 136,
+      "sources": 5,
+      "domains": 3,
+      "checked_at": "2026-07-26T08:55:54.411977+00:00"
+    },
+    "aguias-rota-381-mc-guardioes-da-liberdade-mc-carmopolis-de-minas-mg-2026-09-05": {
+      "index": 153,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:26.326766+00:00"
+    },
+    "5-moto-romaria-nova-resende-mg-2026-09-05": {
+      "index": 93,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:04:14.443634+00:00"
+    },
+    "pentecostes-mc-potirendaba-sp-2026-09-05": {
+      "index": 156,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:28.271768+00:00"
+    },
+    "rat-bike-salto-grande-sp-2026-09-05": {
+      "index": 157,
+      "sources": 1,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:29.010692+00:00"
+    },
+    "2-encontro-nacional-de-motociclistas-sao-carlos-sp-2026-09-05": {
+      "index": 141,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:55:59.631782+00:00"
+    },
+    "raca-livre-mg-sao-carlos-sp-2026-09-05": {
+      "index": 158,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:29.788546+00:00"
+    },
+    "mg-somos-livres-cachoeiras-de-macacu-rj-2026-09-06": {
+      "index": 160,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:42.276141+00:00"
+    },
+    "5-moto-almoco-show-piratuba-sc-2026-09-06": {
+      "index": 162,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:43.719818+00:00"
+    },
+    "coyotes-da-serra-mc-duque-de-caxias-rj-2026-09-07": {
+      "index": 145,
+      "sources": 4,
+      "domains": 3,
+      "checked_at": "2026-07-26T08:56:05.114143+00:00"
+    },
+    "mc-rota-110-jeremoabo-ba-2026-09-11": {
+      "index": 164,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:45.167028+00:00"
+    },
+    "chamas-na-caveira-mc-crateus-ce-2026-09-11": {
+      "index": 147,
+      "sources": 4,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:56:07.315689+00:00"
+    },
+    "10-encontro-nacional-de-motociclistas-januaria-mg-2026-09-11": {
+      "index": 166,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:46.669113+00:00"
+    },
+    "jaquetas-negras-mc-juiz-de-fora-mg-2026-09-12": {
+      "index": 149,
+      "sources": 4,
+      "domains": 3,
+      "checked_at": "2026-07-26T08:56:13.441349+00:00"
+    },
+    "xorete-mg-itatiaia-rj-2026-09-12": {
+      "index": 168,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:48.188340+00:00"
+    },
+    "ossos-libertos-mc-padre-miguel-rj-2026-09-12": {
+      "index": 151,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:56:16.815071+00:00"
+    },
+    "old-pistons-volta-redonda-rj-2026-09-12": {
+      "index": 152,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:56:17.863089+00:00"
+    },
+    "old-pistons-ms-volta-redonda-rj-2026-09-12": {
+      "index": 102,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:04:36.506023+00:00"
+    },
+    "1-encontro-dos-motopapos-nossa-senhora-do-socorro-se-2026-09-12": {
+      "index": 170,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:49.627395+00:00"
+    },
+    "rei-dos-reis-mc-santa-gertrudes-sp-2026-09-12": {
+      "index": 155,
+      "sources": 5,
+      "domains": 3,
+      "checked_at": "2026-07-26T08:56:21.141800+00:00"
+    },
+    "mc-os-mamutes-e-road-rhino-mc-rio-de-janeiro-rj-2026-09-13": {
+      "index": 173,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:51.892467+00:00"
+    },
+    "os-mutantes-mc-e-road-rhino-mc-rio-de-janeiro-rj-2026-09-13": {
+      "index": 177,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:56:08.421159+00:00"
+    },
+    "cavalo-de-aco-mc-estreito-sp-2026-09-13": {
+      "index": 174,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:52.609698+00:00"
+    },
+    "motofest-caruaru-pe-2026-09-17": {
+      "index": 175,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:53.140091+00:00"
+    },
+    "amigos-de-ruta-foz-do-iguacu-pr-2026-09-17": {
+      "index": 160,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:56:28.309851+00:00"
+    },
+    "poderosos-chefoes-mc-carmo-do-cajuru-mg-2026-09-18": {
+      "index": 108,
+      "sources": 5,
+      "domains": 3,
+      "checked_at": "2026-07-26T09:05:01.927639+00:00"
+    },
+    "7-encontro-de-motociclistas-lavras-mg-2026-09-18": {
+      "index": 97,
+      "sources": 4,
+      "domains": 3,
+      "checked_at": "2026-07-26T09:10:10.944147+00:00"
+    },
+    "motoqueiros-da-pedra-mg-itapolis-sp-2026-09-18": {
+      "index": 163,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:56:32.402800+00:00"
+    },
+    "nostalgia-mc-e-caes-de-zorba-mc-santa-barbara-d-oeste-sp-2026-09-18": {
+      "index": 164,
+      "sources": 4,
+      "domains": 3,
+      "checked_at": "2026-07-26T08:56:34.502692+00:00"
+    },
+    "moto-e-brasa-itumbiara-go-2026-09-19": {
+      "index": 98,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:10:12.086139+00:00"
+    },
+    "rota-064-mc-rio-verde-go-2026-09-19": {
+      "index": 178,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:55.344591+00:00"
+    },
+    "mc-os-papas-tome-acu-pa-2026-09-19": {
+      "index": 167,
+      "sources": 4,
+      "domains": 3,
+      "checked_at": "2026-07-26T08:56:38.694938+00:00"
+    },
+    "fenicios-mc-rio-de-janeiro-rj-2026-09-19": {
+      "index": 179,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:56.052337+00:00"
+    },
+    "zapata-mc-embu-guacu-sp-2026-09-19": {
+      "index": 180,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:56.772140+00:00"
+    },
+    "cachorro-liberto-mc-guarulhos-sp-2026-09-19": {
+      "index": 170,
+      "sources": 4,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:56:44.228976+00:00"
+    },
+    "moto-amigos-mg-poloni-sp-2026-09-19": {
+      "index": 102,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:10:16.875168+00:00"
+    },
+    "virados-no-avesso-mc-sorocaba-sp-2026-09-19": {
+      "index": 103,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:10:18.739812+00:00"
+    },
+    "calibre-22-mc-rio-de-janeiro-rj-2026-09-20": {
+      "index": 173,
+      "sources": 4,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:56:47.326655+00:00"
+    },
+    "sao-fidelis-mc-sao-fidelis-rj-2026-09-24": {
+      "index": 174,
+      "sources": 5,
+      "domains": 3,
+      "checked_at": "2026-07-26T08:56:50.384096+00:00"
+    },
+    "destemidos-do-asfalto-itanagra-ba-2026-09-25": {
+      "index": 175,
+      "sources": 4,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:57:09.695296+00:00"
+    },
+    "amigos-do-pedrinho-virginia-mg-2026-09-25": {
+      "index": 186,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:01.127251+00:00"
+    },
+    "moto-amigo-mondai-sc-2026-09-25": {
+      "index": 177,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:57:13.744416+00:00"
+    },
+    "tiao-e-deja-moto-casal-pirassununga-sp-2026-09-25": {
+      "index": 105,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:10:21.466245+00:00"
+    },
+    "indian-soul-mc-franca-sp-2026-09-26": {
+      "index": 190,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:03.911011+00:00"
+    },
+    "loko-e-poko-mc-aracoiaba-da-serra-sp-2026-09-27": {
+      "index": 180,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:57:17.488184+00:00"
+    },
+    "guardioes-mg-iacu-ba-2026-10-09": {
+      "index": 191,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:04.649498+00:00"
+    },
+    "mc-mal-encarado-castelo-es-2026-10-09": {
+      "index": 193,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:05.927030+00:00"
+    },
+    "motofest-capim-branco-mg-2026-10-09": {
+      "index": 109,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:10:25.793811+00:00"
+    },
+    "nater-rock-natercia-mg-2026-10-09": {
+      "index": 110,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:10:27.142022+00:00"
+    },
+    "2-moto-fest-serra-de-sao-bento-rn-2026-10-09": {
+      "index": 185,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:57:22.325752+00:00"
+    },
+    "7-62-mc-araguari-sc-2026-10-10": {
+      "index": 198,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:09.608401+00:00"
+    },
+    "tri-vale-e-its-lages-sc-2026-10-10": {
+      "index": 199,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:10.336429+00:00"
+    },
+    "aniversario-de-3-motoclubes-itu-sp-2026-10-10": {
+      "index": 200,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:19.783065+00:00"
+    },
+    "2-motoshow-presidente-alves-sp-2026-10-10": {
+      "index": 201,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:20.548883+00:00"
+    },
+    "classicos-estradeiros-mg-rio-de-janeiro-rj-2026-10-11": {
+      "index": 202,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:21.318155+00:00"
+    },
+    "classicos-estraderios-mg-rio-de-janeiro-rj-2026-10-11": {
+      "index": 205,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:58:01.074152+00:00"
+    },
+    "classics-estradeiros-mg-rio-de-janeiro-rj-2026-10-11": {
+      "index": 206,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:58:01.873642+00:00"
+    },
+    "caveiras-implacaveis-mc-tamoios-rj-2026-10-11": {
+      "index": 203,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:22.031793+00:00"
+    },
+    "thrybus-mc-jaboticabal-sp-2026-10-11": {
+      "index": 194,
+      "sources": 6,
+      "domains": 4,
+      "checked_at": "2026-07-26T08:57:33.936050+00:00"
+    },
+    "rafard-mc-mombuca-sp-2026-10-16": {
+      "index": 205,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:23.496391+00:00"
+    },
+    "professores-mc-vila-velhas-es-2026-10-17": {
+      "index": 206,
+      "sources": 1,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:24.227202+00:00"
+    },
+    "tigres-medievais-mc-belo-horizonte-mg-2026-10-17": {
+      "index": 121,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:10:42.938897+00:00"
+    },
+    "tigres-medievais-mc-ouro-preto-mg-2026-10-17": {
+      "index": 198,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:57:45.524069+00:00"
+    },
+    "ganchos-do-asfalto-mg-rio-de-janeiro-rj-2026-10-17": {
+      "index": 134,
+      "sources": 4,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:06:03.045427+00:00"
+    },
+    "mc-os-independentes-rio-de-janeiro-rj-2026-10-17": {
+      "index": 208,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:25.708126+00:00"
+    },
+    "ganchos-do-asfalto-mg-santissimo-rio-de-janeiro-rj-2026-10-17": {
+      "index": 209,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:26.448350+00:00"
+    },
+    "alis-libertatis-mc-candido-mota-sp-2026-10-17": {
+      "index": 202,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:57:51.523421+00:00"
+    },
+    "minhocas-do-asfalto-cascavel-pr-2026-10-18": {
+      "index": 137,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:06:11.294555+00:00"
+    },
+    "fumace-do-asfalto-mc-mage-rj-2026-10-18": {
+      "index": 204,
+      "sources": 4,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:57:53.748294+00:00"
+    },
+    "1-encontro-de-motoclubes-paulo-afonso-ba-2026-10-22": {
+      "index": 210,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:27.187275+00:00"
+    },
+    "guardioes-do-destino-mc-luisburgo-mg-2026-10-23": {
+      "index": 206,
+      "sources": 4,
+      "domains": 3,
+      "checked_at": "2026-07-26T08:57:58.837867+00:00"
+    },
+    "bandidas-brasil-itaguai-rj-2026-10-24": {
+      "index": 211,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:27.954803+00:00"
+    },
+    "barbaros-mc-mage-rj-2026-10-25": {
+      "index": 208,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:58:01.000484+00:00"
+    },
+    "20-encontro-de-motociclistas-motonave-navegantes-sc-2026-10-30": {
+      "index": 209,
+      "sources": 2,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:58:04.029731+00:00"
+    },
+    "motofest-carbonita-mg-2026-10-31": {
+      "index": 213,
+      "sources": 1,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:29.246804+00:00"
+    },
+    "7-aniversario-mc-ponta-negra-marica-rj-2026-10-31": {
+      "index": 214,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:30.011314+00:00"
+    },
+    "mc-ponta-negra-marica-rj-2026-10-31": {
+      "index": 212,
+      "sources": 5,
+      "domains": 4,
+      "checked_at": "2026-07-26T08:58:07.215098+00:00"
+    },
+    "exitus-brasil-mc-marica-rj-2026-11-08": {
+      "index": 218,
+      "sources": 1,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:32.451367+00:00"
+    },
+    "rabugentos-mc-rio-de-janeiro-rj-2026-11-08": {
+      "index": 219,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:33.166252+00:00"
+    },
+    "4-missa-do-motociclistas-e-triciclista-bebedouro-sp-2026-11-08": {
+      "index": 220,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:33.896978+00:00"
+    },
+    "lendario-mc-corrego-do-bom-jesus-mg-2026-11-13": {
+      "index": 130,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:10:53.792356+00:00"
+    },
+    "baroes-do-vento-mg-cosmopolis-sp-2026-11-13": {
+      "index": 223,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:35.682976+00:00"
+    },
+    "liberty-mc-poa-sp-2026-11-14": {
+      "index": 218,
+      "sources": 4,
+      "domains": 3,
+      "checked_at": "2026-07-26T08:58:14.283093+00:00"
+    },
+    "3-ita-moto-fest-itamaraju-ba-2026-11-20": {
+      "index": 219,
+      "sources": 4,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:58:15.321466+00:00"
+    },
+    "mc-anjos-sobre-rodas-boa-esperanca-es-2026-11-20": {
+      "index": 220,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:58:18.570026+00:00"
+    },
+    "discriminados-mc-santa-rita-de-jacutinga-mg-2026-11-20": {
+      "index": 225,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:36.898994+00:00"
+    },
+    "excomungados-mc-turmalina-mg-2026-11-20": {
+      "index": 222,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:58:21.004153+00:00"
+    },
+    "cobras-de-farmacia-mc-porto-feliz-sp-2026-11-20": {
+      "index": 223,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:58:22.000039+00:00"
+    },
+    "5-moto-fe-santa-fe-do-sul-sp-2026-11-20": {
+      "index": 224,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:58:23.045911+00:00"
+    },
+    "the-brothers-mc-buzios-rj-2026-11-21": {
+      "index": 147,
+      "sources": 4,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:06:37.076372+00:00"
+    },
+    "espirito-aventureiro-sao-fidelis-rj-2026-11-21": {
+      "index": 226,
+      "sources": 4,
+      "domains": 3,
+      "checked_at": "2026-07-26T08:58:25.219811+00:00"
+    },
+    "mc-guaras-do-asfalto-garanhuns-pe-2026-11-27": {
+      "index": 227,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:58:26.522526+00:00"
+    },
+    "dragoes-da-alvorada-mg-santa-terezinha-de-itaipu-pr-2026-11-28": {
+      "index": 133,
+      "sources": 4,
+      "domains": 3,
+      "checked_at": "2026-07-26T09:10:58.818913+00:00"
+    },
+    "dragoes-da-alvorada-mg-santa-terezinha-do-itaipu-pr-2026-11-28": {
+      "index": 229,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T08:58:29.118357+00:00"
+    },
+    "steel-goose-mc-araruama-rj-2026-11-28": {
+      "index": 230,
+      "sources": 1,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:40.087091+00:00"
+    },
+    "guerreiros-alados-mc-braganca-paulista-sp-2026-11-29": {
+      "index": 232,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:41.571337+00:00"
+    },
+    "sinistro-mc-belfod-roxo-rj-2026-07-31": {
+      "index": 42,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:50.532774+00:00"
+    },
+    "bikefest-santa-maria-madalena-rj-2026-07-31": {
+      "index": 49,
+      "sources": 4,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:38:19.198060+00:00"
+    },
+    "aguias-de-cristo-mc-volta-redonda-rj-2026-07-31": {
+      "index": 50,
+      "sources": 5,
+      "domains": 3,
+      "checked_at": "2026-07-26T09:38:22.727444+00:00"
+    },
+    "moto-festival-blumenau-sc-2026-07-31": {
+      "index": 45,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:53:05.522964+00:00"
+    },
+    "motofest-blumenau-sc-2026-07-31": {
+      "index": 44,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:51.774889+00:00"
+    },
+    "irmaos-das-sombras-mc-rio-de-janerio-rj-2026-08-01": {
+      "index": 48,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:54.640523+00:00"
+    },
+    "irmaos-das-sombras-mc-senador-vasconcelos-rio-de-janeiro-rj-2026-08-01": {
+      "index": 49,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:55.407632+00:00"
+    },
+    "irmaos-das-sombras-mc-senador-vasconcelos-rio-de-janerio-rj-2026-08-01": {
+      "index": 50,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:56.159892+00:00"
+    },
+    "1-moto-rock-fest-chavantes-sp-2026-08-01": {
+      "index": 51,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:56.889545+00:00"
+    },
+    "majestade-mc-cruzeiro-sp-2026-08-01": {
+      "index": 52,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:57.671367+00:00"
+    },
+    "esquadrao-quadrangular-monte-alto-sp-2026-08-01": {
+      "index": 61,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:39:12.530354+00:00"
+    },
+    "amm-duque-de-caxias-rj-2026-08-02": {
+      "index": 54,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:59:59.114906+00:00"
+    },
+    "solidario-jaci-sp-2026-08-02": {
+      "index": 59,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:02.847551+00:00"
+    },
+    "2-moto-cafe-pompeia-sp-2026-08-02": {
+      "index": 60,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:03.638511+00:00"
+    },
+    "motofest-caiaponia-go-2026-08-05": {
+      "index": 61,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:04.216654+00:00"
+    },
+    "motofest-labrea-am-2026-08-07": {
+      "index": 62,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:04.698070+00:00"
+    },
+    "motorock-macaubas-ba-2026-08-07": {
+      "index": 63,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:05.212577+00:00"
+    },
+    "motofest-caete-mg-2026-08-07": {
+      "index": 64,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:05.712079+00:00"
+    },
+    "2-motofest-coronel-fabriciano-mg-2026-08-07": {
+      "index": 65,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:06.247659+00:00"
+    },
+    "ii-moto-festival-pocos-de-caldas-mg-2026-08-07": {
+      "index": 67,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:07.681166+00:00"
+    },
+    "motofest-iati-pe-2026-08-07": {
+      "index": 68,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:08.181072+00:00"
+    },
+    "dark-side-mc-duque-de-caxias-rj-2026-08-07": {
+      "index": 78,
+      "sources": 4,
+      "domains": 3,
+      "checked_at": "2026-07-26T09:40:02.568035+00:00"
+    },
+    "motorock-macaubas-ba-2026-08-08": {
+      "index": 69,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:08.657927+00:00"
+    },
+    "lobos-cinzentos-mc-salvador-ba-2026-08-08": {
+      "index": 70,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:09.394288+00:00"
+    },
+    "motofest-caete-mg-2026-08-08": {
+      "index": 73,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:11.299440+00:00"
+    },
+    "lobos-do-asfalto-mc-rio-de-janeiro-rj-2026-08-08": {
+      "index": 90,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:41:14.003979+00:00"
+    },
+    "2-rock-fest-dois-corregos-sp-2026-08-08": {
+      "index": 81,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:27.569106+00:00"
+    },
+    "insanos-mc-sertaozinho-sp-2026-08-08": {
+      "index": 94,
+      "sources": 5,
+      "domains": 3,
+      "checked_at": "2026-07-26T09:41:26.055929+00:00"
+    },
+    "its-timburi-sp-2026-08-13": {
+      "index": 83,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:29.007988+00:00"
+    },
+    "mg-viramundo-rasga-chao-rio-branco-ac-2026-08-14": {
+      "index": 84,
+      "sources": 1,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:29.774297+00:00"
+    },
+    "ultr-moto-fest-alcobaca-ba-2026-08-14": {
+      "index": 85,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:30.487324+00:00"
+    },
+    "motofest-piunhi-mg-2026-08-14": {
+      "index": 89,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:32.668139+00:00"
+    },
+    "motofest-iati-pe-2026-08-14": {
+      "index": 90,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:33.159615+00:00"
+    },
+    "18-encontro-internacional-de-motos-de-altas-cilindradas-boa-vista-rr-2026-08-14": {
+      "index": 92,
+      "sources": 1,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:34.723482+00:00"
+    },
+    "aguias-de-cristo-mc-belo-horizonte-mg-2026-08-15": {
+      "index": 109,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:42:52.792162+00:00"
+    },
+    "sicarios-mc-ipuiuna-mg-2026-08-15": {
+      "index": 96,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:37.707177+00:00"
+    },
+    "rat-bike-brasil-jeceaba-mg-2026-08-15": {
+      "index": 112,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:43:01.916655+00:00"
+    },
+    "8-rock-in-rio-ivai-japura-pr-2026-08-15": {
+      "index": 98,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:39.175991+00:00"
+    },
+    "ilha-mc-ilha-do-governador-rio-de-janeiro-rj-2026-08-15": {
+      "index": 99,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:39.933743+00:00"
+    },
+    "rock-chopper-mc-saquarema-rj-2026-08-15": {
+      "index": 117,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:43:16.899994+00:00"
+    },
+    "3-cafe-rock-cafelandia-sp-2026-08-15": {
+      "index": 102,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:42.195286+00:00"
+    },
+    "motofest-correntina-ba-2026-08-14": {
+      "index": 86,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:30.959035+00:00"
+    },
+    "moto-fera-jacarei-sp-2026-08-15": {
+      "index": 105,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:44.352548+00:00"
+    },
+    "pepe-legal-mc-mooca-sao-paulo-sp-2026-08-15": {
+      "index": 106,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:45.078716+00:00"
+    },
+    "motofest-araraquara-sp-2026-08-16": {
+      "index": 111,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:48.501025+00:00"
+    },
+    "motofest-luis-eduardo-magalhaes-ba-2026-08-21": {
+      "index": 112,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:49.030323+00:00"
+    },
+    "motofest-pojuca-ba-2026-08-21": {
+      "index": 113,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:49.495810+00:00"
+    },
+    "2-moto-rock-espinosa-mg-2026-08-21": {
+      "index": 115,
+      "sources": 1,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:50.924574+00:00"
+    },
+    "15-encontro-de-motociclistas-santo-antonio-do-monte-mg-2026-08-21": {
+      "index": 116,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:51.663722+00:00"
+    },
+    "drag-race-campo-grande-ms-2026-08-21": {
+      "index": 117,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:52.404120+00:00"
+    },
+    "motofest-cha-grande-pe-2026-08-21": {
+      "index": 118,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:00:52.898432+00:00"
+    },
+    "motor-rock-torrinha-sp-2026-08-21": {
+      "index": 10,
+      "sources": 6,
+      "domains": 3,
+      "checked_at": "2026-07-26T09:44:52.541374+00:00"
+    },
+    "antigos-juranda-pr-2026-08-22": {
+      "index": 11,
+      "sources": 5,
+      "domains": 3,
+      "checked_at": "2026-07-26T09:44:55.735085+00:00"
+    },
+    "mc-eu-gata-e-cao-fiel-macae-rj-2026-08-22": {
+      "index": 124,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:07.403201+00:00"
+    },
+    "motorock-bertopolis-mg-2026-08-23": {
+      "index": 127,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:09.317056+00:00"
+    },
+    "cruz-de-ferro-mc-marica-rj-2026-08-23": {
+      "index": 128,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:10.098654+00:00"
+    },
+    "5-encontro-de-motociclistas-cravinhos-sp-2026-08-23": {
+      "index": 130,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:11.592055+00:00"
+    },
+    "motofest-maceio-al-2026-08-27": {
+      "index": 132,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:12.751184+00:00"
+    },
+    "motofest-alagoinhas-ba-2026-08-28": {
+      "index": 133,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:13.246412+00:00"
+    },
+    "motofest-juazeiro-do-norte-ce-2026-08-28": {
+      "index": 134,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:13.719748+00:00"
+    },
+    "motofest-araxa-mg-2026-08-28": {
+      "index": 135,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:14.204728+00:00"
+    },
+    "v-encontro-nacional-ijaci-mg-2026-08-28": {
+      "index": 136,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:14.907592+00:00"
+    },
+    "anjos-de-pedra-mg-itau-de-minas-mg-2026-08-28": {
+      "index": 1,
+      "sources": 4,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:45:41.873977+00:00"
+    },
+    "moto-fest-senador-amaral-mg-2026-08-28": {
+      "index": 137,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:15.612952+00:00"
+    },
+    "trike-brasil-mc-tri-vale-resende-rj-2026-08-28": {
+      "index": 138,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:16.319351+00:00"
+    },
+    "kardume-do-asfalto-mc-ubatuba-sp-2026-08-28": {
+      "index": 4,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:45:51.055190+00:00"
+    },
+    "nazarenos-mc-campinas-sp-2026-08-29": {
+      "index": 139,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:17.052296+00:00"
+    },
+    "2-motofest-vicosa-mg-2026-09-03": {
+      "index": 142,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:18.933531+00:00"
+    },
+    "santana-motofest-santana-do-ipanema-al-2026-09-04": {
+      "index": 143,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:19.629458+00:00"
+    },
+    "diamantina-motofest-2026-diamantina-mg-2026-09-04": {
+      "index": 145,
+      "sources": 1,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:21.094618+00:00"
+    },
+    "autoridade-mc-ubaporanga-mg-2026-09-04": {
+      "index": 146,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:21.827350+00:00"
+    },
+    "autoridade-mc-uboranga-mg-2026-09-04": {
+      "index": 10,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:46:08.338755+00:00"
+    },
+    "motofest-belo-jardim-pe-2026-09-04": {
+      "index": 147,
+      "sources": 1,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:22.313362+00:00"
+    },
+    "encontro-de-motociclistas-iguaba-grande-rj-2026-09-04": {
+      "index": 12,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:46:14.666698+00:00"
+    },
+    "motofest-iguaba-grande-rj-2026-09-04": {
+      "index": 149,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:23.551270+00:00"
+    },
+    "motofest-parelhas-rn-2026-09-04": {
+      "index": 151,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:24.851616+00:00"
+    },
+    "11-encontro-de-motociclistas-e-triciclistas-itarare-sp-2026-09-04": {
+      "index": 152,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:25.633624+00:00"
+    },
+    "encontro-nacional-v-strom-capitolio-mg-2026-09-05": {
+      "index": 16,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:46:26.443049+00:00"
+    },
+    "motofest-poco-fundo-mg-2026-09-05": {
+      "index": 154,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:26.799863+00:00"
+    },
+    "novo-amanha-me-limeira-sp-2026-09-05": {
+      "index": 155,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:27.553303+00:00"
+    },
+    "peaky-blinders-mg-terezinha-pe-2026-09-06": {
+      "index": 159,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:30.503297+00:00"
+    },
+    "mc-macae-macae-rj-2026-08-22": {
+      "index": 125,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:08.098826+00:00"
+    },
+    "lobos-do-asfalto-mc-jardim-america-rio-de-janeiro-rj-2026-09-06": {
+      "index": 161,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:42.980714+00:00"
+    },
+    "7-jere-moto-fest-jeremoabo-ba-2026-09-11": {
+      "index": 163,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:44.450708+00:00"
+    },
+    "12-encontro-de-motociclistas-crateus-ce-2026-09-11": {
+      "index": 165,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:45.929122+00:00"
+    },
+    "12-encontro-de-motociclistas-perdoes-mg-2026-09-11": {
+      "index": 167,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:47.471734+00:00"
+    },
+    "corvos-mc-perdoes-mg-2026-09-11": {
+      "index": 5,
+      "sources": 4,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:47:42.385298+00:00"
+    },
+    "cadaver-mc-mage-rj-2026-09-12": {
+      "index": 169,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:48.908912+00:00"
+    },
+    "niver-amparo-sp-2026-09-12": {
+      "index": 171,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:50.351475+00:00"
+    },
+    "uai-uberaba-mg-2026-09-13": {
+      "index": 172,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:51.092486+00:00"
+    },
+    "km-125-mc-campos-dos-goytacazes-rj-2026-09-18": {
+      "index": 176,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:53.912247+00:00"
+    },
+    "nostalgia-mc-caes-de-zorba-mc-santa-barbara-d-oeste-sp-2026-09-18": {
+      "index": 177,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:54.628076+00:00"
+    },
+    "macor-mc-sao-jose-dos-campos-sp-2026-09-19": {
+      "index": 11,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:48:00.211590+00:00"
+    },
+    "moto-casal-e-amigos-itaborai-rj-2026-09-20": {
+      "index": 181,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:57.504065+00:00"
+    },
+    "2-moto-cafe-paraguacu-paulista-sp-2026-09-20": {
+      "index": 182,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:58.236517+00:00"
+    },
+    "moto-cafe-santopolis-do-aguapei-sp-2026-09-20": {
+      "index": 183,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:58.966824+00:00"
+    },
+    "motocafe-santopolis-do-aguapei-sp-2026-09-20": {
+      "index": 15,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:48:11.865394+00:00"
+    },
+    "1-truck-fest-suzano-sp-2026-09-20": {
+      "index": 184,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:01:59.677489+00:00"
+    },
+    "frances-moto-fest-praia-do-frances-marechal-deodoro-al-2026-09-25": {
+      "index": 185,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:00.405727+00:00"
+    },
+    "motofest-petrolandia-pe-2026-09-25": {
+      "index": 187,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:01.612973+00:00"
+    },
+    "caveiras-do-asfalto-missao-velha-ce-2026-09-26": {
+      "index": 188,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:02.386890+00:00"
+    },
+    "sem-fronteiras-mg-santa-cruz-rj-2026-09-26": {
+      "index": 189,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:03.132099+00:00"
+    },
+    "black-eagle-mc-taquaritinga-sp-2026-09-27": {
+      "index": 1,
+      "sources": 4,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:48:56.521864+00:00"
+    },
+    "motofest-iacu-ba-2026-10-09": {
+      "index": 192,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:05.178379+00:00"
+    },
+    "trovoes-do-asfalto-mc-manhuacu-mg-2026-10-09": {
+      "index": 194,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:06.712155+00:00"
+    },
+    "moto-week-macae-rj-2026-10-09": {
+      "index": 195,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:07.406707+00:00"
+    },
+    "guardioes-mc-iacu-ba-2026-10-10": {
+      "index": 196,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:08.153323+00:00"
+    },
+    "lobos-mc-carlopolis-pr-2026-10-10": {
+      "index": 197,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:08.870150+00:00"
+    },
+    "motociata-dumont-sp-2026-10-12": {
+      "index": 204,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:22.782150+00:00"
+    },
+    "rock-chopper-mc-rio-das-ostras-rj-2026-10-17": {
+      "index": 207,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:24.957301+00:00"
+    },
+    "nacionaes-le-mc-boituva-sp-2026-10-17": {
+      "index": 9,
+      "sources": 4,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:49:21.925370+00:00"
+    },
+    "moiru-mc-bertioga-sp-2026-10-30": {
+      "index": 10,
+      "sources": 6,
+      "domains": 3,
+      "checked_at": "2026-07-26T09:49:24.818312+00:00"
+    },
+    "4-festival-da-pimenta-e-motorock-uru-sp-2026-10-30": {
+      "index": 212,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:28.731112+00:00"
+    },
+    "motorock-uru-sp-2026-10-30": {
+      "index": 12,
+      "sources": 1,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:49:30.945304+00:00"
+    },
+    "motofest-barreirinhas-ma-2026-11-06": {
+      "index": 215,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:30.514111+00:00"
+    },
+    "motofest-tombos-mg-2026-11-06": {
+      "index": 216,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:31.013310+00:00"
+    },
+    "9-encontro-de-motociclistas-e-triciclistas-lutecia-sp-2026-11-06": {
+      "index": 217,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:31.772997+00:00"
+    },
+    "9-encontro-de-motociclistas-e-triciclistas-lutecia-sp-2026-11-07": {
+      "index": 16,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:49:42.658823+00:00"
+    },
+    "motofest-inhapi-al-2026-11-13": {
+      "index": 221,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:34.413000+00:00"
+    },
+    "motofest-atilio-vivacqua-es-2026-11-13": {
+      "index": 222,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:34.896662+00:00"
+    },
+    "zapata-mc-ferraz-de-vasconcelos-sp-2026-11-14": {
+      "index": 19,
+      "sources": 4,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:49:51.496265+00:00"
+    },
+    "motofest-campina-grande-pb-2026-11-19": {
+      "index": 224,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:36.182323+00:00"
+    },
+    "resiliencia-mc-fervedouro-mg-2026-11-21": {
+      "index": 226,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:37.625130+00:00"
+    },
+    "cervejeiro-mg-rio-de-janeiro-rj-2026-11-21": {
+      "index": 2,
+      "sources": 3,
+      "domains": 2,
+      "checked_at": "2026-07-26T09:50:31.442615+00:00"
+    },
+    "moto-fest-lagoinha-sao-jose-do-rio-preto-sp-2026-11-21": {
+      "index": 227,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:38.368132+00:00"
+    },
+    "motofest-lagoinha-sao-jose-do-rio-preto-sp-2026-11-21": {
+      "index": 4,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T09:50:37.502228+00:00"
+    },
+    "motofest-uirauna-pb-2026-11-27": {
+      "index": 228,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:38.856355+00:00"
+    },
+    "motorock-pesqueira-pe-2026-11-27": {
+      "index": 229,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:39.349190+00:00"
+    },
+    "neblina-mc-peruibe-sp-2026-11-28": {
+      "index": 231,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:40.792509+00:00"
+    },
+    "salvador-moto-salvador-ba-2026-12-03": {
+      "index": 233,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:42.298400+00:00"
+    },
+    "motofest-divino-mg-2026-12-04": {
+      "index": 234,
+      "sources": 2,
+      "domains": 1,
+      "checked_at": "2026-07-26T10:02:42.808829+00:00"
+    }
+  },
+  "failures": {
+    "26-fmc-sp-cidade-patriarca-sao-paulo-sp-2026-07-25": {
+      "index": 38,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    "mc-cavalheiros-da-vila-delmiro-gouveia-al-2026-07-31": {
+      "index": 89,
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  }
+}

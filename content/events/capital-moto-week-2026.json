@@ -64,7 +64,7 @@
   "source_url": "https://www.capitalmotoweek.com.br/info",
   "source_label": "Informações gerais e mapa oficial do Capital Moto Week",
   "verification_status": "fonte_oficial_com_mapa_inspecionado",
-  "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
+  "source_checked_at": "2026-07-26T08:09:22.554428+00:00",
   "status_checked_at": "2026-07-26T01:15:00-04:00",
   "visual_verification": {
     "type": "mapa_oficial_do_complexo",
@@ -115,6 +115,15 @@
       "supports": "data e edição, local",
       "relevance_score": 25,
       "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://firesoulswebradio.com/evento/323227/de-2307-a-01082026-capital-moto-week-2026-brasilia-df",
+      "label": "23/07 09:00 DE 23/07 A 01/08/2026 - CAPITAL MOTO WEEK 2026 - BRASÍLIA- DF — registro específico na Fire Souls Web Radio",
+      "type": "fonte específica independente",
+      "supports": "data, horário inicial, cidade, identidade do evento e material visual",
+      "checked_at": "2026-07-26T08:09:22.554428+00:00",
+      "discovery_method": "cruzamento_estruturado_fire_souls",
+      "relevance_score": 100
     }
   ],
   "research_status": {
@@ -128,5 +137,16 @@
     ],
     "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
     "editorial_rule": "Dados confirmados por duas ou mais fontes específicas independentes."
-  }
+  },
+  "directory_matches": [
+    {
+      "url": "https://firesoulswebradio.com/evento/323227/de-2307-a-01082026-capital-moto-week-2026-brasilia-df/",
+      "score": 100,
+      "reasons": [
+        "data e cidade confirmadas",
+        "título integral identificado"
+      ],
+      "checked_at": "2026-07-26T08:09:22.554428+00:00"
+    }
+  ]
 }

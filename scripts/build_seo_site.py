@@ -381,7 +381,47 @@ def page_shell(
 def write_page(path: str, content: str) -> None:
     target = ROOT / path.strip("/") / "index.html"
     target.parent.mkdir(parents=True, exist_ok=True)
+    content = unicodedata.normalize("NFC", content)
+    content = "".join(
+        char for char in content
+        if unicodedata.category(char) != "Cf"
+    )
     target.write_text(content, encoding="utf-8", newline="\n")
+
+
+def write_event_aliases() -> int:
+    """Mantém rotas duplicadas acessíveis e aponta cada uma à página canônica."""
+    agenda_path = ROOT / "content/events/agenda-comunitaria-2026.json"
+    if not agenda_path.exists():
+        return 0
+    agenda = json.loads(read_text(agenda_path))
+    written = 0
+    for entry in agenda.get("entries", []):
+        alias = entry.get("slug")
+        canonical = entry.get("duplicate_of")
+        if not alias or not canonical or alias == canonical:
+            continue
+        target_url = f"/eventos/{canonical}/"
+        title = esc(entry.get("title") or "Evento")
+        output = f"""<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex,follow">
+  <meta name="description" content="Rota alternativa de {title}; acesse a página canônica completa e atualizada na TVDUASRODAS.">
+  <meta http-equiv="refresh" content="0; url={esc(target_url)}">
+  <link rel="canonical" href="{esc(absolute_url(target_url))}">
+  <title>{title} | TVDUASRODAS</title>
+</head>
+<body>
+  <h1>{title}</h1>
+  <p>Esta página foi consolidada. <a href="{esc(target_url)}">Acesse a versão completa e atualizada do evento</a>.</p>
+</body>
+</html>
+"""
+        write_page(f"/eventos/{alias}/", output)
+        written += 1
+    return written
 
 
 def card(item: dict[str, Any]) -> str:
@@ -1308,6 +1348,8 @@ def build() -> None:
                 "player": f"https://www.youtube.com/embed/{item['video_id']}",
             }
         manifest.append(manifest_item)
+
+    write_event_aliases()
 
     person_index: list[dict[str, Any]] = []
     for _, records in sorted(people.items(), key=lambda pair: pair[1][0]["name"]):

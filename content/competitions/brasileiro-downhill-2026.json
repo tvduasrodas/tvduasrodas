@@ -13,7 +13,7 @@
   "image_credit": "Imagem de arquivo MTB (2024): Alan Modesto / CBC · Arte: TVDUASRODAS",
   "featured": false,
   "summary": "Campeonato nacional de Downhill em andamento no Parque das Águas Salutaris, em Paraíba do Sul, com treinos em 24 de julho, tomada de tempo no sábado e finais no domingo.",
-  "last_updated": "2026-07-26T07:34:37.414943+00:00",
+  "last_updated": "2026-07-26T09:27:24.911655+00:00",
   "next_stage": {
     "name": "Campeonato Brasileiro de Downhill 2026",
     "start_date": "2026-07-24",
@@ -92,20 +92,31 @@
       "label": "Resultados oficiais",
       "type": "fonte primária ou canal oficial",
       "supports": "dados de agenda, identificação e situação do evento"
+    },
+    {
+      "url": "https://www.ilhabela.sp.gov.br/portal/noticias/0/3/17596/atletas-de-ilhabela-conquistam-titulos-na-segunda-etapa-do-campeonato-paulista-de-downhill-com-apoio-da-prefeitura",
+      "label": "Prefeitura de Ilhabela confirma atletas no Brasileiro de Downhill em Paraíba do Sul",
+      "type": "fonte institucional pública independente",
+      "supports": "mês, cidade, caráter nacional e atletas participantes",
+      "checked_at": "2026-07-26T08:24:10.868750+00:00",
+      "discovery_method": "auditoria_editorial_manual_multifonte"
+    },
+    {
+      "url": "https://www.cbc.esp.br/modalidades/evento/id/1352",
+      "label": "CBC — página específica do Brasileiro de Downhill 2026",
+      "type": "fonte primária da entidade esportiva",
+      "supports": "datas, pista, desnível, programação, regulamento e inscrições",
+      "checked_at": "2026-07-26T08:24:10.868750+00:00",
+      "discovery_method": "auditoria_editorial_manual_multifonte"
     }
   ],
-  "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
+  "source_checked_at": "2026-07-26T09:27:24.911655+00:00",
   "research_status": {
     "required_specific_independent_sources": 2,
-    "specific_independent_domains_found": 1,
-    "status": "segunda_fonte_nao_localizada_apos_pesquisa_exaustiva",
-    "attempts": [
-      "busca por título exato, cidade, UF e ano",
-      "busca ampliada por programação, organizador, prefeitura e imprensa local",
-      "busca visual/social em Instagram, Facebook e YouTube"
-    ],
-    "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
-    "editorial_rule": "Página mantida ativa, sem inventar serviço; prioridade diária até surgir uma segunda fonte específica."
+    "specific_independent_domains_found": 2,
+    "status": "fontes_cruzadas",
+    "reviewed_at": "2026-07-26T09:27:24.911655+00:00",
+    "editorial_rule": "Resultados e serviço cruzados com fonte esportiva primária e fonte externa específica."
   },
   "classification_status": {
     "status": "aguardando_publicacao_oficial",

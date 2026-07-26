@@ -14,7 +14,7 @@
   "image_credit": "Foto de arquivo (2024): Alan Modesto / CBC · Arte: TVDUASRODAS",
   "featured": false,
   "summary": "Cobertura integral das 34 classificações oficiais: resultados completos do XCE e do XCC já publicados; as 30 categorias do XCO estão identificadas e aguardam os documentos oficiais da CBC.",
-  "last_updated": "2026-07-26T07:34:37.414943+00:00",
+  "last_updated": "2026-07-26T09:27:24.911655+00:00",
   "next_stage": {
     "name": "Campeonato Brasileiro MTB XCO/XCC/XCE",
     "start_date": "2026-07-23",
@@ -520,20 +520,31 @@
       "label": "Resultados oficiais",
       "type": "fonte primária ou canal oficial",
       "supports": "dados de agenda, identificação e situação do evento"
+    },
+    {
+      "url": "https://www.planetadabike.com/single-post/campeonato-brasileiro-de-mtb-2026-ter%C3%A1-exposi%C3%A7%C3%A3o-dos-lan%C3%A7amentos-da-cannondale",
+      "label": "Planeta da Bike confirma o Brasileiro MTB 2026 no Mobai Bike Land",
+      "type": "cobertura jornalística especializada",
+      "supports": "datas, sede, importância, público e ativação de marca",
+      "checked_at": "2026-07-26T08:24:10.868750+00:00",
+      "discovery_method": "auditoria_editorial_manual_multifonte"
+    },
+    {
+      "url": "https://www.cbc.esp.br/modalidades/evento/busca//id/1344",
+      "label": "CBC — página específica do Brasileiro MTB XCO/XCC/XCE 2026",
+      "type": "fonte primária da entidade esportiva",
+      "supports": "datas, sede, modalidades, regulamento e inscrições",
+      "checked_at": "2026-07-26T08:24:10.868750+00:00",
+      "discovery_method": "auditoria_editorial_manual_multifonte"
     }
   ],
-  "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
+  "source_checked_at": "2026-07-26T09:27:24.911655+00:00",
   "research_status": {
     "required_specific_independent_sources": 2,
-    "specific_independent_domains_found": 1,
-    "status": "segunda_fonte_nao_localizada_apos_pesquisa_exaustiva",
-    "attempts": [
-      "busca por título exato, cidade, UF e ano",
-      "busca ampliada por programação, organizador, prefeitura e imprensa local",
-      "busca visual/social em Instagram, Facebook e YouTube"
-    ],
-    "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
-    "editorial_rule": "Página mantida ativa, sem inventar serviço; prioridade diária até surgir uma segunda fonte específica."
+    "specific_independent_domains_found": 2,
+    "status": "fontes_cruzadas",
+    "reviewed_at": "2026-07-26T09:27:24.911655+00:00",
+    "editorial_rule": "Resultados e serviço cruzados com fonte esportiva primária e fonte externa específica."
   },
   "classification_status": {
     "status": "publicada",

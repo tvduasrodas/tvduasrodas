@@ -1051,14 +1051,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://tvduasrodas.com/eventos/aguais-da-liberdade-mc-conselheiro-lafaiete-mg-2026-07-25/</loc>
-    <lastmod>2026-07-26</lastmod>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://tvduasrodas.com/eventos/aguias-da-liberdade-mc-conselheiro-lafaiete-mg-2026-07-25/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
@@ -1291,14 +1283,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://tvduasrodas.com/eventos/karangos-e-motocas-mc-duque-de-caxias-mg-2026-07-26/</loc>
-    <lastmod>2026-07-26</lastmod>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://tvduasrodas.com/eventos/escorpioes-do-horizonte-mc-fortuna-de-minas-mg-2026-07-26/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
@@ -1356,6 +1340,14 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/eventos/serra-branca-mc-sume-pb-2026-07-26/</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/eventos/karangos-e-motocas-mc-duque-de-caxias-rj-2026-07-26/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
     <image:image>
@@ -1659,22 +1651,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://tvduasrodas.com/eventos/7-encontro-de-moticiclistas-e-triciclistas-oliveira-fortes-mg-2026-07-31/</loc>
-    <lastmod>2026-07-26</lastmod>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://tvduasrodas.com/eventos/7-encontro-de-motociclistas-oliveira-fortes-mg-2026-07-31/</loc>
-    <lastmod>2026-07-26</lastmod>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://tvduasrodas.com/eventos/7-encontro-de-motociclistas-e-triciclistas-oliveira-fortes-mg-2026-07-31/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
@@ -1764,14 +1740,6 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/eventos/bikefest-santa-maria-madalena-rj-2026-07-31/</loc>
-    <lastmod>2026-07-26</lastmod>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://tvduasrodas.com/eventos/guardioes-de-raul-mc-sumidouro-rj-2026-07-31/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
     <image:image>
@@ -1884,14 +1852,6 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/eventos/motorock-lavras-mg-2026-08-01/</loc>
-    <lastmod>2026-07-26</lastmod>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://tvduasrodas.com/eventos/2-encontro-de-motocicilstas-lavras-novas-mg-2026-08-01/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
     <image:image>
@@ -2139,14 +2099,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://tvduasrodas.com/eventos/motofest-simonesia-go-2026-08-07/</loc>
-    <lastmod>2026-07-26</lastmod>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://tvduasrodas.com/eventos/motofest-caete-mg-2026-08-07/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
@@ -2179,7 +2131,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://tvduasrodas.com/eventos/moto-festival-pocos-de-caldas-mg-2026-08-07/</loc>
+    <loc>https://tvduasrodas.com/eventos/4-encontro-de-motociclistas-simonesia-mg-2026-08-07/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
     <image:image>
@@ -2187,7 +2139,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://tvduasrodas.com/eventos/4-encontro-de-motociclistas-simonesia-mg-2026-08-07/</loc>
+    <loc>https://tvduasrodas.com/eventos/motofest-simonesia-mg-2026-08-07/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
     <image:image>
@@ -2323,14 +2275,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://tvduasrodas.com/eventos/jaguar-negro-mc-the-steel-skulls-mc-belo-horizonte-mg-2026-08-08/</loc>
-    <lastmod>2026-07-26</lastmod>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://tvduasrodas.com/eventos/terapia-na-estrada-macae-rj-2026-08-08/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
@@ -2420,14 +2364,6 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/eventos/irmaos-do-vento-vinhedo-sp-2026-08-08/</loc>
-    <lastmod>2026-07-26</lastmod>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://tvduasrodas.com/eventos/mundicas-o-chamado-da-estrada-nova-pauliceia-sp-2026-08-09/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
     <image:image>
@@ -2603,14 +2539,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://tvduasrodas.com/eventos/aguais-de-cristo-mc-belo-horizonte-mg-2026-08-15/</loc>
-    <lastmod>2026-07-26</lastmod>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://tvduasrodas.com/eventos/aguias-de-cristo-mc-belo-horizonte-mg-2026-08-15/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
@@ -2628,14 +2556,6 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/eventos/12-acampamento-nacional-rat-bike-do-brasil-jeceaba-mg-2026-08-15/</loc>
-    <lastmod>2026-07-26</lastmod>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://tvduasrodas.com/eventos/rat-bike-brasil-jeceaba-mg-2026-08-15/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
     <image:image>
@@ -2675,14 +2595,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://tvduasrodas.com/eventos/cavaleiros-sem-rumo-campos-dos-goytacazes-rj-2026-08-15/</loc>
-    <lastmod>2026-07-26</lastmod>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://tvduasrodas.com/eventos/cavaleiros-sem-rumo-mc-campos-dos-goytacazes-rj-2026-08-15/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
@@ -2715,14 +2627,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://tvduasrodas.com/eventos/garras-sobre-rodas-rio-de-janeiro-rj-2026-08-15/</loc>
-    <lastmod>2026-07-26</lastmod>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://tvduasrodas.com/eventos/garras-sobre-rodas-mc-rio-de-janeiro-rj-2026-08-15/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
@@ -2732,14 +2636,6 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/eventos/5-praia-rock-chopper-mc-saquarema-rj-2026-08-15/</loc>
-    <lastmod>2026-07-26</lastmod>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://tvduasrodas.com/eventos/rock-chopper-mc-saquarema-rj-2026-08-15/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
     <image:image>
@@ -3155,14 +3051,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://tvduasrodas.com/eventos/amigos-na-estrada-mc-sao-jose-do-vale-rio-preto-rj-2026-08-23/</loc>
-    <lastmod>2026-07-26</lastmod>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://tvduasrodas.com/eventos/5-encontro-de-motociclistas-cravinhos-sp-2026-08-23/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
@@ -3499,14 +3387,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://tvduasrodas.com/eventos/autoridade-mc-uboranga-mg-2026-09-04/</loc>
-    <lastmod>2026-07-26</lastmod>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://tvduasrodas.com/eventos/motofest-belo-jardim-pe-2026-09-04/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
@@ -3524,14 +3404,6 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/eventos/caveiras-de-fogo-mc-cachoeiras-de-macacu-rj-2026-09-04/</loc>
-    <lastmod>2026-07-26</lastmod>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://tvduasrodas.com/eventos/encontro-de-motociclistas-iguaba-grande-rj-2026-09-04/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
     <image:image>
@@ -3795,14 +3667,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://tvduasrodas.com/eventos/7-encontro-nacional-fama-mg-2026-09-11/</loc>
-    <lastmod>2026-07-26</lastmod>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://tvduasrodas.com/eventos/7-encontro-nacional-de-motociclistas-fama-mg-2026-09-11/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
@@ -3972,14 +3836,6 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/eventos/mc-os-mamutes-e-road-rhino-mc-rio-de-janeiro-rj-2026-09-13/</loc>
-    <lastmod>2026-07-26</lastmod>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://tvduasrodas.com/eventos/os-mutantes-mc-e-road-rhino-mc-rio-de-janeiro-rj-2026-09-13/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
     <image:image>
@@ -4235,14 +4091,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://tvduasrodas.com/eventos/motocafe-santopolis-do-aguapei-sp-2026-09-20/</loc>
-    <lastmod>2026-07-26</lastmod>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://tvduasrodas.com/eventos/1-truck-fest-suzano-sp-2026-09-20/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
@@ -4308,14 +4156,6 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/eventos/bohemios-mc-boraceia-sp-2026-09-25/</loc>
-    <lastmod>2026-07-26</lastmod>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://tvduasrodas.com/eventos/tiao-e-deja-pirassununga-sp-2026-09-25/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
     <image:image>
@@ -4532,22 +4372,6 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/eventos/classicos-estradeiros-mg-rio-de-janeiro-rj-2026-10-11/</loc>
-    <lastmod>2026-07-26</lastmod>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://tvduasrodas.com/eventos/classicos-estraderios-mg-rio-de-janeiro-rj-2026-10-11/</loc>
-    <lastmod>2026-07-26</lastmod>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://tvduasrodas.com/eventos/classics-estradeiros-mg-rio-de-janeiro-rj-2026-10-11/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
     <image:image>
@@ -4779,14 +4603,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://tvduasrodas.com/eventos/motorock-uru-sp-2026-10-30/</loc>
-    <lastmod>2026-07-26</lastmod>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://tvduasrodas.com/eventos/mc-terroristas-do-asfalto-campo-belo-mg-2026-10-31/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
@@ -4811,14 +4627,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://tvduasrodas.com/eventos/mc-ponta-negra-marica-rj-2026-10-31/</loc>
-    <lastmod>2026-07-26</lastmod>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://tvduasrodas.com/eventos/motofest-barreirinhas-ma-2026-11-06/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
@@ -4836,14 +4644,6 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/eventos/9-encontro-de-motociclistas-e-triciclistas-lutecia-sp-2026-11-06/</loc>
-    <lastmod>2026-07-26</lastmod>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://tvduasrodas.com/eventos/9-encontro-de-motociclistas-e-triciclistas-lutecia-sp-2026-11-07/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
     <image:image>
@@ -5059,14 +4859,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://tvduasrodas.com/eventos/motofest-lagoinha-sao-jose-do-rio-preto-sp-2026-11-21/</loc>
-    <lastmod>2026-07-26</lastmod>
-    <priority>0.7</priority>
-    <image:image>
-      <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
-    </image:image>
-  </url>
-  <url>
     <loc>https://tvduasrodas.com/eventos/motofest-uirauna-pb-2026-11-27/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
@@ -5195,7 +4987,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://tvduasrodas.com/eventos/circuito-do-estreito-2026-08-22/</loc>
+    <loc>https://tvduasrodas.com/eventos/circuito-do-estreito-2026-11-29/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
     <image:image>
@@ -5211,7 +5003,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://tvduasrodas.com/eventos/campeonato-sulbrasileiro-de-bmx-2026-08-23/</loc>
+    <loc>https://tvduasrodas.com/eventos/campeonato-sulbrasileiro-de-bmx-2026-08-22/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
     <image:image>

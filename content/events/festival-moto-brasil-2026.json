@@ -37,20 +37,14 @@
   "source_url": "https://www.fmotobrasil.com.br/",
   "source_label": "Site oficial do Festival Moto Brasil e agenda oficial do Riocentro",
   "verification_status": "fontes_oficiais_com_artes_inspecionadas",
-  "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
+  "source_checked_at": "2026-07-26T08:05:18.489319+00:00",
   "status_checked_at": "2026-07-26T01:15:00-04:00",
   "visual_verification": {
-    "type": "sites_oficiais_do_evento_e_local",
-    "source_url": "https://riocentro.com.br/",
-    "checked_at": "2026-07-26T01:15:00-04:00",
-    "confirmed_fields": [
-      "dates",
-      "venue",
-      "pavilion",
-      "address",
-      "parking_capacity",
-      "event_scale"
-    ]
+    "status": "material visual localizado e associado por data, cidade e identidade",
+    "detail_url": "https://motofestbrasil.com.br/motofest/14-festival-moto-brasil-2026",
+    "image_url": "['https://storage.googleapis.com/vuefirebase-c671b.firebasestorage.app/media/ClbrZJepw8XjyRy9u31m9OPakJ02/1783445741497_motobrasil.jpg?GoogleAccessId=firebase-adminsdk-6ypje%40vuefirebase-c671b.iam.gserviceaccount.com&Expires=16725225600&Signature=CbmSVfyGomMqlQgqaxr75Qx3cn4QxT60V3%2F7cL1aCIkzdVM31x2qtMR9HyXKZw7sWBJ38Nj%2FhRWSKiIQKlAMxwsTysQbKd8IomwbvkOXc7E8zKSR8wI3jemODZ9t0DJHNo40GdCNjkq2fBx9YTfOmwOXy9WSjbymFKEFlgw1IqyysD6drERKcx6l3O526qN9O0LU0sg7BcpPR1v0StN0LIebIsb00UAJOYB0Lq9MnhAyqFSon9LT5qklKH1OsnXeiLvS4mRxouVwT8RRtVQ4p4Sk7UI%2FNTPX4K%2BF9WffVL9XjUSLJOI%2BCb6ghFQm93i4gQqPe2cJJ3ML4q0RG595iw%3D%3D']",
+    "checked_at": "2026-07-26T08:05:18.489319+00:00",
+    "method": "imagem e descrição pública do registro específico"
   },
   "sources": [
     {
@@ -112,6 +106,15 @@
       "supports": "data e edição, inscrições e acesso",
       "relevance_score": 19,
       "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://motofestbrasil.com.br/motofest/14-festival-moto-brasil-2026",
+      "label": "14º Festival Moto Brasil — página específica no Motofest Brasil",
+      "type": "fonte específica independente",
+      "supports": "data e edição, cidade e local, programação e atrações, organização e canais, evidência visual",
+      "checked_at": "2026-07-26T08:05:18.489319+00:00",
+      "discovery_method": "cruzamento_estruturado_motofestbrasil",
+      "relevance_score": 100
     }
   ],
   "research_status": {
@@ -125,5 +128,15 @@
     ],
     "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
     "editorial_rule": "Dados confirmados por duas ou mais fontes específicas independentes."
+  },
+  "motofestbrasil_match": {
+    "url": "https://motofestbrasil.com.br/motofest/14-festival-moto-brasil-2026",
+    "score": 100,
+    "reasons": [
+      "data dentro do período",
+      "cidade confirmada",
+      "título identificado no registro ou material visual"
+    ],
+    "checked_at": "2026-07-26T08:05:18.489319+00:00"
   }
 }
