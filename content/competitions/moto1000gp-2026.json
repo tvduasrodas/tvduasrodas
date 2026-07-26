@@ -13,15 +13,15 @@
   "image_credit": "Foto: MOTO1000GP / divulgação · Arte: TVDUASRODAS",
   "featured": true,
   "summary": "O Brasileiro de Motovelocidade percorre os principais autódromos do país em oito etapas; Maxi Scheib lidera a GP1000 após três rodadas em 2026.",
-  "last_updated": "2026-07-26T07:34:37.414943+00:00",
+  "last_updated": "2026-07-26T21:01:25+00:00",
   "next_stage": {
     "name": "4ª etapa",
-    "start_date": "2026-08-02",
+    "start_date": "2026-07-31",
     "end_date": "2026-08-02",
     "venue": "Autódromo Internacional Zilmar Beux",
     "city": "Cascavel",
     "state": "PR",
-    "note": ""
+    "note": "Programação do GP Paraná de 31 de julho a 2 de agosto; as corridas principais estão marcadas para domingo."
   },
   "categories": [
     "GP1000",
@@ -638,7 +638,7 @@
     },
     {
       "order": 4,
-      "start_date": "2026-08-02",
+      "start_date": "2026-07-31",
       "end_date": "2026-08-02",
       "name": "4ª etapa",
       "location": "Cascavel, PR",
@@ -719,7 +719,7 @@
       "discovery_method": "busca_editorial_indexada"
     }
   ],
-  "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
+  "source_checked_at": "2026-07-26T21:01:25+00:00",
   "research_status": {
     "required_specific_independent_sources": 2,
     "specific_independent_domains_found": 3,
