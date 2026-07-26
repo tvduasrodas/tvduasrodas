@@ -1,13 +1,13 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-07-26T20:26:19.913983+00:00",
+  "generated_at": "2026-07-26T21:08:30.402067+00:00",
   "scope": "Matérias presentes no Google News sitemap das últimas 48 horas",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-07-26T20:25:54.150Z",
+      "last_submitted": "2026-07-26T21:08:04.742Z",
       "last_downloaded": "2026-07-26T20:25:55.132Z",
-      "pending": false,
+      "pending": true,
       "warnings": 0,
       "errors": 0,
       "discovered": 8,
@@ -27,8 +27,8 @@
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-07-26T20:25:53.878Z",
-      "last_downloaded": "2026-07-26T20:25:54.622Z",
+      "last_submitted": "2026-07-26T21:08:04.670Z",
+      "last_downloaded": "2026-07-26T21:08:05.518Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -75,7 +75,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-26T20:26:00.621080+00:00"
+      "inspected_at": "2026-07-26T21:08:10.948351+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/bicicleta-na-rua-posicao-portas-visibilidade/",
@@ -92,7 +92,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-26T20:26:06.992962+00:00"
+      "inspected_at": "2026-07-26T21:08:17.284802+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/estrada-aberta-25-07-2026-ritmo-planejamento/",
@@ -104,12 +104,9 @@
       "last_crawl_time": "2026-07-26T20:00:01Z",
       "google_canonical": "https://tvduasrodas.com/materias/estrada-aberta-25-07-2026-ritmo-planejamento/",
       "user_canonical": "https://tvduasrodas.com/materias/estrada-aberta-25-07-2026-ritmo-planejamento/",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-07-26T20:26:13.451112+00:00"
+      "inspected_at": "2026-07-26T21:08:23.911184+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/parada-segura-moto-viagem-como-planejar/",
@@ -126,7 +123,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-26T20:26:19.826449+00:00"
+      "inspected_at": "2026-07-26T21:08:30.261016+00:00"
     }
   ]
 }
