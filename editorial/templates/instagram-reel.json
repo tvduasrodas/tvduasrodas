@@ -1,0 +1,51 @@
+{
+  "content_url": "https://tvduasrodas.com/materias/slug-da-publicacao/",
+  "rights_verified": true,
+  "scenes": [
+    {
+      "image": "../../assets/img/uploads/foto-01.webp",
+      "focus": [0.5, 0.5],
+      "context": "NOME DO EVENTO",
+      "title": "TÍTULO DA CENA",
+      "detail": "Informação curta, factual e legível",
+      "credit": "Organização / divulgação",
+      "source_url": "https://fonte-oficial.example/foto-01"
+    },
+    {
+      "image": "../../assets/img/uploads/foto-02.webp",
+      "focus": [0.5, 0.5],
+      "context": "SEGUNDO MOMENTO",
+      "title": "OUTRO TÍTULO",
+      "detail": "Cada cena precisa usar uma fotografia realmente diferente",
+      "credit": "Organização / divulgação",
+      "source_url": "https://fonte-oficial.example/foto-02"
+    },
+    {
+      "image": "../../assets/img/uploads/foto-03.webp",
+      "focus": [0.5, 0.5],
+      "context": "TERCEIRO MOMENTO",
+      "title": "INFORMAÇÃO PRINCIPAL",
+      "detail": "Manter o texto fora do assunto central da fotografia",
+      "credit": "Organização / divulgação",
+      "source_url": "https://fonte-oficial.example/foto-03"
+    },
+    {
+      "image": "../../assets/img/uploads/foto-04.webp",
+      "focus": [0.5, 0.5],
+      "context": "QUARTO MOMENTO",
+      "title": "DESTAQUE VISUAL",
+      "detail": "Usar fontes oficiais e registrar os direitos",
+      "credit": "Organização / divulgação",
+      "source_url": "https://fonte-oficial.example/foto-04"
+    },
+    {
+      "image": "../../assets/img/uploads/foto-05.webp",
+      "focus": [0.5, 0.5],
+      "context": "COBERTURA TVDUASRODAS",
+      "title": "VEJA A MATÉRIA",
+      "detail": "Acesse TVDUASRODAS.COM",
+      "credit": "Organização / divulgação",
+      "source_url": "https://fonte-oficial.example/foto-05"
+    }
+  ]
+}

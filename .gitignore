@@ -1,8 +1,14 @@
 # Pacotes editoriais locais aguardando revisão; não publicar no site.
 editorial/drafts/
 
+# Protótipos visuais locais aguardando aprovação; não publicar no repositório.
+output/instagram/design-review/
+
 # Dependências locais usadas apenas pelos geradores de mídia.
 .python-deps/
 .reel-deps/
 .social-build-deps/
 .social-deps/
+
+# Cache local do Python.
+__pycache__/
