@@ -10,12 +10,15 @@ on:
       - "robots.txt"
       - "scripts/update_sitemap.py"
       - "scripts/search_console_sync.py"
+      - "requirements-search-console.txt"
+      - ".github/workflows/search-console.yml"
   schedule:
     - cron: "15 11 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
+  id-token: write
 
 concurrency:
   group: search-console-main
@@ -38,27 +41,18 @@ jobs:
       - name: Instalar integração do Search Console
         run: pip install -r requirements-search-console.txt
 
+      - name: Autenticar no Google Cloud sem chave
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: projects/67106089723/locations/global/workloadIdentityPools/github-actions-tvduasrodas/providers/github-tvduasrodas
+          service_account: tvduasrodas-search-console@involuted-reach-503620-p8.iam.gserviceaccount.com
+
       - name: Atualizar e validar sitemaps
         run: |
           python scripts/update_sitemap.py
           python scripts/update_sitemap.py --check
 
-      - name: Confirmar credencial configurada
-        id: credentials
-        env:
-          GOOGLE_SEARCH_CONSOLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SEARCH_CONSOLE_SERVICE_ACCOUNT_JSON }}
-        run: |
-          if [ -z "$GOOGLE_SEARCH_CONSOLE_SERVICE_ACCOUNT_JSON" ]; then
-            echo "::warning::Envio ao Search Console aguardando a ativação única da credencial."
-            echo "enabled=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "enabled=true" >> "$GITHUB_OUTPUT"
-          fi
-
       - name: Enviar sitemaps e atualizar painel
-        if: steps.credentials.outputs.enabled == 'true'
-        env:
-          GOOGLE_SEARCH_CONSOLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SEARCH_CONSOLE_SERVICE_ACCOUNT_JSON }}
         run: python scripts/search_console_sync.py --submit --inspect-recent
 
       - name: Publicar atualização do painel

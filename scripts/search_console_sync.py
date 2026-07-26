@@ -30,6 +30,7 @@ SCOPE = "https://www.googleapis.com/auth/webmasters"
 
 def load_google_session():
     try:
+        import google.auth
         from google.auth.transport.requests import AuthorizedSession
         from google.oauth2 import service_account
     except ImportError as exc:
@@ -57,9 +58,8 @@ def load_google_session():
             scopes=[SCOPE],
         )
     else:
-        raise SystemExit(
-            "Defina GOOGLE_SEARCH_CONSOLE_SERVICE_ACCOUNT_JSON ou "
-            "GOOGLE_SEARCH_CONSOLE_CREDENTIALS_FILE."
+        credentials, _ = google.auth.default(
+            scopes=[SCOPE],
         )
     return AuthorizedSession(credentials)
 
