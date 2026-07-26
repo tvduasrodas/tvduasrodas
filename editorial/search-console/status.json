@@ -1,12 +1,12 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-07-26T21:35:53.504460+00:00",
+  "generated_at": "2026-07-26T23:08:57.722992+00:00",
   "scope": "Matérias presentes no Google News sitemap das últimas 48 horas",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-07-26T21:35:28.087Z",
-      "last_downloaded": "2026-07-26T21:35:29.453Z",
+      "last_submitted": "2026-07-26T23:08:32.691Z",
+      "last_downloaded": "2026-07-26T23:08:33.867Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -27,8 +27,8 @@
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-07-26T21:35:28.007Z",
-      "last_downloaded": "2026-07-26T21:35:29.010Z",
+      "last_submitted": "2026-07-26T23:08:32.599Z",
+      "last_downloaded": "2026-07-26T23:08:33.752Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -75,7 +75,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-26T21:35:34.444428+00:00"
+      "inspected_at": "2026-07-26T23:08:39.148579+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/bicicleta-na-rua-posicao-portas-visibilidade/",
@@ -92,7 +92,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-26T21:35:40.814135+00:00"
+      "inspected_at": "2026-07-26T23:08:45.295297+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/estrada-aberta-25-07-2026-ritmo-planejamento/",
@@ -109,7 +109,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-26T21:35:47.104991+00:00"
+      "inspected_at": "2026-07-26T23:08:51.473731+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/parada-segura-moto-viagem-como-planejar/",
@@ -126,7 +126,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-26T21:35:53.422964+00:00"
+      "inspected_at": "2026-07-26T23:08:57.633121+00:00"
     }
   ]
 }
