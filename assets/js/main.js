@@ -543,9 +543,23 @@ function renderMagazineHero(article) {
     const readMoreEl = document.getElementById("revistaHeroReadMore");
 
     const url = `/materias/${cleanContentSlug(article.slug)}/`;
+    const isProgram = article.contentType === "program";
+    const programSchedule = {
+        "role-de-rua": "Segundas e quintas",
+        "garage-tech": "Quartas",
+        "estrada-aberta": "Sábados",
+        "electric-zone": "Domingos",
+    }[article.program] || "Programa semanal";
+
+    hero.classList.toggle("revista-hero--program", isProgram);
+    hero.dataset.contentType = article.contentType || "article";
+    hero.dataset.program = article.program || "";
 
     if (linkEl) linkEl.href = url;
-    if (readMoreEl) readMoreEl.href = url;
+    if (readMoreEl) {
+        readMoreEl.href = url;
+        readMoreEl.textContent = isProgram ? "Abrir edição →" : "Ler matéria →";
+    }
 
     if (titleEl) {
         titleEl.href = url;
@@ -553,7 +567,9 @@ function renderMagazineHero(article) {
     }
 
     if (catEl) {
-        catEl.textContent = article.categoryRaw || "Matéria";
+        catEl.textContent = isProgram
+            ? `${article.programLabel || "Programa"} • ${programSchedule} • edição semanal`
+            : article.categoryRaw || "Matéria";
     }
 
     if (excerptEl) {

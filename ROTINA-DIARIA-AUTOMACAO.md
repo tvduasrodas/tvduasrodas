@@ -313,6 +313,34 @@ Os programas funcionam como edições especiais em texto e fotos, publicadas sep
 - **Estrada Aberta:** sábados — rotas, turismo, preparação, segurança e histórias de viagem.
 - **Electric Zone:** domingos — veículos elétricos, baterias, recarga, eletrônica, infraestrutura e mobilidade limpa.
 
+### Formato soberano do Electric Zone
+
+O **Electric Zone** é o programa técnico e educativo da TVDUASRODAS dedicado a veículos, componentes, dispositivos e acessórios elétricos ligados a motos, scooters, bicicletas, ciclomotores, mobilidade urbana e ao trabalho sobre duas rodas. Cada domingo deve apresentar uma descoberta nova e útil, com profundidade suficiente para que o leitor compreenda o sistema, avalie uma compra, reconheça sintomas e converse melhor com um profissional. O programa não é uma coleção de dicas genéricas de segurança.
+
+Cada edição deve escolher **um objeto técnico central** — veículo, componente, módulo, ferramenta, carregador, conector, sensor, controlador, bateria, motor, conversor, acessório ou gadget — que ainda não tenha sido tratado com o mesmo recorte. Antes de produzir, comparar a pauta com todo o acervo do programa, registrar o que é realmente novo e evitar repetir título, explicação, exemplos, fotografias ou estrutura da edição anterior.
+
+A edição deve conter, quando aplicável:
+
+1. **Descoberta inicial:** uma situação humana ou sintoma reconhecível que revele por que o objeto importa para motociclistas, ciclistas, entregadores, oficinas, frotas ou usuários urbanos.
+2. **Mapa do sistema:** diagrama original mostrando entrada, saída, conexões, proteções e relação do objeto com o restante do veículo.
+3. **Princípio de funcionamento:** explicação acessível, tecnicamente correta e progressiva; termos técnicos devem ser definidos no primeiro uso.
+4. **Ficha técnica comentada:** tensão, corrente, potência, eficiência, materiais, dimensões, interfaces, protocolos, proteção ambiental, temperatura, certificações e demais parâmetros relevantes, sempre explicando a consequência prática de cada número.
+5. **Modelos e compatibilidade:** diferenças entre famílias, versões, anos, conectores e arquiteturas; nunca chamar uma peça de universal apenas porque duas tensões coincidem.
+6. **Benefícios e limites:** o que o dispositivo resolve, o que não resolve e quais compromissos de custo, peso, autonomia, calor, durabilidade ou manutenção ele cria.
+7. **Cuidados e manutenção:** inspeção, limpeza, armazenamento, sinais de desgaste e periodicidade, sem preencher a edição com conselhos genéricos.
+8. **Diagnóstico orientado por sintomas:** sequência lógica de verificações, instrumentos necessários e critérios que diferenciem falha do componente, alimentação, chicote, comando e carga.
+9. **Reparabilidade:** separar claramente o que o usuário pode verificar, o que uma oficina pode reparar e o que exige substituição, laboratório, isolamento ou assistência autorizada. Alta tensão, freios, estrutura e sistemas críticos sempre recebem limite profissional explícito.
+10. **Como e onde comprar:** fabricante, concessionário, assistência, distribuidores técnicos, critérios contra falsificação, documentos a exigir e perguntas a fazer. Preço ou estoque só podem ser publicados após verificação atual.
+11. **Conexão vertical:** pelo menos uma informação útil ligada ao tema, mas além do próprio objeto — infraestrutura urbana, pontos de recarga, rotina de motoboys, gestão de frota, logística reversa, ferramentas comunitárias, custo de energia, legislação, cursos, mapas ou serviços especializados.
+12. **Aplicação coletiva:** mostrar como uma comunidade, oficina, associação ou grupo profissional pode padronizar, compartilhar, medir ou aprender com aquele conhecimento.
+13. **Síntese de descoberta:** encerrar com três ou mais fatos que o leitor provavelmente não sabia antes da edição, sem repetir um checklist vazio.
+
+Toda edição deve usar no mínimo duas fontes técnicas primárias ou oficiais, confrontar manuais de veículo com documentação do componente e distinguir dado do fabricante, cálculo editorial e exemplo hipotético. A pauta deve ter capa inédita e pelo menos duas imagens internas inéditas quando houver material adequado, incluindo obrigatoriamente um diagrama ou esquema original quando o assunto envolver fluxo de energia, sinal, montagem ou diagnóstico. Fotografias oficiais são prioritárias; ilustrações por IA só podem ser usadas quando não houver material oficial adequado e devem ser identificadas sem sugerir modelo, instalação ou ocorrência real.
+
+O card do programa é parte obrigatória da publicação. Na Revista, a edição precisa manter a identidade visual de **Electric Zone** mesmo quando for escolhida como destaque principal: selo de programa, nome da série, domingo e indicação de edição semanal devem permanecer visíveis. Nenhuma edição pode aparecer como card comum apenas porque ocupa a posição de destaque.
+
+São insuficientes e devem ser refeitas antes da publicação: listas superficiais, pautas sustentadas apenas por “dicas de segurança”, textos que apenas definem o componente, conteúdo semelhante a edições antigas, imagens recicladas, compra sem critérios técnicos, reparo sem limites profissionais, especificações sem consequência prática e matérias sem descoberta verificável.
+
 Cada edição precisa ter `contentType: "program"`, capa horizontal, no mínimo duas imagens internas quando houver material oficial, texto aprofundado, fontes oficiais, links internos e campos `program`, `programLabel`, `episodeDuration` e `readingTime`. O título deve identificar a edição da semana de forma editorial, por exemplo `Rolê de Rua — edição de DD/MM/AAAA`, sem transformar essa identificação em texto burocrático. A duração planejada e qualquer estrutura de futuro programa em vídeo são informações internas: nunca publicar ao leitor marcações de minutos, bastidores ou avisos sobre um futuro TV Show. Em terças e sextas não há edição fixa, mas a matéria diária independente continua obrigatória.
 
 Na capa da Revista, programas são uma categoria editorial permanente e prioritária, separada de matérias próprias e notícias. O bloco de programas deve aparecer antes do fluxo comum. Nos resultados da Revista, todo `contentType: "program"` deve usar card visualmente distinto, com identidade de série, nome do programa, dia da grade e indicação de edição semanal; não pode parecer um card comum que recebeu apenas outra etiqueta. Os filtros devem permitir separar `Programas`, `Matérias` e `Notícias`, além dos filtros temáticos. A diferenciação é editorial e visual; não altera a exigência de conteúdo aprofundado nem permite contar programa como matéria diária.

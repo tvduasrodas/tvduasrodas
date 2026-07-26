@@ -2109,6 +2109,7 @@ button {
 /* HERO DA REVISTA (DESTAQUE PRINCIPAL) */
 
 .revista-hero {
+    position: relative;
     display: grid;
     grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
     gap: 18px;
@@ -2164,6 +2165,56 @@ button {
 .revista-grid .article-card {
     position: relative;
     overflow: hidden;
+}
+
+.revista-hero--program {
+    border: 2px solid #ff642e;
+    color: #fff;
+    background:
+        radial-gradient(circle at 100% 0, rgba(255, 106, 43, .34), transparent 46%),
+        linear-gradient(145deg, #111827, #030712 74%);
+    box-shadow: 0 20px 46px rgba(3, 7, 18, .28), 0 0 0 4px rgba(255, 100, 46, .12);
+}
+
+.revista-hero--program::before {
+    content: "PROGRAMA EM DESTAQUE";
+    position: absolute;
+    z-index: 2;
+    top: 16px;
+    left: 16px;
+    padding: 7px 10px;
+    border-radius: 999px;
+    color: #fff;
+    background: #e94d18;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .28);
+    font-size: 10px;
+    font-weight: 900;
+    letter-spacing: .12em;
+}
+
+.revista-hero--program .revista-hero-media {
+    min-height: 320px;
+}
+
+.revista-hero--program .revista-hero-media img {
+    max-height: none;
+}
+
+.revista-hero--program .category-tag {
+    color: #ffbd9e;
+    background: rgba(255, 106, 43, .16);
+}
+
+.revista-hero--program .revista-hero-content p {
+    color: #dbe4ef;
+}
+
+.revista-hero--program .revista-hero-meta {
+    color: #aebdd0;
+}
+
+.revista-hero--program .article-link {
+    color: #fff;
 }
 
 .revista-grid .article-card--program {
