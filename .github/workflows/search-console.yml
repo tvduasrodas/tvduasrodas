@@ -1,0 +1,74 @@
+name: Search Console e sitemaps
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "content/**"
+      - "sitemap.xml"
+      - "news-sitemap.xml"
+      - "robots.txt"
+      - "scripts/update_sitemap.py"
+      - "scripts/search_console_sync.py"
+  schedule:
+    - cron: "15 11 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: search-console-main
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o portal
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-search-console.txt
+
+      - name: Instalar integração do Search Console
+        run: pip install -r requirements-search-console.txt
+
+      - name: Atualizar e validar sitemaps
+        run: |
+          python scripts/update_sitemap.py
+          python scripts/update_sitemap.py --check
+
+      - name: Confirmar credencial configurada
+        id: credentials
+        env:
+          GOOGLE_SEARCH_CONSOLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SEARCH_CONSOLE_SERVICE_ACCOUNT_JSON }}
+        run: |
+          if [ -z "$GOOGLE_SEARCH_CONSOLE_SERVICE_ACCOUNT_JSON" ]; then
+            echo "::warning::Envio ao Search Console aguardando a ativação única da credencial."
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Enviar sitemaps e atualizar painel
+        if: steps.credentials.outputs.enabled == 'true'
+        env:
+          GOOGLE_SEARCH_CONSOLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SEARCH_CONSOLE_SERVICE_ACCOUNT_JSON }}
+        run: python scripts/search_console_sync.py --submit --inspect-recent
+
+      - name: Publicar atualização do painel
+        run: |
+          if git diff --quiet -- sitemap.xml news-sitemap.xml editorial/search-console/status.json; then
+            echo "Nenhuma alteração para publicar."
+            exit 0
+          fi
+          git config user.name "TVDUASRODAS Search Console"
+          git config user.email "tvduasrodas@gmail.com"
+          git add sitemap.xml news-sitemap.xml editorial/search-console/status.json
+          git commit -m "Automatiza atualização do Search Console [skip ci]"
+          git push

@@ -1,0 +1,30 @@
+{
+  "property": "sc-domain:tvduasrodas.com",
+  "generated_at": null,
+  "scope": "Matérias presentes no Google News sitemap das últimas 48 horas",
+  "sitemaps": [
+    {
+      "url": "https://tvduasrodas.com/sitemap.xml",
+      "pending": false,
+      "warnings": 0,
+      "errors": 0,
+      "discovered": 904,
+      "indexed": 0
+    },
+    {
+      "url": "https://tvduasrodas.com/news-sitemap.xml",
+      "pending": true,
+      "warnings": 0,
+      "errors": 0,
+      "discovered": 4,
+      "indexed": 0
+    }
+  ],
+  "summary": {
+    "inspected": 0,
+    "indexed": 0,
+    "not_indexed": 0,
+    "processing_or_unknown": 0
+  },
+  "urls": []
+}

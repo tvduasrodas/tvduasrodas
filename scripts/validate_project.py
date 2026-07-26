@@ -8,7 +8,7 @@ import json
 import re
 import subprocess
 import sys
-from datetime import datetime
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 from xml.etree import ElementTree as ET
@@ -330,8 +330,14 @@ def main() -> int:
         sitemap = ET.parse(ROOT / "sitemap.xml").getroot()
         namespace = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
         urls = [node.text or "" for node in sitemap.findall("sm:url/sm:loc", namespace)]
+        lastmods = [
+            node.text or ""
+            for node in sitemap.findall("sm:url/sm:lastmod", namespace)
+        ]
         if len(urls) != len(set(urls)):
             errors.append("sitemap.xml contém URLs duplicadas")
+        if any(value > date.today().isoformat() for value in lastmods):
+            errors.append("sitemap.xml contém lastmod no futuro")
         if any("#U" in url or "%23U" in url for url in urls):
             errors.append("sitemap.xml contém fragmento inválido #U")
         if any("?slug=" in url or "?v=" in url for url in urls):
@@ -341,6 +347,54 @@ def main() -> int:
                 errors.append(f"Página noindex presente no sitemap: {name}")
     except (OSError, ET.ParseError) as exc:
         errors.append(f"sitemap.xml inválido: {exc}")
+
+    try:
+        news_sitemap = ET.parse(ROOT / "news-sitemap.xml").getroot()
+        namespaces = {
+            "sm": "http://www.sitemaps.org/schemas/sitemap/0.9",
+            "news": "http://www.google.com/schemas/sitemap-news/0.9",
+        }
+        news_urls = [
+            node.text or ""
+            for node in news_sitemap.findall("sm:url/sm:loc", namespaces)
+        ]
+        news_dates = [
+            node.text or ""
+            for node in news_sitemap.findall(
+                "sm:url/news:news/news:publication_date", namespaces
+            )
+        ]
+        news_titles = [
+            node.text or ""
+            for node in news_sitemap.findall(
+                "sm:url/news:news/news:title", namespaces
+            )
+        ]
+        if len(news_urls) > 1000:
+            errors.append("news-sitemap.xml excede 1.000 matérias")
+        if len(news_urls) != len(set(news_urls)):
+            errors.append("news-sitemap.xml contém URLs duplicadas")
+        if not (len(news_urls) == len(news_dates) == len(news_titles)):
+            errors.append("news-sitemap.xml possui metadados incompletos")
+        if any(url not in urls for url in news_urls):
+            errors.append("news-sitemap.xml possui URL ausente do sitemap principal")
+        now = datetime.now(timezone.utc)
+        cutoff = now - timedelta(days=2)
+        for value in news_dates:
+            try:
+                published = datetime.fromisoformat(value.replace("Z", "+00:00"))
+                if published.tzinfo is None:
+                    published = published.replace(tzinfo=timezone.utc)
+                published = published.astimezone(timezone.utc)
+            except ValueError:
+                errors.append(f"Data inválida no news-sitemap.xml: {value}")
+                continue
+            if published < cutoff or published > now:
+                errors.append(
+                    f"Matéria fora da janela de 48 horas no news-sitemap.xml: {value}"
+                )
+    except (OSError, ET.ParseError) as exc:
+        errors.append(f"news-sitemap.xml inválido: {exc}")
 
     published_sources = [
         *sorted((ROOT / "content").rglob("*.md")),

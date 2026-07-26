@@ -12,7 +12,7 @@ import argparse
 import json
 import re
 import unicodedata
-from datetime import date, datetime
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import quote
 from xml.etree import ElementTree as ET
@@ -21,6 +21,7 @@ from xml.etree import ElementTree as ET
 ROOT = Path(__file__).resolve().parents[1]
 BASE_URL = "https://tvduasrodas.com"
 SITEMAP = ROOT / "sitemap.xml"
+NEWS_SITEMAP = ROOT / "news-sitemap.xml"
 
 STATIC_PAGES = [
     ("/", "1.0"),
@@ -58,6 +59,28 @@ def iso_day(value: object, fallback: str) -> str:
         return fallback
     match = re.search(r"\d{4}-\d{2}-\d{2}", str(value))
     return match.group(0) if match else fallback
+
+
+def safe_lastmod(value: object, fallback: str, today: str) -> str:
+    """Return a trustworthy lastmod that never points into the future."""
+    candidate = iso_day(value, fallback)
+    return fallback if candidate > today else candidate
+
+
+def parse_datetime(value: object) -> datetime | None:
+    if not value:
+        return None
+    raw = str(value).strip().strip("'\"")
+    try:
+        parsed = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+    except ValueError:
+        day = iso_day(raw, "")
+        if not day:
+            return None
+        parsed = datetime.fromisoformat(day)
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(timezone.utc)
 
 
 def frontmatter(path: Path) -> dict[str, str]:
@@ -113,9 +136,16 @@ def public_slugs(collection: str) -> list[str]:
     return list(dict.fromkeys([*indexed, *sorted(files - set(indexed))]))
 
 
-def json_date(path: Path, fallback: str) -> str:
+def json_date(path: Path, fallback: str, today: str) -> str:
     data = json.loads(path.read_text(encoding="utf-8-sig"))
-    return iso_day(data.get("last_updated") or data.get("date") or data.get("start_date"), fallback)
+    changed_at = (
+        data.get("last_updated")
+        or data.get("updated_at")
+        or data.get("status_checked_at")
+        or data.get("source_checked_at")
+        or data.get("date")
+    )
+    return safe_lastmod(changed_at, fallback, today)
 
 def slugify(value: str) -> str:
     normalized = unicodedata.normalize("NFD", value)
@@ -127,15 +157,52 @@ def add_url(urls: list[tuple[str, str, str]], path: str, lastmod: str, priority:
     urls.append((f"{BASE_URL}{path}", lastmod, priority))
 
 
+def render_news_sitemap(news: list[dict[str, str]], now: datetime) -> str:
+    sitemap_namespace = "http://www.sitemaps.org/schemas/sitemap/0.9"
+    news_namespace = "http://www.google.com/schemas/sitemap-news/0.9"
+    ET.register_namespace("", sitemap_namespace)
+    ET.register_namespace("news", news_namespace)
+    urlset = ET.Element(f"{{{sitemap_namespace}}}urlset")
+    cutoff = now.astimezone(timezone.utc) - timedelta(days=2)
+
+    recent = [
+        item for item in news
+        if item["published_at"] and cutoff <= datetime.fromisoformat(item["published_at"]) <= now
+    ]
+    for article in sorted(recent, key=lambda item: item["published_at"], reverse=True)[:1000]:
+        item = ET.SubElement(urlset, f"{{{sitemap_namespace}}}url")
+        ET.SubElement(item, f"{{{sitemap_namespace}}}loc").text = article["url"]
+        news_item = ET.SubElement(item, f"{{{news_namespace}}}news")
+        publication = ET.SubElement(news_item, f"{{{news_namespace}}}publication")
+        ET.SubElement(publication, f"{{{news_namespace}}}name").text = "TVDUASRODAS"
+        ET.SubElement(publication, f"{{{news_namespace}}}language").text = "pt"
+        ET.SubElement(news_item, f"{{{news_namespace}}}publication_date").text = article["publication_date"]
+        ET.SubElement(news_item, f"{{{news_namespace}}}title").text = article["title"]
+
+    ET.indent(urlset, space="  ")
+    return ET.tostring(urlset, encoding="unicode", xml_declaration=True) + "\n"
+
+
 def main(*, check_only: bool = False) -> None:
     today = date.today().isoformat()
+    now = datetime.now(timezone.utc)
     old_dates = previous_dates()
     urls: list[tuple[str, str, str]] = []
 
     news: list[tuple[str, str]] = []
+    news_items: list[dict[str, str]] = []
     for path in sorted((ROOT / "content" / "news").glob("*.md")):
         values = frontmatter(path)
-        news.append((path.stem, iso_day(values.get("updated_at") or values.get("date"), today)))
+        published_at = parse_datetime(values.get("date"))
+        changed_at = values.get("updated_at") or values.get("date")
+        news.append((path.stem, safe_lastmod(changed_at, today, today)))
+        if published_at:
+            news_items.append({
+                "url": f"{BASE_URL}/materias/{slugify(path.stem)}/",
+                "title": values.get("title", path.stem),
+                "publication_date": str(values.get("date") or published_at.date().isoformat()),
+                "published_at": published_at.isoformat(),
+            })
 
     videos: list[tuple[str, str]] = []
     for path in sorted((ROOT / "content" / "videos").glob("*.md")):
@@ -145,14 +212,28 @@ def main(*, check_only: bool = False) -> None:
         if not match:
             match = re.fullmatch(r"([A-Za-z0-9_-]{6,})", youtube_url)
         if match:
-            videos.append((match.group(1), iso_day(values.get("date"), today)))
+            videos.append((match.group(1), safe_lastmod(values.get("date"), today, today)))
 
     competitions = [
-        (slug, json_date(ROOT / "content" / "competitions" / f"{slug}.json", today))
+        (
+            slug,
+            json_date(
+                ROOT / "content" / "competitions" / f"{slug}.json",
+                old_dates.get(f"{BASE_URL}/competicoes/{slugify(slug)}/", today),
+                today,
+            ),
+        )
         for slug in public_slugs("competitions")
     ]
     events = [
-        (slug, json_date(ROOT / "content" / "events" / f"{slug}.json", today))
+        (
+            slug,
+            json_date(
+                ROOT / "content" / "events" / f"{slug}.json",
+                old_dates.get(f"{BASE_URL}/eventos/{slugify(slug)}/", today),
+                today,
+            ),
+        )
         for slug in public_slugs("events")
     ]
     calendar_data = json.loads(
@@ -161,7 +242,13 @@ def main(*, check_only: bool = False) -> None:
     calendar_events = [
         (
             slugify(f"{item.get('title', '')}-{item.get('start_date', '')}"),
-            iso_day(item.get("start_date"), today),
+            safe_lastmod(
+                item.get("last_updated")
+                or item.get("source_checked_at")
+                or calendar_data.get("last_updated"),
+                today,
+                today,
+            ),
         )
         for item in calendar_data.get("entries", [])
         if not item.get("competition_slug")
@@ -199,7 +286,7 @@ def main(*, check_only: bool = False) -> None:
         add_url(
             urls,
             str(item["url"]),
-            iso_day(item.get("lastmod"), today),
+            safe_lastmod(item.get("lastmod"), today, today),
             str(item.get("priority", "0.6")),
         )
 
@@ -235,22 +322,38 @@ def main(*, check_only: bool = False) -> None:
     ET.indent(urlset, space="  ")
     xml = ET.tostring(urlset, encoding="unicode", xml_declaration=True)
     expected = xml + "\n"
+    expected_news = render_news_sitemap(news_items, now)
     breakdown = (
         f"static={len(STATIC_PAGES)}, canonical_generated={len(manifest)}"
     )
 
     if check_only:
         current = SITEMAP.read_text(encoding="utf-8") if SITEMAP.exists() else ""
+        current_news = NEWS_SITEMAP.read_text(encoding="utf-8") if NEWS_SITEMAP.exists() else ""
+        stale = []
         if current != expected:
+            stale.append(SITEMAP.name)
+        if current_news != expected_news:
+            stale.append(NEWS_SITEMAP.name)
+        if stale:
             raise SystemExit(
-                f"STALE {SITEMAP.name}: expected {len(urls)} URLs ({breakdown}). "
+                f"STALE {', '.join(stale)}: expected {len(urls)} URLs ({breakdown}). "
                 "Run scripts/update_sitemap.py and publish the result."
             )
-        print(f"OK {SITEMAP.name}: {len(urls)} URLs ({breakdown}), newest {newest}")
+        news_count = expected_news.count("<url>")
+        print(
+            f"OK {SITEMAP.name}: {len(urls)} URLs ({breakdown}), newest {newest}; "
+            f"{NEWS_SITEMAP.name}: {news_count} recent articles"
+        )
         return
 
     SITEMAP.write_text(expected, encoding="utf-8", newline="\n")
-    print(f"Updated {SITEMAP.name}: {len(urls)} URLs ({breakdown}), newest {newest}")
+    NEWS_SITEMAP.write_text(expected_news, encoding="utf-8", newline="\n")
+    news_count = expected_news.count("<url>")
+    print(
+        f"Updated {SITEMAP.name}: {len(urls)} URLs ({breakdown}), newest {newest}; "
+        f"{NEWS_SITEMAP.name}: {news_count} recent articles"
+    )
 
 
 if __name__ == "__main__":

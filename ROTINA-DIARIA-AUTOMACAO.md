@@ -262,12 +262,12 @@ A atualização estrutural vale para **todos os eventos e todas as competições
 
 Toda criação ou alteração pública deve encerrar o próprio ciclo de SEO antes de a execução seguir para outra pauta. Não esperar 20h.
 
-1. Preparar SEO completo, executar `python scripts/build_seo_site.py`, depois `python scripts/update_sitemap.py` e `python scripts/update_sitemap.py --check`. O gerador é obrigatório após qualquer inclusão ou alteração em matérias, vídeos, competições, eventos, resultados, marcas ou modalidades.
+1. Preparar SEO completo, executar `python scripts/build_seo_site.py`, depois `python scripts/update_sitemap.py` e `python scripts/update_sitemap.py --check`. O gerador é obrigatório após qualquer inclusão ou alteração em matérias, vídeos, competições, eventos, resultados, marcas ou modalidades. Ele deve manter `sitemap.xml` sem datas futuras e gerar `news-sitemap.xml` somente com matérias publicadas nas últimas 48 horas.
 2. Fazer commit e push do lote.
-3. Confirmar no domínio público a página alterada e o sitemap publicado.
-4. Reenviar `https://tvduasrodas.com/sitemap.xml` no Google Search Console usando somente `tvduasrodas@gmail.com`.
+3. Confirmar no domínio público a página alterada, `sitemap.xml` e `news-sitemap.xml`.
+4. O workflow `.github/workflows/search-console.yml` deve reenviar automaticamente os dois sitemaps pela API do Search Console depois do push e atualizar `editorial/search-console/status.json`. A credencial técnica deve ser uma conta de serviço autorizada na propriedade exclusivamente por `tvduasrodas@gmail.com`; se a automação falhar, fazer o reenvio manual usando somente `tvduasrodas@gmail.com`.
 5. Para cada URL nova, solicitar indexação imediatamente após a publicação pública.
-6. Registrar os estados corretos: `sitemap reenviado`, `indexação solicitada`, `indexada` ou `pendente`. Nunca chamar uma solicitação de indexação concluída.
+6. Registrar os estados corretos: `sitemap reenviado`, `indexação solicitada`, `indexada` ou `pendente`. Nunca chamar uma solicitação de indexação concluída. A URL Inspection API serve somente para acompanhar o estado; a Google Indexing API não deve ser usada.
 7. Se push, acesso público ou Search Console falhar, registrar a pendência e aplicar a recuperação prevista neste documento; não adiar silenciosamente até 20h.
 
 A auditoria das 20h é uma camada adicional de segurança para localizar qualquer SEO pendente do dia. Ela não substitui o SEO imediato de cada lote.
@@ -406,10 +406,10 @@ Para montar o relatório, conferir o histórico de publicações e alterações 
 3. Comprimir imagens e confirmar capa e imagens internas carregando.
 4. Executar `python scripts/build_seo_site.py` para atualizar as páginas HTML canônicas, relações internas, entidades e o manifesto SEO.
 5. Executar `python scripts/update_sitemap.py`.
-6. Executar `python scripts/update_sitemap.py --check` e validar a contagem `static + canonical_generated`, XML, URLs únicas e ausência de fragmentos inválidos como `#U` ou `%23U`.
+6. Executar `python scripts/update_sitemap.py --check` e validar `sitemap.xml` e `news-sitemap.xml`, incluindo contagem `static + canonical_generated`, XML, URLs únicas, datas não futuras, janela de notícias de 48 horas e ausência de fragmentos inválidos como `#U` ou `%23U`.
 7. Fazer commit apenas dos arquivos relacionados e push para `origin/main`.
-8. Confirmar a URL, imagem, layout e sitemap no domínio público.
-9. No Google Search Console, entrar somente como `tvduasrodas@gmail.com`, reenviar `https://tvduasrodas.com/sitemap.xml` após o lote publicado e solicitar indexação das URLs novas. Nunca usar `wesleyrodrigo29@gmail.com`.
+8. Confirmar a URL, imagem, layout, `sitemap.xml` e `news-sitemap.xml` no domínio público.
+9. Confirmar que o workflow do Search Console reenviou automaticamente os dois sitemaps e atualizou o painel. Em caso de falha, entrar somente como `tvduasrodas@gmail.com`, reenviar os dois sitemaps manualmente e solicitar indexação das URLs novas. Nunca usar `wesleyrodrigo29@gmail.com`.
 10. Concluir os passos 1 a 9 imediatamente após o push. Não aguardar a execução das 20h; às 20h apenas auditar e corrigir pendências.
 
 ### Recuperação obrigatória de publicação
