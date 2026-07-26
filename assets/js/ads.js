@@ -1,9 +1,27 @@
 (function () {
     "use strict";
 
+    const GOOGLE_ANALYTICS_ID = "G-N47HBZWC5X";
     const CONFIG_URL = "/content/ads/config.json";
     let configPromise;
     let currentContext = {};
+
+    function loadGoogleAnalytics() {
+        if (window.__tvduasrodasAnalyticsLoaded) return;
+        window.__tvduasrodasAnalyticsLoaded = true;
+
+        window.dataLayer = window.dataLayer || [];
+        window.gtag = window.gtag || function () {
+            window.dataLayer.push(arguments);
+        };
+        window.gtag("js", new Date());
+        window.gtag("config", GOOGLE_ANALYTICS_ID);
+
+        const script = document.createElement("script");
+        script.async = true;
+        script.src = `https://www.googletagmanager.com/gtag/js?id=${encodeURIComponent(GOOGLE_ANALYTICS_ID)}`;
+        document.head.appendChild(script);
+    }
 
     const normalize = (value) => String(value || "")
         .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
@@ -191,6 +209,7 @@
         return refresh(document, currentContext);
     }
 
+    loadGoogleAnalytics();
     window.TVAds = { refresh, setContext, resolveCategory: async (context) => resolveCategory(context, await loadConfig()) };
     document.addEventListener("DOMContentLoaded", () => refresh());
 })();
