@@ -1060,6 +1060,25 @@ button {
     margin-bottom: 16px;
 }
 
+.revista-catalog-heading {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 8px 0 14px;
+}
+
+.revista-catalog-heading h2 {
+    margin: 3px 0 0;
+    font-size: 25px;
+}
+
+.revista-catalog-heading p {
+    max-width: 430px;
+    color: var(--text-muted);
+    font-size: 13px;
+}
+
 .filter-btn {
     border-radius: 999px;
     border: 1px solid #d1d5db;
@@ -1078,6 +1097,12 @@ button {
         color: #f9fafb;
         border-color: #111827;
     }
+
+.filter-btn--program {
+    border-color: #ff6a2b;
+    color: #c2410c;
+    font-weight: 800;
+}
 
 /* =========================================================
    TV PAGE – PLAYER / LIVE / PLAYLIST
@@ -2136,6 +2161,85 @@ button {
     margin-bottom: 22px;
 }
 
+.revista-grid .article-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.revista-grid .article-card--program {
+    display: flex;
+    flex-direction: column;
+    border: 0;
+    color: #fff;
+    background:
+        radial-gradient(circle at 100% 0, rgba(255, 106, 43, .38), transparent 44%),
+        linear-gradient(145deg, #111827, #030712 72%);
+    box-shadow: 0 18px 38px rgba(3, 7, 18, .24);
+}
+
+.article-card--program::before {
+    content: "";
+    position: absolute;
+    inset: 0 auto 0 0;
+    width: 5px;
+    background: linear-gradient(#ff8a50, #ff4d14);
+}
+
+.article-card--program .article-card-cover {
+    margin: -16px -16px 15px;
+    overflow: hidden;
+    aspect-ratio: 16 / 9;
+}
+
+.article-card--program .article-card-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.article-card--program h3 {
+    font-size: 19px !important;
+    line-height: 1.2;
+}
+
+.article-card--program h3 a,
+.article-card--program .article-link {
+    color: #fff;
+}
+
+.article-card--program p {
+    color: #dbe4ef !important;
+}
+
+.article-card--program .category-tag {
+    width: fit-content;
+    color: #ffb18b;
+    background: rgba(255, 106, 43, .14);
+}
+
+.program-card-heading,
+.program-card-meta {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 10px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+}
+
+.program-card-heading {
+    margin-bottom: 9px;
+    color: #ffb18b;
+    font-weight: 800;
+}
+
+.program-card-meta {
+    margin: auto 0 14px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(255,255,255,.14);
+    color: #aebdd0;
+}
+
     .revista-grid .article-card h3 {
         font-size: 16px;
     }
@@ -2245,6 +2349,8 @@ button {
     .revista-programas-heading p { margin-top: 8px; }
     .revista-programas-grid { grid-template-columns: 1fr; }
     .revista-programa-card { min-height: 165px; }
+    .revista-catalog-heading { display: block; }
+    .revista-catalog-heading p { margin-top: 7px; }
 
     .revista-grid {
         grid-template-columns: 1fr;

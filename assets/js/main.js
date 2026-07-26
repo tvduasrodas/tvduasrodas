@@ -205,6 +205,13 @@ function getFilteredRevistaCards() {
         );
     }
 
+    if (revistaCurrentFilter.startsWith("type:")) {
+        const contentType = revistaCurrentFilter.slice("type:".length);
+        return revistaCardsAll.filter(
+            (card) => card.getAttribute("data-content-type") === contentType
+        );
+    }
+
     return revistaCardsAll.filter(
         (card) => card.getAttribute("data-category") === revistaCurrentFilter
     );
@@ -306,9 +313,11 @@ async function loadMagazineFromCMS() {
 
             const featured =
                 String(data.featured || "").toLowerCase() === "true";
+            const contentType = (data.contentType || (data.program ? "program" : "article")).trim();
             const program = (data.program || "").trim();
             const programLabel = (data.programLabel || "").trim();
             const episodeDuration = (data.episodeDuration || "").trim();
+            const readingTime = (data.readingTime || "").trim();
 
             const excerpt = markdownToExcerpt(content, 220);
 
@@ -333,9 +342,11 @@ async function loadMagazineFromCMS() {
                 excerpt,
                 videoId,
                 featured,
+                contentType,
                 program,
                 programLabel,
                 episodeDuration,
+                readingTime,
             });
         }
 
@@ -360,9 +371,17 @@ async function loadMagazineFromCMS() {
             if (heroArticle && artigo.slug === heroArticle.slug) return;
 
             const card = document.createElement("article");
-            card.className = "card article-card";
+            const isProgram = artigo.contentType === "program";
+            const programSchedule = {
+                "role-de-rua": "Segundas e quintas",
+                "garage-tech": "Quartas",
+                "estrada-aberta": "Sábados",
+                "electric-zone": "Domingos",
+            }[artigo.program] || "Programa semanal";
+            card.className = `card article-card${isProgram ? " article-card--program" : ""}`;
             card.dataset.category = artigo.categoryNormalized;
             card.dataset.program = artigo.program;
+            card.dataset.contentType = artigo.contentType;
 
             const linkHref = `/materias/${cleanContentSlug(artigo.slug)}/`;
             const categoriaLabel = artigo.categoryRaw || "Matéria";
@@ -378,6 +397,7 @@ async function loadMagazineFromCMS() {
 
             card.innerHTML = `
                 ${coverHtml}
+                ${isProgram ? `<div class="program-card-heading"><span>${programSchedule}</span><span>${artigo.episodeDuration || "Nova edição"}</span></div>` : ""}
                 <span class="category-tag">${artigo.programLabel || categoriaLabel}</span>
                 <h3>
                     <a href="${linkHref}">
@@ -385,8 +405,9 @@ async function loadMagazineFromCMS() {
                     </a>
                 </h3>
                 ${artigo.excerpt ? `<p>${artigo.excerpt}</p>` : ""}
+                ${isProgram ? `<div class="program-card-meta"><span>Edição da Revista</span>${artigo.readingTime ? `<span>${artigo.readingTime} de leitura</span>` : ""}</div>` : ""}
                 <a href="${linkHref}" class="article-link">
-                    Ler matéria &rarr;
+                    ${isProgram ? "Abrir edição" : "Ler matéria"} &rarr;
                 </a>
             `;
 

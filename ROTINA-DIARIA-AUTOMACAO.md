@@ -55,6 +55,76 @@ Existem quatro configurações ativas vinculadas ao projeto `TVDUASRODAS`, organ
 - CAPTCHA, 2FA, novo OAuth, pagamento ou nova permissão continuam exigindo Wesley. Esses bloqueios não autorizam contornar proteções e não impedem a conclusão de tarefas independentes.
 - A ocorrência somente pode encerrar depois de concluir todas as pendências executáveis encontradas, validar o resultado, publicar os arquivos relacionados e confirmar `HEAD == origin/main`. Se nada estiver vencido, registrar objetivamente `nenhuma pendência executável`.
 
+## Classificação dinâmica de relevância de eventos e competições
+
+Esta classificação é exclusivamente interna. O portal nunca deve publicar a pontuação, o nível de confiança, os critérios, os pesos, a tendência ou expressões como “evento pequeno”. Para o público, cada página continua recebendo tratamento informativo respeitoso e serviço completo.
+
+### Duas obrigações independentes
+
+1. **Atualização estrutural universal:** todos os eventos, competições, campeonatos, etapas, rodadas, festivais, torneios, copas, encontros e espetáculos cadastrados, sem exceção, devem ser auditados diariamente. A página deve refletir data e hora locais, fuso horário do local, situação correta e horário da última checagem.
+2. **Cobertura editorial T+1 seletiva:** a matéria no dia seguinte ao primeiro dia e o balanço no dia seguinte ao último dia são obrigatórios somente para itens classificados internamente como `alta_relevancia`. Itens `monitoramento` ou `cobertura_estrutural` continuam com página, calendário, serviço, resultados e situação atualizados, mas não geram matéria T+1 automática. Uma novidade jornalística forte ainda pode justificar matéria por decisão editorial, sem transformar a exceção em obrigação permanente.
+
+### Campos internos obrigatórios
+
+Sempre que o formato da coleção permitir, manter estes campos no registro do evento ou competição:
+
+- `timezone`: fuso IANA do local, por exemplo `America/Sao_Paulo`.
+- `local_start` e `local_end`: data e hora locais confirmadas; quando o organizador ainda não divulgar o horário, usar valor vazio e registrar a pendência, nunca inventar `00:00`.
+- `status`: `agendada`, `em_andamento`, `concluida`, `adiada` ou `cancelada`, conforme datas locais e confirmação oficial.
+- `status_checked_at`: data e hora da checagem diária em ISO 8601.
+- `relevance_tier`: `alta_relevancia`, `monitoramento` ou `cobertura_estrutural`.
+- `relevance_score`: inteiro de 0 a 100.
+- `relevance_confidence`: `alta`, `media` ou `baixa`.
+- `relevance_evaluated_at`, `relevance_previous_score`, `relevance_trend` e `relevance_reason_codes`.
+- `coverage_t1_required`: verdadeiro somente quando `relevance_tier` for `alta_relevancia`.
+- `relevance_evidence`: fontes e sinais usados, com data de consulta; este bloco é interno e não deve aparecer na página pública.
+
+Registros antigos sem esses campos não ficam dispensados. A automação deve preenchê-los progressivamente, priorizando itens em andamento, iniciando nos próximos 30 dias ou com sinais recentes de crescimento. A ausência temporária de público ou repercussão verificável reduz a confiança, não autoriza inventar zero.
+
+### Índice de Relevância TVDUASRODAS — IRT
+
+Calcular uma nota de 0 a 100 com evidências comparáveis:
+
+1. **Público e escala presencial — 0 a 25:** média confirmada das últimas edições, capacidade efetivamente usada, participantes/inscritos e visitantes. Considerar o tamanho relativo à cidade: um festival que mobiliza uma pequena cidade pode obter nota máxima mesmo sem público de metrópole.
+2. **Repercussão editorial e procura — 0 a 20:** volume e diversidade de publicações recentes, veículos independentes, buscas, vídeos, redes oficiais e crescimento da atenção. Desduplicar republicações do mesmo release e não confundir quantidade artificial com relevância.
+3. **Organização e reconhecimento institucional — 0 a 15:** confederação, federação, liga reconhecida, promotora nacional ou internacional, poder público, circuito consolidado e entidades sancionadoras. O nome da entidade é sinal, não decisão automática.
+4. **Alcance territorial e atração de público — 0 a 15:** presença de participantes, equipes, expositores ou visitantes de vários estados ou países; transmissão e distribuição nacional; capacidade de atrair deslocamentos.
+5. **Tradição, marca e impacto local — 0 a 15:** número e regularidade de edições, reconhecimento espontâneo, ocupação hoteleira, turismo, comércio, trânsito, serviços públicos e importância cultural. Festivais, copas e espetáculos que mobilizam intensamente uma cidade podem ser de alta relevância independentemente do porte do município.
+6. **Peso esportivo ou setorial — 0 a 10:** título nacional ou mundial, nível dos atletas/equipes, pontos de campeonato, seletiva oficial, lançamentos, negócios, inovação ou importância para o segmento.
+
+Não usar somente o nome “nacional”, “brasileiro”, “festival”, “copa” ou “campeonato” como prova. Exigir sinais verificáveis e registrar os códigos de razão predominantes.
+
+### Decisão, confiança e estabilidade
+
+- Classificar como `alta_relevancia` quando `relevance_score >= 65` e a confiança for `alta` ou `media`.
+- Classificar como `monitoramento` entre 45 e 64, ou quando a nota superar 65 com confiança baixa e ainda exigir confirmação.
+- Classificar como `cobertura_estrutural` abaixo de 45, preservando integralmente a atualização diária da página.
+- Promoção é imediata quando a nota chegar a 65 com evidência suficiente. Também pode ocorrer por gatilho excepcional confirmado: explosão de interesse, anúncio de atração/atleta de grande projeção, chancela relevante, transmissão nacional, crescimento forte de inscrições, impacto urbano extraordinário ou ampla cobertura independente.
+- Para evitar oscilação, rebaixar um item que já era `alta_relevancia` somente quando ficar abaixo de 55 em duas avaliações completas separadas por pelo menos sete dias, salvo cancelamento, fraude de informação ou perda objetiva de escopo.
+- Campeonatos e eventos recorrentes são reavaliados por edição e por etapa. A classificação do ano anterior é apenas ponto de partida, nunca herança automática.
+- Se fontes confiáveis divergirem, manter a classificação anterior, reduzir `relevance_confidence` e registrar a divergência até nova confirmação.
+
+### Reavaliação e projeção diária
+
+Em todas as janelas editoriais, executar uma varredura leve de sinais para todos os registros; às 08h e às 17h, aprofundar os itens em andamento, nos próximos 30 dias, em `monitoramento` ou com alerta de crescimento. Comparar janelas móveis de 7 e 30 dias com a média histórica e observar:
+
+- aceleração de publicações independentes e buscas;
+- ritmo de inscrições, ingressos, credenciais, equipes e expositores;
+- novos organizadores, chancelas, transmissões, patrocinadores e atrações;
+- ampliação de arena, cidades, etapas, categorias ou duração;
+- impacto previsto ou já observado em hotelaria, trânsito, comércio e serviços;
+- crescimento de público entre edições e mudança do alcance geográfico.
+
+Definir `relevance_trend` como `subindo`, `estavel` ou `caindo`. Um aumento forte em pelo menos dois grupos independentes de sinais deve abrir alerta de reclassificação, mesmo que o evento fosse pequeno no ciclo anterior. Produzir projeção interna conservadora para a edição atual/próxima, sempre separando dado observado de estimativa. Projeção nunca substitui confirmação factual na página pública.
+
+### Regra operacional para T+1
+
+- Somente `coverage_t1_required: true` entra automaticamente na fila de matéria do primeiro dia e balanço final.
+- Evento de alta relevância com um único dia recebe um único balanço T+1 completo.
+- Etapas de competição são avaliadas individualmente; a competição pode ser de alta relevância e uma etapa exigir pontuação e evidências próprias.
+- Ao promover um item durante ou logo após sua realização, recuperar a cobertura T+1 ainda editorialmente válida. Se o prazo já tiver perdido atualidade, produzir balanço contextual apenas quando houver valor jornalístico real.
+- Mudança de data, hora, local, situação ou resultado estrutural nunca depende da classificação: deve ser atualizada para todos.
+
 ## Metas editoriais mínimas do dia
 
 Antes de escolher ou classificar qualquer pauta, calcular novamente a data e o dia da semana em `America/New_York`. Não reutilizar o dia da semana registrado por uma execução anterior. Declarar no resumo da janela o dia calculado e o programa correspondente. Se uma urgência editorial substituir a grade fixa, registrar explicitamente a exceção e o motivo.
@@ -65,7 +135,7 @@ Até o encerramento das 20h (horário Eastern), o worker deve entregar:
 2. Nos dias da grade fixa, **uma nova edição do programa correspondente**, com `contentType: "program"`, além da matéria diária. A edição deve ser identificada como a edição daquela semana e nunca pode ser contada como matéria diária.
 3. Pelo menos **um vídeo novo para a TV com áudio em português brasileiro**, incorporado do YouTube, confiável, não duplicado e classificado na categoria correta. Vídeo em inglês, espanhol ou outro idioma não cumpre a meta, mesmo quando título e descrição estiverem traduzidos.
 4. Diversificar a TV durante a semana: não repetir categoria de vídeo nem canal de origem na mesma semana editorial, salvo transmissão ou atualização oficial urgente, com exceção explicada no relatório. Alternar testes, competições, cross, eventos, urbano, lançamentos, dicas, tecnologia, viagem, história, customização, entretenimento e outras categorias pertinentes.
-5. Todas as **atualizações urgentes de competições e eventos** encontradas na matriz obrigatória de fontes confiáveis: resultados, classificação, liderança, calendário ou informação de serviço.
+5. Todas as **atualizações estruturais de competições e eventos** encontradas na matriz obrigatória de fontes confiáveis, sem exceção de porte: data e hora locais, fuso, situação, resultados, classificação, liderança, calendário ou informação de serviço. Matérias T+1 obedecem à classificação dinâmica de relevância.
 6. **SEO, sitemap, publicação, validação pública e Google Search Console imediatamente após cada lote publicado**, sem esperar o fechamento das 20h.
 
 ## Regra absoluta de não repetição de imagens e vídeos
@@ -133,20 +203,20 @@ Até o encerramento das 20h (horário Eastern), o worker deve entregar:
 - A cobertura não pode se limitar aos itens já presentes no portal. Nas janelas de 08h e 17h e nas auditorias de recuperação, pesquisar calendários nacionais e internacionais de motociclismo, ciclismo, MTB, BMX, estrada, pista, paraciclismo, motocross, supercross, arena cross, enduro, hard enduro, rally, rally raid, baja, trial, motovelocidade, scooter, e-bike, mobilidade, encontros, festivais, feiras, salões e demais modalidades relacionadas às duas rodas.
 - Cruzar calendários de confederações, federações, ligas, organizadores, circuitos, plataformas oficiais contratadas e veículos especializados confiáveis. Verificar Brasil, América Latina e competições internacionais relevantes ao público brasileiro.
 - Ao localizar evento confirmado ainda não cadastrado, criar ou atualizar imediatamente a página estrutural, calendário, datas, modalidade, local, fonte e situação. Não esperar o evento começar para cadastrá-lo.
-- Eventos e competições descobertos depois da abertura entram imediatamente no fluxo de recuperação: cadastrar, corrigir situação, incorporar resultados/classificação já disponíveis e cumprir as coberturas de abertura e encerramento sem duplicação.
+- Eventos e competições descobertos depois da abertura entram imediatamente no fluxo de recuperação: cadastrar, corrigir data, hora local, fuso e situação, incorporar resultados/classificação já disponíveis e calcular o IRT. Coberturas de abertura e encerramento são recuperadas somente quando o item for `alta_relevancia`, sem duplicação.
 
-## Cobertura obrigatória de abertura, encerramento e situação
+## Atualização universal e cobertura seletiva de abertura e encerramento
 
-Esta regra vale para **todos os eventos e todas as competições** cadastrados, nacionais ou internacionais, inclusive festivais, feiras, encontros, campeonatos, etapas e rodadas de vários dias.
+A atualização estrutural vale para **todos os eventos e todas as competições** cadastrados, nacionais ou internacionais, inclusive festivais, feiras, encontros, campeonatos, etapas e rodadas de vários dias. A cobertura editorial T+1 vale somente para itens classificados como `alta_relevancia`.
 
-1. Em toda ocorrência editorial, comparar a data atual em `America/New_York` com `start_date` e `end_date`, conferir o canal oficial e atualizar a situação estrutural:
-   - Eventos: `proximo` antes da abertura, `em_andamento` entre início e fim, `encerrado` depois do último dia e `cancelado` somente com confirmação oficial.
+1. Em toda ocorrência editorial, comparar a data e hora atuais com `local_start` e `local_end` no `timezone` do evento, conferir o canal oficial e atualizar a situação estrutural:
+   - Eventos: `agendada` antes da abertura, `em_andamento` entre início e fim, `concluida` depois do último dia, `adiada` quando confirmado e `cancelada` somente com confirmação oficial.
    - Competições/campeonatos: `agendada` antes do início, `em_andamento` durante a temporada ou etapa, `concluida` depois do encerramento e `cancelado` somente com confirmação oficial. Aplicar o mesmo controle a cada item de `rounds`.
    - Adiamento, mudança de data ou interrupção devem atualizar imediatamente datas, resumo, calendário e fonte oficial; nunca tratar ausência de notícia como cancelamento.
-2. No **dia seguinte ao primeiro dia** de cada evento ou competição, publicar obrigatoriamente uma notícia original na Revista explicando como foi a abertura. A matéria deve usar fonte oficial publicada depois da abertura, registrar fatos confirmados, destaques, serviço para os dias restantes e linkar a página estrutural do evento ou campeonato.
-3. No **dia seguinte ao último dia**, publicar obrigatoriamente uma matéria de balanço completo: principais acontecimentos, resultados ou atrações, vencedores e classificação quando houver, números oficiais disponíveis, contexto e próximos passos. Atualizar a página estrutural para `encerrado` ou `concluida` no mesmo lote.
-4. Em competição ou evento de **um único dia**, a matéria publicada no dia seguinte deve ser um balanço completo único e cumprir simultaneamente as obrigações de abertura e encerramento; não criar dois textos artificiais sobre o mesmo fato.
-5. Em competições por etapas, a obrigação se aplica à etapa/rodada monitorada: primeiro dia no dia seguinte à abertura da etapa e balanço no dia seguinte ao seu término. A página da temporada permanece `em_andamento` enquanto houver etapa futura confirmada.
+2. Quando `coverage_t1_required` for verdadeiro, no **dia seguinte ao primeiro dia** publicar uma notícia original na Revista explicando como foi a abertura. A matéria deve usar fonte oficial publicada depois da abertura, registrar fatos confirmados, destaques, serviço para os dias restantes e linkar a página estrutural do evento ou campeonato.
+3. Quando `coverage_t1_required` for verdadeiro, no **dia seguinte ao último dia** publicar uma matéria de balanço completo: principais acontecimentos, resultados ou atrações, vencedores e classificação quando houver, números oficiais disponíveis, contexto e próximos passos. Atualizar a página estrutural para `concluida` no mesmo lote.
+4. Em competição ou evento de **um único dia** e alta relevância, a matéria publicada no dia seguinte deve ser um balanço completo único e cumprir simultaneamente as coberturas de abertura e encerramento; não criar dois textos artificiais sobre o mesmo fato.
+5. Em competições por etapas, calcular o IRT também para a etapa/rodada. A cobertura T+1 se aplica somente às etapas classificadas como `alta_relevancia`; a página da temporada permanece `em_andamento` enquanto houver etapa futura confirmada.
 6. Não declarar presença da TVDUASRODAS, público, resultado, ocorrência, show realizado ou experiência presencial sem confirmação. Quando a primeira fonte consultada ainda não tiver publicado o balanço necessário, percorrer toda a matriz de fontes confiáveis. Só depois dessa busca ampliada registrar a obrigação como monitoramento externo; refazer a busca nas janelas seguintes e publicar assim que houver confirmação suficiente.
 7. Antes de criar a matéria, verificar duplicidade por evento, competição, etapa, data e tipo de balanço. Registrar a cobertura na página estrutural ou no controle editorial para impedir publicação duplicada.
 8. Cada notícia de abertura ou encerramento é conteúdo novo elegível para um Story e um Reel na próxima ocorrência da automação do Instagram, seguindo a regra de apenas uma publicação por formato e sem Feed.
@@ -191,12 +261,14 @@ Os programas funcionam como edições especiais em texto e fotos, publicadas sep
 
 Cada edição precisa ter `contentType: "program"`, capa horizontal, no mínimo duas imagens internas quando houver material oficial, texto aprofundado, fontes oficiais, links internos e campos `program`, `programLabel`, `episodeDuration` e `readingTime`. O título deve identificar a edição da semana de forma editorial, por exemplo `Rolê de Rua — edição de DD/MM/AAAA`, sem transformar essa identificação em texto burocrático. A duração planejada e qualquer estrutura de futuro programa em vídeo são informações internas: nunca publicar ao leitor marcações de minutos, bastidores ou avisos sobre um futuro TV Show. Em terças e sextas não há edição fixa, mas a matéria diária independente continua obrigatória.
 
+Na capa da Revista, programas são uma categoria editorial permanente e prioritária, separada de matérias próprias e notícias. O bloco de programas deve aparecer antes do fluxo comum. Nos resultados da Revista, todo `contentType: "program"` deve usar card visualmente distinto, com identidade de série, nome do programa, dia da grade e indicação de edição semanal; não pode parecer um card comum que recebeu apenas outra etiqueta. Os filtros devem permitir separar `Programas`, `Matérias` e `Notícias`, além dos filtros temáticos. A diferenciação é editorial e visual; não altera a exigência de conteúdo aprofundado nem permite contar programa como matéria diária.
+
 Conteúdo fraco, duplicado, rumor ou texto inventado não cumpre a meta. Quando não houver release forte, a matéria diária deve ser uma pauta própria útil e durável, sustentada por fontes técnicas ou oficiais.
 
 ## 08h — Radar editorial e notícias
 
 - Ler a memória da execução anterior e rodar `python scripts/check_daily_targets.py`.
-- Auditar situações e obrigações T+1 de todos os eventos, competições e rodadas. Publicar antes das pautas discricionárias qualquer matéria de primeiro dia ou balanço final vencida, além de corrigir `proximo/agendada`, `em_andamento`, `encerrado/concluida` ou `cancelado` conforme fonte oficial.
+- Auditar data e hora locais, fuso, situação e sinais de relevância de todos os eventos, competições e rodadas. Publicar antes das pautas discricionárias qualquer matéria T+1 vencida dos itens `alta_relevancia`, além de corrigir `agendada`, `em_andamento`, `concluida`, `adiada` ou `cancelada` para todos, conforme fonte oficial.
 - Fazer a **primeira verificação obrigatória de SEO do dia** com `python scripts/update_sitemap.py --check`.
 - Conferir se o fechamento de SEO do dia anterior foi concluído: sitemap gerado depois da última publicação, enviado ao Google Search Console e URLs novas solicitadas para indexação. Se faltar qualquer etapa, corrigir, publicar e concluir usando somente `tvduasrodas@gmail.com` antes de seguir.
 - Se o sitemap estiver desatualizado, executar `python scripts/update_sitemap.py`, validar a contagem por coleção, publicar e reenviar o sitemap no Search Console.
@@ -232,7 +304,7 @@ Conteúdo fraco, duplicado, rumor ou texto inventado não cumpre a meta. Quando 
 ## 17h — Competições, eventos e segunda rodada de notícias
 
 - Verificar resultados, pódios, pontos, liderança, etapas e calendários em todas as camadas da matriz de fontes confiáveis, incluindo PDFs, planilhas, APIs e prestadores oficiais em domínios externos.
-- Repetir a auditoria de situação e de matérias T+1. Se a primeira fonte de uma abertura ou encerramento ainda não estava disponível às 08h, pesquisar novamente em toda a matriz e publicar o balanço assim que houver confirmação suficiente.
+- Repetir a auditoria universal de data, hora local, fuso e situação, atualizar o IRT e revisar alertas de crescimento. Para itens `alta_relevancia`, repetir a auditoria de matérias T+1. Se a primeira fonte de uma abertura ou encerramento ainda não estava disponível às 08h, pesquisar novamente em toda a matriz e publicar o balanço assim que houver confirmação suficiente.
 - Atualizar páginas existentes e preservar histórico; não publicar apenas o vencedor quando a tabela oficial completa estiver disponível.
 - Verificar eventos nacionais e internacionais relevantes ao público brasileiro e cadastrar os confirmados que ainda não existam no portal.
 - Se não houver mudança esportiva, procurar notícia relevante de produto, mercado, recall, segurança, mobilidade ou ciclismo. A janela não termina apenas com “sem novidade em competições”.
@@ -240,7 +312,7 @@ Conteúdo fraco, duplicado, rumor ou texto inventado não cumpre a meta. Quando 
 ## 20h — Fechamento obrigatório e auditoria final de SEO
 
 - Rodar `python scripts/check_daily_targets.py --require-complete`.
-- Confirmar que nenhuma obrigação vencida de matéria do primeiro dia ou do balanço final ficou sem publicação e que todas as situações de eventos, campeonatos e rodadas refletem datas e comunicados oficiais.
+- Confirmar que nenhuma obrigação T+1 vencida de item `alta_relevancia` ficou sem publicação e que todos os eventos, campeonatos, etapas e rodadas, independentemente do porte, refletem data e hora locais, fuso, situação e comunicados oficiais.
 - Se faltar matéria independente, vídeo elegível em pt-BR ou programa fixo do dia, produzir e publicar cada item pendente antes de encerrar, respeitando qualidade, fontes, diversidade e direitos.
 - Revisar URLs novas e materialmente alteradas do dia.
 - Fazer a **auditoria final obrigatória de SEO do dia**. Verificar se cada push público já teve sitemap reenviado e, para cada URL nova, indexação solicitada imediatamente após a publicação. Corrigir qualquer lacuna encontrada.
