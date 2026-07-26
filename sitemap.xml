@@ -537,6 +537,21 @@
     </video:video>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/videos/pedaleria-sete-apertos-manutencao-bike/</loc>
+    <lastmod>2026-07-26</lastmod>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://i3.ytimg.com/vi/ZZ6PRbWnQJQ/hqdefault.jpg</image:loc>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://i3.ytimg.com/vi/ZZ6PRbWnQJQ/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Manutenção de bicicleta: sete apertos em que a peça gira, não a ferramenta</video:title>
+      <video:description>No vídeo, o canal brasileiro Pedaleria mostra sete situações de manutenção em que movimentar a própria peça — em vez de forçar a ferramenta — pode facilitar o aperto e melhorar o controle do trabalho na bicicleta. Com…</video:description>
+      <video:player_loc>https://www.youtube.com/embed/ZZ6PRbWnQJQ</video:player_loc>
+      <video:publication_date>2026-07-26T11:01:00-04:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/videos/rm-supermoto-kartodromo-itu/</loc>
     <lastmod>2026-01-23</lastmod>
     <priority>0.7</priority>
