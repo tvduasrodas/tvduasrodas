@@ -64,7 +64,17 @@
       "visibility": "PUBLICO",
       "publicationConfirmation": "Your reel has been published according to your chosen publishing options."
     },
-    "imageCredit": "Honda Motor Europe / divulgação"
+    "imageCredit": "Honda Motor Europe / divulgação",
+    "localCleanup": {
+      "status": "EXCLUIDO_APOS_PUBLICACAO",
+      "deletedAt": "2026-07-26T00:05:53.405584-04:00",
+      "retentionHours": 24.0,
+      "folder": "output/instagram/2026-07-22/electric-zone-como-funciona-moto-eletrica",
+      "fileCount": 17,
+      "bytesFreed": 14164180,
+      "latestPublishedAt": "2026-07-22T17:23:49-04:00",
+      "reason": "Story e Reel confirmados no Instagram há pelo menos 24 horas."
+    }
   },
   {
     "url": "https://tvduasrodas.com/materia?slug=como-pilotar-moto-na-chuva-com-seguranca",
@@ -112,6 +122,16 @@
         "codec": "AAC"
       },
       "publicationConfirmation": "Reel confirmado na lista Published do Meta Business Suite às 15:07."
+    },
+    "localCleanup": {
+      "status": "EXCLUIDO_APOS_PUBLICACAO",
+      "deletedAt": "2026-07-26T00:05:53.405584-04:00",
+      "retentionHours": 24.0,
+      "folder": "output/instagram/2026-07-24/como-pilotar-moto-na-chuva-com-seguranca",
+      "fileCount": 9,
+      "bytesFreed": 14899557,
+      "latestPublishedAt": "2026-07-24T15:07:00-04:00",
+      "reason": "Story e Reel confirmados no Instagram há pelo menos 24 horas."
     }
   },
   {
@@ -123,7 +143,9 @@
       "publicUrl": "CONFIRMADA_NO_NAVEGADOR",
       "reason": "Revalidada em 24/07: o conteúdo dinâmico carregou o título e a edição completa no domínio público."
     },
-    "feed": { "status": "NAO_APLICAVEL_POR_REGRA" },
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
     "stories": {
       "asset": "output/instagram/2026-07-24/garage-tech-corrente-moto-limpeza-lubrificacao/story.mp4",
       "copy": "output/instagram/2026-07-24/garage-tech-corrente-moto-limpeza-lubrificacao/texto-story.txt",
@@ -152,6 +174,16 @@
       "publishedAt": "2026-07-24T17:40:00-04:00",
       "metaContentId": "18109509632055819",
       "publicationConfirmation": "Reel de 24 segundos confirmado na lista Published do Meta Business Suite."
+    },
+    "localCleanup": {
+      "status": "EXCLUIDO_APOS_PUBLICACAO",
+      "deletedAt": "2026-07-26T00:05:53.405584-04:00",
+      "retentionHours": 24.0,
+      "folder": "output/instagram/2026-07-24/garage-tech-corrente-moto-limpeza-lubrificacao",
+      "fileCount": 12,
+      "bytesFreed": 4220307,
+      "latestPublishedAt": "2026-07-24T17:40:00-04:00",
+      "reason": "Story e Reel confirmados no Instagram há pelo menos 24 horas."
     }
   },
   {
@@ -203,8 +235,24 @@
         "embedded": true,
         "codec": "AAC"
       },
-      "scenesPlanned": ["Gancho: CMW 2026 começa em Brasília", "Datas e local", "10 dias e mais de 100 shows", "Experiências e serviço", "CTA: siga @tvduasrodasofc e acesse TVDUASRODAS.COM"],
+      "scenesPlanned": [
+        "Gancho: CMW 2026 começa em Brasília",
+        "Datas e local",
+        "10 dias e mais de 100 shows",
+        "Experiências e serviço",
+        "CTA: siga @tvduasrodasofc e acesse TVDUASRODAS.COM"
+      ],
       "publicationConfirmation": "Your reel has been shared."
+    },
+    "localCleanup": {
+      "status": "EXCLUIDO_APOS_PUBLICACAO",
+      "deletedAt": "2026-07-26T00:05:53.405584-04:00",
+      "retentionHours": 24.0,
+      "folder": "output/instagram/capital-moto-week-2026",
+      "fileCount": 11,
+      "bytesFreed": 17775208,
+      "latestPublishedAt": "2026-07-23T09:16:00-04:00",
+      "reason": "Story e Reel confirmados no Instagram há pelo menos 24 horas."
     }
   },
   {
@@ -250,8 +298,22 @@
       "durationSeconds": 28,
       "dimensions": "1080x1920",
       "videoCodec": "H.264",
-      "audio": { "type": "TRILHA_INSTRUMENTAL_ORIGINAL_SINTETIZADA", "embedded": true, "codec": "AAC" },
+      "audio": {
+        "type": "TRILHA_INSTRUMENTAL_ORIGINAL_SINTETIZADA",
+        "embedded": true,
+        "codec": "AAC"
+      },
       "publicationConfirmation": "Reel confirmado na lista Published do Meta Business Suite."
+    },
+    "localCleanup": {
+      "status": "EXCLUIDO_APOS_PUBLICACAO",
+      "deletedAt": "2026-07-26T00:05:53.405584-04:00",
+      "retentionHours": 24.0,
+      "folder": "output/instagram/2026-07-23/role-de-rua-23-07-2026-rotas-curtas",
+      "fileCount": 14,
+      "bytesFreed": 5187693,
+      "latestPublishedAt": "2026-07-23T15:49:00-04:00",
+      "reason": "Story e Reel confirmados no Instagram há pelo menos 24 horas."
     }
   },
   {
@@ -297,8 +359,22 @@
       "durationSeconds": 28,
       "dimensions": "1080x1920",
       "videoCodec": "H.264",
-      "audio": { "type": "TRILHA_INSTRUMENTAL_ORIGINAL_SINTETIZADA", "embedded": true, "codec": "AAC" },
+      "audio": {
+        "type": "TRILHA_INSTRUMENTAL_ORIGINAL_SINTETIZADA",
+        "embedded": true,
+        "codec": "AAC"
+      },
       "publicationConfirmation": "Reel confirmado na lista Published do Meta Business Suite."
+    },
+    "localCleanup": {
+      "status": "EXCLUIDO_APOS_PUBLICACAO",
+      "deletedAt": "2026-07-26T00:05:53.405584-04:00",
+      "retentionHours": 24.0,
+      "folder": "output/instagram/2026-07-23/pontos-cegos-moto-cidade-como-pilotar-com-margem",
+      "fileCount": 14,
+      "bytesFreed": 4651048,
+      "latestPublishedAt": "2026-07-23T15:47:00-04:00",
+      "reason": "Story e Reel confirmados no Instagram há pelo menos 24 horas."
     }
   },
   {
@@ -321,7 +397,10 @@
       "status": "PUBLICADO",
       "publishedAt": "2026-07-24T13:09:00-04:00",
       "permalink": "https://www.instagram.com/stories/tvduasrodasofc/",
-      "metaContentIds": ["18106343324177526", "17905598634460089"],
+      "metaContentIds": [
+        "18106343324177526",
+        "17905598634460089"
+      ],
       "durationSeconds": 14,
       "dimensions": "1080x1920",
       "videoCodec": "H.264",
@@ -348,12 +427,183 @@
       },
       "visibility": "PUBLICO",
       "publicationConfirmation": "Reel confirmado no calendário do Meta Business Suite às 13:12, com a legenda publicada e ID 18134797213713680."
+    },
+    "localCleanup": {
+      "status": "EXCLUIDO_APOS_PUBLICACAO",
+      "deletedAt": "2026-07-26T00:05:53.405584-04:00",
+      "retentionHours": 24.0,
+      "folder": "output/instagram/2026-07-24/cfmoto-ibex-450-apresentacao-canal-motoplay",
+      "fileCount": 13,
+      "bytesFreed": 5449163,
+      "latestPublishedAt": "2026-07-24T13:12:00-04:00",
+      "reason": "Story e Reel confirmados no Instagram há pelo menos 24 horas."
     }
   },
-  {"url":"https://tvduasrodas.com/materia.html?slug=bagagem-na-moto-como-distribuir-fixar-e-viajar","type":"article","title":"Bagagem na moto: como distribuir, fixar e viajar com segurança","preparedAt":"2026-07-24T14:44:00-04:00","stories":{"asset":"output/instagram/2026-07-24/bagagem-na-moto-como-distribuir-fixar-e-viajar/story.mp4","durationSeconds":14,"status":"PUBLICADO","publishedAt":"2026-07-24T14:44:00-04:00","permalink":"https://www.instagram.com/stories/tvduasrodasofc/","metaContentId":"18151221775479562","publicationConfirmation":"Meta Business Suite exibiu o Story como Active no Planner."},"reel":{"asset":"output/instagram/2026-07-24/bagagem-na-moto-como-distribuir-fixar-e-viajar/reel.mp4","cover":"output/instagram/2026-07-24/bagagem-na-moto-como-distribuir-fixar-e-viajar/reel-cover.jpg","caption":"output/instagram/2026-07-24/bagagem-na-moto-como-distribuir-fixar-e-viajar/legenda-reel.txt","durationSeconds":23.2,"status":"PUBLICADO","publishedAt":"2026-07-24T14:55:00-04:00","permalink":"https://www.instagram.com/tvduasrodasofc/reels/","publicationConfirmation":"Reel confirmado na lista Published do Meta Business Suite às 14:55."}},
-  {"url":"https://tvduasrodas.com/materia.html?slug=capital-moto-week-2026-primeiro-dia-abertura","type":"news","title":"Capital Moto Week 2026: como foi a abertura da Cidade da Moto","preparedAt":"2026-07-24T14:45:00-04:00","stories":{"asset":"output/instagram/2026-07-24/capital-moto-week-2026-primeiro-dia-abertura/story.mp4","durationSeconds":14,"status":"PUBLICADO","publishedAt":"2026-07-24T14:45:00-04:00","permalink":"https://www.instagram.com/stories/tvduasrodasofc/","metaContentId":"18131023840649867","publicationConfirmation":"Meta Business Suite exibiu o Story como Active no Planner."},"reel":{"asset":"output/instagram/2026-07-24/capital-moto-week-2026-primeiro-dia-abertura/reel.mp4","cover":"output/instagram/2026-07-24/capital-moto-week-2026-primeiro-dia-abertura/reel-cover.jpg","caption":"output/instagram/2026-07-24/capital-moto-week-2026-primeiro-dia-abertura/legenda-reel.txt","durationSeconds":23.2,"status":"PUBLICADO","publishedAt":"2026-07-24T14:57:00-04:00","permalink":"https://www.instagram.com/tvduasrodasofc/reels/","publicationConfirmation":"Reel confirmado na lista Published do Meta Business Suite às 14:57."}},
-  {"url":"https://tvduasrodas.com/materia.html?slug=brasileiro-mtb-2026-primeiro-dia-xce","type":"news","title":"Brasileiro de MTB 2026: Cocuzzi e Iara abrem disputa com títulos no XCE","preparedAt":"2026-07-24T14:46:00-04:00","stories":{"asset":"output/instagram/2026-07-24/brasileiro-mtb-2026-primeiro-dia-xce/story.mp4","durationSeconds":14,"status":"PUBLICADO","publishedAt":"2026-07-24T14:46:00-04:00","permalink":"https://www.instagram.com/stories/tvduasrodasofc/","metaContentId":"17960141550008533","publicationConfirmation":"Meta Business Suite exibiu o Story como Active no Planner."},"reel":{"asset":"output/instagram/2026-07-24/brasileiro-mtb-2026-primeiro-dia-xce/reel.mp4","cover":"output/instagram/2026-07-24/brasileiro-mtb-2026-primeiro-dia-xce/reel-cover.jpg","caption":"output/instagram/2026-07-24/brasileiro-mtb-2026-primeiro-dia-xce/legenda-reel.txt","durationSeconds":23.2,"status":"PUBLICADO","publishedAt":"2026-07-24T14:58:00-04:00","permalink":"https://www.instagram.com/tvduasrodasofc/reel/DbL79ZGFHpt/","publicationConfirmation":"Reel confirmado na lista Published do Meta Business Suite às 14:58."}}
-,
-  {"url":"https://tvduasrodas.com/materia?slug=estrada-aberta-25-07-2026-ritmo-planejamento","type":"program","title":"Estrada Aberta — edição de 25/07/2026: ritmo para viajar com margem","preparedAt":"2026-07-25T08:31:09-04:00","feed":{"status":"NAO_APLICAVEL_POR_REGRA"},"stories":{"asset":"output/instagram/2026-07-25/estrada-aberta-25-07-2026-ritmo-planejamento/story.mp4","poster":"output/instagram/2026-07-25/estrada-aberta-25-07-2026-ritmo-planejamento/story-poster.jpg","durationSeconds":14,"dimensions":"1080x1920","videoCodec":"H.264","audioCodec":"AAC","status":"PUBLICADO","permalink":"https://www.instagram.com/stories/tvduasrodasofc/","publicationConfirmation":"Meta Business Suite retornou ao Planner após Share."},"reel":{"asset":"output/instagram/2026-07-25/estrada-aberta-25-07-2026-ritmo-planejamento/reel.mp4","cover":"output/instagram/2026-07-25/estrada-aberta-25-07-2026-ritmo-planejamento/reel-cover.jpg","durationSeconds":25,"dimensions":"1080x1920","videoCodec":"H.264","audioCodec":"AAC","status":"PUBLICADO","permalink":"https://www.instagram.com/tvduasrodasofc/reels/","publicationConfirmation":"Meta Business Suite aprovou direitos de áudio e retornou à lista Published após Share."}}
-, {"url":"https://tvduasrodas.com/tv.html?v=vktcvObvjzs","type":"video","title":"Capital Moto Week 2026: segundo dia traz dicas para curtir o festival","detectedAt":"2026-07-25T14:31:06-04:00","feed":{"status":"NAO_APLICAVEL_POR_REGRA"},"stories":{"asset":"output/instagram/2026-07-25/capital-moto-week-2026-segundo-dia-dicas/story.mp4","durationSeconds":14,"dimensions":"1080x1920","videoCodec":"H.264","audioCodec":"AAC","status":"PUBLICADO","publishedAt":"2026-07-25T11:37:00-04:00","permalink":"https://www.instagram.com/stories/tvduasrodasofc/","metaContentId":"17910168879439075","publicationConfirmation":"Meta Business Suite Planner confirmou Story Instagram Active às 11:37 em 25/07/2026. A janela das 20:30 validou o arquivo em 1080 × 1920, com 0:14, sem novo card visível no Planner."},"reel":{"asset":"output/instagram/2026-07-25/capital-moto-week-2026-segundo-dia-dicas/reel.mp4","cover":"output/instagram/2026-07-25/capital-moto-week-2026-segundo-dia-dicas/reel-cover.jpg","durationSeconds":28,"dimensions":"1080x1920","status":"PUBLICADO","publishedAt":"2026-07-25T14:48:56-04:00","permalink":"https://www.instagram.com/tvduasrodasofc/reels/","publicationConfirmation":"Meta Business Suite exibiu o alerta: Your reel has been published according to your chosen publishing options. Controle de direitos: sem problemas detectados."}}
+  {
+    "url": "https://tvduasrodas.com/materia.html?slug=bagagem-na-moto-como-distribuir-fixar-e-viajar",
+    "type": "article",
+    "title": "Bagagem na moto: como distribuir, fixar e viajar com segurança",
+    "preparedAt": "2026-07-24T14:44:00-04:00",
+    "stories": {
+      "asset": "output/instagram/2026-07-24/bagagem-na-moto-como-distribuir-fixar-e-viajar/story.mp4",
+      "durationSeconds": 14,
+      "status": "PUBLICADO",
+      "publishedAt": "2026-07-24T14:44:00-04:00",
+      "permalink": "https://www.instagram.com/stories/tvduasrodasofc/",
+      "metaContentId": "18151221775479562",
+      "publicationConfirmation": "Meta Business Suite exibiu o Story como Active no Planner."
+    },
+    "reel": {
+      "asset": "output/instagram/2026-07-24/bagagem-na-moto-como-distribuir-fixar-e-viajar/reel.mp4",
+      "cover": "output/instagram/2026-07-24/bagagem-na-moto-como-distribuir-fixar-e-viajar/reel-cover.jpg",
+      "caption": "output/instagram/2026-07-24/bagagem-na-moto-como-distribuir-fixar-e-viajar/legenda-reel.txt",
+      "durationSeconds": 23.2,
+      "status": "PUBLICADO",
+      "publishedAt": "2026-07-24T14:55:00-04:00",
+      "permalink": "https://www.instagram.com/tvduasrodasofc/reels/",
+      "publicationConfirmation": "Reel confirmado na lista Published do Meta Business Suite às 14:55."
+    },
+    "localCleanup": {
+      "status": "EXCLUIDO_APOS_PUBLICACAO",
+      "deletedAt": "2026-07-26T00:05:53.405584-04:00",
+      "retentionHours": 24.0,
+      "folder": "output/instagram/2026-07-24/bagagem-na-moto-como-distribuir-fixar-e-viajar",
+      "fileCount": 11,
+      "bytesFreed": 12417415,
+      "latestPublishedAt": "2026-07-24T14:55:00-04:00",
+      "reason": "Story e Reel confirmados no Instagram há pelo menos 24 horas."
+    }
+  },
+  {
+    "url": "https://tvduasrodas.com/materia.html?slug=capital-moto-week-2026-primeiro-dia-abertura",
+    "type": "news",
+    "title": "Capital Moto Week 2026: como foi a abertura da Cidade da Moto",
+    "preparedAt": "2026-07-24T14:45:00-04:00",
+    "stories": {
+      "asset": "output/instagram/2026-07-24/capital-moto-week-2026-primeiro-dia-abertura/story.mp4",
+      "durationSeconds": 14,
+      "status": "PUBLICADO",
+      "publishedAt": "2026-07-24T14:45:00-04:00",
+      "permalink": "https://www.instagram.com/stories/tvduasrodasofc/",
+      "metaContentId": "18131023840649867",
+      "publicationConfirmation": "Meta Business Suite exibiu o Story como Active no Planner."
+    },
+    "reel": {
+      "asset": "output/instagram/2026-07-24/capital-moto-week-2026-primeiro-dia-abertura/reel.mp4",
+      "cover": "output/instagram/2026-07-24/capital-moto-week-2026-primeiro-dia-abertura/reel-cover.jpg",
+      "caption": "output/instagram/2026-07-24/capital-moto-week-2026-primeiro-dia-abertura/legenda-reel.txt",
+      "durationSeconds": 23.2,
+      "status": "PUBLICADO",
+      "publishedAt": "2026-07-24T14:57:00-04:00",
+      "permalink": "https://www.instagram.com/tvduasrodasofc/reels/",
+      "publicationConfirmation": "Reel confirmado na lista Published do Meta Business Suite às 14:57."
+    },
+    "localCleanup": {
+      "status": "EXCLUIDO_APOS_PUBLICACAO",
+      "deletedAt": "2026-07-26T00:05:53.405584-04:00",
+      "retentionHours": 24.0,
+      "folder": "output/instagram/2026-07-24/capital-moto-week-2026-primeiro-dia-abertura",
+      "fileCount": 11,
+      "bytesFreed": 11125323,
+      "latestPublishedAt": "2026-07-24T14:57:00-04:00",
+      "reason": "Story e Reel confirmados no Instagram há pelo menos 24 horas."
+    }
+  },
+  {
+    "url": "https://tvduasrodas.com/materia.html?slug=brasileiro-mtb-2026-primeiro-dia-xce",
+    "type": "news",
+    "title": "Brasileiro de MTB 2026: Cocuzzi e Iara abrem disputa com títulos no XCE",
+    "preparedAt": "2026-07-24T14:46:00-04:00",
+    "stories": {
+      "asset": "output/instagram/2026-07-24/brasileiro-mtb-2026-primeiro-dia-xce/story.mp4",
+      "durationSeconds": 14,
+      "status": "PUBLICADO",
+      "publishedAt": "2026-07-24T14:46:00-04:00",
+      "permalink": "https://www.instagram.com/stories/tvduasrodasofc/",
+      "metaContentId": "17960141550008533",
+      "publicationConfirmation": "Meta Business Suite exibiu o Story como Active no Planner."
+    },
+    "reel": {
+      "asset": "output/instagram/2026-07-24/brasileiro-mtb-2026-primeiro-dia-xce/reel.mp4",
+      "cover": "output/instagram/2026-07-24/brasileiro-mtb-2026-primeiro-dia-xce/reel-cover.jpg",
+      "caption": "output/instagram/2026-07-24/brasileiro-mtb-2026-primeiro-dia-xce/legenda-reel.txt",
+      "durationSeconds": 23.2,
+      "status": "PUBLICADO",
+      "publishedAt": "2026-07-24T14:58:00-04:00",
+      "permalink": "https://www.instagram.com/tvduasrodasofc/reel/DbL79ZGFHpt/",
+      "publicationConfirmation": "Reel confirmado na lista Published do Meta Business Suite às 14:58."
+    },
+    "localCleanup": {
+      "status": "EXCLUIDO_APOS_PUBLICACAO",
+      "deletedAt": "2026-07-26T00:05:53.405584-04:00",
+      "retentionHours": 24.0,
+      "folder": "output/instagram/2026-07-24/brasileiro-mtb-2026-primeiro-dia-xce",
+      "fileCount": 11,
+      "bytesFreed": 14231062,
+      "latestPublishedAt": "2026-07-24T14:58:00-04:00",
+      "reason": "Story e Reel confirmados no Instagram há pelo menos 24 horas."
+    }
+  },
+  {
+    "url": "https://tvduasrodas.com/materia?slug=estrada-aberta-25-07-2026-ritmo-planejamento",
+    "type": "program",
+    "title": "Estrada Aberta — edição de 25/07/2026: ritmo para viajar com margem",
+    "preparedAt": "2026-07-25T08:31:09-04:00",
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
+    "stories": {
+      "asset": "output/instagram/2026-07-25/estrada-aberta-25-07-2026-ritmo-planejamento/story.mp4",
+      "poster": "output/instagram/2026-07-25/estrada-aberta-25-07-2026-ritmo-planejamento/story-poster.jpg",
+      "durationSeconds": 14,
+      "dimensions": "1080x1920",
+      "videoCodec": "H.264",
+      "audioCodec": "AAC",
+      "status": "PUBLICADO",
+      "permalink": "https://www.instagram.com/stories/tvduasrodasofc/",
+      "publicationConfirmation": "Meta Business Suite retornou ao Planner após Share."
+    },
+    "reel": {
+      "asset": "output/instagram/2026-07-25/estrada-aberta-25-07-2026-ritmo-planejamento/reel.mp4",
+      "cover": "output/instagram/2026-07-25/estrada-aberta-25-07-2026-ritmo-planejamento/reel-cover.jpg",
+      "durationSeconds": 25,
+      "dimensions": "1080x1920",
+      "videoCodec": "H.264",
+      "audioCodec": "AAC",
+      "status": "PUBLICADO",
+      "permalink": "https://www.instagram.com/tvduasrodasofc/reels/",
+      "publicationConfirmation": "Meta Business Suite aprovou direitos de áudio e retornou à lista Published após Share."
+    }
+  },
+  {
+    "url": "https://tvduasrodas.com/tv.html?v=vktcvObvjzs",
+    "type": "video",
+    "title": "Capital Moto Week 2026: segundo dia traz dicas para curtir o festival",
+    "detectedAt": "2026-07-25T14:31:06-04:00",
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
+    "stories": {
+      "asset": "output/instagram/2026-07-25/capital-moto-week-2026-segundo-dia-dicas/story.mp4",
+      "durationSeconds": 14,
+      "dimensions": "1080x1920",
+      "videoCodec": "H.264",
+      "audioCodec": "AAC",
+      "status": "PUBLICADO",
+      "publishedAt": "2026-07-25T11:37:00-04:00",
+      "permalink": "https://www.instagram.com/stories/tvduasrodasofc/",
+      "metaContentId": "17910168879439075",
+      "publicationConfirmation": "Meta Business Suite Planner confirmou Story Instagram Active às 11:37 em 25/07/2026. A janela das 20:30 validou o arquivo em 1080 × 1920, com 0:14, sem novo card visível no Planner."
+    },
+    "reel": {
+      "asset": "output/instagram/2026-07-25/capital-moto-week-2026-segundo-dia-dicas/reel.mp4",
+      "cover": "output/instagram/2026-07-25/capital-moto-week-2026-segundo-dia-dicas/reel-cover.jpg",
+      "durationSeconds": 28,
+      "dimensions": "1080x1920",
+      "status": "PUBLICADO",
+      "publishedAt": "2026-07-25T14:48:56-04:00",
+      "permalink": "https://www.instagram.com/tvduasrodasofc/reels/",
+      "publicationConfirmation": "Meta Business Suite exibiu o alerta: Your reel has been published according to your chosen publishing options. Controle de direitos: sem problemas detectados."
+    }
+  }
 ]

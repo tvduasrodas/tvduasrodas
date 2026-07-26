@@ -1,6 +1,6 @@
 # Rotina diária fixada — TVDUASRODAS
 
-Versão atualizada em 25 de julho de 2026. Esta rotina é obrigatória para o worker e não pode ser reduzida, substituída ou ignorada sem uma nova instrução expressa de Wesley. O portal não é somente competições e eventos.
+Versão atualizada em 26 de julho de 2026. Esta rotina é obrigatória para o worker e não pode ser reduzida, substituída ou ignorada sem uma nova instrução expressa de Wesley. O portal não é somente competições e eventos.
 
 ## Sincronização obrigatória entre este arquivo e as automações
 
@@ -254,6 +254,18 @@ A auditoria das 20h é uma camada adicional de segurança para localizar qualque
 - Registrar separadamente, para cada Story e Reel: arquivo, duração, trilha, horário, destino, permalink ou identificador disponível e confirmação verdadeira da publicação.
 - Todos os arquivos e registros criados pela automação do Instagram devem ser incluídos em commit e push para `origin/main` antes do encerramento. Se o push direto falhar, aplicar imediatamente a seção **Recuperação obrigatória de publicação** deste documento.
 - A automação do Instagram não pode declarar conclusão com arquivos apenas locais, commit à frente de `origin/main` ou publicação sem confirmação.
+
+### Limpeza obrigatória dos arquivos locais do Instagram após 24 horas
+
+- Os arquivos de produção armazenados em subpastas de `output/instagram` são temporários. Depois de **24 horas completas** da publicação confirmada no Instagram, devem ser excluídos do computador e do repositório para liberar espaço. O prazo começa no horário mais recente entre Story, Reel e eventual Feed legado publicado.
+- Executar `python scripts/cleanup_instagram_output.py --apply` em todas as ocorrências da automação do Instagram, depois de preservar o registro da publicação e antes do commit final. As automações de recuperação também devem executar ou recuperar essa limpeza quando houver pastas elegíveis.
+- A exclusão só é permitida quando Story e Reel estiverem com `status: "PUBLICADO"`, `publishedAt` válido com fuso e confirmação por permalink, identificador da Meta ou mensagem de publicação. Feed legado, quando existir como `PUBLICADO`, deve cumprir os mesmos requisitos. Status pendente, falha, ausência de horário ou falta de confirmação bloqueiam a limpeza.
+- O script deve operar primeiro em modo de simulação por padrão e aplicar exclusões somente com `--apply`. É proibido reduzir `--retention-hours` para menos de 24.
+- A limpeza deve remover somente a pasta comum registrada para aquela publicação dentro de `output/instagram`. Nunca excluir `output/instagram` inteiro, `publication-log.json`, `design-review`, `source`, `assets/img/uploads`, conteúdo do portal, arquivos de fonte ou qualquer caminho fora da raiz permitida.
+- Antes da exclusão, conferir o caminho absoluto, a quantidade de arquivos e o total de bytes. Pastas compartilhadas por mais de um registro, links simbólicos, caminhos ambíguos ou referências fora do escopo devem ser preservados e registrados como pendência.
+- `output/instagram/publication-log.json` é histórico permanente e não deve ser apagado. Após cada limpeza, acrescentar ao registro `localCleanup` com situação, horário, pasta removida, retenção aplicada, quantidade de arquivos, bytes liberados e razão.
+- As exclusões e a atualização de `publication-log.json` devem entrar no commit e no push da mesma ocorrência, para que os arquivos também deixem de ocupar espaço em `origin/main`. Confirmar `HEAD == origin/main` antes de declarar a limpeza concluída.
+- Arquivos com menos de 24 horas, publicações sem `publishedAt`, mídia ainda necessária para nova tentativa e qualquer item sem confirmação visível devem permanecer intactos. A limpeza nunca pode apagar material para compensar falha de publicação.
 
 ## Grade fixa dos programas da Revista
 
