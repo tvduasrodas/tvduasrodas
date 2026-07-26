@@ -617,12 +617,100 @@
       "status": "NAO_APLICAVEL_POR_REGRA"
     },
     "stories": {
-      "status": "PENDENTE_MIDIA_DIREITOS_NAO_CONFIRMADOS",
-      "reason": "O frontmatter editorial confirmou áudio em pt-BR. A recuperação não encontrou material visual com direitos editoriais confirmados para produzir o Story sem reutilizar ou copiar imagens sem autorização."
+      "asset": "output/instagram/2026-07-26/pedaleria-sete-apertos/story.mp4",
+      "durationSeconds": 14.07,
+      "dimensions": "1080x1920",
+      "videoCodec": "H.264",
+      "audioCodec": "AAC",
+      "status": "PUBLICADO",
+      "publishedAt": "2026-07-26T12:28:00-04:00",
+      "permalink": "https://www.instagram.com/stories/tvduasrodasofc/",
+      "metaContentId": "18081383969273184",
+      "publicationConfirmation": "Meta Business Suite Planner confirmou o Story Instagram como Active às 12:28."
     },
     "reel": {
-      "status": "PENDENTE_MIDIA_DIREITOS_NAO_CONFIRMADOS",
-      "reason": "O frontmatter editorial confirmou áudio em pt-BR. A recuperação não encontrou cinco imagens distintas com direitos editoriais confirmados, requisito obrigatório para o Reel."
+      "asset": "output/instagram/2026-07-26/pedaleria-sete-apertos/reel.mp4",
+      "cover": "output/instagram/2026-07-26/pedaleria-sete-apertos/reel-cover.jpg",
+      "caption": "output/instagram/2026-07-26/pedaleria-sete-apertos/copy.txt",
+      "durationSeconds": 19.25,
+      "dimensions": "1080x1920",
+      "videoCodec": "H.264",
+      "audioCodec": "AAC",
+      "status": "PUBLICADO",
+      "publishedAt": "2026-07-26T12:26:00-04:00",
+      "permalink": "https://www.instagram.com/tvduasrodasofc/reels/",
+      "metaContentId": "18108846362099492",
+      "publicationConfirmation": "Meta Business Suite aprovou a verificação de direitos e o Planner confirmou o Reel do Instagram às 12:26."
+    }
+  },
+  {
+    "url": "https://tvduasrodas.com/materias/bicicleta-na-rua-posicao-portas-visibilidade/",
+    "type": "news",
+    "title": "Bicicleta na rua: posição segura, portas e visibilidade no trânsito",
+    "preparedAt": "2026-07-26T12:18:00-04:00",
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
+    "stories": {
+      "asset": "output/instagram/2026-07-26/bicicleta-posicao-segura/story.mp4",
+      "durationSeconds": 14.07,
+      "dimensions": "1080x1920",
+      "videoCodec": "H.264",
+      "audioCodec": "AAC",
+      "status": "PUBLICADO",
+      "publishedAt": "2026-07-26T12:30:00-04:00",
+      "permalink": "https://www.instagram.com/stories/tvduasrodasofc/",
+      "metaContentId": "18209133079343379",
+      "publicationConfirmation": "Meta Business Suite Planner confirmou o Story Instagram como Active às 12:30."
+    },
+    "reel": {
+      "asset": "output/instagram/2026-07-26/bicicleta-posicao-segura/reel.mp4",
+      "cover": "output/instagram/2026-07-26/bicicleta-posicao-segura/reel-cover.jpg",
+      "caption": "output/instagram/2026-07-26/bicicleta-posicao-segura/copy.txt",
+      "durationSeconds": 19.25,
+      "dimensions": "1080x1920",
+      "videoCodec": "H.264",
+      "audioCodec": "AAC",
+      "status": "PUBLICADO",
+      "publishedAt": "2026-07-26T12:29:00-04:00",
+      "permalink": "https://www.instagram.com/tvduasrodasofc/reels/",
+      "metaContentId": "18100803329614044",
+      "publicationConfirmation": "Meta Business Suite aprovou a verificação de direitos e o Planner confirmou o Reel do Instagram às 12:29."
+    }
+  },
+  {
+    "url": "https://tvduasrodas.com/materias/electric-zone-26-07-2026-recarga-segura/",
+    "type": "program",
+    "title": "Electric Zone — edição de 26/07/2026: recarga segura começa na instalação",
+    "preparedAt": "2026-07-26T12:18:00-04:00",
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
+    "stories": {
+      "asset": "output/instagram/2026-07-26/electric-zone-recarga-segura/story.mp4",
+      "durationSeconds": 14.07,
+      "dimensions": "1080x1920",
+      "videoCodec": "H.264",
+      "audioCodec": "AAC",
+      "status": "PUBLICADO",
+      "publishedAt": "2026-07-26T12:31:00-04:00",
+      "permalink": "https://www.instagram.com/stories/tvduasrodasofc/",
+      "metaContentId": "18080622764292050",
+      "publicationConfirmation": "Meta Business Suite Planner confirmou o Story Instagram como Active às 12:31."
+    },
+    "reel": {
+      "asset": "output/instagram/2026-07-26/electric-zone-recarga-segura/reel.mp4",
+      "cover": "output/instagram/2026-07-26/electric-zone-recarga-segura/reel-cover.jpg",
+      "caption": "output/instagram/2026-07-26/electric-zone-recarga-segura/copy.txt",
+      "durationSeconds": 19.25,
+      "dimensions": "1080x1920",
+      "videoCodec": "H.264",
+      "audioCodec": "AAC",
+      "status": "PUBLICADO",
+      "publishedAt": "2026-07-26T12:31:00-04:00",
+      "permalink": "https://www.instagram.com/tvduasrodasofc/reels/",
+      "metaContentId": "18334678822283270",
+      "publicationConfirmation": "Meta Business Suite aprovou a verificação de direitos e o Planner confirmou o Reel do Instagram às 12:31."
     }
   }
 ]

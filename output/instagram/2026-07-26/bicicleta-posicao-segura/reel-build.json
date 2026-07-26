@@ -1,0 +1,44 @@
+{
+  "format": "1080x1920",
+  "video_codec": "H.264",
+  "audio_codec": "AAC",
+  "transition": "page_peel_diagonal",
+  "soundtrack": "rock_instrumental_original",
+  "scene_count": 5,
+  "nominal_duration_seconds": 19.25,
+  "rights_verified": true,
+  "source_manifest": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-07-26\\bicicleta-posicao-segura\\manifest.json",
+  "content_url": "https://tvduasrodas.com/materias/bicicleta-na-rua-posicao-portas-visibilidade/",
+  "scenes": [
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-07-26\\bicicleta-posicao-segura\\source\\ciclista-posicao-segura-capa.webp",
+      "sha256": "bdd679bc557a401925d6186bbd5e4a0d20f30bde60ed493f8dd280593fa1b285",
+      "credit": "Ilustração editorial gerada por IA / TVDUASRODAS",
+      "source_url": "https://tvduasrodas.com/materias/bicicleta-na-rua-posicao-portas-visibilidade/"
+    },
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-07-26\\bicicleta-posicao-segura\\source\\ciclista-zona-portas.webp",
+      "sha256": "dea2baa90c0a7fe282bbe9d42bdf7c807047bbd50454325af4e6850b70d3d719",
+      "credit": "Ilustração editorial gerada por IA / TVDUASRODAS",
+      "source_url": "https://tvduasrodas.com/materias/bicicleta-na-rua-posicao-portas-visibilidade/"
+    },
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-07-26\\bicicleta-posicao-segura\\source\\ciclista-equipamentos-visibilidade.webp",
+      "sha256": "e85e324cf29b16bcfd247024132987de2db2a95da16436af8835567513548001",
+      "credit": "Ilustração editorial gerada por IA / TVDUASRODAS",
+      "source_url": "https://tvduasrodas.com/materias/bicicleta-na-rua-posicao-portas-visibilidade/"
+    },
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-07-26\\bicicleta-posicao-segura\\source\\04-cruzamento.png",
+      "sha256": "51e3124d67d6ce4f2bc2837c6c481c6bc1e610f53c493f8c766cdcef0a42e943",
+      "credit": "Ilustração editorial gerada por IA / TVDUASRODAS",
+      "source_url": "https://tvduasrodas.com/materias/bicicleta-na-rua-posicao-portas-visibilidade/"
+    },
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-07-26\\bicicleta-posicao-segura\\source\\05-rota.png",
+      "sha256": "007800375a03f79ceae08a065b63d2b0d9e4548baf7208c6f5301096997feae1",
+      "credit": "Ilustração editorial gerada por IA / TVDUASRODAS",
+      "source_url": "https://tvduasrodas.com/materias/bicicleta-na-rua-posicao-portas-visibilidade/"
+    }
+  ]
+}

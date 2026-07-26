@@ -1,0 +1,44 @@
+{
+  "format": "1080x1920",
+  "video_codec": "H.264",
+  "audio_codec": "AAC",
+  "transition": "page_peel_diagonal",
+  "soundtrack": "rock_instrumental_original",
+  "scene_count": 5,
+  "nominal_duration_seconds": 19.25,
+  "rights_verified": true,
+  "source_manifest": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-07-26\\electric-zone-recarga-segura\\manifest.json",
+  "content_url": "https://tvduasrodas.com/materias/electric-zone-26-07-2026-recarga-segura/",
+  "scenes": [
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-07-26\\electric-zone-recarga-segura\\source\\electric-zone-recarga-segura-capa.webp",
+      "sha256": "1a030bb7026fa7a147f970b309c705d0540fb04d481791a0976dba201c5027ca",
+      "credit": "Ilustração editorial gerada por IA / TVDUASRODAS",
+      "source_url": "https://tvduasrodas.com/materias/electric-zone-26-07-2026-recarga-segura/"
+    },
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-07-26\\electric-zone-recarga-segura\\source\\electric-zone-ponto-dedicado.webp",
+      "sha256": "06a0a6b5c1950b9f36cca1f70d057ffa9ff7f66a839e810b95b350375ee55e1f",
+      "credit": "Ilustração editorial gerada por IA / TVDUASRODAS",
+      "source_url": "https://tvduasrodas.com/materias/electric-zone-26-07-2026-recarga-segura/"
+    },
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-07-26\\electric-zone-recarga-segura\\source\\electric-zone-inspecao-conector.webp",
+      "sha256": "7bb620ebb2bfbee0fe14c38fd574b36ed4da4b744665534165990bd81599eaa0",
+      "credit": "Ilustração editorial gerada por IA / TVDUASRODAS",
+      "source_url": "https://tvduasrodas.com/materias/electric-zone-26-07-2026-recarga-segura/"
+    },
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-07-26\\electric-zone-recarga-segura\\source\\04-bateria.png",
+      "sha256": "ce7dea54560571e2715c7cc5e175dc12ca6998adba63f39022b4c65c27d07f79",
+      "credit": "Ilustração editorial gerada por IA / TVDUASRODAS",
+      "source_url": "https://tvduasrodas.com/materias/electric-zone-26-07-2026-recarga-segura/"
+    },
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-07-26\\electric-zone-recarga-segura\\source\\05-condominio.png",
+      "sha256": "905baa5095b5fc10960676d6857a7a0a0c91afc94db49be25fc9da95dfd5fb2c",
+      "credit": "Ilustração editorial gerada por IA / TVDUASRODAS",
+      "source_url": "https://tvduasrodas.com/materias/electric-zone-26-07-2026-recarga-segura/"
+    }
+  ]
+}

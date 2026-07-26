@@ -1,0 +1,51 @@
+{
+  "content_url": "https://tvduasrodas.com/materias/electric-zone-26-07-2026-recarga-segura/",
+  "rights_verified": true,
+  "scenes": [
+    {
+      "image": "source/electric-zone-recarga-segura-capa.webp",
+      "focus": [0.5, 0.52],
+      "context": "Electric Zone",
+      "title": "Recarga segura",
+      "detail": "A segurança começa antes de conectar o veículo",
+      "credit": "Ilustração editorial gerada por IA / TVDUASRODAS",
+      "source_url": "https://tvduasrodas.com/materias/electric-zone-26-07-2026-recarga-segura/"
+    },
+    {
+      "image": "source/electric-zone-ponto-dedicado.webp",
+      "focus": [0.5, 0.54],
+      "context": "Instalação elétrica",
+      "title": "Circuito dimensionado",
+      "detail": "Proteções e ponto dedicado exigem avaliação profissional",
+      "credit": "Ilustração editorial gerada por IA / TVDUASRODAS",
+      "source_url": "https://tvduasrodas.com/materias/electric-zone-26-07-2026-recarga-segura/"
+    },
+    {
+      "image": "source/electric-zone-inspecao-conector.webp",
+      "focus": [0.5, 0.58],
+      "context": "Antes de carregar",
+      "title": "Inspecione o conector",
+      "detail": "Interrompa o uso diante de aquecimento ou dano visível",
+      "credit": "Ilustração editorial gerada por IA / TVDUASRODAS",
+      "source_url": "https://tvduasrodas.com/materias/electric-zone-26-07-2026-recarga-segura/"
+    },
+    {
+      "image": "source/04-bateria.png",
+      "focus": [0.5, 0.57],
+      "context": "Bateria removível",
+      "title": "Use o carregador correto",
+      "detail": "Siga as orientações do fabricante e ventile o ambiente",
+      "credit": "Ilustração editorial gerada por IA / TVDUASRODAS",
+      "source_url": "https://tvduasrodas.com/materias/electric-zone-26-07-2026-recarga-segura/"
+    },
+    {
+      "image": "source/05-condominio.png",
+      "focus": [0.5, 0.56],
+      "context": "Garagem compartilhada",
+      "title": "Planejamento coletivo",
+      "detail": "Conheça a edição completa no TVDUASRODAS.COM",
+      "credit": "Ilustração editorial gerada por IA / TVDUASRODAS",
+      "source_url": "https://tvduasrodas.com/materias/electric-zone-26-07-2026-recarga-segura/"
+    }
+  ]
+}
