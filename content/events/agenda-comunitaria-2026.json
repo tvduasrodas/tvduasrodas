@@ -1,7 +1,7 @@
 {
   "title": "Agenda comunitária nacional de duas rodas 2026",
   "source_url": "https://jb-rider.com.br/eventos.php",
-  "last_updated": "2026-07-26T10:02:42.879732+00:00",
+  "last_updated": "2026-07-26T10:19:28.165324+00:00",
   "methodology": "Fatos básicos de agenda (nome, data, cidade e UF), deduplicados e complementados por fontes oficiais e locais. Itens comunitários exigem confirmação com o organizador.",
   "entries": [
     {
@@ -9202,8 +9202,8 @@
     },
     {
       "slug": "motofest-manhumirim-mg-2026-07-31",
-      "title": "MOTOFEST",
-      "short_name": "MOTOFEST",
+      "title": "5º Manhumirim Moto Fest",
+      "short_name": "Manhumirim Moto Fest",
       "start_date": "2026-07-31",
       "end_date": "2026-08-02",
       "city": "Manhumirim",
@@ -9211,7 +9211,7 @@
       "country": "Brasil",
       "scope": "Nacional",
       "region": "Sudeste",
-      "venue": "Local detalhado não informado de forma legível no flyer",
+      "venue": "Praça da Rodoviária",
       "status": "agendada",
       "event_type": "Festival de motociclismo",
       "segment": "Motos",
@@ -9223,39 +9223,49 @@
       "image_credit": "Arte: TVDUASRODAS",
       "featured": false,
       "free": false,
-      "summary": "Festival de motociclismo em Manhumirim/MG, com data divulgada para 2026-07-31. O flyer foi inspecionado localmente; serviços identificados: expositores.",
+      "summary": "O 5º Manhumirim Moto Fest acontece de 31 de julho a 2 de agosto de 2026 na Praça da Rodoviária, com entrada franca, camping coberto, chuveiros quentes, café da manhã, alimentação, troféus e locução.",
       "attractions": [
-        "Expositores"
+        "Programação detalhada não identificada de forma legível no flyer",
+        "Shows ou bandas de rock",
+        "Área de camping coberta",
+        "Chuveiros quentes",
+        "Café da manhã 0800",
+        "Praça de alimentação e food trucks",
+        "Troféus para moto clubes e moto grupos",
+        "Locução de Lukas Augusto, A Voz Estradeira"
       ],
-      "body": "## Serviço verificado\n\nMOTOFEST tem data divulgada de 2026-07-31 a 2026-08-02, em Manhumirim/MG. Horário não informado de forma legível no flyer consultado.\n\n## Local e endereço\n\nEndereço detalhado não informado no flyer; referência: Manhumirim - MG. Quando o endereço não aparece de forma legível, a TVDUASRODAS mantém essa ausência explícita e não inventa rua, número ou CEP.\n\n## Programação e estrutura\n\nExpositores. Os nomes e horários que não atingiram confiança suficiente no processamento visual não foram transformados em informação pública.\n\n## Acesso, estacionamento e contato\n\nNão informado de forma legível no flyer consultado. Não informado de forma legível no flyer consultado. Contato não identificado de forma legível no flyer.\n\n## Fonte e atualização\n\nA data, a cidade e os sinais de serviço foram confrontados com o flyer específico indexado pela JB-RIDER. A arte original permanece vinculada para conferência de mudanças e detalhes.",
+      "body": "## Serviço verificado\n\nMOTOFEST(PROG) tem data divulgada de 2026-07-31 a 2026-07-31, em Manhumirim/MG. Horários identificados no flyer: 09:00, 18:00, 16:00, 22:00.\n\n## Local e endereço\n\nEndereço detalhado não informado no flyer; referência: Manhumirim - MG. Quando o endereço não aparece de forma legível, a TVDUASRODAS mantém essa ausência explícita e não inventa rua, número ou CEP.\n\n## Programação e estrutura\n\nProgramação detalhada não identificada de forma legível no flyer. Os nomes e horários que não atingiram confiança suficiente no processamento visual não foram transformados em informação pública.\n\n## Acesso, estacionamento e contato\n\nNão informado de forma legível no flyer consultado. Não informado de forma legível no flyer consultado. 3399935-2600; 33 98423-7389; 3399988-0235; 33 99107-3769; 33 99934-5662.\n\n## Leitura visual complementar\n\nEstrutura e atrações legíveis: Shows ou bandas de rock. Marcas de horário legíveis: 18h00, 19h00, 20h30, 23h00, 09h00, 11h00. Contatos impressos: (33) 99935-2600; (33) 98423-7389; (33) 99988-0235; (33) 99107-3769. Canais impressos no material: MotoClub Brasil — página específica do 5º Manhumirim Moto Fest, Página do Geração Tsaleah MC em Manhumirim, Câmara de Manhumirim — histórico institucional do motociclismo local. A página específica do MotoClub Brasil confirmou Praça da Rodoviária, abertura às 18h, três dias de evento, gratuidade, organização e infraestrutura. A leitura automatizada foi usada como apoio; trechos ambíguos não foram publicados como fato.\n## Fonte e atualização\n\nA data, a cidade e os sinais de serviço foram confrontados com o flyer específico indexado pela JB-RIDER. A arte original permanece vinculada para conferência de mudanças e detalhes.",
       "last_updated": "2026-07-26T05:07:49.077000+00:00",
       "timezone": "America/Sao_Paulo",
-      "time_label": "Horário não informado de forma legível no flyer consultado",
-      "street_address": "Endereço detalhado não informado de forma legível no flyer",
-      "full_address": "Endereço detalhado não informado no flyer; referência: Manhumirim - MG",
+      "time_label": "31 de julho a 2 de agosto de 2026; abertura às 18h",
+      "street_address": "Praça da Rodoviária, Centro",
+      "full_address": "Praça da Rodoviária, Centro, Manhumirim - MG",
       "status_basis": "Data futura divulgada no flyer e na agenda comunitária; confirme alterações antes de viajar.",
       "status_checked_at": "2026-07-26T05:07:49.077000+00:00",
-      "organizer": "Organização não identificada de forma legível no flyer consultado",
-      "contact": "Contato não identificado de forma legível no flyer",
+      "organizer": "Geração Tsaleah MC, com os moto clubes locais e apoio da Prefeitura de Manhumirim",
+      "contact": "(33) 99935-2600; (33) 98423-7389; (33) 99988-0235; (33) 99107-3769",
       "source_checked_at": "2026-07-26T09:59:49.778497+00:00",
       "visual_verification": {
-        "type": "flyer_com_ocr_local",
-        "source_url": "https://jb-rider.com.br/eventos/20260731_3__MOTOFEST_Manhumirim_MG.jpeg",
-        "detail_url": "https://jb-rider.com.br/evento/20260731-3-motofest-manhumirim-mg",
-        "checked_at": "2026-07-26T05:07:49.077000+00:00",
-        "ocr_engine": "Tesseract.js por",
-        "ocr_confidence": 48.0,
-        "review_policy": "Somente padrões estruturados; campos duvidosos tratados como não informados",
+        "type": "flyer_reinspecionado_com_ocr_visual",
+        "source_url": "https://jb-rider.com.br/eventos/20260731___MOTOFEST%28PROG%29_Manhumirim_MG.jpeg",
+        "detail_url": "https://jb-rider.com.br/evento/20260731-motofest-prog-manhumirim-mg",
+        "checked_at": "2026-07-26T09:57:55.808145+00:00",
+        "ocr_engine": "Windows.Media.Ocr",
+        "ocr_confidence": 51.0,
+        "review_policy": "extração conservadora de padrões estruturados",
         "confirmed_fields": [
           "date",
           "city",
           "state",
           "event_name",
+          "times",
+          "contact",
           "services_and_attractions",
-          "contact"
+          "time_marks",
+          "official_channels"
         ]
       },
-      "admission_status": "Não informado de forma legível no flyer consultado",
+      "admission_status": "Entrada franca em todos os dias",
       "parking": "Não informado de forma legível no flyer consultado",
       "sources": [
         {
@@ -9266,6 +9276,42 @@
         },
         {
           "url": "https://jb-rider.com.br/eventos/20260731_3__MOTOFEST_Manhumirim_MG.jpeg",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+        },
+        {
+          "url": "https://motoclub.run/eventos/5-manhumirim-moto-fest-1782261486660",
+          "label": "MotoClub Brasil — página específica do 5º Manhumirim Moto Fest",
+          "type": "página específica independente com dados estruturados",
+          "supports": "edição, datas, horário, local, gratuidade, organização e infraestrutura",
+          "checked_at": "2026-07-26T09:57:55.808145+00:00",
+          "discovery_method": "pesquisa_web_multifonte"
+        },
+        {
+          "url": "https://motoclub.run/clubes/geracao-tsaleah-mc-manhumirim-7x81",
+          "label": "Página do Geração Tsaleah MC em Manhumirim",
+          "type": "perfil específico do organizador",
+          "supports": "identidade, cidade e vínculo do moto clube organizador",
+          "checked_at": "2026-07-26T09:57:55.808145+00:00",
+          "discovery_method": "pesquisa_web_multifonte"
+        },
+        {
+          "url": "https://www.manhumirim.mg.leg.br/institucional/noticias/moto-clube-aguias-de-aco-mg-111-recebeu-homenagem-na-camara-de-manhumirim",
+          "label": "Câmara de Manhumirim — histórico institucional do motociclismo local",
+          "type": "fonte institucional de contexto",
+          "supports": "tradição dos moto clubes locais e histórico beneficente do Moto Fest",
+          "checked_at": "2026-07-26T09:57:55.808145+00:00",
+          "discovery_method": "pesquisa_web_multifonte"
+        },
+        {
+          "url": "https://jb-rider.com.br/evento/20260731-motofest-prog-manhumirim-mg",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260731___MOTOFEST%28PROG%29_Manhumirim_MG.jpeg",
           "label": "Flyer ou página específica original do evento",
           "type": "evidência visual primária",
           "supports": "data, cidade, identidade e informações legíveis no flyer específico"
@@ -9316,7 +9362,7 @@
         "Locução de Lukas Augusto, A Voz Estradeira"
       ],
       "body": "## Serviço verificado\n\nMOTOFEST(PROG) tem data divulgada de 2026-07-31 a 2026-07-31, em Manhumirim/MG. Horários identificados no flyer: 09:00, 18:00, 16:00, 22:00.\n\n## Local e endereço\n\nEndereço detalhado não informado no flyer; referência: Manhumirim - MG. Quando o endereço não aparece de forma legível, a TVDUASRODAS mantém essa ausência explícita e não inventa rua, número ou CEP.\n\n## Programação e estrutura\n\nProgramação detalhada não identificada de forma legível no flyer. Os nomes e horários que não atingiram confiança suficiente no processamento visual não foram transformados em informação pública.\n\n## Acesso, estacionamento e contato\n\nNão informado de forma legível no flyer consultado. Não informado de forma legível no flyer consultado. 3399935-2600; 33 98423-7389; 3399988-0235; 33 99107-3769; 33 99934-5662.\n\n## Leitura visual complementar\n\nEstrutura e atrações legíveis: Shows ou bandas de rock. Marcas de horário legíveis: 18h00, 19h00, 20h30, 23h00, 09h00, 11h00. Contatos impressos: (33) 99935-2600; (33) 98423-7389; (33) 99988-0235; (33) 99107-3769. Canais impressos no material: MotoClub Brasil — página específica do 5º Manhumirim Moto Fest, Página do Geração Tsaleah MC em Manhumirim, Câmara de Manhumirim — histórico institucional do motociclismo local. A página específica do MotoClub Brasil confirmou Praça da Rodoviária, abertura às 18h, três dias de evento, gratuidade, organização e infraestrutura. A leitura automatizada foi usada como apoio; trechos ambíguos não foram publicados como fato.\n## Fonte e atualização\n\nA data, a cidade e os sinais de serviço foram confrontados com o flyer específico indexado pela JB-RIDER. A arte original permanece vinculada para conferência de mudanças e detalhes.",
-      "last_updated": "2026-07-26T09:57:55.808145+00:00",
+      "last_updated": "2026-07-26",
       "timezone": "America/Sao_Paulo",
       "time_label": "31 de julho a 2 de agosto de 2026; abertura às 18h",
       "street_address": "Praça da Rodoviária, Centro",
@@ -9395,7 +9441,9 @@
           "\"(33) 99935-2600\" \"manhumirim\""
         ],
         "reviewed_at": "2026-07-26T09:08:14.668607+00:00"
-      }
+      },
+      "duplicate_of": "motofest-manhumirim-mg-2026-07-31",
+      "canonical_url": "/eventos/motofest-manhumirim-mg-2026-07-31/"
     },
     {
       "slug": "mc-cachorro-loko-mariana-mg-2026-07-31",

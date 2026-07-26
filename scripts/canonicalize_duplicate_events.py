@@ -54,6 +54,8 @@ CONFIRMED_ALIASES = {
         "9-encontro-de-motociclistas-e-triciclistas-lutecia-sp-2026-11-06",
     "motofest-lagoinha-sao-jose-do-rio-preto-sp-2026-11-21":
         "moto-fest-lagoinha-sao-jose-do-rio-preto-sp-2026-11-21",
+    "motofest-prog-manhumirim-mg-2026-07-31":
+        "motofest-manhumirim-mg-2026-07-31",
     "amigos-na-estrada-mc-sao-jose-do-vale-rio-preto-rj-2026-08-23":
         "amigos-na-estrada-mc-sao-jose-do-vale-do-rio-preto-rj-2026-08-23",
     "os-mutantes-mc-e-road-rhino-mc-rio-de-janeiro-rj-2026-09-13":
@@ -110,6 +112,19 @@ def main() -> None:
     mundicas["city"] = "Gavião Peixoto"
     mundicas["venue"] = "Nova Pauliceia"
     mundicas["state"] = "SP"
+
+    # A variação "prog" de Manhumirim recebeu primeiro a leitura completa do
+    # flyer; transfere esses fatos para a URL pública principal.
+    manhumirim_alias = by_slug["motofest-prog-manhumirim-mg-2026-07-31"]
+    manhumirim = by_slug["motofest-manhumirim-mg-2026-07-31"]
+    for field in (
+        "title", "short_name", "end_date", "venue", "street_address",
+        "full_address", "time_label", "organizer", "admission_status",
+        "attractions", "summary", "body", "contact", "services",
+        "visual_verification",
+    ):
+        if manhumirim_alias.get(field):
+            manhumirim[field] = manhumirim_alias[field]
 
     AGENDA.write_text(
         json.dumps(document, ensure_ascii=False, indent=2) + "\n",

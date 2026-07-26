@@ -1,0 +1,11 @@
+{
+  "stats": {
+    "records_read": 0,
+    "records_changed": 0,
+    "with_services": 0,
+    "with_phones": 0,
+    "with_times": 0,
+    "with_new_web_source": 0
+  },
+  "records": []
+}

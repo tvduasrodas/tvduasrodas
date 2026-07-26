@@ -527,7 +527,7 @@ MANUAL_VISUAL: dict[str, dict[str, Any]] = {
             "edição, os dois dias, a cidade, a proposta e o perfil oficial da organização."
         ),
     },
-    "motofest-prog-manhumirim-mg-2026-07-31": {
+    "motofest-manhumirim-mg-2026-07-31": {
         "title": "5º Manhumirim Moto Fest",
         "short_name": "Manhumirim Moto Fest",
         "end_date": "2026-08-02",
