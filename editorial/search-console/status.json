@@ -1,10 +1,12 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": null,
+  "generated_at": "2026-07-26T15:59:56-04:00",
   "scope": "Matérias presentes no Google News sitemap das últimas 48 horas",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
+      "last_submitted": "2026-07-26",
+      "last_downloaded": "2026-07-26",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -13,18 +15,52 @@
     },
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "pending": true,
+      "last_submitted": "2026-07-26",
+      "last_downloaded": "2026-07-26",
+      "pending": false,
       "warnings": 0,
-      "errors": 0,
-      "discovered": 4,
-      "indexed": 0
+      "errors": 1,
+      "discovered": 0,
+      "indexed": 0,
+      "note": "Enviado; a primeira leitura do Google ainda não conseguiu buscar o arquivo público."
     }
   ],
   "summary": {
-    "inspected": 0,
-    "indexed": 0,
-    "not_indexed": 0,
+    "inspected": 4,
+    "indexed": 2,
+    "not_indexed": 2,
     "processing_or_unknown": 0
   },
-  "urls": []
+  "urls": [
+    {
+      "url": "https://tvduasrodas.com/materias/electric-zone-26-07-2026-recarga-segura/",
+      "verdict": "PASS",
+      "coverage_state": "A página está indexada",
+      "last_crawl_time": null,
+      "inspected_at": "2026-07-26T15:57:00-04:00"
+    },
+    {
+      "url": "https://tvduasrodas.com/materias/bicicleta-na-rua-posicao-portas-visibilidade/",
+      "verdict": "PASS",
+      "coverage_state": "A página está indexada",
+      "last_crawl_time": null,
+      "inspected_at": "2026-07-26T15:57:00-04:00"
+    },
+    {
+      "url": "https://tvduasrodas.com/materias/estrada-aberta-25-07-2026-ritmo-planejamento/",
+      "verdict": "FAIL",
+      "coverage_state": "Detectada, mas não indexada; solicitação adicionada à fila prioritária",
+      "last_crawl_time": null,
+      "inspected_at": "2026-07-26T15:59:00-04:00",
+      "manual_request_status": "indexing_requested"
+    },
+    {
+      "url": "https://tvduasrodas.com/materias/parada-segura-moto-viagem-como-planejar/",
+      "verdict": "FAIL",
+      "coverage_state": "Detectada, mas não indexada; solicitação adicionada à fila prioritária",
+      "last_crawl_time": null,
+      "inspected_at": "2026-07-26T15:58:00-04:00",
+      "manual_request_status": "indexing_requested"
+    }
+  ]
 }
