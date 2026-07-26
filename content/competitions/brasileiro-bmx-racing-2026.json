@@ -5,33 +5,139 @@
   "country": "Brasil",
   "scope": "Nacional",
   "modality": "BMX Racing",
-  "status": "em_andamento",
+  "status": "concluida",
   "organizer": "Confederação Brasileira de Ciclismo",
-  "official_url": "https://www.cbc.esp.br/",
-  "results_url": "https://www.cbc.esp.br/modalidades/calendario/busca/",
+  "official_url": "https://www.cbc.esp.br/modalidades/evento/busca/bmx%2Bracing/id/1343",
+  "results_url": "https://www.cbc.esp.br/modalidades/resultados/busca/bmx%20racing",
   "cover": "/assets/img/uploads/brasileiro-bmx-racing-2026-capa.webp",
   "image_credit": "Foto: Thiago Lemos / CBC · Arte: TVDUASRODAS",
   "featured": false,
-  "summary": "Resultados, campeões e agenda do BMX Racing nacional em suas diferentes categorias.",
-  "last_updated": "2026-07-26T07:34:37.414943+00:00",
+  "summary": "Campeões, pódios e resultados oficiais do Brasileiro de BMX Racing disputado em Cuiabá, nas classes Championship, Cruiser, Challenge, Master e PCD.",
+  "last_updated": "2026-07-26T20:45:00+00:00",
   "next_stage": {},
-  "categories": [],
-  "standings": [],
-  "rounds": [],
+  "categories": [
+    "Championship",
+    "Cruiser",
+    "Challenge",
+    "Master",
+    "PCD"
+  ],
+  "standings_eyebrow": "Campeões nacionais de 2026",
+  "standings_title": "Campeões brasileiros por categoria",
+  "standings": [
+    {"category": "Championship · Júnior Feminina", "position": 1, "competitor": "Stefany Aparecida Brazão", "team": "", "points": "Campeã brasileira"},
+    {"category": "Championship · Júnior Masculina", "position": 1, "competitor": "Luca Grigoletto Micheli", "team": "", "points": "Campeão brasileiro"},
+    {"category": "Championship · Sub-23 Feminina", "position": 1, "competitor": "Maria Eduarda Dornelas Queiroz da Silva", "team": "", "points": "Campeã brasileira"},
+    {"category": "Championship · Sub-23 Masculina", "position": 1, "competitor": "Bruno de Souza Oliveira Júnior", "team": "", "points": "Campeão brasileiro"},
+    {"category": "Championship · Elite Feminina", "position": 1, "competitor": "Paola Reis", "team": "", "points": "Campeã brasileira"},
+    {"category": "Championship · Elite Masculina", "position": 1, "competitor": "Pedro Queiroz", "team": "", "points": "Campeão brasileiro"},
+    {"category": "Cruiser · Girls 12", "position": 1, "competitor": "Emanuelly Alexandre Adão", "team": "", "points": "Campeã brasileira"},
+    {"category": "Cruiser · Girls 13-16", "position": 1, "competitor": "Ana Clara da Silva Oliveira", "team": "", "points": "Campeã brasileira"},
+    {"category": "Cruiser · Women 17-39", "position": 1, "competitor": "Junia Roberta da Costa Coutinho", "team": "", "points": "Campeã brasileira"},
+    {"category": "Cruiser · Women 40+", "position": 1, "competitor": "Ione de Fátima de Souza da Silva", "team": "", "points": "Campeã brasileira"},
+    {"category": "Cruiser · Boys 12", "position": 1, "competitor": "Heitor Isaque do Nascimento", "team": "", "points": "Campeão brasileiro"},
+    {"category": "Cruiser · Boys 13-14", "position": 1, "competitor": "Bernardo Luis Frantz", "team": "", "points": "Campeão brasileiro"},
+    {"category": "Cruiser · Boys 15-16", "position": 1, "competitor": "Luis Gustavo Eger Pereira", "team": "", "points": "Campeão brasileiro"},
+    {"category": "Cruiser · Men 17-24", "position": 1, "competitor": "Gabriel Polo", "team": "", "points": "Campeão brasileiro"},
+    {"category": "Cruiser · Men 25-29", "position": 1, "competitor": "Brendon Fernandes dos Santos", "team": "", "points": "Campeão brasileiro"},
+    {"category": "Cruiser · Men 30-34", "position": 1, "competitor": "Kaique Milani Marini", "team": "", "points": "Campeão brasileiro"},
+    {"category": "Cruiser · Men 35-39", "position": 1, "competitor": "Gustavo Mesquita Silva", "team": "", "points": "Campeão brasileiro"},
+    {"category": "Cruiser · Men 40-44", "position": 1, "competitor": "Luciano Andrieti", "team": "", "points": "Campeão brasileiro"},
+    {"category": "Cruiser · Men 45-49", "position": 1, "competitor": "Edmilson Gomes da Silva", "team": "", "points": "Campeão brasileiro"},
+    {"category": "Cruiser · Men 50-54", "position": 1, "competitor": "Jarbas de Carvalho Azevedo", "team": "", "points": "Campeão brasileiro"},
+    {"category": "Cruiser · Men 55+", "position": 1, "competitor": "Domingos Alexandre Lamm", "team": "", "points": "Campeão brasileiro"},
+    {"category": "PCD", "position": 1, "competitor": "Israel Ryan da Silva de Oliveira", "team": "", "points": "Campeão brasileiro"},
+    {"category": "Challenge · Girls 5/7", "position": 1, "competitor": "Ayla Pinheiro Kezh Felgueira", "team": "SP", "points": "Campeã brasileira"},
+    {"category": "Challenge · Girls 8", "position": 1, "competitor": "Sophia Vitória Ribeiro do Nascimento", "team": "MT", "points": "Campeã brasileira"},
+    {"category": "Challenge · Girls 9", "position": 1, "competitor": "Luiza Manuella Braun", "team": "RS", "points": "Campeã brasileira"},
+    {"category": "Challenge · Girls 10", "position": 1, "competitor": "Sophia Durante Kalocsay", "team": "PR", "points": "Campeã brasileira"},
+    {"category": "Challenge · Girls 11", "position": 1, "competitor": "Ester Freire dos Santos", "team": "SP", "points": "Campeã brasileira"},
+    {"category": "Challenge · Girls 12", "position": 1, "competitor": "Emanuelly Alexandre Adão", "team": "MG", "points": "Campeã brasileira"},
+    {"category": "Challenge · Girls 13", "position": 1, "competitor": "Helena Dias Castilhos de Araujo", "team": "RS", "points": "Campeã brasileira"},
+    {"category": "Challenge · Girls 14", "position": 1, "competitor": "Gabriela Mendes Ferreira de Camargo", "team": "MG", "points": "Campeã brasileira"},
+    {"category": "Challenge · Girls 15", "position": 1, "competitor": "Monara Lucia Alencar Moreira", "team": "SP", "points": "Campeã brasileira"},
+    {"category": "Challenge · Girls 16", "position": 1, "competitor": "Ana Clara da Silva Oliveira", "team": "BA", "points": "Campeã brasileira"},
+    {"category": "Challenge · Women 17/29", "position": 1, "competitor": "Junia Roberta da Costa Coutinho", "team": "SP", "points": "Campeã brasileira"},
+    {"category": "Challenge · Women 30/39", "position": 1, "competitor": "Fernanda Maciel Costa", "team": "SP", "points": "Campeã brasileira"},
+    {"category": "Challenge · Women 40+", "position": 1, "competitor": "Ione de Fátima de Souza da Silva", "team": "MT", "points": "Campeã brasileira"},
+    {"category": "Challenge · Boys 5/6", "position": 1, "competitor": "Leonardo Loeblein", "team": "GO", "points": "Campeão brasileiro"},
+    {"category": "Challenge · Boys 7", "position": 1, "competitor": "Tiago Pimentel de Queiroz", "team": "SP", "points": "Campeão brasileiro"},
+    {"category": "Challenge · Boys 8", "position": 1, "competitor": "Ruan Miguel Gonçalves de Santana", "team": "BA", "points": "Campeão brasileiro"},
+    {"category": "Challenge · Boys 9", "position": 1, "competitor": "Vinicius dos Santos Lauschner", "team": "GO", "points": "Campeão brasileiro"},
+    {"category": "Challenge · Boys 10", "position": 1, "competitor": "João Paulo Luz de Oliveira", "team": "GO", "points": "Campeão brasileiro"},
+    {"category": "Challenge · Boys 11", "position": 1, "competitor": "Pedro Bottecchia Rodrigues", "team": "SP", "points": "Campeão brasileiro"},
+    {"category": "Challenge · Boys 12", "position": 1, "competitor": "Heitor Isaque do Nascimento", "team": "PR", "points": "Campeão brasileiro"},
+    {"category": "Challenge · Boys 13", "position": 1, "competitor": "Murilo Mafra Moratelli", "team": "RO", "points": "Campeão brasileiro"},
+    {"category": "Challenge · Boys 14", "position": 1, "competitor": "Gabriel Derzete da Silva Rosa", "team": "GO", "points": "Campeão brasileiro"},
+    {"category": "Challenge · Boys 15", "position": 1, "competitor": "Lucas Vidal da Silva", "team": "RS", "points": "Campeão brasileiro"},
+    {"category": "Challenge · Boys 16", "position": 1, "competitor": "Lucas Cardoso Darriba", "team": "SP", "points": "Campeão brasileiro"},
+    {"category": "Challenge · Men 17/24", "position": 1, "competitor": "Guilherme Krajewski", "team": "MT", "points": "Campeão brasileiro"},
+    {"category": "Challenge · Men 25/29", "position": 1, "competitor": "André da Silva Siqueira", "team": "MT", "points": "Campeão brasileiro"},
+    {"category": "Challenge · Men 30/39", "position": 1, "competitor": "Rodolfo Reis da Costa", "team": "SP", "points": "Campeão brasileiro"},
+    {"category": "Challenge · Men 40/49", "position": 1, "competitor": "Luciano Andrieti", "team": "SC", "points": "Campeão brasileiro"},
+    {"category": "Challenge · Men 50+", "position": 1, "competitor": "Fábio André de Faria", "team": "SP", "points": "Campeão brasileiro"},
+    {"category": "Master · 30+", "position": 1, "competitor": "Gustavo Mesquita Silva", "team": "MG", "points": "Campeão brasileiro"}
+  ],
+  "latest_result": {
+    "event": "Pódios das classes Championship",
+    "session": "Finais",
+    "date": "2026-07-04",
+    "classification": [
+      {"category": "Elite Masculina", "position": 1, "competitor": "Pedro Queiroz", "team": "", "time_gap": "", "points": "Ouro"},
+      {"category": "Elite Masculina", "position": 2, "competitor": "Guilherme Ribeiro", "team": "", "time_gap": "", "points": "Prata"},
+      {"category": "Elite Masculina", "position": 3, "competitor": "Franklin Vasconcelos", "team": "", "time_gap": "", "points": "Bronze"},
+      {"category": "Elite Feminina", "position": 1, "competitor": "Paola Reis", "team": "", "time_gap": "", "points": "Ouro"},
+      {"category": "Elite Feminina", "position": 2, "competitor": "Priscila Stevaux", "team": "", "time_gap": "", "points": "Prata"},
+      {"category": "Elite Feminina", "position": 3, "competitor": "Julia Alves", "team": "", "time_gap": "", "points": "Bronze"},
+      {"category": "Sub-23 Masculina", "position": 1, "competitor": "Bruno de Souza Oliveira Júnior", "team": "", "time_gap": "", "points": "Ouro"},
+      {"category": "Sub-23 Masculina", "position": 2, "competitor": "Thales Lauffer Schüler", "team": "", "time_gap": "", "points": "Prata"},
+      {"category": "Sub-23 Masculina", "position": 3, "competitor": "Eduardo Pedro de Oliveira", "team": "", "time_gap": "", "points": "Bronze"},
+      {"category": "Sub-23 Feminina", "position": 1, "competitor": "Maria Eduarda Dornelas Queiroz da Silva", "team": "", "time_gap": "", "points": "Ouro"},
+      {"category": "Sub-23 Feminina", "position": 2, "competitor": "Ana Beatriz do Prado Navari", "team": "", "time_gap": "", "points": "Prata"},
+      {"category": "Sub-23 Feminina", "position": 3, "competitor": "Agatha Karolayne Xavier", "team": "", "time_gap": "", "points": "Bronze"},
+      {"category": "Júnior Masculina", "position": 1, "competitor": "Luca Grigoletto Micheli", "team": "", "time_gap": "", "points": "Ouro"},
+      {"category": "Júnior Masculina", "position": 2, "competitor": "Gabriel Cirino Corrêa", "team": "", "time_gap": "", "points": "Prata"},
+      {"category": "Júnior Masculina", "position": 3, "competitor": "Thiago Bueno de Oliveira", "team": "", "time_gap": "", "points": "Bronze"},
+      {"category": "Júnior Feminina", "position": 1, "competitor": "Stefany Aparecida Brazão", "team": "", "time_gap": "", "points": "Ouro"}
+    ]
+  },
+  "rounds": [
+    {
+      "order": 1,
+      "start_date": "2026-07-02",
+      "end_date": "2026-07-05",
+      "name": "Campeonato Brasileiro de BMX Racing 2026",
+      "location": "Pista Internacional de BMX do Parque Novo Mato Grosso · Cuiabá/MT",
+      "status": "concluida",
+      "winner": "52 campeões nacionais definidos"
+    }
+  ],
   "related_videos": [],
-  "body": "## Temporada 2026\n\nCampeonato Brasileiro de BMX Racing 2026 é acompanhada pela TVDUASRODAS na modalidade BMX Racing, sob organização de Confederação Brasileira de Ciclismo. O status registrado é em_andamento.\n\n## Próxima etapa e calendário\n\nA referência mais recente é a etapa indicada no calendário, com data a confirmar e local a confirmar. Alterações de data e local são conferidas nos canais oficiais.\n\n## Classificação e resultados\n\nAs fontes oficiais consultadas ainda não disponibilizaram classificação consolidada para publicação. Quando houver documento oficial, atletas, equipes, categorias, posições, tempos e pontos serão publicados com páginas relacionadas para os competidores identificados.\n\n## Fontes\n\nA apuração registra Canal oficial ou página indicada pela entidade; Resultados oficiais; Programação da Time Brasil TV destaca Campeonato Brasileiro de BMX | Comitê Olímpico do Brasil. Cada link permanece visível na página para permitir a conferência dos dados e da data de atualização.",
+  "body": "## Brasileiro de BMX Racing concluído em Cuiabá\n\nO Campeonato Brasileiro de BMX Racing 2026 foi disputado de 2 a 5 de julho na Pista Internacional de BMX do Parque Novo Mato Grosso, em Cuiabá (MT). A competição reuniu mais de 650 pilotos e definiu 52 campeões nacionais: 22 títulos no sábado, nas classes Championship, Cruiser e PCD, e outros 30 no domingo, nas classes Challenge e Master.\n\n## Elite e categorias Championship\n\nPedro Queiroz conquistou a Elite Masculina, à frente de Guilherme Ribeiro e Franklin Vasconcelos. Paola Reis venceu a Elite Feminina, seguida por Priscila Stevaux e Julia Alves. Também ficaram com os títulos Bruno de Souza Oliveira Júnior e Maria Eduarda Dornelas Queiroz da Silva na Sub-23, além de Luca Grigoletto Micheli e Stefany Aparecida Brazão na Júnior.\n\n## Cruiser, Challenge, Master e PCD\n\nA página apresenta abaixo os campeões de todas as categorias publicadas pela CBC. Os documentos oficiais completos, com posições, baterias, tempos e pontuação de cada participante, estão disponíveis para conferência integral:\n\n- [Resultado oficial de Championship, Cruiser e PCD](https://www.cbc.esp.br/arquivos/y5z0zcwdyy.pdf)\n- [Resultado oficial de Challenger e Master](https://www.cbc.esp.br/arquivos/41y23by3xz.pdf)\n\n## Fontes oficiais\n\nOs resultados foram conferidos nos dois documentos oficiais da Confederação Brasileira de Ciclismo, no release que confirma os pódios das classes Championship e na página oficial do evento, que confirma local e datas.",
   "sources": [
     {
-      "url": "https://www.cbc.esp.br/",
-      "label": "Canal oficial ou página indicada pela entidade",
-      "type": "fonte primária ou canal oficial",
-      "supports": "dados de agenda, identificação e situação do evento"
+      "url": "https://www.cbc.esp.br/modalidades/evento/busca/bmx%2Bracing/id/1343",
+      "label": "Página oficial do Campeonato Brasileiro de BMX Racing 2026",
+      "type": "fonte primária",
+      "supports": "datas, local, organização e programação"
     },
     {
-      "url": "https://www.cbc.esp.br/modalidades/calendario/busca",
-      "label": "Resultados oficiais",
-      "type": "fonte primária ou canal oficial",
-      "supports": "dados de agenda, identificação e situação do evento"
+      "url": "https://www.cbc.esp.br/arquivos/y5z0zcwdyy.pdf",
+      "label": "Resultado oficial · Championship, Cruiser e PCD",
+      "type": "documento oficial da CBC",
+      "supports": "classificações, posições, baterias, tempos e pontos de 4 de julho"
+    },
+    {
+      "url": "https://www.cbc.esp.br/arquivos/41y23by3xz.pdf",
+      "label": "Resultado oficial · Challenger e Master",
+      "type": "documento oficial da CBC",
+      "supports": "classificações, posições, baterias, tempos e pontos de 5 de julho"
+    },
+    {
+      "url": "https://www.cbc.esp.br/noticias/busca/id/12129",
+      "label": "CBC confirma campeões e pódios das classes Championship",
+      "type": "release oficial",
+      "supports": "pódios da Elite, Sub-23 e Júnior"
     },
     {
       "url": "https://www.cob.org.br/comunicacao/noticias/programacao-da-time-brasil-tv-destaca-campeonato-brasileiro-de-bmx-racing-em-cuiaba-neste-final-de-semana",
@@ -42,7 +148,7 @@
       "discovery_method": "busca_editorial_indexada"
     }
   ],
-  "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
+  "source_checked_at": "2026-07-26T20:45:00+00:00",
   "research_status": {
     "required_specific_independent_sources": 2,
     "specific_independent_domains_found": 2,
@@ -52,17 +158,17 @@
       "busca ampliada por programação, organizador, prefeitura e imprensa local",
       "busca visual/social em Instagram, Facebook e YouTube"
     ],
-    "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
+    "reviewed_at": "2026-07-26T20:45:00+00:00",
     "editorial_rule": "Dados confirmados por duas ou mais fontes específicas independentes."
   },
   "classification_status": {
-    "status": "aguardando_publicacao_oficial",
-    "checked_at": "2026-07-26T07:22:46.316870+00:00",
-    "note": "As fontes oficiais consultadas ainda não disponibilizaram classificação consolidada para publicação."
+    "status": "publicada",
+    "checked_at": "2026-07-26T20:45:00+00:00",
+    "note": "Campeões de todas as categorias e pódios das classes Championship publicados com links para as classificações oficiais completas."
   },
   "calendar_status": {
-    "status": "aguardando_calendario_oficial",
-    "checked_at": "2026-07-26T07:22:46.316870+00:00",
-    "note": "A entidade ainda não publicou etapas suficientes para montar uma tabela sem suposições."
+    "status": "publicado",
+    "checked_at": "2026-07-26T20:45:00+00:00",
+    "note": "Evento único realizado de 2 a 5 de julho de 2026 em Cuiabá/MT."
   }
 }
