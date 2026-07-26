@@ -2611,7 +2611,7 @@ button {
 .ce-prose h2, .ce-prose h3 { margin: 28px 0 8px; color: #111827; }
 .ce-source-note { margin-top: 25px; padding: 22px 25px; border: 1px solid #f7d4c9; border-radius: 14px; background: #fff6f2; color: #7c2d12; }
 .ce-source-note p { margin-top: 5px; color: #9a3412; }
-.ce-service-grid { display: grid; grid-template-columns: repeat(3, 1fr); margin: 22px 0; border: 1px solid #e2e8f0; border-radius: 16px; background: #fff; }
+.ce-service-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); margin: 22px 0; border: 1px solid #e2e8f0; border-radius: 16px; background: #fff; }
 .ce-service-grid > div { padding: 25px; border-right: 1px solid #e2e8f0; }
 .ce-service-grid > div:last-child { border-right: 0; }
 .ce-service-grid span, .ce-service-grid strong, .ce-service-grid small { display: block; }

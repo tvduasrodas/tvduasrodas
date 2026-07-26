@@ -29,3 +29,7 @@ Consulta editorial ampliada em 25 de julho de 2026. Datas e locais devem ser rec
 - Encontro Internacional de Motos de Altas Cilindradas / Roraima Moto Clube: https://www.folhabv.com.br/variedades/roraima-moto-clube-inicia-vendas-para-18o-encontro-de-motos-de-altas-cilindradas-neste-sabado-9/ — consulta em 25/07/2026.
 
 Fontes oficiais continuam sendo a referência para datas, locais e programação. Agregadores e redes comunitárias são usados para descobrir eventos pequenos que normalmente não chegam à imprensa; esses registros recebem aviso explícito para confirmação com o moto clube, organizador ou prefeitura antes da viagem.
+
+## Inspeções visuais de flyers
+
+- 2º Bike Fest Poá — flyer publicado por Welcome Riders Brasil: https://www.instagram.com/p/DbBWgWykh3V/ — inspeção visual em 26/07/2026, às 00h27 Eastern. A arte confirmou 25 de julho, início a partir das 12h, Rua da Câmara Municipal de Poá, Centro, Poá/SP, CEP 08557-000, Destroyer Kiss, Prowler / Iron Maiden, Mitika Rock, Alexandre Tomate & Igor, praça de alimentação, acessórios para motos e apoio da Prefeitura Municipal de Poá. O material não informou entrada, estacionamento, camping, acessibilidade nem classificação etária. O flyer foi usado somente como fonte factual; não foi publicado nem incorporado ao acervo de imagens do portal, pois a inspeção não concedeu licença de reprodução.

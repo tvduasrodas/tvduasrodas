@@ -613,6 +613,8 @@ def load_content() -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]
             for item in items if item["kind"] == "event"
         }
         for data in community.get("entries", []):
+            if data.get("duplicate_of"):
+                continue
             slug = data.get("slug") or slugify(
                 f"{data.get('title', '')}-{data.get('city', '')}-{data.get('state', '')}-{data.get('start_date', '')}"
             )
@@ -895,26 +897,49 @@ def render_event(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
     data = item["data"]
     canonical = item["url"]
     location_name = data.get("venue") or data.get("location") or data.get("city") or "Local a confirmar"
+    event_status = {
+        "concluida": "https://schema.org/EventCompleted",
+        "cancelada": "https://schema.org/EventCancelled",
+        "adiada": "https://schema.org/EventPostponed",
+    }.get(data.get("status"), "https://schema.org/EventScheduled")
     schema = {
         "@type": "Event",
         "@id": f"{absolute_url(canonical)}#evento",
         "name": item["title"],
         "description": item["summary"],
-        "startDate": data.get("start_date"),
-        "endDate": data.get("end_date") or data.get("start_date"),
-        "eventStatus": "https://schema.org/EventScheduled",
+        "startDate": data.get("local_start") or data.get("start_date"),
+        "endDate": data.get("local_end") or data.get("end_date") or data.get("local_start") or data.get("start_date"),
+        "eventStatus": event_status,
         "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
         "url": absolute_url(canonical),
         "image": [absolute_url(item["image"])],
         "location": {
             "@type": "Place", "name": location_name,
-            "address": {"@type": "PostalAddress", "addressLocality": data.get("city", ""), "addressRegion": data.get("state", ""), "addressCountry": "BR"},
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": data.get("street_address", ""),
+                "addressLocality": data.get("city", ""),
+                "addressRegion": data.get("state", ""),
+                "postalCode": data.get("postal_code", ""),
+                "addressCountry": data.get("country", "Brasil"),
+            },
         },
     }
-    if data.get("official_url") and data.get("verification_status") != "agenda_comunitaria":
-        schema["organizer"] = {"@type": "Organization", "name": data.get("organizer") or item["title"], "url": data["official_url"]}
-    source_label = "Consultar agenda de origem ↗" if data.get("verification_status") == "agenda_comunitaria" else "Visitar site oficial do evento ↗"
+    if data.get("organizer"):
+        schema["organizer"] = {
+            "@type": "Organization",
+            "name": data.get("organizer") or item["title"],
+            "url": data.get("official_url", ""),
+        }
+    source_label = {
+        "agenda_comunitaria": "Consultar agenda de origem ↗",
+        "flyer_inspecionado_visual": "Ver flyer consultado ↗",
+    }.get(data.get("verification_status"), "Visitar site oficial do evento ↗")
     relations = "" if data.get("verification_status") == "agenda_comunitaria" else relation_blocks(item, all_items)
+    time_label = data.get("time_label") or "Horário não informado"
+    full_address = data.get("full_address") or " · ".join(filter(None, (location_name, data.get("city"), data.get("state"))))
+    admission = data.get("admission_status") or ("Entrada gratuita" if data.get("free") else "Confirme com a organização")
+    parking = data.get("parking") or "Não informado"
     body = f"""
 <nav class="seo-breadcrumb"><a href="/">Início</a> › <a href="/competicoes-eventos">Eventos</a> › {esc(item["title"])}</nav>
 <article class="seo-article">
@@ -923,8 +948,11 @@ def render_event(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
   <div class="ce-actions"><a class="btn btn-primary" href="{esc(data.get("official_url"))}" target="_blank" rel="noopener">{esc(source_label)}</a>{('<a class="btn btn-outline" href="' + esc(data.get("ticket_url")) + '" target="_blank" rel="noopener">Ingressos / acesso ↗</a>') if data.get("ticket_url") and data.get("ticket_url") != data.get("official_url") else ''}</div></header>
   <aside class="tdr-ad-slot" data-ad-slot="detail-billboard" data-ad-category-override="eventos" aria-label="Patrocínio da cobertura do evento"></aside>
   <figure class="seo-hero seo-artwork-hero"><img src="{esc(item["image"])}" alt="{esc(item["title"])}">{('<span class="seo-artwork-hero__label"><small>TVDUASRODAS · Evento</small><strong>' + esc(item["title"]) + '</strong></span>') if 'competicoes-eventos-default' in item["image"] else ''}<figcaption>{esc(data.get("image_credit"))}</figcaption></figure>
-  <section class="seo-service"><div><span>Data</span><strong>{esc(data.get("start_date"))} a {esc(data.get("end_date") or data.get("start_date"))}</strong></div>
-  <div><span>Local</span><strong>{esc(location_name)}</strong><small>{esc(data.get("city"))}/{esc(data.get("state"))}</small></div></section>
+  <section class="seo-service"><div><span>Data e horário</span><strong>{esc(data.get("start_date"))} a {esc(data.get("end_date") or data.get("start_date"))}</strong><small>{esc(time_label)}</small></div>
+  <div><span>Endereço</span><strong>{esc(location_name)}</strong><small>{esc(full_address)}</small></div>
+  <div><span>Acesso</span><strong>{esc(admission)}</strong></div>
+  <div><span>Estacionamento</span><strong>{esc(parking)}</strong></div>
+  {('<div><span>Organização</span><strong>' + esc(data.get("organizer")) + '</strong></div>') if data.get("organizer") else ''}</section>
   <div class="seo-prose">{markdown(item["body"])}</div>
   {relations}
   <aside class="seo-source"><strong>Confirme antes de ir</strong><p>Programação, endereço e regras podem mudar. <a href="{esc(data.get("official_url", "#"))}" target="_blank" rel="noopener noreferrer">{'Consulte a agenda de origem e procure o organizador' if data.get("verification_status") == "agenda_comunitaria" else 'Consulte o canal oficial'}</a>.</p></aside>
