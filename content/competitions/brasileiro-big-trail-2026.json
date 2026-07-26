@@ -1,12 +1,125 @@
 {
-  "title":"Campeonato Brasileiro de Big Trail 2026","short_name":"Big Trail Brasil","season":"2026","country":"Brasil","scope":"Nacional","modality":"Big Trail","status":"em_andamento","organizer":"Confederação Brasileira de Motociclismo / Big Trail Enduro Series","official_url":"https://www.cbm.esp.br/site/public/index.php/competicoes/cbm/campeonato-brasileiro-de-big-trail","results_url":"https://www.cbm.esp.br/site/public/calendario/big-trail-enduro-series","cover":"/assets/img/uploads/brasileiro-big-trail-2026-artwork.svg","image_credit":"Arte editorial: TVDUASRODAS","featured":false,"summary":"Calendário e resultados do campeonato nacional multimarcas para motos big trail.","last_updated":"2026-07-21T12:00:00-04:00",
-  "next_stage":{"name":"9ª e 10ª etapas — Sportbay Big Trail","start_date":"2026-10-10","end_date":"2026-10-11","city":"Siqueira Campos","state":"PR","note":"Data sujeita a confirmação oficial"},
-  "categories":["Trail","Big","Big Pró","Heavy Pró","GS Adventure Series","Over 45","Dual Sport","Tourist Trophy"],"standings":[],
-  "rounds":[
-    {"order":1,"start_date":"2026-03-28","end_date":"2026-03-29","name":"1ª e 2ª etapas — Tucunduva Big Trail","location":"Cabreúva/SP","status":"concluida"},
-    {"order":2,"start_date":"2026-04-25","end_date":"2026-04-26","name":"3ª e 4ª etapas","location":"Bom Jardim da Serra/SC","status":"concluida"},
-    {"order":3,"start_date":"2026-06-13","end_date":"2026-06-14","name":"5ª e 6ª etapas — Ride & Rock","location":"Monte Alegre de Minas/MG","status":"concluida"},
-    {"order":4,"start_date":"2026-07-18","end_date":"2026-07-19","name":"7ª e 8ª etapas — Desafio do Cerrado","location":"Cuiabá/MT","status":"concluida"},
-    {"order":5,"start_date":"2026-10-10","end_date":"2026-10-11","name":"9ª e 10ª etapas — Sportbay Big Trail","location":"Siqueira Campos/PR","status":"agendada"}
-  ],"related_videos":[],"body":"## Big trails em diferentes terrenos\n\nO campeonato testa pilotagem e resistência de motos big trail em formatos off-road variados. Datas, classificação e resultados são atualizados com base na CBM e no regulamento oficial."
+  "title": "Campeonato Brasileiro de Big Trail 2026",
+  "short_name": "Big Trail Brasil",
+  "season": "2026",
+  "country": "Brasil",
+  "scope": "Nacional",
+  "modality": "Big Trail",
+  "status": "em_andamento",
+  "organizer": "Confederação Brasileira de Motociclismo / Big Trail Enduro Series",
+  "official_url": "https://www.cbm.esp.br/site/public/index.php/competicoes/cbm/campeonato-brasileiro-de-big-trail",
+  "results_url": "https://www.cbm.esp.br/site/public/calendario/big-trail-enduro-series",
+  "cover": "/assets/img/uploads/brasileiro-big-trail-2026-artwork.svg",
+  "image_credit": "Arte editorial: TVDUASRODAS",
+  "featured": false,
+  "summary": "Calendário e resultados do campeonato nacional multimarcas para motos big trail.",
+  "last_updated": "2026-07-26T07:34:37.414943+00:00",
+  "next_stage": {
+    "name": "9ª e 10ª etapas — Sportbay Big Trail",
+    "start_date": "2026-10-10",
+    "end_date": "2026-10-11",
+    "city": "Siqueira Campos",
+    "state": "PR",
+    "note": "Data sujeita a confirmação oficial"
+  },
+  "categories": [
+    "Trail",
+    "Big",
+    "Big Pró",
+    "Heavy Pró",
+    "GS Adventure Series",
+    "Over 45",
+    "Dual Sport",
+    "Tourist Trophy"
+  ],
+  "standings": [],
+  "rounds": [
+    {
+      "order": 1,
+      "start_date": "2026-03-28",
+      "end_date": "2026-03-29",
+      "name": "1ª e 2ª etapas — Tucunduva Big Trail",
+      "location": "Cabreúva/SP",
+      "status": "concluida"
+    },
+    {
+      "order": 2,
+      "start_date": "2026-04-25",
+      "end_date": "2026-04-26",
+      "name": "3ª e 4ª etapas",
+      "location": "Bom Jardim da Serra/SC",
+      "status": "concluida"
+    },
+    {
+      "order": 3,
+      "start_date": "2026-06-13",
+      "end_date": "2026-06-14",
+      "name": "5ª e 6ª etapas — Ride & Rock",
+      "location": "Monte Alegre de Minas/MG",
+      "status": "concluida"
+    },
+    {
+      "order": 4,
+      "start_date": "2026-07-18",
+      "end_date": "2026-07-19",
+      "name": "7ª e 8ª etapas — Desafio do Cerrado",
+      "location": "Cuiabá/MT",
+      "status": "concluida"
+    },
+    {
+      "order": 5,
+      "start_date": "2026-10-10",
+      "end_date": "2026-10-11",
+      "name": "9ª e 10ª etapas — Sportbay Big Trail",
+      "location": "Siqueira Campos/PR",
+      "status": "agendada"
+    }
+  ],
+  "related_videos": [],
+  "body": "## Temporada 2026\n\nCampeonato Brasileiro de Big Trail 2026 é acompanhada pela TVDUASRODAS na modalidade Big Trail, sob organização de Confederação Brasileira de Motociclismo / Big Trail Enduro Series. O status registrado é em_andamento.\n\n## Próxima etapa e calendário\n\nA referência mais recente é 9ª e 10ª etapas — Sportbay Big Trail, com data 2026-10-10 e local Siqueira Campos · PR. Alterações de data e local são conferidas nos canais oficiais.\n\n## Classificação e resultados\n\nAs fontes oficiais consultadas ainda não disponibilizaram classificação consolidada para publicação. Quando houver documento oficial, atletas, equipes, categorias, posições, tempos e pontos serão publicados com páginas relacionadas para os competidores identificados.\n\n## Fontes\n\nA apuração registra Canal oficial ou página indicada pela entidade; Resultados oficiais; Calendário | Confederação Brasileira de Motociclismo; BITES O campeonato nacional multimarcas de Big Trails.. Cada link permanece visível na página para permitir a conferência dos dados e da data de atualização.",
+  "sources": [
+    {
+      "url": "https://www.cbm.esp.br/site/public/index.php/competicoes/cbm/campeonato-brasileiro-de-big-trail",
+      "label": "Canal oficial ou página indicada pela entidade",
+      "type": "fonte primária ou canal oficial",
+      "supports": "dados de agenda, identificação e situação do evento"
+    },
+    {
+      "url": "https://www.cbm.esp.br/site/public/calendario/big-trail-enduro-series",
+      "label": "Resultados oficiais",
+      "type": "fonte primária ou canal oficial",
+      "supports": "dados de agenda, identificação e situação do evento"
+    },
+    {
+      "url": "https://www.bitesbr.com.br/",
+      "label": "BITES O campeonato nacional multimarcas de Big Trails.",
+      "type": "fonte específica independente",
+      "supports": "data e edição",
+      "relevance_score": 19,
+      "discovery_method": "busca_editorial_indexada"
+    }
+  ],
+  "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
+  "research_status": {
+    "required_specific_independent_sources": 2,
+    "specific_independent_domains_found": 2,
+    "status": "fontes_cruzadas",
+    "attempts": [
+      "busca por título exato, cidade, UF e ano",
+      "busca ampliada por programação, organizador, prefeitura e imprensa local",
+      "busca visual/social em Instagram, Facebook e YouTube"
+    ],
+    "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
+    "editorial_rule": "Dados confirmados por duas ou mais fontes específicas independentes."
+  },
+  "classification_status": {
+    "status": "aguardando_publicacao_oficial",
+    "checked_at": "2026-07-26T07:22:46.313877+00:00",
+    "note": "As fontes oficiais consultadas ainda não disponibilizaram classificação consolidada para publicação."
+  },
+  "calendar_status": {
+    "status": "publicado",
+    "checked_at": "2026-07-26T07:22:46.313877+00:00",
+    "note": "Etapas disponíveis na tabela da página."
+  }
 }

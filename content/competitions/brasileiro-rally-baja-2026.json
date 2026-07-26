@@ -1,13 +1,127 @@
 {
-  "title":"Campeonato Brasileiro de Rally Baja 2026","short_name":"Rally Baja Brasil","season":"2026","country":"Brasil","scope":"Nacional","modality":"Rally Baja","status":"em_andamento","organizer":"Confederação Brasileira de Motociclismo","official_url":"https://www.cbm.esp.br/modalidades/rally-baja","results_url":"https://www.cbm.esp.br/calendario/rally-baja","cover":"/assets/img/uploads/brasileiro-rally-baja-2026-artwork.svg","image_credit":"Arte editorial: TVDUASRODAS","featured":false,"summary":"Calendário, resultados e classificação do campeonato nacional de Rally Baja.","last_updated":"2026-07-21T12:00:00-04:00",
-  "next_stage":{"name":"4ª etapa — Rota Sudeste","start_date":"2026-09-26","end_date":"2026-09-27","note":"Local a confirmar"},
-  "categories":[],"standings":[],
-  "rounds":[
-    {"order":1,"start_date":"2026-02-07","name":"1ª etapa — Cuesta","location":"A confirmar","status":"concluida"},
-    {"order":2,"start_date":"2026-03-14","name":"2ª etapa — Barretos","location":"Barretos/SP","status":"concluida"},
-    {"order":3,"start_date":"2026-07-04","name":"3ª etapa — Serra Azul","location":"A confirmar","status":"concluida"},
-    {"order":4,"start_date":"2026-09-26","end_date":"2026-09-27","name":"4ª etapa — Rota Sudeste","location":"A confirmar","status":"agendada"},
-    {"order":5,"start_date":"2026-10-17","end_date":"2026-10-18","name":"5ª etapa — Poeira","location":"A confirmar","status":"agendada"},
-    {"order":6,"start_date":"2026-12-05","end_date":"2026-12-06","name":"6ª etapa — Terra Verde","location":"A confirmar","status":"agendada"}
-  ],"related_videos":[],"body":"## Velocidade e resistência fora de estrada\n\nO Rally Baja combina deslocamentos e especiais cronometradas. Locais ainda não divulgados permanecem indicados como a confirmar."
+  "title": "Campeonato Brasileiro de Rally Baja 2026",
+  "short_name": "Rally Baja Brasil",
+  "season": "2026",
+  "country": "Brasil",
+  "scope": "Nacional",
+  "modality": "Rally Baja",
+  "status": "em_andamento",
+  "organizer": "Confederação Brasileira de Motociclismo",
+  "official_url": "https://www.cbm.esp.br/modalidades/rally-baja",
+  "results_url": "https://www.cbm.esp.br/calendario/rally-baja",
+  "cover": "/assets/img/uploads/brasileiro-rally-baja-2026-artwork.svg",
+  "image_credit": "Arte editorial: TVDUASRODAS",
+  "featured": false,
+  "summary": "Calendário, resultados e classificação do campeonato nacional de Rally Baja.",
+  "last_updated": "2026-07-26T07:34:37.414943+00:00",
+  "next_stage": {
+    "name": "4ª etapa — Rota Sudeste",
+    "start_date": "2026-09-26",
+    "end_date": "2026-09-27",
+    "note": "Local a confirmar"
+  },
+  "categories": [],
+  "standings": [],
+  "rounds": [
+    {
+      "order": 1,
+      "start_date": "2026-02-07",
+      "name": "1ª etapa — Cuesta",
+      "location": "A confirmar",
+      "status": "concluida"
+    },
+    {
+      "order": 2,
+      "start_date": "2026-03-14",
+      "name": "2ª etapa — Barretos",
+      "location": "Barretos/SP",
+      "status": "concluida"
+    },
+    {
+      "order": 3,
+      "start_date": "2026-07-04",
+      "name": "3ª etapa — Serra Azul",
+      "location": "A confirmar",
+      "status": "concluida"
+    },
+    {
+      "order": 4,
+      "start_date": "2026-09-26",
+      "end_date": "2026-09-27",
+      "name": "4ª etapa — Rota Sudeste",
+      "location": "A confirmar",
+      "status": "agendada"
+    },
+    {
+      "order": 5,
+      "start_date": "2026-10-17",
+      "end_date": "2026-10-18",
+      "name": "5ª etapa — Poeira",
+      "location": "A confirmar",
+      "status": "agendada"
+    },
+    {
+      "order": 6,
+      "start_date": "2026-12-05",
+      "end_date": "2026-12-06",
+      "name": "6ª etapa — Terra Verde",
+      "location": "A confirmar",
+      "status": "agendada"
+    }
+  ],
+  "related_videos": [],
+  "body": "## Temporada 2026\n\nCampeonato Brasileiro de Rally Baja 2026 é acompanhada pela TVDUASRODAS na modalidade Rally Baja, sob organização de Confederação Brasileira de Motociclismo. O status registrado é em_andamento.\n\n## Próxima etapa e calendário\n\nA referência mais recente é 4ª etapa — Rota Sudeste, com data 2026-09-26 e local a confirmar. Alterações de data e local são conferidas nos canais oficiais.\n\n## Classificação e resultados\n\nAs fontes oficiais consultadas ainda não disponibilizaram classificação consolidada para publicação. Quando houver documento oficial, atletas, equipes, categorias, posições, tempos e pontos serão publicados com páginas relacionadas para os competidores identificados.\n\n## Fontes\n\nA apuração registra Canal oficial ou página indicada pela entidade; Resultados oficiais; Piloto morre ao sofrer acidente em prova do Brasileiro de Rally Baja | Ge; Cidade sedia 19ª edição do Rally Rota Sudeste no fim de semana - Jornal O Mirante. Cada link permanece visível na página para permitir a conferência dos dados e da data de atualização.",
+  "sources": [
+    {
+      "url": "https://www.cbm.esp.br/modalidades/rally-baja",
+      "label": "Canal oficial ou página indicada pela entidade",
+      "type": "fonte primária ou canal oficial",
+      "supports": "dados de agenda, identificação e situação do evento"
+    },
+    {
+      "url": "https://www.cbm.esp.br/calendario/rally-baja",
+      "label": "Resultados oficiais",
+      "type": "fonte primária ou canal oficial",
+      "supports": "dados de agenda, identificação e situação do evento"
+    },
+    {
+      "url": "https://ge.globo.com/google/amp/sp/tem-esporte/noticia/2026/02/08/piloto-morre-ao-sofrer-acidente-em-prova-do-campeonato-brasileiro-de-rally-baja.ghtml",
+      "label": "Piloto morre ao sofrer acidente em prova do Brasileiro de Rally Baja | Ge",
+      "type": "fonte específica independente",
+      "supports": "data e edição",
+      "relevance_score": 19,
+      "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://www.motoremacao.com.br/noticia/rally-rota-sudeste-agitara-barra-bonita-de-3-a-5-de-julho-pelo-brasileiro-de-baja",
+      "label": "Rally Rota Sudeste agitará Barra Bonita de 3 a 5 de julho pelo Brasileiro de Baja - Motor em Ação",
+      "type": "fonte específica independente",
+      "supports": "data e edição, local, inscrições e acesso",
+      "relevance_score": 17,
+      "discovery_method": "busca_editorial_indexada"
+    }
+  ],
+  "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
+  "research_status": {
+    "required_specific_independent_sources": 2,
+    "specific_independent_domains_found": 3,
+    "status": "fontes_cruzadas",
+    "attempts": [
+      "busca por título exato, cidade, UF e ano",
+      "busca ampliada por programação, organizador, prefeitura e imprensa local",
+      "busca visual/social em Instagram, Facebook e YouTube"
+    ],
+    "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
+    "editorial_rule": "Dados confirmados por duas ou mais fontes específicas independentes."
+  },
+  "classification_status": {
+    "status": "aguardando_publicacao_oficial",
+    "checked_at": "2026-07-26T07:23:03.259252+00:00",
+    "note": "As fontes oficiais consultadas ainda não disponibilizaram classificação consolidada para publicação."
+  },
+  "calendar_status": {
+    "status": "publicado",
+    "checked_at": "2026-07-26T07:23:03.259252+00:00",
+    "note": "Etapas disponíveis na tabela da página."
+  }
 }

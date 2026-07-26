@@ -38,7 +38,7 @@
   "source_url": "https://www.motorcyclelive.co.uk/information/",
   "source_label": "Informações oficiais do Motorcycle Live 2026",
   "verification_status": "fonte_oficial_com_mapa_inspecionado",
-  "source_checked_at": "2026-07-26T01:15:00-04:00",
+  "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
   "status_checked_at": "2026-07-26T01:15:00-04:00",
   "visual_verification": {
     "type": "pagina_oficial_de_servico",
@@ -53,5 +53,87 @@
       "attractions",
       "tickets"
     ]
+  },
+  "sources": [
+    {
+      "url": "https://www.motorcyclelive.co.uk/",
+      "label": "Canal oficial ou página indicada pela entidade",
+      "type": "fonte específica independente",
+      "supports": "dados de agenda, identificação e situação do evento"
+    },
+    {
+      "url": "https://www.motorcyclelive.co.uk/information",
+      "label": "Fonte original do registro",
+      "type": "fonte específica independente",
+      "supports": "dados de agenda, identificação e situação do evento"
+    },
+    {
+      "url": "https://www.nferias.com/motorcycle-live",
+      "label": "Motorcycle Live 2026",
+      "type": "fonte específica independente",
+      "supports": "data e edição",
+      "relevance_score": 23,
+      "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://www.bmw-motorrad.co.uk/en/experience/overview/events/event---motorcycle-live-2026-.html",
+      "label": "Motorcycle Live 2026 | BMW Motorrad UK",
+      "type": "fonte específica independente",
+      "supports": "data e edição, horários e programação",
+      "relevance_score": 22,
+      "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://www.nfiere.com/motorcycle-live",
+      "label": "Motorcycle Live 2026",
+      "type": "fonte específica independente",
+      "supports": "data e edição",
+      "relevance_score": 22,
+      "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://www.nsalons.com/motorcycle-live",
+      "label": "Motorcycle Live 2026",
+      "type": "fonte específica independente",
+      "supports": "data e edição",
+      "relevance_score": 22,
+      "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://www.ntradeshows.com/motorcycle-live",
+      "label": "Motorcycle Live 2026",
+      "type": "fonte específica independente",
+      "supports": "data e edição, horários e programação",
+      "relevance_score": 22,
+      "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://www.neventum.es/ferias/motorcycle-live",
+      "label": "Motorcycle Live 2026",
+      "type": "fonte específica independente",
+      "supports": "data e edição",
+      "relevance_score": 22,
+      "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://www.neventum.it/fiere/motorcycle-live",
+      "label": "Motorcycle Live 2026",
+      "type": "fonte específica independente",
+      "supports": "data e edição",
+      "relevance_score": 22,
+      "discovery_method": "busca_editorial_indexada"
+    }
+  ],
+  "research_status": {
+    "required_specific_independent_sources": 2,
+    "specific_independent_domains_found": 8,
+    "status": "fontes_cruzadas",
+    "attempts": [
+      "busca por título exato, cidade, UF e ano",
+      "busca ampliada por programação, organizador, prefeitura e imprensa local",
+      "busca visual/social em Instagram, Facebook e YouTube"
+    ],
+    "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
+    "editorial_rule": "Dados confirmados por duas ou mais fontes específicas independentes."
   }
 }

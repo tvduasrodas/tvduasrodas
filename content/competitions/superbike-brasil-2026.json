@@ -13,7 +13,7 @@
   "image_credit": "Foto: SuperBike Brasil / divulgação · Arte: TVDUASRODAS",
   "featured": false,
   "summary": "Maxi Scheib lidera a SuperBike Pro após a 3ª etapa; a próxima rodada será em 26 de julho, em Interlagos.",
-  "last_updated": "2026-07-20T22:51:51-04:00",
+  "last_updated": "2026-07-26T07:34:37.414943+00:00",
   "next_stage": {
     "name": "4ª etapa — SuperBike Brasil",
     "start_date": "2026-07-26",
@@ -23,7 +23,15 @@
     "state": "SP",
     "note": "Data e local exibidos no calendário oficial do SuperBike Brasil, sujeito a atualização do organizador."
   },
-  "categories": ["SuperBike Pro", "SuperBike Evo", "SuperBike Light", "SuperBike Master", "SuperBike Rookie", "SuperSport 600", "SuperSport 400"],
+  "categories": [
+    "SuperBike Pro",
+    "SuperBike Evo",
+    "SuperBike Light",
+    "SuperBike Master",
+    "SuperBike Rookie",
+    "SuperSport 600",
+    "SuperSport 400"
+  ],
   "latest_result": {
     "event": "3ª etapa — Interlagos",
     "session": "SuperBike Pro",
@@ -31,21 +39,144 @@
     "note": "Maxi Scheib venceu e assumiu a liderança da SuperBike Pro. Felipe Gonçalves e Felipe Macan completaram o pódio; Julio Fortunato venceu na SuperBike Evo.",
     "source_url": "https://superbike.com.br/maxi-scheib-conquista-segunda-vitoria-consecutiva-assume-a-lideranca-e-homenageia-o-brasil/",
     "classification": [
-      {"position":"1º","competitor":"Maxi Scheib","team":"JD43HPA Racing","time_gap":"Vencedor","points":null},
-      {"position":"2º","competitor":"Felipe Gonçalves","team":"","time_gap":"Não informado no comunicado","points":null},
-      {"position":"3º","competitor":"Felipe Macan","team":"","time_gap":"Não informado no comunicado","points":null},
-      {"position":"4º","competitor":"Julio Fortunato","team":"SportPlus","time_gap":"1º na SuperBike Evo","points":null}
+      {
+        "position": "1º",
+        "competitor": "Maxi Scheib",
+        "team": "JD43HPA Racing",
+        "time_gap": "Vencedor",
+        "points": null
+      },
+      {
+        "position": "2º",
+        "competitor": "Felipe Gonçalves",
+        "team": "",
+        "time_gap": "Não informado no comunicado",
+        "points": null
+      },
+      {
+        "position": "3º",
+        "competitor": "Felipe Macan",
+        "team": "",
+        "time_gap": "Não informado no comunicado",
+        "points": null
+      },
+      {
+        "position": "4º",
+        "competitor": "Julio Fortunato",
+        "team": "SportPlus",
+        "time_gap": "1º na SuperBike Evo",
+        "points": null
+      }
     ]
   },
   "standings": [],
   "rounds": [
-    {"order":1,"start_date":"2026-02-15","end_date":"2026-02-15","name":"1ª etapa","location":"Interlagos, São Paulo, SP","status":"concluida","winner":"Resultado por categoria não consolidado no portal consultado","results_url":"https://superbike.com.br/resultados/"},
-    {"order":2,"start_date":"2026-04-04","end_date":"2026-04-04","name":"2ª etapa","location":"Interlagos, São Paulo, SP","status":"concluida","winner":"Resultado por categoria não consolidado no portal consultado","results_url":"https://superbike.com.br/resultados/"},
-    {"order":3,"start_date":"2026-05-09","end_date":"2026-05-10","name":"3ª etapa","location":"Interlagos, São Paulo, SP","status":"concluida","winner":"Maxi Scheib (SuperBike Pro); Julio Fortunato (SuperBike Evo)","results_url":"https://superbike.com.br/maxi-scheib-conquista-segunda-vitoria-consecutiva-assume-a-lideranca-e-homenageia-o-brasil/"},
-    {"order":4,"start_date":"2026-07-26","end_date":"2026-07-26","name":"4ª etapa","location":"Interlagos, São Paulo, SP","status":"agendada","winner":"","results_url":"https://superbike.com.br/calendario-2026/"},
-    {"order":5,"start_date":"","end_date":"","name":"5ª etapa","location":"Local a definir","status":"agendada","winner":"","results_url":"https://superbike.com.br/calendario-2026/"},
-    {"order":6,"start_date":"2026-12-06","end_date":"2026-12-06","name":"6ª etapa","location":"Local a definir","status":"agendada","winner":"","results_url":"https://superbike.com.br/calendario-2026/"}
+    {
+      "order": 1,
+      "start_date": "2026-02-15",
+      "end_date": "2026-02-15",
+      "name": "1ª etapa",
+      "location": "Interlagos, São Paulo, SP",
+      "status": "concluida",
+      "winner": "Resultado por categoria não consolidado no portal consultado",
+      "results_url": "https://superbike.com.br/resultados/"
+    },
+    {
+      "order": 2,
+      "start_date": "2026-04-04",
+      "end_date": "2026-04-04",
+      "name": "2ª etapa",
+      "location": "Interlagos, São Paulo, SP",
+      "status": "concluida",
+      "winner": "Resultado por categoria não consolidado no portal consultado",
+      "results_url": "https://superbike.com.br/resultados/"
+    },
+    {
+      "order": 3,
+      "start_date": "2026-05-09",
+      "end_date": "2026-05-10",
+      "name": "3ª etapa",
+      "location": "Interlagos, São Paulo, SP",
+      "status": "concluida",
+      "winner": "Maxi Scheib (SuperBike Pro); Julio Fortunato (SuperBike Evo)",
+      "results_url": "https://superbike.com.br/maxi-scheib-conquista-segunda-vitoria-consecutiva-assume-a-lideranca-e-homenageia-o-brasil/"
+    },
+    {
+      "order": 4,
+      "start_date": "2026-07-26",
+      "end_date": "2026-07-26",
+      "name": "4ª etapa",
+      "location": "Interlagos, São Paulo, SP",
+      "status": "agendada",
+      "winner": "",
+      "results_url": "https://superbike.com.br/calendario-2026/"
+    },
+    {
+      "order": 5,
+      "start_date": "",
+      "end_date": "",
+      "name": "5ª etapa",
+      "location": "Local a definir",
+      "status": "agendada",
+      "winner": "",
+      "results_url": "https://superbike.com.br/calendario-2026/"
+    },
+    {
+      "order": 6,
+      "start_date": "2026-12-06",
+      "end_date": "2026-12-06",
+      "name": "6ª etapa",
+      "location": "Local a definir",
+      "status": "agendada",
+      "winner": "",
+      "results_url": "https://superbike.com.br/calendario-2026/"
+    }
   ],
   "related_videos": [],
-  "body": "## Resultado mais recente\n\nNa SuperBike Pro da terceira etapa, Maxi Scheib venceu em Interlagos e assumiu a liderança do campeonato. Felipe Gonçalves terminou em segundo e Felipe Macan foi o terceiro. A mesma rodada teve Julio Fortunato como vencedor da SuperBike Evo.\n\nA organização também publicou vencedores da SuperSport 400, SuperBike Master, Light, Senior e Rookie. A tabela consolidada de pontos não está disponível na página pública de resultados consultada em 20 de julho; por isso, a classificação geral será incluída apenas quando houver fonte oficial verificável.\n\n## Próxima etapa\n\nO calendário oficial indica a quarta etapa em Interlagos, São Paulo (SP), em 26 de julho. Datas e locais posteriores permanecem sujeitos à confirmação do organizador."
+  "body": "## Resultado mais recente\n\nNa SuperBike Pro da terceira etapa, Maxi Scheib venceu em Interlagos e assumiu a liderança do campeonato. Felipe Gonçalves terminou em segundo e Felipe Macan foi o terceiro. A mesma rodada teve Julio Fortunato como vencedor da SuperBike Evo.\n\nA organização também publicou vencedores da SuperSport 400, SuperBike Master, Light, Senior e Rookie. A tabela consolidada de pontos não está disponível na página pública de resultados consultada em 20 de julho; por isso, a classificação geral será incluída apenas quando houver fonte oficial verificável.\n\n## Próxima etapa\n\nO calendário oficial indica a quarta etapa em Interlagos, São Paulo (SP), em 26 de julho. Datas e locais posteriores permanecem sujeitos à confirmação do organizador.",
+  "sources": [
+    {
+      "url": "https://superbike.com.br/",
+      "label": "Canal oficial ou página indicada pela entidade",
+      "type": "fonte específica independente",
+      "supports": "dados de agenda, identificação e situação do evento"
+    },
+    {
+      "url": "https://superbike.com.br/maxi-scheib-conquista-segunda-vitoria-consecutiva-assume-a-lideranca-e-homenageia-o-brasil",
+      "label": "Resultados oficiais",
+      "type": "fonte específica independente",
+      "supports": "dados de agenda, identificação e situação do evento"
+    },
+    {
+      "url": "https://autodromodeinterlagos.prefeitura.sp.gov.br/w/o-aut%C3%B3dromo-de-interlagos-foi-cen%C3%A1rio-de-mais-um-fim-de-semana-marcante-com-o-superbike-brasil-e-a-super-liga-desportiva-de-automobilismo.",
+      "label": "O Autódromo de Interlagos foi cenário de mais um fim de semana marcante com o SuperBike Brasil e a Super Liga Desportiva de Automobilismo. - Autódromo de Interlagos - Prefeitura",
+      "type": "fonte institucional pública",
+      "supports": "horários e programação",
+      "relevance_score": 17,
+      "discovery_method": "busca_editorial_indexada"
+    }
+  ],
+  "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
+  "research_status": {
+    "required_specific_independent_sources": 2,
+    "specific_independent_domains_found": 2,
+    "status": "fontes_cruzadas",
+    "attempts": [
+      "busca por título exato, cidade, UF e ano",
+      "busca ampliada por programação, organizador, prefeitura e imprensa local",
+      "busca visual/social em Instagram, Facebook e YouTube"
+    ],
+    "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
+    "editorial_rule": "Dados confirmados por duas ou mais fontes específicas independentes."
+  },
+  "classification_status": {
+    "status": "publicada",
+    "checked_at": "2026-07-26T07:29:17.772991+00:00",
+    "note": "Resultados ou classificação oficial disponíveis nos blocos desta página."
+  },
+  "calendar_status": {
+    "status": "publicado",
+    "checked_at": "2026-07-26T07:29:17.772991+00:00",
+    "note": "Etapas disponíveis na tabela da página."
+  }
 }

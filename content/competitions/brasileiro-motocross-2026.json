@@ -13,8 +13,13 @@
   "image_credit": "Foto: MX1 GP Brasil / divulgação · Arte: TVDUASRODAS",
   "featured": false,
   "summary": "A principal temporada nacional de motocross, acompanhada a partir do calendário, regulamentos e resultados oficiais da CBM.",
-  "last_updated": "2026-07-21T12:00:00-04:00",
-  "next_stage": {"name":"7ª e 8ª etapas","start_date":"2026-07-31","city":"Santa Cruz do Capibaribe","state":"PE"},
+  "last_updated": "2026-07-26T07:34:37.414943+00:00",
+  "next_stage": {
+    "name": "7ª e 8ª etapas",
+    "start_date": "2026-07-31",
+    "city": "Santa Cruz do Capibaribe",
+    "state": "PE"
+  },
   "categories": [
     "MX1",
     "MX2",
@@ -26,11 +31,81 @@
   ],
   "standings": [],
   "rounds": [
-    {"order":7,"start_date":"2026-07-31","name":"7ª e 8ª etapas","location":"Santa Cruz do Capibaribe/PE","status":"agendada"},
-    {"order":9,"start_date":"2026-09-12","end_date":"2026-09-13","name":"9ª etapa","location":"Brumadinho/MG","status":"agendada"},
-    {"order":10,"start_date":"2026-09-13","name":"10ª etapa","location":"A confirmar","status":"agendada"},
-    {"order":11,"start_date":"2026-09-27","name":"11ª etapa","location":"A confirmar","status":"agendada"}
+    {
+      "order": 7,
+      "start_date": "2026-07-31",
+      "name": "7ª e 8ª etapas",
+      "location": "Santa Cruz do Capibaribe/PE",
+      "status": "agendada"
+    },
+    {
+      "order": 9,
+      "start_date": "2026-09-12",
+      "end_date": "2026-09-13",
+      "name": "9ª etapa",
+      "location": "Brumadinho/MG",
+      "status": "agendada"
+    },
+    {
+      "order": 10,
+      "start_date": "2026-09-13",
+      "name": "10ª etapa",
+      "location": "A confirmar",
+      "status": "agendada"
+    },
+    {
+      "order": 11,
+      "start_date": "2026-09-27",
+      "name": "11ª etapa",
+      "location": "A confirmar",
+      "status": "agendada"
+    }
   ],
   "related_videos": [],
-  "body": "## Monitoramento oficial\n\nA TVDUASRODAS acompanha as etapas do Brasileiro de Motocross e publicará nesta página o calendário consolidado, os resultados e a liderança por categoria assim que forem confirmados pela organização."
+  "body": "## Temporada 2026\n\nCampeonato Brasileiro de Motocross 2026 é acompanhada pela TVDUASRODAS na modalidade Motocross, sob organização de CBM / PROMOX. O status registrado é em_andamento.\n\n## Próxima etapa e calendário\n\nA referência mais recente é 7ª e 8ª etapas, com data 2026-07-31 e local Santa Cruz do Capibaribe · PE. Alterações de data e local são conferidas nos canais oficiais.\n\n## Classificação e resultados\n\nAs fontes oficiais consultadas ainda não disponibilizaram classificação consolidada para publicação. Quando houver documento oficial, atletas, equipes, categorias, posições, tempos e pontos serão publicados com páginas relacionadas para os competidores identificados.\n\n## Fontes\n\nA apuração registra Canal oficial ou página indicada pela entidade; Resultados oficiais; Campeonato Brasileiro de Motocross | Honda Racing. Cada link permanece visível na página para permitir a conferência dos dados e da data de atualização.",
+  "sources": [
+    {
+      "url": "https://www.cbm.esp.br/",
+      "label": "Canal oficial ou página indicada pela entidade",
+      "type": "fonte primária ou canal oficial",
+      "supports": "dados de agenda, identificação e situação do evento"
+    },
+    {
+      "url": "https://www.cbm.esp.br/site/public/calendario",
+      "label": "Resultados oficiais",
+      "type": "fonte primária ou canal oficial",
+      "supports": "dados de agenda, identificação e situação do evento"
+    },
+    {
+      "url": "https://www.honda.com.br/racing/motocross/brasileiro-de-motocross",
+      "label": "Campeonato Brasileiro de Motocross | Honda Racing",
+      "type": "fonte específica independente",
+      "supports": "data e edição, resultados ou classificação",
+      "relevance_score": 14,
+      "discovery_method": "busca_editorial_indexada"
+    }
+  ],
+  "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
+  "research_status": {
+    "required_specific_independent_sources": 2,
+    "specific_independent_domains_found": 2,
+    "status": "fontes_cruzadas",
+    "attempts": [
+      "busca por título exato, cidade, UF e ano",
+      "busca ampliada por programação, organizador, prefeitura e imprensa local",
+      "busca visual/social em Instagram, Facebook e YouTube"
+    ],
+    "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
+    "editorial_rule": "Dados confirmados por duas ou mais fontes específicas independentes."
+  },
+  "classification_status": {
+    "status": "aguardando_publicacao_oficial",
+    "checked_at": "2026-07-26T07:23:03.255263+00:00",
+    "note": "As fontes oficiais consultadas ainda não disponibilizaram classificação consolidada para publicação."
+  },
+  "calendar_status": {
+    "status": "publicado",
+    "checked_at": "2026-07-26T07:23:03.255263+00:00",
+    "note": "Etapas disponíveis na tabela da página."
+  }
 }

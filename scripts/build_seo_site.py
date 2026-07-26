@@ -17,7 +17,7 @@ from collections import defaultdict
 from datetime import date
 from pathlib import Path
 from typing import Any
-from urllib.parse import unquote
+from urllib.parse import unquote, urlparse
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -479,6 +479,58 @@ def relation_blocks(item: dict[str, Any], all_items: list[dict[str, Any]]) -> st
     return chips_html + related_html
 
 
+def render_research_sources(data: dict[str, Any], *, fallback_url: str = "") -> str:
+    """Exibe as fontes efetivamente consultadas e os fatos apoiados por cada uma."""
+    raw_sources = data.get("sources") if isinstance(data.get("sources"), list) else []
+    sources: list[dict[str, str]] = []
+    seen: set[str] = set()
+    for source in raw_sources:
+        if not isinstance(source, dict):
+            continue
+        url = str(source.get("url") or "").strip()
+        if not url or url in seen:
+            continue
+        seen.add(url)
+        sources.append({
+            "url": url,
+            "label": str(source.get("label") or source.get("owner") or "Fonte consultada").strip(),
+            "type": str(source.get("type") or "").strip(),
+            "supports": str(source.get("supports") or "").strip(),
+        })
+    if not sources and fallback_url:
+        sources.append({
+            "url": fallback_url,
+            "label": "Fonte oficial ou página de origem",
+            "type": "",
+            "supports": "",
+        })
+    if not sources:
+        return ""
+    independent_domains = {
+        urlparse(source["url"]).netloc.lower().removeprefix("www.")
+        for source in sources
+        if urlparse(source["url"]).netloc
+    }
+    research_status = data.get("research_status") if isinstance(data.get("research_status"), dict) else {}
+    exhausted = research_status.get("status") == "segunda_fonte_nao_localizada_apos_pesquisa_exaustiva"
+    rows = "".join(
+        f'<li><a href="{esc(source["url"])}" target="_blank" rel="noopener noreferrer">'
+        f'{esc(source["label"])}</a>'
+        f'{(" <small>· " + esc(source["type"]) + "</small>") if source["type"] else ""}'
+        f'{("<p>" + esc(source["supports"]) + "</p>") if source["supports"] else ""}</li>'
+        for source in sources
+    )
+    checked = data.get("source_checked_at") or data.get("last_updated") or ""
+    return (
+        '<aside class="seo-source"><strong>Fontes cruzadas e atualização</strong>'
+        f'<p>Esta página registra {len(sources)} link(s) consultado(s), em '
+        f'{len(independent_domains)} domínio(s)'
+        f'{(" · última checagem " + esc(checked)) if checked else ""}.</p>'
+        f'{("<p><strong>Verificação ainda aberta:</strong> uma segunda fonte específica e independente não foi localizada após buscas textual, ampliada e visual/social. A página permanece ativa sem completar dados por suposição.</p>" if exhausted else "")}'
+        f'<ul>{rows}</ul></aside>'
+    )
+
+
 def classify(item: dict[str, Any]) -> None:
     normalized = normalize(item.get("search_text", ""))
     item["topics"] = [
@@ -651,10 +703,12 @@ def load_content() -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]
         item = {
             "kind": "event", "kind_label": "Evento do calendário", "slug": slug,
             "title": data.get("title", slug),
-            "summary": " · ".join(filter(None, (data.get("stage"), data.get("city"), data.get("state")))),
-            "body": f"## Sobre a prova\n\n{data.get('title')} integra o calendário monitorado pela TVDUASRODAS. Consulte a fonte oficial para confirmar programação, inscrições e alterações.",
-            "date": data.get("start_date", TODAY), "lastmod": iso_day(data.get("start_date")),
-            "category": modality or "Evento", "image": "/assets/img/competicoes-eventos-default.svg",
+            "summary": data.get("summary") or " · ".join(filter(None, (data.get("stage"), data.get("city"), data.get("state")))),
+            "body": data.get("body") or f"## Sobre a prova\n\n{data.get('title')} integra o calendário monitorado pela TVDUASRODAS. Consulte a fonte oficial para confirmar programação, inscrições e alterações.",
+            "date": data.get("start_date", TODAY),
+            "lastmod": iso_day(data.get("last_updated") or data.get("source_checked_at") or data.get("start_date")),
+            "category": modality or "Evento",
+            "image": data.get("cover") or "/assets/img/competicoes-eventos-default.svg",
             "url": f"/eventos/{slug}/", "data": data,
             "modalities": [(slugify(modality), modality)] if modality else [],
             "search_text": json.dumps(data, ensure_ascii=False),
@@ -882,7 +936,7 @@ def render_competition(
   {('<div class="seo-competition-stack">' + ''.join(standings_groups) + '</div>') if standings_groups else '<div class="seo-competition-empty"><strong>Classificação aguardando publicação oficial.</strong><p>Os blocos de cada categoria serão incluídos após a divulgação da entidade organizadora.</p></div>'}
   </section>
   <section class="seo-competition-section" id="calendario"><header><span class="seo-block-label">Programação da temporada</span><h2>Etapas e calendário</h2></header>{('<div class="seo-competition-block"><div class="seo-table"><table><thead><tr><th>Etapa</th><th>Data</th><th>Local</th><th>Resultado/situação</th></tr></thead><tbody>' + rounds + '</tbody></table></div></div>') if rounds else '<div class="seo-competition-empty"><strong>Calendário em confirmação.</strong></div>'}</section>
-  <aside class="seo-source"><strong>Fonte e atualização</strong><p>Dados conferidos com a entidade ou organização oficial. <a href="{esc(data.get("official_url"))}" target="_blank" rel="noopener noreferrer">Consultar fonte oficial</a>.</p></aside>
+  {render_research_sources(data, fallback_url=data.get("official_url", ""))}
   {relation_blocks(item, all_items)}
 </article>"""
     return page_shell(
@@ -956,6 +1010,7 @@ def render_event(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
   <div class="seo-prose">{markdown(item["body"])}</div>
   {relations}
   <aside class="seo-source"><strong>Confirme antes de ir</strong><p>Programação, endereço e regras podem mudar. <a href="{esc(data.get("official_url", "#"))}" target="_blank" rel="noopener noreferrer">{'Consulte a agenda de origem e procure o organizador' if data.get("verification_status") == "agenda_comunitaria" else 'Consulte o canal oficial'}</a>.</p></aside>
+  {render_research_sources(data, fallback_url=data.get("official_url", ""))}
 </article>"""
     return page_shell(
         title=item["title"], description=item["summary"], canonical=canonical, body=body,

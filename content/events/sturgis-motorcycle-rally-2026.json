@@ -33,7 +33,7 @@
   "status_basis": "O departamento oficial da cidade confirma a 86ª edição de 7 a 16 de agosto de 2026.",
   "status_checked_at": "2026-07-26T12:00:00-04:00",
   "source_url": "https://www.sturgis-sd.gov/rally-events-department",
-  "source_checked_at": "2026-07-26T12:00:00-04:00",
+  "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
   "verification_status": "fonte_oficial_sem_flyer",
   "visual_verification": {
     "type": "portal_oficial_e_calendario_inspecionados",
@@ -48,5 +48,57 @@
     ]
   },
   "admission_status": "A circulação e parte da programação urbana são abertas; shows, campings, corridas e experiências privadas podem exigir ingressos próprios",
-  "parking": "Main Street tem trechos destinados a estacionamento de motocicletas e há restrições temporárias na cidade; placas e orientações oficiais prevalecem"
+  "parking": "Main Street tem trechos destinados a estacionamento de motocicletas e há restrições temporárias na cidade; placas e orientações oficiais prevalecem",
+  "sources": [
+    {
+      "url": "https://www.sturgis-sd.gov/rally-events-department",
+      "label": "Canal oficial ou página indicada pela entidade",
+      "type": "fonte específica independente",
+      "supports": "dados de agenda, identificação e situação do evento"
+    },
+    {
+      "url": "https://sturgis.com/",
+      "label": "86th Sturgis Motorcycle Rally 2026",
+      "type": "fonte específica independente",
+      "supports": "data e edição",
+      "relevance_score": 27,
+      "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://events.sturgis.com/events/sammy-hagar-and-friends-saturday-aug-8-2026",
+      "label": "Sammy Hagar and Friends – Saturday Aug. 8, 2026 - Events Sturgis Motorcycle Rally",
+      "type": "fonte específica independente",
+      "supports": "data e edição",
+      "relevance_score": 27,
+      "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://sturgis.com/registration",
+      "label": "Sturgis.com's Official Sturgis Rally Registration",
+      "type": "fonte específica independente",
+      "supports": "data e edição",
+      "relevance_score": 27,
+      "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://events.sturgis.com/rides/northern-hills-rides",
+      "label": "Northern Hills Rides - Events Sturgis Motorcycle Rally",
+      "type": "fonte específica independente",
+      "supports": "data e edição",
+      "relevance_score": 27,
+      "discovery_method": "busca_editorial_indexada"
+    }
+  ],
+  "research_status": {
+    "required_specific_independent_sources": 2,
+    "specific_independent_domains_found": 3,
+    "status": "fontes_cruzadas",
+    "attempts": [
+      "busca por título exato, cidade, UF e ano",
+      "busca ampliada por programação, organizador, prefeitura e imprensa local",
+      "busca visual/social em Instagram, Facebook e YouTube"
+    ],
+    "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
+    "editorial_rule": "Dados confirmados por duas ou mais fontes específicas independentes."
+  }
 }

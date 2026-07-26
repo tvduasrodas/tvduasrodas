@@ -14,7 +14,7 @@
   "image_source": "https://www.arenacross.com.br/single-post/dean-wilson-vence-em-jundia%C3%AD-e-leva-decis%C3%A3o-do-arena-cross-para-a-super-final-em-interlagos",
   "featured": true,
   "summary": "A temporada chega à Super Final de Interlagos com Enzo Lopes e Dean Wilson empatados na liderança da categoria PRO.",
-  "last_updated": "2026-07-20T13:00:00-04:00",
+  "last_updated": "2026-07-26T07:34:37.414943+00:00",
   "next_stage": {
     "name": "Super Final — rodada dupla",
     "start_date": "2026-08-14",
@@ -205,5 +205,58 @@
     }
   ],
   "related_videos": [],
-  "body": "## Disputa aberta pelo título\n\nEnzo Lopes e Dean Wilson chegam à decisão empatados com 97 pontos na PRO. A Super Final terá rodada dupla no Autódromo de Interlagos.\n\n## Como acompanhamos\n\nA TVDUASRODAS atualiza esta página depois de cada etapa com resultados e classificação publicados pela organização. Em caso de divergência, prevalecem os documentos oficiais vinculados nesta página."
+  "body": "## Disputa aberta pelo título\n\nEnzo Lopes e Dean Wilson chegam à decisão empatados com 97 pontos na PRO. A Super Final terá rodada dupla no Autódromo de Interlagos.\n\n## Como acompanhamos\n\nA TVDUASRODAS atualiza esta página depois de cada etapa com resultados e classificação publicados pela organização. Em caso de divergência, prevalecem os documentos oficiais vinculados nesta página.",
+  "sources": [
+    {
+      "url": "https://www.arenacross.com.br/",
+      "label": "Canal oficial ou página indicada pela entidade",
+      "type": "fonte específica independente",
+      "supports": "dados de agenda, identificação e situação do evento"
+    },
+    {
+      "url": "https://www.arenacross.com.br/resultados",
+      "label": "Resultados oficiais",
+      "type": "fonte específica independente",
+      "supports": "dados de agenda, identificação e situação do evento"
+    },
+    {
+      "url": "https://cbm.esp.br/site/public/noticias/2026/06/23/arena-cross-brasil-2026-desembarca-em-jundiai-com-formato-especial-e-expectativa-de-casa-cheia",
+      "label": "Arena Cross Brasil 2026 desembarca em Jundiaí com formato especial e expectativa de casa cheia | Arenacross | Notícias | Confederação Brasileira de Motociclismo",
+      "type": "fonte primária ou canal oficial",
+      "supports": "data e edição, local, organização e contatos",
+      "relevance_score": 19,
+      "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://www.cbm.esp.br/site/public/noticias/2026/05/12/arena-cross-2026-reune-estrelas-mundiais-neste-sabado-em-indaiatuba",
+      "label": "Arena Cross 2026 reúne estrelas mundiais neste sábado em Indaiatuba | Arenacross | Notícias | Confederação Brasileira de Motociclismo",
+      "type": "fonte primária ou canal oficial",
+      "supports": "data e edição, local",
+      "relevance_score": 19,
+      "discovery_method": "busca_editorial_indexada"
+    }
+  ],
+  "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
+  "research_status": {
+    "required_specific_independent_sources": 2,
+    "specific_independent_domains_found": 2,
+    "status": "fontes_cruzadas",
+    "attempts": [
+      "busca por título exato, cidade, UF e ano",
+      "busca ampliada por programação, organizador, prefeitura e imprensa local",
+      "busca visual/social em Instagram, Facebook e YouTube"
+    ],
+    "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
+    "editorial_rule": "Dados confirmados por duas ou mais fontes específicas independentes."
+  },
+  "classification_status": {
+    "status": "publicada",
+    "checked_at": "2026-07-26T07:22:43.512906+00:00",
+    "note": "Resultados ou classificação oficial disponíveis nos blocos desta página."
+  },
+  "calendar_status": {
+    "status": "publicado",
+    "checked_at": "2026-07-26T07:22:43.512906+00:00",
+    "note": "Etapas disponíveis na tabela da página."
+  }
 }

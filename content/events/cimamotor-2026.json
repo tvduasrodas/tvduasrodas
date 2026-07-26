@@ -34,7 +34,7 @@
   "status_basis": "Guia oficial do visitante confirma datas, horários, endereço, entrada, transporte e estacionamento.",
   "status_checked_at": "2026-07-26T12:00:00-04:00",
   "source_url": "https://en.cimamotor.com/exhibition/customer/guide",
-  "source_checked_at": "2026-07-26T12:00:00-04:00",
+  "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
   "verification_status": "fonte_oficial_sem_flyer",
   "visual_verification": {
     "type": "guia_oficial_do_visitante_inspecionado",
@@ -51,5 +51,55 @@
     ]
   },
   "admission_status": "Ingresso obrigatório; venda pública ainda não aberta. Visitantes profissionais podem realizar pré-registro e estrangeiros devem apresentar passaporte ou documento aceito",
-  "parking": "Estacionamento gratuito para visitantes nos bolsões P25, P26 e P27"
+  "parking": "Estacionamento gratuito para visitantes nos bolsões P25, P26 e P27",
+  "sources": [
+    {
+      "url": "https://en.cimamotor.com/exhibition",
+      "label": "Canal oficial ou página indicada pela entidade",
+      "type": "fonte específica independente",
+      "supports": "dados de agenda, identificação e situação do evento"
+    },
+    {
+      "url": "https://en.cimamotor.com/exhibition/customer/guide",
+      "label": "Fonte original do registro",
+      "type": "fonte específica independente",
+      "supports": "dados de agenda, identificação e situação do evento"
+    },
+    {
+      "url": "https://es.cimamotor.com/visit",
+      "label": "Exposición Internacional de Motocicletas de China (Expo Motocicletas China) - Sitio web oficial",
+      "type": "fonte específica independente",
+      "supports": "data e edição",
+      "relevance_score": 18,
+      "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://www.cimamotor.com/",
+      "label": "中国国际摩托车博览会(中国摩博会)-官方网站",
+      "type": "fonte específica independente",
+      "supports": "data e edição",
+      "relevance_score": 15,
+      "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://cimamotor.com/",
+      "label": "中国国际摩托车博览会(中国摩博会)-官方网站",
+      "type": "fonte específica independente",
+      "supports": "data e edição",
+      "relevance_score": 15,
+      "discovery_method": "busca_editorial_indexada"
+    }
+  ],
+  "research_status": {
+    "required_specific_independent_sources": 2,
+    "specific_independent_domains_found": 3,
+    "status": "fontes_cruzadas",
+    "attempts": [
+      "busca por título exato, cidade, UF e ano",
+      "busca ampliada por programação, organizador, prefeitura e imprensa local",
+      "busca visual/social em Instagram, Facebook e YouTube"
+    ],
+    "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
+    "editorial_rule": "Dados confirmados por duas ou mais fontes específicas independentes."
+  }
 }

@@ -13,17 +13,97 @@
   "image_credit": "Foto: Janjão Santiago / CBM · Arte: TVDUASRODAS",
   "featured": false,
   "summary": "Etapas, resultados e classificação do Campeonato Brasileiro de Enduro.",
-  "last_updated": "2026-07-21T12:00:00-04:00",
-  "next_stage": {"name":"4ª etapa","start_date":"2026-08-07","end_date":"2026-08-09","city":"Ponta Grossa","state":"PR"},
+  "last_updated": "2026-07-26T07:34:37.414943+00:00",
+  "next_stage": {
+    "name": "4ª etapa",
+    "start_date": "2026-08-07",
+    "end_date": "2026-08-09",
+    "city": "Ponta Grossa",
+    "state": "PR"
+  },
   "categories": [
     "Enduro"
   ],
   "standings": [],
   "rounds": [
-    {"order":4,"start_date":"2026-08-07","end_date":"2026-08-09","name":"4ª etapa","location":"Ponta Grossa/PR","status":"agendada"},
-    {"order":5,"start_date":"2026-09-18","end_date":"2026-09-20","name":"5ª etapa","location":"Socorro/SP","status":"agendada"},
-    {"order":6,"start_date":"2026-11-06","end_date":"2026-11-08","name":"6ª etapa","location":"A confirmar","status":"agendada"}
+    {
+      "order": 4,
+      "start_date": "2026-08-07",
+      "end_date": "2026-08-09",
+      "name": "4ª etapa",
+      "location": "Ponta Grossa/PR",
+      "status": "agendada"
+    },
+    {
+      "order": 5,
+      "start_date": "2026-09-18",
+      "end_date": "2026-09-20",
+      "name": "5ª etapa",
+      "location": "Socorro/SP",
+      "status": "agendada"
+    },
+    {
+      "order": 6,
+      "start_date": "2026-11-06",
+      "end_date": "2026-11-08",
+      "name": "6ª etapa",
+      "location": "A confirmar",
+      "status": "agendada"
+    }
   ],
   "related_videos": [],
-  "body": "## Resistência e técnica\n\nCalendário e resultados são verificados na CBM e nos organizadores de cada etapa. Enduro de Regularidade e Hard Enduro agora possuem páginas próprias para evitar a mistura de classificações."
+  "body": "## Temporada 2026\n\nCampeonato Brasileiro de Enduro 2026 é acompanhada pela TVDUASRODAS na modalidade Enduro, sob organização de Confederação Brasileira de Motociclismo. O status registrado é em_andamento.\n\n## Próxima etapa e calendário\n\nA referência mais recente é 4ª etapa, com data 2026-08-07 e local Ponta Grossa · PR. Alterações de data e local são conferidas nos canais oficiais.\n\n## Classificação e resultados\n\nAs fontes oficiais consultadas ainda não disponibilizaram classificação consolidada para publicação. Quando houver documento oficial, atletas, equipes, categorias, posições, tempos e pontos serão publicados com páginas relacionadas para os competidores identificados.\n\n## Fontes\n\nA apuração registra Canal oficial ou página indicada pela entidade; Resultados oficiais. Cada link permanece visível na página para permitir a conferência dos dados e da data de atualização.",
+  "sources": [
+    {
+      "url": "https://www.cbm.esp.br/modalidades/enduro",
+      "label": "Canal oficial ou página indicada pela entidade",
+      "type": "fonte primária ou canal oficial",
+      "supports": "dados de agenda, identificação e situação do evento"
+    },
+    {
+      "url": "https://www.cbm.esp.br/site/public/calendario",
+      "label": "Resultados oficiais",
+      "type": "fonte primária ou canal oficial",
+      "supports": "dados de agenda, identificação e situação do evento"
+    },
+    {
+      "url": "https://sesport.es.gov.br/capixaba-conquista-medalha-de-ouro-no-campeonato-brasileiro-de-enduro",
+      "label": "SESPORT - Secretaria de Esportes e Lazer",
+      "type": "fonte institucional pública",
+      "supports": "data e edição",
+      "relevance_score": 24,
+      "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://www.agendaesportiva.com.br/1endurobr2026",
+      "label": "1ª e 2ª Etapa - Itajaí - Campeonato Brasileiro de Enduro - Agenda Esportiva",
+      "type": "fonte específica independente",
+      "supports": "data e edição",
+      "relevance_score": 24,
+      "discovery_method": "busca_editorial_indexada"
+    }
+  ],
+  "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
+  "research_status": {
+    "required_specific_independent_sources": 2,
+    "specific_independent_domains_found": 3,
+    "status": "fontes_cruzadas",
+    "attempts": [
+      "busca por título exato, cidade, UF e ano",
+      "busca ampliada por programação, organizador, prefeitura e imprensa local",
+      "busca visual/social em Instagram, Facebook e YouTube"
+    ],
+    "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
+    "editorial_rule": "Dados confirmados por duas ou mais fontes específicas independentes."
+  },
+  "classification_status": {
+    "status": "aguardando_publicacao_oficial",
+    "checked_at": "2026-07-26T07:22:55.818633+00:00",
+    "note": "As fontes oficiais consultadas ainda não disponibilizaram classificação consolidada para publicação."
+  },
+  "calendar_status": {
+    "status": "publicado",
+    "checked_at": "2026-07-26T07:22:55.818633+00:00",
+    "note": "Etapas disponíveis na tabela da página."
+  }
 }

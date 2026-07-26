@@ -1,5 +1,106 @@
 {
-  "title":"Campeonato Brasileiro de Rally Raid 2026","short_name":"Rally Raid Brasil","season":"2026","country":"Brasil","scope":"Nacional","modality":"Rally Raid","status":"em_andamento","organizer":"Confederação Brasileira de Motociclismo","official_url":"https://www.cbm.esp.br/modalidades/rally-raid","results_url":"https://www.cbm.esp.br/site/public/calendario","cover":"/assets/img/uploads/brasileiro-rally-raid-2026-artwork.svg","image_credit":"Arte editorial: TVDUASRODAS","featured":false,"summary":"Temporada brasileira de Rally Raid, incluindo Sertões e Sertões Series.","last_updated":"2026-07-21T12:00:00-04:00",
-  "next_stage":{"name":"5ª etapa — Rally dos Sertões","start_date":"2026-08-22","end_date":"2026-08-30","note":"Roteiro e término sujeitos à confirmação do organizador"},
-  "categories":[],"standings":[],"rounds":[{"order":5,"start_date":"2026-08-22","end_date":"2026-08-30","name":"5ª etapa — Rally dos Sertões","location":"Roteiro oficial a consultar","status":"agendada"},{"order":6,"start_date":"2026-10-30","end_date":"2026-11-01","name":"6ª etapa — Sertões Series SP","location":"São Paulo/SP","status":"agendada"}],"related_videos":[],"body":"## Grandes distâncias\n\nA cobertura reúne etapas, resultados e classificação do Brasileiro de Rally Raid. O Sertões também mantém uma página própria com a cobertura detalhada do evento."
+  "title": "Campeonato Brasileiro de Rally Raid 2026",
+  "short_name": "Rally Raid Brasil",
+  "season": "2026",
+  "country": "Brasil",
+  "scope": "Nacional",
+  "modality": "Rally Raid",
+  "status": "em_andamento",
+  "organizer": "Confederação Brasileira de Motociclismo",
+  "official_url": "https://www.cbm.esp.br/modalidades/rally-raid",
+  "results_url": "https://www.cbm.esp.br/site/public/calendario",
+  "cover": "/assets/img/uploads/brasileiro-rally-raid-2026-artwork.svg",
+  "image_credit": "Arte editorial: TVDUASRODAS",
+  "featured": false,
+  "summary": "Temporada brasileira de Rally Raid, incluindo Sertões e Sertões Series.",
+  "last_updated": "2026-07-26T07:34:37.414943+00:00",
+  "next_stage": {
+    "name": "5ª etapa — Rally dos Sertões",
+    "start_date": "2026-08-22",
+    "end_date": "2026-08-30",
+    "note": "Roteiro e término sujeitos à confirmação do organizador"
+  },
+  "categories": [],
+  "standings": [],
+  "rounds": [
+    {
+      "order": 5,
+      "start_date": "2026-08-22",
+      "end_date": "2026-08-30",
+      "name": "5ª etapa — Rally dos Sertões",
+      "location": "Roteiro oficial a consultar",
+      "status": "agendada"
+    },
+    {
+      "order": 6,
+      "start_date": "2026-10-30",
+      "end_date": "2026-11-01",
+      "name": "6ª etapa — Sertões Series SP",
+      "location": "São Paulo/SP",
+      "status": "agendada"
+    }
+  ],
+  "related_videos": [],
+  "body": "## Temporada 2026\n\nCampeonato Brasileiro de Rally Raid 2026 é acompanhada pela TVDUASRODAS na modalidade Rally Raid, sob organização de Confederação Brasileira de Motociclismo. O status registrado é em_andamento.\n\n## Próxima etapa e calendário\n\nA referência mais recente é 5ª etapa — Rally dos Sertões, com data 2026-08-22 e local a confirmar. Alterações de data e local são conferidas nos canais oficiais.\n\n## Classificação e resultados\n\nAs fontes oficiais consultadas ainda não disponibilizaram classificação consolidada para publicação. Quando houver documento oficial, atletas, equipes, categorias, posições, tempos e pontos serão publicados com páginas relacionadas para os competidores identificados.\n\n## Fontes\n\nA apuração registra Canal oficial ou página indicada pela entidade; Resultados oficiais; Rally Raid - Classificações, Calendário, Pilotos, Videos e Muito Mais; Campeonato Brasileiro de Rally Raid. | Rally Raid | CBM - Confederação Brasileira de Motociclismo. Cada link permanece visível na página para permitir a conferência dos dados e da data de atualização.",
+  "sources": [
+    {
+      "url": "https://www.cbm.esp.br/modalidades/rally-raid",
+      "label": "Canal oficial ou página indicada pela entidade",
+      "type": "fonte primária ou canal oficial",
+      "supports": "dados de agenda, identificação e situação do evento"
+    },
+    {
+      "url": "https://www.cbm.esp.br/site/public/calendario",
+      "label": "Resultados oficiais",
+      "type": "fonte primária ou canal oficial",
+      "supports": "dados de agenda, identificação e situação do evento"
+    },
+    {
+      "url": "https://www.cba.org.br/campeonato/home/221/rally-raid",
+      "label": "Rally Raid - Classificações, Calendário, Pilotos, Videos e Muito Mais",
+      "type": "fonte específica independente",
+      "supports": "data e edição",
+      "relevance_score": 19,
+      "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://ftp.cbm.esp.br/competicoes/cbm/campeonato-brasileiro-de-rally-raid",
+      "label": "Campeonato Brasileiro de Rally Raid. | Rally Raid | CBM - Confederação Brasileira de Motociclismo",
+      "type": "fonte primária ou canal oficial",
+      "supports": "data e edição",
+      "relevance_score": 19,
+      "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://www.cba.org.br/campeonato/noticias/221/rally-raid",
+      "label": "Notícias | Rally Raid - Classificações, Calendário, Pilotos, Videos e Muito Mais",
+      "type": "fonte específica independente",
+      "supports": "data e edição",
+      "relevance_score": 19,
+      "discovery_method": "busca_editorial_indexada"
+    }
+  ],
+  "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
+  "research_status": {
+    "required_specific_independent_sources": 2,
+    "specific_independent_domains_found": 3,
+    "status": "fontes_cruzadas",
+    "attempts": [
+      "busca por título exato, cidade, UF e ano",
+      "busca ampliada por programação, organizador, prefeitura e imprensa local",
+      "busca visual/social em Instagram, Facebook e YouTube"
+    ],
+    "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
+    "editorial_rule": "Dados confirmados por duas ou mais fontes específicas independentes."
+  },
+  "classification_status": {
+    "status": "aguardando_publicacao_oficial",
+    "checked_at": "2026-07-26T07:23:05.907082+00:00",
+    "note": "As fontes oficiais consultadas ainda não disponibilizaram classificação consolidada para publicação."
+  },
+  "calendar_status": {
+    "status": "publicado",
+    "checked_at": "2026-07-26T07:23:05.907082+00:00",
+    "note": "Etapas disponíveis na tabela da página."
+  }
 }

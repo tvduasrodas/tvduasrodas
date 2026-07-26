@@ -34,7 +34,7 @@
   "status_basis": "Comunicado oficial da EICMA confirma a estreia em 19 e 20 de setembro no Max Land MX Raceway Park.",
   "status_checked_at": "2026-07-26T12:00:00-04:00",
   "source_url": "https://www.eicma.it/en/eicma-riding-x-fest-is-launched-the-new-event-dedicated-to-specialist-off-road-motorcycling/",
-  "source_checked_at": "2026-07-26T12:00:00-04:00",
+  "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
   "verification_status": "fonte_oficial_sem_flyer",
   "visual_verification": {
     "type": "comunicado_oficial_inspecionado",
@@ -48,5 +48,57 @@
     ]
   },
   "admission_status": "Condições de inscrição, ingresso e participação nos testes ainda não publicadas",
-  "parking": "Operação de estacionamento ainda não publicada pela organização"
+  "parking": "Operação de estacionamento ainda não publicada pela organização",
+  "sources": [
+    {
+      "url": "https://www.eicma.it/en/eicma-riding-x-fest-is-launched-the-new-event-dedicated-to-specialist-off-road-motorcycling",
+      "label": "Canal oficial ou página indicada pela entidade",
+      "type": "fonte específica independente",
+      "supports": "dados de agenda, identificação e situação do evento"
+    },
+    {
+      "url": "https://www.moto.it/news/eicma-riding-x-fest-nasce-il-nuovo-evento-dedicato-alle-moto-off-road-specialistiche-in-italia.html",
+      "label": "EICMA Riding X Fest: nasce il nuovo evento dedicato alle moto off-road specialistiche in Italia - News - Moto.it",
+      "type": "fonte específica independente",
+      "supports": "data e edição",
+      "relevance_score": 28,
+      "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://www.eicma.it/it/nasce-eicma-riding-x-fest-il-nuovo-evento-dedicato-alloff-road-specialistico",
+      "label": "NASCE EICMA RIDING X FEST: IL NUOVO EVENTO DEDICATO ALL’OFF-ROAD SPECIALISTICO - EICMA",
+      "type": "fonte específica independente",
+      "supports": "data e edição",
+      "relevance_score": 27,
+      "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://www.ansa.it/lombardia/notizie/economia_territorio/2026/05/02/nasce-eicma-riding-x-fest-per-il-fuoristrada-su-2-ruote_34ac7276-ddb6-4dc1-8937-fc05077f0354.html",
+      "label": "Nasce Eicma Riding X Fest per il fuoristrada su 2 ruote - Economia e Territorio - Ansa.it",
+      "type": "fonte específica independente",
+      "supports": "data e edição",
+      "relevance_score": 24,
+      "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://www.moto.it/news/eicma-riding-x-fest-svelato-il-programma-due-giorni-di-prove-tra-cross-ed-enduro-a-chignolo-po.html",
+      "label": "EICMA Riding X Fest, svelato il programma: due giorni di prove tra cross ed enduro a Chignolo Po - News - Moto.it",
+      "type": "fonte específica independente",
+      "supports": "existência e identificação específica do evento",
+      "relevance_score": 23,
+      "discovery_method": "busca_editorial_indexada"
+    }
+  ],
+  "research_status": {
+    "required_specific_independent_sources": 2,
+    "specific_independent_domains_found": 3,
+    "status": "fontes_cruzadas",
+    "attempts": [
+      "busca por título exato, cidade, UF e ano",
+      "busca ampliada por programação, organizador, prefeitura e imprensa local",
+      "busca visual/social em Instagram, Facebook e YouTube"
+    ],
+    "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
+    "editorial_rule": "Dados confirmados por duas ou mais fontes específicas independentes."
+  }
 }

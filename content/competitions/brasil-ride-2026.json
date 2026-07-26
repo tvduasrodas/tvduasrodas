@@ -13,11 +13,66 @@
   "image_credit": "Foto de arquivo (2019): Fabio Piva / Brasil Ride · Arte: TVDUASRODAS",
   "featured": false,
   "summary": "Principais provas, resultados e informações do circuito Brasil Ride de mountain bike.",
-  "last_updated": "2026-07-20T13:00:00-04:00",
+  "last_updated": "2026-07-26T07:34:37.414943+00:00",
   "next_stage": {},
   "categories": [],
   "standings": [],
   "rounds": [],
   "related_videos": [],
-  "body": "## Mountain bike\n\nA TVDUASRODAS acompanha o calendário e os resultados oficiais das provas Brasil Ride com interesse nacional."
+  "body": "## Temporada 2026\n\nBrasil Ride 2026 é acompanhada pela TVDUASRODAS na modalidade Ciclismo MTB, sob organização de Brasil Ride. O status registrado é em_andamento.\n\n## Próxima etapa e calendário\n\nA referência mais recente é a etapa indicada no calendário, com data a confirmar e local a confirmar. Alterações de data e local são conferidas nos canais oficiais.\n\n## Classificação e resultados\n\nAs fontes oficiais consultadas ainda não disponibilizaram classificação consolidada para publicação. Quando houver documento oficial, atletas, equipes, categorias, posições, tempos e pontos serão publicados com páginas relacionadas para os competidores identificados.\n\n## Fontes\n\nA apuração registra Canal oficial ou página indicada pela entidade; FESTIVAL BRASIL RIDE 2026 - Brasil Ride; Provas - Brasil Ride; Photos of Events, Sports, Races, Marathons and Cycling Races - BRASIL RIDE. Cada link permanece visível na página para permitir a conferência dos dados e da data de atualização.",
+  "sources": [
+    {
+      "url": "https://site.brasilride.com.br/",
+      "label": "Canal oficial ou página indicada pela entidade",
+      "type": "fonte específica independente",
+      "supports": "dados de agenda, identificação e situação do evento"
+    },
+    {
+      "url": "https://www.brasilride.com.br/provas/festival-brasil-ride-2026",
+      "label": "FESTIVAL BRASIL RIDE 2026 - Brasil Ride",
+      "type": "fonte específica independente",
+      "supports": "data e edição, organização e contatos",
+      "relevance_score": 14,
+      "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://www.brasilride.com.br/provas-e-eventos",
+      "label": "Provas - Brasil Ride",
+      "type": "fonte específica independente",
+      "supports": "data e edição",
+      "relevance_score": 14,
+      "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://brasilride.fotop.com.br/",
+      "label": "Photos of Events, Sports, Races, Marathons and Cycling Races - BRASIL RIDE",
+      "type": "fonte específica independente",
+      "supports": "data e edição",
+      "relevance_score": 14,
+      "discovery_method": "busca_editorial_indexada"
+    }
+  ],
+  "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
+  "research_status": {
+    "required_specific_independent_sources": 2,
+    "specific_independent_domains_found": 3,
+    "status": "fontes_cruzadas",
+    "attempts": [
+      "busca por título exato, cidade, UF e ano",
+      "busca ampliada por programação, organizador, prefeitura e imprensa local",
+      "busca visual/social em Instagram, Facebook e YouTube"
+    ],
+    "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
+    "editorial_rule": "Dados confirmados por duas ou mais fontes específicas independentes."
+  },
+  "classification_status": {
+    "status": "aguardando_publicacao_oficial",
+    "checked_at": "2026-07-26T07:22:43.515898+00:00",
+    "note": "As fontes oficiais consultadas ainda não disponibilizaram classificação consolidada para publicação."
+  },
+  "calendar_status": {
+    "status": "aguardando_calendario_oficial",
+    "checked_at": "2026-07-26T07:22:43.515898+00:00",
+    "note": "A entidade ainda não publicou etapas suficientes para montar uma tabela sem suposições."
+  }
 }

@@ -44,7 +44,7 @@
   "source_url": "https://shimanofest.com.br/index.php/o-evento/informacoes-2/",
   "source_label": "Página oficial de informações do Shimano Fest 2026",
   "verification_status": "fonte_oficial_com_arte_inspecionada",
-  "source_checked_at": "2026-07-26T01:15:00-04:00",
+  "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
   "status_checked_at": "2026-07-26T01:15:00-04:00",
   "visual_verification": {
     "type": "pagina_oficial_com_mapa_e_arte",
@@ -58,5 +58,47 @@
       "access_rules",
       "attractions"
     ]
+  },
+  "sources": [
+    {
+      "url": "https://shimanofest.com.br/",
+      "label": "Canal oficial ou página indicada pela entidade",
+      "type": "fonte específica independente",
+      "supports": "dados de agenda, identificação e situação do evento"
+    },
+    {
+      "url": "https://shimanofest.com.br/index.php/o-evento/informacoes-2",
+      "label": "Fonte original do registro",
+      "type": "fonte específica independente",
+      "supports": "dados de agenda, identificação e situação do evento"
+    },
+    {
+      "url": "https://media.shimano.com.ar/pt_BR-BR/261494-shimano-fest-2026-anuncia-datas-e-entra-para-o-calendario-oficial-da-cidade-de-sao-paulo",
+      "label": "Shimano Fest 2026 anuncia datas e entra para o calendário oficial da Cidade de São Paulo | Sala de Imprensa Shimano Latin America",
+      "type": "fonte específica independente",
+      "supports": "data e edição",
+      "relevance_score": 22,
+      "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://visitesaopaulo.com/evento/shimano-fest-2026",
+      "label": "Shimano Fest - Visite São Paulo",
+      "type": "fonte específica independente",
+      "supports": "data e edição, local, horários e programação",
+      "relevance_score": 22,
+      "discovery_method": "busca_editorial_indexada"
+    }
+  ],
+  "research_status": {
+    "required_specific_independent_sources": 2,
+    "specific_independent_domains_found": 3,
+    "status": "fontes_cruzadas",
+    "attempts": [
+      "busca por título exato, cidade, UF e ano",
+      "busca ampliada por programação, organizador, prefeitura e imprensa local",
+      "busca visual/social em Instagram, Facebook e YouTube"
+    ],
+    "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
+    "editorial_rule": "Dados confirmados por duas ou mais fontes específicas independentes."
   }
 }

@@ -37,7 +37,7 @@
   "source_url": "https://www.fmotobrasil.com.br/",
   "source_label": "Site oficial do Festival Moto Brasil e agenda oficial do Riocentro",
   "verification_status": "fontes_oficiais_com_artes_inspecionadas",
-  "source_checked_at": "2026-07-26T01:15:00-04:00",
+  "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
   "status_checked_at": "2026-07-26T01:15:00-04:00",
   "visual_verification": {
     "type": "sites_oficiais_do_evento_e_local",
@@ -51,5 +51,79 @@
       "parking_capacity",
       "event_scale"
     ]
+  },
+  "sources": [
+    {
+      "url": "https://www.fmotobrasil.com.br/",
+      "label": "Canal oficial ou página indicada pela entidade",
+      "type": "fonte específica independente",
+      "supports": "dados de agenda, identificação e situação do evento"
+    },
+    {
+      "url": "https://riocentro.com.br/",
+      "label": "Flyer ou página visual inspecionada",
+      "type": "evidência visual primária",
+      "supports": "dados legíveis no material visual associado ao evento"
+    },
+    {
+      "url": "https://visitrio.com.br/evento/festival-moto-brasil-2026",
+      "label": "Festival Moto Brasil 2026 - Visit Rio",
+      "type": "fonte específica independente",
+      "supports": "data e edição",
+      "relevance_score": 19,
+      "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://motoneiro.com.br/2026/05/festival-moto-brasil-2026-abre-inscricoes-para-motoclubes-e-confirma-tributo-aos-mamonas-assassinas",
+      "label": "Festival Moto Brasil 2026 abre inscrições para motoclubes e confirma tributo aos Mamonas Assassinas - Motoneiro",
+      "type": "fonte específica independente",
+      "supports": "data e edição, horários e programação, inscrições e acesso",
+      "relevance_score": 19,
+      "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://www.motoremacao.com.br/noticia/festival-moto-brasil-2026-abre-inscricoes-para-motoclubes-e-motogrupos-confirma-primeira-atracao-musical-e-segue-com-o-primeiro-lote-de-ingressos",
+      "label": "Festival Moto Brasil 2026 abre inscrições para motoclubes e motogrupos, confirma primeira atração musical e segue com o primeiro lote de ingressos - Motor em Ação",
+      "type": "fonte específica independente",
+      "supports": "data e edição, horários e programação, inscrições e acesso",
+      "relevance_score": 19,
+      "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://revistainfoco.com.br/2026/07/06/festival-moto-brasil-2026-confirma-data-e-promete-edicao-historica",
+      "label": "Festival Moto Brasil 2026 confirma data e promete edição histórica – REVISTA INFOCO",
+      "type": "fonte específica independente",
+      "supports": "data e edição, organização e contatos",
+      "relevance_score": 19,
+      "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://mcbmoto.com.br/salao-moto-brasil",
+      "label": "Festival Moto Brasil – RJ | Moto Channel Brazil",
+      "type": "fonte específica independente",
+      "supports": "data e edição",
+      "relevance_score": 23,
+      "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://festivalmotobrasil.com.br/ingressos",
+      "label": "ingressos - Festival Moto Brasil",
+      "type": "fonte específica independente",
+      "supports": "data e edição, inscrições e acesso",
+      "relevance_score": 19,
+      "discovery_method": "busca_editorial_indexada"
+    }
+  ],
+  "research_status": {
+    "required_specific_independent_sources": 2,
+    "specific_independent_domains_found": 8,
+    "status": "fontes_cruzadas",
+    "attempts": [
+      "busca por título exato, cidade, UF e ano",
+      "busca ampliada por programação, organizador, prefeitura e imprensa local",
+      "busca visual/social em Instagram, Facebook e YouTube"
+    ],
+    "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
+    "editorial_rule": "Dados confirmados por duas ou mais fontes específicas independentes."
   }
 }

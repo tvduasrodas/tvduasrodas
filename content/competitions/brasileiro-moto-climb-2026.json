@@ -1,5 +1,99 @@
 {
-  "title":"Campeonato Brasileiro de Moto Climb 2026","short_name":"Moto Climb Brasil","season":"2026","country":"Brasil","scope":"Nacional","modality":"Moto Climb","status":"em_andamento","organizer":"Confederação Brasileira de Motociclismo","official_url":"https://www.cbm.esp.br/modalidades/moto-climb","results_url":"https://www.cbm.esp.br/site/public/calendario","cover":"/assets/img/uploads/brasileiro-moto-climb-2026-artwork.svg","image_credit":"Arte editorial: TVDUASRODAS","featured":false,"summary":"Agenda e resultados do campeonato brasileiro de subida de montanha com motocicletas.","last_updated":"2026-07-21T12:00:00-04:00",
-  "next_stage":{"name":"2ª etapa","start_date":"2026-08-08","end_date":"2026-08-09","city":"Morungaba","state":"SP"},
-  "categories":[],"standings":[],"rounds":[{"order":2,"start_date":"2026-08-08","end_date":"2026-08-09","name":"2ª etapa","location":"Morungaba/SP","status":"agendada"},{"order":3,"start_date":"2026-10-10","end_date":"2026-10-11","name":"3ª etapa","location":"Nova Resende/MG","status":"agendada"}],"related_videos":[],"body":"## Subida contra o cronômetro\n\nA central acompanha o calendário, os resultados e a classificação divulgados oficialmente para a modalidade."
+  "title": "Campeonato Brasileiro de Moto Climb 2026",
+  "short_name": "Moto Climb Brasil",
+  "season": "2026",
+  "country": "Brasil",
+  "scope": "Nacional",
+  "modality": "Moto Climb",
+  "status": "em_andamento",
+  "organizer": "Confederação Brasileira de Motociclismo",
+  "official_url": "https://www.cbm.esp.br/modalidades/moto-climb",
+  "results_url": "https://www.cbm.esp.br/site/public/calendario",
+  "cover": "/assets/img/uploads/brasileiro-moto-climb-2026-artwork.svg",
+  "image_credit": "Arte editorial: TVDUASRODAS",
+  "featured": false,
+  "summary": "Agenda e resultados do campeonato brasileiro de subida de montanha com motocicletas.",
+  "last_updated": "2026-07-26T07:34:37.414943+00:00",
+  "next_stage": {
+    "name": "2ª etapa",
+    "start_date": "2026-08-08",
+    "end_date": "2026-08-09",
+    "city": "Morungaba",
+    "state": "SP"
+  },
+  "categories": [],
+  "standings": [],
+  "rounds": [
+    {
+      "order": 2,
+      "start_date": "2026-08-08",
+      "end_date": "2026-08-09",
+      "name": "2ª etapa",
+      "location": "Morungaba/SP",
+      "status": "agendada"
+    },
+    {
+      "order": 3,
+      "start_date": "2026-10-10",
+      "end_date": "2026-10-11",
+      "name": "3ª etapa",
+      "location": "Nova Resende/MG",
+      "status": "agendada"
+    }
+  ],
+  "related_videos": [],
+  "body": "## Temporada 2026\n\nCampeonato Brasileiro de Moto Climb 2026 é acompanhada pela TVDUASRODAS na modalidade Moto Climb, sob organização de Confederação Brasileira de Motociclismo. O status registrado é em_andamento.\n\n## Próxima etapa e calendário\n\nA referência mais recente é 2ª etapa, com data 2026-08-08 e local Morungaba · SP. Alterações de data e local são conferidas nos canais oficiais.\n\n## Classificação e resultados\n\nAs fontes oficiais consultadas ainda não disponibilizaram classificação consolidada para publicação. Quando houver documento oficial, atletas, equipes, categorias, posições, tempos e pontos serão publicados com páginas relacionadas para os competidores identificados.\n\n## Fontes\n\nA apuração registra Canal oficial ou página indicada pela entidade; Resultados oficiais. Cada link permanece visível na página para permitir a conferência dos dados e da data de atualização.",
+  "sources": [
+    {
+      "url": "https://www.cbm.esp.br/modalidades/moto-climb",
+      "label": "Canal oficial ou página indicada pela entidade",
+      "type": "fonte primária ou canal oficial",
+      "supports": "dados de agenda, identificação e situação do evento"
+    },
+    {
+      "url": "https://www.cbm.esp.br/site/public/calendario",
+      "label": "Resultados oficiais",
+      "type": "fonte primária ou canal oficial",
+      "supports": "dados de agenda, identificação e situação do evento"
+    },
+    {
+      "url": "https://www.motoclimbbrasil.com.br/",
+      "label": "MotoClimb Brasil - Campeonato Brasileiro de MotoClimb 2026",
+      "type": "fonte específica independente",
+      "supports": "categorias, percurso ou regulamento, organização e contatos",
+      "relevance_score": 14,
+      "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://motoclimbbrasil.com.br/",
+      "label": "MotoClimb Brasil - Campeonato Brasileiro de MotoClimb 2026",
+      "type": "fonte específica independente",
+      "supports": "data e edição, organização e contatos",
+      "relevance_score": 14,
+      "discovery_method": "busca_editorial_indexada"
+    }
+  ],
+  "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
+  "research_status": {
+    "required_specific_independent_sources": 2,
+    "specific_independent_domains_found": 2,
+    "status": "fontes_cruzadas",
+    "attempts": [
+      "busca por título exato, cidade, UF e ano",
+      "busca ampliada por programação, organizador, prefeitura e imprensa local",
+      "busca visual/social em Instagram, Facebook e YouTube"
+    ],
+    "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
+    "editorial_rule": "Dados confirmados por duas ou mais fontes específicas independentes."
+  },
+  "classification_status": {
+    "status": "aguardando_publicacao_oficial",
+    "checked_at": "2026-07-26T07:29:13.413180+00:00",
+    "note": "As fontes oficiais consultadas ainda não disponibilizaram classificação consolidada para publicação."
+  },
+  "calendar_status": {
+    "status": "publicado",
+    "checked_at": "2026-07-26T07:29:13.413180+00:00",
+    "note": "Etapas disponíveis na tabela da página."
+  }
 }

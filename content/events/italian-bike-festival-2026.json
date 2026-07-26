@@ -34,7 +34,7 @@
   "status_basis": "Site oficial e calendário do Município de Misano confirmam datas, local e janela diária.",
   "status_checked_at": "2026-07-26T12:00:00-04:00",
   "source_url": "https://internationalbikefestival.com/",
-  "source_checked_at": "2026-07-26T12:00:00-04:00",
+  "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
   "verification_status": "fonte_oficial_sem_flyer",
   "visual_verification": {
     "type": "site_oficial_e_calendario_municipal_inspecionados",
@@ -50,5 +50,57 @@
     ]
   },
   "admission_status": "Entrada gratuita mediante registro antecipado no site oficial",
-  "parking": "O site mantém orientações específicas de chegada e bicicletário; disponibilidade para carros e demais regras devem ser conferidas antes da visita"
+  "parking": "O site mantém orientações específicas de chegada e bicicletário; disponibilidade para carros e demais regras devem ser conferidas antes da visita",
+  "sources": [
+    {
+      "url": "https://internationalbikefestival.com/",
+      "label": "Canal oficial ou página indicada pela entidade",
+      "type": "fonte específica independente",
+      "supports": "dados de agenda, identificação e situação do evento"
+    },
+    {
+      "url": "https://visitmisano.it/international-bike-festival",
+      "label": "International Bike Festival a Misano Adriatico",
+      "type": "fonte específica independente",
+      "supports": "data e edição",
+      "relevance_score": 27,
+      "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://www.motorvalley.it/eventi/international-bike-festival-2026",
+      "label": "International Bike Festival 2026",
+      "type": "fonte específica independente",
+      "supports": "data e edição",
+      "relevance_score": 24,
+      "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://mobilita.regione.emilia-romagna.it/eventi/international-bike-festival",
+      "label": "International Bike Festival - Mobilità",
+      "type": "fonte específica independente",
+      "supports": "data e edição",
+      "relevance_score": 27,
+      "discovery_method": "busca_editorial_indexada"
+    },
+    {
+      "url": "https://italianbikefestival.net/en",
+      "label": "Italian bike festival - Italian Bike Festival Italian Bike Festival",
+      "type": "fonte específica independente",
+      "supports": "data e edição, horários e programação",
+      "relevance_score": 27,
+      "discovery_method": "busca_editorial_indexada"
+    }
+  ],
+  "research_status": {
+    "required_specific_independent_sources": 2,
+    "specific_independent_domains_found": 5,
+    "status": "fontes_cruzadas",
+    "attempts": [
+      "busca por título exato, cidade, UF e ano",
+      "busca ampliada por programação, organizador, prefeitura e imprensa local",
+      "busca visual/social em Instagram, Facebook e YouTube"
+    ],
+    "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
+    "editorial_rule": "Dados confirmados por duas ou mais fontes específicas independentes."
+  }
 }
