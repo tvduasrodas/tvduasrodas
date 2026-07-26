@@ -231,6 +231,25 @@ def main() -> int:
             errors.append(f"Canonical duplicado: {canonical_match.group(1)}")
         elif not is_redirect:
             generated_canonicals.add(canonical_match.group(1))
+        if not is_redirect and folder in {"competicoes", "eventos"}:
+            internal_markers = (
+                "Fontes cruzadas e atualização",
+                "Esta página registra ",
+                "fonte específica independente",
+                "Verificação ainda aberta:",
+                "buscas textual, ampliada e visual/social",
+                "Fonte e atualização",
+                "Fontes cruzadas",
+                "Leitura visual complementar",
+                "leitura automatizada",
+                "processamento visual",
+                "flyer consultado",
+            )
+            for marker in internal_markers:
+                if marker.casefold() in text.casefold():
+                    errors.append(
+                        f"Metadado interno exposto na página pública: {relative} -> {marker}"
+                    )
         for payload in re.findall(
             r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
             text, re.IGNORECASE | re.DOTALL,

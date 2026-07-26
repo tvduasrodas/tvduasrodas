@@ -187,6 +187,15 @@ Até o encerramento das 20h (horário Eastern), o worker deve entregar:
 
 ## Matriz obrigatória de fontes confiáveis para eventos e competições
 
+### Separação obrigatória entre auditoria interna e página pública
+
+- URLs pesquisadas, quantidade de fontes ou domínios, tipo e peso de cada fonte, campos sustentados, horário da checagem, estado da busca, critérios de confiança, processamento visual/OCR, divergências, tentativas sem resultado e a estratégia de classificação pertencem exclusivamente ao controle interno.
+- É proibido renderizar nas páginas públicas blocos como `Fontes cruzadas e atualização`, `Fonte e atualização`, `Verificação ainda aberta`, contagem de links/domínios, rótulos como `fonte específica independente` ou explicações sobre busca textual, visual, social e automatizada.
+- A página pública deve mostrar somente informações úteis ao visitante: descrição do evento, datas, horários, endereço, programação, acesso, estacionamento, organização, resultados, classificações e um link direto para o canal oficial quando ele for útil.
+- Quando um dado não estiver confirmado, comunicar apenas o estado público objetivo, como `Horário ainda não divulgado` ou `Estacionamento ainda não informado pela organização`, sem revelar o método de pesquisa.
+- Os campos `sources`, `source_checked_at`, `research_status`, `visual_verification`, relatórios em `content/research` e demais evidências continuam preservados para auditoria e automação, mas nunca devem ser transformados em conteúdo visível, metadados descritivos ou texto indexável.
+- Antes de publicar, `scripts/validate_project.py` deve reprovar qualquer página gerada de evento ou competição que exponha esses marcadores internos.
+
 É proibido concluir que “não há resultado”, “não há classificação” ou “a fonte oficial ainda não publicou” depois de consultar somente a página principal, a área de notícias ou um único domínio. Para cada campeonato, torneio, etapa, rodada ou evento, a pesquisa deve percorrer a matriz abaixo e procurar também páginas, PDFs, planilhas, APIs, arquivos para download e plataformas externas vinculadas.
 
 1. **Fonte primária reguladora:** federação, confederação, liga, entidade sancionadora ou organizador responsável.

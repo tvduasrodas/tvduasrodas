@@ -17,7 +17,7 @@ from collections import defaultdict
 from datetime import date
 from pathlib import Path
 from typing import Any
-from urllib.parse import unquote, urlparse
+from urllib.parse import unquote
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -267,6 +267,122 @@ def markdown(text: str) -> str:
     if in_list:
         out.append("</ul>")
     return "\n".join(out)
+
+
+def public_editorial_text(text: str) -> str:
+    """Remove metadados e linguagem de auditoria do texto exibido ao público."""
+    internal_sections = {
+        "fontes cruzadas",
+        "fonte e atualizacao",
+        "fontes e atualizacao",
+    }
+    public_heading_names = {
+        "situacao verificada": "Sobre o evento",
+        "leitura visual complementar": "Informações adicionais",
+    }
+    kept: list[str] = []
+    skipping_level: int | None = None
+    for raw in str(text or "").splitlines():
+        heading = re.match(r"^(#{2,6})\s+(.+?)\s*$", raw)
+        if heading:
+            level = len(heading.group(1))
+            normalized_heading = normalize(heading.group(2))
+            if skipping_level is not None:
+                if level > skipping_level:
+                    continue
+                skipping_level = None
+            if normalized_heading in internal_sections:
+                skipping_level = level
+                continue
+            replacement = public_heading_names.get(normalized_heading)
+            if replacement:
+                raw = f"{heading.group(1)} {replacement}"
+        elif skipping_level is not None:
+            continue
+        kept.append(raw)
+
+    value = "\n".join(kept)
+    replacements = (
+        (
+            r"As fontes consultadas ainda não publicaram um serviço completo com rua, número, horário, estacionamento e contato direto\.",
+            "O serviço completo com rua, número, horário, estacionamento e contato direto ainda não foi divulgado.",
+        ),
+        (
+            r"Essas ausências são mantidas de forma explícita para evitar informação inventada\.",
+            "",
+        ),
+        (
+            r"Quando o endereço não aparece de forma legível, a TVDUASRODAS mantém essa ausência explícita e não inventa rua, número ou CEP\.",
+            "Rua, número e CEP ainda não foram divulgados.",
+        ),
+        (
+            r"Os nomes e horários que não atingiram confiança suficiente no processamento visual não foram transformados em informação pública\.",
+            "A programação completa ainda não foi divulgada.",
+        ),
+        (
+            r"Não informado de forma legível no flyer consultado\.",
+            "Ainda não informado pela organização.",
+        ),
+        (
+            r"Não informado no flyer consultado\.",
+            "Ainda não informado pela organização.",
+        ),
+        (
+            r"Organização não identificada de forma legível no flyer consultado",
+            "Organização ainda não divulgada",
+        ),
+        (
+            r"Local detalhado não informado de forma legível no flyer",
+            "Local ainda não divulgado",
+        ),
+        (
+            r"Endereço detalhado não informado de forma legível no flyer",
+            "Endereço ainda não divulgado",
+        ),
+        (
+            r"O flyer foi inspecionado localmente;\s*serviços identificados:",
+            "Informações divulgadas:",
+        ),
+        (
+            r"mencionado no flyer",
+            "divulgado pela organização",
+        ),
+        (
+            r"Contato não identificado de forma legível no flyer\.",
+            "Contato ainda não divulgado.",
+        ),
+        (
+            r"Horário não informado de forma legível no flyer consultado\.",
+            "Horário ainda não divulgado.",
+        ),
+        (r"Horários identificados no flyer:", "Horários divulgados:"),
+        (r"Endereço detalhado não informado no flyer; referência:", "Referência de localização:"),
+        (
+            r"Gratuidade indicada no flyer; confira eventuais condições na arte original\.",
+            "Entrada gratuita; confirme eventuais condições com a organização.",
+        ),
+        (r"Estrutura e atrações legíveis:", "Estrutura e atrações divulgadas:"),
+        (r"Marcas de horário legíveis:", "Horários divulgados:"),
+        (
+            r"A arte foi relida visualmente, mas nenhum dado adicional atingiu confiança suficiente para substituir os campos conservadores\.",
+            "",
+        ),
+        (
+            r"A leitura automatizada foi usada como apoio; trechos ambíguos não foram publicados como fato\.",
+            "",
+        ),
+        (
+            r"Canais impressos no material:[^.]*\.",
+            "",
+        ),
+        (r"nos canais vinculados abaixo", "nos canais oficiais do evento"),
+        (r"nas fontes vinculadas abaixo", "nos canais oficiais do evento"),
+        (r"\bflyer consultado\b", "divulgação do evento"),
+        (r"\bflyer\b", "divulgação do evento"),
+    )
+    for pattern, replacement in replacements:
+        value = re.sub(pattern, replacement, value, flags=re.IGNORECASE)
+    return re.sub(r"\n{3,}", "\n\n", value).strip()
 
 
 def words(value: str) -> set[str]:
@@ -520,55 +636,8 @@ def relation_blocks(item: dict[str, Any], all_items: list[dict[str, Any]]) -> st
 
 
 def render_research_sources(data: dict[str, Any], *, fallback_url: str = "") -> str:
-    """Exibe as fontes efetivamente consultadas e os fatos apoiados por cada uma."""
-    raw_sources = data.get("sources") if isinstance(data.get("sources"), list) else []
-    sources: list[dict[str, str]] = []
-    seen: set[str] = set()
-    for source in raw_sources:
-        if not isinstance(source, dict):
-            continue
-        url = str(source.get("url") or "").strip()
-        if not url or url in seen:
-            continue
-        seen.add(url)
-        sources.append({
-            "url": url,
-            "label": str(source.get("label") or source.get("owner") or "Fonte consultada").strip(),
-            "type": str(source.get("type") or "").strip(),
-            "supports": str(source.get("supports") or "").strip(),
-        })
-    if not sources and fallback_url:
-        sources.append({
-            "url": fallback_url,
-            "label": "Fonte oficial ou página de origem",
-            "type": "",
-            "supports": "",
-        })
-    if not sources:
-        return ""
-    independent_domains = {
-        urlparse(source["url"]).netloc.lower().removeprefix("www.")
-        for source in sources
-        if urlparse(source["url"]).netloc
-    }
-    research_status = data.get("research_status") if isinstance(data.get("research_status"), dict) else {}
-    exhausted = research_status.get("status") == "segunda_fonte_nao_localizada_apos_pesquisa_exaustiva"
-    rows = "".join(
-        f'<li><a href="{esc(source["url"])}" target="_blank" rel="noopener noreferrer">'
-        f'{esc(source["label"])}</a>'
-        f'{(" <small>· " + esc(source["type"]) + "</small>") if source["type"] else ""}'
-        f'{("<p>" + esc(source["supports"]) + "</p>") if source["supports"] else ""}</li>'
-        for source in sources
-    )
-    checked = data.get("source_checked_at") or data.get("last_updated") or ""
-    return (
-        '<aside class="seo-source"><strong>Fontes cruzadas e atualização</strong>'
-        f'<p>Esta página registra {len(sources)} link(s) consultado(s), em '
-        f'{len(independent_domains)} domínio(s)'
-        f'{(" · última checagem " + esc(checked)) if checked else ""}.</p>'
-        f'{("<p><strong>Verificação ainda aberta:</strong> uma segunda fonte específica e independente não foi localizada após buscas textual, ampliada e visual/social. A página permanece ativa sem completar dados por suposição.</p>" if exhausted else "")}'
-        f'<ul>{rows}</ul></aside>'
-    )
+    """Mantém a auditoria no registro interno, sem expô-la na página pública."""
+    return ""
 
 
 def classify(item: dict[str, Any]) -> None:
@@ -970,7 +1039,7 @@ def render_competition(
   <div class="ce-actions"><a class="btn btn-primary" href="{esc(data.get("official_url"))}" target="_blank" rel="noopener">Visitar site oficial ↗</a>{('<a class="btn btn-outline" href="' + esc(data.get("results_url")) + '" target="_blank" rel="noopener">Resultados oficiais ↗</a>') if data.get("results_url") and data.get("results_url") != data.get("official_url") else ''}</div></header>
   <aside class="tdr-ad-slot" data-ad-slot="detail-billboard" data-ad-category-override="competicoes" aria-label="Patrocínio da cobertura da competição"></aside>
   <figure class="seo-hero seo-artwork-hero"><img src="{esc(item["image"])}" alt="{esc(item["title"])}">{('<span class="seo-artwork-hero__label"><small>TVDUASRODAS · Competição</small><strong>' + esc(item["title"]) + '</strong></span>') if 'competicoes-eventos-default' in item["image"] else ''}<figcaption>{esc(data.get("image_credit"))}</figcaption></figure>
-  <div class="seo-prose">{linked_markdown(item["body"], people)}</div>
+  <div class="seo-prose">{linked_markdown(public_editorial_text(item["body"]), people)}</div>
 {('<section class="seo-competition-section" id="resultado-recente"><header><span class="seo-block-label">Resultado oficial mais recente</span><h2>' + esc(latest_result.get("event") or "Último resultado") + '</h2><p>' + esc(" · ".join(filter(None, [latest_result.get("session"), latest_result.get("date")]))) + '</p></header><div class="seo-competition-stack">' + "".join(latest_groups) + '</div></section>') if latest_groups else ''}
   <section class="seo-competition-section" id="classificacao"><header><span class="seo-block-label">{esc(data.get("standings_eyebrow") or "Classificação oficial")}</span><h2>{esc(data.get("standings_title") or "Classificação do campeonato")}</h2></header>
   {('<div class="seo-competition-stack">' + ''.join(standings_groups) + '</div>') if standings_groups else '<div class="seo-competition-empty"><strong>Classificação aguardando publicação oficial.</strong><p>Os blocos de cada categoria serão incluídos após a divulgação da entidade organizadora.</p></div>'}
@@ -990,7 +1059,17 @@ def render_competition(
 def render_event(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
     data = item["data"]
     canonical = item["url"]
-    location_name = data.get("venue") or data.get("location") or data.get("city") or "Local a confirmar"
+    public_summary = public_editorial_text(item["summary"])
+    location_name = public_editorial_text(
+        data.get("venue") or data.get("location") or data.get("city") or "Local a confirmar"
+    )
+    street_address = public_editorial_text(data.get("street_address", ""))
+    organizer = public_editorial_text(data.get("organizer", ""))
+    organizer_is_known = bool(
+        organizer
+        and "ainda não" not in organizer.casefold()
+        and "não divulgad" not in organizer.casefold()
+    )
     event_status = {
         "concluida": "https://schema.org/EventCompleted",
         "cancelada": "https://schema.org/EventCancelled",
@@ -1000,7 +1079,7 @@ def render_event(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
         "@type": "Event",
         "@id": f"{absolute_url(canonical)}#evento",
         "name": item["title"],
-        "description": item["summary"],
+        "description": public_summary,
         "startDate": data.get("local_start") or data.get("start_date"),
         "endDate": data.get("local_end") or data.get("end_date") or data.get("local_start") or data.get("start_date"),
         "eventStatus": event_status,
@@ -1011,7 +1090,7 @@ def render_event(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
             "@type": "Place", "name": location_name,
             "address": {
                 "@type": "PostalAddress",
-                "streetAddress": data.get("street_address", ""),
+                "streetAddress": street_address,
                 "addressLocality": data.get("city", ""),
                 "addressRegion": data.get("state", ""),
                 "postalCode": data.get("postal_code", ""),
@@ -1019,26 +1098,32 @@ def render_event(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
             },
         },
     }
-    if data.get("organizer"):
+    if organizer_is_known:
         schema["organizer"] = {
             "@type": "Organization",
-            "name": data.get("organizer") or item["title"],
+            "name": organizer,
             "url": data.get("official_url", ""),
         }
     source_label = {
-        "agenda_comunitaria": "Consultar agenda de origem ↗",
-        "flyer_inspecionado_visual": "Ver flyer consultado ↗",
+        "agenda_comunitaria": "Ver divulgação do evento ↗",
+        "flyer_inspecionado_visual": "Ver divulgação do evento ↗",
     }.get(data.get("verification_status"), "Visitar site oficial do evento ↗")
     relations = "" if data.get("verification_status") == "agenda_comunitaria" else relation_blocks(item, all_items)
-    time_label = data.get("time_label") or "Horário não informado"
-    full_address = data.get("full_address") or " · ".join(filter(None, (location_name, data.get("city"), data.get("state"))))
-    admission = data.get("admission_status") or ("Entrada gratuita" if data.get("free") else "Confirme com a organização")
-    parking = data.get("parking") or "Não informado"
+    time_label = public_editorial_text(data.get("time_label") or "Horário ainda não divulgado")
+    full_address = public_editorial_text(
+        data.get("full_address")
+        or " · ".join(filter(None, (location_name, data.get("city"), data.get("state"))))
+    )
+    admission = public_editorial_text(
+        data.get("admission_status")
+        or ("Entrada gratuita" if data.get("free") else "Confirme com a organização")
+    )
+    parking = public_editorial_text(data.get("parking") or "Ainda não informado pela organização")
     body = f"""
 <nav class="seo-breadcrumb"><a href="/">Início</a> › <a href="/competicoes-eventos">Eventos</a> › {esc(item["title"])}</nav>
 <article class="seo-article">
   <header><span class="seo-eyebrow">{esc(item["category"])}</span><h1>{esc(item["title"])}</h1>
-  <p class="seo-lead">{esc(item["summary"])}</p>
+  <p class="seo-lead">{esc(public_summary)}</p>
   <div class="ce-actions"><a class="btn btn-primary" href="{esc(data.get("official_url"))}" target="_blank" rel="noopener">{esc(source_label)}</a>{('<a class="btn btn-outline" href="' + esc(data.get("ticket_url")) + '" target="_blank" rel="noopener">Ingressos / acesso ↗</a>') if data.get("ticket_url") and data.get("ticket_url") != data.get("official_url") else ''}</div></header>
   <aside class="tdr-ad-slot" data-ad-slot="detail-billboard" data-ad-category-override="eventos" aria-label="Patrocínio da cobertura do evento"></aside>
   <figure class="seo-hero seo-artwork-hero"><img src="{esc(item["image"])}" alt="{esc(item["title"])}">{('<span class="seo-artwork-hero__label"><small>TVDUASRODAS · Evento</small><strong>' + esc(item["title"]) + '</strong></span>') if 'competicoes-eventos-default' in item["image"] else ''}<figcaption>{esc(data.get("image_credit"))}</figcaption></figure>
@@ -1046,14 +1131,14 @@ def render_event(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
   <div><span>Endereço</span><strong>{esc(location_name)}</strong><small>{esc(full_address)}</small></div>
   <div><span>Acesso</span><strong>{esc(admission)}</strong></div>
   <div><span>Estacionamento</span><strong>{esc(parking)}</strong></div>
-  {('<div><span>Organização</span><strong>' + esc(data.get("organizer")) + '</strong></div>') if data.get("organizer") else ''}</section>
-  <div class="seo-prose">{markdown(item["body"])}</div>
+  {('<div><span>Organização</span><strong>' + esc(organizer) + '</strong></div>') if organizer_is_known else ''}</section>
+  <div class="seo-prose">{markdown(public_editorial_text(item["body"]))}</div>
   {relations}
-  <aside class="seo-source"><strong>Confirme antes de ir</strong><p>Programação, endereço e regras podem mudar. <a href="{esc(data.get("official_url", "#"))}" target="_blank" rel="noopener noreferrer">{'Consulte a agenda de origem e procure o organizador' if data.get("verification_status") == "agenda_comunitaria" else 'Consulte o canal oficial'}</a>.</p></aside>
+  <aside class="seo-source"><strong>Confirme antes de ir</strong><p>Programação, endereço e regras podem mudar. <a href="{esc(data.get("official_url", "#"))}" target="_blank" rel="noopener noreferrer">Consulte a organização do evento</a>.</p></aside>
   {render_research_sources(data, fallback_url=data.get("official_url", ""))}
 </article>"""
     return page_shell(
-        title=item["title"], description=item["summary"], canonical=canonical, body=body,
+        title=item["title"], description=public_summary, canonical=canonical, body=body,
         schemas=[schema, breadcrumb_schema([("Início", "/"), ("Eventos", "/competicoes-eventos"), (item["title"], canonical)])],
         image=item["image"],
     )
