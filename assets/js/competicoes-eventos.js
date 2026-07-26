@@ -89,7 +89,7 @@
             if (response.ok) {
                 const files = await response.json();
                 const liveSlugs = Array.isArray(files) ? files
-                    .filter((file) => file.name?.endsWith(".json") && file.name !== "index.json")
+                    .filter((file) => file.name?.endsWith(".json") && !["index.json", "agenda-comunitaria-2026.json"].includes(file.name))
                     .map((file) => file.name.replace(/\.json$/, "")) : [];
                 slugs = [...new Set([...slugs, ...liveSlugs])];
             }
@@ -172,14 +172,18 @@
     }
 
     function eventCard(item) {
+        const scope = item.scope || (/^[A-Z]{2}$/.test(item.state || "") ? "Nacional" : "Internacional");
+        const segmentText = `${item.event_type || ""} ${item.title || ""}`;
+        const segment = item.segment || (/scooter|vespa/i.test(segmentText) ? "Scooters" : /moto|motoc|motorock/i.test(segmentText) ? "Motos" : /bike|cicl|mtb|bmx|pedal/i.test(segmentText) ? "Bicicletas" : "Motos");
+        const needsConfirmation = item.verification_status === "agenda_comunitaria";
         return `<article class="ce-event-card">
             <a class="ce-event-card__artwork" href="/eventos/${slugify(item.slug)}/">
                 <img src="${esc(safeUrl(item.cover, DEFAULT_IMAGE))}" alt="" loading="lazy" onerror="this.src='${DEFAULT_IMAGE}'">
-                <span><small>TVDUASRODAS · Evento</small><strong>${esc(item.short_name || item.title)}</strong></span>
+                <span><small>TVDUASRODAS · ${esc(scope)}</small><strong>${esc(item.short_name || item.title)}</strong></span>
             </a>
             <div class="ce-event-card__date"><strong>${esc(formatRange(item.start_date, item.end_date))}</strong><span>${esc(item.city)}, ${esc(item.state)}</span></div>
             <div class="ce-event-card__body">
-                <div>${statusBadge(item.status)} ${item.free ? '<span class="ce-chip">Entrada gratuita</span>' : ""}</div>
+                <div>${statusBadge(item.status)} <span class="ce-chip">${esc(segment)}</span> ${needsConfirmation ? '<span class="ce-chip ce-chip--warning">Confirmar</span>' : ""} ${item.free ? '<span class="ce-chip">Entrada gratuita</span>' : ""}</div>
                 <h3><a href="/eventos/${slugify(item.slug)}/">${esc(item.title)}</a></h3>
                 <p>${esc(item.summary || "")}</p>
                 <small>${esc(item.venue || "Local a confirmar")}</small>
@@ -245,18 +249,46 @@
         const competitionGrid = document.getElementById("ceCompetitionGrid");
         if (!competitionGrid) return;
         try {
-            const [competitions, events, calendar] = await Promise.all([
+            const [competitions, curatedEvents, calendar, communityAgenda] = await Promise.all([
                 loadCollection("competitions"),
                 loadCollection("events"),
-                fetchData("content/calendar/cbm-2026.json").catch(() => ({ entries: [] }))
+                fetchData("content/calendar/cbm-2026.json").catch(() => ({ entries: [] })),
+                fetchData("content/events/agenda-comunitaria-2026.json").catch(() => ({ entries: [] }))
             ]);
             competitions.sort((a, b) => Number(Boolean(b.featured)) - Number(Boolean(a.featured)) || String(a.title).localeCompare(String(b.title)));
-            events.sort((a, b) => String(a.start_date).localeCompare(String(b.start_date)));
             const highlights = HIGHLIGHT_SLUGS.map((slug) => competitions.find((item) => item.slug === slug)).filter(Boolean);
             competitionGrid.innerHTML = highlights.slice(0, LIST_LIMIT).map(competitionCard).join("");
 
             const calendarEntries = Array.isArray(calendar.entries) ? calendar.entries
                 .sort((a, b) => String(a.start_date).localeCompare(String(b.start_date))) : [];
+            const calendarEvents = calendarEntries.filter((item) => !item.competition_slug).map((item) => ({
+                ...item,
+                slug: slugify(`${item.title}-${item.start_date || ""}`),
+                short_name: item.title,
+                event_type: item.modality || "Evento de duas rodas",
+                segment: /cicl|mtb|bmx|bike/i.test(item.modality || "") ? "Bicicletas" : "Motos",
+                scope: "Nacional",
+                country: "Brasil",
+                cover: DEFAULT_IMAGE,
+                summary: [item.stage, item.city, item.state].filter(Boolean).join(" · "),
+                venue: item.location || "Local informado pela organização",
+                verification_status: "calendario_oficial"
+            }));
+            const eventMap = new Map();
+            [...curatedEvents, ...(communityAgenda.entries || []), ...calendarEvents].forEach((item) => {
+                const slug = item.slug || slugify(`${item.title}-${item.city}-${item.start_date}`);
+                const key = [
+                    slugify(String(item.title || "").replace(/\b2026\b/g, "")),
+                    slugify(item.city || ""),
+                    item.start_date || ""
+                ].join("|");
+                if (!eventMap.has(key) || item.featured) eventMap.set(key, { ...item, slug });
+            });
+            const events = [...eventMap.values()].sort((a, b) =>
+                String(a.start_date).localeCompare(String(b.start_date)) ||
+                Number(Boolean(b.featured)) - Number(Boolean(a.featured)) ||
+                String(a.title).localeCompare(String(b.title), "pt-BR")
+            );
             const competitionPickerRecords = [
                 ...competitions.map((item) => ({
                     value: item.slug,
@@ -300,13 +332,45 @@
 
             const eventList = document.getElementById("ceEventList");
             const eventMore = document.getElementById("ceEventMore");
-            let eventsExpanded = false;
-            const renderEvents = () => {
-                eventList.innerHTML = (eventsExpanded ? events : events.slice(0, LIST_LIMIT)).map(eventCard).join("");
-                eventMore.hidden = events.length <= LIST_LIMIT;
-                eventMore.textContent = eventsExpanded ? "Mostrar somente os próximos 8" : `Mostrar todos os eventos (${events.length})`;
+            const eventCount = document.getElementById("ceEventCount");
+            const eventScope = document.getElementById("ceEventScope");
+            const eventRegion = document.getElementById("ceEventRegion");
+            const eventState = document.getElementById("ceEventState");
+            const eventSegment = document.getElementById("ceEventSegment");
+            const inferScope = (item) => item.scope || (/^[A-Z]{2}$/.test(item.state || "") ? "Nacional" : "Internacional");
+            const inferSegment = (item) => {
+                const value = `${item.event_type || ""} ${item.title || ""}`;
+                return item.segment || (/scooter|vespa/i.test(value) ? "Scooters" : /moto|motoc|motorock/i.test(value) ? "Motos" : /bike|cicl|mtb|bmx|pedal/i.test(value) ? "Bicicletas" : "Motos");
             };
-            eventMore.addEventListener("click", () => { eventsExpanded = !eventsExpanded; renderEvents(); });
+            [...new Set(events.map((item) => item.region).filter(Boolean))].sort()
+                .forEach((name) => eventRegion.insertAdjacentHTML("beforeend", `<option value="${esc(name)}">${esc(name)}</option>`));
+            [...new Set(events.filter((item) => inferScope(item) === "Nacional").map((item) => item.state).filter((state) => /^[A-Z]{2}$/.test(state)))].sort()
+                .forEach((name) => eventState.insertAdjacentHTML("beforeend", `<option value="${esc(name)}">${esc(name)}</option>`));
+            [...new Set(events.map(inferSegment).filter(Boolean))].sort()
+                .forEach((name) => eventSegment.insertAdjacentHTML("beforeend", `<option value="${esc(name)}">${esc(name)}</option>`));
+            let eventVisibleLimit = 24;
+            const renderEvents = () => {
+                const filtered = events.filter((item) =>
+                    (!eventScope.value || inferScope(item) === eventScope.value) &&
+                    (!eventRegion.value || item.region === eventRegion.value) &&
+                    (!eventState.value || item.state === eventState.value) &&
+                    (!eventSegment.value || inferSegment(item) === eventSegment.value)
+                );
+                const shown = filtered.slice(0, eventVisibleLimit);
+                eventList.innerHTML = shown.length ? shown.map(eventCard).join("") : '<div class="ce-empty"><strong>Nenhum evento encontrado neste recorte.</strong><p>Altere os filtros ou use a busca completa abaixo.</p></div>';
+                eventCount.textContent = `${filtered.length} evento${filtered.length === 1 ? "" : "s"} encontrado${filtered.length === 1 ? "" : "s"}`;
+                eventMore.hidden = shown.length >= filtered.length;
+                eventMore.textContent = `Mostrar mais eventos (${filtered.length - shown.length} restantes)`;
+            };
+            [eventScope, eventRegion, eventState, eventSegment].forEach((control) => control.addEventListener("change", () => {
+                eventVisibleLimit = 24;
+                if (control === eventScope && eventScope.value === "Internacional") {
+                    eventRegion.value = "";
+                    eventState.value = "";
+                }
+                renderEvents();
+            }));
+            eventMore.addEventListener("click", () => { eventVisibleLimit += 40; renderEvents(); });
             renderEvents();
 
             setupSearchablePicker(
@@ -317,7 +381,7 @@
                     value: item.slug,
                     kind: "event",
                     label: `${item.title} — ${formatDate(item.start_date)}`,
-                    search: [item.title, item.event_type, item.city, item.state, item.summary].filter(Boolean).join(" ").toLocaleLowerCase("pt-BR")
+                    search: [item.title, item.event_type, item.segment, item.scope, item.region, item.city, item.state, item.summary].filter(Boolean).join(" ").toLocaleLowerCase("pt-BR")
                 }))
             );
         } catch (error) {
@@ -380,26 +444,32 @@
             try {
                 item = await fetchData(`content/events/${slug}.json`);
             } catch (_) {
-                const calendar = await fetchData("content/calendar/cbm-2026.json");
-                const entry = (calendar.entries || []).find((candidate) =>
-                    !candidate.competition_slug &&
-                    slugify(`${candidate.title}-${candidate.start_date || ""}`) === slug
-                );
-                if (!entry) throw _;
-                item = {
-                    ...entry,
-                    event_type: entry.modality || "Competição e evento",
-                    venue: entry.location || [entry.city, entry.state].filter(Boolean).join("/") || "Local a confirmar",
-                    cover: DEFAULT_IMAGE,
-                    image_credit: "Arte: TVDUASRODAS",
-                    free: false,
-                    summary: [entry.stage, entry.city, entry.state].filter(Boolean).join(" · "),
-                    attractions: [entry.stage || "Programação oficial"],
-                    body: `## Sobre a prova\n\n${entry.title} integra o calendário monitorado pela TVDUASRODAS. A página será atualizada com programação, resultados e classificação conforme a publicação por entidades, organizadores ou prestadores oficiais.\n\n## Fonte\n\nConsulte a programação e eventuais alterações no canal oficial indicado nesta página.`
-                };
+                const communityAgenda = await fetchData("content/events/agenda-comunitaria-2026.json").catch(() => ({ entries: [] }));
+                item = (communityAgenda.entries || []).find((candidate) => candidate.slug === slug);
+                if (!item) {
+                    const calendar = await fetchData("content/calendar/cbm-2026.json");
+                    const entry = (calendar.entries || []).find((candidate) =>
+                        !candidate.competition_slug &&
+                        slugify(`${candidate.title}-${candidate.start_date || ""}`) === slug
+                    );
+                    if (!entry) throw _;
+                    item = {
+                        ...entry,
+                        event_type: entry.modality || "Competição e evento",
+                        venue: entry.location || [entry.city, entry.state].filter(Boolean).join("/") || "Local a confirmar",
+                        cover: DEFAULT_IMAGE,
+                        image_credit: "Arte: TVDUASRODAS",
+                        free: false,
+                        summary: [entry.stage, entry.city, entry.state].filter(Boolean).join(" · "),
+                        attractions: [entry.stage || "Programação oficial"],
+                        body: `## Sobre a prova\n\n${entry.title} integra o calendário monitorado pela TVDUASRODAS. A página será atualizada com programação, resultados e classificação conforme a publicação por entidades, organizadores ou prestadores oficiais.\n\n## Fonte\n\nConsulte a programação e eventuais alterações no canal oficial indicado nesta página.`
+                    };
+                }
             }
             setSeo(item.title, item.summary, `${window.location.origin}/eventos/${slugify(slug)}/`);
-            root.innerHTML = `<header class="ce-detail-hero"><div class="ce-detail-hero__media"><img src="${esc(safeUrl(item.cover, DEFAULT_IMAGE))}" alt="${esc(item.title)}" onerror="this.src='${DEFAULT_IMAGE}'">${item.image_credit ? `<small>${esc(item.image_credit)}</small>` : ""}</div><div class="ce-detail-hero__copy">${statusBadge(item.status)}<div class="ce-eyebrow">${esc(item.event_type)}</div><h1>${esc(item.title)}</h1><p>${esc(item.summary)}</p><div class="ce-actions"><a class="btn btn-primary" href="${esc(safeUrl(item.official_url))}" target="_blank" rel="noopener noreferrer">Site oficial ↗</a>${item.ticket_url ? `<a class="btn btn-outline" href="${esc(safeUrl(item.ticket_url))}" target="_blank" rel="noopener noreferrer">Ingressos / acesso ↗</a>` : ""}</div></div></header>${adRectangle()}<section class="ce-service-grid"><div><span>Quando</span><strong>${esc(formatRange(item.start_date, item.end_date))}</strong></div><div><span>Onde</span><strong>${esc(item.venue)}</strong><small>${esc([item.city, item.state].filter(Boolean).join("/"))}</small></div><div><span>Acesso</span><strong>${item.free ? "Entrada gratuita" : "Consulte o site oficial"}</strong></div></section><section class="ce-detail-section"><div class="ce-section-heading"><span class="ce-eyebrow">Programação</span><h2>Atrações e experiências</h2></div><div class="ce-attractions">${(item.attractions || []).map((x) => `<span>${esc(x)}</span>`).join("") || "Programação a confirmar."}</div></section><section class="ce-detail-section ce-prose">${markdown(item.body)}</section><aside class="ce-source-note"><strong>Antes de sair de casa</strong><p>Horários, atrações e regras podem mudar. Confirme as informações no site oficial do evento.</p></aside>`;
+            const communityItem = item.verification_status === "agenda_comunitaria";
+            const sourceLabel = communityItem ? "Consultar agenda de origem ↗" : "Site oficial ↗";
+            root.innerHTML = `<header class="ce-detail-hero"><div class="ce-detail-hero__media"><img src="${esc(safeUrl(item.cover, DEFAULT_IMAGE))}" alt="${esc(item.title)}" onerror="this.src='${DEFAULT_IMAGE}'">${item.image_credit ? `<small>${esc(item.image_credit)}</small>` : ""}</div><div class="ce-detail-hero__copy">${statusBadge(item.status)}<div class="ce-eyebrow">${esc(item.event_type)}</div><h1>${esc(item.title)}</h1><p>${esc(item.summary)}</p><div class="ce-actions"><a class="btn btn-primary" href="${esc(safeUrl(item.official_url))}" target="_blank" rel="noopener noreferrer">${sourceLabel}</a>${item.ticket_url ? `<a class="btn btn-outline" href="${esc(safeUrl(item.ticket_url))}" target="_blank" rel="noopener noreferrer">Ingressos / acesso ↗</a>` : ""}</div></div></header>${adRectangle()}<section class="ce-service-grid"><div><span>Quando</span><strong>${esc(formatRange(item.start_date, item.end_date))}</strong></div><div><span>Onde</span><strong>${esc(item.venue)}</strong><small>${esc([item.city, item.state].filter(Boolean).join("/"))}</small></div><div><span>Acesso</span><strong>${item.free ? "Entrada gratuita" : "Confirme com a organização"}</strong></div></section><section class="ce-detail-section"><div class="ce-section-heading"><span class="ce-eyebrow">Programação</span><h2>Atrações e experiências</h2></div><div class="ce-attractions">${(item.attractions || []).map((x) => `<span>${esc(x)}</span>`).join("") || "Programação a confirmar."}</div></section><section class="ce-detail-section ce-prose">${markdown(item.body)}</section><aside class="ce-source-note"><strong>Antes de sair de casa</strong><p>Horários, atrações, endereço e regras podem mudar. Confirme diretamente com o organizador ou moto clube responsável.</p></aside>`;
             window.TVAds?.setContext({ type: "event", ad_category: item.ad_category, title: item.title, category: item.event_type, event_type: item.event_type, body: item.summary });
         } catch (error) { console.error(error); showNotFound(root, "evento"); }
     }

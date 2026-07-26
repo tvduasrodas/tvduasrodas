@@ -2432,6 +2432,12 @@ button {
 .ce-events { background: #0c111c; color: #fff; }
 .ce-events .ce-section-heading h2 { color: #fff; }
 .ce-events .ce-section-heading p { color: #94a3b8; }
+.ce-event-count { flex: 0 0 auto; padding: 10px 14px; border: 1px solid #334155; border-radius: 999px; color: #ff9a68; background: #111827; font-size: 13px; font-weight: 900; }
+.ce-event-filters { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: 0 0 22px; padding: 16px; border: 1px solid #273244; border-radius: 14px; background: #111827; }
+.ce-event-filters label > span { display: block; margin-bottom: 7px; color: #cbd5e1; font-size: 12px; font-weight: 800; }
+.ce-event-filters select { width: 100%; min-height: 44px; padding: 0 12px; border: 1px solid #475569; border-radius: 9px; color: #f8fafc; background: #0c111c; font: inherit; }
+.ce-event-filters select:focus { border-color: #ef5b35; outline: 3px solid rgba(239,91,53,.16); }
+.ce-community-note { margin: 18px 0 0; padding: 14px 16px; border-left: 3px solid #ff6b35; border-radius: 0 9px 9px 0; color: #cbd5e1; background: #111827; font-size: 13px; line-height: 1.55; }
 .ce-event-list { display: grid; gap: 12px; }
 .ce-event-card { display: grid; grid-template-columns: 190px 175px minmax(0, 1fr) 60px; align-items: center; gap: 20px; padding: 18px; border: 1px solid #273244; border-radius: 15px; background: #111827; transition: border-color .2s ease, transform .2s ease; }
 .ce-event-card:hover { transform: translateX(4px); border-color: #ef5b35; }
@@ -2449,6 +2455,8 @@ button {
 .ce-event-card h3 a { color: #fff; }
 .ce-event-card p { color: #aeb8c7; font-size: 14px; }
 .ce-event-card__action { color: #ff6b35; font-size: 30px; text-align: center; }
+.ce-chip--warning { color: #fde68a; background: #451a03; }
+.ce-more[hidden] { display: none; }
 
 .ce-detail-main { padding: 28px 0 72px; }
 .ce-breadcrumb { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 26px; color: #64748b; font-size: 13px; }
@@ -2801,6 +2809,7 @@ button {
     .ce-calendar-item > a { grid-column: 1; }
     .ce-filters { width: 100%; flex-direction: column; }
     .ce-filters input, .ce-filters select { width: 100%; }
+    .ce-event-filters { grid-template-columns: 1fr 1fr; }
     .ce-event-card { grid-template-columns: 1fr 35px; gap: 12px; }
     .ce-event-card__artwork { grid-column: 1/-1; width: 100%; max-width: 420px; }
     .ce-event-card__date { grid-column: 1/-1; padding-bottom: 12px; border-right: 0; border-bottom: 1px solid #334155; }
@@ -2940,4 +2949,6 @@ button {
 }
 @media(max-width:480px){
     .video-hub-programming__grid{grid-template-columns:1fr}
+    .ce-event-filters{grid-template-columns:1fr}
+    .ce-event-count{align-self:flex-start}
 }

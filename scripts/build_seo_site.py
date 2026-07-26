@@ -406,7 +406,11 @@ def card(item: dict[str, Any]) -> str:
 
 
 def related_items(current: dict[str, Any], all_items: list[dict[str, Any]], limit: int = 6) -> list[dict[str, Any]]:
-    base = words(current.get("search_text", ""))
+    base = current.get("_word_set") or words(current.get("search_text", ""))
+    current_topics = current.get("_topic_set") or set(current.get("topics", []))
+    current_brands = current.get("_brand_set") or set(current.get("brands", []))
+    current_modalities = current.get("_modality_set") or {slug for slug, _ in current.get("modalities", [])}
+    current_category = current.get("_category_normalized") or normalize(current.get("category", ""))
     scored: list[tuple[int, dict[str, Any]]] = []
     for item in all_items:
         if item["url"] == current["url"]:
@@ -414,18 +418,14 @@ def related_items(current: dict[str, Any], all_items: list[dict[str, Any]], limi
         # Na TV, o formato faz parte do contexto: vídeo recomenda somente vídeo.
         if current.get("kind") == "video" and item.get("kind") != "video":
             continue
-        shared_topics = set(item.get("topics", [])) & set(current.get("topics", []))
-        shared_brands = set(item.get("brands", [])) & set(current.get("brands", []))
-        shared_modalities = {
-            slug for slug, _ in item.get("modalities", [])
-        } & {
-            slug for slug, _ in current.get("modalities", [])
-        }
+        shared_topics = (item.get("_topic_set") or set(item.get("topics", []))) & current_topics
+        shared_brands = (item.get("_brand_set") or set(item.get("brands", []))) & current_brands
+        shared_modalities = (item.get("_modality_set") or {slug for slug, _ in item.get("modalities", [])}) & current_modalities
         same_category = (
-            normalize(item.get("category", "")) == normalize(current.get("category", ""))
+            (item.get("_category_normalized") or normalize(item.get("category", ""))) == current_category
             and bool(current.get("category"))
         )
-        lexical = min(len(base & words(item.get("search_text", ""))), 5)
+        lexical = min(len(base & (item.get("_word_set") or words(item.get("search_text", "")))), 5)
         score = (
             lexical
             + 12 * len(shared_topics)
@@ -489,6 +489,11 @@ def classify(item: dict[str, Any]) -> None:
         slug for slug, label in BRANDS.items()
         if normalize(slug) in normalized or normalize(label) in normalized
     ]
+    item["_word_set"] = words(item.get("search_text", ""))
+    item["_topic_set"] = set(item.get("topics", []))
+    item["_brand_set"] = set(item.get("brands", []))
+    item["_modality_set"] = {slug for slug, _ in item.get("modalities", [])}
+    item["_category_normalized"] = normalize(item.get("category", ""))
 
 
 def load_content() -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]]]:
@@ -579,7 +584,7 @@ def load_content() -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]
             })
 
     for path in sorted((ROOT / "content/events").glob("*.json")):
-        if path.name == "index.json":
+        if path.name in {"index.json", "agenda-comunitaria-2026.json"}:
             continue
         data = json.loads(read_text(path))
         slug = path.stem
@@ -594,6 +599,43 @@ def load_content() -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]
             "search_text": json.dumps(data, ensure_ascii=False),
         }
         items.append(item)
+
+    community_path = ROOT / "content/events/agenda-comunitaria-2026.json"
+    if community_path.exists():
+        community = json.loads(read_text(community_path))
+        existing_event_slugs = {item["slug"] for item in items if item["kind"] == "event"}
+        existing_event_keys = {
+            (
+                slugify(re.sub(r"\b2026\b", "", item["title"])),
+                slugify(item["data"].get("city", "")),
+                item["data"].get("start_date", ""),
+            )
+            for item in items if item["kind"] == "event"
+        }
+        for data in community.get("entries", []):
+            slug = data.get("slug") or slugify(
+                f"{data.get('title', '')}-{data.get('city', '')}-{data.get('state', '')}-{data.get('start_date', '')}"
+            )
+            event_key = (
+                slugify(re.sub(r"\b2026\b", "", data.get("title", ""))),
+                slugify(data.get("city", "")),
+                data.get("start_date", ""),
+            )
+            if not slug or slug in existing_event_slugs or event_key in existing_event_keys:
+                continue
+            existing_event_slugs.add(slug)
+            existing_event_keys.add(event_key)
+            item = {
+                "kind": "event", "kind_label": "Evento", "slug": slug,
+                "title": data.get("title", slug), "summary": data.get("summary", ""),
+                "body": data.get("body", ""), "date": data.get("start_date", TODAY),
+                "lastmod": iso_day(data.get("last_updated") or data.get("start_date")),
+                "category": data.get("event_type", "Evento"), "image": data.get("cover", ""),
+                "ad_category": data.get("ad_category", ""),
+                "url": f"/eventos/{slug}/", "data": data,
+                "search_text": json.dumps(data, ensure_ascii=False),
+            }
+            items.append(item)
 
     calendar = json.loads(read_text(ROOT / "content/calendar/cbm-2026.json"))
     existing = {item["slug"] for item in items if item["kind"] == "event"}
@@ -869,21 +911,23 @@ def render_event(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
             "address": {"@type": "PostalAddress", "addressLocality": data.get("city", ""), "addressRegion": data.get("state", ""), "addressCountry": "BR"},
         },
     }
-    if data.get("official_url"):
+    if data.get("official_url") and data.get("verification_status") != "agenda_comunitaria":
         schema["organizer"] = {"@type": "Organization", "name": data.get("organizer") or item["title"], "url": data["official_url"]}
+    source_label = "Consultar agenda de origem ↗" if data.get("verification_status") == "agenda_comunitaria" else "Visitar site oficial do evento ↗"
+    relations = "" if data.get("verification_status") == "agenda_comunitaria" else relation_blocks(item, all_items)
     body = f"""
 <nav class="seo-breadcrumb"><a href="/">Início</a> › <a href="/competicoes-eventos">Eventos</a> › {esc(item["title"])}</nav>
 <article class="seo-article">
   <header><span class="seo-eyebrow">{esc(item["category"])}</span><h1>{esc(item["title"])}</h1>
   <p class="seo-lead">{esc(item["summary"])}</p>
-  <div class="ce-actions"><a class="btn btn-primary" href="{esc(data.get("official_url"))}" target="_blank" rel="noopener">Visitar site oficial do evento ↗</a>{('<a class="btn btn-outline" href="' + esc(data.get("ticket_url")) + '" target="_blank" rel="noopener">Ingressos / acesso ↗</a>') if data.get("ticket_url") and data.get("ticket_url") != data.get("official_url") else ''}</div></header>
+  <div class="ce-actions"><a class="btn btn-primary" href="{esc(data.get("official_url"))}" target="_blank" rel="noopener">{esc(source_label)}</a>{('<a class="btn btn-outline" href="' + esc(data.get("ticket_url")) + '" target="_blank" rel="noopener">Ingressos / acesso ↗</a>') if data.get("ticket_url") and data.get("ticket_url") != data.get("official_url") else ''}</div></header>
   <aside class="tdr-ad-slot" data-ad-slot="detail-billboard" data-ad-category-override="eventos" aria-label="Patrocínio da cobertura do evento"></aside>
   <figure class="seo-hero seo-artwork-hero"><img src="{esc(item["image"])}" alt="{esc(item["title"])}">{('<span class="seo-artwork-hero__label"><small>TVDUASRODAS · Evento</small><strong>' + esc(item["title"]) + '</strong></span>') if 'competicoes-eventos-default' in item["image"] else ''}<figcaption>{esc(data.get("image_credit"))}</figcaption></figure>
   <section class="seo-service"><div><span>Data</span><strong>{esc(data.get("start_date"))} a {esc(data.get("end_date") or data.get("start_date"))}</strong></div>
   <div><span>Local</span><strong>{esc(location_name)}</strong><small>{esc(data.get("city"))}/{esc(data.get("state"))}</small></div></section>
   <div class="seo-prose">{markdown(item["body"])}</div>
-  {relation_blocks(item, all_items)}
-  <aside class="seo-source"><strong>Confirme antes de ir</strong><p>Programação e regras podem mudar. <a href="{esc(data.get("official_url", "#"))}" target="_blank" rel="noopener noreferrer">Consulte o canal oficial</a>.</p></aside>
+  {relations}
+  <aside class="seo-source"><strong>Confirme antes de ir</strong><p>Programação, endereço e regras podem mudar. <a href="{esc(data.get("official_url", "#"))}" target="_blank" rel="noopener noreferrer">{'Consulte a agenda de origem e procure o organizador' if data.get("verification_status") == "agenda_comunitaria" else 'Consulte o canal oficial'}</a>.</p></aside>
 </article>"""
     return page_shell(
         title=item["title"], description=item["summary"], canonical=canonical, body=body,
