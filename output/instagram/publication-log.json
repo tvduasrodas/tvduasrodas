@@ -612,16 +612,17 @@
     "title": "Manutenção de bicicleta: sete apertos em que a peça gira, não a ferramenta",
     "detectedAt": "2026-07-26T11:31:27-04:00",
     "validatedAt": "2026-07-26T11:32:49-04:00",
+    "recoveryCheckedAt": "2026-07-26T11:41:05-04:00",
     "feed": {
       "status": "NAO_APLICAVEL_POR_REGRA"
     },
     "stories": {
-      "status": "NAO_ELEGIVEL_AUDIO_PT_BR_NAO_CONFIRMADO",
-      "reason": "A URL e o embed público foram confirmados, mas o player exibiu título em inglês e não apresentou evidência visual suficiente do áudio em pt-BR."
+      "status": "PENDENTE_MIDIA_DIREITOS_NAO_CONFIRMADOS",
+      "reason": "O frontmatter editorial confirmou áudio em pt-BR. A recuperação não encontrou material visual com direitos editoriais confirmados para produzir o Story sem reutilizar ou copiar imagens sem autorização."
     },
     "reel": {
-      "status": "NAO_ELEGIVEL_AUDIO_PT_BR_NAO_CONFIRMADO",
-      "reason": "Sem confirmação visual do áudio em pt-BR, não é permitido gerar nem publicar Reel."
+      "status": "PENDENTE_MIDIA_DIREITOS_NAO_CONFIRMADOS",
+      "reason": "O frontmatter editorial confirmou áudio em pt-BR. A recuperação não encontrou cinco imagens distintas com direitos editoriais confirmados, requisito obrigatório para o Reel."
     }
   }
 ]
