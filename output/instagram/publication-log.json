@@ -605,5 +605,23 @@
       "permalink": "https://www.instagram.com/tvduasrodasofc/reels/",
       "publicationConfirmation": "Meta Business Suite exibiu o alerta: Your reel has been published according to your chosen publishing options. Controle de direitos: sem problemas detectados."
     }
+  },
+  {
+    "url": "https://tvduasrodas.com/tv.html?v=ZZ6PRbWnQJQ",
+    "type": "video",
+    "title": "Manutenção de bicicleta: sete apertos em que a peça gira, não a ferramenta",
+    "detectedAt": "2026-07-26T11:31:27-04:00",
+    "validatedAt": "2026-07-26T11:32:49-04:00",
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
+    "stories": {
+      "status": "NAO_ELEGIVEL_AUDIO_PT_BR_NAO_CONFIRMADO",
+      "reason": "A URL e o embed público foram confirmados, mas o player exibiu título em inglês e não apresentou evidência visual suficiente do áudio em pt-BR."
+    },
+    "reel": {
+      "status": "NAO_ELEGIVEL_AUDIO_PT_BR_NAO_CONFIRMADO",
+      "reason": "Sem confirmação visual do áudio em pt-BR, não é permitido gerar nem publicar Reel."
+    }
   }
 ]
