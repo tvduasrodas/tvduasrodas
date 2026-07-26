@@ -604,6 +604,16 @@
       "publishedAt": "2026-07-25T14:48:56-04:00",
       "permalink": "https://www.instagram.com/tvduasrodasofc/reels/",
       "publicationConfirmation": "Meta Business Suite exibiu o alerta: Your reel has been published according to your chosen publishing options. Controle de direitos: sem problemas detectados."
+    },
+    "localCleanup": {
+      "status": "EXCLUIDO_APOS_PUBLICACAO",
+      "deletedAt": "2026-07-26T17:11:32.985056-04:00",
+      "retentionHours": 24.0,
+      "folder": "output/instagram/2026-07-25/capital-moto-week-2026-segundo-dia-dicas",
+      "fileCount": 11,
+      "bytesFreed": 6244752,
+      "latestPublishedAt": "2026-07-25T14:48:56-04:00",
+      "reason": "Story e Reel confirmados no Instagram há pelo menos 24 horas."
     }
   },
   {
