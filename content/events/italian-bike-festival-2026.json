@@ -1,13 +1,13 @@
 {
-  "title": "Italian Bike Festival 2026",
+  "title": "International Bike Festival 2026",
   "start_date": "2026-09-04",
   "end_date": "2026-09-06",
   "city": "Misano Adriatico",
   "state": "Itália",
-  "venue": "Misano World Circuit",
-  "status": "proximo",
+  "venue": "Misano World Circuit Marco Simoncelli",
+  "status": "agendada",
   "event_type": "Festival internacional de bicicletas",
-  "official_url": "https://italianbikefestival.net/en/",
+  "official_url": "https://internationalbikefestival.com/",
   "ticket_url": "https://italianbikefestival.net/en/",
   "press_url": "https://italianbikefestival.net/en/",
   "cover": "/assets/img/competicoes-eventos-default.svg",
@@ -15,8 +15,40 @@
   "featured": true,
   "free": true,
   "summary": "A indústria da bicicleta se reúne no circuito de Misano com novidades, testes e experiências para o público.",
-  "attractions": ["Lançamentos de bicicletas", "Testes e experiências", "Marcas internacionais", "Mobilidade e turismo sobre duas rodas"],
+  "attractions": [
+    "Mais de 600 marcas como referência da edição anterior",
+    "Testes de bicicletas de estrada, gravel, MTB e e-bikes",
+    "Talks, mesas-redondas e workshops",
+    "Cicloturismo e mobilidade sustentável",
+    "Provas e passeios La Gialla Cycling"
+  ],
   "videos": [],
-  "body": "## Bicicletas no circuito de Misano\n\nO Italian Bike Festival conecta fabricantes, profissionais e consumidores em uma programação dedicada a bicicletas, componentes e experiências. A agenda e as condições de entrada podem mudar; confirme os detalhes no canal oficial.",
-  "last_updated": "2026-07-21T15:00:00-04:00"
+  "body": "## Serviço verificado\n\nO International Bike Festival acontece de 4 a 6 de setembro no Misano World Circuit Marco Simoncelli. O calendário oficial do circuito indica funcionamento das 9h às 18h nos três dias, e o site oferece registro gratuito.\n\n## Experiências\n\nO público encontra lançamentos e testes de bicicletas de estrada, gravel, MTB e e-bikes, além de talks, workshops, cicloturismo e as atividades da La Gialla Cycling.\n\n## Chegada e estacionamento\n\nO canal oficial mantém páginas próprias para rotas e bicicletário. Quem for de carro deve consultar as instruções atualizadas de estacionamento antes da visita.",
+  "last_updated": "2026-07-26T12:00:00-04:00",
+  "timezone": "Europe/Rome",
+  "time_label": "Das 9h às 18h nos três dias, conforme o calendário oficial do circuito",
+  "street_address": "Via Daijiro Kato, 10",
+  "full_address": "Via Daijiro Kato, 10, 47843 Misano Adriatico RN, Itália",
+  "organizer": "Movestro S.r.l., grupo Italian Exhibition Group",
+  "contact": "info@movestro.it",
+  "status_basis": "Site oficial e calendário do Município de Misano confirmam datas, local e janela diária.",
+  "status_checked_at": "2026-07-26T12:00:00-04:00",
+  "source_url": "https://internationalbikefestival.com/",
+  "source_checked_at": "2026-07-26T12:00:00-04:00",
+  "verification_status": "fonte_oficial_sem_flyer",
+  "visual_verification": {
+    "type": "site_oficial_e_calendario_municipal_inspecionados",
+    "source_url": "https://internationalbikefestival.com/",
+    "checked_at": "2026-07-26T12:00:00-04:00",
+    "confirmed_fields": [
+      "dates",
+      "times",
+      "venue",
+      "organizer",
+      "free_registration",
+      "program"
+    ]
+  },
+  "admission_status": "Entrada gratuita mediante registro antecipado no site oficial",
+  "parking": "O site mantém orientações específicas de chegada e bicicletário; disponibilidade para carros e demais regras devem ser conferidas antes da visita"
 }

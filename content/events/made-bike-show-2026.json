@@ -4,8 +4,8 @@
   "end_date": "2026-08-23",
   "city": "Portland",
   "state": "EUA",
-  "venue": "Zidell Barge Building",
-  "status": "proximo",
+  "venue": "Zidell Yards — Zidell Barge Building",
+  "status": "agendada",
   "event_type": "Festival de bicicletas artesanais",
   "official_url": "https://made.bike/event/2026-made-bike-show-event/",
   "ticket_url": "https://made.bike/event/2026-made-bike-show-event/",
@@ -15,8 +15,40 @@
   "featured": true,
   "free": false,
   "summary": "Construtores independentes, marcas e apaixonados por bicicletas artesanais se encontram em Portland.",
-  "attractions": ["Bicicletas artesanais", "Construtores independentes", "Componentes e acessórios", "Encontros da comunidade ciclista"],
+  "attractions": [
+    "Mais de 200 construtores e marcas",
+    "Bicicletas artesanais",
+    "Workshops e demonstrações",
+    "Filmes e atividades da comunidade",
+    "Componentes e tendências de design"
+  ],
   "videos": [],
-  "body": "## Design e fabricação de bicicletas\n\nO MADE destaca a produção artesanal, a engenharia e o design de bicicletas. É uma referência para o público interessado em quadros especiais, componentes, tendências e cultura ciclística. Ingressos, horários e programação devem ser conferidos no site oficial.",
-  "last_updated": "2026-07-21T15:00:00-04:00"
+  "body": "## Serviço verificado\n\nO MADE Handmade Bike Show acontece no Zidell Yards, em Portland, de 21 a 23 de agosto. Sexta e sábado funcionam das 9h às 17h; domingo, das 9h às 16h.\n\n## Conteúdo\n\nA mostra reúne mais de 200 construtores e marcas, centenas de bicicletas, workshops, demonstrações, filmes e atividades voltadas à fabricação artesanal e ao design.\n\n## Ingressos e estacionamento\n\nO ingresso de um dia custa US$ 25 e o passe de até três dias, US$ 35. O estacionamento custa US$ 10 por dia ou US$ 15 para dois ou três dias, conforme a venda oficial.",
+  "last_updated": "2026-07-26T12:00:00-04:00",
+  "timezone": "America/Los_Angeles",
+  "time_label": "Sexta e sábado, das 9h às 17h; domingo, das 9h às 16h",
+  "street_address": "3121 S Moody Avenue",
+  "full_address": "3121 S Moody Avenue, Portland, Oregon 97239, Estados Unidos",
+  "organizer": "MADE Bike Show",
+  "contact": "info@made.bike",
+  "status_basis": "Página oficial confirma datas, horários, endereço, preços e estacionamento.",
+  "status_checked_at": "2026-07-26T12:00:00-04:00",
+  "source_url": "https://made.bike/event/2026-made-bike-show-event/",
+  "source_checked_at": "2026-07-26T12:00:00-04:00",
+  "verification_status": "fonte_oficial_sem_flyer",
+  "visual_verification": {
+    "type": "pagina_oficial_de_servico_inspecionada",
+    "source_url": "https://made.bike/event/2026-made-bike-show-event/",
+    "checked_at": "2026-07-26T12:00:00-04:00",
+    "confirmed_fields": [
+      "dates",
+      "times",
+      "address",
+      "tickets",
+      "parking",
+      "program"
+    ]
+  },
+  "admission_status": "Ingresso de um dia por US$ 25 e passe para até três dias por US$ 35; a página também exibe faixa geral de US$ 10 a US$ 35",
+  "parking": "Estacionamento vendido pela organização: US$ 10 por dia ou US$ 15 para dois ou três dias"
 }

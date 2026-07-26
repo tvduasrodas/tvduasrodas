@@ -1,0 +1,58 @@
+{
+  "updates": [
+    {
+      "target_file": "content/events/agenda-comunitaria-2026.json",
+      "slug": "capital-moto-week-brasilia-df-2026-07-23",
+      "patch": {
+        "duplicate_of": "capital-moto-week-2026",
+        "duplicate_basis": "Mesmo evento, cidade e período do registro editorial oficial do Capital Moto Week 2026.",
+        "last_updated": "2026-07-26T12:00:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/agenda-comunitaria-2026.json",
+      "slug": "motofest-extrema-mg-2026-07-31",
+      "patch": {
+        "duplicate_of": "14-motofest-extrema-mg-2026-07-31",
+        "duplicate_basis": "Mesmo evento, cidade, data e edição; preservado o registro que identifica a 14ª edição.",
+        "last_updated": "2026-07-26T12:00:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/agenda-comunitaria-2026.json",
+      "slug": "motoshow-2026-tres-lagoas-ms-2026-07-31",
+      "patch": {
+        "duplicate_of": "motoshow-tres-lagoas-ms-2026-07-31",
+        "duplicate_basis": "Mesmo evento, cidade e período; consolidado no primeiro registro verificado.",
+        "last_updated": "2026-07-26T12:00:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/agenda-comunitaria-2026.json",
+      "slug": "motofest-paranavai-pr-2026-09-04",
+      "patch": {
+        "duplicate_of": "25-motofest-paranavai-pr-2026-09-04",
+        "duplicate_basis": "Mesmo evento, cidade, data e edição; preservado o registro que identifica a 25ª edição.",
+        "last_updated": "2026-07-26T12:00:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/agenda-comunitaria-2026.json",
+      "slug": "motofest-resende-rj-2026-09-20",
+      "patch": {
+        "duplicate_of": "4-motofest-resende-rj-2026-09-20",
+        "duplicate_basis": "Mesmo evento, cidade, data e edição; preservado o registro que identifica a 4ª edição.",
+        "last_updated": "2026-07-26T12:00:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/agenda-comunitaria-2026.json",
+      "slug": "moto-cafe-paraguacu-paulista-sp-2026-09-20",
+      "patch": {
+        "duplicate_of": "2-moto-cafe-paraguacu-paulista-sp-2026-09-20",
+        "duplicate_basis": "Mesmo evento, cidade, data e edição; preservado o registro que identifica a 2ª edição.",
+        "last_updated": "2026-07-26T12:00:00-04:00"
+      }
+    }
+  ]
+}

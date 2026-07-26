@@ -140,6 +140,8 @@ def evaluate(event: dict[str, Any]) -> dict[str, Any]:
 def duplicate_candidates(events: list[dict[str, Any]]) -> list[list[str]]:
     groups: dict[tuple[str, str, str, str], list[str]] = {}
     for event in events:
+        if event.get("duplicate_of"):
+            continue
         key = (
             normalized(text(event.get("title"))),
             normalized(text(event.get("city"))),

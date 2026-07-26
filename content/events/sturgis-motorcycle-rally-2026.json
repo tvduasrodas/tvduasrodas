@@ -4,8 +4,8 @@
   "end_date": "2026-08-16",
   "city": "Sturgis",
   "state": "EUA",
-  "venue": "Sturgis e região de Black Hills",
-  "status": "proximo",
+  "venue": "Centro de Sturgis e região de Black Hills",
+  "status": "agendada",
   "event_type": "Encontro internacional de motociclistas",
   "official_url": "https://www.sturgis-sd.gov/rally-events-department",
   "ticket_url": "https://www.sturgis-sd.gov/rally-events-department",
@@ -15,8 +15,38 @@
   "featured": true,
   "free": false,
   "summary": "Um dos maiores encontros de motociclistas do mundo ocupa Sturgis e as estradas de Black Hills por dez dias.",
-  "attractions": ["Passeios por Black Hills", "Exposições e lançamentos", "Shows e programação urbana", "Encontros de motociclistas"],
+  "attractions": [
+    "Passeios por Black Hills",
+    "Exposições e lançamentos",
+    "Shows e programação urbana",
+    "Encontros de motociclistas"
+  ],
   "videos": [],
-  "body": "## Sturgis em 2026\n\nA programação oficial reúne experiências de motociclismo, música e turismo rodoviário em Sturgis e na região de Black Hills. Algumas atividades são abertas e outras exigem ingresso próprio. Consulte a página oficial da cidade para horários, regras de circulação e atualizações.",
-  "last_updated": "2026-07-21T15:00:00-04:00"
+  "body": "## Sturgis em 2026\n\nA 86ª edição do Sturgis Motorcycle Rally acontece de 7 a 16 de agosto e ocupa o centro da cidade, as estradas de Black Hills e diversos espaços privados. A programação combina passeios, exposições, lançamentos, corridas, shows e encontros.\n\n## Horários e acesso\n\nNão existe um único horário diário para todo o rally: cada atração publica sua agenda. Parte das atividades urbanas é aberta, enquanto shows, campings e experiências privadas podem exigir ingresso.\n\n## Trânsito e estacionamento\n\nMain Street recebe áreas para motocicletas e a cidade adota restrições temporárias de circulação e estacionamento. O visitante deve seguir a sinalização e os avisos do Rally & Events Department.",
+  "last_updated": "2026-07-26T12:00:00-04:00",
+  "timezone": "America/Denver",
+  "time_label": "Programação distribuída ao longo do dia e da noite, de 7 a 16 de agosto; cada atração publica seu próprio horário",
+  "street_address": "Main Street e diferentes espaços de Sturgis",
+  "full_address": "Downtown Sturgis, South Dakota, Estados Unidos",
+  "organizer": "City of Sturgis — Rally & Events Department",
+  "contact": "Rally & Events Department pelo portal oficial da City of Sturgis",
+  "status_basis": "O departamento oficial da cidade confirma a 86ª edição de 7 a 16 de agosto de 2026.",
+  "status_checked_at": "2026-07-26T12:00:00-04:00",
+  "source_url": "https://www.sturgis-sd.gov/rally-events-department",
+  "source_checked_at": "2026-07-26T12:00:00-04:00",
+  "verification_status": "fonte_oficial_sem_flyer",
+  "visual_verification": {
+    "type": "portal_oficial_e_calendario_inspecionados",
+    "source_url": "https://www.sturgis-sd.gov/rally-events-department",
+    "checked_at": "2026-07-26T12:00:00-04:00",
+    "confirmed_fields": [
+      "edition",
+      "dates",
+      "citywide_format",
+      "organizer",
+      "traffic_and_parking_policy"
+    ]
+  },
+  "admission_status": "A circulação e parte da programação urbana são abertas; shows, campings, corridas e experiências privadas podem exigir ingressos próprios",
+  "parking": "Main Street tem trechos destinados a estacionamento de motocicletas e há restrições temporárias na cidade; placas e orientações oficiais prevalecem"
 }

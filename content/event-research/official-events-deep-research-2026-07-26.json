@@ -1,0 +1,280 @@
+{
+  "updates": [
+    {
+      "target_file": "content/events/agenda-comunitaria-2026.json",
+      "slug": "campeonato-amapaense-de-ciclismo-2026-macapa-ap-2026-08-01",
+      "patch": {
+        "title": "Campeonato Amapaense de Ciclismo de Estrada, Contrarrelógio e MTB 2026",
+        "short_name": "Campeonato Amapaense de Ciclismo 2026",
+        "timezone": "America/Belem",
+        "time_label": "Horários de concentração e largada são divulgados pela Federação antes de cada etapa; a concentração ocorre uma hora antes da largada",
+        "venue": "Percursos definidos e divulgados separadamente para cada etapa pela Federação Amapaense de Ciclismo",
+        "street_address": "Endereço específico não divulgado no regulamento geral",
+        "full_address": "Percursos variáveis por etapa, Macapá - AP",
+        "organizer": "Federação Amapaense de Ciclismo",
+        "contact": "ciclismoamapaense@gmail.com | Instagram: @fac.amapa",
+        "status": "agendada",
+        "status_basis": "Regulamento técnico oficial de 2026 confirma o campeonato; locais, horários e eventuais mudanças são comunicados nas redes da Federação.",
+        "status_checked_at": "2026-07-26T12:00:00-04:00",
+        "source_checked_at": "2026-07-26T12:00:00-04:00",
+        "verification_status": "fonte_oficial_sem_flyer",
+        "visual_verification": {
+          "type": "documento_oficial_inspecionado",
+          "source_url": "https://esportecorrida.com.br/upload_diversos/11_02_2026_15_44_50.pdf",
+          "checked_at": "2026-07-26T12:00:00-04:00",
+          "confirmed_fields": ["organizer", "competition_format", "categories", "registration", "safety", "contact"]
+        },
+        "free": false,
+        "admission_status": "Inscrição de R$ 60,00 mais taxa do site por etapa; participação oficial restrita a atletas filiados à Federação Amapaense de Ciclismo em 2026",
+        "parking": "Não informado no regulamento geral; depende do percurso de cada etapa",
+        "attractions": [
+          "Prova de estrada em etapa única",
+          "Contrarrelógio em etapa única",
+          "Campeonato de MTB em seis etapas",
+          "Categorias masculinas e femininas",
+          "Premiação com medalhas e troféus"
+        ],
+        "summary": "Campeonato oficial da Federação Amapaense de Ciclismo com provas de estrada, contrarrelógio e seis etapas de MTB em 2026. Locais e horários são publicados por etapa, e o regulamento prevê concentração uma hora antes da largada.",
+        "body": "## Serviço verificado\n\nA Federação Amapaense de Ciclismo confirma para 2026 campeonatos de estrada e contrarrelógio em etapa única e um campeonato de MTB com seis etapas. Datas podem ser alteradas e os percursos e horários são divulgados nos canais oficiais.\n\n## Inscrição e participação\n\nA inscrição custa R$ 60,00 mais a taxa da plataforma por etapa. Somente atletas filiados à Federação em 2026 podem disputar as provas oficiais. A concentração deve ocorrer uma hora antes da largada, e a súmula encerra 15 minutos antes.\n\n## Estrutura e segurança\n\nO regulamento prevê ambulância para o primeiro atendimento, uso obrigatório de capacete e regras técnicas para atletas e equipes. O estacionamento não é detalhado no documento geral porque varia conforme o percurso.\n\n## Fonte\n\nDados conferidos no regulamento técnico oficial publicado pela Federação Amapaense de Ciclismo.",
+        "last_updated": "2026-07-26T12:00:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/agenda-comunitaria-2026.json",
+      "slug": "campeonato-de-motocross-de-rondonia-2026-cerejeiras-e-corumbiara-ro-2026-08-01",
+      "patch": {
+        "title": "Campeonato Rondoniense de Motocross 2026 — etapas de agosto",
+        "short_name": "Motocross de Rondônia — agosto de 2026",
+        "timezone": "America/Porto_Velho",
+        "time_label": "Horários das etapas de agosto ainda não detalhados nas fontes consultadas",
+        "venue": "Pistas locais de Cerejeiras e Corumbiara, divulgadas separadamente pela organização",
+        "street_address": "Endereços específicos ainda não divulgados",
+        "full_address": "Etapas distintas em Cerejeiras e Corumbiara - RO",
+        "organizer": "Liga Independente de Motocross do Estado de Rondônia (LIMERO)",
+        "contact": "limeromotocross@gmail.com | WhatsApp: (69) 98406-0898",
+        "status": "agendada",
+        "status_basis": "O calendário divulgado pela LIMERO prevê competições em Cerejeiras e Corumbiara durante agosto; a entrada original agrupava duas etapas e não representa uma única prova.",
+        "status_checked_at": "2026-07-26T12:00:00-04:00",
+        "official_url": "https://limero.esp.br/category/motocross/",
+        "source_url": "https://limero.esp.br/category/motocross/",
+        "source_label": "LIMERO — canal oficial",
+        "source_checked_at": "2026-07-26T12:00:00-04:00",
+        "verification_status": "fonte_oficial_sem_flyer",
+        "visual_verification": {
+          "type": "calendario_e_canal_oficial_inspecionados",
+          "source_url": "https://limero.esp.br/category/motocross/",
+          "checked_at": "2026-07-26T12:00:00-04:00",
+          "confirmed_fields": ["organizer", "cities", "competition_month", "contact"]
+        },
+        "free": false,
+        "admission_status": "Inscrição, acesso do público e valores ainda não detalhados para as etapas de agosto",
+        "parking": "Não informado para as pistas de Cerejeiras e Corumbiara",
+        "attractions": [
+          "Etapas do motocross estadual",
+          "Treinos e baterias por categoria",
+          "Supervisão esportiva da LIMERO"
+        ],
+        "summary": "Registro consolidado das etapas de agosto do Campeonato Rondoniense de Motocross em Cerejeiras e Corumbiara. São competições distintas; datas exatas, pistas e horários aguardam divulgação específica da LIMERO.",
+        "body": "## Correção do registro\n\nA entrada anterior tratava Cerejeiras e Corumbiara como se fossem um único evento. O calendário da LIMERO indica competições distintas durante agosto de 2026, por isso o registro passa a funcionar como acompanhamento das etapas do mês.\n\n## Serviço\n\nAs pistas, datas exatas, horários, inscrições e regras de acesso ainda não foram detalhados nas fontes consultadas. Essas lacunas ficam explícitas para evitar transformar previsão de calendário em informação confirmada.\n\n## Organização\n\nA supervisão é da Liga Independente de Motocross do Estado de Rondônia, que publica regulamentos, resultados e atualizações do campeonato em seu canal oficial.",
+        "last_updated": "2026-07-26T12:00:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/agenda-comunitaria-2026.json",
+      "slug": "18-encontro-internacional-de-motos-de-altas-cilindradas-boa-vista-rr-2026-08-14",
+      "patch": {
+        "timezone": "America/Boa_Vista",
+        "time_label": "Horários do evento principal ainda não publicados na fonte consultada",
+        "venue": "Local do evento principal ainda não publicado pelo Roraima Moto Clube",
+        "street_address": "Endereço ainda não divulgado",
+        "full_address": "Local a ser divulgado, Boa Vista - RR",
+        "organizer": "Roraima Moto Clube",
+        "contact": "Contato pelos canais oficiais do Roraima Moto Clube",
+        "status": "agendada",
+        "status_basis": "Datas e atrações confirmadas em publicação local baseada em informações do Roraima Moto Clube.",
+        "status_checked_at": "2026-07-26T12:00:00-04:00",
+        "source_checked_at": "2026-07-26T12:00:00-04:00",
+        "verification_status": "fonte_oficial_sem_flyer",
+        "visual_verification": {
+          "type": "publicacao_da_organizacao_conferida",
+          "source_url": "https://www.folhabv.com.br/variedades/roraima-moto-clube-inicia-vendas-para-18o-encontro-de-motos-de-altas-cilindradas-neste-sabado-9/",
+          "checked_at": "2026-07-26T12:00:00-04:00",
+          "confirmed_fields": ["dates", "organizer", "lineup", "ticketed_access"]
+        },
+        "free": false,
+        "admission_status": "Evento com ingressos; valores, lotes e ponto oficial de venda devem ser confirmados com o Roraima Moto Clube",
+        "parking": "Não informado na publicação consultada",
+        "attractions": [
+          "Marcão Britto e Thiago Castanho em homenagem ao Charlie Brown Jr.",
+          "Mamonas Assassinas — O Legado",
+          "Rodrigo Teaser — Tributo ao Rei do Pop",
+          "Dub Dogz"
+        ],
+        "summary": "Um dos principais encontros motociclísticos de Roraima acontece em 14 e 15 de agosto, em Boa Vista, com atrações nacionais e venda de ingressos. O endereço e os horários do evento principal ainda aguardam divulgação.",
+        "body": "## Programação confirmada\n\nO 18º Encontro Internacional de Motos de Altas Cilindradas está confirmado para 14 e 15 de agosto de 2026. A programação anunciada reúne Marcão Britto e Thiago Castanho em homenagem ao Charlie Brown Jr., Mamonas Assassinas — O Legado, Rodrigo Teaser e Dub Dogz.\n\n## Serviço\n\nA publicação consultada confirma que haverá venda de ingressos, mas não informa o local, os horários ou o estacionamento do evento principal. Esses dados permanecem explicitamente pendentes de anúncio pelo Roraima Moto Clube.\n\n## Organização\n\nO encontro é realizado pelo Roraima Moto Clube e é apresentado como um dos eventos motociclísticos de maior relevância do estado.",
+        "last_updated": "2026-07-26T12:00:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/agenda-comunitaria-2026.json",
+      "slug": "motoimp-2026-imperatriz-ma-2026-09-03",
+      "patch": {
+        "scope": "Nacional",
+        "featured": true,
+        "timezone": "America/Fortaleza",
+        "time_label": "Programação de 3 a 6 de setembro; horários por atração devem ser confirmados no site oficial",
+        "venue": "Complexo Beira Rio",
+        "street_address": "Avenida Beira Rio",
+        "full_address": "Complexo Beira Rio, Avenida Beira Rio, Imperatriz - MA",
+        "organizer": "Rio Azul e Duo Mídia",
+        "contact": "Canais oficiais disponíveis em motoimp.com.br",
+        "status": "agendada",
+        "status_basis": "Site oficial confirma datas, local, atrações e estrutura do Motoimp 2026.",
+        "status_checked_at": "2026-07-26T12:00:00-04:00",
+        "source_checked_at": "2026-07-26T12:00:00-04:00",
+        "verification_status": "fonte_oficial_sem_flyer",
+        "visual_verification": {
+          "type": "site_oficial_e_mapa_inspecionados",
+          "source_url": "https://motoimp.com.br/",
+          "checked_at": "2026-07-26T12:00:00-04:00",
+          "confirmed_fields": ["dates", "venue", "lineup", "admission", "parking", "site_map"]
+        },
+        "free": true,
+        "admission_status": "Acesso gratuito com inscrição solidária e entrega de 2 kg de alimento; inscrição para troféu custa R$ 20",
+        "parking": "Estacionamento credenciado indicado no mapa oficial; preço e regras devem ser confirmados no local",
+        "attractions": [
+          "Digão Raimundos — 3 de setembro",
+          "Queen of Magic — 4 de setembro",
+          "Elvis in Concert e Tony Gambel — 5 de setembro",
+          "Mars Experience e Bruno Matos — 6 de setembro",
+          "Três palcos",
+          "Expositores, feira e praça de alimentação"
+        ],
+        "summary": "O Motoimp 2026 ocupa o Complexo Beira Rio, em Imperatriz, de 3 a 6 de setembro, com grandes tributos e atrações do rock, três palcos, feira, expositores, alimentação e acesso solidário.",
+        "body": "## Serviço verificado\n\nO Motoimp 2026 acontece de 3 a 6 de setembro no Complexo Beira Rio, em Imperatriz. O site oficial apresenta mapa com três palcos, área de expositores, bares, alimentação, feira, banheiros, saída de emergência e estacionamento credenciado.\n\n## Acesso\n\nA inscrição é gratuita e solidária, com entrega de 2 kg de alimento. A modalidade que inclui troféu tem taxa anunciada de R$ 20.\n\n## Programação\n\nDigão Raimundos abre o festival em 3 de setembro. Queen of Magic se apresenta no dia 4; Elvis in Concert e Tony Gambel no dia 5; Mars Experience e Bruno Matos encerram no dia 6. Horários individuais devem ser conferidos no canal oficial.",
+        "last_updated": "2026-07-26T12:00:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/agenda-comunitaria-2026.json",
+      "slug": "diamantina-motofest-2026-diamantina-mg-2026-09-04",
+      "patch": {
+        "scope": "Nacional",
+        "featured": true,
+        "timezone": "America/Sao_Paulo",
+        "time_label": "Das 16h às 2h, de 4 a 7 de setembro",
+        "venue": "Largo Dom João",
+        "street_address": "Largo Dom João",
+        "full_address": "Largo Dom João, Centro, Diamantina - MG",
+        "organizer": "Diamantina MotoFest",
+        "contact": "Canais oficiais disponíveis em dtnamotofest.com.br",
+        "status": "agendada",
+        "status_basis": "Site oficial e cadastro cultural confirmam datas, local, horário e gratuidade da 14ª edição.",
+        "status_checked_at": "2026-07-26T12:00:00-04:00",
+        "source_checked_at": "2026-07-26T12:00:00-04:00",
+        "verification_status": "fonte_oficial_sem_flyer",
+        "visual_verification": {
+          "type": "site_oficial_e_cadastro_cultural_inspecionados",
+          "source_url": "https://dtnamotofest.com.br/",
+          "secondary_source_url": "https://mapa.cultura.gov.br/evento/22369/",
+          "checked_at": "2026-07-26T12:00:00-04:00",
+          "confirmed_fields": ["edition", "dates", "times", "venue", "admission", "parking"]
+        },
+        "free": true,
+        "admission_status": "Entrada gratuita e classificação livre",
+        "parking": "Estacionamento dedicado a motocicletas nas proximidades; vagas e regras dependem da operação local",
+        "attractions": [
+          "Shows de rock",
+          "Encontro de moto clubes",
+          "Expositores",
+          "Gastronomia",
+          "Cultura motociclística"
+        ],
+        "summary": "A 14ª edição do Diamantina MotoFest reúne motociclistas, shows, expositores e gastronomia no Largo Dom João, de 4 a 7 de setembro, diariamente das 16h às 2h, com entrada gratuita.",
+        "body": "## Serviço verificado\n\nO Diamantina MotoFest 2026 acontece de 4 a 7 de setembro no Largo Dom João, em Diamantina. O cadastro cultural informa funcionamento diário das 16h às 2h, entrada gratuita e classificação livre.\n\n## Estrutura\n\nA organização anuncia shows, encontro de moto clubes, expositores, gastronomia e cultura motociclística. Há estacionamento dedicado a motocicletas nas proximidades, sujeito à operação local.\n\n## Programação\n\nO site oficial ainda não publicou a grade completa de bandas. Nomes e horários devem ser acompanhados nos canais do evento antes da viagem.",
+        "last_updated": "2026-07-26T12:00:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/agenda-comunitaria-2026.json",
+      "slug": "motoara-2026-araguaina-to-2026-10-10",
+      "patch": {
+        "scope": "Nacional",
+        "featured": true,
+        "timezone": "America/Araguaina",
+        "time_label": "10 e 11 de outubro; horários da edição 2026 ainda não publicados",
+        "venue": "Local da edição 2026 ainda não divulgado pelos organizadores",
+        "street_address": "Endereço ainda não divulgado para 2026",
+        "full_address": "Local a ser divulgado, Araguaína - TO",
+        "organizer": "Templários do Norte Moto Clube",
+        "contact": "(63) 99222-3490 | (63) 97400-9860 | (63) 99123-7000 | (63) 99248-0852",
+        "status": "agendada",
+        "status_basis": "Projeto legislativo estadual registra o Motoara para 10 e 11 de outubro em Araguaína; o site do evento confirma a organização e o perfil da programação.",
+        "status_checked_at": "2026-07-26T12:00:00-04:00",
+        "official_url": "https://motoara.com.br/evento/",
+        "source_label": "Site oficial Motoara e Assembleia Legislativa do Tocantins",
+        "source_checked_at": "2026-07-26T12:00:00-04:00",
+        "verification_status": "fonte_oficial_sem_flyer",
+        "visual_verification": {
+          "type": "site_oficial_e_diario_legislativo_inspecionados",
+          "source_url": "https://motoara.com.br/evento/",
+          "secondary_source_url": "https://www.al.to.leg.br/arquivos/diario-oficial_4275_80966.PDF",
+          "checked_at": "2026-07-26T12:00:00-04:00",
+          "confirmed_fields": ["dates", "city", "organizer", "event_profile", "contact"]
+        },
+        "free": false,
+        "admission_status": "Condições de acesso e inscrição para a edição 2026 ainda não publicadas",
+        "parking": "Não informado para a edição 2026",
+        "attractions": [
+          "Encontro de motos e motores",
+          "Motociclismo e carros especiais",
+          "Rock e blues",
+          "Ações sociais e integração entre moto clubes"
+        ],
+        "summary": "O Motoara, encontro de motos e motores de Araguaína e região, está previsto para 10 e 11 de outubro de 2026. O evento integra o calendário cultural e é organizado pelos Templários do Norte Moto Clube.",
+        "body": "## Serviço verificado\n\nO Motoara 2026 está previsto para 10 e 11 de outubro em Araguaína. O reconhecimento no calendário cultural estadual confirma as datas, enquanto o site oficial identifica os Templários do Norte Moto Clube como idealizadores.\n\n## Perfil do evento\n\nA programação reúne motos, motores, carros especiais, rock, blues e ações sociais. Local, horários, estacionamento e condições de acesso da edição 2026 ainda aguardam publicação específica.\n\n## Organização e contato\n\nOs canais oficiais do Motoara e dos Templários do Norte devem ser consultados antes da viagem para confirmar eventuais mudanças.",
+        "last_updated": "2026-07-26T12:00:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/agenda-comunitaria-2026.json",
+      "slug": "20-encontro-de-motociclistas-motonave-navegantes-sc-2026-10-30",
+      "patch": {
+        "scope": "Nacional",
+        "featured": true,
+        "timezone": "America/Sao_Paulo",
+        "time_label": "Sexta, das 18h às 2h; sábado, das 9h às 2h; domingo, das 9h à meia-noite",
+        "venue": "Arena de eventos na Avenida Prefeito Cirino Adolfo Cabral",
+        "street_address": "Avenida Prefeito Cirino Adolfo Cabral, 62, bairro São Pedro",
+        "full_address": "Avenida Prefeito Cirino Adolfo Cabral, 62, São Pedro, Navegantes - SC",
+        "organizer": "Prefeitura de Navegantes — Secretaria Municipal de Turismo",
+        "contact": "Secretaria Municipal de Turismo, Rua Manoel Moreira Maia, 318, sala 201, Centro, Navegantes - SC",
+        "status": "agendada",
+        "status_basis": "Editais oficiais do Município confirmam período, endereço, horários gerais e estrutura prevista.",
+        "status_checked_at": "2026-07-26T12:00:00-04:00",
+        "source_checked_at": "2026-07-26T12:00:00-04:00",
+        "verification_status": "fonte_oficial_sem_flyer",
+        "visual_verification": {
+          "type": "editais_oficiais_inspecionados",
+          "source_url": "https://navegantes.sc.gov.br/wp-content/uploads/2026/04/EDITAL-4.pdf",
+          "secondary_source_url": "https://navegantes.sc.gov.br/wp-content/uploads/2026/03/EDITAL.pdf",
+          "checked_at": "2026-07-26T12:00:00-04:00",
+          "confirmed_fields": ["edition", "dates", "times", "address", "organizer", "event_structure"]
+        },
+        "free": false,
+        "admission_status": "Condições de entrada ainda não especificadas nos editais de patrocínio consultados",
+        "parking": "Operação de estacionamento não detalhada nos editais consultados",
+        "attractions": [
+          "Atrações culturais",
+          "Apresentações musicais",
+          "Espaço de confraternização",
+          "Estrutura de segurança",
+          "Programação familiar e motociclística"
+        ],
+        "summary": "O 20º MotoNave acontece de 30 de outubro a 1º de novembro na Avenida Prefeito Cirino Adolfo Cabral, 62, em Navegantes, com música, atrações culturais e estrutura de convivência.",
+        "body": "## Serviço verificado\n\nO Município de Navegantes confirma o 20º Encontro de Motociclistas MotoNave de 30 de outubro a 1º de novembro de 2026, na Avenida Prefeito Cirino Adolfo Cabral, 62, bairro São Pedro.\n\n## Horários\n\nA programação geral prevista funciona na sexta-feira das 18h às 2h, no sábado das 9h às 2h e no domingo das 9h à meia-noite. Os horários podem sofrer ajustes comunicados pela administração.\n\n## Estrutura\n\nOs editais descrevem atrações culturais, apresentações musicais, confraternização, segurança e organização responsável. Condições de entrada e estacionamento ainda não foram detalhadas.\n\n## Organização\n\nO evento é realizado pela Prefeitura de Navegantes, por meio da Secretaria Municipal de Turismo, e é reconhecido oficialmente por sua relevância cultural, social, turística e econômica.",
+        "last_updated": "2026-07-26T12:00:00-04:00"
+      }
+    }
+  ]
+}

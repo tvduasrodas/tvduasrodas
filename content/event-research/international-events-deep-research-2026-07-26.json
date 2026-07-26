@@ -1,0 +1,219 @@
+{
+  "updates": [
+    {
+      "target_file": "content/events/sturgis-motorcycle-rally-2026.json",
+      "patch": {
+        "timezone": "America/Denver",
+        "time_label": "Programação distribuída ao longo do dia e da noite, de 7 a 16 de agosto; cada atração publica seu próprio horário",
+        "venue": "Centro de Sturgis e região de Black Hills",
+        "street_address": "Main Street e diferentes espaços de Sturgis",
+        "full_address": "Downtown Sturgis, South Dakota, Estados Unidos",
+        "organizer": "City of Sturgis — Rally & Events Department",
+        "contact": "Rally & Events Department pelo portal oficial da City of Sturgis",
+        "status": "agendada",
+        "status_basis": "O departamento oficial da cidade confirma a 86ª edição de 7 a 16 de agosto de 2026.",
+        "status_checked_at": "2026-07-26T12:00:00-04:00",
+        "source_url": "https://www.sturgis-sd.gov/rally-events-department",
+        "source_checked_at": "2026-07-26T12:00:00-04:00",
+        "verification_status": "fonte_oficial_sem_flyer",
+        "visual_verification": {
+          "type": "portal_oficial_e_calendario_inspecionados",
+          "source_url": "https://www.sturgis-sd.gov/rally-events-department",
+          "checked_at": "2026-07-26T12:00:00-04:00",
+          "confirmed_fields": ["edition", "dates", "citywide_format", "organizer", "traffic_and_parking_policy"]
+        },
+        "admission_status": "A circulação e parte da programação urbana são abertas; shows, campings, corridas e experiências privadas podem exigir ingressos próprios",
+        "parking": "Main Street tem trechos destinados a estacionamento de motocicletas e há restrições temporárias na cidade; placas e orientações oficiais prevalecem",
+        "body": "## Sturgis em 2026\n\nA 86ª edição do Sturgis Motorcycle Rally acontece de 7 a 16 de agosto e ocupa o centro da cidade, as estradas de Black Hills e diversos espaços privados. A programação combina passeios, exposições, lançamentos, corridas, shows e encontros.\n\n## Horários e acesso\n\nNão existe um único horário diário para todo o rally: cada atração publica sua agenda. Parte das atividades urbanas é aberta, enquanto shows, campings e experiências privadas podem exigir ingresso.\n\n## Trânsito e estacionamento\n\nMain Street recebe áreas para motocicletas e a cidade adota restrições temporárias de circulação e estacionamento. O visitante deve seguir a sinalização e os avisos do Rally & Events Department.",
+        "last_updated": "2026-07-26T12:00:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/made-bike-show-2026.json",
+      "patch": {
+        "timezone": "America/Los_Angeles",
+        "time_label": "Sexta e sábado, das 9h às 17h; domingo, das 9h às 16h",
+        "venue": "Zidell Yards — Zidell Barge Building",
+        "street_address": "3121 S Moody Avenue",
+        "full_address": "3121 S Moody Avenue, Portland, Oregon 97239, Estados Unidos",
+        "organizer": "MADE Bike Show",
+        "contact": "info@made.bike",
+        "status": "agendada",
+        "status_basis": "Página oficial confirma datas, horários, endereço, preços e estacionamento.",
+        "status_checked_at": "2026-07-26T12:00:00-04:00",
+        "source_url": "https://made.bike/event/2026-made-bike-show-event/",
+        "source_checked_at": "2026-07-26T12:00:00-04:00",
+        "verification_status": "fonte_oficial_sem_flyer",
+        "visual_verification": {
+          "type": "pagina_oficial_de_servico_inspecionada",
+          "source_url": "https://made.bike/event/2026-made-bike-show-event/",
+          "checked_at": "2026-07-26T12:00:00-04:00",
+          "confirmed_fields": ["dates", "times", "address", "tickets", "parking", "program"]
+        },
+        "admission_status": "Ingresso de um dia por US$ 25 e passe para até três dias por US$ 35; a página também exibe faixa geral de US$ 10 a US$ 35",
+        "parking": "Estacionamento vendido pela organização: US$ 10 por dia ou US$ 15 para dois ou três dias",
+        "attractions": [
+          "Mais de 200 construtores e marcas",
+          "Bicicletas artesanais",
+          "Workshops e demonstrações",
+          "Filmes e atividades da comunidade",
+          "Componentes e tendências de design"
+        ],
+        "body": "## Serviço verificado\n\nO MADE Handmade Bike Show acontece no Zidell Yards, em Portland, de 21 a 23 de agosto. Sexta e sábado funcionam das 9h às 17h; domingo, das 9h às 16h.\n\n## Conteúdo\n\nA mostra reúne mais de 200 construtores e marcas, centenas de bicicletas, workshops, demonstrações, filmes e atividades voltadas à fabricação artesanal e ao design.\n\n## Ingressos e estacionamento\n\nO ingresso de um dia custa US$ 25 e o passe de até três dias, US$ 35. O estacionamento custa US$ 10 por dia ou US$ 15 para dois ou três dias, conforme a venda oficial.",
+        "last_updated": "2026-07-26T12:00:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/italian-bike-festival-2026.json",
+      "patch": {
+        "title": "International Bike Festival 2026",
+        "timezone": "Europe/Rome",
+        "time_label": "Das 9h às 18h nos três dias, conforme o calendário oficial do circuito",
+        "venue": "Misano World Circuit Marco Simoncelli",
+        "street_address": "Via Daijiro Kato, 10",
+        "full_address": "Via Daijiro Kato, 10, 47843 Misano Adriatico RN, Itália",
+        "organizer": "Movestro S.r.l., grupo Italian Exhibition Group",
+        "contact": "info@movestro.it",
+        "status": "agendada",
+        "status_basis": "Site oficial e calendário do Município de Misano confirmam datas, local e janela diária.",
+        "status_checked_at": "2026-07-26T12:00:00-04:00",
+        "official_url": "https://internationalbikefestival.com/",
+        "source_url": "https://internationalbikefestival.com/",
+        "source_checked_at": "2026-07-26T12:00:00-04:00",
+        "verification_status": "fonte_oficial_sem_flyer",
+        "visual_verification": {
+          "type": "site_oficial_e_calendario_municipal_inspecionados",
+          "source_url": "https://internationalbikefestival.com/",
+          "checked_at": "2026-07-26T12:00:00-04:00",
+          "confirmed_fields": ["dates", "times", "venue", "organizer", "free_registration", "program"]
+        },
+        "admission_status": "Entrada gratuita mediante registro antecipado no site oficial",
+        "parking": "O site mantém orientações específicas de chegada e bicicletário; disponibilidade para carros e demais regras devem ser conferidas antes da visita",
+        "attractions": [
+          "Mais de 600 marcas como referência da edição anterior",
+          "Testes de bicicletas de estrada, gravel, MTB e e-bikes",
+          "Talks, mesas-redondas e workshops",
+          "Cicloturismo e mobilidade sustentável",
+          "Provas e passeios La Gialla Cycling"
+        ],
+        "body": "## Serviço verificado\n\nO International Bike Festival acontece de 4 a 6 de setembro no Misano World Circuit Marco Simoncelli. O calendário oficial do circuito indica funcionamento das 9h às 18h nos três dias, e o site oferece registro gratuito.\n\n## Experiências\n\nO público encontra lançamentos e testes de bicicletas de estrada, gravel, MTB e e-bikes, além de talks, workshops, cicloturismo e as atividades da La Gialla Cycling.\n\n## Chegada e estacionamento\n\nO canal oficial mantém páginas próprias para rotas e bicicletário. Quem for de carro deve consultar as instruções atualizadas de estacionamento antes da visita.",
+        "last_updated": "2026-07-26T12:00:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/cimamotor-2026.json",
+      "patch": {
+        "timezone": "Asia/Shanghai",
+        "time_label": "19 de setembro, das 9h às 18h; 20 e 21, das 9h30 às 18h; 22, das 9h30 às 13h; entrada encerra 30 minutos antes",
+        "venue": "Chongqing International Expo Center",
+        "street_address": "No. 66, Yuelai Avenue, Yubei District",
+        "full_address": "No. 66, Yuelai Avenue, Yubei District, Chongqing 401120, China",
+        "organizer": "China Chamber of International Commerce Chongqing Chamber, Chongqing Exhibition Center Co. e China Chamber of Commerce for Motorcycle",
+        "contact": "+86 13087831636 | visitor@cimamotor.com | info@cimamotor.com",
+        "status": "agendada",
+        "status_basis": "Guia oficial do visitante confirma datas, horários, endereço, entrada, transporte e estacionamento.",
+        "status_checked_at": "2026-07-26T12:00:00-04:00",
+        "source_url": "https://en.cimamotor.com/exhibition/customer/guide",
+        "source_checked_at": "2026-07-26T12:00:00-04:00",
+        "verification_status": "fonte_oficial_sem_flyer",
+        "visual_verification": {
+          "type": "guia_oficial_do_visitante_inspecionado",
+          "source_url": "https://en.cimamotor.com/exhibition/customer/guide",
+          "checked_at": "2026-07-26T12:00:00-04:00",
+          "confirmed_fields": ["dates", "times", "address", "admission", "parking", "transport", "contact"]
+        },
+        "admission_status": "Ingresso obrigatório; venda pública ainda não aberta. Visitantes profissionais podem realizar pré-registro e estrangeiros devem apresentar passaporte ou documento aceito",
+        "parking": "Estacionamento gratuito para visitantes nos bolsões P25, P26 e P27",
+        "attractions": [
+          "Lançamentos de motocicletas e novas tecnologias",
+          "Veículos elétricos e conectados",
+          "Peças, acessórios e serviços",
+          "Fóruns, corridas, apresentações e festivais",
+          "Encontros comerciais e cadeia internacional"
+        ],
+        "body": "## Serviço verificado\n\nA 24ª CIMAMotor acontece de 19 a 22 de setembro no Chongqing International Expo Center. O dia 19 funciona das 9h às 18h; os dias 20 e 21, das 9h30 às 18h; e o dia 22, das 9h30 às 13h. A entrada encerra 30 minutos antes.\n\n## Acesso\n\nÉ necessário ingresso. A venda pública ainda não estava aberta na consulta, enquanto o pré-registro profissional já estava disponível. Visitantes estrangeiros precisam apresentar passaporte ou documento aceito na validação.\n\n## Transporte e estacionamento\n\nO acesso pode ser feito pelas linhas 6 e 10 do metrô até a estação Yuelai. Os estacionamentos P25, P26 e P27 são indicados como gratuitos para visitantes.\n\n## Conteúdo\n\nA feira integra exposição de motos, elétricos, componentes e tecnologia a fóruns, corridas, apresentações, festivais e reuniões comerciais.",
+        "last_updated": "2026-07-26T12:00:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/eicma-riding-x-fest-2026.json",
+      "patch": {
+        "timezone": "Europe/Rome",
+        "time_label": "Horários diários ainda não publicados pela EICMA",
+        "venue": "Max Land MX Raceway Park",
+        "street_address": "Circuito Max Land MX Raceway Park",
+        "full_address": "Max Land MX Raceway Park, Chignolo Po, Pavia, Itália",
+        "organizer": "EICMA S.p.A.",
+        "contact": "+39 02 6773511 | eicma@eicma.it",
+        "status": "agendada",
+        "status_basis": "Comunicado oficial da EICMA confirma a estreia em 19 e 20 de setembro no Max Land MX Raceway Park.",
+        "status_checked_at": "2026-07-26T12:00:00-04:00",
+        "official_url": "https://www.eicma.it/en/eicma-riding-x-fest-is-launched-the-new-event-dedicated-to-specialist-off-road-motorcycling/",
+        "source_url": "https://www.eicma.it/en/eicma-riding-x-fest-is-launched-the-new-event-dedicated-to-specialist-off-road-motorcycling/",
+        "source_checked_at": "2026-07-26T12:00:00-04:00",
+        "verification_status": "fonte_oficial_sem_flyer",
+        "visual_verification": {
+          "type": "comunicado_oficial_inspecionado",
+          "source_url": "https://www.eicma.it/en/eicma-riding-x-fest-is-launched-the-new-event-dedicated-to-specialist-off-road-motorcycling/",
+          "checked_at": "2026-07-26T12:00:00-04:00",
+          "confirmed_fields": ["dates", "venue", "organizer", "program_profile"]
+        },
+        "free": false,
+        "admission_status": "Condições de inscrição, ingresso e participação nos testes ainda não publicadas",
+        "parking": "Operação de estacionamento ainda não publicada pela organização",
+        "attractions": [
+          "Testes de motocicletas off-road",
+          "Pistas dedicadas a motocross e enduro",
+          "Encontro com marcas e profissionais",
+          "Pilotos e nomes do motociclismo",
+          "Shows e atividades educativas"
+        ],
+        "body": "## Nova experiência off-road da EICMA\n\nA primeira edição do EICMA Riding X Fest acontece em 19 e 20 de setembro no Max Land MX Raceway Park, em Chignolo Po. O formato foi criado para motocross, enduro e experiências práticas fora de estrada.\n\n## Programação\n\nA organização anuncia testes de novos modelos em pistas dedicadas, contato com marcas, profissionais e pilotos, além de shows e atividades educativas.\n\n## Serviço\n\nHorários, inscrição, regras de participação e estacionamento ainda não foram publicados. A TVDUASRODAS mantém esses pontos explícitos até a próxima atualização oficial.",
+        "last_updated": "2026-07-26T12:00:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/eicma-2026.json",
+      "patch": {
+        "timezone": "Europe/Rome",
+        "time_label": "Público de 5 a 8 de novembro, das 9h30 às 18h30; 3 e 4 de novembro são reservados a imprensa e profissionais",
+        "venue": "Fiera Milano Rho",
+        "street_address": "Strada Statale del Sempione, 28",
+        "full_address": "Strada Statale del Sempione, 28, 20017 Rho MI, Itália",
+        "organizer": "EICMA S.p.A. / ANCMA",
+        "contact": "+39 02 6773511 | eicma@eicma.it",
+        "status": "agendada",
+        "status_basis": "Página oficial de visita confirma calendário, horários públicos e local da edição 2026.",
+        "status_checked_at": "2026-07-26T12:00:00-04:00",
+        "official_url": "https://www.eicma.it/en/visit/general-info/",
+        "source_url": "https://www.eicma.it/en/visit/general-info/",
+        "source_checked_at": "2026-07-26T12:00:00-04:00",
+        "verification_status": "fonte_oficial_sem_flyer",
+        "visual_verification": {
+          "type": "pagina_oficial_de_servico_inspecionada",
+          "source_url": "https://www.eicma.it/en/visit/general-info/",
+          "checked_at": "2026-07-26T12:00:00-04:00",
+          "confirmed_fields": ["dates", "public_times", "venue", "organizer", "special_exhibitions"]
+        },
+        "admission_status": "Evento com ingresso; preços e lotes devem ser verificados no canal oficial de venda",
+        "parking": "A Fiera Milano possui estacionamento e acesso por transporte público; regras e tarifas de 2026 devem ser conferidas antes da visita",
+        "attractions": [
+          "Estreias mundiais e lançamentos",
+          "Motocicletas, scooters e mobilidade elétrica",
+          "MotoLive e experiências externas",
+          "Exposição do centenário Ducati",
+          "Exposição especial sobre a história da MotoGP"
+        ],
+        "body": "## Serviço verificado\n\nA EICMA 2026 abre ao público de 5 a 8 de novembro, das 9h30 às 18h30, na Fiera Milano Rho. Os dias 3 e 4 são reservados a imprensa e profissionais, com horários próprios.\n\n## Conteúdo\n\nA feira reúne estreias mundiais, motos, scooters, mobilidade elétrica, equipamentos, tecnologia e experiências externas. A edição de 2026 terá exposição do centenário Ducati e uma mostra especial dedicada à história da MotoGP.\n\n## Acesso e estacionamento\n\nO evento exige ingresso. A Fiera Milano dispõe de transporte público e estacionamento; preços, bolsões e regras operacionais devem ser consultados nos canais oficiais antes da visita.",
+        "last_updated": "2026-07-26T12:00:00-04:00"
+      }
+    },
+    {
+      "target_file": "content/events/agenda-comunitaria-2026.json",
+      "slug": "motoara-2026-araguaina-to-2026-10-10",
+      "patch": {
+        "body": "## Serviço verificado\n\nO Motoara 2026 está previsto para 10 e 11 de outubro em Araguaína. O reconhecimento no calendário cultural estadual confirma as datas, enquanto o site oficial identifica os Templários do Norte Moto Clube como idealizadores.\n\n## Perfil do evento\n\nA programação reúne motos, motores, carros especiais, rock, blues e ações sociais. Local, horários, estacionamento e condições de acesso da edição 2026 ainda aguardam publicação específica.\n\n## Organização e contato\n\nOs canais oficiais do Motoara e dos Templários do Norte devem ser consultados sobre eventuais mudanças antes da viagem."
+      }
+    }
+  ]
+}

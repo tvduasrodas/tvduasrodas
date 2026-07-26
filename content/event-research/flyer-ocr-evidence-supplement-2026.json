@@ -1,0 +1,715 @@
+{
+  "generated_at": "2026-07-26T05:10:15.428Z",
+  "source_url": "https://jb-rider.com.br/eventos.php",
+  "source_html": "jb-rider-eventos.html",
+  "cards_found": 704,
+  "agenda_active_entries": 556,
+  "mapped_entries": 548,
+  "unmatched_entries": [
+    {
+      "slug": "caveira-s-brasil-mc-marica-rj-2026-07-23",
+      "title": "10º Maricá Moto Fest",
+      "start_date": "2026-07-23",
+      "city": "Maricá",
+      "state": "RJ"
+    },
+    {
+      "slug": "campeonato-amapaense-de-ciclismo-2026-macapa-ap-2026-08-01",
+      "title": "Campeonato Amapaense de Ciclismo de Estrada, Contrarrelógio e MTB 2026",
+      "start_date": "2026-08-01",
+      "city": "Macapá",
+      "state": "AP"
+    },
+    {
+      "slug": "campeonato-de-motocross-de-rondonia-2026-cerejeiras-e-corumbiara-ro-2026-08-01",
+      "title": "Campeonato Rondoniense de Motocross 2026 — etapas de agosto",
+      "start_date": "2026-08-01",
+      "city": "Cerejeiras e Corumbiara",
+      "state": "RO"
+    },
+    {
+      "slug": "18-encontro-internacional-de-motos-de-altas-cilindradas-boa-vista-rr-2026-08-14",
+      "title": "18º Encontro Internacional de Motos de Altas Cilindradas",
+      "start_date": "2026-08-14",
+      "city": "Boa Vista",
+      "state": "RR"
+    },
+    {
+      "slug": "motoimp-2026-imperatriz-ma-2026-09-03",
+      "title": "Motoimp 2026",
+      "start_date": "2026-09-03",
+      "city": "Imperatriz",
+      "state": "MA"
+    },
+    {
+      "slug": "diamantina-motofest-2026-diamantina-mg-2026-09-04",
+      "title": "Diamantina Motofest 2026",
+      "start_date": "2026-09-04",
+      "city": "Diamantina",
+      "state": "MG"
+    },
+    {
+      "slug": "motoara-2026-araguaina-to-2026-10-10",
+      "title": "Motoara 2026",
+      "start_date": "2026-10-10",
+      "city": "Araguaína",
+      "state": "TO"
+    },
+    {
+      "slug": "20-encontro-de-motociclistas-motonave-navegantes-sc-2026-10-30",
+      "title": "20º Encontro de Motociclistas MotoNave",
+      "start_date": "2026-10-30",
+      "city": "Navegantes",
+      "state": "SC"
+    }
+  ],
+  "non_image_mapped_entries": [
+    {
+      "slug": "motofest-angra-dos-reis-rj-2026-07-23",
+      "event_title": "28º Angra MotoFest",
+      "event_city": "Angra dos Reis",
+      "event_state": "RJ",
+      "score": 0.8,
+      "card": {
+        "date_label": "23/07/2026 a 26/07/2026",
+        "start_date": "2026-07-23",
+        "title": "MOTOFEST",
+        "city": "Angra dos Reis",
+        "state": "RJ",
+        "media_type": "video",
+        "media_url": "https://jb-rider.com.br/eventos/20260723_4__MOTOFEST_Angra%20dos%20Reis_RJ.mp4",
+        "detail_url": null
+      }
+    },
+    {
+      "slug": "kveiras-do-amanhecer-belo-horizonte-mg-2026-07-25",
+      "event_title": "Kveiras do Amanhecer",
+      "event_city": "Belo Horizonte",
+      "event_state": "MG",
+      "score": 1.25,
+      "card": {
+        "date_label": "25/07/2026",
+        "start_date": "2026-07-25",
+        "title": "Kveiras do Amanhecer",
+        "city": "Belo Horizonte",
+        "state": "MG",
+        "media_type": "video",
+        "media_url": "https://jb-rider.com.br/eventos/20260725___Kveiras%20do%20Amanhecer_Belo%20Horizonte_MG.mp4",
+        "detail_url": null
+      }
+    },
+    {
+      "slug": "motorock-e-amizade-itauna-mg-2026-07-25",
+      "event_title": "MOTOROCK e AMIZADE",
+      "event_city": "Itauna",
+      "event_state": "MG",
+      "score": 1.25,
+      "card": {
+        "date_label": "25/07/2026",
+        "start_date": "2026-07-25",
+        "title": "MOTOROCK e AMIZADE",
+        "city": "Itauna",
+        "state": "MG",
+        "media_type": "video",
+        "media_url": "https://jb-rider.com.br/eventos/20260725___MOTOROCK%20e%20AMIZADE_Itauna_MG.mp4",
+        "detail_url": null
+      }
+    },
+    {
+      "slug": "esquadrao-quadrangular-e-motociclistas-com-cristo-assis-sp-2026-07-26",
+      "event_title": "Esquadrao Quadrangular e Motociclistas com Cristo",
+      "event_city": "Assis",
+      "event_state": "SP",
+      "score": 1.25,
+      "card": {
+        "date_label": "26/07/2026",
+        "start_date": "2026-07-26",
+        "title": "Esquadrao Quadrangular e Motociclistas com Cristo",
+        "city": "Assis",
+        "state": "SP",
+        "media_type": "video",
+        "media_url": "https://jb-rider.com.br/eventos/20260726___Esquadrao%20Quadrangular%20e%20Motociclistas%20com%20Cristo_Assis_SP.mp4",
+        "detail_url": null
+      }
+    },
+    {
+      "slug": "guardioes-da-serra-da-saudade-mc-serra-da-saudade-mg-2026-07-31",
+      "event_title": "Guardioes da Serra da Saudade MC",
+      "event_city": "Serra da Saudade",
+      "event_state": "MG",
+      "score": 1.25,
+      "card": {
+        "date_label": "31/07/2026 a 02/08/2026",
+        "start_date": "2026-07-31",
+        "title": "Guardioes da Serra da Saudade MC",
+        "city": "Serra da Saudade",
+        "state": "MG",
+        "media_type": "video",
+        "media_url": "https://jb-rider.com.br/eventos/20260731_3__Guardioes%20da%20Serra%20da%20Saudade%20MC_Serra%20da%20Saudade_MG.mp4",
+        "detail_url": null
+      }
+    },
+    {
+      "slug": "jaguar-negro-mc-the-steel-skulls-mc-belo-horizonte-mg-2026-08-08",
+      "event_title": "Jaguar Negro MC",
+      "event_city": "The Steel Skulls MC - Belo Horizonte",
+      "event_state": "MG",
+      "score": 1,
+      "card": {
+        "date_label": "08/08/2026",
+        "start_date": "2026-08-08",
+        "title": "Jaguar Negro MC - The Steel Skulls MC",
+        "city": "Belo Horizonte",
+        "state": "MG",
+        "media_type": "video",
+        "media_url": "https://jb-rider.com.br/eventos/20260808___Jaguar%20Negro%20MC%20-%20The%20Steel%20Skulls%20MC_Belo%20Horizonte_MG.mp4",
+        "detail_url": null
+      }
+    },
+    {
+      "slug": "terapia-na-estrada-macae-rj-2026-08-08",
+      "event_title": "Terapia na estrada",
+      "event_city": "Macae",
+      "event_state": "RJ",
+      "score": 1.25,
+      "card": {
+        "date_label": "08/08/2026",
+        "start_date": "2026-08-08",
+        "title": "Terapia na estrada",
+        "city": "Macae",
+        "state": "RJ",
+        "media_type": "video",
+        "media_url": "https://jb-rider.com.br/eventos/20260808___Terapia%20na%20estrada_Macae_RJ.mp4",
+        "detail_url": null
+      }
+    },
+    {
+      "slug": "mg-viramundo-rasga-chao-rio-branco-ac-2026-08-14",
+      "event_title": "MG Viramundo Rasga Chao",
+      "event_city": "Rio Branco",
+      "event_state": "AC",
+      "score": 1.25,
+      "card": {
+        "date_label": "14/08/2026 a 16/08/2026",
+        "start_date": "2026-08-14",
+        "title": "MG Viramundo Rasga Chao",
+        "city": "Rio Branco",
+        "state": "AC",
+        "media_type": "video",
+        "media_url": "https://jb-rider.com.br/eventos/20260814_3__MG%20Viramundo%20Rasga%20Chao_Rio%20Branco_AC.mp4",
+        "detail_url": null
+      }
+    },
+    {
+      "slug": "12-acampamento-nacional-rat-bike-do-brasil-jeceaba-mg-2026-08-15",
+      "event_title": "12 Acampamento Nacional Rat Bike do Brasil",
+      "event_city": "Jeceaba",
+      "event_state": "MG",
+      "score": 1.25,
+      "card": {
+        "date_label": "15/08/2026",
+        "start_date": "2026-08-15",
+        "title": "12 Acampamento Nacional Rat Bike do Brasil",
+        "city": "Jeceaba",
+        "state": "MG",
+        "media_type": "video",
+        "media_url": "https://jb-rider.com.br/eventos/20260815___12%20Acampamento%20Nacional%20Rat%20Bike%20do%20Brasil_Jeceaba_MG.mp4",
+        "detail_url": null
+      }
+    },
+    {
+      "slug": "5-praia-rock-chopper-mc-saquarema-rj-2026-08-15",
+      "event_title": "5 Praia",
+      "event_city": "Rock Chopper MC - Saquarema",
+      "event_state": "RJ",
+      "score": 1,
+      "card": {
+        "date_label": "15/08/2026 a 16/08/2026",
+        "start_date": "2026-08-15",
+        "title": "5 Praia - Rock Chopper MC",
+        "city": "Saquarema",
+        "state": "RJ",
+        "media_type": "video",
+        "media_url": "https://jb-rider.com.br/eventos/20260815_2__5%20Praia%20-%20Rock%20Chopper%20MC_Saquarema_RJ.mp4",
+        "detail_url": null
+      }
+    },
+    {
+      "slug": "andarilhos-mc-jundiai-sp-2026-08-15",
+      "event_title": "Andarilhos MC",
+      "event_city": "Jundiai",
+      "event_state": "SP",
+      "score": 1.25,
+      "card": {
+        "date_label": "15/08/2026",
+        "start_date": "2026-08-15",
+        "title": "Andarilhos MC",
+        "city": "Jundiai",
+        "state": "SP",
+        "media_type": "video",
+        "media_url": "https://jb-rider.com.br/eventos/20260815___Andarilhos%20MC_Jundiai_SP.mp4",
+        "detail_url": null
+      }
+    },
+    {
+      "slug": "2-moto-rock-espinosa-mg-2026-08-21",
+      "event_title": "2 MOTO ROCK",
+      "event_city": "Espinosa",
+      "event_state": "MG",
+      "score": 1.25,
+      "card": {
+        "date_label": "21/08/2026 a 22/08/2026",
+        "start_date": "2026-08-21",
+        "title": "2 MOTO ROCK",
+        "city": "Espinosa",
+        "state": "MG",
+        "media_type": "video",
+        "media_url": "https://jb-rider.com.br/eventos/20260821_2__2%20MOTO%20ROCK_Espinosa_MG.mp4",
+        "detail_url": null
+      }
+    },
+    {
+      "slug": "amigos-na-estrada-mc-sao-jose-do-vale-do-rio-preto-rj-2026-08-23",
+      "event_title": "Amigos na Estrada MC",
+      "event_city": "Sao Jose do Vale do Rio Preto",
+      "event_state": "RJ",
+      "score": 1.25,
+      "card": {
+        "date_label": "23/08/2026",
+        "start_date": "2026-08-23",
+        "title": "Amigos na Estrada MC",
+        "city": "Sao Jose do Vale do Rio Preto",
+        "state": "RJ",
+        "media_type": "video",
+        "media_url": "https://jb-rider.com.br/eventos/20260823___Amigos%20na%20Estrada%20MC_Sao%20Jose%20do%20Vale%20do%20Rio%20Preto_RJ.mp4",
+        "detail_url": null
+      }
+    },
+    {
+      "slug": "ralladuz-mc-tres-marias-mg-2026-08-27",
+      "event_title": "Ralladuz MC",
+      "event_city": "Tres Marias",
+      "event_state": "MG",
+      "score": 1.25,
+      "card": {
+        "date_label": "27/08/2026 a 30/08/2026",
+        "start_date": "2026-08-27",
+        "title": "Ralladuz MC",
+        "city": "Tres Marias",
+        "state": "MG",
+        "media_type": "video",
+        "media_url": "https://jb-rider.com.br/eventos/20260827_4__Ralladuz%20MC_Tres%20Marias_MG.mp4",
+        "detail_url": null
+      }
+    },
+    {
+      "slug": "vi-encontro-tres-marias-mg-2026-08-27",
+      "event_title": "VI Encontro",
+      "event_city": "Tres Marias",
+      "event_state": "MG",
+      "score": 1.25,
+      "card": {
+        "date_label": "27/08/2026 a 30/08/2026",
+        "start_date": "2026-08-27",
+        "title": "VI Encontro",
+        "city": "Tres Marias",
+        "state": "MG",
+        "media_type": "video",
+        "media_url": "https://jb-rider.com.br/eventos/20260827_4__VI%20Encontro_Tres%20Marias_MG.mp4",
+        "detail_url": null
+      }
+    },
+    {
+      "slug": "iron-wolves-mc-marataizes-es-2026-08-28",
+      "event_title": "Iron Wolves MC",
+      "event_city": "Marataizes",
+      "event_state": "ES",
+      "score": 1.25,
+      "card": {
+        "date_label": "28/08/2026 a 29/08/2026",
+        "start_date": "2026-08-28",
+        "title": "Iron Wolves MC",
+        "city": "Marataizes",
+        "state": "ES",
+        "media_type": "video",
+        "media_url": "https://jb-rider.com.br/eventos/20260828_2__Iron%20Wolves%20MC_Marataizes_ES.mp4",
+        "detail_url": null
+      }
+    },
+    {
+      "slug": "mc-os-lobos-formosa-go-2026-08-29",
+      "event_title": "MC Os Lobos",
+      "event_city": "Formosa",
+      "event_state": "GO",
+      "score": 1.25,
+      "card": {
+        "date_label": "29/08/2026",
+        "start_date": "2026-08-29",
+        "title": "MC Os Lobos",
+        "city": "Formosa",
+        "state": "GO",
+        "media_type": "video",
+        "media_url": "https://jb-rider.com.br/eventos/20260829___MC%20Os%20Lobos_Formosa_GO.mp4",
+        "detail_url": null
+      }
+    },
+    {
+      "slug": "motofest-belo-jardim-pe-2026-09-04",
+      "event_title": "MOTOFEST",
+      "event_city": "Belo Jardim",
+      "event_state": "PE",
+      "score": 1.25,
+      "card": {
+        "date_label": "04/09/2026 a 06/09/2026",
+        "start_date": "2026-09-04",
+        "title": "MOTOFEST",
+        "city": "Belo Jardim",
+        "state": "PE",
+        "media_type": "video",
+        "media_url": "https://jb-rider.com.br/eventos/20260904_3__MOTOFEST_Belo%20Jardim_PE.mp4",
+        "detail_url": null
+      }
+    },
+    {
+      "slug": "rat-bike-salto-grande-sp-2026-09-05",
+      "event_title": "Rat Bike",
+      "event_city": "Salto GRande",
+      "event_state": "SP",
+      "score": 1.25,
+      "card": {
+        "date_label": "05/09/2026 a 07/09/2026",
+        "start_date": "2026-09-05",
+        "title": "Rat Bike",
+        "city": "Salto Grande",
+        "state": "SP",
+        "media_type": "video",
+        "media_url": "https://jb-rider.com.br/eventos/20260905_3__Rat%20Bike_Salto%20Grande_SP.mp4",
+        "detail_url": null
+      }
+    },
+    {
+      "slug": "virados-no-avesso-mc-sorocaba-sp-2026-09-19",
+      "event_title": "Virados no Avesso MC",
+      "event_city": "Sorocaba",
+      "event_state": "SP",
+      "score": 1.25,
+      "card": {
+        "date_label": "19/09/2026",
+        "start_date": "2026-09-19",
+        "title": "Virados no Avesso MC",
+        "city": "Sorocaba",
+        "state": "SP",
+        "media_type": "video",
+        "media_url": "https://jb-rider.com.br/eventos/20260919___Virados%20no%20Avesso%20MC_Sorocaba_SP.mp4",
+        "detail_url": null
+      }
+    },
+    {
+      "slug": "professores-mc-vila-velhas-es-2026-10-17",
+      "event_title": "Professores MC",
+      "event_city": "Vila Velhas",
+      "event_state": "ES",
+      "score": 1.25,
+      "card": {
+        "date_label": "17/10/2026",
+        "start_date": "2026-10-17",
+        "title": "Professores MC",
+        "city": "Vila Velhas",
+        "state": "ES",
+        "media_type": "video",
+        "media_url": "https://jb-rider.com.br/eventos/20261017___Professores%20MC_Vila%20Velhas_ES.mp4",
+        "detail_url": null
+      }
+    },
+    {
+      "slug": "4-festival-da-pimenta-e-motorock-uru-sp-2026-10-30",
+      "event_title": "4 Festival da Pimenta e MotoRock",
+      "event_city": "Uru",
+      "event_state": "SP",
+      "score": 1.25,
+      "card": {
+        "date_label": "30/10/2026 a 01/11/2026",
+        "start_date": "2026-10-30",
+        "title": "4 Festival da Pimenta e MotoRock",
+        "city": "Uru",
+        "state": "SP",
+        "media_type": "video",
+        "media_url": "https://jb-rider.com.br/eventos/20261030_3__4%20Festival%20da%20Pimenta%20e%20MotoRock_Uru_SP.mp4",
+        "detail_url": null
+      }
+    },
+    {
+      "slug": "motorock-uru-sp-2026-10-30",
+      "event_title": "MOTOROCK",
+      "event_city": "Uru",
+      "event_state": "SP",
+      "score": 1.25,
+      "card": {
+        "date_label": "30/10/2026 a 01/11/2026",
+        "start_date": "2026-10-30",
+        "title": "MOTOROCK",
+        "city": "Uru",
+        "state": "SP",
+        "media_type": "video",
+        "media_url": "https://jb-rider.com.br/eventos/20261030_3__MOTOROCK_Uru_SP.mp4",
+        "detail_url": null
+      }
+    },
+    {
+      "slug": "motofest-carbonita-mg-2026-10-31",
+      "event_title": "MOTOFEST",
+      "event_city": "Carbonita",
+      "event_state": "MG",
+      "score": 1.25,
+      "card": {
+        "date_label": "31/10/2026",
+        "start_date": "2026-10-31",
+        "title": "MOTOFEST",
+        "city": "Carbonita",
+        "state": "MG",
+        "media_type": "video",
+        "media_url": "https://jb-rider.com.br/eventos/20261031___MOTOFEST_Carbonita_MG.mp4",
+        "detail_url": null
+      }
+    },
+    {
+      "slug": "exitus-brasil-mc-marica-rj-2026-11-08",
+      "event_title": "Exitus Brasil MC",
+      "event_city": "Marica",
+      "event_state": "RJ",
+      "score": 1.25,
+      "card": {
+        "date_label": "08/11/2026",
+        "start_date": "2026-11-08",
+        "title": "Exitus Brasil MC",
+        "city": "Marica",
+        "state": "RJ",
+        "media_type": "video",
+        "media_url": "https://jb-rider.com.br/eventos/20261108___Exitus%20Brasil%20MC_Marica_RJ.mp4",
+        "detail_url": null
+      }
+    },
+    {
+      "slug": "steel-goose-mc-araruama-rj-2026-11-28",
+      "event_title": "Steel Goose MC",
+      "event_city": "Araruama",
+      "event_state": "RJ",
+      "score": 1.25,
+      "card": {
+        "date_label": "28/11/2026",
+        "start_date": "2026-11-28",
+        "title": "Steel Goose MC",
+        "city": "Araruama",
+        "state": "RJ",
+        "media_type": "video",
+        "media_url": "https://jb-rider.com.br/eventos/20261128___Steel%20Goose%20MC_Araruama_RJ.mp4",
+        "detail_url": null
+      }
+    }
+  ],
+  "ocr_entries": [
+    {
+      "slug": "confraria-das-aguias-mg-skulls-on-the-ride-mc-contagem-mg-2026-08-08",
+      "event_title": "Confraria das Aguias MG",
+      "event_city": "Skulls On The Ride MC - Contagem",
+      "event_state": "MG",
+      "score": 1,
+      "card": {
+        "date_label": "08/08/2026",
+        "start_date": "2026-08-08",
+        "title": "Confraria das Aguias MG - Skulls On The Ride MC",
+        "city": "Contagem",
+        "state": "MG",
+        "media_type": "image",
+        "media_url": "https://jb-rider.com.br/eventos/20260808___Confraria%20das%20Aguias%20MG%20-%20Skulls%20On%20The%20Ride%20MC_Contagem_MG.jpeg",
+        "detail_url": "https://jb-rider.com.br/evento/20260808-confraria-das-aguias-mg-skulls-on-the-ride-mc-contagem-mg"
+      },
+      "fetch_status": "ok",
+      "ocr_confidence": 48,
+      "signals": {
+        "times": [],
+        "phones": [],
+        "postal_codes": [],
+        "keywords": [],
+        "address_lines": [
+          "Forjados na Estrada, Unidos pela Irmandade"
+        ]
+      }
+    },
+    {
+      "slug": "mundicas-o-chamado-da-estrada-nova-pauliceia-sp-2026-08-09",
+      "event_title": "Mundicas",
+      "event_city": "O Chamado da Estrada - Nova Pauliceia",
+      "event_state": "SP",
+      "score": 1,
+      "card": {
+        "date_label": "09/08/2026",
+        "start_date": "2026-08-09",
+        "title": "Mundicas - O Chamado da Estrada",
+        "city": "Nova Pauliceia",
+        "state": "SP",
+        "media_type": "image",
+        "media_url": "https://jb-rider.com.br/eventos/20260809___Mundicas%20-%20O%20Chamado%20da%20Estrada_Nova%20Pauliceia_SP.jpeg",
+        "detail_url": "https://jb-rider.com.br/evento/20260809-mundicas-o-chamado-da-estrada-nova-pauliceia-sp"
+      },
+      "fetch_status": "ok",
+      "ocr_confidence": 44,
+      "signals": {
+        "times": [],
+        "phones": [],
+        "postal_codes": [],
+        "keywords": [
+          "banda"
+        ],
+        "address_lines": [
+          "“EOCHAMADO DA ESTRADA /"
+        ]
+      }
+    },
+    {
+      "slug": "mundicas-mg-o-chamado-da-estrada-nova-pauliceia-gaviao-peixoto-sp-2026-08-09",
+      "event_title": "Mundicas MG",
+      "event_city": "O Chamado da Estrada - Nova Pauliceia - Gaviao Peixoto",
+      "event_state": "SP",
+      "score": 1,
+      "card": {
+        "date_label": "09/08/2026",
+        "start_date": "2026-08-09",
+        "title": "Mundicas MG - O Chamado da Estrada - Nova Pauliceia",
+        "city": "Gaviao Peixoto",
+        "state": "SP",
+        "media_type": "image",
+        "media_url": "https://jb-rider.com.br/eventos/20260809___Mundicas%20MG%20-%20O%20Chamado%20da%20Estrada_Nova%20Pauliceia%20-%20Gaviao%20Peixoto_SP.jpeg",
+        "detail_url": "https://jb-rider.com.br/evento/20260809-mundicas-mg-o-chamado-da-estrada-nova-pauliceia-gaviao-peixoto-sp"
+      },
+      "fetch_status": "ok",
+      "ocr_confidence": 44,
+      "signals": {
+        "times": [],
+        "phones": [],
+        "postal_codes": [],
+        "keywords": [
+          "entrada franca",
+          "rock",
+          "show"
+        ],
+        "address_lines": [
+          "ESTRADA . ..."
+        ]
+      }
+    },
+    {
+      "slug": "mg-stl-so-para-loucos-sao-thome-das-letras-mg-2026-09-04",
+      "event_title": "MG STL So para Loucos",
+      "event_city": "Sao Thome das Letras",
+      "event_state": "MG",
+      "score": 1.25,
+      "card": {
+        "date_label": "04/09/2026 a 06/09/2026",
+        "start_date": "2026-09-04",
+        "title": "MG STL - So Para Loucos",
+        "city": "Sao Thome das Letras",
+        "state": "MG",
+        "media_type": "image",
+        "media_url": "https://jb-rider.com.br/eventos/20260904_3__MG%20STL%20-%20So%20Para%20Loucos_Sao%20Thome%20das%20Letras_MG.jpeg",
+        "detail_url": "https://jb-rider.com.br/evento/20260904-3-mg-stl-so-para-loucos-sao-thome-das-letras-mg"
+      },
+      "fetch_status": "ok",
+      "ocr_confidence": 43,
+      "signals": {
+        "times": [],
+        "phones": [
+          "3598465-7329",
+          "3599808-6931",
+          "8199184-3889"
+        ],
+        "postal_codes": [],
+        "keywords": [
+          "estacionamento",
+          "camping",
+          "rock",
+          "sorteio"
+        ],
+        "address_lines": [
+          "T1 PRAÇA DE AUVENTAÇÃO Ria s 05 ANS Za"
+        ]
+      }
+    },
+    {
+      "slug": "mg-stl-so-para-loucos-sao-thome-das-letras-mg-2026-09-04",
+      "event_title": "MG STL",
+      "event_city": "So Para Loucos - Sao Thome das Letras",
+      "event_state": "MG",
+      "score": 1,
+      "card": {
+        "date_label": "04/09/2026 a 06/09/2026",
+        "start_date": "2026-09-04",
+        "title": "MG STL - So Para Loucos",
+        "city": "Sao Thome das Letras",
+        "state": "MG",
+        "media_type": "image",
+        "media_url": "https://jb-rider.com.br/eventos/20260904_3__MG%20STL%20-%20So%20Para%20Loucos_Sao%20Thome%20das%20Letras_MG.jpeg",
+        "detail_url": "https://jb-rider.com.br/evento/20260904-3-mg-stl-so-para-loucos-sao-thome-das-letras-mg"
+      },
+      "fetch_status": "ok",
+      "ocr_confidence": 43,
+      "signals": {
+        "times": [],
+        "phones": [
+          "3598465-7329",
+          "3599808-6931",
+          "8199184-3889"
+        ],
+        "postal_codes": [],
+        "keywords": [
+          "estacionamento",
+          "camping",
+          "rock",
+          "sorteio"
+        ],
+        "address_lines": [
+          "T1 PRAÇA DE AUVENTAÇÃO Ria s 05 ANS Za"
+        ]
+      }
+    },
+    {
+      "slug": "nostalgia-mc-caes-de-zorba-mc-santa-barbara-d-oeste-sp-2026-09-18",
+      "event_title": "Nostalgia MC",
+      "event_city": "Caes de Zorba MC - Santa Barbara D Oeste",
+      "event_state": "SP",
+      "score": 1,
+      "card": {
+        "date_label": "18/09/2026 a 19/09/2026",
+        "start_date": "2026-09-18",
+        "title": "Nostalgia MC - Caes de Zorba MC",
+        "city": "Santa Barbara D Oeste",
+        "state": "SP",
+        "media_type": "image",
+        "media_url": "https://jb-rider.com.br/eventos/20260918_2__Nostalgia%20MC%20-%20Caes%20de%20Zorba%20MC_Santa%20Barbara%20D%20Oeste_SP.jpeg",
+        "detail_url": "https://jb-rider.com.br/evento/20260918-2-nostalgia-mc-caes-de-zorba-mc-santa-barbara-d-oeste-sp"
+      },
+      "fetch_status": "ok",
+      "ocr_confidence": 52,
+      "signals": {
+        "times": [],
+        "phones": [
+          "8262 0252",
+          "19 9 8113 3814"
+        ],
+        "postal_codes": [],
+        "keywords": [
+          "camping",
+          "chuveiro",
+          "café da manhã",
+          "rock",
+          "banda",
+          "expositor",
+          "troféu"
+        ],
+        "address_lines": [
+          "“ — ESTRADA VEREADOR SAUL FORNAZIN, 4800 ”"
+        ]
+      }
+    }
+  ]
+}

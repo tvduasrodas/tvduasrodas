@@ -5,7 +5,7 @@
   "city": "Chongqing",
   "state": "China",
   "venue": "Chongqing International Expo Center",
-  "status": "proximo",
+  "status": "agendada",
   "event_type": "Salão internacional de motocicletas",
   "official_url": "https://en.cimamotor.com/exhibition",
   "ticket_url": "https://en.cimamotor.com/exhibition",
@@ -15,8 +15,41 @@
   "featured": true,
   "free": false,
   "summary": "O salão de Chongqing apresenta motocicletas, scooters, elétricos, peças e tecnologias de uma das maiores indústrias do setor.",
-  "attractions": ["Lançamentos de motocicletas", "Scooters e modelos elétricos", "Peças e acessórios", "Tecnologia e indústria"],
+  "attractions": [
+    "Lançamentos de motocicletas e novas tecnologias",
+    "Veículos elétricos e conectados",
+    "Peças, acessórios e serviços",
+    "Fóruns, corridas, apresentações e festivais",
+    "Encontros comerciais e cadeia internacional"
+  ],
   "videos": [],
-  "body": "## A indústria asiática em destaque\n\nA CIMAMotor reúne fabricantes, fornecedores e novas tecnologias em Chongqing. Para o público brasileiro, o evento ajuda a antecipar produtos e tendências que podem chegar a outros mercados. Confirme a programação e as regras de visitação no site oficial.",
-  "last_updated": "2026-07-21T15:00:00-04:00"
+  "body": "## Serviço verificado\n\nA 24ª CIMAMotor acontece de 19 a 22 de setembro no Chongqing International Expo Center. O dia 19 funciona das 9h às 18h; os dias 20 e 21, das 9h30 às 18h; e o dia 22, das 9h30 às 13h. A entrada encerra 30 minutos antes.\n\n## Acesso\n\nÉ necessário ingresso. A venda pública ainda não estava aberta na consulta, enquanto o pré-registro profissional já estava disponível. Visitantes estrangeiros precisam apresentar passaporte ou documento aceito na validação.\n\n## Transporte e estacionamento\n\nO acesso pode ser feito pelas linhas 6 e 10 do metrô até a estação Yuelai. Os estacionamentos P25, P26 e P27 são indicados como gratuitos para visitantes.\n\n## Conteúdo\n\nA feira integra exposição de motos, elétricos, componentes e tecnologia a fóruns, corridas, apresentações, festivais e reuniões comerciais.",
+  "last_updated": "2026-07-26T12:00:00-04:00",
+  "timezone": "Asia/Shanghai",
+  "time_label": "19 de setembro, das 9h às 18h; 20 e 21, das 9h30 às 18h; 22, das 9h30 às 13h; entrada encerra 30 minutos antes",
+  "street_address": "No. 66, Yuelai Avenue, Yubei District",
+  "full_address": "No. 66, Yuelai Avenue, Yubei District, Chongqing 401120, China",
+  "organizer": "China Chamber of International Commerce Chongqing Chamber, Chongqing Exhibition Center Co. e China Chamber of Commerce for Motorcycle",
+  "contact": "+86 13087831636 | visitor@cimamotor.com | info@cimamotor.com",
+  "status_basis": "Guia oficial do visitante confirma datas, horários, endereço, entrada, transporte e estacionamento.",
+  "status_checked_at": "2026-07-26T12:00:00-04:00",
+  "source_url": "https://en.cimamotor.com/exhibition/customer/guide",
+  "source_checked_at": "2026-07-26T12:00:00-04:00",
+  "verification_status": "fonte_oficial_sem_flyer",
+  "visual_verification": {
+    "type": "guia_oficial_do_visitante_inspecionado",
+    "source_url": "https://en.cimamotor.com/exhibition/customer/guide",
+    "checked_at": "2026-07-26T12:00:00-04:00",
+    "confirmed_fields": [
+      "dates",
+      "times",
+      "address",
+      "admission",
+      "parking",
+      "transport",
+      "contact"
+    ]
+  },
+  "admission_status": "Ingresso obrigatório; venda pública ainda não aberta. Visitantes profissionais podem realizar pré-registro e estrangeiros devem apresentar passaporte ou documento aceito",
+  "parking": "Estacionamento gratuito para visitantes nos bolsões P25, P26 e P27"
 }
