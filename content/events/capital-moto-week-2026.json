@@ -48,7 +48,7 @@
     }
   },
   "body": "## Situação atual\n\nO Capital Moto Week está em andamento no Parque de Exposições Granja do Torto, em Brasília. A abertura do primeiro dia ocorreu às 17h; de segunda a sexta, os portões abrem ao meio-dia, e aos sábados e no domingo, às 9h. Os shows do Palco Principal começam após as 18h.\n\n## Acesso\n\nA venda oficial é feita pela Bilheteria Digital. Piloto sem garupa não paga, sujeito à lotação. Moto com garupa entra gratuitamente de segunda a sexta até 18h e aos sábados e domingos até 15h, também sujeita à lotação. Crianças de até 12 anos e pessoas com deficiência têm regras próprias de gratuidade; menores de 16 anos devem estar acompanhados por responsável legal.\n\n## Estrutura\n\nO complexo reúne mais de 100 shows, cinco palcos, praças de alimentação, área comercial, atrações radicais, roda-gigante, camping e espaço para motorhomes. Há banheiros, chuveiros, fraldário e áreas acessíveis para pessoas com deficiência.\n\n## Estacionamento\n\nO mapa oficial identifica o E2 como estacionamento público. E1, E4 e E6 atendem PCD ou veículos credenciados conforme a área. A organização recomenda conferir o mapa e as condições do dia antes do deslocamento.",
-  "last_updated": "2026-07-26T01:15:00-04:00",
+  "last_updated": "2026-07-27T08:47:00-04:00",
   "timezone": "America/Sao_Paulo",
   "local_start": "2026-07-23T17:00:00-03:00",
   "local_end": "2026-08-02T03:00:00-03:00",
@@ -64,12 +64,37 @@
   "source_url": "https://www.capitalmotoweek.com.br/info",
   "source_label": "Informações gerais e mapa oficial do Capital Moto Week",
   "verification_status": "fonte_oficial_com_mapa_inspecionado",
-  "source_checked_at": "2026-07-26T08:09:22.554428+00:00",
-  "status_checked_at": "2026-07-26T01:15:00-04:00",
+  "source_checked_at": "2026-07-27T08:47:00-04:00",
+  "status_checked_at": "2026-07-27T08:47:00-04:00",
+  "relevance_tier": "alta_relevancia",
+  "relevance_score": 86,
+  "relevance_previous_score": 86,
+  "relevance_confidence": "alta",
+  "relevance_evaluated_at": "2026-07-27T08:47:00-04:00",
+  "relevance_trend": "estavel",
+  "relevance_reason_codes": [
+    "escala_publico_confirmada",
+    "programacao_nacional_e_internacional",
+    "organizacao_consolidada",
+    "impacto_turistico_e_territorial",
+    "cobertura_editorial_independente"
+  ],
+  "coverage_t1_required": true,
+  "relevance_evidence": {
+    "checked_at": "2026-07-27T08:47:00-04:00",
+    "sources": [
+      "https://www.capitalmotoweek.com.br/"
+    ],
+    "signals": [
+      "programacao oficial de 23 de julho a 1 de agosto de 2026",
+      "mais de 100 shows em 10 dias",
+      "organizacao informa mais de 800 mil pessoas e mais de 350 mil motos"
+    ]
+  },
   "visual_verification": {
     "type": "mapa_oficial_do_complexo",
     "source_url": "https://www.capitalmotoweek.com.br/",
-    "checked_at": "2026-07-26T01:15:00-04:00",
+    "checked_at": "2026-07-27T08:47:00-04:00",
     "confirmed_fields": [
       "venue",
       "parking_areas",
