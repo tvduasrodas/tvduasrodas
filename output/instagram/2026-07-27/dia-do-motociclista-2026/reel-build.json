@@ -1,0 +1,50 @@
+{
+  "format": "1080x1920",
+  "video_codec": "H.264",
+  "audio_codec": "AAC",
+  "transition": "page_peel_diagonal",
+  "soundtrack": "rock_instrumental_original",
+  "scene_count": 6,
+  "nominal_duration_seconds": 23.25,
+  "rights_verified": true,
+  "source_manifest": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-07-27\\dia-do-motociclista-2026\\reel-manifest.json",
+  "content_url": "https://tvduasrodas.com/materias/dia-do-motociclista-2026-respeito-seguranca/",
+  "scenes": [
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-07-27\\dia-do-motociclista-2026\\reel-source-01.jpg",
+      "sha256": "769f6004f0fd482204c0e75233b46470fe41f2b3ae4cb6e8aaee42150975c435",
+      "credit": "Arte: TVDUASRODAS",
+      "source_url": "https://tvduasrodas.com/"
+    },
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-07-27\\dia-do-motociclista-2026\\reel-source-02.jpg",
+      "sha256": "d178369e644084e2322fc6a129a107d7c93594826f1ba37e82ff11281c92f65c",
+      "credit": "Arte: TVDUASRODAS",
+      "source_url": "https://tvduasrodas.com/"
+    },
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-07-27\\dia-do-motociclista-2026\\reel-source-03.jpg",
+      "sha256": "d6944f5c7a931a049f60c5f34535ee9be6f7ce4a0b6f0b67c270e019aa21385c",
+      "credit": "Arte: TVDUASRODAS",
+      "source_url": "https://tvduasrodas.com/"
+    },
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-07-27\\dia-do-motociclista-2026\\reel-source-04.jpg",
+      "sha256": "8ca6a21337920842c47a288c3a939424cf46148e551ac0a704b616680f08f210",
+      "credit": "Arte: TVDUASRODAS",
+      "source_url": "https://tvduasrodas.com/"
+    },
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-07-27\\dia-do-motociclista-2026\\reel-source-05.jpg",
+      "sha256": "42ca3e3bb6b3bd7a7ab09a26eb1885a14b75a025a5278426d4f00c9136bc24ff",
+      "credit": "Arte: TVDUASRODAS",
+      "source_url": "https://tvduasrodas.com/"
+    },
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-07-27\\dia-do-motociclista-2026\\reel-source-06.jpg",
+      "sha256": "5ae876507eb402895d5cb4aceb104350b65c158801b3b15c7e03553169311fb9",
+      "credit": "Arte: TVDUASRODAS",
+      "source_url": "https://tvduasrodas.com/"
+    }
+  ]
+}
