@@ -722,5 +722,31 @@
       "metaContentId": "18334678822283270",
       "publicationConfirmation": "Meta Business Suite aprovou a verificação de direitos e o Planner confirmou o Reel do Instagram às 12:31."
     }
+  },
+  {
+    "url": "https://tvduasrodas.com/tv?v=MoPf6_wRvdM",
+    "type": "video",
+    "title": "Motos hibridas: MotoDiario explica a combinacao de combustao e eletricidade",
+    "detectedAt": "2026-07-27T11:32:48-04:00",
+    "validation": {
+      "publicUrl": "CONFIRMADA_NO_NAVEGADOR",
+      "player": "CONFIRMADO",
+      "youtubeId": "MoPf6_wRvdM",
+      "youtubeChannel": "MotoDiario",
+      "audioOriginal": "pt-BR_DECLARADO_NO_FRONTMATTER",
+      "validatedAt": "2026-07-27T11:34:15-04:00",
+      "reason": "A URL canonical /videos/ retornou a pagina inicial; o player publico em /tv?v=MoPf6_wRvdM exibiu titulo, canal e embed ativo."
+    },
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
+    "stories": {
+      "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES",
+      "reason": "Nao ha midia editorial com direitos verificados para produzir o pacote coordenado."
+    },
+    "reel": {
+      "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES",
+      "reason": "Nao foram localizadas cinco imagens realmente diferentes, autorizadas e verificaveis; o Reel nao pode usar repeticao, cortes da mesma imagem ou registro documental gerado por IA."
+    }
   }
 ]
