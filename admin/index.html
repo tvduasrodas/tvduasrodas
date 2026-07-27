@@ -4,8 +4,32 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Admin | TV Duas Rodas</title>
+  <style>
+    .cms-global-search {
+      position: fixed;
+      right: 20px;
+      bottom: 20px;
+      z-index: 2147483647;
+      display: inline-flex;
+      align-items: center;
+      min-height: 46px;
+      padding: 0 18px;
+      border-radius: 999px;
+      background: #f97316;
+      color: #17110c;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, .35);
+      font: 800 14px/1 system-ui, sans-serif;
+      text-decoration: none;
+    }
+    .cms-global-search:hover,
+    .cms-global-search:focus-visible {
+      background: #ff9a4b;
+      transform: translateY(-1px);
+    }
+  </style>
 </head>
 <body>
+    <a class="cms-global-search" href="/admin/busca.html" aria-label="Abrir a busca geral de conteúdo">🔎 Busca geral</a>
     <!-- Decap CMS (antigo Netlify CMS) -->
     <script src="https://unpkg.com/@sveltia/cms/dist/sveltia-cms.js"></script>
 </body>

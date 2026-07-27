@@ -6,6 +6,7 @@ backend:
 
 site_url: "https://tvduasrodas.com/"
 display_url: "https://tvduasrodas.com/"
+locale: "pt"
 
 media_folder: "assets/img/uploads"
 public_folder: "/assets/img/uploads"
@@ -13,6 +14,7 @@ public_folder: "/assets/img/uploads"
 collections:
   # 1) VÍDEOS / EPISÓDIOS DO CANAL
   - name: "videos"
+    icon: "smart_display"
     label: "Vídeos"
     label_singular: "Vídeo"
     folder: "content/videos"
@@ -20,6 +22,14 @@ collections:
     slug: "{{slug}}"
     summary: "{{title}} — {{date}}"
     sort: "date:desc"
+    sortable_fields: ["date", "title", "category", "channel"]
+    view_filters:
+      - { label: "Destaques", field: "featured", pattern: "true" }
+      - { label: "Eventos", field: "category", pattern: "eventos" }
+      - { label: "Competições", field: "category", pattern: "competicoes" }
+    view_groups:
+      - { label: "Categoria", field: "category" }
+      - { label: "Canal", field: "channel" }
     fields:
       - { label: "Título", name: "title", widget: "string" }
       - { label: "Data de publicação", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ssZ" }
@@ -60,6 +70,7 @@ collections:
 
   # 2) NOTÍCIAS / ARTIGOS
   - name: "news"
+    icon: "article"
     label: "Notícias"
     label_singular: "Notícia"
     folder: "content/news"
@@ -67,6 +78,15 @@ collections:
     slug: "{{slug}}"
     summary: "{{title}} — {{date}}"
     sort: "date:desc"
+    sortable_fields: ["date", "title", "category", "contentType"]
+    view_filters:
+      - { label: "Destaques", field: "featured", pattern: "true" }
+      - { label: "Matérias", field: "contentType", pattern: "article" }
+      - { label: "Notícias", field: "contentType", pattern: "news" }
+      - { label: "Programas", field: "contentType", pattern: "program" }
+    view_groups:
+      - { label: "Categoria", field: "category" }
+      - { label: "Tipo", field: "contentType" }
     fields:
       - { label: "Título", name: "title", widget: "string" }
       - { label: "Data", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ssZ" }
@@ -106,6 +126,7 @@ collections:
 
   # 3) COMPETIÇÕES
   - name: "competitions"
+    icon: "emoji_events"
     label: "Competições"
     label_singular: "Competição"
     folder: "content/competitions"
@@ -115,6 +136,14 @@ collections:
     slug: "{{slug}}"
     summary: "{{title}} — temporada {{season}}"
     filter: { field: "title", pattern: ".+" }
+    sortable_fields: ["title", "season", "status", "modality"]
+    view_filters:
+      - { label: "Em andamento", field: "status", pattern: "em_andamento" }
+      - { label: "Agendadas", field: "status", pattern: "agendada" }
+      - { label: "Concluídas", field: "status", pattern: "concluida" }
+    view_groups:
+      - { label: "Modalidade", field: "modality" }
+      - { label: "Situação", field: "status" }
     fields:
       - { label: "Nome completo", name: "title", widget: "string" }
       - { label: "Nome curto", name: "short_name", widget: "string" }
@@ -181,6 +210,7 @@ collections:
 
   # 4) EVENTOS
   - name: "events"
+    icon: "event"
     label: "Eventos"
     label_singular: "Evento"
     folder: "content/events"
@@ -189,7 +219,16 @@ collections:
     extension: "json"
     slug: "{{slug}}"
     summary: "{{title}} — {{start_date}}"
-    filter: { field: "title", pattern: ".+" }
+    filter: { field: "entries", value: null }
+    sortable_fields: ["start_date", "title", "state", "city", "status"]
+    view_filters:
+      - { label: "Próximos", field: "status", pattern: "proximo" }
+      - { label: "Em andamento", field: "status", pattern: "em_andamento" }
+      - { label: "Encerrados", field: "status", pattern: "encerrado" }
+      - { label: "Destaques", field: "featured", pattern: "true" }
+    view_groups:
+      - { label: "Estado", field: "state" }
+      - { label: "Situação", field: "status" }
     fields:
       - { label: "Nome do evento", name: "title", widget: "string" }
       - { label: "Data inicial", name: "start_date", widget: "datetime", type: "date", format: "YYYY-MM-DD" }
@@ -288,6 +327,132 @@ collections:
             name: "body"
             widget: "markdown"
             required: false
+
+  # 7) MATÉRIAS DO ACERVO EM JSON
+  - name: "legacy_articles"
+    label: "Acervo de matérias"
+    label_singular: "Matéria do acervo"
+    icon: "inventory_2"
+    folder: "content/articles"
+    create: true
+    format: "json"
+    extension: "json"
+    identifier_field: "title"
+    slug: "{{slug}}"
+    summary: "{{title}} — {{date}}"
+    sortable_fields: ["date", "title", "category"]
+    view_groups:
+      - { label: "Categoria", field: "category" }
+    fields:
+      - { label: "Slug", name: "slug", widget: "string", hint: "Endereço da matéria, sem espaços ou acentos." }
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Chamada", name: "kicker", widget: "string", required: false }
+      - { label: "Linha editorial", name: "tagline", widget: "string", required: false }
+      - { label: "Categoria", name: "category", widget: "string" }
+      - { label: "Autor", name: "author", widget: "string", required: false }
+      - { label: "Data exibida", name: "date", widget: "string", hint: "Use dia, mês e ano, por exemplo: 27 jul 2026." }
+      - { label: "Tempo de leitura", name: "readingTime", widget: "string", required: false }
+      - { label: "Patrocínio", name: "sponsor", widget: "string", required: false }
+      - label: "Destaque visual"
+        name: "hero"
+        widget: "object"
+        required: false
+        fields:
+          - { label: "Tipo", name: "type", widget: "select", options: ["image", "video"], default: "image" }
+          - { label: "Imagem", name: "image", widget: "image", required: false }
+          - { label: "Legenda", name: "caption", widget: "string", required: false }
+          - { label: "Texto alternativo", name: "alt", widget: "string", required: false }
+      - { label: "ID do vídeo", name: "videoId", widget: "string", required: false }
+      - { label: "Resumo", name: "summary", widget: "text" }
+      - { label: "Conteúdo em HTML", name: "bodyHtml", widget: "code", default_language: "html" }
+
+  # 8) AGENDAS CONSOLIDADAS
+  - name: "consolidated_agendas"
+    label: "Agendas consolidadas"
+    label_singular: "Agenda consolidada"
+    icon: "calendar_month"
+    delete: false
+    editor:
+      preview: false
+    files:
+      - file: "content/events/agenda-comunitaria-2026.json"
+        name: "agenda_comunitaria_2026"
+        label: "Agenda comunitária 2026"
+        format: "json"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Fonte principal", name: "source_url", widget: "string", required: false }
+          - { label: "Última atualização", name: "last_updated", widget: "datetime", required: false }
+          - { label: "Metodologia", name: "methodology", widget: "text", required: false }
+          - &agenda_entries
+            label: "Eventos da agenda"
+            name: "entries"
+            widget: "list"
+            collapsed: true
+            summary: "{{title}} — {{start_date}} — {{city}}/{{state}}"
+            fields:
+              - { label: "Slug", name: "slug", widget: "string", required: false }
+              - { label: "Nome", name: "title", widget: "string" }
+              - { label: "Nome curto", name: "short_name", widget: "string", required: false }
+              - { label: "Data inicial", name: "start_date", widget: "datetime", type: "date", format: "YYYY-MM-DD" }
+              - { label: "Data final", name: "end_date", widget: "datetime", type: "date", format: "YYYY-MM-DD", required: false }
+              - { label: "Etapa", name: "stage", widget: "string", required: false }
+              - { label: "Cidade", name: "city", widget: "string", required: false }
+              - { label: "Estado", name: "state", widget: "string", required: false }
+              - { label: "País", name: "country", widget: "string", required: false }
+              - { label: "Abrangência", name: "scope", widget: "string", required: false }
+              - { label: "Região", name: "region", widget: "string", required: false }
+              - { label: "Local", name: "venue", widget: "string", required: false }
+              - { label: "Endereço completo", name: "full_address", widget: "text", required: false }
+              - { label: "Horário", name: "time_label", widget: "text", required: false }
+              - { label: "Acesso / ingresso", name: "admission_status", widget: "text", required: false }
+              - { label: "Estacionamento", name: "parking", widget: "text", required: false }
+              - { label: "Contato", name: "contact", widget: "text", required: false }
+              - { label: "Situação", name: "status", widget: "string", required: false }
+              - { label: "Tipo de evento", name: "event_type", widget: "string", required: false }
+              - { label: "Segmento", name: "segment", widget: "string", required: false }
+              - { label: "Modalidade", name: "modality", widget: "string", required: false }
+              - { label: "Competição relacionada", name: "competition_slug", widget: "string", required: false }
+              - { label: "Organizador", name: "organizer", widget: "string", required: false }
+              - { label: "Site oficial", name: "official_url", widget: "string", required: false }
+              - { label: "Ingressos", name: "ticket_url", widget: "string", required: false }
+              - { label: "Fonte", name: "source_url", widget: "string", required: false }
+              - { label: "Nome da fonte", name: "source_label", widget: "string", required: false }
+              - { label: "Situação da verificação", name: "verification_status", widget: "string", required: false }
+              - { label: "Capa", name: "cover", widget: "image", required: false }
+              - { label: "Crédito da imagem", name: "image_credit", widget: "string", required: false }
+              - { label: "Destaque", name: "featured", widget: "boolean", default: false }
+              - { label: "Entrada gratuita", name: "free", widget: "boolean", default: false }
+              - { label: "Resumo", name: "summary", widget: "text", required: false }
+              - { label: "Atrações", name: "attractions", widget: "list", required: false }
+              - { label: "Conteúdo", name: "body", widget: "markdown", required: false }
+              - { label: "Duplicado de", name: "duplicate_of", widget: "string", required: false }
+              - { label: "Última atualização", name: "last_updated", widget: "datetime", required: false }
+              - label: "Fontes consultadas"
+                name: "sources"
+                widget: "list"
+                required: false
+                collapsed: true
+                summary: "{{label}}"
+                fields:
+                  - { label: "URL", name: "url", widget: "string" }
+                  - { label: "Nome", name: "label", widget: "string", required: false }
+                  - { label: "Tipo", name: "type", widget: "string", required: false }
+                  - { label: "O que confirma", name: "supports", widget: "text", required: false }
+                  - { label: "Verificada em", name: "checked_at", widget: "datetime", required: false }
+                  - { label: "Método", name: "discovery_method", widget: "string", required: false }
+                  - { label: "Relevância", name: "relevance_score", widget: "number", required: false }
+
+      - file: "content/calendar/cbm-2026.json"
+        name: "calendario_categorias_2026"
+        label: "Calendário esportivo 2026"
+        format: "json"
+        fields:
+          - { label: "Título", name: "title", widget: "string" }
+          - { label: "Fonte principal", name: "source_url", widget: "string", required: false }
+          - { label: "Última atualização", name: "last_updated", widget: "datetime", required: false }
+          - <<: *agenda_entries
+            label: "Etapas e provas"
 
 
 
