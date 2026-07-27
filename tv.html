@@ -469,6 +469,7 @@
 
                     return {
                         ...data,
+                        _slug: file.name.replace(/\.md$/i, ""),
                         _dateObj: parseDateSafeTv(data.date),
                     };
                 });
@@ -512,7 +513,7 @@
                         const videoTitle = selectedVideo.title || "Vídeo TVDUASRODAS";
                         const videoDescription = makeExcerptTv(selectedVideo.body || "") ||
                             "Vídeo selecionado pela TVDUASRODAS para quem acompanha o universo das duas rodas.";
-                        const canonicalUrl = `${window.location.origin}${window.location.pathname}?v=${encodeURIComponent(videoFromUrl)}`;
+                        const canonicalUrl = `${window.location.origin}/videos/${encodeURIComponent(selectedVideo._slug)}/`;
                         const thumbnailUrl = selectedVideo.thumbnail
                             ? new URL(selectedVideo.thumbnail, window.location.origin).href
                             : `https://i3.ytimg.com/vi/${videoFromUrl}/hqdefault.jpg`;
@@ -522,6 +523,8 @@
                         if (metaDescription) metaDescription.setAttribute("content", videoDescription);
                         const canonical = document.querySelector('link[rel="canonical"]');
                         if (canonical) canonical.setAttribute("href", canonicalUrl);
+                        const robots = document.querySelector('meta[name="robots"]');
+                        if (robots) robots.setAttribute("content", "noindex, follow");
 
                         const setMeta = (selector, attribute, value) => {
                             let element = document.head.querySelector(selector);

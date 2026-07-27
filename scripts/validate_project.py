@@ -151,6 +151,16 @@ def main() -> int:
                 errors.append(f"Meta description ausente: {path.name}")
             if not re.search(r'rel=["\']canonical["\']', text, re.IGNORECASE):
                 errors.append(f"Canonical ausente: {path.name}")
+        if path.name in dynamic_pages:
+            if path.name not in noindex_paths:
+                errors.append(f"Página dinâmica legada precisa de noindex: {path.name}")
+            legacy_canonical = re.search(
+                r'<link[^>]+rel=["\']canonical["\'][^>]+href=["\']([^"\']+)',
+                text,
+                re.IGNORECASE,
+            )
+            if not legacy_canonical or not legacy_canonical.group(1).strip():
+                errors.append(f"Canonical de fallback ausente: {path.name}")
         if path.name == "tv.html":
             if len(re.findall(r'class=["\'][^"\']*tv-program-card', text)) < 4:
                 errors.append("Grade de programação da TV incompleta")
@@ -255,7 +265,24 @@ def main() -> int:
             text, re.IGNORECASE | re.DOTALL,
         ):
             try:
-                json.loads(payload)
+                document = json.loads(payload)
+                nodes = document.get("@graph", [document]) if isinstance(document, dict) else []
+                for node in nodes:
+                    if not isinstance(node, dict):
+                        continue
+                    node_types = node.get("@type", [])
+                    if isinstance(node_types, str):
+                        node_types = [node_types]
+                    if {"Event", "SportsEvent"} & set(node_types):
+                        if not node.get("startDate"):
+                            errors.append(f"Evento estruturado sem startDate: {relative}")
+                        if not node.get("endDate"):
+                            errors.append(f"Evento estruturado sem endDate: {relative}")
+                    if "VideoObject" in node_types:
+                        if not node.get("embedUrl"):
+                            errors.append(f"Vídeo estruturado sem embedUrl: {relative}")
+                        if not node.get("contentUrl"):
+                            errors.append(f"Vídeo estruturado sem contentUrl: {relative}")
             except json.JSONDecodeError as exc:
                 errors.append(f"JSON-LD inválido: {relative}: {exc}")
         for ref in ASSET.findall(text):

@@ -917,6 +917,7 @@ def render_video(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
         "thumbnailUrl": [absolute_url(item["image"])],
         "uploadDate": item["date"],
         "embedUrl": f"https://www.youtube.com/embed/{item['video_id']}",
+        "contentUrl": item["youtube"],
         "publisher": ORG,
         "inLanguage": "pt-BR",
     }
@@ -1044,28 +1045,49 @@ def render_competition(
         "adiada": "https://schema.org/EventPostponed",
         "adiado": "https://schema.org/EventPostponed",
     }.get(str(data.get("status", "")).lower(), "https://schema.org/EventScheduled")
-    schema = {
-        "@type": "SportsEvent",
-        "@id": f"{absolute_url(canonical)}#competicao",
-        "name": item["title"],
-        "description": item["summary"],
-        "startDate": start,
-        "endDate": end,
-        "image": [absolute_url(item["image"])],
-        "url": absolute_url(canonical),
-        "organizer": {"@type": "Organization", "name": data.get("organizer", ""), "url": data.get("official_url", "")},
-        "location": {
-            "@type": "Place",
-            "name": data.get("next_stage", {}).get("venue") or data.get("next_stage", {}).get("city") or "Brasil",
-            "address": {
-                "@type": "PostalAddress",
-                "addressLocality": data.get("next_stage", {}).get("city", ""),
-                "addressRegion": data.get("next_stage", {}).get("state", ""),
-                "addressCountry": data.get("country", "Brasil"),
+    if start:
+        schema = {
+            "@type": "SportsEvent",
+            "@id": f"{absolute_url(canonical)}#competicao",
+            "name": item["title"],
+            "description": item["summary"],
+            "startDate": start,
+            "endDate": end or start,
+            "image": [absolute_url(item["image"])],
+            "url": absolute_url(canonical),
+            "organizer": {
+                "@type": "Organization",
+                "name": data.get("organizer", ""),
+                "url": data.get("official_url") or absolute_url(canonical),
             },
-        },
-        "eventStatus": event_status,
-    }
+            "location": {
+                "@type": "Place",
+                "name": data.get("next_stage", {}).get("venue") or data.get("next_stage", {}).get("city") or "Brasil",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": data.get("next_stage", {}).get("city", ""),
+                    "addressRegion": data.get("next_stage", {}).get("state", ""),
+                    "addressCountry": data.get("country", "Brasil"),
+                },
+            },
+            "eventStatus": event_status,
+        }
+    else:
+        # Uma temporada sem calendário confirmado não é um evento elegível para
+        # resultado avançado. Não publicamos data nula nem inventamos uma data.
+        schema = {
+            "@type": "WebPage",
+            "@id": f"{absolute_url(canonical)}#pagina",
+            "name": item["title"],
+            "description": item["summary"],
+            "url": absolute_url(canonical),
+            "image": [absolute_url(item["image"])],
+            "about": {
+                "@type": "Thing",
+                "name": item["title"],
+                "description": item["summary"],
+            },
+        }
     body = f"""
 <nav class="seo-breadcrumb"><a href="/">Início</a> › <a href="/competicoes-eventos">Competições</a> › {esc(item["title"])}</nav>
 <article class="seo-article">
@@ -1138,7 +1160,15 @@ def render_event(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
         schema["organizer"] = {
             "@type": "Organization",
             "name": organizer,
-            "url": data.get("official_url", ""),
+            "url": data.get("organizer_url") or data.get("official_url") or absolute_url(canonical),
+        }
+    if data.get("free") is True:
+        schema["offers"] = {
+            "@type": "Offer",
+            "price": 0,
+            "priceCurrency": data.get("price_currency") or "BRL",
+            "availability": "https://schema.org/InStock",
+            "url": data.get("ticket_url") or data.get("official_url") or absolute_url(canonical),
         }
     source_label = {
         "agenda_comunitaria": "Ver divulgação do evento ↗",
