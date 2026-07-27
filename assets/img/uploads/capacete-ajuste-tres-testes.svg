@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 780" role="img" aria-labelledby="title desc">
+  <title id="title">Três testes de ajuste do capacete</title>
+  <desc id="desc">Infográfico com encaixe uniforme, movimento acompanhado pela pele e cinta fechada sob o maxilar.</desc>
+  <rect width="1400" height="780" fill="#0b1118"/>
+  <text x="70" y="90" fill="#fff" font-family="Arial,sans-serif" font-weight="700" font-size="48">AJUSTE EM TRÊS TESTES</text>
+  <text x="70" y="140" fill="#b9c4ce" font-family="Arial,sans-serif" font-size="26">O tamanho correto combina pressão uniforme, estabilidade e cinta bem posicionada.</text>
+  <g font-family="Arial,sans-serif">
+    <g transform="translate(70 210)">
+      <rect width="380" height="470" rx="30" fill="#141e29"/>
+      <circle cx="190" cy="150" r="90" fill="none" stroke="#f25d2a" stroke-width="18"/>
+      <path d="M112 145 Q190 25 268 145 L250 230 Q190 275 130 230Z" fill="none" stroke="#fff" stroke-width="14"/>
+      <path d="M92 145h45M243 145h45M190 38v42" stroke="#35c4d8" stroke-width="12" stroke-linecap="round"/>
+      <text x="34" y="310" fill="#fff" font-weight="700" font-size="34">1. PRESSÃO UNIFORME</text>
+      <text x="34" y="360" fill="#cdd6de" font-size="25">Firme em toda a volta,</text>
+      <text x="34" y="396" fill="#cdd6de" font-size="25">sem ponto de dor localizado.</text>
+    </g>
+    <g transform="translate(510 210)">
+      <rect width="380" height="470" rx="30" fill="#141e29"/>
+      <path d="M110 145 Q190 25 270 145 L250 230 Q190 275 130 230Z" fill="none" stroke="#fff" stroke-width="14"/>
+      <path d="M70 120q-40 45 0 90M310 120q40 45 0 90" fill="none" stroke="#35c4d8" stroke-width="13" stroke-linecap="round"/>
+      <path d="M60 100l8 27 25-11M320 100l-8 27-25-11" fill="none" stroke="#35c4d8" stroke-width="10"/>
+      <text x="34" y="310" fill="#fff" font-weight="700" font-size="34">2. MOVIMENTO</text>
+      <text x="34" y="360" fill="#cdd6de" font-size="25">Ao girar o casco, a pele</text>
+      <text x="34" y="396" fill="#cdd6de" font-size="25">acompanha parte do movimento.</text>
+    </g>
+    <g transform="translate(950 210)">
+      <rect width="380" height="470" rx="30" fill="#141e29"/>
+      <path d="M110 145 Q190 25 270 145 L250 230 Q190 275 130 230Z" fill="none" stroke="#fff" stroke-width="14"/>
+      <path d="M135 225q55 90 110 0" fill="none" stroke="#f25d2a" stroke-width="14"/>
+      <rect x="174" y="265" width="32" height="30" rx="6" fill="#35c4d8"/>
+      <text x="34" y="310" fill="#fff" font-weight="700" font-size="34">3. CINTA FECHADA</text>
+      <text x="34" y="360" fill="#cdd6de" font-size="25">Fita plana, engate travado</text>
+      <text x="34" y="396" fill="#cdd6de" font-size="25">e posicionamento sob o maxilar.</text>
+    </g>
+  </g>
+  <text x="70" y="742" fill="#7f919f" font-family="Arial,sans-serif" font-size="22">Infográfico original TVDUASRODAS • consulte o manual do fabricante</text>
+</svg>

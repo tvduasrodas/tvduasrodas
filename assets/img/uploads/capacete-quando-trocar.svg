@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 780" role="img" aria-labelledby="title desc">
+  <title id="title">Quando interromper o uso do capacete</title>
+  <desc id="desc">Fluxograma sobre impacto com a cabeça, dano estrutural, perda de ajuste e consulta ao fabricante.</desc>
+  <rect width="1400" height="780" fill="#f4f1eb"/>
+  <text x="70" y="90" fill="#14202a" font-family="Arial,sans-serif" font-weight="700" font-size="48">QUANDO INTERROMPER O USO?</text>
+  <g font-family="Arial,sans-serif" text-anchor="middle">
+    <g transform="translate(70 190)">
+      <rect width="290" height="180" rx="28" fill="#14202a"/>
+      <text x="145" y="72" fill="#fff" font-weight="700" font-size="30">HOUVE IMPACTO</text>
+      <text x="145" y="112" fill="#fff" font-size="25">com a cabeça</text>
+      <text x="145" y="148" fill="#fff" font-size="25">dentro do capacete?</text>
+    </g>
+    <path d="M360 280h100" stroke="#f25d2a" stroke-width="12"/>
+    <polygon points="460,280 430,262 430,298" fill="#f25d2a"/>
+    <g transform="translate(470 190)">
+      <rect width="360" height="180" rx="28" fill="#f25d2a"/>
+      <text x="180" y="78" fill="#fff" font-weight="700" font-size="34">SUBSTITUA</text>
+      <text x="180" y="122" fill="#fff" font-size="25">Mesmo sem dano visível,</text>
+      <text x="180" y="155" fill="#fff" font-size="25">a absorção pode ter mudado.</text>
+    </g>
+    <g transform="translate(70 470)">
+      <rect width="360" height="180" rx="28" fill="#fff" stroke="#14202a" stroke-width="6"/>
+      <text x="180" y="66" fill="#14202a" font-weight="700" font-size="29">TRINCA, DEFORMAÇÃO,</text>
+      <text x="180" y="106" fill="#14202a" font-size="25">cinta ou fecho danificado,</text>
+      <text x="180" y="142" fill="#14202a" font-size="25">forração solta ou ajuste perdido?</text>
+    </g>
+    <path d="M430 560h100" stroke="#f25d2a" stroke-width="12"/>
+    <polygon points="530,560 500,542 500,578" fill="#f25d2a"/>
+    <g transform="translate(540 470)">
+      <rect width="360" height="180" rx="28" fill="#fff" stroke="#f25d2a" stroke-width="6"/>
+      <text x="180" y="68" fill="#14202a" font-weight="700" font-size="31">PARE E AVALIE</text>
+      <text x="180" y="112" fill="#14202a" font-size="25">Não improvise reparos.</text>
+      <text x="180" y="148" fill="#14202a" font-size="25">Consulte marca ou assistência.</text>
+    </g>
+    <path d="M900 560h100" stroke="#35a9bd" stroke-width="12"/>
+    <polygon points="1000,560 970,542 970,578" fill="#35a9bd"/>
+    <g transform="translate(1010 470)">
+      <rect width="320" height="180" rx="28" fill="#14202a"/>
+      <text x="160" y="66" fill="#fff" font-weight="700" font-size="30">SEM DANO?</text>
+      <text x="160" y="108" fill="#fff" font-size="24">Siga inspeções e prazo</text>
+      <text x="160" y="143" fill="#fff" font-size="24">recomendado pela marca.</text>
+    </g>
+  </g>
+  <text x="70" y="735" fill="#5d6a73" font-family="Arial,sans-serif" font-size="22">O Inmetro não estabelece validade legal única; impacto e condição do produto exigem avaliação.</text>
+</svg>

@@ -7,7 +7,7 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/revista</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-07-27</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
@@ -103,6 +103,14 @@
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://tvduasrodas.com/assets/img/uploads/brasileiro-mtb-2026-primeiro-dia-capa.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/materias/capacete-de-moto-ajuste-cuidados-quando-trocar/</loc>
+    <lastmod>2026-07-27</lastmod>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://tvduasrodas.com/assets/img/uploads/capacete-ajuste-troca-capa.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -273,6 +281,14 @@
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://tvduasrodas.com/assets/img/uploads/role-de-rua-rotas-curtas-capa.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/materias/role-de-rua-27-07-2026-cruzamentos/</loc>
+    <lastmod>2026-07-27</lastmod>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://tvduasrodas.com/assets/img/uploads/role-de-rua-cruzamentos-capa.webp</image:loc>
     </image:image>
   </url>
   <url>

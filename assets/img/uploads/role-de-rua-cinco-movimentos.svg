@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 780" role="img" aria-labelledby="title desc">
+  <title id="title">Cinco movimentos para ler cruzamentos</title>
+  <desc id="desc">Sequência reduzir, abrir visão, contar trajetórias, preservar saída e atravessar progressivamente.</desc>
+  <rect width="1400" height="780" fill="#0b1118"/>
+  <text x="70" y="92" fill="#fff" font-family="Arial,sans-serif" font-weight="700" font-size="48">LEIA O CRUZAMENTO EM CINCO MOVIMENTOS</text>
+  <g font-family="Arial,sans-serif" text-anchor="middle">
+    <g transform="translate(45 210)"><circle cx="125" cy="125" r="105" fill="#f25d2a"/><text x="125" y="112" fill="#fff" font-size="62" font-weight="700">1</text><text x="125" y="155" fill="#fff" font-size="25">REDUZA</text><text x="125" y="300" fill="#c8d2da" font-size="23">Antes da esquina</text></g>
+    <g transform="translate(325 210)"><circle cx="125" cy="125" r="105" fill="#173142"/><text x="125" y="112" fill="#fff" font-size="62" font-weight="700">2</text><text x="125" y="155" fill="#fff" font-size="25">VEJA</text><text x="125" y="300" fill="#c8d2da" font-size="23">Além do obstáculo</text></g>
+    <g transform="translate(605 210)"><circle cx="125" cy="125" r="105" fill="#24667a"/><text x="125" y="112" fill="#fff" font-size="62" font-weight="700">3</text><text x="125" y="155" fill="#fff" font-size="25">CONTE</text><text x="125" y="300" fill="#c8d2da" font-size="23">Trajetórias possíveis</text></g>
+    <g transform="translate(885 210)"><circle cx="125" cy="125" r="105" fill="#35a9bd"/><text x="125" y="112" fill="#0b1118" font-size="62" font-weight="700">4</text><text x="125" y="155" fill="#0b1118" font-size="25">PRESERVE</text><text x="125" y="300" fill="#c8d2da" font-size="23">Uma saída real</text></g>
+    <g transform="translate(1165 210)"><circle cx="125" cy="125" r="105" fill="#ece7dd"/><text x="125" y="112" fill="#0b1118" font-size="62" font-weight="700">5</text><text x="125" y="155" fill="#0b1118" font-size="25">ATRAVESSE</text><text x="125" y="300" fill="#c8d2da" font-size="23">Com progressividade</text></g>
+  </g>
+  <path d="M170 570h1120" stroke="#f25d2a" stroke-width="10"/>
+  <polygon points="1290,570 1255,548 1255,592" fill="#f25d2a"/>
+  <text x="70" y="680" fill="#fff" font-family="Arial,sans-serif" font-weight="700" font-size="32">MENOS VISÃO = MENOS VELOCIDADE</text>
+  <text x="70" y="725" fill="#94a4b0" font-family="Arial,sans-serif" font-size="24">Preferência não substitui tempo, espaço e leitura do ambiente.</text>
+</svg>
