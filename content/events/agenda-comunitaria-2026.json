@@ -10259,8 +10259,8 @@
     },
     {
       "slug": "moto-festival-blumenau-sc-2026-07-31",
-      "title": "Moto Festival",
-      "short_name": "Moto Festival",
+      "title": "Blumenau Moto Festival 2026",
+      "short_name": "Blumenau Moto Festival",
       "start_date": "2026-07-31",
       "end_date": "2026-08-02",
       "city": "Blumenau",
@@ -10268,33 +10268,40 @@
       "country": "Brasil",
       "scope": "Nacional",
       "region": "Sul",
-      "venue": "Local detalhado não informado de forma legível no flyer",
+      "venue": "Centro Esportivo Bernardo Werner (antigo SESI)",
       "status": "agendada",
       "event_type": "Festival de motociclismo",
       "segment": "Motos",
-      "official_url": "https://jb-rider.com.br/evento/20260731-3-moto-festival-blumenau-sc",
-      "source_url": "https://jb-rider.com.br/eventos/20260731_3__Moto%20Festival_Blumenau_SC.jpg",
-      "source_label": "Flyer específico indexado pela JB-RIDER",
-      "verification_status": "flyer_processado_localmente_com_validacao_conservadora",
+      "official_url": "https://checkout2.bilheteriadigital.com/blumenau-moto-festival-31-de-julho",
+      "ticket_url": "https://checkout2.bilheteriadigital.com/blumenau-moto-festival-31-de-julho",
+      "source_url": "https://checkout2.bilheteriadigital.com/blumenau-moto-festival-31-de-julho",
+      "source_label": "Página oficial de venda na Bilheteria Digital",
+      "verification_status": "bilheteria_oficial_e_fontes_cruzadas",
       "cover": "/assets/img/competicoes-eventos-default.svg",
       "image_credit": "Arte: TVDUASRODAS",
       "featured": false,
       "free": false,
-      "summary": "Festival de motociclismo em Blumenau/SC, com data divulgada para 2026-07-31. O flyer foi inspecionado localmente; serviços identificados: programação detalhada não identificada de forma legível no flyer.",
+      "summary": "O Blumenau Moto Festival acontece de 31/07/2026 a 02/08/2026 no Centro Esportivo Bernardo Werner, com exposição de motocicletas, atrações musicais, praça de alimentação e espaços de convivência.",
       "attractions": [
-        "Programação detalhada não identificada de forma legível no flyer"
+        "Exposição de motocicletas de diversos estilos",
+        "Atrações musicais",
+        "Praça de alimentação",
+        "Espaços de convivência e cultura motociclística"
       ],
-      "body": "## Serviço verificado\n\nMoto Festival tem data divulgada de 2026-07-31 a 2026-08-02, em Blumenau/SC. Horário não informado de forma legível no flyer consultado.\n\n## Local e endereço\n\nEndereço detalhado não informado no flyer; referência: Blumenau - SC. Quando o endereço não aparece de forma legível, a TVDUASRODAS mantém essa ausência explícita e não inventa rua, número ou CEP.\n\n## Programação e estrutura\n\nProgramação detalhada não identificada de forma legível no flyer. Os nomes e horários que não atingiram confiança suficiente no processamento visual não foram transformados em informação pública.\n\n## Acesso, estacionamento e contato\n\nNão informado de forma legível no flyer consultado. Não informado de forma legível no flyer consultado. Contato não identificado de forma legível no flyer.\n\n## Fonte e atualização\n\nA data, a cidade e os sinais de serviço foram confrontados com o flyer específico indexado pela JB-RIDER. A arte original permanece vinculada para conferência de mudanças e detalhes.",
-      "last_updated": "2026-07-26T05:07:49.077000+00:00",
+      "body": "## Blumenau Moto Festival 2026\n\nO Blumenau Moto Festival será realizado de 31/07/2026 a 02/08/2026 e foi anunciado como um encontro aberto a motociclistas e ao público de todas as idades, independentemente do estilo ou da marca da motocicleta. A classificação informada pela bilheteria é livre.\n\n## Datas e horários\n\nNa sexta-feira, 31/07/2026, os portões abrem às 18h e a programação segue até 1h. No sábado, 01/08/2026, o evento funciona das 10h à 1h. No domingo, 02/08/2026, a programação vai das 10h às 18h.\n\n## Local e endereço\n\nO festival acontece no Centro Esportivo Bernardo Werner, antigo SESI, na Rua Itajaí, 3434, bairro Vorstadt, Blumenau/SC, CEP 89015-201.\n\n## Atrações e estrutura\n\nA divulgação consultada informa exposição de motocicletas de diferentes estilos, atrações musicais, praça de alimentação, espaços de convivência e atividades ligadas à cultura motociclística. A grade nominal de bandas e os horários de cada atração ainda não aparecem detalhados na página de ingressos.\n\n## Ingressos\n\nA Bilheteria Digital apresenta o lote 1 para 31/07/2026 a partir de R$ 12,50 e para 01/08/2026 a partir de R$ 17,50. Valores, taxas, disponibilidade e regras podem mudar conforme o lote. A página consultada não mostra ingresso separado para 02/08/2026; confirme a condição de acesso do domingo diretamente na bilheteria antes de sair.\n\n## Antes de ir\n\nA classificação é livre. Informações sobre estacionamento não foram publicadas nas fontes consultadas. Consulte a página de venda para disponibilidade dos ingressos e eventuais alterações de serviço.",
+      "last_updated": "2026-07-27T20:45:00-03:00",
       "timezone": "America/Sao_Paulo",
-      "time_label": "Horário não informado de forma legível no flyer consultado",
-      "street_address": "Endereço detalhado não informado de forma legível no flyer",
-      "full_address": "Endereço detalhado não informado no flyer; referência: Blumenau - SC",
-      "status_basis": "Data futura divulgada no flyer e na agenda comunitária; confirme alterações antes de viajar.",
-      "status_checked_at": "2026-07-26T05:07:49.077000+00:00",
+      "local_start": "2026-07-31T18:00:00-03:00",
+      "local_end": "2026-08-02T18:00:00-03:00",
+      "time_label": "31/07: 18h à 1h; 01/08: 10h à 1h; 02/08: 10h às 18h",
+      "street_address": "Rua Itajaí, 3434 - Vorstadt",
+      "postal_code": "89015-201",
+      "full_address": "Centro Esportivo Bernardo Werner, Rua Itajaí, 3434 - Vorstadt, Blumenau/SC, CEP 89015-201",
+      "status_basis": "Datas, horários, local e venda de ingressos confirmados na Bilheteria Digital em 27/07/2026.",
+      "status_checked_at": "2026-07-27T20:45:00-03:00",
       "organizer": "Organização não identificada de forma legível no flyer consultado",
-      "contact": "Contato não identificado de forma legível no flyer",
-      "source_checked_at": "2026-07-26T09:53:05.522964+00:00",
+      "contact": "Atendimento e venda pela Bilheteria Digital",
+      "source_checked_at": "2026-07-27T20:45:00-03:00",
       "visual_verification": {
         "type": "flyer_com_ocr_local",
         "source_url": "https://jb-rider.com.br/eventos/20260731_3__Moto%20Festival_Blumenau_SC.jpg",
@@ -10310,42 +10317,64 @@
           "event_name"
         ]
       },
-      "admission_status": "Não informado de forma legível no flyer consultado",
-      "parking": "Não informado de forma legível no flyer consultado",
+      "admission_status": "Ingressos antecipados: 31/07 a partir de R$ 12,50; 01/08 a partir de R$ 17,50",
+      "parking": "Ainda não informado pela organização",
+      "offers": [
+        {
+          "name": "Entrada em 31/07/2026 - lote 1",
+          "price": 12.5,
+          "price_currency": "BRL",
+          "url": "https://checkout2.bilheteriadigital.com/blumenau-moto-festival-31-de-julho"
+        },
+        {
+          "name": "Entrada em 01/08/2026 - lote 1",
+          "price": 17.5,
+          "price_currency": "BRL",
+          "url": "https://checkout2.bilheteriadigital.com/blumenau-moto-festival-31-de-julho"
+        }
+      ],
       "sources": [
         {
-          "url": "https://jb-rider.com.br/evento/20260731-3-moto-festival-blumenau-sc",
-          "label": "Flyer ou página específica original do evento",
-          "type": "evidência visual primária",
-          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+          "url": "https://checkout2.bilheteriadigital.com/blumenau-moto-festival-31-de-julho",
+          "label": "Bilheteria Digital - Blumenau Moto Festival",
+          "type": "fonte primária de serviço e venda",
+          "supports": "datas, horários, local, endereço, classificação e valores iniciais dos ingressos"
         },
         {
-          "url": "https://jb-rider.com.br/eventos/20260731_3__Moto%20Festival_Blumenau_SC.jpg",
-          "label": "Flyer ou página específica original do evento",
-          "type": "evidência visual primária",
-          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+          "url": "https://www.mesorregional.com.br/blumenau-moto-festival-promete-reunir-motociclistas-de-todo-o-brasil-em-tres-dias-de-atracoes/",
+          "label": "Mesorregional - Blumenau Moto Festival terá três dias de atrações",
+          "type": "imprensa local independente",
+          "supports": "datas, horários, endereço, perfil do evento e estrutura anunciada"
         },
         {
-          "url": "https://ingressolink.com.br/evento/blumenau-moto-festival-69558",
-          "label": "ingressolink.com.br https://ingressolink.com.br › evento › blumenau-moto BLUMENAU MOTO FESTIVAL em Blumenau - SC | IngressoLink",
+          "url": "https://www.eventoon.com.br/cidade/blumenau-sc",
+          "label": "Evento ON - agenda de Blumenau",
           "type": "fonte específica independente",
-          "supports": "data e edição, local, horários e programação, inscrições e acesso, categorias, percurso ou regulamento",
-          "relevance_score": 23,
+          "supports": "data, local e endereço",
+          "relevance_score": 18,
           "discovery_method": "busca_editorial_indexada"
+        },
+        {
+          "url": "https://jb-rider.com.br/evento/20260731-3-moto-festival-blumenau-sc",
+          "label": "JB-RIDER - agenda de encontros de motociclistas",
+          "type": "agenda especializada independente",
+          "supports": "datas, cidade e identificação do evento"
         }
       ],
       "research_status": {
         "required_specific_independent_sources": 2,
-        "specific_independent_domains_found": 2,
+        "specific_independent_domains_found": 4,
         "status": "fontes_cruzadas",
         "query": [
-          "moto festival blumenau SC moto clube evento 2026"
+          "\"Blumenau Moto Festival\" 2026 programação ingressos",
+          "\"Blumenau Moto Festival\" Centro Esportivo Bernardo Werner"
         ],
-        "reviewed_at": "2026-07-26T09:53:05.522964+00:00"
+        "reviewed_at": "2026-07-27T20:45:00-03:00"
       }
     },
     {
       "slug": "motofest-blumenau-sc-2026-07-31",
+      "duplicate_of": "moto-festival-blumenau-sc-2026-07-31",
       "title": "MOTOFEST",
       "short_name": "MOTOFEST",
       "start_date": "2026-07-31",

@@ -1162,7 +1162,21 @@ def render_event(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
             "name": organizer,
             "url": data.get("organizer_url") or data.get("official_url") or absolute_url(canonical),
         }
-    if data.get("free") is True:
+    structured_offers = []
+    for offer in data.get("offers", []):
+        if not isinstance(offer, dict) or offer.get("price") is None:
+            continue
+        structured_offers.append({
+            "@type": "Offer",
+            "name": offer.get("name", ""),
+            "price": offer["price"],
+            "priceCurrency": offer.get("price_currency") or "BRL",
+            "availability": "https://schema.org/InStock",
+            "url": offer.get("url") or data.get("ticket_url") or absolute_url(canonical),
+        })
+    if structured_offers:
+        schema["offers"] = structured_offers
+    elif data.get("free") is True:
         schema["offers"] = {
             "@type": "Offer",
             "price": 0,
