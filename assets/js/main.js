@@ -176,7 +176,7 @@ function formatDatePtBr(iso) {
     if (Number.isNaN(d.getTime())) return iso;
     return d.toLocaleDateString("pt-BR", {
         day: "2-digit",
-        month: "short",
+        month: "2-digit",
         year: "numeric",
     });
 }

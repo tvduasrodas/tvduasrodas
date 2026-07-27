@@ -798,13 +798,6 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/motofest-angra-dos-reis-rj-2026-07-23/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
     "url": "/eventos/caveira-s-brasil-mc-marica-rj-2026-07-23/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
@@ -819,21 +812,14 @@
     "kind": "event"
   },
   {
+    "url": "/eventos/motofest-angra-dos-reis-rj-2026-07-23/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
     "url": "/eventos/13-fest-moto-rock-baixo-guandu-es-2026-07-24/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/moto-rock-festival-de-inverno-baependi-mg-2026-07-24/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/divina-motofest-divinopolis-mg-2026-07-24/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -847,6 +833,20 @@
     "kind": "event"
   },
   {
+    "url": "/eventos/4-u-m-a-aguai-sp-2026-07-24/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/abominados-mc-braganca-paulista-sp-2026-07-24/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
     "url": "/eventos/cat-s-do-asfalto-mc-pesqueira-pe-2026-07-24/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
@@ -854,14 +854,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/xiii-motofest-pesqueira-pe-2026-07-24/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motofest-cambuci-rj-2026-07-24/",
+    "url": "/eventos/divina-motofest-divinopolis-mg-2026-07-24/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -882,7 +875,14 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/rider-s-do-norte-mg-jaru-ro-2026-07-24/",
+    "url": "/eventos/moto-rock-festival-de-inverno-baependi-mg-2026-07-24/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/motofest-cambuci-rj-2026-07-24/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -896,7 +896,14 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/4-u-m-a-aguai-sp-2026-07-24/",
+    "url": "/eventos/piratas-de-aco-mc-e-100-censura-rio-claro-sp-2026-07-24/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/rider-s-do-norte-mg-jaru-ro-2026-07-24/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -910,182 +917,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/abominados-mc-braganca-paulista-sp-2026-07-24/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/piratas-de-aco-mc-e-100-censura-rio-claro-sp-2026-07-24/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/fraternos-do-cerrado-mc-brasilia-df-2026-07-25/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/rio-riders-brasil-mc-brasilia-df-2026-07-25/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/kveiras-do-amanhecer-belo-horizonte-mg-2026-07-25/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/pit-stop-hanbai-belo-horizonte-mg-2026-07-25/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/aguias-da-liberdade-mc-conselheiro-lafaiete-mg-2026-07-25/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/mc-aguias-de-cristo-divino-mg-2026-07-25/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motorock-e-amizade-itauna-mg-2026-07-25/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/2-encontro-de-motociclistas-nova-resende-mg-2026-07-25/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motorock-turmalina-mg-2026-07-25/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/carcaca-mc-araruama-rj-2026-07-25/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/pererecas-mc-belford-roxo-rj-2026-07-25/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/pererecas-mc-belford-roxo-rio-de-janeiro-rj-2026-07-25/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/cavaleiros-sem-rumo-campos-dos-goytacazes-rj-2026-07-25/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/os-aguias-da-ilha-do-governador-mc-ilha-do-governador-rj-2026-07-25/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/mad-ducks-mc-rio-de-janeiro-rj-2026-07-25/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/bodes-do-asfalto-mc-sao-goncalo-rj-2026-07-25/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/5-moto-encontro-da-casa-rural-barrra-do-ribeiro-rs-2026-07-25/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/insanos-mc-birigui-sp-2026-07-25/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/26-fmc-sp-cidade-patriarca-sao-paulo-sp-2026-07-25/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/2-biker-fest-feraz-de-vasconcelos-sp-2026-07-25/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motocafe-jales-sp-2026-07-25/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/yamaha-vmax-mairipora-sp-2026-07-25/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/web-riders-mirassol-sp-2026-07-25/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/epidemia-da-estrada-mc-peruibe-sp-2026-07-25/",
+    "url": "/eventos/xiii-motofest-pesqueira-pe-2026-07-24/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -1099,21 +931,35 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/dia-do-motociclsita-sao-paulo-sp-2026-07-25/",
+    "url": "/eventos/2-biker-fest-feraz-de-vasconcelos-sp-2026-07-25/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/fmc-sao-paulo-sp-2026-07-25/",
+    "url": "/eventos/2-encontro-de-motociclistas-nova-resende-mg-2026-07-25/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/subversivos-mc-sao-paulo-sp-2026-07-25/",
+    "url": "/eventos/26-fmc-sp-cidade-patriarca-sao-paulo-sp-2026-07-25/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/5-moto-encontro-da-casa-rural-barrra-do-ribeiro-rs-2026-07-25/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/aguias-da-liberdade-mc-conselheiro-lafaiete-mg-2026-07-25/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -1127,126 +973,154 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/9-passeio-dia-do-motociclista-maceio-al-2026-07-26/",
+    "url": "/eventos/bodes-do-asfalto-mc-sao-goncalo-rj-2026-07-25/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/dia-dos-motociclistas-alagoinhas-ba-2026-07-26/",
+    "url": "/eventos/carcaca-mc-araruama-rj-2026-07-25/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/festival-gorila-carmo-do-paranaiba-mg-2026-07-26/",
+    "url": "/eventos/cavaleiros-sem-rumo-campos-dos-goytacazes-rj-2026-07-25/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/missa-dos-motociclistas-catas-altas-mg-2026-07-26/",
+    "url": "/eventos/dia-do-motociclsita-sao-paulo-sp-2026-07-25/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/escorpioes-do-horizonte-mc-fortuna-de-minas-mg-2026-07-26/",
+    "url": "/eventos/epidemia-da-estrada-mc-peruibe-sp-2026-07-25/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/insanos-mc-patos-de-minas-mg-2026-07-26/",
+    "url": "/eventos/fmc-sao-paulo-sp-2026-07-25/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/pimentas-do-asfalto-mc-pimenta-mg-2026-07-26/",
+    "url": "/eventos/fraternos-do-cerrado-mc-brasilia-df-2026-07-25/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/119-festa-de-nossa-senhora-da-abadia-pirajuba-mg-2026-07-26/",
+    "url": "/eventos/insanos-mc-birigui-sp-2026-07-25/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/ecam-2026-serra-do-salitre-mg-2026-07-26/",
+    "url": "/eventos/kveiras-do-amanhecer-belo-horizonte-mg-2026-07-25/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/2-moto-cafe-tres-marias-mg-2026-07-26/",
+    "url": "/eventos/mad-ducks-mc-rio-de-janeiro-rj-2026-07-25/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/encoontro-de-motociclistas-sume-pb-2026-07-26/",
+    "url": "/eventos/mc-aguias-de-cristo-divino-mg-2026-07-25/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/serra-branca-mc-sume-pb-2026-07-26/",
+    "url": "/eventos/motocafe-jales-sp-2026-07-25/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/karangos-e-motocas-mc-duque-de-caxias-rj-2026-07-26/",
+    "url": "/eventos/motorock-e-amizade-itauna-mg-2026-07-25/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/guerreiros-da-igualdade-mc-mage-rj-2026-07-26/",
+    "url": "/eventos/motorock-turmalina-mg-2026-07-25/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/black-skull-mc-mesqueita-rj-2026-07-26/",
+    "url": "/eventos/os-aguias-da-ilha-do-governador-mc-ilha-do-governador-rj-2026-07-25/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/imperador-do-asfalto-mc-porto-real-rj-2026-07-26/",
+    "url": "/eventos/pererecas-mc-belford-roxo-rio-de-janeiro-rj-2026-07-25/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/falcoes-de-aco-mc-volta-redonda-rj-2026-07-26/",
+    "url": "/eventos/pererecas-mc-belford-roxo-rj-2026-07-25/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/aguia-viva-mc-itabaiana-se-2026-07-26/",
+    "url": "/eventos/pit-stop-hanbai-belo-horizonte-mg-2026-07-25/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/rio-riders-brasil-mc-brasilia-df-2026-07-25/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/subversivos-mc-sao-paulo-sp-2026-07-25/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/web-riders-mirassol-sp-2026-07-25/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/yamaha-vmax-mairipora-sp-2026-07-25/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -1260,14 +1134,14 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/dia-do-motociclista-assis-sp-2026-07-26/",
+    "url": "/eventos/119-festa-de-nossa-senhora-da-abadia-pirajuba-mg-2026-07-26/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/esquadrao-quadrangular-e-motociclistas-com-cristo-assis-sp-2026-07-26/",
+    "url": "/eventos/2-moto-cafe-tres-marias-mg-2026-07-26/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -1281,21 +1155,35 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/cafe-beneficente-presidente-prudente-sp-2026-07-26/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/snakes-mc-salto-sp-2026-07-26/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
     "url": "/eventos/50-missa-dos-motociclistas-sao-jose-do-rio-preto-sp-2026-07-26/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/9-passeio-dia-do-motociclista-maceio-al-2026-07-26/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/aguia-viva-mc-itabaiana-se-2026-07-26/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/black-skull-mc-mesqueita-rj-2026-07-26/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/cafe-beneficente-presidente-prudente-sp-2026-07-26/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -1309,7 +1197,21 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/sinners-mc-sao-paulo-sp-2026-07-26/",
+    "url": "/eventos/dia-do-motociclista-assis-sp-2026-07-26/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/dia-dos-motociclistas-alagoinhas-ba-2026-07-26/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/ecam-2026-serra-do-salitre-mg-2026-07-26/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -1317,6 +1219,104 @@
   },
   {
     "url": "/eventos/encontro-de-motociclistas-votuporanga-sp-2026-07-26/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/encoontro-de-motociclistas-sume-pb-2026-07-26/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/escorpioes-do-horizonte-mc-fortuna-de-minas-mg-2026-07-26/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/esquadrao-quadrangular-e-motociclistas-com-cristo-assis-sp-2026-07-26/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/falcoes-de-aco-mc-volta-redonda-rj-2026-07-26/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/festival-gorila-carmo-do-paranaiba-mg-2026-07-26/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/guerreiros-da-igualdade-mc-mage-rj-2026-07-26/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/imperador-do-asfalto-mc-porto-real-rj-2026-07-26/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/insanos-mc-patos-de-minas-mg-2026-07-26/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/karangos-e-motocas-mc-duque-de-caxias-rj-2026-07-26/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/missa-dos-motociclistas-catas-altas-mg-2026-07-26/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/pimentas-do-asfalto-mc-pimenta-mg-2026-07-26/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/serra-branca-mc-sume-pb-2026-07-26/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/sinners-mc-sao-paulo-sp-2026-07-26/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/snakes-mc-salto-sp-2026-07-26/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -1358,20 +1358,6 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/quinta-do-motociclista-arapiraca-al-2026-07-30/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motofest-iguatu-ce-2026-07-30/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
     "url": "/eventos/3-encontro-de-motociclistas-penedo-mg-2026-07-30/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
@@ -1386,42 +1372,14 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/motofest-delmiro-al-2026-07-31/",
+    "url": "/eventos/motofest-iguatu-ce-2026-07-30/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/mc-cavalheiros-da-vila-delmiro-gouveia-al-2026-07-31/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motofest-delmiro-gouveia-al-2026-07-31/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motorock-brumado-ba-2026-07-31/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/7-serra-moto-fest-serra-es-2026-07-31/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motofest-serra-es-2026-07-31/",
+    "url": "/eventos/quinta-do-motociclista-arapiraca-al-2026-07-30/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -1435,56 +1393,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/7-encontro-nacional-de-motociclsitas-e-motoclubes-aimores-mg-2026-07-31/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/carnotores-carmo-do-rio-claro-mg-2026-07-31/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
     "url": "/eventos/14-motofest-extrema-mg-2026-07-31/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motofest-manhumirim-mg-2026-07-31/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/mc-cachorro-loko-mariana-mg-2026-07-31/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/7-encontro-de-motociclistas-e-triciclistas-oliveira-fortes-mg-2026-07-31/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/mc-rota-452-oliveira-fortes-mg-2026-07-31/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motofest-piedade-de-caratinga-mg-2026-07-31/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -1498,20 +1407,6 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/guardioes-da-serra-da-saudade-mc-serra-da-saudade-mg-2026-07-31/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motoshow-tres-lagoas-ms-2026-07-31/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
     "url": "/eventos/21-paranaguamotos-paranagua-pr-2026-07-31/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
@@ -1519,42 +1414,28 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/sinistro-mc-belfod-roxo-rj-2026-07-31/",
+    "url": "/eventos/3-moto-rock-fest-paranapanema-sp-2026-07-31/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/cachorro-grande-mg-niteroi-rj-2026-07-31/",
+    "url": "/eventos/7-encontro-de-motociclistas-e-triciclistas-oliveira-fortes-mg-2026-07-31/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/tarantulas-mc-queimados-rj-2026-07-31/",
+    "url": "/eventos/7-encontro-nacional-de-motociclsitas-e-motoclubes-aimores-mg-2026-07-31/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/motofest-rio-das-flores-rj-2026-07-31/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/bikefest-santa-maria-madalena-rj-2026-07-31/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/guardioes-do-raul-mc-sumidouro-rj-2026-07-31/",
+    "url": "/eventos/7-serra-moto-fest-serra-es-2026-07-31/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -1568,7 +1449,63 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/motofest-joao-camara-rn-2026-07-31/",
+    "url": "/eventos/bikefest-santa-maria-madalena-rj-2026-07-31/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/cachorro-grande-mg-niteroi-rj-2026-07-31/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/carnotores-carmo-do-rio-claro-mg-2026-07-31/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/guardioes-da-serra-da-saudade-mc-serra-da-saudade-mg-2026-07-31/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/guardioes-do-raul-mc-sumidouro-rj-2026-07-31/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/guardioes-do-santuario-mc-bom-jesus-dos-perdoes-sp-2026-07-31/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/mc-cachorro-loko-mariana-mg-2026-07-31/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/mc-cavalheiros-da-vila-delmiro-gouveia-al-2026-07-31/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/mc-rota-452-oliveira-fortes-mg-2026-07-31/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -1589,14 +1526,70 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/guardioes-do-santuario-mc-bom-jesus-dos-perdoes-sp-2026-07-31/",
+    "url": "/eventos/motofest-delmiro-al-2026-07-31/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/3-moto-rock-fest-paranapanema-sp-2026-07-31/",
+    "url": "/eventos/motofest-delmiro-gouveia-al-2026-07-31/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/motofest-joao-camara-rn-2026-07-31/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/motofest-manhumirim-mg-2026-07-31/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/motofest-piedade-de-caratinga-mg-2026-07-31/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/motofest-rio-das-flores-rj-2026-07-31/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/motofest-serra-es-2026-07-31/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/motorock-brumado-ba-2026-07-31/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/motoshow-tres-lagoas-ms-2026-07-31/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/sinistro-mc-belfod-roxo-rj-2026-07-31/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -1610,42 +1603,14 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/campeonato-amapaense-de-ciclismo-2026-macapa-ap-2026-08-01/",
+    "url": "/eventos/tarantulas-mc-queimados-rj-2026-07-31/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/soberanos-sobre-rodas-mc-guarapari-es-2026-08-01/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/5-cerol-to-fora-frutal-mg-2026-08-01/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/insanos-mc-governador-valadares-mg-2026-08-01/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/ronin-mc-itabira-mg-2026-08-01/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motorock-lavras-mg-2026-08-01/",
+    "url": "/eventos/1-moto-rock-fest-chavantes-sp-2026-08-01/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -1659,14 +1624,35 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/mc-robalos-rebeldes-paranagua-pr-2026-08-01/",
+    "url": "/eventos/3-encontro-de-motociclistas-taquaritinga-sp-2026-08-01/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/vulcano-mc-macae-rj-2026-08-01/",
+    "url": "/eventos/5-cerol-to-fora-frutal-mg-2026-08-01/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/bodes-do-asfalto-mc-praia-grande-sp-2026-08-01/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/campeonato-amapaense-de-ciclismo-2026-macapa-ap-2026-08-01/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/campeonato-de-motocross-de-rondonia-2026-cerejeiras-e-corumbiara-ro-2026-08-01/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -1680,7 +1666,14 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/motofest-rio-das-flores-rj-2026-08-01/",
+    "url": "/eventos/esquadrao-quadrangular-monte-alto-sp-2026-08-01/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/falcoes-do-asfalto-mc-cacapava-sp-2026-08-01/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -1688,6 +1681,13 @@
   },
   {
     "url": "/eventos/ferramentas-mc-rio-de-janerio-rj-2026-08-01/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/insanos-mc-governador-valadares-mg-2026-08-01/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -1715,27 +1715,6 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/campeonato-de-motocross-de-rondonia-2026-cerejeiras-e-corumbiara-ro-2026-08-01/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/falcoes-do-asfalto-mc-cacapava-sp-2026-08-01/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/1-moto-rock-fest-chavantes-sp-2026-08-01/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
     "url": "/eventos/majestade-mc-cruzeiro-sp-2026-08-01/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
@@ -1743,21 +1722,49 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/esquadrao-quadrangular-monte-alto-sp-2026-08-01/",
+    "url": "/eventos/mc-robalos-rebeldes-paranagua-pr-2026-08-01/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/bodes-do-asfalto-mc-praia-grande-sp-2026-08-01/",
+    "url": "/eventos/motofest-rio-das-flores-rj-2026-08-01/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/3-encontro-de-motociclistas-taquaritinga-sp-2026-08-01/",
+    "url": "/eventos/motorock-lavras-mg-2026-08-01/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/ronin-mc-itabira-mg-2026-08-01/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/soberanos-sobre-rodas-mc-guarapari-es-2026-08-01/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/vulcano-mc-macae-rj-2026-08-01/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/2-moto-cafe-pompeia-sp-2026-08-02/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -1772,6 +1779,20 @@
   },
   {
     "url": "/eventos/amm-duque-de-caxias-rj-2026-08-02/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/beneficente-gdr-jaci-sp-2026-08-02/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/brazilian-custom-mc-guaicara-sp-2026-08-02/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -1799,28 +1820,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/brazilian-custom-mc-guaicara-sp-2026-08-02/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/beneficente-gdr-jaci-sp-2026-08-02/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
     "url": "/eventos/solidario-jaci-sp-2026-08-02/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/2-moto-cafe-pompeia-sp-2026-08-02/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -1848,21 +1848,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/motofest-labrea-am-2026-08-07/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motorock-macaubas-ba-2026-08-07/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motofest-caete-mg-2026-08-07/",
+    "url": "/eventos/1-moto-acampamento-raiz-itanhandu-mg-2026-08-07/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -1876,20 +1862,6 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/1-moto-acampamento-raiz-itanhandu-mg-2026-08-07/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/ii-moto-festival-pocos-de-caldas-mg-2026-08-07/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
     "url": "/eventos/4-encontro-de-motociclistas-simonesia-mg-2026-08-07/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
@@ -1897,7 +1869,28 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/motofest-simonesia-mg-2026-08-07/",
+    "url": "/eventos/5-encontro-estadual-de-motociclistas-jucurutu-rn-2026-08-07/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/5-sexta-do-guara-garanhuns-pe-2026-08-07/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/dark-side-mc-duque-de-caxias-rj-2026-08-07/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/ii-moto-festival-pocos-de-caldas-mg-2026-08-07/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -1918,14 +1911,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/motofest-uberaba-mg-2026-08-07/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/5-sexta-do-guara-garanhuns-pe-2026-08-07/",
+    "url": "/eventos/motofest-caete-mg-2026-08-07/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -1939,126 +1925,28 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/dark-side-mc-duque-de-caxias-rj-2026-08-07/",
+    "url": "/eventos/motofest-labrea-am-2026-08-07/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/5-encontro-estadual-de-motociclistas-jucurutu-rn-2026-08-07/",
+    "url": "/eventos/motofest-simonesia-mg-2026-08-07/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/motorock-macaubas-ba-2026-08-08/",
+    "url": "/eventos/motofest-uberaba-mg-2026-08-07/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/lobos-cinzentos-mc-salvador-ba-2026-08-08/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/levianos-mc-ceilandia-sul-df-2026-08-08/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/amigos-do-asfalto-mc-ibatiba-es-2026-08-08/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/jaguar-negro-mc-e-the-steel-skulls-mc-belo-horizonte-mg-2026-08-08/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motofest-caete-mg-2026-08-08/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/griffon-s-mc-goiana-mg-2026-08-08/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/2-weekend-of-bikers-pudente-de-morais-mg-2026-08-08/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/confraria-das-aguias-mg-skulls-on-the-ride-mc-contagem-mg-2026-08-08/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/terapia-na-estrada-macae-rj-2026-08-08/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/discipulo-e-honta-mc-rio-de-janeiro-rj-2026-08-08/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/lobos-do-asfalto-mc-rio-de-janeiro-rj-2026-08-08/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/expurgados-mc-sao-goncalo-rj-2026-08-08/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/niver-sao-goncalo-rj-2026-08-08/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/guardioes-do-horizonte-mc-porto-da-folha-se-2026-08-08/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/speed-night-fest-brigui-sp-2026-08-08/",
+    "url": "/eventos/motorock-macaubas-ba-2026-08-07/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -2072,14 +1960,49 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/nomades-do-vento-mc-lindoia-sp-2026-08-08/",
+    "url": "/eventos/2-weekend-of-bikers-pudente-de-morais-mg-2026-08-08/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/ratel-mc-santa-cruz-do-rio-pardo-sp-2026-08-08/",
+    "url": "/eventos/amigos-do-asfalto-mc-ibatiba-es-2026-08-08/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/confraria-das-aguias-mg-skulls-on-the-ride-mc-contagem-mg-2026-08-08/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/discipulo-e-honta-mc-rio-de-janeiro-rj-2026-08-08/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/expurgados-mc-sao-goncalo-rj-2026-08-08/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/griffon-s-mc-goiana-mg-2026-08-08/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/guardioes-do-horizonte-mc-porto-da-folha-se-2026-08-08/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -2100,6 +2023,83 @@
     "kind": "event"
   },
   {
+    "url": "/eventos/jaguar-negro-mc-e-the-steel-skulls-mc-belo-horizonte-mg-2026-08-08/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/levianos-mc-ceilandia-sul-df-2026-08-08/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/lobos-cinzentos-mc-salvador-ba-2026-08-08/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/lobos-do-asfalto-mc-rio-de-janeiro-rj-2026-08-08/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/motofest-caete-mg-2026-08-08/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/motorock-macaubas-ba-2026-08-08/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/niver-sao-goncalo-rj-2026-08-08/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/nomades-do-vento-mc-lindoia-sp-2026-08-08/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/ratel-mc-santa-cruz-do-rio-pardo-sp-2026-08-08/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/speed-night-fest-brigui-sp-2026-08-08/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/terapia-na-estrada-macae-rj-2026-08-08/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
     "url": "/eventos/mundicas-mg-o-chamado-da-estrada-nova-pauliceia-gaviao-peixoto-sp-2026-08-09/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
@@ -2114,49 +2114,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/mg-viramundo-rasga-chao-rio-branco-ac-2026-08-14/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/ultr-moto-fest-alcobaca-ba-2026-08-14/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motofest-correntina-ba-2026-08-14/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/mc-urubus-obesos-ibia-mg-2026-08-14/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motofest-lambari-mg-2026-08-14/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/perdidos-do-asfalto-mc-matozinhos-mg-2026-08-14/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motofest-piunhi-mg-2026-08-14/",
+    "url": "/eventos/18-encontro-internacional-de-motos-de-altas-cilindradas-boa-vista-rr-2026-08-14/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -2170,7 +2128,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/motofest-iati-pe-2026-08-14/",
+    "url": "/eventos/22-anos-mantra-mc-sao-joao-da-boa-vista-sp-2026-08-14/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -2184,13 +2142,6 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/imperial-moto-week-petropolis-rj-2026-08-14/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
     "url": "/eventos/guardioes-de-ouro-mc-sao-goncalo-rj-2026-08-14/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
@@ -2198,14 +2149,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/18-encontro-internacional-de-motos-de-altas-cilindradas-boa-vista-rr-2026-08-14/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/mg-fora-de-rota-sao-pedro-do-butia-rs-2026-08-14/",
+    "url": "/eventos/imperial-moto-week-petropolis-rj-2026-08-14/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -2219,7 +2163,63 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/22-anos-mantra-mc-sao-joao-da-boa-vista-sp-2026-08-14/",
+    "url": "/eventos/mantra-mc-sao-joao-da-boa-vista-sp-2026-08-14/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/mc-urubus-obesos-ibia-mg-2026-08-14/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/mg-fora-de-rota-sao-pedro-do-butia-rs-2026-08-14/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/mg-viramundo-rasga-chao-rio-branco-ac-2026-08-14/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/motofest-correntina-ba-2026-08-14/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/motofest-iati-pe-2026-08-14/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/motofest-lambari-mg-2026-08-14/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/motofest-piunhi-mg-2026-08-14/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/perdidos-do-asfalto-mc-matozinhos-mg-2026-08-14/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -2233,28 +2233,14 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/mantra-mc-sao-joao-da-boa-vista-sp-2026-08-14/",
+    "url": "/eventos/ultr-moto-fest-alcobaca-ba-2026-08-14/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/bufalos-mg-marechal-floriano-es-2026-08-15/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/aguias-de-cristo-mc-belo-horizonte-mg-2026-08-15/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/sicarios-mc-ipuiuna-mg-2026-08-15/",
+    "url": "/eventos/1-comando-motor-fest-guaruja-sp-2026-08-15/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -2268,6 +2254,27 @@
     "kind": "event"
   },
   {
+    "url": "/eventos/2-encotnro-de-motociclistas-nhandeara-sp-2026-08-15/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/3-cafe-rock-cafelandia-sp-2026-08-15/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/5-praia-rock-chopper-mc-saquarema-rj-2026-08-15/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
     "url": "/eventos/8-rock-in-rio-ivai-japura-pr-2026-08-15/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
@@ -2275,7 +2282,70 @@
     "kind": "event"
   },
   {
+    "url": "/eventos/aguias-de-cristo-mc-belo-horizonte-mg-2026-08-15/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/andarilhos-mc-jundiai-sp-2026-08-15/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/anjos-de-cristo-mc-teresopolis-rj-2026-08-15/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
     "url": "/eventos/araruama-mc-araruama-rj-2026-08-15/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/belladona-s-mc-itu-sp-2026-08-15/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/bufalos-mg-marechal-floriano-es-2026-08-15/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/cavaleiros-sem-rumo-mc-campos-dos-goytacazes-rj-2026-08-15/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/garras-sobre-rodas-mc-rio-de-janeiro-rj-2026-08-15/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/ilha-mc-ilha-do-governador-rio-de-janeiro-rj-2026-08-15/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/ilha-mc-ilha-do-governador-rj-2026-08-15/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -2296,83 +2366,6 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/cavaleiros-sem-rumo-mc-campos-dos-goytacazes-rj-2026-08-15/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/ilha-mc-ilha-do-governador-rj-2026-08-15/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/ilha-mc-ilha-do-governador-rio-de-janeiro-rj-2026-08-15/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/terapia-na-estrada-macae-rj-2026-08-15/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/garras-sobre-rodas-mc-rio-de-janeiro-rj-2026-08-15/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/5-praia-rock-chopper-mc-saquarema-rj-2026-08-15/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/anjos-de-cristo-mc-teresopolis-rj-2026-08-15/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/3-cafe-rock-cafelandia-sp-2026-08-15/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/santa-custom-mc-franca-sp-2026-08-15/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/1-comando-motor-fest-guaruja-sp-2026-08-15/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/belladona-s-mc-itu-sp-2026-08-15/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
     "url": "/eventos/lady-rider-mg-jacana-sao-paulo-sp-2026-08-15/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
@@ -2387,13 +2380,6 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/andarilhos-mc-jundiai-sp-2026-08-15/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
     "url": "/eventos/pepe-legal-mc-mooca-sao-paulo-sp-2026-08-15/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
@@ -2401,14 +2387,21 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/2-encotnro-de-motociclistas-nhandeara-sp-2026-08-15/",
+    "url": "/eventos/santa-custom-mc-franca-sp-2026-08-15/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/ronin-mc-itabira-mg-2026-08-16/",
+    "url": "/eventos/sicarios-mc-ipuiuna-mg-2026-08-15/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/terapia-na-estrada-macae-rj-2026-08-15/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -2443,6 +2436,13 @@
     "kind": "event"
   },
   {
+    "url": "/eventos/ronin-mc-itabira-mg-2026-08-16/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
     "url": "/eventos/vila-roberto-pindorama-sp-2026-08-16/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
@@ -2457,14 +2457,28 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/motofest-luis-eduardo-magalhaes-ba-2026-08-21/",
+    "url": "/eventos/13-motocolatras-fest-araguari-mg-2026-08-21/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/motofest-pojuca-ba-2026-08-21/",
+    "url": "/eventos/15-encontro-de-motociclistas-santo-antonio-do-monte-mg-2026-08-21/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/19-encontro-de-motociclistas-boa-esperanca-mg-2026-08-21/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/2-moto-rock-espinosa-mg-2026-08-21/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -2485,28 +2499,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/13-motocolatras-fest-araguari-mg-2026-08-21/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/19-encontro-de-motociclistas-boa-esperanca-mg-2026-08-21/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/urubus-da-serra-mc-boa-esperanca-mg-2026-08-21/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/2-moto-rock-espinosa-mg-2026-08-21/",
+    "url": "/eventos/drag-race-campo-grande-ms-2026-08-21/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -2527,28 +2520,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/the-best-road-pouso-alegre-mg-2026-08-21/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/15-encontro-de-motociclistas-santo-antonio-do-monte-mg-2026-08-21/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/drag-race-campo-grande-ms-2026-08-21/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motofest-cha-grande-pe-2026-08-21/",
+    "url": "/eventos/libertus-brasil-mc-sao-jose-dos-campos-sp-2026-08-21/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -2562,7 +2534,21 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/libertus-brasil-mc-sao-jose-dos-campos-sp-2026-08-21/",
+    "url": "/eventos/motofest-cha-grande-pe-2026-08-21/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/motofest-luis-eduardo-magalhaes-ba-2026-08-21/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/motofest-pojuca-ba-2026-08-21/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -2576,21 +2562,28 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/mc-anjos-da-estrada-belo-horizonte-mg-2026-08-22/",
+    "url": "/eventos/the-best-road-pouso-alegre-mg-2026-08-21/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/espirito-de-agua-mc-contagem-mg-2026-08-22/",
+    "url": "/eventos/urubus-da-serra-mc-boa-esperanca-mg-2026-08-21/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/espirito-de-aguia-mc-contagem-mg-2026-08-22/",
+    "url": "/eventos/2-encontro-de-motos-amazonas-peruibe-sp-2026-08-22/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/5-moto-acampamento-major-vieira-sc-2026-08-22/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -2618,7 +2611,28 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/mc-renascidos-da-irmandade-belford-roxo-rj-2026-08-22/",
+    "url": "/eventos/espirito-de-agua-mc-contagem-mg-2026-08-22/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/espirito-de-aguia-mc-contagem-mg-2026-08-22/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/guardiao-do-destino-mf-salto-de-pirapora-sp-2026-08-22/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/mc-anjos-da-estrada-belo-horizonte-mg-2026-08-22/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -2639,7 +2653,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/5-moto-acampamento-major-vieira-sc-2026-08-22/",
+    "url": "/eventos/mc-renascidos-da-irmandade-belford-roxo-rj-2026-08-22/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -2653,35 +2667,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/2-encontro-de-motos-amazonas-peruibe-sp-2026-08-22/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/guardiao-do-destino-mf-salto-de-pirapora-sp-2026-08-22/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/comando-karkara-cruz-das-almas-ba-2026-08-23/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motorock-bertopolis-mg-2026-08-23/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/cruz-de-ferro-mc-marica-rj-2026-08-23/",
+    "url": "/eventos/5-encontro-de-motociclistas-cravinhos-sp-2026-08-23/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -2695,7 +2681,21 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/5-encontro-de-motociclistas-cravinhos-sp-2026-08-23/",
+    "url": "/eventos/comando-karkara-cruz-das-almas-ba-2026-08-23/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/cruz-de-ferro-mc-marica-rj-2026-08-23/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/motorock-bertopolis-mg-2026-08-23/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -2704,6 +2704,13 @@
   {
     "url": "/eventos/motorockfest-arrial-d-ajuda-ba-2026-08-26/",
     "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/biker-fest-buzios-rj-2026-08-27/",
+    "lastmod": "2026-07-27",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
@@ -2730,28 +2737,21 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/biker-fest-buzios-rj-2026-08-27/",
+    "url": "/eventos/anjos-de-pedra-mg-itau-de-minas-mg-2026-08-28/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/motofest-alagoinhas-ba-2026-08-28/",
+    "url": "/eventos/encontro-nacional-de-motociclistas-e-triciclistas-ijaci-mg-2026-08-28/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/mc-amigos-aventureiros-paramirim-ba-2026-08-28/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motofest-juazeiro-do-norte-ce-2026-08-28/",
+    "url": "/eventos/encontro-nacional-de-motociclistas-ijaci-mg-2026-08-28/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -2772,6 +2772,34 @@
     "kind": "event"
   },
   {
+    "url": "/eventos/kardume-do-asfalto-mc-ubatuba-sp-2026-08-28/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/mc-amigos-aventureiros-paramirim-ba-2026-08-28/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/moto-fest-senador-amaral-mg-2026-08-28/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/motofest-alagoinhas-ba-2026-08-28/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
     "url": "/eventos/motofest-araxa-mg-2026-08-28/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
@@ -2779,28 +2807,14 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/encontro-nacional-de-motociclistas-ijaci-mg-2026-08-28/",
+    "url": "/eventos/motofest-juazeiro-do-norte-ce-2026-08-28/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/encontro-nacional-de-motociclistas-e-triciclistas-ijaci-mg-2026-08-28/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/v-encontro-nacional-ijaci-mg-2026-08-28/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/anjos-de-pedra-mg-itau-de-minas-mg-2026-08-28/",
+    "url": "/eventos/motofest-senador-amaral-mg-2026-08-28/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -2821,20 +2835,6 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/moto-fest-senador-amaral-mg-2026-08-28/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motofest-senador-amaral-mg-2026-08-28/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
     "url": "/eventos/trike-brasil-mc-tri-vale-resende-rj-2026-08-28/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
@@ -2842,14 +2842,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/kardume-do-asfalto-mc-ubatuba-sp-2026-08-28/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/mc-os-lobos-formosa-go-2026-08-29/",
+    "url": "/eventos/v-encontro-nacional-ijaci-mg-2026-08-28/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -2863,20 +2856,6 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/mg-joker-s-palmitinho-rs-2026-08-29/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/nazarenos-mc-campinas-sp-2026-08-29/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
     "url": "/eventos/cavera-do-asfalto-mc-jaboticabal-sp-2026-08-29/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
@@ -2884,7 +2863,14 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/turma-de-cachorro-loco-mc-maua-sp-2026-08-29/",
+    "url": "/eventos/mc-os-lobos-formosa-go-2026-08-29/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/mg-joker-s-palmitinho-rs-2026-08-29/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -2898,7 +2884,14 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/pe-estradeiro-mc-amparo-sp-2026-08-30/",
+    "url": "/eventos/nazarenos-mc-campinas-sp-2026-08-29/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/turma-de-cachorro-loco-mc-maua-sp-2026-08-29/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -2912,7 +2905,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/motoimp-2026-imperatriz-ma-2026-09-03/",
+    "url": "/eventos/pe-estradeiro-mc-amparo-sp-2026-08-30/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -2926,126 +2919,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/santana-motofest-santana-do-ipanema-al-2026-09-04/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/patrulheiros-do-norte-mc-conceicao-da-barra-es-2026-09-04/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/mc-brucutu-s-bom-jesus-do-amparo-mg-2026-09-04/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motorock-conselheiro-lafaiete-mg-2026-09-04/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/diamantina-motofest-2026-diamantina-mg-2026-09-04/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/iv-motofest-guiricema-mg-2026-09-04/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/mg-stl-so-para-loucos-sao-thome-das-letras-mg-2026-09-04/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/autoridade-mc-ubaporanga-mg-2026-09-04/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/box-10-mc-uberaba-mg-2026-09-04/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motofest-belo-jardim-pe-2026-09-04/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/25-motofest-paranavai-pr-2026-09-04/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/caveiras-de-fogo-mc-cachoeiras-de-macacu-rj-2026-09-04/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motofest-iguaba-grande-rj-2026-09-04/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/14-encontro-de-motociclstas-rio-bonito-rj-2026-09-04/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/dragoes-de-ouro-mc-santo-antonio-de-padua-rj-2026-09-04/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motofest-parelhas-rn-2026-09-04/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/3-trike-fest-timbe-do-sul-sc-2026-09-04/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/barra-fest-rock-barra-bonita-sp-2026-09-04/",
+    "url": "/eventos/motoimp-2026-imperatriz-ma-2026-09-03/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -3059,6 +2933,69 @@
     "kind": "event"
   },
   {
+    "url": "/eventos/14-encontro-de-motociclstas-rio-bonito-rj-2026-09-04/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/25-motofest-paranavai-pr-2026-09-04/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/3-trike-fest-timbe-do-sul-sc-2026-09-04/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/autoridade-mc-ubaporanga-mg-2026-09-04/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/barra-fest-rock-barra-bonita-sp-2026-09-04/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/box-10-mc-uberaba-mg-2026-09-04/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/caveiras-de-fogo-mc-cachoeiras-de-macacu-rj-2026-09-04/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/diamantina-motofest-2026-diamantina-mg-2026-09-04/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/dragoes-de-ouro-mc-santo-antonio-de-padua-rj-2026-09-04/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
     "url": "/eventos/filhos-da-lua-mc-varzea-paulista-sp-2026-09-04/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
@@ -3066,7 +3003,63 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/encontro-nacional-v-strom-capitolio-mg-2026-09-05/",
+    "url": "/eventos/iv-motofest-guiricema-mg-2026-09-04/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/mc-brucutu-s-bom-jesus-do-amparo-mg-2026-09-04/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/mg-stl-so-para-loucos-sao-thome-das-letras-mg-2026-09-04/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/motofest-belo-jardim-pe-2026-09-04/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/motofest-iguaba-grande-rj-2026-09-04/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/motofest-parelhas-rn-2026-09-04/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/motorock-conselheiro-lafaiete-mg-2026-09-04/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/patrulheiros-do-norte-mc-conceicao-da-barra-es-2026-09-04/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/santana-motofest-santana-do-ipanema-al-2026-09-04/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -3080,7 +3073,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/aguias-rota-381-mc-guardioes-da-liberdade-mc-carmopolis-de-minas-mg-2026-09-05/",
+    "url": "/eventos/2-encontro-nacional-de-motociclistas-sao-carlos-sp-2026-09-05/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -3094,6 +3087,20 @@
     "kind": "event"
   },
   {
+    "url": "/eventos/aguias-rota-381-mc-guardioes-da-liberdade-mc-carmopolis-de-minas-mg-2026-09-05/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/encontro-nacional-v-strom-capitolio-mg-2026-09-05/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
     "url": "/eventos/motofest-poco-fundo-mg-2026-09-05/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
@@ -3101,7 +3108,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/snake-soul-cascavel-pr-2026-09-05/",
+    "url": "/eventos/motorcycles-rock-sao-carlos-sp-2026-09-05/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -3122,27 +3129,6 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/rat-bike-salto-grande-sp-2026-09-05/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/2-encontro-nacional-de-motociclistas-sao-carlos-sp-2026-09-05/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motorcycles-rock-sao-carlos-sp-2026-09-05/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
     "url": "/eventos/raca-livre-mg-sao-carlos-sp-2026-09-05/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
@@ -3150,35 +3136,14 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/peaky-blinders-mg-terezinha-pe-2026-09-06/",
+    "url": "/eventos/rat-bike-salto-grande-sp-2026-09-05/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/mg-somos-livres-cachoeiras-de-macacu-rj-2026-09-06/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/lobos-do-asfalto-mc-jardim-america-rio-de-janeiro-rj-2026-09-06/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/bandoleiros-mg-rio-de-janeiro-rj-2026-09-06/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/bandoleiros-mc-sao-goncalo-rj-2026-09-06/",
+    "url": "/eventos/snake-soul-cascavel-pr-2026-09-05/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -3192,49 +3157,42 @@
     "kind": "event"
   },
   {
+    "url": "/eventos/bandoleiros-mc-sao-goncalo-rj-2026-09-06/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/bandoleiros-mg-rio-de-janeiro-rj-2026-09-06/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/lobos-do-asfalto-mc-jardim-america-rio-de-janeiro-rj-2026-09-06/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/mg-somos-livres-cachoeiras-de-macacu-rj-2026-09-06/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/peaky-blinders-mg-terezinha-pe-2026-09-06/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
     "url": "/eventos/coyotes-da-serra-mc-duque-de-caxias-rj-2026-09-07/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/7-jere-moto-fest-jeremoabo-ba-2026-09-11/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/mc-rota-110-jeremoabo-ba-2026-09-11/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/12-encontro-de-motociclistas-crateus-ce-2026-09-11/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/chamas-na-caveira-mc-crateus-ce-2026-09-11/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/castelao-mc-conceicao-dos-ouros-mg-2026-09-11/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/7-encontro-nacional-de-motociclistas-fama-mg-2026-09-11/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -3248,7 +3206,42 @@
     "kind": "event"
   },
   {
+    "url": "/eventos/12-encontro-de-motociclistas-crateus-ce-2026-09-11/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
     "url": "/eventos/12-encontro-de-motociclistas-perdoes-mg-2026-09-11/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/7-encontro-nacional-de-motociclistas-fama-mg-2026-09-11/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/7-jere-moto-fest-jeremoabo-ba-2026-09-11/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/castelao-mc-conceicao-dos-ouros-mg-2026-09-11/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/chamas-na-caveira-mc-crateus-ce-2026-09-11/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -3262,7 +3255,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/ultra-moto-fest-sao-lourenco-mg-2026-09-11/",
+    "url": "/eventos/mc-rota-110-jeremoabo-ba-2026-09-11/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -3276,42 +3269,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/jaquetas-negras-mc-juiz-de-fora-mg-2026-09-12/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/xorete-mg-itatiaia-rj-2026-09-12/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/cadaver-mc-mage-rj-2026-09-12/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/ossos-libertos-mc-padre-miguel-rj-2026-09-12/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/old-pistons-volta-redonda-rj-2026-09-12/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/old-pistons-ms-volta-redonda-rj-2026-09-12/",
+    "url": "/eventos/ultra-moto-fest-sao-lourenco-mg-2026-09-11/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -3325,7 +3283,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/niver-amparo-sp-2026-09-12/",
+    "url": "/eventos/cadaver-mc-mage-rj-2026-09-12/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -3339,14 +3297,14 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/kurupira-mc-pirassununga-sp-2026-09-12/",
+    "url": "/eventos/jaquetas-negras-mc-juiz-de-fora-mg-2026-09-12/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/rei-dos-reis-mc-santa-gertrudes-sp-2026-09-12/",
+    "url": "/eventos/kurupira-mc-pirassununga-sp-2026-09-12/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -3360,7 +3318,42 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/uai-uberaba-mg-2026-09-13/",
+    "url": "/eventos/niver-amparo-sp-2026-09-12/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/old-pistons-ms-volta-redonda-rj-2026-09-12/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/old-pistons-volta-redonda-rj-2026-09-12/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/ossos-libertos-mc-padre-miguel-rj-2026-09-12/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/rei-dos-reis-mc-santa-gertrudes-sp-2026-09-12/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/xorete-mg-itatiaia-rj-2026-09-12/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -3381,13 +3374,6 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/mc-os-mamutes-e-road-rhino-mc-rio-de-janeiro-rj-2026-09-13/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
     "url": "/eventos/cavalo-de-aco-mc-estreito-sp-2026-09-13/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
@@ -3402,7 +3388,14 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/motofest-caruaru-pe-2026-09-17/",
+    "url": "/eventos/mc-os-mamutes-e-road-rhino-mc-rio-de-janeiro-rj-2026-09-13/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/uai-uberaba-mg-2026-09-13/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -3416,14 +3409,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/rock-fest-capela-nova-mg-2026-09-18/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/poderosos-chefoes-mc-carmo-do-cajuru-mg-2026-09-18/",
+    "url": "/eventos/motofest-caruaru-pe-2026-09-17/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -3437,42 +3423,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/mg-uniao-ouro-fino-mg-2026-09-18/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
     "url": "/eventos/km-125-mc-campos-dos-goytacazes-rj-2026-09-18/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/moto-amigo-mondai-sc-2026-09-18/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/nostalgia-mc-caes-de-zorba-mc-santa-barbara-d-oeste-sp-2026-09-18/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motoqueiros-da-pedra-mg-itapolis-sp-2026-09-18/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/nostalgia-mc-e-caes-de-zorba-mc-santa-barbara-d-oeste-sp-2026-09-18/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -3486,21 +3437,63 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/moto-e-brasa-itumbiara-go-2026-09-19/",
+    "url": "/eventos/mg-uniao-ouro-fino-mg-2026-09-18/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/rota-064-mc-rio-verde-go-2026-09-19/",
+    "url": "/eventos/moto-amigo-mondai-sc-2026-09-18/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/mc-os-papas-tome-acu-pa-2026-09-19/",
+    "url": "/eventos/motoqueiros-da-pedra-mg-itapolis-sp-2026-09-18/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/nostalgia-mc-caes-de-zorba-mc-santa-barbara-d-oeste-sp-2026-09-18/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/nostalgia-mc-e-caes-de-zorba-mc-santa-barbara-d-oeste-sp-2026-09-18/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/poderosos-chefoes-mc-carmo-do-cajuru-mg-2026-09-18/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/rock-fest-capela-nova-mg-2026-09-18/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/aguias-de-cristo-mc-sao-jose-do-rio-preto-sp-2026-09-19/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/cachorro-liberto-mc-guarulhos-sp-2026-09-19/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -3521,14 +3514,14 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/zapata-mc-embu-guacu-sp-2026-09-19/",
+    "url": "/eventos/macor-mc-sao-jose-dos-campos-sp-2026-09-19/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/cachorro-liberto-mc-guarulhos-sp-2026-09-19/",
+    "url": "/eventos/mc-os-papas-tome-acu-pa-2026-09-19/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -3542,6 +3535,13 @@
     "kind": "event"
   },
   {
+    "url": "/eventos/moto-e-brasa-itumbiara-go-2026-09-19/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
     "url": "/eventos/motofest-poloni-sp-2026-09-19/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
@@ -3549,14 +3549,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/aguias-de-cristo-mc-sao-jose-do-rio-preto-sp-2026-09-19/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/macor-mc-sao-jose-dos-campos-sp-2026-09-19/",
+    "url": "/eventos/rota-064-mc-rio-verde-go-2026-09-19/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -3570,7 +3563,21 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/moto-casal-e-amigos-itaborai-rj-2026-09-20/",
+    "url": "/eventos/zapata-mc-embu-guacu-sp-2026-09-19/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/1-truck-fest-suzano-sp-2026-09-20/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/2-moto-cafe-paraguacu-paulista-sp-2026-09-20/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -3591,13 +3598,6 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/2-moto-cafe-paraguacu-paulista-sp-2026-09-20/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
     "url": "/eventos/moto-cafe-santopolis-do-aguapei-sp-2026-09-20/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
@@ -3605,7 +3605,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/1-truck-fest-suzano-sp-2026-09-20/",
+    "url": "/eventos/moto-casal-e-amigos-itaborai-rj-2026-09-20/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -3613,20 +3613,6 @@
   },
   {
     "url": "/eventos/sao-fidelis-mc-sao-fidelis-rj-2026-09-24/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/frances-moto-fest-praia-do-frances-marechal-deodoro-al-2026-09-25/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/destemidos-do-asfalto-itanagra-ba-2026-09-25/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -3647,7 +3633,21 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/motofest-petrolandia-pe-2026-09-25/",
+    "url": "/eventos/bohemios-mc-boraceia-sp-2026-09-25/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/destemidos-do-asfalto-itanagra-ba-2026-09-25/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/frances-moto-fest-praia-do-frances-marechal-deodoro-al-2026-09-25/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -3661,7 +3661,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/bohemios-mc-boraceia-sp-2026-09-25/",
+    "url": "/eventos/motofest-petrolandia-pe-2026-09-25/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -3675,13 +3675,6 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/caveiras-do-asfalto-missao-velha-ce-2026-09-26/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
     "url": "/eventos/3-encontro-de-motociclistas-patrocinio-mg-2026-09-26/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
@@ -3689,7 +3682,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/sem-fronteiras-mg-santa-cruz-rj-2026-09-26/",
+    "url": "/eventos/caveiras-do-asfalto-missao-velha-ce-2026-09-26/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -3717,7 +3710,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/loko-e-poko-mc-aracoiaba-da-serra-sp-2026-09-27/",
+    "url": "/eventos/sem-fronteiras-mg-santa-cruz-rj-2026-09-26/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -3731,49 +3724,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/guardioes-mg-iacu-ba-2026-10-09/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motofest-iacu-ba-2026-10-09/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/moto-praia-ilheus-ba-2026-10-09/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/mc-mal-encarado-castelo-es-2026-10-09/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motofest-capim-branco-mg-2026-10-09/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/trovoes-do-asfalto-mc-manhuacu-mg-2026-10-09/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/nater-rock-natercia-mg-2026-10-09/",
+    "url": "/eventos/loko-e-poko-mc-aracoiaba-da-serra-sp-2026-09-27/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -3787,6 +3738,34 @@
     "kind": "event"
   },
   {
+    "url": "/eventos/2-moto-fest-serra-de-sao-bento-rn-2026-10-09/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/guardioes-mg-iacu-ba-2026-10-09/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/mc-mal-encarado-castelo-es-2026-10-09/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/moto-praia-ilheus-ba-2026-10-09/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
     "url": "/eventos/moto-week-macae-rj-2026-10-09/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
@@ -3794,7 +3773,49 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/2-moto-fest-serra-de-sao-bento-rn-2026-10-09/",
+    "url": "/eventos/motofest-capim-branco-mg-2026-10-09/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/motofest-iacu-ba-2026-10-09/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/nater-rock-natercia-mg-2026-10-09/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/trovoes-do-asfalto-mc-manhuacu-mg-2026-10-09/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/2-motoshow-presidente-alves-sp-2026-10-10/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/7-62-mc-araguari-sc-2026-10-10/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/aniversario-de-3-motoclubes-itu-sp-2026-10-10/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -3815,7 +3836,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/7-62-mc-araguari-sc-2026-10-10/",
+    "url": "/eventos/motoara-2026-araguaina-to-2026-10-10/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -3829,21 +3850,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/aniversario-de-3-motoclubes-itu-sp-2026-10-10/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/2-motoshow-presidente-alves-sp-2026-10-10/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motoara-2026-araguaina-to-2026-10-10/",
+    "url": "/eventos/caveiras-implacaveis-mc-tamoios-rj-2026-10-11/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -3857,21 +3864,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/caveiras-implacaveis-mc-tamoios-rj-2026-10-11/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
     "url": "/eventos/thrybus-mc-jaboticabal-sp-2026-10-11/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/nossa-senhora-aparecida-mc-guapimirim-rj-2026-10-12/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -3885,6 +3878,13 @@
     "kind": "event"
   },
   {
+    "url": "/eventos/nossa-senhora-aparecida-mc-guapimirim-rj-2026-10-12/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
     "url": "/eventos/rafard-mc-mombuca-sp-2026-10-16/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
@@ -3892,7 +3892,49 @@
     "kind": "event"
   },
   {
+    "url": "/eventos/alis-libertatis-mc-candido-mota-sp-2026-10-17/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/ganchos-do-asfalto-mg-rio-de-janeiro-rj-2026-10-17/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/ganchos-do-asfalto-mg-santissimo-rio-de-janeiro-rj-2026-10-17/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/mc-os-independentes-rio-de-janeiro-rj-2026-10-17/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/nacionaes-le-mc-boituva-sp-2026-10-17/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
     "url": "/eventos/professores-mc-vila-velhas-es-2026-10-17/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/rock-chopper-mc-rio-das-ostras-rj-2026-10-17/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -3913,55 +3955,6 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/rock-chopper-mc-rio-das-ostras-rj-2026-10-17/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/ganchos-do-asfalto-mg-rio-de-janeiro-rj-2026-10-17/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/mc-os-independentes-rio-de-janeiro-rj-2026-10-17/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/ganchos-do-asfalto-mg-santissimo-rio-de-janeiro-rj-2026-10-17/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/nacionaes-le-mc-boituva-sp-2026-10-17/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/alis-libertatis-mc-candido-mota-sp-2026-10-17/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/minhocas-do-asfalto-cascavel-pr-2026-10-18/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
     "url": "/eventos/araruama-mc-araruama-rj-2026-10-18/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
@@ -3970,6 +3963,13 @@
   },
   {
     "url": "/eventos/fumace-do-asfalto-mc-mage-rj-2026-10-18/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/minhocas-do-asfalto-cascavel-pr-2026-10-18/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -4004,14 +4004,14 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/scorpyon-mc-queimados-rj-2026-10-24/",
+    "url": "/eventos/old-indians-mc-sao-jose-dos-campos-sp-2026-10-24/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/old-indians-mc-sao-jose-dos-campos-sp-2026-10-24/",
+    "url": "/eventos/scorpyon-mc-queimados-rj-2026-10-24/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -4025,14 +4025,21 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/aos-olhos-de-um-motociclista-bom-principio-rs-2026-10-30/",
+    "url": "/eventos/20-encontro-de-motociclistas-motonave-navegantes-sc-2026-10-30/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/20-encontro-de-motociclistas-motonave-navegantes-sc-2026-10-30/",
+    "url": "/eventos/4-festival-da-pimenta-e-motorock-uru-sp-2026-10-30/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/aos-olhos-de-um-motociclista-bom-principio-rs-2026-10-30/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -4046,7 +4053,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/4-festival-da-pimenta-e-motorock-uru-sp-2026-10-30/",
+    "url": "/eventos/7-aniversario-mc-ponta-negra-marica-rj-2026-10-31/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -4067,7 +4074,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/7-aniversario-mc-ponta-negra-marica-rj-2026-10-31/",
+    "url": "/eventos/9-encontro-de-motociclistas-e-triciclistas-lutecia-sp-2026-11-06/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -4088,7 +4095,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/9-encontro-de-motociclistas-e-triciclistas-lutecia-sp-2026-11-06/",
+    "url": "/eventos/4-missa-do-motociclistas-e-triciclista-bebedouro-sp-2026-11-08/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -4116,28 +4123,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/4-missa-do-motociclistas-e-triciclista-bebedouro-sp-2026-11-08/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
     "url": "/eventos/indomaveis-motors-cascavel-pr-2026-11-12/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motofest-inhapi-al-2026-11-13/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/motofest-atilio-vivacqua-es-2026-11-13/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -4151,13 +4137,6 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/lendario-mc-corrego-do-bom-jesus-mg-2026-11-13/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
     "url": "/eventos/baroes-do-vento-mg-cosmopolis-sp-2026-11-13/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
@@ -4165,7 +4144,21 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/zapata-mc-ferraz-de-vasconcelos-sp-2026-11-14/",
+    "url": "/eventos/lendario-mc-corrego-do-bom-jesus-mg-2026-11-13/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/motofest-atilio-vivacqua-es-2026-11-13/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/motofest-inhapi-al-2026-11-13/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -4173,6 +4166,13 @@
   },
   {
     "url": "/eventos/liberty-mc-poa-sp-2026-11-14/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/zapata-mc-ferraz-de-vasconcelos-sp-2026-11-14/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -4193,21 +4193,7 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/mc-anjos-sobre-rodas-boa-esperanca-es-2026-11-20/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/discriminados-mc-santa-rita-de-jacutinga-mg-2026-11-20/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/excomungados-mc-turmalina-mg-2026-11-20/",
+    "url": "/eventos/5-moto-fe-santa-fe-do-sul-sp-2026-11-20/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -4228,21 +4214,28 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/5-moto-fe-santa-fe-do-sul-sp-2026-11-20/",
+    "url": "/eventos/discriminados-mc-santa-rita-de-jacutinga-mg-2026-11-20/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/resiliencia-mc-fervedouro-mg-2026-11-21/",
+    "url": "/eventos/excomungados-mc-turmalina-mg-2026-11-20/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/the-brothers-mc-buzios-rj-2026-11-21/",
+    "url": "/eventos/mc-anjos-sobre-rodas-boa-esperanca-es-2026-11-20/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/cavaleiros-sobre-rodas-mc-colina-sp-2026-11-21/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -4263,13 +4256,6 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/cavaleiros-sobre-rodas-mc-colina-sp-2026-11-21/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
     "url": "/eventos/moto-fest-lagoinha-sao-jose-do-rio-preto-sp-2026-11-21/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
@@ -4277,7 +4263,14 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/motofest-uirauna-pb-2026-11-27/",
+    "url": "/eventos/resiliencia-mc-fervedouro-mg-2026-11-21/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/the-brothers-mc-buzios-rj-2026-11-21/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -4305,7 +4298,21 @@
     "kind": "event"
   },
   {
+    "url": "/eventos/motofest-uirauna-pb-2026-11-27/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
     "url": "/eventos/motorock-pesqueira-pe-2026-11-27/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/alta-voltagem-mc-ibitinga-sp-2026-11-28/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -4326,21 +4333,14 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/steel-goose-mc-araruama-rj-2026-11-28/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
-    "url": "/eventos/alta-voltagem-mc-ibitinga-sp-2026-11-28/",
-    "lastmod": "2026-07-26",
-    "priority": "0.7",
-    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
-    "kind": "event"
-  },
-  {
     "url": "/eventos/neblina-mc-peruibe-sp-2026-11-28/",
+    "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/steel-goose-mc-araruama-rj-2026-11-28/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -4361,14 +4361,14 @@
     "kind": "event"
   },
   {
-    "url": "/eventos/motofest-divino-mg-2026-12-04/",
+    "url": "/eventos/asas-ao-vento-mc-braganca-paulista-sp-2026-12-04/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
   },
   {
-    "url": "/eventos/asas-ao-vento-mc-braganca-paulista-sp-2026-12-04/",
+    "url": "/eventos/motofest-divino-mg-2026-12-04/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
@@ -4446,7 +4446,7 @@
   },
   {
     "url": "/eventos/desafio-mucuge-2026-09-05/",
-    "lastmod": "2026-07-26",
+    "lastmod": "2026-07-27",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
@@ -6506,7 +6506,7 @@
   },
   {
     "url": "/modalidades/ciclismo-mtb/",
-    "lastmod": "2026-07-26",
+    "lastmod": "2026-07-27",
     "priority": "0.7",
     "kind": "modality"
   },

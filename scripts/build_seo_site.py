@@ -158,6 +158,33 @@ def iso_day(value: Any) -> str:
     return match.group(0) if match else TODAY
 
 
+def br_date(value: Any) -> str:
+    """Formata datas para exibição pública brasileira sem alterar o dado técnico."""
+    raw = str(value or "")
+    match = re.search(r"(\d{4})-(\d{2})-(\d{2})", raw)
+    if not match:
+        return raw
+    year, month, day = match.groups()
+    return f"{day}/{month}/{year}"
+
+
+def br_date_range(start: Any, end: Any = "") -> str:
+    start_label = br_date(start)
+    end_label = br_date(end)
+    if not end_label or end_label == start_label:
+        return start_label
+    return f"{start_label} a {end_label}"
+
+
+def format_visible_dates(value: Any) -> str:
+    """Converte datas ISO em texto, preservando URLs, slugs e timestamps técnicos."""
+    return re.sub(
+        r"(?<![\w/-])(\d{4})-(\d{2})-(\d{2})(?![\w/-])",
+        lambda match: f"{match.group(3)}/{match.group(2)}/{match.group(1)}",
+        str(value or ""),
+    )
+
+
 def absolute_url(value: str) -> str:
     if not value:
         return ""
@@ -382,7 +409,7 @@ def public_editorial_text(text: str) -> str:
     )
     for pattern, replacement in replacements:
         value = re.sub(pattern, replacement, value, flags=re.IGNORECASE)
-    return re.sub(r"\n{3,}", "\n\n", value).strip()
+    return format_visible_dates(re.sub(r"\n{3,}", "\n\n", value).strip())
 
 
 def words(value: str) -> set[str]:
@@ -705,8 +732,8 @@ def load_content() -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]
         modalities = [(slugify(data.get("modality", "")), data.get("modality", ""))] if data.get("modality") else []
         item = {
             "kind": "competition", "kind_label": "Competição", "slug": slug,
-            "title": data.get("title", slug), "summary": data.get("summary", ""),
-            "body": data.get("body", ""), "date": data.get("last_updated", TODAY),
+            "title": data.get("title", slug), "summary": format_visible_dates(data.get("summary", "")),
+            "body": format_visible_dates(data.get("body", "")), "date": data.get("last_updated", TODAY),
             "lastmod": iso_day(data.get("last_updated")), "category": data.get("modality", "Competição"),
             "ad_category": data.get("ad_category", ""),
             "image": data.get("cover", ""), "url": f"/competicoes/{slug}/",
@@ -751,8 +778,8 @@ def load_content() -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]
         slug = path.stem
         item = {
             "kind": "event", "kind_label": "Evento", "slug": slug,
-            "title": data.get("title", slug), "summary": data.get("summary", ""),
-            "body": data.get("body", ""), "date": data.get("start_date", TODAY),
+            "title": data.get("title", slug), "summary": format_visible_dates(data.get("summary", "")),
+            "body": format_visible_dates(data.get("body", "")), "date": data.get("start_date", TODAY),
             "lastmod": iso_day(data.get("last_updated") or data.get("start_date")),
             "category": data.get("event_type", "Evento"), "image": data.get("cover", ""),
             "ad_category": data.get("ad_category", ""),
@@ -790,8 +817,8 @@ def load_content() -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]
             existing_event_keys.add(event_key)
             item = {
                 "kind": "event", "kind_label": "Evento", "slug": slug,
-                "title": data.get("title", slug), "summary": data.get("summary", ""),
-                "body": data.get("body", ""), "date": data.get("start_date", TODAY),
+                "title": data.get("title", slug), "summary": format_visible_dates(data.get("summary", "")),
+                "body": format_visible_dates(data.get("body", "")), "date": data.get("start_date", TODAY),
                 "lastmod": iso_day(data.get("last_updated") or data.get("start_date")),
                 "category": data.get("event_type", "Evento"), "image": data.get("cover", ""),
                 "ad_category": data.get("ad_category", ""),
@@ -812,8 +839,8 @@ def load_content() -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]
         item = {
             "kind": "event", "kind_label": "Evento do calendário", "slug": slug,
             "title": data.get("title", slug),
-            "summary": data.get("summary") or " · ".join(filter(None, (data.get("stage"), data.get("city"), data.get("state")))),
-            "body": data.get("body") or f"## Sobre a prova\n\n{data.get('title')} integra o calendário monitorado pela TVDUASRODAS. Consulte a fonte oficial para confirmar programação, inscrições e alterações.",
+            "summary": format_visible_dates(data.get("summary") or " · ".join(filter(None, (data.get("stage"), data.get("city"), data.get("state"))))),
+            "body": format_visible_dates(data.get("body") or f"## Sobre a prova\n\n{data.get('title')} integra o calendário monitorado pela TVDUASRODAS. Consulte a fonte oficial para confirmar programação, inscrições e alterações."),
             "date": data.get("start_date", TODAY),
             "lastmod": iso_day(data.get("last_updated") or data.get("source_checked_at") or data.get("start_date")),
             "category": modality or "Evento",
@@ -830,8 +857,8 @@ def load_content() -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]
         body_text = re.sub(r"<[^>]+>", " ", data.get("bodyHtml", ""))
         item = {
             "kind": "guide", "kind_label": "Guia", "slug": slug,
-            "title": data.get("title", slug), "summary": data.get("summary", ""),
-            "body_html": data.get("bodyHtml", ""), "date": data.get("date", TODAY),
+            "title": data.get("title", slug), "summary": format_visible_dates(data.get("summary", "")),
+            "body_html": format_visible_dates(data.get("bodyHtml", "")), "date": data.get("date", TODAY),
             "lastmod": iso_day(data.get("date")), "category": data.get("category", "Guia"),
             "ad_category": data.get("ad_category", ""),
             "image": data.get("hero", {}).get("image", ""), "url": f"/guias/{slug}/",
@@ -866,10 +893,10 @@ def render_article(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str
 <nav class="seo-breadcrumb"><a href="/">Início</a> › <a href="/revista">Revista</a> › {esc(item["category"])}</nav>
 <article class="seo-article">
   <header><span class="seo-eyebrow">{esc(item["category"])}</span><h1>{esc(item["title"])}</h1>
-  <p class="seo-lead">{esc(item["summary"])}</p><p class="seo-meta">Por {esc(item["author"])} · {esc(iso_day(item["date"]))}</p></header>
+  <p class="seo-lead">{esc(item["summary"])}</p><p class="seo-meta">Por {esc(item["author"])} · {esc(br_date(item["date"]))}</p></header>
   {f'<figure class="seo-hero"><img src="{esc(image)}" alt="{esc(item["title"])}"><figcaption>{esc(item["title"])}</figcaption></figure>' if image else ""}
   <aside class="tdr-ad-slot" data-ad-slot="article-sidebar"{ad_override(item)} aria-label="Publicidade relacionada à matéria"></aside>
-  <div class="seo-prose">{markdown(item["body"])}</div>
+  <div class="seo-prose">{markdown(format_visible_dates(item["body"]))}</div>
   <aside class="tdr-ad-slot" data-ad-slot="article-inline"{ad_override(item)} aria-label="Banner relacionado à matéria"></aside>
   {relation_blocks(item, all_items)}
 </article>"""
@@ -899,10 +926,10 @@ def render_video(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
 <nav class="seo-breadcrumb"><a href="/">Início</a> › <a href="/videos/">Vídeos</a> › {esc(item["category"])}</nav>
 <article class="seo-article">
   <header><span class="seo-eyebrow">Vídeo · {esc(item["category"])}</span><h1>{esc(item["title"])}</h1>
-  <p class="seo-lead">{esc(item["summary"])}</p><p class="seo-meta">{esc(item.get("channel"))} · {esc(iso_day(item["date"]))}</p></header>
+  <p class="seo-lead">{esc(item["summary"])}</p><p class="seo-meta">{esc(item.get("channel"))} · {esc(br_date(item["date"]))}</p></header>
   <div class="seo-video"><iframe src="https://www.youtube.com/embed/{esc(item["video_id"])}" title="{esc(item["title"])}" allowfullscreen loading="eager"></iframe></div>
   <aside class="tdr-ad-slot" data-ad-slot="video-sidebar"{ad_override(item)} aria-label="Publicidade relacionada ao vídeo"></aside>
-  <div class="seo-prose">{markdown(item["body"])}</div>
+  <div class="seo-prose">{markdown(format_visible_dates(item["body"]))}</div>
   <aside class="tdr-ad-slot" data-ad-slot="video-inline"{ad_override(item)} aria-label="Banner relacionado ao vídeo"></aside>
   {relation_blocks(item, all_items)}
 </article>"""
@@ -1002,7 +1029,7 @@ def render_competition(
             f'<tbody>{"".join(latest_rows)}</tbody></table></div></section>'
         )
     rounds = "".join(
-        f"<tr><td>{esc(stage.get('name'))}</td><td>{esc(stage.get('start_date'))}</td>"
+        f"<tr><td>{esc(stage.get('name'))}</td><td>{esc(br_date_range(stage.get('start_date'), stage.get('end_date')))}</td>"
         f"<td>{esc(stage.get('location'))}</td><td>{render_round_outcome(stage)}</td></tr>"
         for stage in data.get("rounds", [])
     )
@@ -1044,12 +1071,12 @@ def render_competition(
 <article class="seo-article">
   <header><span class="seo-eyebrow">{esc(data.get("modality"))} · Temporada {esc(data.get("season"))}</span>
   <h1>{esc(item["title"])}</h1><p class="seo-lead">{esc(item["summary"])}</p>
-  <p class="seo-meta">Organização: {esc(data.get("organizer"))} · Atualizado em {esc(item["lastmod"])}</p>
+  <p class="seo-meta">Organização: {esc(data.get("organizer"))} · Atualizado em {esc(br_date(item["lastmod"]))}</p>
   <div class="ce-actions"><a class="btn btn-primary" href="{esc(data.get("official_url"))}" target="_blank" rel="noopener">Visitar site oficial ↗</a>{('<a class="btn btn-outline" href="' + esc(data.get("results_url")) + '" target="_blank" rel="noopener">Resultados oficiais ↗</a>') if data.get("results_url") and data.get("results_url") != data.get("official_url") else ''}</div></header>
   <aside class="tdr-ad-slot" data-ad-slot="detail-billboard" data-ad-category-override="competicoes" aria-label="Patrocínio da cobertura da competição"></aside>
   <figure class="seo-hero seo-artwork-hero"><img src="{esc(item["image"])}" alt="{esc(item["title"])}">{('<span class="seo-artwork-hero__label"><small>TVDUASRODAS · Competição</small><strong>' + esc(item["title"]) + '</strong></span>') if 'competicoes-eventos-default' in item["image"] else ''}<figcaption>{esc(data.get("image_credit"))}</figcaption></figure>
   <div class="seo-prose">{linked_markdown(public_editorial_text(item["body"]), people)}</div>
-{('<section class="seo-competition-section" id="resultado-recente"><header><span class="seo-block-label">Resultado oficial mais recente</span><h2>' + esc(latest_result.get("event") or "Último resultado") + '</h2><p>' + esc(" · ".join(filter(None, [latest_result.get("session"), latest_result.get("date")]))) + '</p></header><div class="seo-competition-stack">' + "".join(latest_groups) + '</div></section>') if latest_groups else ''}
+{('<section class="seo-competition-section" id="resultado-recente"><header><span class="seo-block-label">Resultado oficial mais recente</span><h2>' + esc(latest_result.get("event") or "Último resultado") + '</h2><p>' + esc(" · ".join(filter(None, [latest_result.get("session"), br_date(latest_result.get("date"))]))) + '</p></header><div class="seo-competition-stack">' + "".join(latest_groups) + '</div></section>') if latest_groups else ''}
   <section class="seo-competition-section" id="classificacao"><header><span class="seo-block-label">{esc(data.get("standings_eyebrow") or "Classificação oficial")}</span><h2>{esc(data.get("standings_title") or "Classificação do campeonato")}</h2></header>
   {('<div class="seo-competition-stack">' + ''.join(standings_groups) + '</div>') if standings_groups else '<div class="seo-competition-empty"><strong>Classificação aguardando publicação oficial.</strong><p>Os blocos de cada categoria serão incluídos após a divulgação da entidade organizadora.</p></div>'}
   </section>
@@ -1136,7 +1163,7 @@ def render_event(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
   <div class="ce-actions"><a class="btn btn-primary" href="{esc(data.get("official_url"))}" target="_blank" rel="noopener">{esc(source_label)}</a>{('<a class="btn btn-outline" href="' + esc(data.get("ticket_url")) + '" target="_blank" rel="noopener">Ingressos / acesso ↗</a>') if data.get("ticket_url") and data.get("ticket_url") != data.get("official_url") else ''}</div></header>
   <aside class="tdr-ad-slot" data-ad-slot="detail-billboard" data-ad-category-override="eventos" aria-label="Patrocínio da cobertura do evento"></aside>
   <figure class="seo-hero seo-artwork-hero"><img src="{esc(item["image"])}" alt="{esc(item["title"])}">{('<span class="seo-artwork-hero__label"><small>TVDUASRODAS · Evento</small><strong>' + esc(item["title"]) + '</strong></span>') if 'competicoes-eventos-default' in item["image"] else ''}<figcaption>{esc(data.get("image_credit"))}</figcaption></figure>
-  <section class="seo-service"><div><span>Data e horário</span><strong>{esc(data.get("start_date"))} a {esc(data.get("end_date") or data.get("start_date"))}</strong><small>{esc(time_label)}</small></div>
+  <section class="seo-service"><div><span>Data e horário</span><strong>{esc(br_date_range(data.get("start_date"), data.get("end_date")))}</strong><small>{esc(time_label)}</small></div>
   <div><span>Endereço</span><strong>{esc(location_name)}</strong><small>{esc(full_address)}</small></div>
   <div><span>Acesso</span><strong>{esc(admission)}</strong></div>
   <div><span>Estacionamento</span><strong>{esc(parking)}</strong></div>

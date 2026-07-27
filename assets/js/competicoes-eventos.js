@@ -52,24 +52,25 @@
         return new Date(parts[0], parts[1] - 1, parts[2]);
     }
 
-    function formatDate(value, options = {}) {
+    function formatDate(value) {
         const date = dateFromIso(value);
         if (!date) return value || "A confirmar";
         return new Intl.DateTimeFormat("pt-BR", {
-            day: "2-digit", month: options.long ? "long" : "short", year: "numeric"
+            day: "2-digit", month: "2-digit", year: "numeric"
         }).format(date);
     }
 
     function formatRange(start, end) {
         if (!start) return "Data a confirmar";
-        if (!end || start === end) return formatDate(start, { long: true });
-        const a = dateFromIso(start);
-        const b = dateFromIso(end);
-        if (!a || !b) return `${formatDate(start)} a ${formatDate(end)}`;
-        if (a.getMonth() === b.getMonth() && a.getFullYear() === b.getFullYear()) {
-            return `${a.getDate()} a ${new Intl.DateTimeFormat("pt-BR", { day: "numeric", month: "long", year: "numeric" }).format(b)}`;
-        }
+        if (!end || start === end) return formatDate(start);
         return `${formatDate(start)} a ${formatDate(end)}`;
+    }
+
+    function formatTextDates(value) {
+        return String(value || "").replace(
+            /(^|[^\w/-])(\d{4})-(\d{2})-(\d{2})(?![\w/-])/g,
+            (_, prefix, year, month, day) => `${prefix}${day}/${month}/${year}`
+        );
     }
 
     function slugFromUrl() {
@@ -164,7 +165,7 @@
             <div class="ce-card__body">
                 <div class="ce-eyebrow">${esc(item.modality || "Competição")} · ${esc(item.scope || item.country || "")}</div>
                 <h3><a href="/competicoes/${slugify(item.slug)}/">${esc(item.title)}</a></h3>
-                <p>${esc(item.summary || "Resultados, calendário e classificação oficial.")}</p>
+                <p>${esc(formatTextDates(item.summary || "Resultados, calendário e classificação oficial."))}</p>
                 ${next.name ? `<div class="ce-next"><span>Próxima etapa</span><strong>${esc(next.name)}</strong><small>${esc(formatRange(next.start_date, next.end_date))}${next.city ? ` · ${esc(next.city)}/${esc(next.state)}` : ""}</small></div>` : ""}
                 <a class="ce-text-link" href="/competicoes/${slugify(item.slug)}/">Ver resultados e classificação →</a>
             </div>
@@ -185,7 +186,7 @@
             <div class="ce-event-card__body">
                 <div>${statusBadge(item.status)} <span class="ce-chip">${esc(segment)}</span> ${needsConfirmation ? '<span class="ce-chip ce-chip--warning">Confirmar</span>' : ""} ${item.free ? '<span class="ce-chip">Entrada gratuita</span>' : ""}</div>
                 <h3><a href="/eventos/${slugify(item.slug)}/">${esc(item.title)}</a></h3>
-                <p>${esc(item.summary || "")}</p>
+                <p>${esc(formatTextDates(item.summary || ""))}</p>
                 <small>${esc(item.venue || "Local a confirmar")}</small>
             </div>
             <a class="ce-event-card__action" href="/eventos/${slugify(item.slug)}/" aria-label="Ver detalhes de ${esc(item.title)}">→</a>
@@ -411,7 +412,7 @@
             const rows = result.classification.filter((x) => (x.category || result.session || "Geral") === category).map((x) => `<tr><td><strong>${esc(x.display_position || x.position)}</strong></td><td>${esc(x.competitor)}</td><td>${esc(x.team || "—")}</td><td>${esc(x.time_gap || "—")}</td><td><strong>${esc(x.points ?? "—")}</strong></td></tr>`).join("");
             return `<section class="ce-standing-group ce-result-group"><header><span class="ce-group-label">Resultado da categoria</span><h3>${esc(category)}</h3></header><div class="ce-table-wrap"><table class="ce-table"><thead><tr><th>Pos.</th><th>Piloto</th><th>Equipe</th><th>Tempo / diferença</th><th>Pontos</th></tr></thead><tbody>${rows}</tbody></table></div></section>`;
         }).join("");
-        return `<section class="ce-detail-section ce-detail-section--panel" id="resultado-recente"><div class="ce-section-heading"><span class="ce-eyebrow">Resultado oficial mais recente</span><h2>${esc(result.event)}</h2>${result.session || result.date ? `<p>${esc([result.session, result.date ? formatDate(result.date, { long: true }) : ""].filter(Boolean).join(" · "))}</p>` : ""}</div>${result.note ? `<p>${esc(result.note)}</p>` : ""}<div class="ce-group-stack">${groups}</div>${result.source_url ? `<p><a href="${esc(safeUrl(result.source_url))}" target="_blank" rel="noopener noreferrer">Conferir classificação oficial completa ↗</a></p>` : ""}</section>`;
+        return `<section class="ce-detail-section ce-detail-section--panel" id="resultado-recente"><div class="ce-section-heading"><span class="ce-eyebrow">Resultado oficial mais recente</span><h2>${esc(result.event)}</h2>${result.session || result.date ? `<p>${esc([result.session, result.date ? formatDate(result.date) : ""].filter(Boolean).join(" · "))}</p>` : ""}</div>${result.note ? `<p>${esc(formatTextDates(result.note))}</p>` : ""}<div class="ce-group-stack">${groups}</div>${result.source_url ? `<p><a href="${esc(safeUrl(result.source_url))}" target="_blank" rel="noopener noreferrer">Conferir classificação oficial completa ↗</a></p>` : ""}</section>`;
     }
 
     function renderRounds(items) {
@@ -427,9 +428,15 @@
         try {
             const item = await fetchData(`content/competitions/${slug}.json`);
             setSeo(item.title, item.summary, `${window.location.origin}/competicoes/${slugify(slug)}/`);
-            const updated = item.last_updated ? new Date(item.last_updated).toLocaleString("pt-BR", { dateStyle: "long", timeStyle: "short" }) : "";
+            const updatedDate = item.last_updated ? new Date(item.last_updated) : null;
+            const updated = updatedDate && !Number.isNaN(updatedDate.getTime())
+                ? updatedDate.toLocaleString("pt-BR", {
+                    day: "2-digit", month: "2-digit", year: "numeric",
+                    hour: "2-digit", minute: "2-digit"
+                })
+                : "";
             const latestResult = renderLatestResult(item.latest_result);
-            root.innerHTML = `<header class="ce-detail-hero"><div class="ce-detail-hero__media"><img src="${esc(safeUrl(item.cover, DEFAULT_IMAGE))}" alt="${esc(item.title)}" onerror="this.src='${DEFAULT_IMAGE}'">${item.image_credit ? `<small>${esc(item.image_credit)}</small>` : ""}</div><div class="ce-detail-hero__copy">${statusBadge(item.status)}<div class="ce-eyebrow">${esc(item.modality)} · Temporada ${esc(item.season)}</div><h1>${esc(item.title)}</h1><p>${esc(item.summary)}</p><div class="ce-actions"><a class="btn btn-primary" href="${esc(safeUrl(item.official_url))}" target="_blank" rel="noopener noreferrer">Site oficial ↗</a>${item.results_url ? `<a class="btn btn-outline" href="${esc(safeUrl(item.results_url))}" target="_blank" rel="noopener noreferrer">Resultados oficiais ↗</a>` : ""}</div>${updated ? `<small class="ce-updated">Atualizado em ${esc(updated)}</small>` : ""}</div></header>${adRectangle()}${renderNextStage(item.next_stage)}<nav class="ce-anchor-nav" aria-label="Nesta página">${latestResult ? '<a href="#resultado-recente">Último resultado</a>' : ""}<a href="#classificacao">Classificação</a><a href="#calendario">Etapas e resultados</a><a href="#sobre">Sobre</a></nav>${latestResult}<section class="ce-detail-section ce-detail-section--panel" id="classificacao"><div class="ce-section-heading"><span class="ce-eyebrow">${esc(item.standings_eyebrow || "Leaderboard")}</span><h2>${esc(item.standings_title || "Classificação do campeonato")}</h2></div><div class="ce-group-stack">${renderStandings(item.standings, item.standings_value_label || "Pontos")}</div></section><section class="ce-detail-section ce-detail-section--panel" id="calendario"><div class="ce-section-heading"><span class="ce-eyebrow">Temporada ${esc(item.season)}</span><h2>Etapas e resultados</h2></div>${renderRounds(item.rounds)}</section><section class="ce-detail-section ce-prose" id="sobre">${markdown(item.body)}</section><aside class="ce-source-note"><strong>Compromisso com a precisão</strong><p>Resultados e pontos são conferidos com documentos da entidade, do organizador ou de prestadores oficialmente contratados, com verificação cruzada em outras fontes confiáveis quando necessário.</p></aside>`;
+            root.innerHTML = `<header class="ce-detail-hero"><div class="ce-detail-hero__media"><img src="${esc(safeUrl(item.cover, DEFAULT_IMAGE))}" alt="${esc(item.title)}" onerror="this.src='${DEFAULT_IMAGE}'">${item.image_credit ? `<small>${esc(item.image_credit)}</small>` : ""}</div><div class="ce-detail-hero__copy">${statusBadge(item.status)}<div class="ce-eyebrow">${esc(item.modality)} · Temporada ${esc(item.season)}</div><h1>${esc(item.title)}</h1><p>${esc(formatTextDates(item.summary))}</p><div class="ce-actions"><a class="btn btn-primary" href="${esc(safeUrl(item.official_url))}" target="_blank" rel="noopener noreferrer">Site oficial ↗</a>${item.results_url ? `<a class="btn btn-outline" href="${esc(safeUrl(item.results_url))}" target="_blank" rel="noopener noreferrer">Resultados oficiais ↗</a>` : ""}</div>${updated ? `<small class="ce-updated">Atualizado em ${esc(updated)}</small>` : ""}</div></header>${adRectangle()}${renderNextStage(item.next_stage)}<nav class="ce-anchor-nav" aria-label="Nesta página">${latestResult ? '<a href="#resultado-recente">Último resultado</a>' : ""}<a href="#classificacao">Classificação</a><a href="#calendario">Etapas e resultados</a><a href="#sobre">Sobre</a></nav>${latestResult}<section class="ce-detail-section ce-detail-section--panel" id="classificacao"><div class="ce-section-heading"><span class="ce-eyebrow">${esc(item.standings_eyebrow || "Leaderboard")}</span><h2>${esc(item.standings_title || "Classificação do campeonato")}</h2></div><div class="ce-group-stack">${renderStandings(item.standings, item.standings_value_label || "Pontos")}</div></section><section class="ce-detail-section ce-detail-section--panel" id="calendario"><div class="ce-section-heading"><span class="ce-eyebrow">Temporada ${esc(item.season)}</span><h2>Etapas e resultados</h2></div>${renderRounds(item.rounds)}</section><section class="ce-detail-section ce-prose" id="sobre">${markdown(formatTextDates(item.body))}</section><aside class="ce-source-note"><strong>Compromisso com a precisão</strong><p>Resultados e pontos são conferidos com documentos da entidade, do organizador ou de prestadores oficialmente contratados, com verificação cruzada em outras fontes confiáveis quando necessário.</p></aside>`;
             window.TVAds?.setContext({ type: "competition", ad_category: item.ad_category, title: item.title, category: item.modality, modality: item.modality, body: item.summary });
         } catch (error) { console.error(error); showNotFound(root, "competição"); }
     }
@@ -477,7 +484,7 @@
             const fullAddress = item.full_address || [item.venue, item.city, item.state].filter(Boolean).join(" · ");
             const admission = item.admission_status || (item.free ? "Entrada gratuita" : "Confirme com a organização");
             const parking = item.parking || "Não informado";
-            root.innerHTML = `<header class="ce-detail-hero"><div class="ce-detail-hero__media"><img src="${esc(safeUrl(item.cover, DEFAULT_IMAGE))}" alt="${esc(item.title)}" onerror="this.src='${DEFAULT_IMAGE}'">${item.image_credit ? `<small>${esc(item.image_credit)}</small>` : ""}</div><div class="ce-detail-hero__copy">${statusBadge(item.status)}<div class="ce-eyebrow">${esc(item.event_type)}</div><h1>${esc(item.title)}</h1><p>${esc(item.summary)}</p><div class="ce-actions"><a class="btn btn-primary" href="${esc(safeUrl(item.official_url))}" target="_blank" rel="noopener noreferrer">${sourceLabel}</a>${item.ticket_url ? `<a class="btn btn-outline" href="${esc(safeUrl(item.ticket_url))}" target="_blank" rel="noopener noreferrer">Ingressos / acesso ↗</a>` : ""}</div></div></header>${adRectangle()}<section class="ce-service-grid"><div><span>Quando</span><strong>${esc(formatRange(item.start_date, item.end_date))}</strong><small>${esc(timeLabel)}</small></div><div><span>Endereço</span><strong>${esc(item.venue)}</strong><small>${esc(fullAddress)}</small></div><div><span>Acesso</span><strong>${esc(admission)}</strong></div><div><span>Estacionamento</span><strong>${esc(parking)}</strong></div>${item.organizer ? `<div><span>Organização</span><strong>${esc(item.organizer)}</strong></div>` : ""}</section><section class="ce-detail-section"><div class="ce-section-heading"><span class="ce-eyebrow">Programação</span><h2>Atrações e experiências</h2></div><div class="ce-attractions">${(item.attractions || []).map((x) => `<span>${esc(x)}</span>`).join("") || "Programação a confirmar."}</div></section><section class="ce-detail-section ce-prose">${markdown(item.body)}</section><aside class="ce-source-note"><strong>Antes de sair de casa</strong><p>Horários, atrações, endereço e regras podem mudar. Confirme diretamente com o organizador ou moto clube responsável.</p></aside>`;
+            root.innerHTML = `<header class="ce-detail-hero"><div class="ce-detail-hero__media"><img src="${esc(safeUrl(item.cover, DEFAULT_IMAGE))}" alt="${esc(item.title)}" onerror="this.src='${DEFAULT_IMAGE}'">${item.image_credit ? `<small>${esc(item.image_credit)}</small>` : ""}</div><div class="ce-detail-hero__copy">${statusBadge(item.status)}<div class="ce-eyebrow">${esc(item.event_type)}</div><h1>${esc(item.title)}</h1><p>${esc(formatTextDates(item.summary))}</p><div class="ce-actions"><a class="btn btn-primary" href="${esc(safeUrl(item.official_url))}" target="_blank" rel="noopener noreferrer">${sourceLabel}</a>${item.ticket_url ? `<a class="btn btn-outline" href="${esc(safeUrl(item.ticket_url))}" target="_blank" rel="noopener noreferrer">Ingressos / acesso ↗</a>` : ""}</div></div></header>${adRectangle()}<section class="ce-service-grid"><div><span>Quando</span><strong>${esc(formatRange(item.start_date, item.end_date))}</strong><small>${esc(timeLabel)}</small></div><div><span>Endereço</span><strong>${esc(item.venue)}</strong><small>${esc(fullAddress)}</small></div><div><span>Acesso</span><strong>${esc(admission)}</strong></div><div><span>Estacionamento</span><strong>${esc(parking)}</strong></div>${item.organizer ? `<div><span>Organização</span><strong>${esc(item.organizer)}</strong></div>` : ""}</section><section class="ce-detail-section"><div class="ce-section-heading"><span class="ce-eyebrow">Programação</span><h2>Atrações e experiências</h2></div><div class="ce-attractions">${(item.attractions || []).map((x) => `<span>${esc(formatTextDates(x))}</span>`).join("") || "Programação a confirmar."}</div></section><section class="ce-detail-section ce-prose">${markdown(formatTextDates(item.body))}</section><aside class="ce-source-note"><strong>Antes de sair de casa</strong><p>Horários, atrações, endereço e regras podem mudar. Confirme diretamente com o organizador ou moto clube responsável.</p></aside>`;
             window.TVAds?.setContext({ type: "event", ad_category: item.ad_category, title: item.title, category: item.event_type, event_type: item.event_type, body: item.summary });
         } catch (error) { console.error(error); showNotFound(root, "evento"); }
     }
