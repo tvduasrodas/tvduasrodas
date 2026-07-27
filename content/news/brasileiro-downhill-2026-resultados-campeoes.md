@@ -1,16 +1,19 @@
 ---
-title: "Brasileiro de Downhill 2026: Roger Vieira e Nara Faria conquistam a Elite"
-date: "2026-07-27T14:35:00-04:00"
-author: "Redação TVDUASRODAS"
-category: "Eventos"
+title: 'Brasileiro de Downhill 2026: Roger Vieira e Nara Faria conquistam a Elite'
+date: 2026-07-27T14:35:00-04:00
+author: Redação TVDUASRODAS
+contentType: news
+category: Eventos
 ad_category: bicicletas
-contentType: "news"
-readingTime: "8 min"
-kicker: "Resultados"
-summary: "Roger Vieira e Nara Faria venceram a Elite do Brasileiro de Downhill 2026; veja o top 5 masculino e os campeões já confirmados em outras categorias."
-seoTitle: "Resultados do Brasileiro de Downhill 2026: campeões e classificação"
-cover: "/assets/img/uploads/brasileiro-ciclismo-mtb-2026-capa.webp"
+programLabel: ''
+episodeDuration: ''
+readingTime: 8 min
+summary: Roger Vieira e Nara Faria venceram a Elite do Brasileiro de Downhill 2026; veja o top 5 masculino e os campeões já confirmados em outras categorias.
+seoTitle: 'Resultados do Brasileiro de Downhill 2026: campeões e classificação'
+videoId: ''
+cover: /assets/img/uploads/downhill2026win.PNG
 featured: true
+kicker: Resultados
 ---
 
 O **Campeonato Brasileiro de Downhill 2026** terminou no domingo, 26 de julho, em Paraíba do Sul (RJ), com **Roger Vieira** e **Nara Faria** no alto do pódio das categorias Elite. A prova em etapa única reuniu mais de 200 participantes, segundo cobertura regional publicada antes da largada, e definiu os campeões nacionais na pista do Morro da Torre, dentro do Parque das Águas Salutaris.
@@ -19,7 +22,7 @@ A Confederação Brasileira de Ciclismo (CBC) confirma que o traçado utilizado 
 
 Até a publicação desta matéria, a CBC ainda não havia disponibilizado a planilha consolidada do Brasileiro de DHI 2026 em sua página pública de resultados. Por isso, a TVDUASRODAS cruzou publicações dos atletas, da FECIERJ, da organização local, de equipes, apoiadores e veículos regionais. A classificação abaixo é identificada como **verificada por fontes diretas**, e será ampliada quando o documento oficial for publicado.
 
-*Imagem de capa de arquivo do MTB brasileiro: Alan Modesto/CBC. Arte: TVDUASRODAS.*
+_Imagem de capa de arquivo do MTB brasileiro: Alan Modesto/CBC. Arte: TVDUASRODAS._
 
 ## Roger Vieira é bicampeão brasileiro
 
@@ -29,23 +32,21 @@ O pódio da principal categoria masculina foi reconstruído a partir da publica�
 
 ![Infográfico com o top 5 da Elite Masculina no Campeonato Brasileiro de Downhill 2026](/assets/img/uploads/brasileiro-downhill-2026-top5-elite.svg "Classificação verificada da Elite Masculina do Brasileiro de Downhill 2026.")
 
-*Infográfico: TVDUASRODAS. Posições cruzadas com publicações dos cinco atletas.*
+_Infográfico: TVDUASRODAS. Posições cruzadas com publicações dos cinco atletas._
 
 ### Top 5 — Elite Masculina
 
 - **1º — Roger Vieira:** campeão.
-
 - **2º — Leo Becher:** vice-campeão.
-
 - **3º — João Hodecker:** terceiro colocado.
-
 - **4º — Bruno Silva:** quarto colocado.
-
 - **5º — Lucas Oechsler:** quinto colocado.
 
 O resultado é especialmente relevante porque reúne no mesmo top 5 atletas com experiência internacional, títulos continentais e liderança em rankings nacionais. Roger retornou ao Brasil em meio à temporada internacional e saiu de Paraíba do Sul novamente com a camisa nacional.
 
 ## Nara Faria conquista o tricampeonato
+
+![](/assets/img/uploads/downhill2026winf.PNG)
 
 Na **Elite Feminina**, Nara Faria venceu com **2min16s560**. A capixaba informou ter reduzido quatro segundos em relação à tomada de tempo e descreveu a final como uma descida sólida, consistente e precisa.
 
@@ -67,18 +68,14 @@ Na **Master A2**, o título ficou com **Darlan Tomaselli**. A conquista também 
 
 ![Quadro com campeões confirmados do Campeonato Brasileiro de Downhill 2026](/assets/img/uploads/brasileiro-downhill-2026-campeoes-confirmados.svg "Campeões já confirmados por categoria no Brasileiro de Downhill 2026.")
 
-*Infográfico: TVDUASRODAS. Atualização baseada em publicações diretas e canais ligados à prova.*
+_Infográfico: TVDUASRODAS. Atualização baseada em publicações diretas e canais ligados à prova._
 
 ## Campeões confirmados até agora
 
 - **Elite Masculina — Roger Vieira:** bicampeão brasileiro.
-
 - **Elite Feminina — Nara Faria:** tempo de 2min16s560 e tricampeonato.
-
 - **Juvenil Masculina — Francisco França:** campeão e sexto melhor tempo geral.
-
 - **Sub-30 — Henrique Lima:** título confirmado por canal pernambucano da modalidade.
-
 - **Master A2 — Darlan Tomaselli:** título confirmado em publicação de atleta do top 5 Elite.
 
 O quadro não pretende substituir a súmula da CBC. Categorias como Júnior, Infantojuvenil, Masters adicionais, divisões femininas de base e as provas Open, Rígida, Enduro e E-bike serão incorporadas assim que houver documento público ou confirmação direta suficiente para cada posição.
@@ -115,4 +112,4 @@ A [central do Campeonato Brasileiro de Downhill na TVDUASRODAS](/competicoes/bra
 - Instagram do Circuito Carioca de Downhill, Downhill Pernambuco e Bergesen do Brasil
 - Prefeitura de Ilhabela, Portal Notícias do Litoral, Jornal de Pomerode e P1 News
 
-*Texto original da TVDUASRODAS, produzido por pesquisa remota e cruzamento de fontes. A cobertura não representa presença física da redação na competição.*
+_Texto original da TVDUASRODAS, produzido por pesquisa remota e cruzamento de fontes. A cobertura não representa presença física da redação na competição._
