@@ -8,12 +8,12 @@
   "status": "em_andamento",
   "organizer": "FIM / Infront Moto Racing",
   "official_url": "https://www.mxgp.com/",
-  "results_url": "https://www.mxgp.com/news/it%E2%80%99s-fabulous-foxhills-herlings-and-farres-monster-energy-mxgp-great-britain",
+  "results_url": "https://www.mxgp.com/news/herlings-and-farres-lead-way-loket-after-mxgp-czech-republic",
   "cover": "/assets/img/uploads/mxgp-2026-capa.webp",
   "image_credit": "Foto: MXGP / Infront Moto Racing · Arte: TVDUASRODAS",
   "featured": false,
-  "summary": "Lucas Coenen lidera a MXGP por 11 pontos após Foxhills; Guillem Farres assumiu a ponta da MX2.",
-  "last_updated": "2026-07-26T07:34:37.414943+00:00",
+  "summary": "Jeffrey Herlings venceu a MXGP e assumiu a liderança do campeonato em Loket; Guillem Farres venceu a MX2.",
+  "last_updated": "2026-07-27T00:15:00+00:00",
   "next_stage": {
     "name": "13ª etapa — GP da Tchéquia",
     "start_date": "2026-07-25",
@@ -28,11 +28,11 @@
     "MX2"
   ],
   "latest_result": {
-    "event": "MXGP da Grã-Bretanha — Foxhills",
-    "session": "Classificação geral MXGP",
-    "date": "2026-07-19",
-    "note": "Jeffrey Herlings venceu as duas baterias e somou 50 pontos. Romain Febvre e Tim Gajser completaram o pódio geral.",
-    "source_url": "https://www.mxgp.com/news/it%E2%80%99s-fabulous-foxhills-herlings-and-farres-monster-energy-mxgp-great-britain",
+    "event": "MXGP da Tchéquia — Loket",
+    "session": "Resultado geral",
+    "date": "2026-07-26",
+    "note": "Jeffrey Herlings venceu a MXGP e Guillem Farres venceu a MX2. A classificação completa da etapa permanece em atualização conforme os documentos oficiais forem disponibilizados.",
+    "source_url": "https://www.mxgp.com/news/herlings-and-farres-lead-way-loket-after-mxgp-czech-republic",
     "classification": [
       {
         "position": "1º",
@@ -43,66 +43,10 @@
       },
       {
         "position": "2º",
-        "competitor": "Romain Febvre",
-        "team": "Kawasaki Racing Team MXGP",
-        "time_gap": "2º geral",
-        "points": 42
-      },
-      {
-        "position": "3º",
-        "competitor": "Tim Gajser",
-        "team": "Monster Energy Yamaha Factory MXGP",
-        "time_gap": "3º geral",
-        "points": 42
-      },
-      {
-        "position": "4º",
-        "competitor": "Rubén Fernández",
-        "team": "Honda",
-        "time_gap": "4º geral",
-        "points": 36
-      },
-      {
-        "position": "5º",
-        "competitor": "Andrea Adamo",
-        "team": "KTM",
-        "time_gap": "5º geral",
-        "points": 32
-      },
-      {
-        "position": "6º",
-        "competitor": "Jeremy Seewer",
-        "team": "KTM",
-        "time_gap": "6º geral",
-        "points": 27
-      },
-      {
-        "position": "7º",
-        "competitor": "Kevin Horgmo",
-        "team": "Honda",
-        "time_gap": "7º geral",
-        "points": 25
-      },
-      {
-        "position": "8º",
-        "competitor": "Jan Pancar",
-        "team": "KTM",
-        "time_gap": "8º geral",
-        "points": 24
-      },
-      {
-        "position": "9º",
-        "competitor": "Maxime Renaux",
-        "team": "Yamaha",
-        "time_gap": "9º geral",
-        "points": 24
-      },
-      {
-        "position": "10º",
-        "competitor": "Tom Vialle",
-        "team": "Honda",
-        "time_gap": "10º geral",
-        "points": 22
+        "competitor": "Guillem Farres",
+        "team": "Triumph Racing Factory Team",
+        "time_gap": "1º geral da MX2",
+        "points": null
       }
     ]
   },
@@ -375,9 +319,9 @@
       "end_date": "2026-07-26",
       "name": "GP da Tchéquia",
       "location": "Loket, Tchéquia",
-      "status": "em_andamento",
-      "winner": "",
-      "results_url": "https://www.mxgp.com/news/tickets-now-available-2026-mxgp-czech-republic-loket"
+      "status": "concluida",
+      "winner": "Jeffrey Herlings (MXGP); Guillem Farres (MX2)",
+      "results_url": "https://www.mxgp.com/news/herlings-and-farres-lead-way-loket-after-mxgp-czech-republic"
     },
     {
       "order": 14,
@@ -441,7 +385,7 @@
     }
   ],
   "related_videos": [],
-  "body": "## Disputa pelos títulos\n\nLucas Coenen mantém a placa vermelha da MXGP com 566 pontos, apenas 11 à frente de Jeffrey Herlings. Na MX2, Guillem Farres assumiu a liderança com 563 pontos, 11 de vantagem sobre Sacha Coenen.\n\n## Próxima etapa\n\nA 13ª etapa acontece em Loket, na Tchéquia, em 25 e 26 de julho. A TVDUASRODAS acompanha os resultados gerais, a classificação das duas categorias e o calendário oficial.",
+  "body": "## GP da Tchéquia concluído\n\nO GP da Tchéquia, em Loket, terminou em 26 de julho com Jeffrey Herlings como vencedor da MXGP e Guillem Farres na MX2. A organização também informou mudança na liderança da principal categoria.\n\n## Próxima etapa\n\nA 14ª etapa será o GP de Flandres, em Lommel, na Bélgica, em 1º e 2 de agosto. A TVDUASRODAS acompanha a publicação das tabelas oficiais completas da rodada da Tchéquia e o calendário da temporada.",
   "sources": [
     {
       "url": "https://www.mxgp.com/",
@@ -450,7 +394,7 @@
       "supports": "dados de agenda, identificação e situação do evento"
     },
     {
-      "url": "https://www.mxgp.com/news/it%E2%80%99s-fabulous-foxhills-herlings-and-farres-monster-energy-mxgp-great-britain",
+      "url": "https://www.mxgp.com/news/herlings-and-farres-lead-way-loket-after-mxgp-czech-republic",
       "label": "Resultados oficiais",
       "type": "fonte específica independente",
       "supports": "dados de agenda, identificação e situação do evento"
@@ -472,7 +416,7 @@
       "discovery_method": "busca_editorial_indexada"
     }
   ],
-  "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
+  "source_checked_at": "2026-07-27T00:15:00+00:00",
   "research_status": {
     "required_specific_independent_sources": 2,
     "specific_independent_domains_found": 3,
@@ -482,7 +426,7 @@
       "busca ampliada por programação, organizador, prefeitura e imprensa local",
       "busca visual/social em Instagram, Facebook e YouTube"
     ],
-    "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
+    "reviewed_at": "2026-07-27T00:15:00+00:00",
     "editorial_rule": "Dados confirmados por duas ou mais fontes específicas independentes."
   },
   "classification_status": {
