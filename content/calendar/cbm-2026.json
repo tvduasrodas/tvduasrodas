@@ -1928,7 +1928,7 @@
       "city": "São José dos Campos",
       "state": "SP",
       "modality": "Ciclismo MTB",
-      "status": "em_andamento",
+      "status": "concluida",
       "competition_slug": "brasileiro-ciclismo-mtb-2026",
       "official_url": "https://www.cbc.esp.br/modalidades/calendario/busca/mtb",
       "sources": [
@@ -2010,23 +2010,39 @@
           "label": "Canal oficial ou página indicada pela entidade",
           "type": "fonte primária ou canal oficial",
           "supports": "dados de agenda, identificação e situação do evento"
+        },
+        {
+          "url": "https://www.instagram.com/rogervieira8/p/DbRVUvknNBL/",
+          "label": "Roger Vieira confirma o título da Elite Masculina",
+          "type": "publicação direta de atleta",
+          "supports": "encerramento e resultado principal masculino",
+          "checked_at": "2026-07-27T18:35:00+00:00",
+          "discovery_method": "varredura_web_e_redes"
+        },
+        {
+          "url": "https://www.instagram.com/p/DbRrLq3mgQc/",
+          "label": "Nara Faria confirma o título da Elite Feminina",
+          "type": "publicação direta de atleta",
+          "supports": "encerramento, título feminino e tempo final",
+          "checked_at": "2026-07-27T18:35:00+00:00",
+          "discovery_method": "varredura_web_e_redes"
         }
       ],
-      "source_checked_at": "2026-07-26T09:27:24.911655+00:00",
+      "source_checked_at": "2026-07-27T18:35:00+00:00",
       "research_status": {
         "required_specific_independent_sources": 2,
         "specific_independent_domains_found": 2,
         "status": "fontes_cruzadas",
-        "reviewed_at": "2026-07-26T09:27:24.911655+00:00",
+        "reviewed_at": "2026-07-27T18:35:00+00:00",
         "editorial_rule": "Dados publicados somente com atribuição ao fato que cada fonte sustenta."
       },
       "organizer": "CBC e FECIERJ",
       "venue": "Parque das Águas Salutaris — pista do Morro da Torre",
       "full_address": "Parque das Águas Salutaris, Paraíba do Sul - RJ",
       "time_label": "24 a 26 de julho; treinos, tomada de tempo e finais conforme guia técnico",
-      "admission_status": "Inscrição, ingresso ou acesso devem ser confirmados com o organizador; as fontes consultadas ainda não detalham essa condição.",
+      "admission_status": "Evento encerrado em 26 de julho de 2026.",
       "parking": "Estacionamento e guarda de bicicletas/motos ainda não foram detalhados pelas fontes consultadas.",
-      "contact": "Use os links de fontes cruzadas abaixo; telefone ou e-mail específico não foi publicado nas páginas consultadas.",
+      "contact": "Arquivo e resultados: CBC, FECIERJ e central da competição na TVDUASRODAS.",
       "visual_verification": {
         "type": "pagina_oficial_cbc_com_imagem_cruzada_com_fonte_municipal",
         "source_url": "https://cbc.esp.br/modalidades/evento/busca/mtb/id/1352",
@@ -2038,9 +2054,9 @@
           "programacao"
         ]
       },
-      "summary": "Campeonato Brasileiro de MTB Downhill 2026 está no calendário de 2026 como Campeonato nacional DHI, na modalidade Downhill, com realização prevista para 2026-07-24 a 2026-07-26 em Paraíba do Sul/RJ. Serviço ainda não publicado permanece sinalizado.",
-      "body": "## Situação verificada\n\nCampeonato Brasileiro de MTB Downhill 2026 aparece no calendário monitorado para 2026-07-24 a 2026-07-26. O enquadramento divulgado é Campeonato nacional DHI, na modalidade Downhill.\n\n## Local e serviço\n\nA referência disponível é Paraíba do Sul · RJ. As fontes consultadas ainda não publicaram um serviço completo com rua, número, horário, estacionamento e contato direto. Essas ausências são mantidas de forma explícita para evitar informação inventada.\n\n## Inscrições, categorias e regulamento\n\nInscrições, categorias, percurso, premiação, retirada de kits e regras técnicas devem ser confirmados nos canais vinculados abaixo. A página será atualizada quando o organizador ou a entidade publicar o regulamento específico.\n\n## Fontes cruzadas\n\nForam consultadas: Canal oficial ou página indicada pela entidade; Eventos | CBC - Confederação Brasileira de Ciclismo. Links genéricos de calendário não são tratados, sozinhos, como confirmação suficiente de serviço.",
-      "last_updated": "2026-07-26T09:27:24.911655+00:00"
+      "summary": "Campeonato Brasileiro de MTB Downhill 2026 encerrado em Paraíba do Sul/RJ. Roger Vieira e Nara Faria venceram a Elite; resultados verificados e classificação parcial estão publicados.",
+      "body": "## Evento encerrado\n\nO Campeonato Brasileiro de MTB Downhill 2026 foi realizado de 24 a 26 de julho no Parque das Águas Salutaris, em Paraíba do Sul. A prova em etapa única definiu os campeões nacionais na pista do Morro da Torre.\n\n## Principais resultados\n\nRoger Vieira conquistou a Elite Masculina e Nara Faria venceu a Elite Feminina com 2min16s560. O top 5 masculino foi completado por Leo Becher, João Hodecker, Bruno Silva e Lucas Oechsler.\n\nTambém estão confirmados Francisco França na Juvenil Masculina, Henrique Lima na Sub-30 e Darlan Tomaselli na Master A2. A súmula consolidada da CBC ainda não estava publicada na consulta de 27 de julho.\n\n## Cobertura e classificação\n\nA classificação verificada, as fontes diretas e o acompanhamento da publicação oficial estão na [central do Brasileiro de Downhill 2026](/competicoes/brasileiro-downhill-2026/) e na [matéria de resultados](/materias/brasileiro-downhill-2026-resultados-campeoes/).",
+      "last_updated": "2026-07-27T18:35:00+00:00"
     },
     {
       "start_date": "2026-08-01",

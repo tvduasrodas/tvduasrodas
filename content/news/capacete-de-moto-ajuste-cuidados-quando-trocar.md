@@ -4,7 +4,7 @@ date: "2026-07-27T12:05:00-04:00"
 author: "Redação TVDUASRODAS"
 category: "Segurança"
 contentType: "article"
-ad_category: "equipamentos"
+ad_category: "motos"
 readingTime: "9 min"
 kicker: "Proteção sem mito"
 summary: "Como verificar tamanho, cinta, viseira e conservação do capacete — e por que impacto e desgaste importam mais do que uma data genérica."
@@ -85,4 +85,3 @@ Veja também: [Pontos cegos na cidade: como pilotar moto com mais margem](/mater
 - [Inmetro — qual o prazo de validade para capacete?](https://www.gov.br/inmetro/pt-br/acesso-a-informacao/perguntas-frequentes/avaliacao-da-conformidade/capacetes-para-motociclistas/qual-o-prazo-de-validade-para-capacete)
 - [Inmetro — Portaria nº 231/2021 e requisitos de conformidade](https://pesquisa.in.gov.br/imprensa/servlet/INPDFViewer?captchafield=firstAccess&data=20%2F05%2F2021&jornal=515&pagina=161)
 - [Detran Paraná — orientações para motociclistas](https://www.detraneduca.pr.gov.br/Pagina/Voce-no-Transito-Motociclista)
-

@@ -1008,6 +1008,15 @@ def render_competition(
     )
     start = data.get("next_stage", {}).get("start_date") or (data.get("rounds") or [{}])[0].get("start_date")
     end = data.get("next_stage", {}).get("end_date") or start
+    event_status = {
+        "encerrado": "https://schema.org/EventCompleted",
+        "concluida": "https://schema.org/EventCompleted",
+        "concluido": "https://schema.org/EventCompleted",
+        "cancelada": "https://schema.org/EventCancelled",
+        "cancelado": "https://schema.org/EventCancelled",
+        "adiada": "https://schema.org/EventPostponed",
+        "adiado": "https://schema.org/EventPostponed",
+    }.get(str(data.get("status", "")).lower(), "https://schema.org/EventScheduled")
     schema = {
         "@type": "SportsEvent",
         "@id": f"{absolute_url(canonical)}#competicao",
@@ -1028,7 +1037,7 @@ def render_competition(
                 "addressCountry": data.get("country", "Brasil"),
             },
         },
-        "eventStatus": "https://schema.org/EventScheduled",
+        "eventStatus": event_status,
     }
     body = f"""
 <nav class="seo-breadcrumb"><a href="/">Início</a> › <a href="/competicoes-eventos">Competições</a> › {esc(item["title"])}</nav>

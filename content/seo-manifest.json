@@ -28,6 +28,13 @@
     "kind": "article"
   },
   {
+    "url": "/materias/brasileiro-downhill-2026-resultados-campeoes/",
+    "lastmod": "2026-07-27",
+    "priority": "0.8",
+    "image": "https://tvduasrodas.com/assets/img/uploads/brasileiro-ciclismo-mtb-2026-capa.webp",
+    "kind": "article"
+  },
+  {
     "url": "/materias/brasileiro-mtb-2026-primeiro-dia-xce/",
     "lastmod": "2026-07-24",
     "priority": "0.8",
@@ -610,7 +617,7 @@
   },
   {
     "url": "/competicoes/brasileiro-downhill-2026/",
-    "lastmod": "2026-07-26",
+    "lastmod": "2026-07-27",
     "priority": "0.8",
     "image": "https://tvduasrodas.com/assets/img/uploads/brasileiro-ciclismo-mtb-2026-capa.webp",
     "kind": "competition"
@@ -4776,6 +4783,12 @@
     "kind": "person"
   },
   {
+    "url": "/atletas/bruno-silva/",
+    "lastmod": "2026-07-27",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
     "url": "/atletas/bruno-tormen/",
     "lastmod": "2026-07-26",
     "priority": "0.6",
@@ -4880,6 +4893,12 @@
   {
     "url": "/atletas/daniel-trecenti/",
     "lastmod": "2026-07-26",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/darlan-tomaselli/",
+    "lastmod": "2026-07-27",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5106,6 +5125,12 @@
     "kind": "person"
   },
   {
+    "url": "/atletas/francisco-franca/",
+    "lastmod": "2026-07-27",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
     "url": "/atletas/francisco-loureiro/",
     "lastmod": "2026-07-26",
     "priority": "0.6",
@@ -5316,6 +5341,12 @@
     "kind": "person"
   },
   {
+    "url": "/atletas/henrique-lima/",
+    "lastmod": "2026-07-27",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
     "url": "/atletas/henrique-spinasse/",
     "lastmod": "2026-07-26",
     "priority": "0.6",
@@ -5448,6 +5479,12 @@
     "kind": "person"
   },
   {
+    "url": "/atletas/joao-hodecker/",
+    "lastmod": "2026-07-27",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
     "url": "/atletas/joao-paulo-luz-de-oliveira/",
     "lastmod": "2026-07-26",
     "priority": "0.6",
@@ -5556,6 +5593,12 @@
     "kind": "person"
   },
   {
+    "url": "/atletas/leo-becher/",
+    "lastmod": "2026-07-27",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
     "url": "/atletas/leonardo-loeblein/",
     "lastmod": "2026-07-26",
     "priority": "0.6",
@@ -5611,6 +5654,12 @@
   },
   {
     "url": "/atletas/lucas-coenen/",
+    "lastmod": "2026-07-27",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/lucas-oechsler/",
     "lastmod": "2026-07-27",
     "priority": "0.6",
     "kind": "person"
@@ -5822,6 +5871,12 @@
   {
     "url": "/atletas/murilo-mafra-moratelli/",
     "lastmod": "2026-07-26",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/nara-faria/",
+    "lastmod": "2026-07-27",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6044,6 +6099,12 @@
   {
     "url": "/atletas/rodrigo-silva-rosa/",
     "lastmod": "2026-07-26",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/roger-vieira/",
+    "lastmod": "2026-07-27",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6463,7 +6524,7 @@
   },
   {
     "url": "/modalidades/downhill/",
-    "lastmod": "2026-07-26",
+    "lastmod": "2026-07-27",
     "priority": "0.7",
     "kind": "modality"
   },

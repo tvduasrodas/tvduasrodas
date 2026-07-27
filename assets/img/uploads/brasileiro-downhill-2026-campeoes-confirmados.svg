@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Campeões confirmados do Brasileiro de Downhill 2026</title>
+  <desc id="desc">Roger Vieira, Nara Faria, Francisco França, Henrique Lima e Darlan Tomaselli aparecem com suas categorias.</desc>
+  <rect width="1200" height="675" rx="34" fill="#f4f1e8"/>
+  <rect x="0" y="0" width="1200" height="142" rx="34" fill="#0b2b31"/>
+  <rect x="0" y="108" width="1200" height="34" fill="#0b2b31"/>
+  <text x="58" y="61" fill="#70db88" font-family="Arial, sans-serif" font-size="24" font-weight="700">PARAÍBA DO SUL · 26 JUL 2026</text>
+  <text x="58" y="111" fill="#fff" font-family="Arial, sans-serif" font-size="42" font-weight="900">CAMPEÕES JÁ CONFIRMADOS</text>
+  <g font-family="Arial, sans-serif">
+    <g transform="translate(58 184)">
+      <circle cx="40" cy="40" r="40" fill="#f2c94c"/>
+      <text x="40" y="51" text-anchor="middle" fill="#102126" font-size="31" font-weight="900">EM</text>
+      <text x="102" y="34" fill="#17343a" font-size="23" font-weight="700">ELITE MASCULINA</text>
+      <text x="102" y="68" fill="#0b2025" font-size="31" font-weight="900">ROGER VIEIRA</text>
+    </g>
+    <g transform="translate(620 184)">
+      <circle cx="40" cy="40" r="40" fill="#70db88"/>
+      <text x="40" y="51" text-anchor="middle" fill="#102126" font-size="31" font-weight="900">EF</text>
+      <text x="102" y="34" fill="#17343a" font-size="23" font-weight="700">ELITE FEMININA</text>
+      <text x="102" y="68" fill="#0b2025" font-size="31" font-weight="900">NARA FARIA</text>
+    </g>
+    <g transform="translate(58 310)">
+      <circle cx="40" cy="40" r="40" fill="#54b9c5"/>
+      <text x="40" y="51" text-anchor="middle" fill="#102126" font-size="26" font-weight="900">JUV</text>
+      <text x="102" y="34" fill="#17343a" font-size="23" font-weight="700">JUVENIL MASCULINA</text>
+      <text x="102" y="68" fill="#0b2025" font-size="31" font-weight="900">FRANCISCO FRANÇA</text>
+    </g>
+    <g transform="translate(620 310)">
+      <circle cx="40" cy="40" r="40" fill="#ef8354"/>
+      <text x="40" y="51" text-anchor="middle" fill="#102126" font-size="24" font-weight="900">S30</text>
+      <text x="102" y="34" fill="#17343a" font-size="23" font-weight="700">SUB-30</text>
+      <text x="102" y="68" fill="#0b2025" font-size="31" font-weight="900">HENRIQUE LIMA</text>
+    </g>
+    <g transform="translate(58 436)">
+      <circle cx="40" cy="40" r="40" fill="#b89be8"/>
+      <text x="40" y="51" text-anchor="middle" fill="#102126" font-size="23" font-weight="900">MA2</text>
+      <text x="102" y="34" fill="#17343a" font-size="23" font-weight="700">MASTER A2</text>
+      <text x="102" y="68" fill="#0b2025" font-size="31" font-weight="900">DARLAN TOMASELLI</text>
+    </g>
+  </g>
+  <rect x="58" y="562" width="1084" height="60" rx="16" fill="#0b2b31"/>
+  <text x="86" y="601" fill="#fff" font-family="Arial, sans-serif" font-size="22">Súmula completa da CBC ainda aguardada · atualização contínua</text>
+  <text x="960" y="601" fill="#70db88" font-family="Arial, sans-serif" font-size="21" font-weight="900">TVDUASRODAS</text>
+</svg>
