@@ -651,6 +651,16 @@
       "permalink": "https://www.instagram.com/tvduasrodasofc/reels/",
       "metaContentId": "18108846362099492",
       "publicationConfirmation": "Meta Business Suite aprovou a verificação de direitos e o Planner confirmou o Reel do Instagram às 12:26."
+    },
+    "localCleanup": {
+      "status": "EXCLUIDO_APOS_PUBLICACAO",
+      "deletedAt": "2026-07-27T14:32:28.700240-04:00",
+      "retentionHours": 24.0,
+      "folder": "output/instagram/2026-07-26/pedaleria-sete-apertos",
+      "fileCount": 11,
+      "bytesFreed": 13197261,
+      "latestPublishedAt": "2026-07-26T12:28:00-04:00",
+      "reason": "Story e Reel confirmados no Instagram há pelo menos 24 horas."
     }
   },
   {
@@ -686,6 +696,16 @@
       "permalink": "https://www.instagram.com/tvduasrodasofc/reels/",
       "metaContentId": "18100803329614044",
       "publicationConfirmation": "Meta Business Suite aprovou a verificação de direitos e o Planner confirmou o Reel do Instagram às 12:29."
+    },
+    "localCleanup": {
+      "status": "EXCLUIDO_APOS_PUBLICACAO",
+      "deletedAt": "2026-07-27T14:32:28.700240-04:00",
+      "retentionHours": 24.0,
+      "folder": "output/instagram/2026-07-26/bicicleta-posicao-segura",
+      "fileCount": 11,
+      "bytesFreed": 10644410,
+      "latestPublishedAt": "2026-07-26T12:30:00-04:00",
+      "reason": "Story e Reel confirmados no Instagram há pelo menos 24 horas."
     }
   },
   {
@@ -721,6 +741,16 @@
       "permalink": "https://www.instagram.com/tvduasrodasofc/reels/",
       "metaContentId": "18334678822283270",
       "publicationConfirmation": "Meta Business Suite aprovou a verificação de direitos e o Planner confirmou o Reel do Instagram às 12:31."
+    },
+    "localCleanup": {
+      "status": "EXCLUIDO_APOS_PUBLICACAO",
+      "deletedAt": "2026-07-27T14:32:28.700240-04:00",
+      "retentionHours": 24.0,
+      "folder": "output/instagram/2026-07-26/electric-zone-recarga-segura",
+      "fileCount": 11,
+      "bytesFreed": 7663550,
+      "latestPublishedAt": "2026-07-26T12:31:00-04:00",
+      "reason": "Story e Reel confirmados no Instagram há pelo menos 24 horas."
     }
   },
   {
@@ -765,6 +795,57 @@
       "publishedAt": "2026-07-27T12:12:00-04:00",
       "permalink": "https://www.instagram.com/tvduasrodasofc/reels/",
       "publicationConfirmation": "Meta Business Suite aprovou a verificacao de direitos e exibiu a confirmacao de publicacao do Reel."
+    }
+  },
+  {
+    "url": "https://tvduasrodas.com/materias/role-de-rua-27-07-2026-cruzamentos/",
+    "type": "program",
+    "title": "Rolê de Rua — edição de 27/07/2026: cruzamentos se leem antes da esquina",
+    "detectedAt": "2026-07-27T14:32:06-04:00",
+    "validation": {
+      "publicUrl": "CONFIRMADA_NO_NAVEGADOR",
+      "validatedAt": "2026-07-27T14:32:06-04:00",
+      "imageRights": "CAPA_EDITORIAL_AUTORAL_E_DOIS_INFOGRAFICOS_ORIGINAIS; TRES_IMAGENS_DISTINTAS"
+    },
+    "feed": { "status": "NAO_APLICAVEL_POR_REGRA" },
+    "stories": { "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES" },
+    "reel": {
+      "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES",
+      "imageAudit": "3 de 5 imagens distintas, autorizadas e verificadas; publicação bloqueada sem duplicar ou reciclar imagens."
+    }
+  },
+  {
+    "url": "https://tvduasrodas.com/materias/brasileiro-downhill-2026-resultados-campeoes/",
+    "type": "news",
+    "title": "Brasileiro de Downhill 2026: Roger Vieira e Nara Faria conquistam a Elite",
+    "detectedAt": "2026-07-27T14:32:06-04:00",
+    "validation": {
+      "publicUrl": "CONFIRMADA_NO_NAVEGADOR",
+      "validatedAt": "2026-07-27T14:32:06-04:00",
+      "imageRights": "DOIS_INFOGRAFICOS_EDITORIAIS; NAO_HA_CINCO_FOTOS_REAIS_AUTORIZADAS_DA_EDICAO_2026"
+    },
+    "feed": { "status": "NAO_APLICAVEL_POR_REGRA" },
+    "stories": { "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES" },
+    "reel": {
+      "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES",
+      "imageAudit": "2 de 5 imagens distintas disponíveis; para atualização de competição, faltam cinco fotos reais da edição, com crédito e autorização editorial."
+    }
+  },
+  {
+    "url": "https://tvduasrodas.com/materias/capacete-de-moto-ajuste-cuidados-quando-trocar/",
+    "type": "article",
+    "title": "Capacete de moto: ajuste, cuidados e quando realmente trocar",
+    "detectedAt": "2026-07-27T14:32:06-04:00",
+    "validation": {
+      "publicUrl": "CONFIRMADA_NO_NAVEGADOR",
+      "validatedAt": "2026-07-27T14:32:06-04:00",
+      "imageRights": "CAPA_EDITORIAL_AUTORAL_E_DOIS_INFOGRAFICOS_ORIGINAIS; TRES_IMAGENS_DISTINTAS"
+    },
+    "feed": { "status": "NAO_APLICAVEL_POR_REGRA" },
+    "stories": { "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES" },
+    "reel": {
+      "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES",
+      "imageAudit": "3 de 5 imagens distintas, autorizadas e verificadas; publicação bloqueada sem duplicar ou reciclar imagens."
     }
   }
 ]
