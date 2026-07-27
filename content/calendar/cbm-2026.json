@@ -1930,7 +1930,8 @@
       "modality": "Ciclismo MTB",
       "status": "concluida",
       "competition_slug": "brasileiro-ciclismo-mtb-2026",
-      "official_url": "https://www.cbc.esp.br/modalidades/calendario/busca/mtb",
+      "official_url": "https://desafiomucuge.com.br/",
+      "ticket_url": "https://inscricoes.com.br/eventos/desafio-mucuge",
       "sources": [
         {
           "url": "https://www.cbc.esp.br/modalidades/evento/busca//id/1344",
@@ -2698,7 +2699,8 @@
       "state": "BA",
       "modality": "Ciclismo MTB",
       "status": "agendada",
-      "official_url": "https://www.cbc.esp.br/modalidades/calendario/busca/mtb",
+      "official_url": "https://desafiomucuge.com.br/",
+      "ticket_url": "https://inscricoes.com.br/eventos/desafio-mucuge",
       "sources": [
         {
           "url": "https://www.cbc.esp.br/modalidades/calendario/busca/mtb",
@@ -2708,25 +2710,49 @@
         },
         {
           "url": "https://desafiomucuge.com.br/o-desafio",
-          "label": "O desafio - Desafio Mucugê",
-          "type": "fonte específica independente",
-          "supports": "data e edição, local",
+          "label": "Página oficial — O Desafio Mucugê",
+          "type": "fonte primária do organizador",
+          "supports": "histórico, edição, organização e características do evento",
           "relevance_score": 17,
           "discovery_method": "busca_editorial_indexada"
         },
         {
           "url": "https://desafiomucuge.com.br/inscricoes",
-          "label": "Inscrições - Desafio Mucugê",
-          "type": "fonte específica independente",
-          "supports": "data e edição, inscrições e acesso, categorias, percurso ou regulamento, resultados ou classificação",
+          "label": "Página oficial — categorias do Desafio Mucugê",
+          "type": "fonte primária do organizador",
+          "supports": "categorias Ultra Pró, Light, E-bike e cicloturismo",
           "relevance_score": 17,
           "discovery_method": "busca_editorial_indexada"
         },
         {
+          "url": "https://desafiomucuge.com.br/programacao/",
+          "label": "Programação oficial do Desafio Mucugê 2026",
+          "type": "fonte primária do organizador",
+          "supports": "entrega de kits, horários de largada e cerimônias de premiação",
+          "checked_at": "2026-07-27T14:15:11-04:00",
+          "discovery_method": "auditoria_editorial_manual"
+        },
+        {
+          "url": "https://desafiomucuge.com.br/percursos/",
+          "label": "Percursos oficiais do Desafio Mucugê",
+          "type": "fonte primária do organizador",
+          "supports": "percursos e arquivos GPX por categoria",
+          "checked_at": "2026-07-27T14:15:11-04:00",
+          "discovery_method": "auditoria_editorial_manual"
+        },
+        {
+          "url": "https://desafiomucuge.com.br/regulamento/",
+          "label": "Regulamentos FBC e CBC vinculados pelo evento",
+          "type": "fonte primária do organizador",
+          "supports": "regras esportivas e tabela de pontuação",
+          "checked_at": "2026-07-27T14:15:11-04:00",
+          "discovery_method": "auditoria_editorial_manual"
+        },
+        {
           "url": "https://inscricoes.com.br/eventos/desafio-mucuge",
-          "label": "Inscrição Desafio Mucugê - Mucugê",
-          "type": "fonte primária ou canal oficial",
-          "supports": "data e edição, organização e contatos",
+          "label": "Inscrição oficial do Desafio Mucugê 2026",
+          "type": "plataforma oficial de inscrições",
+          "supports": "datas, local de largada, categorias, valores, percursos, kit atleta, seguro e organização",
           "relevance_score": 17,
           "discovery_method": "busca_editorial_indexada"
         },
@@ -2739,7 +2765,7 @@
           "discovery_method": "busca_editorial_indexada"
         }
       ],
-      "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
+      "source_checked_at": "2026-07-27T14:15:11-04:00",
       "research_status": {
         "required_specific_independent_sources": 2,
         "specific_independent_domains_found": 3,
@@ -2749,25 +2775,47 @@
           "busca ampliada por programação, organizador, prefeitura e imprensa local",
           "busca visual/social em Instagram, Facebook e YouTube"
         ],
-        "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
+        "reviewed_at": "2026-07-27T14:15:11-04:00",
         "editorial_rule": "Dados confirmados por duas ou mais fontes específicas independentes."
       },
-      "organizer": "Organizador local com homologação ou inclusão no calendário da Confederação Brasileira de Ciclismo",
-      "venue": "Mucugê · BA",
-      "full_address": "Mucugê · BA. Rua, número e ponto de referência ainda não foram publicados nas fontes consultadas.",
-      "time_label": "Horários de largada, abertura, credenciamento ou programação ainda não foram publicados nas fontes específicas consultadas.",
-      "admission_status": "Inscrição, ingresso ou acesso devem ser confirmados com o organizador; as fontes consultadas ainda não detalham essa condição.",
-      "parking": "Estacionamento e guarda de bicicletas/motos ainda não foram detalhados pelas fontes consultadas.",
-      "contact": "Use os links de fontes cruzadas abaixo; telefone ou e-mail específico não foi publicado nas páginas consultadas.",
+      "organizer": "Federação Baiana de Ciclismo e Alto Paraguaçu Eventos e Marketing",
+      "venue": "Complexo Poliesportivo de Mucugê",
+      "full_address": "Rua Santa Izabel, Complexo Poliesportivo, Mucugê · BA",
+      "time_label": "Programação de 4 a 6 de setembro: kits na sexta, das 15h às 21h; largadas no sábado e domingo a partir das 7h45.",
+      "admission_status": "Inscrições abertas na plataforma oficial. Valores consultados: PNE Sport a R$ 9; Light e Sport a R$ 185; categorias Ultra Pró listadas a R$ 312. Confirme disponibilidade e lote antes da compra.",
+      "parking": "A organização ainda não publicou orientação específica sobre estacionamento ou guarda de bicicletas.",
+      "contact": "Atendimento pela página oficial de contato e pelos canais sociais do Desafio Mucugê.",
+      "attractions": [
+        "Ultra Pró — 150 km em duas etapas",
+        "Ultra Pró Reduzido — 110 km em duas etapas",
+        "Sport — 60 km",
+        "Light — 35 km",
+        "E-bike",
+        "Corrida Kids",
+        "Cicloturismo"
+      ],
+      "confirmed_fields": [
+        "datas",
+        "programacao",
+        "local_de_largada",
+        "organizador",
+        "inscricoes",
+        "valores",
+        "categorias",
+        "percursos",
+        "kit_atleta",
+        "seguro",
+        "regulamentos"
+      ],
       "visual_verification": {
-        "type": "fontes_textuais_sem_flyer_publico",
-        "source_url": "https://www.cbc.esp.br/modalidades/calendario/busca/mtb",
-        "checked_at": "2026-07-26T06:38:58.753487+00:00",
-        "note": "Nenhum flyer público específico foi localizado nos resultados indexados; a ausência foi registrada, sem inventar serviço."
+        "type": "site_oficial_e_plataforma_de_inscricao",
+        "source_url": "https://desafiomucuge.com.br/",
+        "checked_at": "2026-07-27T14:15:11-04:00",
+        "note": "Programação, percursos, categorias, kit e local de largada foram conferidos nas páginas oficiais do evento e de inscrição."
       },
-      "summary": "Desafio Mucugê está no calendário de 2026 como MTB stage race — XCS3, na modalidade Ciclismo MTB, com realização prevista para 2026-09-05 a 2026-09-06 em Mucugê/BA. Serviço ainda não publicado permanece sinalizado.",
-      "body": "## Situação verificada\n\nDesafio Mucugê aparece no calendário monitorado para 2026-09-05 a 2026-09-06. O enquadramento divulgado é MTB stage race — XCS3, na modalidade Ciclismo MTB.\n\n## Local e serviço\n\nA referência disponível é Mucugê · BA. As fontes consultadas ainda não publicaram um serviço completo com rua, número, horário, estacionamento e contato direto. Essas ausências são mantidas de forma explícita para evitar informação inventada.\n\n## Inscrições, categorias e regulamento\n\nInscrições, categorias, percurso, premiação, retirada de kits e regras técnicas devem ser confirmados nos canais vinculados abaixo. A página será atualizada quando o organizador ou a entidade publicar o regulamento específico.\n\n## Fontes cruzadas\n\nForam consultadas: Canal oficial ou página indicada pela entidade; O desafio - Desafio Mucugê; Inscrições - Desafio Mucugê; Inscrição Desafio Mucugê - Mucugê. Links genéricos de calendário não são tratados, sozinhos, como confirmação suficiente de serviço.",
-      "last_updated": "2026-07-26T07:34:37.403973+00:00"
+      "summary": "O Desafio Mucugê 2026 acontece de 4 a 6 de setembro na Chapada Diamantina, com provas de MTB de 35 km a 150 km, E-bike, Kids e cicloturismo. A competição XCS3 vale pontos para o ranking brasileiro.",
+      "body": "## Desafio Mucugê 2026\n\nA 13ª edição reúne mountain bike, E-bike, corrida Kids e cicloturismo em Mucugê, na Chapada Diamantina. A programação começa em 4 de setembro com a entrega de kits; as provas competitivas reconhecidas no calendário da CBC acontecem em 5 e 6 de setembro e têm enquadramento XCS3.\n\n## Programação\n\nNa sexta-feira, 4 de setembro, a entrega de kits e placas para Ultra Pró, Sport e E-bike ocorre das 15h às 21h. No sábado, 5 de setembro, a E-bike larga às 7h45, a Ultra Pró às 8h e a Corrida Kids às 9h40; a premiação da etapa e uma nova janela de entrega de kits estão marcadas para as 15h. No domingo, 6 de setembro, haverá entrega de kits às 7h, largada da E-bike às 7h45, largada de Ultra Pró, Sport e Light às 8h, saída do cicloturismo às 9h e premiação às 13h.\n\n## Percursos e categorias\n\nA Ultra Pró soma 150 km em duas etapas, com 90 km no primeiro dia e 60 km no segundo. A Ultra Pró Reduzido tem 110 km em duas etapas, enquanto a Sport percorre 60 km e a Light, voltada à entrada no MTB, tem 35 km. O evento também oferece categorias femininas, masculinas, Masters, duplas, Open, E-bike, Chapadeiro 100 kg ou mais, PNE e cicloturismo. Os arquivos GPX são disponibilizados na página oficial de percursos.\n\n## Inscrições e kit atleta\n\nNa consulta de 27 de julho, a plataforma oficial listava PNE Sport por R$ 9, categorias Light e Sport por R$ 185 e categorias Ultra Pró por R$ 312. Os valores e vagas podem mudar por lote. Para retirar o kit, o participante deve apresentar comprovante de inscrição, documento oficial com foto e doar 2 kg de alimento não perecível. O kit divulgado inclui squeeze, boné, bandana, camisa oficial de ciclismo e acesso ao lava bike; a medalha de finisher é destinada a quem concluir a prova. O seguro-atleta está incluído na inscrição, conforme as condições publicadas pela plataforma.\n\n## Local e organização\n\nA largada está indicada para a Rua Santa Izabel, no Complexo Poliesportivo de Mucugê. O Desafio Mucugê é realizado pela Federação Baiana de Ciclismo e pela Alto Paraguaçu Eventos e Marketing. Antes de viajar, confirme regulamento, disponibilidade de vagas e eventuais alterações diretamente no site oficial.",
+      "last_updated": "2026-07-27T14:15:11-04:00"
     },
     {
       "start_date": "2026-09-05",
