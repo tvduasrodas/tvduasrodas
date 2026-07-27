@@ -43,4 +43,13 @@ O segundo lugar de Leo Becher foi reconstruído pelo cruzamento do pódio/top 5 
 - `brasileiro-downhill-2026-campeoes-confirmados.svg`
   - Infográfico original TVDUASRODAS, 1200 × 675.
 
-Nenhuma fotografia de Instagram foi copiada ou republicada. As publicações foram usadas apenas como fontes factuais, com links.
+- `downhill2026win.webp`
+  - Foto do pódio masculino enviada pelo editor via CMS.
+  - Otimização em 27/07/2026: PNG de 591 × 590 e 998.513 bytes convertido para WebP de 591 × 590 e 85.824 bytes, qualidade 80.
+  - Sem corte ou ampliação; elementos e créditos incorporados foram preservados.
+- `downhill2026winf.webp`
+  - Foto do pódio feminino enviada pelo editor via CMS.
+  - Otimização em 27/07/2026: PNG de 588 × 595 e 997.112 bytes convertido para WebP de 588 × 595 e 86.792 bytes, qualidade 80.
+  - Sem corte ou ampliação; elementos e créditos incorporados foram preservados.
+
+As publicações do Instagram listadas acima também foram usadas como fontes factuais. A origem e o crédito externo específicos das duas fotos enviadas pelo CMS não constavam nos campos editoriais no momento da otimização.
