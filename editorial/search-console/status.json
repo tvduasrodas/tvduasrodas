@@ -1,12 +1,12 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-07-27T00:09:22.075221+00:00",
+  "generated_at": "2026-07-27T12:53:21.302784+00:00",
   "scope": "Matérias presentes no Google News sitemap das últimas 48 horas",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-07-27T00:08:56.731Z",
-      "last_downloaded": "2026-07-27T00:08:58.065Z",
+      "last_submitted": "2026-07-27T12:52:55.915Z",
+      "last_downloaded": "2026-07-27T12:52:56.875Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -27,8 +27,8 @@
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-07-27T00:08:56.593Z",
-      "last_downloaded": "2026-07-27T00:08:57.780Z",
+      "last_submitted": "2026-07-27T12:52:55.844Z",
+      "last_downloaded": "2026-07-27T12:52:57.176Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -70,12 +70,9 @@
       "last_crawl_time": "2026-07-26T16:07:21Z",
       "google_canonical": "https://tvduasrodas.com/materias/electric-zone-26-07-2026-recarga-segura/",
       "user_canonical": "https://tvduasrodas.com/materias/electric-zone-26-07-2026-recarga-segura/",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-07-27T00:09:03.015299+00:00"
+      "inspected_at": "2026-07-27T12:53:02.310312+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/bicicleta-na-rua-posicao-portas-visibilidade/",
@@ -87,12 +84,9 @@
       "last_crawl_time": "2026-07-26T16:05:21Z",
       "google_canonical": "https://tvduasrodas.com/materias/bicicleta-na-rua-posicao-portas-visibilidade/",
       "user_canonical": "https://tvduasrodas.com/materias/bicicleta-na-rua-posicao-portas-visibilidade/",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-07-27T00:09:09.354064+00:00"
+      "inspected_at": "2026-07-27T12:53:08.658422+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/estrada-aberta-25-07-2026-ritmo-planejamento/",
@@ -109,7 +103,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-27T00:09:15.678189+00:00"
+      "inspected_at": "2026-07-27T12:53:14.840585+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/parada-segura-moto-viagem-como-planejar/",
@@ -126,7 +120,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-27T00:09:21.869810+00:00"
+      "inspected_at": "2026-07-27T12:53:21.215097+00:00"
     }
   ]
 }
