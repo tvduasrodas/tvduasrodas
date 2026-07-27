@@ -735,18 +735,36 @@
       "youtubeChannel": "MotoDiario",
       "audioOriginal": "pt-BR_DECLARADO_NO_FRONTMATTER",
       "validatedAt": "2026-07-27T11:34:15-04:00",
-      "reason": "A URL canonical /videos/ retornou a pagina inicial; o player publico em /tv?v=MoPf6_wRvdM exibiu titulo, canal e embed ativo."
+      "reason": "A URL canonical /videos/ retornou a pagina inicial; o player publico em /tv?v=MoPf6_wRvdM exibiu titulo, canal e embed ativo.",
+      "imageRights": "SEIS_ILUSTRACOES_EDITORIAIS_IA_OPENAI_EXCLUSIVAS_SEM_MARCAS_OU_APARENCIA_DOCUMENTAL"
     },
     "feed": {
       "status": "NAO_APLICAVEL_POR_REGRA"
     },
     "stories": {
-      "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES",
-      "reason": "Nao ha midia editorial com direitos verificados para produzir o pacote coordenado."
+      "asset": "output/instagram/2026-07-27/motos-hibridas-motodiario/story.mp4",
+      "poster": "output/instagram/2026-07-27/motos-hibridas-motodiario/story-poster.jpg",
+      "durationSeconds": 14,
+      "dimensions": "1080x1920",
+      "videoCodec": "H.264",
+      "audioCodec": "AAC",
+      "status": "PUBLICADO",
+      "publishedAt": "2026-07-27T12:14:00-04:00",
+      "permalink": "https://www.instagram.com/stories/tvduasrodasofc/",
+      "publicationConfirmation": "Story confirmado visualmente no Instagram como o item mais recente, publicado havia 1 minuto."
     },
     "reel": {
-      "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES",
-      "reason": "Nao foram localizadas cinco imagens realmente diferentes, autorizadas e verificaveis; o Reel nao pode usar repeticao, cortes da mesma imagem ou registro documental gerado por IA."
+      "asset": "output/instagram/2026-07-27/motos-hibridas-motodiario/reel.mp4",
+      "cover": "output/instagram/2026-07-27/motos-hibridas-motodiario/reel-cover.jpg",
+      "caption": "output/instagram/2026-07-27/motos-hibridas-motodiario/copy.txt",
+      "durationSeconds": 19.25,
+      "dimensions": "1080x1920",
+      "videoCodec": "H.264",
+      "audioCodec": "AAC",
+      "status": "PUBLICADO",
+      "publishedAt": "2026-07-27T12:12:00-04:00",
+      "permalink": "https://www.instagram.com/tvduasrodasofc/reels/",
+      "publicationConfirmation": "Meta Business Suite aprovou a verificacao de direitos e exibiu a confirmacao de publicacao do Reel."
     }
   }
 ]
