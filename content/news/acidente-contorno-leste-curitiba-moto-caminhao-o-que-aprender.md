@@ -11,7 +11,7 @@ readingTime: 10 min
 summary: Colisão na BR-116, em Curitiba, terminou com a morte de um motociclista; entenda os fatos confirmados, os riscos entre veículos pesados e o que fazer após um acidente.
 seoTitle: 'Acidente de moto no Contorno Leste: fatos, prevenção e seguro'
 videoId: ''
-cover: /assets/img/uploads/prf-acao-motociclistas-2026.webp
+cover: /assets/img/uploads/acidente-contorno-leste-curitiba-capa.webp
 featured: true
 kicker: Acidente recente
 topics: motos, mobilidade, seguranca
@@ -22,9 +22,9 @@ Um motociclista morreu na tarde de segunda-feira, **27 de julho de 2026**, após
 
 Veículos locais relataram que o motociclista caiu entre caminhões e foi atingido. Uma gravação citada por uma das reportagens indicaria tráfego lento e o deslocamento da moto entre as faixas. Esses elementos, porém, **não substituem o laudo nem permitem concluir causa ou culpa**. Até a publicação desta matéria, não localizamos relatório técnico público definitivo sobre a dinâmica.
 
-![Ação educativa da PRF voltada a motociclistas em rodovia federal](/assets/img/uploads/prf-acao-motociclistas-2026.webp "Ação educativa da PRF realizada no Dia Nacional do Motociclista.")
+![Congestionamento no Contorno Leste após o acidente com motociclista no km 114](/assets/img/uploads/acidente-contorno-leste-curitiba-capa.webp "Fila de caminhões e automóveis no Contorno Leste após a ocorrência.")
 
-*Foto: Polícia Rodoviária Federal/Divulgação. Imagem contextual de ação educativa realizada em 27 de julho; não retrata o acidente de Curitiba.*
+*Foto: João Frigério/Bem Paraná. Registro real do trânsito no local da ocorrência. Perfil do autor: [@plantao190 no Instagram](https://www.instagram.com/plantao190/).*
 
 ## O que está confirmado
 
@@ -52,9 +52,19 @@ O risco não vem de um único ponto. Ele se forma por uma combinação possível
 
 Nada disso afirma o que causou a ocorrência de Curitiba. É uma leitura preventiva dos riscos típicos presentes em uma situação semelhante.
 
-![Diagrama das zonas de maior risco para uma moto entre caminhões](/assets/img/uploads/risco-moto-entre-caminhoes.svg "Mantenha margem, reduza a diferença de velocidade e evite permanecer ao lado de veículos pesados.")
+## O que a simulação 3D ajuda a visualizar
 
-*Infográfico: TVDUASRODAS.*
+![Simulação 3D de uma motocicleta em corredor estreito entre dois veículos pesados](/assets/img/uploads/acidente-contorno-leste-simulacao-3d-corredor.webp "Reconstrução ilustrativa da redução do espaço lateral entre veículos pesados.")
+
+*Simulação 3D: TVDUASRODAS. Reconstrução educativa baseada nos relatos preliminares disponíveis; não representa a posição exata dos veículos, o modelo ou a cor da motocicleta e não substitui o laudo pericial.*
+
+A vista aérea mostra por que o corredor pode deixar de oferecer saída. Mesmo quando os veículos pesados avançam lentamente, um pequeno deslocamento lateral reduz o espaço disponível junto aos eixos. A motocicleta usada na arte é genérica porque as fontes públicas consultadas não identificam com segurança o modelo envolvido.
+
+![Simulação 3D dos pontos cegos e das áreas de risco ao redor de caminhões](/assets/img/uploads/acidente-contorno-leste-simulacao-3d-pontos-cegos.webp "Áreas de risco e pontos cegos em uma situação semelhante.")
+
+*Simulação 3D: TVDUASRODAS. Os volumes coloridos representam áreas de visibilidade reduzida e proximidade dos eixos em uma situação semelhante, não medições feitas na ocorrência.*
+
+**O que é fato e o que é simulação:** a morte, o local, os veículos envolvidos e as interdições foram confirmados pelas fontes citadas. Posição, distância, trajetória e campos de visão mostrados nas artes são hipóteses educativas construídas para explicar riscos típicos. Somente a perícia pode reconstruir a dinâmica real.
 
 ## Como reduzir o risco perto de caminhões
 
