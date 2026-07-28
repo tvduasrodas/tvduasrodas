@@ -12,10 +12,13 @@ import base64
 import json
 import os
 import re
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import quote
 from xml.etree import ElementTree as ET
+
+from requests import RequestException
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -67,13 +70,28 @@ def load_google_session():
 
 
 def request_json(session, method: str, url: str, **kwargs):
-    response = session.request(method, url, timeout=45, **kwargs)
-    if response.status_code >= 400:
-        detail = response.text[:800]
-        raise RuntimeError(f"Search Console retornou HTTP {response.status_code}: {detail}")
-    if response.status_code == 204 or not response.content:
-        return {}
-    return response.json()
+    for attempt in range(1, 4):
+        try:
+            response = session.request(method, url, timeout=45, **kwargs)
+        except RequestException:
+            if attempt == 3:
+                raise
+            time.sleep(attempt * 2)
+            continue
+
+        if response.status_code in {429, 500, 502, 503, 504} and attempt < 3:
+            time.sleep(attempt * 2)
+            continue
+        if response.status_code >= 400:
+            detail = response.text[:800]
+            raise RuntimeError(
+                f"Search Console retornou HTTP {response.status_code}: {detail}"
+            )
+        if response.status_code == 204 or not response.content:
+            return {}
+        return response.json()
+
+    raise RuntimeError("Falha inesperada ao consultar o Search Console.")
 
 
 def submit_sitemap(session, sitemap_url: str) -> None:
