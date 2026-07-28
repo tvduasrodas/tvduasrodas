@@ -276,7 +276,9 @@
                 verification_status: "calendario_oficial"
             }));
             const eventMap = new Map();
-            [...curatedEvents, ...(communityAgenda.entries || []), ...calendarEvents].forEach((item) => {
+            const curatedSlugs = new Set(curatedEvents.flatMap((item) => [item.slug, ...(item.aliases || [])]).filter(Boolean));
+            const communityEvents = (communityAgenda.entries || []).filter((item) => !curatedSlugs.has(item.slug));
+            [...curatedEvents, ...communityEvents, ...calendarEvents].forEach((item) => {
                 const slug = item.slug || slugify(`${item.title}-${item.city}-${item.start_date}`);
                 const key = [
                     slugify(String(item.title || "").replace(/\b2026\b/g, "")),
