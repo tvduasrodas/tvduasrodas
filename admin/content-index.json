@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "total": 719,
+  "total": 721,
   "counts": {
     "Competição": 20,
     "Configuração da home": 2,
     "Etapa esportiva": 62,
     "Evento": 11,
     "Evento da agenda": 557,
-    "Matéria": 36,
+    "Matéria": 38,
     "Matéria do acervo": 4,
     "Página fixa": 2,
     "Vídeo": 25
@@ -1622,6 +1622,20 @@
       "url": "/eventos/abominados-mc-braganca-paulista-sp-2026-07-24/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#abominados-mc-braganca-paulista-sp-2026-07-24"
+    },
+    {
+      "title": "Acidente no Contorno Leste mata motociclista: o que se sabe e como reduzir o risco",
+      "type": "Matéria",
+      "slug": "acidente-contorno-leste-curitiba-moto-caminhao-o-que-aprender",
+      "date": "2026-07-28T12:12:00-04:00",
+      "category": "Urbano",
+      "city": "",
+      "state": "",
+      "status": "",
+      "summary": "Colisão na BR-116, em Curitiba, terminou com a morte de um motociclista; entenda os fatos confirmados, os riscos entre veículos pesados e o que fazer após um acidente.",
+      "url": "/materias/acidente-contorno-leste-curitiba-moto-caminhao-o-que-aprender/",
+      "edit_url": "/admin/#/collections/news/entries/acidente-contorno-leste-curitiba-moto-caminhao-o-que-aprender",
+      "source": "content/news/acidente-contorno-leste-curitiba-moto-caminhao-o-que-aprender.md"
     },
     {
       "title": "Aguais de Cristo MC",
@@ -5178,6 +5192,20 @@
       "url": "/materias/honda-africa-twin-2026-chega-a-europa-com-novo-visual-e-cores-renovadas/",
       "edit_url": "/admin/#/collections/news/entries/honda-africa-twin-2026-chega-%C3%A0-europa-com-novo-visual-e-cores-renovadas",
       "source": "content/news/honda-africa-twin-2026-chega-à-europa-com-novo-visual-e-cores-renovadas.md"
+    },
+    {
+      "title": "Honda Gold Wing 50 anos chega ao Brasil por R$ 304.450",
+      "type": "Matéria",
+      "slug": "honda-gold-wing-50-anos-chega-ao-brasil-2026",
+      "date": "2026-07-28T12:10:00-04:00",
+      "category": "Lancamentos",
+      "city": "",
+      "state": "",
+      "status": "",
+      "summary": "Edição comemorativa da Honda GL1800 Gold Wing Tour estreia em agosto com pintura exclusiva, conectividade sem fio e motor boxer de seis cilindros.",
+      "url": "/materias/honda-gold-wing-50-anos-chega-ao-brasil-2026/",
+      "edit_url": "/admin/#/collections/news/entries/honda-gold-wing-50-anos-chega-ao-brasil-2026",
+      "source": "content/news/honda-gold-wing-50-anos-chega-ao-brasil-2026.md"
     },
     {
       "title": "Honda WN7 o primeiro passo elétrico da Honda no motociclismo global",
