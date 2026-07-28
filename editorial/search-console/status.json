@@ -1,12 +1,12 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-07-28T13:02:28.691894+00:00",
+  "generated_at": "2026-07-28T13:20:45.239208+00:00",
   "scope": "Matérias presentes no Google News sitemap das últimas 48 horas",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-07-28T13:01:50.867Z",
-      "last_downloaded": "2026-07-28T13:01:51.387Z",
+      "last_submitted": "2026-07-28T13:20:06.973Z",
+      "last_downloaded": "2026-07-28T13:20:07.672Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -27,8 +27,8 @@
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-07-28T13:01:50.810Z",
-      "last_downloaded": "2026-07-28T13:01:51.731Z",
+      "last_submitted": "2026-07-28T13:20:06.878Z",
+      "last_downloaded": "2026-07-28T13:20:07.399Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -72,7 +72,7 @@
       "user_canonical": "https://tvduasrodas.com/materias/dia-do-motociclista-2026-respeito-seguranca/",
       "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-07-28T13:01:57.237099+00:00"
+      "inspected_at": "2026-07-28T13:20:13.403099+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/brasileiro-downhill-2026-resultados-campeoes/",
@@ -84,12 +84,9 @@
       "last_crawl_time": "2026-07-27T20:17:07Z",
       "google_canonical": "https://tvduasrodas.com/materias/brasileiro-downhill-2026-resultados-campeoes/",
       "user_canonical": "https://tvduasrodas.com/materias/brasileiro-downhill-2026-resultados-campeoes/",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-07-28T13:02:03.538741+00:00"
+      "inspected_at": "2026-07-28T13:20:19.716872+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/role-de-rua-27-07-2026-cruzamentos/",
@@ -106,7 +103,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-28T13:02:09.792656+00:00"
+      "inspected_at": "2026-07-28T13:20:26.151704+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/capacete-de-moto-ajuste-cuidados-quando-trocar/",
@@ -123,7 +120,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-28T13:02:16.088500+00:00"
+      "inspected_at": "2026-07-28T13:20:32.603553+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/electric-zone-26-07-2026-recarga-segura/",
@@ -140,7 +137,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-28T13:02:22.368014+00:00"
+      "inspected_at": "2026-07-28T13:20:38.867804+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/bicicleta-na-rua-posicao-portas-visibilidade/",
@@ -157,7 +154,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-28T13:02:28.632871+00:00"
+      "inspected_at": "2026-07-28T13:20:45.158305+00:00"
     }
   ]
 }
