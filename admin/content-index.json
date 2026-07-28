@@ -1008,6 +1008,20 @@
       "source": "content/events/agenda-comunitaria-2026.json#falcoes-raca-liberta-mc-guarulhos-sp-2026-07-23"
     },
     {
+      "title": "35 anos do Nômades do Vento MC",
+      "type": "Evento da agenda",
+      "slug": "nomades-do-vento-mc-lindoia-sp-2026-08-08",
+      "date": "2026-08-08",
+      "category": "Encontro de motociclistas",
+      "city": "Lindóia",
+      "state": "SP",
+      "status": "agendada",
+      "summary": "O Nômades do Vento MC celebra 35 anos em 8 de agosto de 2026, no Chalés Parque Aquático, em Lindóia (SP), com quatro bandas, camping, café gratuito no domingo e entrada a R$ 15.",
+      "url": "/eventos/nomades-do-vento-mc-lindoia-sp-2026-08-08/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#nomades-do-vento-mc-lindoia-sp-2026-08-08"
+    },
+    {
       "title": "4 Encontro de Motociclistas",
       "type": "Evento da agenda",
       "slug": "4-encontro-de-motociclistas-corrego-do-bom-jesus-mg-2026-11-13",
@@ -3416,6 +3430,20 @@
       "source": "content/events/agenda-comunitaria-2026.json#cavalo-de-aco-mc-estreito-sp-2026-09-13"
     },
     {
+      "title": "Caveira Blindada",
+      "type": "Evento da agenda",
+      "slug": "expurgados-mc-sao-goncalo-rj-2026-08-08",
+      "date": "2026-08-08",
+      "category": "Encontro de motociclistas",
+      "city": "",
+      "state": "",
+      "status": "agendada",
+      "summary": "Caveira Blindada está na agenda oficial do Expurgados MC para 8 de agosto de 2026, das 17h às 18h. O calendário não informa o local do encontro.",
+      "url": "/eventos/expurgados-mc-sao-goncalo-rj-2026-08-08/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#expurgados-mc-sao-goncalo-rj-2026-08-08"
+    },
+    {
       "title": "Caveira Solidaria MC",
       "type": "Evento da agenda",
       "slug": "caveira-solidaria-mc-rio-de-janeiro-rj-2026-08-29",
@@ -4534,20 +4562,6 @@
       "url": "/eventos/exitus-brasil-mc-marica-rj-2026-11-08/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#exitus-brasil-mc-marica-rj-2026-11-08"
-    },
-    {
-      "title": "Expurgados MC",
-      "type": "Evento da agenda",
-      "slug": "expurgados-mc-sao-goncalo-rj-2026-08-08",
-      "date": "2026-08-08",
-      "category": "Encontro de moto clube",
-      "city": "Sao Goncalo",
-      "state": "RJ",
-      "status": "agendada",
-      "summary": "Encontro de moto clube em Sao Goncalo/RJ, com data divulgada para 2026-08-08. O flyer foi inspecionado localmente; serviços identificados: programação detalhada não identificada de forma legível no flyer.",
-      "url": "/eventos/expurgados-mc-sao-goncalo-rj-2026-08-08/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#expurgados-mc-sao-goncalo-rj-2026-08-08"
     },
     {
       "title": "Falcoes de Aco MC",
@@ -8216,20 +8230,6 @@
       "url": "/eventos/niver-triplo-sao-pedro-d-aldeia-rj-2026-08-02/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#niver-triplo-sao-pedro-d-aldeia-rj-2026-08-02"
-    },
-    {
-      "title": "Nomades do Vento MC",
-      "type": "Evento da agenda",
-      "slug": "nomades-do-vento-mc-lindoia-sp-2026-08-08",
-      "date": "2026-08-08",
-      "category": "Encontro de moto clube",
-      "city": "Lindoia",
-      "state": "SP",
-      "status": "agendada",
-      "summary": "Encontro de moto clube em Lindoia/SP, com data divulgada para 2026-08-08. O flyer foi inspecionado localmente; serviços identificados: rock.",
-      "url": "/eventos/nomades-do-vento-mc-lindoia-sp-2026-08-08/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#nomades-do-vento-mc-lindoia-sp-2026-08-08"
     },
     {
       "title": "Nossa Senhora Aparecida MC",

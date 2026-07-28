@@ -929,6 +929,14 @@
     </image:image>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/eventos/ralladuz-mc-tres-marias-mg-2026-08-27/</loc>
+    <lastmod>2026-07-28</lastmod>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://tvduasrodas.com/assets/img/uploads/vi-encontro-motociclistas-tres-marias-2026.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/eventos/shimano-fest-2026/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
@@ -1842,7 +1850,7 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/eventos/motoshow-tres-lagoas-ms-2026-07-31/</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <priority>0.7</priority>
     <image:image>
       <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
@@ -2306,7 +2314,7 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/eventos/expurgados-mc-sao-goncalo-rj-2026-08-08/</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <priority>0.7</priority>
     <image:image>
       <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
@@ -2402,7 +2410,7 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/eventos/nomades-do-vento-mc-lindoia-sp-2026-08-08/</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-07-28</lastmod>
     <priority>0.7</priority>
     <image:image>
       <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
@@ -3145,11 +3153,11 @@
     </image:image>
   </url>
   <url>
-    <loc>https://tvduasrodas.com/eventos/ralladuz-mc-tres-marias-mg-2026-08-27/</loc>
-    <lastmod>2026-07-28</lastmod>
+    <loc>https://tvduasrodas.com/eventos/vi-encontro-tres-marias-mg-2026-08-27/</loc>
+    <lastmod>2026-07-26</lastmod>
     <priority>0.7</priority>
     <image:image>
-      <image:loc>https://tvduasrodas.com/assets/img/uploads/vi-encontro-motociclistas-tres-marias-2026.webp</image:loc>
+      <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
     </image:image>
   </url>
   <url>
