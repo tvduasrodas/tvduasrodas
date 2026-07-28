@@ -1,12 +1,23 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-07-28T17:00:37.243787+00:00",
-  "scope": "Matérias presentes no Google News sitemap das últimas 48 horas",
+  "generated_at": "2026-07-28T17:55:55.202225+00:00",
+  "scope": "Matérias no Google News sitemap das últimas 48 horas e eventos em andamento ou futuros priorizados por data",
   "sitemaps": [
     {
+      "url": "https://tvduasrodas.com/event-sitemap.xml",
+      "last_submitted": "2026-07-28T17:54:13.966Z",
+      "last_downloaded": "2026-07-28T17:54:15.524Z",
+      "pending": false,
+      "warnings": 0,
+      "errors": 1,
+      "discovered": 0,
+      "indexed": 0,
+      "content": []
+    },
+    {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-07-28T16:59:59.056Z",
-      "last_downloaded": "2026-07-28T16:59:59.677Z",
+      "last_submitted": "2026-07-28T17:54:13.877Z",
+      "last_downloaded": "2026-07-28T17:54:15.485Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -27,9 +38,9 @@
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-07-28T16:59:58.961Z",
-      "last_downloaded": "2026-07-28T17:00:00.760Z",
-      "pending": false,
+      "last_submitted": "2026-07-28T17:54:13.783Z",
+      "last_downloaded": "2026-07-28T17:10:58.862Z",
+      "pending": true,
       "warnings": 0,
       "errors": 0,
       "discovered": 1644,
@@ -54,39 +65,47 @@
     }
   ],
   "summary": {
-    "inspected": 6,
-    "indexed": 4,
+    "inspected": 16,
+    "indexed": 8,
     "not_indexed": 0,
-    "processing_or_unknown": 2
+    "processing_or_unknown": 8
   },
   "urls": [
     {
       "url": "https://tvduasrodas.com/materias/acidente-contorno-leste-curitiba-moto-caminhao-o-que-aprender/",
       "verdict": "NEUTRAL",
-      "coverage_state": "O Google não reconhece o URL",
+      "coverage_state": "Detectada, mas não indexada no momento",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED",
       "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
       "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "last_crawl_time": null,
       "google_canonical": "",
       "user_canonical": "",
-      "sitemaps": [],
-      "referring_urls": [],
-      "inspected_at": "2026-07-28T17:00:05.477899+00:00"
+      "sitemaps": [
+        "https://tvduasrodas.com/news-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
+      "referring_urls": [
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
+      "inspected_at": "2026-07-28T17:54:20.436559+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/honda-gold-wing-50-anos-chega-ao-brasil-2026/",
       "verdict": "NEUTRAL",
-      "coverage_state": "O Google não reconhece o URL",
+      "coverage_state": "Detectada, mas não indexada no momento",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED",
       "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
       "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "last_crawl_time": null,
       "google_canonical": "",
       "user_canonical": "",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/news-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-07-28T17:00:11.937693+00:00"
+      "inspected_at": "2026-07-28T17:54:26.752790+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/dia-do-motociclista-2026-respeito-seguranca/",
@@ -103,7 +122,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-28T17:00:18.234337+00:00"
+      "inspected_at": "2026-07-28T17:54:33.053930+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/brasileiro-downhill-2026-resultados-campeoes/",
@@ -120,7 +139,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-28T17:00:24.536780+00:00"
+      "inspected_at": "2026-07-28T17:54:39.347078+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/role-de-rua-27-07-2026-cruzamentos/",
@@ -139,7 +158,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/materias/"
       ],
-      "inspected_at": "2026-07-28T17:00:30.848669+00:00"
+      "inspected_at": "2026-07-28T17:54:45.642014+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/capacete-de-moto-ajuste-cuidados-quando-trocar/",
@@ -151,12 +170,167 @@
       "last_crawl_time": "2026-07-28T07:27:40Z",
       "google_canonical": "https://tvduasrodas.com/materias/capacete-de-moto-ajuste-cuidados-quando-trocar/",
       "user_canonical": "https://tvduasrodas.com/materias/capacete-de-moto-ajuste-cuidados-quando-trocar/",
+      "sitemaps": [],
+      "referring_urls": [],
+      "inspected_at": "2026-07-28T17:54:51.929913+00:00"
+    },
+    {
+      "url": "https://tvduasrodas.com/eventos/capital-moto-week-2026/",
+      "verdict": "PASS",
+      "coverage_state": "Enviada e indexada",
+      "indexing_state": "INDEXING_ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "robots_txt_state": "ALLOWED",
+      "last_crawl_time": "2026-07-28T07:22:31Z",
+      "google_canonical": "https://tvduasrodas.com/eventos/capital-moto-week-2026/",
+      "user_canonical": "https://tvduasrodas.com/eventos/capital-moto-week-2026/",
       "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
+      "referring_urls": [
+        "https://tvduasrodas.com/evento?slug=capital-moto-week-2026"
+      ],
+      "inspected_at": "2026-07-28T17:54:58.249060+00:00"
+    },
+    {
+      "url": "https://tvduasrodas.com/eventos/encontro-de-motociclistas-belo-horizonte-mg-2026-07-28/",
+      "verdict": "NEUTRAL",
+      "coverage_state": "Detectada, mas não indexada no momento",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "last_crawl_time": null,
+      "google_canonical": "",
+      "user_canonical": "",
+      "sitemaps": [
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-28T17:00:37.143303+00:00"
+      "inspected_at": "2026-07-28T17:55:04.558199+00:00"
+    },
+    {
+      "url": "https://tvduasrodas.com/eventos/ilha-mc-ilha-do-governador-rj-2026-07-28/",
+      "verdict": "PASS",
+      "coverage_state": "Enviada e indexada",
+      "indexing_state": "INDEXING_ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "robots_txt_state": "ALLOWED",
+      "last_crawl_time": "2026-07-27T21:53:45Z",
+      "google_canonical": "https://tvduasrodas.com/eventos/ilha-mc-ilha-do-governador-rj-2026-07-28/",
+      "user_canonical": "https://tvduasrodas.com/eventos/ilha-mc-ilha-do-governador-rj-2026-07-28/",
+      "sitemaps": [
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
+      "referring_urls": [],
+      "inspected_at": "2026-07-28T17:55:11.002626+00:00"
+    },
+    {
+      "url": "https://tvduasrodas.com/eventos/porto-real-mc-resende-rj-2026-07-29/",
+      "verdict": "PASS",
+      "coverage_state": "Enviada e indexada",
+      "indexing_state": "INDEXING_ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "robots_txt_state": "ALLOWED",
+      "last_crawl_time": "2026-07-26T08:38:13Z",
+      "google_canonical": "https://tvduasrodas.com/eventos/porto-real-mc-resende-rj-2026-07-29/",
+      "user_canonical": "https://tvduasrodas.com/eventos/porto-real-mc-resende-rj-2026-07-29/",
+      "sitemaps": [],
+      "referring_urls": [],
+      "inspected_at": "2026-07-28T17:55:17.293910+00:00"
+    },
+    {
+      "url": "https://tvduasrodas.com/eventos/3-encontro-de-motociclistas-penedo-mg-2026-07-30/",
+      "verdict": "NEUTRAL",
+      "coverage_state": "Detectada, mas não indexada no momento",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "last_crawl_time": null,
+      "google_canonical": "",
+      "user_canonical": "",
+      "sitemaps": [
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
+      "referring_urls": [],
+      "inspected_at": "2026-07-28T17:55:23.604828+00:00"
+    },
+    {
+      "url": "https://tvduasrodas.com/eventos/motofest-bezerros-pe-2026-07-30/",
+      "verdict": "NEUTRAL",
+      "coverage_state": "Detectada, mas não indexada no momento",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "last_crawl_time": null,
+      "google_canonical": "",
+      "user_canonical": "",
+      "sitemaps": [
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
+      "referring_urls": [],
+      "inspected_at": "2026-07-28T17:55:29.900874+00:00"
+    },
+    {
+      "url": "https://tvduasrodas.com/eventos/motofest-iguatu-ce-2026-07-30/",
+      "verdict": "NEUTRAL",
+      "coverage_state": "Detectada, mas não indexada no momento",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "last_crawl_time": null,
+      "google_canonical": "",
+      "user_canonical": "",
+      "sitemaps": [
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
+      "referring_urls": [],
+      "inspected_at": "2026-07-28T17:55:36.185063+00:00"
+    },
+    {
+      "url": "https://tvduasrodas.com/eventos/quinta-do-motociclista-arapiraca-al-2026-07-30/",
+      "verdict": "NEUTRAL",
+      "coverage_state": "O Google não reconhece o URL",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "last_crawl_time": null,
+      "google_canonical": "",
+      "user_canonical": "",
+      "sitemaps": [],
+      "referring_urls": [],
+      "inspected_at": "2026-07-28T17:55:42.493750+00:00"
+    },
+    {
+      "url": "https://tvduasrodas.com/eventos/1-irmaos-de-alma-alto-paraiso-de-goias-go-2026-07-31/",
+      "verdict": "PASS",
+      "coverage_state": "Enviada e indexada",
+      "indexing_state": "INDEXING_ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "robots_txt_state": "ALLOWED",
+      "last_crawl_time": "2026-07-26T21:06:24Z",
+      "google_canonical": "https://tvduasrodas.com/eventos/1-irmaos-de-alma-alto-paraiso-de-goias-go-2026-07-31/",
+      "user_canonical": "https://tvduasrodas.com/eventos/1-irmaos-de-alma-alto-paraiso-de-goias-go-2026-07-31/",
+      "sitemaps": [
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
+      "referring_urls": [],
+      "inspected_at": "2026-07-28T17:55:48.799107+00:00"
+    },
+    {
+      "url": "https://tvduasrodas.com/eventos/14-motofest-extrema-mg-2026-07-31/",
+      "verdict": "NEUTRAL",
+      "coverage_state": "Detectada, mas não indexada no momento",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "last_crawl_time": null,
+      "google_canonical": "",
+      "user_canonical": "",
+      "sitemaps": [
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
+      "referring_urls": [],
+      "inspected_at": "2026-07-28T17:55:55.106609+00:00"
     }
   ]
 }
