@@ -60,9 +60,11 @@ Nada disso afirma o que causou a ocorrência de Curitiba. É uma leitura prevent
 
 A vista aérea mostra por que o corredor pode deixar de oferecer saída. Mesmo quando os veículos pesados avançam lentamente, um pequeno deslocamento lateral reduz o espaço disponível junto aos eixos. A motocicleta usada na arte é genérica porque as fontes públicas consultadas não identificam com segurança o modelo envolvido.
 
-![Simulação 3D dos pontos cegos e das áreas de risco ao redor de caminhões](/assets/img/uploads/acidente-contorno-leste-simulacao-3d-pontos-cegos.webp "Áreas de risco e pontos cegos em uma situação semelhante.")
+![Reconstrução 3D pericial de uma sequência hipotética com motocicleta entre dois caminhões](/assets/img/uploads/acidente-contorno-leste-reconstrucao-3d-pericial.webp "Etapas ilustrativas de aproximação da motocicleta e redução do espaço entre veículos pesados.")
 
-*Simulação 3D: TVDUASRODAS. Os volumes coloridos representam áreas de visibilidade reduzida e proximidade dos eixos em uma situação semelhante, não medições feitas na ocorrência.*
+*Simulação 3D: TVDUASRODAS. As marcações 1, 2 e 3 mostram uma sequência educativa possível — aproximação, entrada no corredor e redução do espaço lateral. Não são posições ou medições obtidas na ocorrência.*
+
+Na reconstrução, a moto translúcida marca apenas o início da leitura visual. A linha tracejada conduz à área em que pequenas mudanças laterais dos veículos pesados podem eliminar a margem de correção. A arte não mostra impacto, queda ou culpa: ela explica por que entrar sem uma rota clara de saída pode transformar um espaço aparente em uma situação crítica.
 
 **O que é fato e o que é simulação:** a morte, o local, os veículos envolvidos e as interdições foram confirmados pelas fontes citadas. Posição, distância, trajetória e campos de visão mostrados nas artes são hipóteses educativas construídas para explicar riscos típicos. Somente a perícia pode reconstruir a dinâmica real.
 
