@@ -1,6 +1,6 @@
 # Fontes e imagens — Dia do Motociclista 2026
 
-Consultado em 27/07/2026 (America/New_York).
+Consultado em 27/07/2026 (America/Sao_Paulo).
 
 ## Fontes
 
