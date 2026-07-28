@@ -889,5 +889,31 @@
       "metaContentId": "18015534644871277",
       "publicationConfirmation": "Meta Business Suite confirmou a publicação e listou o Reel em Conteúdo > Publicado."
     }
+  },
+  {
+    "url": "https://tvduasrodas.com/videos/move-brasil-2026-motos-honda-participantes/",
+    "type": "video",
+    "title": "Move Brasil 2026: vídeo mostra quais motos Honda participam",
+    "detectedAt": "2026-07-28T11:32:17-04:00",
+    "validation": {
+      "youtubeUrl": "https://www.youtube.com/watch?v=7nAj1D2TrWU",
+      "channel": "Gui da honda",
+      "audio": "pt-BR declarado no frontmatter",
+      "imageRights": "cinco ilustrações editoriais originais por IA, sem marcas, modelos específicos ou alegação documental"
+    },
+    "feed": { "status": "NAO_APLICAVEL_POR_REGRA" },
+    "stories": {
+      "asset": "output/instagram/2026-07-28/move-brasil-2026-motos-honda/story.mp4",
+      "status": "FALHA_DEPENDENCIA_GERACAO_LOCAL",
+      "failureAt": "2026-07-28T11:39:00-04:00",
+      "reason": "imageio_ffmpeg não está instalado no runtime Python; o Story H.264/AAC de 14 segundos não foi gerado nem publicado."
+    },
+    "reel": {
+      "asset": "output/instagram/2026-07-28/move-brasil-2026-motos-honda/reel.mp4",
+      "manifest": "output/instagram/2026-07-28/move-brasil-2026-motos-honda/reel-manifest.json",
+      "status": "FALHA_DEPENDENCIA_GERACAO_LOCAL",
+      "failureAt": "2026-07-28T11:39:00-04:00",
+      "reason": "imageio_ffmpeg não está instalado no runtime Python; reel-build.json não foi gerado, portanto não houve publicação."
+    }
   }
 ]
