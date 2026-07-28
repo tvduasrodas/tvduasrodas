@@ -9,6 +9,7 @@ temas, marcas e modalidades.
 
 from __future__ import annotations
 
+import argparse
 import html
 import json
 import re
@@ -529,6 +530,8 @@ def write_page(path: str, content: str) -> None:
         char for char in content
         if unicodedata.category(char) != "Cf"
     )
+    if target.exists() and target.read_text(encoding="utf-8") == content:
+        return
     target.write_text(content, encoding="utf-8", newline="\n")
 
 
@@ -669,11 +672,15 @@ def render_research_sources(data: dict[str, Any], *, fallback_url: str = "") -> 
 
 def classify(item: dict[str, Any]) -> None:
     normalized = normalize(item.get("search_text", ""))
-    item["topics"] = [
+    explicit_topics = item.pop("_explicit_topics", [])
+    explicit_brands = item.pop("_explicit_brands", [])
+    topics_defined = item.pop("_explicit_topics_defined", False)
+    brands_defined = item.pop("_explicit_brands_defined", False)
+    item["topics"] = explicit_topics if topics_defined else [
         slug for slug, (_, patterns) in TOPICS.items()
         if any(normalize(pattern) in normalized for pattern in patterns)
     ]
-    item["brands"] = [
+    item["brands"] = explicit_brands if brands_defined else [
         slug for slug, label in BRANDS.items()
         if normalize(slug) in normalized or normalize(label) in normalized
     ]
@@ -700,6 +707,16 @@ def load_content() -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]
             "category": category_label(meta.get("category", "Revista")), "author": meta.get("author", "Redação TVDUASRODAS"),
             "ad_category": meta.get("ad_category", ""),
             "image": meta.get("cover", ""), "url": f"/materias/{slugify(slug)}/",
+            "_explicit_topics": [
+                value.strip() for value in str(meta.get("topics", "")).split(",")
+                if value.strip() in TOPICS
+            ],
+            "_explicit_topics_defined": "topics" in meta,
+            "_explicit_brands": [
+                value.strip() for value in str(meta.get("brands", "")).split(",")
+                if value.strip() in BRANDS
+            ],
+            "_explicit_brands_defined": "brands" in meta,
             "search_text": " ".join((title, summary, body, str(meta.get("tags", "")))),
         }
         items.append(item)
@@ -1484,22 +1501,24 @@ def render_video_collection(collection: list[dict[str, Any]]) -> str:
     )
 
 
-def build() -> None:
+def build(only_slugs: set[str] | None = None) -> None:
     items, people = load_content()
     manifest: list[dict[str, Any]] = []
+    full_build = not only_slugs
 
     for item in items:
-        if item["kind"] == "article":
-            output = render_article(item, items)
-        elif item["kind"] == "video":
-            output = render_video(item, items)
-        elif item["kind"] == "competition":
-            output = render_competition(item, items, people)
-        elif item["kind"] == "event":
-            output = render_event(item, items)
-        else:
-            output = render_guide(item, items)
-        write_page(item["url"], output)
+        if full_build or item["slug"] in only_slugs:
+            if item["kind"] == "article":
+                output = render_article(item, items)
+            elif item["kind"] == "video":
+                output = render_video(item, items)
+            elif item["kind"] == "competition":
+                output = render_competition(item, items, people)
+            elif item["kind"] == "event":
+                output = render_event(item, items)
+            else:
+                output = render_guide(item, items)
+            write_page(item["url"], output)
         manifest_item = {
             "url": item["url"], "lastmod": item["lastmod"],
             "priority": "0.8" if item["kind"] in {"article", "competition"} else "0.7",
@@ -1514,13 +1533,16 @@ def build() -> None:
             }
         manifest.append(manifest_item)
 
-    write_event_aliases()
+    if full_build:
+        write_event_aliases()
 
     person_index: list[dict[str, Any]] = []
     for _, records in sorted(people.items(), key=lambda pair: pair[1][0]["name"]):
         name = records[0]["name"]
-        canonical, output = render_person(name, records, items)
-        write_page(canonical, output)
+        canonical = f"/atletas/{slugify(name)}/"
+        if full_build:
+            canonical, output = render_person(name, records, items)
+            write_page(canonical, output)
         person_item = {
             "title": name, "url": canonical, "summary": f"{len(records)} resultado(s) publicado(s)",
             "kind_label": "Atleta ou piloto", "search_text": name,
@@ -1529,7 +1551,8 @@ def build() -> None:
         manifest.append({"url": canonical, "lastmod": max(r["competition"]["lastmod"] for r in records), "priority": "0.6", "kind": "person"})
 
     video_items = [i for i in items if i["kind"] == "video"]
-    write_page("/videos/", render_video_collection(video_items))
+    if full_build:
+        write_page("/videos/", render_video_collection(video_items))
     manifest.append({"url": "/videos/", "lastmod": TODAY, "priority": "0.9", "kind": "index"})
 
     article_items = [i for i in items if i["kind"] == "article"]
@@ -1591,7 +1614,8 @@ def build() -> None:
     for slug, data in modalities.items():
         canonical = f"/modalidades/{slug}/"
         description = f"Calendário, competições, resultados, atletas e conteúdos sobre {data['label']}."
-        write_page(canonical, render_collection(label=data["label"], description=description, canonical=canonical, collection=data["items"], breadcrumb_parent=("Modalidades", "/modalidades/")))
+        if full_build:
+            write_page(canonical, render_collection(label=data["label"], description=description, canonical=canonical, collection=data["items"], breadcrumb_parent=("Modalidades", "/modalidades/")))
         manifest.append({"url": canonical, "lastmod": max(i["lastmod"] for i in data["items"]), "priority": "0.7", "kind": "modality"})
 
     archive_body = """
@@ -1627,4 +1651,13 @@ def build() -> None:
 
 
 if __name__ == "__main__":
-    build()
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument(
+        "--only",
+        action="append",
+        default=[],
+        metavar="SLUG",
+        help="Renderiza apenas o conteúdo informado e atualiza índices e manifesto.",
+    )
+    args = parser.parse_args()
+    build(set(args.only))

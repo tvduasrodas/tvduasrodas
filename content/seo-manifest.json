@@ -7,6 +7,13 @@
     "kind": "article"
   },
   {
+    "url": "/materias/acidente-contorno-leste-curitiba-moto-caminhao-o-que-aprender/",
+    "lastmod": "2026-07-28",
+    "priority": "0.8",
+    "image": "https://tvduasrodas.com/assets/img/uploads/prf-acao-motociclistas-2026.webp",
+    "kind": "article"
+  },
+  {
     "url": "/materias/bagagem-na-moto-como-distribuir-fixar-e-viajar/",
     "lastmod": "2026-07-24",
     "priority": "0.8",
@@ -116,6 +123,13 @@
     "lastmod": "2026-01-26",
     "priority": "0.8",
     "image": "https://tvduasrodas.com/assets/img/uploads/africa-twin-adventure-sports-2026-seo.webp",
+    "kind": "article"
+  },
+  {
+    "url": "/materias/honda-gold-wing-50-anos-chega-ao-brasil-2026/",
+    "lastmod": "2026-07-28",
+    "priority": "0.8",
+    "image": "https://tvduasrodas.com/assets/img/uploads/honda-gold-wing-50-anos-capa.webp",
     "kind": "article"
   },
   {
@@ -473,6 +487,20 @@
       "description": "O canal brasileiro M. V. 7 - Motos apresenta o ranking das motocicletas mais vendidas no Brasil em junho de 2026 e compara o resultado mensal com o acumulado do primeiro semestre. Com áudio original em português…",
       "upload_date": "2026-07-22T17:47:00-04:00",
       "player": "https://www.youtube.com/embed/5RFKngTPvQY"
+    }
+  },
+  {
+    "url": "/videos/move-brasil-2026-motos-honda-participantes/",
+    "lastmod": "2026-07-28",
+    "priority": "0.7",
+    "image": "https://i3.ytimg.com/vi/7nAj1D2TrWU/hqdefault.jpg",
+    "kind": "video",
+    "video": {
+      "thumbnail": "https://i3.ytimg.com/vi/7nAj1D2TrWU/hqdefault.jpg",
+      "title": "Move Brasil 2026: vídeo mostra quais motos Honda participam",
+      "description": "O canal brasileiro Gui da honda apresenta o Move Brasil 2026 e percorre as motocicletas Honda incluídas na ação. O episódio ajuda quem acompanha o mercado a identificar os modelos citados antes de procurar uma…",
+      "upload_date": "2026-07-28T11:20:00-04:00",
+      "player": "https://www.youtube.com/embed/7nAj1D2TrWU"
     }
   },
   {
@@ -6428,7 +6456,7 @@
   },
   {
     "url": "/marcas/honda/",
-    "lastmod": "2026-07-27",
+    "lastmod": "2026-07-28",
     "priority": "0.6",
     "kind": "brand"
   },

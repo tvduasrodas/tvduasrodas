@@ -1,6 +1,28 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://tvduasrodas.com/materias/acidente-contorno-leste-curitiba-moto-caminhao-o-que-aprender/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>TVDUASRODAS</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-28T12:12:00-04:00</news:publication_date>
+      <news:title>Acidente no Contorno Leste mata motociclista: o que se sabe e como reduzir o risco</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/materias/honda-gold-wing-50-anos-chega-ao-brasil-2026/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>TVDUASRODAS</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2026-07-28T12:10:00-04:00</news:publication_date>
+      <news:title>Honda Gold Wing 50 anos chega ao Brasil por R$ 304.450</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/materias/dia-do-motociclista-2026-respeito-seguranca/</loc>
     <news:news>
       <news:publication>
@@ -42,28 +64,6 @@
       </news:publication>
       <news:publication_date>2026-07-27T12:05:00-04:00</news:publication_date>
       <news:title>Capacete de moto: ajuste, cuidados e quando realmente trocar</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://tvduasrodas.com/materias/electric-zone-26-07-2026-recarga-segura/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>TVDUASRODAS</news:name>
-        <news:language>pt</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-26T11:54:00-04:00</news:publication_date>
-      <news:title>Electric Zone — edição de 26/07/2026: a caixa que transforma 72 V em 12 V</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://tvduasrodas.com/materias/bicicleta-na-rua-posicao-portas-visibilidade/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>TVDUASRODAS</news:name>
-        <news:language>pt</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-26T11:52:00-04:00</news:publication_date>
-      <news:title>Bicicleta na rua: posição segura, portas e visibilidade no trânsito</news:title>
     </news:news>
   </url>
 </urlset>
