@@ -904,16 +904,21 @@
     "feed": { "status": "NAO_APLICAVEL_POR_REGRA" },
     "stories": {
       "asset": "output/instagram/2026-07-28/move-brasil-2026-motos-honda/story.mp4",
-      "status": "FALHA_DEPENDENCIA_GERACAO_LOCAL",
-      "failureAt": "2026-07-28T11:39:00-04:00",
-      "reason": "imageio_ffmpeg não está instalado no runtime Python; o Story H.264/AAC de 14 segundos não foi gerado nem publicado."
+      "poster": "output/instagram/2026-07-28/move-brasil-2026-motos-honda/story-poster.jpg",
+      "status": "PUBLICADO",
+      "publishedAt": "2026-07-28T11:53:00-04:00",
+      "publicationConfirmation": "Publicado no compositor oficial da Meta para @tvduasrodasofc; agenda exibiu o Story como ativo.",
+      "format": "1080x1920, H.264/AAC, 14 segundos"
     },
     "reel": {
       "asset": "output/instagram/2026-07-28/move-brasil-2026-motos-honda/reel.mp4",
       "manifest": "output/instagram/2026-07-28/move-brasil-2026-motos-honda/reel-manifest.json",
-      "status": "FALHA_DEPENDENCIA_GERACAO_LOCAL",
-      "failureAt": "2026-07-28T11:39:00-04:00",
-      "reason": "imageio_ffmpeg não está instalado no runtime Python; reel-build.json não foi gerado, portanto não houve publicação."
+      "build": "output/instagram/2026-07-28/move-brasil-2026-motos-honda/reel-build.json",
+      "cover": "output/instagram/2026-07-28/move-brasil-2026-motos-honda/reel-cover.jpg",
+      "status": "PUBLICADO",
+      "publishedAt": "2026-07-28T11:53:00-04:00",
+      "publicationConfirmation": "Publicado no compositor oficial da Meta para @tvduasrodasofc; a área de conteúdo retornou à lista de publicações após o envio.",
+      "format": "1080x1920, H.264/AAC, 19,25 segundos"
     }
   }
 ]

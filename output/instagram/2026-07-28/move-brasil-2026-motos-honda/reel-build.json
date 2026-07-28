@@ -1,0 +1,44 @@
+{
+  "format": "1080x1920",
+  "video_codec": "H.264",
+  "audio_codec": "AAC",
+  "transition": "page_peel_diagonal",
+  "soundtrack": "rock_instrumental_original",
+  "scene_count": 5,
+  "nominal_duration_seconds": 19.25,
+  "rights_verified": true,
+  "source_manifest": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-07-28\\move-brasil-2026-motos-honda\\reel-manifest.json",
+  "content_url": "https://tvduasrodas.com/videos/move-brasil-2026-motos-honda-participantes/",
+  "scenes": [
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-07-28\\move-brasil-2026-motos-honda\\source\\scene-01.png",
+      "sha256": "e09e570e25e0850376025a40dc99935a514e2b804808f43705efb09f752f1ed3",
+      "credit": "Ilustração editorial original por IA / TVDUASRODAS",
+      "source_url": "https://www.youtube.com/watch?v=7nAj1D2TrWU"
+    },
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-07-28\\move-brasil-2026-motos-honda\\source\\scene-02.png",
+      "sha256": "f639e7e5e88671694b736101b9eb24641c776b14a34e79d1711c14270830670a",
+      "credit": "Ilustração editorial original por IA / TVDUASRODAS",
+      "source_url": "https://www.youtube.com/watch?v=7nAj1D2TrWU"
+    },
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-07-28\\move-brasil-2026-motos-honda\\source\\scene-03.png",
+      "sha256": "cfdde0f81c4e4c4c6c39f28e1f65a5571330009ea4db317db13032263dbb1d0f",
+      "credit": "Ilustração editorial original por IA / TVDUASRODAS",
+      "source_url": "https://www.youtube.com/watch?v=7nAj1D2TrWU"
+    },
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-07-28\\move-brasil-2026-motos-honda\\source\\scene-04.png",
+      "sha256": "cdc25be91dbb460c8e2d3a99352e49fc334d81f9b6723170ef4bdf8e5f87eea2",
+      "credit": "Ilustração editorial original por IA / TVDUASRODAS",
+      "source_url": "https://www.youtube.com/watch?v=7nAj1D2TrWU"
+    },
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-07-28\\move-brasil-2026-motos-honda\\source\\scene-05.png",
+      "sha256": "3b944bfb69d4254a5e1ef2a7ba2b4cf7f36d627c217513d2ecb4c30f06c61cac",
+      "credit": "Ilustração editorial original por IA / TVDUASRODAS",
+      "source_url": "https://tvduasrodas.com/videos/move-brasil-2026-motos-honda-participantes/"
+    }
+  ]
+}
