@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "total": 717,
+  "total": 718,
   "counts": {
     "Competição": 20,
     "Configuração da home": 2,
     "Etapa esportiva": 62,
-    "Evento": 10,
+    "Evento": 11,
     "Evento da agenda": 557,
     "Matéria": 36,
     "Matéria do acervo": 4,
@@ -1316,6 +1316,20 @@
       "source": "content/events/agenda-comunitaria-2026.json#motofest-prog-manhumirim-mg-2026-07-31"
     },
     {
+      "title": "6º Encontro Nacional de Motociclistas e Triciclistas de Três Marias 2026",
+      "type": "Evento",
+      "slug": "ralladuz-mc-tres-marias-mg-2026-08-27",
+      "date": "2026-08-27",
+      "category": "Encontro nacional de motociclistas e triciclistas",
+      "city": "Três Marias",
+      "state": "MG",
+      "status": "agendada",
+      "summary": "O 6º Encontro Nacional de Motociclistas e Triciclistas será realizado de 27 a 30 de agosto de 2026, na Praia Mar de Minas, em Três Marias/MG, com entrada franca, shows de rock, camping, café da manhã gratuito, expositores e praça de alimentação.",
+      "url": "/eventos/ralladuz-mc-tres-marias-mg-2026-08-27/",
+      "edit_url": "/admin/#/collections/events/entries/ralladuz-mc-tres-marias-mg-2026-08-27",
+      "source": "content/events/ralladuz-mc-tres-marias-mg-2026-08-27.json"
+    },
+    {
       "title": "7 Aniversario MC Ponta Negra",
       "type": "Evento da agenda",
       "slug": "7-aniversario-mc-ponta-negra-marica-rj-2026-10-31",
@@ -2210,20 +2224,6 @@
       "url": "/eventos/bike-fest-poa-sp-2026-07-25/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#bike-fest-poa-sp-2026-07-25"
-    },
-    {
-      "title": "BIKEFEST",
-      "type": "Evento da agenda",
-      "slug": "bikefest-santa-maria-madalena-rj-2026-07-31",
-      "date": "2026-07-31",
-      "category": "Encontro de motociclistas",
-      "city": "Santa Maria Madalena",
-      "state": "RJ",
-      "status": "agendada",
-      "summary": "Encontro de motociclistas em Santa Maria Madalena/RJ, com data divulgada para 2026-07-31. O flyer foi inspecionado localmente; serviços identificados: programação detalhada não identificada de forma legível no flyer.",
-      "url": "/eventos/bikefest-santa-maria-madalena-rj-2026-07-31/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#bikefest-santa-maria-madalena-rj-2026-07-31"
     },
     {
       "title": "Black Eagle MC",
@@ -5990,6 +5990,20 @@
       "url": "/eventos/mad-ducks-mc-rio-de-janeiro-rj-2026-07-25/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#mad-ducks-mc-rio-de-janeiro-rj-2026-07-25"
+    },
+    {
+      "title": "Madalena BikeFest 2026",
+      "type": "Evento da agenda",
+      "slug": "bikefest-santa-maria-madalena-rj-2026-07-31",
+      "date": "2026-07-31",
+      "category": "Encontro de motociclistas",
+      "city": "Santa Maria Madalena",
+      "state": "RJ",
+      "status": "agendada",
+      "summary": "O Madalena BikeFest 2026 acontece em 31 de julho e 1º de agosto, em Santa Maria Madalena/RJ, com 12 shows de rock, Globo da Morte, locução de Cascatinha e entrada solidária em benefício do Lar dos Velhinhos.",
+      "url": "/eventos/bikefest-santa-maria-madalena-rj-2026-07-31/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#bikefest-santa-maria-madalena-rj-2026-07-31"
     },
     {
       "title": "MADE Handmade Bike Show 2026",
