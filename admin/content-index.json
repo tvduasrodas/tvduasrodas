@@ -798,6 +798,20 @@
       "source": "content/events/agenda-comunitaria-2026.json#22-anos-mantra-mc-sao-joao-da-boa-vista-sp-2026-08-14"
     },
     {
+      "title": "23º Motoshow de Três Lagoas",
+      "type": "Evento da agenda",
+      "slug": "motoshow-tres-lagoas-ms-2026-07-31",
+      "date": "2026-07-31",
+      "category": "Encontro de motociclistas",
+      "city": "Três Lagoas",
+      "state": "MS",
+      "status": "agendada",
+      "summary": "O 23º Motoshow de Três Lagoas acontece de 31 de julho a 2 de agosto de 2026, na Arena Mix, com entrada gratuita e shows de rock durante a programação.",
+      "url": "/eventos/motoshow-tres-lagoas-ms-2026-07-31/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#motoshow-tres-lagoas-ms-2026-07-31"
+    },
+    {
       "title": "25 anos do Águias da Liberdade MC",
       "type": "Evento da agenda",
       "slug": "aguais-da-liberdade-mc-conselheiro-lafaiete-mg-2026-07-25",
@@ -8020,20 +8034,6 @@
       "url": "/videos/motos-mais-vendidas-junho-2026-ranking/",
       "edit_url": "/admin/#/collections/videos/entries/motos-mais-vendidas-junho-2026-ranking",
       "source": "content/videos/motos-mais-vendidas-junho-2026-ranking.md"
-    },
-    {
-      "title": "MOTOSHOW",
-      "type": "Evento da agenda",
-      "slug": "motoshow-tres-lagoas-ms-2026-07-31",
-      "date": "2026-07-31",
-      "category": "Encontro de motociclistas",
-      "city": "Tres Lagoas",
-      "state": "MS",
-      "status": "agendada",
-      "summary": "Encontro de motociclistas em Tres Lagoas/MS, com data divulgada para 2026-07-31. O flyer foi inspecionado localmente; serviços identificados: área de camping, café da manhã, atividade gratuita indicada no flyer, shows.",
-      "url": "/eventos/motoshow-tres-lagoas-ms-2026-07-31/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#motoshow-tres-lagoas-ms-2026-07-31"
     },
     {
       "title": "Motoshow 2026",
