@@ -11,6 +11,7 @@ import argparse
 import base64
 import json
 import os
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import quote
@@ -23,6 +24,7 @@ PROPERTY = "sc-domain:tvduasrodas.com"
 SITEMAP_URLS = [
     f"{BASE_URL}/sitemap.xml",
     f"{BASE_URL}/news-sitemap.xml",
+    f"{BASE_URL}/event-sitemap.xml",
 ]
 STATUS_FILE = ROOT / "editorial" / "search-console" / "status.json"
 SCOPE = "https://www.googleapis.com/auth/webmasters"
@@ -123,6 +125,63 @@ def recent_news_urls() -> list[str]:
     ]
 
 
+def schema_datetime(value: object) -> datetime | None:
+    raw = str(value or "").strip()
+    if not raw:
+        return None
+    try:
+        parsed = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(timezone.utc)
+
+
+def upcoming_event_urls() -> list[str]:
+    """Prioritize ongoing and upcoming event pages for inspection monitoring."""
+    candidates: list[tuple[datetime, str]] = []
+    now = datetime.now(timezone.utc)
+    seen: set[str] = set()
+    for path in sorted((ROOT / "eventos").glob("*/index.html")):
+        text = path.read_text(encoding="utf-8-sig", errors="ignore")
+        payloads = re.findall(
+            r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
+            text,
+            re.IGNORECASE | re.DOTALL,
+        )
+        for payload in payloads:
+            try:
+                document = json.loads(payload)
+            except json.JSONDecodeError:
+                continue
+            nodes = document.get("@graph", [document]) if isinstance(document, dict) else []
+            for node in nodes:
+                if not isinstance(node, dict):
+                    continue
+                node_types = node.get("@type", [])
+                if isinstance(node_types, str):
+                    node_types = [node_types]
+                if "Event" not in node_types:
+                    continue
+                if node.get("eventStatus") == "https://schema.org/EventCancelled":
+                    continue
+                start = schema_datetime(node.get("startDate"))
+                end = schema_datetime(node.get("endDate")) or start
+                url = str(node.get("url") or "")
+                if (
+                    not start
+                    or not end
+                    or not url
+                    or end.date() < now.date()
+                    or url in seen
+                ):
+                    continue
+                seen.add(url)
+                candidates.append((start, url))
+    return [url for _, url in sorted(candidates)]
+
+
 def inspect_url(session, url: str) -> dict:
     endpoint = "https://searchconsole.googleapis.com/v1/urlInspection/index:inspect"
     payload = request_json(
@@ -170,7 +229,10 @@ def write_status(*, sitemaps: list[dict], entries: list[dict]) -> None:
     payload = {
         "property": PROPERTY,
         "generated_at": datetime.now(timezone.utc).isoformat(),
-        "scope": "Matérias presentes no Google News sitemap das últimas 48 horas",
+        "scope": (
+            "Matérias no Google News sitemap das últimas 48 horas e eventos "
+            "em andamento ou futuros priorizados por data"
+        ),
         "sitemaps": sitemaps,
         "summary": summarize(entries),
         "urls": entries,
@@ -190,10 +252,18 @@ def main() -> None:
         action="store_true",
         help="Inspect URLs currently present in news-sitemap.xml.",
     )
+    parser.add_argument(
+        "--inspect-upcoming-events",
+        action="store_true",
+        help="Inspect ongoing and upcoming event URLs, ordered by start date.",
+    )
     parser.add_argument("--max-urls", type=int, default=50)
+    parser.add_argument("--max-event-urls", type=int, default=10)
     args = parser.parse_args()
-    if not args.submit and not args.inspect_recent:
-        parser.error("Use --submit, --inspect-recent, or both.")
+    if not args.submit and not args.inspect_recent and not args.inspect_upcoming_events:
+        parser.error(
+            "Use --submit, --inspect-recent, --inspect-upcoming-events, or a combination."
+        )
 
     session = load_google_session()
     if args.submit:
@@ -201,11 +271,18 @@ def main() -> None:
             submit_sitemap(session, sitemap_url)
             print(f"Submitted {sitemap_url}")
 
-    entries = []
+    inspection_urls: list[str] = []
     if args.inspect_recent:
-        for url in recent_news_urls()[: max(0, args.max_urls)]:
-            entries.append(inspect_url(session, url))
-            print(f"Inspected {url}")
+        inspection_urls.extend(recent_news_urls()[: max(0, args.max_urls)])
+    if args.inspect_upcoming_events:
+        inspection_urls.extend(
+            upcoming_event_urls()[: max(0, args.max_event_urls)]
+        )
+
+    entries = []
+    for url in dict.fromkeys(inspection_urls):
+        entries.append(inspect_url(session, url))
+        print(f"Inspected {url}")
 
     write_status(sitemaps=list_sitemaps(session), entries=entries)
     print(f"Updated {STATUS_FILE.relative_to(ROOT)}")

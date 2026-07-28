@@ -241,6 +241,22 @@ def main() -> int:
             errors.append(f"Canonical duplicado: {canonical_match.group(1)}")
         elif not is_redirect:
             generated_canonicals.add(canonical_match.group(1))
+        if not is_redirect and folder == "eventos" and canonical_match:
+            expected_canonical = (
+                "https://tvduasrodas.com/"
+                f"{relative.parent.as_posix().strip('/')}/"
+            )
+            if canonical_match.group(1) != expected_canonical:
+                errors.append(
+                    f"Evento sem canonical própria: {relative} -> "
+                    f"{canonical_match.group(1)}"
+                )
+            if re.search(
+                r'<meta[^>]+name=["\']robots["\'][^>]+noindex',
+                text,
+                re.IGNORECASE,
+            ):
+                errors.append(f"Evento publicado com noindex: {relative}")
         if not is_redirect and folder in {"competicoes", "eventos"}:
             internal_markers = (
                 "Fontes cruzadas e atualização",
@@ -278,6 +294,40 @@ def main() -> int:
                             errors.append(f"Evento estruturado sem startDate: {relative}")
                         if not node.get("endDate"):
                             errors.append(f"Evento estruturado sem endDate: {relative}")
+                        end_match = re.search(
+                            r"\d{4}-\d{2}-\d{2}",
+                            str(node.get("endDate") or node.get("startDate") or ""),
+                        )
+                        event_status = node.get("eventStatus")
+                        if (
+                            end_match
+                            and end_match.group(0) < date.today().isoformat()
+                            and event_status
+                            not in {
+                                "https://schema.org/EventCompleted",
+                                "https://schema.org/EventCancelled",
+                            }
+                        ):
+                            errors.append(
+                                f"Evento passado sem status concluído: {relative}"
+                            )
+                        offers = node.get("offers", [])
+                        if isinstance(offers, dict):
+                            offers = [offers]
+                        if event_status == "https://schema.org/EventCompleted" and offers:
+                            errors.append(
+                                f"Evento concluído mantém oferta ativa no JSON-LD: {relative}"
+                            )
+                        for offer in offers:
+                            if (
+                                isinstance(offer, dict)
+                                and offer.get("availability")
+                                == "https://schema.org/InStock"
+                                and not offer.get("validFrom")
+                            ):
+                                errors.append(
+                                    f"Oferta de evento sem validFrom: {relative}"
+                                )
                     if "VideoObject" in node_types:
                         if not node.get("embedUrl"):
                             errors.append(f"Vídeo estruturado sem embedUrl: {relative}")
@@ -422,6 +472,46 @@ def main() -> int:
                 )
     except (OSError, ET.ParseError) as exc:
         errors.append(f"news-sitemap.xml inválido: {exc}")
+
+    try:
+        event_sitemap = ET.parse(ROOT / "event-sitemap.xml").getroot()
+        event_namespace = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+        event_urls = [
+            node.text or ""
+            for node in event_sitemap.findall("sm:url/sm:loc", event_namespace)
+        ]
+        if len(event_urls) != len(set(event_urls)):
+            errors.append("event-sitemap.xml contém URLs duplicadas")
+        if any(url not in urls for url in event_urls):
+            errors.append("event-sitemap.xml possui URL ausente do sitemap principal")
+
+        manifest = json.loads(
+            (ROOT / "content" / "seo-manifest.json").read_text(encoding="utf-8-sig")
+        )
+        expected_event_urls = {
+            f"https://tvduasrodas.com{item['url']}"
+            for item in manifest
+            if item.get("kind") == "event"
+        }
+        if set(event_urls) != expected_event_urls:
+            missing = sorted(expected_event_urls - set(event_urls))
+            extra = sorted(set(event_urls) - expected_event_urls)
+            if missing:
+                errors.append(
+                    "Eventos ausentes do event-sitemap.xml: "
+                    + ", ".join(missing[:10])
+                )
+            if extra:
+                errors.append(
+                    "URLs não canônicas no event-sitemap.xml: "
+                    + ", ".join(extra[:10])
+                )
+        for url in expected_event_urls:
+            relative = url.removeprefix("https://tvduasrodas.com/").strip("/")
+            if not (ROOT / relative / "index.html").exists():
+                errors.append(f"Página permanente de evento ausente: {relative}")
+    except (OSError, ET.ParseError, json.JSONDecodeError) as exc:
+        errors.append(f"event-sitemap.xml inválido: {exc}")
 
     published_sources = [
         *sorted((ROOT / "content").rglob("*.md")),

@@ -39,6 +39,64 @@ ORG = {
     ],
 }
 
+
+def event_has_ended(data: dict[str, Any]) -> bool:
+    """Return whether an event date is in the past without hiding its page."""
+    raw = str(data.get("end_date") or data.get("start_date") or "")
+    match = re.search(r"\d{4}-\d{2}-\d{2}", raw)
+    if not match:
+        return False
+    try:
+        return date.fromisoformat(match.group(0)) < date.today()
+    except ValueError:
+        return False
+
+
+def event_schema_status(data: dict[str, Any]) -> str:
+    status = str(data.get("status") or "").strip().casefold()
+    explicit = {
+        "concluida": "https://schema.org/EventCompleted",
+        "concluido": "https://schema.org/EventCompleted",
+        "encerrado": "https://schema.org/EventCompleted",
+        "cancelada": "https://schema.org/EventCancelled",
+        "cancelado": "https://schema.org/EventCancelled",
+        "adiada": "https://schema.org/EventPostponed",
+        "adiado": "https://schema.org/EventPostponed",
+    }
+    if status in explicit:
+        return explicit[status]
+    if event_has_ended(data):
+        return "https://schema.org/EventCompleted"
+    return "https://schema.org/EventScheduled"
+
+
+def offer_valid_from(
+    data: dict[str, Any],
+    offer: dict[str, Any] | None,
+    fallback_lastmod: str,
+) -> str:
+    """Use the first documented date when the editorial offer was available."""
+    candidates = [
+        (offer or {}).get("valid_from"),
+        (offer or {}).get("availability_starts"),
+        data.get("ticket_sales_start"),
+        data.get("offer_valid_from"),
+        data.get("published_at"),
+        data.get("source_checked_at"),
+        data.get("last_updated"),
+        fallback_lastmod,
+    ]
+    for value in candidates:
+        raw = str(value or "").strip()
+        match = re.search(r"\d{4}-\d{2}-\d{2}", raw)
+        if not match:
+            continue
+        if "T" in raw:
+            return raw
+        return f"{match.group(0)}T00:00:00"
+    return ""
+
+
 TOPICS = {
     "motos": ("Motos", ("moto", "motocicl", "superbike", "motogp", "motocross", "enduro", "rally", "arenacross")),
     "bicicletas": ("Bicicletas", ("bicicleta", "bike", "ciclismo", "mtb", "bmx", "ciclovia", "gravel", "pedal")),
@@ -1053,15 +1111,8 @@ def render_competition(
     )
     start = data.get("next_stage", {}).get("start_date") or (data.get("rounds") or [{}])[0].get("start_date")
     end = data.get("next_stage", {}).get("end_date") or start
-    event_status = {
-        "encerrado": "https://schema.org/EventCompleted",
-        "concluida": "https://schema.org/EventCompleted",
-        "concluido": "https://schema.org/EventCompleted",
-        "cancelada": "https://schema.org/EventCancelled",
-        "cancelado": "https://schema.org/EventCancelled",
-        "adiada": "https://schema.org/EventPostponed",
-        "adiado": "https://schema.org/EventPostponed",
-    }.get(str(data.get("status", "")).lower(), "https://schema.org/EventScheduled")
+    competition_dates = {**data, "start_date": start, "end_date": end or start}
+    event_status = event_schema_status(competition_dates)
     if start:
         schema = {
             "@type": "SportsEvent",
@@ -1145,11 +1196,8 @@ def render_event(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
         and "ainda não" not in organizer.casefold()
         and "não divulgad" not in organizer.casefold()
     )
-    event_status = {
-        "concluida": "https://schema.org/EventCompleted",
-        "cancelada": "https://schema.org/EventCancelled",
-        "adiada": "https://schema.org/EventPostponed",
-    }.get(data.get("status"), "https://schema.org/EventScheduled")
+    event_status = event_schema_status(data)
+    event_completed = event_status == "https://schema.org/EventCompleted"
     schema = {
         "@type": "Event",
         "@id": f"{absolute_url(canonical)}#evento",
@@ -1181,25 +1229,31 @@ def render_event(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
         }
     structured_offers = []
     for offer in data.get("offers", []):
-        if not isinstance(offer, dict) or offer.get("price") is None:
+        if event_completed or not isinstance(offer, dict) or offer.get("price") is None:
             continue
-        structured_offers.append({
+        structured_offer = {
             "@type": "Offer",
-            "name": offer.get("name", ""),
             "price": offer["price"],
             "priceCurrency": offer.get("price_currency") or "BRL",
             "availability": "https://schema.org/InStock",
             "url": offer.get("url") or data.get("ticket_url") or absolute_url(canonical),
-        })
+        }
+        if offer.get("name"):
+            structured_offer["name"] = offer["name"]
+        valid_from = offer_valid_from(data, offer, item["lastmod"])
+        if valid_from:
+            structured_offer["validFrom"] = valid_from
+        structured_offers.append(structured_offer)
     if structured_offers:
         schema["offers"] = structured_offers
-    elif data.get("free") is True:
+    elif data.get("free") is True and not event_completed:
         schema["offers"] = {
             "@type": "Offer",
             "price": 0,
             "priceCurrency": data.get("price_currency") or "BRL",
             "availability": "https://schema.org/InStock",
             "url": data.get("ticket_url") or data.get("official_url") or absolute_url(canonical),
+            "validFrom": offer_valid_from(data, None, item["lastmod"]),
         }
     source_label = {
         "agenda_comunitaria": "Ver divulgação do evento ↗",
@@ -1216,6 +1270,18 @@ def render_event(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
         or ("Entrada gratuita" if data.get("free") else "Confirme com a organização")
     )
     parking = public_editorial_text(data.get("parking") or "Ainda não informado pela organização")
+    lifecycle_note = (
+        '<aside class="seo-source"><strong>Evento encerrado — página preservada</strong>'
+        '<p>Esta URL continua pública, indexável e disponível no sitemap como registro '
+        'histórico. A página pode receber resultados, fotos, vídeos e atualizações '
+        'publicadas após o evento.</p></aside>'
+        if event_completed
+        else
+        '<aside class="seo-source"><strong>Confirme antes de ir</strong><p>Programação, '
+        f'endereço e regras podem mudar. <a href="{esc(data.get("official_url", "#"))}" '
+        'target="_blank" rel="noopener noreferrer">Consulte a organização do evento</a>.'
+        '</p></aside>'
+    )
     body = f"""
 <nav class="seo-breadcrumb"><a href="/">Início</a> › <a href="/competicoes-eventos">Eventos</a> › {esc(item["title"])}</nav>
 <article class="seo-article">
@@ -1231,9 +1297,10 @@ def render_event(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
   {('<div><span>Organização</span><strong>' + esc(organizer) + '</strong></div>') if organizer_is_known else ''}</section>
   <div class="seo-prose">{markdown(public_editorial_text(item["body"]))}</div>
   {relations}
-  <aside class="seo-source"><strong>Confirme antes de ir</strong><p>Programação, endereço e regras podem mudar. <a href="{esc(data.get("official_url", "#"))}" target="_blank" rel="noopener noreferrer">Consulte a organização do evento</a>.</p></aside>
+  {lifecycle_note}
   {render_research_sources(data, fallback_url=data.get("official_url", ""))}
 </article>"""
+    body = "\n".join(line.rstrip() for line in body.splitlines())
     return page_shell(
         title=item["title"], description=public_summary, canonical=canonical, body=body,
         schemas=[schema, breadcrumb_schema([("Início", "/"), ("Eventos", "/competicoes-eventos"), (item["title"], canonical)])],

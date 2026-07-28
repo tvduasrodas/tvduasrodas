@@ -3,3 +3,4 @@ Allow: /
 
 Sitemap: https://tvduasrodas.com/sitemap.xml
 Sitemap: https://tvduasrodas.com/news-sitemap.xml
+Sitemap: https://tvduasrodas.com/event-sitemap.xml

@@ -7,6 +7,7 @@ on:
       - "content/**"
       - "sitemap.xml"
       - "news-sitemap.xml"
+      - "event-sitemap.xml"
       - "robots.txt"
       - "scripts/update_sitemap.py"
       - "scripts/search_console_sync.py"
@@ -22,7 +23,7 @@ permissions:
 
 concurrency:
   group: search-console-main
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   sync:
@@ -30,6 +31,8 @@ jobs:
     steps:
       - name: Baixar o portal
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Preparar Python
         uses: actions/setup-python@v5
@@ -53,16 +56,31 @@ jobs:
           python scripts/update_sitemap.py --check
 
       - name: Enviar sitemaps e atualizar painel
-        run: python scripts/search_console_sync.py --submit --inspect-recent
+        run: >-
+          python scripts/search_console_sync.py
+          --submit
+          --inspect-recent
+          --inspect-upcoming-events
+          --max-event-urls 10
 
       - name: Publicar atualização do painel
         run: |
-          if git diff --quiet -- sitemap.xml news-sitemap.xml editorial/search-console/status.json; then
+          if git diff --quiet -- sitemap.xml news-sitemap.xml event-sitemap.xml editorial/search-console/status.json; then
             echo "Nenhuma alteração para publicar."
             exit 0
           fi
           git config user.name "TVDUASRODAS Search Console"
           git config user.email "tvduasrodas@gmail.com"
-          git add sitemap.xml news-sitemap.xml editorial/search-console/status.json
+          git add sitemap.xml news-sitemap.xml event-sitemap.xml editorial/search-console/status.json
           git commit -m "Automatiza atualização do Search Console"
-          git push
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "A branch avançou durante o envio; nova tentativa ${attempt}/3."
+            sleep $((attempt * 2))
+          done
+          echo "Não foi possível publicar o painel após 3 tentativas."
+          exit 1

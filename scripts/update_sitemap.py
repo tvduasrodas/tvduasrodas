@@ -22,6 +22,7 @@ ROOT = Path(__file__).resolve().parents[1]
 BASE_URL = "https://tvduasrodas.com"
 SITEMAP = ROOT / "sitemap.xml"
 NEWS_SITEMAP = ROOT / "news-sitemap.xml"
+EVENT_SITEMAP = ROOT / "event-sitemap.xml"
 
 STATIC_PAGES = [
     ("/", "1.0"),
@@ -183,6 +184,36 @@ def render_news_sitemap(news: list[dict[str, str]], now: datetime) -> str:
     return ET.tostring(urlset, encoding="unicode", xml_declaration=True) + "\n"
 
 
+def render_event_sitemap(manifest: list[dict[str, object]], today: str) -> str:
+    """Publish every canonical event URL, including completed events."""
+    sitemap_namespace = "http://www.sitemaps.org/schemas/sitemap/0.9"
+    image_namespace = "http://www.google.com/schemas/sitemap-image/1.1"
+    ET.register_namespace("", sitemap_namespace)
+    ET.register_namespace("image", image_namespace)
+    urlset = ET.Element(f"{{{sitemap_namespace}}}urlset")
+
+    events = sorted(
+        (item for item in manifest if item.get("kind") == "event"),
+        key=lambda item: str(item.get("url", "")),
+    )
+    for event in events:
+        item = ET.SubElement(urlset, f"{{{sitemap_namespace}}}url")
+        ET.SubElement(item, f"{{{sitemap_namespace}}}loc").text = (
+            f"{BASE_URL}{event['url']}"
+        )
+        ET.SubElement(item, f"{{{sitemap_namespace}}}lastmod").text = safe_lastmod(
+            event.get("lastmod"),
+            today,
+            today,
+        )
+        if event.get("image"):
+            image = ET.SubElement(item, f"{{{image_namespace}}}image")
+            ET.SubElement(image, f"{{{image_namespace}}}loc").text = str(event["image"])
+
+    ET.indent(urlset, space="  ")
+    return ET.tostring(urlset, encoding="unicode", xml_declaration=True) + "\n"
+
+
 def main(*, check_only: bool = False) -> None:
     today = date.today().isoformat()
     now = datetime.now(timezone.utc)
@@ -282,6 +313,7 @@ def main(*, check_only: bool = False) -> None:
             "content/seo-manifest.json ausente; execute scripts/build_seo_site.py"
         )
     manifest = json.loads(manifest_path.read_text(encoding="utf-8-sig"))
+    expected_events = render_event_sitemap(manifest, today)
     for item in manifest:
         add_url(
             urls,
@@ -330,29 +362,37 @@ def main(*, check_only: bool = False) -> None:
     if check_only:
         current = SITEMAP.read_text(encoding="utf-8") if SITEMAP.exists() else ""
         current_news = NEWS_SITEMAP.read_text(encoding="utf-8") if NEWS_SITEMAP.exists() else ""
+        current_events = EVENT_SITEMAP.read_text(encoding="utf-8") if EVENT_SITEMAP.exists() else ""
         stale = []
         if current != expected:
             stale.append(SITEMAP.name)
         if current_news != expected_news:
             stale.append(NEWS_SITEMAP.name)
+        if current_events != expected_events:
+            stale.append(EVENT_SITEMAP.name)
         if stale:
             raise SystemExit(
                 f"STALE {', '.join(stale)}: expected {len(urls)} URLs ({breakdown}). "
                 "Run scripts/update_sitemap.py and publish the result."
             )
         news_count = expected_news.count("<url>")
+        event_count = expected_events.count("<url>")
         print(
             f"OK {SITEMAP.name}: {len(urls)} URLs ({breakdown}), newest {newest}; "
-            f"{NEWS_SITEMAP.name}: {news_count} recent articles"
+            f"{NEWS_SITEMAP.name}: {news_count} recent articles; "
+            f"{EVENT_SITEMAP.name}: {event_count} permanent event URLs"
         )
         return
 
     SITEMAP.write_text(expected, encoding="utf-8", newline="\n")
     NEWS_SITEMAP.write_text(expected_news, encoding="utf-8", newline="\n")
+    EVENT_SITEMAP.write_text(expected_events, encoding="utf-8", newline="\n")
     news_count = expected_news.count("<url>")
+    event_count = expected_events.count("<url>")
     print(
         f"Updated {SITEMAP.name}: {len(urls)} URLs ({breakdown}), newest {newest}; "
-        f"{NEWS_SITEMAP.name}: {news_count} recent articles"
+        f"{NEWS_SITEMAP.name}: {news_count} recent articles; "
+        f"{EVENT_SITEMAP.name}: {event_count} permanent event URLs"
     )
 
 
