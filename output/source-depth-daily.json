@@ -1,0 +1,4110 @@
+{
+  "total_records": 649,
+  "canonical_records": 604,
+  "complete_records": 364,
+  "incomplete_records": 240,
+  "by_kind": {
+    "agenda": {
+      "total": 512,
+      "complete": 278
+    },
+    "evento": {
+      "total": 10,
+      "complete": 10
+    },
+    "calendario": {
+      "total": 62,
+      "complete": 56
+    },
+    "competicao": {
+      "total": 20,
+      "complete": 20
+    }
+  },
+  "queue": [
+    {
+      "kind": "agenda",
+      "slug": "14-encontro-nacional-sao-joao-del-rei-mg-2026-07-23",
+      "title": "14º Encontro Nacional de Motociclistas de São João del-Rei",
+      "date": "2026-07-23",
+      "city": "São João del-Rei",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 2,
+      "specific_independent_domains": 2,
+      "placeholder_fields": 2,
+      "missing": [
+        "fonte_primaria"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "mc-campos-campos-dos-goytacazes-rj-2026-07-24",
+      "title": "MC Campos",
+      "date": "2026-07-24",
+      "city": "Campos dos Goytacazes",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "mc-campos-compos-dos-goytacazes-rj-2026-07-24",
+      "title": "MC Campos",
+      "date": "2026-07-24",
+      "city": "Compos dos Goytacazes",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "2-biker-fest-feraz-de-vasconcelos-sp-2026-07-25",
+      "title": "2 Biker Fest",
+      "date": "2026-07-25",
+      "city": "Feraz de Vasconcelos",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 2,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "2-encontro-de-motociclistas-nova-resende-mg-2026-07-25",
+      "title": "2 Encontro de Motociclistas",
+      "date": "2026-07-25",
+      "city": "Nova Resende",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "5-moto-encontro-da-casa-rural-barrra-do-ribeiro-rs-2026-07-25",
+      "title": "5 Moto Encontro da Casa Rural",
+      "date": "2026-07-25",
+      "city": "Barrra do Ribeiro",
+      "state": "RS",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "beneficente-votorantim-sp-2026-07-25",
+      "title": "BENEFICENTE",
+      "date": "2026-07-25",
+      "city": "Votorantim",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "carcaca-mc-araruama-rj-2026-07-25",
+      "title": "Carcaca MC",
+      "date": "2026-07-25",
+      "city": "Araruama",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "fmc-sao-paulo-sp-2026-07-25",
+      "title": "FMC",
+      "date": "2026-07-25",
+      "city": "Sao Paulo",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "kveiras-do-amanhecer-belo-horizonte-mg-2026-07-25",
+      "title": "Kveiras do Amanhecer",
+      "date": "2026-07-25",
+      "city": "Belo Horizonte",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "mc-aguias-de-cristo-divino-mg-2026-07-25",
+      "title": "MC Aguias de Cristo",
+      "date": "2026-07-25",
+      "city": "Divino",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motocafe-jales-sp-2026-07-25",
+      "title": "MOTOCAFE",
+      "date": "2026-07-25",
+      "city": "Jales",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motorock-e-amizade-itauna-mg-2026-07-25",
+      "title": "MOTOROCK e AMIZADE",
+      "date": "2026-07-25",
+      "city": "Itauna",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motorock-turmalina-mg-2026-07-25",
+      "title": "MOTOROCK",
+      "date": "2026-07-25",
+      "city": "Turmalina",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "pererecas-mc-belford-roxo-rio-de-janeiro-rj-2026-07-25",
+      "title": "Pererecas MC",
+      "date": "2026-07-25",
+      "city": "Belford Roxo - Rio de Janeiro",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "web-riders-mirassol-sp-2026-07-25",
+      "title": "Web Riders",
+      "date": "2026-07-25",
+      "city": "Mirassol",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "yamaha-vmax-mairipora-sp-2026-07-25",
+      "title": "Yamaha Vmax",
+      "date": "2026-07-25",
+      "city": "Mairipora",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "1-bencao-dos-motociclistas-e-motoristas-aracatuba-sp-2026-07-26",
+      "title": "1 Bencao dos Motociclistas e Motoristas",
+      "date": "2026-07-26",
+      "city": "Aracatuba",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "2-moto-cafe-tres-marias-mg-2026-07-26",
+      "title": "2 MOTO CAFE",
+      "date": "2026-07-26",
+      "city": "Tres Marias",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "2-motofest-itapevi-sp-2026-07-26",
+      "title": "2 MOTOFEST",
+      "date": "2026-07-26",
+      "city": "Itapevi",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "9-passeio-dia-do-motociclista-maceio-al-2026-07-26",
+      "title": "9 Passeio Dia do Motociclista",
+      "date": "2026-07-26",
+      "city": "Maceio",
+      "state": "AL",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "black-skull-mc-mesqueita-rj-2026-07-26",
+      "title": "Black Skull MC",
+      "date": "2026-07-26",
+      "city": "Mesqueita",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "cafe-beneficente-presidente-prudente-sp-2026-07-26",
+      "title": "CAFE BENEFICENTE",
+      "date": "2026-07-26",
+      "city": "Presidente Prudente",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "dia-dos-motociclistas-alagoinhas-ba-2026-07-26",
+      "title": "Dia dos Motociclistas",
+      "date": "2026-07-26",
+      "city": "Alagoinhas",
+      "state": "BA",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "ecam-2026-serra-do-salitre-mg-2026-07-26",
+      "title": "ECAM 2026",
+      "date": "2026-07-26",
+      "city": "Serra do Salitre",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "encoontro-de-motociclistas-sume-pb-2026-07-26",
+      "title": "Encoontro de Motociclistas",
+      "date": "2026-07-26",
+      "city": "Sume",
+      "state": "PB",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "esquadrao-quadrangular-e-motociclistas-com-cristo-assis-sp-2026-07-26",
+      "title": "Esquadrao Quadrangular e Motociclistas com Cristo",
+      "date": "2026-07-26",
+      "city": "Assis",
+      "state": "SP",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "festival-gorila-carmo-do-paranaiba-mg-2026-07-26",
+      "title": "Festival Gorila",
+      "date": "2026-07-26",
+      "city": "Carmo do Paranaiba",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "imperador-do-asfalto-mc-porto-real-rj-2026-07-26",
+      "title": "Imperador do Asfalto MC",
+      "date": "2026-07-26",
+      "city": "Porto Real",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "missa-dos-motociclistas-catas-altas-mg-2026-07-26",
+      "title": "Missa dos Motociclistas",
+      "date": "2026-07-26",
+      "city": "Catas Altas",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "serra-branca-mc-sume-pb-2026-07-26",
+      "title": "Serra Branca MC",
+      "date": "2026-07-26",
+      "city": "Sume",
+      "state": "PB",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "missa-dos-motociclistas-volta-redonda-rj-2026-07-27",
+      "title": "Missa dos Motociclistas",
+      "date": "2026-07-27",
+      "city": "Volta Redonda",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "encontro-de-motociclistas-belo-horizonte-mg-2026-07-28",
+      "title": "Encontro de Motociclistas",
+      "date": "2026-07-28",
+      "city": "Belo Horizonte",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "ilha-mc-ilha-do-governador-rj-2026-07-28",
+      "title": "Ilha MC",
+      "date": "2026-07-28",
+      "city": "Ilha do Governador",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "porto-real-mc-resende-rj-2026-07-29",
+      "title": "Porto Real MC",
+      "date": "2026-07-29",
+      "city": "Resende",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "3-encontro-de-motociclistas-penedo-mg-2026-07-30",
+      "title": "3 Encontro de Motociclistas",
+      "date": "2026-07-30",
+      "city": "Penedo",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-bezerros-pe-2026-07-30",
+      "title": "MOTOFEST",
+      "date": "2026-07-30",
+      "city": "Bezerros",
+      "state": "PE",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-iguatu-ce-2026-07-30",
+      "title": "MOTOFEST",
+      "date": "2026-07-30",
+      "city": "Iguatu",
+      "state": "CE",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-iguatu-pr-2026-07-30",
+      "title": "MOTOFEST",
+      "date": "2026-07-30",
+      "city": "Iguatu",
+      "state": "PR",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "1-irmaos-de-alma-alto-paraiso-de-goias-go-2026-07-31",
+      "title": "1 Irmaos de Alma",
+      "date": "2026-07-31",
+      "city": "Alto Paraiso de Goias",
+      "state": "GO",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "cachorro-grande-mg-niteroi-rj-2026-07-31",
+      "title": "Cachorro Grande MG",
+      "date": "2026-07-31",
+      "city": "Niteroi",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "carnotores-carmo-do-rio-claro-mg-2026-07-31",
+      "title": "Carnotores",
+      "date": "2026-07-31",
+      "city": "Carmo do Rio Claro",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-serra-es-2026-07-31",
+      "title": "MOTOFEST",
+      "date": "2026-07-31",
+      "city": "Serra",
+      "state": "ES",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "sinistro-mc-belfod-roxo-rj-2026-07-31",
+      "title": "Sinistro MC",
+      "date": "2026-07-31",
+      "city": "Belfod Roxo",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "1-moto-rock-fest-chavantes-sp-2026-08-01",
+      "title": "1 Moto Rock Fest",
+      "date": "2026-08-01",
+      "city": "Chavantes",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "5-cerol-to-fora-frutal-mg-2026-08-01",
+      "title": "5 CEROL TO FORA",
+      "date": "2026-08-01",
+      "city": "Frutal",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "bodes-do-asfalto-mc-praia-grande-sp-2026-08-01",
+      "title": "Bodes do Asfalto MC",
+      "date": "2026-08-01",
+      "city": "Praia Grande",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "desalmado-mg-nova-iguacu-rj-2026-08-01",
+      "title": "Desalmado MG",
+      "date": "2026-08-01",
+      "city": "Nova Iguacu",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "ferramentas-mc-rio-de-janerio-rj-2026-08-01",
+      "title": "Ferramentas MC",
+      "date": "2026-08-01",
+      "city": "Rio de Janerio",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "irmaos-das-sombras-mc-rio-de-janerio-rj-2026-08-01",
+      "title": "Irmaos das Sombras MC",
+      "date": "2026-08-01",
+      "city": "Rio de Janerio",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "irmaos-das-sombras-mc-senador-vasconcelos-rio-de-janeiro-rj-2026-08-01",
+      "title": "Irmaos das Sombras MC",
+      "date": "2026-08-01",
+      "city": "Senador Vasconcelos - Rio de Janeiro",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "irmaos-das-sombras-mc-senador-vasconcelos-rio-de-janerio-rj-2026-08-01",
+      "title": "Irmaos das Sombras MC",
+      "date": "2026-08-01",
+      "city": "Senador Vasconcelos - Rio de Janerio",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "majestade-mc-cruzeiro-sp-2026-08-01",
+      "title": "Majestade MC",
+      "date": "2026-08-01",
+      "city": "Cruzeiro",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "2-moto-cafe-pompeia-sp-2026-08-02",
+      "title": "2 Moto Cafe",
+      "date": "2026-08-02",
+      "city": "Pompeia",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 2,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "amm-duque-de-caxias-rj-2026-08-02",
+      "title": "AMM",
+      "date": "2026-08-02",
+      "city": "Duque de Caxias",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "beneficente-gdr-jaci-sp-2026-08-02",
+      "title": "BENEFICENTE GDR",
+      "date": "2026-08-02",
+      "city": "Jaci",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "brazilian-custom-mc-guaicara-sp-2026-08-02",
+      "title": "Brazilian Custom MC",
+      "date": "2026-08-02",
+      "city": "Guaicara",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "evneto-em-conjunto-sao-pedro-d-aldeia-rj-2026-08-02",
+      "title": "Evneto em Conjunto",
+      "date": "2026-08-02",
+      "city": "Sao Pedro D Aldeia",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "niver-triplo-sao-pedro-d-aldeia-rj-2026-08-02",
+      "title": "NIVER TRIPLO",
+      "date": "2026-08-02",
+      "city": "Sao Pedro D Aldeia",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "solidario-jaci-sp-2026-08-02",
+      "title": "SOLIDARIO",
+      "date": "2026-08-02",
+      "city": "Jaci",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-caiaponia-go-2026-08-05",
+      "title": "MOTOFEST",
+      "date": "2026-08-05",
+      "city": "Caiaponia",
+      "state": "GO",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "1-moto-acampamento-raiz-itanhandu-mg-2026-08-07",
+      "title": "1 Moto acampamento Raiz",
+      "date": "2026-08-07",
+      "city": "Itanhandu",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "2-motofest-coronel-fabriciano-mg-2026-08-07",
+      "title": "2 MOTOFEST",
+      "date": "2026-08-07",
+      "city": "Coronel Fabriciano",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "ii-moto-festival-pocos-de-caldas-mg-2026-08-07",
+      "title": "II Moto Festival",
+      "date": "2026-08-07",
+      "city": "Pocos de Caldas",
+      "state": "MG",
+      "source_count": 4,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-caete-mg-2026-08-07",
+      "title": "MOTOFEST",
+      "date": "2026-08-07",
+      "city": "Caete",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-iati-pe-2026-08-07",
+      "title": "MOTOFEST",
+      "date": "2026-08-07",
+      "city": "Iati",
+      "state": "PE",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-labrea-am-2026-08-07",
+      "title": "MOTOFEST",
+      "date": "2026-08-07",
+      "city": "Labrea",
+      "state": "AM",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motorock-macaubas-ba-2026-08-07",
+      "title": "MOTOROCK",
+      "date": "2026-08-07",
+      "city": "Macaubas",
+      "state": "BA",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "2-rock-fest-dois-corregos-sp-2026-08-08",
+      "title": "2 Rock Fest",
+      "date": "2026-08-08",
+      "city": "Dois Corregos",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 2,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "2-weekend-of-bikers-pudente-de-morais-mg-2026-08-08",
+      "title": "2 Weekend of Bikers",
+      "date": "2026-08-08",
+      "city": "Pudente de Morais",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "amigos-do-asfalto-mc-ibatiba-es-2026-08-08",
+      "title": "Amigos do asfalto MC",
+      "date": "2026-08-08",
+      "city": "Ibatiba",
+      "state": "ES",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "confraria-das-aguias-mg-skulls-on-the-ride-mc-contagem-mg-2026-08-08",
+      "title": "Confraria das Aguias MG",
+      "date": "2026-08-08",
+      "city": "Skulls On The Ride MC - Contagem",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "discipulo-e-honta-mc-rio-de-janeiro-rj-2026-08-08",
+      "title": "Discipulo e Honta MC",
+      "date": "2026-08-08",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "griffon-s-mc-goiana-mg-2026-08-08",
+      "title": "Griffon s MC",
+      "date": "2026-08-08",
+      "city": "Goiana",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "guardioes-do-horizonte-mc-porto-da-folha-se-2026-08-08",
+      "title": "Guardioes do Horizonte MC",
+      "date": "2026-08-08",
+      "city": "Porto da Folha",
+      "state": "SE",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "jaguar-negro-mc-e-the-steel-skulls-mc-belo-horizonte-mg-2026-08-08",
+      "title": "Jaguar Negro MC e The Steel Skulls MC",
+      "date": "2026-08-08",
+      "city": "Belo Horizonte",
+      "state": "MG",
+      "source_count": 3,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "lobos-cinzentos-mc-salvador-ba-2026-08-08",
+      "title": "Lobos Cinzentos MC",
+      "date": "2026-08-08",
+      "city": "Salvador",
+      "state": "BA",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-caete-mg-2026-08-08",
+      "title": "MOTOFEST",
+      "date": "2026-08-08",
+      "city": "Caete",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motorock-macaubas-ba-2026-08-08",
+      "title": "MOTOROCK",
+      "date": "2026-08-08",
+      "city": "Macaubas",
+      "state": "BA",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "speed-night-fest-brigui-sp-2026-08-08",
+      "title": "Speed Night Fest",
+      "date": "2026-08-08",
+      "city": "Brigui",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "terapia-na-estrada-macae-rj-2026-08-08",
+      "title": "Terapia na estrada",
+      "date": "2026-08-08",
+      "city": "Macae",
+      "state": "RJ",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "mundicas-mg-o-chamado-da-estrada-nova-pauliceia-gaviao-peixoto-sp-2026-08-09",
+      "title": "Mundicas MG",
+      "date": "2026-08-09",
+      "city": "Gavião Peixoto",
+      "state": "SP",
+      "source_count": 4,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "its-timburi-sp-2026-08-13",
+      "title": "ITS",
+      "date": "2026-08-13",
+      "city": "Timburi",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "18-encontro-internacional-de-motos-de-altas-cilindradas-boa-vista-rr-2026-08-14",
+      "title": "18º Encontro Internacional de Motos de Altas Cilindradas",
+      "date": "2026-08-14",
+      "city": "Boa Vista",
+      "state": "RR",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 1,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "22-anos-mantra-mc-sao-joao-da-boa-vista-sp-2026-08-14",
+      "title": "22 Anos",
+      "date": "2026-08-14",
+      "city": "Mantra MC - Sao Joao da Boa Vista",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "caveiras-brasil-mc-petropolis-rj-2026-08-14",
+      "title": "Caveiras Brasil MC",
+      "date": "2026-08-14",
+      "city": "Petropolis",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "mg-fora-de-rota-sao-pedro-do-butia-rs-2026-08-14",
+      "title": "MG Fora de Rota",
+      "date": "2026-08-14",
+      "city": "Sao Pedro do Butia",
+      "state": "RS",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "mg-viramundo-rasga-chao-rio-branco-ac-2026-08-14",
+      "title": "MG Viramundo Rasga Chao",
+      "date": "2026-08-14",
+      "city": "Rio Branco",
+      "state": "AC",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-correntina-ba-2026-08-14",
+      "title": "MOTOFEST",
+      "date": "2026-08-14",
+      "city": "Correntina",
+      "state": "BA",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-iati-pe-2026-08-14",
+      "title": "MOTOFEST",
+      "date": "2026-08-14",
+      "city": "Iati",
+      "state": "PE",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-lambari-mg-2026-08-14",
+      "title": "MOTOFEST",
+      "date": "2026-08-14",
+      "city": "Lambari",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-piunhi-mg-2026-08-14",
+      "title": "MOTOFEST",
+      "date": "2026-08-14",
+      "city": "Piunhi",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "perdidos-do-asfalto-mc-matozinhos-mg-2026-08-14",
+      "title": "Perdidos do Asfalto MC",
+      "date": "2026-08-14",
+      "city": "Matozinhos",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "ultr-moto-fest-alcobaca-ba-2026-08-14",
+      "title": "Ultr Moto Fest",
+      "date": "2026-08-14",
+      "city": "Alcobaca",
+      "state": "BA",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "1-comando-motor-fest-guaruja-sp-2026-08-15",
+      "title": "1 Comando Motor Fest",
+      "date": "2026-08-15",
+      "city": "Guaruja",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "12-acampamento-nacional-rat-bike-do-brasil-jeceaba-mg-2026-08-15",
+      "title": "12 Acampamento Nacional Rat Bike do Brasil",
+      "date": "2026-08-15",
+      "city": "Jeceaba",
+      "state": "MG",
+      "source_count": 3,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "2-encotnro-de-motociclistas-nhandeara-sp-2026-08-15",
+      "title": "2 Encotnro de Motociclistas",
+      "date": "2026-08-15",
+      "city": "Nhandeara",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "3-cafe-rock-cafelandia-sp-2026-08-15",
+      "title": "3 Cafe Rock",
+      "date": "2026-08-15",
+      "city": "Cafelandia",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "5-praia-rock-chopper-mc-saquarema-rj-2026-08-15",
+      "title": "5 Praia",
+      "date": "2026-08-15",
+      "city": "Rock Chopper MC - Saquarema",
+      "state": "RJ",
+      "source_count": 3,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "8-rock-in-rio-ivai-japura-pr-2026-08-15",
+      "title": "8 Rock in Rio Ivai",
+      "date": "2026-08-15",
+      "city": "Japura",
+      "state": "PR",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "bufalos-mg-marechal-floriano-es-2026-08-15",
+      "title": "Bufalos MG",
+      "date": "2026-08-15",
+      "city": "Marechal Floriano",
+      "state": "ES",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "ilha-mc-ilha-do-governador-rio-de-janeiro-rj-2026-08-15",
+      "title": "Ilha MC",
+      "date": "2026-08-15",
+      "city": "Ilha do Governador - Rio de Janeiro",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "lady-rider-mg-jacana-sao-paulo-sp-2026-08-15",
+      "title": "Lady Rider MG",
+      "date": "2026-08-15",
+      "city": "Jacana - Sao Paulo",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "moto-fera-jacarei-sp-2026-08-15",
+      "title": "Moto Fera",
+      "date": "2026-08-15",
+      "city": "Jacarei",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "pepe-legal-mc-mooca-sao-paulo-sp-2026-08-15",
+      "title": "Pepe Legal MC",
+      "date": "2026-08-15",
+      "city": "Mooca - Sao Paulo",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "sicarios-mc-ipuiuna-mg-2026-08-15",
+      "title": "Sicarios MC",
+      "date": "2026-08-15",
+      "city": "Ipuiuna",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "terapia-na-estrada-macae-rj-2026-08-15",
+      "title": "Terapia na Estrada",
+      "date": "2026-08-15",
+      "city": "Macae",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "companhia-do-asfalto-mg-itaborai-rj-2026-08-16",
+      "title": "Companhia do Asfalto MG",
+      "date": "2026-08-16",
+      "city": "Itaborai",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "guardiao-noturno-mc-mage-rj-2026-08-16",
+      "title": "Guardiao Noturno MC",
+      "date": "2026-08-16",
+      "city": "Mage",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-araraquara-sp-2026-08-16",
+      "title": "MOTOFEST",
+      "date": "2026-08-16",
+      "city": "Araraquara",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "ronin-mc-itabira-mg-2026-08-16",
+      "title": "Ronin MC",
+      "date": "2026-08-16",
+      "city": "Itabira",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "15-encontro-de-motociclistas-santo-antonio-do-monte-mg-2026-08-21",
+      "title": "15 Encontro de Motociclistas",
+      "date": "2026-08-21",
+      "city": "Santo Antonio do Monte",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "2-moto-rock-espinosa-mg-2026-08-21",
+      "title": "2 MOTO ROCK",
+      "date": "2026-08-21",
+      "city": "Espinosa",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "anjos-da-ilha-mc-sao-jose-de-ribamar-ma-2026-08-21",
+      "title": "Anjos da Ilha MC",
+      "date": "2026-08-21",
+      "city": "Sao Jose de Ribamar",
+      "state": "MA",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "drag-race-campo-grande-ms-2026-08-21",
+      "title": "DRAG-RACE",
+      "date": "2026-08-21",
+      "city": "Campo Grande",
+      "state": "MS",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-cha-grande-pe-2026-08-21",
+      "title": "MOTOFEST",
+      "date": "2026-08-21",
+      "city": "Cha Grande",
+      "state": "PE",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-luis-eduardo-magalhaes-ba-2026-08-21",
+      "title": "MOTOFEST",
+      "date": "2026-08-21",
+      "city": "Luis Eduardo Magalhaes",
+      "state": "BA",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-pojuca-ba-2026-08-21",
+      "title": "MOTOFEST",
+      "date": "2026-08-21",
+      "city": "Pojuca",
+      "state": "BA",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "aguias-do-redentor-mc-itamarandiba-mg-2026-08-22",
+      "title": "Aguias do Redentor MC",
+      "date": "2026-08-22",
+      "city": "Itamarandiba",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "cowboys-do-vento-mc-matinhos-pr-2026-08-22",
+      "title": "Cowboys do Vento MC",
+      "date": "2026-08-22",
+      "city": "Matinhos",
+      "state": "PR",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "espirito-de-agua-mc-contagem-mg-2026-08-22",
+      "title": "Espirito de Agua MC",
+      "date": "2026-08-22",
+      "city": "Contagem",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "guardiao-do-destino-mf-salto-de-pirapora-sp-2026-08-22",
+      "title": "Guardiao do Destino MF",
+      "date": "2026-08-22",
+      "city": "Salto de Pirapora",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "mc-anjos-da-estrada-belo-horizonte-mg-2026-08-22",
+      "title": "MC Anjos da Estrada",
+      "date": "2026-08-22",
+      "city": "Belo Horizonte",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "mc-eu-gata-e-cao-fiel-macae-rj-2026-08-22",
+      "title": "MC Eu, Gata e Cao Fiel",
+      "date": "2026-08-22",
+      "city": "Macae",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "mc-macae-macae-rj-2026-08-22",
+      "title": "MC Macae",
+      "date": "2026-08-22",
+      "city": "Macae",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "mc-renascidos-da-irmandade-belford-roxo-rj-2026-08-22",
+      "title": "MC Renascidos da Irmandade",
+      "date": "2026-08-22",
+      "city": "Belford Roxo",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "5-encontro-de-motociclistas-cravinhos-sp-2026-08-23",
+      "title": "5 Encontro de Motociclistas",
+      "date": "2026-08-23",
+      "city": "Cravinhos",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "amigos-na-estrada-mc-sao-jose-do-vale-do-rio-preto-rj-2026-08-23",
+      "title": "Amigos na Estrada MC",
+      "date": "2026-08-23",
+      "city": "Sao Jose do Vale do Rio Preto",
+      "state": "RJ",
+      "source_count": 3,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "cruz-de-ferro-mc-marica-rj-2026-08-23",
+      "title": "Cruz de Ferro MC",
+      "date": "2026-08-23",
+      "city": "Marica",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motorock-bertopolis-mg-2026-08-23",
+      "title": "MOTOROCK",
+      "date": "2026-08-23",
+      "city": "Bertopolis",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motorockfest-arrial-d-ajuda-ba-2026-08-26",
+      "title": "MOTOROCKFEST",
+      "date": "2026-08-26",
+      "city": "Arrial D Ajuda",
+      "state": "BA",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-maceio-al-2026-08-27",
+      "title": "MOTOFEST",
+      "date": "2026-08-27",
+      "city": "Maceio",
+      "state": "AL",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "moto-fest-senador-amaral-mg-2026-08-28",
+      "title": "MOTO FEST",
+      "date": "2026-08-28",
+      "city": "Senador Amaral",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-alagoinhas-ba-2026-08-28",
+      "title": "MOTOFEST",
+      "date": "2026-08-28",
+      "city": "Alagoinhas",
+      "state": "BA",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-araxa-mg-2026-08-28",
+      "title": "MOTOFEST",
+      "date": "2026-08-28",
+      "city": "Araxa",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-juazeiro-do-norte-ce-2026-08-28",
+      "title": "MOTOFEST",
+      "date": "2026-08-28",
+      "city": "Juazeiro do Norte",
+      "state": "CE",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "trike-brasil-mc-tri-vale-resende-rj-2026-08-28",
+      "title": "Trike Brasil MC",
+      "date": "2026-08-28",
+      "city": "Tri-Vale - Resende",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "v-encontro-nacional-ijaci-mg-2026-08-28",
+      "title": "V Encontro Nacional",
+      "date": "2026-08-28",
+      "city": "Ijaci",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "cavera-do-asfalto-mc-jaboticabal-sp-2026-08-29",
+      "title": "Cavera do Asfalto MC",
+      "date": "2026-08-29",
+      "city": "Jaboticabal",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "nazarenos-mc-campinas-sp-2026-08-29",
+      "title": "Nazarenos MC",
+      "date": "2026-08-29",
+      "city": "Campinas",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "2-encontro-de-motociclista-santa-fe-do-sul-sp-2026-08-30",
+      "title": "2 Encontro de Motociclista",
+      "date": "2026-08-30",
+      "city": "Santa Fe do Sul",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "2-motofest-vicosa-mg-2026-09-03",
+      "title": "2 MOTOFEST",
+      "date": "2026-09-03",
+      "city": "Vicosa",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "11-encontro-de-motociclistas-e-triciclistas-itarare-sp-2026-09-04",
+      "title": "11 Encontro de Motociclistas e Triciclistas",
+      "date": "2026-09-04",
+      "city": "Itarare",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "14-encontro-de-motociclstas-rio-bonito-rj-2026-09-04",
+      "title": "14 Encontro de Motociclstas",
+      "date": "2026-09-04",
+      "city": "Rio Bonito",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "autoridade-mc-ubaporanga-mg-2026-09-04",
+      "title": "Autoridade MC",
+      "date": "2026-09-04",
+      "city": "Ubaporanga",
+      "state": "MG",
+      "source_count": 4,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "caveiras-de-fogo-mc-cachoeiras-de-macacu-rj-2026-09-04",
+      "title": "Caveiras de Fogo MC",
+      "date": "2026-09-04",
+      "city": "Cachoeiras de Macacu",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "diamantina-motofest-2026-diamantina-mg-2026-09-04",
+      "title": "Diamantina Motofest 2026",
+      "date": "2026-09-04",
+      "city": "Diamantina",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 0,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "mc-brucutu-s-bom-jesus-do-amparo-mg-2026-09-04",
+      "title": "MC Brucutu s",
+      "date": "2026-09-04",
+      "city": "Bom Jesus do Amparo",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-belo-jardim-pe-2026-09-04",
+      "title": "MOTOFEST",
+      "date": "2026-09-04",
+      "city": "Belo Jardim",
+      "state": "PE",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-iguaba-grande-rj-2026-09-04",
+      "title": "MOTOFEST",
+      "date": "2026-09-04",
+      "city": "Iguaba Grande",
+      "state": "RJ",
+      "source_count": 4,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-parelhas-rn-2026-09-04",
+      "title": "MOTOFEST",
+      "date": "2026-09-04",
+      "city": "Parelhas",
+      "state": "RN",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "santana-motofest-santana-do-ipanema-al-2026-09-04",
+      "title": "SANTANA MOTOFEST",
+      "date": "2026-09-04",
+      "city": "Santana do Ipanema",
+      "state": "AL",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "aguias-rota-381-mc-guardioes-da-liberdade-mc-carmopolis-de-minas-mg-2026-09-05",
+      "title": "Aguias Rota 381 MC",
+      "date": "2026-09-05",
+      "city": "Guardioes da Liberdade MC - Carmopolis de Minas",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-poco-fundo-mg-2026-09-05",
+      "title": "MOTOFEST",
+      "date": "2026-09-05",
+      "city": "Poco Fundo",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "novo-amanha-me-limeira-sp-2026-09-05",
+      "title": "Novo Amanha ME",
+      "date": "2026-09-05",
+      "city": "Limeira",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 2,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "pentecostes-mc-potirendaba-sp-2026-09-05",
+      "title": "Pentecostes MC",
+      "date": "2026-09-05",
+      "city": "Potirendaba",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "raca-livre-mg-sao-carlos-sp-2026-09-05",
+      "title": "Raca Livre MG",
+      "date": "2026-09-05",
+      "city": "Sao Carlos",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "rat-bike-salto-grande-sp-2026-09-05",
+      "title": "Rat Bike",
+      "date": "2026-09-05",
+      "city": "Salto GRande",
+      "state": "SP",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "5-moto-almoco-show-piratuba-sc-2026-09-06",
+      "title": "5 Moto Almoco Show",
+      "date": "2026-09-06",
+      "city": "Piratuba",
+      "state": "SC",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "lobos-do-asfalto-mc-jardim-america-rio-de-janeiro-rj-2026-09-06",
+      "title": "Lobos do Asfalto MC",
+      "date": "2026-09-06",
+      "city": "Jardim America - Rio de Janeiro",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "mg-somos-livres-cachoeiras-de-macacu-rj-2026-09-06",
+      "title": "MG Somos Livres",
+      "date": "2026-09-06",
+      "city": "Cachoeiras de Macacu",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "peaky-blinders-mg-terezinha-pe-2026-09-06",
+      "title": "Peaky Blinders MG",
+      "date": "2026-09-06",
+      "city": "Terezinha",
+      "state": "PE",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "10-encontro-nacional-de-motociclistas-januaria-mg-2026-09-11",
+      "title": "10 Encontro Nacional de Motociclistas",
+      "date": "2026-09-11",
+      "city": "Januaria",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "12-encontro-de-motociclistas-crateus-ce-2026-09-11",
+      "title": "12 Encontro de Motociclistas",
+      "date": "2026-09-11",
+      "city": "Crateus",
+      "state": "CE",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "12-encontro-de-motociclistas-perdoes-mg-2026-09-11",
+      "title": "12 Encontro de Motociclistas",
+      "date": "2026-09-11",
+      "city": "Perdoes",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "7-jere-moto-fest-jeremoabo-ba-2026-09-11",
+      "title": "7 Jere Moto Fest",
+      "date": "2026-09-11",
+      "city": "Jeremoabo",
+      "state": "BA",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "mc-rota-110-jeremoabo-ba-2026-09-11",
+      "title": "MC Rota 110",
+      "date": "2026-09-11",
+      "city": "Jeremoabo",
+      "state": "BA",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "1-encontro-dos-motopapos-nossa-senhora-do-socorro-se-2026-09-12",
+      "title": "1 Encontro dos MotoPapos",
+      "date": "2026-09-12",
+      "city": "Nossa Senhora do Socorro",
+      "state": "SE",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "cadaver-mc-mage-rj-2026-09-12",
+      "title": "Cadaver MC",
+      "date": "2026-09-12",
+      "city": "Mage",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 2,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "niver-amparo-sp-2026-09-12",
+      "title": "NIVER",
+      "date": "2026-09-12",
+      "city": "Amparo",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "xorete-mg-itatiaia-rj-2026-09-12",
+      "title": "Xorete MG",
+      "date": "2026-09-12",
+      "city": "Itatiaia",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "cavalo-de-aco-mc-estreito-sp-2026-09-13",
+      "title": "Cavalo de Aco MC",
+      "date": "2026-09-13",
+      "city": "Estreito",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "mc-os-mamutes-e-road-rhino-mc-rio-de-janeiro-rj-2026-09-13",
+      "title": "9 anos dos Os Mamutes MC e 1 ano do Road Rhino MC",
+      "date": "2026-09-13",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "source_count": 4,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 1,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "uai-uberaba-mg-2026-09-13",
+      "title": "UAI",
+      "date": "2026-09-13",
+      "city": "Uberaba",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-caruaru-pe-2026-09-17",
+      "title": "MOTOFEST",
+      "date": "2026-09-17",
+      "city": "Caruaru",
+      "state": "PE",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "km-125-mc-campos-dos-goytacazes-rj-2026-09-18",
+      "title": "KM 125 MC",
+      "date": "2026-09-18",
+      "city": "Campos dos Goytacazes",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "nostalgia-mc-caes-de-zorba-mc-santa-barbara-d-oeste-sp-2026-09-18",
+      "title": "Nostalgia MC",
+      "date": "2026-09-18",
+      "city": "Caes de Zorba MC - Santa Barbara D Oeste",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "fenicios-mc-rio-de-janeiro-rj-2026-09-19",
+      "title": "Fenicios MC",
+      "date": "2026-09-19",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "rota-064-mc-rio-verde-go-2026-09-19",
+      "title": "Rota 064 MC",
+      "date": "2026-09-19",
+      "city": "Rio Verde",
+      "state": "GO",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "zapata-mc-embu-guacu-sp-2026-09-19",
+      "title": "Zapata MC",
+      "date": "2026-09-19",
+      "city": "Embu Guacu",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "1-truck-fest-suzano-sp-2026-09-20",
+      "title": "1 Truck Fest",
+      "date": "2026-09-20",
+      "city": "Suzano",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "2-moto-cafe-paraguacu-paulista-sp-2026-09-20",
+      "title": "2 Moto Cafe",
+      "date": "2026-09-20",
+      "city": "Paraguacu Paulista",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "moto-cafe-santopolis-do-aguapei-sp-2026-09-20",
+      "title": "MOTO CAFE",
+      "date": "2026-09-20",
+      "city": "Santopolis do Aguapei",
+      "state": "SP",
+      "source_count": 4,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "moto-casal-e-amigos-itaborai-rj-2026-09-20",
+      "title": "Moto Casal e Amigos",
+      "date": "2026-09-20",
+      "city": "Itaborai",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "amigos-do-pedrinho-virginia-mg-2026-09-25",
+      "title": "Amigos do Pedrinho",
+      "date": "2026-09-25",
+      "city": "Virginia",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "frances-moto-fest-praia-do-frances-marechal-deodoro-al-2026-09-25",
+      "title": "Frances Moto Fest",
+      "date": "2026-09-25",
+      "city": "Praia do Frances - Marechal Deodoro",
+      "state": "AL",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-petrolandia-pe-2026-09-25",
+      "title": "MOTOFEST",
+      "date": "2026-09-25",
+      "city": "Petrolandia",
+      "state": "PE",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "caveiras-do-asfalto-missao-velha-ce-2026-09-26",
+      "title": "Caveiras do Asfalto",
+      "date": "2026-09-26",
+      "city": "Missao Velha",
+      "state": "CE",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "indian-soul-mc-franca-sp-2026-09-26",
+      "title": "Indian Soul MC",
+      "date": "2026-09-26",
+      "city": "Franca",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "sem-fronteiras-mg-santa-cruz-rj-2026-09-26",
+      "title": "Sem Fronteiras MG",
+      "date": "2026-09-26",
+      "city": "Santa Cruz",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "guardioes-mg-iacu-ba-2026-10-09",
+      "title": "Guardioes MG",
+      "date": "2026-10-09",
+      "city": "Iacu",
+      "state": "BA",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "mc-mal-encarado-castelo-es-2026-10-09",
+      "title": "MC Mal Encarado",
+      "date": "2026-10-09",
+      "city": "Castelo",
+      "state": "ES",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "moto-week-macae-rj-2026-10-09",
+      "title": "MOTO WEEK",
+      "date": "2026-10-09",
+      "city": "Macae",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-iacu-ba-2026-10-09",
+      "title": "MOTOFEST",
+      "date": "2026-10-09",
+      "city": "Iacu",
+      "state": "BA",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "trovoes-do-asfalto-mc-manhuacu-mg-2026-10-09",
+      "title": "Trovoes do Asfalto MC",
+      "date": "2026-10-09",
+      "city": "Manhuacu",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "2-motoshow-presidente-alves-sp-2026-10-10",
+      "title": "2 MOTOSHOW",
+      "date": "2026-10-10",
+      "city": "Presidente Alves",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "7-62-mc-araguari-sc-2026-10-10",
+      "title": "7.62 MC",
+      "date": "2026-10-10",
+      "city": "Araguari",
+      "state": "SC",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "aniversario-de-3-motoclubes-itu-sp-2026-10-10",
+      "title": "Aniversario de 3 Motoclubes",
+      "date": "2026-10-10",
+      "city": "Itu",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "guardioes-mc-iacu-ba-2026-10-10",
+      "title": "Guardioes MC",
+      "date": "2026-10-10",
+      "city": "Iacu",
+      "state": "BA",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "lobos-mc-carlopolis-pr-2026-10-10",
+      "title": "Lobos MC",
+      "date": "2026-10-10",
+      "city": "Carlopolis",
+      "state": "PR",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "tri-vale-e-its-lages-sc-2026-10-10",
+      "title": "Tri-Vale e ITS",
+      "date": "2026-10-10",
+      "city": "Lages",
+      "state": "SC",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "caveiras-implacaveis-mc-tamoios-rj-2026-10-11",
+      "title": "Caveiras Implacaveis MC",
+      "date": "2026-10-11",
+      "city": "Tamoios",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "classicos-estradeiros-mg-rio-de-janeiro-rj-2026-10-11",
+      "title": "Classicos Estradeiros MG",
+      "date": "2026-10-11",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "source_count": 6,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 2,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motociata-dumont-sp-2026-10-12",
+      "title": "MOTOCIATA",
+      "date": "2026-10-12",
+      "city": "Dumont",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "rafard-mc-mombuca-sp-2026-10-16",
+      "title": "Rafard MC",
+      "date": "2026-10-16",
+      "city": "Mombuca",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "ganchos-do-asfalto-mg-santissimo-rio-de-janeiro-rj-2026-10-17",
+      "title": "Ganchos do Asfalto MG",
+      "date": "2026-10-17",
+      "city": "Santissimo - Rio de Janeiro",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "mc-os-independentes-rio-de-janeiro-rj-2026-10-17",
+      "title": "MC Os Independentes",
+      "date": "2026-10-17",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "professores-mc-vila-velhas-es-2026-10-17",
+      "title": "Professores MC",
+      "date": "2026-10-17",
+      "city": "Vila Velhas",
+      "state": "ES",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "rock-chopper-mc-rio-das-ostras-rj-2026-10-17",
+      "title": "Rock Chopper MC",
+      "date": "2026-10-17",
+      "city": "Rio das Ostras",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "1-encontro-de-motoclubes-paulo-afonso-ba-2026-10-22",
+      "title": "1 Encontro de Motoclubes",
+      "date": "2026-10-22",
+      "city": "Paulo Afonso",
+      "state": "BA",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "bandidas-brasil-itaguai-rj-2026-10-24",
+      "title": "Bandidas Brasil",
+      "date": "2026-10-24",
+      "city": "Itaguai",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "4-festival-da-pimenta-e-motorock-uru-sp-2026-10-30",
+      "title": "4 Festival da Pimenta e MotoRock",
+      "date": "2026-10-30",
+      "city": "Uru",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "7-aniversario-mc-ponta-negra-marica-rj-2026-10-31",
+      "title": "7 Aniversario MC Ponta Negra",
+      "date": "2026-10-31",
+      "city": "Marica",
+      "state": "RJ",
+      "source_count": 4,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-carbonita-mg-2026-10-31",
+      "title": "MOTOFEST",
+      "date": "2026-10-31",
+      "city": "Carbonita",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "9-encontro-de-motociclistas-e-triciclistas-lutecia-sp-2026-11-06",
+      "title": "9 Encontro de Motociclistas e Triciclistas",
+      "date": "2026-11-06",
+      "city": "Lutecia",
+      "state": "SP",
+      "source_count": 4,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-barreirinhas-ma-2026-11-06",
+      "title": "MOTOFEST",
+      "date": "2026-11-06",
+      "city": "Barreirinhas",
+      "state": "MA",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-tombos-mg-2026-11-06",
+      "title": "MOTOFEST",
+      "date": "2026-11-06",
+      "city": "Tombos",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "4-missa-do-motociclistas-e-triciclista-bebedouro-sp-2026-11-08",
+      "title": "4 Missa do Motociclistas e Triciclista",
+      "date": "2026-11-08",
+      "city": "Bebedouro",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "exitus-brasil-mc-marica-rj-2026-11-08",
+      "title": "Exitus Brasil MC",
+      "date": "2026-11-08",
+      "city": "Marica",
+      "state": "RJ",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "rabugentos-mc-rio-de-janeiro-rj-2026-11-08",
+      "title": "Rabugentos MC",
+      "date": "2026-11-08",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "baroes-do-vento-mg-cosmopolis-sp-2026-11-13",
+      "title": "Baroes do Vento MG",
+      "date": "2026-11-13",
+      "city": "Cosmopolis",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 1,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-atilio-vivacqua-es-2026-11-13",
+      "title": "MOTOFEST",
+      "date": "2026-11-13",
+      "city": "Atilio Vivacqua",
+      "state": "ES",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-inhapi-al-2026-11-13",
+      "title": "MOTOFEST",
+      "date": "2026-11-13",
+      "city": "Inhapi",
+      "state": "AL",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-campina-grande-pb-2026-11-19",
+      "title": "MOTOFEST",
+      "date": "2026-11-19",
+      "city": "Campina Grande",
+      "state": "PB",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "discriminados-mc-santa-rita-de-jacutinga-mg-2026-11-20",
+      "title": "Discriminados MC",
+      "date": "2026-11-20",
+      "city": "Santa Rita de Jacutinga",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "moto-fest-lagoinha-sao-jose-do-rio-preto-sp-2026-11-21",
+      "title": "Moto Fest Lagoinha",
+      "date": "2026-11-21",
+      "city": "Sao Jose do Rio Preto",
+      "state": "SP",
+      "source_count": 4,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "resiliencia-mc-fervedouro-mg-2026-11-21",
+      "title": "Resiliencia MC",
+      "date": "2026-11-21",
+      "city": "Fervedouro",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-uirauna-pb-2026-11-27",
+      "title": "MOTOFEST",
+      "date": "2026-11-27",
+      "city": "Uirauna",
+      "state": "PB",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motorock-pesqueira-pe-2026-11-27",
+      "title": "MOTOROCK",
+      "date": "2026-11-27",
+      "city": "Pesqueira",
+      "state": "PE",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "neblina-mc-peruibe-sp-2026-11-28",
+      "title": "Neblina MC",
+      "date": "2026-11-28",
+      "city": "Peruibe",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "steel-goose-mc-araruama-rj-2026-11-28",
+      "title": "Steel Goose MC",
+      "date": "2026-11-28",
+      "city": "Araruama",
+      "state": "RJ",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "guerreiros-alados-mc-braganca-paulista-sp-2026-11-29",
+      "title": "Guerreiros Alados MC",
+      "date": "2026-11-29",
+      "city": "Braganca Paulista",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "salvador-moto-salvador-ba-2026-12-03",
+      "title": "SALVADOR MOTO",
+      "date": "2026-12-03",
+      "city": "Salvador",
+      "state": "BA",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "motofest-divino-mg-2026-12-04",
+      "title": "MOTOFEST",
+      "date": "2026-12-04",
+      "city": "Divino",
+      "state": "MG",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "calendario",
+      "slug": "gp-goi-s-de-paraciclismo-2026-08-01",
+      "title": "GP Goiás de Paraciclismo",
+      "date": "2026-08-01",
+      "city": "Bela Vista de Goiás",
+      "state": "GO",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 0,
+      "placeholder_fields": 0,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "calendario",
+      "slug": "circuito-do-estreito-2026-11-29",
+      "title": "Circuito do Estreito",
+      "date": "2026-11-29",
+      "city": "Luzilândia",
+      "state": "PI",
+      "source_count": 2,
+      "independent_domains": 2,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 0,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "calendario",
+      "slug": "gp-de-ciclismo-de-estrada-2026-09-06",
+      "title": "GP de Ciclismo de Estrada",
+      "date": "2026-09-06",
+      "city": null,
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 0,
+      "placeholder_fields": 0,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "calendario",
+      "slug": "gp-de-paraciclismo-de-estrada-2026-09-06",
+      "title": "GP de Paraciclismo de Estrada",
+      "date": "2026-09-06",
+      "city": null,
+      "state": "SP",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 0,
+      "placeholder_fields": 0,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "calendario",
+      "slug": "campeonato-brasileiro-de-paraciclismo-de-pista-2026-2026-10-16",
+      "title": "Campeonato Brasileiro de Paraciclismo de Pista 2026",
+      "date": "2026-10-16",
+      "city": "Indaiatuba",
+      "state": "SP",
+      "source_count": 2,
+      "independent_domains": 2,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 0,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "calendario",
+      "slug": "copa-recife-de-bmx-2026-11-29",
+      "title": "Copa Recife de BMX",
+      "date": "2026-11-29",
+      "city": "Recife",
+      "state": "PE",
+      "source_count": 2,
+      "independent_domains": 2,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 0,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    }
+  ]
+}
