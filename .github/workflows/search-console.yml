@@ -55,6 +55,28 @@ jobs:
           python scripts/update_sitemap.py
           python scripts/update_sitemap.py --check
 
+      - name: Aguardar sitemaps públicos
+        run: |
+          for sitemap in sitemap.xml news-sitemap.xml event-sitemap.xml; do
+            ready=false
+            for attempt in 1 2 3 4 5 6 7 8 9 10 11 12; do
+              if curl --fail --silent --show-error \
+                "https://tvduasrodas.com/${sitemap}" \
+                --output "/tmp/${sitemap}" &&
+                cmp --silent "${sitemap}" "/tmp/${sitemap}"; then
+                echo "${sitemap} já está público e atualizado."
+                ready=true
+                break
+              fi
+              echo "Aguardando publicação de ${sitemap}: tentativa ${attempt}/12."
+              sleep 10
+            done
+            if [ "${ready}" != "true" ]; then
+              echo "${sitemap} ainda não corresponde à versão publicada."
+              exit 1
+            fi
+          done
+
       - name: Enviar sitemaps e atualizar painel
         run: >-
           python scripts/search_console_sync.py
