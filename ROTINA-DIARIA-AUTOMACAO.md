@@ -1,6 +1,6 @@
 # Rotina diária fixada — TVDUASRODAS
 
-Versão atualizada em 26 de julho de 2026. Esta rotina é obrigatória para o worker e não pode ser reduzida, substituída ou ignorada sem uma nova instrução expressa de Wesley. O portal não é somente competições e eventos.
+Versão atualizada em 28 de julho de 2026. Esta rotina é obrigatória para o worker e não pode ser reduzida, substituída ou ignorada sem uma nova instrução expressa de Wesley. O portal não é somente competições e eventos.
 
 ## Sincronização obrigatória entre este arquivo e as automações
 
@@ -41,11 +41,12 @@ Versão atualizada em 26 de julho de 2026. Esta rotina é obrigatória para o wo
 
 ## Particionamento das automações e aplicação das regras
 
-Existem quatro configurações ativas vinculadas ao projeto `TVDUASRODAS`, organizadas em três rotinas lógicas:
+Existem cinco configurações ativas vinculadas ao projeto `TVDUASRODAS`, organizadas em quatro rotinas lógicas:
 
 1. `Atualizações otimizadas TV Duas Rodas`: uma única configuração executada às **08h, 11h, 14h, 17h e 20h**. O horário determina qual janela editorial deste documento deve ser executada; todas as regras universais, especialmente leitura inicial, isolamento, qualidade, validação, commit, push, recuperação, Search Console e relatório, valem igualmente nas cinco ocorrências.
 2. `Instagram TVDUASRODAS — Reels e Stories`: uma única configuração executada às **08h30, 11h30, 14h30, 17h30 e 20h30**. Todas as regras universais valem igualmente nas cinco ocorrências, acrescidas das regras específicas da seção **Instagram — somente Reels e Stories**.
-3. `Recuperação de pendências TVDUASRODAS`: uma única rotina lógica implementada por duas configurações coordenadas, porque o agendador exige grupos com o mesmo minuto:
+3. `Radar de datas editoriais TVDUASRODAS`: uma configuração executada às **07h15 e 15h15**. Ela antecipa a descoberta de datas brasileiras, efemérides, campanhas, aniversários, marcos esportivos e oportunidades sazonais, publica no portal toda pauta imediata confirmada e encaminha candidatos sociais para a seleção limitada do Instagram. O radar não publica diretamente no Instagram e não substitui a varredura geral das cinco janelas editoriais.
+4. `Recuperação de pendências TVDUASRODAS`: uma única rotina lógica implementada por duas configurações coordenadas, porque o agendador exige grupos com o mesmo minuto:
    - `Recuperação de pendências TVDUASRODAS — manhã e tarde`, às **08h40, 11h40 e 14h40**.
    - `Recuperação de pendências TVDUASRODAS — fim do dia`, às **17h10 e 20h10**.
    As duas usam as mesmas regras, auditam se as ocorrências editoriais e de Instagram anteriores rodaram e terminaram corretamente, retomam trabalhos pausados ou com falha e concluem todo backlog executável sem duplicar publicações.
@@ -59,6 +60,8 @@ Existem quatro configurações ativas vinculadas ao projeto `TVDUASRODAS`, organ
 - Em cada horário de recuperação, perguntar operacionalmente: `Existe alguma pendência vencida e executável nas automações editorial ou de Instagram?` A resposta deve vir de uma auditoria real do repositório, das páginas públicas, dos registros de publicação, dos estados de eventos e competições, da matriz de fontes confiáveis e das execuções anteriores; nunca de suposição.
 - Conferir se a janela imediatamente anterior foi iniciada, se publicou tudo que era obrigatório e se chegou a commit, push, validação pública, sitemap, Search Console e registro final. Para Instagram, conferir Story e Reel separadamente e nunca exigir Feed.
 - Detectar também pendências antigas ainda abertas, incluindo estados `FALHA`, `PENDENTE`, `NAO_ELEGIVEL_URL_INDISPONIVEL` que possam ter mudado, arquivos locais sem commit, branch à frente do remoto, URL já pública sem SEO concluído, evento com situação incompatível com a data e cobertura T+1 vencida.
+- Auditar a fila editorial geral, inclusive notícias, lançamentos, recalls, efemérides, eventos e resultados descobertos e ainda não concluídos. Toda pauta `publicavel` vencida é pendência executável, mesmo quando as metas mínimas do dia já tiverem sido cumpridas.
+- Para o Instagram, conferir a fila e o total de pautas do dia antes de recuperar. Concluir formatos faltantes de uma pauta já contabilizada, mas nunca publicar uma sexta pauta ou mais de uma pauta nova na mesma janela.
 - Quando houver ação executável, a automação de recuperação assume imediatamente a autorização permanente de Wesley para pesquisar, editar, gerar mídia, publicar no portal, publicar Story e Reel, usar as sessões autenticadas, solicitar indexação, fazer commit e enviar para `origin/main`. Não pedir novamente autorização para essas ações previstas.
 - A recuperação deve reexecutar somente a parte faltante e preservar idempotência. Antes de criar ou publicar, consultar URLs, slugs e `output/instagram/publication-log.json` para não repetir matéria, Story ou Reel já confirmado.
 - Não considerar como pendência vencida um balanço cuja data futura ainda não chegou nem uma solicitação do Google já aceita e ainda em processamento. A indisponibilidade de uma única fonte não encerra a busca: consultar áreas de resultados, documentos, prestadores contratados e fontes secundárias confiáveis conforme a matriz. Somente a ausência de dados após essa auditoria ampliada pode ser registrada como monitoramento externo, sem inventar informações.
@@ -139,6 +142,8 @@ Definir `relevance_trend` como `subindo`, `estavel` ou `caindo`. Um aumento fort
 
 Antes de escolher ou classificar qualquer pauta, calcular novamente a data e o dia da semana em `America/New_York`. Não reutilizar o dia da semana registrado por uma execução anterior. Declarar no resumo da janela o dia calculado e o programa correspondente. Se uma urgência editorial substituir a grade fixa, registrar explicitamente a exceção e o motivo.
 
+As metas abaixo são **pisos de produção, nunca tetos**. Não existe limite numérico diário ou por janela para matérias, notícias, eventos, competições, resultados, calendários, lançamentos, recalls, páginas novas, correções ou atualizações do portal. Encontrar uma publicação que cumpra a meta mínima não encerra a pesquisa e não autoriza ignorar outras pautas confirmadas.
+
 Até o encerramento das 20h (horário Eastern), o worker deve entregar:
 
 1. Pelo menos **uma matéria nova e independente para a Revista**, com `contentType: "article"`. Matéria própria, notícia e edição de programa são tipos diferentes; notícia e programa não substituem esta meta.
@@ -147,6 +152,21 @@ Até o encerramento das 20h (horário Eastern), o worker deve entregar:
 4. Diversificar a TV durante a semana: não repetir categoria de vídeo nem canal de origem na mesma semana editorial, salvo transmissão ou atualização oficial urgente, com exceção explicada no relatório. Alternar testes, competições, cross, eventos, urbano, lançamentos, dicas, tecnologia, viagem, história, customização, entretenimento e outras categorias pertinentes.
 5. Todas as **atualizações estruturais de competições e eventos** encontradas na matriz obrigatória de fontes confiáveis, sem exceção de porte: data e hora locais, fuso, situação, resultados, classificação, liderança, calendário ou informação de serviço. Matérias T+1 obedecem à classificação dinâmica de relevância.
 6. **SEO, sitemap, publicação, validação pública e Google Search Console imediatamente após cada lote publicado**, sem esperar o fechamento das 20h.
+
+## Redação permanente, descoberta geral e publicação sem teto
+
+- Em todas as janelas editoriais, o worker funciona como uma redação permanente: descobrir, confirmar, priorizar, criar, atualizar e publicar tudo que for relevante ao universo de duas rodas. É proibido limitar artificialmente a produção a uma matéria, um evento, uma competição, um lançamento ou uma atualização por janela ou por dia.
+- Às 08h e 17h, executar uma varredura geral completa. Às 11h, 14h e 20h, atualizar novamente fontes urgentes e publicar qualquer novidade confirmada surgida desde a varredura anterior, além de cumprir o trabalho específico do horário.
+- A busca geral deve cobrir, sem se restringir a: motocicletas, scooters, ciclomotores, bicicletas, e-bikes, BMX, MTB, estrada, paraciclismo, mobilidade urbana, elétricos, componentes, acessórios, equipamentos, segurança viária, recalls, legislação, indústria, vendas, produção, tecnologia, lançamentos, testes oficiais, viagens, serviços, encontros, motoclubes, festivais, feiras, salões, calendários, competições, etapas, resultados, classificações, pilotos, equipes e oportunidades editoriais sazonais.
+- Percorrer fontes brasileiras, latino-americanas e internacionais relevantes ao público brasileiro: salas de imprensa e media centers de fabricantes; entidades públicas; confederações, federações, ligas e organizadores; prestadores oficiais de resultados; calendários; assessorias; redes sociais oficiais; imprensa especializada confiável; imprensa regional para descoberta de eventos; e mecanismos de busca para localizar fontes novas. A lista de fontes conhecida é ponto de partida, não universo fechado.
+- Para notícias e lançamentos, revisar publicações recentes e páginas de imprensa, inclusive atualizações das últimas 72 horas que possam ter sido perdidas. Para eventos e competições, procurar itens novos e mudanças futuras em calendários, não apenas páginas já cadastradas. Para resultados, percorrer documentos, PDFs, planilhas, APIs e plataformas oficiais vinculadas.
+- Em cada varredura geral, executar também o radar brasileiro de datas: ontem, hoje, próximos 7 dias e visão de 45 dias. Confirmar datas comemorativas, campanhas, semanas temáticas, efemérides, aniversários, marcos esportivos e oportunidades sazonais em fonte confiável. O dia anterior é obrigatório para recuperação de uma data relevante perdida enquanto ainda houver valor jornalístico.
+- O **Dia do Motociclista no Brasil, 27 de julho**, é pauta anual obrigatória. Deve ser preparado com antecedência e publicado na data; se for perdido, deve entrar na primeira recuperação editorial útil, com contexto verdadeiro de retomada, sem fingir publicação no dia anterior.
+- A pesquisa não termina ao encontrar o primeiro item. Manter uma fila editorial única com `descoberto`, `em_apuracao`, `publicavel`, `publicado`, `atualizado`, `duplicado`, `descartado_com_motivo` ou `bloqueio_externo`. Registrar fonte, horário, prioridade, destino editorial e motivo de qualquer descarte.
+- Toda pauta `publicavel` deve ser criada ou atualizada no portal. Se o volume ultrapassar o tempo técnico de uma ocorrência, publicar primeiro urgências, segurança, recalls, resultados, mudanças de serviço e fatos com janela curta; deixar o restante como backlog executável para a próxima recuperação. Falta de tempo não transforma pauta válida em “sem novidade” e não permite apagar ou esquecer a fila.
+- A prioridade organiza a ordem, mas não reduz a cobertura. Relevância baixa pode impedir uma matéria T+1 automática, porém nunca impede cadastrar ou atualizar corretamente evento, calendário, resultado ou serviço confirmado.
+- O worker deve preferir atualização da página canônica quando já existir conteúdo sobre o mesmo assunto. Criar nova matéria quando houver fato novo, lançamento, mudança material, análise, contexto ou interesse jornalístico próprio. Não produzir duplicatas para aumentar volume.
+- Qualidade, confirmação factual, direitos de imagem, não repetição, SEO e validação continuam obrigatórios. “Sem limite” significa sem teto de quantidade, não autorização para rumor, texto superficial, imagem sem direito ou conteúdo duplicado.
 
 ## Regra absoluta de não repetição de imagens e vídeos
 
@@ -275,7 +295,11 @@ A auditoria das 20h é uma camada adicional de segurança para localizar qualque
 ## Instagram — somente Reels e Stories
 
 - A automação `Instagram TVDUASRODAS — Reels e Stories` executa diariamente às **08h30, 11h30, 14h30, 17h30 e 20h30**, em `America/New_York`, depois das janelas editoriais principais.
-- Cada conteúdo novo elegível do portal deve gerar somente **um Reel** e **um Story** coordenados, sem duplicação.
+- O Instagram tem limite editorial absoluto de **cinco pautas por dia**, uma pauta no máximo em cada horário programado. Cada pauta escolhida gera somente **um Reel** e **um Story** coordenados sobre o mesmo assunto. Portanto, o teto diário é cinco assuntos, cinco Reels e cinco Stories; nunca cinco de cada formato sobre assuntos diferentes.
+- O limite de cinco vale para publicações novas e recuperações combinadas. A recuperação pode concluir um Story ou Reel falho da mesma pauta sem contar assunto novo, mas nunca pode introduzir uma sexta pauta no mesmo dia.
+- Todo conteúdo novo ou materialmente atualizado no portal entra como candidato, não como publicação social automática. Manter uma fila diária de candidatos e, em cada horário, recalcular a importância com base em urgência, segurança, alcance, interesse brasileiro, novidade, atualidade, impacto esportivo ou de serviço e qualidade da mídia disponível.
+- Publicar em cada horário apenas a pauta elegível de maior importância ainda não usada naquele dia. Não selecionar simplesmente o primeiro conteúdo novo. Se não existir pauta forte, mídia autorizada e condições técnicas suficientes, não preencher a vaga com conteúdo fraco; registrar a janela sem publicação. Uma vaga não utilizada não autoriza ultrapassar cinco pautas em outro horário.
+- Efemérides diretamente ligadas ao canal, recalls, alertas de segurança, grandes lançamentos, resultados relevantes e mudanças urgentes de evento devem disputar prioridade com as demais pautas do dia. O radar de datas encaminha candidatos, mas somente esta automação decide e publica dentro do teto diário.
 - É proibido criar, agendar ou publicar posts de Feed, fotografias no grid ou carrosséis. A opção `Create post` do Meta Business Suite não deve ser usada.
 - O Feed existente deve ser preservado. Não excluir publicações antigas. Registros antigos com Feed são apenas histórico e não autorizam repetição.
 - Para novos registros em `output/instagram/publication-log.json`, omitir o campo de Feed ou registrar `NAO_APLICAVEL_POR_REGRA`, sem gerar arquivo ou publicação para o Feed.
@@ -350,18 +374,20 @@ Conteúdo fraco, duplicado, rumor ou texto inventado não cumpre a meta. Quando 
 ## 08h — Radar editorial e notícias
 
 - Ler a memória da execução anterior e rodar `python scripts/check_daily_targets.py`.
+- Executar a varredura geral completa da seção **Redação permanente, descoberta geral e publicação sem teto**, incluindo o radar de ontem, hoje, próximos 7 dias e visão de 45 dias. Consultar fontes conhecidas e fazer busca aberta por fontes e fatos novos.
 - Auditar data e hora locais, fuso, situação e sinais de relevância de todos os eventos, competições e rodadas. Publicar antes das pautas discricionárias qualquer matéria T+1 vencida dos itens `alta_relevancia`, além de corrigir `agendada`, `em_andamento`, `concluida`, `adiada` ou `cancelada` para todos, conforme fonte oficial.
 - Fazer a **primeira verificação obrigatória de SEO do dia** com `python scripts/update_sitemap.py --check`.
 - Conferir se o fechamento de SEO do dia anterior foi concluído: sitemap gerado depois da última publicação, enviado ao Google Search Console e URLs novas solicitadas para indexação. Se faltar qualquer etapa, corrigir, publicar e concluir usando somente `tvduasrodas@gmail.com` antes de seguir.
 - Se o sitemap estiver desatualizado, executar `python scripts/update_sitemap.py`, validar a contagem por coleção, publicar e reenviar o sitemap no Search Console.
-- Verificar de forma incremental salas de imprensa brasileiras, fabricantes, Abraciclo, recalls, CBM, CBC, áreas específicas de resultados/ranking, prestadores oficiais contratados e calendários já monitorados.
+- Verificar salas de imprensa brasileiras e internacionais, fabricantes, Abraciclo, Fenabrave, recalls, órgãos públicos, CBM, CBC, entidades internacionais, áreas específicas de resultados/ranking, prestadores oficiais contratados, calendários monitorados, redes oficiais e imprensa especializada confiável. A memória incremental serve para evitar repetição, não para reduzir a amplitude da busca.
 - Fazer descoberta ativa de eventos e competições ainda não cadastrados, seguindo a matriz de fontes; não limitar a auditoria ao acervo existente.
 - Dar prioridade a recall, segurança, lançamento brasileiro, mudança de mercado, evento próximo e resultado urgente.
-- Publicar no máximo uma atualização principal nesta janela quando houver novidade forte.
+- Publicar todas as matérias, páginas e atualizações confirmadas e relevantes encontradas nesta janela. Agrupar em lotes seguros quando isso acelerar a execução, sem criar teto numérico.
 - Não encerrar o dia nem considerar as metas cumpridas apenas porque competições não mudaram.
 
 ## 11h — TV e vídeos
 
+- Antes da seleção de vídeo, atualizar fontes urgentes da varredura geral e publicar recalls, mudanças de serviço, lançamentos, resultados ou notícias confirmadas surgidas desde as 08h. Isso é adicional ao vídeo e não o substitui.
 - Pesquisar canais oficiais e canais editoriais confiáveis sobre motos, bicicletas, scooters, elétricos, testes, manutenção, mobilidade e competições.
 - Antes da escolha, revisar os vídeos publicados desde a segunda-feira e eliminar canais e categorias já usados na semana.
 - Publicar um vídeo recente e ainda não cadastrado, obrigatoriamente com áudio em português brasileiro. Preferir os últimos 30 dias; conteúdo mais antigo só quando for especialmente útil e atual.
@@ -374,6 +400,7 @@ Conteúdo fraco, duplicado, rumor ou texto inventado não cumpre a meta. Quando 
 ## 14h — Revista e matéria própria
 
 - Rodar `python scripts/check_daily_targets.py` e verificar separadamente matéria diária, vídeo e programa da grade.
+- Atualizar fontes urgentes e a fila editorial geral antes de produzir a pauta própria. Publicar também todas as notícias, lançamentos, efemérides ou atualizações confirmadas desde a janela anterior; elas não substituem a matéria independente nem o programa.
 - Se não existir `contentType: "article"`, produzir obrigatoriamente a matéria diária, mesmo que já exista notícia ou edição de programa no dia.
 - Conferir as categorias das matérias próprias publicadas desde segunda-feira e escolher uma categoria ainda não usada na semana.
 - Quando houver programa fixo no dia, produzir também uma edição separada com `contentType: "program"`. O programa não substitui a matéria diária e a matéria diária não substitui o programa.
@@ -385,17 +412,20 @@ Conteúdo fraco, duplicado, rumor ou texto inventado não cumpre a meta. Quando 
 
 ## 17h — Competições, eventos e segunda rodada de notícias
 
+- Reexecutar integralmente a varredura geral, sem se limitar a esportes e sem teto de publicações. Revisar novamente salas de imprensa, fabricantes, mercado, recalls, segurança, mobilidade, bicicletas, elétricos, eventos, efemérides e fatos descobertos pela imprensa especializada desde as 08h.
 - Verificar resultados, pódios, pontos, liderança, etapas e calendários em todas as camadas da matriz de fontes confiáveis, incluindo PDFs, planilhas, APIs e prestadores oficiais em domínios externos.
 - Repetir a auditoria universal de data, hora local, fuso e situação, atualizar o IRT e revisar alertas de crescimento. Para itens `alta_relevancia`, repetir a auditoria de matérias T+1. Se a primeira fonte de uma abertura ou encerramento ainda não estava disponível às 08h, pesquisar novamente em toda a matriz e publicar o balanço assim que houver confirmação suficiente.
 - Atualizar páginas existentes e preservar histórico; não publicar apenas o vencedor quando a tabela oficial completa estiver disponível.
 - Verificar eventos nacionais e internacionais relevantes ao público brasileiro e cadastrar os confirmados que ainda não existam no portal.
-- Se não houver mudança esportiva, procurar notícia relevante de produto, mercado, recall, segurança, mobilidade ou ciclismo. A janela não termina apenas com “sem novidade em competições”.
+- Publicar todas as mudanças esportivas e todas as demais pautas confirmadas de produto, mercado, recall, segurança, mobilidade, ciclismo, eventos ou efemérides. A busca geral é obrigatória mesmo quando houver muitas mudanças esportivas; uma categoria não pode encerrar ou esconder as demais.
 
 ## 20h — Fechamento obrigatório e auditoria final de SEO
 
 - Rodar `python scripts/check_daily_targets.py --require-complete`.
+- Fazer a última atualização das fontes urgentes e revisar toda a fila editorial. Metas mínimas completas não encerram o dia enquanto houver pauta `publicavel` ou atualização material executável.
 - Confirmar que nenhuma obrigação T+1 vencida de item `alta_relevancia` ficou sem publicação e que todos os eventos, campeonatos, etapas e rodadas, independentemente do porte, refletem data e hora locais, fuso, situação e comunicados oficiais.
 - Se faltar matéria independente, vídeo elegível em pt-BR ou programa fixo do dia, produzir e publicar cada item pendente antes de encerrar, respeitando qualidade, fontes, diversidade e direitos.
+- Publicar também todas as demais pautas executáveis do backlog. Se um bloqueio técnico real impedir terminar o volume no mesmo horário, preservar cada item com fonte, prioridade e próximo passo para a recuperação; nunca resumir o backlog como “sem novidade”.
 - Revisar URLs novas e materialmente alteradas do dia.
 - Fazer a **auditoria final obrigatória de SEO do dia**. Verificar se cada push público já teve sitemap reenviado e, para cada URL nova, indexação solicitada imediatamente após a publicação. Corrigir qualquer lacuna encontrada.
 - Se não houve mudança no site, ainda assim executar `python scripts/update_sitemap.py --check` e registrar a validação no relatório.
