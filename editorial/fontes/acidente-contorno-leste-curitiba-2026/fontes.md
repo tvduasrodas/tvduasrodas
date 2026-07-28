@@ -19,7 +19,10 @@ As divergências de idade e a ausência de laudo público foram registradas na m
 
 ## Imagens
 
-- Capa editorial: `acidente-contorno-leste-capa-ilustracao.svg`, arte vetorial original TVDUASRODAS, 1600 × 900 px em `viewBox`. Titular: TVDUASRODAS. Crédito: `Ilustração editorial: TVDUASRODAS`.
+- Capa fotográfica: arquivo `01.webp` fornecido diretamente pelo editor à TVDUASRODAS em 28/07/2026, acompanhado de instrução expressa para uso e publicação nesta matéria. Autoria individual não informada. Crédito adotado: `Foto: arquivo fornecido pelo editor à TVDUASRODAS`.
+- Original fornecido: WebP, 960 × 720 px, 91.102 bytes. Publicação: `assets/img/uploads/acidente-contorno-leste-registro-editor.webp`, WebP, 960 × 720 px, qualidade 82, 80.736 bytes. Não houve ampliação, recorte ou alteração de proporção; a recompressão pode não preservar todos os metadados do arquivo original.
+- A legenda registra que a fotografia não permite, isoladamente, determinar a dinâmica ou a responsabilidade pelo acidente.
+- A antiga capa vetorial `acidente-contorno-leste-capa-ilustracao.svg` deixou de ser usada nesta matéria.
 - A fotografia de João Frigério/Bem Paraná foi consultada para contextualizar a ocorrência, mas não tinha licença explícita de republicação. Por isso não é usada nem publicada; a referência permanece somente como fonte factual, com o devido link no texto.
 - Simulação 3D 1: vista aérea oblíqua de uma motocicleta genérica entre dois veículos pesados. Gerada por IA para a TVDUASRODAS em 28/07/2026; PNG original de 1672 × 941 e 2.539.944 bytes; WebP publicado de 1400 × 788, qualidade 80 e 130.114 bytes.
 - Simulação 3D 2 substituída a pedido do editor: reconstrução pericial educativa em três etapas, com posição inicial translúcida, trajetória pontilhada e estreitamento do corredor entre dois caminhões. Gerada por IA para a TVDUASRODAS em 28/07/2026; PNG original de 1672 × 941 e 2.490.198 bytes; WebP publicado de 1400 × 788, qualidade 80 e 111.878 bytes.
