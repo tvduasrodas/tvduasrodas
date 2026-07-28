@@ -97,7 +97,21 @@ jobs:
           git commit -m "Automatiza atualização do Search Console"
           for attempt in 1 2 3; do
             git fetch origin main
-            git rebase origin/main
+            if ! git rebase origin/main; then
+              conflicts="$(git diff --name-only --diff-filter=U)"
+              unexpected="$(printf '%s\n' "${conflicts}" | grep -Ev '^(sitemap\.xml|news-sitemap\.xml|event-sitemap\.xml|editorial/search-console/status\.json)$' || true)"
+              if [ -n "${unexpected}" ] || [ -z "${conflicts}" ]; then
+                echo "Conflito inesperado durante a atualização automática:"
+                printf '%s\n' "${conflicts}"
+                exit 1
+              fi
+              while IFS= read -r file; do
+                [ -z "${file}" ] && continue
+                git checkout --theirs -- "${file}"
+                git add "${file}"
+              done <<< "${conflicts}"
+              GIT_EDITOR=true git rebase --continue
+            fi
             if git push origin HEAD:main; then
               exit 0
             fi
