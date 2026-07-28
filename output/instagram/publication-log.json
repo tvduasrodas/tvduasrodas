@@ -910,6 +910,16 @@
       "permalink": "https://www.instagram.com/tvduasrodasofc/reels/",
       "metaContentId": "18015534644871277",
       "publicationConfirmation": "Meta Business Suite confirmou a publicação e listou o Reel em Conteúdo > Publicado."
+    },
+    "localCleanup": {
+      "status": "EXCLUIDO_APOS_PUBLICACAO",
+      "deletedAt": "2026-07-28T17:12:33.427538-04:00",
+      "retentionHours": 24.0,
+      "folder": "output/instagram/2026-07-27/dia-do-motociclista-2026",
+      "fileCount": 67,
+      "bytesFreed": 12597701,
+      "latestPublishedAt": "2026-07-27T15:23:00-04:00",
+      "reason": "Story e Reel confirmados no Instagram há pelo menos 24 horas."
     }
   },
   {
@@ -955,9 +965,15 @@
       "imageRights": "TRES_FOTOS_OFICIAIS_COM_CREDITO_HONDA_DIVULGACAO",
       "imageAudit": "3 de 5 imagens distintas, autorizadas e verificadas; nao usar ilustracao suplementar para apresentar o produto como fotografia documental."
     },
-    "feed": { "status": "NAO_APLICAVEL_POR_REGRA" },
-    "stories": { "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES" },
-    "reel": { "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES" }
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
+    "stories": {
+      "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES"
+    },
+    "reel": {
+      "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES"
+    }
   },
   {
     "url": "https://tvduasrodas.com/materias/custo-real-da-moto-como-calcular-antes-de-comprar/",
@@ -968,9 +984,15 @@
       "imageRights": "TRES_ARTES_VETORIAIS_AUTORAIS_TVDUASRODAS",
       "imageAudit": "3 de 5 imagens distintas, autorizadas e verificadas; nao criar uma dupla social incompleta."
     },
-    "feed": { "status": "NAO_APLICAVEL_POR_REGRA" },
-    "stories": { "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES" },
-    "reel": { "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES" }
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
+    "stories": {
+      "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES"
+    },
+    "reel": {
+      "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES"
+    }
   },
   {
     "url": "https://tvduasrodas.com/materias/acidente-contorno-leste-curitiba-moto-caminhao-o-que-aprender/",
@@ -981,8 +1003,14 @@
       "imageRights": "FOTO_DE_TERCEIRO_SEM_LICENCA_EXPRESSA_E_DUAS_SIMULACOES_EDUCATIVAS_AUTORAIS",
       "ethics": "Nao elegivel para social: preservacao da vitima e ausencia de cinco imagens licenciadas e distintas."
     },
-    "feed": { "status": "NAO_APLICAVEL_POR_REGRA" },
-    "stories": { "status": "NAO_ELEGIVEL_DIREITOS_E_ETICA" },
-    "reel": { "status": "NAO_ELEGIVEL_DIREITOS_E_ETICA" }
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
+    "stories": {
+      "status": "NAO_ELEGIVEL_DIREITOS_E_ETICA"
+    },
+    "reel": {
+      "status": "NAO_ELEGIVEL_DIREITOS_E_ETICA"
+    }
   }
 ]
