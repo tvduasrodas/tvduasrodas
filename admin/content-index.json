@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "total": 718,
+  "total": 719,
   "counts": {
     "Competição": 20,
     "Configuração da home": 2,
@@ -10,7 +10,7 @@
     "Matéria": 36,
     "Matéria do acervo": 4,
     "Página fixa": 2,
-    "Vídeo": 24
+    "Vídeo": 25
   },
   "entries": [
     {
@@ -8062,6 +8062,20 @@
       "url": "/eventos/motoshow-2026-tres-lagoas-ms-2026-07-31/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#motoshow-2026-tres-lagoas-ms-2026-07-31"
+    },
+    {
+      "title": "Move Brasil 2026: vídeo mostra quais motos Honda participam",
+      "type": "Vídeo",
+      "slug": "move-brasil-2026-motos-honda-participantes",
+      "date": "2026-07-28T11:20:00-04:00",
+      "category": "lancamentos",
+      "city": "",
+      "state": "",
+      "status": "",
+      "summary": "",
+      "url": "/videos/move-brasil-2026-motos-honda-participantes/",
+      "edit_url": "/admin/#/collections/videos/entries/move-brasil-2026-motos-honda-participantes",
+      "source": "content/videos/move-brasil-2026-motos-honda-participantes.md"
     },
     {
       "title": "Mundicas",
