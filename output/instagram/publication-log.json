@@ -795,6 +795,16 @@
       "publishedAt": "2026-07-27T12:12:00-04:00",
       "permalink": "https://www.instagram.com/tvduasrodasofc/reels/",
       "publicationConfirmation": "Meta Business Suite aprovou a verificacao de direitos e exibiu a confirmacao de publicacao do Reel."
+    },
+    "localCleanup": {
+      "status": "EXCLUIDO_APOS_PUBLICACAO",
+      "deletedAt": "2026-07-28T14:33:32.056603-04:00",
+      "retentionHours": 24.0,
+      "folder": "output/instagram/2026-07-27/motos-hibridas-motodiario",
+      "fileCount": 51,
+      "bytesFreed": 28603331,
+      "latestPublishedAt": "2026-07-27T12:14:00-04:00",
+      "reason": "Story e Reel confirmados no Instagram há pelo menos 24 horas."
     }
   },
   {
@@ -807,8 +817,12 @@
       "validatedAt": "2026-07-27T14:32:06-04:00",
       "imageRights": "CAPA_EDITORIAL_AUTORAL_E_DOIS_INFOGRAFICOS_ORIGINAIS; TRES_IMAGENS_DISTINTAS"
     },
-    "feed": { "status": "NAO_APLICAVEL_POR_REGRA" },
-    "stories": { "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES" },
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
+    "stories": {
+      "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES"
+    },
     "reel": {
       "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES",
       "imageAudit": "3 de 5 imagens distintas, autorizadas e verificadas; publicação bloqueada sem duplicar ou reciclar imagens."
@@ -824,8 +838,12 @@
       "validatedAt": "2026-07-27T14:32:06-04:00",
       "imageRights": "DOIS_INFOGRAFICOS_EDITORIAIS; NAO_HA_CINCO_FOTOS_REAIS_AUTORIZADAS_DA_EDICAO_2026"
     },
-    "feed": { "status": "NAO_APLICAVEL_POR_REGRA" },
-    "stories": { "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES" },
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
+    "stories": {
+      "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES"
+    },
     "reel": {
       "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES",
       "imageAudit": "2 de 5 imagens distintas disponíveis; para atualização de competição, faltam cinco fotos reais da edição, com crédito e autorização editorial."
@@ -841,8 +859,12 @@
       "validatedAt": "2026-07-27T14:32:06-04:00",
       "imageRights": "CAPA_EDITORIAL_AUTORAL_E_DOIS_INFOGRAFICOS_ORIGINAIS; TRES_IMAGENS_DISTINTAS"
     },
-    "feed": { "status": "NAO_APLICAVEL_POR_REGRA" },
-    "stories": { "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES" },
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
+    "stories": {
+      "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES"
+    },
     "reel": {
       "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES",
       "imageAudit": "3 de 5 imagens distintas, autorizadas e verificadas; publicação bloqueada sem duplicar ou reciclar imagens."
@@ -901,7 +923,9 @@
       "audio": "pt-BR declarado no frontmatter",
       "imageRights": "cinco ilustrações editoriais originais por IA, sem marcas, modelos específicos ou alegação documental"
     },
-    "feed": { "status": "NAO_APLICAVEL_POR_REGRA" },
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
     "stories": {
       "asset": "output/instagram/2026-07-28/move-brasil-2026-motos-honda/story.mp4",
       "poster": "output/instagram/2026-07-28/move-brasil-2026-motos-honda/story-poster.jpg",
@@ -920,5 +944,45 @@
       "publicationConfirmation": "Publicado no compositor oficial da Meta para @tvduasrodasofc; a área de conteúdo retornou à lista de publicações após o envio.",
       "format": "1080x1920, H.264/AAC, 19,25 segundos"
     }
+  },
+  {
+    "url": "https://tvduasrodas.com/materias/honda-gold-wing-50-anos-chega-ao-brasil-2026/",
+    "type": "news",
+    "title": "Honda Gold Wing 50 anos chega ao Brasil por R$ 304.450",
+    "detectedAt": "2026-07-28T14:33:06-04:00",
+    "validation": {
+      "source": "Honda Sala de Imprensa",
+      "imageRights": "TRES_FOTOS_OFICIAIS_COM_CREDITO_HONDA_DIVULGACAO",
+      "imageAudit": "3 de 5 imagens distintas, autorizadas e verificadas; nao usar ilustracao suplementar para apresentar o produto como fotografia documental."
+    },
+    "feed": { "status": "NAO_APLICAVEL_POR_REGRA" },
+    "stories": { "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES" },
+    "reel": { "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES" }
+  },
+  {
+    "url": "https://tvduasrodas.com/materias/custo-real-da-moto-como-calcular-antes-de-comprar/",
+    "type": "article",
+    "title": "Custo real da moto: como calcular antes de comprar",
+    "detectedAt": "2026-07-28T14:33:06-04:00",
+    "validation": {
+      "imageRights": "TRES_ARTES_VETORIAIS_AUTORAIS_TVDUASRODAS",
+      "imageAudit": "3 de 5 imagens distintas, autorizadas e verificadas; nao criar uma dupla social incompleta."
+    },
+    "feed": { "status": "NAO_APLICAVEL_POR_REGRA" },
+    "stories": { "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES" },
+    "reel": { "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES" }
+  },
+  {
+    "url": "https://tvduasrodas.com/materias/acidente-contorno-leste-curitiba-moto-caminhao-o-que-aprender/",
+    "type": "news",
+    "title": "Acidente no Contorno Leste mata motociclista: o que se sabe e como reduzir o risco",
+    "detectedAt": "2026-07-28T14:33:06-04:00",
+    "validation": {
+      "imageRights": "FOTO_DE_TERCEIRO_SEM_LICENCA_EXPRESSA_E_DUAS_SIMULACOES_EDUCATIVAS_AUTORAIS",
+      "ethics": "Nao elegivel para social: preservacao da vitima e ausencia de cinco imagens licenciadas e distintas."
+    },
+    "feed": { "status": "NAO_APLICAVEL_POR_REGRA" },
+    "stories": { "status": "NAO_ELEGIVEL_DIREITOS_E_ETICA" },
+    "reel": { "status": "NAO_ELEGIVEL_DIREITOS_E_ETICA" }
   }
 ]
