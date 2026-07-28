@@ -798,6 +798,20 @@
       "source": "content/events/agenda-comunitaria-2026.json#22-anos-mantra-mc-sao-joao-da-boa-vista-sp-2026-08-14"
     },
     {
+      "title": "22 anos do Mantra MC — Encontro de Motociclistas e Triciclistas",
+      "type": "Evento da agenda",
+      "slug": "mantra-mc-sao-joao-da-boa-vista-sp-2026-08-14",
+      "date": "2026-08-14",
+      "category": "Encontro de moto clube",
+      "city": "São João da Boa Vista",
+      "state": "SP",
+      "status": "agendada",
+      "summary": "O Mantra MC celebra 22 anos com encontro de motociclistas e triciclistas de 14 a 16 de agosto de 2026, no Recinto de Exposições (EAPIC), em São João da Boa Vista (SP).",
+      "url": "/eventos/mantra-mc-sao-joao-da-boa-vista-sp-2026-08-14/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#mantra-mc-sao-joao-da-boa-vista-sp-2026-08-14"
+    },
+    {
       "title": "23º Motoshow de Três Lagoas",
       "type": "Evento da agenda",
       "slug": "motoshow-tres-lagoas-ms-2026-07-31",
@@ -6102,20 +6116,6 @@
       "url": "/eventos/majestade-mc-cruzeiro-sp-2026-08-01/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#majestade-mc-cruzeiro-sp-2026-08-01"
-    },
-    {
-      "title": "Mantra MC",
-      "type": "Evento da agenda",
-      "slug": "mantra-mc-sao-joao-da-boa-vista-sp-2026-08-14",
-      "date": "2026-08-14",
-      "category": "Encontro de moto clube",
-      "city": "Sao Joao da Boa Vista",
-      "state": "SP",
-      "status": "agendada",
-      "summary": "Encontro de moto clube em Sao Joao da Boa Vista/SP, com data divulgada para 2026-08-14. O flyer foi inspecionado localmente; serviços identificados: área de camping.",
-      "url": "/eventos/mantra-mc-sao-joao-da-boa-vista-sp-2026-08-14/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#mantra-mc-sao-joao-da-boa-vista-sp-2026-08-14"
     },
     {
       "title": "Manutenção de bicicleta: sete apertos em que a peça gira, não a ferramenta",
