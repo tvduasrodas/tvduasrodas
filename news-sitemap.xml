@@ -66,26 +66,4 @@
       <news:title>Bicicleta na rua: posição segura, portas e visibilidade no trânsito</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://tvduasrodas.com/materias/estrada-aberta-25-07-2026-ritmo-planejamento/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>TVDUASRODAS</news:name>
-        <news:language>pt</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25T18:20:00-04:00</news:publication_date>
-      <news:title>Estrada Aberta — edição de 25/07/2026: ritmo para viajar com margem</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://tvduasrodas.com/materias/parada-segura-moto-viagem-como-planejar/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>TVDUASRODAS</news:name>
-        <news:language>pt</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-25T18:10:00-04:00</news:publication_date>
-      <news:title>Parada segura na viagem de moto: como planejar sem improviso</news:title>
-    </news:news>
-  </url>
 </urlset>
