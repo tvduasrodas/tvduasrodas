@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "total": 721,
+  "total": 722,
   "counts": {
     "Competição": 20,
     "Configuração da home": 2,
     "Etapa esportiva": 62,
     "Evento": 11,
     "Evento da agenda": 557,
-    "Matéria": 38,
+    "Matéria": 39,
     "Matéria do acervo": 4,
     "Página fixa": 2,
     "Vídeo": 25
@@ -3946,6 +3946,20 @@
       "url": "/eventos/cruz-de-ferro-mc-marica-rj-2026-08-23/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#cruz-de-ferro-mc-marica-rj-2026-08-23"
+    },
+    {
+      "title": "Custo real da moto: como calcular antes de comprar",
+      "type": "Matéria",
+      "slug": "custo-real-da-moto-como-calcular-antes-de-comprar",
+      "date": "2026-07-28T14:15:00-04:00",
+      "category": "Outro",
+      "city": "",
+      "state": "",
+      "status": "",
+      "summary": "Prestação, combustível, manutenção, documentos, seguro e depreciação formam o custo real de uma motocicleta. Veja como montar uma conta mensal comparável.",
+      "url": "/materias/custo-real-da-moto-como-calcular-antes-de-comprar/",
+      "edit_url": "/admin/#/collections/news/entries/custo-real-da-moto-como-calcular-antes-de-comprar",
+      "source": "content/news/custo-real-da-moto-como-calcular-antes-de-comprar.md"
     },
     {
       "title": "Dafra Apache LTR",

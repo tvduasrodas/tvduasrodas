@@ -35,7 +35,7 @@ collections:
       - { label: "Data de publicação", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ssZ" }
       - { label: "URL do YouTube", name: "youtube_url", widget: "string", hint: "Cole aqui o link completo do vídeo no YouTube" }
       - { label: "Canal do YouTube", name: "channel", widget: "string", hint: "Nome exato do canal de origem; não repetir o mesmo canal na mesma semana." }
-      - { label: "Idioma do áudio", name: "language", widget: "select", options: [{label: "Português brasileiro", value: "pt-BR"}], default: "pt-BR", hint: "A meta diária da TV aceita somente vídeo com áudio em português brasileiro." }
+      - { label: "Idioma do áudio", name: "language", widget: "select", options: [{label: "Português brasileiro", value: "pt-BR"}], default: "pt-BR", hint: "Identifique corretamente o áudio; não há piso diário de vídeos." }
       - { label: "Duração (opcional)", name: "duration", widget: "string", required: false, hint: "Ex: 12:34" }
       - label: "Categoria"
         name: "category"
@@ -99,7 +99,7 @@ collections:
           - { label: "Notícia", value: "news" }
           - { label: "Edição de programa", value: "program" }
         default: "article"
-        hint: "Programas não contam como matéria diária. Notícias podem repetir categoria; matérias próprias não podem repetir categoria na mesma semana."
+        hint: "Use o tipo editorial correto. Notícias podem repetir categoria; matérias próprias devem preservar diversidade semanal."
       - { label: "Categoria", name: "category", widget: "select", options: [{label: "Motos", value: "Moto"}, {label: "Lançamentos", value: "Lancamentos"}, {label: "Testes", value: "tests"}, {label: "Bikes", value: "bikes"}, {label: "Eventos", value: "Eventos"}, {label: "Urbanização e mobilidade", value: "Urbanizacao"}, {label: "Urbano", value: "Urbano"}, {label: "Dicas", value: "Dicas"}, {label: "Dicas e manutenção", value: "Dicas e Manutenção"}, {label: "Segurança", value: "Seguranca"}, {label: "Tecnologia", value: "Tecnologia"}, {label: "Outro", value: "Outro"}], default: "Moto" }
       - { label: "Categoria publicitária", name: "ad_category", widget: "select", required: false, options: [{label: "Automática pelo conteúdo", value: ""}, {label: "Motos", value: "motos"}, {label: "Bicicletas", value: "bicicletas"}, {label: "Scooters", value: "scooters"}, {label: "Elétricos", value: "eletricos"}, {label: "Mobilidade", value: "mobilidade"}, {label: "Tecnologia", value: "tecnologia"}, {label: "Competições", value: "competicoes"}, {label: "Eventos", value: "eventos"}, {label: "Geral", value: "geral"}], default: "", hint: "Controla os anúncios da matéria ou programa; Automática usa título, categoria, programa, tags e texto." }
       - label: "Programa da Revista"
@@ -113,7 +113,7 @@ collections:
           - { label: "Estrada Aberta", value: "estrada-aberta" }
           - { label: "Garage Tech", value: "garage-tech" }
           - { label: "Electric Zone", value: "electric-zone" }
-        hint: "Selecione somente quando Tipo de publicação for Edição de programa. A edição não substitui a matéria diária."
+        hint: "Selecione somente quando Tipo de publicação for Edição de programa."
       - { label: "Nome do programa", name: "programLabel", widget: "string", required: false, hint: "Ex.: Electric Zone" }
       - { label: "Duração editorial", name: "episodeDuration", widget: "string", required: false, default: "45 min" }
       - { label: "Tempo de leitura", name: "readingTime", widget: "string", required: false, hint: "Ex.: 14 min" }

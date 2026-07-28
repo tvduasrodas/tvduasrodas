@@ -32,7 +32,11 @@ def frontmatter(path: Path) -> dict[str, str]:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--require-daily", action="store_true")
+    parser.add_argument(
+        "--require-daily",
+        action="store_true",
+        help="compatibilidade: inclui o relatório diário, sem impor piso de publicações",
+    )
     args = parser.parse_args()
     errors: list[str] = []
     warnings: list[str] = []
@@ -538,7 +542,7 @@ def main() -> int:
         [sys.executable, "scripts/audit_ptbr.py"],
     ]
     if args.require_daily:
-        checks.append([sys.executable, "scripts/check_daily_targets.py", "--require-complete"])
+        checks.append([sys.executable, "scripts/check_daily_targets.py"])
     for command in checks:
         result = subprocess.run(command, cwd=ROOT, text=True, capture_output=True)
         if result.returncode:

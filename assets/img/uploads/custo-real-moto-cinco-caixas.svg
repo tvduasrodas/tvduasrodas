@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Os cinco grupos do custo real da moto</title>
+  <desc id="desc">Diagrama com cinco grupos: aquisição, combustível e uso, manutenção, seguro e proteção, documentos e estrutura.</desc>
+  <rect width="1400" height="900" fill="#f3f6f7"/>
+  <text x="700" y="90" text-anchor="middle" fill="#0b2639" font-family="Arial, sans-serif" font-size="48" font-weight="800">A CONTA COMPLETA</text>
+  <text x="700" y="140" text-anchor="middle" fill="#496675" font-family="Arial, sans-serif" font-size="26">Cinco caixas, uma mesma base mensal</text>
+  <g font-family="Arial, sans-serif">
+    <g transform="translate(90 215)">
+      <rect width="370" height="220" rx="28" fill="#0b344d"/>
+      <circle cx="70" cy="67" r="34" fill="#ffcf33"/><text x="70" y="78" text-anchor="middle" fill="#0b344d" font-size="32" font-weight="800">1</text>
+      <text x="125" y="61" fill="#ffffff" font-size="31" font-weight="800">AQUISIÇÃO</text>
+      <text x="125" y="100" fill="#bee2eb" font-size="22">à vista ou CET</text>
+      <text x="38" y="158" fill="#ffffff" font-size="22">Entrada • parcelas • acessórios</text>
+      <text x="38" y="193" fill="#ffffff" font-size="22">necessários para o uso</text>
+    </g>
+    <g transform="translate(515 215)">
+      <rect width="370" height="220" rx="28" fill="#12627a"/>
+      <circle cx="70" cy="67" r="34" fill="#ffcf33"/><text x="70" y="78" text-anchor="middle" fill="#0b344d" font-size="32" font-weight="800">2</text>
+      <text x="125" y="61" fill="#ffffff" font-size="29" font-weight="800">USO</text>
+      <text x="125" y="100" fill="#d4f0f5" font-size="22">quilômetros e rotina</text>
+      <text x="38" y="158" fill="#ffffff" font-size="22">Combustível • estacionamento</text>
+      <text x="38" y="193" fill="#ffffff" font-size="22">pedágios • deslocamentos</text>
+    </g>
+    <g transform="translate(940 215)">
+      <rect width="370" height="220" rx="28" fill="#0b344d"/>
+      <circle cx="70" cy="67" r="34" fill="#ffcf33"/><text x="70" y="78" text-anchor="middle" fill="#0b344d" font-size="32" font-weight="800">3</text>
+      <text x="125" y="61" fill="#ffffff" font-size="29" font-weight="800">MANUTENÇÃO</text>
+      <text x="125" y="100" fill="#bee2eb" font-size="22">reserva periódica</text>
+      <text x="38" y="158" fill="#ffffff" font-size="22">Revisões • pneus • desgaste</text>
+      <text x="38" y="193" fill="#ffffff" font-size="22">imprevistos mecânicos</text>
+    </g>
+    <g transform="translate(300 500)">
+      <rect width="370" height="220" rx="28" fill="#12627a"/>
+      <circle cx="70" cy="67" r="34" fill="#ffcf33"/><text x="70" y="78" text-anchor="middle" fill="#0b344d" font-size="32" font-weight="800">4</text>
+      <text x="125" y="61" fill="#ffffff" font-size="28" font-weight="800">PROTEÇÃO</text>
+      <text x="125" y="100" fill="#d4f0f5" font-size="22">cobertura comparável</text>
+      <text x="38" y="158" fill="#ffffff" font-size="22">Seguro • franquia • rastreador</text>
+      <text x="38" y="193" fill="#ffffff" font-size="22">assistência e terceiros</text>
+    </g>
+    <g transform="translate(730 500)">
+      <rect width="370" height="220" rx="28" fill="#0b344d"/>
+      <circle cx="70" cy="67" r="34" fill="#ffcf33"/><text x="70" y="78" text-anchor="middle" fill="#0b344d" font-size="32" font-weight="800">5</text>
+      <text x="125" y="61" fill="#ffffff" font-size="27" font-weight="800">OBRIGAÇÕES</text>
+      <text x="125" y="100" fill="#bee2eb" font-size="22">regras do seu estado</text>
+      <text x="38" y="158" fill="#ffffff" font-size="22">IPVA • licenciamento</text>
+      <text x="38" y="193" fill="#ffffff" font-size="22">documentos e taxas aplicáveis</text>
+    </g>
+  </g>
+  <rect x="385" y="785" width="630" height="70" rx="35" fill="#ff9e2c"/>
+  <text x="700" y="830" text-anchor="middle" fill="#10283b" font-family="Arial, sans-serif" font-size="28" font-weight="800">CONVERTA TUDO PARA R$/MÊS</text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-labelledby="title desc">
+  <title id="title">Modelo de planilha mensal para o custo da moto</title>
+  <desc id="desc">Tabela ilustrativa com colunas para origem do valor, período, conversão mensal e cenários baixo, provável e alto.</desc>
+  <rect width="1400" height="900" fill="#071b2d"/>
+  <text x="90" y="95" fill="#ffffff" font-family="Arial, sans-serif" font-size="48" font-weight="800">DA COTAÇÃO AO CUSTO MENSAL</text>
+  <text x="90" y="145" fill="#9eddec" font-family="Arial, sans-serif" font-size="25">Registre a fonte, a data e três cenários</text>
+  <g transform="translate(90 205)" font-family="Arial, sans-serif">
+    <rect width="1220" height="525" rx="24" fill="#ffffff"/>
+    <path d="M0 92h1220M0 178h1220M0 264h1220M0 350h1220M0 436h1220M410 0v525M660 0v525M860 0v525M1040 0v525" stroke="#cbd9df" stroke-width="3"/>
+    <rect width="1220" height="92" rx="24" fill="#12627a"/>
+    <rect y="68" width="1220" height="24" fill="#12627a"/>
+    <text x="30" y="57" fill="#ffffff" font-size="25" font-weight="800">ITEM / FONTE</text>
+    <text x="535" y="57" text-anchor="middle" fill="#ffffff" font-size="25" font-weight="800">PERÍODO</text>
+    <text x="760" y="57" text-anchor="middle" fill="#ffffff" font-size="25" font-weight="800">R$/MÊS</text>
+    <text x="950" y="57" text-anchor="middle" fill="#ffffff" font-size="22" font-weight="800">BAIXO</text>
+    <text x="1130" y="57" text-anchor="middle" fill="#ffffff" font-size="22" font-weight="800">ALTO</text>
+    <g fill="#16394b" font-size="23">
+      <text x="30" y="145">Financiamento / proposta</text><text x="535" y="145" text-anchor="middle">mensal</text><text x="760" y="145" text-anchor="middle">parcela</text>
+      <text x="30" y="231">Combustível / ANP + rota</text><text x="535" y="231" text-anchor="middle">mensal</text><text x="760" y="231" text-anchor="middle">km ÷ km/l × R$/l</text>
+      <text x="30" y="317">Seguro / cotação equivalente</text><text x="535" y="317" text-anchor="middle">anual</text><text x="760" y="317" text-anchor="middle">valor ÷ 12</text>
+      <text x="30" y="403">Revisões / manual + oficina</text><text x="535" y="403" text-anchor="middle">12–24 meses</text><text x="760" y="403" text-anchor="middle">total ÷ meses</text>
+      <text x="30" y="489">Documentos / Detran + Fazenda</text><text x="535" y="489" text-anchor="middle">anual</text><text x="760" y="489" text-anchor="middle">total ÷ 12</text>
+    </g>
+    <g fill="#ffcf33">
+      <circle cx="950" cy="135" r="12"/><circle cx="950" cy="221" r="12"/><circle cx="950" cy="307" r="12"/><circle cx="950" cy="393" r="12"/><circle cx="950" cy="479" r="12"/>
+    </g>
+    <g fill="#ff7a28">
+      <circle cx="1130" cy="135" r="12"/><circle cx="1130" cy="221" r="12"/><circle cx="1130" cy="307" r="12"/><circle cx="1130" cy="393" r="12"/><circle cx="1130" cy="479" r="12"/>
+    </g>
+  </g>
+  <rect x="210" y="775" width="980" height="70" rx="35" fill="#ffcf33"/>
+  <text x="700" y="820" text-anchor="middle" fill="#10283b" font-family="Arial, sans-serif" font-size="27" font-weight="800">SE O CENÁRIO PROVÁVEL NÃO CABE, A MOTO AINDA NÃO CABE</text>
+</svg>

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Report whether the daily Revista, program and TV targets were met."""
+"""Report the day's editorial mix without imposing a publication floor."""
 
 from __future__ import annotations
 
@@ -53,7 +53,7 @@ def main() -> int:
     parser.add_argument(
         "--require-complete",
         action="store_true",
-        help="exit with status 1 when any mandatory daily target is missing",
+        help="compatibility option; publication counts no longer fail the audit",
     )
     args = parser.parse_args()
 
@@ -91,32 +91,28 @@ def main() -> int:
     video_category_duplicates = duplicates(weekly_ptbr_videos, "category")
     video_channel_duplicates = duplicates(weekly_ptbr_videos, "channel")
 
-    article_ok = bool(articles) and not article_category_duplicates
-    video_ok = bool(ptbr_videos) and not video_category_duplicates and not video_channel_duplicates
-    program_ok = not scheduled_program or bool(programs)
-    complete = article_ok and video_ok and program_ok
-
-    names = lambda items: ", ".join(item["slug"] for item in items) if items else "PENDENTE"
+    names = lambda items: ", ".join(item["slug"] for item in items) if items else "nenhum"
     print(f"Data Eastern: {today_text}")
     print(f"Semana editorial: {week_start.isoformat()} a {week_end.isoformat()}")
-    print(f"Matéria diária: {len(articles)} — {names(articles)}")
+    print("Regra de volume: sem piso diário; publicar somente conteúdo confirmado, relevante e executável")
+    print(f"Matérias independentes hoje: {len(articles)} — {names(articles)}")
     print(f"Notícias adicionais: {len(news_updates)} — {names(news_updates) if news_updates else 'nenhuma'}")
     if scheduled_program:
-        print(f"Programa obrigatório: {scheduled_program} — {names(programs)}")
+        print(f"Programa previsto na grade: {scheduled_program} — {names(programs)}")
     else:
-        print("Programa obrigatório: não há programa fixo hoje")
+        print("Programa previsto na grade: não há programa fixo hoje")
     print(f"TV em pt-BR: {len(ptbr_videos)} — {names(ptbr_videos)}")
     if today_videos and not ptbr_videos:
-        print("AVISO: vídeo em outro idioma não cumpre a meta diária da TV")
+        print("AVISO: os vídeos de hoje não têm áudio em pt-BR")
     if article_category_duplicates:
-        print("PENDÊNCIA: categoria de matéria repetida na semana: " + ", ".join(article_category_duplicates))
+        print("AVISO DE DIVERSIDADE: categoria de matéria repetida na semana: " + ", ".join(article_category_duplicates))
     if video_category_duplicates:
-        print("PENDÊNCIA: categoria de vídeo repetida na semana: " + ", ".join(video_category_duplicates))
+        print("AVISO DE DIVERSIDADE: categoria de vídeo repetida na semana: " + ", ".join(video_category_duplicates))
     if video_channel_duplicates:
-        print("PENDÊNCIA: canal de vídeo repetido na semana: " + ", ".join(video_channel_duplicates))
-    print(f"Meta diária: {'CUMPRIDA' if complete else 'PENDENTE'}")
+        print("AVISO DE DIVERSIDADE: canal de vídeo repetido na semana: " + ", ".join(video_channel_duplicates))
+    print("Auditoria de volume: concluída, sem piso e sem pendência por quantidade")
 
-    return 1 if args.require_complete and not complete else 0
+    return 0
 
 
 if __name__ == "__main__":

@@ -60,7 +60,7 @@ Existem cinco configurações ativas vinculadas ao projeto `TVDUASRODAS`, organi
 - Em cada horário de recuperação, perguntar operacionalmente: `Existe alguma pendência vencida e executável nas automações editorial ou de Instagram?` A resposta deve vir de uma auditoria real do repositório, das páginas públicas, dos registros de publicação, dos estados de eventos e competições, da matriz de fontes confiáveis e das execuções anteriores; nunca de suposição.
 - Conferir se a janela imediatamente anterior foi iniciada, se publicou tudo que era obrigatório e se chegou a commit, push, validação pública, sitemap, Search Console e registro final. Para Instagram, conferir Story e Reel separadamente e nunca exigir Feed.
 - Detectar também pendências antigas ainda abertas, incluindo estados `FALHA`, `PENDENTE`, `NAO_ELEGIVEL_URL_INDISPONIVEL` que possam ter mudado, arquivos locais sem commit, branch à frente do remoto, URL já pública sem SEO concluído, evento com situação incompatível com a data e cobertura T+1 vencida.
-- Auditar a fila editorial geral, inclusive notícias, lançamentos, recalls, efemérides, eventos e resultados descobertos e ainda não concluídos. Toda pauta `publicavel` vencida é pendência executável, mesmo quando as metas mínimas do dia já tiverem sido cumpridas.
+- Auditar a fila editorial geral, inclusive notícias, lançamentos, recalls, efemérides, eventos e resultados descobertos e ainda não concluídos. Toda pauta `publicavel` vencida é pendência executável, independentemente da quantidade já publicada no dia.
 - Para o Instagram, conferir a fila e o total de pautas do dia antes de recuperar. Concluir formatos faltantes de uma pauta já contabilizada, mas nunca publicar uma sexta pauta ou mais de uma pauta nova na mesma janela.
 - Quando houver ação executável, a automação de recuperação assume imediatamente a autorização permanente de Wesley para pesquisar, editar, gerar mídia, publicar no portal, publicar Story e Reel, usar as sessões autenticadas, solicitar indexação, fazer commit e enviar para `origin/main`. Não pedir novamente autorização para essas ações previstas.
 - A recuperação deve reexecutar somente a parte faltante e preservar idempotência. Antes de criar ou publicar, consultar URLs, slugs e `output/instagram/publication-log.json` para não repetir matéria, Story ou Reel já confirmado.
@@ -138,20 +138,17 @@ Definir `relevance_trend` como `subindo`, `estavel` ou `caindo`. Um aumento fort
 - Ao promover um item durante ou logo após sua realização, recuperar a cobertura T+1 ainda editorialmente válida. Se o prazo já tiver perdido atualidade, produzir balanço contextual apenas quando houver valor jornalístico real.
 - Mudança de data, hora, local, situação ou resultado estrutural nunca depende da classificação: deve ser atualizada para todos.
 
-## Metas editoriais mínimas do dia
+## Operação editorial do dia — sem piso de publicações
 
 Antes de escolher ou classificar qualquer pauta, calcular novamente a data e o dia da semana em `America/New_York`. Não reutilizar o dia da semana registrado por uma execução anterior. Declarar no resumo da janela o dia calculado e o programa correspondente. Se uma urgência editorial substituir a grade fixa, registrar explicitamente a exceção e o motivo.
 
-As metas abaixo são **pisos de produção, nunca tetos**. Não existe limite numérico diário ou por janela para matérias, notícias, eventos, competições, resultados, calendários, lançamentos, recalls, páginas novas, correções ou atualizações do portal. Encontrar uma publicação que cumpra a meta mínima não encerra a pesquisa e não autoriza ignorar outras pautas confirmadas.
+Não existe piso nem teto numérico diário ou por janela para matérias, notícias, vídeos, programas, eventos, competições, resultados, calendários, lançamentos, recalls, páginas novas, correções ou atualizações. A ausência de publicação em qualquer coleção não cria pendência por quantidade e nunca autoriza conteúdo fraco, repetido ou artificial para preencher grade.
 
-Até o encerramento das 20h (horário Eastern), o worker deve entregar:
+O worker deve publicar tudo que estiver confirmado, relevante e executável, inclusive atualizações estruturais de competições e eventos encontradas na matriz de fontes confiáveis. Prioridade, atualidade, qualidade, direitos de imagem, diversidade e valor ao leitor decidem a fila; contagem não decide.
 
-1. Pelo menos **uma matéria nova e independente para a Revista**, com `contentType: "article"`. Matéria própria, notícia e edição de programa são tipos diferentes; notícia e programa não substituem esta meta.
-2. Nos dias da grade fixa, **uma nova edição do programa correspondente**, com `contentType: "program"`, além da matéria diária. A edição deve ser identificada como a edição daquela semana e nunca pode ser contada como matéria diária.
-3. Pelo menos **um vídeo novo para a TV com áudio em português brasileiro**, incorporado do YouTube, confiável, não duplicado e classificado na categoria correta. Vídeo em inglês, espanhol ou outro idioma não cumpre a meta, mesmo quando título e descrição estiverem traduzidos.
-4. Diversificar a TV durante a semana: não repetir categoria de vídeo nem canal de origem na mesma semana editorial, salvo transmissão ou atualização oficial urgente, com exceção explicada no relatório. Alternar testes, competições, cross, eventos, urbano, lançamentos, dicas, tecnologia, viagem, história, customização, entretenimento e outras categorias pertinentes.
-5. Todas as **atualizações estruturais de competições e eventos** encontradas na matriz obrigatória de fontes confiáveis, sem exceção de porte: data e hora locais, fuso, situação, resultados, classificação, liderança, calendário ou informação de serviço. Matérias T+1 obedecem à classificação dinâmica de relevância.
-6. **SEO, sitemap, publicação, validação pública e Google Search Console imediatamente após cada lote publicado**, sem esperar o fechamento das 20h.
+`scripts/check_daily_targets.py` permanece apenas como relatório da mistura editorial do dia e da semana. As opções legadas `--require-complete` e `--require-daily` são compatíveis, mas não podem falhar nem declarar pendência pela ausência de matéria, vídeo ou programa.
+
+Quando houver lote publicado, concluir **SEO, sitemap, publicação, validação pública e Google Search Console imediatamente**, sem esperar o fechamento das 20h.
 
 ## Redação permanente, descoberta geral e publicação sem teto
 
@@ -185,7 +182,7 @@ Até o encerramento das 20h (horário Eastern), o worker deve entregar:
 - Toda matéria própria deve usar `contentType: "article"` e uma categoria ainda não usada por outra matéria própria na mesma semana, de segunda a domingo.
 - Se uma matéria própria da categoria Cross já foi publicada naquela semana, a próxima matéria própria deve usar outra categoria.
 - Notícias factuais usam `contentType: "news"` e podem repetir categoria quando houver novidade real, desdobramento ou atualização verificável.
-- Edições de programa usam `contentType: "program"` e não participam da contagem da matéria diária nem da rotação de categorias das matérias próprias.
+- Edições de programa usam `contentType: "program"` e não participam da rotação de categorias das matérias próprias.
 - Notícia cujo conteúdo principal seja agenda, serviço ou programação deve ir para Eventos. Resultado, classificação, etapa, liderança ou calendário esportivo deve atualizar Competições. Só publicar também na Revista quando existir uma reportagem editorial própria, com contexto e valor além da atualização estrutural.
 
 ## Diversidade temática obrigatória e proibição de repetição editorial
@@ -372,7 +369,7 @@ A auditoria das 20h é uma camada adicional de segurança para localizar qualque
 
 ## Grade fixa dos programas da Revista
 
-Os programas funcionam como edições especiais em texto e fotos, publicadas separadamente da matéria diária. A grade deve ser cumprida sempre que o dia corresponder:
+Os programas funcionam como edições especiais em texto e fotos. A grade indica o melhor dia editorial de cada série, mas não cria piso de publicação nem exige produzir uma edição sem pauta forte:
 
 - **Rolê de Rua:** segundas e quintas — mobilidade, vida urbana, personagens, rotas curtas, scooters, motos e bicicletas na cidade.
 - **Garage Tech:** quartas — mecânica, manutenção, componentes, ferramentas e tecnologia explicada.
@@ -407,11 +404,11 @@ O card do programa é parte obrigatória da publicação. Na Revista, a edição
 
 São insuficientes e devem ser refeitas antes da publicação: listas superficiais, pautas sustentadas apenas por “dicas de segurança”, textos que apenas definem o componente, conteúdo semelhante a edições antigas, imagens recicladas, compra sem critérios técnicos, reparo sem limites profissionais, especificações sem consequência prática e matérias sem descoberta verificável.
 
-Cada edição precisa ter `contentType: "program"`, capa horizontal, no mínimo duas imagens internas quando houver material oficial, texto aprofundado, fontes oficiais, links internos e campos `program`, `programLabel`, `episodeDuration` e `readingTime`. O título deve identificar a edição da semana de forma editorial, por exemplo `Rolê de Rua — edição de DD/MM/AAAA`, sem transformar essa identificação em texto burocrático. A duração planejada e qualquer estrutura de futuro programa em vídeo são informações internas: nunca publicar ao leitor marcações de minutos, bastidores ou avisos sobre um futuro TV Show. Em terças e sextas não há edição fixa, mas a matéria diária independente continua obrigatória.
+Cada edição publicada precisa ter `contentType: "program"`, capa horizontal, no mínimo duas imagens internas quando houver material oficial, texto aprofundado, fontes oficiais, links internos e campos `program`, `programLabel`, `episodeDuration` e `readingTime`. O título deve identificar a edição da semana de forma editorial, por exemplo `Rolê de Rua — edição de DD/MM/AAAA`, sem transformar essa identificação em texto burocrático. A duração planejada e qualquer estrutura de futuro programa em vídeo são informações internas: nunca publicar ao leitor marcações de minutos, bastidores ou avisos sobre um futuro TV Show. Em terças e sextas não há edição fixa.
 
-Na capa da Revista, programas são uma categoria editorial permanente e prioritária, separada de matérias próprias e notícias. O bloco de programas deve aparecer antes do fluxo comum. Nos resultados da Revista, todo `contentType: "program"` deve usar card visualmente distinto, com identidade de série, nome do programa, dia da grade e indicação de edição semanal; não pode parecer um card comum que recebeu apenas outra etiqueta. Os filtros devem permitir separar `Programas`, `Matérias` e `Notícias`, além dos filtros temáticos. A diferenciação é editorial e visual; não altera a exigência de conteúdo aprofundado nem permite contar programa como matéria diária.
+Na capa da Revista, programas são uma categoria editorial permanente e prioritária, separada de matérias próprias e notícias. O bloco de programas deve aparecer antes do fluxo comum. Nos resultados da Revista, todo `contentType: "program"` deve usar card visualmente distinto, com identidade de série, nome do programa, dia da grade e indicação de edição semanal; não pode parecer um card comum que recebeu apenas outra etiqueta. Os filtros devem permitir separar `Programas`, `Matérias` e `Notícias`, além dos filtros temáticos. A diferenciação é editorial e visual e não altera a exigência de conteúdo aprofundado.
 
-Conteúdo fraco, duplicado, rumor ou texto inventado não cumpre a meta. Quando não houver release forte, a matéria diária deve ser uma pauta própria útil e durável, sustentada por fontes técnicas ou oficiais.
+Conteúdo fraco, duplicado, rumor ou texto inventado não deve ser publicado. Quando não houver release ou pauta própria forte, registrar a varredura sem forçar uma publicação.
 
 ## 08h — Radar editorial e notícias
 
@@ -437,15 +434,15 @@ Conteúdo fraco, duplicado, rumor ou texto inventado não cumpre a meta. Quando 
 - Escrever título e descrição originais em português brasileiro. Legenda ou descrição traduzida não torna elegível um vídeo cujo áudio esteja em outro idioma.
 - Não concentrar a seleção em reviews nem usar o mesmo canal em dias seguidos ou mais de uma vez na semana. Um canal externo pode reaparecer em outra semana, preservando diversidade editorial.
 - Categorizar corretamente: Competições, Motocross/Cross, Urbano, Lançamentos, Testes e Avaliações, Dicas e Manutenção, Tecnologia e Elétricos, Bicicletas/BMX, Eventos ou Cassetadas/Entretenimento.
-- Atualizar o sitemap, publicar e concluir imediatamente o ciclo de SEO e Search Console. Se nenhum vídeo adequado em pt-BR for encontrado, registrar canais e categorias tentados e deixar a meta pendente para as 20h; não preencher a meta com vídeo estrangeiro.
+- Atualizar o sitemap, publicar e concluir imediatamente o ciclo de SEO e Search Console quando houver vídeo novo. Se nenhum vídeo adequado em pt-BR for encontrado, registrar canais e categorias tentados, sem criar pendência por quantidade e sem preencher espaço com vídeo estrangeiro.
 
 ## 14h — Revista e matéria própria
 
-- Rodar `python scripts/check_daily_targets.py` e verificar separadamente matéria diária, vídeo e programa da grade.
-- Atualizar fontes urgentes e a fila editorial geral antes de produzir a pauta própria. Publicar também todas as notícias, lançamentos, efemérides ou atualizações confirmadas desde a janela anterior; elas não substituem a matéria independente nem o programa.
-- Se não existir `contentType: "article"`, produzir obrigatoriamente a matéria diária, mesmo que já exista notícia ou edição de programa no dia.
+- Rodar `python scripts/check_daily_targets.py` para registrar a mistura editorial, sem interpretar zero publicações como pendência.
+- Atualizar fontes urgentes e a fila editorial geral. Publicar todas as notícias, lançamentos, efemérides, pautas próprias ou atualizações confirmadas e relevantes desde a janela anterior.
+- Não produzir matéria, vídeo ou programa apenas para preencher contagem ou grade.
 - Conferir as últimas 14 matérias próprias, suas famílias, perguntas centrais e conclusões. Escolher uma família ainda não usada na semana e um tema materialmente inédito em todo o acervo; segurança não pode ser escolhida novamente como pauta genérica se já apareceu entre as últimas sete matérias próprias.
-- Quando houver programa fixo no dia, produzir também uma edição separada com `contentType: "program"`. O programa não substitui a matéria diária e a matéria diária não substitui o programa.
+- Quando houver pauta forte para o programa previsto no dia, publicar uma edição separada com `contentType: "program"`; a ausência de pauta publicável não gera dívida numérica.
 - Quando não houver notícia ou lançamento forte, escolher a maior lacuna real do acervo entre mercado, indústria, custos, compra, seguro, legislação, mecânica, tecnologia, elétricos, design, história, cultura, personagens, profissões, motoclubes, turismo, infraestrutura, mobilidade, urbanização, bicicletas, modalidades, acessórios, logística, customização, dados, serviço ao consumidor e outras famílias da matriz de diversidade. Segurança é apenas uma opção e nunca o fallback automático.
 - Usar texto original em pt-BR, sem copiar releases e sem afirmar teste presencial que não ocorreu.
 - Priorizar capa oficial horizontal e duas imagens internas autorizadas, sempre atuais, distintas entre si e inéditas em todo o acervo publicado. Baixar, otimizar e publicar localmente; não usar hotlink. IA somente quando não houver material oficial adequado e sempre com geração exclusiva para a publicação, sem reaproveitamento.
@@ -463,10 +460,10 @@ Conteúdo fraco, duplicado, rumor ou texto inventado não cumpre a meta. Quando 
 
 ## 20h — Fechamento obrigatório e auditoria final de SEO
 
-- Rodar `python scripts/check_daily_targets.py --require-complete`.
-- Fazer a última atualização das fontes urgentes e revisar toda a fila editorial. Metas mínimas completas não encerram o dia enquanto houver pauta `publicavel` ou atualização material executável.
+- Rodar `python scripts/check_daily_targets.py` como relatório, sem requisito de completude numérica.
+- Fazer a última atualização das fontes urgentes e revisar toda a fila editorial. A quantidade publicada não encerra o dia enquanto houver pauta `publicavel` ou atualização material executável.
 - Confirmar que nenhuma obrigação T+1 vencida de item `alta_relevancia` ficou sem publicação e que todos os eventos, campeonatos, etapas e rodadas, independentemente do porte, refletem data e hora locais, fuso, situação e comunicados oficiais.
-- Se faltar matéria independente, vídeo elegível em pt-BR ou programa fixo do dia, produzir e publicar cada item pendente antes de encerrar, respeitando qualidade, fontes, diversidade e direitos.
+- Não classificar como pendente a ausência de matéria independente, vídeo ou programa; publicar somente itens confirmados, relevantes e executáveis.
 - Publicar também todas as demais pautas executáveis do backlog. Se um bloqueio técnico real impedir terminar o volume no mesmo horário, preservar cada item com fonte, prioridade e próximo passo para a recuperação; nunca resumir o backlog como “sem novidade”.
 - Revisar URLs novas e materialmente alteradas do dia.
 - Fazer a **auditoria final obrigatória de SEO do dia**. Verificar se cada push público já teve sitemap reenviado e, para cada URL nova, indexação solicitada imediatamente após a publicação. Corrigir qualquer lacuna encontrada.
