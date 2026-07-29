@@ -1,12 +1,12 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-07-29T17:57:18.265448+00:00",
+  "generated_at": "2026-07-29T17:59:41.666623+00:00",
   "scope": "Matérias no Google News sitemap das últimas 48 horas e eventos em andamento ou futuros priorizados por data",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/event-sitemap.xml",
-      "last_submitted": "2026-07-29T17:51:39.899Z",
-      "last_downloaded": "2026-07-29T17:51:41.489Z",
+      "last_submitted": "2026-07-29T17:57:47.891Z",
+      "last_downloaded": "2026-07-29T17:57:49.371Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -27,8 +27,8 @@
     },
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-07-29T17:51:39.794Z",
-      "last_downloaded": "2026-07-29T17:51:41.543Z",
+      "last_submitted": "2026-07-29T17:57:47.808Z",
+      "last_downloaded": "2026-07-29T17:57:49.445Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -49,8 +49,8 @@
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-07-29T17:51:39.680Z",
-      "last_downloaded": "2026-07-29T17:51:40.650Z",
+      "last_submitted": "2026-07-29T17:57:47.721Z",
+      "last_downloaded": "2026-07-29T17:57:48.630Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -76,10 +76,10 @@
     }
   ],
   "summary": {
-    "inspected": 52,
-    "indexed": 33,
+    "inspected": 18,
+    "indexed": 9,
     "not_indexed": 0,
-    "processing_or_unknown": 19
+    "processing_or_unknown": 9
   },
   "urls": [
     {
@@ -99,7 +99,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-07-29T17:51:46.479549+00:00"
+      "inspected_at": "2026-07-29T17:57:54.306877+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/move-brasil-financiamento-entregadores-como-pedir-2026/",
@@ -118,7 +118,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-07-29T17:51:53.280370+00:00"
+      "inspected_at": "2026-07-29T17:58:00.626654+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/tour-do-rio-2026-cancelado-calendario-cbc/",
@@ -137,7 +137,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-07-29T17:51:59.509559+00:00"
+      "inspected_at": "2026-07-29T17:58:06.912297+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/custo-real-da-moto-como-calcular-antes-de-comprar/",
@@ -149,14 +149,11 @@
       "last_crawl_time": "2026-07-28T22:12:04Z",
       "google_canonical": "https://tvduasrodas.com/materias/custo-real-da-moto-como-calcular-antes-de-comprar/",
       "user_canonical": "https://tvduasrodas.com/materias/custo-real-da-moto-como-calcular-antes-de-comprar/",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-07-29T17:52:05.853142+00:00"
+      "inspected_at": "2026-07-29T17:58:13.233167+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/acidente-contorno-leste-curitiba-moto-caminhao-o-que-aprender/",
@@ -175,7 +172,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-07-29T17:52:12.631552+00:00"
+      "inspected_at": "2026-07-29T17:58:19.547044+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/honda-gold-wing-50-anos-chega-ao-brasil-2026/",
@@ -187,12 +184,9 @@
       "last_crawl_time": "2026-07-28T22:14:05Z",
       "google_canonical": "https://tvduasrodas.com/materias/honda-gold-wing-50-anos-chega-ao-brasil-2026/",
       "user_canonical": "https://tvduasrodas.com/materias/honda-gold-wing-50-anos-chega-ao-brasil-2026/",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-07-29T17:52:19.386245+00:00"
+      "inspected_at": "2026-07-29T17:58:25.878124+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/dia-do-motociclista-2026-respeito-seguranca/",
@@ -209,7 +203,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-29T17:52:26.010454+00:00"
+      "inspected_at": "2026-07-29T17:58:32.181514+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/brasileiro-downhill-2026-resultados-campeoes/",
@@ -226,571 +220,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-29T17:52:32.573430+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/role-de-rua-27-07-2026-cruzamentos/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-28T16:53:59Z",
-      "google_canonical": "https://tvduasrodas.com/materias/role-de-rua-27-07-2026-cruzamentos/",
-      "user_canonical": "https://tvduasrodas.com/materias/role-de-rua-27-07-2026-cruzamentos/",
-      "sitemaps": [],
-      "referring_urls": [
-        "https://tvduasrodas.com/materias/"
-      ],
-      "inspected_at": "2026-07-29T17:52:39.068832+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/capacete-de-moto-ajuste-cuidados-quando-trocar/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-28T07:27:40Z",
-      "google_canonical": "https://tvduasrodas.com/materias/capacete-de-moto-ajuste-cuidados-quando-trocar/",
-      "user_canonical": "https://tvduasrodas.com/materias/capacete-de-moto-ajuste-cuidados-quando-trocar/",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:52:45.747382+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/electric-zone-26-07-2026-recarga-segura/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-26T16:07:21Z",
-      "google_canonical": "https://tvduasrodas.com/materias/electric-zone-26-07-2026-recarga-segura/",
-      "user_canonical": "https://tvduasrodas.com/materias/electric-zone-26-07-2026-recarga-segura/",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:52:52.366395+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/bicicleta-na-rua-posicao-portas-visibilidade/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-26T16:05:21Z",
-      "google_canonical": "https://tvduasrodas.com/materias/bicicleta-na-rua-posicao-portas-visibilidade/",
-      "user_canonical": "https://tvduasrodas.com/materias/bicicleta-na-rua-posicao-portas-visibilidade/",
-      "sitemaps": [],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:52:58.783940+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/estrada-aberta-25-07-2026-ritmo-planejamento/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-26T20:00:01Z",
-      "google_canonical": "https://tvduasrodas.com/materias/estrada-aberta-25-07-2026-ritmo-planejamento/",
-      "user_canonical": "https://tvduasrodas.com/materias/estrada-aberta-25-07-2026-ritmo-planejamento/",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:53:05.038958+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/parada-segura-moto-viagem-como-planejar/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-26T20:00:01Z",
-      "google_canonical": "https://tvduasrodas.com/materias/parada-segura-moto-viagem-como-planejar/",
-      "user_canonical": "https://tvduasrodas.com/materias/parada-segura-moto-viagem-como-planejar/",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:53:11.609065+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/brasileiro-mtb-2026-primeiro-dia-xce/",
-      "verdict": "NEUTRAL",
-      "coverage_state": "Detectada, mas não indexada no momento",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
-      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
-      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
-      "last_crawl_time": null,
-      "google_canonical": "",
-      "user_canonical": "",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:53:18.216491+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/capital-moto-week-2026-primeiro-dia-abertura/",
-      "verdict": "NEUTRAL",
-      "coverage_state": "Detectada, mas não indexada no momento",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
-      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
-      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
-      "last_crawl_time": null,
-      "google_canonical": "",
-      "user_canonical": "",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:53:25.018987+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/bagagem-na-moto-como-distribuir-fixar-e-viajar/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-26T17:10:31Z",
-      "google_canonical": "https://tvduasrodas.com/materias/bagagem-na-moto-como-distribuir-fixar-e-viajar/",
-      "user_canonical": "https://tvduasrodas.com/materias/bagagem-na-moto-como-distribuir-fixar-e-viajar/",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:53:31.627667+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/role-de-rua-23-07-2026-rotas-curtas/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-26T21:54:16Z",
-      "google_canonical": "https://tvduasrodas.com/materias/role-de-rua-23-07-2026-rotas-curtas/",
-      "user_canonical": "https://tvduasrodas.com/materias/role-de-rua-23-07-2026-rotas-curtas/",
-      "sitemaps": [],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:53:37.772410+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/pontos-cegos-moto-cidade-como-pilotar-com-margem/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-26T16:58:20Z",
-      "google_canonical": "https://tvduasrodas.com/materias/pontos-cegos-moto-cidade-como-pilotar-com-margem/",
-      "user_canonical": "https://tvduasrodas.com/materias/pontos-cegos-moto-cidade-como-pilotar-com-margem/",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:53:44.142439+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/garage-tech-corrente-moto-limpeza-lubrificacao/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-26T21:34:24Z",
-      "google_canonical": "https://tvduasrodas.com/materias/garage-tech-corrente-moto-limpeza-lubrificacao/",
-      "user_canonical": "https://tvduasrodas.com/materias/garage-tech-corrente-moto-limpeza-lubrificacao/",
-      "sitemaps": [],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:53:50.638304+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/como-pilotar-moto-na-chuva-com-seguranca/",
-      "verdict": "NEUTRAL",
-      "coverage_state": "Detectada, mas não indexada no momento",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
-      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
-      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
-      "last_crawl_time": null,
-      "google_canonical": "",
-      "user_canonical": "",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:53:57.052425+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/electric-zone-como-funciona-moto-eletrica/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-26T21:45:30Z",
-      "google_canonical": "https://tvduasrodas.com/materias/electric-zone-como-funciona-moto-eletrica/",
-      "user_canonical": "https://tvduasrodas.com/materias/electric-zone-como-funciona-moto-eletrica/",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:54:03.404864+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/bmw-f-900-gs-pro-sao-paulo-yellow-estreia-no-brasil/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-26T19:41:39Z",
-      "google_canonical": "https://tvduasrodas.com/materias/bmw-f-900-gs-pro-sao-paulo-yellow-estreia-no-brasil/",
-      "user_canonical": "https://tvduasrodas.com/materias/bmw-f-900-gs-pro-sao-paulo-yellow-estreia-no-brasil/",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [
-        "https://tvduasrodas.com/materia?slug=bmw-f-900-gs-pro-sao-paulo-yellow-estreia-no-brasil"
-      ],
-      "inspected_at": "2026-07-29T17:54:09.984178+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/moto1000gp-2026-cascavel-recebe-a-4-etapa-do-brasileiro-de-motovelocidade/",
-      "verdict": "NEUTRAL",
-      "coverage_state": "Detectada, mas não indexada no momento",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
-      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
-      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
-      "last_crawl_time": null,
-      "google_canonical": "",
-      "user_canonical": "",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:54:16.367148+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/motos-hibridas-comecam-a-sair-do-conceito-e-apontam-o-futuro-das-duas-rodas/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-26T18:45:38Z",
-      "google_canonical": "https://tvduasrodas.com/materias/motos-hibridas-comecam-a-sair-do-conceito-e-apontam-o-futuro-das-duas-rodas/",
-      "user_canonical": "https://tvduasrodas.com/materias/motos-hibridas-comecam-a-sair-do-conceito-e-apontam-o-futuro-das-duas-rodas/",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:54:22.745765+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/a-revolucao-silenciosa-das-motos-urbanas-em-2026-mais-tecnologia-menos-cilindrada-e-novos-perfis-de-pilotos/",
-      "verdict": "NEUTRAL",
-      "coverage_state": "O Google não reconhece o URL",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
-      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
-      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
-      "last_crawl_time": null,
-      "google_canonical": "",
-      "user_canonical": "",
-      "sitemaps": [],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:54:29.358760+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/honda-wn7-o-primeiro-passo-eletrico-da-honda-no-motociclismo-global/",
-      "verdict": "NEUTRAL",
-      "coverage_state": "Detectada, mas não indexada no momento",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
-      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
-      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
-      "last_crawl_time": null,
-      "google_canonical": "",
-      "user_canonical": "",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:54:35.617293+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/honda-xl750-transalp-2026-a-aventura-reimaginada/",
-      "verdict": "NEUTRAL",
-      "coverage_state": "Detectada, mas não indexada no momento",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
-      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
-      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
-      "last_crawl_time": null,
-      "google_canonical": "",
-      "user_canonical": "",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:54:41.756699+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/scooter-freestyle-ou-kick-scooter-de-cultura-de-rua-a-esporte-organizado/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-26T23:04:28Z",
-      "google_canonical": "https://tvduasrodas.com/materias/scooter-freestyle-ou-kick-scooter-de-cultura-de-rua-a-esporte-organizado/",
-      "user_canonical": "https://tvduasrodas.com/materias/scooter-freestyle-ou-kick-scooter-de-cultura-de-rua-a-esporte-organizado/",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:54:48.673950+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/ktm-electric-cycle-350w-a-bicicleta-eletrica-que-quer-redefinir-a-mobilidade-urbana/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-26T20:38:00Z",
-      "google_canonical": "https://tvduasrodas.com/materias/ktm-electric-cycle-350w-a-bicicleta-eletrica-que-quer-redefinir-a-mobilidade-urbana/",
-      "user_canonical": "https://tvduasrodas.com/materias/ktm-electric-cycle-350w-a-bicicleta-eletrica-que-quer-redefinir-a-mobilidade-urbana/",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:54:55.380207+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/o-futuro-das-ciclovias-como-tecnologia-e-dados-estao-redesenhando-as-cidades/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-29T03:58:54Z",
-      "google_canonical": "https://tvduasrodas.com/materias/o-futuro-das-ciclovias-como-tecnologia-e-dados-estao-redesenhando-as-cidades/",
-      "user_canonical": "https://tvduasrodas.com/materias/o-futuro-das-ciclovias-como-tecnologia-e-dados-estao-redesenhando-as-cidades/",
-      "sitemaps": [],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:55:02.217211+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/ducati-diavel-v4-rs-a-muscle-bike-definitiva-ja-disponivel/",
-      "verdict": "NEUTRAL",
-      "coverage_state": "Detectada, mas não indexada no momento",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
-      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
-      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
-      "last_crawl_time": null,
-      "google_canonical": "",
-      "user_canonical": "",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:55:08.583892+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/yamaha-r15-2026-e-lancada-com-visual-esportivo-tecnologia-avancada-e-dna-de-pista/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-26T20:34:10Z",
-      "google_canonical": "https://tvduasrodas.com/materias/yamaha-r15-2026-e-lancada-com-visual-esportivo-tecnologia-avancada-e-dna-de-pista/",
-      "user_canonical": "https://tvduasrodas.com/materias/yamaha-r15-2026-e-lancada-com-visual-esportivo-tecnologia-avancada-e-dna-de-pista/",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:55:15.214897+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/micromobilidade-bicicletas-eletricas-patinetes-eletricos-e-hoverboards/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-26T20:35:14Z",
-      "google_canonical": "https://tvduasrodas.com/materias/micromobilidade-bicicletas-eletricas-patinetes-eletricos-e-hoverboards/",
-      "user_canonical": "https://tvduasrodas.com/materias/micromobilidade-bicicletas-eletricas-patinetes-eletricos-e-hoverboards/",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:55:21.580519+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/o-que-e-uma-gravel-bike/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-26T18:27:21Z",
-      "google_canonical": "https://tvduasrodas.com/materias/o-que-e-uma-gravel-bike/",
-      "user_canonical": "https://tvduasrodas.com/materias/o-que-e-uma-gravel-bike/",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:55:28.213594+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/frenagem-correta-fator-decisivo-em-acidentes-com-motociclistas/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-27T01:27:21Z",
-      "google_canonical": "https://tvduasrodas.com/materias/frenagem-correta-fator-decisivo-em-acidentes-com-motociclistas/",
-      "user_canonical": "https://tvduasrodas.com/materias/frenagem-correta-fator-decisivo-em-acidentes-com-motociclistas/",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:55:34.698001+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/honda-africa-twin-2026-chega-a-europa-com-novo-visual-e-cores-renovadas/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-26T18:53:43Z",
-      "google_canonical": "https://tvduasrodas.com/materias/honda-africa-twin-2026-chega-a-europa-com-novo-visual-e-cores-renovadas/",
-      "user_canonical": "https://tvduasrodas.com/materias/honda-africa-twin-2026-chega-a-europa-com-novo-visual-e-cores-renovadas/",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:55:40.884214+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/honda-xre-300-sahara-2026/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-26T16:58:20Z",
-      "google_canonical": "https://tvduasrodas.com/materias/honda-xre-300-sahara-2026/",
-      "user_canonical": "https://tvduasrodas.com/materias/honda-xre-300-sahara-2026/",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:55:47.031987+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/naked-urbana-300cc-uso-real-na-cidade/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-26T19:15:04Z",
-      "google_canonical": "https://tvduasrodas.com/materias/naked-urbana-300cc-uso-real-na-cidade/",
-      "user_canonical": "https://tvduasrodas.com/materias/naked-urbana-300cc-uso-real-na-cidade/",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:55:53.543214+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/viagem-de-serra-mirantes-curvas-e-seguranca/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-26T23:57:19Z",
-      "google_canonical": "https://tvduasrodas.com/materias/viagem-de-serra-mirantes-curvas-e-seguranca/",
-      "user_canonical": "https://tvduasrodas.com/materias/viagem-de-serra-mirantes-curvas-e-seguranca/",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:56:00.066888+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/role-urbano-noturno-luzes-da-cidade-em-duas-rodas/",
-      "verdict": "NEUTRAL",
-      "coverage_state": "Detectada, mas não indexada no momento",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
-      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
-      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
-      "last_crawl_time": null,
-      "google_canonical": "",
-      "user_canonical": "",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:56:06.562737+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/scooters-eletricas-na-cidade-vale-a-pena/",
-      "verdict": "NEUTRAL",
-      "coverage_state": "Detectada, mas não indexada no momento",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
-      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
-      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
-      "last_crawl_time": null,
-      "google_canonical": "",
-      "user_canonical": "",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:56:13.003720+00:00"
+      "inspected_at": "2026-07-29T17:58:38.498293+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/capital-moto-week-2026/",
@@ -809,7 +239,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/evento?slug=capital-moto-week-2026"
       ],
-      "inspected_at": "2026-07-29T17:56:19.882270+00:00"
+      "inspected_at": "2026-07-29T17:58:44.809736+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/porto-real-mc-resende-rj-2026-07-29/",
@@ -821,9 +251,12 @@
       "last_crawl_time": "2026-07-28T18:32:09Z",
       "google_canonical": "https://tvduasrodas.com/eventos/porto-real-mc-resende-rj-2026-07-29/",
       "user_canonical": "https://tvduasrodas.com/eventos/porto-real-mc-resende-rj-2026-07-29/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-07-29T17:56:26.867069+00:00"
+      "inspected_at": "2026-07-29T17:58:51.126302+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/3-encontro-de-motociclistas-penedo-mg-2026-07-30/",
@@ -840,7 +273,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-29T17:56:33.568490+00:00"
+      "inspected_at": "2026-07-29T17:58:57.467670+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motofest-bezerros-pe-2026-07-30/",
@@ -857,7 +290,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-29T17:56:39.872953+00:00"
+      "inspected_at": "2026-07-29T17:59:03.795588+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motofest-iguatu-ce-2026-07-30/",
@@ -871,7 +304,7 @@
       "user_canonical": "",
       "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-07-29T17:56:46.180150+00:00"
+      "inspected_at": "2026-07-29T17:59:10.088632+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/quinta-do-motociclista-arapiraca-al-2026-07-30/",
@@ -888,7 +321,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-29T17:56:52.500995+00:00"
+      "inspected_at": "2026-07-29T17:59:16.387507+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/14-motofest-extrema-mg-2026-07-31/",
@@ -900,40 +333,43 @@
       "last_crawl_time": "2026-07-29T10:02:23Z",
       "google_canonical": "https://tvduasrodas.com/eventos/14-motofest-extrema-mg-2026-07-31/",
       "user_canonical": "https://tvduasrodas.com/eventos/14-motofest-extrema-mg-2026-07-31/",
+      "sitemaps": [],
+      "referring_urls": [],
+      "inspected_at": "2026-07-29T17:59:22.677275+00:00"
+    },
+    {
+      "url": "https://tvduasrodas.com/eventos/2-encontro-nacional-serra-da-saudade-mg-2026-07-31/",
+      "verdict": "NEUTRAL",
+      "coverage_state": "Detectada, mas não indexada no momento",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "last_crawl_time": null,
+      "google_canonical": "",
+      "user_canonical": "",
       "sitemaps": [
         "https://tvduasrodas.com/event-sitemap.xml",
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-29T17:56:59.033717+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/eventos/2-encontro-nacional-serra-da-saudade-mg-2026-07-31/",
-      "verdict": "NEUTRAL",
-      "coverage_state": "O Google não reconhece o URL",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
-      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
-      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
-      "last_crawl_time": null,
-      "google_canonical": "",
-      "user_canonical": "",
-      "sitemaps": [],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T17:57:05.293836+00:00"
+      "inspected_at": "2026-07-29T17:59:28.985754+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/21-paranaguamotos-paranagua-pr-2026-07-31/",
       "verdict": "NEUTRAL",
-      "coverage_state": "O Google não reconhece o URL",
+      "coverage_state": "Detectada, mas não indexada no momento",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED",
       "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
       "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "last_crawl_time": null,
       "google_canonical": "",
       "user_canonical": "",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-07-29T17:57:11.785729+00:00"
+      "inspected_at": "2026-07-29T17:59:35.292448+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/3-moto-rock-fest-paranapanema-sp-2026-07-31/",
@@ -945,9 +381,12 @@
       "last_crawl_time": "2026-07-28T14:26:47Z",
       "google_canonical": "https://tvduasrodas.com/eventos/3-moto-rock-fest-paranapanema-sp-2026-07-31/",
       "user_canonical": "https://tvduasrodas.com/eventos/3-moto-rock-fest-paranapanema-sp-2026-07-31/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-07-29T17:57:18.105376+00:00"
+      "inspected_at": "2026-07-29T17:59:41.589544+00:00"
     }
   ]
 }
