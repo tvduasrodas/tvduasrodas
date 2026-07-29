@@ -840,20 +840,6 @@
       "source": "content/events/agenda-comunitaria-2026.json#2-bike-fest-poa-sp-2026-07-25"
     },
     {
-      "title": "2º Coronel Fabriciano Moto Fest",
-      "type": "Evento da agenda",
-      "slug": "2-motofest-coronel-fabriciano-mg-2026-08-07",
-      "date": "2026-08-07",
-      "category": "Festival de motociclismo",
-      "city": "Coronel Fabriciano",
-      "state": "MG",
-      "status": "agendada",
-      "summary": "Festival de motociclismo em Coronel Fabriciano/MG, com data divulgada para 2026-08-07. O flyer foi inspecionado localmente; serviços identificados: shows, expositores.",
-      "url": "/eventos/2-motofest-coronel-fabriciano-mg-2026-08-07/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#2-motofest-coronel-fabriciano-mg-2026-08-07"
-    },
-    {
       "title": "2º Itapevi Moto Fest",
       "type": "Evento da agenda",
       "slug": "2-motofest-itapevi-sp-2026-07-26",
@@ -866,6 +852,20 @@
       "url": "/eventos/2-motofest-itapevi-sp-2026-07-26/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#2-motofest-itapevi-sp-2026-07-26"
+    },
+    {
+      "title": "2º Motofest de Coronel Fabriciano",
+      "type": "Evento da agenda",
+      "slug": "2-motofest-coronel-fabriciano-mg-2026-08-07",
+      "date": "2026-08-07",
+      "category": "Festival de motociclismo",
+      "city": "Coronel Fabriciano",
+      "state": "MG",
+      "status": "agendada",
+      "summary": "O 2º Motofest de Coronel Fabriciano acontece de 7 a 9 de agosto na Praça da Estação, com entrada gratuita, 13 bandas, camping coberto, café da manhã e ação social.",
+      "url": "/eventos/2-motofest-coronel-fabriciano-mg-2026-08-07/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#2-motofest-coronel-fabriciano-mg-2026-08-07"
     },
     {
       "title": "2º Serra de São Bento Moto Fest",
