@@ -20854,42 +20854,52 @@
     },
     {
       "slug": "8-rock-in-rio-ivai-japura-pr-2026-08-15",
-      "title": "8 Rock in Rio Ivai",
-      "short_name": "8 Rock in Rio Ivai",
+      "title": "8º Rock in Ivaí",
+      "short_name": "8º Rock in Ivaí",
       "start_date": "2026-08-15",
       "end_date": "2026-08-16",
-      "city": "Japura",
+      "city": "Japurá",
       "state": "PR",
       "country": "Brasil",
       "scope": "Nacional",
       "region": "Sul",
-      "venue": "Local detalhado não informado de forma legível no flyer",
+      "venue": "Lanchonete Du Vermeio",
       "status": "agendada",
       "event_type": "Encontro de motociclistas",
       "segment": "Motos",
-      "official_url": "https://jb-rider.com.br/evento/20260815-2-8-rock-in-rio-ivai-japura-pr",
+      "official_url": "https://www.instagram.com/reel/DbJZspzBFvv/",
       "source_url": "https://jb-rider.com.br/eventos/20260815_2__8%20Rock%20in%20Rio%20Ivai_Japura_PR.jpeg",
-      "source_label": "Flyer específico indexado pela JB-RIDER",
-      "verification_status": "flyer_processado_localmente_com_validacao_conservadora",
+      "source_label": "Reel dos divulgadores do evento e flyer específico indexado pela JB-RIDER",
+      "verification_status": "programacao_confirmada_em_reel_dos_divulgadores",
       "cover": "/assets/img/competicoes-eventos-default.svg",
       "image_credit": "Arte: TVDUASRODAS",
       "featured": false,
-      "free": false,
-      "summary": "Encontro de motociclistas em Japura/PR, com data divulgada para 2026-08-15. O flyer foi inspecionado localmente; serviços identificados: programação detalhada não identificada de forma legível no flyer.",
+      "free": true,
+      "summary": "O 8º Rock in Ivaí acontece em 15 e 16 de agosto de 2026 na Lanchonete Du Vermeio, em Porto de Japurá, com entrada gratuita, quatro bandas, camping, alimentação e passeio motociclístico com saída de Cianorte.",
       "attractions": [
-        "Programação detalhada não identificada de forma legível no flyer"
+        "Pearl Pigs",
+        "Vyzen",
+        "Tennessee",
+        "Rock Du Pai",
+        "2º Moto Passeio da 5ª Companhia Independente da Polícia Militar de Cianorte",
+        "Almoço tradicional com churrasco no espeto de bambu",
+        "Sorteio de brindes",
+        "Barracas de acessórios",
+        "Área de camping"
       ],
-      "body": "## Serviço verificado\n\n8 Rock in Rio Ivai tem data divulgada de 2026-08-15 a 2026-08-16, em Japura/PR. Horário não informado de forma legível no flyer consultado.\n\n## Local e endereço\n\nEndereço detalhado não informado no flyer; referência: Japura - PR. Quando o endereço não aparece de forma legível, a TVDUASRODAS mantém essa ausência explícita e não inventa rua, número ou CEP.\n\n## Programação e estrutura\n\nProgramação detalhada não identificada de forma legível no flyer. Os nomes e horários que não atingiram confiança suficiente no processamento visual não foram transformados em informação pública.\n\n## Acesso, estacionamento e contato\n\nNão informado de forma legível no flyer consultado. Não informado de forma legível no flyer consultado. Contato não identificado de forma legível no flyer.\n\n## Fonte e atualização\n\nA data, a cidade e os sinais de serviço foram confrontados com o flyer específico indexado pela JB-RIDER. A arte original permanece vinculada para conferência de mudanças e detalhes.",
-      "last_updated": "2026-07-26T05:07:49.077000+00:00",
+      "body": "## Serviço confirmado\n\nO 8º Rock in Ivaí acontece em 15 e 16 de agosto de 2026 na Lanchonete Du Vermeio, em Porto de Japurá, no Paraná. A entrada é gratuita.\n\n## Sábado, 15 de agosto\n\nA abertura oficial está marcada para as 13h. A programação anuncia shows das bandas Pearl Pigs e Vyzen. O local terá porções, drinks, refrigerante e cerveja, além de sorteio de brindes, barracas de acessórios e área de camping.\n\n## Domingo, 16 de agosto\n\nO dia começa com o 2º Moto Passeio da 5ª Companhia Independente da Polícia Militar de Cianorte, em comemoração aos 172 anos da Polícia Militar do Paraná. A concentração será na sede da companhia, na Avenida América, 2212, em Cianorte, com saída a partir das 9h e destino ao Rock in Ivaí.\n\nNo evento, o almoço tradicional terá churrasco no espeto de bambu, arroz, salada, porções e bebidas. As atrações musicais de domingo são Tennessee e Rock Du Pai. Sorteio de brindes, barracas de acessórios e camping continuam disponíveis.\n\n## Acesso, estacionamento e contato\n\nA divulgação confirma entrada gratuita e área de camping. Não há informação específica sobre estacionamento no Reel consultado. O vídeo foi publicado em colaboração pelos perfis @ro.roberta1 e @leandro.nog1; confirme mudanças diretamente nesses canais antes de viajar.\n\n## Fonte e atualização\n\nDatas, horários, local, atrações e estrutura foram conferidos no Reel indicado pelos divulgadores e cruzados com o flyer específico já cadastrado.",
+      "last_updated": "2026-07-28T22:48:00-04:00",
       "timezone": "America/Sao_Paulo",
-      "time_label": "Horário não informado de forma legível no flyer consultado",
-      "street_address": "Endereço detalhado não informado de forma legível no flyer",
-      "full_address": "Endereço detalhado não informado no flyer; referência: Japura - PR",
-      "status_basis": "Data futura divulgada no flyer e na agenda comunitária; confirme alterações antes de viajar.",
-      "status_checked_at": "2026-07-26T05:07:49.077000+00:00",
-      "organizer": "Organização não identificada de forma legível no flyer consultado",
-      "contact": "Contato não identificado de forma legível no flyer",
-      "source_checked_at": "2026-07-26T10:00:39.175991+00:00",
+      "local_start": "2026-08-15T13:00:00-03:00",
+      "local_end": "",
+      "time_label": "15 de agosto a partir das 13h; passeio de 16 de agosto com concentração às 9h em Cianorte",
+      "street_address": "Lanchonete Du Vermeio, Porto de Japurá",
+      "full_address": "Lanchonete Du Vermeio, Porto de Japurá, Japurá - PR",
+      "status_basis": "Evento futuro confirmado para 15 e 16 de agosto de 2026 no Reel dos divulgadores e no flyer cadastrado.",
+      "status_checked_at": "2026-07-28T22:48:00-04:00",
+      "organizer": "Organização do 8º Rock in Ivaí; divulgação por @ro.roberta1 e @leandro.nog1",
+      "contact": "Perfis @ro.roberta1 e @leandro.nog1 no Instagram",
+      "source_checked_at": "2026-07-28T22:48:00-04:00",
       "visual_verification": {
         "type": "flyer_com_ocr_local",
         "source_url": "https://jb-rider.com.br/eventos/20260815_2__8%20Rock%20in%20Rio%20Ivai_Japura_PR.jpeg",
@@ -20906,30 +20916,37 @@
           "contact"
         ]
       },
-      "admission_status": "Não informado de forma legível no flyer consultado",
-      "parking": "Não informado de forma legível no flyer consultado",
+      "admission_status": "Entrada gratuita",
+      "parking": "Não informado no Reel consultado",
       "sources": [
+        {
+          "url": "https://www.instagram.com/reel/DbJZspzBFvv/",
+          "label": "Reel em colaboração de @ro.roberta1 e @leandro.nog1",
+          "type": "divulgação primária do evento",
+          "supports": "datas, horários, entrada, local, atrações, alimentação, camping e passeio de domingo",
+          "checked_at": "2026-07-28T22:48:00-04:00"
+        },
         {
           "url": "https://jb-rider.com.br/evento/20260815-2-8-rock-in-rio-ivai-japura-pr",
           "label": "Flyer ou página específica original do evento",
           "type": "evidência visual primária",
-          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+          "supports": "datas, cidade e identidade do evento"
         },
         {
           "url": "https://jb-rider.com.br/eventos/20260815_2__8%20Rock%20in%20Rio%20Ivai_Japura_PR.jpeg",
           "label": "Flyer ou página específica original do evento",
           "type": "evidência visual primária",
-          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+          "supports": "datas, cidade e identidade do evento"
         }
       ],
       "research_status": {
         "required_specific_independent_sources": 2,
-        "specific_independent_domains_found": 1,
-        "status": "pesquisa_ampliada_ainda_sem_segunda_fonte_indexada",
+        "specific_independent_domains_found": 2,
+        "status": "fontes_cruzadas",
         "query": [
           "\"8 rock in rio ivai\" japura PR 2026"
         ],
-        "reviewed_at": "2026-07-26T10:00:39.175991+00:00"
+        "reviewed_at": "2026-07-28T22:48:00-04:00"
       }
     },
     {
