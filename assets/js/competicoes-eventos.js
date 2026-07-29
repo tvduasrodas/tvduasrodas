@@ -66,6 +66,24 @@
         return `${formatDate(start)} a ${formatDate(end)}`;
     }
 
+    function rangeMatchesMonth(startValue, endValue, monthValue) {
+        if (!monthValue) return true;
+        const startDate = dateFromIso(startValue);
+        const endDate = dateFromIso(endValue) || startDate;
+        const wantedMonth = Number(monthValue);
+        if (!startDate || !wantedMonth) return false;
+
+        const cursor = new Date(startDate.getFullYear(), startDate.getMonth(), 1);
+        const limit = new Date(endDate.getFullYear(), endDate.getMonth(), 1);
+        let guard = 0;
+        while (cursor <= limit && guard < 36) {
+            if (cursor.getMonth() + 1 === wantedMonth) return true;
+            cursor.setMonth(cursor.getMonth() + 1);
+            guard += 1;
+        }
+        return false;
+    }
+
     function formatTextDates(value) {
         return String(value || "").replace(
             /(^|[^\w/-])(\d{4})-(\d{2})-(\d{2})(?![\w/-])/g,
@@ -258,10 +276,35 @@
             ]);
             competitions.sort((a, b) => Number(Boolean(b.featured)) - Number(Boolean(a.featured)) || String(a.title).localeCompare(String(b.title)));
             const highlights = HIGHLIGHT_SLUGS.map((slug) => competitions.find((item) => item.slug === slug)).filter(Boolean);
-            competitionGrid.innerHTML = highlights.slice(0, LIST_LIMIT).map(competitionCard).join("");
 
             const calendarEntries = Array.isArray(calendar.entries) ? calendar.entries
                 .sort((a, b) => String(a.start_date).localeCompare(String(b.start_date))) : [];
+            const competitionMonth = document.getElementById("ceCompetitionMonth");
+            const competitionMatchesMonth = (item, monthValue) => {
+                if (!monthValue) return true;
+                const ranges = [
+                    item,
+                    item.next_stage,
+                    ...(Array.isArray(item.rounds) ? item.rounds : []),
+                    ...(Array.isArray(item.stages) ? item.stages : []),
+                    ...calendarEntries.filter((entry) => entry.competition_slug === item.slug)
+                ].filter(Boolean);
+                return ranges.some((range) =>
+                    rangeMatchesMonth(range.start_date || range.date, range.end_date, monthValue)
+                );
+            };
+            const renderCompetitions = () => {
+                const monthValue = competitionMonth ? competitionMonth.value : "";
+                const filtered = monthValue
+                    ? competitions.filter((item) => competitionMatchesMonth(item, monthValue))
+                    : highlights.slice(0, LIST_LIMIT);
+                competitionGrid.innerHTML = filtered.length
+                    ? filtered.map(competitionCard).join("")
+                    : '<div class="ce-empty"><strong>Nenhuma competição encontrada neste mês.</strong><p>Escolha outro período.</p></div>';
+            };
+            if (competitionMonth) competitionMonth.addEventListener("change", renderCompetitions);
+            renderCompetitions();
+
             const calendarEvents = calendarEntries.filter((item) => !item.competition_slug).map((item) => ({
                 ...item,
                 slug: slugify(`${item.title}-${item.start_date || ""}`),
@@ -336,6 +379,7 @@
             const eventList = document.getElementById("ceEventList");
             const eventMore = document.getElementById("ceEventMore");
             const eventCount = document.getElementById("ceEventCount");
+            const eventMonth = document.getElementById("ceEventMonth");
             const eventScope = document.getElementById("ceEventScope");
             const eventRegion = document.getElementById("ceEventRegion");
             const eventState = document.getElementById("ceEventState");
@@ -354,6 +398,7 @@
             let eventVisibleLimit = 24;
             const renderEvents = () => {
                 const filtered = events.filter((item) =>
+                    (!eventMonth.value || rangeMatchesMonth(item.start_date, item.end_date, eventMonth.value)) &&
                     (!eventScope.value || inferScope(item) === eventScope.value) &&
                     (!eventRegion.value || item.region === eventRegion.value) &&
                     (!eventState.value || item.state === eventState.value) &&
@@ -365,7 +410,7 @@
                 eventMore.hidden = shown.length >= filtered.length;
                 eventMore.textContent = `Mostrar mais eventos (${filtered.length - shown.length} restantes)`;
             };
-            [eventScope, eventRegion, eventState, eventSegment].forEach((control) => control.addEventListener("change", () => {
+            [eventMonth, eventScope, eventRegion, eventState, eventSegment].forEach((control) => control.addEventListener("change", () => {
                 eventVisibleLimit = 24;
                 if (control === eventScope && eventScope.value === "Internacional") {
                     eventRegion.value = "";

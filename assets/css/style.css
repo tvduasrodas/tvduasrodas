@@ -2527,6 +2527,7 @@ button {
 .ce-section-heading p { color: #64748b; }
 .ce-section-heading--row { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; }
 .ce-filters { display: flex; gap: 10px; }
+.ce-filters label > span { display: block; margin-bottom: 7px; color: #475569; font-size: 12px; font-weight: 800; }
 .ce-filters input, .ce-filters select { min-height: 44px; padding: 0 14px; border: 1px solid #d8dee9; border-radius: 10px; background: #fff; color: #1f2937; font: inherit; }
 
 .ce-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
@@ -2590,7 +2591,7 @@ button {
 .ce-events .ce-section-heading h2 { color: #fff; }
 .ce-events .ce-section-heading p { color: #94a3b8; }
 .ce-event-count { flex: 0 0 auto; padding: 10px 14px; border: 1px solid #334155; border-radius: 999px; color: #ff9a68; background: #111827; font-size: 13px; font-weight: 900; }
-.ce-event-filters { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: 0 0 22px; padding: 16px; border: 1px solid #273244; border-radius: 14px; background: #111827; }
+.ce-event-filters { display: grid; grid-template-columns: repeat(auto-fit, minmax(165px, 1fr)); gap: 12px; margin: 0 0 22px; padding: 16px; border: 1px solid #273244; border-radius: 14px; background: #111827; }
 .ce-event-filters label > span { display: block; margin-bottom: 7px; color: #cbd5e1; font-size: 12px; font-weight: 800; }
 .ce-event-filters select { width: 100%; min-height: 44px; padding: 0 12px; border: 1px solid #475569; border-radius: 9px; color: #f8fafc; background: #0c111c; font: inherit; }
 .ce-event-filters select:focus { border-color: #ef5b35; outline: 3px solid rgba(239,91,53,.16); }
