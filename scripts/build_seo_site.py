@@ -827,6 +827,9 @@ def load_content() -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]
                 "position": result.get("display_position") or result.get("position", ""),
                 "team": result.get("team", ""),
                 "result": result.get("points") or result.get("time_gap", ""),
+                "number": result.get("number", ""),
+                "nationality": result.get("nationality", ""),
+                "profile_url": result.get("profile_url", ""),
             })
         latest_result = data.get("latest_result") or {}
         for result in latest_result.get("classification", []):
@@ -844,6 +847,9 @@ def load_content() -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]
                 "position": result.get("display_position") or result.get("position", ""),
                 "team": result.get("team", ""),
                 "result": result.get("points") or result.get("time_gap", ""),
+                "number": result.get("number", ""),
+                "nationality": result.get("nationality", ""),
+                "profile_url": result.get("profile_url", ""),
             })
 
     for path in sorted((ROOT / "content/events").glob("*.json")):
@@ -1339,10 +1345,20 @@ def render_person(name: str, records: list[dict[str, Any]], all_items: list[dict
         item for item in all_items
         if normalize(name) in normalize(item.get("search_text", ""))
     ]
-    first = records[0]
+    first = max(
+        records,
+        key=lambda record: sum(
+            bool(record.get(field))
+            for field in ("number", "nationality", "profile_url", "team", "position", "result")
+        ),
+    )
+    competition_name = first["competition"]["title"]
+    category = first.get("category", "")
+    position = first.get("position", "")
+    team = first.get("team", "")
     description = (
-        f"Resultados de {name} em competições acompanhadas pela TVDUASRODAS, "
-        f"com categoria, posição, equipe, fonte e links para as classificações."
+        f"{name}: classificação, equipe e resultados no {competition_name}. "
+        f"Veja a posição na {category}, a pontuação publicada e as fontes oficiais."
     )
     rows = "".join(
         f'<tr><td><a href="{esc(record["competition"]["url"])}">{esc(record["competition"]["title"])}</a></td>'
@@ -1360,16 +1376,39 @@ def render_person(name: str, records: list[dict[str, Any]], all_items: list[dict
             "@type": "Person", "@id": f"{absolute_url(canonical)}#pessoa",
             "name": name,
             "affiliation": {"@type": "Organization", "name": first["team"]} if first["team"] else None,
+            "nationality": first.get("nationality") or None,
+            "sameAs": [first["profile_url"]] if first.get("profile_url") else None,
+            "identifier": str(first["number"]) if first.get("number") else None,
         },
         "isPartOf": {"@id": f"{BASE_URL}/#website"},
         "inLanguage": "pt-BR",
     }
-    if schema["mainEntity"]["affiliation"] is None:
-        del schema["mainEntity"]["affiliation"]
+    for optional_key in ("affiliation", "nationality", "sameAs", "identifier"):
+        if schema["mainEntity"].get(optional_key) is None:
+            del schema["mainEntity"][optional_key]
+    facts = "".join(
+        (
+            f"<div><span>{esc(label)}</span><strong>{esc(value)}</strong></div>"
+            for label, value in (
+                ("Número", first.get("number")),
+                ("Nacionalidade", first.get("nationality")),
+                ("Categoria", category),
+                ("Equipe", team),
+                ("Classificação", position),
+            )
+            if value not in (None, "")
+        )
+    )
+    official_profile = (
+        f'<div class="ce-actions"><a class="btn btn-outline" href="{esc(first["profile_url"])}" '
+        'target="_blank" rel="noopener noreferrer">Ver perfil no MX1 GP Brasil ↗</a></div>'
+        if first.get("profile_url") else ""
+    )
     body = f"""
 <nav class="seo-breadcrumb"><a href="/">Início</a> › <a href="/atletas/">Atletas e pilotos</a> › {esc(name)}</nav>
 <article class="seo-article"><header><span class="seo-eyebrow">Atleta ou piloto em resultados publicados</span>
-<h1>{esc(name)}</h1><p class="seo-lead">{esc(description)}</p></header>
+<h1>{esc(name)}</h1><p class="seo-lead">{esc(description)}</p>{official_profile}</header>
+{f'<section class="seo-service seo-athlete-facts">{facts}</section>' if facts else ""}
 <section><h2>Resultados de {esc(name)}</h2><div class="seo-table"><table>
 <thead><tr><th>Competição</th><th>Categoria</th><th>Posição</th><th>Equipe</th><th>Resultado</th></tr></thead><tbody>{rows}</tbody></table></div></section>
 {f'<section><h2>Matérias e páginas relacionadas</h2><div class="seo-grid">{cards}</div></section>' if cards else ""}
@@ -1607,7 +1646,10 @@ def build(only_slugs: set[str] | None = None) -> None:
     for _, records in sorted(people.items(), key=lambda pair: pair[1][0]["name"]):
         name = records[0]["name"]
         canonical = f"/atletas/{slugify(name)}/"
-        if full_build:
+        selected_person = full_build or any(
+            record["competition"]["slug"] in (only_slugs or set()) for record in records
+        )
+        if selected_person:
             canonical, output = render_person(name, records, items)
             write_page(canonical, output)
         person_item = {

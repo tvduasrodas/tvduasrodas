@@ -1,24 +1,28 @@
 {
   "title": "Campeonato Brasileiro de Motocross 2026",
-  "short_name": "MX1 GP Brasil",
+  "short_name": "MX1 GP Brasil Sportbay",
   "season": "2026",
   "country": "Brasil",
   "scope": "Nacional",
   "modality": "Motocross",
   "status": "em_andamento",
-  "organizer": "CBM / PROMOX",
-  "official_url": "https://www.cbm.esp.br/",
-  "results_url": "https://www.cbm.esp.br/site/public/calendario",
+  "organizer": "CBM / Promox",
+  "official_url": "https://mx1gpbrasil.com.br/",
+  "organizer_url": "https://mx1gpbrasil.com.br/",
+  "results_url": "https://mx1gpbrasil.com.br/",
   "cover": "/assets/img/uploads/brasileiro-motocross-2026-capa.webp",
   "image_credit": "Foto: MX1 GP Brasil / divulgação · Arte: TVDUASRODAS",
-  "featured": false,
-  "summary": "A principal temporada nacional de motocross, acompanhada a partir do calendário, regulamentos e resultados oficiais da CBM.",
-  "last_updated": "2026-07-26T07:34:37.414943+00:00",
+  "featured": true,
+  "summary": "Enzo Lopes lidera a MX1 por 18 pontos sobre Glenn Coldenhoff, Salvador Pérez comanda a MX2 e Santa Cruz do Capibaribe recebe a etapa dupla de 30 de julho a 2 de agosto.",
+  "last_updated": "2026-07-29T04:00:00+00:00",
   "next_stage": {
-    "name": "7ª e 8ª etapas",
-    "start_date": "2026-07-31",
+    "name": "7ª e 8ª etapas — Etapa da Moda",
+    "start_date": "2026-07-30",
+    "end_date": "2026-08-02",
+    "venue": "Estrutura do MX1 GP Brasil na Rodovia PE-160, km 15",
     "city": "Santa Cruz do Capibaribe",
-    "state": "PE"
+    "state": "PE",
+    "note": "Atividades de pista de 31 de julho a 2 de agosto; evento também abre o Sul-Americano de Motocross MX1/MX2."
   },
   "categories": [
     "MX1",
@@ -27,14 +31,373 @@
     "MX4",
     "MX5",
     "MXF",
-    "MXJR"
+    "MXJR",
+    "MX2JR",
+    "65cc",
+    "50cc",
+    "YZ125"
   ],
-  "standings": [],
+  "standings_eyebrow": "Classificação oficial após seis etapas",
+  "standings_title": "Classificação do MX1 GP Brasil Sportbay 2026",
+  "standings": [
+    {
+      "category": "MX1",
+      "position": 1,
+      "display_position": "1º",
+      "number": 16,
+      "competitor": "Enzo Lopes",
+      "nationality": "Brasil",
+      "team": "Honda Racing Brasil",
+      "points": 275,
+      "profile_url": "https://mx1gpbrasil.com.br/player/enzo-lopes/"
+    },
+    {
+      "category": "MX1",
+      "position": 2,
+      "display_position": "2º",
+      "number": 259,
+      "competitor": "Glenn Coldenhoff",
+      "nationality": "Holanda",
+      "team": "Yamaha C6 Bank IMS",
+      "points": 257,
+      "profile_url": "https://mx1gpbrasil.com.br/player/glenn-coldenhoff/"
+    },
+    {
+      "category": "MX1",
+      "position": 3,
+      "display_position": "3º",
+      "number": 89,
+      "competitor": "Jeremy Van Horebeek",
+      "nationality": "Bélgica",
+      "team": "Honda Racing",
+      "points": 187,
+      "profile_url": "https://mx1gpbrasil.com.br/player/jeremy-van-horebeek/"
+    },
+    {
+      "category": "MX1",
+      "position": 4,
+      "display_position": "4º",
+      "number": 20,
+      "competitor": "Gregory Aranda",
+      "nationality": "França",
+      "team": "595 Pro Tork KTM",
+      "points": 187,
+      "profile_url": "https://mx1gpbrasil.com.br/player/gregory-aranda/"
+    },
+    {
+      "category": "MX1",
+      "position": 5,
+      "display_position": "5º",
+      "number": 38,
+      "competitor": "Fábio Aparecido Santos",
+      "nationality": "Brasil",
+      "team": "Yamaha Monster Energy Geração",
+      "points": 179,
+      "profile_url": "https://mx1gpbrasil.com.br/player/fabio-aparecido-santos/"
+    },
+    {
+      "category": "MX1",
+      "position": 6,
+      "display_position": "6º",
+      "number": 211,
+      "competitor": "Paulo Alberto",
+      "nationality": "Portugal",
+      "team": "Yamaha Monster Energy Geração",
+      "points": 169,
+      "profile_url": "https://mx1gpbrasil.com.br/player/paulo-alberto/"
+    },
+    {
+      "category": "MX1",
+      "position": 7,
+      "display_position": "7º",
+      "number": 109,
+      "competitor": "Guilherme Bresolin",
+      "nationality": "Brasil",
+      "team": "Kawasaki Factory Brasil",
+      "points": 167,
+      "profile_url": "https://mx1gpbrasil.com.br/player/guilherme-bresolin/"
+    },
+    {
+      "category": "MX1",
+      "position": 8,
+      "display_position": "8º",
+      "number": 28,
+      "competitor": "Vitor Hugo de Borba",
+      "nationality": "Brasil",
+      "team": "Yamaha Monster Energy Geração",
+      "points": 165,
+      "profile_url": "https://mx1gpbrasil.com.br/player/vitor-hugo-de-borba/"
+    },
+    {
+      "category": "MX1",
+      "position": 9,
+      "display_position": "9º",
+      "number": 4,
+      "competitor": "Hector Assunção",
+      "nationality": "Brasil",
+      "team": "595 Pro Tork KTM",
+      "points": 156,
+      "profile_url": "https://mx1gpbrasil.com.br/player/hector-assuncao/"
+    },
+    {
+      "category": "MX1",
+      "position": 10,
+      "display_position": "10º",
+      "number": 891,
+      "competitor": "Gustavo Pessoa",
+      "nationality": "Brasil",
+      "team": "FK Racing Honda",
+      "points": 131,
+      "profile_url": "https://mx1gpbrasil.com.br/player/gustavo-pessoa/"
+    },
+    {
+      "category": "MX2",
+      "position": 1,
+      "display_position": "1º",
+      "number": 300,
+      "competitor": "Salvador Pérez",
+      "nationality": "Brasil/Espanha",
+      "team": "Yamaha Monster Energy Geração",
+      "points": 282,
+      "profile_url": "https://mx1gpbrasil.com.br/player/salvador-perez/"
+    },
+    {
+      "category": "MX2",
+      "position": 2,
+      "display_position": "2º",
+      "number": 202,
+      "competitor": "Henrique Henicka",
+      "nationality": "Brasil",
+      "team": "595 Pro Tork KTM",
+      "points": 240,
+      "profile_url": "https://mx1gpbrasil.com.br/player/henrique-henicka-henicka/"
+    },
+    {
+      "category": "MX2",
+      "position": 3,
+      "display_position": "3º",
+      "number": 161,
+      "competitor": "Pietro Piroli",
+      "nationality": "Brasil",
+      "team": "Honda Racing",
+      "points": 227,
+      "profile_url": "https://mx1gpbrasil.com.br/player/pietro-piroli/"
+    },
+    {
+      "category": "MX2",
+      "position": 4,
+      "display_position": "4º",
+      "number": 39,
+      "competitor": "Benjamin Garib",
+      "nationality": "Chile",
+      "team": "JP Pro Honda Baterias Pioneiro",
+      "points": 226,
+      "profile_url": "https://mx1gpbrasil.com.br/player/benjamin-garib/"
+    },
+    {
+      "category": "MX2",
+      "position": 5,
+      "display_position": "5º",
+      "number": 148,
+      "competitor": "Luiz Filipe Vale da Rocha",
+      "nationality": "Brasil",
+      "team": "Yamaha C6 Bank IMS",
+      "points": 166,
+      "profile_url": "https://mx1gpbrasil.com.br/player/luiz-filipe-vale-da-rocha/"
+    },
+    {
+      "category": "MX2",
+      "position": 6,
+      "display_position": "6º",
+      "number": 34,
+      "competitor": "Lucas Dunka",
+      "nationality": "Brasil",
+      "team": "Pro Tork KTM Racing Team",
+      "points": 151,
+      "profile_url": "https://mx1gpbrasil.com.br/player/lucas-dunka/"
+    },
+    {
+      "category": "MX2",
+      "position": 7,
+      "display_position": "7º",
+      "number": 4,
+      "competitor": "Garmichel Rodrigues Giehl",
+      "nationality": "Brasil",
+      "team": "Independente",
+      "points": 117,
+      "profile_url": "https://mx1gpbrasil.com.br/player/garmichel-rodrigues-giehl/"
+    },
+    {
+      "category": "MX2",
+      "position": 8,
+      "display_position": "8º",
+      "number": 81,
+      "competitor": "Gabriel Cirino",
+      "nationality": "Brasil",
+      "team": "Belco Racing",
+      "points": 115,
+      "profile_url": "https://mx1gpbrasil.com.br/player/gabriel-cirino/"
+    },
+    {
+      "category": "MX2",
+      "position": 9,
+      "display_position": "9º",
+      "number": 102,
+      "competitor": "Rodrigo Stuardo",
+      "nationality": "Brasil",
+      "team": "Independente",
+      "points": 95,
+      "profile_url": "https://mx1gpbrasil.com.br/player/rodrigo-stuardo/"
+    },
+    {
+      "category": "MX2",
+      "position": 10,
+      "display_position": "10º",
+      "number": 213,
+      "competitor": "Wagner Guilherme",
+      "nationality": "Brasil",
+      "team": "Independente",
+      "points": 79,
+      "profile_url": "https://mx1gpbrasil.com.br/player/wagner-guilherme/"
+    }
+  ],
+  "latest_result": {
+    "event": "6ª etapa — Goiânia",
+    "session": "Resultado geral",
+    "date": "2026-06-21",
+    "note": "Glenn Coldenhoff venceu as duas baterias da MX1. Benjamin Garib e Salvador Pérez empataram em 47 pontos na MX2, com Garib vencedor do overall.",
+    "source_url": "https://cbm.esp.br/noticias/2026/06/23/lideres-nao-vencem-no-domingo-e-disputas-por-titulo-esquentam-em-goiania",
+    "classification": [
+      {
+        "category": "MX1",
+        "position": 1,
+        "display_position": "1º",
+        "competitor": "Glenn Coldenhoff",
+        "team": "Yamaha C6 Bank IMS",
+        "points": 50
+      },
+      {
+        "category": "MX1",
+        "position": 2,
+        "display_position": "2º",
+        "competitor": "Enzo Lopes",
+        "team": "Honda Racing Brasil",
+        "points": 42
+      },
+      {
+        "category": "MX1",
+        "position": 3,
+        "display_position": "3º",
+        "competitor": "Jeremy Van Horebeek",
+        "team": "Honda Racing",
+        "points": 40
+      },
+      {
+        "category": "MX1",
+        "position": 4,
+        "display_position": "4º",
+        "competitor": "Fábio Aparecido Santos",
+        "team": "Yamaha Monster Energy Geração",
+        "points": 36
+      },
+      {
+        "category": "MX1",
+        "position": 5,
+        "display_position": "5º",
+        "competitor": "Gregory Aranda",
+        "team": "595 Pro Tork KTM",
+        "points": 31
+      },
+      {
+        "category": "MX2",
+        "position": 1,
+        "display_position": "1º",
+        "competitor": "Benjamin Garib",
+        "team": "JP Pro Honda Baterias Pioneiro",
+        "points": 47
+      },
+      {
+        "category": "MX2",
+        "position": 2,
+        "display_position": "2º",
+        "competitor": "Salvador Pérez",
+        "team": "Yamaha Monster Energy Geração",
+        "points": 47
+      },
+      {
+        "category": "MX2",
+        "position": 3,
+        "display_position": "3º",
+        "competitor": "Henrique Henicka",
+        "team": "595 Pro Tork KTM",
+        "points": 40
+      },
+      {
+        "category": "MX2",
+        "position": 4,
+        "display_position": "4º",
+        "competitor": "Pietro Piroli",
+        "team": "Honda Racing Brasil",
+        "points": 36
+      },
+      {
+        "category": "MX2",
+        "position": 5,
+        "display_position": "5º",
+        "competitor": "Gabriel Cirino",
+        "team": "Belco Racing",
+        "points": 32
+      }
+    ]
+  },
   "rounds": [
     {
+      "order": 1,
+      "start_date": "2026-04-12",
+      "name": "1ª etapa",
+      "location": "Canelinha/SC",
+      "status": "concluida"
+    },
+    {
+      "order": 2,
+      "start_date": "2026-04-26",
+      "name": "2ª etapa",
+      "location": "Ponta Grossa/PR",
+      "status": "concluida"
+    },
+    {
+      "order": 3,
+      "start_date": "2026-05-03",
+      "name": "3ª etapa",
+      "location": "Castro/PR",
+      "status": "concluida"
+    },
+    {
+      "order": 4,
+      "start_date": "2026-05-24",
+      "name": "4ª etapa",
+      "location": "Cuiabá/MT",
+      "status": "concluida"
+    },
+    {
+      "order": 5,
+      "start_date": "2026-06-07",
+      "name": "5ª etapa",
+      "location": "Palmas/TO",
+      "status": "concluida"
+    },
+    {
+      "order": 6,
+      "start_date": "2026-06-21",
+      "name": "6ª etapa",
+      "location": "Goiânia/GO",
+      "winner": "Glenn Coldenhoff (MX1) · Benjamin Garib (MX2)"
+    },
+    {
       "order": 7,
-      "start_date": "2026-07-31",
-      "name": "7ª e 8ª etapas",
+      "start_date": "2026-07-30",
+      "end_date": "2026-08-02",
+      "name": "7ª e 8ª etapas — Etapa da Moda",
       "location": "Santa Cruz do Capibaribe/PE",
       "status": "agendada"
     },
@@ -42,70 +405,66 @@
       "order": 9,
       "start_date": "2026-09-12",
       "end_date": "2026-09-13",
-      "name": "9ª etapa",
-      "location": "Brumadinho/MG",
-      "status": "agendada"
-    },
-    {
-      "order": 10,
-      "start_date": "2026-09-13",
-      "name": "10ª etapa",
-      "location": "A confirmar",
-      "status": "agendada"
-    },
-    {
-      "order": 11,
-      "start_date": "2026-09-27",
-      "name": "11ª etapa",
-      "location": "A confirmar",
+      "name": "9ª e 10ª etapas",
+      "location": "Brumadinho/MG · programação final a confirmar",
       "status": "agendada"
     }
   ],
   "related_videos": [],
-  "body": "## Temporada 2026\n\nCampeonato Brasileiro de Motocross 2026 é acompanhada pela TVDUASRODAS na modalidade Motocross, sob organização de CBM / PROMOX. O status registrado é em_andamento.\n\n## Próxima etapa e calendário\n\nA referência mais recente é 7ª e 8ª etapas, com data 2026-07-31 e local Santa Cruz do Capibaribe · PE. Alterações de data e local são conferidas nos canais oficiais.\n\n## Classificação e resultados\n\nAs fontes oficiais consultadas ainda não disponibilizaram classificação consolidada para publicação. Quando houver documento oficial, atletas, equipes, categorias, posições, tempos e pontos serão publicados com páginas relacionadas para os competidores identificados.\n\n## Fontes\n\nA apuração registra Canal oficial ou página indicada pela entidade; Resultados oficiais; Campeonato Brasileiro de Motocross | Honda Racing. Cada link permanece visível na página para permitir a conferência dos dados e da data de atualização.",
+  "body": "## A temporada depois de seis etapas\n\nO Campeonato Brasileiro de Motocross, promovido como MX1 GP Brasil Sportbay 2026, chegou à reta decisiva com duas disputas apertadas nas categorias principais. A classificação publicada pelo organizador reúne os resultados de Canelinha, Ponta Grossa, Castro, Cuiabá, Palmas e Goiânia.\n\n## Enzo Lopes sustenta a liderança da MX1\n\nEnzo Lopes soma 275 pontos e conserva o red plate, mas Glenn Coldenhoff reduziu a diferença para 18 pontos depois de vencer em Palmas, ganhar a bateria adiada de Castro e dominar a rodada de Goiânia. Jeremy Van Horebeek e Gregory Aranda aparecem empatados com 187 pontos; Fábio Santos completa os cinco primeiros com 179.\n\n## Salvador Pérez lidera a MX2\n\nNa MX2, Salvador Pérez lidera com 282 pontos. Henrique Henicka ocupa a segunda posição com 240, seguido por Pietro Piroli, com 227, e Benjamin Garib, com 226. A diferença de apenas um ponto entre Piroli e Garib deixa a disputa pelo terceiro lugar especialmente aberta.\n\n## Resultado mais recente: Goiânia\n\nGlenn Coldenhoff venceu as duas baterias da MX1 na sexta etapa e marcou 50 pontos. Enzo Lopes foi segundo com 42, enquanto Jeremy Van Horebeek completou o pódio com 40. Na MX2, Benjamin Garib venceu o overall após empatar em 47 pontos com Salvador Pérez; Henrique Henicka foi terceiro.\n\n## Santa Cruz do Capibaribe recebe etapa dupla\n\nA Etapa da Moda será realizada entre 30 de julho e 2 de agosto, com atividades de pista de sexta-feira a domingo na estrutura montada às margens do km 15 da Rodovia PE-160. O encontro vale pelas 7ª e 8ª etapas do Brasileiro e também abre o Campeonato Sul-Americano de Motocross MX1/MX2. A organização prevê cerca de 500 pilotos de mais de 22 países, arquibancadas, camarotes, duas praças de alimentação e visitação ao paddock.\n\nOs ingressos divulgados pelo organizador custam R$ 70 por dia, R$ 35 na meia-entrada ou R$ 40 mais 1 kg de alimento na Entrada Solidária. Como valores e programação podem mudar, a confirmação final deve ser feita no site oficial do MX1 GP Brasil.\n\n## Páginas dos pilotos\n\nOs nomes nas tabelas de classificação e de resultado levam a páginas individuais da TVDUASRODAS. Cada página reúne número, equipe, categoria, posição, pontuação e acesso ao perfil publicado pelo organizador da competição.",
   "sources": [
     {
-      "url": "https://www.cbm.esp.br/",
-      "label": "Canal oficial ou página indicada pela entidade",
-      "type": "fonte primária ou canal oficial",
-      "supports": "dados de agenda, identificação e situação do evento"
+      "url": "https://mx1gpbrasil.com.br/",
+      "label": "MX1 GP Brasil — resultados, classificação e perfis dos pilotos",
+      "type": "organizador oficial",
+      "supports": "classificação geral por categoria, equipes, números, pontos, calendário e perfis"
     },
     {
-      "url": "https://www.cbm.esp.br/site/public/calendario",
-      "label": "Resultados oficiais",
-      "type": "fonte primária ou canal oficial",
-      "supports": "dados de agenda, identificação e situação do evento"
+      "url": "https://cbm.esp.br/noticias/2026/06/23/lideres-nao-vencem-no-domingo-e-disputas-por-titulo-esquentam-em-goiania",
+      "label": "CBM — resultado da 6ª etapa em Goiânia",
+      "type": "entidade homologadora",
+      "supports": "pódios, pontos e contexto esportivo das categorias MX1 e MX2"
     },
     {
-      "url": "https://www.honda.com.br/racing/motocross/brasileiro-de-motocross",
-      "label": "Campeonato Brasileiro de Motocross | Honda Racing",
-      "type": "fonte específica independente",
-      "supports": "data e edição, resultados ou classificação",
-      "relevance_score": 14,
-      "discovery_method": "busca_editorial_indexada"
+      "url": "https://mx1gpbrasil.com.br/santa-cruz-do-capibaribe-recoloca-o-nordeste-no-centro-do-motocross-com-etapa-dupla-do-mx1gp-brasil/",
+      "label": "MX1 GP Brasil — etapa dupla de Santa Cruz do Capibaribe",
+      "type": "organizador oficial",
+      "supports": "datas, local, estrutura, programação e ingressos da Etapa da Moda"
+    },
+    {
+      "url": "https://www.cbm.esp.br/site/public/index.php/modalidades/motocross",
+      "label": "CBM — calendário e modalidade Motocross",
+      "type": "entidade homologadora",
+      "supports": "próximas etapas e categorias oficiais"
+    },
+    {
+      "url": "https://cbm.esp.br/content/competitions/attachments/regulamento-2026-mx1-gp-brasil-34-1766148856.pdf",
+      "label": "Regulamento oficial do MX1 GP Brasil 2026",
+      "type": "documento oficial",
+      "supports": "regras esportivas, categorias e homologação"
     }
   ],
-  "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
+  "source_checked_at": "2026-07-29T04:00:00+00:00",
   "research_status": {
     "required_specific_independent_sources": 2,
     "specific_independent_domains_found": 2,
-    "status": "fontes_cruzadas",
+    "status": "fontes_oficiais_cruzadas",
     "attempts": [
-      "busca por título exato, cidade, UF e ano",
-      "busca ampliada por programação, organizador, prefeitura e imprensa local",
-      "busca visual/social em Instagram, Facebook e YouTube"
+      "classificação e perfis no portal oficial do MX1 GP Brasil",
+      "resultados e calendário na Confederação Brasileira de Motociclismo",
+      "regulamento oficial da temporada 2026"
     ],
-    "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
-    "editorial_rule": "Dados confirmados por duas ou mais fontes específicas independentes."
+    "reviewed_at": "2026-07-29T04:00:00+00:00",
+    "editorial_rule": "Dados esportivos conferidos no organizador e na entidade homologadora."
   },
   "classification_status": {
-    "status": "aguardando_publicacao_oficial",
-    "checked_at": "2026-07-26T07:23:03.255263+00:00",
-    "note": "As fontes oficiais consultadas ainda não disponibilizaram classificação consolidada para publicação."
+    "status": "publicado",
+    "checked_at": "2026-07-29T04:00:00+00:00",
+    "note": "Top 10 das categorias MX1 e MX2 publicado após seis etapas."
   },
   "calendar_status": {
-    "status": "publicado",
-    "checked_at": "2026-07-26T07:23:03.255263+00:00",
-    "note": "Etapas disponíveis na tabela da página."
+    "status": "publicado_com_confirmacao_pendente",
+    "checked_at": "2026-07-29T04:00:00+00:00",
+    "note": "Etapa dupla de Santa Cruz confirmada; programação final de setembro deve ser reconfirmada nos canais oficiais."
   }
 }
