@@ -70,20 +70,6 @@
       "source": "content/events/agenda-comunitaria-2026.json#1-encontro-dos-motopapos-nossa-senhora-do-socorro-se-2026-09-12"
     },
     {
-      "title": "1 Irmaos de Alma",
-      "type": "Evento da agenda",
-      "slug": "1-irmaos-de-alma-alto-paraiso-de-goias-go-2026-07-31",
-      "date": "2026-07-31",
-      "category": "Encontro de motociclistas",
-      "city": "Alto Paraiso de Goias",
-      "state": "GO",
-      "status": "agendada",
-      "summary": "Encontro de motociclistas em Alto Paraiso de Goias/GO, com data divulgada para 2026-07-31. O flyer foi inspecionado localmente; serviços identificados: programação detalhada não identificada de forma legível no flyer.",
-      "url": "/eventos/1-irmaos-de-alma-alto-paraiso-de-goias-go-2026-07-31/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#1-irmaos-de-alma-alto-paraiso-de-goias-go-2026-07-31"
-    },
-    {
       "title": "1 Moto acampamento Raiz",
       "type": "Evento da agenda",
       "slug": "1-moto-acampamento-raiz-itanhandu-mg-2026-08-07",
@@ -418,6 +404,20 @@
       "url": "/eventos/motorock-brumado-ba-2026-07-31/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#motorock-brumado-ba-2026-07-31"
+    },
+    {
+      "title": "1º Irmãos de Alma S.O. Old School",
+      "type": "Evento da agenda",
+      "slug": "1-irmaos-de-alma-alto-paraiso-de-goias-go-2026-07-31",
+      "date": "2026-07-31",
+      "category": "Encontro de motociclistas",
+      "city": "Alto Paraíso de Goiás",
+      "state": "GO",
+      "status": "agendada",
+      "summary": "O 1º Irmãos de Alma S.O. Old School acontece de 31 de julho a 2 de agosto de 2026, na Casa Borba, GO-239, km 11, na Chapada dos Veadeiros, com música, fogueira, cerveja e costelão free no sábado.",
+      "url": "/eventos/1-irmaos-de-alma-alto-paraiso-de-goias-go-2026-07-31/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#1-irmaos-de-alma-alto-paraiso-de-goias-go-2026-07-31"
     },
     {
       "title": "2 Biker Fest",
