@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "total": 726,
+  "total": 727,
   "counts": {
     "Competição": 20,
     "Configuração da home": 2,
     "Etapa esportiva": 62,
-    "Evento": 11,
+    "Evento": 12,
     "Evento da agenda": 557,
     "Matéria": 42,
     "Matéria do acervo": 4,
@@ -8104,6 +8104,20 @@
       "url": "/eventos/novo-amanha-me-limeira-sp-2026-09-05/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#novo-amanha-me-limeira-sp-2026-09-05"
+    },
+    {
+      "title": "Nubank Ultravioleta IRONMAN 70.3 Rio de Janeiro 2026",
+      "type": "Evento",
+      "slug": "ironman-70-3-rio-de-janeiro-2026",
+      "date": "2026-08-06",
+      "category": "Triatlo",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "status": "proximo",
+      "summary": "A décima edição reúne cerca de 1.800 triatletas de 23 países. A programação começa em 6 de agosto; a prova será no domingo, 9 de agosto, com largada em Copacabana e chegada na Marina da Glória.",
+      "url": "/eventos/ironman-70-3-rio-de-janeiro-2026/",
+      "edit_url": "/admin/#/collections/events/entries/ironman-70-3-rio-de-janeiro-2026",
+      "source": "content/events/ironman-70-3-rio-de-janeiro-2026.json"
     },
     {
       "title": "O futuro das ciclovias: como tecnologia e dados estão redesenhando as cidades",

@@ -1,0 +1,95 @@
+{
+  "title": "Nubank Ultravioleta IRONMAN 70.3 Rio de Janeiro 2026",
+  "short_name": "IRONMAN 70.3 Rio de Janeiro",
+  "start_date": "2026-08-06",
+  "end_date": "2026-08-09",
+  "city": "Rio de Janeiro",
+  "state": "RJ",
+  "country": "Brasil",
+  "scope": "Internacional",
+  "region": "Sudeste",
+  "venue": "Praia de Copacabana e AXIA Marina da Glória",
+  "status": "proximo",
+  "event_type": "Triatlo",
+  "segment": "Bicicletas",
+  "official_url": "https://www.ironman.com/races/im703-rio-de-janeiro",
+  "ticket_url": "https://www.ironman.com/races/im703-rio-de-janeiro/register",
+  "cover": "/assets/img/uploads/ironman-70-3-rio-2026-largada-oficial.webp",
+  "image_credit": "Foto: Unlimited Sports/Divulgação (arquivo da edição de 2025)",
+  "featured": true,
+  "free": false,
+  "summary": "A décima edição reúne cerca de 1.800 triatletas de 23 países. A programação começa em 6 de agosto; a prova será no domingo, 9 de agosto, com largada em Copacabana e chegada na Marina da Glória.",
+  "attractions": [
+    "Cerca de 1.800 atletas de 23 países",
+    "Largada da elite masculina às 6h30",
+    "Largada da elite feminina às 6h35",
+    "Largada dos amadores entre 6h45 e 7h",
+    "Natação na Praia de Copacabana",
+    "Chegada na AXIA Marina da Glória",
+    "IRONMAN Village de 6 a 9 de agosto",
+    "IRONKIDS no sábado, 8 de agosto",
+    "Vagas para o IRONMAN 70.3 World Championship 2027"
+  ],
+  "videos": [],
+  "body": "## Evento internacional no Rio\n\nA décima edição do Nubank Ultravioleta IRONMAN 70.3 Rio de Janeiro reunirá cerca de 1.800 triatletas de 23 países. Segundo a organização, 1.514 inscritos são brasileiros. A prova principal acontece no domingo, 9 de agosto, com natação em Copacabana, percurso de ciclismo por cartões-postais da cidade e chegada na AXIA Marina da Glória.\n\n## Programação da semana\n\nO IRONMAN Village abre na quinta-feira, 6 de agosto, às 14h, na Marina da Glória. A entrega de kits segue na quinta e na sexta-feira, sempre com horário agendado. No sábado, 8 de agosto, haverá IRONKIDS às 8h, coletiva de imprensa às 10h30 e bike check-in no Forte de Copacabana entre 13h30 e 18h30.\n\n## Domingo de prova\n\nA área de transição 1 abre às 5h. A elite masculina larga às 6h30, a feminina às 6h35 e os amadores entre 6h45 e 7h. A premiação do top 3 geral está prevista para 11h. O resultado oficial e o período para contestações serão das 17h às 18h; a premiação por faixa etária e a cerimônia de vagas para o Mundial de 2027 começam às 19h.\n\n## Locais\n\nA natação será na Praia de Copacabana, na Avenida Atlântica, 3716, entre os postos 5 e 6. A transição 1 fica no Forte de Copacabana, na Praça Coronel Eugênio Franco, 1. O IRONMAN Village, a transição 2 e a chegada ficam na AXIA Marina da Glória, na Avenida Infante Dom Henrique, s/n, Glória.\n\n## Inscrições e acompanhamento\n\nAs inscrições individuais aparecem como esgotadas no canal oficial do IRONMAN. A programação pode mudar sem aviso prévio; atletas e público devem conferir as atualizações da organização antes de se deslocar.",
+  "last_updated": "2026-07-29T17:50:00-04:00",
+  "timezone": "America/Sao_Paulo",
+  "local_start": "2026-08-06T14:00:00-03:00",
+  "local_end": "2026-08-09T20:00:00-03:00",
+  "time_label": "Programação de 6 a 9 de agosto; prova principal em 9/8, com primeira largada às 6h30",
+  "street_address": "Avenida Atlântica, 3716",
+  "neighborhood": "Copacabana",
+  "full_address": "Largada: Avenida Atlântica, 3716, entre os postos 5 e 6, Copacabana; chegada: AXIA Marina da Glória, Avenida Infante Dom Henrique, s/n, Glória, Rio de Janeiro - RJ",
+  "admission_status": "Inscrições individuais esgotadas; consulte a organização para regras de acesso do público às áreas do evento",
+  "parking": "Não informado nas páginas oficiais consultadas; a organização recomenda acompanhar as orientações da semana da prova",
+  "organizer": "Unlimited Sports",
+  "source_url": "https://unlimitedsports.com.br/ironman-70-3-rio-de-janeiro/programacao-ironman-70-3-rio-de-janeiro/",
+  "source_label": "Programação oficial do IRONMAN 70.3 Rio de Janeiro 2026",
+  "verification_status": "fontes_oficiais_cruzadas_com_foto_inspecionada",
+  "source_checked_at": "2026-07-29T17:50:00-04:00",
+  "status_checked_at": "2026-07-29T17:50:00-04:00",
+  "visual_verification": {
+    "type": "foto_oficial_da_edicao_anterior",
+    "source_url": "https://unlimitedsports.com.br/wp-content/uploads/2026/07/468105_1211727_2025ironriolargbaico.webp",
+    "checked_at": "2026-07-29T17:50:00-04:00",
+    "confirmed_fields": [
+      "modalidade",
+      "identidade visual do circuito",
+      "largada em Copacabana"
+    ],
+    "context_note": "Imagem oficial de divulgação da edição de 2025, usada como arquivo e identificada assim no crédito; não representa a prova de 2026 já realizada."
+  },
+  "sources": [
+    {
+      "url": "https://www.ironman.com/races/im703-rio-de-janeiro/schedule",
+      "label": "IRONMAN — programação oficial 2026",
+      "type": "fonte primária",
+      "supports": "datas, horários, locais e cerimônias"
+    },
+    {
+      "url": "https://www.ironman.com/races/im703-rio-de-janeiro/register",
+      "label": "IRONMAN — inscrições",
+      "type": "fonte primária",
+      "supports": "data da prova e inscrições esgotadas"
+    },
+    {
+      "url": "https://unlimitedsports.com.br/atletas-de-23-paises-disputam-o-nubank-ultravioleta-ironman-70-3-rio-de-janeiro/",
+      "label": "Unlimited Sports — comunicado oficial",
+      "type": "fonte primária da organizadora",
+      "supports": "edição, número de atletas, países, percurso, organizador e imagem"
+    },
+    {
+      "url": "https://bikemagazine.com.br/2026/07/agenda-calendario-ironman-70-3-rio-de-janeiro-reune-1-800-triatletas-de-23-paises-em-edicao-historica/",
+      "label": "Bikemagazine — agenda",
+      "type": "fonte editorial independente",
+      "supports": "data, público internacional e contexto esportivo"
+    }
+  ],
+  "research_status": {
+    "required_specific_independent_sources": 2,
+    "specific_independent_domains_found": 3,
+    "status": "fontes_cruzadas",
+    "reviewed_at": "2026-07-29T17:50:00-04:00",
+    "editorial_rule": "Dados de serviço confirmados nos canais do IRONMAN e da Unlimited Sports e cruzados com a pauta enviada da Bikemagazine."
+  }
+}

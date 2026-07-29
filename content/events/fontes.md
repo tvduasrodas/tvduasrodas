@@ -46,3 +46,12 @@ Fontes oficiais continuam sendo a referência para datas, locais e programação
 - A Prefeitura de Santa Maria Madalena foi consultada para contexto da edição de 2025, não para atribuir programação antiga ao evento de 2026: https://www.pmsmm.rj.gov.br/noticias?data=24-07-2025&id=2009&secretaria=turismo&titulo=vem_ai_o_xxi_encontro_de_motociclistas_de_santa_maria_madalena
 
 - 2º Bike Fest Poá — flyer publicado por Welcome Riders Brasil: https://www.instagram.com/p/DbBWgWykh3V/ — inspeção visual em 26/07/2026, às 00h27 Eastern. A arte confirmou 25 de julho, início a partir das 12h, Rua da Câmara Municipal de Poá, Centro, Poá/SP, CEP 08557-000, Destroyer Kiss, Prowler / Iron Maiden, Mitika Rock, Alexandre Tomate & Igor, praça de alimentação, acessórios para motos e apoio da Prefeitura Municipal de Poá. O material não informou entrada, estacionamento, camping, acessibilidade nem classificação etária. O flyer foi usado somente como fonte factual; não foi publicado nem incorporado ao acervo de imagens do portal, pois a inspeção não concedeu licença de reprodução.
+# Nubank Ultravioleta IRONMAN 70.3 Rio de Janeiro 2026
+
+- Consulta: 29 de julho de 2026.
+- Evento e programação: [IRONMAN](https://www.ironman.com/races/im703-rio-de-janeiro/schedule) e [Unlimited Sports](https://unlimitedsports.com.br/ironman-70-3-rio-de-janeiro/programacao-ironman-70-3-rio-de-janeiro/).
+- Comunicado oficial: [Unlimited Sports](https://unlimitedsports.com.br/atletas-de-23-paises-disputam-o-nubank-ultravioleta-ironman-70-3-rio-de-janeiro/).
+- Fonte editorial enviada: [Bikemagazine](https://bikemagazine.com.br/2026/07/agenda-calendario-ironman-70-3-rio-de-janeiro-reune-1-800-triatletas-de-23-paises-em-edicao-historica/).
+- Imagem: `468105_1211727_2025ironriolargbaico.webp`, publicada no comunicado da organizadora como foto de divulgação. Titular/crédito: Unlimited Sports/Divulgação. A fotografia retrata a edição de 2025 e foi identificada como arquivo na legenda do portal.
+- Arquivo original consultado: 1600 × 1066 px, WebP, 323.420 bytes.
+- Arquivo publicado: `assets/img/uploads/ironman-70-3-rio-2026-largada-oficial.webp`, 1600 × 1066 px, WebP qualidade 82, 323.902 bytes. Sem ampliação, corte ou remoção de marca.
