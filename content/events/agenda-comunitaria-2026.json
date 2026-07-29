@@ -8161,57 +8161,64 @@
     },
     {
       "slug": "1-irmaos-de-alma-alto-paraiso-de-goias-go-2026-07-31",
-      "title": "1 Irmaos de Alma",
-      "short_name": "1 Irmaos de Alma",
+      "title": "1º Irmãos de Alma S.O. Old School",
+      "short_name": "1º Irmãos de Alma",
       "start_date": "2026-07-31",
       "end_date": "2026-08-02",
-      "city": "Alto Paraiso de Goias",
+      "city": "Alto Paraíso de Goiás",
       "state": "GO",
       "country": "Brasil",
       "scope": "Nacional",
       "region": "Centro-Oeste",
-      "venue": "Local detalhado não informado de forma legível no flyer",
+      "venue": "Casa Borba",
       "status": "agendada",
       "event_type": "Encontro de motociclistas",
       "segment": "Motos",
       "official_url": "https://jb-rider.com.br/evento/20260731-3-1-irmaos-de-alma-alto-paraiso-de-goias-go",
       "source_url": "https://jb-rider.com.br/eventos/20260731_3__1%20Irmaos%20de%20Alma_Alto%20Paraiso%20de%20Goias_GO.jpeg",
       "source_label": "Flyer específico indexado pela JB-RIDER",
-      "verification_status": "flyer_reinspecionado_com_validacao_conservadora",
+      "verification_status": "flyer_reinspecionado_manualmente_com_servico_completo",
       "cover": "/assets/img/competicoes-eventos-default.svg",
       "image_credit": "Arte: TVDUASRODAS",
       "featured": false,
       "free": false,
-      "summary": "Encontro de motociclistas em Alto Paraiso de Goias/GO, com data divulgada para 2026-07-31. O flyer foi inspecionado localmente; serviços identificados: programação detalhada não identificada de forma legível no flyer.",
+      "summary": "O 1º Irmãos de Alma S.O. Old School acontece de 31 de julho a 2 de agosto de 2026, na Casa Borba, GO-239, km 11, na Chapada dos Veadeiros, com música, fogueira, cerveja e costelão free no sábado.",
       "attractions": [
-        "Programação detalhada não identificada de forma legível no flyer"
+        "Fogueira",
+        "Música ao vivo",
+        "Cerveja",
+        "Costelão free no sábado"
       ],
-      "body": "## Serviço verificado\n\n1 Irmaos de Alma tem data divulgada de 2026-07-31 a 2026-08-02, em Alto Paraiso de Goias/GO. Horário não informado de forma legível no flyer consultado.\n\n## Local e endereço\n\nEndereço detalhado não informado no flyer; referência: Alto Paraiso de Goias - GO. Quando o endereço não aparece de forma legível, a TVDUASRODAS mantém essa ausência explícita e não inventa rua, número ou CEP.\n\n## Programação e estrutura\n\nProgramação detalhada não identificada de forma legível no flyer. Os nomes e horários que não atingiram confiança suficiente no processamento visual não foram transformados em informação pública.\n\n## Acesso, estacionamento e contato\n\nNão informado de forma legível no flyer consultado. Não informado de forma legível no flyer consultado. Contato não identificado de forma legível no flyer.\n\n## Leitura visual complementar\n\nMarcas de horário legíveis: 16h00, 14h00. Contatos impressos: (61) 99806-8256. A leitura automatizada foi usada como apoio; trechos ambíguos não foram publicados como fato.\n## Fonte e atualização\n\nA data, a cidade e os sinais de serviço foram confrontados com o flyer específico indexado pela JB-RIDER. A arte original permanece vinculada para conferência de mudanças e detalhes.",
-      "last_updated": "2026-07-26T09:57:55.808145+00:00",
+      "body": "## Serviço verificado\n\nO 1º Irmãos de Alma S.O. Old School acontece de 31 de julho a 2 de agosto de 2026, na região da Chapada dos Veadeiros, em Alto Paraíso de Goiás.\n\n## Local e endereço\n\nO cartaz indica a Casa Borba, na Rodovia GO-239, km 11, como local do encontro. O telefone divulgado para contato é (61) 99806-8256.\n\n## Programação\n\n### Sexta-feira, 31 de julho — a partir das 16h\n\n- Fogueira\n- Música ao vivo\n- Cerveja\n\n### Sábado, 1º de agosto — a partir das 14h\n\n- Costelão free\n- Música ao vivo\n- Fogueira\n- Cerveja\n\nO cartaz confirma o encerramento do período em 2 de agosto, mas não apresenta programação ou horário específico para o domingo.\n\n## Acesso e estacionamento\n\nO material consultado não informa cobrança de ingresso nem condições de estacionamento. Confirme esses detalhes diretamente com a organização antes de viajar.\n\n## Fonte e atualização\n\nAs datas, o endereço, o contato e a programação foram conferidos visualmente no cartaz específico do evento. A arte original permanece vinculada como fonte para conferência de eventuais alterações.",
+      "last_updated": "2026-07-28T22:35:00-04:00",
       "timezone": "America/Sao_Paulo",
-      "time_label": "Horários identificados no flyer: 16h00, 14h00; confirme a atividade correspondente com a organização",
-      "street_address": "Endereço detalhado não informado de forma legível no flyer",
-      "full_address": "Endereço detalhado não informado no flyer; referência: Alto Paraiso de Goias - GO",
-      "status_basis": "Data futura divulgada no flyer e na agenda comunitária; confirme alterações antes de viajar.",
-      "status_checked_at": "2026-07-26T05:07:49.077000+00:00",
-      "organizer": "Organização não identificada de forma legível no flyer consultado",
+      "local_start": "2026-07-31T16:00:00-03:00",
+      "local_end": "",
+      "time_label": "31 de julho a partir das 16h; 1º de agosto a partir das 14h; horário de 2 de agosto não divulgado",
+      "street_address": "Rodovia GO-239, km 11",
+      "full_address": "Casa Borba, Rodovia GO-239, km 11, Alto Paraíso de Goiás - GO",
+      "status_basis": "Evento futuro confirmado no cartaz para 31 de julho a 2 de agosto de 2026.",
+      "status_checked_at": "2026-07-28T22:35:00-04:00",
+      "organizer": "Irmãos de Alma S.O. Old School",
       "contact": "(61) 99806-8256",
-      "source_checked_at": "2026-07-26T09:59:39.372865+00:00",
+      "source_checked_at": "2026-07-28T22:35:00-04:00",
       "visual_verification": {
-        "type": "flyer_reinspecionado_com_ocr_visual",
+        "type": "flyer_reinspecionado_manualmente",
         "source_url": "https://jb-rider.com.br/eventos/20260731_3__1%20Irmaos%20de%20Alma_Alto%20Paraiso%20de%20Goias_GO.jpeg",
         "detail_url": "https://jb-rider.com.br/evento/20260731-3-1-irmaos-de-alma-alto-paraiso-de-goias-go",
-        "checked_at": "2026-07-26T09:57:55.808145+00:00",
-        "ocr_engine": "Windows.Media.Ocr",
-        "ocr_confidence": 28.0,
-        "review_policy": "extração conservadora de padrões estruturados",
+        "checked_at": "2026-07-28T22:35:00-04:00",
+        "review_policy": "conferência visual direta do cartaz em resolução original",
         "confirmed_fields": [
           "date",
           "city",
           "state",
           "event_name",
+          "organizer",
+          "venue",
+          "street_address",
           "contact",
-          "time_marks"
+          "daily_schedule",
+          "attractions"
         ]
       },
       "admission_status": "Não informado de forma legível no flyer consultado",
@@ -8221,13 +8228,13 @@
           "url": "https://jb-rider.com.br/evento/20260731-3-1-irmaos-de-alma-alto-paraiso-de-goias-go",
           "label": "Flyer ou página específica original do evento",
           "type": "evidência visual primária",
-          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+          "supports": "identidade, organização, datas, local, endereço, contato, horários e programação diária"
         },
         {
           "url": "https://jb-rider.com.br/eventos/20260731_3__1%20Irmaos%20de%20Alma_Alto%20Paraiso%20de%20Goias_GO.jpeg",
           "label": "Flyer ou página específica original do evento",
           "type": "evidência visual primária",
-          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+          "supports": "identidade, organização, datas, local, endereço, contato, horários e programação diária"
         }
       ],
       "research_status": {
@@ -8237,7 +8244,7 @@
         "query": [
           "\"1 irmaos de alma\" alto paraiso de goias GO 2026"
         ],
-        "reviewed_at": "2026-07-26T09:59:39.372865+00:00"
+        "reviewed_at": "2026-07-28T22:35:00-04:00"
       }
     },
     {
