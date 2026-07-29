@@ -55,3 +55,10 @@ Fontes oficiais continuam sendo a referência para datas, locais e programação
 - Imagem: `468105_1211727_2025ironriolargbaico.webp`, publicada no comunicado da organizadora como foto de divulgação. Titular/crédito: Unlimited Sports/Divulgação. A fotografia retrata a edição de 2025 e foi identificada como arquivo na legenda do portal.
 - Arquivo original consultado: 1600 × 1066 px, WebP, 323.420 bytes.
 - Arquivo publicado: `assets/img/uploads/ironman-70-3-rio-2026-largada-oficial.webp`, 1600 × 1066 px, WebP qualidade 82, 323.902 bytes. Sem ampliação, corte ou remoção de marca.
+
+## 14º Extrema Motofest 2026
+
+- Prefeitura de Extrema, comunicado oficial de 20/07/2026: https://www.extrema.mg.gov.br/noticias/cultura/14-extrema-motofest-e-antecipado-e-confirma-programacao-com-17-shows-de-rock-incluindo-apresentacoes-de-supla-paulo-miklos-e-detonautas — consulta em 29/07/2026; confirmou período, local, 17 shows e horários, ingressos, estrutura, estacionamento, contato e organização.
+- ExtremaTur, agenda oficial: https://extrematur.com.br/agenda/Eventos/extrema-motofest-2026-14-edicao — consulta em 29/07/2026; confirmou período e Parque Municipal de Eventos. A grade dominical consultada era anterior e divergia do comunicado municipal mais recente; prevaleceu a publicação da Prefeitura de 20/07/2026.
+- Prefeitura de Extrema, Gerência de Esporte, Lazer e Juventude: https://www.extrema.mg.gov.br/secretarias/esporte-lazer-e-juventude/gerencia-de-esporte-lazer-e-juventude — consulta em 29/07/2026; confirmou o endereço Av. Delegado Waldemar Gomes Pinto, 767, dentro do Parque de Eventos.
+- Imagem: a página permanece com a arte-padrão local da TVDUASRODAS. A imagem promocional visível nas fontes oficiais não foi copiada porque as páginas consultadas não apresentavam autorização editorial inequívoca para reprodução; não houve hotlink, download ou uso de imagem gerada por IA.
