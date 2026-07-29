@@ -55,26 +55,4 @@
       <news:title>Brasileiro de Downhill 2026: Roger Vieira e Nara Faria conquistam a Elite</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://tvduasrodas.com/materias/role-de-rua-27-07-2026-cruzamentos/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>TVDUASRODAS</news:name>
-        <news:language>pt</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27T12:08:00-04:00</news:publication_date>
-      <news:title>Rolê de Rua — edição de 27/07/2026: cruzamentos se leem antes da esquina</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://tvduasrodas.com/materias/capacete-de-moto-ajuste-cuidados-quando-trocar/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>TVDUASRODAS</news:name>
-        <news:language>pt</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-27T12:05:00-04:00</news:publication_date>
-      <news:title>Capacete de moto: ajuste, cuidados e quando realmente trocar</news:title>
-    </news:news>
-  </url>
 </urlset>

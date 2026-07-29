@@ -1,16 +1,16 @@
 {
-  "total_records": 649,
+  "total_records": 650,
   "canonical_records": 604,
-  "complete_records": 364,
-  "incomplete_records": 240,
+  "complete_records": 366,
+  "incomplete_records": 238,
   "by_kind": {
     "agenda": {
-      "total": 512,
-      "complete": 278
+      "total": 511,
+      "complete": 279
     },
     "evento": {
-      "total": 10,
-      "complete": 10
+      "total": 11,
+      "complete": 11
     },
     "calendario": {
       "total": 62,
@@ -348,7 +348,7 @@
     {
       "kind": "agenda",
       "slug": "2-motofest-itapevi-sp-2026-07-26",
-      "title": "2 MOTOFEST",
+      "title": "2º Itapevi Moto Fest",
       "date": "2026-07-26",
       "city": "Itapevi",
       "state": "SP",
@@ -637,7 +637,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-bezerros-pe-2026-07-30",
-      "title": "MOTOFEST",
+      "title": "Bezerros Moto Fest",
       "date": "2026-07-30",
       "city": "Bezerros",
       "state": "PE",
@@ -654,7 +654,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-iguatu-ce-2026-07-30",
-      "title": "MOTOFEST",
+      "title": "Iguatu Moto Fest",
       "date": "2026-07-30",
       "city": "Iguatu",
       "state": "CE",
@@ -671,7 +671,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-iguatu-pr-2026-07-30",
-      "title": "MOTOFEST",
+      "title": "Iguatu Moto Fest",
       "date": "2026-07-30",
       "city": "Iguatu",
       "state": "PR",
@@ -688,9 +688,9 @@
     {
       "kind": "agenda",
       "slug": "1-irmaos-de-alma-alto-paraiso-de-goias-go-2026-07-31",
-      "title": "1 Irmaos de Alma",
+      "title": "1º Irmãos de Alma S.O. Old School",
       "date": "2026-07-31",
-      "city": "Alto Paraiso de Goias",
+      "city": "Alto Paraíso de Goiás",
       "state": "GO",
       "source_count": 2,
       "independent_domains": 1,
@@ -739,7 +739,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-serra-es-2026-07-31",
-      "title": "MOTOFEST",
+      "title": "Serra Moto Fest",
       "date": "2026-07-31",
       "city": "Serra",
       "state": "ES",
@@ -1045,7 +1045,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-caiaponia-go-2026-08-05",
-      "title": "MOTOFEST",
+      "title": "Caiapônia Moto Fest",
       "date": "2026-08-05",
       "city": "Caiaponia",
       "state": "GO",
@@ -1079,7 +1079,7 @@
     {
       "kind": "agenda",
       "slug": "2-motofest-coronel-fabriciano-mg-2026-08-07",
-      "title": "2 MOTOFEST",
+      "title": "2º Coronel Fabriciano Moto Fest",
       "date": "2026-08-07",
       "city": "Coronel Fabriciano",
       "state": "MG",
@@ -1096,7 +1096,7 @@
     {
       "kind": "agenda",
       "slug": "ii-moto-festival-pocos-de-caldas-mg-2026-08-07",
-      "title": "II Moto Festival",
+      "title": "II Poços de Caldas Moto Festival",
       "date": "2026-08-07",
       "city": "Pocos de Caldas",
       "state": "MG",
@@ -1113,7 +1113,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-caete-mg-2026-08-07",
-      "title": "MOTOFEST",
+      "title": "Caeté Moto Fest",
       "date": "2026-08-07",
       "city": "Caete",
       "state": "MG",
@@ -1130,7 +1130,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-iati-pe-2026-08-07",
-      "title": "MOTOFEST",
+      "title": "Iati Moto Fest",
       "date": "2026-08-07",
       "city": "Iati",
       "state": "PE",
@@ -1147,7 +1147,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-labrea-am-2026-08-07",
-      "title": "MOTOFEST",
+      "title": "Lábrea Moto Fest",
       "date": "2026-08-07",
       "city": "Labrea",
       "state": "AM",
@@ -1334,7 +1334,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-caete-mg-2026-08-08",
-      "title": "MOTOFEST",
+      "title": "Caeté Moto Fest",
       "date": "2026-08-08",
       "city": "Caete",
       "state": "MG",
@@ -1452,23 +1452,6 @@
     },
     {
       "kind": "agenda",
-      "slug": "22-anos-mantra-mc-sao-joao-da-boa-vista-sp-2026-08-14",
-      "title": "22 Anos",
-      "date": "2026-08-14",
-      "city": "Mantra MC - Sao Joao da Boa Vista",
-      "state": "SP",
-      "source_count": 2,
-      "independent_domains": 1,
-      "specific_independent_domains": 1,
-      "placeholder_fields": 4,
-      "missing": [
-        "duas_fontes_especificas_independentes"
-      ],
-      "complete": false,
-      "duplicate_of": null
-    },
-    {
-      "kind": "agenda",
       "slug": "caveiras-brasil-mc-petropolis-rj-2026-08-14",
       "title": "Caveiras Brasil MC",
       "date": "2026-08-14",
@@ -1521,7 +1504,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-correntina-ba-2026-08-14",
-      "title": "MOTOFEST",
+      "title": "Correntina Moto Fest",
       "date": "2026-08-14",
       "city": "Correntina",
       "state": "BA",
@@ -1538,7 +1521,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-iati-pe-2026-08-14",
-      "title": "MOTOFEST",
+      "title": "Iati Moto Fest",
       "date": "2026-08-14",
       "city": "Iati",
       "state": "PE",
@@ -1555,7 +1538,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-lambari-mg-2026-08-14",
-      "title": "MOTOFEST",
+      "title": "Lambari Moto Fest",
       "date": "2026-08-14",
       "city": "Lambari",
       "state": "MG",
@@ -1572,7 +1555,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-piunhi-mg-2026-08-14",
-      "title": "MOTOFEST",
+      "title": "Piumhi Moto Fest",
       "date": "2026-08-14",
       "city": "Piunhi",
       "state": "MG",
@@ -1696,23 +1679,6 @@
       "city": "Rock Chopper MC - Saquarema",
       "state": "RJ",
       "source_count": 3,
-      "independent_domains": 1,
-      "specific_independent_domains": 1,
-      "placeholder_fields": 4,
-      "missing": [
-        "duas_fontes_especificas_independentes"
-      ],
-      "complete": false,
-      "duplicate_of": null
-    },
-    {
-      "kind": "agenda",
-      "slug": "8-rock-in-rio-ivai-japura-pr-2026-08-15",
-      "title": "8 Rock in Rio Ivai",
-      "date": "2026-08-15",
-      "city": "Japura",
-      "state": "PR",
-      "source_count": 2,
       "independent_domains": 1,
       "specific_independent_domains": 1,
       "placeholder_fields": 4,
@@ -1878,7 +1844,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-araraquara-sp-2026-08-16",
-      "title": "MOTOFEST",
+      "title": "Araraquara Moto Fest",
       "date": "2026-08-16",
       "city": "Araraquara",
       "state": "SP",
@@ -1980,7 +1946,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-cha-grande-pe-2026-08-21",
-      "title": "MOTOFEST",
+      "title": "Chã Grande Moto Fest",
       "date": "2026-08-21",
       "city": "Cha Grande",
       "state": "PE",
@@ -1997,7 +1963,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-luis-eduardo-magalhaes-ba-2026-08-21",
-      "title": "MOTOFEST",
+      "title": "Luís Eduardo Magalhães Moto Fest",
       "date": "2026-08-21",
       "city": "Luis Eduardo Magalhaes",
       "state": "BA",
@@ -2014,7 +1980,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-pojuca-ba-2026-08-21",
-      "title": "MOTOFEST",
+      "title": "Pojuca Moto Fest",
       "date": "2026-08-21",
       "city": "Pojuca",
       "state": "BA",
@@ -2252,7 +2218,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-maceio-al-2026-08-27",
-      "title": "MOTOFEST",
+      "title": "Maceió Moto Fest",
       "date": "2026-08-27",
       "city": "Maceio",
       "state": "AL",
@@ -2269,7 +2235,7 @@
     {
       "kind": "agenda",
       "slug": "moto-fest-senador-amaral-mg-2026-08-28",
-      "title": "MOTO FEST",
+      "title": "Senador Amaral Moto Fest",
       "date": "2026-08-28",
       "city": "Senador Amaral",
       "state": "MG",
@@ -2286,7 +2252,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-alagoinhas-ba-2026-08-28",
-      "title": "MOTOFEST",
+      "title": "Alagoinhas Moto Fest",
       "date": "2026-08-28",
       "city": "Alagoinhas",
       "state": "BA",
@@ -2303,7 +2269,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-araxa-mg-2026-08-28",
-      "title": "MOTOFEST",
+      "title": "Araxá Moto Fest",
       "date": "2026-08-28",
       "city": "Araxa",
       "state": "MG",
@@ -2320,7 +2286,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-juazeiro-do-norte-ce-2026-08-28",
-      "title": "MOTOFEST",
+      "title": "Juazeiro do Norte Moto Fest",
       "date": "2026-08-28",
       "city": "Juazeiro do Norte",
       "state": "CE",
@@ -2422,7 +2388,7 @@
     {
       "kind": "agenda",
       "slug": "2-motofest-vicosa-mg-2026-09-03",
-      "title": "2 MOTOFEST",
+      "title": "2º Viçosa Moto Fest",
       "date": "2026-09-03",
       "city": "Vicosa",
       "state": "MG",
@@ -2541,7 +2507,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-belo-jardim-pe-2026-09-04",
-      "title": "MOTOFEST",
+      "title": "Belo Jardim Moto Fest",
       "date": "2026-09-04",
       "city": "Belo Jardim",
       "state": "PE",
@@ -2558,7 +2524,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-iguaba-grande-rj-2026-09-04",
-      "title": "MOTOFEST",
+      "title": "Iguaba Grande Moto Fest",
       "date": "2026-09-04",
       "city": "Iguaba Grande",
       "state": "RJ",
@@ -2575,7 +2541,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-parelhas-rn-2026-09-04",
-      "title": "MOTOFEST",
+      "title": "Parelhas Moto Fest",
       "date": "2026-09-04",
       "city": "Parelhas",
       "state": "RN",
@@ -2626,7 +2592,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-poco-fundo-mg-2026-09-05",
-      "title": "MOTOFEST",
+      "title": "Poço Fundo Moto Fest",
       "date": "2026-09-05",
       "city": "Poco Fundo",
       "state": "MG",
@@ -2983,7 +2949,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-caruaru-pe-2026-09-17",
-      "title": "MOTOFEST",
+      "title": "Caruaru Moto Fest",
       "date": "2026-09-17",
       "city": "Caruaru",
       "state": "PE",
@@ -3187,7 +3153,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-petrolandia-pe-2026-09-25",
-      "title": "MOTOFEST",
+      "title": "Petrolândia Moto Fest",
       "date": "2026-09-25",
       "city": "Petrolandia",
       "state": "PE",
@@ -3306,7 +3272,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-iacu-ba-2026-10-09",
-      "title": "MOTOFEST",
+      "title": "Iaçu Moto Fest",
       "date": "2026-10-09",
       "city": "Iacu",
       "state": "BA",
@@ -3646,7 +3612,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-carbonita-mg-2026-10-31",
-      "title": "MOTOFEST",
+      "title": "Carbonita Moto Fest",
       "date": "2026-10-31",
       "city": "Carbonita",
       "state": "MG",
@@ -3680,7 +3646,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-barreirinhas-ma-2026-11-06",
-      "title": "MOTOFEST",
+      "title": "Barreirinhas Moto Fest",
       "date": "2026-11-06",
       "city": "Barreirinhas",
       "state": "MA",
@@ -3697,7 +3663,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-tombos-mg-2026-11-06",
-      "title": "MOTOFEST",
+      "title": "Tombos Moto Fest",
       "date": "2026-11-06",
       "city": "Tombos",
       "state": "MG",
@@ -3782,7 +3748,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-atilio-vivacqua-es-2026-11-13",
-      "title": "MOTOFEST",
+      "title": "Atílio Vivácqua Moto Fest",
       "date": "2026-11-13",
       "city": "Atilio Vivacqua",
       "state": "ES",
@@ -3799,7 +3765,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-inhapi-al-2026-11-13",
-      "title": "MOTOFEST",
+      "title": "Inhapi Moto Fest",
       "date": "2026-11-13",
       "city": "Inhapi",
       "state": "AL",
@@ -3816,7 +3782,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-campina-grande-pb-2026-11-19",
-      "title": "MOTOFEST",
+      "title": "Campina Grande Moto Fest",
       "date": "2026-11-19",
       "city": "Campina Grande",
       "state": "PB",
@@ -3884,7 +3850,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-uirauna-pb-2026-11-27",
-      "title": "MOTOFEST",
+      "title": "Uiraúna Moto Fest",
       "date": "2026-11-27",
       "city": "Uirauna",
       "state": "PB",
@@ -3986,7 +3952,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-divino-mg-2026-12-04",
-      "title": "MOTOFEST",
+      "title": "Divino Moto Fest",
       "date": "2026-12-04",
       "city": "Divino",
       "state": "MG",

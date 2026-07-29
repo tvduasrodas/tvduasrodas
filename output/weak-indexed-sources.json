@@ -1,1 +1,15 @@
-[]
+[
+  {
+    "slug": "moto-festival-blumenau-sc-2026-07-31",
+    "title": "Blumenau Moto Festival 2026",
+    "city": "Blumenau",
+    "source": {
+      "url": "https://www.eventoon.com.br/cidade/blumenau-sc",
+      "label": "Evento ON - agenda de Blumenau",
+      "type": "fonte específica independente",
+      "supports": "data, local e endereço",
+      "relevance_score": 18,
+      "discovery_method": "busca_editorial_indexada"
+    }
+  }
+]

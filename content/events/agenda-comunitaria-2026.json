@@ -10357,14 +10357,6 @@
           "supports": "datas, horários, endereço, perfil do evento e estrutura anunciada"
         },
         {
-          "url": "https://www.eventoon.com.br/cidade/blumenau-sc",
-          "label": "Evento ON - agenda de Blumenau",
-          "type": "fonte específica independente",
-          "supports": "data, local e endereço",
-          "relevance_score": 18,
-          "discovery_method": "busca_editorial_indexada"
-        },
-        {
           "url": "https://jb-rider.com.br/evento/20260731-3-moto-festival-blumenau-sc",
           "label": "JB-RIDER - agenda de encontros de motociclistas",
           "type": "agenda especializada independente",
