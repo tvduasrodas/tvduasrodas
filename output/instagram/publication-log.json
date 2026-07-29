@@ -953,6 +953,16 @@
       "publishedAt": "2026-07-28T11:53:00-04:00",
       "publicationConfirmation": "Publicado no compositor oficial da Meta para @tvduasrodasofc; a área de conteúdo retornou à lista de publicações após o envio.",
       "format": "1080x1920, H.264/AAC, 19,25 segundos"
+    },
+    "localCleanup": {
+      "status": "EXCLUIDO_APOS_PUBLICACAO",
+      "deletedAt": "2026-07-29T14:32:40.984122-04:00",
+      "retentionHours": 24.0,
+      "folder": "output/instagram/2026-07-28/move-brasil-2026-motos-honda",
+      "fileCount": 48,
+      "bytesFreed": 30021417,
+      "latestPublishedAt": "2026-07-28T11:53:00-04:00",
+      "reason": "Story e Reel confirmados no Instagram há pelo menos 24 horas."
     }
   },
   {
@@ -1055,6 +1065,46 @@
     "reel": {
       "status": "NAO_ELEGIVEL_URL_INDISPONIVEL",
       "imageAudit": "Publicacao bloqueada: URL publica indisponivel e menos de cinco imagens distintas com direitos verificados."
+    }
+  },
+  {
+    "url": "https://tvduasrodas.com/materias/royal-enfield-shotgun-650-rough-crafts-americas-2026/",
+    "type": "news",
+    "title": "Shotgun 650 Rough Crafts tem só 25 unidades para as Américas",
+    "detectedAt": "2026-07-29T14:32:31-04:00",
+    "validation": {
+      "publicUrl": "CONFIRMADA_PELA_PUBLICACAO_CANONICA",
+      "rights_verified": true,
+      "rights_basis": "Royal Enfield Media declara que as imagens da Shotgun 650 x Rough Crafts são protegidas por copyright, mas livres para uso editorial.",
+      "source_release": "https://royalenfieldmedia-na.com/posts/drop-alert-registrations-open-for-the-limited-edition-royal-enfield-shotgun-650-x-rough-crafts-motorcycles",
+      "imageAudit": "Sete imagens oficiais distintas, com hashes distintos, registradas no manifesto e no recibo de produção."
+    },
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
+    "stories": {
+      "status": "PUBLICADO",
+      "file": "output/instagram/2026-07-29/shotgun-650-rough-crafts/story.mp4",
+      "format": "1080x1920 H.264/AAC",
+      "durationSeconds": 14,
+      "soundtrack": "rock_instrumental_original",
+      "publishedAt": "2026-07-29T14:42:00-04:00",
+      "destination": "Instagram @tvduasrodasofc",
+      "identifier": "18117022495921180",
+      "confirmation": "Meta Business Suite exibiu Story Active às 14:43 Eastern."
+    },
+    "reel": {
+      "status": "PUBLICADO",
+      "file": "output/instagram/2026-07-29/shotgun-650-rough-crafts/reel.mp4",
+      "cover": "output/instagram/2026-07-29/shotgun-650-rough-crafts/reel-cover.jpg",
+      "format": "1080x1920 H.264/AAC",
+      "durationSeconds": 27.25,
+      "soundtrack": "rock_instrumental_original",
+      "transition": "page_peel_diagonal",
+      "sceneCount": 7,
+      "publishedAt": "2026-07-29T14:43:00-04:00",
+      "destination": "Instagram @tvduasrodasofc",
+      "confirmation": "Meta Business Suite exibiu o Reel publicado na lista de conteúdo às 14:43 Eastern."
     }
   }
 ]
