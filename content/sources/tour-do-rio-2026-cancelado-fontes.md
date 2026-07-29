@@ -11,4 +11,8 @@
 
 ## Imagens
 
-As três artes SVG foram produzidas pela TVDUASRODAS. Nenhuma fotografia, logotipo ou imagem de terceiros foi reutilizada. O SVG foi mantido por ser gráfico editorial leve, escalável e com texto legível.
+- Capa: `Japan Cup Cycle Road Race 2024 PA200463.jpg`, foto de Fukumoto, Wikimedia Commons, licença CC BY-SA 4.0. Original 4.321 × 2.880 px e 7.930.361 bytes; publicado em WebP, 1.400 × 933 px, qualidade 72, 336.676 bytes.
+- Corpo: `Japan Cup Cycle Road Race 2024 PA200123.jpg`, foto de Fukumoto, Wikimedia Commons, licença CC BY-SA 4.0. Original 5.206 × 3.470 px e 6.790.734 bytes; publicado em WebP, 1.300 × 867 px, qualidade 74, 211.600 bytes.
+- Páginas de descrição: https://commons.wikimedia.org/wiki/File:Japan_Cup_Cycle_Road_Race_2024_PA200463.jpg e https://commons.wikimedia.org/wiki/File:Japan_Cup_Cycle_Road_Race_2024_PA200123.jpg
+- As fotografias são imagens de arquivo da Japan Cup 2024 e estão identificadas publicamente como ilustrativas; não representam o Tour do Rio 2026.
+- O gráfico de datas foi mantido como complemento explicativo produzido pela TVDUASRODAS.

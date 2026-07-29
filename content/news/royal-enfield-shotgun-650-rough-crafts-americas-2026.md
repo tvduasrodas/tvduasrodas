@@ -11,7 +11,7 @@ readingTime: 5 min
 summary: Royal Enfield abriu a disputa regional pela edição limitada da Shotgun 650; lote das Américas tem 25 motos, mas horário brasileiro precisa de confirmação.
 seoTitle: 'Shotgun 650 Rough Crafts: 25 unidades para as Américas'
 videoId: ''
-cover: /assets/img/uploads/shotgun-650-rough-crafts-2026-capa.svg
+cover: /assets/img/uploads/shotgun-650-rough-crafts-oficial-capa.webp
 featured: true
 kicker: Mercado
 topics: royal enfield, shotgun 650, edicao limitada, mercado, lancamentos
@@ -22,17 +22,17 @@ A Royal Enfield colocou em movimento a venda regional da **Shotgun 650 Rough Cra
 
 O número é regional — não exclusivo do Brasil. A página oficial das Américas indica abertura em **29 de julho, às 10h no horário do leste dos Estados Unidos**. Já a página brasileira de cadastro cita **28 de julho, às 11h de Brasília**. Diante dessa diferença, interessados no país devem confirmar disponibilidade e horário diretamente no canal brasileiro antes de fazer qualquer pagamento.
 
-![Arte editorial da Shotgun 650 Rough Crafts destaca a série global de 100 unidades](/assets/img/uploads/shotgun-650-rough-crafts-2026-capa.svg "Edição limitada criada com a Rough Crafts.")
+![Royal Enfield Shotgun 650 Rough Crafts preta e dourada fotografada em estúdio](/assets/img/uploads/shotgun-650-rough-crafts-oficial-capa.webp "Shotgun 650 Rough Crafts Limited Edition.")
 
-*Arte: TVDUASRODAS. Ilustração conceitual, sem reprodução fotográfica do modelo.*
+*Foto: Royal Enfield/Divulgação.*
 
 ## O que torna a edição especial
 
 A colaboração com o estúdio taiwanês Rough Crafts adota acabamento predominantemente preto, detalhes em latão, banco de couro trabalhado, componentes usinados e elementos exclusivos de carroceria. Cada exemplar é numerado.
 
-![Quadro visual reúne acabamento escuro, detalhes em latão, banco trabalhado e numeração individual](/assets/img/uploads/shotgun-650-rough-crafts-2026-detalhes.svg "Principais elementos visuais da edição.")
+![Shotgun 650 Rough Crafts vista pelo lado traseiro em estúdio](/assets/img/uploads/shotgun-650-rough-crafts-oficial-traseira.webp "A edição combina acabamento preto, filetes dourados e componentes exclusivos.")
 
-*Arte: TVDUASRODAS.*
+*Foto: Royal Enfield/Divulgação.*
 
 ## Base mecânica conhecida
 
@@ -44,9 +44,9 @@ O foco da série, portanto, está na personalização, no acabamento e na rarida
 
 Na página regional, os selecionados precisam efetuar depósito em até **48 horas**. A previsão de entrega informada para a região é de **120 a 180 dias**, sujeita ao processo local.
 
-![Linha do tempo mostra cadastro, seleção, depósito em 48 horas e entrega estimada em 120 a 180 dias](/assets/img/uploads/shotgun-650-rough-crafts-2026-cronograma.svg "Cronograma regional informado pela fabricante.")
+![Vista frontal da Royal Enfield Shotgun 650 Rough Crafts em fundo de estúdio](/assets/img/uploads/shotgun-650-rough-crafts-oficial-frente.webp "Vista frontal da edição limitada.")
 
-*Arte: TVDUASRODAS.*
+*Foto: Royal Enfield/Divulgação.*
 
 Antes de avançar, confirme:
 

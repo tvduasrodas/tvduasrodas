@@ -11,4 +11,7 @@
 
 ## Imagens
 
-As três artes SVG foram produzidas pela TVDUASRODAS. Nenhuma fotografia, logotipo ou imagem de terceiros foi reutilizada. O SVG foi mantido por ser gráfico editorial leve, escalável e com texto legível.
+- Capa: `Foto de um único entregador.jpg`, foto de Natália T. L. Vieira, Wikimedia Commons, licença CC BY-SA 4.0. Original 4.032 × 2.268 px e 1.581.052 bytes; publicado em WebP, 1.600 × 900 px, qualidade 82, 198.036 bytes.
+- Corpo: `Imagens na ecologia digital - Lorenzo1819 - Entregadores pela cidade.jpg`, foto de Lorenzo Cassiano, Wikimedia Commons, licença CC BY-SA 4.0. Original 2.826 × 2.189 px e 988.864 bytes; publicado em WebP, 1.400 × 1.084 px, qualidade 80, 89.084 bytes.
+- Páginas de descrição: https://commons.wikimedia.org/wiki/File:Foto_de_um_%C3%BAnico_entregador.jpg e https://commons.wikimedia.org/wiki/File:Imagens_na_ecologia_digital_-_Lorenzo1819_-_Entregadores_pela_cidade.jpg
+- O quadro de condições foi mantido como complemento explicativo produzido pela TVDUASRODAS.

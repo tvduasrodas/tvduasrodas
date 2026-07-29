@@ -11,7 +11,7 @@ readingTime: 6 min
 summary: Linha para entregadores e trabalhadores de duas rodas começou a operar em 27 de julho; veja requisitos, prazos, taxas divulgadas e cuidados antes de assinar.
 seoTitle: 'Move Brasil: requisitos, taxas e como pedir financiamento'
 videoId: 7nAj1D2TrWU
-cover: /assets/img/uploads/move-brasil-financiamento-2026-capa.svg
+cover: /assets/img/uploads/move-brasil-entregador-capa.webp
 featured: true
 kicker: Serviço
 topics: financiamento, entregadores, moto, bicicleta eletrica, mobilidade
@@ -22,9 +22,9 @@ O financiamento do **Move Brasil** começou a operar em **27 de julho de 2026**.
 
 A abertura da operação não significa crédito automático. Primeiro, o interessado precisa ser reconhecido como participante do programa; depois, passa pela análise de crédito da instituição financeira.
 
-![Arte editorial apresenta a abertura do financiamento Move Brasil para trabalhadores de duas rodas](/assets/img/uploads/move-brasil-financiamento-2026-capa.svg "Move Brasil entrou em operação em 27 de julho.")
+![Entregador ao lado de uma motocicleta em uma rua brasileira](/assets/img/uploads/move-brasil-entregador-capa.webp "Trabalhador de entrega com motocicleta.")
 
-*Arte: TVDUASRODAS.*
+*Foto de arquivo: Natália T. L. Vieira/Wikimedia Commons, CC BY-SA 4.0.*
 
 ## Quem pode participar
 
@@ -35,9 +35,9 @@ Segundo o portal oficial de acompanhamento, há dois grupos principais:
 
 Para financiar motocicleta ou ciclomotor, é necessário possuir **CNH categoria A** válida. O enquadramento no programa pode levar até **cinco dias úteis** para aparecer no sistema.
 
-![Fluxo em quatro etapas: verificar participação, escolher veículo, pedir crédito e comparar contrato](/assets/img/uploads/move-brasil-financiamento-2026-passos.svg "Etapas para solicitar o financiamento.")
+![Entregadores com motocicletas aguardam pedidos em frente a um estabelecimento](/assets/img/uploads/move-brasil-entregadores-rua.webp "Entregadores e motocicletas durante o trabalho noturno.")
 
-*Arte: TVDUASRODAS.*
+*Foto de arquivo: Lorenzo Cassiano/Wikimedia Commons, CC BY-SA 4.0.*
 
 ## Condições divulgadas pela Caixa
 

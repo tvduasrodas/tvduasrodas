@@ -1638,6 +1638,20 @@
       "source": "content/events/agenda-comunitaria-2026.json#abominados-mc-braganca-paulista-sp-2026-07-24"
     },
     {
+      "title": "Acelere Pela Vida — campanha de doação de sangue",
+      "type": "Evento da agenda",
+      "slug": "porto-real-mc-resende-rj-2026-07-29",
+      "date": "2026-07-29",
+      "category": "Ação solidária de motociclistas",
+      "city": "Resende",
+      "state": "RJ",
+      "status": "em_andamento",
+      "summary": "O Porto Real Moto Clube promove hoje, 29 de julho, a campanha Acelere Pela Vida no Hemonúcleo de Resende, convidando motociclistas, motoclubes e motogrupos para doar sangue.",
+      "url": "/eventos/porto-real-mc-resende-rj-2026-07-29/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#porto-real-mc-resende-rj-2026-07-29"
+    },
+    {
       "title": "Acidente no Contorno Leste mata motociclista: o que se sabe e como reduzir o risco",
       "type": "Matéria",
       "slug": "acidente-contorno-leste-curitiba-moto-caminhao-o-que-aprender",
@@ -8552,20 +8566,6 @@
       "url": "/materias/pontos-cegos-moto-cidade-como-pilotar-com-margem/",
       "edit_url": "/admin/#/collections/news/entries/pontos-cegos-moto-cidade-como-pilotar-com-margem",
       "source": "content/news/pontos-cegos-moto-cidade-como-pilotar-com-margem.md"
-    },
-    {
-      "title": "Porto Real MC",
-      "type": "Evento da agenda",
-      "slug": "porto-real-mc-resende-rj-2026-07-29",
-      "date": "2026-07-29",
-      "category": "Encontro de moto clube",
-      "city": "Resende",
-      "state": "RJ",
-      "status": "em_andamento",
-      "summary": "O encontro do Porto Real MC tem data divulgada para hoje, 29 de julho, em Resende/RJ. Horário, endereço e programação não foram confirmados com segurança; consulte a arte original antes de sair.",
-      "url": "/eventos/porto-real-mc-resende-rj-2026-07-29/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#porto-real-mc-resende-rj-2026-07-29"
     },
     {
       "title": "Poço Fundo Moto Fest",

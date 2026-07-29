@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Cronograma regional da edição limitada">
-<rect width="1200" height="675" fill="#f6f0e6"/><text x="600" y="105" text-anchor="middle" font-family="Arial" font-size="48" font-weight="900" fill="#2b241b">CRONOGRAMA REGIONAL</text>
-<line x1="150" y1="320" x2="1050" y2="320" stroke="#2b241b" stroke-width="14"/><g font-family="Arial" text-anchor="middle"><g fill="#d6a756"><circle cx="180" cy="320" r="50"/><circle cx="480" cy="320" r="50"/><circle cx="760" cy="320" r="50"/><circle cx="1040" cy="320" r="50"/></g>
-<g fill="#2b241b" font-size="28" font-weight="800"><text x="180" y="420">Cadastro</text><text x="480" y="420">Seleção</text><text x="760" y="420">Depósito</text><text x="760" y="458">em 48 horas</text><text x="1040" y="420">Entrega</text><text x="1040" y="458">120–180 dias</text></g></g>
-<text x="600" y="585" text-anchor="middle" font-family="Arial" font-size="27" fill="#5c4d3d">Confirme disponibilidade, preço e prazo no canal brasileiro</text>
-</svg>

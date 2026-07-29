@@ -13,7 +13,7 @@ Eastern: **quarta-feira, 29 de julho de 2026**. Uma segunda varredura encontrou 
 
 Foram preparados e publicados:
 
-- destaque do Porto Real MC, em Resende/RJ, com alerta explícito sobre horário e endereço não confirmados;
+- destaque da campanha de doação de sangue Acelere Pela Vida, do Porto Real Moto Clube, no Hemonúcleo de Resende, com flyer real e alerta sobre horário e endereço completo não confirmados;
 - cancelamento do Tour do Rio 2026 no calendário da CBC;
 - guia de serviço do financiamento Move Brasil;
 - atualização da Shotgun 650 Rough Crafts para as Américas;
@@ -51,4 +51,4 @@ Foram preparados e publicados:
 
 ## Controle editorial
 
-Foram conferidos os registros de notícias, vídeos e eventos para evitar duplicidade. As artes são originais da TVDUASRODAS; nenhuma fotografia de terceiros foi reaproveitada. O radar não publicou conteúdo no Instagram.
+Foram conferidos os registros de notícias, vídeos e eventos para evitar duplicidade. As matérias passaram a combinar fotografias oficiais ou licenciadas com gráficos explicativos pontuais, sempre com crédito e registro da origem. O radar não publicou conteúdo no Instagram.

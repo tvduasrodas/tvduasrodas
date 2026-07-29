@@ -11,7 +11,7 @@ readingTime: 4 min
 summary: Prova internacional de ciclismo estava prevista para começar nesta quarta-feira, 29 de julho, mas o calendário oficial da CBC marca o evento como cancelado.
 seoTitle: 'Tour do Rio 2026 cancelado: atualização oficial da CBC'
 videoId: ''
-cover: /assets/img/uploads/tour-do-rio-2026-cancelado-capa.svg
+cover: /assets/img/uploads/tour-do-rio-2026-pelotao-capa.webp
 featured: true
 kicker: Competição
 topics: ciclismo, competicoes, calendario, servico
@@ -22,9 +22,9 @@ O **Tour do Rio 2026**, que estava previsto para começar nesta quarta-feira, **
 
 A programação anterior reservava o período de **29 de julho a 2 de agosto de 2026** para a competição internacional de estrada. A atualização muda a orientação para equipes, atletas, imprensa e público: não há largada a acompanhar nesta quarta-feira.
 
-![Arte editorial informa que o Tour do Rio 2026 aparece como cancelado no calendário oficial](/assets/img/uploads/tour-do-rio-2026-cancelado-capa.svg "Atualização de calendário do Tour do Rio 2026.")
+![Pelotão profissional disputa uma prova de ciclismo de estrada](/assets/img/uploads/tour-do-rio-2026-pelotao-capa.webp "Pelotão em uma competição internacional de ciclismo de estrada.")
 
-*Arte: TVDUASRODAS.*
+*Foto de arquivo ilustrativa: Fukumoto/Wikimedia Commons, CC BY-SA 4.0. A imagem é da Japan Cup 2024 e não retrata o Tour do Rio 2026.*
 
 ## O que está confirmado
 
@@ -46,9 +46,9 @@ Cancelamento e adiamento são situações diferentes: sem comunicado específico
 
 Quem tinha deslocamento, hospedagem, credenciamento ou inscrição vinculados à prova deve procurar diretamente o organizador e o fornecedor contratado. Políticas de reembolso e remarcação podem variar e não foram detalhadas no calendário esportivo.
 
-![Quadro de serviço recomenda confirmar inscrição, viagem e hospedagem com os responsáveis](/assets/img/uploads/tour-do-rio-2026-cancelado-servico.svg "Checklist para participantes e público.")
+![Grande pelotão sobe uma estrada arborizada durante prova profissional de ciclismo](/assets/img/uploads/tour-do-rio-2026-pelotao-subida.webp "Pelotão de estrada durante a Japan Cup 2024.")
 
-*Arte: TVDUASRODAS.*
+*Foto de arquivo ilustrativa: Fukumoto/Wikimedia Commons, CC BY-SA 4.0. A imagem não retrata a edição cancelada do Tour do Rio.*
 
 ## Fonte
 

@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Checklist após o cancelamento">
-<rect width="1200" height="675" fill="#102c4e"/><text x="70" y="105" font-family="Arial" font-size="50" font-weight="800" fill="#fff">TINHA VIAGEM OU INSCRIÇÃO?</text>
-<g font-family="Arial" font-size="34" fill="#fff"><circle cx="110" cy="215" r="26" fill="#31c48d"/><path d="M98 215l9 10 18-24" fill="none" stroke="#fff" stroke-width="7"/><text x="165" y="227">Fale com o organizador</text>
-<circle cx="110" cy="315" r="26" fill="#31c48d"/><path d="M98 315l9 10 18-24" fill="none" stroke="#fff" stroke-width="7"/><text x="165" y="327">Consulte hospedagem e transporte</text>
-<circle cx="110" cy="415" r="26" fill="#31c48d"/><path d="M98 415l9 10 18-24" fill="none" stroke="#fff" stroke-width="7"/><text x="165" y="427">Guarde comprovantes e protocolos</text>
-<circle cx="110" cy="515" r="26" fill="#31c48d"/><path d="M98 515l9 10 18-24" fill="none" stroke="#fff" stroke-width="7"/><text x="165" y="527">Não trate cancelamento como adiamento</text></g>
-</svg>
