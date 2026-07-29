@@ -16992,12 +16992,12 @@
       "end_date": "2026-08-08",
       "local_start": "2026-08-08T17:00:00-03:00",
       "local_end": "2026-08-08T18:00:00-03:00",
-      "city": "",
-      "state": "",
+      "city": "São Gonçalo",
+      "state": "RJ",
       "country": "Brasil",
-      "scope": "A confirmar",
-      "region": "",
-      "venue": "Local ainda não divulgado",
+      "scope": "Municipal",
+      "region": "Sudeste",
+      "venue": "Sede do Expurgados MC",
       "status": "agendada",
       "event_type": "Encontro de motociclistas",
       "segment": "Motos",
@@ -17009,35 +17009,57 @@
       "image_credit": "Arte: TVDUASRODAS",
       "featured": false,
       "free": false,
-      "summary": "Caveira Blindada está na agenda oficial do Expurgados MC para 8 de agosto de 2026, das 17h às 18h. O calendário não informa o local do encontro.",
-      "attractions": [],
-      "body": "## Serviço\n\nCaveira Blindada está marcado para 8 de agosto de 2026, das 17h às 18h.\n\n## Local e endereço\n\nA cidade, o estado, o nome do local e o endereço ainda não foram divulgados.\n\n## Programação e estrutura\n\nAté o momento, foram divulgados apenas o nome do encontro e o horário. Atrações, estrutura e outras atividades ainda não foram informadas.\n\n## Acesso, estacionamento e contato\n\nIngresso, regras de acesso e estacionamento ainda não foram informados. Acompanhe o canal oficial do Expurgados MC para atualizações.",
+      "summary": "Caveira Blindada está na agenda oficial do Expurgados MC para 8 de agosto de 2026. Uma arte divulgada para o clube informa encontro mensal na Rua Lavras, 88, Trindade, em São Gonçalo/RJ, com atrações musicais.",
+      "attractions": [
+        "Blackberry",
+        "Rafael Redgrave"
+      ],
+      "body": "## Serviço\n\nCaveira Blindada está marcado na agenda oficial do Expurgados MC para 8 de agosto de 2026, das 17h às 18h.\n\n## Local e endereço\n\nUma arte de divulgação associada ao Expurgados MC para a mesma data informa encontro mensal na sede do clube: Rua Lavras, nº 88, Trindade, São Gonçalo/RJ.\n\n## Programação e estrutura\n\nA arte anuncia apresentações de Blackberry e Rafael Redgrave, além de cerveja e caldo. Não há programação detalhada por horário divulgada.\n\n## Horário\n\nHá divergência entre os materiais: a agenda oficial registra 17h às 18h, enquanto a arte informa início a partir das 16h. Confirme o horário com a organização antes de sair.\n\n## Acesso, estacionamento e contato\n\nIngresso, regras de acesso e estacionamento não foram informados. Para atualizações, acompanhe os canais do Expurgados MC.",
       "last_updated": "2026-07-28T08:58:24.8922487-04:00",
       "timezone": "America/Sao_Paulo",
-      "time_label": "17h às 18h",
-      "street_address": "Endereço ainda não divulgado",
-      "full_address": "Local e endereço ainda não divulgados na agenda oficial",
-      "status_basis": "Data e horário futuros publicados na agenda oficial do Expurgados MC; confirme alterações antes de sair.",
+      "time_label": "Agenda oficial: 17h às 18h; arte divulgada: a partir das 16h",
+      "street_address": "Rua Lavras, nº 88, Trindade",
+      "full_address": "Rua Lavras, nº 88, Trindade, São Gonçalo/RJ",
+      "status_basis": "Data futura publicada na agenda oficial do Expurgados MC. Há divergência de horário entre a agenda (17h às 18h) e a arte divulgada (a partir das 16h); confirme antes de sair.",
       "status_checked_at": "2026-07-28T08:58:24.8922487-04:00",
-      "organizer": "Organização ainda não divulgada",
+      "organizer": "Expurgados MC",
       "contact": "mcexpurgados@gmail.com",
       "source_checked_at": "2026-07-28T08:58:24.8922487-04:00",
-      "admission_status": "Ainda não informado na agenda oficial",
-      "parking": "Ainda não informado na agenda oficial",
+      "admission_status": "Ainda não informado",
+      "parking": "Ainda não informado",
       "sources": [
         {
           "url": "https://expurgadosmc.com.br/agenda/",
           "label": "Agenda oficial do Expurgados MC",
           "type": "fonte primária do calendário",
-          "supports": "nome do evento, data, horário e ausência de local publicado"
+          "supports": "nome do evento, data e horário de 17h às 18h"
+        },
+        {
+          "url": "https://jb-rider.com.br/evento/20260808-expurgados-mc-sao-goncalo-rj",
+          "label": "Flyer do Expurgados MC listado pela agenda JB-Rider",
+          "type": "fonte complementar; arte visualmente conferida",
+          "supports": "São Gonçalo/RJ, Rua Lavras nº 88, Trindade, início a partir das 16h e atrações Blackberry e Rafael Redgrave"
         }
       ],
       "research_status": {
         "required_specific_independent_sources": 1,
-        "specific_independent_domains_found": 1,
-        "status": "fonte_primaria_oficial_confirmada",
-        "reviewed_at": "2026-07-28T08:58:24.8922487-04:00",
-        "editorial_rule": "Nome, data e horário confirmados na agenda oficial; campos não publicados permanecem explicitamente não informados."
+        "specific_independent_domains_found": 2,
+        "status": "fonte_primaria_e_flyer_complementar_com_divergencia_de_horario",
+        "reviewed_at": "2026-07-28T20:18:00-04:00",
+        "editorial_rule": "A agenda oficial sustenta o nome, a data e o horário de 17h às 18h. O flyer complementar, associado ao mesmo clube, cidade e data, sustenta endereço e atrações, mas informa início a partir das 16h; a divergência é exibida sem escolher um horário não confirmado."
+      },
+      "visual_verification": {
+        "type": "flyer",
+        "url": "https://jb-rider.com.br/eventos/20260808___Expurgados%20MC_Sao%20Goncalo_RJ.jpg",
+        "checked_at": "2026-07-28T20:18:00-04:00",
+        "fields_confirmed": [
+          "São Gonçalo/RJ",
+          "Rua Lavras, nº 88, Trindade",
+          "início a partir das 16h",
+          "Blackberry",
+          "Rafael Redgrave"
+        ],
+        "notes": "A arte traz o título Evento Mensal/Expurgados MC e não usa a expressão Caveira Blindada; por isso título e horário da agenda oficial foram preservados, com divergência informada ao leitor."
       }
     },
     {
