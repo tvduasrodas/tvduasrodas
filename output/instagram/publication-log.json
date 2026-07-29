@@ -1090,8 +1090,8 @@
       "soundtrack": "rock_instrumental_original",
       "publishedAt": "2026-07-29T14:42:00-04:00",
       "destination": "Instagram @tvduasrodasofc",
-      "identifier": "18117022495921180",
-      "confirmation": "Meta Business Suite exibiu Story Active às 14:43 Eastern."
+      "contentId": "18117022495921180",
+      "publicationConfirmation": "Meta Business Suite exibiu Story Active às 14:43 Eastern."
     },
     "reel": {
       "status": "PUBLICADO",
@@ -1104,7 +1104,8 @@
       "sceneCount": 7,
       "publishedAt": "2026-07-29T14:43:00-04:00",
       "destination": "Instagram @tvduasrodasofc",
-      "confirmation": "Meta Business Suite exibiu o Reel publicado na lista de conteúdo às 14:43 Eastern."
+      "contentId": "18013225067945366",
+      "publicationConfirmation": "Meta Business Suite exibiu o Reel publicado na lista de conteúdo às 14:43 Eastern."
     }
   }
 ]
