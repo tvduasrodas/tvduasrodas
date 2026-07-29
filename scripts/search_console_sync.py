@@ -135,11 +135,15 @@ def list_sitemaps(session) -> list[dict]:
 
 def recent_news_urls() -> list[str]:
     root = ET.parse(ROOT / "news-sitemap.xml").getroot()
-    namespace = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+    namespace = {
+        "sm": "http://www.sitemaps.org/schemas/sitemap/0.9",
+        "news": "http://www.google.com/schemas/sitemap-news/0.9",
+    }
     return [
-        node.text or ""
-        for node in root.findall("sm:url/sm:loc", namespace)
-        if node.text
+        loc
+        for item in root.findall("sm:url", namespace)
+        if item.find("news:news", namespace) is not None
+        and (loc := item.findtext("sm:loc", default="", namespaces=namespace))
     ]
 
 
