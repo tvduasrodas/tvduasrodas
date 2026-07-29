@@ -1012,5 +1012,27 @@
     "reel": {
       "status": "NAO_ELEGIVEL_DIREITOS_E_ETICA"
     }
+  },
+  {
+    "url": "https://tvduasrodas.com/materia.html?slug=moto1000gp-2026-cascavel-recebe-a-4-etapa-do-brasileiro-de-motovelocidade",
+    "type": "news",
+    "title": "MOTO1000GP 2026: Cascavel recebe a 4ª etapa do Brasileiro de Motovelocidade",
+    "detectedAt": "2026-07-28T20:32:00-04:00",
+    "validation": {
+      "source": "MOTO1000GP — Press Oficial, consultada em 28/07/2026",
+      "publicUrl": "CONFIRMADA_PELA_PUBLICACAO_CANONICA",
+      "imageAudit": "A pauta possui três imagens locais distintas (capa, grid e boxes). O canal oficial não publicou, até a consulta desta janela, cinco fotografias distintas da etapa de Cascavel com termos de uso editorial verificáveis; a galeria disponível é de Curvelo e não pode ser apresentada como registro do GP Paraná.",
+      "rights": "INSUFICIENTES_PARA_REEL"
+    },
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
+    "stories": {
+      "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES"
+    },
+    "reel": {
+      "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES",
+      "imageAudit": "3 de 5 imagens distintas disponíveis; publicação bloqueada para não repetir, usar foto de outra etapa ou fabricar registro documental."
+    }
   }
 ]
