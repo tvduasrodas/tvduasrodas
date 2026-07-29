@@ -1034,5 +1034,27 @@
       "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES",
       "imageAudit": "3 de 5 imagens distintas disponíveis; publicação bloqueada para não repetir, usar foto de outra etapa ou fabricar registro documental."
     }
+  },
+  {
+    "url": "https://tvduasrodas.com/competicoes/brasileiro-motocross-2026/",
+    "type": "competition",
+    "title": "Campeonato Brasileiro de Motocross 2026: Etapa da Moda em Santa Cruz do Capibaribe",
+    "detectedAt": "2026-07-29T11:32:58-04:00",
+    "validation": {
+      "source": "MX1 GP Brasil e CBM; consulta em 29/07/2026",
+      "publicUrl": "NAO_ELEGIVEL_URL_INDISPONIVEL",
+      "imageRights": "INSUFICIENTES_PARA_REEL",
+      "imageAudit": "A atualizacao tem apenas a capa ja usada no acervo. A materia oficial traz fotos de divulgacao, mas nao apresenta licenca ou termos verificaveis para reutilizacao editorial; nao ha cinco imagens distintas, autorizadas e verificadas."
+    },
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
+    "stories": {
+      "status": "NAO_ELEGIVEL_URL_INDISPONIVEL"
+    },
+    "reel": {
+      "status": "NAO_ELEGIVEL_URL_INDISPONIVEL",
+      "imageAudit": "Publicacao bloqueada: URL publica indisponivel e menos de cinco imagens distintas com direitos verificados."
+    }
   }
 ]
