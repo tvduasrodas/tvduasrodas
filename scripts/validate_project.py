@@ -435,33 +435,60 @@ def main() -> int:
             "sm": "http://www.sitemaps.org/schemas/sitemap/0.9",
             "news": "http://www.google.com/schemas/sitemap-news/0.9",
         }
+        news_nodes = news_sitemap.findall("sm:url", namespaces)
         news_urls = [
-            node.text or ""
-            for node in news_sitemap.findall("sm:url/sm:loc", namespaces)
+            node.findtext("sm:loc", default="", namespaces=namespaces)
+            for node in news_nodes
         ]
-        news_dates = [
-            node.text or ""
-            for node in news_sitemap.findall(
-                "sm:url/news:news/news:publication_date", namespaces
-            )
+        recent_news_nodes = [
+            node
+            for node in news_nodes
+            if node.find("news:news", namespaces) is not None
         ]
-        news_titles = [
-            node.text or ""
-            for node in news_sitemap.findall(
-                "sm:url/news:news/news:title", namespaces
-            )
-        ]
-        if len(news_urls) > 1000:
-            errors.append("news-sitemap.xml excede 1.000 matérias")
+        if len(recent_news_nodes) > 1000:
+            errors.append("news-sitemap.xml excede 1.000 blocos news:news")
         if len(news_urls) != len(set(news_urls)):
             errors.append("news-sitemap.xml contém URLs duplicadas")
-        if not (len(news_urls) == len(news_dates) == len(news_titles)):
-            errors.append("news-sitemap.xml possui metadados incompletos")
         if any(url not in urls for url in news_urls):
             errors.append("news-sitemap.xml possui URL ausente do sitemap principal")
+        permanent_article_urls = {
+            url
+            for url in urls
+            if url.startswith("https://tvduasrodas.com/materias/")
+            and url != "https://tvduasrodas.com/materias/"
+        }
+        missing_permanent_news_urls = sorted(permanent_article_urls - set(news_urls))
+        if missing_permanent_news_urls:
+            errors.append(
+                "news-sitemap.xml removeu URLs permanentes de matérias: "
+                + ", ".join(missing_permanent_news_urls)
+            )
         now = datetime.now(timezone.utc)
         cutoff = now - timedelta(days=2)
-        for value in news_dates:
+        for node in recent_news_nodes:
+            value = node.findtext(
+                "news:news/news:publication_date",
+                default="",
+                namespaces=namespaces,
+            )
+            title = node.findtext(
+                "news:news/news:title",
+                default="",
+                namespaces=namespaces,
+            )
+            publication_name = node.findtext(
+                "news:news/news:publication/news:name",
+                default="",
+                namespaces=namespaces,
+            )
+            publication_language = node.findtext(
+                "news:news/news:publication/news:language",
+                default="",
+                namespaces=namespaces,
+            )
+            if not all((value, title, publication_name, publication_language)):
+                errors.append("news-sitemap.xml possui metadados news:news incompletos")
+                continue
             try:
                 published = datetime.fromisoformat(value.replace("Z", "+00:00"))
                 if published.tzinfo is None:

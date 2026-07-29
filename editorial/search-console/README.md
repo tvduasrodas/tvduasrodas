@@ -14,7 +14,7 @@ As páginas de eventos da TVDUASRODAS são permanentes.
 O fluxo automático envia três sitemaps ao Search Console:
 
 1. `sitemap.xml`, com todas as URLs canônicas;
-2. `news-sitemap.xml`, somente com matérias das últimas 48 horas;
+2. `news-sitemap.xml`, com todas as URLs permanentes de matérias; somente as publicadas nas últimas 48 horas recebem metadados `<news:news>`;
 3. `event-sitemap.xml`, com todas as páginas permanentes de eventos.
 
 O painel de status inspeciona as matérias recentes e os eventos em andamento ou mais próximos. O envio do painel ao GitHub usa rebase e novas tentativas para não falhar quando outra publicação avança a branch principal.

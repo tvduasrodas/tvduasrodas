@@ -321,7 +321,17 @@ A atualização estrutural vale para **todos os eventos e todas as competições
 
 Toda criação ou alteração pública deve encerrar o próprio ciclo de SEO antes de a execução seguir para outra pauta. Não esperar 20h.
 
-1. Preparar SEO completo, executar `python scripts/build_seo_site.py`, depois `python scripts/update_sitemap.py` e `python scripts/update_sitemap.py --check`. O gerador é obrigatório após qualquer inclusão ou alteração em matérias, vídeos, competições, eventos, resultados, marcas ou modalidades. Ele deve manter `sitemap.xml` sem datas futuras e gerar `news-sitemap.xml` somente com matérias publicadas nas últimas 48 horas.
+1. Preparar SEO completo, executar `python scripts/build_seo_site.py`, depois `python scripts/update_sitemap.py` e `python scripts/update_sitemap.py --check`. O gerador é obrigatório após qualquer inclusão ou alteração em matérias, vídeos, competições, eventos, resultados, marcas ou modalidades. Ele deve manter `sitemap.xml` sem datas futuras. Todas as URLs canônicas de matérias já publicadas devem permanecer permanentemente tanto no `sitemap.xml` quanto no `news-sitemap.xml`; no `news-sitemap.xml`, somente as matérias publicadas nas últimas 48 horas recebem o bloco especial `<news:news>`, e as mais antigas permanecem como `<url><loc>...</loc></url>`, sem metadados de notícia, conforme a alternativa aceita pela documentação oficial do Google.
+
+### Regra soberana de permanência das URLs publicadas nos sitemaps
+
+- Uma URL canônica de matéria que já foi publicada nunca pode ser removida automaticamente do `sitemap.xml` nem do `news-sitemap.xml` por rotação de data, reconstrução do manifesto, atualização de índice, automação, limpeza, refatoração ou ausência acidental em arquivo auxiliar.
+- O `news-sitemap.xml` deve conservar todas as URLs de matérias publicadas. Para cumprir a janela do Google Notícias, retirar após 48 horas somente o bloco `<news:news>` da URL antiga; nunca retirar o elemento `<url>` nem o `<loc>`.
+- O `sitemap.xml` geral é o registro permanente de todas as páginas canônicas publicadas. O gerador deve recuperar automaticamente qualquer URL histórica de matéria que desapareça do manifesto durante uma reconstrução e impedir perda silenciosa.
+- A retirada definitiva de uma URL publicada exige instrução expressa de Wesley para aquela URL, justificativa registrada, verificação de redirect canônico ou status HTTP apropriado e auditoria no Search Console. Nenhuma regra genérica ou decisão automática substitui essa autorização específica.
+- Antes de cada commit, comparar: total de arquivos públicos em `content/news`, total de itens `article` em `content/seo-manifest.json`, total de URLs de matérias no `sitemap.xml` e total de URLs no `news-sitemap.xml`. Nenhuma divergência pode ser publicada.
+- Depois de cada push, confirmar no domínio público que a URL nova está nos dois sitemaps, que as URLs antigas continuam presentes e que somente os metadados `<news:news>` obedecem à janela móvel de 48 horas.
+- A proteção é cumulativa e vale para todas as automações atuais e futuras. Uma vez publicada, a URL passa a integrar o histórico permanente dos sitemaps.
 2. Fazer commit e push do lote.
 3. Confirmar no domínio público a página alterada, `sitemap.xml` e `news-sitemap.xml`.
 4. O workflow `.github/workflows/search-console.yml` deve reenviar automaticamente os dois sitemaps pela API do Search Console depois do push e atualizar `editorial/search-console/status.json`. A credencial técnica é a conta de serviço `tvduasrodas-search-console@involuted-reach-503620-p8.iam.gserviceaccount.com`, autorizada na propriedade exclusivamente por `tvduasrodas@gmail.com` e acessada pelo GitHub Actions com Workload Identity Federation, sem chave JSON permanente. O acesso federado deve permanecer restrito ao repositório `tvduasrodas/tvduasrodas`; se a automação falhar, fazer o reenvio manual usando somente `tvduasrodas@gmail.com`.
@@ -505,7 +515,7 @@ Para montar o relatório, conferir o histórico de publicações e alterações 
 3. Comprimir imagens e confirmar capa e imagens internas carregando.
 4. Executar `python scripts/build_seo_site.py` para atualizar as páginas HTML canônicas, relações internas, entidades e o manifesto SEO.
 5. Executar `python scripts/update_sitemap.py`.
-6. Executar `python scripts/update_sitemap.py --check` e validar `sitemap.xml` e `news-sitemap.xml`, incluindo contagem `static + canonical_generated`, XML, URLs únicas, datas não futuras, janela de notícias de 48 horas e ausência de fragmentos inválidos como `#U` ou `%23U`.
+6. Executar `python scripts/update_sitemap.py --check` e validar `sitemap.xml` e `news-sitemap.xml`, incluindo contagem `static + canonical_generated`, XML, URLs únicas, datas não futuras, permanência de todas as URLs publicadas, janela de 48 horas aplicada somente aos blocos `<news:news>` e ausência de fragmentos inválidos como `#U` ou `%23U`.
 7. Fazer commit apenas dos arquivos relacionados e push para `origin/main`.
 8. Confirmar a URL, imagem, layout, `sitemap.xml` e `news-sitemap.xml` no domínio público.
 9. Confirmar que o workflow do Search Console reenviou automaticamente os dois sitemaps e atualizou o painel. Em caso de falha, entrar somente como `tvduasrodas@gmail.com`, reenviar os dois sitemaps manualmente e solicitar indexação das URLs novas. Nunca usar `wesleyrodrigo29@gmail.com`.

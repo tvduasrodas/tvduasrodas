@@ -97,7 +97,7 @@ def frontmatter(path: Path) -> dict[str, str]:
     return values
 
 
-def previous_dates() -> dict[str, str]:
+def previous_entries() -> dict[str, tuple[str, str]]:
     if not SITEMAP.exists():
         return {}
     try:
@@ -105,13 +105,14 @@ def previous_dates() -> dict[str, str]:
     except ET.ParseError:
         return {}
     ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
-    dates: dict[str, str] = {}
+    entries: dict[str, tuple[str, str]] = {}
     for item in root.findall("sm:url", ns):
         loc = item.findtext("sm:loc", default="", namespaces=ns)
         lastmod = item.findtext("sm:lastmod", default="", namespaces=ns)
+        priority = item.findtext("sm:priority", default="0.6", namespaces=ns)
         if loc and lastmod:
-            dates[loc] = lastmod
-    return dates
+            entries[loc] = (lastmod, priority)
+    return entries
 
 
 def public_slugs(collection: str) -> list[str]:
@@ -166,13 +167,25 @@ def render_news_sitemap(news: list[dict[str, str]], now: datetime) -> str:
     urlset = ET.Element(f"{{{sitemap_namespace}}}urlset")
     cutoff = now.astimezone(timezone.utc) - timedelta(days=2)
 
-    recent = [
-        item for item in news
+    ordered = sorted(news, key=lambda item: item["published_at"], reverse=True)
+    recent_urls = {
+        item["url"]
+        for item in ordered
         if item["published_at"] and cutoff <= datetime.fromisoformat(item["published_at"]) <= now
-    ]
-    for article in sorted(recent, key=lambda item: item["published_at"], reverse=True)[:1000]:
+    }
+    if len(recent_urls) > 1000:
+        raise ValueError(
+            "news-sitemap.xml excederia o limite de 1.000 blocos news:news"
+        )
+
+    # Every published article URL remains in this file permanently. Google
+    # explicitly permits retaining older URLs as long as their news:news
+    # metadata is removed after two days.
+    for article in ordered:
         item = ET.SubElement(urlset, f"{{{sitemap_namespace}}}url")
         ET.SubElement(item, f"{{{sitemap_namespace}}}loc").text = article["url"]
+        if article["url"] not in recent_urls:
+            continue
         news_item = ET.SubElement(item, f"{{{news_namespace}}}news")
         publication = ET.SubElement(news_item, f"{{{news_namespace}}}publication")
         ET.SubElement(publication, f"{{{news_namespace}}}name").text = "TVDUASRODAS"
@@ -217,7 +230,11 @@ def render_event_sitemap(manifest: list[dict[str, object]], today: str) -> str:
 def main(*, check_only: bool = False) -> None:
     today = date.today().isoformat()
     now = datetime.now(timezone.utc)
-    old_dates = previous_dates()
+    old_entries = previous_entries()
+    old_dates = {
+        loc: values[0]
+        for loc, values in old_entries.items()
+    }
     urls: list[tuple[str, str, str]] = []
 
     news: list[tuple[str, str]] = []
@@ -322,6 +339,19 @@ def main(*, check_only: bool = False) -> None:
             str(item.get("priority", "0.6")),
         )
 
+    # A canonical article URL that has already been published must never
+    # disappear merely because a source index or manifest was regenerated.
+    # Removal requires an explicit, reviewed migration instead of an
+    # automatic sitemap rewrite.
+    current_locs = {loc for loc, _, _ in urls}
+    protected_prefix = f"{BASE_URL}/materias/"
+    for loc, (lastmod, priority) in old_entries.items():
+        if loc == protected_prefix or not loc.startswith(protected_prefix):
+            continue
+        if loc not in current_locs:
+            urls.append((loc, safe_lastmod(lastmod, today, today), priority))
+            current_locs.add(loc)
+
     namespace = "http://www.sitemaps.org/schemas/sitemap/0.9"
     image_namespace = "http://www.google.com/schemas/sitemap-image/1.1"
     video_namespace = "http://www.google.com/schemas/sitemap-video/1.1"
@@ -375,11 +405,13 @@ def main(*, check_only: bool = False) -> None:
                 f"STALE {', '.join(stale)}: expected {len(urls)} URLs ({breakdown}). "
                 "Run scripts/update_sitemap.py and publish the result."
             )
-        news_count = expected_news.count("<url>")
+        news_url_count = expected_news.count("<url>")
+        recent_news_count = expected_news.count("<news:news>")
         event_count = expected_events.count("<url>")
         print(
             f"OK {SITEMAP.name}: {len(urls)} URLs ({breakdown}), newest {newest}; "
-            f"{NEWS_SITEMAP.name}: {news_count} recent articles; "
+            f"{NEWS_SITEMAP.name}: {news_url_count} permanent article URLs, "
+            f"{recent_news_count} with recent news metadata; "
             f"{EVENT_SITEMAP.name}: {event_count} permanent event URLs"
         )
         return
@@ -387,11 +419,13 @@ def main(*, check_only: bool = False) -> None:
     SITEMAP.write_text(expected, encoding="utf-8", newline="\n")
     NEWS_SITEMAP.write_text(expected_news, encoding="utf-8", newline="\n")
     EVENT_SITEMAP.write_text(expected_events, encoding="utf-8", newline="\n")
-    news_count = expected_news.count("<url>")
+    news_url_count = expected_news.count("<url>")
+    recent_news_count = expected_news.count("<news:news>")
     event_count = expected_events.count("<url>")
     print(
         f"Updated {SITEMAP.name}: {len(urls)} URLs ({breakdown}), newest {newest}; "
-        f"{NEWS_SITEMAP.name}: {news_count} recent articles; "
+        f"{NEWS_SITEMAP.name}: {news_url_count} permanent article URLs, "
+        f"{recent_news_count} with recent news metadata; "
         f"{EVENT_SITEMAP.name}: {event_count} permanent event URLs"
     )
 
