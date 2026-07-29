@@ -37,6 +37,12 @@ Foram preparados e publicados:
 | 22–30/08 | Alta | MOTO1000GP em Interlagos e Rally dos Sertões: cobertura condicionada a documentos, resultados e mídia oficial autorizada. |
 | 04–07/09 | Média | Volta Ciclística da Juventude, em Valença/RJ: confirmar serviço e regulamento antes da agenda. |
 
+## Segunda checagem — 15h15 Eastern
+
+- **Paranaguá Motos (31/07–02/08):** a Secretaria de Estado do Turismo do Paraná confirmou data, horário inicial, endereço e contato; a agenda comunitária já contém o evento. Nenhum cadastro duplicado foi criado. Classificação interna de monitoramento; não gera matéria T+1 automática.
+- Não foi identificada efeméride brasileira inédita e diretamente ligada às duas rodas em 29/07. As pautas do Dia do Motociclista (27/07) e do Tour do Rio cancelado já estão cobertas; não foram duplicadas.
+- Para o restante da janela de 45 dias, permanecem prioritários o Dia Nacional do Ciclista (19/08, Lei nº 13.508/2017), o Festival Interlagos/Arenacross e o Rally dos Sertões, sempre condicionados a fonte primária e direitos de mídia.
+
 ## Fontes verificadas
 
 - [CBC — calendário de estrada](https://www.cbc.esp.br/modalidades/calendario/busca/estrada): Tour do Rio marcado como cancelado.
@@ -48,6 +54,8 @@ Foram preparados e publicados:
 - [CBM — diretrizes para o Brasileiro de Motocross](https://www.cbm.esp.br/noticias/2026/07/02/seguranca-e-desenvolvimento-diretoria-de-motocross-anuncia-novas-diretrizes-para-o-campeonato-brasileiro): confirma Santa Cruz como a próxima praça do campeonato.
 - [CBM — calendário do MOTO1000GP](https://www.cbm.esp.br/noticias/2026/04/23/curvelo-e-confirmada-como-sede-da-3-etapa-do-moto1000gp-2026): registra Cascavel em 02/08.
 - [Planalto — Lei nº 13.508/2017](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13508.htm): institui 19 de agosto como Dia Nacional do Ciclista.
+- [Secretaria de Estado do Turismo do Paraná — Paranaguá Motos](https://www.turismo.pr.gov.br/Evento/Paranagua-Motos): confirma 31/07 às 20h a 02/08 às 23h59, endereço e contato.
+- [Portal turístico de Paranaguá](https://www.paranagua.com.br/eventos-em-paranagua/): confirma a realização do encontro e sua programação geral.
 
 ## Controle editorial
 
