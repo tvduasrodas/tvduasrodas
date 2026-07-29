@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "total": 722,
+  "total": 726,
   "counts": {
     "Competição": 20,
     "Configuração da home": 2,
     "Etapa esportiva": 62,
     "Evento": 11,
     "Evento da agenda": 557,
-    "Matéria": 39,
+    "Matéria": 42,
     "Matéria do acervo": 4,
     "Página fixa": 2,
-    "Vídeo": 25
+    "Vídeo": 26
   },
   "entries": [
     {
@@ -3498,6 +3498,20 @@
       "url": "/videos/capital-moto-week-2026-segundo-dia-dicas/",
       "edit_url": "/admin/#/collections/videos/entries/capital-moto-week-2026-segundo-dia-dicas",
       "source": "content/videos/capital-moto-week-2026-segundo-dia-dicas.md"
+    },
+    {
+      "title": "Capital Moto Week 2026: vídeo mostra bastidores e lançamentos",
+      "type": "Vídeo",
+      "slug": "capital-moto-week-2026-bastidores-lancamentos",
+      "date": "2026-07-29T09:55:00-04:00",
+      "category": "eventos",
+      "city": "",
+      "state": "",
+      "status": "",
+      "summary": "",
+      "url": "/videos/capital-moto-week-2026-bastidores-lancamentos/",
+      "edit_url": "/admin/#/collections/videos/entries/capital-moto-week-2026-bastidores-lancamentos",
+      "source": "content/videos/capital-moto-week-2026-bastidores-lancamentos.md"
     },
     {
       "title": "Carapebus Bike",
@@ -7840,6 +7854,20 @@
       "source": "content/videos/move-brasil-2026-motos-honda-participantes.md"
     },
     {
+      "title": "Move Brasil já está operando: veja quem pode pedir financiamento",
+      "type": "Matéria",
+      "slug": "move-brasil-financiamento-entregadores-como-pedir-2026",
+      "date": "2026-07-29T09:25:00-04:00",
+      "category": "Urbano",
+      "city": "",
+      "state": "",
+      "status": "",
+      "summary": "Linha para entregadores e trabalhadores de duas rodas começou a operar em 27 de julho; veja requisitos, prazos, taxas divulgadas e cuidados antes de assinar.",
+      "url": "/materias/move-brasil-financiamento-entregadores-como-pedir-2026/",
+      "edit_url": "/admin/#/collections/news/entries/move-brasil-financiamento-entregadores-como-pedir-2026",
+      "source": "content/news/move-brasil-financiamento-entregadores-como-pedir-2026.md"
+    },
+    {
       "title": "Mundicas",
       "type": "Evento da agenda",
       "slug": "mundicas-o-chamado-da-estrada-nova-pauliceia-sp-2026-08-09",
@@ -8533,8 +8561,8 @@
       "category": "Encontro de moto clube",
       "city": "Resende",
       "state": "RJ",
-      "status": "agendada",
-      "summary": "Encontro de moto clube em Resende/RJ, com data divulgada para 2026-07-29. O flyer foi inspecionado localmente; serviços identificados: programação detalhada não identificada de forma legível no flyer.",
+      "status": "em_andamento",
+      "summary": "O encontro do Porto Real MC tem data divulgada para hoje, 29 de julho, em Resende/RJ. Horário, endereço e programação não foram confirmados com segurança; consulte a arte original antes de sair.",
       "url": "/eventos/porto-real-mc-resende-rj-2026-07-29/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#porto-real-mc-resende-rj-2026-07-29"
@@ -9212,6 +9240,20 @@
       "source": "content/events/shimano-fest-2026.json"
     },
     {
+      "title": "Shotgun 650 Rough Crafts tem só 25 unidades para as Américas",
+      "type": "Matéria",
+      "slug": "royal-enfield-shotgun-650-rough-crafts-americas-2026",
+      "date": "2026-07-29T09:40:00-04:00",
+      "category": "Lancamentos",
+      "city": "",
+      "state": "",
+      "status": "",
+      "summary": "Royal Enfield abriu a disputa regional pela edição limitada da Shotgun 650; lote das Américas tem 25 motos, mas horário brasileiro precisa de confirmação.",
+      "url": "/materias/royal-enfield-shotgun-650-rough-crafts-americas-2026/",
+      "edit_url": "/admin/#/collections/news/entries/royal-enfield-shotgun-650-rough-crafts-americas-2026",
+      "source": "content/news/royal-enfield-shotgun-650-rough-crafts-americas-2026.md"
+    },
+    {
       "title": "Sicarios MC",
       "type": "Evento da agenda",
       "slug": "sicarios-mc-ipuiuna-mg-2026-08-15",
@@ -9630,6 +9672,20 @@
       "url": "/eventos/motofest-tombos-mg-2026-11-06/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#motofest-tombos-mg-2026-11-06"
+    },
+    {
+      "title": "Tour do Rio 2026 aparece como cancelado no calendário da CBC",
+      "type": "Matéria",
+      "slug": "tour-do-rio-2026-cancelado-calendario-cbc",
+      "date": "2026-07-29T09:10:00-04:00",
+      "category": "Eventos",
+      "city": "",
+      "state": "",
+      "status": "",
+      "summary": "Prova internacional de ciclismo estava prevista para começar nesta quarta-feira, 29 de julho, mas o calendário oficial da CBC marca o evento como cancelado.",
+      "url": "/materias/tour-do-rio-2026-cancelado-calendario-cbc/",
+      "edit_url": "/admin/#/collections/news/entries/tour-do-rio-2026-cancelado-calendario-cbc",
+      "source": "content/news/tour-do-rio-2026-cancelado-calendario-cbc.md"
     },
     {
       "title": "Tri-Vale e ITS",

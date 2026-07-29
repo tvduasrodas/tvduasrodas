@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Move Brasil entrou em operação">
+<defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#042e2a"/><stop offset="1" stop-color="#0b7061"/></linearGradient></defs><rect width="1200" height="675" fill="url(#g)"/>
+<circle cx="920" cy="370" r="135" fill="none" stroke="#d7fff6" stroke-width="25"/><circle cx="1050" cy="370" r="135" fill="none" stroke="#d7fff6" stroke-width="25"/><path d="M920 370l68-130 62 130-130 0 95-65" fill="none" stroke="#d7fff6" stroke-width="20" stroke-linecap="round"/>
+<rect x="70" y="65" width="250" height="44" rx="22" fill="#f4c542"/><text x="195" y="95" text-anchor="middle" font-family="Arial" font-size="22" font-weight="800" fill="#173b33">NOTÍCIA DE SERVIÇO</text>
+<text x="70" y="215" font-family="Arial" font-size="82" font-weight="900" fill="#fff">MOVE BRASIL</text><text x="70" y="302" font-family="Arial" font-size="58" font-weight="800" fill="#f4c542">JÁ ESTÁ OPERANDO</text>
+<text x="75" y="370" font-family="Arial" font-size="30" fill="#d7fff6">Financiamento para trabalhadores de duas rodas</text><text x="75" y="620" font-family="Arial" font-size="24" font-weight="700" fill="#fff">TVDUASRODAS • GUIA PRÁTICO</text>
+</svg>

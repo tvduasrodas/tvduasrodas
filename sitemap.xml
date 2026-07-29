@@ -7,12 +7,12 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/revista</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-07-29</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://tvduasrodas.com/tv</loc>
-    <lastmod>2026-07-28</lastmod>
+    <lastmod>2026-07-29</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
@@ -279,6 +279,14 @@
     </image:image>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/materias/move-brasil-financiamento-entregadores-como-pedir-2026/</loc>
+    <lastmod>2026-07-29</lastmod>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://tvduasrodas.com/assets/img/uploads/move-brasil-financiamento-2026-capa.svg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/materias/naked-urbana-300cc-uso-real-na-cidade/</loc>
     <lastmod>2026-01-26</lastmod>
     <priority>0.8</priority>
@@ -337,6 +345,14 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/materias/royal-enfield-shotgun-650-rough-crafts-americas-2026/</loc>
+    <lastmod>2026-07-29</lastmod>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://tvduasrodas.com/assets/img/uploads/shotgun-650-rough-crafts-2026-capa.svg</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/materias/scooter-freestyle-ou-kick-scooter-de-cultura-de-rua-a-esporte-organizado/</loc>
     <lastmod>2026-02-04</lastmod>
     <priority>0.8</priority>
@@ -350,6 +366,14 @@
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://tvduasrodas.com/assets/img/uploads/01-seo.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/materias/tour-do-rio-2026-cancelado-calendario-cbc/</loc>
+    <lastmod>2026-07-29</lastmod>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://tvduasrodas.com/assets/img/uploads/tour-do-rio-2026-cancelado-capa.svg</image:loc>
     </image:image>
   </url>
   <url>
@@ -411,6 +435,21 @@
       <video:description>O canal verificado RevZilla avalia a BMW R 12 G/S 2026 em uso diário, passando por ergonomia, desempenho em rodovia, comportamento urbano, eletrônica, freios e uma passagem por estrada de terra. O vídeo é em inglês e…</video:description>
       <video:player_loc>https://www.youtube.com/embed/ahW_nLGrDU8</video:player_loc>
       <video:publication_date>2026-07-21T11:45:00-04:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/videos/capital-moto-week-2026-bastidores-lancamentos/</loc>
+    <lastmod>2026-07-29</lastmod>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://i3.ytimg.com/vi/aWBVLG4ObSg/hqdefault.jpg</image:loc>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://i3.ytimg.com/vi/aWBVLG4ObSg/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Capital Moto Week 2026: vídeo mostra bastidores e lançamentos</video:title>
+      <video:description>O canal brasileiro Turbinados - Filipe Bueno percorre o Capital Moto Week 2026, em Brasília, e mostra bastidores, estandes, público e novidades de marcas presentes no evento. O vídeo tem cerca de 15 minutos, áudio…</video:description>
+      <video:player_loc>https://www.youtube.com/embed/aWBVLG4ObSg</video:player_loc>
+      <video:publication_date>2026-07-29T09:55:00-04:00</video:publication_date>
     </video:video>
   </url>
   <url>
@@ -1633,7 +1672,7 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/eventos/porto-real-mc-resende-rj-2026-07-29/</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-07-29</lastmod>
     <priority>0.7</priority>
     <image:image>
       <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
@@ -6955,7 +6994,7 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/marcas/royal-enfield/</loc>
-    <lastmod>2026-07-24</lastmod>
+    <lastmod>2026-07-29</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
