@@ -120,3 +120,21 @@ Fontes oficiais continuam sendo a referência para datas, locais e programação
 - Imagem publicada: `/assets/img/competicoes-eventos-default.svg`.
   - Titular/crédito: TVDUASRODAS.
   - As artes encontradas no Instagram foram usadas somente para conferência factual; não houve autorização editorial inequívoca para republicação, download, conversão ou remoção de metadados.
+
+# 13º Motocólatras Fest — Araguari/MG — 2026
+
+- Consulta editorial: 30/07/2026.
+- Anúncio oficial em colaboração do MC Motocólatras com a FAEC: https://www.instagram.com/motocolatras/reel/DaS5MKDu0zu/
+  - Confirmados: 21 e 22 de agosto, Palácio dos Ferroviários, nove bandas de rock, food trucks, gincana motociclista, entrada solidária de 2 kg de alimentos e realização do MC Motocólatras.
+- Perfil oficial do organizador: https://www.instagram.com/motocolatras/
+  - Publicações recentes confirmaram as datas, o local, o caráter solidário e a Banda Hashtag. Os demais nomes e horários individuais ainda estão sendo divulgados.
+- Jacaré Moto, serviço específico: https://jacaremoto.com.br/events/13o-motocolatras-fest-araguari-mg/
+  - Confirmados: horários gerais, três bandas na sexta, seis no sábado, camping com chuveiro quente, café da manhã gratuito, expositores, entrada e contatos.
+  - A página contém uma referência isolada a 23/08, mas o calendário da própria página, o anúncio oficial e as agendas independentes confirmam o encerramento no sábado, 22 de agosto.
+- JB-RIDER, página específica: https://jb-rider.com.br/evento/20260821-2-13-motocolatras-fest-araguari-mg
+- Fire Souls Web Radio, registro específico: https://firesoulswebradio.com/evento/321600/13-motolatras-fest-araguari-mg
+- Prefeitura de Araguari, endereço do Palácio dos Ferroviários: https://araguari.mg.gov.br/prefeito-vice
+  - Confirmados: Praça Gaioso Neves, 129, bairro Goiás, Araguari/MG, CEP 38440-001.
+- Imagem publicada: `/assets/img/competicoes-eventos-default.svg`.
+  - Titular/crédito: TVDUASRODAS.
+  - As artes e os vídeos consultados foram usados somente para conferência factual; as fontes não apresentaram autorização editorial inequívoca para republicação. Não houve download, conversão ou remoção de metadados.

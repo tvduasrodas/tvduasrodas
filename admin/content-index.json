@@ -238,20 +238,6 @@
       "source": "content/events/agenda-comunitaria-2026.json#13-encontro-nacional-e-motociclistas-pompeu-mg-2026-10-09"
     },
     {
-      "title": "13 Motocolatras Fest",
-      "type": "Evento da agenda",
-      "slug": "13-motocolatras-fest-araguari-mg-2026-08-21",
-      "date": "2026-08-21",
-      "category": "Encontro de motociclistas",
-      "city": "Araguari",
-      "state": "MG",
-      "status": "agendada",
-      "summary": "Encontro de motociclistas em Araguari/MG, com data divulgada para 2026-08-21. O flyer foi inspecionado localmente; serviços identificados: programação detalhada não identificada de forma legível no flyer.",
-      "url": "/eventos/13-motocolatras-fest-araguari-mg-2026-08-21/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#13-motocolatras-fest-araguari-mg-2026-08-21"
-    },
-    {
       "title": "13º Fest Moto Rock de Baixo Guandu — cancelado",
       "type": "Evento da agenda",
       "slug": "13-fest-moto-rock-baixo-guandu-es-2026-07-24",
@@ -264,6 +250,20 @@
       "url": "/eventos/13-fest-moto-rock-baixo-guandu-es-2026-07-24/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#13-fest-moto-rock-baixo-guandu-es-2026-07-24"
+    },
+    {
+      "title": "13º Motocólatras Fest",
+      "type": "Evento da agenda",
+      "slug": "13-motocolatras-fest-araguari-mg-2026-08-21",
+      "date": "2026-08-21",
+      "category": "Encontro de motociclistas e festival de rock",
+      "city": "Araguari",
+      "state": "MG",
+      "status": "agendada",
+      "summary": "O 13º Motocólatras Fest reúne motociclistas em 21 e 22 de agosto de 2026, no Palácio dos Ferroviários, em Araguari/MG, com nove bandas de rock, gincana, camping com chuveiro quente, food trucks, expositores e entrada solidária de 2 kg de alimentos.",
+      "url": "/eventos/13-motocolatras-fest-araguari-mg-2026-08-21/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#13-motocolatras-fest-araguari-mg-2026-08-21"
     },
     {
       "title": "14 Encontro de Motociclstas",
