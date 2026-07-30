@@ -100,3 +100,23 @@ Fontes oficiais continuam sendo a referência para datas, locais e programação
 - Imagem publicada: `/assets/img/competicoes-eventos-default.svg`.
   - Titular/crédito: TVDUASRODAS.
   - Não houve download para publicação, conversão ou remoção de metadados de material de terceiros.
+
+# 1º Moto Fest Caeté Moto Grupo — Caeté/MG — 2026
+
+- Consulta editorial: 30/07/2026.
+- Anúncio em colaboração do Caeté Moto Grupo com o Jornal Gazeta: https://www.instagram.com/p/DavM_exRdvN/
+  - Confirmados: edição, datas de 7 a 9 de agosto, sete bandas — duas na sexta, quatro no sábado e uma no domingo —, camping, alimentação, motorhomes, expositores e exposições de carros antigos, motos e triciclos.
+- Cartaz atualizado no perfil do organizador: https://www.instagram.com/caetemotogrupo/reel/DbLRAyPKKi2/
+  - Confirmados visualmente: Poliesportivo de Caeté, entrada franca em todos os dias, camping, praça de alimentação, exposições e locução de Xororó.
+- Perfil oficial do Caeté Moto Grupo: https://www.instagram.com/caetemotogrupo/
+  - Publicações recentes confirmaram T-Rex Rock, Tio Chico Classic Rock, Los Balas, Banda Dvolvers e Triad Rock. A ordem, os horários e as duas atrações musicais restantes ainda não foram divulgados.
+- World Bikes, atividade dentro do evento: https://www.instagram.com/worldbikes.bja/p/DbMHoPjpCax/
+  - Confirmados para 9 de agosto: saída às 7h, pedal MTB de cerca de 30 km, passeio de 12 km para scooters e bicicletas elétricas, café da manhã, sorteios e medalhas para os 150 primeiros inscritos.
+- JB-RIDER, página específica: https://jb-rider.com.br/evento/20260807-3-motofest-caete-mg
+- Maxacalis MC, agenda independente: https://maxacalis.com.br/agenda.html
+  - A agenda informa 8 e 9 de agosto; prevaleceu o cartaz recente do organizador, que confirma também a abertura na sexta-feira, 7 de agosto.
+- Liga Brasileira de Jiu-Jitsu, referência do Ginásio Poliesportivo: https://lbjj.com.br/xiii_copa_caete/
+  - Usada para conferir o endereço Avenida Carlos Cruz, s/nº, Caeté/MG, CEP 34800-000.
+- Imagem publicada: `/assets/img/competicoes-eventos-default.svg`.
+  - Titular/crédito: TVDUASRODAS.
+  - As artes encontradas no Instagram foram usadas somente para conferência factual; não houve autorização editorial inequívoca para republicação, download, conversão ou remoção de metadados.

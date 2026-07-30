@@ -420,6 +420,34 @@
       "source": "content/events/agenda-comunitaria-2026.json#1-irmaos-de-alma-alto-paraiso-de-goias-go-2026-07-31"
     },
     {
+      "title": "1º Moto Fest Caeté Moto Grupo",
+      "type": "Evento da agenda",
+      "slug": "motofest-caete-mg-2026-08-07",
+      "date": "2026-08-07",
+      "category": "Encontro de motociclistas e festival de rock",
+      "city": "Caeté",
+      "state": "MG",
+      "status": "agendada",
+      "summary": "O 1º Moto Fest Caeté Moto Grupo acontece de 7 a 9 de agosto de 2026 no Poliesportivo de Caeté/MG, com entrada franca, sete shows de rock, camping, praça de alimentação, exposição de carros antigos, motos e triciclos, expositores e atividades sobre duas rodas.",
+      "url": "/eventos/motofest-caete-mg-2026-08-07/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#motofest-caete-mg-2026-08-07"
+    },
+    {
+      "title": "1º Moto Fest Caeté Moto Grupo",
+      "type": "Evento da agenda",
+      "slug": "motofest-caete-mg-2026-08-08",
+      "date": "2026-08-08",
+      "category": "Festival de motociclismo",
+      "city": "Caeté",
+      "state": "MG",
+      "status": "agendada",
+      "summary": "Festival de motociclismo em Caete/MG, com data divulgada para 2026-08-08. O flyer foi inspecionado localmente; serviços identificados: programação detalhada não identificada de forma legível no flyer.",
+      "url": "/eventos/motofest-caete-mg-2026-08-08/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#motofest-caete-mg-2026-08-08"
+    },
+    {
       "title": "2 Biker Fest",
       "type": "Evento da agenda",
       "slug": "2-biker-fest-feraz-de-vasconcelos-sp-2026-07-25",
@@ -2714,34 +2742,6 @@
       "url": "/eventos/caes-do-litoral-mc-guaruja-sp-2026-09-12/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#caes-do-litoral-mc-guaruja-sp-2026-09-12"
-    },
-    {
-      "title": "Caeté Moto Fest",
-      "type": "Evento da agenda",
-      "slug": "motofest-caete-mg-2026-08-07",
-      "date": "2026-08-07",
-      "category": "Festival de motociclismo",
-      "city": "Caete",
-      "state": "MG",
-      "status": "agendada",
-      "summary": "Festival de motociclismo em Caete/MG, com data divulgada para 2026-08-07. O flyer foi inspecionado localmente; serviços identificados: área de camping, praça de alimentação, shows, bandas, expositores, troféus.",
-      "url": "/eventos/motofest-caete-mg-2026-08-07/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#motofest-caete-mg-2026-08-07"
-    },
-    {
-      "title": "Caeté Moto Fest",
-      "type": "Evento da agenda",
-      "slug": "motofest-caete-mg-2026-08-08",
-      "date": "2026-08-08",
-      "category": "Festival de motociclismo",
-      "city": "Caete",
-      "state": "MG",
-      "status": "agendada",
-      "summary": "Festival de motociclismo em Caete/MG, com data divulgada para 2026-08-08. O flyer foi inspecionado localmente; serviços identificados: programação detalhada não identificada de forma legível no flyer.",
-      "url": "/eventos/motofest-caete-mg-2026-08-08/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#motofest-caete-mg-2026-08-08"
     },
     {
       "title": "CAFE BENEFICENTE",
