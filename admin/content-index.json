@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "total": 729,
+  "total": 731,
   "counts": {
     "Competição": 20,
     "Configuração da home": 2,
     "Etapa esportiva": 62,
     "Evento": 13,
     "Evento da agenda": 557,
-    "Matéria": 43,
+    "Matéria": 44,
     "Matéria do acervo": 4,
     "Página fixa": 2,
-    "Vídeo": 26
+    "Vídeo": 27
   },
   "entries": [
     {
@@ -5614,6 +5614,20 @@
       "source": "content/events/agenda-comunitaria-2026.json#highway-rangers-mc-volta-redonda-rj-2026-08-16"
     },
     {
+      "title": "Honda 2027: Canal Motoplay mostra as novidades da linha 300",
+      "type": "Vídeo",
+      "slug": "honda-lancamentos-300cc-2027-canal-motoplay",
+      "date": "2026-07-30T17:00:00-04:00",
+      "category": "lancamentos",
+      "city": "",
+      "state": "",
+      "status": "",
+      "summary": "",
+      "url": "/videos/honda-lancamentos-300cc-2027-canal-motoplay/",
+      "edit_url": "/admin/#/collections/videos/entries/honda-lancamentos-300cc-2027-canal-motoplay",
+      "source": "content/videos/honda-lancamentos-300cc-2027-canal-motoplay.md"
+    },
+    {
       "title": "Honda Africa Twin 2026 - novo visual e cores renovadas",
       "type": "Matéria",
       "slug": "honda-africa-twin-2026-chega-a-europa-com-novo-visual-e-cores-renovadas",
@@ -5626,6 +5640,20 @@
       "url": "/materias/honda-africa-twin-2026-chega-a-europa-com-novo-visual-e-cores-renovadas/",
       "edit_url": "/admin/#/collections/news/entries/honda-africa-twin-2026-chega-%C3%A0-europa-com-novo-visual-e-cores-renovadas",
       "source": "content/news/honda-africa-twin-2026-chega-à-europa-com-novo-visual-e-cores-renovadas.md"
+    },
+    {
+      "title": "Honda cresce 11% no primeiro semestre de 2026 e supera 772 mil motos",
+      "type": "Matéria",
+      "slug": "honda-motos-cresce-11-primeiro-semestre-2026",
+      "date": "2026-07-30T17:00:00-04:00",
+      "category": "Outro",
+      "city": "",
+      "state": "",
+      "status": "",
+      "summary": "",
+      "url": "/materias/honda-motos-cresce-11-primeiro-semestre-2026/",
+      "edit_url": "/admin/#/collections/news/entries/honda-motos-cresce-11-primeiro-semestre-2026",
+      "source": "content/news/honda-motos-cresce-11-primeiro-semestre-2026.md"
     },
     {
       "title": "Honda Gold Wing 50 anos chega ao Brasil por R$ 304.450",
