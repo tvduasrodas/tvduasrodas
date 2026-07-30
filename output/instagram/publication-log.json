@@ -1106,6 +1106,16 @@
       "destination": "Instagram @tvduasrodasofc",
       "contentId": "18013225067945366",
       "publicationConfirmation": "Meta Business Suite exibiu o Reel publicado na lista de conteúdo às 14:43 Eastern."
+    },
+    "localCleanup": {
+      "status": "EXCLUIDO_APOS_PUBLICACAO",
+      "deletedAt": "2026-07-30T17:12:42.958119-04:00",
+      "retentionHours": 24.0,
+      "folder": "output/instagram/2026-07-29/shotgun-650-rough-crafts",
+      "fileCount": 67,
+      "bytesFreed": 24728086,
+      "latestPublishedAt": "2026-07-29T14:43:00-04:00",
+      "reason": "Story e Reel confirmados no Instagram há pelo menos 24 horas."
     }
   },
   {
