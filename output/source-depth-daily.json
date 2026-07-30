@@ -1,12 +1,12 @@
 {
   "total_records": 651,
-  "canonical_records": 605,
-  "complete_records": 368,
-  "incomplete_records": 237,
+  "canonical_records": 604,
+  "complete_records": 370,
+  "incomplete_records": 234,
   "by_kind": {
     "agenda": {
-      "total": 511,
-      "complete": 280
+      "total": 510,
+      "complete": 282
     },
     "evento": {
       "total": 12,
@@ -925,23 +925,6 @@
     },
     {
       "kind": "agenda",
-      "slug": "2-moto-cafe-pompeia-sp-2026-08-02",
-      "title": "2 Moto Cafe",
-      "date": "2026-08-02",
-      "city": "Pompeia",
-      "state": "SP",
-      "source_count": 2,
-      "independent_domains": 1,
-      "specific_independent_domains": 1,
-      "placeholder_fields": 2,
-      "missing": [
-        "duas_fontes_especificas_independentes"
-      ],
-      "complete": false,
-      "duplicate_of": null
-    },
-    {
-      "kind": "agenda",
       "slug": "amm-duque-de-caxias-rj-2026-08-02",
       "title": "AMM",
       "date": "2026-08-02",
@@ -1087,23 +1070,6 @@
       "independent_domains": 1,
       "specific_independent_domains": 1,
       "placeholder_fields": 3,
-      "missing": [
-        "duas_fontes_especificas_independentes"
-      ],
-      "complete": false,
-      "duplicate_of": null
-    },
-    {
-      "kind": "agenda",
-      "slug": "motofest-caete-mg-2026-08-07",
-      "title": "Caeté Moto Fest",
-      "date": "2026-08-07",
-      "city": "Caete",
-      "state": "MG",
-      "source_count": 2,
-      "independent_domains": 1,
-      "specific_independent_domains": 1,
-      "placeholder_fields": 4,
       "missing": [
         "duas_fontes_especificas_independentes"
       ],
@@ -1308,23 +1274,6 @@
       "independent_domains": 1,
       "specific_independent_domains": 1,
       "placeholder_fields": 3,
-      "missing": [
-        "duas_fontes_especificas_independentes"
-      ],
-      "complete": false,
-      "duplicate_of": null
-    },
-    {
-      "kind": "agenda",
-      "slug": "motofest-caete-mg-2026-08-08",
-      "title": "Caeté Moto Fest",
-      "date": "2026-08-08",
-      "city": "Caete",
-      "state": "MG",
-      "source_count": 2,
-      "independent_domains": 1,
-      "specific_independent_domains": 1,
-      "placeholder_fields": 4,
       "missing": [
         "duas_fontes_especificas_independentes"
       ],

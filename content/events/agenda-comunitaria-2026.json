@@ -16553,6 +16553,27 @@
           "type": "agenda independente com página específica",
           "supports": "datas, cidade, estado e identidade do evento",
           "checked_at": "2026-07-30"
+        },
+        {
+          "url": "https://jb-rider.com.br/evento/20260807-2-motofest-simonesia-go",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260807_2__MOTOFEST_Simonesia_GO.jpeg",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+        },
+        {
+          "url": "https://motofestbrasil.com.br/motofest/4-motofest-de-simonesia",
+          "label": "4º Motofest Simonésia — página específica no Motofest Brasil",
+          "type": "fonte específica independente",
+          "supports": "data e edição, cidade e local, programação e atrações",
+          "checked_at": "2026-07-26T08:05:18.489319+00:00",
+          "discovery_method": "cruzamento_estruturado_motofestbrasil",
+          "relevance_score": 100
         }
       ],
       "research_status": {
