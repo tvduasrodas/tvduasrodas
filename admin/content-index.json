@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "total": 728,
+  "total": 729,
   "counts": {
     "Competição": 20,
     "Configuração da home": 2,
     "Etapa esportiva": 62,
-    "Evento": 12,
+    "Evento": 13,
     "Evento da agenda": 557,
     "Matéria": 43,
     "Matéria do acervo": 4,
@@ -922,6 +922,20 @@
       "url": "/eventos/2-moto-fest-serra-de-sao-bento-rn-2026-10-09/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#2-moto-fest-serra-de-sao-bento-rn-2026-10-09"
+    },
+    {
+      "title": "2º Tour São Francisco 2026",
+      "type": "Evento",
+      "slug": "tour-sao-francisco-itabapoana-2026",
+      "date": "2026-08-07",
+      "category": "Competição de ciclismo de estrada",
+      "city": "São Francisco de Itabapoana",
+      "state": "RJ",
+      "status": "agendada",
+      "summary": "A segunda edição do Tour São Francisco reúne contrarrelógio individual, prova de resistência e circuito entre 7 e 9 de agosto, com pontuação nos rankings da FECIERJ e da CBC.",
+      "url": "/eventos/tour-sao-francisco-itabapoana-2026/",
+      "edit_url": "/admin/#/collections/events/entries/tour-sao-francisco-itabapoana-2026",
+      "source": "content/events/tour-sao-francisco-itabapoana-2026.json"
     },
     {
       "title": "2º Viçosa Moto Fest",
