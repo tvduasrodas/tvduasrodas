@@ -156,3 +156,24 @@ Fontes oficiais continuam sendo a referência para datas, locais e programação
 - Imagem publicada: `/assets/img/competicoes-eventos-default.svg`.
   - Titular/crédito: TVDUASRODAS.
   - As artes do Instagram foram usadas somente para conferência factual. Como não foi localizada autorização editorial inequívoca para republicação, não houve download, conversão ou remoção de metadados.
+
+# Caruaru MotoFest — Caruaru/PE — 2026
+
+- Consulta editorial: 30/07/2026.
+- Anúncio oficial do Movimento Motociclístico de Caruaru: https://www.instagram.com/p/DUNmbuPEUtp/
+  - Confirmados na legenda: nome do evento e período de 17 a 20 de setembro de 2026.
+- Site oficial do MMC: https://mmc-caruaru.com.br/
+  - Confirmou o período e a atuação da entidade na promoção do motoclubismo de Caruaru.
+- Portal turístico oficial da Prefeitura de Caruaru: https://conheca.caruaru.pe.gov.br/eventos
+  - Confirmou a realização conjunta da Prefeitura com o MMC, o Pátio de Eventos Luiz Gonzaga e o formato tradicional com passeios motociclísticos, gastronomia regional, forró e rock.
+- JB-RIDER, página específica: https://jb-rider.com.br/evento/20260917-4-motofest-caruaru-pe
+  - Conferência independente do período, da cidade, do estado e da identidade do evento.
+- Google Maps: https://www.google.com/maps/search/P%C3%A1tio+de+Eventos+Luiz+Gonzaga+Caruaru
+  - Referência cartográfica usada para logradouro, bairro e CEP.
+- A grade de atrações, os horários, a condição de entrada, o estacionamento, o camping e a operação de trânsito de 2026 não estavam publicados nas fontes consultadas. Esses itens permanecem sinalizados como pendentes.
+- A arte promocional encontrada no Instagram foi usada somente para conferência factual; a publicação não apresenta licença editorial inequívoca para republicação.
+- Imagem publicada: `/assets/img/uploads/caruaru-motofest-2026-artwork.svg`.
+  - Titular/crédito: TVDUASRODAS.
+  - Arte vetorial original, 1600 × 900 px, criada para uso editorial no portal.
+  - Não utiliza fotografias, logotipos ou elementos copiados da arte do organizador.
+  - Como o arquivo é SVG, não houve compressão, perda de metadados fotográficos nem conversão de formato.

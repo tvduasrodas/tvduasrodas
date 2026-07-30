@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Caruaru MotoFest 2026</title>
+  <desc id="desc">Arte editorial TVDUASRODAS com motocicleta estilizada, data de 17 a 20 de setembro e referência a Caruaru, Pernambuco.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#071c26"/>
+      <stop offset=".56" stop-color="#123d4b"/>
+      <stop offset="1" stop-color="#6f2c16"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#22d3c5"/>
+      <stop offset="1" stop-color="#ff8a32"/>
+    </linearGradient>
+    <pattern id="grid" width="54" height="54" patternUnits="userSpaceOnUse">
+      <path d="M54 0H0v54" fill="none" stroke="#fff" stroke-opacity=".055" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <circle cx="1360" cy="130" r="330" fill="#ff8a32" opacity=".08"/>
+  <circle cx="1180" cy="790" r="430" fill="#22d3c5" opacity=".08"/>
+  <path d="M0 710c230-105 420-33 610 24 223 67 437 43 620-53 142-75 265-72 370-42v261H0Z" fill="#020b10" opacity=".68"/>
+  <path d="M0 752c265-100 472-4 692 40 219 44 429 13 612-67 118-52 216-56 296-34" fill="none" stroke="url(#accent)" stroke-width="12" stroke-dasharray="42 18" opacity=".8"/>
+  <g transform="translate(1010 405)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="10" cy="215" r="92" stroke-width="18"/>
+    <circle cx="360" cy="215" r="92" stroke-width="18"/>
+    <path d="m10 215 118-105 112 105H10l188-72 162 72M240 215l62-165 58 165M302 50l56-38" stroke-width="18"/>
+    <path d="m128 110 45-70h96l51 65-125 14Z" fill="#22d3c5" stroke="none"/>
+    <path d="m145 128 85-8 53 70-48 48h-94l-34-55Z" fill="#f7fbfb" stroke="none"/>
+    <path d="M88 94h112" stroke="#fff" stroke-width="26"/>
+    <path d="m267 188 73 25" stroke="#ff8a32" stroke-width="20"/>
+    <path d="m302 50 58-38" stroke="#ff8a32" stroke-width="16"/>
+  </g>
+  <text x="92" y="118" fill="#53e6da" font-family="Arial, sans-serif" font-size="30" font-weight="800" letter-spacing="7">TVDUASRODAS • EVENTO 2026</text>
+  <text x="92" y="270" fill="#fff" font-family="Arial, sans-serif" font-size="100" font-weight="900">CARUARU</text>
+  <text x="92" y="375" fill="#fff" font-family="Arial, sans-serif" font-size="100" font-weight="900">MOTOFEST</text>
+  <rect x="92" y="438" width="665" height="6" rx="3" fill="url(#accent)"/>
+  <text x="92" y="525" fill="#d8f8f5" font-family="Arial, sans-serif" font-size="44" font-weight="800">17 A 20 DE SETEMBRO</text>
+  <text x="92" y="590" fill="#ffb077" font-family="Arial, sans-serif" font-size="32" font-weight="800" letter-spacing="5">CARUARU • PERNAMBUCO</text>
+  <text x="92" y="805" fill="#fff" opacity=".72" font-family="Arial, sans-serif" font-size="25">Datas confirmadas pelo Movimento Motociclístico de Caruaru</text>
+</svg>
