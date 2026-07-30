@@ -1107,5 +1107,28 @@
       "contentId": "18013225067945366",
       "publicationConfirmation": "Meta Business Suite exibiu o Reel publicado na lista de conteúdo às 14:43 Eastern."
     }
+  },
+  {
+    "url": "https://tvduasrodas.com/materias/brasileiro-motocross-2026-etapa-da-moda-comeca-santa-cruz/",
+    "type": "news",
+    "title": "Brasileiro de Motocross 2026: Etapa da Moda começa em Santa Cruz",
+    "detectedAt": "2026-07-30T08:31:00-04:00",
+    "validation": {
+      "source": "MX1 GP Brasil e CBM; consulta em 30/07/2026",
+      "publicUrl": "PENDENTE_DE_CONFIRMACAO_INDEPENDENTE",
+      "imageAudit": "Há cinco arquivos locais distintos, mas o release oficial apenas os identifica como ‘Fotos: Divulgação’; não foram localizados termos, licença ou autorização explícita que confirmem o uso editorial no Instagram.",
+      "rights_verified": false,
+      "rights": "PENDENTE_AUTORIZACAO_OU_LICENCA_EXPLICITA"
+    },
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
+    "stories": {
+      "status": "PENDENTE_DIREITOS_DE_IMAGEM_NAO_VERIFICADOS"
+    },
+    "reel": {
+      "status": "PENDENTE_DIREITOS_DE_IMAGEM_NAO_VERIFICADOS",
+      "imageAudit": "O Reel exige rights_verified: true e ao menos cinco imagens distintas; a contagem existe, mas a verificação de direitos ainda não existe. Não gerar nem publicar até haver autorização ou licença verificável."
+    }
   }
 ]
