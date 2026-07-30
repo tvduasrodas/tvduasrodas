@@ -1,12 +1,12 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-07-29T21:08:06.315740+00:00",
+  "generated_at": "2026-07-30T05:24:04.168604+00:00",
   "scope": "Matérias no Google News sitemap das últimas 48 horas e eventos em andamento ou futuros priorizados por data",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/event-sitemap.xml",
-      "last_submitted": "2026-07-29T21:06:23.247Z",
-      "last_downloaded": "2026-07-29T21:06:24.141Z",
+      "last_submitted": "2026-07-30T05:22:22.473Z",
+      "last_downloaded": "2026-07-30T05:22:23.279Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -27,8 +27,8 @@
     },
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-07-29T21:06:23.113Z",
-      "last_downloaded": "2026-07-29T21:06:24.106Z",
+      "last_submitted": "2026-07-30T05:22:22.152Z",
+      "last_downloaded": "2026-07-30T05:22:23.200Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -49,8 +49,8 @@
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-07-29T21:06:23.024Z",
-      "last_downloaded": "2026-07-29T21:06:23.833Z",
+      "last_submitted": "2026-07-30T05:22:21.764Z",
+      "last_downloaded": "2026-07-30T05:22:22.727Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -93,13 +93,12 @@
       "google_canonical": "https://tvduasrodas.com/materias/royal-enfield-shotgun-650-rough-crafts-americas-2026/",
       "user_canonical": "https://tvduasrodas.com/materias/royal-enfield-shotgun-650-rough-crafts-americas-2026/",
       "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
+        "https://tvduasrodas.com/news-sitemap.xml"
       ],
       "referring_urls": [
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-07-29T21:06:29.981429+00:00"
+      "inspected_at": "2026-07-30T05:22:29.031120+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/move-brasil-financiamento-entregadores-como-pedir-2026/",
@@ -118,7 +117,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-07-29T21:06:36.387637+00:00"
+      "inspected_at": "2026-07-30T05:22:35.335240+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/tour-do-rio-2026-cancelado-calendario-cbc/",
@@ -137,7 +136,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-07-29T21:06:42.690698+00:00"
+      "inspected_at": "2026-07-30T05:22:41.820297+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/custo-real-da-moto-como-calcular-antes-de-comprar/",
@@ -156,7 +155,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-07-29T21:06:48.965150+00:00"
+      "inspected_at": "2026-07-30T05:22:48.113401+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/acidente-contorno-leste-curitiba-moto-caminhao-o-que-aprender/",
@@ -175,7 +174,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-07-29T21:06:55.263319+00:00"
+      "inspected_at": "2026-07-30T05:22:54.409962+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/honda-gold-wing-50-anos-chega-ao-brasil-2026/",
@@ -192,7 +191,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-29T21:07:01.640174+00:00"
+      "inspected_at": "2026-07-30T05:23:00.725824+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/capital-moto-week-2026/",
@@ -204,28 +203,14 @@
       "last_crawl_time": "2026-07-28T07:22:31Z",
       "google_canonical": "https://tvduasrodas.com/eventos/capital-moto-week-2026/",
       "user_canonical": "https://tvduasrodas.com/eventos/capital-moto-week-2026/",
-      "sitemaps": [],
-      "referring_urls": [
-        "https://tvduasrodas.com/evento?slug=capital-moto-week-2026"
-      ],
-      "inspected_at": "2026-07-29T21:07:08.148628+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/eventos/porto-real-mc-resende-rj-2026-07-29/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-28T18:32:09Z",
-      "google_canonical": "https://tvduasrodas.com/eventos/porto-real-mc-resende-rj-2026-07-29/",
-      "user_canonical": "https://tvduasrodas.com/eventos/porto-real-mc-resende-rj-2026-07-29/",
       "sitemaps": [
         "https://tvduasrodas.com/event-sitemap.xml",
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "referring_urls": [],
-      "inspected_at": "2026-07-29T21:07:14.543065+00:00"
+      "referring_urls": [
+        "https://tvduasrodas.com/evento?slug=capital-moto-week-2026"
+      ],
+      "inspected_at": "2026-07-30T05:23:07.086155+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/3-encontro-de-motociclistas-penedo-mg-2026-07-30/",
@@ -242,7 +227,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-29T21:07:20.991150+00:00"
+      "inspected_at": "2026-07-30T05:23:13.251497+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motofest-bezerros-pe-2026-07-30/",
@@ -259,7 +244,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-29T21:07:27.706423+00:00"
+      "inspected_at": "2026-07-30T05:23:19.390933+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motofest-iguatu-ce-2026-07-30/",
@@ -276,7 +261,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-29T21:07:34.212146+00:00"
+      "inspected_at": "2026-07-30T05:23:25.784830+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/quinta-do-motociclista-arapiraca-al-2026-07-30/",
@@ -293,7 +278,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-29T21:07:40.407549+00:00"
+      "inspected_at": "2026-07-30T05:23:32.240001+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/14-motofest-extrema-mg-2026-07-31/",
@@ -305,9 +290,12 @@
       "last_crawl_time": "2026-07-29T10:02:23Z",
       "google_canonical": "https://tvduasrodas.com/eventos/14-motofest-extrema-mg-2026-07-31/",
       "user_canonical": "https://tvduasrodas.com/eventos/14-motofest-extrema-mg-2026-07-31/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-07-29T21:07:46.773803+00:00"
+      "inspected_at": "2026-07-30T05:23:38.521137+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/2-encontro-nacional-serra-da-saudade-mg-2026-07-31/",
@@ -324,7 +312,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-29T21:07:53.295988+00:00"
+      "inspected_at": "2026-07-30T05:23:44.909298+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/21-paranaguamotos-paranagua-pr-2026-07-31/",
@@ -341,7 +329,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-29T21:07:59.735408+00:00"
+      "inspected_at": "2026-07-30T05:23:51.211060+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/3-moto-rock-fest-paranapanema-sp-2026-07-31/",
@@ -358,7 +346,24 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-29T21:08:05.958194+00:00"
+      "inspected_at": "2026-07-30T05:23:57.568627+00:00"
+    },
+    {
+      "url": "https://tvduasrodas.com/eventos/7-encontro-de-motociclistas-e-triciclistas-oliveira-fortes-mg-2026-07-31/",
+      "verdict": "PASS",
+      "coverage_state": "Enviada e indexada",
+      "indexing_state": "INDEXING_ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "robots_txt_state": "ALLOWED",
+      "last_crawl_time": "2026-07-28T18:42:44Z",
+      "google_canonical": "https://tvduasrodas.com/eventos/7-encontro-de-motociclistas-e-triciclistas-oliveira-fortes-mg-2026-07-31/",
+      "user_canonical": "https://tvduasrodas.com/eventos/7-encontro-de-motociclistas-e-triciclistas-oliveira-fortes-mg-2026-07-31/",
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
+      "referring_urls": [],
+      "inspected_at": "2026-07-30T05:24:03.939494+00:00"
     }
   ]
 }
