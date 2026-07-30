@@ -13,10 +13,10 @@
   "cover": "/assets/img/uploads/brasileiro-motocross-2026-capa.webp",
   "image_credit": "Foto: MX1 GP Brasil / divulgação · Arte: TVDUASRODAS",
   "featured": true,
-  "summary": "Enzo Lopes lidera a MX1 por 18 pontos sobre Glenn Coldenhoff, Salvador Pérez comanda a MX2 e Santa Cruz do Capibaribe recebe a 8ª e a 9ª etapas, entre 31 de julho e 2 de agosto.",
-  "last_updated": "2026-07-29T11:17:33+00:00",
+  "summary": "Enzo Lopes lidera a MX1 por 18 pontos sobre Glenn Coldenhoff, Salvador Pérez comanda a MX2 e Santa Cruz do Capibaribe recebe a 7ª e a 8ª etapas, entre 30 de julho e 2 de agosto.",
+  "last_updated": "2026-07-30T06:05:00+00:00",
   "next_stage": {
-    "name": "8ª e 9ª etapas — Etapa da Moda",
+    "name": "7ª e 8ª etapas — Etapa da Moda",
     "start_date": "2026-07-30",
     "end_date": "2026-08-02",
     "venue": "Estrutura do MX1 GP Brasil na Rodovia PE-160, km 15",
@@ -397,9 +397,9 @@
       "order": 7,
       "start_date": "2026-07-30",
       "end_date": "2026-08-02",
-      "name": "8ª e 9ª etapas — Etapa da Moda",
+      "name": "7ª e 8ª etapas — Etapa da Moda",
       "location": "Santa Cruz do Capibaribe/PE",
-      "status": "agendada"
+      "status": "em_andamento"
     },
     {
       "order": 9,
@@ -444,7 +444,7 @@
       "supports": "regras esportivas, categorias e homologação"
     }
   ],
-  "source_checked_at": "2026-07-29T11:17:33+00:00",
+  "source_checked_at": "2026-07-30T06:05:00+00:00",
   "research_status": {
     "required_specific_independent_sources": 2,
     "specific_independent_domains_found": 2,
