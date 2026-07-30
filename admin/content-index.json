@@ -602,20 +602,6 @@
       "source": "content/events/agenda-comunitaria-2026.json#2-moto-cafe-paraguacu-paulista-sp-2026-09-20"
     },
     {
-      "title": "2 Moto Cafe",
-      "type": "Evento da agenda",
-      "slug": "2-moto-cafe-pompeia-sp-2026-08-02",
-      "date": "2026-08-02",
-      "category": "Encontro de motociclistas",
-      "city": "Pompeia",
-      "state": "SP",
-      "status": "agendada",
-      "summary": "Encontro de motociclistas em Pompeia/SP, com data divulgada para 2026-08-02. O flyer foi inspecionado localmente; serviços identificados: atividade gratuita indicada no flyer.",
-      "url": "/eventos/2-moto-cafe-pompeia-sp-2026-08-02/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#2-moto-cafe-pompeia-sp-2026-08-02"
-    },
-    {
       "title": "2 MOTO CAFE",
       "type": "Evento da agenda",
       "slug": "2-moto-cafe-tres-marias-mg-2026-07-26",
@@ -880,6 +866,20 @@
       "url": "/eventos/2-motofest-itapevi-sp-2026-07-26/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#2-motofest-itapevi-sp-2026-07-26"
+    },
+    {
+      "title": "2º Moto Café de Pompeia",
+      "type": "Evento da agenda",
+      "slug": "2-moto-cafe-pompeia-sp-2026-08-02",
+      "date": "2026-08-02",
+      "category": "Moto café e encontro de motociclistas",
+      "city": "Pompeia",
+      "state": "SP",
+      "status": "agendada",
+      "summary": "O 2º Moto Café de Pompeia acontece no domingo, 2 de agosto de 2026, a partir das 9h, no Clube do JK, com café gratuito para motociclistas, encontro sobre duas rodas e rock ao vivo com Danielle Dias — Rock & Road.",
+      "url": "/eventos/2-moto-cafe-pompeia-sp-2026-08-02/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#2-moto-cafe-pompeia-sp-2026-08-02"
     },
     {
       "title": "2º Motofest de Coronel Fabriciano",

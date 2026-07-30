@@ -138,3 +138,21 @@ Fontes oficiais continuam sendo a referência para datas, locais e programação
 - Imagem publicada: `/assets/img/competicoes-eventos-default.svg`.
   - Titular/crédito: TVDUASRODAS.
   - As artes e os vídeos consultados foram usados somente para conferência factual; as fontes não apresentaram autorização editorial inequívoca para republicação. Não houve download, conversão ou remoção de metadados.
+
+# 2º Moto Café — Pompeia/SP — 2026
+
+- Consulta editorial: 30/07/2026.
+- Publicação oficial do Rolê dos Amigos Pompeia: https://www.instagram.com/p/Da0cNG3JYIO/
+  - Confirmados: domingo, 2 de agosto, início às 9h, Clube do JK, café gratuito para motociclistas e rock ao vivo com Danielle Dias.
+- Perfil oficial do Moto Café Pompeia: https://www.instagram.com/roledosamigospompeia/
+  - Confirmados: realização do Rolê dos Amigos, data, local, orientação “zoeira zero” e atualizações recentes.
+- Anúncio da atração musical: https://www.instagram.com/roledosamigospompeia/p/DaiXymlp6zO/
+  - Confirmados: Danielle Dias, apresentação Rock & Road e início do evento às 9h.
+- JB-RIDER, página específica: https://jb-rider.com.br/evento/20260802-2-moto-cafe-pompeia-sp
+- Prefeitura de Pompeia, relação recente de locais municipais: https://www.pompeia.sp.gov.br/public/admin/globalarq/licitacao/arquivo/ccd6adfc9e51fbf3c27eabee6d93362e.pdf
+  - Confirmado o endereço atual do Clube do JK: Recanto Luiz Nogueira Ferraro, 38, Pompeia/SP, CEP 17580-000.
+- Prefeitura de Pompeia, página do Clube do JK: https://www.pompeia.sp.gov.br/portal/noticias/0/3/9800/clube-do-jk
+- A divulgação confirma café gratuito para motociclistas, mas não informa expressamente gratuidade ou cobrança de entrada; os dois dados não foram tratados como equivalentes.
+- Imagem publicada: `/assets/img/competicoes-eventos-default.svg`.
+  - Titular/crédito: TVDUASRODAS.
+  - As artes do Instagram foram usadas somente para conferência factual. Como não foi localizada autorização editorial inequívoca para republicação, não houve download, conversão ou remoção de metadados.
