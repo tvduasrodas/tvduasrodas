@@ -1163,5 +1163,46 @@
       "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES",
       "imageAudit": "Nao gerar ou publicar parcialmente: o Reel requer de cinco a sete imagens realmente distintas e rights_verified: true."
     }
+  },
+  {
+    "url": "https://tvduasrodas.com/materias/honda-motos-cresce-11-primeiro-semestre-2026/",
+    "type": "news",
+    "title": "Honda cresce 11% no primeiro semestre de 2026 e supera 772 mil motos",
+    "detectedAt": "2026-07-30T17:00:00-04:00",
+    "validation": {
+      "source": "Honda South America — Sala de Imprensa; consulta em 30/07/2026",
+      "publicUrl": "CONFIRMADA_NO_DOMINIO_PUBLICO",
+      "rights_verified": true,
+      "rights_basis": "Imagens da Sala de Imprensa e galerias oficiais da Honda, publicadas editorialmente com crédito Honda/Divulgação.",
+      "imageAudit": "Cinco imagens distintas, com hashes distintos e fontes oficiais registradas no manifesto."
+    },
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
+    "stories": {
+      "status": "PUBLICADO",
+      "file": "output/instagram/2026-07-30/honda-mercado-primeiro-semestre/story.mp4",
+      "poster": "output/instagram/2026-07-30/honda-mercado-primeiro-semestre/story-poster.jpg",
+      "format": "1080x1920 H.264/AAC",
+      "durationSeconds": 14,
+      "publishedAt": "2026-07-30T17:16:00-04:00",
+      "destination": "Instagram @tvduasrodasofc",
+      "contentId": "18417158074144582",
+      "publicationConfirmation": "Meta Business Suite exibiu o Story como Active no Planner às 17:18 Eastern."
+    },
+    "reel": {
+      "status": "PUBLICADO",
+      "file": "output/instagram/2026-07-30/honda-mercado-primeiro-semestre/reel.mp4",
+      "cover": "output/instagram/2026-07-30/honda-mercado-primeiro-semestre/reel-cover.jpg",
+      "format": "1080x1920 H.264/AAC",
+      "durationSeconds": 19.25,
+      "soundtrack": "rock_instrumental_original",
+      "transition": "page_peel_diagonal",
+      "sceneCount": 5,
+      "publishedAt": "2026-07-30T17:17:00-04:00",
+      "destination": "Instagram @tvduasrodasofc",
+      "contentId": "18336658981255907",
+      "publicationConfirmation": "Meta Business Suite listou o Reel em Conteúdo > Publicado às 17:17 Eastern."
+    }
   }
 ]
