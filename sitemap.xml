@@ -12,7 +12,7 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/tv</loc>
-    <lastmod>2026-07-29</lastmod>
+    <lastmod>2026-07-30</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
@@ -228,6 +228,14 @@
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://tvduasrodas.com/assets/img/uploads/honda-gold-wing-50-anos-capa.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/materias/honda-motos-cresce-11-primeiro-semestre-2026/</loc>
+    <lastmod>2026-07-30</lastmod>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://tvduasrodas.com/assets/img/uploads/honda-semestre-2026-capa.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -533,6 +541,21 @@
       <video:description>Em 1910, a Harley ainda era uma empresa pequena, competindo com Indian, Excelsior e outras marcas que hoje nem existem mais.</video:description>
       <video:player_loc>https://www.youtube.com/embed/</video:player_loc>
       <video:publication_date>2026-01-26T22:24:00-05:00</video:publication_date>
+    </video:video>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/videos/honda-lancamentos-300cc-2027-canal-motoplay/</loc>
+    <lastmod>2026-07-30</lastmod>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://i3.ytimg.com/vi/0qGvajqyr9k/hqdefault.jpg</image:loc>
+    </image:image>
+    <video:video>
+      <video:thumbnail_loc>https://i3.ytimg.com/vi/0qGvajqyr9k/hqdefault.jpg</video:thumbnail_loc>
+      <video:title>Honda 2027: Canal Motoplay mostra as novidades da linha 300</video:title>
+      <video:description>O Canal Motoplay reúne em vídeo as novidades apresentadas para a linha Honda 2027, com atenção especial às motos de 300 cm³. A pauta passa pela XR 300L Tornado, pela Sahara 300 e pelas mudanças de versões e acabamento…</video:description>
+      <video:player_loc>https://www.youtube.com/embed/0qGvajqyr9k</video:player_loc>
+      <video:publication_date>2026-07-30T17:00:00-04:00</video:publication_date>
     </video:video>
   </url>
   <url>
@@ -848,7 +871,7 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/competicoes/brasileiro-enduro-regularidade-2026/</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-07-30</lastmod>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://tvduasrodas.com/assets/img/uploads/brasileiro-enduro-regularidade-2026-artwork.svg</image:loc>
@@ -1041,6 +1064,14 @@
   <url>
     <loc>https://tvduasrodas.com/eventos/sturgis-motorcycle-rally-2026/</loc>
     <lastmod>2026-07-26</lastmod>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/eventos/tour-sao-francisco-itabapoana-2026/</loc>
+    <lastmod>2026-07-30</lastmod>
     <priority>0.7</priority>
     <image:image>
       <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
@@ -7062,7 +7093,7 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/modalidades/enduro-de-regularidade/</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-07-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>

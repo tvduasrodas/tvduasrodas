@@ -147,6 +147,13 @@
     "kind": "article"
   },
   {
+    "url": "/materias/honda-motos-cresce-11-primeiro-semestre-2026/",
+    "lastmod": "2026-07-30",
+    "priority": "0.8",
+    "image": "https://tvduasrodas.com/assets/img/uploads/honda-semestre-2026-capa.webp",
+    "kind": "article"
+  },
+  {
     "url": "/materias/honda-wn7-o-primeiro-passo-eletrico-da-honda-no-motociclismo-global/",
     "lastmod": "2026-02-06",
     "priority": "0.8",
@@ -424,6 +431,20 @@
       "description": "Em 1910, a Harley ainda era uma empresa pequena, competindo com Indian, Excelsior e outras marcas que hoje nem existem mais.",
       "upload_date": "2026-01-26T22:24:00-05:00",
       "player": "https://www.youtube.com/embed/"
+    }
+  },
+  {
+    "url": "/videos/honda-lancamentos-300cc-2027-canal-motoplay/",
+    "lastmod": "2026-07-30",
+    "priority": "0.7",
+    "image": "https://i3.ytimg.com/vi/0qGvajqyr9k/hqdefault.jpg",
+    "kind": "video",
+    "video": {
+      "thumbnail": "https://i3.ytimg.com/vi/0qGvajqyr9k/hqdefault.jpg",
+      "title": "Honda 2027: Canal Motoplay mostra as novidades da linha 300",
+      "description": "O Canal Motoplay reúne em vídeo as novidades apresentadas para a linha Honda 2027, com atenção especial às motos de 300 cm³. A pauta passa pela XR 300L Tornado, pela Sahara 300 e pelas mudanças de versões e acabamento…",
+      "upload_date": "2026-07-30T17:00:00-04:00",
+      "player": "https://www.youtube.com/embed/0qGvajqyr9k"
     }
   },
   {
@@ -715,7 +736,7 @@
   },
   {
     "url": "/competicoes/brasileiro-enduro-regularidade-2026/",
-    "lastmod": "2026-07-26",
+    "lastmod": "2026-07-30",
     "priority": "0.8",
     "image": "https://tvduasrodas.com/assets/img/uploads/brasileiro-enduro-regularidade-2026-artwork.svg",
     "kind": "competition"
@@ -884,6 +905,13 @@
   {
     "url": "/eventos/sturgis-motorcycle-rally-2026/",
     "lastmod": "2026-07-26",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/tour-sao-francisco-itabapoana-2026/",
+    "lastmod": "2026-07-30",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "event"
@@ -6695,7 +6723,7 @@
   },
   {
     "url": "/modalidades/enduro-de-regularidade/",
-    "lastmod": "2026-07-26",
+    "lastmod": "2026-07-30",
     "priority": "0.7",
     "kind": "modality"
   },
