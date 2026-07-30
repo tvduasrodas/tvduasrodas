@@ -770,6 +770,20 @@
       "source": "content/events/agenda-comunitaria-2026.json#mantra-mc-sao-joao-da-boa-vista-sp-2026-08-14"
     },
     {
+      "title": "23º 100 Destino Motofest",
+      "type": "Evento da agenda",
+      "slug": "motofest-araxa-mg-2026-08-28",
+      "date": "2026-08-28",
+      "category": "Encontro de motociclistas e festival de rock",
+      "city": "Araxá",
+      "state": "MG",
+      "status": "agendada",
+      "summary": "O 23º 100 Destino Motofest acontece de 28 a 30 de agosto de 2026, na Praça Lago Norte do Barreiro, em Araxá/MG. A programação oficial reúne 12 apresentações de rock; uma agenda especializada informa entrada gratuita, sujeita a reconfirmação com a organização.",
+      "url": "/eventos/motofest-araxa-mg-2026-08-28/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#motofest-araxa-mg-2026-08-28"
+    },
+    {
       "title": "23º Motoshow de Três Lagoas",
       "type": "Evento da agenda",
       "slug": "motoshow-tres-lagoas-ms-2026-07-31",
@@ -2112,20 +2126,6 @@
       "url": "/eventos/araruama-mc-araruama-rj-2026-10-18/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#araruama-mc-araruama-rj-2026-10-18"
-    },
-    {
-      "title": "Araxá Moto Fest",
-      "type": "Evento da agenda",
-      "slug": "motofest-araxa-mg-2026-08-28",
-      "date": "2026-08-28",
-      "category": "Festival de motociclismo",
-      "city": "Araxa",
-      "state": "MG",
-      "status": "agendada",
-      "summary": "Festival de motociclismo em Araxa/MG, com data divulgada para 2026-08-28. O flyer foi inspecionado localmente; serviços identificados: programação detalhada não identificada de forma legível no flyer.",
-      "url": "/eventos/motofest-araxa-mg-2026-08-28/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#motofest-araxa-mg-2026-08-28"
     },
     {
       "title": "Arena Cross Brasil 2026",
