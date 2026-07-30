@@ -199,3 +199,26 @@ Fontes oficiais continuam sendo a referência para datas, locais e programação
   - Arte vetorial original, 1600 × 900 px, criada para uso editorial no portal.
   - Não utiliza fotografias, logotipos ou elementos copiados da arte do organizador.
   - Como o arquivo é SVG, não houve compressão, perda de metadados fotográficos nem conversão de formato.
+
+# 25º Moto Fest Paranavaí — Paranavaí/PR — 2026
+
+- Consulta editorial: 30/07/2026.
+- Publicação oficial do Moto Fest Paranavaí: https://www.instagram.com/p/DbR80tjuWdx/
+  - Confirmados na legenda e no cartaz: 25ª edição, datas de 4 a 6 de setembro de 2026, Parque de Exposições de Paranavaí, Ratos de Bar e os contatos Borracha e Roberta.
+- Perfil oficial do evento: https://www.instagram.com/motofestpvai/
+  - Confirmados em publicações recentes: West Valmets, Hillbilly Rawhide, The Beast Experience, Arde Rock, datas, identidade da edição e local.
+  - A programação por dia e os horários ainda não foram divulgados.
+- Moto Eventos MS, agenda 2026: https://sites.google.com/view/motoeventosms/agenda-ms
+  - A agenda específica lista valor de R$ 50, estacionamento para motos, segurança 24 horas, banheiros com chuveiro, praça de alimentação, costelão, concurso de cosplay, show de wheeling, robô de LED e atrações musicais adicionais.
+  - Valor, serviços e nomes que ainda não aparecem no canal oficial foram publicados com atribuição e recomendação de reconfirmação.
+- Secretaria do Turismo do Paraná, referência do recinto: https://www.turismo.pr.gov.br/Evento/Effeta-2026
+  - Confirmado o nome Parque de Exposições Presidente Arthur da Costa e Silva e a localização na BR-376, em Paranavaí.
+- JB-RIDER, página específica: https://jb-rider.com.br/evento/20260904-3-25-motofest-paranavai-pr
+  - Conferência independente da edição, do período, da cidade e do estado.
+- Não foi localizada confirmação atual sobre camping, formato do ingresso, lotes, pontos de venda ou horários. Serviços de edições anteriores não foram presumidos para 2026.
+- As artes do Instagram foram usadas somente para conferência factual; as publicações não apresentam licença editorial inequívoca para republicação.
+- Imagem publicada: `/assets/img/uploads/paranavai-motofest-2026-artwork.svg`.
+  - Titular/crédito: TVDUASRODAS.
+  - Arte vetorial original, 1600 × 900 px, criada para uso editorial no portal.
+  - Não utiliza fotografias, logotipos ou elementos copiados da arte do organizador.
+  - Como o arquivo é SVG, não houve compressão, perda de metadados fotográficos nem conversão de formato.

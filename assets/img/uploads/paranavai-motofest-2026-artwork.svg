@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">25º Moto Fest Paranavaí — setembro de 2026</title>
+  <desc id="desc">Arte editorial original da TVDUASRODAS para o encontro de motociclistas e triciclistas de Paranavaí.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#120707"/>
+      <stop offset=".55" stop-color="#30100d"/>
+      <stop offset="1" stop-color="#080607"/>
+    </linearGradient>
+    <radialGradient id="heat" cx="72%" cy="42%" r="55%">
+      <stop offset="0" stop-color="#ffb21c" stop-opacity=".27"/>
+      <stop offset="1" stop-color="#ff5a1f" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#000" flood-opacity=".48"/>
+    </filter>
+    <pattern id="dots" width="42" height="42" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="1.2" fill="#fff" opacity=".045"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#heat)"/>
+  <rect width="1600" height="900" fill="url(#dots)"/>
+  <path d="M0 735 C305 640 510 782 770 680 C1055 568 1280 600 1600 520 L1600 900 L0 900Z" fill="#080607" opacity=".88"/>
+  <path d="M0 795 C320 706 500 827 760 745 C1055 652 1268 660 1600 600" fill="none" stroke="#f39a16" stroke-width="5" opacity=".5"/>
+
+  <g transform="translate(850 185)" filter="url(#shadow)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="175" cy="415" r="128" stroke="#f5e9d3" stroke-width="19"/>
+    <circle cx="175" cy="415" r="36" stroke="#f39a16" stroke-width="11"/>
+    <circle cx="550" cy="415" r="128" stroke="#f5e9d3" stroke-width="19"/>
+    <circle cx="550" cy="415" r="36" stroke="#f39a16" stroke-width="11"/>
+    <path d="M175 415 C220 331 272 307 346 319 C412 330 464 361 550 415" stroke="#f5e9d3" stroke-width="23"/>
+    <path d="M250 322 L322 224 L461 239 L520 347" stroke="#f5e9d3" stroke-width="23"/>
+    <path d="M461 239 L514 145 L582 130" stroke="#f39a16" stroke-width="19"/>
+    <path d="M560 130 L618 138" stroke="#f5e9d3" stroke-width="17"/>
+    <path d="M272 232 L360 232" stroke="#f5e9d3" stroke-width="21"/>
+    <path d="M309 226 C334 164 413 167 457 220 C431 246 344 253 309 226Z" fill="#f39a16" stroke="#f39a16" stroke-width="8"/>
+    <path d="M294 304 L390 281 L449 352 L380 411 L281 380Z" fill="#30100d" stroke="#f5e9d3" stroke-width="17"/>
+    <circle cx="366" cy="346" r="50" fill="#0b0707" stroke="#f39a16" stroke-width="12"/>
+    <path d="M326 393 L261 438 L210 438" stroke="#f39a16" stroke-width="17"/>
+    <path d="M394 405 L488 438 L570 438" stroke="#f5e9d3" stroke-width="17"/>
+  </g>
+
+  <g transform="translate(112 106)">
+    <rect width="220" height="58" rx="29" fill="#f39a16"/>
+    <text x="110" y="40" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="900" fill="#160909">AGENDA 2026</text>
+    <text x="0" y="155" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" letter-spacing="5" fill="#d3a46d">PARANAVAÍ • PARANÁ</text>
+    <text x="0" y="264" font-family="Arial, Helvetica, sans-serif" font-size="130" font-weight="900" letter-spacing="-6" fill="#fff">25º</text>
+    <text x="238" y="260" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="900" letter-spacing="-3" fill="#fff">MOTO FEST</text>
+    <text x="0" y="370" font-family="Arial, Helvetica, sans-serif" font-size="116" font-weight="900" letter-spacing="-5" fill="#f39a16">PARANAVAÍ</text>
+    <path d="M0 408 H650" stroke="#d3a46d" stroke-width="7"/>
+    <text x="0" y="504" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="900" fill="#fff">04—06 SET</text>
+    <text x="0" y="558" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" letter-spacing="1.5" fill="#e5ccb0">PARQUE DE EXPOSIÇÕES</text>
+    <g transform="translate(0 618)">
+      <rect width="650" height="102" rx="18" fill="#fff" opacity=".07" stroke="#fff" stroke-opacity=".16"/>
+      <text x="28" y="42" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="800" fill="#f39a16">25 ANOS DE ESTRADA</text>
+      <text x="28" y="77" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#eadfd0">Motos • triciclos • rock • encontro</text>
+    </g>
+  </g>
+
+  <g transform="translate(1265 812)">
+    <rect width="245" height="44" rx="22" fill="#fff"/>
+    <text x="122" y="30" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="900" letter-spacing="1" fill="#30100d">TVDUASRODAS</text>
+  </g>
+</svg>
