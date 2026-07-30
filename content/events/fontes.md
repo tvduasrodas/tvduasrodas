@@ -70,3 +70,17 @@ Fontes oficiais continuam sendo a referência para datas, locais e programação
 - Jacaré Moto, serviço específico do evento: https://jacaremoto.com.br/events/2%E2%81%B0-motofest-de-coronel-fabriciano-mg/ — consulta em 29/07/2026; confirmou realização do MC Êxodos, contato, expositores, troféus, camping, café da manhã e praça de alimentação. A página ainda mostrava o período antigo de 6 a 8 de agosto; prevaleceu a programação oficial recente, de 7 a 9 de agosto.
 - Portal oficial de turismo de Minas Gerais, cadastro da Praça da Estação: https://minasgerais.com.br/pt/eventos/coronel-fabriciano/6o-festival-gospel-de-coronel-fabriciano — consulta em 29/07/2026; usado somente para conferir logradouro e CEP do local.
 - Imagem: mantida a arte-padrão local da TVDUASRODAS. As artes promocionais encontradas nas redes e agendas consultadas não apresentavam autorização inequívoca para reprodução editorial; não houve hotlink, download ou geração de imagem por IA.
+
+# 7º Serra Motofest — Serra/ES — 2026
+
+- Consulta editorial: 30/07/2026.
+- Canal do evento: https://www.instagram.com/serramotofest/
+- Programação oficial: https://www.instagram.com/serramotofest/reel/DbYfwbGNVwQ/
+  - Confirmado visualmente: Praça Encontro das Águas, Jacaraípe, entrada gratuita e shows de sexta e sábado às 19h, 21h e 23h.
+- Serviço local indicado pelo usuário: https://www.instagram.com/p/Danh2n1RXMH/
+  - Confirmados: datas, bandas, exposição de motos, alimentação, motoclubes, camping, organizador e apoio municipal.
+- Agenda independente: https://jb-rider.com.br/evento/20260731-2-7-serra-moto-fest-serra-es
+- Imagem publicada: `/assets/img/competicoes-eventos-default.svg`.
+  - Titular/crédito: TVDUASRODAS.
+  - Motivo: as artes e os vídeos encontrados no Instagram não exibem licença editorial explícita para republicação; foi mantida a capa institucional já existente.
+  - Não houve download, conversão ou remoção de metadados de material de terceiros.

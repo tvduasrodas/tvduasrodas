@@ -1512,20 +1512,6 @@
       "source": "content/events/agenda-comunitaria-2026.json#7-jere-moto-fest-jeremoabo-ba-2026-09-11"
     },
     {
-      "title": "7 Serra Moto Fest",
-      "type": "Evento da agenda",
-      "slug": "7-serra-moto-fest-serra-es-2026-07-31",
-      "date": "2026-07-31",
-      "category": "Festival de motociclismo",
-      "city": "Serra",
-      "state": "ES",
-      "status": "agendada",
-      "summary": "Festival de motociclismo em Serra/ES, com data divulgada para 2026-07-31. O flyer foi inspecionado localmente; serviços identificados: shows.",
-      "url": "/eventos/7-serra-moto-fest-serra-es-2026-07-31/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#7-serra-moto-fest-serra-es-2026-07-31"
-    },
-    {
       "title": "7.62 MC",
       "type": "Evento da agenda",
       "slug": "7-62-mc-araguari-sc-2026-10-10",
@@ -1538,6 +1524,20 @@
       "url": "/eventos/7-62-mc-araguari-sc-2026-10-10/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#7-62-mc-araguari-sc-2026-10-10"
+    },
+    {
+      "title": "7º Serra Motofest",
+      "type": "Evento da agenda",
+      "slug": "7-serra-moto-fest-serra-es-2026-07-31",
+      "date": "2026-07-31",
+      "category": "Encontro de motociclistas e festival de rock",
+      "city": "Serra",
+      "state": "ES",
+      "status": "agendada",
+      "summary": "O 7º Serra Motofest acontece em 31 de julho e 1º de agosto de 2026, na Praça Encontro das Águas, em Jacaraípe, Serra/ES. A entrada é gratuita e a programação reúne seis shows de rock, exposição de motos, área de alimentação, encontro de motoclubes e camping.",
+      "url": "/eventos/7-serra-moto-fest-serra-es-2026-07-31/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#7-serra-moto-fest-serra-es-2026-07-31"
     },
     {
       "title": "8º Rock in Ivaí",
