@@ -177,3 +177,25 @@ Fontes oficiais continuam sendo a referência para datas, locais e programação
   - Arte vetorial original, 1600 × 900 px, criada para uso editorial no portal.
   - Não utiliza fotografias, logotipos ou elementos copiados da arte do organizador.
   - Como o arquivo é SVG, não houve compressão, perda de metadados fotográficos nem conversão de formato.
+
+# 23º 100 Destino Motofest — Araxá/MG — 2026
+
+- Consulta editorial: 30/07/2026.
+- Publicação oficial do 100 Destino Motofest: https://www.instagram.com/p/DbJlW4zIPyo/
+  - Confirmados na legenda e nas lâminas: 23ª edição, datas de 28 a 30 de agosto de 2026, Praça Lago Norte do Barreiro, realização do Moto Clube 100 Destino e a programação completa de 12 apresentações.
+  - Sexta-feira: Krusty, Battery Metallica Sinfônico e Nirvana Tributo.
+  - Sábado: Niobium, Aeropeppers, Latitude 19, Big Jackers, Beatles 4Ever e Power of Peppers.
+  - Domingo: Vinith, Maivma Jamma e Peixe Piloto.
+- Prefeitura de Araxá, calendário oficial de eventos 2026: https://araxa.mg.gov.br/noticia/8658/calend-rio-de-eventos-2026-promete-impulsionar-o-turismo-em-arax-
+  - Confirmado o Moto Fest de 28 a 30 de agosto.
+- Rodas de Prata, agenda especializada de encontros de Minas Gerais: https://www.rodasdeprata.com.br/agenda/
+  - Confirmados a 23ª edição, o período, a cidade, o Moto Clube 100 Destino e a indicação de que o evento não cobra entrada.
+- JB-RIDER, página específica: https://jb-rider.com.br/evento/20260828-3-motofest-araxa-mg
+  - Conferência independente das datas, cidade, estado e identidade do encontro.
+- A publicação oficial consultada não informa estacionamento, camping ou regras de credenciamento. Esses itens permanecem como não informados, e a gratuidade indicada pela agenda especializada deve ser reconfirmada perto da data.
+- As artes do Instagram foram usadas somente para conferência factual; a publicação não apresenta licença editorial inequívoca para republicação.
+- Imagem publicada: `/assets/img/uploads/araxa-motofest-2026-artwork.svg`.
+  - Titular/crédito: TVDUASRODAS.
+  - Arte vetorial original, 1600 × 900 px, criada para uso editorial no portal.
+  - Não utiliza fotografias, logotipos ou elementos copiados da arte do organizador.
+  - Como o arquivo é SVG, não houve compressão, perda de metadados fotográficos nem conversão de formato.

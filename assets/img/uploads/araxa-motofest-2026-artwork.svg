@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">23º 100 Destino Motofest — Araxá 2026</title>
+  <desc id="desc">Arte editorial original da TVDUASRODAS para o encontro de motociclistas de Araxá, de 28 a 30 de agosto de 2026.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071a1b"/>
+      <stop offset="0.58" stop-color="#0b3432"/>
+      <stop offset="1" stop-color="#071113"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="72%" cy="42%" r="58%">
+      <stop offset="0" stop-color="#ff8a2a" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#ff8a2a" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity=".42"/>
+    </filter>
+    <pattern id="grain" width="80" height="80" patternUnits="userSpaceOnUse">
+      <circle cx="9" cy="13" r="1" fill="#fff" opacity=".06"/>
+      <circle cx="57" cy="39" r="1.4" fill="#fff" opacity=".04"/>
+      <circle cx="31" cy="69" r=".8" fill="#fff" opacity=".05"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#glow)"/>
+  <rect width="1600" height="900" fill="url(#grain)"/>
+  <path d="M0 710 C230 610 405 735 625 668 C840 602 1010 485 1600 530 L1600 900 L0 900Z" fill="#061012" opacity=".78"/>
+  <path d="M0 790 C270 700 468 818 742 728 C1030 634 1280 656 1600 620" fill="none" stroke="#ed6a1c" stroke-width="4" opacity=".42"/>
+  <g transform="translate(875 175)" filter="url(#shadow)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="170" cy="408" r="122" stroke="#e7f0e9" stroke-width="18"/>
+    <circle cx="170" cy="408" r="34" stroke="#ed6a1c" stroke-width="10"/>
+    <circle cx="535" cy="408" r="122" stroke="#e7f0e9" stroke-width="18"/>
+    <circle cx="535" cy="408" r="34" stroke="#ed6a1c" stroke-width="10"/>
+    <path d="M170 408 C210 330 264 302 338 314 C402 324 450 353 535 408" stroke="#e7f0e9" stroke-width="22"/>
+    <path d="M244 318 L315 225 L452 238 L507 340" stroke="#e7f0e9" stroke-width="22"/>
+    <path d="M452 238 L504 148 L570 132" stroke="#ed6a1c" stroke-width="18"/>
+    <path d="M548 130 L606 137" stroke="#e7f0e9" stroke-width="16"/>
+    <path d="M246 258 L190 246 L156 280" stroke="#ed6a1c" stroke-width="18"/>
+    <path d="M265 230 L350 230" stroke="#e7f0e9" stroke-width="20"/>
+    <path d="M300 224 C326 164 402 166 445 217 C422 242 333 250 300 224Z" fill="#ed6a1c" stroke="#ed6a1c" stroke-width="8"/>
+    <path d="M287 300 L380 278 L438 347 L370 405 L274 376Z" fill="#0b3432" stroke="#e7f0e9" stroke-width="16"/>
+    <circle cx="357" cy="341" r="48" fill="#071113" stroke="#ed6a1c" stroke-width="12"/>
+    <path d="M317 386 L254 432 L206 432" stroke="#ed6a1c" stroke-width="16"/>
+    <path d="M382 399 L475 432 L554 432" stroke="#e7f0e9" stroke-width="16"/>
+  </g>
+  <g transform="translate(112 110)">
+    <rect x="0" y="0" width="215" height="58" rx="29" fill="#ed6a1c"/>
+    <text x="108" y="40" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="800" fill="#fff">AGENDA 2026</text>
+    <text x="0" y="154" font-family="Arial, Helvetica, sans-serif" font-size="40" font-weight="700" letter-spacing="5" fill="#91c9bb">ARAXÁ • MINAS GERAIS</text>
+    <text x="0" y="251" font-family="Arial, Helvetica, sans-serif" font-size="100" font-weight="900" letter-spacing="-3" fill="#fff">23º 100 DESTINO</text>
+    <text x="0" y="355" font-family="Arial, Helvetica, sans-serif" font-size="128" font-weight="900" letter-spacing="-5" fill="#ed6a1c">MOTOFEST</text>
+    <path d="M0 390 H585" stroke="#91c9bb" stroke-width="7"/>
+    <text x="0" y="487" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="900" fill="#fff">28—30 AGO</text>
+    <text x="0" y="542" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="700" letter-spacing="2" fill="#bdd8d1">PRAÇA LAGO NORTE DO BARREIRO</text>
+    <g transform="translate(0 604)">
+      <rect width="640" height="100" rx="18" fill="#fff" opacity=".08" stroke="#fff" stroke-opacity=".16"/>
+      <text x="28" y="42" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="800" fill="#ed6a1c">ROCK • ESTRADA • ENCONTRO</text>
+      <text x="28" y="76" font-family="Arial, Helvetica, sans-serif" font-size="22" fill="#d8e7e2">Programação completa na TVDUASRODAS</text>
+    </g>
+  </g>
+  <g transform="translate(1265 812)">
+    <rect x="0" y="0" width="245" height="44" rx="22" fill="#fff"/>
+    <text x="122" y="30" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="900" letter-spacing="1" fill="#0b3432">TVDUASRODAS</text>
+  </g>
+</svg>
