@@ -1130,5 +1130,28 @@
       "status": "PENDENTE_DIREITOS_DE_IMAGEM_NAO_VERIFICADOS",
       "imageAudit": "O Reel exige rights_verified: true e ao menos cinco imagens distintas; a contagem existe, mas a verificação de direitos ainda não existe. Não gerar nem publicar até haver autorização ou licença verificável."
     }
+  },
+  {
+    "url": "https://tvduasrodas.com/competicoes/brasileiro-enduro-regularidade-2026/",
+    "type": "competition",
+    "title": "Brasileiro de Enduro de Regularidade: Ibitipoca decide a temporada 2026",
+    "detectedAt": "2026-07-30T14:32:58-04:00",
+    "validation": {
+      "source": "CBM; consulta em 30/07/2026",
+      "publicUrl": "PENDENTE_DE_PUBLICACAO_DO_LOTE_EDITORIAL",
+      "imageAudit": "A atualizacao usa somente uma arte editorial local. Nao ha cinco imagens distintas, atuais e com direitos verificados para o slideshow documental exigido no Reel.",
+      "rights_verified": false,
+      "rights": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES"
+    },
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
+    "stories": {
+      "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES"
+    },
+    "reel": {
+      "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES",
+      "imageAudit": "Nao gerar ou publicar parcialmente: o Reel requer de cinco a sete imagens realmente distintas e rights_verified: true."
+    }
   }
 ]
