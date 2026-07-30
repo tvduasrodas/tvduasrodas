@@ -84,3 +84,19 @@ Fontes oficiais continuam sendo a referência para datas, locais e programação
   - Titular/crédito: TVDUASRODAS.
   - Motivo: as artes e os vídeos encontrados no Instagram não exibem licença editorial explícita para republicação; foi mantida a capa institucional já existente.
   - Não houve download, conversão ou remoção de metadados de material de terceiros.
+
+# 4º Simonésia Motofest — Simonésia/MG — 2026
+
+- Consulta editorial: 30/07/2026.
+- Serviço específico e cartaz: https://eventostop.com.br/eventos/4o-simonesia-motofest/
+  - Confirmados: datas, Parque de Exposições, organização da AMMAR, telefone, horários gerais, quatro atrações musicais, camping, café da manhã, troféus, expositores, carros antigos, motorhomes e entrada solidária.
+- Agenda Maxacalis MC: https://maxacalis.com.br/agenda.html
+- Agenda Mototour: https://mototour.com.br/eventos/imprimir
+- Página específica JB-RIDER: https://jb-rider.com.br/evento/20260807-2-motofest-simonesia-mg
+- Imagem de terceiros inspecionada: `simonesia-motofest-2026-cartaz.webp`, disponível na página do Eventos Top.
+  - Titular/crédito: não informados de forma explícita na página.
+  - Termos: não foi localizada autorização editorial inequívoca para republicação.
+  - Uso: somente conferência visual temporária; o arquivo não foi incluído no repositório nem publicado.
+- Imagem publicada: `/assets/img/competicoes-eventos-default.svg`.
+  - Titular/crédito: TVDUASRODAS.
+  - Não houve download para publicação, conversão ou remoção de metadados de material de terceiros.

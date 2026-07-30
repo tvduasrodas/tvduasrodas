@@ -1162,6 +1162,20 @@
       "source": "content/events/agenda-comunitaria-2026.json#4-motofest-resende-rj-2026-09-20"
     },
     {
+      "title": "4º Simonésia Motofest",
+      "type": "Evento da agenda",
+      "slug": "motofest-simonesia-mg-2026-08-07",
+      "date": "2026-08-07",
+      "category": "Encontro de motociclistas e festival de rock",
+      "city": "Simonésia",
+      "state": "MG",
+      "status": "agendada",
+      "summary": "O 4º Simonésia Motofest acontece em 7 e 8 de agosto de 2026, no Parque de Exposições de Simonésia/MG, com quatro shows de rock, camping gratuito, café da manhã, carros antigos, motorhomes, expositores e entrada solidária.",
+      "url": "/eventos/motofest-simonesia-mg-2026-08-07/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#motofest-simonesia-mg-2026-08-07"
+    },
+    {
       "title": "4º U.M.A. — União de Motociclistas de Aguaí",
       "type": "Evento da agenda",
       "slug": "4-u-m-a-aguai-sp-2026-07-24",
@@ -9294,20 +9308,6 @@
       "url": "/eventos/motofest-simonesia-go-2026-08-07/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#motofest-simonesia-go-2026-08-07"
-    },
-    {
-      "title": "Simonésia Moto Fest",
-      "type": "Evento da agenda",
-      "slug": "motofest-simonesia-mg-2026-08-07",
-      "date": "2026-08-07",
-      "category": "Festival de motociclismo",
-      "city": "Simonesia",
-      "state": "MG",
-      "status": "agendada",
-      "summary": "Festival de motociclismo em Simonesia/MG, com data divulgada para 2026-08-07. O flyer foi inspecionado localmente; serviços identificados: programação detalhada não identificada de forma legível no flyer.",
-      "url": "/eventos/motofest-simonesia-mg-2026-08-07/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#motofest-simonesia-mg-2026-08-07"
     },
     {
       "title": "Sinistro MC",
