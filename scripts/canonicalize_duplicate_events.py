@@ -70,6 +70,60 @@ CONFIRMED_ALIASES = {
         "tiao-e-deja-moto-casal-pirassununga-sp-2026-09-25",
     "mc-ponta-negra-marica-rj-2026-10-31":
         "7-aniversario-mc-ponta-negra-marica-rj-2026-10-31",
+    "14-encontro-nacional-de-motociclistas-sao-joao-del-rei-mg-2026-07-23":
+        "14-encontro-nacional-sao-joao-del-rei-mg-2026-07-23",
+    "14-encontro-nacional-de-motociclistas-sao-joao-del-rei-mg-2026-07-24":
+        "14-encontro-nacional-sao-joao-del-rei-mg-2026-07-23",
+    "4-encotnro-nacional-de-motociclistas-ouro-preto-mg-2026-07-24":
+        "4-encontro-nacional-de-motociclistas-ouro-preto-mg-2026-07-24",
+    "4-motofest-divinopolis-mg-2026-07-24":
+        "divina-motofest-divinopolis-mg-2026-07-24",
+    "mc-campos-compos-dos-goytacazes-rj-2026-07-24":
+        "mc-campos-campos-dos-goytacazes-rj-2026-07-24",
+    "moto-rock-festival-baependi-mg-2026-07-24":
+        "moto-rock-festival-de-inverno-baependi-mg-2026-07-24",
+    "piratas-de-aco-mc-100-censura-rio-claro-sp-2026-07-24":
+        "piratas-de-aco-mc-e-100-censura-rio-claro-sp-2026-07-24",
+    "bike-fest-poa-sp-2026-07-25":
+        "2-bike-fest-poa-sp-2026-07-25",
+    "pererecas-mc-belford-roxo-rio-de-janeiro-rj-2026-07-25":
+        "pererecas-mc-belford-roxo-rj-2026-07-25",
+    "motofest-iguatu-pr-2026-07-30":
+        "motofest-iguatu-ce-2026-07-30",
+    "motofest-extrema-mg-2026-07-31":
+        "14-motofest-extrema-mg-2026-07-31",
+    "motofest-serra-es-2026-07-31":
+        "7-serra-moto-fest-serra-es-2026-07-31",
+    "motofest-blumenau-sc-2026-07-31":
+        "moto-festival-blumenau-sc-2026-07-31",
+    "motofest-delmiro-al-2026-07-31":
+        "motofest-delmiro-gouveia-al-2026-07-31",
+    "irmaos-das-sombras-mc-senador-vasconcelos-rio-de-janerio-rj-2026-08-01":
+        "irmaos-das-sombras-mc-senador-vasconcelos-rio-de-janeiro-rj-2026-08-01",
+    "ilha-mc-ilha-do-governador-rio-de-janeiro-rj-2026-08-15":
+        "ilha-mc-ilha-do-governador-rj-2026-08-15",
+    "impreriais-mc-cachoeiras-de-macacu-rj-2026-08-15":
+        "imperiais-mc-cachoeiras-de-macacu-rj-2026-08-15",
+    "espirito-de-agua-mc-contagem-mg-2026-08-22":
+        "espirito-de-aguia-mc-contagem-mg-2026-08-22",
+    "encontro-nacional-de-motociclistas-ijaci-mg-2026-08-28":
+        "encontro-nacional-de-motociclistas-e-triciclistas-ijaci-mg-2026-08-28",
+    "v-encontro-nacional-ijaci-mg-2026-08-28":
+        "encontro-nacional-de-motociclistas-e-triciclistas-ijaci-mg-2026-08-28",
+    "moto-fest-senador-amaral-mg-2026-08-28":
+        "motofest-senador-amaral-mg-2026-08-28",
+    "trike-brasil-mc-prog-minduri-mg-2026-08-28":
+        "trike-brasil-mc-minduri-mg-2026-08-28",
+    "old-pistons-ms-volta-redonda-rj-2026-09-12":
+        "old-pistons-volta-redonda-rj-2026-09-12",
+    "nostalgia-mc-caes-de-zorba-mc-santa-barbara-d-oeste-sp-2026-09-18":
+        "nostalgia-mc-e-caes-de-zorba-mc-santa-barbara-d-oeste-sp-2026-09-18",
+    "moto-cafe-paraguacu-paulista-sp-2026-09-20":
+        "2-moto-cafe-paraguacu-paulista-sp-2026-09-20",
+    "motofest-resende-rj-2026-09-20":
+        "4-motofest-resende-rj-2026-09-20",
+    "dragoes-da-alvorada-mg-santa-terezinha-do-itaipu-pr-2026-11-28":
+        "dragoes-da-alvorada-mg-santa-terezinha-de-itaipu-pr-2026-11-28",
 }
 
 
@@ -90,6 +144,9 @@ def main() -> None:
     for alias, canonical in CONFIRMED_ALIASES.items():
         entry = by_slug[alias]
         canonical_entry = by_slug[canonical]
+        if canonical_entry.get("duplicate_of") == alias:
+            canonical_entry.pop("duplicate_of", None)
+            canonical_entry.pop("canonical_url", None)
         canonical_sources = canonical_entry.setdefault("sources", [])
         known_urls = {
             source.get("url") for source in canonical_sources

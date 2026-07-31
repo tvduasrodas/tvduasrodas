@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "total": 731,
+  "total": 733,
   "counts": {
-    "Competição": 20,
+    "Competição": 22,
     "Configuração da home": 2,
     "Etapa esportiva": 62,
     "Evento": 13,
@@ -112,7 +112,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#1-truck-fest-suzano-sp-2026-09-20"
     },
     {
-      "title": "10 Encontro Nacional de Motociclistas",
+      "title": "10 Encontro Nacional de Motociclistas de Januaria",
       "type": "Evento da agenda",
       "slug": "10-encontro-nacional-de-motociclistas-januaria-mg-2026-09-11",
       "date": "2026-09-11",
@@ -154,7 +154,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#caveira-s-brasil-mc-marica-rj-2026-07-23"
     },
     {
-      "title": "11 Encontro de Motociclistas e Triciclistas",
+      "title": "11 Encontro de Motociclistas e Triciclistas de Itarare",
       "type": "Evento da agenda",
       "slug": "11-encontro-de-motociclistas-e-triciclistas-itarare-sp-2026-09-04",
       "date": "2026-09-04",
@@ -196,7 +196,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#12-acampamento-nacional-rat-bike-do-brasil-jeceaba-mg-2026-08-15"
     },
     {
-      "title": "12 Encontro de Motociclistas",
+      "title": "12 Encontro de Motociclistas de Crateus",
       "type": "Evento da agenda",
       "slug": "12-encontro-de-motociclistas-crateus-ce-2026-09-11",
       "date": "2026-09-11",
@@ -224,7 +224,7 @@
       "source": "content/calendar/cbm-2026.json#12o-up-hill-serra-da-chocadeira-mtb-xcm-tangara-da-serra-mt-2026-12-05"
     },
     {
-      "title": "13 Encontro Nacional e Motociclistas",
+      "title": "13 Encontro Nacional e Motociclistas de Pompeu",
       "type": "Evento da agenda",
       "slug": "13-encontro-nacional-e-motociclistas-pompeu-mg-2026-10-09",
       "date": "2026-10-09",
@@ -336,7 +336,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#14-motofest-extrema-mg-2026-07-31"
     },
     {
-      "title": "15 Encontro de Motociclistas",
+      "title": "15 Encontro de Motociclistas de Santo Antonio do Monte",
       "type": "Evento da agenda",
       "slug": "15-encontro-de-motociclistas-santo-antonio-do-monte-mg-2026-08-21",
       "date": "2026-08-21",
@@ -378,7 +378,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#18-encontro-internacional-de-motos-de-altas-cilindradas-boa-vista-rr-2026-08-14"
     },
     {
-      "title": "19 Encontro de Motociclistas",
+      "title": "19 Encontro de Motociclistas de Boa Esperanca",
       "type": "Evento da agenda",
       "slug": "19-encontro-de-motociclistas-boa-esperanca-mg-2026-08-21",
       "date": "2026-08-21",
@@ -448,7 +448,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#motofest-caete-mg-2026-08-08"
     },
     {
-      "title": "2 Biker Fest",
+      "title": "2 Biker Fest de Feraz de Vasconcelos",
       "type": "Evento da agenda",
       "slug": "2-biker-fest-feraz-de-vasconcelos-sp-2026-07-25",
       "date": "2026-07-25",
@@ -504,7 +504,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#2-encontro-de-motociclista-santa-fe-do-sul-sp-2026-08-30"
     },
     {
-      "title": "2 Encontro de Motociclistas",
+      "title": "2 Encontro de Motociclistas de Lavras Novas",
       "type": "Evento da agenda",
       "slug": "2-encontro-de-motociclistas-lavras-novas-mg-2026-08-01",
       "date": "2026-08-01",
@@ -518,7 +518,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#2-encontro-de-motociclistas-lavras-novas-mg-2026-08-01"
     },
     {
-      "title": "2 Encontro de Motociclistas",
+      "title": "2 Encontro de Motociclistas de Nova Resende",
       "type": "Evento da agenda",
       "slug": "2-encontro-de-motociclistas-nova-resende-mg-2026-07-25",
       "date": "2026-07-25",
@@ -546,21 +546,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#2-encontro-de-motos-amazonas-peruibe-sp-2026-08-22"
     },
     {
-      "title": "2 Encontro Nacional",
-      "type": "Evento da agenda",
-      "slug": "2-encontro-nacional-serra-da-saudade-mg-2026-07-31",
-      "date": "2026-07-31",
-      "category": "Encontro de motociclistas",
-      "city": "Serra da Saudade",
-      "state": "MG",
-      "status": "agendada",
-      "summary": "Encontro de motociclistas em Serra da Saudade/MG, com data divulgada para 2026-07-31. O flyer foi inspecionado localmente; serviços identificados: programação detalhada não identificada de forma legível no flyer.",
-      "url": "/eventos/2-encontro-nacional-serra-da-saudade-mg-2026-07-31/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#2-encontro-nacional-serra-da-saudade-mg-2026-07-31"
-    },
-    {
-      "title": "2 Encontro Nacional de Motociclistas",
+      "title": "2 Encontro Nacional de Motociclistas de Sao Carlos",
       "type": "Evento da agenda",
       "slug": "2-encontro-nacional-de-motociclistas-sao-carlos-sp-2026-09-05",
       "date": "2026-09-05",
@@ -572,6 +558,20 @@
       "url": "/eventos/2-encontro-nacional-de-motociclistas-sao-carlos-sp-2026-09-05/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#2-encontro-nacional-de-motociclistas-sao-carlos-sp-2026-09-05"
+    },
+    {
+      "title": "2 Encontro Nacional de Serra da Saudade",
+      "type": "Evento da agenda",
+      "slug": "2-encontro-nacional-serra-da-saudade-mg-2026-07-31",
+      "date": "2026-07-31",
+      "category": "Encontro de motociclistas",
+      "city": "Serra da Saudade",
+      "state": "MG",
+      "status": "agendada",
+      "summary": "Encontro de motociclistas em Serra da Saudade/MG, com data divulgada para 2026-07-31. O flyer foi inspecionado localmente; serviços identificados: programação detalhada não identificada de forma legível no flyer.",
+      "url": "/eventos/2-encontro-nacional-serra-da-saudade-mg-2026-07-31/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#2-encontro-nacional-serra-da-saudade-mg-2026-07-31"
     },
     {
       "title": "2 Encotnro de Motociclistas",
@@ -588,7 +588,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#2-encotnro-de-motociclistas-nhandeara-sp-2026-08-15"
     },
     {
-      "title": "2 Moto Cafe",
+      "title": "2 Moto Cafe de Paraguacu Paulista",
       "type": "Evento da agenda",
       "slug": "2-moto-cafe-paraguacu-paulista-sp-2026-09-20",
       "date": "2026-09-20",
@@ -602,7 +602,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#2-moto-cafe-paraguacu-paulista-sp-2026-09-20"
     },
     {
-      "title": "2 MOTO CAFE",
+      "title": "2 MOTO CAFE de Tres Marias",
       "type": "Evento da agenda",
       "slug": "2-moto-cafe-tres-marias-mg-2026-07-26",
       "date": "2026-07-26",
@@ -686,7 +686,7 @@
       "source": "content/videos/2026-supercross-anaheim-2-250-main-event.md"
     },
     {
-      "title": "20º Encontro de Motociclistas MotoNave",
+      "title": "20º Encontro de Motociclistas MotoNave de Navegantes",
       "type": "Evento da agenda",
       "slug": "20-encontro-de-motociclistas-motonave-navegantes-sc-2026-10-30",
       "date": "2026-10-30",
@@ -700,7 +700,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#20-encontro-de-motociclistas-motonave-navegantes-sc-2026-10-30"
     },
     {
-      "title": "21 Encontro Nacional de Motociclistas",
+      "title": "21 Encontro Nacional de Motociclistas de Ponte Nova",
       "type": "Evento da agenda",
       "slug": "21-encontro-nacional-de-motociclistas-ponte-nova-mg-2026-08-14",
       "date": "2026-08-14",
@@ -756,7 +756,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#22-anos-mantra-mc-sao-joao-da-boa-vista-sp-2026-08-14"
     },
     {
-      "title": "22 anos do Mantra MC — Encontro de Motociclistas e Triciclistas",
+      "title": "22 anos do Mantra MC — Encontro de Motociclistas e Triciclistas de São João da Boa Vista",
       "type": "Evento da agenda",
       "slug": "mantra-mc-sao-joao-da-boa-vista-sp-2026-08-14",
       "date": "2026-08-14",
@@ -784,7 +784,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#irmaos-do-vento-vinhedo-sp-2026-08-08"
     },
     {
-      "title": "23º 100 Destino Motofest",
+      "title": "23º 100 Destino Motofest de Araxá",
       "type": "Evento da agenda",
       "slug": "motofest-araxa-mg-2026-08-28",
       "date": "2026-08-28",
@@ -868,7 +868,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#26-encontro-nacional-de-motociclistas-pedra-bela-sp-2026-09-11"
     },
     {
-      "title": "28º Angra MotoFest",
+      "title": "28º Angra MotoFest de Angra dos Reis",
       "type": "Evento da agenda",
       "slug": "motofest-angra-dos-reis-rj-2026-07-23",
       "date": "2026-07-23",
@@ -1008,7 +1008,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#3-cafe-rock-cafelandia-sp-2026-08-15"
     },
     {
-      "title": "3 Encontro de Motociclistas",
+      "title": "3 Encontro de Motociclistas de Patrocinio",
       "type": "Evento da agenda",
       "slug": "3-encontro-de-motociclistas-patrocinio-mg-2026-09-26",
       "date": "2026-09-26",
@@ -1022,7 +1022,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#3-encontro-de-motociclistas-patrocinio-mg-2026-09-26"
     },
     {
-      "title": "3 Encontro de Motociclistas",
+      "title": "3 Encontro de Motociclistas de Penedo",
       "type": "Evento da agenda",
       "slug": "3-encontro-de-motociclistas-penedo-mg-2026-07-30",
       "date": "2026-07-30",
@@ -1036,7 +1036,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#3-encontro-de-motociclistas-penedo-mg-2026-07-30"
     },
     {
-      "title": "3 Encontro de Motociclistas",
+      "title": "3 Encontro de Motociclistas de Taquaritinga",
       "type": "Evento da agenda",
       "slug": "3-encontro-de-motociclistas-taquaritinga-sp-2026-08-01",
       "date": "2026-08-01",
@@ -1050,7 +1050,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#3-encontro-de-motociclistas-taquaritinga-sp-2026-08-01"
     },
     {
-      "title": "3 ITA MOTO FEST",
+      "title": "3 ITA MOTO FEST de Itamaraju",
       "type": "Evento da agenda",
       "slug": "3-ita-moto-fest-itamaraju-ba-2026-11-20",
       "date": "2026-11-20",
@@ -1120,7 +1120,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#nomades-do-vento-mc-lindoia-sp-2026-08-08"
     },
     {
-      "title": "4 Encontro de Motociclistas",
+      "title": "4 Encontro de Motociclistas de Corrego do Bom Jesus",
       "type": "Evento da agenda",
       "slug": "4-encontro-de-motociclistas-corrego-do-bom-jesus-mg-2026-11-13",
       "date": "2026-11-13",
@@ -1134,7 +1134,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#4-encontro-de-motociclistas-corrego-do-bom-jesus-mg-2026-11-13"
     },
     {
-      "title": "4 Encontro de Motociclistas",
+      "title": "4 Encontro de Motociclistas de Simonesia",
       "type": "Evento da agenda",
       "slug": "4-encontro-de-motociclistas-simonesia-mg-2026-08-07",
       "date": "2026-08-07",
@@ -1162,7 +1162,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#4-encotnro-nacional-de-motociclistas-ouro-preto-mg-2026-07-24"
     },
     {
-      "title": "4 Festival da Pimenta e MotoRock",
+      "title": "4 Festival da Pimenta e MotoRock de Uru",
       "type": "Evento da agenda",
       "slug": "4-festival-da-pimenta-e-motorock-uru-sp-2026-10-30",
       "date": "2026-10-30",
@@ -1190,7 +1190,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#4-missa-do-motociclistas-e-triciclista-bebedouro-sp-2026-11-08"
     },
     {
-      "title": "4º Divina MotoFest",
+      "title": "4º Divina MotoFest de Divinópolis",
       "type": "Evento da agenda",
       "slug": "divina-motofest-divinopolis-mg-2026-07-24",
       "date": "2026-07-24",
@@ -1288,7 +1288,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#5-cerol-to-fora-frutal-mg-2026-08-01"
     },
     {
-      "title": "5 Encontro de Motociclistas",
+      "title": "5 Encontro de Motociclistas de Cravinhos",
       "type": "Evento da agenda",
       "slug": "5-encontro-de-motociclistas-cravinhos-sp-2026-08-23",
       "date": "2026-08-23",
@@ -1302,7 +1302,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#5-encontro-de-motociclistas-cravinhos-sp-2026-08-23"
     },
     {
-      "title": "5 Encontro Estadual de Motociclistas",
+      "title": "5 Encontro Estadual de Motociclistas de Jucurutu",
       "type": "Evento da agenda",
       "slug": "5-encontro-estadual-de-motociclistas-jucurutu-rn-2026-08-07",
       "date": "2026-08-07",
@@ -1500,6 +1500,20 @@
     {
       "title": "7 Encontro de Motociclistas",
       "type": "Evento da agenda",
+      "slug": "7-encontro-de-motociclistas-oliveira-fortes-mg-2026-07-31",
+      "date": "2026-07-31",
+      "category": "Encontro de motociclistas",
+      "city": "Oliveira Fortes",
+      "state": "MG",
+      "status": "agendada",
+      "summary": "Encontro de motociclistas em Oliveira Fortes/MG, com data divulgada para 2026-07-31. O flyer foi inspecionado localmente; serviços identificados: programação detalhada não identificada de forma legível no flyer.",
+      "url": "/eventos/7-encontro-de-motociclistas-oliveira-fortes-mg-2026-07-31/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#7-encontro-de-motociclistas-oliveira-fortes-mg-2026-07-31"
+    },
+    {
+      "title": "7 Encontro de Motociclistas de Lavras — 18 de setembro",
+      "type": "Evento da agenda",
       "slug": "7-encontro-de-motociclistas-lavras-mg-2026-09-18",
       "date": "2026-09-18",
       "category": "Encontro de motociclistas",
@@ -1512,7 +1526,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#7-encontro-de-motociclistas-lavras-mg-2026-09-18"
     },
     {
-      "title": "7 Encontro de Motociclistas",
+      "title": "7 Encontro de Motociclistas de Lavras — 25 de setembro",
       "type": "Evento da agenda",
       "slug": "7-encontro-de-motociclistas-lavras-mg-2026-09-25",
       "date": "2026-09-25",
@@ -1526,21 +1540,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#7-encontro-de-motociclistas-lavras-mg-2026-09-25"
     },
     {
-      "title": "7 Encontro de Motociclistas",
-      "type": "Evento da agenda",
-      "slug": "7-encontro-de-motociclistas-oliveira-fortes-mg-2026-07-31",
-      "date": "2026-07-31",
-      "category": "Encontro de motociclistas",
-      "city": "Oliveira Fortes",
-      "state": "MG",
-      "status": "agendada",
-      "summary": "Encontro de motociclistas em Oliveira Fortes/MG, com data divulgada para 2026-07-31. O flyer foi inspecionado localmente; serviços identificados: programação detalhada não identificada de forma legível no flyer.",
-      "url": "/eventos/7-encontro-de-motociclistas-oliveira-fortes-mg-2026-07-31/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#7-encontro-de-motociclistas-oliveira-fortes-mg-2026-07-31"
-    },
-    {
-      "title": "7 Encontro de Motociclistas e Triciclistas",
+      "title": "7 Encontro de Motociclistas e Triciclistas de Oliveira Fortes",
       "type": "Evento da agenda",
       "slug": "7-encontro-de-motociclistas-e-triciclistas-oliveira-fortes-mg-2026-07-31",
       "date": "2026-07-31",
@@ -1568,7 +1568,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#7-encontro-nacional-fama-mg-2026-09-11"
     },
     {
-      "title": "7 Encontro Nacional de Motociclistas",
+      "title": "7 Encontro Nacional de Motociclistas de Fama",
       "type": "Evento da agenda",
       "slug": "7-encontro-nacional-de-motociclistas-fama-mg-2026-09-11",
       "date": "2026-09-11",
@@ -1582,7 +1582,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#7-encontro-nacional-de-motociclistas-fama-mg-2026-09-11"
     },
     {
-      "title": "7 Encontro Nacional de Motociclsitas e Motoclubes",
+      "title": "7 Encontro Nacional de Motociclsitas e Motoclubes de Aimores",
       "type": "Evento da agenda",
       "slug": "7-encontro-nacional-de-motociclsitas-e-motoclubes-aimores-mg-2026-07-31",
       "date": "2026-07-31",
@@ -1596,7 +1596,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#7-encontro-nacional-de-motociclsitas-e-motoclubes-aimores-mg-2026-07-31"
     },
     {
-      "title": "7 Jere Moto Fest",
+      "title": "7 Jere Moto Fest de Jeremoabo",
       "type": "Evento da agenda",
       "slug": "7-jere-moto-fest-jeremoabo-ba-2026-09-11",
       "date": "2026-09-11",
@@ -1668,20 +1668,6 @@
     {
       "title": "9 Encontro de Motociclistas e Triciclistas",
       "type": "Evento da agenda",
-      "slug": "9-encontro-de-motociclistas-e-triciclistas-lutecia-sp-2026-11-06",
-      "date": "2026-11-06",
-      "category": "Encontro de motociclistas",
-      "city": "Lutecia",
-      "state": "SP",
-      "status": "agendada",
-      "summary": "Encontro de motociclistas em Lutecia/SP, com data divulgada para 2026-11-06. O flyer foi inspecionado localmente; serviços identificados: rock, acessórios.",
-      "url": "/eventos/9-encontro-de-motociclistas-e-triciclistas-lutecia-sp-2026-11-06/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#9-encontro-de-motociclistas-e-triciclistas-lutecia-sp-2026-11-06"
-    },
-    {
-      "title": "9 Encontro de Motociclistas e Triciclistas",
-      "type": "Evento da agenda",
       "slug": "9-encontro-de-motociclistas-e-triciclistas-lutecia-sp-2026-11-07",
       "date": "2026-11-07",
       "category": "Encontro de motociclistas",
@@ -1692,6 +1678,20 @@
       "url": "/eventos/9-encontro-de-motociclistas-e-triciclistas-lutecia-sp-2026-11-07/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#9-encontro-de-motociclistas-e-triciclistas-lutecia-sp-2026-11-07"
+    },
+    {
+      "title": "9 Encontro de Motociclistas e Triciclistas de Lutecia",
+      "type": "Evento da agenda",
+      "slug": "9-encontro-de-motociclistas-e-triciclistas-lutecia-sp-2026-11-06",
+      "date": "2026-11-06",
+      "category": "Encontro de motociclistas",
+      "city": "Lutecia",
+      "state": "SP",
+      "status": "agendada",
+      "summary": "Encontro de motociclistas em Lutecia/SP, com data divulgada para 2026-11-06. O flyer foi inspecionado localmente; serviços identificados: rock, acessórios.",
+      "url": "/eventos/9-encontro-de-motociclistas-e-triciclistas-lutecia-sp-2026-11-06/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#9-encontro-de-motociclistas-e-triciclistas-lutecia-sp-2026-11-06"
     },
     {
       "title": "9 Passeio Dia do Motociclista",
@@ -1806,7 +1806,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#aguias-da-liberdade-mc-conselheiro-lafaiete-mg-2026-07-25"
     },
     {
-      "title": "Aguias de Cristo MC",
+      "title": "Aguias de Cristo MC de Belo Horizonte",
       "type": "Evento da agenda",
       "slug": "aguias-de-cristo-mc-belo-horizonte-mg-2026-08-15",
       "date": "2026-08-15",
@@ -1820,7 +1820,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#aguias-de-cristo-mc-belo-horizonte-mg-2026-08-15"
     },
     {
-      "title": "Aguias de Cristo MC",
+      "title": "Aguias de Cristo MC de Sao Jose do Rio Preto",
       "type": "Evento da agenda",
       "slug": "aguias-de-cristo-mc-sao-jose-do-rio-preto-sp-2026-09-19",
       "date": "2026-09-19",
@@ -1834,7 +1834,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#aguias-de-cristo-mc-sao-jose-do-rio-preto-sp-2026-09-19"
     },
     {
-      "title": "Aguias de Cristo MC",
+      "title": "Aguias de Cristo MC de Volta Redonda",
       "type": "Evento da agenda",
       "slug": "aguias-de-cristo-mc-volta-redonda-rj-2026-07-31",
       "date": "2026-07-31",
@@ -2142,7 +2142,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#motofest-araraquara-sp-2026-08-16"
     },
     {
-      "title": "Araruama MC",
+      "title": "Araruama MC — 15 de agosto",
       "type": "Evento da agenda",
       "slug": "araruama-mc-araruama-rj-2026-08-15",
       "date": "2026-08-15",
@@ -2156,7 +2156,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#araruama-mc-araruama-rj-2026-08-15"
     },
     {
-      "title": "Araruama MC",
+      "title": "Araruama MC — 18 de outubro",
       "type": "Evento da agenda",
       "slug": "araruama-mc-araruama-rj-2026-10-18",
       "date": "2026-10-18",
@@ -2296,7 +2296,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#bandoleiros-mg-rio-de-janeiro-rj-2026-09-06"
     },
     {
-      "title": "Barbaros MC",
+      "title": "Barbaros MC de Mage — 13 de setembro",
       "type": "Evento da agenda",
       "slug": "barbaros-mc-mage-rj-2026-09-13",
       "date": "2026-09-13",
@@ -2310,7 +2310,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#barbaros-mc-mage-rj-2026-09-13"
     },
     {
-      "title": "Barbaros MC",
+      "title": "Barbaros MC de Mage — 25 de outubro",
       "type": "Evento da agenda",
       "slug": "barbaros-mc-mage-rj-2026-10-25",
       "date": "2026-10-25",
@@ -2576,7 +2576,7 @@
       "source": "content/videos/bmw-r-12-gs-2026-avaliacao-no-uso-diario.md"
     },
     {
-      "title": "Bodes do Asfalto MC",
+      "title": "Bodes do Asfalto MC de Marica",
       "type": "Evento da agenda",
       "slug": "bodes-do-asfalto-mc-marica-rj-2026-09-13",
       "date": "2026-09-13",
@@ -2590,7 +2590,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#bodes-do-asfalto-mc-marica-rj-2026-09-13"
     },
     {
-      "title": "Bodes do Asfalto MC",
+      "title": "Bodes do Asfalto MC de Praia Grande",
       "type": "Evento da agenda",
       "slug": "bodes-do-asfalto-mc-praia-grande-sp-2026-08-01",
       "date": "2026-08-01",
@@ -2604,7 +2604,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#bodes-do-asfalto-mc-praia-grande-sp-2026-08-01"
     },
     {
-      "title": "Bodes do Asfalto MC",
+      "title": "Bodes do Asfalto MC de Sao Goncalo",
       "type": "Evento da agenda",
       "slug": "bodes-do-asfalto-mc-sao-goncalo-rj-2026-07-25",
       "date": "2026-07-25",
@@ -2730,7 +2730,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#bufalos-mg-marechal-floriano-es-2026-08-15"
     },
     {
-      "title": "Búzios Biker Fest",
+      "title": "Búzios Biker Fest de Armação dos Búzios",
       "type": "Evento da agenda",
       "slug": "biker-fest-buzios-rj-2026-08-27",
       "date": "2026-08-27",
@@ -2854,6 +2854,20 @@
       "url": "/eventos/motofest-cambuci-rj-2026-07-24/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#motofest-cambuci-rj-2026-07-24"
+    },
+    {
+      "title": "Campeonato Amapaense de Ciclismo de Estrada, Contrarrelógio e MTB 2026",
+      "type": "Competição",
+      "slug": "campeonato-amapaense-de-ciclismo-2026-macapa-ap-2026-08-01",
+      "date": "2026",
+      "category": "Ciclismo de estrada, contrarrelógio e mountain bike",
+      "city": "",
+      "state": "",
+      "status": "agendada",
+      "summary": "Campeonato oficial da Federação Amapaense de Ciclismo com provas de estrada, contrarrelógio e seis etapas de MTB em 2026. Locais e horários são publicados por etapa, e o regulamento prevê concentração uma hora antes da largada.",
+      "url": "/competicoes/campeonato-amapaense-de-ciclismo-2026-macapa-ap-2026-08-01/",
+      "edit_url": "/admin/#/collections/competitions/entries/campeonato-amapaense-de-ciclismo-2026-macapa-ap-2026-08-01",
+      "source": "content/competitions/campeonato-amapaense-de-ciclismo-2026-macapa-ap-2026-08-01.json"
     },
     {
       "title": "Campeonato Amapaense de Ciclismo de Estrada, Contrarrelógio e MTB 2026",
@@ -3442,6 +3456,20 @@
       "url": "/competicoes/brasileiro-rally-raid-2026/",
       "edit_url": "/admin/#/collections/competitions/entries/brasileiro-rally-raid-2026",
       "source": "content/competitions/brasileiro-rally-raid-2026.json"
+    },
+    {
+      "title": "Campeonato Rondoniense de Motocross 2026 — etapas de agosto",
+      "type": "Competição",
+      "slug": "campeonato-de-motocross-de-rondonia-2026-cerejeiras-e-corumbiara-ro-2026-08-01",
+      "date": "2026",
+      "category": "Motocross",
+      "city": "",
+      "state": "",
+      "status": "agendada",
+      "summary": "Registro consolidado das etapas de agosto do Campeonato Rondoniense de Motocross em Cerejeiras e Corumbiara. São competições distintas; datas exatas, pistas e horários aguardam divulgação específica da LIMERO.",
+      "url": "/competicoes/campeonato-de-motocross-de-rondonia-2026-cerejeiras-e-corumbiara-ro-2026-08-01/",
+      "edit_url": "/admin/#/collections/competitions/entries/campeonato-de-motocross-de-rondonia-2026-cerejeiras-e-corumbiara-ro-2026-08-01",
+      "source": "content/competitions/campeonato-de-motocross-de-rondonia-2026-cerejeiras-e-corumbiara-ro-2026-08-01.json"
     },
     {
       "title": "Campeonato Rondoniense de Motocross 2026 — etapas de agosto",
@@ -4748,20 +4776,6 @@
     {
       "title": "Encontro de Motociclistas",
       "type": "Evento da agenda",
-      "slug": "encontro-de-motociclistas-belo-horizonte-mg-2026-07-28",
-      "date": "2026-07-28",
-      "category": "Encontro de motociclistas",
-      "city": "Belo Horizonte",
-      "state": "MG",
-      "status": "concluida",
-      "summary": "Encontro de motociclistas em Belo Horizonte/MG, com data divulgada para 2026-07-28. O flyer foi inspecionado localmente; serviços identificados: programação detalhada não identificada de forma legível no flyer.",
-      "url": "/eventos/encontro-de-motociclistas-belo-horizonte-mg-2026-07-28/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#encontro-de-motociclistas-belo-horizonte-mg-2026-07-28"
-    },
-    {
-      "title": "Encontro de Motociclistas",
-      "type": "Evento da agenda",
       "slug": "encontro-de-motociclistas-iguaba-grande-rj-2026-09-04",
       "date": "2026-09-04",
       "category": "Encontro de motociclistas",
@@ -4774,7 +4788,21 @@
       "source": "content/events/agenda-comunitaria-2026.json#encontro-de-motociclistas-iguaba-grande-rj-2026-09-04"
     },
     {
-      "title": "Encontro de Motociclistas",
+      "title": "Encontro de Motociclistas de Belo Horizonte",
+      "type": "Evento da agenda",
+      "slug": "encontro-de-motociclistas-belo-horizonte-mg-2026-07-28",
+      "date": "2026-07-28",
+      "category": "Encontro de motociclistas",
+      "city": "Belo Horizonte",
+      "state": "MG",
+      "status": "concluida",
+      "summary": "Encontro de motociclistas em Belo Horizonte/MG, com data divulgada para 2026-07-28. O flyer foi inspecionado localmente; serviços identificados: programação detalhada não identificada de forma legível no flyer.",
+      "url": "/eventos/encontro-de-motociclistas-belo-horizonte-mg-2026-07-28/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#encontro-de-motociclistas-belo-horizonte-mg-2026-07-28"
+    },
+    {
+      "title": "Encontro de Motociclistas de Votuporanga",
       "type": "Evento da agenda",
       "slug": "encontro-de-motociclistas-votuporanga-sp-2026-07-26",
       "date": "2026-07-26",
@@ -4788,7 +4816,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#encontro-de-motociclistas-votuporanga-sp-2026-07-26"
     },
     {
-      "title": "Encontro Nacional",
+      "title": "Encontro Nacional de Ipanema",
       "type": "Evento da agenda",
       "slug": "encontro-nacional-ipanema-mg-2026-08-21",
       "date": "2026-08-21",
@@ -4816,7 +4844,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#encontro-nacional-de-motociclistas-ijaci-mg-2026-08-28"
     },
     {
-      "title": "Encontro Nacional de Motociclistas e Triciclistas",
+      "title": "Encontro Nacional de Motociclistas e Triciclistas de Ijaci",
       "type": "Evento da agenda",
       "slug": "encontro-nacional-de-motociclistas-e-triciclistas-ijaci-mg-2026-08-28",
       "date": "2026-08-28",
@@ -5082,7 +5110,7 @@
       "source": "content/pages/contato.md"
     },
     {
-      "title": "Fenicios MC",
+      "title": "Fenicios MC de Marica",
       "type": "Evento da agenda",
       "slug": "fenicios-mc-marica-rj-2026-09-19",
       "date": "2026-09-19",
@@ -5096,7 +5124,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#fenicios-mc-marica-rj-2026-09-19"
     },
     {
-      "title": "Fenicios MC",
+      "title": "Fenicios MC de Rio de Janeiro",
       "type": "Evento da agenda",
       "slug": "fenicios-mc-rio-de-janeiro-rj-2026-09-19",
       "date": "2026-09-19",
@@ -5180,7 +5208,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#fmc-sao-paulo-sp-2026-07-25"
     },
     {
-      "title": "Frances Moto Fest",
+      "title": "Frances Moto Fest de Praia do Frances",
       "type": "Evento da agenda",
       "slug": "frances-moto-fest-praia-do-frances-marechal-deodoro-al-2026-09-25",
       "date": "2026-09-25",
@@ -5236,7 +5264,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#fumace-do-asfalto-mc-mage-rj-2026-10-18"
     },
     {
-      "title": "Ganchos do asfalto MG",
+      "title": "Ganchos do asfalto MG de Rio de Janeiro",
       "type": "Evento da agenda",
       "slug": "ganchos-do-asfalto-mg-rio-de-janeiro-rj-2026-10-17",
       "date": "2026-10-17",
@@ -5250,7 +5278,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#ganchos-do-asfalto-mg-rio-de-janeiro-rj-2026-10-17"
     },
     {
-      "title": "Ganchos do Asfalto MG",
+      "title": "Ganchos do Asfalto MG de Santissimo",
       "type": "Evento da agenda",
       "slug": "ganchos-do-asfalto-mg-santissimo-rio-de-janeiro-rj-2026-10-17",
       "date": "2026-10-17",
@@ -5754,21 +5782,7 @@
       "source": "content/news/honda-xre-300-sahara-2026.md"
     },
     {
-      "title": "Iati Moto Fest",
-      "type": "Evento da agenda",
-      "slug": "motofest-iati-pe-2026-08-07",
-      "date": "2026-08-07",
-      "category": "Festival de motociclismo",
-      "city": "Iati",
-      "state": "PE",
-      "status": "agendada",
-      "summary": "Festival de motociclismo em Iati/PE, com data divulgada para 2026-08-07. O flyer foi inspecionado localmente; serviços identificados: troféus.",
-      "url": "/eventos/motofest-iati-pe-2026-08-07/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#motofest-iati-pe-2026-08-07"
-    },
-    {
-      "title": "Iati Moto Fest",
+      "title": "Iati Moto Fest — 14 de agosto",
       "type": "Evento da agenda",
       "slug": "motofest-iati-pe-2026-08-14",
       "date": "2026-08-14",
@@ -5780,6 +5794,20 @@
       "url": "/eventos/motofest-iati-pe-2026-08-14/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#motofest-iati-pe-2026-08-14"
+    },
+    {
+      "title": "Iati Moto Fest — 7 de agosto",
+      "type": "Evento da agenda",
+      "slug": "motofest-iati-pe-2026-08-07",
+      "date": "2026-08-07",
+      "category": "Festival de motociclismo",
+      "city": "Iati",
+      "state": "PE",
+      "status": "agendada",
+      "summary": "Festival de motociclismo em Iati/PE, com data divulgada para 2026-08-07. O flyer foi inspecionado localmente; serviços identificados: troféus.",
+      "url": "/eventos/motofest-iati-pe-2026-08-07/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#motofest-iati-pe-2026-08-07"
     },
     {
       "title": "Iaçu Moto Fest",
@@ -5866,21 +5894,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#ilha-mc-ilha-do-governador-rio-de-janeiro-rj-2026-08-15"
     },
     {
-      "title": "Ilha MC",
-      "type": "Evento da agenda",
-      "slug": "ilha-mc-ilha-do-governador-rj-2026-07-28",
-      "date": "2026-07-28",
-      "category": "Encontro de moto clube",
-      "city": "Ilha do Governador",
-      "state": "RJ",
-      "status": "concluida",
-      "summary": "Encontro de moto clube em Ilha do Governador/RJ, com data divulgada para 2026-07-28. O flyer foi inspecionado localmente; serviços identificados: programação detalhada não identificada de forma legível no flyer.",
-      "url": "/eventos/ilha-mc-ilha-do-governador-rj-2026-07-28/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#ilha-mc-ilha-do-governador-rj-2026-07-28"
-    },
-    {
-      "title": "Ilha MC",
+      "title": "Ilha MC de Ilha do Governador — 15 de agosto",
       "type": "Evento da agenda",
       "slug": "ilha-mc-ilha-do-governador-rj-2026-08-15",
       "date": "2026-08-15",
@@ -5892,6 +5906,20 @@
       "url": "/eventos/ilha-mc-ilha-do-governador-rj-2026-08-15/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#ilha-mc-ilha-do-governador-rj-2026-08-15"
+    },
+    {
+      "title": "Ilha MC de Ilha do Governador — 28 de julho",
+      "type": "Evento da agenda",
+      "slug": "ilha-mc-ilha-do-governador-rj-2026-07-28",
+      "date": "2026-07-28",
+      "category": "Encontro de moto clube",
+      "city": "Ilha do Governador",
+      "state": "RJ",
+      "status": "concluida",
+      "summary": "Encontro de moto clube em Ilha do Governador/RJ, com data divulgada para 2026-07-28. O flyer foi inspecionado localmente; serviços identificados: programação detalhada não identificada de forma legível no flyer.",
+      "url": "/eventos/ilha-mc-ilha-do-governador-rj-2026-07-28/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#ilha-mc-ilha-do-governador-rj-2026-07-28"
     },
     {
       "title": "Imperador do Asfalto MC",
@@ -5992,7 +6020,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#motofest-inhapi-al-2026-11-13"
     },
     {
-      "title": "Insanos MC",
+      "title": "Insanos MC de Birigui",
       "type": "Evento da agenda",
       "slug": "insanos-mc-birigui-sp-2026-07-25",
       "date": "2026-07-25",
@@ -6006,7 +6034,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#insanos-mc-birigui-sp-2026-07-25"
     },
     {
-      "title": "Insanos MC",
+      "title": "Insanos MC de Governador Valadares",
       "type": "Evento da agenda",
       "slug": "insanos-mc-governador-valadares-mg-2026-08-01",
       "date": "2026-08-01",
@@ -6020,7 +6048,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#insanos-mc-governador-valadares-mg-2026-08-01"
     },
     {
-      "title": "Insanos MC",
+      "title": "Insanos MC de Patos de Minas",
       "type": "Evento da agenda",
       "slug": "insanos-mc-patos-de-minas-mg-2026-07-26",
       "date": "2026-07-26",
@@ -6034,7 +6062,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#insanos-mc-patos-de-minas-mg-2026-07-26"
     },
     {
-      "title": "Insanos MC",
+      "title": "Insanos MC de Rio de Janeiro",
       "type": "Evento da agenda",
       "slug": "insanos-mc-rio-de-janeiro-rj-2026-07-27",
       "date": "2026-07-27",
@@ -6048,7 +6076,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#insanos-mc-rio-de-janeiro-rj-2026-07-27"
     },
     {
-      "title": "Insanos MC",
+      "title": "Insanos MC de Sertaozinho",
       "type": "Evento da agenda",
       "slug": "insanos-mc-sertaozinho-sp-2026-08-08",
       "date": "2026-08-08",
@@ -6106,6 +6134,20 @@
     {
       "title": "Irmaos das Sombras MC",
       "type": "Evento da agenda",
+      "slug": "irmaos-das-sombras-mc-senador-vasconcelos-rio-de-janerio-rj-2026-08-01",
+      "date": "2026-08-01",
+      "category": "Encontro de moto clube",
+      "city": "Senador Vasconcelos - Rio de Janerio",
+      "state": "RJ",
+      "status": "agendada",
+      "summary": "Encontro de moto clube em Senador Vasconcelos - Rio de Janerio/RJ, com data divulgada para 2026-08-01. O flyer foi inspecionado localmente; serviços identificados: sorteios.",
+      "url": "/eventos/irmaos-das-sombras-mc-senador-vasconcelos-rio-de-janerio-rj-2026-08-01/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#irmaos-das-sombras-mc-senador-vasconcelos-rio-de-janerio-rj-2026-08-01"
+    },
+    {
+      "title": "Irmaos das Sombras MC de Rio de Janerio",
+      "type": "Evento da agenda",
       "slug": "irmaos-das-sombras-mc-rio-de-janerio-rj-2026-08-01",
       "date": "2026-08-01",
       "category": "Encontro de moto clube",
@@ -6118,7 +6160,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#irmaos-das-sombras-mc-rio-de-janerio-rj-2026-08-01"
     },
     {
-      "title": "Irmaos das Sombras MC",
+      "title": "Irmaos das Sombras MC de Senador Vasconcelos",
       "type": "Evento da agenda",
       "slug": "irmaos-das-sombras-mc-senador-vasconcelos-rio-de-janeiro-rj-2026-08-01",
       "date": "2026-08-01",
@@ -6132,21 +6174,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#irmaos-das-sombras-mc-senador-vasconcelos-rio-de-janeiro-rj-2026-08-01"
     },
     {
-      "title": "Irmaos das Sombras MC",
-      "type": "Evento da agenda",
-      "slug": "irmaos-das-sombras-mc-senador-vasconcelos-rio-de-janerio-rj-2026-08-01",
-      "date": "2026-08-01",
-      "category": "Encontro de moto clube",
-      "city": "Senador Vasconcelos - Rio de Janerio",
-      "state": "RJ",
-      "status": "agendada",
-      "summary": "Encontro de moto clube em Senador Vasconcelos - Rio de Janerio/RJ, com data divulgada para 2026-08-01. O flyer foi inspecionado localmente; serviços identificados: sorteios.",
-      "url": "/eventos/irmaos-das-sombras-mc-senador-vasconcelos-rio-de-janerio-rj-2026-08-01/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#irmaos-das-sombras-mc-senador-vasconcelos-rio-de-janerio-rj-2026-08-01"
-    },
-    {
-      "title": "Iron Wolves MC",
+      "title": "Iron Wolves MC de Itapemirim",
       "type": "Evento da agenda",
       "slug": "iron-wolves-mc-itapemirim-es-2026-08-28",
       "date": "2026-08-28",
@@ -6160,7 +6188,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#iron-wolves-mc-itapemirim-es-2026-08-28"
     },
     {
-      "title": "Iron Wolves MC",
+      "title": "Iron Wolves MC de Marataizes",
       "type": "Evento da agenda",
       "slug": "iron-wolves-mc-marataizes-es-2026-08-28",
       "date": "2026-08-28",
@@ -6552,7 +6580,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#lobos-cinzentos-mc-salvador-ba-2026-08-08"
     },
     {
-      "title": "Lobos do Asfalto MC",
+      "title": "Lobos do Asfalto MC de Jardim America",
       "type": "Evento da agenda",
       "slug": "lobos-do-asfalto-mc-jardim-america-rio-de-janeiro-rj-2026-09-06",
       "date": "2026-09-06",
@@ -6566,7 +6594,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#lobos-do-asfalto-mc-jardim-america-rio-de-janeiro-rj-2026-09-06"
     },
     {
-      "title": "Lobos do Asfalto MC",
+      "title": "Lobos do Asfalto MC de Rio de Janeiro",
       "type": "Evento da agenda",
       "slug": "lobos-do-asfalto-mc-rio-de-janeiro-rj-2026-08-08",
       "date": "2026-08-08",
@@ -7224,7 +7252,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#minhocas-do-asfalto-cascavel-pr-2026-10-18"
     },
     {
-      "title": "Missa dos Motociclistas",
+      "title": "Missa dos Motociclistas de Catas Altas",
       "type": "Evento da agenda",
       "slug": "missa-dos-motociclistas-catas-altas-mg-2026-07-26",
       "date": "2026-07-26",
@@ -7238,7 +7266,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#missa-dos-motociclistas-catas-altas-mg-2026-07-26"
     },
     {
-      "title": "Missa dos Motociclistas",
+      "title": "Missa dos Motociclistas de Volta Redonda",
       "type": "Evento da agenda",
       "slug": "missa-dos-motociclistas-volta-redonda-rj-2026-07-27",
       "date": "2026-07-27",
@@ -7294,7 +7322,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#moto-acampamento-tres-coracoes-mg-2026-08-07"
     },
     {
-      "title": "MOTO AMIGO",
+      "title": "MOTO AMIGO de Mondai — 18 de setembro",
       "type": "Evento da agenda",
       "slug": "moto-amigo-mondai-sc-2026-09-18",
       "date": "2026-09-18",
@@ -7308,7 +7336,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#moto-amigo-mondai-sc-2026-09-18"
     },
     {
-      "title": "MOTO AMIGO",
+      "title": "MOTO AMIGO de Mondai — 25 de setembro",
       "type": "Evento da agenda",
       "slug": "moto-amigo-mondai-sc-2026-09-25",
       "date": "2026-09-25",
@@ -7350,7 +7378,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#moto-cafe-paraguacu-paulista-sp-2026-09-20"
     },
     {
-      "title": "MOTO CAFE",
+      "title": "MOTO CAFE de Santopolis do Aguapei",
       "type": "Evento da agenda",
       "slug": "moto-cafe-santopolis-do-aguapei-sp-2026-09-20",
       "date": "2026-09-20",
@@ -7420,7 +7448,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#moto-fera-jacarei-sp-2026-08-15"
     },
     {
-      "title": "Moto Fest Lagoinha",
+      "title": "Moto Fest Lagoinha de Sao Jose do Rio Preto",
       "type": "Evento da agenda",
       "slug": "moto-fest-lagoinha-sao-jose-do-rio-preto-sp-2026-11-21",
       "date": "2026-11-21",
@@ -7730,6 +7758,20 @@
     {
       "title": "MOTOROCK",
       "type": "Evento da agenda",
+      "slug": "motorock-uru-sp-2026-10-30",
+      "date": "2026-10-30",
+      "category": "Festival de motociclismo",
+      "city": "Uru",
+      "state": "SP",
+      "status": "agendada",
+      "summary": "Festival de motociclismo em Uru/SP, com data divulgada para 2026-10-30. O flyer foi inspecionado localmente; serviços identificados: rock.",
+      "url": "/eventos/motorock-uru-sp-2026-10-30/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#motorock-uru-sp-2026-10-30"
+    },
+    {
+      "title": "MOTOROCK de Bertopolis",
+      "type": "Evento da agenda",
       "slug": "motorock-bertopolis-mg-2026-08-23",
       "date": "2026-08-23",
       "category": "Festival de motociclismo",
@@ -7742,7 +7784,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#motorock-bertopolis-mg-2026-08-23"
     },
     {
-      "title": "MOTOROCK",
+      "title": "MOTOROCK de Conselheiro Lafaiete",
       "type": "Evento da agenda",
       "slug": "motorock-conselheiro-lafaiete-mg-2026-09-04",
       "date": "2026-09-04",
@@ -7756,7 +7798,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#motorock-conselheiro-lafaiete-mg-2026-09-04"
     },
     {
-      "title": "MOTOROCK",
+      "title": "MOTOROCK de Lavras",
       "type": "Evento da agenda",
       "slug": "motorock-lavras-mg-2026-08-01",
       "date": "2026-08-01",
@@ -7770,7 +7812,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#motorock-lavras-mg-2026-08-01"
     },
     {
-      "title": "MOTOROCK",
+      "title": "MOTOROCK de Macaubas — 7 de agosto",
       "type": "Evento da agenda",
       "slug": "motorock-macaubas-ba-2026-08-07",
       "date": "2026-08-07",
@@ -7784,7 +7826,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#motorock-macaubas-ba-2026-08-07"
     },
     {
-      "title": "MOTOROCK",
+      "title": "MOTOROCK de Macaubas — 8 de agosto",
       "type": "Evento da agenda",
       "slug": "motorock-macaubas-ba-2026-08-08",
       "date": "2026-08-08",
@@ -7798,7 +7840,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#motorock-macaubas-ba-2026-08-08"
     },
     {
-      "title": "MOTOROCK",
+      "title": "MOTOROCK de Pesqueira",
       "type": "Evento da agenda",
       "slug": "motorock-pesqueira-pe-2026-11-27",
       "date": "2026-11-27",
@@ -7812,7 +7854,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#motorock-pesqueira-pe-2026-11-27"
     },
     {
-      "title": "MOTOROCK",
+      "title": "MOTOROCK de Turmalina",
       "type": "Evento da agenda",
       "slug": "motorock-turmalina-mg-2026-07-25",
       "date": "2026-07-25",
@@ -7826,21 +7868,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#motorock-turmalina-mg-2026-07-25"
     },
     {
-      "title": "MOTOROCK",
-      "type": "Evento da agenda",
-      "slug": "motorock-uru-sp-2026-10-30",
-      "date": "2026-10-30",
-      "category": "Festival de motociclismo",
-      "city": "Uru",
-      "state": "SP",
-      "status": "agendada",
-      "summary": "Festival de motociclismo em Uru/SP, com data divulgada para 2026-10-30. O flyer foi inspecionado localmente; serviços identificados: rock.",
-      "url": "/eventos/motorock-uru-sp-2026-10-30/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#motorock-uru-sp-2026-10-30"
-    },
-    {
-      "title": "MOTOROCK e AMIZADE",
+      "title": "MOTOROCK e AMIZADE de Itauna",
       "type": "Evento da agenda",
       "slug": "motorock-e-amizade-itauna-mg-2026-07-25",
       "date": "2026-07-25",
@@ -8078,7 +8106,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#neblina-mc-peruibe-sp-2026-11-28"
     },
     {
-      "title": "NIVER",
+      "title": "NIVER de Amparo",
       "type": "Evento da agenda",
       "slug": "niver-amparo-sp-2026-09-12",
       "date": "2026-09-12",
@@ -8092,7 +8120,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#niver-amparo-sp-2026-09-12"
     },
     {
-      "title": "NIVER",
+      "title": "NIVER de Sao Goncalo",
       "type": "Evento da agenda",
       "slug": "niver-sao-goncalo-rj-2026-08-08",
       "date": "2026-08-08",
@@ -8582,7 +8610,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#pit-stop-hanbai-belo-horizonte-mg-2026-07-25"
     },
     {
-      "title": "Piumhi Moto Fest",
+      "title": "Piumhi Moto Fest de Piunhi",
       "type": "Evento da agenda",
       "slug": "motofest-piunhi-mg-2026-08-14",
       "date": "2026-08-14",
@@ -8862,21 +8890,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#rider-s-do-norte-mg-jaru-ro-2026-07-24"
     },
     {
-      "title": "Rio das Flores Moto Fest",
-      "type": "Evento da agenda",
-      "slug": "motofest-rio-das-flores-rj-2026-07-31",
-      "date": "2026-07-31",
-      "category": "Festival de motociclismo",
-      "city": "Rio das Flores",
-      "state": "RJ",
-      "status": "agendada",
-      "summary": "Festival de motociclismo em Rio das Flores/RJ, com data divulgada para 2026-07-31. O flyer foi inspecionado localmente; serviços identificados: estacionamento mencionado no flyer, área de camping, bandas, expositores.",
-      "url": "/eventos/motofest-rio-das-flores-rj-2026-07-31/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#motofest-rio-das-flores-rj-2026-07-31"
-    },
-    {
-      "title": "Rio das Flores Moto Fest",
+      "title": "Rio das Flores Moto Fest — 1 de agosto",
       "type": "Evento da agenda",
       "slug": "motofest-rio-das-flores-rj-2026-08-01",
       "date": "2026-08-01",
@@ -8888,6 +8902,20 @@
       "url": "/eventos/motofest-rio-das-flores-rj-2026-08-01/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#motofest-rio-das-flores-rj-2026-08-01"
+    },
+    {
+      "title": "Rio das Flores Moto Fest — 31 de julho",
+      "type": "Evento da agenda",
+      "slug": "motofest-rio-das-flores-rj-2026-07-31",
+      "date": "2026-07-31",
+      "category": "Festival de motociclismo",
+      "city": "Rio das Flores",
+      "state": "RJ",
+      "status": "agendada",
+      "summary": "Festival de motociclismo em Rio das Flores/RJ, com data divulgada para 2026-07-31. O flyer foi inspecionado localmente; serviços identificados: estacionamento mencionado no flyer, área de camping, bandas, expositores.",
+      "url": "/eventos/motofest-rio-das-flores-rj-2026-07-31/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#motofest-rio-das-flores-rj-2026-07-31"
     },
     {
       "title": "Rio Riders Brasil MC",
@@ -9016,7 +9044,7 @@
       "source": "content/articles/role-urbano-noturno.json"
     },
     {
-      "title": "Ronin MC",
+      "title": "Ronin MC de Itabira — 1 de agosto",
       "type": "Evento da agenda",
       "slug": "ronin-mc-itabira-mg-2026-08-01",
       "date": "2026-08-01",
@@ -9030,7 +9058,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#ronin-mc-itabira-mg-2026-08-01"
     },
     {
-      "title": "Ronin MC",
+      "title": "Ronin MC de Itabira — 16 de agosto",
       "type": "Evento da agenda",
       "slug": "ronin-mc-itabira-mg-2026-08-16",
       "date": "2026-08-16",
@@ -9142,7 +9170,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#santa-custom-mc-franca-sp-2026-08-15"
     },
     {
-      "title": "SANTANA MOTOFEST",
+      "title": "SANTANA MOTOFEST de Santana do Ipanema",
       "type": "Evento da agenda",
       "slug": "santana-motofest-santana-do-ipanema-al-2026-09-04",
       "date": "2026-09-04",
@@ -9604,21 +9632,7 @@
       "source": "content/calendar/cbm-2026.json#taca-brasil-de-paraciclismo-de-pista-track-american-series-maringa-pr-2026-08-04"
     },
     {
-      "title": "Terapia na estrada",
-      "type": "Evento da agenda",
-      "slug": "terapia-na-estrada-macae-rj-2026-08-08",
-      "date": "2026-08-08",
-      "category": "Encontro de motociclistas",
-      "city": "Macae",
-      "state": "RJ",
-      "status": "agendada",
-      "summary": "Encontro de motociclistas em Macae/RJ, com data divulgada para 2026-08-08. O flyer foi inspecionado localmente; serviços identificados: programação detalhada não identificada de forma legível no flyer.",
-      "url": "/eventos/terapia-na-estrada-macae-rj-2026-08-08/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#terapia-na-estrada-macae-rj-2026-08-08"
-    },
-    {
-      "title": "Terapia na Estrada",
+      "title": "Terapia na Estrada de Macae — 15 de agosto",
       "type": "Evento da agenda",
       "slug": "terapia-na-estrada-macae-rj-2026-08-15",
       "date": "2026-08-15",
@@ -9630,6 +9644,20 @@
       "url": "/eventos/terapia-na-estrada-macae-rj-2026-08-15/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#terapia-na-estrada-macae-rj-2026-08-15"
+    },
+    {
+      "title": "Terapia na estrada de Macae — 8 de agosto",
+      "type": "Evento da agenda",
+      "slug": "terapia-na-estrada-macae-rj-2026-08-08",
+      "date": "2026-08-08",
+      "category": "Encontro de motociclistas",
+      "city": "Macae",
+      "state": "RJ",
+      "status": "agendada",
+      "summary": "Encontro de motociclistas em Macae/RJ, com data divulgada para 2026-08-08. O flyer foi inspecionado localmente; serviços identificados: programação detalhada não identificada de forma legível no flyer.",
+      "url": "/eventos/terapia-na-estrada-macae-rj-2026-08-08/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#terapia-na-estrada-macae-rj-2026-08-08"
     },
     {
       "title": "The Best Road",
@@ -9702,7 +9730,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#tiao-e-deja-moto-casal-pirassununga-sp-2026-09-25"
     },
     {
-      "title": "Tigres Medievais MC",
+      "title": "Tigres Medievais MC de Belo Horizonte",
       "type": "Evento da agenda",
       "slug": "tigres-medievais-mc-belo-horizonte-mg-2026-10-17",
       "date": "2026-10-17",
@@ -9716,7 +9744,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#tigres-medievais-mc-belo-horizonte-mg-2026-10-17"
     },
     {
-      "title": "Tigres Medievais MC",
+      "title": "Tigres Medievais MC de Ouro Preto",
       "type": "Evento da agenda",
       "slug": "tigres-medievais-mc-ouro-preto-mg-2026-10-17",
       "date": "2026-10-17",
@@ -9772,7 +9800,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#tri-vale-e-its-lages-sc-2026-10-10"
     },
     {
-      "title": "Trike Brasil MC",
+      "title": "Trike Brasil MC de Minduri",
       "type": "Evento da agenda",
       "slug": "trike-brasil-mc-minduri-mg-2026-08-28",
       "date": "2026-08-28",
@@ -9786,7 +9814,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#trike-brasil-mc-minduri-mg-2026-08-28"
     },
     {
-      "title": "Trike Brasil MC",
+      "title": "Trike Brasil MC de Tri-Vale",
       "type": "Evento da agenda",
       "slug": "trike-brasil-mc-tri-vale-resende-rj-2026-08-28",
       "date": "2026-08-28",
@@ -9912,7 +9940,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#motofest-uirauna-pb-2026-11-27"
     },
     {
-      "title": "Ultr Moto Fest",
+      "title": "Ultr Moto Fest de Alcobaca",
       "type": "Evento da agenda",
       "slug": "ultr-moto-fest-alcobaca-ba-2026-08-14",
       "date": "2026-08-14",
@@ -9926,7 +9954,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#ultr-moto-fest-alcobaca-ba-2026-08-14"
     },
     {
-      "title": "Ultra Moto Fest",
+      "title": "Ultra Moto Fest de Sao Lourenco",
       "type": "Evento da agenda",
       "slug": "ultra-moto-fest-sao-lourenco-mg-2026-09-11",
       "date": "2026-09-11",
@@ -10220,7 +10248,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#yamaha-vmax-mairipora-sp-2026-07-25"
     },
     {
-      "title": "Zapata MC",
+      "title": "Zapata MC de Embu Guacu",
       "type": "Evento da agenda",
       "slug": "zapata-mc-embu-guacu-sp-2026-09-19",
       "date": "2026-09-19",
@@ -10234,7 +10262,7 @@
       "source": "content/events/agenda-comunitaria-2026.json#zapata-mc-embu-guacu-sp-2026-09-19"
     },
     {
-      "title": "Zapata MC",
+      "title": "Zapata MC de Ferraz de Vasconcelos",
       "type": "Evento da agenda",
       "slug": "zapata-mc-ferraz-de-vasconcelos-sp-2026-11-14",
       "date": "2026-11-14",

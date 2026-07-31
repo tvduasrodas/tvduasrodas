@@ -1,7 +1,7 @@
 {
   "title": "Agenda comunitária nacional de duas rodas 2026",
   "source_url": "https://jb-rider.com.br/eventos.php",
-  "last_updated": "2026-07-26T10:19:28.165324+00:00",
+  "last_updated": "2026-07-30",
   "methodology": "Fatos básicos de agenda (nome, data, cidade e UF), deduplicados e complementados por fontes oficiais e locais. Itens comunitários exigem confirmação com o organizador.",
   "entries": [
     {
@@ -429,7 +429,7 @@
     },
     {
       "slug": "motofest-angra-dos-reis-rj-2026-07-23",
-      "title": "28º Angra MotoFest",
+      "title": "28º Angra MotoFest de Angra dos Reis",
       "short_name": "Angra MotoFest",
       "start_date": "2026-07-23",
       "end_date": "2026-07-26",
@@ -841,7 +841,38 @@
       "body": "## Serviço\n\nEvento incluído na agenda nacional da TVDUASRODAS para ampliar a visibilidade de encontros locais e regionais. As informações vieram da agenda indicada como fonte e podem ser atualizadas pelo organizador.\n\n## Confirme antes de sair\n\nConsulte o canal do evento, o moto clube responsável ou a prefeitura local para confirmar endereço, horários, regras de acesso, camping, inscrições e eventuais alterações.",
       "last_updated": "2026-07-29T03:01:38.880366+00:00",
       "duplicate_of": "divina-motofest-divinopolis-mg-2026-07-24",
-      "sources": []
+      "sources": [
+        {
+          "url": "https://www.divinopolis.mg.gov.br/portal/noticias/0/3/28487/divina-moto-fest-comeca-hoje-com-grandes-shows-estrutura-completa-e-seguranca-reforcada",
+          "label": "Canal oficial ou página indicada pela entidade",
+          "type": "fonte institucional pública",
+          "supports": "dados de agenda, identificação e situação do evento"
+        },
+        {
+          "url": "https://www.divinopolis.mg.gov.br/portal/noticias/0/3/28025/prefeitura-abre-chamamento-publico-para-credenciamento-de-associacoes-de-motociclistas-no-divina-motofest-2026",
+          "label": "Prefeitura abre chamamento público para...",
+          "type": "fonte institucional pública",
+          "supports": "data e edição, horários e programação, inscrições e acesso, organização e contatos",
+          "relevance_score": 23,
+          "discovery_method": "busca_editorial_indexada"
+        },
+        {
+          "url": "https://sapl.divinopolis.mg.leg.br/media/sapl/public/normajuridica/2025/21100/lei_no_9556.2025_-_encontro_motocicilista_divina_motofest.pdf",
+          "label": "MUNICÍPIO DE DIVINÓPOLIS – MINAS GERAIS",
+          "type": "fonte específica independente",
+          "supports": "data e edição",
+          "relevance_score": 19,
+          "discovery_method": "busca_editorial_indexada"
+        },
+        {
+          "url": "https://sapl.divinopolis.mg.leg.br/media/sapl/public/materialegislativa/2025/41427/projeto_cm_010-2025_-_institui_e_inclui_no_calendario_de_eventos_do_municipio_o_divina_motofest.pdf",
+          "label": "PROJETO DE LEI Nº CM 010/2025",
+          "type": "fonte específica independente",
+          "supports": "data e edição, organização e contatos",
+          "relevance_score": 19,
+          "discovery_method": "busca_editorial_indexada"
+        }
+      ]
     },
     {
       "slug": "4-u-m-a-aguai-sp-2026-07-24",
@@ -1174,7 +1205,7 @@
     },
     {
       "slug": "divina-motofest-divinopolis-mg-2026-07-24",
-      "title": "4º Divina MotoFest",
+      "title": "4º Divina MotoFest de Divinópolis",
       "short_name": "Divina MotoFest",
       "start_date": "2026-07-24",
       "end_date": "2026-07-25",
@@ -1208,7 +1239,7 @@
         "40 banheiros químicos"
       ],
       "body": "## Serviço completo\n\nO 4º Divina MotoFest foi realizado em 24 e 25 de julho de 2026 na Praça da Bíblia, na Avenida Paraná, bairro São José, em Divinópolis. A entrada foi gratuita.\n\n## Programação\n\nNa sexta-feira, Banda Akira às 19h e Dias de Truta às 21h. No sábado, a programação começou às 13h com Sávio Calegari, seguida por Prisma Tela, O Salto, Chula Rock Band e Tianastácia, às 21h.\n\n## Estrutura e segurança\n\nA Prefeitura informou atuação da Polícia Militar e segurança privada, 40 banheiros químicos, alimentação e expositores. Garrafas de vidro, objetos perfurantes e equipamentos de som foram proibidos. Coolers e caixas térmicas foram permitidos quando as bebidas estivessem em latas ou garrafas plásticas.\n\n## Trânsito e estacionamento\n\nO trecho da Avenida Paraná entre a Rua Candeias e a Rua Guapé permaneceu interditado para montagem e desmontagem. A comunicação oficial não detalhou estacionamento para o público.",
-      "last_updated": "2026-07-26T01:15:00-04:00",
+      "last_updated": "2026-07-26",
       "timezone": "America/Sao_Paulo",
       "local_start": "2026-07-24T19:00:00-03:00",
       "local_end": "2026-07-25T23:00:00-03:00",
@@ -1349,6 +1380,18 @@
           "label": "Flyer ou página específica original do evento",
           "type": "evidência visual primária",
           "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+        },
+        {
+          "url": "https://jb-rider.com.br/evento/20260724-2-mc-campos-compos-dos-goytacazes-rj",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260724_2__MC%20Campos_Compos%20dos%20Goytacazes_RJ.jpg",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
         }
       ],
       "research_status": {
@@ -1389,7 +1432,7 @@
         "Programação detalhada não identificada de forma legível no flyer"
       ],
       "body": "## Serviço verificado\n\nMC Campos tem data divulgada de 2026-07-24 a 2026-07-25, em Compos dos Goytacazes/RJ. Horário não informado de forma legível no flyer consultado.\n\n## Local e endereço\n\nEndereço detalhado não informado no flyer; referência: Compos dos Goytacazes - RJ. Quando o endereço não aparece de forma legível, a TVDUASRODAS mantém essa ausência explícita e não inventa rua, número ou CEP.\n\n## Programação e estrutura\n\nProgramação detalhada não identificada de forma legível no flyer. Os nomes e horários que não atingiram confiança suficiente no processamento visual não foram transformados em informação pública.\n\n## Acesso, estacionamento e contato\n\nNão informado de forma legível no flyer consultado. Não informado de forma legível no flyer consultado. Contato não identificado de forma legível no flyer.\n\n## Fonte e atualização\n\nA data, a cidade e os sinais de serviço foram confrontados com o flyer específico indexado pela JB-RIDER. A arte original permanece vinculada para conferência de mudanças e detalhes.",
-      "last_updated": "2026-07-26T05:07:49.077000+00:00",
+      "last_updated": "2026-07-26",
       "timezone": "America/Sao_Paulo",
       "time_label": "Horário não informado de forma legível no flyer consultado",
       "street_address": "Endereço detalhado não informado de forma legível no flyer",
@@ -1438,7 +1481,9 @@
           "\"mc campos\" compos dos goytacazes RJ 2026"
         ],
         "reviewed_at": "2026-07-26T09:59:13.669562+00:00"
-      }
+      },
+      "duplicate_of": "mc-campos-campos-dos-goytacazes-rj-2026-07-24",
+      "canonical_url": "/eventos/mc-campos-campos-dos-goytacazes-rj-2026-07-24/"
     },
     {
       "slug": "moto-rock-festival-baependi-mg-2026-07-24",
@@ -1687,7 +1732,7 @@
         "Shows ou bandas de rock"
       ],
       "body": "## Serviço verificado\n\nPiratas de Aco MC tem data divulgada de 2026-07-24 a 2026-07-25, em 100 Censura - Rio Claro/SP. Horário não informado de forma legível no flyer consultado.\n\n## Local e endereço\n\nEndereço detalhado não informado no flyer; referência: 100 Censura - Rio Claro - SP. Quando o endereço não aparece de forma legível, a TVDUASRODAS mantém essa ausência explícita e não inventa rua, número ou CEP.\n\n## Programação e estrutura\n\nEstacionamento mencionado no flyer, Área de camping, Chuveiros, Café da manhã, Rock, Expositores. Os nomes e horários que não atingiram confiança suficiente no processamento visual não foram transformados em informação pública.\n\n## Acesso, estacionamento e contato\n\nNão informado de forma legível no flyer consultado. Estacionamento mencionado no flyer; localização, preço e regras devem ser confirmados com a organização. Contato não identificado de forma legível no flyer.\n\n## Leitura visual complementar\n\nEstrutura e atrações legíveis: Área de camping, Estacionamento, Café da manhã, Chuveiros, Área ou praça de alimentação, Shows ou bandas de rock, Expositores. Marcas de horário legíveis: 16h00, 19h00, 22h30, 12h00, 14h30, 17h00. A leitura automatizada foi usada como apoio; trechos ambíguos não foram publicados como fato.\n## Fonte e atualização\n\nA data, a cidade e os sinais de serviço foram confrontados com o flyer específico indexado pela JB-RIDER. A arte original permanece vinculada para conferência de mudanças e detalhes.",
-      "last_updated": "2026-07-26T09:57:55.808145+00:00",
+      "last_updated": "2026-07-26",
       "timezone": "America/Sao_Paulo",
       "time_label": "Horários identificados no flyer: 16h00, 19h00, 22h30, 12h00, 14h30, 17h00; confirme a atividade correspondente com a organização",
       "street_address": "Endereço detalhado não informado de forma legível no flyer",
@@ -1743,7 +1788,9 @@
         "status": "fontes_cruzadas",
         "query": "\"piratas de aco mc\" 100 censura rio claro SP 2026",
         "reviewed_at": "2026-07-26T08:52:27.055143+00:00"
-      }
+      },
+      "duplicate_of": "piratas-de-aco-mc-e-100-censura-rio-claro-sp-2026-07-24",
+      "canonical_url": "/eventos/piratas-de-aco-mc-e-100-censura-rio-claro-sp-2026-07-24/"
     },
     {
       "slug": "piratas-de-aco-mc-e-100-censura-rio-claro-sp-2026-07-24",
@@ -1827,6 +1874,25 @@
           "checked_at": "2026-07-26T08:09:22.554428+00:00",
           "discovery_method": "cruzamento_estruturado_fire_souls",
           "relevance_score": 98
+        },
+        {
+          "url": "https://jb-rider.com.br/evento/20260724-2-piratas-de-aco-mc-100-censura-rio-claro-sp",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260724_2__Piratas%20de%20Aco%20MC%20-%20100%20Censura_Rio%20Claro_SP.jpeg",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+        },
+        {
+          "url": "https://allevents.in/rio-claro/moto-uni%C3%A3o-piratas-de-a%C3%A7o-e-100-censura-moto-casal/200030269870328",
+          "label": "AllEvents.in https://allevents.in › rio-claro › moto-união-piratas-de Moto União Piratas de Aço e 100 Censura Moto Casal",
+          "type": "fonte específica independente",
+          "supports": "data e edição, local, inscrições e acesso",
+          "relevance_score": 20
         }
       ],
       "research_status": {
@@ -2225,8 +2291,8 @@
     },
     {
       "slug": "2-biker-fest-feraz-de-vasconcelos-sp-2026-07-25",
-      "title": "2 Biker Fest",
-      "short_name": "2 Biker Fest",
+      "title": "2 Biker Fest de Feraz de Vasconcelos",
+      "short_name": "2 Biker Fest de Feraz de Vasconcelos",
       "start_date": "2026-07-25",
       "end_date": "2026-07-25",
       "city": "Feraz de Vasconcelos",
@@ -2309,8 +2375,8 @@
     },
     {
       "slug": "2-encontro-de-motociclistas-nova-resende-mg-2026-07-25",
-      "title": "2 Encontro de Motociclistas",
-      "short_name": "2 Encontro de Motociclistas",
+      "title": "2 Encontro de Motociclistas de Nova Resende",
+      "short_name": "2 Encontro de Motociclistas de Nova Resende",
       "start_date": "2026-07-25",
       "end_date": "2026-07-26",
       "city": "Nova Resende",
@@ -2895,8 +2961,8 @@
     },
     {
       "slug": "bodes-do-asfalto-mc-sao-goncalo-rj-2026-07-25",
-      "title": "Bodes do Asfalto MC",
-      "short_name": "Bodes do Asfalto MC",
+      "title": "Bodes do Asfalto MC de Sao Goncalo",
+      "short_name": "Bodes do Asfalto MC de Sao Goncalo",
       "start_date": "2026-07-25",
       "end_date": "2026-07-25",
       "city": "Sao Goncalo",
@@ -3528,8 +3594,8 @@
     },
     {
       "slug": "insanos-mc-birigui-sp-2026-07-25",
-      "title": "Insanos MC",
-      "short_name": "Insanos MC",
+      "title": "Insanos MC de Birigui",
+      "short_name": "Insanos MC de Birigui",
       "start_date": "2026-07-25",
       "end_date": "2026-07-25",
       "city": "Birigui",
@@ -3933,8 +3999,8 @@
     },
     {
       "slug": "motorock-e-amizade-itauna-mg-2026-07-25",
-      "title": "MOTOROCK e AMIZADE",
-      "short_name": "MOTOROCK e AMIZADE",
+      "title": "MOTOROCK e AMIZADE de Itauna",
+      "short_name": "MOTOROCK e AMIZADE de Itauna",
       "start_date": "2026-07-25",
       "end_date": "2026-07-25",
       "city": "Itauna",
@@ -4008,8 +4074,8 @@
     },
     {
       "slug": "motorock-turmalina-mg-2026-07-25",
-      "title": "MOTOROCK",
-      "short_name": "MOTOROCK",
+      "title": "MOTOROCK de Turmalina",
+      "short_name": "MOTOROCK de Turmalina",
       "start_date": "2026-07-25",
       "end_date": "2026-07-25",
       "city": "Turmalina",
@@ -4210,7 +4276,7 @@
         "Expositores"
       ],
       "body": "## Serviço verificado\n\nPererecas MC tem data divulgada de 2026-07-25 a 2026-07-25, em Belford Roxo - Rio de Janeiro/RJ. Horários identificados no flyer: 2h.\n\n## Local e endereço\n\nEndereço detalhado não informado no flyer; referência: Belford Roxo - Rio de Janeiro - RJ. Quando o endereço não aparece de forma legível, a TVDUASRODAS mantém essa ausência explícita e não inventa rua, número ou CEP.\n\n## Programação e estrutura\n\nÁrea de camping, Café da manhã, Expositores. Os nomes e horários que não atingiram confiança suficiente no processamento visual não foram transformados em informação pública.\n\n## Acesso, estacionamento e contato\n\nNão informado de forma legível no flyer consultado. Não informado de forma legível no flyer consultado. Contato não identificado de forma legível no flyer.\n\n## Leitura visual complementar\n\nEstrutura e atrações legíveis: Área de camping, Café da manhã, Expositores. A leitura automatizada foi usada como apoio; trechos ambíguos não foram publicados como fato.\n## Fonte e atualização\n\nA data, a cidade e os sinais de serviço foram confrontados com o flyer específico indexado pela JB-RIDER. A arte original permanece vinculada para conferência de mudanças e detalhes.",
-      "last_updated": "2026-07-26T09:57:55.808145+00:00",
+      "last_updated": "2026-07-26",
       "timezone": "America/Sao_Paulo",
       "time_label": "Horários identificados no flyer: 2h",
       "street_address": "Endereço detalhado não informado de forma legível no flyer",
@@ -4261,7 +4327,9 @@
           "\"pererecas mc\" belford roxo rio de janeiro RJ 2026"
         ],
         "reviewed_at": "2026-07-26T09:59:18.459752+00:00"
-      }
+      },
+      "duplicate_of": "pererecas-mc-belford-roxo-rj-2026-07-25",
+      "canonical_url": "/eventos/pererecas-mc-belford-roxo-rj-2026-07-25/"
     },
     {
       "slug": "pererecas-mc-belford-roxo-rj-2026-07-25",
@@ -5003,8 +5071,8 @@
     },
     {
       "slug": "2-moto-cafe-tres-marias-mg-2026-07-26",
-      "title": "2 MOTO CAFE",
-      "short_name": "2 MOTO CAFE",
+      "title": "2 MOTO CAFE de Tres Marias",
+      "short_name": "2 MOTO CAFE de Tres Marias",
       "start_date": "2026-07-26",
       "end_date": "2026-07-26",
       "city": "Tres Marias",
@@ -5914,8 +5982,8 @@
     },
     {
       "slug": "encontro-de-motociclistas-votuporanga-sp-2026-07-26",
-      "title": "Encontro de Motociclistas",
-      "short_name": "Encontro de Motociclistas",
+      "title": "Encontro de Motociclistas de Votuporanga",
+      "short_name": "Encontro de Motociclistas de Votuporanga",
       "start_date": "2026-07-26",
       "end_date": "2026-07-26",
       "city": "Votuporanga",
@@ -6593,8 +6661,8 @@
     },
     {
       "slug": "insanos-mc-patos-de-minas-mg-2026-07-26",
-      "title": "Insanos MC",
-      "short_name": "Insanos MC",
+      "title": "Insanos MC de Patos de Minas",
+      "short_name": "Insanos MC de Patos de Minas",
       "start_date": "2026-07-26",
       "end_date": "2026-07-26",
       "city": "Patos de Minas",
@@ -6882,8 +6950,8 @@
     },
     {
       "slug": "missa-dos-motociclistas-catas-altas-mg-2026-07-26",
-      "title": "Missa dos Motociclistas",
-      "short_name": "Missa dos Motociclistas",
+      "title": "Missa dos Motociclistas de Catas Altas",
+      "short_name": "Missa dos Motociclistas de Catas Altas",
       "start_date": "2026-07-26",
       "end_date": "2026-07-26",
       "city": "Catas Altas",
@@ -7325,8 +7393,8 @@
     },
     {
       "slug": "insanos-mc-rio-de-janeiro-rj-2026-07-27",
-      "title": "Insanos MC",
-      "short_name": "Insanos MC",
+      "title": "Insanos MC de Rio de Janeiro",
+      "short_name": "Insanos MC de Rio de Janeiro",
       "start_date": "2026-07-27",
       "end_date": "2026-07-27",
       "city": "Rio de Janeiro",
@@ -7442,8 +7510,8 @@
     },
     {
       "slug": "missa-dos-motociclistas-volta-redonda-rj-2026-07-27",
-      "title": "Missa dos Motociclistas",
-      "short_name": "Missa dos Motociclistas",
+      "title": "Missa dos Motociclistas de Volta Redonda",
+      "short_name": "Missa dos Motociclistas de Volta Redonda",
       "start_date": "2026-07-27",
       "end_date": "2026-07-27",
       "city": "Volta Redonda",
@@ -7521,8 +7589,8 @@
     },
     {
       "slug": "encontro-de-motociclistas-belo-horizonte-mg-2026-07-28",
-      "title": "Encontro de Motociclistas",
-      "short_name": "Encontro de Motociclistas",
+      "title": "Encontro de Motociclistas de Belo Horizonte",
+      "short_name": "Encontro de Motociclistas de Belo Horizonte",
       "start_date": "2026-07-28",
       "end_date": "2026-07-28",
       "city": "Belo Horizonte",
@@ -7601,8 +7669,8 @@
     },
     {
       "slug": "ilha-mc-ilha-do-governador-rj-2026-07-28",
-      "title": "Ilha MC",
-      "short_name": "Ilha MC",
+      "title": "Ilha MC de Ilha do Governador — 28 de julho",
+      "short_name": "Ilha MC de Ilha do Governador — 28 de julho",
       "start_date": "2026-07-28",
       "end_date": "2026-07-28",
       "city": "Ilha do Governador",
@@ -7765,8 +7833,8 @@
     },
     {
       "slug": "3-encontro-de-motociclistas-penedo-mg-2026-07-30",
-      "title": "3 Encontro de Motociclistas",
-      "short_name": "3 Encontro de Motociclistas",
+      "title": "3 Encontro de Motociclistas de Penedo",
+      "short_name": "3 Encontro de Motociclistas de Penedo",
       "start_date": "2026-07-30",
       "end_date": "2026-08-02",
       "city": "Penedo",
@@ -7989,6 +8057,18 @@
           "label": "Flyer ou página específica original do evento",
           "type": "evidência visual primária",
           "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+        },
+        {
+          "url": "https://jb-rider.com.br/evento/20260730-3-motofest-iguatu-pr",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260730_3__MOTOFEST_Iguatu_PR.jpg",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
         }
       ],
       "research_status": {
@@ -8029,7 +8109,7 @@
         "Programação detalhada não identificada de forma legível no flyer"
       ],
       "body": "## Serviço verificado\n\nMOTOFEST tem data divulgada de 2026-07-30 a 2026-08-01, em Iguatu/PR. Horário não informado de forma legível no flyer consultado.\n\n## Local e endereço\n\nEndereço detalhado não informado no flyer; referência: Iguatu - PR. Quando o endereço não aparece de forma legível, a TVDUASRODAS mantém essa ausência explícita e não inventa rua, número ou CEP.\n\n## Programação e estrutura\n\nProgramação detalhada não identificada de forma legível no flyer. Os nomes e horários que não atingiram confiança suficiente no processamento visual não foram transformados em informação pública.\n\n## Acesso, estacionamento e contato\n\nNão informado de forma legível no flyer consultado. Não informado de forma legível no flyer consultado. Contato não identificado de forma legível no flyer.\n\n## Fonte e atualização\n\nA data, a cidade e os sinais de serviço foram confrontados com o flyer específico indexado pela JB-RIDER. A arte original permanece vinculada para conferência de mudanças e detalhes.",
-      "last_updated": "2026-07-29T03:01:38.880366+00:00",
+      "last_updated": "2026-07-26",
       "timezone": "America/Sao_Paulo",
       "time_label": "Horário não informado de forma legível no flyer consultado",
       "street_address": "Endereço detalhado não informado de forma legível no flyer",
@@ -8078,7 +8158,9 @@
           "\"motofest\" iguatu PR 2026"
         ],
         "reviewed_at": "2026-07-26T09:59:38.099343+00:00"
-      }
+      },
+      "duplicate_of": "motofest-iguatu-ce-2026-07-30",
+      "canonical_url": "/eventos/motofest-iguatu-ce-2026-07-30/"
     },
     {
       "slug": "quinta-do-motociclista-arapiraca-al-2026-07-30",
@@ -8417,8 +8499,8 @@
     },
     {
       "slug": "2-encontro-nacional-serra-da-saudade-mg-2026-07-31",
-      "title": "2 Encontro Nacional",
-      "short_name": "2 Encontro Nacional",
+      "title": "2 Encontro Nacional de Serra da Saudade",
+      "short_name": "2 Encontro Nacional de Serra da Saudade",
       "start_date": "2026-07-31",
       "end_date": "2026-08-02",
       "city": "Serra da Saudade",
@@ -8830,8 +8912,8 @@
     },
     {
       "slug": "7-encontro-de-motociclistas-e-triciclistas-oliveira-fortes-mg-2026-07-31",
-      "title": "7 Encontro de Motociclistas e Triciclistas",
-      "short_name": "7 Encontro de Motociclistas e Triciclistas",
+      "title": "7 Encontro de Motociclistas e Triciclistas de Oliveira Fortes",
+      "short_name": "7 Encontro de Motociclistas e Triciclistas de Oliveira Fortes",
       "start_date": "2026-07-31",
       "end_date": "2026-08-01",
       "city": "Oliveira Fortes",
@@ -9067,8 +9149,8 @@
     },
     {
       "slug": "7-encontro-nacional-de-motociclsitas-e-motoclubes-aimores-mg-2026-07-31",
-      "title": "7 Encontro Nacional de Motociclsitas e Motoclubes",
-      "short_name": "7 Encontro Nacional de Motociclsitas e Motoclubes",
+      "title": "7 Encontro Nacional de Motociclsitas e Motoclubes de Aimores",
+      "short_name": "7 Encontro Nacional de Motociclsitas e Motoclubes de Aimores",
       "start_date": "2026-07-31",
       "end_date": "2026-08-01",
       "city": "Aimores",
@@ -9253,6 +9335,18 @@
           "type": "agenda independente com página específica",
           "supports": "datas, cidade, estado e identidade do evento",
           "checked_at": "2026-07-30"
+        },
+        {
+          "url": "https://jb-rider.com.br/evento/20260731-2-motofest-serra-es",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260731_2__MOTOFEST_Serra_ES.jpg",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
         }
       ],
       "research_status": {
@@ -9266,8 +9360,8 @@
     },
     {
       "slug": "aguias-de-cristo-mc-volta-redonda-rj-2026-07-31",
-      "title": "Aguias de Cristo MC",
-      "short_name": "Aguias de Cristo MC",
+      "title": "Aguias de Cristo MC de Volta Redonda",
+      "short_name": "Aguias de Cristo MC de Volta Redonda",
       "start_date": "2026-07-31",
       "end_date": "2026-07-31",
       "city": "Volta Redonda",
@@ -10436,6 +10530,18 @@
           "label": "JB-RIDER - agenda de encontros de motociclistas",
           "type": "agenda especializada independente",
           "supports": "datas, cidade e identificação do evento"
+        },
+        {
+          "url": "https://jb-rider.com.br/evento/20260731-3-motofest-blumenau-sc",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260731_3__MOTOFEST_Blumenau_SC.jpg",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
         }
       ],
       "research_status": {
@@ -10558,7 +10664,7 @@
         "Shows"
       ],
       "body": "## Serviço verificado\n\nMOTOFEST tem data divulgada de 2026-07-31 a 2026-07-31, em Delmiro/AL. Horário não informado de forma legível no flyer consultado.\n\n## Local e endereço\n\nEndereço detalhado não informado no flyer; referência: Delmiro - AL. Quando o endereço não aparece de forma legível, a TVDUASRODAS mantém essa ausência explícita e não inventa rua, número ou CEP.\n\n## Programação e estrutura\n\nPraça de alimentação, Shows. Os nomes e horários que não atingiram confiança suficiente no processamento visual não foram transformados em informação pública.\n\n## Acesso, estacionamento e contato\n\nNão informado de forma legível no flyer consultado. Não informado de forma legível no flyer consultado. Contato não identificado de forma legível no flyer.\n\n## Fonte e atualização\n\nA data, a cidade e os sinais de serviço foram confrontados com o flyer específico indexado pela JB-RIDER. A arte original permanece vinculada para conferência de mudanças e detalhes.",
-      "last_updated": "2026-07-29T03:01:38.880366+00:00",
+      "last_updated": "2026-07-26",
       "timezone": "America/Sao_Paulo",
       "time_label": "Horário não informado de forma legível no flyer consultado",
       "street_address": "Endereço detalhado não informado de forma legível no flyer",
@@ -10625,7 +10731,9 @@
           "título identificado no registro ou material visual"
         ],
         "checked_at": "2026-07-26T08:05:18.489319+00:00"
-      }
+      },
+      "duplicate_of": "motofest-delmiro-gouveia-al-2026-07-31",
+      "canonical_url": "/eventos/motofest-delmiro-gouveia-al-2026-07-31/"
     },
     {
       "slug": "motofest-delmiro-gouveia-al-2026-07-31",
@@ -10707,6 +10815,18 @@
           "checked_at": "2026-07-26T08:05:18.489319+00:00",
           "discovery_method": "cruzamento_estruturado_motofestbrasil",
           "relevance_score": 100
+        },
+        {
+          "url": "https://jb-rider.com.br/evento/20260731-motofest-delmiro-al",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260731___MOTOFEST_Delmiro_AL.jpg",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
         }
       ],
       "research_status": {
@@ -11239,8 +11359,8 @@
     },
     {
       "slug": "motofest-rio-das-flores-rj-2026-07-31",
-      "title": "Rio das Flores Moto Fest",
-      "short_name": "Rio das Flores Moto Fest",
+      "title": "Rio das Flores Moto Fest — 31 de julho",
+      "short_name": "Rio das Flores Moto Fest — 31 de julho",
       "start_date": "2026-07-31",
       "end_date": "2026-08-02",
       "city": "Rio das Flores",
@@ -11360,7 +11480,7 @@
         "Shows"
       ],
       "body": "## Serviço verificado\n\nMOTOFEST tem data divulgada de 2026-07-31 a 2026-08-01, em Serra/ES. Horário não informado de forma legível no flyer consultado.\n\n## Local e endereço\n\nEndereço detalhado não informado no flyer; referência: Serra - ES. Quando o endereço não aparece de forma legível, a TVDUASRODAS mantém essa ausência explícita e não inventa rua, número ou CEP.\n\n## Programação e estrutura\n\nShows. Os nomes e horários que não atingiram confiança suficiente no processamento visual não foram transformados em informação pública.\n\n## Acesso, estacionamento e contato\n\nNão informado de forma legível no flyer consultado. Não informado de forma legível no flyer consultado. Contato não identificado de forma legível no flyer.\n\n## Fonte e atualização\n\nA data, a cidade e os sinais de serviço foram confrontados com o flyer específico indexado pela JB-RIDER. A arte original permanece vinculada para conferência de mudanças e detalhes.",
-      "last_updated": "2026-07-29T03:01:38.880366+00:00",
+      "last_updated": "2026-07-26",
       "timezone": "America/Sao_Paulo",
       "time_label": "Horário não informado de forma legível no flyer consultado",
       "street_address": "Endereço detalhado não informado de forma legível no flyer",
@@ -11410,7 +11530,9 @@
           "\"motofest\" serra ES 2026"
         ],
         "reviewed_at": "2026-07-26T09:59:38.593953+00:00"
-      }
+      },
+      "duplicate_of": "7-serra-moto-fest-serra-es-2026-07-31",
+      "canonical_url": "/eventos/7-serra-moto-fest-serra-es-2026-07-31/"
     },
     {
       "slug": "motorock-brumado-ba-2026-07-31",
@@ -12157,8 +12279,8 @@
     },
     {
       "slug": "2-encontro-de-motociclistas-lavras-novas-mg-2026-08-01",
-      "title": "2 Encontro de Motociclistas",
-      "short_name": "2 Encontro de Motociclistas",
+      "title": "2 Encontro de Motociclistas de Lavras Novas",
+      "short_name": "2 Encontro de Motociclistas de Lavras Novas",
       "start_date": "2026-08-01",
       "end_date": "2026-08-02",
       "city": "Lavras Novas",
@@ -12262,8 +12384,8 @@
     },
     {
       "slug": "3-encontro-de-motociclistas-taquaritinga-sp-2026-08-01",
-      "title": "3 Encontro de Motociclistas",
-      "short_name": "3 Encontro de Motociclistas",
+      "title": "3 Encontro de Motociclistas de Taquaritinga",
+      "short_name": "3 Encontro de Motociclistas de Taquaritinga",
       "start_date": "2026-08-01",
       "end_date": "2026-08-02",
       "city": "Taquaritinga",
@@ -12430,8 +12552,8 @@
     },
     {
       "slug": "bodes-do-asfalto-mc-praia-grande-sp-2026-08-01",
-      "title": "Bodes do Asfalto MC",
-      "short_name": "Bodes do Asfalto MC",
+      "title": "Bodes do Asfalto MC de Praia Grande",
+      "short_name": "Bodes do Asfalto MC de Praia Grande",
       "start_date": "2026-08-01",
       "end_date": "2026-08-01",
       "city": "Praia Grande",
@@ -12606,7 +12728,10 @@
         "status": "fontes_cruzadas",
         "query": "\"campeonato amapaense de ciclismo de estrada contrarrelogio e mtb 2026\" macapa AP 2026",
         "reviewed_at": "2026-07-26T08:53:10.776442+00:00"
-      }
+      },
+      "competition_slug": "campeonato-amapaense-de-ciclismo-2026-macapa-ap-2026-08-01",
+      "reclassified_as": "competition",
+      "canonical_url": "/competicoes/campeonato-amapaense-de-ciclismo-2026-macapa-ap-2026-08-01/"
     },
     {
       "slug": "campeonato-de-motocross-de-rondonia-2026-cerejeiras-e-corumbiara-ro-2026-08-01",
@@ -12688,7 +12813,10 @@
         ],
         "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
         "editorial_rule": "Dados confirmados por duas ou mais fontes específicas independentes."
-      }
+      },
+      "competition_slug": "campeonato-de-motocross-de-rondonia-2026-cerejeiras-e-corumbiara-ro-2026-08-01",
+      "reclassified_as": "competition",
+      "canonical_url": "/competicoes/campeonato-de-motocross-de-rondonia-2026-cerejeiras-e-corumbiara-ro-2026-08-01/"
     },
     {
       "slug": "desalmado-mg-nova-iguacu-rj-2026-08-01",
@@ -13028,8 +13156,8 @@
     },
     {
       "slug": "insanos-mc-governador-valadares-mg-2026-08-01",
-      "title": "Insanos MC",
-      "short_name": "Insanos MC",
+      "title": "Insanos MC de Governador Valadares",
+      "short_name": "Insanos MC de Governador Valadares",
       "start_date": "2026-08-01",
       "end_date": "2026-08-02",
       "city": "Governador Valadares",
@@ -13132,8 +13260,8 @@
     },
     {
       "slug": "irmaos-das-sombras-mc-rio-de-janerio-rj-2026-08-01",
-      "title": "Irmaos das Sombras MC",
-      "short_name": "Irmaos das Sombras MC",
+      "title": "Irmaos das Sombras MC de Rio de Janerio",
+      "short_name": "Irmaos das Sombras MC de Rio de Janerio",
       "start_date": "2026-08-01",
       "end_date": "2026-08-01",
       "city": "Rio de Janerio",
@@ -13212,8 +13340,8 @@
     },
     {
       "slug": "irmaos-das-sombras-mc-senador-vasconcelos-rio-de-janeiro-rj-2026-08-01",
-      "title": "Irmaos das Sombras MC",
-      "short_name": "Irmaos das Sombras MC",
+      "title": "Irmaos das Sombras MC de Senador Vasconcelos",
+      "short_name": "Irmaos das Sombras MC de Senador Vasconcelos",
       "start_date": "2026-08-01",
       "end_date": "2026-08-01",
       "city": "Senador Vasconcelos - Rio de Janeiro",
@@ -13318,7 +13446,7 @@
         "Sorteios"
       ],
       "body": "## Serviço verificado\n\nIrmaos das Sombras MC tem data divulgada de 2026-08-01 a 2026-08-01, em Senador Vasconcelos - Rio de Janerio/RJ. Horário não informado de forma legível no flyer consultado.\n\n## Local e endereço\n\nEndereço detalhado não informado no flyer; referência: Senador Vasconcelos - Rio de Janerio - RJ. Quando o endereço não aparece de forma legível, a TVDUASRODAS mantém essa ausência explícita e não inventa rua, número ou CEP.\n\n## Programação e estrutura\n\nSorteios. Os nomes e horários que não atingiram confiança suficiente no processamento visual não foram transformados em informação pública.\n\n## Acesso, estacionamento e contato\n\nNão informado de forma legível no flyer consultado. Não informado de forma legível no flyer consultado. Contato não identificado de forma legível no flyer.\n\n## Fonte e atualização\n\nA data, a cidade e os sinais de serviço foram confrontados com o flyer específico indexado pela JB-RIDER. A arte original permanece vinculada para conferência de mudanças e detalhes.",
-      "last_updated": "2026-07-26T05:07:49.077000+00:00",
+      "last_updated": "2026-07-26",
       "timezone": "America/Sao_Paulo",
       "time_label": "Horário não informado de forma legível no flyer consultado",
       "street_address": "Endereço detalhado não informado de forma legível no flyer",
@@ -13368,7 +13496,9 @@
           "\"irmaos das sombras mc\" senador vasconcelos rio de janerio RJ 2026"
         ],
         "reviewed_at": "2026-07-26T09:59:56.159892+00:00"
-      }
+      },
+      "duplicate_of": "irmaos-das-sombras-mc-senador-vasconcelos-rio-de-janeiro-rj-2026-08-01",
+      "canonical_url": "/eventos/irmaos-das-sombras-mc-senador-vasconcelos-rio-de-janeiro-rj-2026-08-01/"
     },
     {
       "slug": "majestade-mc-cruzeiro-sp-2026-08-01",
@@ -13544,8 +13674,8 @@
     },
     {
       "slug": "motofest-rio-das-flores-rj-2026-08-01",
-      "title": "Rio das Flores Moto Fest",
-      "short_name": "Rio das Flores Moto Fest",
+      "title": "Rio das Flores Moto Fest — 1 de agosto",
+      "short_name": "Rio das Flores Moto Fest — 1 de agosto",
       "start_date": "2026-08-01",
       "end_date": "2026-08-02",
       "city": "Rio das Flores",
@@ -13637,8 +13767,8 @@
     },
     {
       "slug": "motorock-lavras-mg-2026-08-01",
-      "title": "MOTOROCK",
-      "short_name": "MOTOROCK",
+      "title": "MOTOROCK de Lavras",
+      "short_name": "MOTOROCK de Lavras",
       "start_date": "2026-08-01",
       "end_date": "2026-08-01",
       "city": "Lavras",
@@ -13730,8 +13860,8 @@
     },
     {
       "slug": "ronin-mc-itabira-mg-2026-08-01",
-      "title": "Ronin MC",
-      "short_name": "Ronin MC",
+      "title": "Ronin MC de Itabira — 1 de agosto",
+      "short_name": "Ronin MC de Itabira — 1 de agosto",
       "start_date": "2026-08-01",
       "end_date": "2026-08-02",
       "city": "Itabira",
@@ -15265,8 +15395,8 @@
     },
     {
       "slug": "4-encontro-de-motociclistas-simonesia-mg-2026-08-07",
-      "title": "4 Encontro de Motociclistas",
-      "short_name": "4 Encontro de Motociclistas",
+      "title": "4 Encontro de Motociclistas de Simonesia",
+      "short_name": "4 Encontro de Motociclistas de Simonesia",
       "start_date": "2026-08-07",
       "end_date": "2026-08-07",
       "city": "Simonesia",
@@ -15369,8 +15499,8 @@
     },
     {
       "slug": "5-encontro-estadual-de-motociclistas-jucurutu-rn-2026-08-07",
-      "title": "5 Encontro Estadual de Motociclistas",
-      "short_name": "5 Encontro Estadual de Motociclistas",
+      "title": "5 Encontro Estadual de Motociclistas de Jucurutu",
+      "short_name": "5 Encontro Estadual de Motociclistas de Jucurutu",
       "start_date": "2026-08-07",
       "end_date": "2026-08-09",
       "city": "Jucurutu",
@@ -16198,8 +16328,8 @@
     },
     {
       "slug": "motofest-iati-pe-2026-08-07",
-      "title": "Iati Moto Fest",
-      "short_name": "Iati Moto Fest",
+      "title": "Iati Moto Fest — 7 de agosto",
+      "short_name": "Iati Moto Fest — 7 de agosto",
       "start_date": "2026-08-07",
       "end_date": "2026-08-08",
       "city": "Iati",
@@ -16723,8 +16853,8 @@
     },
     {
       "slug": "motorock-macaubas-ba-2026-08-07",
-      "title": "MOTOROCK",
-      "short_name": "MOTOROCK",
+      "title": "MOTOROCK de Macaubas — 7 de agosto",
+      "short_name": "MOTOROCK de Macaubas — 7 de agosto",
       "start_date": "2026-08-07",
       "end_date": "2026-08-08",
       "city": "Macaubas",
@@ -17451,8 +17581,8 @@
     },
     {
       "slug": "insanos-mc-sertaozinho-sp-2026-08-08",
-      "title": "Insanos MC",
-      "short_name": "Insanos MC",
+      "title": "Insanos MC de Sertaozinho",
+      "short_name": "Insanos MC de Sertaozinho",
       "start_date": "2026-08-08",
       "end_date": "2026-08-08",
       "city": "Sertaozinho",
@@ -18038,8 +18168,8 @@
     },
     {
       "slug": "lobos-do-asfalto-mc-rio-de-janeiro-rj-2026-08-08",
-      "title": "Lobos do Asfalto MC",
-      "short_name": "Lobos do Asfalto MC",
+      "title": "Lobos do Asfalto MC de Rio de Janeiro",
+      "short_name": "Lobos do Asfalto MC de Rio de Janeiro",
       "start_date": "2026-08-08",
       "end_date": "2026-08-08",
       "city": "Rio de Janeiro",
@@ -18211,8 +18341,8 @@
     },
     {
       "slug": "motorock-macaubas-ba-2026-08-08",
-      "title": "MOTOROCK",
-      "short_name": "MOTOROCK",
+      "title": "MOTOROCK de Macaubas — 8 de agosto",
+      "short_name": "MOTOROCK de Macaubas — 8 de agosto",
       "start_date": "2026-08-08",
       "end_date": "2026-08-08",
       "city": "Macaubas",
@@ -18294,8 +18424,8 @@
     },
     {
       "slug": "niver-sao-goncalo-rj-2026-08-08",
-      "title": "NIVER",
-      "short_name": "NIVER",
+      "title": "NIVER de Sao Goncalo",
+      "short_name": "NIVER de Sao Goncalo",
       "start_date": "2026-08-08",
       "end_date": "2026-08-08",
       "city": "Sao Goncalo",
@@ -18667,8 +18797,8 @@
     },
     {
       "slug": "terapia-na-estrada-macae-rj-2026-08-08",
-      "title": "Terapia na estrada",
-      "short_name": "Terapia na estrada",
+      "title": "Terapia na estrada de Macae — 8 de agosto",
+      "short_name": "Terapia na estrada de Macae — 8 de agosto",
       "start_date": "2026-08-08",
       "end_date": "2026-08-08",
       "city": "Macae",
@@ -19072,8 +19202,8 @@
     },
     {
       "slug": "21-encontro-nacional-de-motociclistas-ponte-nova-mg-2026-08-14",
-      "title": "21 Encontro Nacional de Motociclistas",
-      "short_name": "21 Encontro Nacional de Motociclistas",
+      "title": "21 Encontro Nacional de Motociclistas de Ponte Nova",
+      "short_name": "21 Encontro Nacional de Motociclistas de Ponte Nova",
       "start_date": "2026-08-14",
       "end_date": "2026-08-15",
       "city": "Ponte Nova",
@@ -19649,7 +19779,7 @@
     },
     {
       "slug": "mantra-mc-sao-joao-da-boa-vista-sp-2026-08-14",
-      "title": "22 anos do Mantra MC — Encontro de Motociclistas e Triciclistas",
+      "title": "22 anos do Mantra MC — Encontro de Motociclistas e Triciclistas de São João da Boa Vista",
       "short_name": "22 anos do Mantra MC",
       "start_date": "2026-08-14",
       "end_date": "2026-08-16",
@@ -20094,8 +20224,8 @@
     },
     {
       "slug": "motofest-iati-pe-2026-08-14",
-      "title": "Iati Moto Fest",
-      "short_name": "Iati Moto Fest",
+      "title": "Iati Moto Fest — 14 de agosto",
+      "short_name": "Iati Moto Fest — 14 de agosto",
       "start_date": "2026-08-14",
       "end_date": "2026-08-15",
       "city": "Iati",
@@ -20253,8 +20383,8 @@
     },
     {
       "slug": "motofest-piunhi-mg-2026-08-14",
-      "title": "Piumhi Moto Fest",
-      "short_name": "Piumhi Moto Fest",
+      "title": "Piumhi Moto Fest de Piunhi",
+      "short_name": "Piumhi Moto Fest de Piunhi",
       "start_date": "2026-08-14",
       "end_date": "2026-08-15",
       "city": "Piunhi",
@@ -20580,8 +20710,8 @@
     },
     {
       "slug": "ultr-moto-fest-alcobaca-ba-2026-08-14",
-      "title": "Ultr Moto Fest",
-      "short_name": "Ultr Moto Fest",
+      "title": "Ultr Moto Fest de Alcobaca",
+      "short_name": "Ultr Moto Fest de Alcobaca",
       "start_date": "2026-08-14",
       "end_date": "2026-08-16",
       "city": "Alcobaca",
@@ -21262,8 +21392,8 @@
     },
     {
       "slug": "aguias-de-cristo-mc-belo-horizonte-mg-2026-08-15",
-      "title": "Aguias de Cristo MC",
-      "short_name": "Aguias de Cristo MC",
+      "title": "Aguias de Cristo MC de Belo Horizonte",
+      "short_name": "Aguias de Cristo MC de Belo Horizonte",
       "start_date": "2026-08-15",
       "end_date": "2026-08-15",
       "city": "Belo Horizonte",
@@ -21550,8 +21680,8 @@
     },
     {
       "slug": "araruama-mc-araruama-rj-2026-08-15",
-      "title": "Araruama MC",
-      "short_name": "Araruama MC",
+      "title": "Araruama MC — 15 de agosto",
+      "short_name": "Araruama MC — 15 de agosto",
       "start_date": "2026-08-15",
       "end_date": "2026-08-15",
       "city": "Araruama",
@@ -22225,7 +22355,7 @@
         "Programação detalhada não identificada de forma legível no flyer"
       ],
       "body": "## Serviço verificado\n\nIlha MC tem data divulgada de 2026-08-15 a 2026-08-15, em Ilha do Governador - Rio de Janeiro/RJ. Horário não informado de forma legível no flyer consultado.\n\n## Local e endereço\n\nEndereço detalhado não informado no flyer; referência: Ilha do Governador - Rio de Janeiro - RJ. Quando o endereço não aparece de forma legível, a TVDUASRODAS mantém essa ausência explícita e não inventa rua, número ou CEP.\n\n## Programação e estrutura\n\nProgramação detalhada não identificada de forma legível no flyer. Os nomes e horários que não atingiram confiança suficiente no processamento visual não foram transformados em informação pública.\n\n## Acesso, estacionamento e contato\n\nNão informado de forma legível no flyer consultado. Não informado de forma legível no flyer consultado. Contato não identificado de forma legível no flyer.\n\n## Fonte e atualização\n\nA data, a cidade e os sinais de serviço foram confrontados com o flyer específico indexado pela JB-RIDER. A arte original permanece vinculada para conferência de mudanças e detalhes.",
-      "last_updated": "2026-07-26T05:07:49.077000+00:00",
+      "last_updated": "2026-07-26",
       "timezone": "America/Sao_Paulo",
       "time_label": "Horário não informado de forma legível no flyer consultado",
       "street_address": "Endereço detalhado não informado de forma legível no flyer",
@@ -22274,12 +22404,14 @@
           "\"ilha mc\" ilha do governador rio de janeiro RJ 2026"
         ],
         "reviewed_at": "2026-07-26T10:00:39.933743+00:00"
-      }
+      },
+      "duplicate_of": "ilha-mc-ilha-do-governador-rj-2026-08-15",
+      "canonical_url": "/eventos/ilha-mc-ilha-do-governador-rj-2026-08-15/"
     },
     {
       "slug": "ilha-mc-ilha-do-governador-rj-2026-08-15",
-      "title": "Ilha MC",
-      "short_name": "Ilha MC",
+      "title": "Ilha MC de Ilha do Governador — 15 de agosto",
+      "short_name": "Ilha MC de Ilha do Governador — 15 de agosto",
       "start_date": "2026-08-15",
       "end_date": "2026-08-15",
       "city": "Ilha do Governador",
@@ -22441,6 +22573,18 @@
           "checked_at": "2026-07-26T08:09:22.554428+00:00",
           "discovery_method": "cruzamento_estruturado_mototour",
           "relevance_score": 100
+        },
+        {
+          "url": "https://jb-rider.com.br/evento/20260815-impreriais-mc-cachoeiras-de-macacu-rj",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260815___Impreriais%20MC_Cachoeiras%20de%20Macacu_RJ.jpg",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
         }
       ],
       "research_status": {
@@ -22495,7 +22639,7 @@
         "Rock"
       ],
       "body": "## Serviço verificado\n\nImpreriais MC tem data divulgada de 2026-08-15 a 2026-08-15, em Cachoeiras de Macacu/RJ. Horário não informado de forma legível no flyer consultado.\n\n## Local e endereço\n\nEndereço detalhado não informado no flyer; referência: Cachoeiras de Macacu - RJ. Quando o endereço não aparece de forma legível, a TVDUASRODAS mantém essa ausência explícita e não inventa rua, número ou CEP.\n\n## Programação e estrutura\n\nRock. Os nomes e horários que não atingiram confiança suficiente no processamento visual não foram transformados em informação pública.\n\n## Acesso, estacionamento e contato\n\nNão informado de forma legível no flyer consultado. Não informado de forma legível no flyer consultado. Contato não identificado de forma legível no flyer.\n\n## Fonte e atualização\n\nA data, a cidade e os sinais de serviço foram confrontados com o flyer específico indexado pela JB-RIDER. A arte original permanece vinculada para conferência de mudanças e detalhes.",
-      "last_updated": "2026-07-26T05:07:49.077000+00:00",
+      "last_updated": "2026-07-26",
       "timezone": "America/Sao_Paulo",
       "time_label": "Horário não informado de forma legível no flyer consultado",
       "street_address": "Endereço detalhado não informado de forma legível no flyer",
@@ -22568,7 +22712,9 @@
           ],
           "checked_at": "2026-07-26T08:09:22.554428+00:00"
         }
-      ]
+      ],
+      "duplicate_of": "imperiais-mc-cachoeiras-de-macacu-rj-2026-08-15",
+      "canonical_url": "/eventos/imperiais-mc-cachoeiras-de-macacu-rj-2026-08-15/"
     },
     {
       "slug": "lady-rider-mg-jacana-sao-paulo-sp-2026-08-15",
@@ -23167,8 +23313,8 @@
     },
     {
       "slug": "terapia-na-estrada-macae-rj-2026-08-15",
-      "title": "Terapia na Estrada",
-      "short_name": "Terapia na Estrada",
+      "title": "Terapia na Estrada de Macae — 15 de agosto",
+      "short_name": "Terapia na Estrada de Macae — 15 de agosto",
       "start_date": "2026-08-15",
       "end_date": "2026-08-15",
       "city": "Macae",
@@ -23579,8 +23725,8 @@
     },
     {
       "slug": "ronin-mc-itabira-mg-2026-08-16",
-      "title": "Ronin MC",
-      "short_name": "Ronin MC",
+      "title": "Ronin MC de Itabira — 16 de agosto",
+      "short_name": "Ronin MC de Itabira — 16 de agosto",
       "start_date": "2026-08-16",
       "end_date": "2026-08-16",
       "city": "Itabira",
@@ -24013,8 +24159,8 @@
     },
     {
       "slug": "15-encontro-de-motociclistas-santo-antonio-do-monte-mg-2026-08-21",
-      "title": "15 Encontro de Motociclistas",
-      "short_name": "15 Encontro de Motociclistas",
+      "title": "15 Encontro de Motociclistas de Santo Antonio do Monte",
+      "short_name": "15 Encontro de Motociclistas de Santo Antonio do Monte",
       "start_date": "2026-08-21",
       "end_date": "2026-08-23",
       "city": "Santo Antonio do Monte",
@@ -24093,8 +24239,8 @@
     },
     {
       "slug": "19-encontro-de-motociclistas-boa-esperanca-mg-2026-08-21",
-      "title": "19 Encontro de Motociclistas",
-      "short_name": "19 Encontro de Motociclistas",
+      "title": "19 Encontro de Motociclistas de Boa Esperanca",
+      "short_name": "19 Encontro de Motociclistas de Boa Esperanca",
       "start_date": "2026-08-21",
       "end_date": "2026-08-23",
       "city": "Boa Esperanca",
@@ -24568,8 +24714,8 @@
     },
     {
       "slug": "encontro-nacional-ipanema-mg-2026-08-21",
-      "title": "Encontro Nacional",
-      "short_name": "Encontro Nacional",
+      "title": "Encontro Nacional de Ipanema",
+      "short_name": "Encontro Nacional de Ipanema",
       "start_date": "2026-08-21",
       "end_date": "2026-08-22",
       "city": "Ipanema",
@@ -26023,7 +26169,7 @@
         "Troféus"
       ],
       "body": "## Serviço verificado\n\nEspirito de Agua MC tem data divulgada de 2026-08-22 a 2026-08-22, em Contagem/MG. Horários identificados no flyer: 14h.\n\n## Local e endereço\n\nEndereço detalhado não informado no flyer; referência: Contagem - MG. Quando o endereço não aparece de forma legível, a TVDUASRODAS mantém essa ausência explícita e não inventa rua, número ou CEP.\n\n## Programação e estrutura\n\nShows. Os nomes e horários que não atingiram confiança suficiente no processamento visual não foram transformados em informação pública.\n\n## Acesso, estacionamento e contato\n\nNão informado de forma legível no flyer consultado. Não informado de forma legível no flyer consultado. Contato não identificado de forma legível no flyer.\n\n## Leitura visual complementar\n\nEstrutura e atrações legíveis: Troféus. A leitura automatizada foi usada como apoio; trechos ambíguos não foram publicados como fato.\n## Fonte e atualização\n\nA data, a cidade e os sinais de serviço foram confrontados com o flyer específico indexado pela JB-RIDER. A arte original permanece vinculada para conferência de mudanças e detalhes.",
-      "last_updated": "2026-07-26T09:57:55.808145+00:00",
+      "last_updated": "2026-07-26",
       "timezone": "America/Sao_Paulo",
       "time_label": "Horários identificados no flyer: 14h",
       "street_address": "Endereço detalhado não informado de forma legível no flyer",
@@ -26074,7 +26220,9 @@
           "\"espirito de agua mc\" contagem MG 2026"
         ],
         "reviewed_at": "2026-07-26T10:01:04.483016+00:00"
-      }
+      },
+      "duplicate_of": "espirito-de-aguia-mc-contagem-mg-2026-08-22",
+      "canonical_url": "/eventos/espirito-de-aguia-mc-contagem-mg-2026-08-22/"
     },
     {
       "slug": "espirito-de-aguia-mc-contagem-mg-2026-08-22",
@@ -26152,6 +26300,18 @@
           "type": "fonte específica independente",
           "supports": "data e edição, local, horários e programação, inscrições e acesso, organização e contatos",
           "relevance_score": 23
+        },
+        {
+          "url": "https://jb-rider.com.br/evento/20260822-espirito-de-agua-mc-contagem-mg",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260822___Espirito%20de%20Agua%20MC_Contagem_MG.jpeg",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
         }
       ],
       "research_status": {
@@ -26656,8 +26816,8 @@
     },
     {
       "slug": "5-encontro-de-motociclistas-cravinhos-sp-2026-08-23",
-      "title": "5 Encontro de Motociclistas",
-      "short_name": "5 Encontro de Motociclistas",
+      "title": "5 Encontro de Motociclistas de Cravinhos",
+      "short_name": "5 Encontro de Motociclistas de Cravinhos",
       "start_date": "2026-08-23",
       "end_date": "2026-08-23",
       "city": "Cravinhos",
@@ -27103,8 +27263,8 @@
     },
     {
       "slug": "motorock-bertopolis-mg-2026-08-23",
-      "title": "MOTOROCK",
-      "short_name": "MOTOROCK",
+      "title": "MOTOROCK de Bertopolis",
+      "short_name": "MOTOROCK de Bertopolis",
       "start_date": "2026-08-23",
       "end_date": "2026-08-23",
       "city": "Bertopolis",
@@ -27262,8 +27422,8 @@
     },
     {
       "slug": "biker-fest-buzios-rj-2026-08-27",
-      "title": "Búzios Biker Fest",
-      "short_name": "Búzios Biker Fest",
+      "title": "Búzios Biker Fest de Armação dos Búzios",
+      "short_name": "Búzios Biker Fest de Armação dos Búzios",
       "start_date": "2026-08-27",
       "end_date": "2026-08-30",
       "city": "Armação dos Búzios",
@@ -27788,8 +27948,8 @@
     },
     {
       "slug": "encontro-nacional-de-motociclistas-e-triciclistas-ijaci-mg-2026-08-28",
-      "title": "Encontro Nacional de Motociclistas e Triciclistas",
-      "short_name": "Encontro Nacional de Motociclistas e Triciclistas",
+      "title": "Encontro Nacional de Motociclistas e Triciclistas de Ijaci",
+      "short_name": "Encontro Nacional de Motociclistas e Triciclistas de Ijaci",
       "start_date": "2026-08-28",
       "end_date": "2026-08-30",
       "city": "Ijaci",
@@ -27871,6 +28031,30 @@
           "checked_at": "2026-07-26T08:09:22.554428+00:00",
           "discovery_method": "cruzamento_estruturado_mototour",
           "relevance_score": 100
+        },
+        {
+          "url": "https://jb-rider.com.br/evento/20260828-3-encontro-nacional-de-motociclistas-ijaci-mg",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260828_3__Encontro%20Nacional%20de%20Motociclistas_Ijaci_MG.jpeg",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+        },
+        {
+          "url": "https://jb-rider.com.br/evento/20260828-3-v-encontro-nacional-ijaci-mg",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260828_3__V%20Encontro%20Nacional_Ijaci_MG.jpeg",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
         }
       ],
       "research_status": {
@@ -27934,7 +28118,7 @@
         "Programação detalhada não identificada de forma legível no flyer"
       ],
       "body": "## Serviço verificado\n\nEncontro Nacional de Motociclistas tem data divulgada de 2026-08-28 a 2026-08-30, em Ijaci/MG. Horário não informado de forma legível no flyer consultado.\n\n## Local e endereço\n\nEndereço detalhado não informado no flyer; referência: Ijaci - MG. Quando o endereço não aparece de forma legível, a TVDUASRODAS mantém essa ausência explícita e não inventa rua, número ou CEP.\n\n## Programação e estrutura\n\nProgramação detalhada não identificada de forma legível no flyer. Os nomes e horários que não atingiram confiança suficiente no processamento visual não foram transformados em informação pública.\n\n## Acesso, estacionamento e contato\n\nNão informado de forma legível no flyer consultado. Não informado de forma legível no flyer consultado. Contato não identificado de forma legível no flyer.\n\n## Fonte e atualização\n\nA data, a cidade e os sinais de serviço foram confrontados com o flyer específico indexado pela JB-RIDER. A arte original permanece vinculada para conferência de mudanças e detalhes.",
-      "last_updated": "2026-07-26T05:07:49.077000+00:00",
+      "last_updated": "2026-07-26",
       "timezone": "America/Sao_Paulo",
       "time_label": "Horário não informado de forma legível no flyer consultado",
       "street_address": "Endereço detalhado não informado de forma legível no flyer",
@@ -28007,12 +28191,14 @@
           ],
           "checked_at": "2026-07-26T08:09:22.554428+00:00"
         }
-      ]
+      ],
+      "duplicate_of": "encontro-nacional-de-motociclistas-e-triciclistas-ijaci-mg-2026-08-28",
+      "canonical_url": "/eventos/encontro-nacional-de-motociclistas-e-triciclistas-ijaci-mg-2026-08-28/"
     },
     {
       "slug": "iron-wolves-mc-itapemirim-es-2026-08-28",
-      "title": "Iron Wolves MC",
-      "short_name": "Iron Wolves MC",
+      "title": "Iron Wolves MC de Itapemirim",
+      "short_name": "Iron Wolves MC de Itapemirim",
       "start_date": "2026-08-28",
       "end_date": "2026-08-29",
       "city": "Itapemirim",
@@ -28134,8 +28320,8 @@
     },
     {
       "slug": "iron-wolves-mc-marataizes-es-2026-08-28",
-      "title": "Iron Wolves MC",
-      "short_name": "Iron Wolves MC",
+      "title": "Iron Wolves MC de Marataizes",
+      "short_name": "Iron Wolves MC de Marataizes",
       "start_date": "2026-08-28",
       "end_date": "2026-08-29",
       "city": "Marataizes",
@@ -28438,7 +28624,7 @@
         "Shows"
       ],
       "body": "## Serviço verificado\n\nMOTO FEST tem data divulgada de 2026-08-28 a 2026-08-30, em Senador Amaral/MG. Horário não informado de forma legível no flyer consultado.\n\n## Local e endereço\n\nEndereço detalhado não informado no flyer; referência: Senador Amaral - MG. Quando o endereço não aparece de forma legível, a TVDUASRODAS mantém essa ausência explícita e não inventa rua, número ou CEP.\n\n## Programação e estrutura\n\nÁrea de camping, Shows. Os nomes e horários que não atingiram confiança suficiente no processamento visual não foram transformados em informação pública.\n\n## Acesso, estacionamento e contato\n\nNão informado de forma legível no flyer consultado. Não informado de forma legível no flyer consultado. Contato não identificado de forma legível no flyer.\n\n## Fonte e atualização\n\nA data, a cidade e os sinais de serviço foram confrontados com o flyer específico indexado pela JB-RIDER. A arte original permanece vinculada para conferência de mudanças e detalhes.",
-      "last_updated": "2026-07-29T03:01:38.880366+00:00",
+      "last_updated": "2026-07-26",
       "timezone": "America/Sao_Paulo",
       "time_label": "Horário não informado de forma legível no flyer consultado",
       "street_address": "Endereço detalhado não informado de forma legível no flyer",
@@ -28488,7 +28674,9 @@
           "\"moto fest\" senador amaral MG 2026"
         ],
         "reviewed_at": "2026-07-26T10:01:15.612952+00:00"
-      }
+      },
+      "duplicate_of": "motofest-senador-amaral-mg-2026-08-28",
+      "canonical_url": "/eventos/motofest-senador-amaral-mg-2026-08-28/"
     },
     {
       "slug": "motofest-alagoinhas-ba-2026-08-28",
@@ -28571,7 +28759,7 @@
     },
     {
       "slug": "motofest-araxa-mg-2026-08-28",
-      "title": "23º 100 Destino Motofest",
+      "title": "23º 100 Destino Motofest de Araxá",
       "short_name": "100 Destino Motofest",
       "start_date": "2026-08-28",
       "end_date": "2026-08-30",
@@ -28846,6 +29034,18 @@
           "checked_at": "2026-07-26T08:09:22.554428+00:00",
           "discovery_method": "cruzamento_estruturado_fire_souls",
           "relevance_score": 100
+        },
+        {
+          "url": "https://jb-rider.com.br/evento/20260828-3-moto-fest-senador-amaral-mg",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260828_3__MOTO%20FEST_Senador%20Amaral_MG.jpg",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
         }
       ],
       "research_status": {
@@ -28874,8 +29074,8 @@
     },
     {
       "slug": "trike-brasil-mc-minduri-mg-2026-08-28",
-      "title": "Trike Brasil MC",
-      "short_name": "Trike Brasil MC",
+      "title": "Trike Brasil MC de Minduri",
+      "short_name": "Trike Brasil MC de Minduri",
       "start_date": "2026-08-28",
       "end_date": "2026-08-30",
       "city": "Minduri",
@@ -28947,6 +29147,18 @@
           "supports": "data e edição, horários e programação",
           "relevance_score": 18,
           "discovery_method": "busca_editorial_indexada"
+        },
+        {
+          "url": "https://jb-rider.com.br/evento/20260828-3-trike-brasil-mc-prog-minduri-mg",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260828_3__Trike%20Brasil%20MC%20PROG_Minduri_MG.jpeg",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
         }
       ],
       "research_status": {
@@ -28990,7 +29202,7 @@
         "Rock"
       ],
       "body": "## Serviço verificado\n\nTrike Brasil MC PROG tem data divulgada de 2026-08-28 a 2026-08-30, em Minduri/MG. Horários identificados no flyer: 18:00, 12:00, 15:00, 13:00, 10:00, 14:00, 19:00, 21:00, 18: 21, 21:30, 00:00, 22:30.\n\n## Local e endereço\n\nEndereço detalhado não informado no flyer; referência: Minduri - MG. Quando o endereço não aparece de forma legível, a TVDUASRODAS mantém essa ausência explícita e não inventa rua, número ou CEP.\n\n## Programação e estrutura\n\nRock. Os nomes e horários que não atingiram confiança suficiente no processamento visual não foram transformados em informação pública.\n\n## Acesso, estacionamento e contato\n\nNão informado de forma legível no flyer consultado. Não informado de forma legível no flyer consultado. Contato não identificado de forma legível no flyer.\n\n## Fonte e atualização\n\nA data, a cidade e os sinais de serviço foram confrontados com o flyer específico indexado pela JB-RIDER. A arte original permanece vinculada para conferência de mudanças e detalhes.",
-      "last_updated": "2026-07-26T05:07:49.077000+00:00",
+      "last_updated": "2026-07-26",
       "timezone": "America/Sao_Paulo",
       "time_label": "Horários identificados no flyer: 18:00, 12:00, 15:00, 13:00, 10:00, 14:00, 19:00, 21:00, 18: 21, 21:30, 00:00, 22:30",
       "street_address": "Endereço detalhado não informado de forma legível no flyer",
@@ -29052,12 +29264,14 @@
         ],
         "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
         "editorial_rule": "Dados confirmados por duas ou mais fontes específicas independentes."
-      }
+      },
+      "duplicate_of": "trike-brasil-mc-minduri-mg-2026-08-28",
+      "canonical_url": "/eventos/trike-brasil-mc-minduri-mg-2026-08-28/"
     },
     {
       "slug": "trike-brasil-mc-tri-vale-resende-rj-2026-08-28",
-      "title": "Trike Brasil MC",
-      "short_name": "Trike Brasil MC",
+      "title": "Trike Brasil MC de Tri-Vale",
+      "short_name": "Trike Brasil MC de Tri-Vale",
       "start_date": "2026-08-28",
       "end_date": "2026-08-30",
       "city": "Tri-Vale - Resende",
@@ -29161,7 +29375,7 @@
         "Programação detalhada não identificada de forma legível no flyer"
       ],
       "body": "## Serviço verificado\n\nV Encontro Nacional tem data divulgada de 2026-08-28 a 2026-08-30, em Ijaci/MG. Horário não informado de forma legível no flyer consultado.\n\n## Local e endereço\n\nEndereço detalhado não informado no flyer; referência: Ijaci - MG. Quando o endereço não aparece de forma legível, a TVDUASRODAS mantém essa ausência explícita e não inventa rua, número ou CEP.\n\n## Programação e estrutura\n\nProgramação detalhada não identificada de forma legível no flyer. Os nomes e horários que não atingiram confiança suficiente no processamento visual não foram transformados em informação pública.\n\n## Acesso, estacionamento e contato\n\nNão informado de forma legível no flyer consultado. Não informado de forma legível no flyer consultado. Contato não identificado de forma legível no flyer.\n\n## Fonte e atualização\n\nA data, a cidade e os sinais de serviço foram confrontados com o flyer específico indexado pela JB-RIDER. A arte original permanece vinculada para conferência de mudanças e detalhes.",
-      "last_updated": "2026-07-26T05:07:49.077000+00:00",
+      "last_updated": "2026-07-26",
       "timezone": "America/Sao_Paulo",
       "time_label": "Horário não informado de forma legível no flyer consultado",
       "street_address": "Endereço detalhado não informado de forma legível no flyer",
@@ -29211,7 +29425,9 @@
           "\"v encontro nacional\" ijaci MG 2026"
         ],
         "reviewed_at": "2026-07-26T10:01:14.907592+00:00"
-      }
+      },
+      "duplicate_of": "encontro-nacional-de-motociclistas-e-triciclistas-ijaci-mg-2026-08-28",
+      "canonical_url": "/eventos/encontro-nacional-de-motociclistas-e-triciclistas-ijaci-mg-2026-08-28/"
     },
     {
       "slug": "caveira-solidaria-mc-rio-de-janeiro-rj-2026-08-29",
@@ -30194,8 +30410,8 @@
     },
     {
       "slug": "11-encontro-de-motociclistas-e-triciclistas-itarare-sp-2026-09-04",
-      "title": "11 Encontro de Motociclistas e Triciclistas",
-      "short_name": "11 Encontro de Motociclistas e Triciclistas",
+      "title": "11 Encontro de Motociclistas e Triciclistas de Itarare",
+      "short_name": "11 Encontro de Motociclistas e Triciclistas de Itarare",
       "start_date": "2026-09-04",
       "end_date": "2026-09-05",
       "city": "Itarare",
@@ -32022,8 +32238,8 @@
     },
     {
       "slug": "motorock-conselheiro-lafaiete-mg-2026-09-04",
-      "title": "MOTOROCK",
-      "short_name": "MOTOROCK",
+      "title": "MOTOROCK de Conselheiro Lafaiete",
+      "short_name": "MOTOROCK de Conselheiro Lafaiete",
       "start_date": "2026-09-04",
       "end_date": "2026-09-06",
       "city": "Conselheiro Lafaiete",
@@ -32210,8 +32426,8 @@
     },
     {
       "slug": "santana-motofest-santana-do-ipanema-al-2026-09-04",
-      "title": "SANTANA MOTOFEST",
-      "short_name": "SANTANA MOTOFEST",
+      "title": "SANTANA MOTOFEST de Santana do Ipanema",
+      "short_name": "SANTANA MOTOFEST de Santana do Ipanema",
       "start_date": "2026-09-04",
       "end_date": "2026-09-07",
       "city": "Santana do Ipanema",
@@ -32393,8 +32609,8 @@
     },
     {
       "slug": "2-encontro-nacional-de-motociclistas-sao-carlos-sp-2026-09-05",
-      "title": "2 Encontro Nacional de Motociclistas",
-      "short_name": "2 Encontro Nacional de Motociclistas",
+      "title": "2 Encontro Nacional de Motociclistas de Sao Carlos",
+      "short_name": "2 Encontro Nacional de Motociclistas de Sao Carlos",
       "start_date": "2026-09-05",
       "end_date": "2026-09-07",
       "city": "Sao Carlos",
@@ -33620,8 +33836,8 @@
     },
     {
       "slug": "lobos-do-asfalto-mc-jardim-america-rio-de-janeiro-rj-2026-09-06",
-      "title": "Lobos do Asfalto MC",
-      "short_name": "Lobos do Asfalto MC",
+      "title": "Lobos do Asfalto MC de Jardim America",
+      "short_name": "Lobos do Asfalto MC de Jardim America",
       "start_date": "2026-09-06",
       "end_date": "2026-09-06",
       "city": "Jardim America - Rio de Janeiro",
@@ -33953,8 +34169,8 @@
     },
     {
       "slug": "10-encontro-nacional-de-motociclistas-januaria-mg-2026-09-11",
-      "title": "10 Encontro Nacional de Motociclistas",
-      "short_name": "10 Encontro Nacional de Motociclistas",
+      "title": "10 Encontro Nacional de Motociclistas de Januaria",
+      "short_name": "10 Encontro Nacional de Motociclistas de Januaria",
       "start_date": "2026-09-11",
       "end_date": "2026-09-12",
       "city": "Januaria",
@@ -34032,8 +34248,8 @@
     },
     {
       "slug": "12-encontro-de-motociclistas-crateus-ce-2026-09-11",
-      "title": "12 Encontro de Motociclistas",
-      "short_name": "12 Encontro de Motociclistas",
+      "title": "12 Encontro de Motociclistas de Crateus",
+      "short_name": "12 Encontro de Motociclistas de Crateus",
       "start_date": "2026-09-11",
       "end_date": "2026-09-12",
       "city": "Crateus",
@@ -34205,8 +34421,8 @@
     },
     {
       "slug": "7-encontro-nacional-de-motociclistas-fama-mg-2026-09-11",
-      "title": "7 Encontro Nacional de Motociclistas",
-      "short_name": "7 Encontro Nacional de Motociclistas",
+      "title": "7 Encontro Nacional de Motociclistas de Fama",
+      "short_name": "7 Encontro Nacional de Motociclistas de Fama",
       "start_date": "2026-09-11",
       "end_date": "2026-09-13",
       "city": "Fama",
@@ -34421,8 +34637,8 @@
     },
     {
       "slug": "7-jere-moto-fest-jeremoabo-ba-2026-09-11",
-      "title": "7 Jere Moto Fest",
-      "short_name": "7 Jere Moto Fest",
+      "title": "7 Jere Moto Fest de Jeremoabo",
+      "short_name": "7 Jere Moto Fest de Jeremoabo",
       "start_date": "2026-09-11",
       "end_date": "2026-09-12",
       "city": "Jeremoabo",
@@ -34956,8 +35172,8 @@
     },
     {
       "slug": "ultra-moto-fest-sao-lourenco-mg-2026-09-11",
-      "title": "Ultra Moto Fest",
-      "short_name": "Ultra Moto Fest",
+      "title": "Ultra Moto Fest de Sao Lourenco",
+      "short_name": "Ultra Moto Fest de Sao Lourenco",
       "start_date": "2026-09-11",
       "end_date": "2026-09-13",
       "city": "Sao Lourenco",
@@ -35630,8 +35846,8 @@
     },
     {
       "slug": "niver-amparo-sp-2026-09-12",
-      "title": "NIVER",
-      "short_name": "NIVER",
+      "title": "NIVER de Amparo",
+      "short_name": "NIVER de Amparo",
       "start_date": "2026-09-12",
       "end_date": "2026-09-12",
       "city": "Amparo",
@@ -35737,7 +35953,7 @@
         "Shows ou bandas de rock"
       ],
       "body": "## Serviço verificado\n\nOld Pistons MS tem data divulgada de 2026-09-12 a 2026-09-12, em Volta Redonda/RJ. Horário não informado de forma legível no flyer consultado.\n\n## Local e endereço\n\nEndereço detalhado não informado no flyer; referência: Volta Redonda - RJ. Quando o endereço não aparece de forma legível, a TVDUASRODAS mantém essa ausência explícita e não inventa rua, número ou CEP.\n\n## Programação e estrutura\n\nExpositores. Os nomes e horários que não atingiram confiança suficiente no processamento visual não foram transformados em informação pública.\n\n## Acesso, estacionamento e contato\n\nNão informado de forma legível no flyer consultado. Não informado de forma legível no flyer consultado. Contato não identificado de forma legível no flyer.\n\n## Leitura visual complementar\n\nEstrutura e atrações legíveis: Shows ou bandas de rock, Expositores. Marcas de horário legíveis: 13h00, 23h00. A leitura automatizada foi usada como apoio; trechos ambíguos não foram publicados como fato.\n## Fonte e atualização\n\nA data, a cidade e os sinais de serviço foram confrontados com o flyer específico indexado pela JB-RIDER. A arte original permanece vinculada para conferência de mudanças e detalhes.",
-      "last_updated": "2026-07-26T09:57:55.808145+00:00",
+      "last_updated": "2026-07-26",
       "timezone": "America/Sao_Paulo",
       "time_label": "Horários identificados no flyer: 13h00, 23h00; confirme a atividade correspondente com a organização",
       "street_address": "Endereço detalhado não informado de forma legível no flyer",
@@ -35797,7 +36013,9 @@
           "site:facebook.com \"old pistons ms\" \"volta redonda\" 2026"
         ],
         "reviewed_at": "2026-07-26T09:04:36.506023+00:00"
-      }
+      },
+      "duplicate_of": "old-pistons-volta-redonda-rj-2026-09-12",
+      "canonical_url": "/eventos/old-pistons-volta-redonda-rj-2026-09-12/"
     },
     {
       "slug": "old-pistons-volta-redonda-rj-2026-09-12",
@@ -36162,8 +36380,8 @@
     },
     {
       "slug": "barbaros-mc-mage-rj-2026-09-13",
-      "title": "Barbaros MC",
-      "short_name": "Barbaros MC",
+      "title": "Barbaros MC de Mage — 13 de setembro",
+      "short_name": "Barbaros MC de Mage — 13 de setembro",
       "start_date": "2026-09-13",
       "end_date": "2026-09-13",
       "city": "Mage",
@@ -36269,8 +36487,8 @@
     },
     {
       "slug": "bodes-do-asfalto-mc-marica-rj-2026-09-13",
-      "title": "Bodes do Asfalto MC",
-      "short_name": "Bodes do Asfalto MC",
+      "title": "Bodes do Asfalto MC de Marica",
+      "short_name": "Bodes do Asfalto MC de Marica",
       "start_date": "2026-09-13",
       "end_date": "2026-09-13",
       "city": "Marica",
@@ -37006,8 +37224,8 @@
     },
     {
       "slug": "7-encontro-de-motociclistas-lavras-mg-2026-09-18",
-      "title": "7 Encontro de Motociclistas",
-      "short_name": "7 Encontro de Motociclistas",
+      "title": "7 Encontro de Motociclistas de Lavras — 18 de setembro",
+      "short_name": "7 Encontro de Motociclistas de Lavras — 18 de setembro",
       "start_date": "2026-09-18",
       "end_date": "2026-09-20",
       "city": "Lavras",
@@ -37377,8 +37595,8 @@
     },
     {
       "slug": "moto-amigo-mondai-sc-2026-09-18",
-      "title": "MOTO AMIGO",
-      "short_name": "MOTO AMIGO",
+      "title": "MOTO AMIGO de Mondai — 18 de setembro",
+      "short_name": "MOTO AMIGO de Mondai — 18 de setembro",
       "start_date": "2026-09-18",
       "end_date": "2026-09-19",
       "city": "Mondai",
@@ -37599,7 +37817,7 @@
         "Troféus"
       ],
       "body": "## Serviço verificado\n\nNostalgia MC tem data divulgada de 2026-09-18 a 2026-09-19, em Caes de Zorba MC - Santa Barbara D Oeste/SP. Horário não informado de forma legível no flyer consultado.\n\n## Local e endereço\n\nEndereço detalhado não informado no flyer; referência: Caes de Zorba MC - Santa Barbara D Oeste - SP. Quando o endereço não aparece de forma legível, a TVDUASRODAS mantém essa ausência explícita e não inventa rua, número ou CEP.\n\n## Programação e estrutura\n\nÁrea de camping, Chuveiros, Café da manhã, Rock, Bandas, Expositores, Troféus. Os nomes e horários que não atingiram confiança suficiente no processamento visual não foram transformados em informação pública.\n\n## Acesso, estacionamento e contato\n\nNão informado de forma legível no flyer consultado. Não informado de forma legível no flyer consultado. 8262 0252; 19 9 8113 3814.\n\n## Fonte e atualização\n\nA data, a cidade e os sinais de serviço foram confrontados com o flyer específico indexado pela JB-RIDER. A arte original permanece vinculada para conferência de mudanças e detalhes.",
-      "last_updated": "2026-07-26T05:10:15.428000+00:00",
+      "last_updated": "2026-07-26",
       "timezone": "America/Sao_Paulo",
       "time_label": "Horário não informado de forma legível no flyer consultado",
       "street_address": "Endereço detalhado não informado de forma legível no flyer",
@@ -37650,7 +37868,9 @@
           "\"nostalgia mc\" caes de zorba mc santa barbara d oeste SP 2026"
         ],
         "reviewed_at": "2026-07-26T10:01:54.628076+00:00"
-      }
+      },
+      "duplicate_of": "nostalgia-mc-e-caes-de-zorba-mc-santa-barbara-d-oeste-sp-2026-09-18",
+      "canonical_url": "/eventos/nostalgia-mc-e-caes-de-zorba-mc-santa-barbara-d-oeste-sp-2026-09-18/"
     },
     {
       "slug": "nostalgia-mc-e-caes-de-zorba-mc-santa-barbara-d-oeste-sp-2026-09-18",
@@ -37733,6 +37953,18 @@
           "type": "fonte específica independente",
           "supports": "data e edição, local",
           "relevance_score": 28
+        },
+        {
+          "url": "https://jb-rider.com.br/evento/20260918-2-nostalgia-mc-caes-de-zorba-mc-santa-barbara-d-oeste-sp",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260918_2__Nostalgia%20MC%20-%20Caes%20de%20Zorba%20MC_Santa%20Barbara%20D%20Oeste_SP.jpeg",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
         }
       ],
       "research_status": {
@@ -37944,8 +38176,8 @@
     },
     {
       "slug": "aguias-de-cristo-mc-sao-jose-do-rio-preto-sp-2026-09-19",
-      "title": "Aguias de Cristo MC",
-      "short_name": "Aguias de Cristo MC",
+      "title": "Aguias de Cristo MC de Sao Jose do Rio Preto",
+      "short_name": "Aguias de Cristo MC de Sao Jose do Rio Preto",
       "start_date": "2026-09-19",
       "end_date": "2026-09-19",
       "city": "Sao Jose do Rio Preto",
@@ -38137,8 +38369,8 @@
     },
     {
       "slug": "fenicios-mc-marica-rj-2026-09-19",
-      "title": "Fenicios MC",
-      "short_name": "Fenicios MC",
+      "title": "Fenicios MC de Marica",
+      "short_name": "Fenicios MC de Marica",
       "start_date": "2026-09-19",
       "end_date": "2026-09-19",
       "city": "Marica",
@@ -38227,8 +38459,8 @@
     },
     {
       "slug": "fenicios-mc-rio-de-janeiro-rj-2026-09-19",
-      "title": "Fenicios MC",
-      "short_name": "Fenicios MC",
+      "title": "Fenicios MC de Rio de Janeiro",
+      "short_name": "Fenicios MC de Rio de Janeiro",
       "start_date": "2026-09-19",
       "end_date": "2026-09-19",
       "city": "Rio de Janeiro",
@@ -38941,8 +39173,8 @@
     },
     {
       "slug": "zapata-mc-embu-guacu-sp-2026-09-19",
-      "title": "Zapata MC",
-      "short_name": "Zapata MC",
+      "title": "Zapata MC de Embu Guacu",
+      "short_name": "Zapata MC de Embu Guacu",
       "start_date": "2026-09-19",
       "end_date": "2026-09-20",
       "city": "Embu Guacu",
@@ -39103,8 +39335,8 @@
     },
     {
       "slug": "2-moto-cafe-paraguacu-paulista-sp-2026-09-20",
-      "title": "2 Moto Cafe",
-      "short_name": "2 Moto Cafe",
+      "title": "2 Moto Cafe de Paraguacu Paulista",
+      "short_name": "2 Moto Cafe de Paraguacu Paulista",
       "start_date": "2026-09-20",
       "end_date": "2026-09-20",
       "city": "Paraguacu Paulista",
@@ -39426,8 +39658,8 @@
     },
     {
       "slug": "moto-cafe-santopolis-do-aguapei-sp-2026-09-20",
-      "title": "MOTO CAFE",
-      "short_name": "MOTO CAFE",
+      "title": "MOTO CAFE de Santopolis do Aguapei",
+      "short_name": "MOTO CAFE de Santopolis do Aguapei",
       "start_date": "2026-09-20",
       "end_date": "2026-09-20",
       "city": "Santopolis do Aguapei",
@@ -39841,8 +40073,8 @@
     },
     {
       "slug": "7-encontro-de-motociclistas-lavras-mg-2026-09-25",
-      "title": "7 Encontro de Motociclistas",
-      "short_name": "7 Encontro de Motociclistas",
+      "title": "7 Encontro de Motociclistas de Lavras — 25 de setembro",
+      "short_name": "7 Encontro de Motociclistas de Lavras — 25 de setembro",
       "start_date": "2026-09-25",
       "end_date": "2026-09-27",
       "city": "Lavras",
@@ -40255,8 +40487,8 @@
     },
     {
       "slug": "frances-moto-fest-praia-do-frances-marechal-deodoro-al-2026-09-25",
-      "title": "Frances Moto Fest",
-      "short_name": "Frances Moto Fest",
+      "title": "Frances Moto Fest de Praia do Frances",
+      "short_name": "Frances Moto Fest de Praia do Frances",
       "start_date": "2026-09-25",
       "end_date": "2026-09-26",
       "city": "Praia do Frances - Marechal Deodoro",
@@ -40339,8 +40571,8 @@
     },
     {
       "slug": "moto-amigo-mondai-sc-2026-09-25",
-      "title": "MOTO AMIGO",
-      "short_name": "MOTO AMIGO",
+      "title": "MOTO AMIGO de Mondai — 25 de setembro",
+      "short_name": "MOTO AMIGO de Mondai — 25 de setembro",
       "start_date": "2026-09-25",
       "end_date": "2026-09-26",
       "city": "Mondai",
@@ -40712,8 +40944,8 @@
     },
     {
       "slug": "3-encontro-de-motociclistas-patrocinio-mg-2026-09-26",
-      "title": "3 Encontro de Motociclistas",
-      "short_name": "3 Encontro de Motociclistas",
+      "title": "3 Encontro de Motociclistas de Patrocinio",
+      "short_name": "3 Encontro de Motociclistas de Patrocinio",
       "start_date": "2026-09-26",
       "end_date": "2026-09-27",
       "city": "Patrocinio",
@@ -41456,8 +41688,8 @@
     },
     {
       "slug": "13-encontro-nacional-e-motociclistas-pompeu-mg-2026-10-09",
-      "title": "13 Encontro Nacional e Motociclistas",
-      "short_name": "13 Encontro Nacional e Motociclistas",
+      "title": "13 Encontro Nacional e Motociclistas de Pompeu",
+      "short_name": "13 Encontro Nacional e Motociclistas de Pompeu",
       "start_date": "2026-10-09",
       "end_date": "2026-10-11",
       "city": "Pompeu",
@@ -43721,8 +43953,8 @@
     },
     {
       "slug": "ganchos-do-asfalto-mg-rio-de-janeiro-rj-2026-10-17",
-      "title": "Ganchos do asfalto MG",
-      "short_name": "Ganchos do asfalto MG",
+      "title": "Ganchos do asfalto MG de Rio de Janeiro",
+      "short_name": "Ganchos do asfalto MG de Rio de Janeiro",
       "start_date": "2026-10-17",
       "end_date": "2026-10-17",
       "city": "Rio de Janeiro",
@@ -43820,8 +44052,8 @@
     },
     {
       "slug": "ganchos-do-asfalto-mg-santissimo-rio-de-janeiro-rj-2026-10-17",
-      "title": "Ganchos do Asfalto MG",
-      "short_name": "Ganchos do Asfalto MG",
+      "title": "Ganchos do Asfalto MG de Santissimo",
+      "short_name": "Ganchos do Asfalto MG de Santissimo",
       "start_date": "2026-10-17",
       "end_date": "2026-10-17",
       "city": "Santissimo - Rio de Janeiro",
@@ -44235,8 +44467,8 @@
     },
     {
       "slug": "tigres-medievais-mc-belo-horizonte-mg-2026-10-17",
-      "title": "Tigres Medievais MC",
-      "short_name": "Tigres Medievais MC",
+      "title": "Tigres Medievais MC de Belo Horizonte",
+      "short_name": "Tigres Medievais MC de Belo Horizonte",
       "start_date": "2026-10-17",
       "end_date": "2026-10-17",
       "city": "Belo Horizonte",
@@ -44321,8 +44553,8 @@
     },
     {
       "slug": "tigres-medievais-mc-ouro-preto-mg-2026-10-17",
-      "title": "Tigres Medievais MC",
-      "short_name": "Tigres Medievais MC",
+      "title": "Tigres Medievais MC de Ouro Preto",
+      "short_name": "Tigres Medievais MC de Ouro Preto",
       "start_date": "2026-10-17",
       "end_date": "2026-10-17",
       "city": "Ouro Preto",
@@ -44410,8 +44642,8 @@
     },
     {
       "slug": "araruama-mc-araruama-rj-2026-10-18",
-      "title": "Araruama MC",
-      "short_name": "Araruama MC",
+      "title": "Araruama MC — 18 de outubro",
+      "short_name": "Araruama MC — 18 de outubro",
       "start_date": "2026-10-18",
       "end_date": "2026-10-18",
       "city": "Araruama",
@@ -45246,8 +45478,8 @@
     },
     {
       "slug": "barbaros-mc-mage-rj-2026-10-25",
-      "title": "Barbaros MC",
-      "short_name": "Barbaros MC",
+      "title": "Barbaros MC de Mage — 25 de outubro",
+      "short_name": "Barbaros MC de Mage — 25 de outubro",
       "start_date": "2026-10-25",
       "end_date": "2026-10-25",
       "city": "Mage",
@@ -45330,8 +45562,8 @@
     },
     {
       "slug": "20-encontro-de-motociclistas-motonave-navegantes-sc-2026-10-30",
-      "title": "20º Encontro de Motociclistas MotoNave",
-      "short_name": "20º Encontro de Motociclistas MotoNave",
+      "title": "20º Encontro de Motociclistas MotoNave de Navegantes",
+      "short_name": "20º Encontro de Motociclistas MotoNave de Navegantes",
       "start_date": "2026-10-30",
       "end_date": "2026-11-01",
       "city": "Navegantes",
@@ -45411,8 +45643,8 @@
     },
     {
       "slug": "4-festival-da-pimenta-e-motorock-uru-sp-2026-10-30",
-      "title": "4 Festival da Pimenta e MotoRock",
-      "short_name": "4 Festival da Pimenta e MotoRock",
+      "title": "4 Festival da Pimenta e MotoRock de Uru",
+      "short_name": "4 Festival da Pimenta e MotoRock de Uru",
       "start_date": "2026-10-30",
       "end_date": "2026-11-01",
       "city": "Uru",
@@ -46132,8 +46364,8 @@
     },
     {
       "slug": "9-encontro-de-motociclistas-e-triciclistas-lutecia-sp-2026-11-06",
-      "title": "9 Encontro de Motociclistas e Triciclistas",
-      "short_name": "9 Encontro de Motociclistas e Triciclistas",
+      "title": "9 Encontro de Motociclistas e Triciclistas de Lutecia",
+      "short_name": "9 Encontro de Motociclistas e Triciclistas de Lutecia",
       "start_date": "2026-11-06",
       "end_date": "2026-11-08",
       "city": "Lutecia",
@@ -46933,8 +47165,8 @@
     },
     {
       "slug": "4-encontro-de-motociclistas-corrego-do-bom-jesus-mg-2026-11-13",
-      "title": "4 Encontro de Motociclistas",
-      "short_name": "4 Encontro de Motociclistas",
+      "title": "4 Encontro de Motociclistas de Corrego do Bom Jesus",
+      "short_name": "4 Encontro de Motociclistas de Corrego do Bom Jesus",
       "start_date": "2026-11-13",
       "end_date": "2026-11-15",
       "city": "Corrego do Bom Jesus",
@@ -47477,8 +47709,8 @@
     },
     {
       "slug": "zapata-mc-ferraz-de-vasconcelos-sp-2026-11-14",
-      "title": "Zapata MC",
-      "short_name": "Zapata MC",
+      "title": "Zapata MC de Ferraz de Vasconcelos",
+      "short_name": "Zapata MC de Ferraz de Vasconcelos",
       "start_date": "2026-11-14",
       "end_date": "2026-11-14",
       "city": "Ferraz de Vasconcelos",
@@ -47653,8 +47885,8 @@
     },
     {
       "slug": "3-ita-moto-fest-itamaraju-ba-2026-11-20",
-      "title": "3 ITA MOTO FEST",
-      "short_name": "3 ITA MOTO FEST",
+      "title": "3 ITA MOTO FEST de Itamaraju",
+      "short_name": "3 ITA MOTO FEST de Itamaraju",
       "start_date": "2026-11-20",
       "end_date": "2026-11-21",
       "city": "Itamaraju",
@@ -48582,8 +48814,8 @@
     },
     {
       "slug": "moto-fest-lagoinha-sao-jose-do-rio-preto-sp-2026-11-21",
-      "title": "Moto Fest Lagoinha",
-      "short_name": "Moto Fest Lagoinha",
+      "title": "Moto Fest Lagoinha de Sao Jose do Rio Preto",
+      "short_name": "Moto Fest Lagoinha de Sao Jose do Rio Preto",
       "start_date": "2026-11-21",
       "end_date": "2026-11-21",
       "city": "Sao Jose do Rio Preto",
@@ -49298,8 +49530,8 @@
     },
     {
       "slug": "motorock-pesqueira-pe-2026-11-27",
-      "title": "MOTOROCK",
-      "short_name": "MOTOROCK",
+      "title": "MOTOROCK de Pesqueira",
+      "short_name": "MOTOROCK de Pesqueira",
       "start_date": "2026-11-27",
       "end_date": "2026-11-29",
       "city": "Pesqueira",
@@ -49570,6 +49802,18 @@
           "type": "cobertura jornalística",
           "supports": "data e edição, local, categorias, percurso ou regulamento, organização e contatos",
           "relevance_score": 19
+        },
+        {
+          "url": "https://jb-rider.com.br/evento/20261128-dragoes-da-alvorada-mg-santa-terezinha-do-itaipu-pr",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20261128___Dragoes%20da%20Alvorada%20MG_Santa%20Terezinha%20do%20Itaipu_PR.jpg",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
         }
       ],
       "research_status": {
@@ -49611,7 +49855,7 @@
         "Shows ou bandas de rock"
       ],
       "body": "## Serviço verificado\n\nDragoes da Alvorada MG tem data divulgada de 2026-11-28 a 2026-11-28, em Santa Terezinha do Itaipu/PR. Horário não informado de forma legível no flyer consultado.\n\n## Local e endereço\n\nEndereço detalhado não informado no flyer; referência: Santa Terezinha do Itaipu - PR. Quando o endereço não aparece de forma legível, a TVDUASRODAS mantém essa ausência explícita e não inventa rua, número ou CEP.\n\n## Programação e estrutura\n\nAtividade gratuita indicada no flyer. Os nomes e horários que não atingiram confiança suficiente no processamento visual não foram transformados em informação pública.\n\n## Acesso, estacionamento e contato\n\nGratuidade indicada no flyer; confira eventuais condições na arte original. Não informado de forma legível no flyer consultado. Contato não identificado de forma legível no flyer.\n\n## Leitura visual complementar\n\nEstrutura e atrações legíveis: Shows ou bandas de rock. Marcas de horário legíveis: 09h00, 00h00. A leitura automatizada foi usada como apoio; trechos ambíguos não foram publicados como fato.\n## Fonte e atualização\n\nA data, a cidade e os sinais de serviço foram confrontados com o flyer específico indexado pela JB-RIDER. A arte original permanece vinculada para conferência de mudanças e detalhes.",
-      "last_updated": "2026-07-26T09:57:55.808145+00:00",
+      "last_updated": "2026-07-26",
       "timezone": "America/Sao_Paulo",
       "time_label": "Horários identificados no flyer: 09h00, 00h00; confirme a atividade correspondente com a organização",
       "street_address": "Endereço detalhado não informado de forma legível no flyer",
@@ -49667,7 +49911,9 @@
         "status": "fontes_cruzadas",
         "query": "\"dragoes da alvorada mg\" santa terezinha do itaipu PR 2026",
         "reviewed_at": "2026-07-26T08:58:29.118357+00:00"
-      }
+      },
+      "duplicate_of": "dragoes-da-alvorada-mg-santa-terezinha-de-itaipu-pr-2026-11-28",
+      "canonical_url": "/eventos/dragoes-da-alvorada-mg-santa-terezinha-de-itaipu-pr-2026-11-28/"
     },
     {
       "slug": "neblina-mc-peruibe-sp-2026-11-28",

@@ -1,0 +1,82 @@
+{
+  "title": "Campeonato Rondoniense de Motocross 2026 — etapas de agosto",
+  "short_name": "Motocross de Rondônia — agosto de 2026",
+  "season": "2026",
+  "country": "Brasil",
+  "scope": "Nacional",
+  "modality": "Motocross",
+  "status": "agendada",
+  "organizer": "Liga Independente de Motocross do Estado de Rondônia (LIMERO)",
+  "official_url": "https://limero.esp.br/category/motocross/",
+  "results_url": "",
+  "cover": "/assets/img/competicoes-eventos-default.svg",
+  "image_credit": "Arte: TVDUASRODAS",
+  "featured": false,
+  "summary": "Registro consolidado das etapas de agosto do Campeonato Rondoniense de Motocross em Cerejeiras e Corumbiara. São competições distintas; datas exatas, pistas e horários aguardam divulgação específica da LIMERO.",
+  "last_updated": "2026-07-26T12:00:00-04:00",
+  "next_stage": {
+    "name": "Campeonato Rondoniense de Motocross 2026 — etapas de agosto",
+    "start_date": "2026-08-01",
+    "end_date": "2026-08-31",
+    "venue": "Pistas locais de Cerejeiras e Corumbiara, divulgadas separadamente pela organização",
+    "city": "Cerejeiras e Corumbiara",
+    "state": "RO",
+    "note": "Horários das etapas de agosto ainda não detalhados nas fontes consultadas"
+  },
+  "categories": [
+    "Motocross"
+  ],
+  "rounds": [
+    {
+      "order": 1,
+      "start_date": "2026-08-01",
+      "end_date": "2026-08-31",
+      "name": "Campeonato Rondoniense de Motocross 2026 — etapas de agosto",
+      "location": "Etapas distintas em Cerejeiras e Corumbiara - RO",
+      "status": "agendada",
+      "winner": "",
+      "results_url": ""
+    }
+  ],
+  "related_videos": [],
+  "body": "## Correção do registro\n\nA entrada anterior tratava Cerejeiras e Corumbiara como se fossem um único evento. O calendário da LIMERO indica competições distintas durante agosto de 2026, por isso o registro passa a funcionar como acompanhamento das etapas do mês.\n\n## Serviço\n\nAs pistas, datas exatas, horários, inscrições e regras de acesso ainda não foram detalhados nas fontes consultadas. Essas lacunas ficam explícitas para evitar transformar previsão de calendário em informação confirmada.\n\n## Organização\n\nA supervisão é da Liga Independente de Motocross do Estado de Rondônia, que publica regulamentos, resultados e atualizações do campeonato em seu canal oficial.",
+  "sources": [
+    {
+      "url": "https://limero.esp.br/category/motocross",
+      "label": "Canal oficial ou página indicada pela entidade",
+      "type": "fonte específica independente",
+      "supports": "dados de agenda, identificação e situação do evento"
+    },
+    {
+      "url": "https://ftp.cbm.esp.br/noticias/2026/02/06/cbm-e-promox-anunciam-calendario-oficial-do-campeonato-brasileiro-de-motocross-2026",
+      "label": "CBM e Promox anunciam calendário oficial do Campeonato Brasileiro de Motocross 2026 | Motocross | Notícias | Confederação Brasileira de Motociclismo",
+      "type": "fonte primária ou canal oficial",
+      "supports": "data e edição",
+      "relevance_score": 14,
+      "discovery_method": "busca_editorial_indexada"
+    }
+  ],
+  "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
+  "research_status": {
+    "required_specific_independent_sources": 2,
+    "specific_independent_domains_found": 4,
+    "status": "fontes_cruzadas",
+    "attempts": [
+      "busca por título exato, cidade, UF e ano",
+      "busca ampliada por programação, organizador, prefeitura e imprensa local",
+      "busca visual/social em Instagram, Facebook e YouTube"
+    ],
+    "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
+    "editorial_rule": "Dados confirmados por duas ou mais fontes específicas independentes."
+  },
+  "classification_status": {
+    "status": "aguardando_resultados",
+    "checked_at": "2026-07-26T07:36:36.795524+00:00",
+    "note": "Classificação e resultados serão atualizados após a publicação oficial da organização."
+  },
+  "calendar_status": {
+    "status": "publicado",
+    "checked_at": "2026-07-26T07:36:36.795524+00:00",
+    "note": "Competição confirmada nas fontes indicadas nesta página."
+  }
+}

@@ -603,9 +603,15 @@ def write_event_aliases() -> int:
     for entry in agenda.get("entries", []):
         alias = entry.get("slug")
         canonical = entry.get("duplicate_of")
-        if not alias or not canonical or alias == canonical:
+        competition = entry.get("competition_slug") if entry.get("reclassified_as") == "competition" else ""
+        if competition:
+            target_url = f"/competicoes/{competition}/"
+        elif canonical:
+            target_url = f"/eventos/{canonical}/"
+        else:
             continue
-        target_url = f"/eventos/{canonical}/"
+        if not alias:
+            continue
         title = esc(entry.get("title") or "Evento")
         output = f"""<!doctype html>
 <html lang="pt-BR">
@@ -882,7 +888,7 @@ def load_content() -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]
             for item in items if item["kind"] == "event"
         }
         for data in community.get("entries", []):
-            if data.get("duplicate_of"):
+            if data.get("duplicate_of") or data.get("reclassified_as") == "competition":
                 continue
             slug = data.get("slug") or slugify(
                 f"{data.get('title', '')}-{data.get('city', '')}-{data.get('state', '')}-{data.get('start_date', '')}"
