@@ -12229,8 +12229,8 @@
     },
     {
       "slug": "2-encontro-de-motociclistas-lavras-novas-mg-2026-08-01",
-      "title": "2 Encontro de Motociclistas de Lavras Novas",
-      "short_name": "2 Encontro de Motociclistas de Lavras Novas",
+      "title": "2º Encontro de Motociclistas de Lavras Novas",
+      "short_name": "2º Encontro de Motociclistas de Lavras Novas",
       "start_date": "2026-08-01",
       "end_date": "2026-08-02",
       "city": "Lavras Novas",
@@ -12238,99 +12238,98 @@
       "country": "Brasil",
       "scope": "Nacional",
       "region": "Sudeste",
-      "venue": "Local detalhado não informado de forma legível no flyer",
+      "venue": "Campo de Futebol do Vila Nova",
       "status": "agendada",
-      "event_type": "Encontro de motociclistas",
+      "event_type": "Encontro de motociclistas e festival de rock",
       "segment": "Motos",
-      "official_url": "https://jb-rider.com.br/evento/20260801-2-2-encontro-de-motociclistas-lavras-novas-mg",
-      "source_url": "https://jb-rider.com.br/eventos/20260801_2__2%20Encontro%20de%20Motociclistas_Lavras%20Novas_MG.jpeg",
-      "source_label": "Flyer específico indexado pela JB-RIDER",
-      "verification_status": "flyer_reinspecionado_com_validacao_conservadora",
+      "official_url": "https://www.sympla.com.br/evento/2-encontro-de-motociclistas-de-lavras-novas/3461338",
+      "source_url": "https://jacaremoto.com.br/events/2-encontro-de-motociclistas-de-lavras-novas/",
+      "source_label": "Sympla e agenda Jacaré Moto",
+      "verification_status": "inscricao_oficial_e_agenda_especializada_conferidas",
       "cover": "/assets/img/competicoes-eventos-default.svg",
       "image_credit": "Arte: TVDUASRODAS",
       "featured": false,
-      "free": false,
-      "summary": "Encontro de motociclistas em Lavras Novas/MG, com data divulgada para 2026-08-01. O flyer foi inspecionado localmente; serviços identificados: programação detalhada não identificada de forma legível no flyer.",
+      "free": true,
+      "summary": "O 2º Encontro de Motociclistas de Lavras Novas acontece em 1º e 2 de agosto de 2026, no Campo de Futebol do Vila Nova, distrito de Lavras Novas, em Ouro Preto/MG. A entrada é gratuita, com inscrição pela Sympla, e a programação inclui Banda NAH, rock, gastronomia e Rifa Show de Prêmios.",
       "attractions": [
-        "Programação detalhada não identificada de forma legível no flyer"
+        "Banda NAH",
+        "Rifa Show de Prêmios",
+        "Rock",
+        "Gastronomia",
+        "Chope",
+        "Troféus para participantes"
       ],
-      "body": "## Serviço verificado\n\n2 Encontro de Motociclistas tem data divulgada de 2026-08-01 a 2026-08-02, em Lavras Novas/MG. Horários identificados no flyer: 01:02.\n\n## Local e endereço\n\nEndereço detalhado não informado no flyer; referência: Lavras Novas - MG. Quando o endereço não aparece de forma legível, a TVDUASRODAS mantém essa ausência explícita e não inventa rua, número ou CEP.\n\n## Programação e estrutura\n\nProgramação detalhada não identificada de forma legível no flyer. Os nomes e horários que não atingiram confiança suficiente no processamento visual não foram transformados em informação pública.\n\n## Acesso, estacionamento e contato\n\nNão informado de forma legível no flyer consultado. Não informado de forma legível no flyer consultado. Contato não identificado de forma legível no flyer.\n\n## Leitura visual complementar\n\nMarcas de horário legíveis: 00h00. A leitura automatizada foi usada como apoio; trechos ambíguos não foram publicados como fato.\n## Fonte e atualização\n\nA data, a cidade e os sinais de serviço foram confrontados com o flyer específico indexado pela JB-RIDER. A arte original permanece vinculada para conferência de mudanças e detalhes.",
-      "last_updated": "2026-07-26T09:57:55.808145+00:00",
+      "body": "## Serviço confirmado\n\nO **2º Encontro de Motociclistas de Lavras Novas** será realizado de **1º a 2 de agosto de 2026**, no **Campo de Futebol do Vila Nova**, no distrito de Lavras Novas, em Ouro Preto/MG. A programação começa no sábado às **9h** e termina no domingo às **18h**.\n\n## Programação e atrações\n\nA agenda do Jacaré Moto anuncia show da **Banda NAH no sábado, às 12h**. O encontro também terá rock, gastronomia, chope, troféus para participantes e sorteio da **Rifa Show de Prêmios**. Outras atrações e horários não foram detalhados nas fontes consultadas.\n\n## Entrada e inscrição\n\nA **entrada é gratuita**, mas a organização orienta a retirada antecipada do ingresso pela Sympla. A página de inscrição identifica o evento como presencial e confirma os horários de 9h de sábado a 18h de domingo.\n\n## Local e endereço\n\n**Campo de Futebol do Vila Nova**  \nRua Nossa Senhora dos Prazeres, 394  \nLavras Novas, Ouro Preto - MG\n\n## Organização e contato\n\nA agenda especializada informa realização do **Vinicius Riders Lavras Novas**. Contatos publicados: **(31) 992 310 497**, **(31) 895 697 994** e **ridelavrasnovas@gmail.com**. O perfil indicado é [@ride_lavrasnovas](https://www.instagram.com/ride_lavrasnovas/).\n\n## Fontes e atualização\n\nDatas, horários, gratuidade, endereço e descrição foram confirmados na página oficial de inscrições da Sympla e cruzados com a agenda específica do Jacaré Moto. Confirme eventuais mudanças com a organização antes de viajar.",
+      "last_updated": "2026-07-31",
       "timezone": "America/Sao_Paulo",
-      "time_label": "Horários identificados no flyer: 00h00; confirme a atividade correspondente com a organização",
-      "street_address": "Endereço detalhado não informado de forma legível no flyer",
-      "full_address": "Endereço detalhado não informado no flyer; referência: Lavras Novas - MG",
-      "status_basis": "Data futura divulgada no flyer e na agenda comunitária; confirme alterações antes de viajar.",
-      "status_checked_at": "2026-07-26T05:07:49.077000+00:00",
-      "organizer": "Organização não identificada de forma legível no flyer consultado",
-      "contact": "Contato não identificado de forma legível no flyer",
-      "source_checked_at": "2026-07-26T09:57:55.808145+00:00",
+      "time_label": "Sábado, das 9h; encerramento no domingo, às 18h",
+      "street_address": "Rua Nossa Senhora dos Prazeres, 394",
+      "full_address": "Campo de Futebol do Vila Nova, Rua Nossa Senhora dos Prazeres, 394, Lavras Novas, Ouro Preto - MG",
+      "status_basis": "Datas, horários, endereço e gratuidade confirmados na página oficial de inscrições da Sympla.",
+      "status_checked_at": "2026-07-31",
+      "organizer": "Vinicius Riders Lavras Novas",
+      "contact": "(31) 992 310 497 · (31) 895 697 994 · ridelavrasnovas@gmail.com · Instagram: @ride_lavrasnovas",
+      "source_checked_at": "2026-07-31",
       "visual_verification": {
-        "type": "flyer_reinspecionado_com_ocr_visual",
-        "source_url": "https://jb-rider.com.br/eventos/20260801_2__2%20Encontro%20de%20Motociclistas_Lavras%20Novas_MG.jpeg",
-        "detail_url": "https://jb-rider.com.br/evento/20260801-2-2-encontro-de-motociclistas-lavras-novas-mg",
-        "checked_at": "2026-07-26T09:57:55.808145+00:00",
-        "ocr_engine": "Windows.Media.Ocr",
-        "ocr_confidence": 60,
-        "review_policy": "extração conservadora de padrões estruturados",
+        "type": "paginas_especificas_inspecionadas_manualmente",
+        "source_url": "https://jacaremoto.com.br/events/2-encontro-de-motociclistas-de-lavras-novas/",
+        "detail_url": "https://www.sympla.com.br/evento/2-encontro-de-motociclistas-de-lavras-novas/3461338",
+        "checked_at": "2026-07-31",
+        "review_policy": "Transcrição conservadora do serviço publicado na Sympla e na agenda Jacaré Moto",
         "confirmed_fields": [
-          "date",
+          "edition",
+          "start_date",
+          "end_date",
+          "start_time",
+          "end_time",
+          "venue",
+          "street_address",
           "city",
           "state",
-          "event_name",
-          "times",
-          "time_marks"
+          "free_admission",
+          "organizer",
+          "contacts",
+          "attractions"
         ]
       },
-      "admission_status": "Não informado de forma legível no flyer consultado",
-      "parking": "Não informado de forma legível no flyer consultado",
+      "admission_status": "Entrada gratuita; retirada antecipada de ingresso pela Sympla",
+      "parking": "Não informado nas fontes consultadas",
       "sources": [
         {
-          "url": "https://jb-rider.com.br/evento/20260801-2-2-encontro-de-motociclistas-lavras-novas-mg",
-          "label": "Flyer ou página específica original do evento",
-          "type": "evidência visual primária",
-          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
-        },
-        {
-          "url": "https://jb-rider.com.br/eventos/20260801_2__2%20Encontro%20de%20Motociclistas_Lavras%20Novas_MG.jpeg",
-          "label": "Flyer ou página específica original do evento",
-          "type": "evidência visual primária",
-          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
-        },
-        {
-          "url": "https://jacaremoto.com.br/events/2-encontro-de-motociclistas-de-lavras-novas",
-          "label": "jacaremoto.com.br https://jacaremoto.com.br › events › 2-encontro-de 2° Encontro de Motociclistas de Lavras Novas - Jacaremoto",
-          "type": "fonte específica independente",
-          "supports": "data e edição, local, horários e programação, inscrições e acesso, organização e contatos",
-          "relevance_score": 23
-        },
-        {
           "url": "https://www.sympla.com.br/evento/2-encontro-de-motociclistas-de-lavras-novas/3461338",
-          "label": "Sympla https://www.sympla.com.br › evento › 2-encontro-de 2° Encontro de Motociclistas de Lavras Novas em Ouro Preto...",
-          "type": "fonte primária ou canal oficial",
-          "supports": "existência e identificação específica do evento",
-          "relevance_score": 18
+          "label": "Sympla — página oficial de inscrição do evento",
+          "type": "canal oficial de inscrição",
+          "supports": "nome, datas, horários, local, endereço, gratuidade e descrição",
+          "checked_at": "2026-07-31"
         },
         {
-          "url": "https://jb-rider.com.br/evento/20260801-2-2-encontro-de-motocicilstas-lavras-novas-mg",
-          "label": "Flyer ou página específica original do evento",
-          "type": "evidência visual primária",
-          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+          "url": "https://jacaremoto.com.br/events/2-encontro-de-motociclistas-de-lavras-novas/",
+          "label": "Jacaré Moto — agenda específica do evento",
+          "type": "agenda independente especializada",
+          "supports": "datas, horários, Banda NAH, estrutura, realizador e contatos",
+          "checked_at": "2026-07-31"
         },
         {
-          "url": "https://jb-rider.com.br/eventos/20260801_2__2%20Encontro%20de%20Motocicilstas_Lavras%20Novas_MG.jpg",
-          "label": "Flyer ou página específica original do evento",
-          "type": "evidência visual primária",
-          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+          "url": "https://www.instagram.com/ride_lavrasnovas/",
+          "label": "Ride Lavras Novas — perfil indicado pela organização",
+          "type": "canal social do realizador",
+          "supports": "identidade e contato do realizador",
+          "checked_at": "2026-07-31"
         }
       ],
       "research_status": {
         "required_specific_independent_sources": 2,
         "specific_independent_domains_found": 3,
-        "status": "fontes_cruzadas",
-        "query": "\"2 encontro de motociclistas\" lavras novas MG 2026",
-        "reviewed_at": "2026-07-26T08:53:16.003532+00:00"
-      }
+        "status": "canal_oficial_e_fontes_cruzadas",
+        "query": "\"2º Encontro de Motociclistas de Lavras Novas\" 2026",
+        "reviewed_at": "2026-07-31",
+        "editorial_rule": "Serviço confirmado na inscrição oficial; programação complementar atribuída à agenda especializada."
+      },
+      "local_start": "2026-08-01T09:00:00-03:00",
+      "local_end": "2026-08-02T18:00:00-03:00",
+      "support": [
+        "Banana da Terra — produtor cadastrado na Sympla"
+      ]
     },
     {
       "slug": "3-encontro-de-motociclistas-taquaritinga-sp-2026-08-01",
