@@ -17,7 +17,7 @@ kicker: Guia de transmissão
 featured_revista: false
 ---
 
-O **Campeonato Brasileiro de Motocross 2026** está em Santa Cruz do Capibaribe (PE) para uma rodada dupla que também abre o Sul-Americano de Motocross MX1/MX2. Para quem procura **onde assistir ao Campeonato Brasileiro de Motocross ao vivo**, o caminho oficial é o canal **Sportbay TV no YouTube**, responsável pelas transmissões do MX1 GP Brasil, e tambem aqui no TVDUASRODAS, va para a pagina TV & Videos e la encontra a Transmissao Ao Vivo!
+O **Campeonato Brasileiro de Motocross 2026** está em Santa Cruz do Capibaribe (PE) para uma rodada dupla que também abre o Sul-Americano de Motocross MX1/MX2. Para quem procura **onde assistir ao Campeonato Brasileiro de Motocross ao vivo**, o caminho oficial é o canal **Sportbay TV no YouTube**, responsável pelas transmissões do MX1 GP Brasil, e tambem aqui no [TVDUASRODAS](https://tvduasrodas.com/tv), va para a pagina [TV & Videos](https://tvduasrodas.com/tv) e la encontra a Transmissao Ao Vivo!
 
 As atividades de pista acontecem de **sexta-feira, 31 de julho, a domingo, 2 de agosto**, sempre pelo horário de Brasília. A grade oficial começa às 8h nos três dias, com corridas das categorias principais a partir de 12h25 na sexta e no domingo. Como a operação de uma prova pode mudar por clima, manutenção de pista ou decisão da direção, vale abrir os canais oficiais pouco antes do horário previsto.
 
