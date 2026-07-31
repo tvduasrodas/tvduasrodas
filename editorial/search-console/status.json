@@ -1,12 +1,12 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-07-31T14:11:49.136273+00:00",
+  "generated_at": "2026-07-31T14:13:45.988509+00:00",
   "scope": "Matérias no Google News sitemap das últimas 48 horas e eventos em andamento ou futuros priorizados por data",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/event-sitemap.xml",
-      "last_submitted": "2026-07-31T14:10:26.696Z",
-      "last_downloaded": "2026-07-31T14:10:35.960Z",
+      "last_submitted": "2026-07-31T14:12:23.286Z",
+      "last_downloaded": "2026-07-31T14:12:36.621Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -27,8 +27,8 @@
     },
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-07-31T14:10:26.613Z",
-      "last_downloaded": "2026-07-31T14:10:39.559Z",
+      "last_submitted": "2026-07-31T14:12:23.201Z",
+      "last_downloaded": "2026-07-31T14:12:42.435Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -49,8 +49,8 @@
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-07-31T14:10:26.528Z",
-      "last_downloaded": "2026-07-31T14:10:38.489Z",
+      "last_submitted": "2026-07-31T14:12:23.106Z",
+      "last_downloaded": "2026-07-31T14:12:37.374Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -99,7 +99,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-07-31T14:10:33.113019+00:00"
+      "inspected_at": "2026-07-31T14:12:29.773955+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/honda-motos-cresce-11-primeiro-semestre-2026/",
@@ -118,7 +118,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-07-31T14:10:39.423959+00:00"
+      "inspected_at": "2026-07-31T14:12:36.094236+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/brasileiro-motocross-2026-etapa-da-moda-comeca-santa-cruz/",
@@ -135,7 +135,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-31T14:10:45.731412+00:00"
+      "inspected_at": "2026-07-31T14:12:42.354200+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/capital-moto-week-2026/",
@@ -154,7 +154,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/evento?slug=capital-moto-week-2026"
       ],
-      "inspected_at": "2026-07-31T14:10:52.060267+00:00"
+      "inspected_at": "2026-07-31T14:12:48.674442+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/3-encontro-de-motociclistas-penedo-mg-2026-07-30/",
@@ -171,21 +171,24 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-31T14:10:58.471800+00:00"
+      "inspected_at": "2026-07-31T14:12:55.086048+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motofest-bezerros-pe-2026-07-30/",
       "verdict": "NEUTRAL",
-      "coverage_state": "O Google não reconhece o URL",
+      "coverage_state": "Detectada, mas não indexada no momento",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED",
       "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
       "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "last_crawl_time": null,
       "google_canonical": "",
       "user_canonical": "",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-07-31T14:11:04.809009+00:00"
+      "inspected_at": "2026-07-31T14:13:01.380501+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motofest-iguatu-ce-2026-07-30/",
@@ -202,7 +205,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-31T14:11:11.117551+00:00"
+      "inspected_at": "2026-07-31T14:13:07.766315+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/14-motofest-extrema-mg-2026-07-31/",
@@ -219,7 +222,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-31T14:11:17.414879+00:00"
+      "inspected_at": "2026-07-31T14:13:14.176356+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/2-encontro-nacional-serra-da-saudade-mg-2026-07-31/",
@@ -236,7 +239,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-31T14:11:23.735121+00:00"
+      "inspected_at": "2026-07-31T14:13:20.480298+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/21-paranaguamotos-paranagua-pr-2026-07-31/",
@@ -253,7 +256,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-31T14:11:30.135057+00:00"
+      "inspected_at": "2026-07-31T14:13:26.816714+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/3-moto-rock-fest-paranapanema-sp-2026-07-31/",
@@ -270,7 +273,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-31T14:11:36.428570+00:00"
+      "inspected_at": "2026-07-31T14:13:33.117466+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/7-encontro-de-motociclistas-e-triciclistas-oliveira-fortes-mg-2026-07-31/",
@@ -287,7 +290,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-31T14:11:42.744517+00:00"
+      "inspected_at": "2026-07-31T14:13:39.432652+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/7-encontro-nacional-de-motociclsitas-e-motoclubes-aimores-mg-2026-07-31/",
@@ -304,7 +307,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-07-31T14:11:49.050094+00:00"
+      "inspected_at": "2026-07-31T14:13:45.751588+00:00"
     }
   ]
 }
