@@ -319,6 +319,10 @@ async function loadMagazineFromCMS() {
             const episodeDuration = (data.episodeDuration || "").trim();
             const readingTime = (data.readingTime || "").trim();
 
+            if (String(data.show_in_revista || "").toLowerCase() === "false") {
+                continue;
+            }
+
             const excerpt = markdownToExcerpt(content, 220);
 
             // decide qual imagem usar (para cards e, se quiser, para hero também)
@@ -638,6 +642,10 @@ async function loadHomeLatestArticles() {
             if (videoId === "''") videoId = "";
 
             const excerpt = markdownToExcerpt(content, 200);
+
+            if (String(data.show_on_home || "").toLowerCase() === "false") {
+                continue;
+            }
 
             // Mesma lógica da revista: thumb > cover > thumb do YouTube
             let imgSrc = "";

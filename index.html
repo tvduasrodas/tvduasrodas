@@ -279,7 +279,7 @@
 
     <!-- JS -->
     <script src="assets/js/ads.js?v=20260726ga1"></script>
-    <script src="assets/js/main.js?v=20260725a"></script>
+    <script src="assets/js/main.js?v=20260731visibility1"></script>
     <script>
         // CONFIGURE AQUI:
         const GITHUB_OWNER = "tvduasrodas";
@@ -724,6 +724,10 @@
                 });
 
                 let articles = await Promise.all(articlePromises);
+
+                articles = articles.filter(
+                    (article) => String(article.show_on_home || "").toLowerCase() !== "false"
+                );
 
                 // Ordenar da mais nova pra mais antiga
                 articles.sort((a, b) => b._dateObj - a._dateObj);

@@ -15,6 +15,8 @@ cover: /assets/img/uploads/mx1gp-santa-cruz-2026-pista-publico.webp
 featured: false
 kicker: Guia de transmissão
 featured_revista: false
+show_on_home: false
+show_in_revista: false
 ---
 
 O **Campeonato Brasileiro de Motocross 2026** está em Santa Cruz do Capibaribe (PE) para uma rodada dupla que também abre o Sul-Americano de Motocross MX1/MX2. Para quem procura **onde assistir ao Campeonato Brasileiro de Motocross ao vivo**, o caminho oficial é o canal **Sportbay TV no YouTube**, responsável pelas transmissões do MX1 GP Brasil, e tambem aqui no [TVDUASRODAS](https://tvduasrodas.com/tv), va para a pagina [TV & Videos](https://tvduasrodas.com/tv) e la encontra a Transmissao Ao Vivo!
