@@ -210,20 +210,6 @@
       "source": "content/events/agenda-comunitaria-2026.json#12-encontro-de-motociclistas-crateus-ce-2026-09-11"
     },
     {
-      "title": "12 Encontro de Motociclistas",
-      "type": "Evento da agenda",
-      "slug": "12-encontro-de-motociclistas-perdoes-mg-2026-09-11",
-      "date": "2026-09-11",
-      "category": "Encontro de motociclistas",
-      "city": "Perdoes",
-      "state": "MG",
-      "status": "agendada",
-      "summary": "Encontro de motociclistas em Perdoes/MG, com data divulgada para 2026-09-11. O flyer foi inspecionado localmente; serviços identificados: programação detalhada não identificada de forma legível no flyer.",
-      "url": "/eventos/12-encontro-de-motociclistas-perdoes-mg-2026-09-11/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#12-encontro-de-motociclistas-perdoes-mg-2026-09-11"
-    },
-    {
       "title": "12º Up Hill Serra da Chocadeira",
       "type": "Etapa esportiva",
       "slug": "12o-up-hill-serra-da-chocadeira-mtb-xcm-tangara-da-serra-mt-2026-12-05",
@@ -852,6 +838,20 @@
       "url": "/eventos/26-fmc-sp-cidade-patriarca-sao-paulo-sp-2026-07-25/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#26-fmc-sp-cidade-patriarca-sao-paulo-sp-2026-07-25"
+    },
+    {
+      "title": "26º Encontro Nacional de Motociclistas de Pedra Bela",
+      "type": "Evento da agenda",
+      "slug": "26-encontro-nacional-de-motociclistas-pedra-bela-sp-2026-09-11",
+      "date": "2026-09-11",
+      "category": "Encontro de motociclistas",
+      "city": "Pedra Bela",
+      "state": "SP",
+      "status": "agendada",
+      "summary": "O 26º Encontro Nacional de Motociclistas de Pedra Bela acontece de 11 a 13 de setembro de 2026, no estacionamento do Santuário de Nossa Senhora da Pedra, e celebra os 29 anos do Kaypira Moto Clube.",
+      "url": "/eventos/26-encontro-nacional-de-motociclistas-pedra-bela-sp-2026-09-11/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#26-encontro-nacional-de-motociclistas-pedra-bela-sp-2026-09-11"
     },
     {
       "title": "28º Angra MotoFest",
