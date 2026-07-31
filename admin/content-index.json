@@ -952,20 +952,6 @@
       "source": "content/events/agenda-comunitaria-2026.json#3-encontro-de-motociclistas-penedo-mg-2026-07-30"
     },
     {
-      "title": "3 Encontro de Motociclistas de Taquaritinga",
-      "type": "Evento da agenda",
-      "slug": "3-encontro-de-motociclistas-taquaritinga-sp-2026-08-01",
-      "date": "2026-08-01",
-      "category": "Encontro de motociclistas",
-      "city": "Taquaritinga",
-      "state": "SP",
-      "status": "agendada",
-      "summary": "Encontro de motociclistas em Taquaritinga/SP, com data divulgada para 2026-08-01. O flyer foi inspecionado localmente; serviços identificados: rock, bandas.",
-      "url": "/eventos/3-encontro-de-motociclistas-taquaritinga-sp-2026-08-01/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#3-encontro-de-motociclistas-taquaritinga-sp-2026-08-01"
-    },
-    {
       "title": "3 ITA MOTO FEST de Itamaraju",
       "type": "Evento da agenda",
       "slug": "3-ita-moto-fest-itamaraju-ba-2026-11-20",
@@ -1034,6 +1020,20 @@
       "url": "/eventos/nomades-do-vento-mc-lindoia-sp-2026-08-08/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#nomades-do-vento-mc-lindoia-sp-2026-08-08"
+    },
+    {
+      "title": "3º Encontro de Amigos Motociclistas",
+      "type": "Evento da agenda",
+      "slug": "3-encontro-de-motociclistas-taquaritinga-sp-2026-08-01",
+      "date": "2026-08-01",
+      "category": "Encontro de motociclistas e festival de rock",
+      "city": "Taquaritinga",
+      "state": "SP",
+      "status": "agendada",
+      "summary": "O 3º Encontro de Amigos Motociclistas será realizado em 1º e 2 de agosto de 2026, no Clube Náutico Taquaritinga, em Taquaritinga/SP. A programação reúne cinco shows, exposição de motos, gastronomia e a comemoração dos 56 anos do clube.",
+      "url": "/eventos/3-encontro-de-motociclistas-taquaritinga-sp-2026-08-01/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#3-encontro-de-motociclistas-taquaritinga-sp-2026-08-01"
     },
     {
       "title": "4 Encontro de Motociclistas de Corrego do Bom Jesus",
