@@ -1470,6 +1470,20 @@
       "source": "content/events/agenda-comunitaria-2026.json#7-serra-moto-fest-serra-es-2026-07-31"
     },
     {
+      "title": "8º Rio das Flores Moto Fest 2026",
+      "type": "Evento da agenda",
+      "slug": "motofest-rio-das-flores-rj-2026-08-01",
+      "date": "2026-07-31",
+      "category": "Festival de motociclismo",
+      "city": "Rio das Flores",
+      "state": "RJ",
+      "status": "agendada",
+      "summary": "O 8º Rio das Flores Moto Fest acontece de 31 de julho a 2 de agosto de 2026, no Parque de Eventos, em Rio das Flores (RJ), com expositores, gastronomia, bandas todos os dias, camping, estacionamento gratuito e áreas para motorhomes e triciclos.",
+      "url": "/eventos/motofest-rio-das-flores-rj-2026-08-01/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#motofest-rio-das-flores-rj-2026-08-01"
+    },
+    {
       "title": "8º Rock in Ivaí",
       "type": "Evento da agenda",
       "slug": "8-rock-in-rio-ivai-japura-pr-2026-08-15",
@@ -8090,20 +8104,6 @@
       "url": "/eventos/rider-s-do-norte-mg-jaru-ro-2026-07-24/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#rider-s-do-norte-mg-jaru-ro-2026-07-24"
-    },
-    {
-      "title": "Rio das Flores Moto Fest — 1 de agosto",
-      "type": "Evento da agenda",
-      "slug": "motofest-rio-das-flores-rj-2026-08-01",
-      "date": "2026-08-01",
-      "category": "Festival de motociclismo",
-      "city": "Rio das Flores",
-      "state": "RJ",
-      "status": "agendada",
-      "summary": "Festival de motociclismo em Rio das Flores/RJ, com data divulgada para 2026-08-01. O flyer foi inspecionado localmente; serviços identificados: área de camping, bandas, expositores.",
-      "url": "/eventos/motofest-rio-das-flores-rj-2026-08-01/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#motofest-rio-das-flores-rj-2026-08-01"
     },
     {
       "title": "Rio das Flores Moto Fest — 31 de julho",
