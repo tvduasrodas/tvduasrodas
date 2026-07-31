@@ -5978,20 +5978,6 @@
       "source": "content/events/agenda-comunitaria-2026.json#lilith-s-mc-monte-mor-sp-2026-09-26"
     },
     {
-      "title": "Live Stream",
-      "type": "Configuração da home",
-      "slug": "live-status",
-      "date": "",
-      "category": "",
-      "city": "",
-      "state": "",
-      "status": "",
-      "summary": "",
-      "url": "/",
-      "edit_url": "/admin/#/collections/home/entries/live_status",
-      "source": "content/home/live-status.md"
-    },
-    {
       "title": "Lobos Cafajestes MC",
       "type": "Evento da agenda",
       "slug": "lobos-cafajestes-mc-porto-ferreira-sp-2026-08-21",
@@ -7320,6 +7306,34 @@
       "url": "/eventos/mundicas-mg-o-chamado-da-estrada-nova-pauliceia-gaviao-peixoto-sp-2026-08-09/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#mundicas-mg-o-chamado-da-estrada-nova-pauliceia-gaviao-peixoto-sp-2026-08-09"
+    },
+    {
+      "title": "MX1 GP Brasil 2026 - 7ª Etapa - Santa Cruz do Capibaribe/PE - Sexta-Feira",
+      "type": "Configuração da home",
+      "slug": "hero-player",
+      "date": "",
+      "category": "",
+      "city": "",
+      "state": "",
+      "status": "",
+      "summary": "",
+      "url": "/",
+      "edit_url": "/admin/#/collections/home/entries/hero_player",
+      "source": "content/home/hero-player.md"
+    },
+    {
+      "title": "MX1 GP Brasil 2026 - 7ª Etapa - Santa Cruz do Capibaribe/PE - Sexta-Feira",
+      "type": "Configuração da home",
+      "slug": "live-status",
+      "date": "",
+      "category": "",
+      "city": "",
+      "state": "",
+      "status": "",
+      "summary": "",
+      "url": "/",
+      "edit_url": "/admin/#/collections/home/entries/live_status",
+      "source": "content/home/live-status.md"
     },
     {
       "title": "MXGP 2026",
@@ -8972,20 +8986,6 @@
       "url": "/eventos/turma-de-cachorro-loco-mc-maua-sp-2026-08-29/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#turma-de-cachorro-loco-mc-maua-sp-2026-08-29"
-    },
-    {
-      "title": "TV Duas Rodas",
-      "type": "Configuração da home",
-      "slug": "hero-player",
-      "date": "",
-      "category": "",
-      "city": "",
-      "state": "",
-      "status": "",
-      "summary": "",
-      "url": "/",
-      "edit_url": "/admin/#/collections/home/entries/hero_player",
-      "source": "content/home/hero-player.md"
     },
     {
       "title": "TVDUASRODAS.COM",
