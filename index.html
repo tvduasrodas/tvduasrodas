@@ -23,6 +23,12 @@
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css?v=20260725responsive1" />
     <link rel="stylesheet" href="assets/css/home-ads.css?v=20260725a" />
+    <style>
+        .video-facade { position: relative; display: block; width: 100%; padding: 0; border: 0; background: #111; cursor: pointer; overflow: hidden; }
+        .video-facade img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
+        .video-facade-play { position: absolute; inset: 50% auto auto 50%; transform: translate(-50%, -50%); display: grid; place-items: center; width: 68px; height: 48px; border-radius: 12px; background: #d71920; color: #fff; font-size: 24px; box-shadow: 0 4px 18px #0008; }
+        .video-facade:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
+    </style>
 </head>
 <body class="page-home">
     <!-- BARRA TOPO (ANÚNCIO) -->
@@ -37,7 +43,7 @@
             <!-- LOGO -->
             <div class="logo-wrapper">
                 <a href="index.html" class="logo-link">
-                    <img src="assets/img/logotv.png" alt="TV Duas Rodas" class="logo-image" />
+                    <img src="assets/img/logotv.png" alt="TV Duas Rodas" class="logo-image" width="878" height="177" decoding="async" />
                 </a>
                 <div class="brand-sub">
                     Motos · Bikes · Scooters · Elétricos
@@ -90,7 +96,7 @@
     <!-- HERO: DESTAQUE + TV AO VIVO / PRINCIPAL -->
     <main>
         <section class="hero hero-portal">
-            <div class="hero-bg"></div>
+            <div class="hero-bg" style="background-image: none;"></div>
             <div class="container hero-grid">
                 <!-- Destaque Revista -->
                 <article class="hero-article">
@@ -121,15 +127,8 @@
                     </div>
 
                     <!-- Player principal (YouTube embed) -->
-                    <div class="video-embed-wrapper">
-                        <!-- Substitua o src pelo ID do seu vídeo oficial -->
-                        <iframe src="https://www.youtube.com/embed/VIDEO_ID?autoplay=1&mute=1&playsinline=1"
-                                title="TV Duas Rodas"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen
-                                loading="lazy">
-                        </iframe>
+                    <div class="video-embed-wrapper" id="hero-video-player" aria-live="polite">
+                        <div class="video-facade" role="status" aria-label="Carregando vídeo em destaque"></div>
                     </div>
 
                     <!-- Área Live (placeholder) -->
@@ -472,8 +471,8 @@
 
 
         async function loadHeroPlayerFromConfig() {
-            const iframe = document.querySelector(".video-embed-wrapper iframe");
-            if (!iframe) return;
+            const wrapper = document.getElementById("hero-video-player");
+            if (!wrapper) return;
 
             try {
                 const res = await fetch(HOME_CONFIG_API_URL);
@@ -496,14 +495,18 @@
                 const youtubeUrl = data.youtube_url || data.youtube || "";
                 const videoId = extractYouTubeId(youtubeUrl);
 
-                if (videoId) {
-                    const params = "?autoplay=1&mute=1&playsinline=1";
-                    iframe.src = `https://www.youtube.com/embed/${videoId}${params}`;
-                }
-
-                if (data.title) {
-                    iframe.title = data.title;
-                }
+                if (!videoId) return;
+                const title = data.title || "TV Duas Rodas";
+                wrapper.innerHTML = `<button type="button" class="video-facade" aria-label="Reproduzir: ${title}">
+                    <img src="https://i.ytimg.com/vi/${videoId}/hqdefault.jpg" alt="" width="480" height="360" fetchpriority="high" decoding="async">
+                    <span class="video-facade-play" aria-hidden="true">▶</span>
+                </button>`;
+                wrapper.querySelector(".video-facade").addEventListener("click", () => {
+                    wrapper.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&playsinline=1"
+                        title="${title}" width="560" height="315" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>`;
+                }, { once: true });
             } catch (err) {
                 console.error("Erro ao carregar config da Home:", err);
             }
@@ -582,7 +585,7 @@
                 <a href="${watchUrl}">
                   <div class="video-thumb real-thumb">
                     ${thumbSrc
-                                ? `<img src="${thumbSrc}" alt="${title}">`
+                                ? `<img src="${thumbSrc}" alt="${title}" width="640" height="360" loading="lazy" decoding="async">`
                                 : ""
                             }
                   </div>
@@ -670,7 +673,7 @@
                   <article class="video-card">
                     <a href="${watchUrl}">
                       <div class="video-thumb real-thumb">
-                        ${thumbSrc ? `<img src="${thumbSrc}" alt="${title}">` : ""}
+                        ${thumbSrc ? `<img src="${thumbSrc}" alt="${title}" width="640" height="360" loading="lazy" decoding="async">` : ""}
                       </div>
                       <div class="card" style="margin-top: 8px;">
                         <h3>${title}</h3>
@@ -773,7 +776,7 @@
                       ${imgSrc
                                 ? `
                       <div class="article-thumb real-thumb">
-                        <img src="${imgSrc}" alt="${title}">
+                        <img src="${imgSrc}" alt="${title}" width="640" height="360" loading="lazy" decoding="async">
                       </div>
                       `
                                 : ""
