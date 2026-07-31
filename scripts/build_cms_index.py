@@ -206,6 +206,10 @@ def index_consolidated(rows: list[dict]) -> None:
         for item in data.get("entries", []):
             if not isinstance(item, dict):
                 continue
+            if path.name == "agenda-comunitaria-2026.json" and (
+                item.get("duplicate_of") or item.get("reclassified_as") == "competition"
+            ):
+                continue
             base = " ".join(
                 str(part or "")
                 for part in (

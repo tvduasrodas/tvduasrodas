@@ -320,7 +320,11 @@
             }));
             const eventMap = new Map();
             const curatedSlugs = new Set(curatedEvents.flatMap((item) => [item.slug, ...(item.aliases || [])]).filter(Boolean));
-            const communityEvents = (communityAgenda.entries || []).filter((item) => !curatedSlugs.has(item.slug));
+            const communityEvents = (communityAgenda.entries || []).filter((item) =>
+                !curatedSlugs.has(item.slug) &&
+                !item.duplicate_of &&
+                item.reclassified_as !== "competition"
+            );
             [...curatedEvents, ...communityEvents, ...calendarEvents].forEach((item) => {
                 const slug = item.slug || slugify(`${item.title}-${item.city}-${item.start_date}`);
                 const key = [
@@ -500,6 +504,14 @@
             } catch (_) {
                 const communityAgenda = await fetchData("content/events/agenda-comunitaria-2026.json").catch(() => ({ entries: [] }));
                 item = (communityAgenda.entries || []).find((candidate) => candidate.slug === slug);
+                if (item?.duplicate_of) {
+                    window.location.replace(`/eventos/${slugify(item.duplicate_of)}/`);
+                    return;
+                }
+                if (item?.reclassified_as === "competition" && item.competition_slug) {
+                    window.location.replace(`/competicoes/${slugify(item.competition_slug)}/`);
+                    return;
+                }
                 if (!item) {
                     const calendar = await fetchData("content/calendar/cbm-2026.json");
                     const entry = (calendar.entries || []).find((candidate) =>
