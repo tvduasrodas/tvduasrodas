@@ -1,15 +1,15 @@
 {
-  "total_records": 651,
-  "canonical_records": 604,
-  "complete_records": 370,
-  "incomplete_records": 234,
+  "total_records": 654,
+  "canonical_records": 590,
+  "complete_records": 366,
+  "incomplete_records": 224,
   "by_kind": {
     "agenda": {
-      "total": 510,
-      "complete": 282
+      "total": 493,
+      "complete": 277
     },
     "evento": {
-      "total": 12,
+      "total": 13,
       "complete": 12
     },
     "calendario": {
@@ -17,8 +17,8 @@
       "complete": 56
     },
     "competicao": {
-      "total": 20,
-      "complete": 20
+      "total": 22,
+      "complete": 21
     }
   },
   "queue": [
@@ -46,24 +46,7 @@
       "date": "2026-07-24",
       "city": "Campos dos Goytacazes",
       "state": "RJ",
-      "source_count": 2,
-      "independent_domains": 1,
-      "specific_independent_domains": 1,
-      "placeholder_fields": 4,
-      "missing": [
-        "duas_fontes_especificas_independentes"
-      ],
-      "complete": false,
-      "duplicate_of": null
-    },
-    {
-      "kind": "agenda",
-      "slug": "mc-campos-compos-dos-goytacazes-rj-2026-07-24",
-      "title": "MC Campos",
-      "date": "2026-07-24",
-      "city": "Compos dos Goytacazes",
-      "state": "RJ",
-      "source_count": 2,
+      "source_count": 4,
       "independent_domains": 1,
       "specific_independent_domains": 1,
       "placeholder_fields": 4,
@@ -76,7 +59,7 @@
     {
       "kind": "agenda",
       "slug": "2-biker-fest-feraz-de-vasconcelos-sp-2026-07-25",
-      "title": "2 Biker Fest",
+      "title": "2 Biker Fest de Feraz de Vasconcelos",
       "date": "2026-07-25",
       "city": "Feraz de Vasconcelos",
       "state": "SP",
@@ -93,7 +76,7 @@
     {
       "kind": "agenda",
       "slug": "2-encontro-de-motociclistas-nova-resende-mg-2026-07-25",
-      "title": "2 Encontro de Motociclistas",
+      "title": "2 Encontro de Motociclistas de Nova Resende",
       "date": "2026-07-25",
       "city": "Nova Resende",
       "state": "MG",
@@ -229,7 +212,7 @@
     {
       "kind": "agenda",
       "slug": "motorock-e-amizade-itauna-mg-2026-07-25",
-      "title": "MOTOROCK e AMIZADE",
+      "title": "MOTOROCK e AMIZADE de Itauna",
       "date": "2026-07-25",
       "city": "Itauna",
       "state": "MG",
@@ -246,7 +229,7 @@
     {
       "kind": "agenda",
       "slug": "motorock-turmalina-mg-2026-07-25",
-      "title": "MOTOROCK",
+      "title": "MOTOROCK de Turmalina",
       "date": "2026-07-25",
       "city": "Turmalina",
       "state": "MG",
@@ -254,23 +237,6 @@
       "independent_domains": 1,
       "specific_independent_domains": 1,
       "placeholder_fields": 4,
-      "missing": [
-        "duas_fontes_especificas_independentes"
-      ],
-      "complete": false,
-      "duplicate_of": null
-    },
-    {
-      "kind": "agenda",
-      "slug": "pererecas-mc-belford-roxo-rio-de-janeiro-rj-2026-07-25",
-      "title": "Pererecas MC",
-      "date": "2026-07-25",
-      "city": "Belford Roxo - Rio de Janeiro",
-      "state": "RJ",
-      "source_count": 2,
-      "independent_domains": 1,
-      "specific_independent_domains": 1,
-      "placeholder_fields": 3,
       "missing": [
         "duas_fontes_especificas_independentes"
       ],
@@ -331,7 +297,7 @@
     {
       "kind": "agenda",
       "slug": "2-moto-cafe-tres-marias-mg-2026-07-26",
-      "title": "2 MOTO CAFE",
+      "title": "2 MOTO CAFE de Tres Marias",
       "date": "2026-07-26",
       "city": "Tres Marias",
       "state": "MG",
@@ -518,7 +484,7 @@
     {
       "kind": "agenda",
       "slug": "missa-dos-motociclistas-catas-altas-mg-2026-07-26",
-      "title": "Missa dos Motociclistas",
+      "title": "Missa dos Motociclistas de Catas Altas",
       "date": "2026-07-26",
       "city": "Catas Altas",
       "state": "MG",
@@ -552,7 +518,7 @@
     {
       "kind": "agenda",
       "slug": "missa-dos-motociclistas-volta-redonda-rj-2026-07-27",
-      "title": "Missa dos Motociclistas",
+      "title": "Missa dos Motociclistas de Volta Redonda",
       "date": "2026-07-27",
       "city": "Volta Redonda",
       "state": "RJ",
@@ -569,7 +535,7 @@
     {
       "kind": "agenda",
       "slug": "encontro-de-motociclistas-belo-horizonte-mg-2026-07-28",
-      "title": "Encontro de Motociclistas",
+      "title": "Encontro de Motociclistas de Belo Horizonte",
       "date": "2026-07-28",
       "city": "Belo Horizonte",
       "state": "MG",
@@ -586,7 +552,7 @@
     {
       "kind": "agenda",
       "slug": "ilha-mc-ilha-do-governador-rj-2026-07-28",
-      "title": "Ilha MC",
+      "title": "Ilha MC de Ilha do Governador — 28 de julho",
       "date": "2026-07-28",
       "city": "Ilha do Governador",
       "state": "RJ",
@@ -620,7 +586,7 @@
     {
       "kind": "agenda",
       "slug": "3-encontro-de-motociclistas-penedo-mg-2026-07-30",
-      "title": "3 Encontro de Motociclistas",
+      "title": "3 Encontro de Motociclistas de Penedo",
       "date": "2026-07-30",
       "city": "Penedo",
       "state": "MG",
@@ -658,24 +624,7 @@
       "date": "2026-07-30",
       "city": "Iguatu",
       "state": "CE",
-      "source_count": 2,
-      "independent_domains": 1,
-      "specific_independent_domains": 1,
-      "placeholder_fields": 4,
-      "missing": [
-        "duas_fontes_especificas_independentes"
-      ],
-      "complete": false,
-      "duplicate_of": null
-    },
-    {
-      "kind": "agenda",
-      "slug": "motofest-iguatu-pr-2026-07-30",
-      "title": "Iguatu Moto Fest",
-      "date": "2026-07-30",
-      "city": "Iguatu",
-      "state": "PR",
-      "source_count": 2,
+      "source_count": 4,
       "independent_domains": 1,
       "specific_independent_domains": 1,
       "placeholder_fields": 4,
@@ -726,23 +675,6 @@
       "date": "2026-07-31",
       "city": "Carmo do Rio Claro",
       "state": "MG",
-      "source_count": 2,
-      "independent_domains": 1,
-      "specific_independent_domains": 1,
-      "placeholder_fields": 4,
-      "missing": [
-        "duas_fontes_especificas_independentes"
-      ],
-      "complete": false,
-      "duplicate_of": null
-    },
-    {
-      "kind": "agenda",
-      "slug": "motofest-serra-es-2026-07-31",
-      "title": "Serra Moto Fest",
-      "date": "2026-07-31",
-      "city": "Serra",
-      "state": "ES",
       "source_count": 2,
       "independent_domains": 1,
       "specific_independent_domains": 1,
@@ -807,7 +739,7 @@
     {
       "kind": "agenda",
       "slug": "bodes-do-asfalto-mc-praia-grande-sp-2026-08-01",
-      "title": "Bodes do Asfalto MC",
+      "title": "Bodes do Asfalto MC de Praia Grande",
       "date": "2026-08-01",
       "city": "Praia Grande",
       "state": "SP",
@@ -858,7 +790,7 @@
     {
       "kind": "agenda",
       "slug": "irmaos-das-sombras-mc-rio-de-janerio-rj-2026-08-01",
-      "title": "Irmaos das Sombras MC",
+      "title": "Irmaos das Sombras MC de Rio de Janerio",
       "date": "2026-08-01",
       "city": "Rio de Janerio",
       "state": "RJ",
@@ -875,26 +807,9 @@
     {
       "kind": "agenda",
       "slug": "irmaos-das-sombras-mc-senador-vasconcelos-rio-de-janeiro-rj-2026-08-01",
-      "title": "Irmaos das Sombras MC",
+      "title": "Irmaos das Sombras MC de Senador Vasconcelos",
       "date": "2026-08-01",
       "city": "Senador Vasconcelos - Rio de Janeiro",
-      "state": "RJ",
-      "source_count": 2,
-      "independent_domains": 1,
-      "specific_independent_domains": 1,
-      "placeholder_fields": 4,
-      "missing": [
-        "duas_fontes_especificas_independentes"
-      ],
-      "complete": false,
-      "duplicate_of": null
-    },
-    {
-      "kind": "agenda",
-      "slug": "irmaos-das-sombras-mc-senador-vasconcelos-rio-de-janerio-rj-2026-08-01",
-      "title": "Irmaos das Sombras MC",
-      "date": "2026-08-01",
-      "city": "Senador Vasconcelos - Rio de Janerio",
       "state": "RJ",
       "source_count": 2,
       "independent_domains": 1,
@@ -1079,7 +994,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-iati-pe-2026-08-07",
-      "title": "Iati Moto Fest",
+      "title": "Iati Moto Fest — 7 de agosto",
       "date": "2026-08-07",
       "city": "Iati",
       "state": "PE",
@@ -1113,7 +1028,7 @@
     {
       "kind": "agenda",
       "slug": "motorock-macaubas-ba-2026-08-07",
-      "title": "MOTOROCK",
+      "title": "MOTOROCK de Macaubas — 7 de agosto",
       "date": "2026-08-07",
       "city": "Macaubas",
       "state": "BA",
@@ -1283,7 +1198,7 @@
     {
       "kind": "agenda",
       "slug": "motorock-macaubas-ba-2026-08-08",
-      "title": "MOTOROCK",
+      "title": "MOTOROCK de Macaubas — 8 de agosto",
       "date": "2026-08-08",
       "city": "Macaubas",
       "state": "BA",
@@ -1317,7 +1232,7 @@
     {
       "kind": "agenda",
       "slug": "terapia-na-estrada-macae-rj-2026-08-08",
-      "title": "Terapia na estrada",
+      "title": "Terapia na estrada de Macae — 8 de agosto",
       "date": "2026-08-08",
       "city": "Macae",
       "state": "RJ",
@@ -1453,7 +1368,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-iati-pe-2026-08-14",
-      "title": "Iati Moto Fest",
+      "title": "Iati Moto Fest — 14 de agosto",
       "date": "2026-08-14",
       "city": "Iati",
       "state": "PE",
@@ -1487,7 +1402,7 @@
     {
       "kind": "agenda",
       "slug": "motofest-piunhi-mg-2026-08-14",
-      "title": "Piumhi Moto Fest",
+      "title": "Piumhi Moto Fest de Piunhi",
       "date": "2026-08-14",
       "city": "Piunhi",
       "state": "MG",
@@ -1521,7 +1436,7 @@
     {
       "kind": "agenda",
       "slug": "ultr-moto-fest-alcobaca-ba-2026-08-14",
-      "title": "Ultr Moto Fest",
+      "title": "Ultr Moto Fest de Alcobaca",
       "date": "2026-08-14",
       "city": "Alcobaca",
       "state": "BA",
@@ -1639,23 +1554,6 @@
     },
     {
       "kind": "agenda",
-      "slug": "ilha-mc-ilha-do-governador-rio-de-janeiro-rj-2026-08-15",
-      "title": "Ilha MC",
-      "date": "2026-08-15",
-      "city": "Ilha do Governador - Rio de Janeiro",
-      "state": "RJ",
-      "source_count": 2,
-      "independent_domains": 1,
-      "specific_independent_domains": 1,
-      "placeholder_fields": 4,
-      "missing": [
-        "duas_fontes_especificas_independentes"
-      ],
-      "complete": false,
-      "duplicate_of": null
-    },
-    {
-      "kind": "agenda",
       "slug": "lady-rider-mg-jacana-sao-paulo-sp-2026-08-15",
       "title": "Lady Rider MG",
       "date": "2026-08-15",
@@ -1725,7 +1623,7 @@
     {
       "kind": "agenda",
       "slug": "terapia-na-estrada-macae-rj-2026-08-15",
-      "title": "Terapia na Estrada",
+      "title": "Terapia na Estrada de Macae — 15 de agosto",
       "date": "2026-08-15",
       "city": "Macae",
       "state": "RJ",
@@ -1793,7 +1691,7 @@
     {
       "kind": "agenda",
       "slug": "ronin-mc-itabira-mg-2026-08-16",
-      "title": "Ronin MC",
+      "title": "Ronin MC de Itabira — 16 de agosto",
       "date": "2026-08-16",
       "city": "Itabira",
       "state": "MG",
@@ -1810,7 +1708,7 @@
     {
       "kind": "agenda",
       "slug": "15-encontro-de-motociclistas-santo-antonio-do-monte-mg-2026-08-21",
-      "title": "15 Encontro de Motociclistas",
+      "title": "15 Encontro de Motociclistas de Santo Antonio do Monte",
       "date": "2026-08-21",
       "city": "Santo Antonio do Monte",
       "state": "MG",
@@ -1962,23 +1860,6 @@
     },
     {
       "kind": "agenda",
-      "slug": "espirito-de-agua-mc-contagem-mg-2026-08-22",
-      "title": "Espirito de Agua MC",
-      "date": "2026-08-22",
-      "city": "Contagem",
-      "state": "MG",
-      "source_count": 2,
-      "independent_domains": 1,
-      "specific_independent_domains": 1,
-      "placeholder_fields": 3,
-      "missing": [
-        "duas_fontes_especificas_independentes"
-      ],
-      "complete": false,
-      "duplicate_of": null
-    },
-    {
-      "kind": "agenda",
       "slug": "guardiao-do-destino-mf-salto-de-pirapora-sp-2026-08-22",
       "title": "Guardiao do Destino MF",
       "date": "2026-08-22",
@@ -2065,7 +1946,7 @@
     {
       "kind": "agenda",
       "slug": "5-encontro-de-motociclistas-cravinhos-sp-2026-08-23",
-      "title": "5 Encontro de Motociclistas",
+      "title": "5 Encontro de Motociclistas de Cravinhos",
       "date": "2026-08-23",
       "city": "Cravinhos",
       "state": "SP",
@@ -2116,7 +1997,7 @@
     {
       "kind": "agenda",
       "slug": "motorock-bertopolis-mg-2026-08-23",
-      "title": "MOTOROCK",
+      "title": "MOTOROCK de Bertopolis",
       "date": "2026-08-23",
       "city": "Bertopolis",
       "state": "MG",
@@ -2166,23 +2047,6 @@
     },
     {
       "kind": "agenda",
-      "slug": "moto-fest-senador-amaral-mg-2026-08-28",
-      "title": "Senador Amaral Moto Fest",
-      "date": "2026-08-28",
-      "city": "Senador Amaral",
-      "state": "MG",
-      "source_count": 2,
-      "independent_domains": 1,
-      "specific_independent_domains": 1,
-      "placeholder_fields": 4,
-      "missing": [
-        "duas_fontes_especificas_independentes"
-      ],
-      "complete": false,
-      "duplicate_of": null
-    },
-    {
-      "kind": "agenda",
       "slug": "motofest-alagoinhas-ba-2026-08-28",
       "title": "Alagoinhas Moto Fest",
       "date": "2026-08-28",
@@ -2192,23 +2056,6 @@
       "independent_domains": 1,
       "specific_independent_domains": 1,
       "placeholder_fields": 4,
-      "missing": [
-        "duas_fontes_especificas_independentes"
-      ],
-      "complete": false,
-      "duplicate_of": null
-    },
-    {
-      "kind": "agenda",
-      "slug": "motofest-araxa-mg-2026-08-28",
-      "title": "Araxá Moto Fest",
-      "date": "2026-08-28",
-      "city": "Araxa",
-      "state": "MG",
-      "source_count": 2,
-      "independent_domains": 1,
-      "specific_independent_domains": 1,
-      "placeholder_fields": 3,
       "missing": [
         "duas_fontes_especificas_independentes"
       ],
@@ -2235,27 +2082,10 @@
     {
       "kind": "agenda",
       "slug": "trike-brasil-mc-tri-vale-resende-rj-2026-08-28",
-      "title": "Trike Brasil MC",
+      "title": "Trike Brasil MC de Tri-Vale",
       "date": "2026-08-28",
       "city": "Tri-Vale - Resende",
       "state": "RJ",
-      "source_count": 2,
-      "independent_domains": 1,
-      "specific_independent_domains": 1,
-      "placeholder_fields": 4,
-      "missing": [
-        "duas_fontes_especificas_independentes"
-      ],
-      "complete": false,
-      "duplicate_of": null
-    },
-    {
-      "kind": "agenda",
-      "slug": "v-encontro-nacional-ijaci-mg-2026-08-28",
-      "title": "V Encontro Nacional",
-      "date": "2026-08-28",
-      "city": "Ijaci",
-      "state": "MG",
       "source_count": 2,
       "independent_domains": 1,
       "specific_independent_domains": 1,
@@ -2337,7 +2167,7 @@
     {
       "kind": "agenda",
       "slug": "11-encontro-de-motociclistas-e-triciclistas-itarare-sp-2026-09-04",
-      "title": "11 Encontro de Motociclistas e Triciclistas",
+      "title": "11 Encontro de Motociclistas e Triciclistas de Itarare",
       "date": "2026-09-04",
       "city": "Itarare",
       "state": "SP",
@@ -2490,7 +2320,7 @@
     {
       "kind": "agenda",
       "slug": "santana-motofest-santana-do-ipanema-al-2026-09-04",
-      "title": "SANTANA MOTOFEST",
+      "title": "SANTANA MOTOFEST de Santana do Ipanema",
       "date": "2026-09-04",
       "city": "Santana do Ipanema",
       "state": "AL",
@@ -2626,7 +2456,7 @@
     {
       "kind": "agenda",
       "slug": "lobos-do-asfalto-mc-jardim-america-rio-de-janeiro-rj-2026-09-06",
-      "title": "Lobos do Asfalto MC",
+      "title": "Lobos do Asfalto MC de Jardim America",
       "date": "2026-09-06",
       "city": "Jardim America - Rio de Janeiro",
       "state": "RJ",
@@ -2677,7 +2507,7 @@
     {
       "kind": "agenda",
       "slug": "10-encontro-nacional-de-motociclistas-januaria-mg-2026-09-11",
-      "title": "10 Encontro Nacional de Motociclistas",
+      "title": "10 Encontro Nacional de Motociclistas de Januaria",
       "date": "2026-09-11",
       "city": "Januaria",
       "state": "MG",
@@ -2694,7 +2524,7 @@
     {
       "kind": "agenda",
       "slug": "12-encontro-de-motociclistas-crateus-ce-2026-09-11",
-      "title": "12 Encontro de Motociclistas",
+      "title": "12 Encontro de Motociclistas de Crateus",
       "date": "2026-09-11",
       "city": "Crateus",
       "state": "CE",
@@ -2710,15 +2540,15 @@
     },
     {
       "kind": "agenda",
-      "slug": "12-encontro-de-motociclistas-perdoes-mg-2026-09-11",
-      "title": "12 Encontro de Motociclistas",
+      "slug": "26-encontro-nacional-de-motociclistas-pedra-bela-sp-2026-09-11",
+      "title": "26º Encontro Nacional de Motociclistas de Pedra Bela",
       "date": "2026-09-11",
-      "city": "Perdoes",
-      "state": "MG",
+      "city": "Pedra Bela",
+      "state": "SP",
       "source_count": 2,
       "independent_domains": 1,
       "specific_independent_domains": 1,
-      "placeholder_fields": 4,
+      "placeholder_fields": 2,
       "missing": [
         "duas_fontes_especificas_independentes"
       ],
@@ -2728,7 +2558,7 @@
     {
       "kind": "agenda",
       "slug": "7-jere-moto-fest-jeremoabo-ba-2026-09-11",
-      "title": "7 Jere Moto Fest",
+      "title": "7 Jere Moto Fest de Jeremoabo",
       "date": "2026-09-11",
       "city": "Jeremoabo",
       "state": "BA",
@@ -2796,7 +2626,7 @@
     {
       "kind": "agenda",
       "slug": "niver-amparo-sp-2026-09-12",
-      "title": "NIVER",
+      "title": "NIVER de Amparo",
       "date": "2026-09-12",
       "city": "Amparo",
       "state": "SP",
@@ -2880,23 +2710,6 @@
     },
     {
       "kind": "agenda",
-      "slug": "motofest-caruaru-pe-2026-09-17",
-      "title": "Caruaru Moto Fest",
-      "date": "2026-09-17",
-      "city": "Caruaru",
-      "state": "PE",
-      "source_count": 2,
-      "independent_domains": 1,
-      "specific_independent_domains": 1,
-      "placeholder_fields": 4,
-      "missing": [
-        "duas_fontes_especificas_independentes"
-      ],
-      "complete": false,
-      "duplicate_of": null
-    },
-    {
-      "kind": "agenda",
       "slug": "km-125-mc-campos-dos-goytacazes-rj-2026-09-18",
       "title": "KM 125 MC",
       "date": "2026-09-18",
@@ -2914,25 +2727,8 @@
     },
     {
       "kind": "agenda",
-      "slug": "nostalgia-mc-caes-de-zorba-mc-santa-barbara-d-oeste-sp-2026-09-18",
-      "title": "Nostalgia MC",
-      "date": "2026-09-18",
-      "city": "Caes de Zorba MC - Santa Barbara D Oeste",
-      "state": "SP",
-      "source_count": 2,
-      "independent_domains": 1,
-      "specific_independent_domains": 1,
-      "placeholder_fields": 4,
-      "missing": [
-        "duas_fontes_especificas_independentes"
-      ],
-      "complete": false,
-      "duplicate_of": null
-    },
-    {
-      "kind": "agenda",
       "slug": "fenicios-mc-rio-de-janeiro-rj-2026-09-19",
-      "title": "Fenicios MC",
+      "title": "Fenicios MC de Rio de Janeiro",
       "date": "2026-09-19",
       "city": "Rio de Janeiro",
       "state": "RJ",
@@ -2966,7 +2762,7 @@
     {
       "kind": "agenda",
       "slug": "zapata-mc-embu-guacu-sp-2026-09-19",
-      "title": "Zapata MC",
+      "title": "Zapata MC de Embu Guacu",
       "date": "2026-09-19",
       "city": "Embu Guacu",
       "state": "SP",
@@ -3000,7 +2796,7 @@
     {
       "kind": "agenda",
       "slug": "2-moto-cafe-paraguacu-paulista-sp-2026-09-20",
-      "title": "2 Moto Cafe",
+      "title": "2 Moto Cafe de Paraguacu Paulista",
       "date": "2026-09-20",
       "city": "Paraguacu Paulista",
       "state": "SP",
@@ -3017,7 +2813,7 @@
     {
       "kind": "agenda",
       "slug": "moto-cafe-santopolis-do-aguapei-sp-2026-09-20",
-      "title": "MOTO CAFE",
+      "title": "MOTO CAFE de Santopolis do Aguapei",
       "date": "2026-09-20",
       "city": "Santopolis do Aguapei",
       "state": "SP",
@@ -3068,7 +2864,7 @@
     {
       "kind": "agenda",
       "slug": "frances-moto-fest-praia-do-frances-marechal-deodoro-al-2026-09-25",
-      "title": "Frances Moto Fest",
+      "title": "Frances Moto Fest de Praia do Frances",
       "date": "2026-09-25",
       "city": "Praia do Frances - Marechal Deodoro",
       "state": "AL",
@@ -3408,7 +3204,7 @@
     {
       "kind": "agenda",
       "slug": "ganchos-do-asfalto-mg-santissimo-rio-de-janeiro-rj-2026-10-17",
-      "title": "Ganchos do Asfalto MG",
+      "title": "Ganchos do Asfalto MG de Santissimo",
       "date": "2026-10-17",
       "city": "Santissimo - Rio de Janeiro",
       "state": "RJ",
@@ -3510,7 +3306,7 @@
     {
       "kind": "agenda",
       "slug": "4-festival-da-pimenta-e-motorock-uru-sp-2026-10-30",
-      "title": "4 Festival da Pimenta e MotoRock",
+      "title": "4 Festival da Pimenta e MotoRock de Uru",
       "date": "2026-10-30",
       "city": "Uru",
       "state": "SP",
@@ -3561,7 +3357,7 @@
     {
       "kind": "agenda",
       "slug": "9-encontro-de-motociclistas-e-triciclistas-lutecia-sp-2026-11-06",
-      "title": "9 Encontro de Motociclistas e Triciclistas",
+      "title": "9 Encontro de Motociclistas e Triciclistas de Lutecia",
       "date": "2026-11-06",
       "city": "Lutecia",
       "state": "SP",
@@ -3748,7 +3544,7 @@
     {
       "kind": "agenda",
       "slug": "moto-fest-lagoinha-sao-jose-do-rio-preto-sp-2026-11-21",
-      "title": "Moto Fest Lagoinha",
+      "title": "Moto Fest Lagoinha de Sao Jose do Rio Preto",
       "date": "2026-11-21",
       "city": "Sao Jose do Rio Preto",
       "state": "SP",
@@ -3799,7 +3595,7 @@
     {
       "kind": "agenda",
       "slug": "motorock-pesqueira-pe-2026-11-27",
-      "title": "MOTOROCK",
+      "title": "MOTOROCK de Pesqueira",
       "date": "2026-11-27",
       "city": "Pesqueira",
       "state": "PE",
@@ -3894,6 +3690,23 @@
       "placeholder_fields": 4,
       "missing": [
         "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "evento",
+      "slug": "tour-sao-francisco-itabapoana-2026",
+      "title": "2º Tour São Francisco 2026",
+      "date": "2026-08-07",
+      "city": "São Francisco de Itabapoana",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 2,
+      "specific_independent_domains": 2,
+      "placeholder_fields": 1,
+      "missing": [
+        "evidencia_visual_ou_justificativa"
       ],
       "complete": false,
       "duplicate_of": null
@@ -4000,6 +3813,23 @@
       "missing": [
         "duas_fontes_especificas_independentes",
         "fonte_primaria"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "competicao",
+      "slug": "brasileiro-enduro-regularidade-2026",
+      "title": "Campeonato Brasileiro de Enduro de Regularidade 2026",
+      "date": "2026",
+      "city": null,
+      "state": null,
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 0,
+      "missing": [
+        "duas_fontes_especificas_independentes"
       ],
       "complete": false,
       "duplicate_of": null
