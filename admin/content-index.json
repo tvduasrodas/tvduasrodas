@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "total": 667,
+  "total": 668,
   "counts": {
     "Competição": 22,
     "Configuração da home": 2,
     "Etapa esportiva": 62,
     "Evento": 13,
     "Evento da agenda": 491,
-    "Matéria": 44,
+    "Matéria": 45,
     "Matéria do acervo": 4,
     "Página fixa": 2,
     "Vídeo": 27
@@ -180,6 +180,20 @@
       "url": "/eventos/119-festa-de-nossa-senhora-da-abadia-pirajuba-mg-2026-07-26/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#119-festa-de-nossa-senhora-da-abadia-pirajuba-mg-2026-07-26"
+    },
+    {
+      "title": "11º Encontro de Motociclistas de Perdões",
+      "type": "Evento da agenda",
+      "slug": "11-encontro-de-motociclistas-perdoes-mg-2025-09-12",
+      "date": "2025-09-12",
+      "category": "Encontro de motociclistas",
+      "city": "Perdões",
+      "state": "MG",
+      "status": "concluida",
+      "summary": "O 11º Encontro de Motociclistas de Perdões foi realizado em 12 e 13 de setembro de 2025, na Praça da Caridade, com shows, motociata, feira da mineiridade, praça de alimentação e camping gratuito.",
+      "url": "/eventos/11-encontro-de-motociclistas-perdoes-mg-2025-09-12/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#11-encontro-de-motociclistas-perdoes-mg-2025-09-12"
     },
     {
       "title": "12 Acampamento Nacional Rat Bike do Brasil",
@@ -768,20 +782,6 @@
       "url": "/eventos/26-fmc-sp-cidade-patriarca-sao-paulo-sp-2026-07-25/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#26-fmc-sp-cidade-patriarca-sao-paulo-sp-2026-07-25"
-    },
-    {
-      "title": "26º Encontro Nacional de Motociclistas de Pedra Bela",
-      "type": "Evento da agenda",
-      "slug": "26-encontro-nacional-de-motociclistas-pedra-bela-sp-2026-09-11",
-      "date": "2026-09-11",
-      "category": "Encontro de motociclistas",
-      "city": "Pedra Bela",
-      "state": "SP",
-      "status": "agendada",
-      "summary": "O 26º Encontro Nacional de Motociclistas de Pedra Bela acontece de 11 a 13 de setembro de 2026, no estacionamento do Santuário de Nossa Senhora da Pedra, e celebra os 29 anos do Kaypira Moto Clube.",
-      "url": "/eventos/26-encontro-nacional-de-motociclistas-pedra-bela-sp-2026-09-11/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#26-encontro-nacional-de-motociclistas-pedra-bela-sp-2026-09-11"
     },
     {
       "title": "28º Angra MotoFest de Angra dos Reis",
@@ -7572,6 +7572,20 @@
       "url": "/eventos/old-pistons-volta-redonda-rj-2026-09-12/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#old-pistons-volta-redonda-rj-2026-09-12"
+    },
+    {
+      "title": "Onde assistir ao Campeonato Brasileiro de Motocross ao vivo: horários e programação",
+      "type": "Matéria",
+      "slug": "onde-assistir-campeonato-brasileiro-motocross-2026-ao-vivo",
+      "date": "2026-07-31T09:30:00-04:00",
+      "category": "Eventos",
+      "city": "",
+      "state": "",
+      "status": "",
+      "summary": "Veja onde acompanhar online a Etapa da Moda do Brasileiro de Motocross 2026, com links oficiais, horários de sexta a domingo, categorias e local.",
+      "url": "/materias/onde-assistir-campeonato-brasileiro-motocross-2026-ao-vivo/",
+      "edit_url": "/admin/#/collections/news/entries/onde-assistir-campeonato-brasileiro-motocross-2026-ao-vivo",
+      "source": "content/news/onde-assistir-campeonato-brasileiro-motocross-2026-ao-vivo.md"
     },
     {
       "title": "Os Aguias da Ilha do Governador MC",
