@@ -770,6 +770,20 @@
       "source": "content/events/agenda-comunitaria-2026.json#mantra-mc-sao-joao-da-boa-vista-sp-2026-08-14"
     },
     {
+      "title": "22º Aniversário Irmãos do Vento e 1º Rock Solidário",
+      "type": "Evento da agenda",
+      "slug": "irmaos-do-vento-vinhedo-sp-2026-08-08",
+      "date": "2026-08-08",
+      "category": "Encontro de motociclistas",
+      "city": "Vinhedo",
+      "state": "SP",
+      "status": "agendada",
+      "summary": "O 22º aniversário do Irmãos do Vento Moto Clube e o 1º Rock Solidário acontecem em 8 de agosto de 2026, a partir das 12h, na Praça da Bíblia, em Vinhedo (SP), com três bandas, alimentação, chope e expositores.",
+      "url": "/eventos/irmaos-do-vento-vinhedo-sp-2026-08-08/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#irmaos-do-vento-vinhedo-sp-2026-08-08"
+    },
+    {
       "title": "23º 100 Destino Motofest",
       "type": "Evento da agenda",
       "slug": "motofest-araxa-mg-2026-08-28",
@@ -6130,20 +6144,6 @@
       "url": "/eventos/irmaos-das-sombras-mc-senador-vasconcelos-rio-de-janerio-rj-2026-08-01/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#irmaos-das-sombras-mc-senador-vasconcelos-rio-de-janerio-rj-2026-08-01"
-    },
-    {
-      "title": "Irmaos do Vento",
-      "type": "Evento da agenda",
-      "slug": "irmaos-do-vento-vinhedo-sp-2026-08-08",
-      "date": "2026-08-08",
-      "category": "Encontro de motociclistas",
-      "city": "Vinhedo",
-      "state": "SP",
-      "status": "agendada",
-      "summary": "Encontro de motociclistas em Vinhedo/SP, com data divulgada para 2026-08-08. O flyer foi inspecionado localmente; serviços identificados: ação ou ingresso solidário com alimento, rock, expositores.",
-      "url": "/eventos/irmaos-do-vento-vinhedo-sp-2026-08-08/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#irmaos-do-vento-vinhedo-sp-2026-08-08"
     },
     {
       "title": "Iron Wolves MC",
