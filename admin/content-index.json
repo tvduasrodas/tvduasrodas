@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "total": 667,
+  "total": 668,
   "counts": {
     "Competição": 22,
     "Configuração da home": 2,
     "Etapa esportiva": 62,
     "Evento": 13,
     "Evento da agenda": 491,
-    "Matéria": 44,
+    "Matéria": 45,
     "Matéria do acervo": 4,
     "Página fixa": 2,
     "Vídeo": 27
@@ -7572,6 +7572,20 @@
       "url": "/eventos/old-pistons-volta-redonda-rj-2026-09-12/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#old-pistons-volta-redonda-rj-2026-09-12"
+    },
+    {
+      "title": "Onde assistir ao Campeonato Brasileiro de Motocross ao vivo: horários e programação",
+      "type": "Matéria",
+      "slug": "onde-assistir-campeonato-brasileiro-motocross-2026-ao-vivo",
+      "date": "2026-07-31T09:30:00-04:00",
+      "category": "Eventos",
+      "city": "",
+      "state": "",
+      "status": "",
+      "summary": "Veja onde acompanhar online a Etapa da Moda do Brasileiro de Motocross 2026, com links oficiais, horários de sexta a domingo, categorias e local.",
+      "url": "/materias/onde-assistir-campeonato-brasileiro-motocross-2026-ao-vivo/",
+      "edit_url": "/admin/#/collections/news/entries/onde-assistir-campeonato-brasileiro-motocross-2026-ao-vivo",
+      "source": "content/news/onde-assistir-campeonato-brasileiro-motocross-2026-ao-vivo.md"
     },
     {
       "title": "Os Aguias da Ilha do Governador MC",
