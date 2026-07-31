@@ -1204,5 +1204,28 @@
       "contentId": "18336658981255907",
       "publicationConfirmation": "Meta Business Suite listou o Reel em Conteúdo > Publicado às 17:17 Eastern."
     }
+  },
+  {
+    "url": "https://tvduasrodas.com/evento.html?slug=tour-sao-francisco-itabapoana-2026",
+    "type": "event",
+    "title": "2º Tour São Francisco 2026",
+    "detectedAt": "2026-07-30T20:33:01-04:00",
+    "validation": {
+      "source": "CBC e Prefeitura de São Francisco de Itabapoana; consulta em 30/07/2026",
+      "publicUrl": "PENDENTE_DE_CONFIRMACAO_INDEPENDENTE",
+      "imageAudit": "O cadastro estrutural usa apenas arte institucional do portal. Não há cinco fotografias atuais, distintas e com licença editorial verificável para o slideshow documental obrigatório.",
+      "rights_verified": false,
+      "rights": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES"
+    },
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
+    "stories": {
+      "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES"
+    },
+    "reel": {
+      "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES",
+      "imageAudit": "Não gerar nem publicar parcialmente: o Reel requer de cinco a sete imagens realmente distintas e rights_verified: true."
+    }
   }
 ]
