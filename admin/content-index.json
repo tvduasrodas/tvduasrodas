@@ -1386,20 +1386,6 @@
       "source": "content/events/agenda-comunitaria-2026.json#7-encontro-de-motociclistas-lavras-mg-2026-09-25"
     },
     {
-      "title": "7 Encontro de Motociclistas e Triciclistas de Oliveira Fortes",
-      "type": "Evento da agenda",
-      "slug": "7-encontro-de-motociclistas-e-triciclistas-oliveira-fortes-mg-2026-07-31",
-      "date": "2026-07-31",
-      "category": "Encontro de motociclistas",
-      "city": "Oliveira Fortes",
-      "state": "MG",
-      "status": "agendada",
-      "summary": "Encontro de motociclistas em Oliveira Fortes/MG, com data divulgada para 2026-07-31. O flyer foi inspecionado localmente; serviços identificados: área de camping, rock, shows, troféus, sorteios.",
-      "url": "/eventos/7-encontro-de-motociclistas-e-triciclistas-oliveira-fortes-mg-2026-07-31/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#7-encontro-de-motociclistas-e-triciclistas-oliveira-fortes-mg-2026-07-31"
-    },
-    {
       "title": "7 Encontro Nacional de Motociclistas de Fama",
       "type": "Evento da agenda",
       "slug": "7-encontro-nacional-de-motociclistas-fama-mg-2026-09-11",
@@ -1454,6 +1440,20 @@
       "url": "/eventos/7-62-mc-araguari-sc-2026-10-10/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#7-62-mc-araguari-sc-2026-10-10"
+    },
+    {
+      "title": "7º Encontro de Motociclistas e Triciclistas de Oliveira Fortes",
+      "type": "Evento da agenda",
+      "slug": "7-encontro-de-motociclistas-e-triciclistas-oliveira-fortes-mg-2026-07-31",
+      "date": "2026-07-31",
+      "category": "Encontro de motociclistas",
+      "city": "Oliveira Fortes",
+      "state": "MG",
+      "status": "em_andamento",
+      "summary": "O 7º Encontro de Motociclistas e Triciclistas de Oliveira Fortes acontece de 31 de julho a 2 de agosto de 2026, na Praça Vicente Prata Mourão, no Centro. O evento reúne shows de rock, camping, café da manhã, expositores, sorteio de brindes e casamento em estilo motociclista.",
+      "url": "/eventos/7-encontro-de-motociclistas-e-triciclistas-oliveira-fortes-mg-2026-07-31/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#7-encontro-de-motociclistas-e-triciclistas-oliveira-fortes-mg-2026-07-31"
     },
     {
       "title": "7º Serra Motofest",
