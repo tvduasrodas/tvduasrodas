@@ -1,20 +1,23 @@
 ---
-title: "Onde assistir ao Campeonato Brasileiro de Motocross ao vivo: horários e programação"
-date: "2026-07-31T09:30:00-04:00"
-author: "Redação TVDUASRODAS"
-contentType: "news"
-category: "Eventos"
-ad_category: "competicoes"
-readingTime: "7 min"
-kicker: "Guia de transmissão"
-summary: "Veja onde acompanhar online a Etapa da Moda do Brasileiro de Motocross 2026, com links oficiais, horários de sexta a domingo, categorias e local."
-seoTitle: "Brasileiro de Motocross ao vivo: onde assistir e horários"
-cover: "/assets/img/uploads/mx1gp-santa-cruz-2026-pista-publico.webp"
+title: 'Onde assistir ao Campeonato Brasileiro de Motocross ao vivo: horários e programação'
+date: 2026-07-31T09:30:00-04:00
+author: Redação TVDUASRODAS
+contentType: news
+category: Eventos
+ad_category: competicoes
+programLabel: ''
+episodeDuration: ''
+readingTime: 7 min
+summary: Veja onde acompanhar online a Etapa da Moda do Brasileiro de Motocross 2026, com links oficiais, horários de sexta a domingo, categorias e local.
+seoTitle: 'Brasileiro de Motocross ao vivo: onde assistir e horários'
+videoId: ''
+cover: /assets/img/uploads/mx1gp-santa-cruz-2026-pista-publico.webp
 featured: false
+kicker: Guia de transmissão
 featured_revista: false
 ---
 
-O **Campeonato Brasileiro de Motocross 2026** está em Santa Cruz do Capibaribe (PE) para uma rodada dupla que também abre o Sul-Americano de Motocross MX1/MX2. Para quem procura **onde assistir ao Campeonato Brasileiro de Motocross ao vivo**, o caminho oficial é o canal **Sportbay TV no YouTube**, responsável pelas transmissões do MX1 GP Brasil.
+O **Campeonato Brasileiro de Motocross 2026** está em Santa Cruz do Capibaribe (PE) para uma rodada dupla que também abre o Sul-Americano de Motocross MX1/MX2. Para quem procura **onde assistir ao Campeonato Brasileiro de Motocross ao vivo**, o caminho oficial é o canal **Sportbay TV no YouTube**, responsável pelas transmissões do MX1 GP Brasil, e tambem aqui no TVDUASRODAS, va para a pagina TV & Videos e la encontra a Transmissao Ao Vivo!
 
 As atividades de pista acontecem de **sexta-feira, 31 de julho, a domingo, 2 de agosto**, sempre pelo horário de Brasília. A grade oficial começa às 8h nos três dias, com corridas das categorias principais a partir de 12h25 na sexta e no domingo. Como a operação de uma prova pode mudar por clima, manutenção de pista ou decisão da direção, vale abrir os canais oficiais pouco antes do horário previsto.
 
@@ -48,7 +51,7 @@ A sexta-feira abre a primeira rodada para MX1, MX2, MXJR e MX3. A secretaria e a
 
 ![Programação oficial de sexta-feira do Brasileiro de Motocross em Santa Cruz do Capibaribe](/assets/img/uploads/brasileiro-motocross-2026-programacao-sexta.webp "Treinos, classificatórias e provas oficiais de sexta-feira, 31 de julho")
 
-*Arte: MX1 GP Brasil / Sportbay / divulgação.*
+_Arte: MX1 GP Brasil / Sportbay / divulgação._
 
 ## Horários de sábado, 1º de agosto
 
@@ -71,7 +74,7 @@ O sábado é dedicado às categorias MX4, MX2JR, 50cc, MX5, 65cc e Regional Naci
 
 ![Programação oficial de sábado do Brasileiro de Motocross em Santa Cruz do Capibaribe](/assets/img/uploads/brasileiro-motocross-2026-programacao-sabado.webp "Treinos, classificatórias e provas oficiais de sábado, 1º de agosto")
 
-*Arte: MX1 GP Brasil / Sportbay / divulgação.*
+_Arte: MX1 GP Brasil / Sportbay / divulgação._
 
 ## Horários de domingo, 2 de agosto
 
@@ -89,7 +92,7 @@ O domingo repete a estrutura esportiva das classes MX1, MX2, MXJR e MX3 e fecha 
 
 ![Programação oficial de domingo do Brasileiro de Motocross em Santa Cruz do Capibaribe](/assets/img/uploads/brasileiro-motocross-2026-programacao-domingo.webp "Treinos, classificatórias e provas oficiais de domingo, 2 de agosto")
 
-*Arte: MX1 GP Brasil / Sportbay / divulgação.*
+_Arte: MX1 GP Brasil / Sportbay / divulgação._
 
 ## Categorias da Etapa da Moda
 
@@ -114,4 +117,4 @@ O organizador informa que a pista tem aproximadamente 1.850 metros e que a estru
 - [Consultar programação e resultados no MX1 GP Brasil](https://mx1gpbrasil.com.br/)
 - [Ver a central do Brasileiro de Motocross 2026 na TVDUASRODAS](/competicoes/brasileiro-motocross-2026/)
 
-*Programação conferida nos materiais oficiais do MX1 GP Brasil em 31 de julho de 2026. Os horários podem sofrer alterações por decisão da organização.*
+_Programação conferida nos materiais oficiais do MX1 GP Brasil em 31 de julho de 2026. Os horários podem sofrer alterações por decisão da organização._
