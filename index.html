@@ -23,12 +23,6 @@
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css?v=20260725responsive1" />
     <link rel="stylesheet" href="assets/css/home-ads.css?v=20260725a" />
-    <style>
-        .video-facade { position: relative; display: block; width: 100%; padding: 0; border: 0; background: #111; cursor: pointer; overflow: hidden; }
-        .video-facade img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
-        .video-facade-play { position: absolute; inset: 50% auto auto 50%; transform: translate(-50%, -50%); display: grid; place-items: center; width: 68px; height: 48px; border-radius: 12px; background: #d71920; color: #fff; font-size: 24px; box-shadow: 0 4px 18px #0008; }
-        .video-facade:focus-visible { outline: 3px solid #fff; outline-offset: 3px; }
-    </style>
 </head>
 <body class="page-home">
     <!-- BARRA TOPO (ANÚNCIO) -->
@@ -127,8 +121,15 @@
                     </div>
 
                     <!-- Player principal (YouTube embed) -->
-                    <div class="video-embed-wrapper" id="hero-video-player" aria-live="polite">
-                        <div class="video-facade" role="status" aria-label="Carregando vídeo em destaque"></div>
+                    <div class="video-embed-wrapper" id="hero-video-player">
+                        <iframe src="about:blank"
+                                title="TV Duas Rodas"
+                                width="560"
+                                height="315"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen>
+                        </iframe>
                     </div>
 
                     <!-- Área Live (placeholder) -->
@@ -472,7 +473,8 @@
 
         async function loadHeroPlayerFromConfig() {
             const wrapper = document.getElementById("hero-video-player");
-            if (!wrapper) return;
+            const iframe = wrapper ? wrapper.querySelector("iframe") : null;
+            if (!iframe) return;
 
             try {
                 const res = await fetch(HOME_CONFIG_API_URL);
@@ -496,17 +498,8 @@
                 const videoId = extractYouTubeId(youtubeUrl);
 
                 if (!videoId) return;
-                const title = data.title || "TV Duas Rodas";
-                wrapper.innerHTML = `<button type="button" class="video-facade" aria-label="Reproduzir: ${title}">
-                    <img src="https://i.ytimg.com/vi/${videoId}/hqdefault.jpg" alt="" width="480" height="360" fetchpriority="high" decoding="async">
-                    <span class="video-facade-play" aria-hidden="true">▶</span>
-                </button>`;
-                wrapper.querySelector(".video-facade").addEventListener("click", () => {
-                    wrapper.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&playsinline=1"
-                        title="${title}" width="560" height="315" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen></iframe>`;
-                }, { once: true });
+                iframe.title = data.title || "TV Duas Rodas";
+                iframe.src = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&mute=1&playsinline=1&rel=0`;
             } catch (err) {
                 console.error("Erro ao carregar config da Home:", err);
             }
