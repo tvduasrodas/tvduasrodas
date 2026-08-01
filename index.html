@@ -122,7 +122,7 @@
 
                     <!-- Player principal (YouTube embed) -->
                     <div class="video-embed-wrapper" id="hero-video-player">
-                        <iframe src="about:blank"
+                        <iframe id="heroPlayer" src="about:blank"
                                 title="TV Duas Rodas"
                                 width="560"
                                 height="315"
@@ -138,6 +138,10 @@
                             <span class="live-label">Live Stream</span>
                             <span class="live-status live-status-off">Offline</span>
                         </div>
+                        <p class="live-viewers" data-live-viewers hidden aria-live="polite">
+                            <strong data-live-viewers-count>0</strong>
+                            <span data-live-viewers-label>pessoas assistindo agora</span>
+                        </p>
                         <p class="live-message">
                             Quando estivermos ao vivo, este espaço será ocupado pela transmissão
                             em tempo real (YouTube Live, Twitch ou outro player).
@@ -280,6 +284,7 @@
     <!-- JS -->
     <script src="assets/js/ads.js?v=20260726ga1"></script>
     <script src="assets/js/main.js?v=20260731visibility1"></script>
+    <script src="assets/js/live-viewers.js?v=20260801a"></script>
     <script>
         // CONFIGURE AQUI:
         const GITHUB_OWNER = "tvduasrodas";
@@ -290,6 +295,7 @@
         const VIDEOS_PATH = "content/videos";
         const LIVE_CONFIG_FILE = "content/home/live-status.md";
         const HOME_CONFIG_FILE = "content/home/hero-player.md";
+        let HOME_IS_LIVE = false;
 
         // URLs da API do GitHub
         const GITHUB_API_URL = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${VIDEOS_PATH}?ref=${GITHUB_BRANCH}`;
@@ -434,6 +440,7 @@
                 }
 
                 if (isLive) {
+                    HOME_IS_LIVE = true;
                     if (statusEl) {
                         statusEl.textContent = "Ao vivo";
                         statusEl.classList.remove("live-status-off");
@@ -450,7 +457,16 @@
                     } else if (ctaEl) {
                         ctaEl.style.display = "none";
                     }
+
+                    const livePlayer = document.getElementById("heroPlayer");
+                    const liveVideoId = extractYouTubeId(liveUrl);
+                    if (livePlayer && liveVideoId) {
+                        livePlayer.src = `https://www.youtube-nocookie.com/embed/${liveVideoId}?autoplay=1&mute=1&playsinline=1&rel=0&enablejsapi=1&origin=${encodeURIComponent(location.origin)}`;
+                        window.TDRLiveViewers?.start(livePlayer);
+                    }
                 } else {
+                    HOME_IS_LIVE = false;
+                    window.TDRLiveViewers?.stop();
                     if (statusEl) {
                         statusEl.textContent = "Offline";
                         statusEl.classList.remove("live-status-on");
@@ -497,7 +513,7 @@
                 const youtubeUrl = data.youtube_url || data.youtube || "";
                 const videoId = extractYouTubeId(youtubeUrl);
 
-                if (!videoId) return;
+                if (!videoId || HOME_IS_LIVE) return;
                 iframe.title = data.title || "TV Duas Rodas";
                 iframe.src = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&mute=1&playsinline=1&rel=0`;
             } catch (err) {

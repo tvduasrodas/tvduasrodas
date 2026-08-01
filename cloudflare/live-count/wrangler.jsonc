@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "tvduasrodas-live-count",
+  "main": "src/index.js",
+  "compatibility_date": "2026-08-01",
+  "durable_objects": {
+    "bindings": [
+      { "name": "LIVE_ROOM", "class_name": "LiveRoom" }
+    ]
+  },
+  "migrations": [
+    { "tag": "v1", "new_sqlite_classes": ["LiveRoom"] }
+  ],
+  "routes": [
+    { "pattern": "live-count.tvduasrodas.com", "custom_domain": true }
+  ]
+}

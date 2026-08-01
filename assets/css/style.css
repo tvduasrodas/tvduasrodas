@@ -739,6 +739,25 @@ button {
     color: #9ca3af;
 }
 
+.live-viewers {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    margin: 10px 0 0;
+    color: #fca5a5;
+    font-size: 13px;
+}
+
+.live-viewers[hidden] {
+    display: none;
+}
+
+.live-viewers strong {
+    color: #fff;
+    font-size: 20px;
+    line-height: 1;
+}
+
 /* =========================================================
    BOTÕES
    ========================================================= */
