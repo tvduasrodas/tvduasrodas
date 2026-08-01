@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Roteiro Estrada da Graciosa, Morretes e Antonina</title>
+  <desc id="desc">Sequência aproximada do passeio de um dia saindo de Curitiba e retornando pela BR-277.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#11281f"/><stop offset="1" stop-color="#07130f"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="1600" height="900" rx="40" fill="url(#bg)"/>
+  <text x="90" y="100" fill="#fff" font-family="Arial, sans-serif" font-size="54" font-weight="700">Estrada da Graciosa em um dia</text>
+  <text x="90" y="152" fill="#b9d7c5" font-family="Arial, sans-serif" font-size="27">Curitiba → Morretes → Antonina → Curitiba</text>
+  <g fill="none" stroke="#f4c24b" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M160 430 C310 305 410 300 535 405 S770 585 890 430 S1120 280 1260 410 S1400 570 1450 435"/>
+  </g>
+  <g font-family="Arial, sans-serif" filter="url(#shadow)">
+    <g transform="translate(160 430)"><circle r="34" fill="#f4c24b"/><circle r="13" fill="#11281f"/><text x="-70" y="82" fill="#fff" font-size="30" font-weight="700">Curitiba</text><text x="-55" y="116" fill="#b9d7c5" font-size="22">7h30</text></g>
+    <g transform="translate(535 405)"><circle r="34" fill="#f4c24b"/><circle r="13" fill="#11281f"/><text x="-110" y="-72" fill="#fff" font-size="30" font-weight="700">Quatro Barras</text><text x="-115" y="-40" fill="#b9d7c5" font-size="22">portal • cerca de 37 km</text></g>
+    <g transform="translate(890 430)"><circle r="34" fill="#f4c24b"/><circle r="13" fill="#11281f"/><text x="-72" y="82" fill="#fff" font-size="30" font-weight="700">Morretes</text><text x="-92" y="116" fill="#b9d7c5" font-size="22">almoço • ~76 km</text></g>
+    <g transform="translate(1260 410)"><circle r="34" fill="#f4c24b"/><circle r="13" fill="#11281f"/><text x="-62" y="-72" fill="#fff" font-size="30" font-weight="700">Antonina</text><text x="-70" y="-40" fill="#b9d7c5" font-size="22">tarde • +14 km</text></g>
+    <g transform="translate(1450 435)"><circle r="34" fill="#f4c24b"/><circle r="13" fill="#11281f"/><text x="-125" y="82" fill="#fff" font-size="30" font-weight="700">Volta à capital</text><text x="-128" y="116" fill="#b9d7c5" font-size="22">PR-408 + BR-277</text></g>
+  </g>
+  <g transform="translate(90 700)" font-family="Arial, sans-serif">
+    <rect width="1420" height="120" rx="24" fill="#fff" opacity=".08"/>
+    <text x="50" y="52" fill="#f4c24b" font-size="32" font-weight="700">~180 km</text><text x="50" y="88" fill="#dcebe1" font-size="22">distância estimada</text>
+    <text x="420" y="52" fill="#f4c24b" font-size="32" font-weight="700">9–11 horas</text><text x="420" y="88" fill="#dcebe1" font-size="22">com almoço e paradas</text>
+    <text x="840" y="52" fill="#f4c24b" font-size="32" font-weight="700">1 dia</text><text x="840" y="88" fill="#dcebe1" font-size="22">retorno antes de escurecer</text>
+    <text x="1130" y="52" fill="#f4c24b" font-size="32" font-weight="700">Tempo seco</text><text x="1130" y="88" fill="#dcebe1" font-size="22">confirme antes de sair</text>
+  </g>
+  <text x="90" y="868" fill="#789986" font-family="Arial, sans-serif" font-size="18">Esquema editorial sem base cartográfica • distâncias aproximadas • não substitui navegação atualizada</text>
+</svg>

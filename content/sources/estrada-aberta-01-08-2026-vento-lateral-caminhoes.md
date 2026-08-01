@@ -2,28 +2,45 @@
 
 - Publicação: 1º de agosto de 2026.
 - Programa: Estrada Aberta.
-- Tema: vento lateral, turbulência e circulação de motocicletas perto de caminhões.
-- Apuração principal: orientações oficiais do DNIT e da PRF.
+- Rota: Curitiba → Quatro Barras → Estrada da Graciosa → Morretes → Antonina → Curitiba.
+- Método: roteiro de planejamento baseado em fontes públicas; não houve viagem presencial da redação nesta data.
 
 ## Fontes editoriais
 
-- DNIT — Direção Defensiva e a linguagem nas estradas para motociclistas: https://www.gov.br/dnit/pt-br/noticias-periodo-eleitoral/direcao-defensiva-e-a-linguagem-nas-estradas-para-motociclistas
-- PRF — Dicas de Segurança para quem vai pegar a estrada: https://www.gov.br/prf/pt-br/noticias/estaduais/minas-gerais/2024/fevereiro/dicas-de-seguranca-da-prf-para-quem-vai-pegar-a-estrada-nesse-carnaval/
-- DNIT — Motociclista, vai viajar de moto?: https://www.gov.br/dnit/pt-br/assuntos/noticias/motociclista-vai-viajar-de-moto-o-dnit-indica-maneiras-seguras-para-voce-nao-ter-problemas-na-estrada
+- Prefeitura de Morretes — Estrada da Graciosa completa 152 anos: https://morretes.pr.gov.br/noticiasView/1618_noticia.html
+- Paraná Turismo — Estrada da Graciosa: https://www.turismo.pr.gov.br/Endereco/Estrada-da-Graciosa
+- Prefeitura de Quatro Barras — Portal da Graciosa via Quatro Barras: https://quatrobarras.pr.gov.br/turismo/portal-da-graciosa-via-quatro-barras
+- Prefeitura de Morretes — Turismo: https://www.morretes.pr.gov.br/pagina/908_Turismo-.html
+- Prefeitura de Morretes — Capital Estadual do Barreado: https://www.morretes.pr.gov.br/noticiasView/1927_morretes-e-reconhecida-como-capital-estadual-do-barreado.html
+- Prefeitura de Morretes — indicação de procedência do barreado: https://www.morretes.pr.gov.br/noticiasView/972_Barreado-e-reconhecido-como-simbolo-da-cultura-gastronomica-do-litoral-do-parana-e-recebe-selo-de-indicacao-de-procedenc.html
+- Morretes Convention & Visitors Bureau — restaurantes e hospedagens: https://www.visitemorretes.com.br/convention
+- Prefeitura de Antonina — tour histórico: https://antonina.pr.gov.br/noticiasView/2010_Tour-historico-valoriza-patrimonio-cultural-e-arquitetonico-de-Antonina.html
+- Prefeitura de Antonina — turismo no litoral: https://antonina.pr.gov.br/noticiasView/2138_Antonina-Se-Consolida-Como-Rota-Do-Turismo-No-Litoral-Do-Parana.html
+- DER-PR — malha rodoviária: https://www.der.pr.gov.br/Pagina/Malha-Rodoviaria
+- DER-PR — planejamento operacional de fiscalização: https://www.der.pr.gov.br/sites/der/arquivos_restritos/files/documento/2025-01/Planejamento_OperacionalRadarBPRv26122024.pdf
+- Corpo de Bombeiros do Paraná — unidade de Morretes: https://www.bombeiros.pr.gov.br/PrevFogo/Pagina/Unidades-de-Atendimento-ao-Publico-8deg-GB-Morretes
+- Cadastro empresarial do Auto Posto Quatro Barras, consultado em 01/08/2026: https://www.econodata.com.br/consulta-empresa/00098401000126-auto-posto-quatro-barras-ltda
+- Referência secundária de distância Curitiba–Morretes: https://www.visitbrazil.travel/2021/12/06/morretes/
 
-## Imagens
+## Critérios e ressalvas
 
-- Capa: imagem fotorrealista gerada pelo recurso integrado de geração de imagens da OpenAI, exclusivamente para esta edição; não representa viagem, motociclista ou local reais.
-- Fluxo 3D: visualização técnica conceitual gerada pelo mesmo recurso, exclusivamente para esta edição; não representa simulação CFD nem medição aerodinâmica.
-- Sequência de exposição: diagrama vetorial original produzido pela TVDUASRODAS para esta edição, sem material de terceiros e sem escala de distância.
-- Arquivos publicados: `estrada-aberta-01-08-2026-capa.webp`, `estrada-aberta-01-08-2026-fluxo-3d.webp` e `estrada-aberta-01-08-2026-sequencia-vento.svg`.
-- Tratamento: conversão para WebP, redimensionamento para uso editorial e remoção implícita de metadados na nova cópia.
-- Não há hotlink nem reutilização de imagem já publicada.
+- A distância total de cerca de 180 km e os horários de passagem são estimativas editoriais, não medição de navegação em tempo real.
+- O exemplo de autonomia usa 180 km, consumo hipotético de 18 km/l e reserva editorial de 30%; cada motociclista deve recalcular com o consumo e o tanque reais de sua moto.
+- Horários, telefones e endereços de restaurantes foram confrontados com o diretório do Convention Bureau; devem ser confirmados antes da saída.
+- Não foi localizada fonte atual e suficientemente confiável para indicar uma oficina especializada em motocicletas no miolo da rota. A ausência foi declarada no texto.
+- Situação de pista, obras, bloqueios, pedágio e meteorologia são dados voláteis e exigem consulta no próprio dia.
 
-## Prompt final — capa
+## Imagens reais e direitos
 
-Fotografia jornalística extremamente realista de motociclista equipado em motocicleta touring genérica, em rodovia brasileira aberta, com elementos naturais indicando vento lateral moderado; composição horizontal 16:9, luz natural, sem marcas, texto ou dramatização.
+- Capa e imagens da Graciosa: galeria pública da Prefeitura de Morretes, com crédito editorial `Prefeitura de Morretes/divulgação`.
+  - Originais: `https://morretes.pr.gov.br/uploads/noticia/eversonssmlestrada-da-graciosa.jpg`, `https://morretes.pr.gov.br/uploads/noticia/eversonssmlestrada-da-graciosa-3.jpg`, `https://morretes.pr.gov.br/uploads/noticia/eversonssmlestrada-da-graciosaplaca.jpg` e `https://morretes.pr.gov.br/uploads/noticia/img1272.jpg`.
+  - Publicados: `estrada-aberta-graciosa-capa.webp` (1600 × 1068), `estrada-aberta-graciosa-curvas.webp` (1400 × 935), `estrada-aberta-graciosa-placa.webp` (1400 × 935) e `estrada-aberta-graciosa-portal.webp` (736 × 490).
+- Imagens de Antonina: galeria pública da Prefeitura de Antonina, com crédito editorial `Prefeitura de Antonina/divulgação`.
+  - Originais: `https://antonina.pr.gov.br/uploads/noticia/whatsapp-image-2025-08-20-at-124751.jpg` e `https://antonina.pr.gov.br/uploads/noticia/whatsapp-image-2025-08-20-at-124752.jpeg`.
+  - Publicados: `estrada-aberta-antonina-centro.webp` e `estrada-aberta-antonina-tour.webp` (1400 × 1050).
+- Tratamento: cópias locais, redimensionamento proporcional, conversão para WebP e preservação da marca d'água presente no arquivo do portal.
+- Não há hotlink. Não foram usadas imagens geradas por IA nesta edição.
 
-## Prompt final — fluxo 3D
+## Gráfico original
 
-Visualização técnica 3D horizontal de caminhão e motocicleta mantendo distância em rodovia, com faixas translúcidas azuis mostrando vento lateral e turbulência; sem marcas, texto ou situação de colisão.
+- `estrada-aberta-graciosa-roteiro.svg`: mapa editorial original da TVDUASRODAS, sem base cartográfica, destinado a mostrar sequência, duração e distâncias aproximadas; não substitui aplicativo de navegação.
