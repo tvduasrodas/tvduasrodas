@@ -1203,6 +1203,16 @@
       "destination": "Instagram @tvduasrodasofc",
       "contentId": "18336658981255907",
       "publicationConfirmation": "Meta Business Suite listou o Reel em Conteúdo > Publicado às 17:17 Eastern."
+    },
+    "localCleanup": {
+      "status": "EXCLUIDO_APOS_PUBLICACAO",
+      "deletedAt": "2026-08-01T08:42:11.944255-04:00",
+      "retentionHours": 24.0,
+      "folder": "output/instagram/2026-07-30/honda-mercado-primeiro-semestre",
+      "fileCount": 47,
+      "bytesFreed": 27475042,
+      "latestPublishedAt": "2026-07-30T17:17:00-04:00",
+      "reason": "Story e Reel confirmados no Instagram há pelo menos 24 horas."
     }
   },
   {
@@ -1226,6 +1236,43 @@
     "reel": {
       "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES",
       "imageAudit": "Não gerar nem publicar parcialmente: o Reel requer de cinco a sete imagens realmente distintas e rights_verified: true."
+    }
+  },
+  {
+    "url": "https://tvduasrodas.com/evento.html?slug=prova-ciclistica-sao-salvador-2026",
+    "type": "event",
+    "title": "81ª Prova Ciclística São Salvador 2026",
+    "detectedAt": "2026-08-01T08:32:00-04:00",
+    "validation": {
+      "source": "Confederação Brasileira de Ciclismo — calendário e página oficial do evento; consulta em 01/08/2026",
+      "publicUrl": "CONFIRMADA_NO_DOMINIO_PUBLICO",
+      "rights_verified": true,
+      "rights_basis": "Sete ilustrações editoriais originais geradas exclusivamente para a publicação; identificadas como IA e sem alegação de registro da prova.",
+      "imageAudit": "Sete arquivos locais com hashes SHA-256 distintos; recibo reel-build.json validado com rights_verified=true."
+    },
+    "feed": {"status": "NAO_APLICAVEL_POR_REGRA"},
+    "stories": {
+      "status": "PUBLICADO",
+      "file": "output/instagram/2026-08-01/prova-ciclistica-sao-salvador/story.mp4",
+      "format": "1080x1920 H.264/AAC",
+      "durationSeconds": 14,
+      "publishedAt": "2026-08-01T08:47:00-04:00",
+      "destination": "Instagram @tvduasrodasofc",
+      "publicationConfirmation": "Meta Business Suite exibiu o Story ativo em Conteúdo > Stories, com 23 horas restantes, às 08:48 Eastern."
+    },
+    "reel": {
+      "status": "PUBLICADO",
+      "file": "output/instagram/2026-08-01/prova-ciclistica-sao-salvador/reel.mp4",
+      "cover": "output/instagram/2026-08-01/prova-ciclistica-sao-salvador/reel-cover.jpg",
+      "format": "1080x1920 H.264/AAC",
+      "durationSeconds": 27.25,
+      "soundtrack": "rock_instrumental_original",
+      "transition": "page_peel_diagonal",
+      "sceneCount": 7,
+      "publishedAt": "2026-08-01T08:45:00-04:00",
+      "destination": "Instagram @tvduasrodasofc",
+      "contentId": "18146404861523551",
+      "publicationConfirmation": "Meta Business Suite confirmou \"Your reel has been published\" e listou o item publicado às 08:45 Eastern."
     }
   }
 ]

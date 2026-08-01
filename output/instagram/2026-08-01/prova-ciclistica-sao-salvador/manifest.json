@@ -1,0 +1,14 @@
+{
+  "content_url": "https://tvduasrodas.com/evento.html?slug=prova-ciclistica-sao-salvador-2026",
+  "rights_verified": true,
+  "rights_basis": "Cinco ilustrações editoriais originais geradas exclusivamente para esta publicação; não são fotos nem retratam a prova real. Sem marcas, pessoas reconhecíveis ou material de terceiros.",
+  "scenes": [
+    {"image":"source/cena-01-ciclista-pista.png","context":"AGENDA DE CICLISMO","title":"SÃO SALVADOR 2026","detail":"Campos recebe a 81ª edição em 5 e 6 de agosto.","credit":"Ilustração editorial por IA: TVDUASRODAS","source_url":"https://www.cbc.esp.br/modalidades/eventos/busca/estrada","focus":[0.5,0.48]},
+    {"image":"source/cena-02-pelotao-praca.png","context":"81ª EDIÇÃO","title":"CIRCUITO EM CAMPOS","detail":"A programação inclui cinco baterias no dia 6.","credit":"Ilustração editorial por IA: TVDUASRODAS","source_url":"https://www.cbc.esp.br/modalidades/eventos/busca/estrada","focus":[0.5,0.48]},
+    {"image":"source/cena-03-preparacao.png","context":"SERVIÇO","title":"CONGRESSO DIA 5","detail":"A organização prevê início às 16h, na Praça do Liceu.","credit":"Ilustração editorial por IA: TVDUASRODAS","source_url":"https://www.cbc.esp.br/modalidades/eventos/busca/estrada","focus":[0.5,0.5]},
+    {"image":"source/cena-04-ciclismo-inclusivo.png","context":"CATEGORIAS","title":"PROVA PARA TODOS","detail":"A agenda cita base, elite, master, paraciclismo e passeio.","credit":"Ilustração editorial por IA: TVDUASRODAS","source_url":"https://www.cbc.esp.br/modalidades/eventos/busca/estrada","focus":[0.5,0.48]},
+    {"image":"source/cena-05-kit-ciclista.png","context":"PLANEJE-SE","title":"CONFIRA O CANAL OFICIAL","detail":"Horários e condições de acesso podem mudar antes da largada.","credit":"Ilustração editorial por IA: TVDUASRODAS","source_url":"https://www.cbc.esp.br/modalidades/eventos/busca/estrada","focus":[0.5,0.5]},
+    {"image":"source/cena-06-ciclismo-jovem.png","context":"PROGRAMAÇÃO","title":"BASE E MASTER NA PISTA","detail":"A tabela oficial reúne categorias de diferentes idades.","credit":"Ilustração editorial por IA: TVDUASRODAS","source_url":"https://www.cbc.esp.br/modalidades/eventos/busca/estrada","focus":[0.5,0.48]},
+    {"image":"source/cena-07-amanhecer-campos.png","context":"TVDUASRODAS","title":"ACOMPANHE A AGENDA","detail":"Siga @tvduasrodasofc e acesse TVDUASRODAS.COM.","credit":"Ilustração editorial por IA: TVDUASRODAS","source_url":"https://www.cbc.esp.br/modalidades/eventos/busca/estrada","focus":[0.5,0.5]}
+  ]
+}

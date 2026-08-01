@@ -1,0 +1,56 @@
+{
+  "format": "1080x1920",
+  "video_codec": "H.264",
+  "audio_codec": "AAC",
+  "transition": "page_peel_diagonal",
+  "soundtrack": "rock_instrumental_original",
+  "scene_count": 7,
+  "nominal_duration_seconds": 27.25,
+  "rights_verified": true,
+  "source_manifest": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-08-01\\prova-ciclistica-sao-salvador\\manifest.json",
+  "content_url": "https://tvduasrodas.com/evento.html?slug=prova-ciclistica-sao-salvador-2026",
+  "scenes": [
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-08-01\\prova-ciclistica-sao-salvador\\source\\cena-01-ciclista-pista.png",
+      "sha256": "261f08af707153b47e94721798c10c441d547c3b7d496cb727d0e1551bd31ad8",
+      "credit": "Ilustração editorial por IA: TVDUASRODAS",
+      "source_url": "https://www.cbc.esp.br/modalidades/eventos/busca/estrada"
+    },
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-08-01\\prova-ciclistica-sao-salvador\\source\\cena-02-pelotao-praca.png",
+      "sha256": "1a10b97561b88c0d90f3c3963b9e437dc0c996f54af474353fd144f4ecbe1fa3",
+      "credit": "Ilustração editorial por IA: TVDUASRODAS",
+      "source_url": "https://www.cbc.esp.br/modalidades/eventos/busca/estrada"
+    },
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-08-01\\prova-ciclistica-sao-salvador\\source\\cena-03-preparacao.png",
+      "sha256": "545b8e50bd7a9d17e61ce827a105af46cc4b74ca8f058e833f674b85c78ba5bb",
+      "credit": "Ilustração editorial por IA: TVDUASRODAS",
+      "source_url": "https://www.cbc.esp.br/modalidades/eventos/busca/estrada"
+    },
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-08-01\\prova-ciclistica-sao-salvador\\source\\cena-04-ciclismo-inclusivo.png",
+      "sha256": "aa11cb15e635bc5a04a6174d4cf56dd2bbbfc45156a59b035472f97d55f25df0",
+      "credit": "Ilustração editorial por IA: TVDUASRODAS",
+      "source_url": "https://www.cbc.esp.br/modalidades/eventos/busca/estrada"
+    },
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-08-01\\prova-ciclistica-sao-salvador\\source\\cena-05-kit-ciclista.png",
+      "sha256": "6c82f5f8920b16e74350b72bcffcda55ba02e545fb939da6cbec5ee03433d236",
+      "credit": "Ilustração editorial por IA: TVDUASRODAS",
+      "source_url": "https://www.cbc.esp.br/modalidades/eventos/busca/estrada"
+    },
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-08-01\\prova-ciclistica-sao-salvador\\source\\cena-06-ciclismo-jovem.png",
+      "sha256": "c05ba5dd2fd8afdc820588a74838d044650a18fbfb8dd40486b09ed31a8fe4a3",
+      "credit": "Ilustração editorial por IA: TVDUASRODAS",
+      "source_url": "https://www.cbc.esp.br/modalidades/eventos/busca/estrada"
+    },
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-08-01\\prova-ciclistica-sao-salvador\\source\\cena-07-amanhecer-campos.png",
+      "sha256": "342f983ca821f2133d5dbc8006e277da28bf4de38fc2ba27f26b2615ec99987b",
+      "credit": "Ilustração editorial por IA: TVDUASRODAS",
+      "source_url": "https://www.cbc.esp.br/modalidades/eventos/busca/estrada"
+    }
+  ]
+}
