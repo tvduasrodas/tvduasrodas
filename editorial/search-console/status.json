@@ -1,12 +1,12 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-08-01T18:02:17.952898+00:00",
+  "generated_at": "2026-08-01T18:51:02.902010+00:00",
   "scope": "Matérias no Google News sitemap das últimas 48 horas e eventos em andamento ou futuros priorizados por data",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/event-sitemap.xml",
-      "last_submitted": "2026-08-01T18:00:54.227Z",
-      "last_downloaded": "2026-08-01T18:00:55.215Z",
+      "last_submitted": "2026-08-01T18:49:40.416Z",
+      "last_downloaded": "2026-08-01T18:49:41.246Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -27,8 +27,8 @@
     },
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-08-01T18:00:53.912Z",
-      "last_downloaded": "2026-08-01T18:00:54.840Z",
+      "last_submitted": "2026-08-01T18:49:40.346Z",
+      "last_downloaded": "2026-08-01T18:49:41.354Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -49,8 +49,8 @@
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-08-01T18:00:53.414Z",
-      "last_downloaded": "2026-08-01T18:00:54.793Z",
+      "last_submitted": "2026-08-01T18:49:40.274Z",
+      "last_downloaded": "2026-08-01T18:49:40.682Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -85,16 +85,22 @@
     {
       "url": "https://tvduasrodas.com/materias/moto1000gp-cascavel-2026-corridas-sabado-horarios/",
       "verdict": "NEUTRAL",
-      "coverage_state": "O Google não reconhece o URL",
+      "coverage_state": "Detectada, mas não indexada no momento",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED",
       "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
       "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "last_crawl_time": null,
       "google_canonical": "",
       "user_canonical": "",
-      "sitemaps": [],
-      "referring_urls": [],
-      "inspected_at": "2026-08-01T18:01:00.818787+00:00"
+      "sitemaps": [
+        "https://tvduasrodas.com/news-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
+      "referring_urls": [
+        "https://www.tvduasrodas.com/materias/moto1000gp-cascavel-2026-corridas-sabado-horarios/",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
+      "inspected_at": "2026-08-01T18:49:46.919870+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/onde-assistir-campeonato-brasileiro-motocross-2026-ao-vivo/",
@@ -113,7 +119,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-08-01T18:01:07.134112+00:00"
+      "inspected_at": "2026-08-01T18:49:53.504388+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/honda-motos-cresce-11-primeiro-semestre-2026/",
@@ -132,7 +138,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-08-01T18:01:13.295293+00:00"
+      "inspected_at": "2026-08-01T18:49:59.844520+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/capital-moto-week-2026/",
@@ -151,24 +157,10 @@
       "referring_urls": [
         "https://tvduasrodas.com/evento?slug=capital-moto-week-2026"
       ],
-      "inspected_at": "2026-08-01T18:01:19.439191+00:00"
+      "inspected_at": "2026-08-01T18:50:05.977842+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/3-encontro-de-motociclistas-penedo-mg-2026-07-30/",
-      "verdict": "NEUTRAL",
-      "coverage_state": "O Google não reconhece o URL",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
-      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
-      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
-      "last_crawl_time": null,
-      "google_canonical": "",
-      "user_canonical": "",
-      "sitemaps": [],
-      "referring_urls": [],
-      "inspected_at": "2026-08-01T18:01:26.189184+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/eventos/motofest-bezerros-pe-2026-07-30/",
       "verdict": "NEUTRAL",
       "coverage_state": "Detectada, mas não indexada no momento",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED",
@@ -182,7 +174,21 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-01T18:01:32.620592+00:00"
+      "inspected_at": "2026-08-01T18:50:12.071829+00:00"
+    },
+    {
+      "url": "https://tvduasrodas.com/eventos/motofest-bezerros-pe-2026-07-30/",
+      "verdict": "NEUTRAL",
+      "coverage_state": "O Google não reconhece o URL",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "last_crawl_time": null,
+      "google_canonical": "",
+      "user_canonical": "",
+      "sitemaps": [],
+      "referring_urls": [],
+      "inspected_at": "2026-08-01T18:50:18.423418+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motofest-iguatu-ce-2026-07-30/",
@@ -199,7 +205,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-01T18:01:39.014432+00:00"
+      "inspected_at": "2026-08-01T18:50:24.580218+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/14-motofest-extrema-mg-2026-07-31/",
@@ -213,7 +219,7 @@
       "user_canonical": "https://tvduasrodas.com/eventos/14-motofest-extrema-mg-2026-07-31/",
       "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-08-01T18:01:45.642680+00:00"
+      "inspected_at": "2026-08-01T18:50:30.946888+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/2-encontro-nacional-serra-da-saudade-mg-2026-07-31/",
@@ -227,7 +233,7 @@
       "user_canonical": "",
       "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-08-01T18:01:51.967874+00:00"
+      "inspected_at": "2026-08-01T18:50:37.311297+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/21-paranaguamotos-paranagua-pr-2026-07-31/",
@@ -244,7 +250,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-01T18:01:58.137543+00:00"
+      "inspected_at": "2026-08-01T18:50:43.885821+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/3-moto-rock-fest-paranapanema-sp-2026-07-31/",
@@ -261,7 +267,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-01T18:02:05.006387+00:00"
+      "inspected_at": "2026-08-01T18:50:50.013149+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/7-encontro-de-motociclistas-e-triciclistas-oliveira-fortes-mg-2026-07-31/",
@@ -278,24 +284,21 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-01T18:02:11.355472+00:00"
+      "inspected_at": "2026-08-01T18:50:56.177456+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/7-encontro-nacional-de-motociclsitas-e-motoclubes-aimores-mg-2026-07-31/",
       "verdict": "NEUTRAL",
-      "coverage_state": "Detectada, mas não indexada no momento",
+      "coverage_state": "O Google não reconhece o URL",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED",
       "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
       "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "last_crawl_time": null,
       "google_canonical": "",
       "user_canonical": "",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-08-01T18:02:17.863571+00:00"
+      "inspected_at": "2026-08-01T18:51:02.835840+00:00"
     }
   ]
 }
