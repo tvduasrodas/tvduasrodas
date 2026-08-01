@@ -173,11 +173,11 @@
                             em tempo real (YouTube Live, Twitch ou outro player).
                         </p>
                         <a class="btn btn-small btn-outline live-cta"
-                           href="#"
+                           href="https://www.youtube.com/@tvduasrodas?sub_confirmation=1"
                            target="_blank"
                            rel="noopener"
                            style="display: none;">
-                            Assistir à transmissão
+                            Inscreva-se no canal
                         </a>
                     </div>
                 </section>
@@ -875,11 +875,8 @@
                         messageEl.textContent = message || "Estamos ao vivo agora!";
                     }
 
-                    if (ctaEl && liveUrl) {
+                    if (ctaEl) {
                         ctaEl.style.display = "inline-flex";
-                        ctaEl.href = liveUrl;
-                    } else if (ctaEl) {
-                        ctaEl.style.display = "none";
                     }
 
                     // 🔴 TROCA O PLAYER PRINCIPAL PARA O VÍDEO DA LIVE
