@@ -176,7 +176,17 @@ Fontes oficiais continuam sendo a referência para datas, locais e programação
   - Titular/crédito: TVDUASRODAS.
   - Arte vetorial original, 1600 × 900 px, criada para uso editorial no portal.
   - Não utiliza fotografias, logotipos ou elementos copiados da arte do organizador.
-  - Como o arquivo é SVG, não houve compressão, perda de metadados fotográficos nem conversão de formato.
+- Como o arquivo é SVG, não houve compressão, perda de metadados fotográficos nem conversão de formato.
+
+# 81ª Prova Ciclística São Salvador — Campos dos Goytacazes/RJ — 2026
+
+- Consulta editorial: 1º de agosto de 2026, 07h16 Eastern.
+- Calendário oficial da CBC: https://www.cbc.esp.br/modalidades/calendario/busca/estrada — confirmou a prova em Campos dos Goytacazes em 5 e 6 de agosto, como evento Classe 3.
+- Programação oficial da CBC: https://www.cbc.esp.br/modalidades/eventos/busca/estrada — confirmou Praça do Liceu, congresso técnico, cinco baterias, categorias e responsáveis da Rocha Sports.
+- Imagem: `assets/img/uploads/sao-salvador-2026-ilustracao-editorial.webp`.
+  - Titular/crédito: TVDUASRODAS; ilustração editorial exclusiva gerada por IA, sem marcas, logotipos ou pessoas identificáveis. Não retrata a prova real.
+  - Original de auditoria: `editorial/review/sao-salvador-2026-ilustracao-ia-original.png`, 1.672 × 941 px, PNG, 2.867.003 bytes.
+  - Arquivo publicado: 1.600 × 900 px, WebP, qualidade 82, 287.926 bytes. Não houve material oficial com licença editorial verificável disponível para uso; a conversão para WebP não preserva metadados do PNG original.
 
 # 23º 100 Destino Motofest — Araxá/MG — 2026
 
