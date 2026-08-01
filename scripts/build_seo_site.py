@@ -1174,7 +1174,7 @@ def render_competition(
   <header><span class="seo-eyebrow">{esc(data.get("modality"))} · Temporada {esc(data.get("season"))}</span>
   <h1>{esc(item["title"])}</h1><p class="seo-lead">{esc(item["summary"])}</p>
   <p class="seo-meta">Organização: {esc(data.get("organizer"))} · Atualizado em {esc(br_date(item["lastmod"]))}</p>
-  {('<div class="ce-actions"><a class="btn btn-outline" href="' + esc(data.get("results_url")) + '" target="_blank" rel="noopener">Resultados oficiais ↗</a></div>') if data.get("results_url") and data.get("results_url") != data.get("official_url") else ''}</header>
+  </header>
   <aside class="tdr-ad-slot" data-ad-slot="detail-billboard" data-ad-category-override="competicoes" aria-label="Patrocínio da cobertura da competição"></aside>
   <figure class="seo-hero seo-artwork-hero"><img src="{esc(item["image"])}" alt="{esc(item["title"])}">{('<span class="seo-artwork-hero__label"><small>TVDUASRODAS · Competição</small><strong>' + esc(item["title"]) + '</strong></span>') if 'competicoes-eventos-default' in item["image"] else ''}<figcaption>{esc(data.get("image_credit"))}</figcaption></figure>
   <div class="seo-prose">{linked_markdown(public_editorial_text(item["body"]), people)}</div>
@@ -1184,8 +1184,8 @@ def render_competition(
   </section>
   <section class="seo-competition-section" id="calendario"><header><span class="seo-block-label">Programação da temporada</span><h2>Etapas e calendário</h2></header>{('<div class="seo-competition-block"><div class="seo-table"><table><thead><tr><th>Etapa</th><th>Data</th><th>Local</th><th>Resultado/situação</th></tr></thead><tbody>' + rounds + '</tbody></table></div></div>') if rounds else '<div class="seo-competition-empty"><strong>Calendário em confirmação.</strong></div>'}</section>
   {render_research_sources(data, fallback_url=data.get("official_url", ""))}
+  <div class="ce-actions"><a class="btn btn-primary" href="{esc(data.get("official_url"))}" target="_blank" rel="noopener">Visitar site oficial ↗</a>{('<a class="btn btn-outline" href="' + esc(data.get("results_url")) + '" target="_blank" rel="noopener">Resultados oficiais ↗</a>') if data.get("results_url") and data.get("results_url") != data.get("official_url") else ''}</div>
   {relation_blocks(item, all_items)}
-  <div class="ce-actions"><a class="btn btn-primary" href="{esc(data.get("official_url"))}" target="_blank" rel="noopener">Visitar site oficial ↗</a></div>
 </article>"""
     return page_shell(
         title=item["title"], description=item["summary"], canonical=canonical, body=body,
@@ -1309,10 +1309,10 @@ def render_event(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
   <div><span>Estacionamento</span><strong>{esc(parking)}</strong></div>
   {('<div><span>Organização</span><strong>' + esc(organizer) + '</strong></div>') if organizer_is_known else ''}</section>
   <div class="seo-prose">{markdown(public_editorial_text(item["body"]))}</div>
-  {relations}
   {lifecycle_note}
   {render_research_sources(data, fallback_url=data.get("official_url", ""))}
   <div class="ce-actions"><a class="btn btn-primary" href="{esc(data.get("official_url"))}" target="_blank" rel="noopener">{esc(source_label)}</a></div>
+  {relations}
 </article>"""
     body = "\n".join(line.rstrip() for line in body.splitlines())
     return page_shell(
