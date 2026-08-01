@@ -1,12 +1,12 @@
 {
-  "total_records": 655,
-  "canonical_records": 591,
-  "complete_records": 365,
-  "incomplete_records": 226,
+  "total_records": 688,
+  "canonical_records": 624,
+  "complete_records": 368,
+  "incomplete_records": 256,
   "by_kind": {
     "agenda": {
-      "total": 493,
-      "complete": 276
+      "total": 526,
+      "complete": 279
     },
     "evento": {
       "total": 14,
@@ -1079,23 +1079,6 @@
     },
     {
       "kind": "agenda",
-      "slug": "2-weekend-of-bikers-pudente-de-morais-mg-2026-08-08",
-      "title": "2 Weekend of Bikers",
-      "date": "2026-08-08",
-      "city": "Pudente de Morais",
-      "state": "MG",
-      "source_count": 2,
-      "independent_domains": 1,
-      "specific_independent_domains": 1,
-      "placeholder_fields": 4,
-      "missing": [
-        "duas_fontes_especificas_independentes"
-      ],
-      "complete": false,
-      "duplicate_of": null
-    },
-    {
-      "kind": "agenda",
       "slug": "amigos-do-asfalto-mc-ibatiba-es-2026-08-08",
       "title": "Amigos do asfalto MC",
       "date": "2026-08-08",
@@ -1419,23 +1402,6 @@
     },
     {
       "kind": "agenda",
-      "slug": "motofest-piunhi-mg-2026-08-14",
-      "title": "Piumhi Moto Fest de Piunhi",
-      "date": "2026-08-14",
-      "city": "Piunhi",
-      "state": "MG",
-      "source_count": 2,
-      "independent_domains": 1,
-      "specific_independent_domains": 1,
-      "placeholder_fields": 3,
-      "missing": [
-        "duas_fontes_especificas_independentes"
-      ],
-      "complete": false,
-      "duplicate_of": null
-    },
-    {
-      "kind": "agenda",
       "slug": "perdidos-do-asfalto-mc-matozinhos-mg-2026-08-14",
       "title": "Perdidos do Asfalto MC",
       "date": "2026-08-14",
@@ -1712,23 +1678,6 @@
       "title": "Ronin MC de Itabira — 16 de agosto",
       "date": "2026-08-16",
       "city": "Itabira",
-      "state": "MG",
-      "source_count": 2,
-      "independent_domains": 1,
-      "specific_independent_domains": 1,
-      "placeholder_fields": 4,
-      "missing": [
-        "duas_fontes_especificas_independentes"
-      ],
-      "complete": false,
-      "duplicate_of": null
-    },
-    {
-      "kind": "agenda",
-      "slug": "15-encontro-de-motociclistas-santo-antonio-do-monte-mg-2026-08-21",
-      "title": "15 Encontro de Motociclistas de Santo Antonio do Monte",
-      "date": "2026-08-21",
-      "city": "Santo Antonio do Monte",
       "state": "MG",
       "source_count": 2,
       "independent_domains": 1,
@@ -3713,6 +3662,633 @@
       "duplicate_of": null
     },
     {
+      "kind": "agenda",
+      "slug": "motopoint-centenario-de-sao-joao-evangelista-sao-joao-evangelista-mg-2026-08-01",
+      "title": "Motopoint Centenário de São João Evangelista — MG",
+      "date": "2026-08-01",
+      "city": "São João Evangelista",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "niver-do-predadores-das-gerais-16-anos-belo-horizonte-belo-horizonte-mg-2026-08-02",
+      "title": "Niver do Predadores das Gerais,16 anos – Belo Horizonte — MG",
+      "date": "2026-08-02",
+      "city": "Belo Horizonte",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "1-motofest-de-monsenhor-joao-alexandre-claudio-mg-claudio-mg-2026-08-07",
+      "title": "1° Motofest de Monsenhor João Alexandre – Cláudio MG",
+      "date": "2026-08-07",
+      "city": "Cláudio",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "1o-moto-encontro-amigos-do-asfalto-litoral-norte-imbe-imbe-rs-2026-08-08",
+      "title": "1º Moto Encontro Amigos do Asfalto Litoral Norte – Imbé — RS",
+      "date": "2026-08-08",
+      "city": "Imbé",
+      "state": "RS",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "7-aniv-do-mc-levante-viii-e-de-4-anos-do-mg-rangers-wild-west-belo-horizonte-belo-horizonte-mg-2026-08-08",
+      "title": "7° Aniv. do MC Levante VIII e de 4 anos do MG Rangers Wild West- Belo Horizonte",
+      "date": "2026-08-08",
+      "city": "Belo Horizonte",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "moto-fest-vargem-bonita-cancelado-vargem-bonita-mg-2026-08-08",
+      "title": "Moto Fest Vargem Bonita – CANCELADO — MG",
+      "date": "2026-08-08",
+      "city": "Vargem Bonita",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "celebracao-de-aniversarios-de-mcs-contagem-contagem-mg-2026-08-08",
+      "title": "Celebração de Aniversários de MCs – Contagem — MG",
+      "date": "2026-08-08",
+      "city": "Contagem",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "152o-bh-motopoint-uniao-dos-motoclubes-da-grande-bh-contagem-bh-mg-2026-08-11",
+      "title": "152º BH MOTOPOINT- UNIÃO dos Motoclubes da GRANDE BH — Contagem (BH)/MG",
+      "date": "2026-08-11",
+      "city": "Contagem (BH)",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 2,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "5o-encontro-de-motociclistas-de-matozinhos-mg-matozinhos-mg-2026-08-14",
+      "title": "5º Encontro de Motociclistas de Matozinhos – MG",
+      "date": "2026-08-14",
+      "city": "Matozinhos",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "santa-barbara-motofest-santa-barbara-do-monte-verde-mg-2026-08-14",
+      "title": "Santa Bárbara Motofest — Santa Bárbara do Monte Verde/MG",
+      "date": "2026-08-14",
+      "city": "Santa Bárbara do Monte Verde",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "mutum-moto-rock-mutum-mg-2026-08-14",
+      "title": "Mutum Moto Rock — MG",
+      "date": "2026-08-14",
+      "city": "Mutum",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "moto-rock-marechal-floriano-es-marechal-floriano-es-2026-08-15",
+      "title": "Moto Rock – Marechal Floriano ES",
+      "date": "2026-08-15",
+      "city": "Marechal Floriano",
+      "state": "ES",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "cancelado-13o-aniversario-do-revolucionarios-de-minas-mc-cancelado-uba-mg-2026-08-15",
+      "title": "Cancelado – 13º Aniversario do Revolucionários de Minas MC — Ubá/MG",
+      "date": "2026-08-15",
+      "city": "Ubá",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "1o-inimutaba-motofest-inimutaba-mg-2026-08-15",
+      "title": "1º Inimutaba Motofest — MG",
+      "date": "2026-08-15",
+      "city": "Inimutaba",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "7o-encontro-de-motos-e-de-carros-classicos-de-rio-acima-rio-acima-mg-2026-08-15",
+      "title": "7º Encontro de Motos e de Carros Clássicos de Rio Acima — MG",
+      "date": "2026-08-15",
+      "city": "Rio Acima",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "8o-aniversario-do-mc-ronin-of-road-itabira-itabira-mg-2026-08-16",
+      "title": "8º Aniversário do MC Ronin Of Road – Itabira — MG",
+      "date": "2026-08-16",
+      "city": "Itabira",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "1o-aniversario-area-51-motoclube-caratinga-caratinga-mg-2026-08-16",
+      "title": "1º Aniversário Área 51 Motoclube Caratinga — MG",
+      "date": "2026-08-16",
+      "city": "Caratinga",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "1o-motopoint-os-pe-vermeio-do-asfalto-itatiaiucu-itatiaiucu-mg-2026-08-16",
+      "title": "1º Motopoint Os Pé Vermeio do Asfalto – Itatiaiuçu — MG",
+      "date": "2026-08-16",
+      "city": "Itatiaiuçu",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "aniversario-santificados-mc-contagem-contagem-mg-2026-08-16",
+      "title": "Aniversário Santificados MC – Contagem — MG",
+      "date": "2026-08-16",
+      "city": "Contagem",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "cancelado-2o-passos-moto-festival-cancelado-passos-mg-2026-08-21",
+      "title": "CANCELADO 2º Passos Moto Festival — MG",
+      "date": "2026-08-21",
+      "city": "Passos",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "5o-moto-fest-bom-sucesso-bom-sucesso-mg-2026-08-21",
+      "title": "5º Moto Fest – Bom Sucesso — MG",
+      "date": "2026-08-21",
+      "city": "Bom Sucesso",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "19o-aniversario-irados-porcos-selvagens-ouro-preto-ouro-preto-mg-2026-08-21",
+      "title": "19º Aniversário Irados Porcos Selvagens – Ouro Preto — MG",
+      "date": "2026-08-21",
+      "city": "Ouro Preto",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "cena-camping-cachoeira-de-natuba-pb-cachoeira-de-natuba-pb-2026-08-22",
+      "title": "Cena Camping – Cachoeira de Natuba PB",
+      "date": "2026-08-22",
+      "city": "Cachoeira de Natuba",
+      "state": "PB",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "25o-aniversario-do-foragidos-mc-tres-coracoes-tres-coracoes-mg-2026-08-22",
+      "title": "25º Aniversário do Foragidos MC – Três Corações — MG",
+      "date": "2026-08-22",
+      "city": "Três corações",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "catracas-motorock-ipatinga-mg-ipatinga-mg-2026-08-22",
+      "title": "Catracas Motorock – Ipatinga MG",
+      "date": "2026-08-22",
+      "city": "Ipatinga",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "5-dragon-moto-fest-5-aniversario-dragoes-de-minas-belo-horizonte-belo-horizonte-mg-2026-08-22",
+      "title": "5° Dragon Moto Fest 5° Aniversário Dragões de Minas – Belo Horizonte — MG",
+      "date": "2026-08-22",
+      "city": "Belo Horizonte",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "11o-niver-kranios-kromados-mc-saquarema-rj-saquarema-rj-2026-08-22",
+      "title": "11º Niver Kranios Kromados MC – Saquarema RJ",
+      "date": "2026-08-22",
+      "city": "Saquarema",
+      "state": "RJ",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "old-scooters-day-2026-sorocaba-sp-sorocaba-sp-2026-08-22",
+      "title": "Old Scooters Day 2026 – Sorocaba SP",
+      "date": "2026-08-22",
+      "city": "Sorocaba",
+      "state": "SP",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "5o-aniversario-do-valentinas-do-asfalto-mc-minas-gerais-belo-horizonte-mg-belo-horizonte-mg-2026-08-23",
+      "title": "5º Aniversário do Valentinas do Asfalto MC Minas Gerais – Belo Horizonte MG",
+      "date": "2026-08-23",
+      "city": "Belo Horizonte",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "17o-encontro-nacional-de-motociclistas-de-mariana-e-19o-aniversario-do-vira-latas-motoclube-mariana-mg-2026-08-28",
+      "title": "17º Encontro Nacional de Motociclistas de Mariana e 19º Aniversário do Vira Latas Motoclube — MG",
+      "date": "2026-08-28",
+      "city": "Mariana",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "smj-moto-fest-santa-maria-de-jetiba-santa-maria-de-jetiba-es-2026-08-28",
+      "title": "SMJ Moto Fest – Santa Maria de Jetibá",
+      "date": "2026-08-28",
+      "city": "Santa Maria de Jetibá",
+      "state": "ES",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 3,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "4o-motofest-vem-pro-ride-belo-horizonte-belo-horizonte-mg-2026-08-29",
+      "title": "4º Motofest Vem pro Ride – Belo Horizonte — MG",
+      "date": "2026-08-29",
+      "city": "Belo Horizonte",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "28o-aniversario-do-mc-estradeiros-da-liberdade-santos-santos-sp-2026-08-30",
+      "title": "28º Aniversário do MC Estradeiros da Liberdade – Santos — SP",
+      "date": "2026-08-30",
+      "city": "Santos",
+      "state": "SP",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 4,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
       "kind": "evento",
       "slug": "prova-ciclistica-sao-salvador-2026",
       "title": "81ª Prova Ciclística São Salvador 2026",
@@ -3724,8 +4300,7 @@
       "specific_independent_domains": 1,
       "placeholder_fields": 2,
       "missing": [
-        "duas_fontes_especificas_independentes",
-        "evidencia_visual_ou_justificativa"
+        "duas_fontes_especificas_independentes"
       ],
       "complete": false,
       "duplicate_of": null
