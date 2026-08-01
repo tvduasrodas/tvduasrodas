@@ -1283,5 +1283,28 @@
       "contentId": "18146404861523551",
       "publicationConfirmation": "Meta Business Suite confirmou \"Your reel has been published\" e listou o item publicado às 08:45 Eastern."
     }
+  },
+  {
+    "url": "https://tvduasrodas.com/materias/moto1000gp-cascavel-2026-corridas-sabado-horarios/",
+    "type": "news",
+    "title": "MOTO1000GP tem quatro corridas neste sábado em Cascavel; veja os horários",
+    "detectedAt": "2026-08-01T14:32:00-04:00",
+    "validation": {
+      "source": "MOTO1000GP — programação oficial e Press Oficial; consulta em 01/08/2026",
+      "publicUrl": "CONFIRMADA_NO_DOMINIO_PUBLICO",
+      "rights_verified": false,
+      "rights": "PENDENTE_AUTORIZACAO_OU_LICENCA_EXPLICITA",
+      "imageAudit": "Há três imagens distintas ligadas à etapa de Cascavel, mas os créditos MOTO1000GP / Grelak Comunicação / divulgação não trazem licença ou autorização editorial verificável. O Reel exige de cinco a sete imagens distintas com rights_verified=true."
+    },
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
+    "stories": {
+      "status": "PENDENTE_DIREITOS_DE_IMAGEM_NAO_VERIFICADOS"
+    },
+    "reel": {
+      "status": "PENDENTE_DIREITOS_DE_IMAGEM_NAO_VERIFICADOS",
+      "imageAudit": "Não gerar ou publicar parcialmente: faltam licença editorial verificável e pelo menos cinco imagens distintas elegíveis."
+    }
   }
 ]
