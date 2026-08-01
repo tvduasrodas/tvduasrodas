@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "total": 668,
+  "total": 669,
   "counts": {
     "Competição": 22,
     "Configuração da home": 2,
     "Etapa esportiva": 62,
-    "Evento": 13,
+    "Evento": 14,
     "Evento da agenda": 491,
     "Matéria": 45,
     "Matéria do acervo": 4,
@@ -1468,6 +1468,20 @@
       "url": "/eventos/7-serra-moto-fest-serra-es-2026-07-31/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#7-serra-moto-fest-serra-es-2026-07-31"
+    },
+    {
+      "title": "81ª Prova Ciclística São Salvador 2026",
+      "type": "Evento",
+      "slug": "prova-ciclistica-sao-salvador-2026",
+      "date": "2026-08-05",
+      "category": "Competição de ciclismo de estrada",
+      "city": "Campos dos Goytacazes",
+      "state": "RJ",
+      "status": "agendada",
+      "summary": "A 81ª Prova Ciclística São Salvador está programada para 5 e 6 de agosto, na Praça do Liceu, em Campos dos Goytacazes, com cinco baterias e categorias de base, masters, elite, paraciclismo e passeio ciclístico.",
+      "url": "/eventos/prova-ciclistica-sao-salvador-2026/",
+      "edit_url": "/admin/#/collections/events/entries/prova-ciclistica-sao-salvador-2026",
+      "source": "content/events/prova-ciclistica-sao-salvador-2026.json"
     },
     {
       "title": "8º Rio das Flores Moto Fest 2026",
