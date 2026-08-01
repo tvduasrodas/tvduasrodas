@@ -183,6 +183,7 @@ Fontes oficiais continuam sendo a referência para datas, locais e programação
 - Consulta editorial: 1º de agosto de 2026, 07h16 Eastern.
 - Calendário oficial da CBC: https://www.cbc.esp.br/modalidades/calendario/busca/estrada — confirmou a prova em Campos dos Goytacazes em 5 e 6 de agosto, como evento Classe 3.
 - Programação oficial da CBC: https://www.cbc.esp.br/modalidades/eventos/busca/estrada — confirmou Praça do Liceu, congresso técnico, cinco baterias, categorias e responsáveis da Rocha Sports.
+- Inspeção visual complementar: 1º de agosto de 2026, 14h41 Eastern. A página oficial da CBC e o calendário foram revisados; há texto de serviço e programação, mas nenhum flyer ou fotografia com autorização/licença editorial verificável para reutilização. Uma imagem de veículo regional foi localizada apenas como referência de apuração e não foi usada, pois crédito não equivale a licença.
 - Imagem: `assets/img/uploads/sao-salvador-2026-ilustracao-editorial.webp`.
   - Titular/crédito: TVDUASRODAS; ilustração editorial exclusiva gerada por IA, sem marcas, logotipos ou pessoas identificáveis. Não retrata a prova real.
   - Original de auditoria: `editorial/review/sao-salvador-2026-ilustracao-ia-original.png`, 1.672 × 941 px, PNG, 2.867.003 bytes.
