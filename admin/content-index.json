@@ -7826,34 +7826,6 @@
       "source": "content/events/agenda-comunitaria-2026.json#mutum-moto-rock-mutum-mg-2026-08-14"
     },
     {
-      "title": "MX1 GP Brasil 2026 -7ª e 8ª Etapa - Santa Cruz do Capibaribe/PE",
-      "type": "Configuração da home",
-      "slug": "hero-player",
-      "date": "",
-      "category": "",
-      "city": "",
-      "state": "",
-      "status": "",
-      "summary": "",
-      "url": "/",
-      "edit_url": "/admin/#/collections/home/entries/hero_player",
-      "source": "content/home/hero-player.md"
-    },
-    {
-      "title": "MX1 GP Brasil 2026 -7ª e 8ª Etapa - Santa Cruz do Capibaribe/PE",
-      "type": "Configuração da home",
-      "slug": "live-status",
-      "date": "",
-      "category": "",
-      "city": "",
-      "state": "",
-      "status": "",
-      "summary": "",
-      "url": "/",
-      "edit_url": "/admin/#/collections/home/entries/live_status",
-      "source": "content/home/live-status.md"
-    },
-    {
       "title": "MXGP 2026",
       "type": "Competição",
       "slug": "mxgp-2026",
@@ -9532,6 +9504,34 @@
       "url": "/eventos/turma-de-cachorro-loco-mc-maua-sp-2026-08-29/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#turma-de-cachorro-loco-mc-maua-sp-2026-08-29"
+    },
+    {
+      "title": "TVDUASRODAS",
+      "type": "Configuração da home",
+      "slug": "hero-player",
+      "date": "",
+      "category": "",
+      "city": "",
+      "state": "",
+      "status": "",
+      "summary": "",
+      "url": "/",
+      "edit_url": "/admin/#/collections/home/entries/hero_player",
+      "source": "content/home/hero-player.md"
+    },
+    {
+      "title": "TVDUASRODAS",
+      "type": "Configuração da home",
+      "slug": "live-status",
+      "date": "",
+      "category": "",
+      "city": "",
+      "state": "",
+      "status": "",
+      "summary": "",
+      "url": "/",
+      "edit_url": "/admin/#/collections/home/entries/live_status",
+      "source": "content/home/live-status.md"
     },
     {
       "title": "TVDUASRODAS.COM",
