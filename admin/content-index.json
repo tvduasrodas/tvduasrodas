@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "total": 670,
+  "total": 673,
   "counts": {
     "Competição": 22,
     "Configuração da home": 2,
     "Etapa esportiva": 62,
     "Evento": 14,
     "Evento da agenda": 491,
-    "Matéria": 46,
+    "Matéria": 49,
     "Matéria do acervo": 4,
     "Página fixa": 2,
     "Vídeo": 27
@@ -2616,6 +2616,20 @@
       "url": "/eventos/motofest-cambuci-rj-2026-07-24/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#motofest-cambuci-rj-2026-07-24"
+    },
+    {
+      "title": "Campeonato Amapaense de Ciclismo 2026 reúne estrada, contrarrelógio e seis etapas de MTB",
+      "type": "Matéria",
+      "slug": "campeonato-amapaense-ciclismo-2026-estrada-mtb",
+      "date": "2026-08-01T15:10:00-04:00",
+      "category": "Eventos",
+      "city": "",
+      "state": "",
+      "status": "",
+      "summary": "Regulamento da Federação Amapaense prevê provas de estrada e contrarrelógio em etapa única e um campeonato de mountain bike com seis rodadas em 2026.",
+      "url": "/materias/campeonato-amapaense-ciclismo-2026-estrada-mtb/",
+      "edit_url": "/admin/#/collections/news/entries/campeonato-amapaense-ciclismo-2026-estrada-mtb",
+      "source": "content/news/campeonato-amapaense-ciclismo-2026-estrada-mtb.md"
     },
     {
       "title": "Campeonato Amapaense de Ciclismo de Estrada, Contrarrelógio e MTB 2026",
@@ -5376,6 +5390,20 @@
       "source": "content/events/agenda-comunitaria-2026.json#motofest-iacu-ba-2026-10-09"
     },
     {
+      "title": "Ibitipoca Off Road larga neste sábado e decide o Brasileiro de Enduro de Regularidade",
+      "type": "Matéria",
+      "slug": "ibitipoca-off-road-2026-final-brasileiro-enduro-regularidade",
+      "date": "2026-08-01T15:20:00-04:00",
+      "category": "Eventos",
+      "city": "",
+      "state": "",
+      "status": "",
+      "summary": "Final do Brasileiro de Enduro de Regularidade começou às 6h em Juiz de Fora e percorre cerca de 200 km por dia até Conceição do Ibitipoca.",
+      "url": "/materias/ibitipoca-off-road-2026-final-brasileiro-enduro-regularidade/",
+      "edit_url": "/admin/#/collections/news/entries/ibitipoca-off-road-2026-final-brasileiro-enduro-regularidade",
+      "source": "content/news/ibitipoca-off-road-2026-final-brasileiro-enduro-regularidade.md"
+    },
+    {
       "title": "Iguaba Grande Moto Fest",
       "type": "Evento da agenda",
       "slug": "motofest-iguaba-grande-rj-2026-09-04",
@@ -7054,6 +7082,20 @@
       "url": "/eventos/motociata-dumont-sp-2026-10-12/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#motociata-dumont-sp-2026-10-12"
+    },
+    {
+      "title": "Motocross de Rondônia entra na agenda de agosto com etapas no sul do estado",
+      "type": "Matéria",
+      "slug": "motocross-rondonia-2026-agosto-cerejeiras-corumbiara",
+      "date": "2026-08-01T15:30:00-04:00",
+      "category": "Eventos",
+      "city": "",
+      "state": "",
+      "status": "",
+      "summary": "Calendário da LIMERO prevê compromissos em Cerejeiras e Corumbiara durante agosto; organização ainda deve confirmar datas, pistas e horários específicos.",
+      "url": "/materias/motocross-rondonia-2026-agosto-cerejeiras-corumbiara/",
+      "edit_url": "/admin/#/collections/news/entries/motocross-rondonia-2026-agosto-cerejeiras-corumbiara",
+      "source": "content/news/motocross-rondonia-2026-agosto-cerejeiras-corumbiara.md"
     },
     {
       "title": "MotoGP 2026",

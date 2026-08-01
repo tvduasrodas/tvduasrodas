@@ -19,10 +19,6 @@ O **MOTO1000GP 2026** realiza neste sábado, 1º de agosto, as primeiras quatro 
 
 O sábado coloca em disputa as categorias Yamaha R15 BLU CRU LA, Yamalube R3 BLU CRU LA Talent, Yamalube R3 BLU CRU LA Cup e GP1000 by Motul. As demais classes nacionais - GP600, GP Light e Daytona 660 Cup - correm no domingo.
 
-![Eric Granado contorna uma curva com a Honda número 51 durante os treinos do MOTO1000GP em Cascavel](/assets/img/uploads/moto1000gp-cascavel-2026-provas-sabado-capa.webp "Eric Granado foi o mais rápido da GP1000 nos treinos livres de sexta-feira em Cascavel.")
-
-*Foto: MOTO1000GP / Grelak Comunicação / divulgação.*
-
 ## Corridas do MOTO1000GP hoje, 1º de agosto
 
 De acordo com a programação oficial, estes são os horários previstos para as provas deste sábado, no horário de Cascavel e de Brasília:
