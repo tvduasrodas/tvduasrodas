@@ -676,6 +676,49 @@ button {
     background: #020617;
 }
 
+.live-audio-prompt {
+    position: absolute;
+    left: 50%;
+    bottom: 18px;
+    z-index: 4;
+    transform: translateX(-50%);
+    border: 2px solid #fff;
+    border-radius: 999px;
+    padding: 11px 18px;
+    background: #d71920;
+    color: #fff;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, .45);
+    font: inherit;
+    font-weight: 800;
+    white-space: nowrap;
+    cursor: pointer;
+    animation: live-audio-pulse 1.4s ease-in-out infinite;
+}
+
+.live-audio-prompt[hidden] {
+    display: none;
+}
+
+.live-audio-prompt:hover,
+.live-audio-prompt:focus-visible {
+    background: #f0252c;
+    transform: translateX(-50%) scale(1.04);
+}
+
+@keyframes live-audio-pulse {
+    0%, 100% { box-shadow: 0 8px 28px rgba(0, 0, 0, .45), 0 0 0 0 rgba(215, 25, 32, .7); }
+    50% { box-shadow: 0 8px 28px rgba(0, 0, 0, .45), 0 0 0 10px rgba(215, 25, 32, 0); }
+}
+
+@media (max-width: 520px) {
+    .live-audio-prompt {
+        bottom: 10px;
+        max-width: calc(100% - 20px);
+        padding: 9px 13px;
+        font-size: .82rem;
+    }
+}
+
     .video-embed-wrapper iframe {
         position: absolute;
         inset: 0;

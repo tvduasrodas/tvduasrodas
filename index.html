@@ -130,6 +130,10 @@
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 allowfullscreen>
                         </iframe>
+                        <button class="live-audio-prompt" type="button"
+                                data-live-audio data-player-id="heroPlayer" hidden>
+                            <span aria-hidden="true">🔊</span> Ativar som da transmissão
+                        </button>
                     </div>
 
                     <!-- Área Live (placeholder) -->
@@ -285,6 +289,7 @@
     <script src="assets/js/ads.js?v=20260726ga1"></script>
     <script src="assets/js/main.js?v=20260731visibility1"></script>
     <script src="assets/js/live-viewers.js?v=20260801a"></script>
+    <script src="assets/js/live-audio.js?v=20260801a"></script>
     <script>
         // CONFIGURE AQUI:
         const GITHUB_OWNER = "tvduasrodas";
@@ -461,11 +466,13 @@
                     const livePlayer = document.getElementById("heroPlayer");
                     const liveVideoId = extractYouTubeId(liveUrl);
                     if (livePlayer && liveVideoId) {
-                        livePlayer.src = `https://www.youtube-nocookie.com/embed/${liveVideoId}?autoplay=1&mute=1&playsinline=1&rel=0&enablejsapi=1&origin=${encodeURIComponent(location.origin)}`;
+                        livePlayer.src = `https://www.youtube-nocookie.com/embed/${liveVideoId}?autoplay=1&mute=0&playsinline=1&rel=0&enablejsapi=1&origin=${encodeURIComponent(location.origin)}`;
+                        window.TDRLiveAudio?.show(livePlayer);
                         window.TDRLiveViewers?.start(livePlayer);
                     }
                 } else {
                     HOME_IS_LIVE = false;
+                    window.TDRLiveAudio?.hide(document.getElementById("heroPlayer"));
                     window.TDRLiveViewers?.stop();
                     if (statusEl) {
                         statusEl.textContent = "Offline";

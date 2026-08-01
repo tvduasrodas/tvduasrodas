@@ -114,6 +114,10 @@
                                     allowfullscreen
                                     loading="eager">
                             </iframe>
+                            <button class="live-audio-prompt" type="button"
+                                    data-live-audio data-player-id="mainPlayer" hidden>
+                                <span aria-hidden="true">🔊</span> Ativar som da transmissão
+                            </button>
                         </div>
                     </section>
 
@@ -232,6 +236,7 @@
     <script src="assets/js/ads.js?v=20260726ga1"></script>
     <script src="assets/js/main.js?v=20260724e"></script>
     <script src="assets/js/live-viewers.js?v=20260801a"></script>
+    <script src="assets/js/live-audio.js?v=20260801a"></script>
     <script>
         // Config GitHub (mesma config da Home)
         const GITHUB_OWNER_TV = "tvduasrodas";
@@ -428,19 +433,19 @@
             // youtu.be/ID
             if (url.includes("youtu.be/")) {
                 const id = url.split("youtu.be/")[1].split(/[?&]/)[0];
-                return `https://www.youtube.com/embed/${id}?autoplay=1&playsinline=1&enablejsapi=1&origin=${encodeURIComponent(location.origin)}`;
+                return `https://www.youtube.com/embed/${id}?autoplay=1&mute=0&playsinline=1&enablejsapi=1&origin=${encodeURIComponent(location.origin)}`;
             }
 
             // youtube.com/watch?v=ID
             if (url.includes("watch?v=")) {
                 const id = url.split("watch?v=")[1].split(/[?&]/)[0];
-                return `https://www.youtube.com/embed/${id}?autoplay=1&playsinline=1&enablejsapi=1&origin=${encodeURIComponent(location.origin)}`;
+                return `https://www.youtube.com/embed/${id}?autoplay=1&mute=0&playsinline=1&enablejsapi=1&origin=${encodeURIComponent(location.origin)}`;
             }
 
             // youtube.com/live/ID
             if (url.includes("/live/")) {
                 const id = url.split("/live/")[1].split(/[?&]/)[0];
-                return `https://www.youtube.com/embed/${id}?autoplay=1&playsinline=1&enablejsapi=1&origin=${encodeURIComponent(location.origin)}`;
+                return `https://www.youtube.com/embed/${id}?autoplay=1&mute=0&playsinline=1&enablejsapi=1&origin=${encodeURIComponent(location.origin)}`;
             }
 
             return null;
@@ -883,6 +888,7 @@
 
                     if (mainPlayer && embedUrl) {
                         mainPlayer.src = embedUrl;
+                        window.TDRLiveAudio?.show(mainPlayer);
                         window.TDRLiveViewers?.start(mainPlayer);
                     }
 
@@ -894,6 +900,7 @@
                     }
                 } else {
                     TV_IS_LIVE = false;
+                    window.TDRLiveAudio?.hide(document.getElementById("mainPlayer"));
                     window.TDRLiveViewers?.stop();
                     if (statusEl) {
                         statusEl.textContent = "Offline";
