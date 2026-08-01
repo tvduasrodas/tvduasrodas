@@ -1,15 +1,15 @@
 {
-  "total_records": 654,
-  "canonical_records": 590,
-  "complete_records": 366,
-  "incomplete_records": 224,
+  "total_records": 655,
+  "canonical_records": 591,
+  "complete_records": 365,
+  "incomplete_records": 226,
   "by_kind": {
     "agenda": {
       "total": 493,
-      "complete": 277
+      "complete": 276
     },
     "evento": {
-      "total": 13,
+      "total": 14,
       "complete": 12
     },
     "calendario": {
@@ -647,6 +647,24 @@
       "placeholder_fields": 3,
       "missing": [
         "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "agenda",
+      "slug": "7-encontro-de-motociclistas-e-triciclistas-oliveira-fortes-mg-2026-07-31",
+      "title": "7º Encontro de Motociclistas e Triciclistas de Oliveira Fortes",
+      "date": "2026-07-31",
+      "city": "Oliveira Fortes",
+      "state": "MG",
+      "source_count": 1,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 2,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria"
       ],
       "complete": false,
       "duplicate_of": null
@@ -2540,15 +2558,15 @@
     },
     {
       "kind": "agenda",
-      "slug": "26-encontro-nacional-de-motociclistas-pedra-bela-sp-2026-09-11",
-      "title": "26º Encontro Nacional de Motociclistas de Pedra Bela",
-      "date": "2026-09-11",
-      "city": "Pedra Bela",
-      "state": "SP",
+      "slug": "11-encontro-de-motociclistas-perdoes-mg-2025-09-12",
+      "title": "11º Encontro de Motociclistas de Perdões",
+      "date": "2025-09-12",
+      "city": "Perdões",
+      "state": "MG",
       "source_count": 2,
       "independent_domains": 1,
       "specific_independent_domains": 1,
-      "placeholder_fields": 2,
+      "placeholder_fields": 1,
       "missing": [
         "duas_fontes_especificas_independentes"
       ],
@@ -3690,6 +3708,24 @@
       "placeholder_fields": 4,
       "missing": [
         "duas_fontes_especificas_independentes"
+      ],
+      "complete": false,
+      "duplicate_of": null
+    },
+    {
+      "kind": "evento",
+      "slug": "prova-ciclistica-sao-salvador-2026",
+      "title": "81ª Prova Ciclística São Salvador 2026",
+      "date": "2026-08-05",
+      "city": "Campos dos Goytacazes",
+      "state": "RJ",
+      "source_count": 2,
+      "independent_domains": 1,
+      "specific_independent_domains": 1,
+      "placeholder_fields": 2,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "evidencia_visual_ou_justificativa"
       ],
       "complete": false,
       "duplicate_of": null

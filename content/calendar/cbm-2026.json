@@ -2067,7 +2067,11 @@
       "city": "Bela Vista de Goiás",
       "state": "GO",
       "modality": "Paraciclismo",
-      "status": "agendada",
+      "status": "em_andamento",
+      "timezone": "America/Sao_Paulo",
+      "local_start": "2026-08-01",
+      "local_end": "2026-08-02",
+      "status_checked_at": "2026-08-01T08:01:00-04:00",
       "official_url": "https://www.cbc.esp.br/modalidades/calendario/busca/paraciclismo",
       "sources": [
         {
@@ -2077,7 +2081,7 @@
           "supports": "dados de agenda, identificação e situação do evento"
         }
       ],
-      "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
+      "source_checked_at": "2026-08-01T08:01:00-04:00",
       "research_status": {
         "required_specific_independent_sources": 2,
         "specific_independent_domains_found": 0,
@@ -2103,9 +2107,9 @@
         "checked_at": "2026-07-26T06:50:59.846775+00:00",
         "note": "Nenhum flyer público específico foi localizado nos resultados indexados; a ausência foi registrada, sem inventar serviço."
       },
-      "summary": "GP Goiás de Paraciclismo está no calendário de 2026 como Evento oficial CBC, na modalidade Paraciclismo, com realização prevista para 2026-08-01 a 2026-08-02 em Bela Vista de Goiás/GO. Serviço ainda não publicado permanece sinalizado.",
-      "body": "## Situação verificada\n\nGP Goiás de Paraciclismo aparece no calendário monitorado para 2026-08-01 a 2026-08-02. O enquadramento divulgado é Evento oficial CBC, na modalidade Paraciclismo.\n\n## Local e serviço\n\nA referência disponível é Bela Vista de Goiás · GO. As fontes consultadas ainda não publicaram um serviço completo com rua, número, horário, estacionamento e contato direto. Essas ausências são mantidas de forma explícita para evitar informação inventada.\n\n## Inscrições, categorias e regulamento\n\nInscrições, categorias, percurso, premiação, retirada de kits e regras técnicas devem ser confirmados nos canais vinculados abaixo. A página será atualizada quando o organizador ou a entidade publicar o regulamento específico.\n\n## Fontes cruzadas\n\nForam consultadas: Canal oficial ou página indicada pela entidade. Links genéricos de calendário não são tratados, sozinhos, como confirmação suficiente de serviço.",
-      "last_updated": "2026-07-26T07:34:37.403973+00:00"
+      "summary": "O GP Goiás de Paraciclismo está em andamento em Bela Vista de Goiás/GO, com datas oficiais de 1 a 2 de agosto de 2026 no calendário da CBC. O serviço detalhado ainda não foi publicado pela organização.",
+      "body": "## Situação\n\nO GP Goiás de Paraciclismo está em andamento em Bela Vista de Goiás/GO, com realização prevista para 1 e 2 de agosto de 2026. A modalidade indicada pela CBC é o paraciclismo.\n\n## Local e serviço\n\nA referência publicada é Bela Vista de Goiás/GO. Rua, número, horário, estacionamento e contato direto ainda não foram informados pela organização.\n\n## Inscrições e regulamento\n\nInscrições, categorias, percurso, premiação, retirada de kits e regras técnicas devem ser confirmados no canal oficial antes do deslocamento.",
+      "last_updated": "2026-08-01T08:01:00-04:00"
     },
     {
       "start_date": "2026-08-04",
