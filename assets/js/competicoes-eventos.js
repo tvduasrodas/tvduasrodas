@@ -224,12 +224,73 @@
         </article>`;
     }
 
+    function normalizePickerSearch(value) {
+        return String(value || "")
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .toLocaleLowerCase("pt-BR")
+            .trim();
+    }
+
     function setupSearchablePicker(input, select, button, records) {
         if (!input || !select || !button) return;
-        const allOptions = records.slice().sort((a, b) => String(a.label).localeCompare(String(b.label), "pt-BR"));
+        const allOptions = records
+            .map((item) => ({ ...item, normalizedSearch: normalizePickerSearch(`${item.label} ${item.search}`) }))
+            .sort((a, b) => String(a.label).localeCompare(String(b.label), "pt-BR"));
+        const suggestionBox = document.createElement("div");
+        const suggestionId = `${input.id}Suggestions`;
+        suggestionBox.id = suggestionId;
+        suggestionBox.className = "ce-autocomplete";
+        suggestionBox.setAttribute("role", "listbox");
+        suggestionBox.hidden = true;
+        input.insertAdjacentElement("afterend", suggestionBox);
+        input.setAttribute("role", "combobox");
+        input.setAttribute("aria-autocomplete", "list");
+        input.setAttribute("aria-controls", suggestionId);
+        input.setAttribute("aria-expanded", "false");
+        let visibleSuggestions = [];
+        let activeSuggestion = -1;
+
+        const destination = (item) => `/${item.kind === "competition" ? "competicoes" : "eventos"}/${slugify(item.value)}/`;
+        const closeSuggestions = () => {
+            suggestionBox.hidden = true;
+            input.setAttribute("aria-expanded", "false");
+            input.removeAttribute("aria-activedescendant");
+            activeSuggestion = -1;
+        };
+        const highlightSuggestion = (index) => {
+            const options = [...suggestionBox.querySelectorAll("[role=option]")];
+            if (!options.length) return;
+            activeSuggestion = Math.max(0, Math.min(index, options.length - 1));
+            options.forEach((option, optionIndex) => option.classList.toggle("is-active", optionIndex === activeSuggestion));
+            const active = options[activeSuggestion];
+            input.setAttribute("aria-activedescendant", active.id);
+            active.scrollIntoView({ block: "nearest" });
+        };
+        const openItem = (item) => {
+            if (!item) return;
+            window.location.href = destination(item);
+        };
+        const renderSuggestions = (query) => {
+            const normalized = normalizePickerSearch(query);
+            if (!normalized) {
+                closeSuggestions();
+                return;
+            }
+            visibleSuggestions = allOptions
+                .filter((item) => item.normalizedSearch.includes(normalized))
+                .sort((a, b) => Number(!a.normalizedSearch.startsWith(normalized)) - Number(!b.normalizedSearch.startsWith(normalized)))
+                .slice(0, 8);
+            suggestionBox.innerHTML = visibleSuggestions.length
+                ? visibleSuggestions.map((item, index) => `<button type="button" id="${suggestionId}-${index}" role="option" data-index="${index}"><strong>${esc(item.label)}</strong><span>${item.kind === "competition" ? "Competição" : "Evento"}</span></button>`).join("")
+                : '<p class="ce-autocomplete__empty">Nenhum resultado relacionado.</p>';
+            suggestionBox.hidden = false;
+            input.setAttribute("aria-expanded", "true");
+            activeSuggestion = -1;
+        };
         const render = (query = "") => {
-            const normalized = query.trim().toLocaleLowerCase("pt-BR");
-            const filtered = allOptions.filter((item) => !normalized || item.search.includes(normalized));
+            const normalized = normalizePickerSearch(query);
+            const filtered = allOptions.filter((item) => !normalized || item.normalizedSearch.includes(normalized));
             select.innerHTML = `<option value="">${filtered.length ? "Selecione na lista" : "Nenhum resultado"}</option>` +
                 filtered.map((item) => `<option value="${esc(item.value)}" data-kind="${esc(item.kind)}">${esc(item.label)}</option>`).join("");
             select.disabled = !filtered.length;
@@ -240,14 +301,45 @@
             if (!option?.value) return;
             window.location.href = `/${option.dataset.kind === "competition" ? "competicoes" : "eventos"}/${slugify(option.value)}/`;
         };
-        input.addEventListener("input", () => render(input.value));
+        input.addEventListener("input", () => {
+            render(input.value);
+            renderSuggestions(input.value);
+        });
+        input.addEventListener("focus", () => renderSuggestions(input.value));
+        suggestionBox.addEventListener("pointerdown", (event) => {
+            const option = event.target.closest("[data-index]");
+            if (!option) return;
+            event.preventDefault();
+            openItem(visibleSuggestions[Number(option.dataset.index)]);
+        });
         select.addEventListener("change", () => {
             button.disabled = !select.value;
-            if (select.value) input.value = select.selectedOptions[0].textContent;
+            if (select.value) {
+                input.value = select.selectedOptions[0].textContent;
+                closeSuggestions();
+            }
         });
         input.addEventListener("keydown", (event) => {
+            if (event.key === "ArrowDown" && visibleSuggestions.length && !suggestionBox.hidden) {
+                event.preventDefault();
+                highlightSuggestion(activeSuggestion + 1);
+                return;
+            }
+            if (event.key === "ArrowUp" && visibleSuggestions.length && !suggestionBox.hidden) {
+                event.preventDefault();
+                highlightSuggestion(activeSuggestion <= 0 ? visibleSuggestions.length - 1 : activeSuggestion - 1);
+                return;
+            }
+            if (event.key === "Escape") {
+                closeSuggestions();
+                return;
+            }
             if (event.key === "Enter") {
                 event.preventDefault();
+                if (!suggestionBox.hidden && visibleSuggestions.length) {
+                    openItem(visibleSuggestions[activeSuggestion >= 0 ? activeSuggestion : 0]);
+                    return;
+                }
                 const first = [...select.options].find((option) => option.value);
                 if (first) {
                     select.value = first.value;
@@ -255,6 +347,9 @@
                     openSelected();
                 }
             }
+        });
+        document.addEventListener("pointerdown", (event) => {
+            if (!input.parentElement.contains(event.target)) closeSuggestions();
         });
         button.addEventListener("click", openSelected);
         render();
