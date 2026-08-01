@@ -15,7 +15,10 @@ from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 ROOT = Path(__file__).resolve().parents[1]
 EVENTS_DIR = ROOT / "content" / "events"
-PLACEHOLDER = re.compile(r"local informado|a confirmar|confirme com|agenda nacional", re.I)
+# Avisos editoriais para confirmar alterações antes da viagem não tornam uma
+# programação já detalhada incompleta. O marcador deve sinalizar somente a
+# ausência do dado, não uma orientação prudencial ao leitor.
+PLACEHOLDER = re.compile(r"local informado|a confirmar|agenda nacional", re.I)
 
 CHECKS: tuple[tuple[str, int], ...] = (
     ("horario_local", 14),
