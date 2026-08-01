@@ -1258,7 +1258,12 @@
       "durationSeconds": 14,
       "publishedAt": "2026-08-01T08:47:00-04:00",
       "destination": "Instagram @tvduasrodasofc",
-      "publicationConfirmation": "Meta Business Suite exibiu o Story ativo em Conteúdo > Stories, com 23 horas restantes, às 08:48 Eastern."
+      "publicationConfirmation": "Meta Business Suite exibiu o Story ativo em Conteúdo > Stories, com 23 horas restantes, às 08:48 Eastern.",
+      "duplicateDetected": {
+        "detectedAt": "2026-08-01T08:48:00-04:00",
+        "duplicatePublishedAt": "2026-08-01T08:48:00-04:00",
+        "reason": "O Story original de 08:47 apareceu no painel com atraso durante a recuperação; um segundo envio idêntico foi confirmado ativo. Mantido sem exclusão externa nesta ocorrência."
+      }
     },
     "reel": {
       "status": "PUBLICADO",
