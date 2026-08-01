@@ -2575,6 +2575,7 @@ button {
 .ce-picker--dark .btn-outline { border-color: #64748b; color: #fff; }
 .ce-picker--dark .btn:not(:disabled):hover,
 .ce-picker--dark .btn:not(:disabled):focus-visible { border-color: #ff6b35; background: #ff6b35; color: #111827; }
+.ce-picker--event-top { margin: 20px 0 18px; }
 
 .ce-calendar { background: #f7f8fa; }
 .ce-calendar-list { display: grid; gap: 10px; }
