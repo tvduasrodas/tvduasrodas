@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "total": 669,
+  "total": 670,
   "counts": {
     "Competição": 22,
     "Configuração da home": 2,
     "Etapa esportiva": 62,
     "Evento": 14,
     "Evento da agenda": 491,
-    "Matéria": 45,
+    "Matéria": 46,
     "Matéria do acervo": 4,
     "Página fixa": 2,
     "Vídeo": 27
@@ -6984,6 +6984,20 @@
       "url": "/materias/moto1000gp-2026-cascavel-recebe-a-4-etapa-do-brasileiro-de-motovelocidade/",
       "edit_url": "/admin/#/collections/news/entries/moto1000gp-2026-cascavel-recebe-a-4-etapa-do-brasileiro-de-motovelocidade",
       "source": "content/news/moto1000gp-2026-cascavel-recebe-a-4-etapa-do-brasileiro-de-motovelocidade.md"
+    },
+    {
+      "title": "MOTO1000GP tem quatro corridas neste sábado em Cascavel; veja os horários",
+      "type": "Matéria",
+      "slug": "moto1000gp-cascavel-2026-corridas-sabado-horarios",
+      "date": "2026-08-01T13:20:00-04:00",
+      "category": "Eventos",
+      "city": "",
+      "state": "",
+      "status": "",
+      "summary": "GP Paraná realiza neste sábado as primeiras quatro corridas da etapa de Cascavel, incluindo a Sprint da GP1000 às 16h30; confira a programação de 1º de agosto.",
+      "url": "/materias/moto1000gp-cascavel-2026-corridas-sabado-horarios/",
+      "edit_url": "/admin/#/collections/news/entries/moto1000gp-cascavel-2026-corridas-sabado-horarios",
+      "source": "content/news/moto1000gp-cascavel-2026-corridas-sabado-horarios.md"
     },
     {
       "title": "MOTO1000GP — Campeonato Brasileiro de Motovelocidade 2026",

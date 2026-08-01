@@ -977,7 +977,7 @@ def render_article(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str
         "inLanguage": "pt-BR",
     }
     body = f"""
-<nav class="seo-breadcrumb"><a href="/">Início</a> › <a href="/revista">Revista</a> › {esc(item["category"])}</nav>
+<nav class="seo-breadcrumb"><a href="/">Início</a> › <a href="/materias/">Matérias</a> › {esc(item["category"])}</nav>
 <article class="seo-article">
   <header><span class="seo-eyebrow">{esc(item["category"])}</span><h1>{esc(item["title"])}</h1>
   <p class="seo-lead">{esc(item["summary"])}</p><p class="seo-meta">Por {esc(item["author"])} · {esc(br_date(item["date"]))}</p></header>
@@ -989,7 +989,7 @@ def render_article(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str
 </article>"""
     return page_shell(
         title=item["title"], description=item["summary"], canonical=canonical, body=body,
-        schemas=[article_schema, breadcrumb_schema([("Início", "/"), ("Revista", "/revista"), (item["title"], canonical)])],
+        schemas=[article_schema, breadcrumb_schema([("Início", "/"), ("Matérias", "/materias/"), (item["title"], canonical)])],
         image=image, page_type="article",
     )
 
