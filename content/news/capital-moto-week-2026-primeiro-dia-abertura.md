@@ -4,6 +4,7 @@ date: "2026-07-24T13:31:00-04:00"
 author: "Redação TVDUASRODAS"
 category: "Eventos"
 contentType: "news"
+show_in_revista: false
 readingTime: "6 min"
 kicker: "Primeiro dia"
 summary: "Veteranos do festival chegaram cedo para a abertura dos portões, enquanto a programação do primeiro dia reuniu bandas locais e atrações internacionais na Granja do Torto."

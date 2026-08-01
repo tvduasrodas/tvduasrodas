@@ -3,6 +3,8 @@ title: 'MOTO1000GP 2026: Cascavel recebe a 4ª etapa do Brasileiro de Motoveloci
 date: 2026-07-20T13:00:00-04:00
 author: TVDUASRODAS
 category: Eventos
+contentType: news
+show_in_revista: false
 videoId: ''
 cover: /assets/img/uploads/moto1000gp-cascavel-2026-capa-v2.webp
 featured: false

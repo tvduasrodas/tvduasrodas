@@ -319,6 +319,12 @@ async function loadMagazineFromCMS() {
             const episodeDuration = (data.episodeDuration || "").trim();
             const readingTime = (data.readingTime || "").trim();
 
+            // A Revista é reservada a matérias especiais e programas editoriais.
+            // Notícias continuam publicadas em /materias/, mas não entram nesta vitrine.
+            if (contentType === "news") {
+                continue;
+            }
+
             if (String(data.show_in_revista || "").toLowerCase() === "false") {
                 continue;
             }

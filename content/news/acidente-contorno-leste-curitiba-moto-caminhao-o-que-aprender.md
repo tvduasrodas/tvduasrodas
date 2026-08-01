@@ -3,6 +3,7 @@ title: 'Acidente no Contorno Leste mata motociclista: o que se sabe e como reduz
 date: 2026-07-28T12:12:00-04:00
 author: Redação TVDUASRODAS
 contentType: news
+show_in_revista: false
 category: Urbano
 ad_category: motos
 programLabel: ''
