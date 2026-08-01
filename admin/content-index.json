@@ -5026,20 +5026,6 @@
       "source": "content/events/agenda-comunitaria-2026.json#esquadrao-quadrangular-e-motociclistas-com-cristo-assis-sp-2026-07-26"
     },
     {
-      "title": "Estrada Aberta — edição de 01/08/2026: vento lateral e caminhões sem susto",
-      "type": "Matéria",
-      "slug": "estrada-aberta-01-08-2026-vento-lateral-caminhoes",
-      "date": "2026-08-01T17:05:00-04:00",
-      "category": "Outro",
-      "city": "",
-      "state": "",
-      "status": "",
-      "summary": "Como reconhecer rajadas e turbulência perto de caminhões, reduzir a exposição e manter uma margem segura na viagem de moto.",
-      "url": "/materias/estrada-aberta-01-08-2026-vento-lateral-caminhoes/",
-      "edit_url": "/admin/#/collections/news/entries/estrada-aberta-01-08-2026-vento-lateral-caminhoes",
-      "source": "content/news/estrada-aberta-01-08-2026-vento-lateral-caminhoes.md"
-    },
-    {
       "title": "Estrada Aberta — edição de 25/07/2026: ritmo para viajar com margem",
       "type": "Matéria",
       "slug": "estrada-aberta-25-07-2026-ritmo-planejamento",
@@ -5052,6 +5038,20 @@
       "url": "/materias/estrada-aberta-25-07-2026-ritmo-planejamento/",
       "edit_url": "/admin/#/collections/news/entries/estrada-aberta-25-07-2026-ritmo-planejamento",
       "source": "content/news/estrada-aberta-25-07-2026-ritmo-planejamento.md"
+    },
+    {
+      "title": "Estrada Aberta — Estrada da Graciosa de moto: Morretes e Antonina em um dia",
+      "type": "Matéria",
+      "slug": "estrada-aberta-01-08-2026-vento-lateral-caminhoes",
+      "date": "2026-08-01T17:05:00-04:00",
+      "category": "Outro",
+      "city": "",
+      "state": "",
+      "status": "",
+      "summary": "Um passeio real de cerca de 180 km saindo de Curitiba, descendo a Estrada da Graciosa, almoçando em Morretes, seguindo até Antonina e voltando pela BR-277.",
+      "url": "/materias/estrada-aberta-01-08-2026-vento-lateral-caminhoes/",
+      "edit_url": "/admin/#/collections/news/entries/estrada-aberta-01-08-2026-vento-lateral-caminhoes",
+      "source": "content/news/estrada-aberta-01-08-2026-vento-lateral-caminhoes.md"
     },
     {
       "title": "Evneto em Conjunto",
