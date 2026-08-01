@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://tvduasrodas.com/materias/estrada-aberta-01-08-2026-vento-lateral-caminhoes/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>TVDUASRODAS</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-01T17:05:00-04:00</news:publication_date>
+      <news:title>Estrada Aberta — edição de 01/08/2026: vento lateral e caminhões sem susto</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/materias/motocross-rondonia-2026-agosto-cerejeiras-corumbiara/</loc>
     <news:news>
       <news:publication>
