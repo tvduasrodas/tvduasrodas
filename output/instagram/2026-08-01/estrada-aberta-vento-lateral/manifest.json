@@ -1,0 +1,48 @@
+{
+  "title": "Vento lateral: viaje com margem",
+  "rights_verified": true,
+  "rights_basis": "Cinco imagens editoriais originais geradas por IA exclusivamente para esta publicação social, sem marcas, pessoas reconhecíveis ou alegação documental.",
+  "soundtrack": "rock_instrumental_original",
+  "scenes": [
+    {
+      "image": "source-01-ler-vento.png",
+      "context": "ESTRADA ABERTA",
+      "title": "LEIA O VENTO",
+      "detail": "Árvores, capim e poeira antecipam a rajada",
+      "credit": "Imagem editorial gerada por IA — TVDUASRODAS",
+      "source_url": "https://tvduasrodas.com/materias/estrada-aberta-01-08-2026-vento-lateral-caminhoes/"
+    },
+    {
+      "image": "source-02-ponte-exposta.png",
+      "context": "TRECHO EXPOSTO",
+      "title": "REDUZA ANTES",
+      "detail": "Pontes e áreas abertas mudam o vento de repente",
+      "credit": "Imagem editorial gerada por IA — TVDUASRODAS",
+      "source_url": "https://www.gov.br/dnit/pt-br/noticias-periodo-eleitoral/direcao-defensiva-e-a-linguagem-nas-estradas-para-motociclistas"
+    },
+    {
+      "image": "source-03-distancia-caminhao.png",
+      "context": "PERTO DO CAMINHÃO",
+      "title": "NÃO FIQUE AO LADO",
+      "detail": "Turbulência e rajada externa mudam rapidamente",
+      "credit": "Imagem editorial gerada por IA — TVDUASRODAS",
+      "source_url": "https://www.gov.br/prf/pt-br/noticias/estaduais/minas-gerais/2024/fevereiro/dicas-de-seguranca-da-prf-para-quem-vai-pegar-a-estrada-nesse-carnaval/"
+    },
+    {
+      "image": "source-04-pausa-segura.png",
+      "context": "RAJADA IMPREVISÍVEL",
+      "title": "PARE EM LOCAL SEGURO",
+      "detail": "Fora da pista, espere a condição melhorar",
+      "credit": "Imagem editorial gerada por IA — TVDUASRODAS",
+      "source_url": "https://www.gov.br/dnit/pt-br/assuntos/noticias/motociclista-vai-viajar-de-moto-o-dnit-indica-maneiras-seguras-para-voce-nao-ter-problemas-na-estrada"
+    },
+    {
+      "image": "source-05-bagagem.png",
+      "context": "ANTES DE PARTIR",
+      "title": "REVISE A BAGAGEM",
+      "detail": "Carga alta ou frouxa aumenta a exposição ao vento",
+      "credit": "Imagem editorial gerada por IA — TVDUASRODAS",
+      "source_url": "https://tvduasrodas.com/materias/estrada-aberta-01-08-2026-vento-lateral-caminhoes/"
+    }
+  ]
+}

@@ -1306,5 +1306,46 @@
       "status": "PENDENTE_DIREITOS_DE_IMAGEM_NAO_VERIFICADOS",
       "imageAudit": "Não gerar ou publicar parcialmente: faltam licença editorial verificável e pelo menos cinco imagens distintas elegíveis."
     }
+  },
+  {
+    "url": "https://tvduasrodas.com/materias/estrada-aberta-01-08-2026-vento-lateral-caminhoes/",
+    "type": "program",
+    "title": "Estrada Aberta — edição de 01/08/2026: vento lateral e caminhões sem susto",
+    "detectedAt": "2026-08-01T17:31:58-04:00",
+    "validation": {
+      "source": "DNIT e PRF; consulta editorial registrada na matéria do portal",
+      "publicUrl": "CONFIRMADA_NO_DOMINIO_PUBLICO",
+      "rights_verified": true,
+      "rights_basis": "Cinco imagens editoriais originais geradas por IA exclusivamente para esta publicação social, sem material de terceiros e claramente identificadas como não documentais.",
+      "imageAudit": "O recibo reel-build.json confirmou cinco imagens locais e cinco hashes SHA-256 distintos. Capa e Story foram validados visualmente com áreas seguras e crédito de IA."
+    },
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
+    "stories": {
+      "status": "PUBLICADO",
+      "file": "output/instagram/2026-08-01/estrada-aberta-vento-lateral/story.mp4",
+      "poster": "output/instagram/2026-08-01/estrada-aberta-vento-lateral/story-poster.jpg",
+      "format": "1080x1920 H.264/AAC",
+      "durationSeconds": 14,
+      "soundtrack": "rock_instrumental_original",
+      "publishedAt": "2026-08-01T17:52:00-04:00",
+      "destination": "Instagram @tvduasrodasofc",
+      "publicationConfirmation": "Meta Business Suite listou o Story como ativo às 17:52 Eastern, com 23 horas restantes."
+    },
+    "reel": {
+      "status": "PUBLICADO",
+      "file": "output/instagram/2026-08-01/estrada-aberta-vento-lateral/reel.mp4",
+      "cover": "output/instagram/2026-08-01/estrada-aberta-vento-lateral/reel-cover.jpg",
+      "format": "1080x1920 H.264/AAC",
+      "durationSeconds": 19.25,
+      "soundtrack": "rock_instrumental_original",
+      "transition": "page_peel_diagonal",
+      "sceneCount": 5,
+      "publishedAt": "2026-08-01T17:51:00-04:00",
+      "destination": "Instagram @tvduasrodasofc",
+      "contentId": "18002178149778554",
+      "publicationConfirmation": "Meta Business Suite exibiu a confirmação de publicação e o Planner listou o Reel às 17:51 Eastern com o ID 18002178149778554."
+    }
   }
 ]
