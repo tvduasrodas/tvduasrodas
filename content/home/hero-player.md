@@ -1,4 +1,4 @@
 ---
-title: TVDUASRODAS
-youtube_url: https://www.youtube.com/watch?v=5RFKngTPvQY
+title: MX1 GP Brasil 2026 -7ª e 8ª Etapa - Santa Cruz do Capibaribe/PE
+youtube_url: https://www.youtube.com/watch?v=vnn1y_yuSbg
 ---
