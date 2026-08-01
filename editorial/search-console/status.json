@@ -1,34 +1,34 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-08-01T11:30:11.219385+00:00",
+  "generated_at": "2026-08-01T11:39:26.854658+00:00",
   "scope": "Matérias no Google News sitemap das últimas 48 horas e eventos em andamento ou futuros priorizados por data",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/event-sitemap.xml",
-      "last_submitted": "2026-08-01T11:28:56.471Z",
-      "last_downloaded": "2026-08-01T11:28:57.338Z",
+      "last_submitted": "2026-08-01T11:38:10.369Z",
+      "last_downloaded": "2026-08-01T11:38:11.126Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
-      "discovered": 1070,
+      "discovered": 1072,
       "indexed": 0,
       "content": [
         {
           "type": "web",
-          "submitted": "535",
+          "submitted": "536",
           "indexed": "0"
         },
         {
           "type": "image",
-          "submitted": "535",
+          "submitted": "536",
           "indexed": "0"
         }
       ]
     },
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-08-01T11:28:56.351Z",
-      "last_downloaded": "2026-08-01T11:28:57.896Z",
+      "last_submitted": "2026-08-01T11:38:10.281Z",
+      "last_downloaded": "2026-08-01T11:38:18.529Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -49,22 +49,22 @@
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-08-01T11:28:56.245Z",
-      "last_downloaded": "2026-08-01T11:28:57.924Z",
+      "last_submitted": "2026-08-01T11:38:10.182Z",
+      "last_downloaded": "2026-08-01T11:38:18.568Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
-      "discovered": 1649,
+      "discovered": 1651,
       "indexed": 0,
       "content": [
         {
           "type": "web",
-          "submitted": "992",
+          "submitted": "993",
           "indexed": "0"
         },
         {
           "type": "image",
-          "submitted": "630",
+          "submitted": "631",
           "indexed": "0"
         },
         {
@@ -99,7 +99,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-08-01T11:29:02.877719+00:00"
+      "inspected_at": "2026-08-01T11:38:16.810743+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/honda-motos-cresce-11-primeiro-semestre-2026/",
@@ -118,7 +118,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-08-01T11:29:09.038666+00:00"
+      "inspected_at": "2026-08-01T11:38:23.126004+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/capital-moto-week-2026/",
@@ -137,7 +137,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/evento?slug=capital-moto-week-2026"
       ],
-      "inspected_at": "2026-08-01T11:29:15.368131+00:00"
+      "inspected_at": "2026-08-01T11:38:29.541124+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/3-encontro-de-motociclistas-penedo-mg-2026-07-30/",
@@ -154,7 +154,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-01T11:29:21.537235+00:00"
+      "inspected_at": "2026-08-01T11:38:35.863990+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motofest-bezerros-pe-2026-07-30/",
@@ -171,24 +171,21 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-01T11:29:27.703700+00:00"
+      "inspected_at": "2026-08-01T11:38:42.173734+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motofest-iguatu-ce-2026-07-30/",
       "verdict": "NEUTRAL",
-      "coverage_state": "Detectada, mas não indexada no momento",
+      "coverage_state": "O Google não reconhece o URL",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED",
       "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
       "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "last_crawl_time": null,
       "google_canonical": "",
       "user_canonical": "",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-08-01T11:29:33.868013+00:00"
+      "inspected_at": "2026-08-01T11:38:48.596753+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/14-motofest-extrema-mg-2026-07-31/",
@@ -205,7 +202,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-01T11:29:40.025095+00:00"
+      "inspected_at": "2026-08-01T11:38:54.873266+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/2-encontro-nacional-serra-da-saudade-mg-2026-07-31/",
@@ -222,7 +219,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-01T11:29:46.215239+00:00"
+      "inspected_at": "2026-08-01T11:39:01.203980+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/21-paranaguamotos-paranagua-pr-2026-07-31/",
@@ -239,7 +236,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-01T11:29:52.577352+00:00"
+      "inspected_at": "2026-08-01T11:39:07.642544+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/3-moto-rock-fest-paranapanema-sp-2026-07-31/",
@@ -256,7 +253,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-01T11:29:58.730772+00:00"
+      "inspected_at": "2026-08-01T11:39:13.945400+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/7-encontro-de-motociclistas-e-triciclistas-oliveira-fortes-mg-2026-07-31/",
@@ -273,7 +270,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-01T11:30:04.936284+00:00"
+      "inspected_at": "2026-08-01T11:39:20.376797+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/7-encontro-nacional-de-motociclsitas-e-motoclubes-aimores-mg-2026-07-31/",
@@ -290,7 +287,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-01T11:30:11.114772+00:00"
+      "inspected_at": "2026-08-01T11:39:26.673270+00:00"
     }
   ]
 }
