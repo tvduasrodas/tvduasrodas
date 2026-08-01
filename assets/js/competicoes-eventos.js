@@ -375,29 +375,78 @@
             const calendarEntries = Array.isArray(calendar.entries) ? calendar.entries
                 .sort((a, b) => String(a.start_date).localeCompare(String(b.start_date))) : [];
             const competitionMonth = document.getElementById("ceCompetitionMonth");
+            const competitionScope = document.getElementById("ceCompetitionScope");
+            const competitionRegion = document.getElementById("ceCompetitionRegion");
+            const competitionState = document.getElementById("ceCompetitionState");
+            const competitionSegment = document.getElementById("ceCompetitionSegment");
+            const stateRegions = {
+                AC: "Norte", AP: "Norte", AM: "Norte", PA: "Norte", RO: "Norte", RR: "Norte", TO: "Norte",
+                AL: "Nordeste", BA: "Nordeste", CE: "Nordeste", MA: "Nordeste", PB: "Nordeste", PE: "Nordeste", PI: "Nordeste", RN: "Nordeste", SE: "Nordeste",
+                DF: "Centro-Oeste", GO: "Centro-Oeste", MT: "Centro-Oeste", MS: "Centro-Oeste",
+                ES: "Sudeste", MG: "Sudeste", RJ: "Sudeste", SP: "Sudeste",
+                PR: "Sul", RS: "Sul", SC: "Sul"
+            };
+            const competitionRanges = (item) => [
+                item,
+                item.next_stage,
+                ...(Array.isArray(item.rounds) ? item.rounds : []),
+                ...(Array.isArray(item.stages) ? item.stages : []),
+                ...calendarEntries.filter((entry) => entry.competition_slug === item.slug)
+            ].filter(Boolean);
+            const competitionMeta = new Map(competitions.map((item) => {
+                const states = new Set();
+                competitionRanges(item).forEach((range) => {
+                    const directState = String(range.state || "").toUpperCase();
+                    if (stateRegions[directState]) states.add(directState);
+                    const location = String(range.location || range.venue || "").toUpperCase();
+                    const match = location.match(/(?:\/|,|\s-\s|\s·\s)\s*(AC|AL|AP|AM|BA|CE|DF|ES|GO|MA|MT|MS|MG|PA|PB|PR|PE|PI|RJ|RN|RS|RO|RR|SC|SP|SE|TO)\b/);
+                    if (match) states.add(match[1]);
+                });
+                const scopeText = `${item.scope || ""} ${item.country || ""}`;
+                const scope = /nacional|brasil/i.test(scopeText) && !/mundial|internacional/i.test(scopeText) ? "Nacional" : "Internacional";
+                const segmentText = `${item.modality || ""} ${item.title || ""}`;
+                const segment = /scooter|vespa/i.test(segmentText) ? "Scooters" : /cicl|mtb|bmx|bike|pedal/i.test(segmentText) ? "Bicicletas" : "Motos";
+                return [item.slug, { scope, segment, states, regions: new Set([...states].map((state) => stateRegions[state])) }];
+            }));
+            ["Norte", "Nordeste", "Centro-Oeste", "Sudeste", "Sul"].filter((name) =>
+                competitions.some((item) => competitionMeta.get(item.slug).regions.has(name))
+            ).forEach((name) => competitionRegion.insertAdjacentHTML("beforeend", `<option value="${esc(name)}">${esc(name)}</option>`));
+            [...new Set(competitions.flatMap((item) => [...competitionMeta.get(item.slug).states]))].sort()
+                .forEach((name) => competitionState.insertAdjacentHTML("beforeend", `<option value="${esc(name)}">${esc(name)}</option>`));
+            [...new Set(competitions.map((item) => competitionMeta.get(item.slug).segment))].sort()
+                .forEach((name) => competitionSegment.insertAdjacentHTML("beforeend", `<option value="${esc(name)}">${esc(name)}</option>`));
             const competitionMatchesMonth = (item, monthValue) => {
                 if (!monthValue) return true;
-                const ranges = [
-                    item,
-                    item.next_stage,
-                    ...(Array.isArray(item.rounds) ? item.rounds : []),
-                    ...(Array.isArray(item.stages) ? item.stages : []),
-                    ...calendarEntries.filter((entry) => entry.competition_slug === item.slug)
-                ].filter(Boolean);
-                return ranges.some((range) =>
+                return competitionRanges(item).some((range) =>
                     rangeMatchesMonth(range.start_date || range.date, range.end_date, monthValue)
                 );
             };
             const renderCompetitions = () => {
                 const monthValue = competitionMonth ? competitionMonth.value : "";
-                const filtered = monthValue
-                    ? competitions.filter((item) => competitionMatchesMonth(item, monthValue))
-                    : highlights.slice(0, LIST_LIMIT);
+                const hasFilters = [competitionMonth, competitionScope, competitionRegion, competitionState, competitionSegment]
+                    .some((control) => control?.value);
+                const source = hasFilters ? competitions : highlights.slice(0, LIST_LIMIT);
+                const filtered = source.filter((item) => {
+                    const meta = competitionMeta.get(item.slug);
+                    return competitionMatchesMonth(item, monthValue) &&
+                        (!competitionScope.value || meta.scope === competitionScope.value) &&
+                        (!competitionRegion.value || meta.regions.has(competitionRegion.value)) &&
+                        (!competitionState.value || meta.states.has(competitionState.value)) &&
+                        (!competitionSegment.value || meta.segment === competitionSegment.value);
+                });
                 competitionGrid.innerHTML = filtered.length
                     ? filtered.map(competitionCard).join("")
-                    : '<div class="ce-empty"><strong>Nenhuma competição encontrada neste mês.</strong><p>Escolha outro período.</p></div>';
+                    : '<div class="ce-empty"><strong>Nenhuma competição encontrada com estes filtros.</strong><p>Ajuste os filtros para ampliar os resultados.</p></div>';
             };
-            if (competitionMonth) competitionMonth.addEventListener("change", renderCompetitions);
+            [competitionMonth, competitionScope, competitionRegion, competitionState, competitionSegment].forEach((control) =>
+                control.addEventListener("change", () => {
+                    if (control === competitionScope && competitionScope.value === "Internacional") {
+                        competitionRegion.value = "";
+                        competitionState.value = "";
+                    }
+                    renderCompetitions();
+                })
+            );
             renderCompetitions();
 
             const calendarEvents = calendarEntries.filter((item) => !item.competition_slug).map((item) => ({

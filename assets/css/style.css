@@ -2576,6 +2576,11 @@ button {
 .ce-picker--dark .btn:not(:disabled):hover,
 .ce-picker--dark .btn:not(:disabled):focus-visible { border-color: #ff6b35; background: #ff6b35; color: #111827; }
 .ce-picker--event-top { margin: 20px 0 18px; }
+.ce-picker--competition-top { margin: 20px 0 18px; }
+.ce-competition-filters { display: grid; grid-template-columns: repeat(auto-fit, minmax(165px, 1fr)); gap: 12px; margin: 0 0 22px; padding: 16px; border: 1px solid #e2e8f0; border-radius: 14px; background: #f8fafc; }
+.ce-competition-filters label > span { display: block; margin-bottom: 7px; color: #475569; font-size: 12px; font-weight: 800; }
+.ce-competition-filters select { width: 100%; min-height: 44px; padding: 0 12px; border: 1px solid #cfd7e3; border-radius: 9px; color: #1f2937; background: #fff; font: inherit; }
+.ce-competition-filters select:focus { border-color: #ef5b35; outline: 3px solid rgba(239,91,53,.16); }
 
 .ce-calendar { background: #f7f8fa; }
 .ce-calendar-list { display: grid; gap: 10px; }
