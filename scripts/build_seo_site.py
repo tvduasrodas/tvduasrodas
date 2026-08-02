@@ -161,7 +161,7 @@ def read_text(path: Path) -> str:
 
 
 def esc(value: Any) -> str:
-    return html.escape(str(value or ""), quote=True)
+    return html.escape(str("" if value is None else value), quote=True)
 
 
 def slugify(value: str) -> str:
@@ -1081,7 +1081,7 @@ def render_competition(
                 f"<tr><td>{esc(result.get('display_position') or result.get('position'))}</td>"
                 f'<td><a href="/atletas/{slugify(name)}/"><strong>{esc(name)}</strong></a></td>'
                 f"<td>{esc(result.get('team'))}</td>"
-                f"<td>{esc(result.get('points') or result.get('time_gap'))}</td></tr>"
+                f"<td>{esc(result.get('points') if result.get('points') is not None else result.get('time_gap'))}</td></tr>"
             )
         standings_groups.append(
             f'<section class="seo-competition-block seo-standing-block">'
