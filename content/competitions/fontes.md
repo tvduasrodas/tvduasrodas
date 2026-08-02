@@ -2,6 +2,11 @@
 
 Registro editorial de fontes e imagens usadas na implantação inicial da central. Consulta em 20 de julho de 2026.
 
+## Auditoria estrutural — 2 de agosto de 2026, 08h08 (ET)
+
+- MOTO1000GP: a [central oficial de resultados](https://m1gp.com.br/area-desportiva/resultados-2026-m1gp/) mantinha o GP Paraná, em Cascavel, em andamento, com a Sprint da GP1000 de 1º de agosto já revisada após vistoria e as corridas principais previstas para domingo. Nenhum resultado dominical foi antecipado.
+- Brasileiro de Motocross: o [calendário oficial da CBM](https://www.cbm.esp.br/site/public/index.php/calendario/motocross) confirmava a 9ª etapa em Santa Cruz do Capibaribe para 2 de agosto. O campeonato permaneceu `em_andamento`; nenhum vencedor foi publicado antes do resultado oficial.
+
 ## Arena Cross Brasil 2026
 
 - Informações e classificação: [release oficial da etapa de Jundiaí](https://www.arenacross.com.br/single-post/dean-wilson-vence-em-jundia%C3%AD-e-leva-decis%C3%A3o-do-arena-cross-para-a-super-final-em-interlagos).
