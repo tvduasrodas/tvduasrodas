@@ -11,7 +11,7 @@ readingTime: "7 min"
 kicker: "Resultados de Cascavel"
 summary: "Kevin Fontainha superou Maxi Scheib por 0s169 na GP1000; Mário Salles venceu a GP600 e Kaka Freire foi o melhor da 1000 Evo no GP Paraná."
 seoTitle: "MOTO1000GP Cascavel 2026: vencedores e resultados"
-cover: "/assets/img/uploads/moto1000gp-cascavel-2026-provas-sabado-capa.webp"
+cover: ""
 ---
 
 O **GP Paraná do MOTO1000GP 2026** entregou uma chegada apertadíssima na principal corrida do fim de semana. **Kevin Fontainha**, da Honda Racing, venceu a GP1000 no Autódromo Internacional Zilmar Beux, em Cascavel, depois de 21 voltas. **Maxi Scheib** recebeu a bandeirada apenas **0s169** depois; **Eric Granado** completou o pódio a **0s542**.
@@ -38,15 +38,7 @@ Theo Manna e Mauro Passarino não completaram a distância mínima para classifi
 
 Na classificação por classe, **Kaka Freire** venceu a **1000 Evo**, com Julio Fortunato em segundo. Os dois também apareceram na classificação geral da corrida, em oitavo e nono.
 
-![Equipe trabalha em uma motocicleta nos boxes do GP Paraná](/assets/img/uploads/moto1000gp-cascavel-2026-boxes.webp "Preparação nos boxes foi decisiva em um fim de semana com corridas e revisões técnicas.")
-
-*Foto: MOTO1000GP / divulgação.*
-
 ## GP600: Mário Salles encosta no líder
-
-![Mário Salles e pilotos da GP600 em ação durante a etapa de Cascavel](/assets/img/uploads/moto1000gp-cascavel-2026-gp600.webp "A GP600 teve vitória de Mário Salles e disputa direta pela liderança do campeonato.")
-
-*Foto: MOTO1000GP / divulgação.*
 
 Na GP600, **Mário Salles** venceu as 18 voltas, seguido por **Cauã Rodrigues** e **Pedro Valiente**. Alex Oliveira foi o quarto e João Portuguinha terminou em quinto na geral, além de vencer a subdivisão **600 Evo**.
 
@@ -56,15 +48,7 @@ Com a pontuação publicada pelo organizador, Cauã permaneceu na liderança da 
 
 A corrida curta de sábado terminou sob revisão. Após a vistoria, **Maxi Scheib** foi declarado vencedor, com **Theo Manna** em segundo e **Gui Brito** em terceiro. Kaka Freire ganhou a 1000 Evo. Eric Granado e Kevin Fontainha foram desclassificados daquela prova.
 
-![Motos e pilotos posicionados no grid do MOTO1000GP em Cascavel](/assets/img/uploads/moto1000gp-cascavel-2026-grid.webp "O GP Paraná reuniu mais de 120 pilotos e sete categorias no circuito de Cascavel.")
-
-*Foto: MOTO1000GP / divulgação.*
-
 ## Demais categorias
-
-![Pilotos da GP Light disputam posição no circuito de Cascavel](/assets/img/uploads/moto1000gp-cascavel-2026-gp-light.webp "A GP Light integrou a programação de sete categorias do GP Paraná.")
-
-*Foto: MOTO1000GP / divulgação.*
 
 A quarta etapa também reuniu **GP Light, Daytona 660 Cup** e as classes **R15, R3 Talent e R3 Cup**. Na hora desta publicação, a central oficial ainda recebia documentos de algumas corridas. Para preservar a precisão, esta matéria não usa resultado de warm-up, grid ou transmissão como se fosse classificação final.
 

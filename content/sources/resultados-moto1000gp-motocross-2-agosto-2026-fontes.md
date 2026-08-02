@@ -43,3 +43,5 @@ Páginas de origem: https://mx1gpbrasil.com.br/glenn-coldenhoff-e-benjamin-garib
 Os arquivos permanecem em WebP, dentro das dimensões e pesos já validados no registro editorial original. Não houve remoção de marca-d’água, ampliação nem alteração de conteúdo.
 
 Em 2 de agosto, foi feita nova busca no arquivo de fotos 2026 e na sala de imprensa oficial do MOTO1000GP. A galeria específica de domingo da etapa de Cascavel ainda não aparecia publicada; por isso foram mantidas fotografias oficiais locais e distintas da mesma etapa, já auditadas, sem recorrer a imagens genéricas de outro circuito.
+
+**Atualização editorial posterior:** por determinação do responsável pela TVDUASRODAS, todas as fotografias foram removidas da matéria `moto1000gp-cascavel-2026-vencedores-resultados`, inclusive a capa. Os arquivos permaneceram no acervo porque podem ser utilizados por outras publicações.
