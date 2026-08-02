@@ -103,6 +103,11 @@ def evaluate(event: dict[str, Any]) -> dict[str, Any]:
         "inspecao_visual": bool(
             event.get("visual_verification")
             or verification in {"flyer_inspecionado_visual", "fonte_oficial_sem_flyer"}
+            or (
+                "flyer" in verification
+                and "inspecionado" in verification
+                and (event.get("flyer") or event.get("jacaremoto_flyer_url"))
+            )
         ),
         "status_atualizado": bool(event.get("status") and event.get("status_checked_at")),
     }

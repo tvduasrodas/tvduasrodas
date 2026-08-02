@@ -104,7 +104,13 @@ def evaluate(kind: str, slug: str, data: dict[str, Any]) -> dict[str, Any]:
             missing.append("conteudo_aprofundado")
         if not data.get("organizer"):
             missing.append("organizacao")
-        if not data.get("visual_verification"):
+        verification = str(data.get("verification_status") or "").lower()
+        has_verified_flyer = bool(
+            "flyer" in verification
+            and "inspecionado" in verification
+            and (data.get("flyer") or data.get("jacaremoto_flyer_url"))
+        )
+        if not (data.get("visual_verification") or has_verified_flyer):
             missing.append("evidencia_visual_ou_justificativa")
     else:
         if not body or len(body) < 350:

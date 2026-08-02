@@ -1250,7 +1250,9 @@
       "rights_basis": "Sete ilustrações editoriais originais geradas exclusivamente para a publicação; identificadas como IA e sem alegação de registro da prova.",
       "imageAudit": "Sete arquivos locais com hashes SHA-256 distintos; recibo reel-build.json validado com rights_verified=true."
     },
-    "feed": {"status": "NAO_APLICAVEL_POR_REGRA"},
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
     "stories": {
       "status": "PUBLICADO",
       "file": "output/instagram/2026-08-01/prova-ciclistica-sao-salvador/story.mp4",
@@ -1282,6 +1284,16 @@
       "destination": "Instagram @tvduasrodasofc",
       "contentId": "18146404861523551",
       "publicationConfirmation": "Meta Business Suite confirmou \"Your reel has been published\" e listou o item publicado às 08:45 Eastern."
+    },
+    "localCleanup": {
+      "status": "EXCLUIDO_APOS_PUBLICACAO",
+      "deletedAt": "2026-08-02T08:50:42.579277-04:00",
+      "retentionHours": 24.0,
+      "folder": "output/instagram/2026-08-01/prova-ciclistica-sao-salvador",
+      "fileCount": 67,
+      "bytesFreed": 44012032,
+      "latestPublishedAt": "2026-08-01T08:47:00-04:00",
+      "reason": "Story e Reel confirmados no Instagram há pelo menos 24 horas."
     }
   },
   {
@@ -1346,6 +1358,47 @@
       "destination": "Instagram @tvduasrodasofc",
       "contentId": "18002178149778554",
       "publicationConfirmation": "Meta Business Suite exibiu a confirmação de publicação e o Planner listou o Reel às 17:51 Eastern com o ID 18002178149778554."
+    }
+  },
+  {
+    "url": "https://tvduasrodas.com/evento.html?slug=taca-brasil-ciclismo-pista-maringa-2026",
+    "type": "event",
+    "title": "Taça Brasil de Pista 2026",
+    "detectedAt": "2026-08-02T08:32:00-04:00",
+    "validation": {
+      "source": "Confederação Brasileira de Ciclismo — página de eventos e calendário oficial de pista; consulta em 02/08/2026",
+      "publicUrl": "CONFIRMADA_NO_DOMINIO_PUBLICO",
+      "rights_verified": true,
+      "rights_basis": "Cinco ilustrações editoriais originais geradas por IA exclusivamente para esta publicação social; não retratam a competição real nem reutilizam material de terceiros.",
+      "imageAudit": "O recibo reel-build.json confirmou cinco imagens locais e hashes distintos; créditos e fontes estão registrados no pacote."
+    },
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
+    "stories": {
+      "status": "PUBLICADO",
+      "file": "output/instagram/2026-08-02/taca-brasil-pista-maringa/story.mp4",
+      "poster": "output/instagram/2026-08-02/taca-brasil-pista-maringa/story-poster.jpg",
+      "format": "1080x1920 H.264/AAC",
+      "durationSeconds": 14,
+      "soundtrack": "rock_instrumental_original",
+      "publishedAt": "2026-08-02T08:49:00-04:00",
+      "destination": "Instagram @tvduasrodasofc",
+      "publicationConfirmation": "Meta Business Suite listou o Story como ativo às 08:49 Eastern, com 23 horas restantes."
+    },
+    "reel": {
+      "status": "PUBLICADO",
+      "file": "output/instagram/2026-08-02/taca-brasil-pista-maringa/reel.mp4",
+      "cover": "output/instagram/2026-08-02/taca-brasil-pista-maringa/reel-cover.jpg",
+      "format": "1080x1920 H.264/AAC",
+      "durationSeconds": 19.25,
+      "soundtrack": "rock_instrumental_original",
+      "transition": "page_peel_diagonal",
+      "sceneCount": 5,
+      "publishedAt": "2026-08-02T08:48:00-04:00",
+      "destination": "Instagram @tvduasrodasofc",
+      "contentId": "18071928140450930",
+      "publicationConfirmation": "Meta Business Suite exibiu o Reel no Planner às 08:48 Eastern com o ID 18071928140450930."
     }
   }
 ]
