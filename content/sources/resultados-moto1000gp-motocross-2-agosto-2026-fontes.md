@@ -28,7 +28,17 @@
 Foram reutilizadas imagens locais já publicadas e auditadas das mesmas etapas, sem novo download ou alteração:
 
 - MOTO1000GP: `moto1000gp-cascavel-2026-provas-sabado-capa.webp` somente como capa; no corpo, sem repetição, `moto1000gp-cascavel-2026-boxes.webp`, `moto1000gp-cascavel-2026-grid.webp`, `moto1000gp-cascavel-2026-gp600.webp` e `moto1000gp-cascavel-2026-gp-light.webp`. Crédito: MOTO1000GP / divulgação.
-- Motocross: `mx1gp-santa-cruz-2026-capa.webp`, `mx1gp-santa-cruz-2026-pista-publico.webp` e `mx1gp-santa-cruz-2026-desfile-equipes.webp`. Crédito: MX1 GP Brasil / divulgação; imagens de arquivo do mesmo circuito, descritas como tal nas matérias.
+- Motocross: a matéria de resultados passou a usar somente fotos oficiais da última etapa: `mx1gp-santa-cruz-2026-resultados-chegada.webp` como capa e, no corpo, `mx1gp-santa-cruz-2026-resultados-largada.webp`, `mx1gp-santa-cruz-2026-podio-principal.webp`, `mx1gp-santa-cruz-2026-podio-mx2.webp` e `mx1gp-santa-cruz-2026-podio-base.webp`. Crédito: Studio MOZ / MX1 GP Brasil.
+
+### Origem e otimização das novas fotos do Motocross
+
+- Chegada: `Copia-de-316B6119-scaled.jpg`, 2560 x 1707 px, 923.160 bytes; origem na matéria oficial dos campeões. Publicada em WebP, 1600 x 1067 px, qualidade 82, 325.412 bytes.
+- Largada: `316B4663_reduzida.jpg`, 2048 x 1365 px, 862.319 bytes; origem na matéria oficial de MX1/MX2. Publicada em WebP, 1400 x 933 px, qualidade 76, 235.198 bytes.
+- Pódio principal: `316B5782_reduzida.jpg`, 2047 x 1365 px, 715.918 bytes; origem na galeria incorporada à matéria oficial. Publicada em WebP, 1400 x 934 px, qualidade 80, 149.548 bytes.
+- Pódio MX2: `316B5773_reduzida.jpg`, 2048 x 1365 px, 729.429 bytes; origem na galeria incorporada à matéria oficial. Publicada em WebP, 1400 x 933 px, qualidade 80, 132.022 bytes.
+- Pódio de base: `316B5731_reduzida.jpg`, 2048 x 1365 px, 665.962 bytes; origem na galeria incorporada à matéria oficial. Publicada em WebP, 1400 x 933 px, qualidade 80, 118.206 bytes.
+
+Páginas de origem: https://mx1gpbrasil.com.br/glenn-coldenhoff-e-benjamin-garib-dominam-primeiro-dia-de-provas-em-santa-cruz-do-capibaribe/ e https://mx1gpbrasil.com.br/titulos-de-willian-guimaraes-e-cesar-aponte-marcam-segundo-dia-de-competicoes-no-nordeste/. As páginas atribuem as fotos ao Studio MOZ / MX1 GP Brasil.
 
 Os arquivos permanecem em WebP, dentro das dimensões e pesos já validados no registro editorial original. Não houve remoção de marca-d’água, ampliação nem alteração de conteúdo.
 

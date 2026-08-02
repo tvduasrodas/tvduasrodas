@@ -11,16 +11,12 @@ readingTime: "8 min"
 kicker: "Etapa da Moda"
 summary: "Glenn Coldenhoff e Benjamin Garib dominaram MX1 e MX2; Willian Guimarães foi campeão da MX5 e Cesar Aponte garantiu antecipadamente a MX2JR."
 seoTitle: "MX1 GP Brasil: resultados da última etapa em Santa Cruz"
-cover: "/assets/img/uploads/mx1gp-santa-cruz-2026-capa.webp"
+cover: "/assets/img/uploads/mx1gp-santa-cruz-2026-resultados-chegada.webp"
 ---
 
 A **Etapa da Moda do Brasileiro de Motocross 2026**, em Santa Cruz do Capibaribe (PE), já confirmou vencedores em dez categorias e dois campeões nacionais. **Glenn Coldenhoff** dominou a MX1, **Benjamin Garib** venceu a MX2, enquanto **Willian Guimarães** conquistou o título da MX5 e **Cesar Aponte** assegurou antecipadamente a taça da MX2JR.
 
 Os resultados foram publicados pelo organizador do MX1 GP Brasil Sportbay após as corridas de sexta-feira, 31 de julho, e sábado, 1º de agosto. A rodada também abriu o Campeonato Sul-Americano de Motocross MX1/MX2 e levou uma programação internacional à pista instalada às margens da PE-160.
-
-![Largada do motocross diante das arquibancadas em Santa Cruz do Capibaribe](/assets/img/uploads/mx1gp-santa-cruz-2026-capa.webp "A Etapa da Moda reuniu categorias nacionais e a abertura do Sul-Americano MX1/MX2.")
-
-*Foto: MX1 GP Brasil / divulgação. Imagem de arquivo da etapa em Santa Cruz.*
 
 ## Vencedores confirmados por categoria
 
@@ -35,6 +31,10 @@ Os resultados foram publicados pelo organizador do MX1 GP Brasil Sportbay após 
 - **MX5:** Willian Guimarães
 - **Nacional Regional:** Rafael Faria
 
+![Largada numerosa durante a última etapa do MX1 GP Brasil em Santa Cruz do Capibaribe](/assets/img/uploads/mx1gp-santa-cruz-2026-resultados-largada.webp "A Etapa da Moda reuniu categorias nacionais e a abertura do Sul-Americano MX1/MX2.")
+
+*Foto: Studio MOZ / MX1 GP Brasil.*
+
 ## MX1: Coldenhoff reduz diferença para Enzo Lopes
 
 Coldenhoff venceu as duas baterias e somou 50 pontos. Enzo Lopes terminou em segundo, com 44, seguido por Fábio Santos, Guilherme Bresolin e Gustavo Pessoa.
@@ -43,15 +43,19 @@ Na primeira bateria, Paulo Alberto fez o holeshot, mas Coldenhoff assumiu a lide
 
 Depois da 8ª etapa, a classificação exibida pela transmissão oficial deixou a disputa ainda mais apertada: Enzo passou a somar **363 pontos**, contra **357 de Coldenhoff**, uma diferença de apenas seis pontos.
 
-![Pista e público durante o MX1 GP Brasil em Santa Cruz do Capibaribe](/assets/img/uploads/mx1gp-santa-cruz-2026-pista-publico.webp "A visão ampla do circuito aproximou o público das disputas da Etapa da Moda.")
+![Glenn Coldenhoff e adversários celebram no pódio da programação principal em Santa Cruz](/assets/img/uploads/mx1gp-santa-cruz-2026-podio-principal.webp "O pódio oficial registrou os protagonistas da disputa principal da Etapa da Moda.")
 
-*Foto: MX1 GP Brasil / divulgação. Arquivo do mesmo circuito.*
+*Foto: Studio MOZ / MX1 GP Brasil.*
 
 ## MX2: Garib assume a vice-liderança
 
 Benjamin Garib também ganhou as duas baterias e marcou 50 pontos. **Salvador Pérez** foi segundo, com 44, e **Pietro Piroli** completou o pódio com 40. Luiz Filipe e Vasko Durand fecharam os cinco primeiros.
 
 Com o resultado, Garib assumiu a segunda colocação da MX2. Após a 8ª etapa, Salvador Pérez apareceu na liderança com **368 pontos**, seguido por Garib, com **326**, e Pietro Piroli, com **282**.
+
+![Benjamin Garib e os demais classificados recebem os troféus no pódio em Santa Cruz](/assets/img/uploads/mx1gp-santa-cruz-2026-podio-mx2.webp "O pódio da MX2 reuniu os cinco primeiros da rodada publicada pelo organizador.")
+
+*Foto: Studio MOZ / MX1 GP Brasil.*
 
 ## Willian Guimarães é campeão da MX5
 
@@ -63,9 +67,9 @@ Cesar Aponte venceu a MX2JR e chegou a 231 pontos. Como Arthur Gomes, segundo co
 
 Gabriel Cirino, Rodrigo Stuardo e Sebastian Velasquez completaram os cinco primeiros da prova.
 
-![Estruturas das equipes reunidas antes das atividades em Santa Cruz do Capibaribe](/assets/img/uploads/mx1gp-santa-cruz-2026-desfile-equipes.webp "Equipes de diferentes países participaram da programação do Brasileiro e do Sul-Americano.")
+![Jovens pilotos comemoram com troféus no pódio das categorias de base em Santa Cruz](/assets/img/uploads/mx1gp-santa-cruz-2026-podio-base.webp "As categorias de formação também tiveram pódios e decisões na Etapa da Moda.")
 
-*Foto: MX1 GP Brasil / divulgação. Marcas d’água originais preservadas.*
+*Foto: Studio MOZ / MX1 GP Brasil.*
 
 ## Base e categorias de experiência
 
