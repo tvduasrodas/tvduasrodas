@@ -1,5 +1,5 @@
 ---
-title: TVDUASRODAS
+title: MX1 GP Brasil 2026 - 8ª Etapa - Santa Cruz do Capibaribe/PE - Domingo 02/08
 featured: false
-youtube_url: https://www.youtube.com/watch?v=5RFKngTPvQY
+youtube_url: https://www.youtube.com/watch?v=eo1Io29wX2g
 ---
