@@ -8,12 +8,20 @@
   "status": "em_andamento",
   "organizer": "MOTO1000GP / CBM",
   "official_url": "https://m1gp.com.br/",
-  "results_url": "https://www.cbm.esp.br/site/public/calendario",
+  "results_url": "https://m1gp.com.br/area-desportiva/resultados-2026-m1gp/",
   "cover": "/assets/img/uploads/moto1000gp-2026-capa.webp",
   "image_credit": "Foto: MOTO1000GP / divulgação · Arte: TVDUASRODAS",
   "featured": true,
   "summary": "O Brasileiro de Motovelocidade chega ao GP Paraná com mais de 120 pilotos, 11 corridas e sete categorias em Cascavel; Maxi Scheib lidera a GP1000 após três rodadas em 2026.",
-  "last_updated": "2026-07-31T07:17:03-04:00",
+  "last_updated": "2026-08-01T20:24:00-04:00",
+  "latest_result": {
+    "stage": "4ª etapa — Cascavel",
+    "session": "GP1000 — Corrida Sprint",
+    "date": "2026-08-01",
+    "winner": "Maxi Scheib",
+    "note": "Resultado revisto após vistoria técnica; o MOTO1000GP confirmou Theo Manna e Gui Brito no pódio. Consultar a tabela oficial consolidada antes de reproduzir a ordem completa.",
+    "results_url": "https://m1gp.com.br/moto1000gp-atualiza-resultado-da-sprint-da-gp1000-by-motul-em-cascavel/"
+  },
   "next_stage": {
     "name": "4ª etapa",
     "start_date": "2026-07-31",
@@ -616,8 +624,8 @@
       "name": "1ª etapa",
       "location": "Interlagos, São Paulo, SP",
       "status": "concluida",
-      "winner": "",
-      "results_url": "https://m1gp.com.br/"
+      "winner": "Maxi Scheib (Sprint da GP1000; resultado revisto após vistoria)",
+      "results_url": "https://m1gp.com.br/moto1000gp-atualiza-resultado-da-sprint-da-gp1000-by-motul-em-cascavel/"
     },
     {
       "order": 2,
@@ -734,8 +742,8 @@
       "discovery_method": "busca_editorial_indexada"
     }
   ],
-  "source_checked_at": "2026-07-31T07:17:03-04:00",
-  "status_checked_at": "2026-07-31T07:17:03-04:00",
+  "source_checked_at": "2026-08-01T20:24:00-04:00",
+  "status_checked_at": "2026-08-01T20:24:00-04:00",
   "timezone": "America/Sao_Paulo",
   "local_start": "2026-07-31T00:00:00-03:00",
   "local_end": "2026-08-02T23:59:00-03:00",

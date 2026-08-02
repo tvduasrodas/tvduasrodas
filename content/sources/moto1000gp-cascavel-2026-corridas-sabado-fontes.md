@@ -48,3 +48,8 @@ Titular e fonte: MOTO1000GP / sala de imprensa. Crédito editorial adotado: MOTO
 - Tratamento: redimensionamento proporcional para 1400 x 816 px, WebP qualidade 80, 104.084 bytes.
 
 Os originais foram mantidos apenas temporariamente para conferência e não integram os arquivos publicados.
+# Atualização pós-vistoria — 01/08/2026, 20h24 Eastern
+
+- [MOTO1000GP — resultado atualizado da Sprint da GP1000 em Cascavel](https://m1gp.com.br/moto1000gp-atualiza-resultado-da-sprint-da-gp1000-by-motul-em-cascavel/): o organizador informou revisão após vistoria técnica e confirmou Theo Manna e Gui Brito no pódio.
+- [MOTO1000GP — central oficial de resultados 2026](https://m1gp.com.br/area-desportiva/resultados-2026-m1gp/): classificação e documentos oficiais da quarta etapa.
+- A matéria preserva a ordem inicialmente divulgada apenas como histórico extraoficial e direciona o leitor à revisão oficial. Nenhuma fotografia nova foi adicionada nesta atualização.

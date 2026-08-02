@@ -52,6 +52,12 @@ GP600, GP Light e Daytona ainda disputam suas provas principais no domingo. Nest
 
 *Foto: MOTO1000GP / Grelak Comunicação / divulgação.*
 
+## Resultado da Sprint e revisão após a vistoria
+
+Maxi Scheib recebeu a bandeirada na frente na Sprint da GP1000, disputada em 12 voltas. Eric Granado marcou 1min00s919 e estabeleceu o novo recorde oficial de volta do Autódromo Zilmar Beux durante a prova.
+
+O resultado divulgado logo após a corrida foi revisado pelo MOTO1000GP depois da vistoria técnica. Em comunicado posterior, o organizador confirmou que **Theo Manna e Gui Brito passaram a integrar o pódio**. Por isso, a ordem publicada inicialmente como extraoficial não deve ser tratada como resultado definitivo. A [atualização oficial pós-vistoria](https://m1gp.com.br/moto1000gp-atualiza-resultado-da-sprint-da-gp1000-by-motul-em-cascavel/) e a [central oficial de resultados](https://m1gp.com.br/area-desportiva/resultados-2026-m1gp/) são as referências para a classificação consolidada.
+
 ## O que fica para domingo
 
 O domingo, 2 de agosto, concentra as corridas principais do GP Paraná. A programação oficial prevê:
@@ -73,4 +79,4 @@ O organizador informa transmissão das corridas pelo canal oficial do MOTO1000GP
 - [Página oficial da etapa e ingressos](https://m1gp.com.br/club-gp/calendario-2026/4a-etapa-2-de-agosto-cascavel-pr/)
 - [Central do MOTO1000GP 2026 na TVDUASRODAS](/competicoes/moto1000gp-2026/)
 
-*Texto original da TVDUASRODAS, produzido por pesquisa remota em fontes oficiais e atualizado às 14h20 (horário de Brasília) de 1º de agosto de 2026. A cobertura não representa presença física da redação no autódromo. Resultados oficiais têm prioridade sobre informações provisórias de pista.*
+*Texto original da TVDUASRODAS, produzido por pesquisa remota em fontes oficiais e atualizado às 21h (horário de Brasília) de 1º de agosto de 2026 com a revisão pós-vistoria. A cobertura não representa presença física da redação no autódromo. Resultados oficiais têm prioridade sobre informações provisórias de pista.*
