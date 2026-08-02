@@ -49,6 +49,13 @@
     "kind": "article"
   },
   {
+    "url": "/materias/brasileiro-motocross-santa-cruz-2026-vencedores-categorias/",
+    "lastmod": "2026-08-02",
+    "priority": "0.8",
+    "image": "https://tvduasrodas.com/assets/img/uploads/mx1gp-santa-cruz-2026-capa.webp",
+    "kind": "article"
+  },
+  {
     "url": "/materias/brasileiro-mtb-2026-primeiro-dia-xce/",
     "lastmod": "2026-07-24",
     "priority": "0.8",
@@ -226,6 +233,13 @@
   {
     "url": "/materias/moto1000gp-cascavel-2026-corridas-sabado-horarios/",
     "lastmod": "2026-08-01",
+    "priority": "0.8",
+    "image": "https://tvduasrodas.com/assets/img/uploads/moto1000gp-cascavel-2026-provas-sabado-capa.webp",
+    "kind": "article"
+  },
+  {
+    "url": "/materias/moto1000gp-cascavel-2026-vencedores-resultados/",
+    "lastmod": "2026-08-02",
     "priority": "0.8",
     "image": "https://tvduasrodas.com/assets/img/uploads/moto1000gp-cascavel-2026-provas-sabado-capa.webp",
     "kind": "article"
@@ -841,7 +855,7 @@
   },
   {
     "url": "/competicoes/gp-ohvale-brasil-2026/",
-    "lastmod": "2026-07-26",
+    "lastmod": "2026-08-02",
     "priority": "0.8",
     "image": "https://tvduasrodas.com/assets/img/uploads/gp-ohvale-brasil-2026-artwork.svg",
     "kind": "competition"
@@ -5460,6 +5474,12 @@
     "kind": "person"
   },
   {
+    "url": "/atletas/fabio-santos/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
     "url": "/atletas/gabi-andrigo/",
     "lastmod": "2026-07-26",
     "priority": "0.6",
@@ -6048,6 +6068,12 @@
     "kind": "person"
   },
   {
+    "url": "/atletas/luiz-filipe/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
     "url": "/atletas/luiz-filipe-vale-da-rocha/",
     "lastmod": "2026-08-02",
     "priority": "0.6",
@@ -6630,6 +6656,12 @@
     "kind": "person"
   },
   {
+    "url": "/atletas/vasko-durand/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
     "url": "/atletas/vinicius-howe/",
     "lastmod": "2026-07-26",
     "priority": "0.6",
@@ -6943,7 +6975,7 @@
   },
   {
     "url": "/modalidades/motovelocidade-de-base/",
-    "lastmod": "2026-07-26",
+    "lastmod": "2026-08-02",
     "priority": "0.7",
     "kind": "modality"
   },

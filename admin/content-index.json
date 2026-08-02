@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "total": 710,
+  "total": 712,
   "counts": {
     "Competição": 22,
     "Configuração da home": 2,
     "Etapa esportiva": 62,
     "Evento": 16,
     "Evento da agenda": 524,
-    "Matéria": 51,
+    "Matéria": 53,
     "Matéria do acervo": 4,
     "Página fixa": 2,
     "Vídeo": 27
@@ -2884,6 +2884,20 @@
       "source": "content/news/brasileiro-motocross-2026-etapa-da-moda-comeca-santa-cruz.md"
     },
     {
+      "title": "Brasileiro de Motocross: vencedores de dez categorias e dois campeões em Santa Cruz",
+      "type": "Matéria",
+      "slug": "brasileiro-motocross-santa-cruz-2026-vencedores-categorias",
+      "date": "2026-08-02T16:30:00-04:00",
+      "category": "Competições",
+      "city": "",
+      "state": "",
+      "status": "",
+      "summary": "Glenn Coldenhoff e Benjamin Garib dominaram MX1 e MX2; Willian Guimarães foi campeão da MX5 e Cesar Aponte garantiu antecipadamente a MX2JR.",
+      "url": "/materias/brasileiro-motocross-santa-cruz-2026-vencedores-categorias/",
+      "edit_url": "/admin/#/collections/news/entries/brasileiro-motocross-santa-cruz-2026-vencedores-categorias",
+      "source": "content/news/brasileiro-motocross-santa-cruz-2026-vencedores-categorias.md"
+    },
+    {
       "title": "Brasileiro de MTB 2026: Cocuzzi e Iara Caetano Leite vencem o XCE",
       "type": "Matéria",
       "slug": "brasileiro-mtb-2026-primeiro-dia-xce",
@@ -3424,7 +3438,7 @@
       "city": "",
       "state": "",
       "status": "em_andamento",
-      "summary": "Enzo Lopes lidera a MX1 por 18 pontos sobre Glenn Coldenhoff, Salvador Pérez comanda a MX2 e Santa Cruz do Capibaribe recebe a 7ª e a 8ª etapas, entre 30 de julho e 2 de agosto.",
+      "summary": "Santa Cruz confirmou vencedores em dez categorias: Glenn Coldenhoff e Benjamin Garib dominaram MX1 e MX2, enquanto Willian Guimarães e Cesar Aponte conquistaram títulos.",
       "url": "/competicoes/brasileiro-motocross-2026/",
       "edit_url": "/admin/#/collections/competitions/entries/brasileiro-motocross-2026",
       "source": "content/competitions/brasileiro-motocross-2026.json"
@@ -7484,10 +7498,24 @@
       "city": "",
       "state": "",
       "status": "em_andamento",
-      "summary": "Mário Salles venceu a GP600 em Cascavel e reduziu para quatro pontos a diferença para Cauã Rodrigues; a quarta etapa segue em andamento neste domingo.",
+      "summary": "Kevin Fontainha venceu a corrida principal da GP1000 em Cascavel, Mário Salles ganhou a GP600 e a central oficial segue recebendo os resultados das demais categorias.",
       "url": "/competicoes/moto1000gp-2026/",
       "edit_url": "/admin/#/collections/competitions/entries/moto1000gp-2026",
       "source": "content/competitions/moto1000gp-2026.json"
+    },
+    {
+      "title": "MOTO1000GP: Kevin Fontainha vence GP1000 em final decidido por 0s169",
+      "type": "Matéria",
+      "slug": "moto1000gp-cascavel-2026-vencedores-resultados",
+      "date": "2026-08-02T16:25:00-04:00",
+      "category": "Competições",
+      "city": "",
+      "state": "",
+      "status": "",
+      "summary": "Kevin Fontainha superou Maxi Scheib por 0s169 na GP1000; Mário Salles venceu a GP600 e Kaka Freire foi o melhor da 1000 Evo no GP Paraná.",
+      "url": "/materias/moto1000gp-cascavel-2026-vencedores-resultados/",
+      "edit_url": "/admin/#/collections/news/entries/moto1000gp-cascavel-2026-vencedores-resultados",
+      "source": "content/news/moto1000gp-cascavel-2026-vencedores-resultados.md"
     },
     {
       "title": "Motoara 2026",

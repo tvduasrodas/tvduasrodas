@@ -13,9 +13,9 @@
   "cover": "/assets/img/uploads/brasileiro-motocross-2026-capa.webp",
   "image_credit": "Foto: MX1 GP Brasil / divulgação · Arte: TVDUASRODAS",
   "featured": true,
-  "summary": "Enzo Lopes lidera a MX1 por 18 pontos sobre Glenn Coldenhoff, Salvador Pérez comanda a MX2 e Santa Cruz do Capibaribe recebe a 7ª e a 8ª etapas, entre 30 de julho e 2 de agosto.",
-  "last_updated": "2026-08-02T08:08:00-04:00",
-  "status_checked_at": "2026-08-02T08:08:00-04:00",
+  "summary": "Santa Cruz confirmou vencedores em dez categorias: Glenn Coldenhoff e Benjamin Garib dominaram MX1 e MX2, enquanto Willian Guimarães e Cesar Aponte conquistaram títulos.",
+  "last_updated": "2026-08-02T16:20:00-04:00",
+  "status_checked_at": "2026-08-02T16:20:00-04:00",
   "next_stage": {
     "name": "7ª e 8ª etapas — Etapa da Moda",
     "start_date": "2026-07-30",
@@ -263,11 +263,11 @@
     }
   ],
   "latest_result": {
-    "event": "6ª etapa — Goiânia",
-    "session": "Resultado geral",
-    "date": "2026-06-21",
-    "note": "Glenn Coldenhoff venceu as duas baterias da MX1. Benjamin Garib e Salvador Pérez empataram em 47 pontos na MX2, com Garib vencedor do overall.",
-    "source_url": "https://cbm.esp.br/noticias/2026/06/23/lideres-nao-vencem-no-domingo-e-disputas-por-titulo-esquentam-em-goiania",
+    "event": "Etapa da Moda — Santa Cruz do Capibaribe",
+    "session": "Resultados oficiais publicados em 31 de julho e 1º de agosto",
+    "date": "2026-08-01",
+    "note": "Glenn Coldenhoff venceu a MX1 e Benjamin Garib a MX2; Caio Lopes ganhou a MX3, Heitor Matos a MXJR, Tomas Aguila a 50cc, Arthur Lourenzo a 65cc, Cesar Aponte a MX2JR, Roosevelt Assunção a MX4, Willian Guimarães a MX5 e Rafael Faria a Nacional Regional.",
+    "source_url": "https://mx1gpbrasil.com.br/titulos-de-willian-guimaraes-e-cesar-aponte-marcam-segundo-dia-de-competicoes-no-nordeste/",
     "classification": [
       {
         "category": "MX1",
@@ -283,31 +283,31 @@
         "display_position": "2º",
         "competitor": "Enzo Lopes",
         "team": "Honda Racing Brasil",
-        "points": 42
+        "points": 44
       },
       {
         "category": "MX1",
         "position": 3,
         "display_position": "3º",
-        "competitor": "Jeremy Van Horebeek",
-        "team": "Honda Racing",
-        "points": 40
-      },
-      {
-        "category": "MX1",
-        "position": 4,
-        "display_position": "4º",
-        "competitor": "Fábio Aparecido Santos",
+        "competitor": "Fábio Santos",
         "team": "Yamaha Monster Energy Geração",
         "points": 36
       },
       {
         "category": "MX1",
+        "position": 4,
+        "display_position": "4º",
+        "competitor": "Guilherme Bresolin",
+        "team": "Factory Kawasaki Brasil",
+        "points": 34
+      },
+      {
+        "category": "MX1",
         "position": 5,
         "display_position": "5º",
-        "competitor": "Gregory Aranda",
-        "team": "595 Pro Tork KTM",
-        "points": 31
+        "competitor": "Gustavo Pessoa",
+        "team": "",
+        "points": 33
       },
       {
         "category": "MX2",
@@ -315,7 +315,7 @@
         "display_position": "1º",
         "competitor": "Benjamin Garib",
         "team": "JP Pro Honda Baterias Pioneiro",
-        "points": 47
+        "points": 50
       },
       {
         "category": "MX2",
@@ -323,31 +323,31 @@
         "display_position": "2º",
         "competitor": "Salvador Pérez",
         "team": "Yamaha Monster Energy Geração",
-        "points": 47
+        "points": 44
       },
       {
         "category": "MX2",
         "position": 3,
         "display_position": "3º",
-        "competitor": "Henrique Henicka",
-        "team": "595 Pro Tork KTM",
+        "competitor": "Pietro Piroli",
+        "team": "Honda Racing Brasil",
         "points": 40
       },
       {
         "category": "MX2",
         "position": 4,
         "display_position": "4º",
-        "competitor": "Pietro Piroli",
-        "team": "Honda Racing Brasil",
+        "competitor": "Luiz Filipe",
+        "team": "Yamaha C6 Bank IMS",
         "points": 36
       },
       {
         "category": "MX2",
         "position": 5,
         "display_position": "5º",
-        "competitor": "Gabriel Cirino",
-        "team": "Belco Racing",
-        "points": 32
+        "competitor": "Vasko Durand",
+        "team": "FK Rinaldi Kawasaki Brasil",
+        "points": 29
       }
     ]
   },
@@ -400,7 +400,8 @@
       "end_date": "2026-08-02",
       "name": "7ª e 8ª etapas — Etapa da Moda",
       "location": "Santa Cruz do Capibaribe/PE",
-      "status": "em_andamento"
+      "status": "resultados_parciais",
+      "winner": "Glenn Coldenhoff (MX1) · Benjamin Garib (MX2) · Caio Lopes (MX3) · Heitor Matos (MXJR) · Tomas Aguila (50cc) · Arthur Lourenzo (65cc) · Cesar Aponte (MX2JR) · Roosevelt Assunção (MX4) · Willian Guimarães (MX5) · Rafael Faria (Nacional Regional)"
     },
     {
       "order": 9,
@@ -412,8 +413,20 @@
     }
   ],
   "related_videos": [],
-  "body": "## A temporada depois de seis etapas\n\nO Campeonato Brasileiro de Motocross, promovido como MX1 GP Brasil Sportbay 2026, chegou à reta decisiva com duas disputas apertadas nas categorias principais. A classificação publicada pelo organizador reúne os resultados de Canelinha, Ponta Grossa, Castro, Cuiabá, Palmas e Goiânia.\n\n## Enzo Lopes sustenta a liderança da MX1\n\nEnzo Lopes soma 275 pontos e conserva o red plate, mas Glenn Coldenhoff reduziu a diferença para 18 pontos depois de vencer em Palmas, ganhar a bateria adiada de Castro e dominar a rodada de Goiânia. Jeremy Van Horebeek e Gregory Aranda aparecem empatados com 187 pontos; Fábio Santos completa os cinco primeiros com 179.\n\n## Salvador Pérez lidera a MX2\n\nNa MX2, Salvador Pérez lidera com 282 pontos. Henrique Henicka ocupa a segunda posição com 240, seguido por Pietro Piroli, com 227, e Benjamin Garib, com 226. A diferença de apenas um ponto entre Piroli e Garib deixa a disputa pelo terceiro lugar especialmente aberta.\n\n## Resultado mais recente: Goiânia\n\nGlenn Coldenhoff venceu as duas baterias da MX1 na sexta etapa e marcou 50 pontos. Enzo Lopes foi segundo com 42, enquanto Jeremy Van Horebeek completou o pódio com 40. Na MX2, Benjamin Garib venceu o overall após empatar em 47 pontos com Salvador Pérez; Henrique Henicka foi terceiro.\n\n## Santa Cruz do Capibaribe recebe etapa dupla\n\nA Etapa da Moda será realizada entre 30 de julho e 2 de agosto, com atividades de pista de sexta-feira a domingo na estrutura montada às margens do km 15 da Rodovia PE-160. O encontro vale pelas 7ª e 8ª etapas do Brasileiro e também abre o Campeonato Sul-Americano de Motocross MX1/MX2. A organização prevê cerca de 500 pilotos de mais de 22 países, arquibancadas, camarotes, duas praças de alimentação e visitação ao paddock.\n\nOs ingressos divulgados pelo organizador custam R$ 70 por dia, R$ 35 na meia-entrada ou R$ 40 mais 1 kg de alimento na Entrada Solidária. Como valores e programação podem mudar, a confirmação final deve ser feita no site oficial do MX1 GP Brasil.\n\n## Páginas dos pilotos\n\nOs nomes nas tabelas de classificação e de resultado levam a páginas individuais da TVDUASRODAS. Cada página reúne número, equipe, categoria, posição, pontuação e acesso ao perfil publicado pelo organizador da competição.",
+  "body": "## Etapa da Moda entrega vitórias e títulos\n\nSanta Cruz do Capibaribe recebeu uma rodada extensa do MX1 GP Brasil Sportbay e a abertura do Sul-Americano MX1/MX2. Nos resultados publicados pelo organizador, **Glenn Coldenhoff** venceu as duas baterias da MX1 e marcou 50 pontos, enquanto **Benjamin Garib** repetiu o domínio na MX2.\n\n## Vencedores por categoria\n\nAlém de Coldenhoff e Garib, a programação confirmou vitórias de **Caio Lopes (MX3)**, **Heitor Matos (MXJR)**, **Tomas Aguila (50cc)**, **Arthur Lourenzo (65cc)**, **Cesar Aponte (MX2JR)**, **Roosevelt Assunção (MX4)**, **Willian Guimarães (MX5)** e **Rafael Faria (Nacional Regional)**.\n\n## Dois campeões definidos\n\nWillian Guimarães venceu a última etapa da MX5 e assegurou o título, com Rodrigo Peguinelli vice-campeão. Cesar Aponte chegou a 231 pontos na MX2JR e garantiu antecipadamente a taça, abrindo vantagem inalcançável sobre Arthur Gomes, então com 172.\n\n## Disputa principal fica mais apertada\n\nEnzo Lopes terminou a rodada publicada da MX1 em segundo, com 44 pontos, e conservou o red plate. A vantagem sobre Coldenhoff caiu de 18 para 12 pontos. Na MX2, Garib assumiu a segunda colocação do campeonato e ficou a 50 pontos do líder Salvador Pérez.\n\n## Atualização responsável\n\nA página do organizador ainda não havia sincronizado todas as planilhas da rodada e as corridas finais de domingo continuavam sendo incorporadas. Esta central publica os dez vencedores já confirmados pelas notas oficiais e será novamente atualizada quando classificação geral e resultados complementares forem homologados.\n\n[Leia os resultados oficiais da sexta-feira](https://mx1gpbrasil.com.br/glenn-coldenhoff-e-benjamin-garib-dominam-primeiro-dia-de-provas-em-santa-cruz-do-capibaribe/) e [os resultados e títulos de sábado](https://mx1gpbrasil.com.br/titulos-de-willian-guimaraes-e-cesar-aponte-marcam-segundo-dia-de-competicoes-no-nordeste/).",
   "sources": [
+    {
+      "url": "https://mx1gpbrasil.com.br/glenn-coldenhoff-e-benjamin-garib-dominam-primeiro-dia-de-provas-em-santa-cruz-do-capibaribe/",
+      "label": "MX1 GP Brasil — resultados de MX1, MX2, MX3 e MXJR em Santa Cruz",
+      "type": "organizador oficial",
+      "supports": "vencedores, pódios, pontuação e situação das lideranças após a rodada publicada"
+    },
+    {
+      "url": "https://mx1gpbrasil.com.br/titulos-de-willian-guimaraes-e-cesar-aponte-marcam-segundo-dia-de-competicoes-no-nordeste/",
+      "label": "MX1 GP Brasil — resultados e títulos do segundo dia",
+      "type": "organizador oficial",
+      "supports": "vencedores de 50cc, 65cc, MX2JR, MX4, MX5 e Nacional Regional; títulos de Willian Guimarães e Cesar Aponte"
+    },
     {
       "url": "https://mx1gpbrasil.com.br/",
       "label": "MX1 GP Brasil — resultados, classificação e perfis dos pilotos",
