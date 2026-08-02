@@ -11,7 +11,7 @@ readingTime: "15 min"
 kicker: "Componente da semana"
 summary: "Conversor DC-DC: como ele alimenta farol, painel, buzina, USB e rastreador, como dimensionar, diagnosticar e comprar sem confundir tensão nominal com tensão máxima."
 seoTitle: "Conversor DC-DC em moto e scooter elétrica: guia técnico"
-cover: "/assets/img/uploads/electric-zone-dc-dc-capa.webp"
+cover: "/assets/img/uploads/electric-zone-26-07-2026-capa-edicao.webp"
 featured: true
 ---
 

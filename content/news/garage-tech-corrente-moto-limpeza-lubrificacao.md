@@ -11,7 +11,7 @@ readingTime: "12 min"
 kicker: "Oficina em casa"
 summary: "Um roteiro seguro para conferir folga, limpar e lubrificar a corrente da motocicleta sem improvisos — sempre respeitando o manual do modelo."
 seoTitle: "Como cuidar da corrente da moto: limpeza, folga e lubrificação"
-cover: "/assets/img/uploads/garage-tech-corrente-capa.jpg"
+cover: "/assets/img/uploads/garage-tech-corrente-capa-edicao.webp"
 featured: false
 ---
 

@@ -11,7 +11,7 @@ readingTime: "14 min"
 kicker: "Guia especial"
 summary: "Entenda como bateria, BMS, inversor, motor, regeneração e recarga trabalham em uma moto elétrica, com a Honda WN7 como exemplo real."
 seoTitle: "Como funciona uma moto elétrica: bateria, BMS e motor"
-cover: "/assets/img/uploads/electric-zone-componentes-eletricos-capa.webp"
+cover: "/assets/img/uploads/electric-zone-componentes-capa-edicao.webp"
 featured: false
 ---
 Uma moto elétrica parece simples porque não tem escapamento, tanque de combustível, embreagem convencional ou troca de marchas na maioria dos projetos. Mas, sob a carenagem, há uma cadeia sofisticada de componentes que precisa trabalhar em perfeita sincronia. Nesta edição do **Electric Zone**, a TVDUASRODAS abre esse sistema por blocos e mostra o caminho da energia — da tomada até a roda.

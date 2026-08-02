@@ -12,7 +12,7 @@ ad_category: "motos"
 kicker: "Turismo e segurança"
 summary: "A viagem de moto fica mais prazerosa quando o ritmo considera condições da estrada, clima, descanso e margem para imprevistos."
 seoTitle: "Estrada Aberta: como definir um ritmo seguro para viajar de moto"
-cover: "/assets/img/uploads/estrada-aberta-25-07-2026-capa.webp"
+cover: "/assets/img/uploads/estrada-aberta-25-07-2026-capa-edicao.webp"
 featured: false
 ---
 

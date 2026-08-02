@@ -11,7 +11,7 @@ readingTime: "11 min"
 kicker: "Leitura da cidade"
 summary: "Um método prático para reduzir antes da esquina, ampliar a visão e antecipar conversões, pedestres, ônibus e veículos encobertos."
 seoTitle: "Rolê de Rua: como ler cruzamentos de moto"
-cover: "/assets/img/uploads/role-de-rua-cruzamentos-capa.webp"
+cover: "/assets/img/uploads/role-de-rua-27-07-2026-capa-edicao.webp"
 featured: true
 ---
 
@@ -109,4 +109,3 @@ Veja também: [Bicicleta na rua: posição segura, portas e visibilidade](/mater
 - [Prefeitura de São Paulo — orientações para condutores e pedestres](https://prefeitura.sp.gov.br/web/mobilidade/w/institucional/28038)
 - [DNIT — vulnerabilidade de motociclistas, ciclistas e pedestres](https://www.gov.br/dnit/pt-br/assuntos/noticias/motociclistas-ciclistas-e-pedestres-vulnerabilidade-que-exige-respeito)
 - [DNIT — responsabilidade para proteger os mais vulneráveis](https://www.gov.br/dnit/pt-br/assuntos/noticias/condutores-responsabilidade-redobrada-para-proteger-os-mais-vulneraveis/)
-

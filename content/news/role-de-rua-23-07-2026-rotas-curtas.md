@@ -11,7 +11,7 @@ readingTime: "11 min"
 kicker: "Mobilidade cotidiana"
 summary: "Moto, scooter ou bicicleta: um roteiro prático para transformar deslocamentos curtos em trajetos previsíveis, seguros e integrados à cidade."
 seoTitle: "Rolê de Rua: como planejar rotas urbanas curtas"
-cover: "/assets/img/uploads/role-de-rua-rotas-curtas-capa.webp"
+cover: "/assets/img/uploads/role-de-rua-23-07-2026-capa-edicao.webp"
 featured: false
 ---
 

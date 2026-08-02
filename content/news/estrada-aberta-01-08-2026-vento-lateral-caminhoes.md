@@ -12,7 +12,7 @@ ad_category: "motos"
 kicker: "Roteiro de um dia no Paraná"
 summary: "Um passeio real de cerca de 180 km saindo de Curitiba, descendo a Estrada da Graciosa, almoçando em Morretes, seguindo até Antonina e voltando pela BR-277."
 seoTitle: "Estrada da Graciosa de moto: roteiro por Morretes e Antonina"
-cover: "/assets/img/uploads/estrada-aberta-graciosa-capa.webp"
+cover: "/assets/img/uploads/estrada-aberta-01-08-2026-capa-edicao.webp"
 featured: false
 ---
 
