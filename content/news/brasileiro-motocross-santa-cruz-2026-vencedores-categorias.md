@@ -1,5 +1,5 @@
 ---
-title: "Brasileiro de Motocross: vencedores de dez categorias e dois campeões em Santa Cruz"
+title: "MX1 GP Brasil: resultados da última etapa"
 date: "2026-08-02T16:30:00-04:00"
 author: "Redação TVDUASRODAS"
 category: "Competições"
@@ -10,7 +10,7 @@ featured: true
 readingTime: "8 min"
 kicker: "Etapa da Moda"
 summary: "Glenn Coldenhoff e Benjamin Garib dominaram MX1 e MX2; Willian Guimarães foi campeão da MX5 e Cesar Aponte garantiu antecipadamente a MX2JR."
-seoTitle: "Brasileiro de Motocross 2026: vencedores em Santa Cruz"
+seoTitle: "MX1 GP Brasil: resultados da última etapa em Santa Cruz"
 cover: "/assets/img/uploads/mx1gp-santa-cruz-2026-capa.webp"
 ---
 
@@ -41,7 +41,7 @@ Coldenhoff venceu as duas baterias e somou 50 pontos. Enzo Lopes terminou em seg
 
 Na primeira bateria, Paulo Alberto fez o holeshot, mas Coldenhoff assumiu a liderança. Enzo saiu de quinto para segundo. Na corrida final, Enzo chegou a liderar depois de três ultrapassagens na primeira volta, porém o holandês fez o ataque decisivo no trecho final.
 
-O desempenho reduziu de 18 para **12 pontos** a vantagem de Enzo na disputa do campeonato, segundo o balanço publicado pelo organizador.
+Depois da 8ª etapa, a classificação exibida pela transmissão oficial deixou a disputa ainda mais apertada: Enzo passou a somar **363 pontos**, contra **357 de Coldenhoff**, uma diferença de apenas seis pontos.
 
 ![Pista e público durante o MX1 GP Brasil em Santa Cruz do Capibaribe](/assets/img/uploads/mx1gp-santa-cruz-2026-pista-publico.webp "A visão ampla do circuito aproximou o público das disputas da Etapa da Moda.")
 
@@ -51,7 +51,7 @@ O desempenho reduziu de 18 para **12 pontos** a vantagem de Enzo na disputa do c
 
 Benjamin Garib também ganhou as duas baterias e marcou 50 pontos. **Salvador Pérez** foi segundo, com 44, e **Pietro Piroli** completou o pódio com 40. Luiz Filipe e Vasko Durand fecharam os cinco primeiros.
 
-Com o resultado, Garib ultrapassou Henrique Henicka, ausente por lesão, e assumiu a segunda colocação da MX2. A diferença para Pérez, líder da categoria, ficou em 50 pontos.
+Com o resultado, Garib assumiu a segunda colocação da MX2. Após a 8ª etapa, Salvador Pérez apareceu na liderança com **368 pontos**, seguido por Garib, com **326**, e Pietro Piroli, com **282**.
 
 ## Willian Guimarães é campeão da MX5
 

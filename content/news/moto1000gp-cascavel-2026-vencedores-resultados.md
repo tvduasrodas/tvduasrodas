@@ -18,10 +18,6 @@ O **GP Paraná do MOTO1000GP 2026** entregou uma chegada apertadíssima na princ
 
 O resultado ganhou peso adicional porque Fontainha havia sido desclassificado da Sprint de sábado após a vistoria técnica. No domingo, respondeu na pista com a vitória da corrida longa. Scheib, vencedor confirmado da Sprint após a revisão oficial, fechou a principal em segundo.
 
-![Pilotos da GP1000 disputam posição no MOTO1000GP em Cascavel](/assets/img/uploads/moto1000gp-cascavel-2026-provas-sabado-capa.webp "Cascavel produziu uma corrida principal decidida por menos de dois décimos.")
-
-*Foto: MOTO1000GP / divulgação.*
-
 ## Resultado da GP1000
 
 Os nove classificados na corrida principal foram:
@@ -48,6 +44,10 @@ Na classificação por classe, **Kaka Freire** venceu a **1000 Evo**, com Julio 
 
 ## GP600: Mário Salles encosta no líder
 
+![Mário Salles e pilotos da GP600 em ação durante a etapa de Cascavel](/assets/img/uploads/moto1000gp-cascavel-2026-gp600.webp "A GP600 teve vitória de Mário Salles e disputa direta pela liderança do campeonato.")
+
+*Foto: MOTO1000GP / divulgação.*
+
 Na GP600, **Mário Salles** venceu as 18 voltas, seguido por **Cauã Rodrigues** e **Pedro Valiente**. Alex Oliveira foi o quarto e João Portuguinha terminou em quinto na geral, além de vencer a subdivisão **600 Evo**.
 
 Com a pontuação publicada pelo organizador, Cauã permaneceu na liderança da GP600 com 86 pontos, apenas quatro à frente de Salles, com 82. Valiente apareceu em terceiro com 61.
@@ -61,6 +61,10 @@ A corrida curta de sábado terminou sob revisão. Após a vistoria, **Maxi Schei
 *Foto: MOTO1000GP / divulgação.*
 
 ## Demais categorias
+
+![Pilotos da GP Light disputam posição no circuito de Cascavel](/assets/img/uploads/moto1000gp-cascavel-2026-gp-light.webp "A GP Light integrou a programação de sete categorias do GP Paraná.")
+
+*Foto: MOTO1000GP / divulgação.*
 
 A quarta etapa também reuniu **GP Light, Daytona 660 Cup** e as classes **R15, R3 Talent e R3 Cup**. Na hora desta publicação, a central oficial ainda recebia documentos de algumas corridas. Para preservar a precisão, esta matéria não usa resultado de warm-up, grid ou transmissão como se fosse classificação final.
 

@@ -2884,20 +2884,6 @@
       "source": "content/news/brasileiro-motocross-2026-etapa-da-moda-comeca-santa-cruz.md"
     },
     {
-      "title": "Brasileiro de Motocross: vencedores de dez categorias e dois campeões em Santa Cruz",
-      "type": "Matéria",
-      "slug": "brasileiro-motocross-santa-cruz-2026-vencedores-categorias",
-      "date": "2026-08-02T16:30:00-04:00",
-      "category": "Competições",
-      "city": "",
-      "state": "",
-      "status": "",
-      "summary": "Glenn Coldenhoff e Benjamin Garib dominaram MX1 e MX2; Willian Guimarães foi campeão da MX5 e Cesar Aponte garantiu antecipadamente a MX2JR.",
-      "url": "/materias/brasileiro-motocross-santa-cruz-2026-vencedores-categorias/",
-      "edit_url": "/admin/#/collections/news/entries/brasileiro-motocross-santa-cruz-2026-vencedores-categorias",
-      "source": "content/news/brasileiro-motocross-santa-cruz-2026-vencedores-categorias.md"
-    },
-    {
       "title": "Brasileiro de MTB 2026: Cocuzzi e Iara Caetano Leite vencem o XCE",
       "type": "Matéria",
       "slug": "brasileiro-mtb-2026-primeiro-dia-xce",
@@ -3438,7 +3424,7 @@
       "city": "",
       "state": "",
       "status": "em_andamento",
-      "summary": "Santa Cruz confirmou vencedores em dez categorias: Glenn Coldenhoff e Benjamin Garib dominaram MX1 e MX2, enquanto Willian Guimarães e Cesar Aponte conquistaram títulos.",
+      "summary": "Após a 8ª etapa, Enzo Lopes lidera a MX1 com 363 pontos, seis à frente de Glenn Coldenhoff; Salvador Pérez comanda a MX2 com 368 pontos.",
       "url": "/competicoes/brasileiro-motocross-2026/",
       "edit_url": "/admin/#/collections/competitions/entries/brasileiro-motocross-2026",
       "source": "content/competitions/brasileiro-motocross-2026.json"
@@ -7894,6 +7880,20 @@
       "url": "/eventos/mutum-moto-rock-mutum-mg-2026-08-14/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#mutum-moto-rock-mutum-mg-2026-08-14"
+    },
+    {
+      "title": "MX1 GP Brasil: resultados da última etapa",
+      "type": "Matéria",
+      "slug": "brasileiro-motocross-santa-cruz-2026-vencedores-categorias",
+      "date": "2026-08-02T16:30:00-04:00",
+      "category": "Competições",
+      "city": "",
+      "state": "",
+      "status": "",
+      "summary": "Glenn Coldenhoff e Benjamin Garib dominaram MX1 e MX2; Willian Guimarães foi campeão da MX5 e Cesar Aponte garantiu antecipadamente a MX2JR.",
+      "url": "/materias/brasileiro-motocross-santa-cruz-2026-vencedores-categorias/",
+      "edit_url": "/admin/#/collections/news/entries/brasileiro-motocross-santa-cruz-2026-vencedores-categorias",
+      "source": "content/news/brasileiro-motocross-santa-cruz-2026-vencedores-categorias.md"
     },
     {
       "title": "MXGP 2026",
