@@ -1446,5 +1446,28 @@
       "status": "PENDENTE_DIREITOS_DE_IMAGEM_NAO_VERIFICADOS",
       "imageAudit": "Nao gerar nem publicar parcialmente: faltam cinco imagens distintas elegiveis e rights_verified=true."
     }
+  },
+  {
+    "url": "https://tvduasrodas.com/materias/brasileiro-motocross-santa-cruz-2026-vencedores-categorias/",
+    "type": "news",
+    "title": "MX1 GP Brasil: resultados da última etapa",
+    "detectedAt": "2026-08-02T17:32:00-04:00",
+    "validation": {
+      "source": "MX1 GP Brasil — resultados e galerias oficiais da Etapa da Moda; consulta em 02/08/2026",
+      "publicUrl": "PUBLICADA_NO_PORTAL",
+      "rights_verified": false,
+      "rights": "PENDENTE_AUTORIZACAO_OU_LICENCA_EXPLICITA",
+      "imageAudit": "Há cinco fotografias reais e distintas da etapa, creditadas a Studio MOZ / MX1 GP Brasil. As páginas oficiais informam autoria e crédito, mas não apresentam licença ou autorização verificável para republicação no Instagram; crédito e link não substituem permissão."
+    },
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
+    "stories": {
+      "status": "PENDENTE_DIREITOS_DE_IMAGEM_NAO_VERIFICADOS"
+    },
+    "reel": {
+      "status": "PENDENTE_DIREITOS_DE_IMAGEM_NAO_VERIFICADOS",
+      "imageAudit": "Não gerar nem publicar parcialmente: o Reel documental exige de cinco a sete fotos reais da etapa e rights_verified=true; as cinco imagens disponíveis ainda não têm autorização de republicação verificável."
+    }
   }
 ]
