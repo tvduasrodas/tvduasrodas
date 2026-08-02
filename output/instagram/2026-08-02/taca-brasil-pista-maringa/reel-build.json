@@ -1,0 +1,44 @@
+{
+  "format": "1080x1920",
+  "video_codec": "H.264",
+  "audio_codec": "AAC",
+  "transition": "page_peel_diagonal",
+  "soundtrack": "rock_instrumental_original",
+  "scene_count": 5,
+  "nominal_duration_seconds": 19.25,
+  "rights_verified": true,
+  "source_manifest": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-08-02\\taca-brasil-pista-maringa\\manifest.json",
+  "content_url": "https://tvduasrodas.com/evento.html?slug=taca-brasil-ciclismo-pista-maringa-2026",
+  "scenes": [
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-08-02\\taca-brasil-pista-maringa\\source-01-velodromo.png",
+      "sha256": "984ab6a36c7939b233778738dba513547b4cc890c814a4af5a2a27fd4e7960dc",
+      "credit": "Ilustração editorial por IA — TVDUASRODAS",
+      "source_url": "https://www.cbc.esp.br/modalidades/eventos/busca/"
+    },
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-08-02\\taca-brasil-pista-maringa\\source-02-largada.png",
+      "sha256": "5cc2bd95a3fc145196d2072b365a55ffc7dc81175535a8f05635d008636bb6cb",
+      "credit": "Ilustração editorial por IA — TVDUASRODAS",
+      "source_url": "https://cbc.esp.br/modalidades/calendario/busca/pista"
+    },
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-08-02\\taca-brasil-pista-maringa\\source-03-paraciclismo.png",
+      "sha256": "1ba1431dfc4d8bff31fa9e6d04f527af7765ee062b3a5f92078f7e3d5aa0534e",
+      "credit": "Ilustração editorial por IA — TVDUASRODAS",
+      "source_url": "https://www.cbc.esp.br/modalidades/eventos/busca/"
+    },
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-08-02\\taca-brasil-pista-maringa\\source-04-perseguicao.png",
+      "sha256": "234be1b66d30942825c4357b38a49f6566a972bae0224e477f8eb0a880d4bfa2",
+      "credit": "Ilustração editorial por IA — TVDUASRODAS",
+      "source_url": "https://www.cbc.esp.br/modalidades/eventos/busca/"
+    },
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-08-02\\taca-brasil-pista-maringa\\source-05-preparacao.png",
+      "sha256": "a0db5eaad44a66f5f42443600d30f5ba931d2a718fdd9755a66eee703538aca4",
+      "credit": "Ilustração editorial por IA — TVDUASRODAS",
+      "source_url": "https://tvduasrodas.com/evento.html?slug=taca-brasil-ciclismo-pista-maringa-2026"
+    }
+  ]
+}
