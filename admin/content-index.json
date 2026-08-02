@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "total": 707,
+  "total": 709,
   "counts": {
     "Competição": 22,
     "Configuração da home": 2,
     "Etapa esportiva": 62,
-    "Evento": 14,
+    "Evento": 16,
     "Evento da agenda": 524,
     "Matéria": 50,
     "Matéria do acervo": 4,
@@ -1566,6 +1566,20 @@
       "url": "/eventos/50-missa-dos-motociclistas-sao-jose-do-rio-preto-sp-2026-07-26/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#50-missa-dos-motociclistas-sao-jose-do-rio-preto-sp-2026-07-26"
+    },
+    {
+      "title": "5ª Expo Guararema Moto Clube 2026",
+      "type": "Evento",
+      "slug": "expo-guararema-moto-clube-2026",
+      "date": "2026-08-15",
+      "category": "Encontro e exposição de motos e triciclos",
+      "city": "Guararema",
+      "state": "SP",
+      "status": "agendada",
+      "summary": "A Vila de Luís Carlos recebe em 15 e 16 de agosto exposição de motos e triciclos, seis shows de rock e entrada solidária em benefício do Fundo Social de Guararema.",
+      "url": "/eventos/expo-guararema-moto-clube-2026/",
+      "edit_url": "/admin/#/collections/events/entries/expo-guararema-moto-clube-2026",
+      "source": "content/events/expo-guararema-moto-clube-2026.json"
     },
     {
       "title": "5° Dragon Moto Fest 5° Aniversário Dragões de Minas – Belo Horizonte — MG",
@@ -9308,6 +9322,20 @@
       "url": "/eventos/taca-brasil-de-bmx-racing-evento-oficial-cbc-goiania-go-2026-12-03/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/calendario_categorias_2026",
       "source": "content/calendar/cbm-2026.json#taca-brasil-de-bmx-racing-evento-oficial-cbc-goiania-go-2026-12-03"
+    },
+    {
+      "title": "Taça Brasil de Ciclismo de Pista e Track American Series 2026",
+      "type": "Evento",
+      "slug": "taca-brasil-ciclismo-pista-maringa-2026",
+      "date": "2026-08-04",
+      "category": "Competição de ciclismo e paraciclismo de pista",
+      "city": "Maringá",
+      "state": "PR",
+      "status": "agendada",
+      "summary": "Maringá recebe de 4 a 9 de agosto dois eventos consecutivos de ciclismo de pista e duas etapas de paraciclismo, com pontos nos calendários da UCI, CBC e COPACI.",
+      "url": "/eventos/taca-brasil-ciclismo-pista-maringa-2026/",
+      "edit_url": "/admin/#/collections/events/entries/taca-brasil-ciclismo-pista-maringa-2026",
+      "source": "content/events/taca-brasil-ciclismo-pista-maringa-2026.json"
     },
     {
       "title": "Taça Brasil de Paraciclismo de Pista",
