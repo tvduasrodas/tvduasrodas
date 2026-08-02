@@ -2,7 +2,7 @@
 title: "MX1 GP Brasil: resultados da última etapa"
 date: "2026-08-02T16:30:00-04:00"
 author: "Redação TVDUASRODAS"
-category: "Competições"
+category: "Moto"
 ad_category: "competicoes"
 contentType: "news"
 show_in_revista: false

@@ -122,6 +122,14 @@
     </image:image>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/materias/brasileiro-motocross-santa-cruz-2026-vencedores-categorias/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://tvduasrodas.com/assets/img/uploads/mx1gp-santa-cruz-2026-resultados-chegada.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/materias/brasileiro-mtb-2026-primeiro-dia-xce/</loc>
     <lastmod>2026-07-24</lastmod>
     <priority>0.8</priority>
@@ -325,6 +333,11 @@
     <image:image>
       <image:loc>https://tvduasrodas.com/assets/img/uploads/moto1000gp-cascavel-2026-provas-sabado-capa.webp</image:loc>
     </image:image>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/materias/moto1000gp-cascavel-2026-vencedores-resultados/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://tvduasrodas.com/materias/motocross-rondonia-2026-agosto-cerejeiras-corumbiara/</loc>
@@ -991,7 +1004,7 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/competicoes/gp-ohvale-brasil-2026/</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://tvduasrodas.com/assets/img/uploads/gp-ohvale-brasil-2026-artwork.svg</image:loc>
@@ -5731,6 +5744,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/atletas/arthur-gomes/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/atletas/augusto-fernandez/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.6</priority>
@@ -5821,6 +5839,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/atletas/carlos-badiali/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/atletas/carlos-fuzza/</loc>
     <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
@@ -5847,6 +5870,11 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/atletas/caua-rodrigues/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/cesar-aponte/</loc>
     <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
@@ -6016,6 +6044,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/atletas/federico-molina-spagnol/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/atletas/felipe-goncalves/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.6</priority>
@@ -6096,7 +6129,12 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://tvduasrodas.com/atletas/fabio-aparecido-santos/</loc>
+    <loc>https://tvduasrodas.com/atletas/fabio-aparecido-dos-santos/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/fabio-santos/</loc>
     <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
@@ -6446,6 +6484,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/atletas/juninho-tayt-sohn/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/atletas/janis-martins-reisulis/</loc>
     <lastmod>2026-07-27</lastmod>
     <priority>0.6</priority>
@@ -6458,6 +6501,11 @@
   <url>
     <loc>https://tvduasrodas.com/atletas/kaique-milani-marini/</loc>
     <lastmod>2026-07-26</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/kaua-vieira/</loc>
+    <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -6591,6 +6639,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/atletas/luiz-filipe/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/atletas/luiz-filipe-vale-da-rocha/</loc>
     <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
@@ -6678,6 +6731,11 @@
   <url>
     <loc>https://tvduasrodas.com/atletas/matheus-eduardo-franciscon/</loc>
     <lastmod>2026-07-26</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/matheus-ganzarolli/</loc>
+    <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -6773,6 +6831,11 @@
   <url>
     <loc>https://tvduasrodas.com/atletas/nivea-maria-apolinario-de-andrade/</loc>
     <lastmod>2026-07-26</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/otavio-pedro-da-silva/</loc>
+    <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -6966,6 +7029,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/atletas/salvador-perez-carneiro/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/atletas/sam-lowes/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.6</priority>
@@ -7046,6 +7114,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/atletas/tomas-matkovich/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/atletas/toprak-razgatl-oglu/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.6</priority>
@@ -7073,6 +7146,11 @@
   <url>
     <loc>https://tvduasrodas.com/atletas/valmor-hausmann/</loc>
     <lastmod>2026-07-26</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/vasko-durand/</loc>
+    <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -7337,7 +7415,7 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/modalidades/motovelocidade-de-base/</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <priority>0.7</priority>
   </url>
   <url>

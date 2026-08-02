@@ -45,3 +45,12 @@ Os arquivos permanecem em WebP, dentro das dimensões e pesos já validados no r
 Em 2 de agosto, foi feita nova busca no arquivo de fotos 2026 e na sala de imprensa oficial do MOTO1000GP. A galeria específica de domingo da etapa de Cascavel ainda não aparecia publicada; por isso foram mantidas fotografias oficiais locais e distintas da mesma etapa, já auditadas, sem recorrer a imagens genéricas de outro circuito.
 
 **Atualização editorial posterior:** por determinação do responsável pela TVDUASRODAS, todas as fotografias foram removidas da matéria `moto1000gp-cascavel-2026-vencedores-resultados`, inclusive a capa. Os arquivos permaneceram no acervo porque podem ser utilizados por outras publicações.
+
+**Correção editorial posterior:** a orientação foi esclarecida: deveriam ser removidas somente as imagens produzidas por IA. A matéria foi reconstruída com quatro fotografias reais, distintas e específicas da 4ª etapa de Cascavel, publicadas pelo MOTO1000GP em 2 de agosto de 2026:
+
+- `moto1000gp-cascavel-2026-kevin-fontainha.webp` — origem `62_HondaRacing2026_MOTO1000_4etapa_CreditoJCapreti_MundoPress-44...`, 1200×700, 66.384 bytes; crédito J. Capreti/Mundo Press/Honda Racing, via MOTO1000GP; usada como capa e no relato da disputa da GP1000.
+- `moto1000gp-cascavel-2026-mario-salles.webp` — origem `IMG_3205...`, 1200×700, 41.122 bytes; crédito MOTO1000GP/Grelak Comunicação; usada na seção da GP600.
+- `moto1000gp-cascavel-2026-david-portuga.webp` — origem `IMG_9229...`, 1200×800, 159.248 bytes; crédito MOTO1000GP/Grelak Comunicação; registra a comemoração com a placa de vencedor da GP Light.
+- `moto1000gp-cascavel-2026-donatti.webp` — origem `5DIV4620...`, 1200×700, 123.186 bytes; crédito MOTO1000GP/Grelak Comunicação; registra o pelotão da Daytona 660 Cup.
+
+Páginas de origem: https://m1gp.com.br/kevin-fontainha-vence-pela-primeira-vez-na-gp1000-by-motul-em-chegada-historica-no-moto1000gp-em-cascavel/; https://m1gp.com.br/no-moto1000gp-em-cascavel-mario-salles-vence-a-gp600-e-reduz-diferenca-para-caua-rodrigues/; https://m1gp.com.br/david-portuga-vence-a-gp-light-apos-duelo-decidido-nas-voltas-finais-no-moto1000gp-em-cascavel/; https://m1gp.com.br/agustin-donatti-conquista-a-primeira-vitoria-na-daytona-660-cup-no-gp-parana-do-moto1000gp/

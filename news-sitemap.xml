@@ -1,6 +1,28 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://tvduasrodas.com/materias/brasileiro-motocross-santa-cruz-2026-vencedores-categorias/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>TVDUASRODAS</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-02T16:30:00-04:00</news:publication_date>
+      <news:title>MX1 GP Brasil: resultados da última etapa</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/materias/moto1000gp-cascavel-2026-vencedores-resultados/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>TVDUASRODAS</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-02T16:25:00-04:00</news:publication_date>
+      <news:title>MOTO1000GP: Kevin Fontainha vence GP1000 em final decidido por 0s169</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/materias/capital-moto-week-2026-balanco-inovacao-legado/</loc>
     <news:news>
       <news:publication>
