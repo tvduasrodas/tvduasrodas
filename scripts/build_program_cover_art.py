@@ -94,22 +94,28 @@ def render(program, source_name, output_name, edition, headline=None):
     draw = ImageDraw.Draw(overlay)
     accent = meta["accent"]
 
-    draw.rectangle((0, 0, 1600, 900), fill=(0, 0, 0, 28))
-    draw.polygon([(0, 0), (1060, 0), (790, 900), (0, 900)], fill=(5, 10, 18, 210))
+    is_program_card = edition == "PROGRAMA DA REVISTA"
+    draw.rectangle((0, 0, 1600, 900), fill=(0, 0, 0, 42))
+    draw.polygon([(0, 0), (1100, 0), (815, 900), (0, 900)], fill=(3, 8, 15, 238))
     draw.rectangle((0, 0, 30, 900), fill=accent)
     draw.rectangle((75, 92, 330, 101), fill=accent)
-    draw.text((75, 122), "TVDUASRODAS  |  REVISTA", font=font(25, True), fill="white")
+    draw.text((75, 122), "TVDUASRODAS  |  REVISTA", font=font(28, True), fill="white", stroke_width=1, stroke_fill="#000000")
     draw_logo_mark(draw, program, accent)
-    draw.text((192, 192), meta["label"], font=font(76, True), fill=accent, stroke_width=1, stroke_fill=(0, 0, 0, 100))
-    draw.text((194, 292), meta["tag"], font=font(27, True), fill="white")
+    draw.text((192, 192), meta["label"], font=font(76, True), fill="white", stroke_width=3, stroke_fill="#000000")
+    draw.rectangle((194, 286, 680, 294), fill=accent)
+    draw.text((194, 310), meta["tag"], font=font(30, True), fill="white", stroke_width=1, stroke_fill="#000000")
 
-    if headline:
-        y = 515
-        for line in wrap(draw, headline, font(42, True), 680):
-            draw.text((78, y), line, font=font(42, True), fill="white")
-            y += 51
-    draw.rounded_rectangle((76, 765, 505, 828), radius=10, fill=accent)
-    draw.text((101, 779), edition, font=font(28, True), fill="#071019")
+    if headline and not is_program_card:
+        lines = wrap(draw, headline, font(46, True), 700)
+        panel_height = 30 + len(lines) * 57
+        draw.rounded_rectangle((66, 470, 805, 470 + panel_height), radius=14, fill=(0, 0, 0, 190), outline=accent, width=3)
+        y = 487
+        for line in lines:
+            draw.text((90, y), line, font=font(46, True), fill="white", stroke_width=2, stroke_fill="#000000")
+            y += 57
+    if not is_program_card:
+        draw.rounded_rectangle((76, 758, 550, 836), radius=12, fill=accent, outline="white", width=2)
+        draw.text((313, 797), edition, font=font(32, True), fill="#071019", anchor="mm")
     draw.text((1288, 817), "TVDUASRODAS.COM", font=font(22, True), fill="white", anchor="ra")
 
     final = Image.alpha_composite(image.convert("RGBA"), overlay).convert("RGB")
