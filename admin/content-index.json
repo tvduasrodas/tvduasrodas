@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "total": 709,
+  "total": 710,
   "counts": {
     "Competição": 22,
     "Configuração da home": 2,
     "Etapa esportiva": 62,
     "Evento": 16,
     "Evento da agenda": 524,
-    "Matéria": 50,
+    "Matéria": 51,
     "Matéria do acervo": 4,
     "Página fixa": 2,
     "Vídeo": 27
@@ -3778,6 +3778,20 @@
       "url": "/materias/capital-moto-week-2026-primeiro-dia-abertura/",
       "edit_url": "/admin/#/collections/news/entries/capital-moto-week-2026-primeiro-dia-abertura",
       "source": "content/news/capital-moto-week-2026-primeiro-dia-abertura.md"
+    },
+    {
+      "title": "Capital Moto Week 2026: inovação, encontros e o legado deixado em Brasília",
+      "type": "Matéria",
+      "slug": "capital-moto-week-2026-balanco-inovacao-legado",
+      "date": "2026-08-02T08:10:00-04:00",
+      "category": "Eventos",
+      "city": "",
+      "state": "",
+      "status": "",
+      "summary": "Depois de dez dias, o Capital Moto Week 2026 deixa lançamentos, experiências de tecnologia, turismo, segurança viária e uma comunidade ainda mais conectada; números finais de público seguem pendentes.",
+      "url": "/materias/capital-moto-week-2026-balanco-inovacao-legado/",
+      "edit_url": "/admin/#/collections/news/entries/capital-moto-week-2026-balanco-inovacao-legado",
+      "source": "content/news/capital-moto-week-2026-balanco-inovacao-legado.md"
     },
     {
       "title": "Capital Moto Week 2026: segundo dia traz dicas para curtir o festival",
