@@ -1423,5 +1423,28 @@
       "status": "PENDENTE_DIREITOS_DE_IMAGEM_NAO_VERIFICADOS",
       "imageAudit": "Não gerar nem publicar: o Reel exige rights_verified=true apesar de haver sete imagens distintas."
     }
+  },
+  {
+    "url": "https://tvduasrodas.com/competicoes/moto1000gp-2026/",
+    "type": "competition",
+    "title": "MOTO1000GP em Cascavel: Mario Salles vence a GP600",
+    "detectedAt": "2026-08-02T14:33:00-04:00",
+    "validation": {
+      "source": "MOTO1000GP - resultado oficial da GP600 em Cascavel; consulta em 02/08/2026",
+      "publicUrl": "CONFIRMADA_NO_DOMINIO_PUBLICO",
+      "rights_verified": false,
+      "rights": "PENDENTE_DIREITOS_DE_IMAGEM_NAO_VERIFICADOS",
+      "imageAudit": "A atualizacao usa a capa ja publicada do campeonato e o canal oficial continua sem licenca explicita de republicacao no Instagram. O acervo ligado a etapa de Cascavel permanece abaixo das cinco fotografias realmente distintas, atuais e com direitos verificados exigidas para o Reel."
+    },
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
+    "stories": {
+      "status": "PENDENTE_DIREITOS_DE_IMAGEM_NAO_VERIFICADOS"
+    },
+    "reel": {
+      "status": "PENDENTE_DIREITOS_DE_IMAGEM_NAO_VERIFICADOS",
+      "imageAudit": "Nao gerar nem publicar parcialmente: faltam cinco imagens distintas elegiveis e rights_verified=true."
+    }
   }
 ]
