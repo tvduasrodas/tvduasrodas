@@ -841,7 +841,7 @@
   },
   {
     "url": "/competicoes/moto1000gp-2026/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.8",
     "image": "https://tvduasrodas.com/assets/img/uploads/moto1000gp-2026-capa.webp",
     "kind": "competition"
@@ -910,6 +910,13 @@
     "kind": "event"
   },
   {
+    "url": "/eventos/expo-guararema-moto-clube-2026/",
+    "lastmod": "2026-08-02",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/uploads/expo-guararema-moto-clube-2026-ilustracao.webp",
+    "kind": "event"
+  },
+  {
     "url": "/eventos/festival-moto-brasil-2026/",
     "lastmod": "2026-07-26",
     "priority": "0.7",
@@ -970,6 +977,13 @@
     "lastmod": "2026-07-26",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
+    "kind": "event"
+  },
+  {
+    "url": "/eventos/taca-brasil-ciclismo-pista-maringa-2026/",
+    "lastmod": "2026-08-02",
+    "priority": "0.7",
+    "image": "https://tvduasrodas.com/assets/img/uploads/taca-brasil-pista-maringa-2026-ilustracao.webp",
     "kind": "event"
   },
   {
@@ -4866,28 +4880,28 @@
   },
   {
     "url": "/guias/guia-scooters-eletricas/",
-    "lastmod": "2026-08-01",
+    "lastmod": "2026-08-02",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/uploads/scooter-women-open-seo.webp",
     "kind": "guide"
   },
   {
     "url": "/guias/review-naked-300/",
-    "lastmod": "2026-08-01",
+    "lastmod": "2026-08-02",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/moto-naked-urbana.png",
     "kind": "guide"
   },
   {
     "url": "/guias/role-urbano-noturno/",
-    "lastmod": "2026-08-01",
+    "lastmod": "2026-08-02",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/uploads/programa-role-de-rua-capa.webp",
     "kind": "guide"
   },
   {
     "url": "/guias/viagem-serra-mirantes/",
-    "lastmod": "2026-08-01",
+    "lastmod": "2026-08-02",
     "priority": "0.7",
     "image": "https://tvduasrodas.com/assets/img/uploads/Serra-do-Rio-do-Rastro-moto-como-chegar-1.jpg",
     "kind": "guide"
@@ -4906,7 +4920,7 @@
   },
   {
     "url": "/atletas/agustin-donatti/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -4930,13 +4944,13 @@
   },
   {
     "url": "/atletas/alex-oliveira/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
   {
     "url": "/atletas/ale-soares/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -4984,7 +4998,7 @@
   },
   {
     "url": "/atletas/antony-mendes/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5062,7 +5076,7 @@
   },
   {
     "url": "/atletas/bruno-tormen/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5104,13 +5118,13 @@
   },
   {
     "url": "/atletas/carlos-fuzza/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
   {
     "url": "/atletas/carlos-sonomiya/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5122,25 +5136,25 @@
   },
   {
     "url": "/atletas/caua-buzo/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
   {
     "url": "/atletas/caua-rocha/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
   {
     "url": "/atletas/caua-rodrigues/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
   {
     "url": "/atletas/cleber-araujo/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5158,7 +5172,7 @@
   },
   {
     "url": "/atletas/daniel-tigrao/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5182,7 +5196,7 @@
   },
   {
     "url": "/atletas/david-portuga/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5206,7 +5220,7 @@
   },
   {
     "url": "/atletas/douglas-russo/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5218,25 +5232,25 @@
   },
   {
     "url": "/atletas/edson-dionizio/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
   {
     "url": "/atletas/edu-moura/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
   {
     "url": "/atletas/eduardo-burr/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
   {
     "url": "/atletas/eduardo-marques/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5254,7 +5268,7 @@
   },
   {
     "url": "/atletas/elton-azevedo/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5278,7 +5292,7 @@
   },
   {
     "url": "/atletas/enzo-dematte/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5290,7 +5304,7 @@
   },
   {
     "url": "/atletas/eric-granado/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5308,7 +5322,7 @@
   },
   {
     "url": "/atletas/ezequiel-allende/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5332,7 +5346,7 @@
   },
   {
     "url": "/atletas/fabricio-zamperetti/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5350,13 +5364,13 @@
   },
   {
     "url": "/atletas/felipe-macan/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
   {
     "url": "/atletas/felipe-taliba/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5374,13 +5388,13 @@
   },
   {
     "url": "/atletas/fernanda-marcon/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
   {
     "url": "/atletas/flavio-trevizan/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5404,7 +5418,7 @@
   },
   {
     "url": "/atletas/francisco-loureiro/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5500,13 +5514,13 @@
   },
   {
     "url": "/atletas/geovani-batalha/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
   {
     "url": "/atletas/gerson-caleb/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5524,7 +5538,7 @@
   },
   {
     "url": "/atletas/gleidson-babinha/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5548,13 +5562,13 @@
   },
   {
     "url": "/atletas/gui-brito/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
   {
     "url": "/atletas/gui-foguetinho/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5584,13 +5598,13 @@
   },
   {
     "url": "/atletas/gurgel-mendonca/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
   {
     "url": "/atletas/gustavo-manso/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5614,7 +5628,7 @@
   },
   {
     "url": "/atletas/gustavo-silveira/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5650,7 +5664,7 @@
   },
   {
     "url": "/atletas/henrique-aniceto/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5680,7 +5694,7 @@
   },
   {
     "url": "/atletas/hilton-loureiro/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5692,7 +5706,7 @@
   },
   {
     "url": "/atletas/humberto-maier/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5752,13 +5766,13 @@
   },
   {
     "url": "/atletas/joao-carneiro/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
   {
     "url": "/atletas/joao-fascineli/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5782,7 +5796,7 @@
   },
   {
     "url": "/atletas/jonas-vieira/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5794,7 +5808,7 @@
   },
   {
     "url": "/atletas/jose-leonardo/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5818,13 +5832,13 @@
   },
   {
     "url": "/atletas/joao-portuguinha/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
   {
     "url": "/atletas/juan-vieira/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5842,7 +5856,7 @@
   },
   {
     "url": "/atletas/julio-fortunato/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5884,19 +5898,19 @@
   },
   {
     "url": "/atletas/kayman-freire/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
   {
     "url": "/atletas/kevin-fontainha/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
   {
     "url": "/atletas/kik-tavares/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5914,7 +5928,7 @@
   },
   {
     "url": "/atletas/leandro-pardini/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5938,7 +5952,7 @@
   },
   {
     "url": "/atletas/lincoln-camilo/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6022,7 +6036,7 @@
   },
   {
     "url": "/atletas/luis-ferraz/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6070,7 +6084,7 @@
   },
   {
     "url": "/atletas/manow-martins/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6088,7 +6102,7 @@
   },
   {
     "url": "/atletas/marcelo-miarelli/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6100,13 +6114,13 @@
   },
   {
     "url": "/atletas/marcos-fortunato/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
   {
     "url": "/atletas/marcos-kawasaki/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6130,7 +6144,7 @@
   },
   {
     "url": "/atletas/mario-salles/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6148,13 +6162,13 @@
   },
   {
     "url": "/atletas/mauricio-marques/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
   {
     "url": "/atletas/mauro-passarino/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6166,7 +6180,7 @@
   },
   {
     "url": "/atletas/maxi-scheib/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6184,7 +6198,7 @@
   },
   {
     "url": "/atletas/michael-tanga/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6274,13 +6288,13 @@
   },
   {
     "url": "/atletas/paulo-alberto/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
   {
     "url": "/atletas/paulo-foroni/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6298,7 +6312,7 @@
   },
   {
     "url": "/atletas/pedro-balla/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6310,7 +6324,7 @@
   },
   {
     "url": "/atletas/pedro-foroni/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6322,7 +6336,7 @@
   },
   {
     "url": "/atletas/pedro-valiente/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6346,13 +6360,13 @@
   },
   {
     "url": "/atletas/rafael-capua/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
   {
     "url": "/atletas/rafael-studart/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6364,7 +6378,7 @@
   },
   {
     "url": "/atletas/ramiro-gandola/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6376,7 +6390,7 @@
   },
   {
     "url": "/atletas/regis-santos/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6388,7 +6402,7 @@
   },
   {
     "url": "/atletas/rica-camargo/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6400,7 +6414,7 @@
   },
   {
     "url": "/atletas/ricardo-fox/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6412,13 +6426,13 @@
   },
   {
     "url": "/atletas/rivaldo-pontarolo/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
   {
     "url": "/atletas/roan-della-rosa/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6496,7 +6510,7 @@
   },
   {
     "url": "/atletas/seba-salom/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6544,7 +6558,7 @@
   },
   {
     "url": "/atletas/theo-manna/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6556,7 +6570,7 @@
   },
   {
     "url": "/atletas/thiago-fonseca/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6604,7 +6618,7 @@
   },
   {
     "url": "/atletas/vaguiner-trindade/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6640,7 +6654,7 @@
   },
   {
     "url": "/atletas/vladimir-correa/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6652,7 +6666,7 @@
   },
   {
     "url": "/atletas/wilson-torres/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6688,103 +6702,103 @@
   },
   {
     "url": "/videos/",
-    "lastmod": "2026-08-01",
+    "lastmod": "2026-08-02",
     "priority": "0.9",
     "kind": "index"
   },
   {
     "url": "/materias/",
-    "lastmod": "2026-08-01",
+    "lastmod": "2026-08-02",
     "priority": "0.9",
     "kind": "index"
   },
   {
     "url": "/atletas/",
-    "lastmod": "2026-08-01",
+    "lastmod": "2026-08-02",
     "priority": "0.8",
     "kind": "index"
   },
   {
     "url": "/assuntos/",
-    "lastmod": "2026-08-01",
+    "lastmod": "2026-08-02",
     "priority": "0.8",
     "kind": "index"
   },
   {
     "url": "/marcas/",
-    "lastmod": "2026-08-01",
+    "lastmod": "2026-08-02",
     "priority": "0.8",
     "kind": "index"
   },
   {
     "url": "/assuntos/motos/",
-    "lastmod": "2026-08-01",
+    "lastmod": "2026-08-02",
     "priority": "0.7",
     "kind": "topic"
   },
   {
     "url": "/assuntos/bicicletas/",
-    "lastmod": "2026-08-01",
+    "lastmod": "2026-08-02",
     "priority": "0.7",
     "kind": "topic"
   },
   {
     "url": "/assuntos/scooters/",
-    "lastmod": "2026-08-01",
+    "lastmod": "2026-08-02",
     "priority": "0.7",
     "kind": "topic"
   },
   {
     "url": "/assuntos/eletricos/",
-    "lastmod": "2026-08-01",
+    "lastmod": "2026-08-02",
     "priority": "0.7",
     "kind": "topic"
   },
   {
     "url": "/assuntos/competicoes/",
-    "lastmod": "2026-08-01",
+    "lastmod": "2026-08-02",
     "priority": "0.7",
     "kind": "topic"
   },
   {
     "url": "/assuntos/eventos/",
-    "lastmod": "2026-08-01",
+    "lastmod": "2026-08-02",
     "priority": "0.7",
     "kind": "topic"
   },
   {
     "url": "/assuntos/mobilidade/",
-    "lastmod": "2026-08-01",
+    "lastmod": "2026-08-02",
     "priority": "0.7",
     "kind": "topic"
   },
   {
     "url": "/assuntos/seguranca/",
-    "lastmod": "2026-08-01",
+    "lastmod": "2026-08-02",
     "priority": "0.7",
     "kind": "topic"
   },
   {
     "url": "/assuntos/tecnologia/",
-    "lastmod": "2026-08-01",
+    "lastmod": "2026-08-02",
     "priority": "0.7",
     "kind": "topic"
   },
   {
     "url": "/assuntos/manutencao/",
-    "lastmod": "2026-08-01",
+    "lastmod": "2026-08-02",
     "priority": "0.7",
     "kind": "topic"
   },
   {
     "url": "/assuntos/viagem/",
-    "lastmod": "2026-08-01",
+    "lastmod": "2026-08-02",
     "priority": "0.7",
     "kind": "topic"
   },
   {
     "url": "/assuntos/lancamentos/",
-    "lastmod": "2026-08-01",
+    "lastmod": "2026-08-02",
     "priority": "0.7",
     "kind": "topic"
   },
@@ -6838,7 +6852,7 @@
   },
   {
     "url": "/marcas/kawasaki/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.6",
     "kind": "brand"
   },
@@ -6856,7 +6870,7 @@
   },
   {
     "url": "/modalidades/",
-    "lastmod": "2026-08-01",
+    "lastmod": "2026-08-02",
     "priority": "0.8",
     "kind": "index"
   },
@@ -6946,7 +6960,7 @@
   },
   {
     "url": "/modalidades/motovelocidade/",
-    "lastmod": "2026-07-31",
+    "lastmod": "2026-08-01",
     "priority": "0.7",
     "kind": "modality"
   },
@@ -6964,7 +6978,7 @@
   },
   {
     "url": "/arquivo.html",
-    "lastmod": "2026-08-01",
+    "lastmod": "2026-08-02",
     "priority": "0.9",
     "kind": "index"
   }

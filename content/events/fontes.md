@@ -233,3 +233,16 @@ Fontes oficiais continuam sendo a referência para datas, locais e programação
   - Arte vetorial original, 1600 × 900 px, criada para uso editorial no portal.
   - Não utiliza fotografias, logotipos ou elementos copiados da arte do organizador.
   - Como o arquivo é SVG, não houve compressão, perda de metadados fotográficos nem conversão de formato.
+# Radar editorial — 02/08/2026 — 07h15 Eastern
+
+## Taça Brasil de Ciclismo de Pista e Track American Series — Maringá/PR
+
+- Fonte primária: https://www.cbc.esp.br/modalidades/eventos/busca/ — consultada em 02/08/2026; confirma datas de 4 a 9 de agosto, Velódromo Municipal de Maringá, classes UCI/CBC, paraciclismo, organização e chancela.
+- Calendário oficial: https://cbc.esp.br/modalidades/calendario/busca/pista — consultado em 02/08/2026; confirma o enquadramento da Taça Brasil no calendário de pista.
+- Imagem: `taca-brasil-pista-maringa-2026-ilustracao.webp`, ilustração editorial original gerada por IA pela TVDUASRODAS, sem marcas, texto ou atletas identificáveis; não retrata a competição real. Geração original PNG 1672×941, 2.532.320 bytes; publicada em WebP 1600×900, qualidade 82, 207.632 bytes. A conversão para WebP não preserva metadados do PNG gerado.
+
+## 5ª Expo Guararema Moto Clube — Guararema/SP
+
+- Fonte primária: https://guararema.sp.gov.br/eventos/5-expo-guararema-moto-clube — consultada em 02/08/2026; confirma datas de 15 e 16 de agosto, Vila de Luís Carlos, início às 10h, entrada solidária e seis shows.
+- Confirmação oficial complementar: https://www.guararema.sp.gov.br/noticias/geral/estancia-turistica-de-guararema-recebe-5-expo-guararema-moto-clube-em-agosto — consultada em 02/08/2026.
+- Imagem: `expo-guararema-moto-clube-2026-ilustracao.webp`, ilustração editorial original gerada por IA pela TVDUASRODAS, sem marcas, texto ou pessoas identificáveis; não retrata o evento real. Geração original PNG 1672×941, 3.141.461 bytes; publicada em WebP 1600×900, qualidade 76, 299.502 bytes. A conversão para WebP não preserva metadados do PNG gerado.
