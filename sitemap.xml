@@ -6396,11 +6396,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://tvduasrodas.com/atletas/jose-leonardo/</loc>
-    <lastmod>2026-08-02</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://tvduasrodas.com/atletas/jose-gabriel-marques-de-almeida/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.6</priority>
@@ -6421,7 +6416,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://tvduasrodas.com/atletas/juan-vieira/</loc>
+    <loc>https://tvduasrodas.com/atletas/juan-viera/</loc>
     <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
@@ -6856,16 +6851,6 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://tvduasrodas.com/atletas/rafael-capua/</loc>
-    <lastmod>2026-08-02</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://tvduasrodas.com/atletas/rafael-studart/</loc>
-    <lastmod>2026-08-02</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://tvduasrodas.com/atletas/raiza-goulao-henrique/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.6</priority>
@@ -6948,6 +6933,11 @@
   <url>
     <loc>https://tvduasrodas.com/atletas/romain-febvre/</loc>
     <lastmod>2026-07-27</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/ronaldo-ranieri/</loc>
+    <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -7107,11 +7097,6 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/atletas/wagner-guilherme/</loc>
-    <lastmod>2026-08-02</lastmod>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://tvduasrodas.com/atletas/wilson-torres/</loc>
     <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>

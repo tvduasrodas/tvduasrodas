@@ -12,15 +12,15 @@
   "cover": "/assets/img/uploads/moto1000gp-2026-capa.webp",
   "image_credit": "Foto: MOTO1000GP / divulgação · Arte: TVDUASRODAS",
   "featured": true,
-  "summary": "Maxi Scheib venceu a Sprint da GP1000 em Cascavel e lidera o Brasileiro de Motovelocidade com 120 pontos; a quarta etapa segue em andamento neste domingo.",
-  "last_updated": "2026-08-02T11:52:00-04:00",
+  "summary": "Mário Salles venceu a GP600 em Cascavel e reduziu para quatro pontos a diferença para Cauã Rodrigues; a quarta etapa segue em andamento neste domingo.",
+  "last_updated": "2026-08-02T14:12:00-04:00",
   "latest_result": {
     "stage": "4ª etapa — Cascavel",
-    "session": "GP1000 — Corrida Sprint",
-    "date": "2026-08-01",
-    "winner": "Maxi Scheib",
-    "note": "Resultado revisto após vistoria técnica; o MOTO1000GP confirmou Theo Manna e Gui Brito no pódio. Consultar a tabela oficial consolidada antes de reproduzir a ordem completa.",
-    "results_url": "https://m1gp.com.br/moto1000gp-atualiza-resultado-da-sprint-da-gp1000-by-motul-em-cascavel/"
+    "session": "GP600 — corrida principal",
+    "date": "2026-08-02",
+    "winner": "Mário Salles",
+    "note": "Resultado extraoficial publicado pelo MOTO1000GP após 18 voltas: Cauã Rodrigues terminou em segundo e Pedro Valiente em terceiro. A etapa ainda tinha outras corridas no domingo.",
+    "results_url": "https://m1gp.com.br/no-moto1000gp-em-cascavel-mario-salles-vence-a-gp600-e-reduz-diferenca-para-caua-rodrigues/"
   },
   "next_stage": {
     "name": "4ª etapa",
@@ -249,210 +249,189 @@
       "position": 1,
       "competitor": "Cauã Rodrigues",
       "team": "",
-      "points": 66
+      "points": 86
     },
     {
       "category": "GP600",
       "position": 2,
       "competitor": "Mario Salles",
       "team": "",
-      "points": 55
+      "points": 82
     },
     {
       "category": "GP600",
       "position": 3,
       "competitor": "Pedro Valiente",
       "team": "",
-      "points": 45
+      "points": 61
     },
     {
       "category": "GP600",
       "position": 4,
       "competitor": "Alex Oliveira",
       "team": "",
-      "points": 40
+      "points": 53
     },
     {
       "category": "GP600",
       "position": 5,
+      "competitor": "João Portuguinha",
+      "team": "",
+      "points": 31
+    },
+    {
+      "category": "GP600",
+      "position": 6,
       "competitor": "Ricardo Fox",
       "team": "",
       "points": 29
     },
     {
       "category": "GP600",
-      "position": 6,
+      "position": 7,
+      "competitor": "Carlos Fuzza",
+      "team": "",
+      "points": 25
+    },
+    {
+      "category": "GP600",
+      "position": 8,
+      "competitor": "Fabrício Zamperetti",
+      "team": "",
+      "points": 23
+    },
+    {
+      "category": "GP600",
+      "position": 9,
       "competitor": "Gustavo Silveira",
       "team": "",
       "points": 20
     },
     {
       "category": "GP600",
-      "position": 7,
-      "competitor": "João Portuguinha",
-      "team": "",
-      "points": 20
-    },
-    {
-      "category": "GP600",
-      "position": 8,
-      "competitor": "Carlos Fuzza",
-      "team": "",
-      "points": 18
-    },
-    {
-      "category": "GP600",
-      "position": 9,
+      "position": 10,
       "competitor": "Hilton Loureiro",
       "team": "",
       "points": 15
     },
     {
       "category": "GP600",
-      "position": 10,
+      "position": 11,
+      "competitor": "Regis Santos",
+      "team": "",
+      "points": 14
+    },
+    {
+      "category": "GP600",
+      "position": 12,
       "competitor": "Pedro Foroni",
       "team": "",
       "points": 13
     },
     {
       "category": "GP600",
-      "position": 11,
-      "competitor": "Fabrício Zamperetti",
+      "position": 13,
+      "competitor": "Kik Tavares",
       "team": "",
       "points": 13
     },
     {
       "category": "GP600",
-      "position": 12,
+      "position": 14,
       "competitor": "Edson Dionízio",
       "team": "",
-      "points": 11
+      "points": 13
     },
     {
       "category": "GP600",
-      "position": 13,
+      "position": 15,
       "competitor": "Gurgel Mendonça",
       "team": "",
       "points": 10
     },
     {
       "category": "GP600",
-      "position": 14,
-      "competitor": "Kik Tavares",
+      "position": 16,
+      "competitor": "Marcos Fortunato",
       "team": "",
       "points": 10
     },
     {
       "category": "GP600",
-      "position": 15,
+      "position": 17,
       "competitor": "Roan Della Rosa",
       "team": "",
       "points": 9
     },
     {
       "category": "GP600",
-      "position": 16,
+      "position": 18,
+      "competitor": "Ronaldo Ranieri",
+      "team": "",
+      "points": 9
+    },
+    {
+      "category": "GP600",
+      "position": 19,
       "competitor": "Ezequiel Allende",
       "team": "",
       "points": 9
     },
     {
       "category": "GP600",
-      "position": 17,
-      "competitor": "Regis Santos",
+      "position": 20,
+      "competitor": "Juan Viera",
       "team": "",
-      "points": 8
+      "points": 9
     },
     {
       "category": "GP600",
-      "position": 18,
+      "position": 21,
+      "competitor": "Michael Tanga",
+      "team": "",
+      "points": 7
+    },
+    {
+      "category": "GP600",
+      "position": 22,
       "competitor": "Paulo Foroni",
       "team": "",
       "points": 7
     },
     {
       "category": "GP600",
-      "position": 19,
+      "position": 23,
       "competitor": "Gerson Caleb",
       "team": "",
       "points": 6
     },
     {
       "category": "GP600",
-      "position": 20,
-      "competitor": "Marcos Fortunato",
-      "team": "",
-      "points": 6
-    },
-    {
-      "category": "GP600",
-      "position": 21,
-      "competitor": "Bruno Tormen",
-      "team": "",
-      "points": 5
-    },
-    {
-      "category": "GP600",
-      "position": 22,
+      "position": 24,
       "competitor": "Flavio Trevizan",
       "team": "",
       "points": 5
     },
     {
       "category": "GP600",
-      "position": 23,
-      "competitor": "Michael Tanga",
-      "team": "",
-      "points": 2
-    },
-    {
-      "category": "GP600",
-      "position": 24,
-      "competitor": "Marcos Kawasaki",
-      "team": "",
-      "points": 2
-    },
-    {
-      "category": "GP600",
       "position": 25,
-      "competitor": "Carlos Sonomiya",
+      "competitor": "Bruno Tormen",
       "team": "",
-      "points": 1
+      "points": 5
     },
     {
       "category": "GP600",
       "position": 26,
-      "competitor": "Juan Vieira",
+      "competitor": "Carlos Sonomiya",
       "team": "",
-      "points": 1
+      "points": 2
     },
     {
       "category": "GP600",
       "position": 27,
-      "competitor": "Jose Leonardo",
+      "competitor": "Marcos Kawasaki",
       "team": "",
-      "points": 0
-    },
-    {
-      "category": "GP600",
-      "position": 28,
-      "competitor": "Rafael Studart",
-      "team": "",
-      "points": 0
-    },
-    {
-      "category": "GP600",
-      "position": 29,
-      "competitor": "Wilson Torres",
-      "team": "",
-      "points": 0
-    },
-    {
-      "category": "GP600",
-      "position": 30,
-      "competitor": "Rafael Capua",
-      "team": "",
-      "points": 0
+      "points": 2
     },
     {
       "category": "Daytona 660 Cup",
@@ -699,8 +678,14 @@
     }
   ],
   "related_videos": [],
-  "body": "## Classificação após a Sprint de Cascavel\n\nA organização atualizou a classificação da GP1000 depois da Sprint da quarta etapa. **Maxi Scheib lidera com 120 pontos**, seguido por **Eric Granado (104)** e **Theo Manna (91)**. Na GP600, **Cauã Rodrigues (66)** sustenta a ponta, seguido por **Mario Salles (55)** e **Pedro Valiente (45)**. A GP Light é liderada por **Rica Camargo (54)**, e a Daytona 660 Cup tem **Joao Carneiro (54)** na frente.\n\n## Resultado revisto da Sprint\n\nMaxi Scheib venceu as 12 voltas da Sprint da GP1000 em Cascavel. Depois da vistoria técnica, Theo Manna e Gui Brito foram confirmados no pódio; Ramiro Gandola, Mauro Passarino e Felipe Macan completaram as seis primeiras posições. Kaka Freire venceu a 1000 Evo, com Julio Fortunato em segundo. Eric Granado e Kevin Fontainha foram desclassificados. A [nota oficial da revisão](https://m1gp.com.br/moto1000gp-atualiza-resultado-da-sprint-da-gp1000-by-motul-em-cascavel/) e a [central de resultados](https://m1gp.com.br/area-desportiva/resultados-2026-m1gp/) são as referências desta atualização.\n\n## GP Paraná em andamento\n\nO GP Paraná ocupa o Autódromo Internacional Zilmar Beux, em Cascavel (PR), de **31 de julho a 2 de agosto**. A rodada reúne **mais de 120 pilotos**, **11 corridas** e **sete categorias**. A corrida principal da GP1000 está marcada para domingo; por isso, a etapa permanece em andamento e o resultado final será incorporado somente depois da publicação oficial completa.\n\n*Dados oficiais consultados em 2 de agosto de 2026, às 11h52 Eastern. Resultados oficiais têm prioridade sobre informações provisórias de pista.*",
+  "body": "## Classificação atualizada em Cascavel\n\nA organização publicou a classificação da GP600 após quatro etapas. **Cauã Rodrigues lidera com 86 pontos**, seguido por **Mário Salles (82)** e **Pedro Valiente (61)**. Na GP1000, **Maxi Scheib lidera com 120 pontos**, à frente de **Eric Granado (104)** e **Theo Manna (91)**. A GP Light é liderada por **Rica Camargo (54)**, e a Daytona 660 Cup tem **Joao Carneiro (54)** na frente.\n\n## GP600: corrida principal de domingo\n\nMário Salles venceu as 18 voltas da GP600, com Cauã Rodrigues em segundo e Pedro Valiente em terceiro. Alex Oliveira terminou em quarto; João Portuguinha fechou os cinco primeiros da classificação geral e venceu a 600 Evo. A organização publicou a ordem completa até o 16º colocado, além dos não classificados, e informou que o resultado ainda era extraoficial. A [classificação integral da corrida e do campeonato](https://m1gp.com.br/no-moto1000gp-em-cascavel-mario-salles-vence-a-gp600-e-reduz-diferenca-para-caua-rodrigues/) permanece disponível no canal oficial.\n\n## Resultado revisto da Sprint\n\nMaxi Scheib venceu as 12 voltas da Sprint da GP1000 em Cascavel. Depois da vistoria técnica, Theo Manna e Gui Brito foram confirmados no pódio; Ramiro Gandola, Mauro Passarino e Felipe Macan completaram as seis primeiras posições. Kaka Freire venceu a 1000 Evo, com Julio Fortunato em segundo. Eric Granado e Kevin Fontainha foram desclassificados. A [nota oficial da revisão](https://m1gp.com.br/moto1000gp-atualiza-resultado-da-sprint-da-gp1000-by-motul-em-cascavel/) e a [central de resultados](https://m1gp.com.br/area-desportiva/resultados-2026-m1gp/) são as referências desta atualização.\n\n## GP Paraná em andamento\n\nO GP Paraná ocupa o Autódromo Internacional Zilmar Beux, em Cascavel (PR), de **31 de julho a 2 de agosto**. A rodada reúne **mais de 120 pilotos**, **11 corridas** e **sete categorias**. Como outras provas ainda estavam em disputa na tarde de domingo, a etapa permanece em andamento e o resultado final será incorporado somente depois da publicação oficial completa.\n\n*Dados oficiais consultados em 2 de agosto de 2026, às 14h12 Eastern. Resultados oficiais têm prioridade sobre informações provisórias de pista.*",
   "sources": [
+    {
+      "url": "https://m1gp.com.br/no-moto1000gp-em-cascavel-mario-salles-vence-a-gp600-e-reduz-diferenca-para-caua-rodrigues/",
+      "label": "MOTO1000GP — resultado da GP600 em Cascavel",
+      "type": "fonte primária ou canal oficial",
+      "supports": "resultado completo da GP600 e classificações GP600, 600 Evo e 600 Master após quatro etapas"
+    },
     {
       "url": "https://m1gp.com.br/atividades-de-pista-do-moto1000gp-em-cascavel-pr-comecam-nesta-sexta-feira-31/",
       "label": "MOTO1000GP — atividades de pista em Cascavel",
@@ -742,8 +727,8 @@
       "discovery_method": "busca_editorial_indexada"
     }
   ],
-  "source_checked_at": "2026-08-01T20:24:00-04:00",
-  "status_checked_at": "2026-08-02T11:52:00-04:00",
+  "source_checked_at": "2026-08-02T14:12:00-04:00",
+  "status_checked_at": "2026-08-02T14:12:00-04:00",
   "timezone": "America/Sao_Paulo",
   "local_start": "2026-07-31T00:00:00-03:00",
   "local_end": "2026-08-02T23:59:00-03:00",
