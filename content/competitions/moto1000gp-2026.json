@@ -12,8 +12,8 @@
   "cover": "/assets/img/uploads/moto1000gp-2026-capa.webp",
   "image_credit": "Foto: MOTO1000GP / divulgação · Arte: TVDUASRODAS",
   "featured": true,
-  "summary": "O Brasileiro de Motovelocidade chega ao GP Paraná com mais de 120 pilotos, 11 corridas e sete categorias em Cascavel; Maxi Scheib lidera a GP1000 após três rodadas em 2026.",
-  "last_updated": "2026-08-02T08:08:00-04:00",
+  "summary": "Maxi Scheib venceu a Sprint da GP1000 em Cascavel e lidera o Brasileiro de Motovelocidade com 120 pontos; a quarta etapa segue em andamento neste domingo.",
+  "last_updated": "2026-08-02T11:52:00-04:00",
   "latest_result": {
     "stage": "4ª etapa — Cascavel",
     "session": "GP1000 — Corrida Sprint",
@@ -46,77 +46,77 @@
       "position": 1,
       "competitor": "Maxi Scheib",
       "team": "",
-      "points": 105
+      "points": 120
     },
     {
       "category": "GP1000",
       "position": 2,
       "competitor": "Eric Granado",
       "team": "",
-      "points": 103
+      "points": 104
     },
     {
       "category": "GP1000",
       "position": 3,
       "competitor": "Theo Manna",
       "team": "",
-      "points": 78
+      "points": 91
     },
     {
       "category": "GP1000",
       "position": 4,
-      "competitor": "Eduardo Burr",
+      "competitor": "Gui Brito",
       "team": "",
       "points": 49
     },
     {
       "category": "GP1000",
       "position": 5,
+      "competitor": "Eduardo Burr",
+      "team": "",
+      "points": 49
+    },
+    {
+      "category": "GP1000",
+      "position": 6,
+      "competitor": "Ramiro Gandola",
+      "team": "",
+      "points": 47
+    },
+    {
+      "category": "GP1000",
+      "position": 7,
       "competitor": "Kevin Fontainha",
       "team": "",
       "points": 46
     },
     {
       "category": "GP1000",
-      "position": 6,
-      "competitor": "Gui Brito",
-      "team": "",
-      "points": 39
-    },
-    {
-      "category": "GP1000",
-      "position": 7,
-      "competitor": "Ramiro Gandola",
-      "team": "",
-      "points": 39
-    },
-    {
-      "category": "GP1000",
       "position": 8,
       "competitor": "Felipe Macan",
       "team": "",
-      "points": 35
+      "points": 40
     },
     {
       "category": "GP1000",
       "position": 9,
-      "competitor": "Kayman Freire",
+      "competitor": "Mauro Passarino",
       "team": "",
-      "points": 23
+      "points": 27
     },
     {
       "category": "GP1000",
       "position": 10,
-      "competitor": "Mauro Passarino",
+      "competitor": "Kaywan Freire",
       "team": "",
-      "points": 21
+      "points": 27
     },
     {
       "category": "GP1000",
       "position": 11,
       "competitor": "Julio Fortunato",
       "team": "",
-      "points": 21
+      "points": 24
     },
     {
       "category": "GP1000",
@@ -624,8 +624,8 @@
       "name": "1ª etapa",
       "location": "Interlagos, São Paulo, SP",
       "status": "concluida",
-      "winner": "Maxi Scheib (Sprint da GP1000; resultado revisto após vistoria)",
-      "results_url": "https://m1gp.com.br/moto1000gp-atualiza-resultado-da-sprint-da-gp1000-by-motul-em-cascavel/"
+      "winner": "Maxi Scheib (GP1000)",
+      "results_url": "https://m1gp.com.br/area-desportiva/resultados-2026-m1gp/"
     },
     {
       "order": 2,
@@ -654,8 +654,8 @@
       "name": "4ª etapa",
       "location": "Cascavel, PR",
       "status": "em_andamento",
-      "winner": "",
-      "results_url": "https://m1gp.com.br/"
+      "winner": "Maxi Scheib (Sprint da GP1000; resultado revisto após vistoria)",
+      "results_url": "https://m1gp.com.br/moto1000gp-atualiza-resultado-da-sprint-da-gp1000-by-motul-em-cascavel/"
     },
     {
       "order": 5,
@@ -699,7 +699,7 @@
     }
   ],
   "related_videos": [],
-  "body": "## Classificação após três etapas\n\nA organização publicou a classificação oficial completa após a rodada de Curvelo. Na GP1000, **Maxi Scheib lidera com 105 pontos**, apenas dois à frente de **Eric Granado (103)**; **Theo Manna (78)** completa o top 3. Na GP600, **Cauã Rodrigues (66)** sustenta a ponta, seguido por **Mario Salles (55)** e **Pedro Valiente (45)**. A GP Light é liderada por **Rica Camargo (54)**, e a Daytona 660 Cup tem **Joao Carneiro (54)** na frente.\n\n## Resultado da etapa de Curvelo\n\nA terceira etapa, disputada em 5 de julho no Circuito dos Cristais, teve **Maxi Scheib, Eric Granado e Theo Manna** no pódio da GP1000. Na GP600, o pódio foi formado por **Mario Salles, Cauã Rodrigues e Pedro Valiente**; na GP Light, por **Eduardo Marques, Thiago Fonseca e Vaguiner Trindade**. A [CBM detalha o resultado oficial de Curvelo](https://www.cbm.esp.br/noticias/2026/07/06/equilibrio-e-alta-velocidade-curvelo-sedia-terceira-etapa-do-moto1000gp-com-recorde-de-publico), e a [tabela completa do MOTO1000GP](https://m1gp.com.br/area-desportiva/resultados-2026-m1gp/) permanece como referência da classificação exibida nesta página.\n\n## Próxima etapa\n\nO GP Paraná ocupa o Autódromo Internacional Zilmar Beux, em Cascavel (PR), de **31 de julho a 2 de agosto**. A organização confirma **mais de 120 pilotos**, **11 corridas** e **sete categorias**. Além de GP1000 by Motul, GP600, GP Light e Daytona 660 Cup, a rodada recebe Yamalube R3 BLU CRU LA Talent, Yamalube R3 BLU CRU LA Cup e Yamaha R15 BLU CRU LA, válidas pelo campeonato latino-americano. Haverá Moto Passeio acompanhado pela direção de prova, atrações de freestyle motocross, praça de alimentação e estacionamento gratuito para carros e motos. Veja também o [guia da etapa de Cascavel](materia.html?slug=moto1000gp-2026-cascavel-recebe-a-4-etapa-do-brasileiro-de-motovelocidade) e a [corrida da GP1000 em Curvelo](tv.html?v=4KOXingAdHw).\n\n*Dados oficiais consultados em 28 de julho de 2026. Resultados oficiais têm prioridade sobre informações provisórias de pista.*",
+  "body": "## Classificação após a Sprint de Cascavel\n\nA organização atualizou a classificação da GP1000 depois da Sprint da quarta etapa. **Maxi Scheib lidera com 120 pontos**, seguido por **Eric Granado (104)** e **Theo Manna (91)**. Na GP600, **Cauã Rodrigues (66)** sustenta a ponta, seguido por **Mario Salles (55)** e **Pedro Valiente (45)**. A GP Light é liderada por **Rica Camargo (54)**, e a Daytona 660 Cup tem **Joao Carneiro (54)** na frente.\n\n## Resultado revisto da Sprint\n\nMaxi Scheib venceu as 12 voltas da Sprint da GP1000 em Cascavel. Depois da vistoria técnica, Theo Manna e Gui Brito foram confirmados no pódio; Ramiro Gandola, Mauro Passarino e Felipe Macan completaram as seis primeiras posições. Kaka Freire venceu a 1000 Evo, com Julio Fortunato em segundo. Eric Granado e Kevin Fontainha foram desclassificados. A [nota oficial da revisão](https://m1gp.com.br/moto1000gp-atualiza-resultado-da-sprint-da-gp1000-by-motul-em-cascavel/) e a [central de resultados](https://m1gp.com.br/area-desportiva/resultados-2026-m1gp/) são as referências desta atualização.\n\n## GP Paraná em andamento\n\nO GP Paraná ocupa o Autódromo Internacional Zilmar Beux, em Cascavel (PR), de **31 de julho a 2 de agosto**. A rodada reúne **mais de 120 pilotos**, **11 corridas** e **sete categorias**. A corrida principal da GP1000 está marcada para domingo; por isso, a etapa permanece em andamento e o resultado final será incorporado somente depois da publicação oficial completa.\n\n*Dados oficiais consultados em 2 de agosto de 2026, às 11h52 Eastern. Resultados oficiais têm prioridade sobre informações provisórias de pista.*",
   "sources": [
     {
       "url": "https://m1gp.com.br/atividades-de-pista-do-moto1000gp-em-cascavel-pr-comecam-nesta-sexta-feira-31/",
@@ -743,7 +743,7 @@
     }
   ],
   "source_checked_at": "2026-08-01T20:24:00-04:00",
-  "status_checked_at": "2026-08-02T08:08:00-04:00",
+  "status_checked_at": "2026-08-02T11:52:00-04:00",
   "timezone": "America/Sao_Paulo",
   "local_start": "2026-07-31T00:00:00-03:00",
   "local_end": "2026-08-02T23:59:00-03:00",
