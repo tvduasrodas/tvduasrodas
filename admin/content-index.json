@@ -3059,8 +3059,8 @@
       "category": "Ciclismo de estrada, contrarrelógio e mountain bike",
       "city": "",
       "state": "",
-      "status": "agendada",
-      "summary": "Campeonato oficial da Federação Amapaense de Ciclismo com provas de estrada, contrarrelógio e seis etapas de MTB em 2026. Locais e horários são publicados por etapa, e o regulamento prevê concentração uma hora antes da largada.",
+      "status": "em_andamento",
+      "summary": "Campeonato oficial com estrada e contrarrelógio em etapa única e seis etapas de MTB. A classificação oficial ainda não foi disponibilizada pela Federação na plataforma consultada; por isso não há vencedores atribuídos nesta página.",
       "url": "/competicoes/campeonato-amapaense-de-ciclismo-2026-macapa-ap-2026-08-01/",
       "edit_url": "/admin/#/collections/competitions/entries/campeonato-amapaense-de-ciclismo-2026-macapa-ap-2026-08-01",
       "source": "content/competitions/campeonato-amapaense-de-ciclismo-2026-macapa-ap-2026-08-01.json"
@@ -3241,8 +3241,8 @@
       "category": "Enduro de Regularidade",
       "city": "",
       "state": "",
-      "status": "em_andamento",
-      "summary": "Programacao da final em Ibitipoca e classificacao oficial do Brasileiro de Enduro de Regularidade apos seis rodadas.",
+      "status": "concluida",
+      "summary": "Classificação final oficial após o Ibitipoca Off Road: Jomar Grecco é campeão da Elite; veja os três primeiros das dez categorias do Brasileiro de Enduro de Regularidade 2026.",
       "url": "/competicoes/brasileiro-enduro-regularidade-2026/",
       "edit_url": "/admin/#/collections/competitions/entries/brasileiro-enduro-regularidade-2026",
       "source": "content/competitions/brasileiro-enduro-regularidade-2026.json"
@@ -3640,15 +3640,15 @@
       "source": "content/competitions/brasileiro-rally-raid-2026.json"
     },
     {
-      "title": "Campeonato Rondoniense de Motocross 2026 — etapas de agosto",
+      "title": "Campeonato Rondoniense de Motocross 2026 — Cerejeiras e Corumbiara",
       "type": "Competição",
       "slug": "campeonato-de-motocross-de-rondonia-2026-cerejeiras-e-corumbiara-ro-2026-08-01",
       "date": "2026",
       "category": "Motocross",
       "city": "",
       "state": "",
-      "status": "agendada",
-      "summary": "Registro consolidado das etapas de agosto do Campeonato Rondoniense de Motocross em Cerejeiras e Corumbiara. São competições distintas; datas exatas, pistas e horários aguardam divulgação específica da LIMERO.",
+      "status": "em_andamento",
+      "summary": "Acompanhamento das etapas de Cerejeiras e Corumbiara. Enquanto as súmulas de agosto não são publicadas, a tabela mostra o último resultado oficial disponível da LIMERO: a 4ª etapa estadual, disputada em Jaru.",
       "url": "/competicoes/campeonato-de-motocross-de-rondonia-2026-cerejeiras-e-corumbiara-ro-2026-08-01/",
       "edit_url": "/admin/#/collections/competitions/entries/campeonato-de-motocross-de-rondonia-2026-cerejeiras-e-corumbiara-ro-2026-08-01",
       "source": "content/competitions/campeonato-de-motocross-de-rondonia-2026-cerejeiras-e-corumbiara-ro-2026-08-01.json"

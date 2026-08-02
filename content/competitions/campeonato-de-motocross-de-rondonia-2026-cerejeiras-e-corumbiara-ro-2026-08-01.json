@@ -1,82 +1,45 @@
-{
-  "title": "Campeonato Rondoniense de Motocross 2026 — etapas de agosto",
-  "short_name": "Motocross de Rondônia — agosto de 2026",
+﻿{
+  "title": "Campeonato Rondoniense de Motocross 2026 — Cerejeiras e Corumbiara",
+  "short_name": "Motocross de Rondônia 2026",
   "season": "2026",
   "country": "Brasil",
-  "scope": "Nacional",
+  "scope": "Estadual",
   "modality": "Motocross",
-  "status": "agendada",
+  "status": "em_andamento",
   "organizer": "Liga Independente de Motocross do Estado de Rondônia (LIMERO)",
   "official_url": "https://limero.esp.br/category/motocross/",
-  "results_url": "",
+  "results_url": "https://limero.esp.br/wp-content/uploads/2026/06/28062026-RESULTADOS-MX-LIMERO-4-ETAPA-JARU.pdf",
   "cover": "/assets/img/competicoes-eventos-default.svg",
   "image_credit": "Arte: TVDUASRODAS",
   "featured": false,
-  "summary": "Registro consolidado das etapas de agosto do Campeonato Rondoniense de Motocross em Cerejeiras e Corumbiara. São competições distintas; datas exatas, pistas e horários aguardam divulgação específica da LIMERO.",
-  "last_updated": "2026-07-26T12:00:00-04:00",
-  "next_stage": {
-    "name": "Campeonato Rondoniense de Motocross 2026 — etapas de agosto",
-    "start_date": "2026-08-01",
-    "end_date": "2026-08-31",
-    "venue": "Pistas locais de Cerejeiras e Corumbiara, divulgadas separadamente pela organização",
-    "city": "Cerejeiras e Corumbiara",
-    "state": "RO",
-    "note": "Horários das etapas de agosto ainda não detalhados nas fontes consultadas"
-  },
-  "categories": [
-    "Motocross"
+  "summary": "Acompanhamento das etapas de Cerejeiras e Corumbiara. Enquanto as súmulas de agosto não são publicadas, a tabela mostra o último resultado oficial disponível da LIMERO: a 4ª etapa estadual, disputada em Jaru.",
+  "last_updated": "2026-08-02T18:00:00-04:00",
+  "next_stage": {"name":"Etapas de agosto — Cerejeiras e Corumbiara","start_date":"2026-08-01","end_date":"2026-08-31","venue":"Pistas divulgadas pela LIMERO","city":"Cerejeiras e Corumbiara","state":"RO","note":"Datas detalhadas e súmulas ainda aguardam publicação oficial"},
+  "categories": ["Importada Pró","Importada MX3","Importada MX4/MX5","Importada Intermediária","Importada Iniciantes","Nacional Pró/Nacional MX3","Nacional Intermediária","Nacional 230","Feminina","Júnior","65cc","50cc"],
+  "standings_eyebrow": "Último resultado oficial publicado pela LIMERO — 4ª etapa estadual, Jaru",
+  "standings_title": "Pódios por categoria — Jaru, 28 de junho de 2026",
+  "standings": [
+    {"position":1,"competitor":"Guilherme Maschio","category":"Importada Pró","team":"","points":"50 pts"},{"position":2,"competitor":"Jacson Cardoso","category":"Importada Pró","team":"","points":"42 pts"},{"position":3,"competitor":"Ualison Machado","category":"Importada Pró","team":"","points":"38 pts"},
+    {"position":1,"competitor":"Hugo Amaral","category":"Importada MX3","team":"","points":"1º na etapa"},{"position":2,"competitor":"Jacson Cardoso","category":"Importada MX3","team":"","points":"2º na etapa"},{"position":3,"competitor":"Hermesson Araujo","category":"Importada MX3","team":"","points":"3º na etapa"},
+    {"position":1,"competitor":"Givanildo Candiotto","category":"Importada MX4/MX5","team":"","points":"1º na etapa"},{"position":2,"competitor":"Eder Stenzel","category":"Importada MX4/MX5","team":"","points":"2º na etapa"},{"position":3,"competitor":"Tonyson Fabio","category":"Importada MX4/MX5","team":"","points":"3º na etapa"},
+    {"position":1,"competitor":"Orlando Neto","category":"Importada Intermediária","team":"","points":"1º na etapa"},{"position":2,"competitor":"Ualison Machado","category":"Importada Intermediária","team":"","points":"2º na etapa"},{"position":3,"competitor":"Michel Dellalibera","category":"Importada Intermediária","team":"","points":"3º na etapa"},
+    {"position":1,"competitor":"Endrew Zuchelli","category":"Importada Iniciantes","team":"","points":"1º na etapa"},{"position":2,"competitor":"Hiago Godoy","category":"Importada Iniciantes","team":"","points":"2º na etapa"},{"position":3,"competitor":"Lucas Almeida","category":"Importada Iniciantes","team":"","points":"3º na etapa"},
+    {"position":1,"competitor":"Vitor Mota","category":"Nacional Pró/Nacional MX3","team":"","points":"1º na etapa"},{"position":2,"competitor":"Ualison Machado","category":"Nacional Pró/Nacional MX3","team":"","points":"2º na etapa"},{"position":3,"competitor":"Caio Atila","category":"Nacional Pró/Nacional MX3","team":"","points":"3º na etapa"},
+    {"position":1,"competitor":"Guilherme Neves","category":"Nacional Intermediária","team":"","points":"1º na etapa"},{"position":2,"competitor":"Jeferson Salomao","category":"Nacional Intermediária","team":"","points":"2º na etapa"},{"position":3,"competitor":"Gustavo Alecrim","category":"Nacional Intermediária","team":"","points":"3º na etapa"},
+    {"position":1,"competitor":"Jeferson Salomao","category":"Nacional 230","team":"","points":"1º na etapa"},{"position":2,"competitor":"Elivelton Soares","category":"Nacional 230","team":"","points":"2º na etapa"},{"position":3,"competitor":"Gustavo Alecrim","category":"Nacional 230","team":"","points":"3º na etapa"},
+    {"position":1,"competitor":"Beatriz Infredy","category":"Feminina","team":"","points":"1º na etapa"},{"position":2,"competitor":"Sayuri Murata","category":"Feminina","team":"","points":"2º na etapa"},{"position":3,"competitor":"Lorena Oliveira","category":"Feminina","team":"","points":"3º na etapa"},
+    {"position":1,"competitor":"Murillo Neves","category":"Júnior","team":"","points":"1º na etapa"},{"position":2,"competitor":"Pedro Henrique","category":"Júnior","team":"","points":"2º na etapa"},{"position":3,"competitor":"Arthur Dotto","category":"Júnior","team":"","points":"3º na etapa"},
+    {"position":1,"competitor":"Joao Guilherme","category":"65cc","team":"","points":"1º na etapa"},{"position":2,"competitor":"Heitor Kluska","category":"65cc","team":"","points":"2º na etapa"},{"position":3,"competitor":"Danilo Neves","category":"65cc","team":"","points":"3º na etapa"},
+    {"position":1,"competitor":"Bernardo Emanuel","category":"50cc","team":"","points":"1º na etapa"},{"position":2,"competitor":"Heron Kluska","category":"50cc","team":"","points":"2º na etapa"},{"position":3,"competitor":"Luiz Fernando","category":"50cc","team":"","points":"3º na etapa"}
   ],
   "rounds": [
-    {
-      "order": 1,
-      "start_date": "2026-08-01",
-      "end_date": "2026-08-31",
-      "name": "Campeonato Rondoniense de Motocross 2026 — etapas de agosto",
-      "location": "Etapas distintas em Cerejeiras e Corumbiara - RO",
-      "status": "agendada",
-      "winner": "",
-      "results_url": ""
-    }
+    {"order":4,"start_date":"2026-06-28","end_date":"2026-06-28","name":"4ª etapa estadual — Jaru","location":"Jaru - RO","status":"concluida","winner":"Guilherme Maschio — Importada Pró","results_url":"https://limero.esp.br/wp-content/uploads/2026/06/28062026-RESULTADOS-MX-LIMERO-4-ETAPA-JARU.pdf"},
+    {"order":5,"start_date":"2026-08-01","end_date":"2026-08-31","name":"Etapas de agosto — Cerejeiras e Corumbiara","location":"Cerejeiras e Corumbiara - RO","status":"agendada","winner":"","results_url":""}
   ],
   "related_videos": [],
-  "body": "## Correção do registro\n\nA entrada anterior tratava Cerejeiras e Corumbiara como se fossem um único evento. O calendário da LIMERO indica competições distintas durante agosto de 2026, por isso o registro passa a funcionar como acompanhamento das etapas do mês.\n\n## Serviço\n\nAs pistas, datas exatas, horários, inscrições e regras de acesso ainda não foram detalhados nas fontes consultadas. Essas lacunas ficam explícitas para evitar transformar previsão de calendário em informação confirmada.\n\n## Organização\n\nA supervisão é da Liga Independente de Motocross do Estado de Rondônia, que publica regulamentos, resultados e atualizações do campeonato em seu canal oficial.",
-  "sources": [
-    {
-      "url": "https://limero.esp.br/category/motocross",
-      "label": "Canal oficial ou página indicada pela entidade",
-      "type": "fonte específica independente",
-      "supports": "dados de agenda, identificação e situação do evento"
-    },
-    {
-      "url": "https://ftp.cbm.esp.br/noticias/2026/02/06/cbm-e-promox-anunciam-calendario-oficial-do-campeonato-brasileiro-de-motocross-2026",
-      "label": "CBM e Promox anunciam calendário oficial do Campeonato Brasileiro de Motocross 2026 | Motocross | Notícias | Confederação Brasileira de Motociclismo",
-      "type": "fonte primária ou canal oficial",
-      "supports": "data e edição",
-      "relevance_score": 14,
-      "discovery_method": "busca_editorial_indexada"
-    }
-  ],
-  "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
-  "research_status": {
-    "required_specific_independent_sources": 2,
-    "specific_independent_domains_found": 4,
-    "status": "fontes_cruzadas",
-    "attempts": [
-      "busca por título exato, cidade, UF e ano",
-      "busca ampliada por programação, organizador, prefeitura e imprensa local",
-      "busca visual/social em Instagram, Facebook e YouTube"
-    ],
-    "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
-    "editorial_rule": "Dados confirmados por duas ou mais fontes específicas independentes."
-  },
-  "classification_status": {
-    "status": "aguardando_resultados",
-    "checked_at": "2026-07-26T07:36:36.795524+00:00",
-    "note": "Classificação e resultados serão atualizados após a publicação oficial da organização."
-  },
-  "calendar_status": {
-    "status": "publicado",
-    "checked_at": "2026-07-26T07:36:36.795524+00:00",
-    "note": "Competição confirmada nas fontes indicadas nesta página."
-  }
+  "body": "## Atualização dos resultados\n\nA LIMERO ainda não publicou, até 2 de agosto, súmulas específicas das etapas de Cerejeiras e Corumbiara. Para manter a página útil sem atribuir resultados inexistentes, a tabela exibe o documento oficial mais recente disponível: a 4ª etapa estadual, realizada em Jaru em 28 de junho.\n\n## Como ler a tabela\n\nOs pontos completos constam no documento para a Importada Pró. Nas demais classes, a página registra a ordem do pódio da etapa, sem converter posições em pontuação não confirmada. Assim que a entidade publicar as súmulas de agosto, esta página será substituída pelos resultados correspondentes.\n\n## Perfis dos atletas\n\nOs nomes presentes nos pódios oficiais de Jaru estão vinculados a páginas individuais. As páginas reúnem categoria, posição e participação registrada nesta competição.",
+  "sources": [{"url":"https://limero.esp.br/category/motocross/","label":"LIMERO — canal oficial do motocross","type":"fonte oficial","supports":"calendário e publicações da competição"},{"url":"https://limero.esp.br/wp-content/uploads/2026/06/28062026-RESULTADOS-MX-LIMERO-4-ETAPA-JARU.pdf","label":"LIMERO — resultado oficial da 4ª etapa em Jaru","type":"súmula oficial","supports":"pódios e pontuação publicada"}],
+  "source_checked_at": "2026-08-02T18:00:00-04:00",
+  "classification_status": {"status":"parcial_ultimo_resultado_oficial","checked_at":"2026-08-02T18:00:00-04:00","note":"Tabela baseada na última súmula oficial disponível, da etapa de Jaru; Cerejeiras e Corumbiara ainda aguardam publicação."},
+  "calendar_status": {"status":"em_acompanhamento","checked_at":"2026-08-02T18:00:00-04:00","note":"Etapas de agosto acompanhadas nos canais da LIMERO."}
 }

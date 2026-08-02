@@ -3,95 +3,27 @@
   "short_name": "Campeonato Amapaense de Ciclismo 2026",
   "season": "2026",
   "country": "Brasil",
-  "scope": "Nacional",
+  "scope": "Estadual",
   "modality": "Ciclismo de estrada, contrarrelógio e mountain bike",
-  "status": "agendada",
+  "status": "em_andamento",
   "organizer": "Federação Amapaense de Ciclismo",
   "official_url": "https://esportecorrida.com.br/upload_diversos/11_02_2026_15_44_50.pdf",
   "results_url": "",
   "cover": "/assets/img/competicoes-eventos-default.svg",
   "image_credit": "Arte: TVDUASRODAS",
   "featured": false,
-  "summary": "Campeonato oficial da Federação Amapaense de Ciclismo com provas de estrada, contrarrelógio e seis etapas de MTB em 2026. Locais e horários são publicados por etapa, e o regulamento prevê concentração uma hora antes da largada.",
-  "last_updated": "2026-07-26T12:00:00-04:00",
-  "next_stage": {
-    "name": "Campeonato Amapaense de Ciclismo de Estrada, Contrarrelógio e MTB 2026",
-    "start_date": "2026-08-01",
-    "end_date": "2026-12-31",
-    "venue": "Percursos definidos e divulgados separadamente para cada etapa pela Federação Amapaense de Ciclismo",
-    "city": "Macapá",
-    "state": "AP",
-    "note": "Horários de concentração e largada são divulgados pela Federação antes de cada etapa; a concentração ocorre uma hora antes da largada"
-  },
-  "categories": [
-    "Ciclismo de estrada, contrarrelógio e mountain bike"
-  ],
-  "rounds": [
-    {
-      "order": 1,
-      "start_date": "2026-08-01",
-      "end_date": "2026-12-31",
-      "name": "Campeonato Amapaense de Ciclismo de Estrada, Contrarrelógio e MTB 2026",
-      "location": "Percursos variáveis por etapa, Macapá - AP",
-      "status": "agendada",
-      "winner": "",
-      "results_url": ""
-    }
-  ],
+  "summary": "Campeonato oficial com estrada e contrarrelógio em etapa única e seis etapas de MTB. A classificação oficial ainda não foi disponibilizada pela Federação na plataforma consultada; por isso não há vencedores atribuídos nesta página.",
+  "last_updated": "2026-08-02T18:00:00-04:00",
+  "next_stage": {"name":"Temporada 2026 — próximas etapas","start_date":"2026-08-01","end_date":"2026-12-31","venue":"Percursos divulgados por etapa","city":"Macapá","state":"AP","note":"Aguardando calendário detalhado e resultados oficiais vinculados pela Federação"},
+  "categories": ["Estrada","Contrarrelógio","Mountain bike"],
+  "standings_eyebrow": "Classificação oficial",
+  "standings_title": "Resultados aguardando publicação da Federação Amapaense de Ciclismo",
+  "standings": [],
+  "rounds": [{"order":4,"start_date":"2026-06-14","end_date":"2026-06-14","name":"4ª Etapa Ranking Amapaense de Estrada","location":"Macapá - AP","status":"realizada_resultado_indisponivel","winner":"","results_url":"https://esportecorrida.com.br/v3/evento.php?evt=2509"}],
   "related_videos": [],
-  "body": "## Serviço verificado\n\nA Federação Amapaense de Ciclismo confirma para 2026 campeonatos de estrada e contrarrelógio em etapa única e um campeonato de MTB com seis etapas. Datas podem ser alteradas e os percursos e horários são divulgados nos canais oficiais.\n\n## Inscrição e participação\n\nA inscrição custa R$ 60,00 mais a taxa da plataforma por etapa. Somente atletas filiados à Federação em 2026 podem disputar as provas oficiais. A concentração deve ocorrer uma hora antes da largada, e a súmula encerra 15 minutos antes.\n\n## Estrutura e segurança\n\nO regulamento prevê ambulância para o primeiro atendimento, uso obrigatório de capacete e regras técnicas para atletas e equipes. O estacionamento não é detalhado no documento geral porque varia conforme o percurso.\n\n## Fonte\n\nDados conferidos no regulamento técnico oficial publicado pela Federação Amapaense de Ciclismo.",
-  "sources": [
-    {
-      "url": "https://esportecorrida.com.br/upload_diversos/11_02_2026_15_44_50.pdf",
-      "label": "Canal oficial ou página indicada pela entidade",
-      "type": "fonte específica independente",
-      "supports": "dados de agenda, identificação e situação do evento"
-    },
-    {
-      "url": "https://newsamapa.com/esporte/federacao-amapaense-de-ciclismo-inicia-preparativos-para-2026",
-      "label": "newsamapa.com https://newsamapa.com › esporte › federacao-amapaense-de Federação Amapaense de Ciclismo inicia preparativos para 2026",
-      "type": "cobertura jornalística",
-      "supports": "data e edição, categorias, percurso ou regulamento, resultados ou classificação, organização e contatos",
-      "relevance_score": 28
-    },
-    {
-      "url": "https://www.diariodoamapa.com.br/cadernos/esportes/ultima-etapa-do-campeonato-amapaense-de-ciclismo-sera-disputada-no-circuito-poeirao",
-      "label": "Diário do Amapá https://www.diariodoamapa.com.br › cadernos › esportes Última etapa do Campeonato Amapaense de Ciclismo será...",
-      "type": "cobertura jornalística",
-      "supports": "data e edição, horários e programação, inscrições e acesso, categorias, percurso ou regulamento, resultados ou classificação",
-      "relevance_score": 28
-    },
-    {
-      "url": "https://www.diariodoamapa.com.br/cadernos/esportes/federacao-amapaense-de-ciclismo-inicia-preparativos-para-temporada-2026",
-      "label": "Diário do Amapá https://www.diariodoamapa.com.br › cadernos › esportes Federação Amapaense de Ciclismo inicia preparativos para...",
-      "type": "cobertura jornalística",
-      "supports": "data e edição, horários e programação, categorias, percurso ou regulamento, resultados ou classificação, organização e contatos",
-      "relevance_score": 28
-    },
-    {
-      "url": "https://newsamapa.com/esporte/federacao-amapaense-de-ciclismo-se-prepara-para-2026-com-foco-em-resultados",
-      "label": "newsamapa.com https://newsamapa.com › esporte › federacao-amapaense-de Federação Amapaense de Ciclismo se prepara para 2026 com foco...",
-      "type": "cobertura jornalística",
-      "supports": "data e edição, categorias, percurso ou regulamento, resultados ou classificação, organização e contatos",
-      "relevance_score": 27
-    }
-  ],
-  "source_checked_at": "2026-07-26T08:53:10.776442+00:00",
-  "research_status": {
-    "required_specific_independent_sources": 2,
-    "specific_independent_domains_found": 3,
-    "status": "fontes_cruzadas",
-    "query": "\"campeonato amapaense de ciclismo de estrada contrarrelogio e mtb 2026\" macapa AP 2026",
-    "reviewed_at": "2026-07-26T08:53:10.776442+00:00"
-  },
-  "classification_status": {
-    "status": "aguardando_resultados",
-    "checked_at": "2026-07-26T08:53:10.776442+00:00",
-    "note": "Classificação e resultados serão atualizados após a publicação oficial da organização."
-  },
-  "calendar_status": {
-    "status": "publicado",
-    "checked_at": "2026-07-26T08:53:10.776442+00:00",
-    "note": "Competição confirmada nas fontes indicadas nesta página."
-  }
+  "body": "## Atualização dos resultados em 2 de agosto\n\nO regulamento oficial confirma uma etapa de estrada, uma de contrarrelógio e seis etapas de MTB em 2026. A plataforma Esporte Corrida também registra a 4ª Etapa do Ranking Amapaense de Estrada, realizada em 14 de junho. Porém, a página pública consultada não apresenta súmula, classificação ou link válido de resultados.\n\n## Por que a tabela está vazia\n\nSem uma classificação oficial verificável, a TVDUASRODAS não atribui vitória, título ou pontuação. Isso evita misturar provas avulsas, rankings de modalidades diferentes ou resultados de temporadas anteriores. A tabela será preenchida quando a Federação publicar a súmula correspondente.\n\n## Páginas de atletas\n\nNenhum perfil foi criado a partir desta competição nesta atualização, porque ainda não há nomes oficialmente classificados na fonte pública. Assim que os resultados forem disponibilizados, os atletas serão incluídos automaticamente com modalidade, categoria e colocação.",
+  "sources": [{"url":"https://esportecorrida.com.br/upload_diversos/11_02_2026_15_44_50.pdf","label":"Regulamento técnico oficial 2026","type":"documento oficial","supports":"estrutura, modalidades e regras do campeonato"},{"url":"https://esportecorrida.com.br/v3/evento.php?evt=2509","label":"4ª Etapa Ranking Amapaense de Estrada","type":"plataforma oficial de inscrições","supports":"realização da etapa em 14 de junho e ausência de classificação pública vinculada"}],
+  "source_checked_at": "2026-08-02T18:00:00-04:00",
+  "classification_status": {"status":"aguardando_resultados","checked_at":"2026-08-02T18:00:00-04:00","note":"Nenhuma súmula ou classificação pública verificável foi localizada na plataforma oficial consultada."},
+  "calendar_status": {"status":"publicado_parcialmente","checked_at":"2026-08-02T18:00:00-04:00","note":"Regulamento geral confirmado; detalhes e resultados são publicados separadamente por etapa."}
 }

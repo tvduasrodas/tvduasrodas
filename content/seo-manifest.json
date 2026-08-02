@@ -241,7 +241,7 @@
     "url": "/materias/moto1000gp-cascavel-2026-vencedores-resultados/",
     "lastmod": "2026-08-02",
     "priority": "0.8",
-    "image": "",
+    "image": "https://tvduasrodas.com/assets/img/uploads/moto1000gp-cascavel-2026-kevin-fontainha.webp",
     "kind": "article"
   },
   {
@@ -799,9 +799,9 @@
   },
   {
     "url": "/competicoes/brasileiro-enduro-regularidade-2026/",
-    "lastmod": "2026-07-30",
+    "lastmod": "2026-08-02",
     "priority": "0.8",
-    "image": "https://tvduasrodas.com/assets/img/uploads/brasileiro-enduro-regularidade-2026-artwork.svg",
+    "image": "https://tvduasrodas.com/assets/img/uploads/ibitipoca-off-road-2026-capa.webp",
     "kind": "competition"
   },
   {
@@ -841,14 +841,14 @@
   },
   {
     "url": "/competicoes/campeonato-amapaense-de-ciclismo-2026-macapa-ap-2026-08-01/",
-    "lastmod": "2026-07-26",
+    "lastmod": "2026-08-02",
     "priority": "0.8",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "competition"
   },
   {
     "url": "/competicoes/campeonato-de-motocross-de-rondonia-2026-cerejeiras-e-corumbiara-ro-2026-08-01/",
-    "lastmod": "2026-07-26",
+    "lastmod": "2026-08-02",
     "priority": "0.8",
     "image": "https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg",
     "kind": "competition"
@@ -5006,6 +5006,12 @@
     "kind": "person"
   },
   {
+    "url": "/atletas/andre-luis-senter/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
     "url": "/atletas/andre-da-silva-siqueira/",
     "lastmod": "2026-07-26",
     "priority": "0.6",
@@ -5019,6 +5025,12 @@
   },
   {
     "url": "/atletas/antony-mendes/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/arthur-dotto/",
     "lastmod": "2026-08-02",
     "priority": "0.6",
     "kind": "person"
@@ -5060,6 +5072,18 @@
     "kind": "person"
   },
   {
+    "url": "/atletas/barbara-neves-gonzaga/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/beatriz-infredy/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
     "url": "/atletas/ben-sagae/",
     "lastmod": "2026-07-26",
     "priority": "0.6",
@@ -5067,6 +5091,12 @@
   },
   {
     "url": "/atletas/benjamin-garib/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/bernardo-emanuel/",
     "lastmod": "2026-08-02",
     "priority": "0.6",
     "kind": "person"
@@ -5086,6 +5116,12 @@
   {
     "url": "/atletas/brendon-fernandes-dos-santos/",
     "lastmod": "2026-07-26",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/brendon-pereira-de-oliveira/",
+    "lastmod": "2026-08-02",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5116,6 +5152,12 @@
   {
     "url": "/atletas/bruno-de-souza-oliveira-junior/",
     "lastmod": "2026-07-26",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/caio-atila/",
+    "lastmod": "2026-08-02",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5186,7 +5228,19 @@
     "kind": "person"
   },
   {
+    "url": "/atletas/celso-zagonel/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
     "url": "/atletas/cesar-aponte/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/charleu-augusto-spricigo/",
     "lastmod": "2026-08-02",
     "priority": "0.6",
     "kind": "person"
@@ -5218,6 +5272,18 @@
   {
     "url": "/atletas/daniel-trecenti/",
     "lastmod": "2026-07-26",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/daniel-zanin/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/danilo-neves/",
+    "lastmod": "2026-08-02",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5259,6 +5325,12 @@
   },
   {
     "url": "/atletas/douglas-russo/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/eder-stenzel/",
     "lastmod": "2026-08-02",
     "priority": "0.6",
     "kind": "person"
@@ -5306,6 +5378,12 @@
     "kind": "person"
   },
   {
+    "url": "/atletas/elivelton-soares/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
     "url": "/atletas/elton-azevedo/",
     "lastmod": "2026-08-02",
     "priority": "0.6",
@@ -5314,6 +5392,18 @@
   {
     "url": "/atletas/emanuelly-alexandre-adao/",
     "lastmod": "2026-07-26",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/emerson-loth-pereira/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/endrew-zuchelli/",
+    "lastmod": "2026-08-02",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5342,6 +5432,12 @@
     "kind": "person"
   },
   {
+    "url": "/atletas/erasmo-schwanz/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
     "url": "/atletas/eric-granado/",
     "lastmod": "2026-08-02",
     "priority": "0.6",
@@ -5356,6 +5452,12 @@
   {
     "url": "/atletas/ester-freire-dos-santos/",
     "lastmod": "2026-07-26",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/evandro-machado/",
+    "lastmod": "2026-08-02",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5582,8 +5684,26 @@
     "kind": "person"
   },
   {
+    "url": "/atletas/gilliard-dos-santos-nossa/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/giovany-biscaia/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
     "url": "/atletas/giuliana-salvini-morgen/",
     "lastmod": "2026-07-26",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/givanildo-candiotto/",
+    "lastmod": "2026-08-02",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5636,6 +5756,18 @@
     "kind": "person"
   },
   {
+    "url": "/atletas/guilherme-maschio/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/guilherme-neves/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
     "url": "/atletas/guilherme-ribeiro/",
     "lastmod": "2026-07-26",
     "priority": "0.6",
@@ -5649,6 +5781,18 @@
   },
   {
     "url": "/atletas/gurgel-mendonca/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/gustavo-alecrim/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/gustavo-elias-hein/",
     "lastmod": "2026-08-02",
     "priority": "0.6",
     "kind": "person"
@@ -5708,6 +5852,12 @@
     "kind": "person"
   },
   {
+    "url": "/atletas/heitor-kluska/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
     "url": "/atletas/helena-dias-castilhos-de-araujo/",
     "lastmod": "2026-07-26",
     "priority": "0.6",
@@ -5738,8 +5888,32 @@
     "kind": "person"
   },
   {
+    "url": "/atletas/herbert-araujo/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
     "url": "/atletas/hercilia-najara-ferreira-de-souza/",
     "lastmod": "2026-07-26",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/hermesson-araujo/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/heron-kluska/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/hiago-godoy/",
+    "lastmod": "2026-08-02",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5752,6 +5926,12 @@
   {
     "url": "/atletas/hiugo-costa/",
     "lastmod": "2026-07-26",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/hugo-amaral/",
+    "lastmod": "2026-08-02",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5792,8 +5972,32 @@
     "kind": "person"
   },
   {
+    "url": "/atletas/jacson-cardoso/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/jarbas-alaor-de-assis-vargas/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/jarbas-antonio-colombo/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
     "url": "/atletas/jarbas-de-carvalho-azevedo/",
     "lastmod": "2026-07-26",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/jeferson-salomao/",
+    "lastmod": "2026-08-02",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5828,6 +6032,18 @@
     "kind": "person"
   },
   {
+    "url": "/atletas/joao-guilherme/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/joao-pedro-pedreira-bastos/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
     "url": "/atletas/joao-prado/",
     "lastmod": "2026-07-26",
     "priority": "0.6",
@@ -5836,6 +6052,12 @@
   {
     "url": "/atletas/johann-zarco/",
     "lastmod": "2026-07-26",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/jomar-grecco/",
+    "lastmod": "2026-08-02",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5858,8 +6080,20 @@
     "kind": "person"
   },
   {
+    "url": "/atletas/jose-alberto-scheid/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
     "url": "/atletas/jose-gabriel-marques-de-almeida/",
     "lastmod": "2026-07-26",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/joao-dalla-lana/",
+    "lastmod": "2026-08-02",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5896,6 +6130,12 @@
   {
     "url": "/atletas/juliano-cocuzzi/",
     "lastmod": "2026-07-26",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/juliano-muller/",
+    "lastmod": "2026-08-02",
     "priority": "0.6",
     "kind": "person"
   },
@@ -5972,6 +6212,12 @@
     "kind": "person"
   },
   {
+    "url": "/atletas/kessia-pires-tristao/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
     "url": "/atletas/karlis-alberts-reisulis/",
     "lastmod": "2026-07-27",
     "priority": "0.6",
@@ -5980,6 +6226,12 @@
   {
     "url": "/atletas/lazaro-jesus-moreira/",
     "lastmod": "2026-07-26",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/leandro-hendler-hahn/",
+    "lastmod": "2026-08-02",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6002,6 +6254,12 @@
     "kind": "person"
   },
   {
+    "url": "/atletas/leonardo-rodrigues-costa/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
     "url": "/atletas/liam-everts/",
     "lastmod": "2026-07-27",
     "priority": "0.6",
@@ -6009,6 +6267,12 @@
   },
   {
     "url": "/atletas/lincoln-camilo/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/lorena-oliveira/",
     "lastmod": "2026-08-02",
     "priority": "0.6",
     "kind": "person"
@@ -6040,6 +6304,12 @@
   {
     "url": "/atletas/luca-marini/",
     "lastmod": "2026-07-26",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/lucas-almeida/",
+    "lastmod": "2026-08-02",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6086,6 +6356,12 @@
     "kind": "person"
   },
   {
+    "url": "/atletas/lucio-flavio-metzdorf-filho/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
     "url": "/atletas/lucio-otavio-soares/",
     "lastmod": "2026-07-26",
     "priority": "0.6",
@@ -6100,6 +6376,12 @@
   {
     "url": "/atletas/luis-gustavo-eger-pereira/",
     "lastmod": "2026-07-26",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/luiz-fernando/",
+    "lastmod": "2026-08-02",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6188,6 +6470,12 @@
     "kind": "person"
   },
   {
+    "url": "/atletas/marcos-vinicyus-feitosa-santos/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
     "url": "/atletas/maria-eduarda-dornelas-queiroz-da-silva/",
     "lastmod": "2026-07-26",
     "priority": "0.6",
@@ -6266,7 +6554,19 @@
     "kind": "person"
   },
   {
+    "url": "/atletas/medslon-wendel-souza-gallon/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
     "url": "/atletas/michael-tanga/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/michel-dellalibera/",
     "lastmod": "2026-08-02",
     "priority": "0.6",
     "kind": "person"
@@ -6286,6 +6586,12 @@
   {
     "url": "/atletas/monara-lucia-alencar-moreira/",
     "lastmod": "2026-07-26",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/murillo-neves/",
+    "lastmod": "2026-08-02",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6338,6 +6644,12 @@
     "kind": "person"
   },
   {
+    "url": "/atletas/orlando-neto/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
     "url": "/atletas/otavio-pedro-da-silva/",
     "lastmod": "2026-08-02",
     "priority": "0.6",
@@ -6363,6 +6675,12 @@
   },
   {
     "url": "/atletas/paulo-alberto/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/paulo-cesar-richter/",
     "lastmod": "2026-08-02",
     "priority": "0.6",
     "kind": "person"
@@ -6399,6 +6717,12 @@
   },
   {
     "url": "/atletas/pedro-foroni/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/pedro-henrique/",
     "lastmod": "2026-08-02",
     "priority": "0.6",
     "kind": "person"
@@ -6441,6 +6765,12 @@
   },
   {
     "url": "/atletas/ramiro-gandola/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/raphael-luchi-reblin/",
     "lastmod": "2026-08-02",
     "priority": "0.6",
     "kind": "person"
@@ -6584,6 +6914,18 @@
     "kind": "person"
   },
   {
+    "url": "/atletas/sandro-arthur-hoffmann/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/sayuri-murata/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
     "url": "/atletas/seba-salom/",
     "lastmod": "2026-08-02",
     "priority": "0.6",
@@ -6680,6 +7022,12 @@
     "kind": "person"
   },
   {
+    "url": "/atletas/tonyson-fabio/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
     "url": "/atletas/toprak-razgatl-oglu/",
     "lastmod": "2026-07-26",
     "priority": "0.6",
@@ -6688,6 +7036,12 @@
   {
     "url": "/atletas/trevin-nelson/",
     "lastmod": "2026-07-26",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/ualison-machado/",
+    "lastmod": "2026-08-02",
     "priority": "0.6",
     "kind": "person"
   },
@@ -6735,6 +7089,12 @@
   },
   {
     "url": "/atletas/vitor-hugo-de-borba/",
+    "lastmod": "2026-08-02",
+    "priority": "0.6",
+    "kind": "person"
+  },
+  {
+    "url": "/atletas/vitor-mota/",
     "lastmod": "2026-08-02",
     "priority": "0.6",
     "kind": "person"
@@ -6993,7 +7353,7 @@
   },
   {
     "url": "/modalidades/enduro-de-regularidade/",
-    "lastmod": "2026-07-30",
+    "lastmod": "2026-08-02",
     "priority": "0.7",
     "kind": "modality"
   },
@@ -7029,7 +7389,7 @@
   },
   {
     "url": "/modalidades/ciclismo-de-estrada-contrarrelogio-e-mountain-bike/",
-    "lastmod": "2026-07-26",
+    "lastmod": "2026-08-02",
     "priority": "0.7",
     "kind": "modality"
   },
