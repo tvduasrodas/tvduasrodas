@@ -1,6 +1,17 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://tvduasrodas.com/materias/capital-moto-week-2026-balanco-inovacao-legado/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>TVDUASRODAS</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-02T08:10:00-04:00</news:publication_date>
+      <news:title>Capital Moto Week 2026: inovação, encontros e o legado deixado em Brasília</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/materias/estrada-aberta-01-08-2026-vento-lateral-caminhoes/</loc>
     <news:news>
       <news:publication>
@@ -57,14 +68,6 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/materias/onde-assistir-campeonato-brasileiro-motocross-2026-ao-vivo/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>TVDUASRODAS</news:name>
-        <news:language>pt</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-31T09:30:00-04:00</news:publication_date>
-      <news:title>Onde assistir ao Campeonato Brasileiro de Motocross ao vivo: horários e programação</news:title>
-    </news:news>
   </url>
   <url>
     <loc>https://tvduasrodas.com/materias/honda-motos-cresce-11-primeiro-semestre-2026/</loc>
