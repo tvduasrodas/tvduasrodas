@@ -1400,5 +1400,28 @@
       "contentId": "18071928140450930",
       "publicationConfirmation": "Meta Business Suite exibiu o Reel no Planner às 08:48 Eastern com o ID 18071928140450930."
     }
+  },
+  {
+    "url": "https://tvduasrodas.com/materias/capital-moto-week-2026-balanco-inovacao-legado/",
+    "type": "news",
+    "title": "Capital Moto Week 2026: inovação, encontros e o legado deixado em Brasília",
+    "detectedAt": "2026-08-02T11:33:00-04:00",
+    "validation": {
+      "source": "Capital Moto Week — sala de imprensa e banco de imagens indicado pela assessoria; consulta em 02/08/2026",
+      "publicUrl": "CONFIRMADA_PELA_PUBLICACAO_CANONICA",
+      "rights_verified": false,
+      "rights": "PENDENTE_AUTORIZACAO_OU_LICENCA_EXPLICITA",
+      "imageAudit": "Sete fotografias distintas estão publicadas na matéria, mas o registro de fontes afirma que a autorização final ainda será tratada pelo responsável da TVDUASRODAS. Crédito Capital Moto Week / divulgação e acesso ao banco de imagens não substituem licença editorial verificável para republicação no Instagram."
+    },
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
+    "stories": {
+      "status": "PENDENTE_DIREITOS_DE_IMAGEM_NAO_VERIFICADOS"
+    },
+    "reel": {
+      "status": "PENDENTE_DIREITOS_DE_IMAGEM_NAO_VERIFICADOS",
+      "imageAudit": "Não gerar nem publicar: o Reel exige rights_verified=true apesar de haver sete imagens distintas."
+    }
   }
 ]
