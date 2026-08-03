@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "total": 713,
+  "total": 714,
   "counts": {
     "Competição": 22,
     "Configuração da home": 2,
     "Etapa esportiva": 62,
-    "Evento": 16,
+    "Evento": 17,
     "Evento da agenda": 524,
     "Matéria": 54,
     "Matéria do acervo": 4,
@@ -418,6 +418,20 @@
       "url": "/eventos/16a-maratona-de-mtb-cabra-da-peste-xcs3-soledade-pb-2026-11-28/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/calendario_categorias_2026",
       "source": "content/calendar/cbm-2026.json#16a-maratona-de-mtb-cabra-da-peste-xcs3-soledade-pb-2026-11-28"
+    },
+    {
+      "title": "17ª Volta Ciclística Cidade de Brusque 2026",
+      "type": "Evento",
+      "slug": "volta-ciclistica-cidade-brusque-2026",
+      "date": "2026-08-15",
+      "category": "Competição de ciclismo de estrada",
+      "city": "Brusque",
+      "state": "SC",
+      "status": "agendada",
+      "summary": "A 17ª Volta Ciclística Cidade de Brusque será disputada em 15 e 16 de agosto, com contrarrelógio e duas etapas de circuito, válida pelo ranking nacional Classe 2B.",
+      "url": "/eventos/volta-ciclistica-cidade-brusque-2026/",
+      "edit_url": "/admin/#/collections/events/entries/volta-ciclistica-cidade-brusque-2026",
+      "source": "content/events/volta-ciclistica-cidade-brusque-2026.json"
     },
     {
       "title": "17º Encontro Nacional de Motociclistas de Mariana e 19º Aniversário do Vira Latas Motoclube — MG",
