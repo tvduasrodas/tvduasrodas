@@ -149,7 +149,7 @@
       "stage": "7ª etapa — Ibitipoca Off Road",
       "location": "Local oficial a confirmar",
       "modality": "Enduro de Regularidade",
-      "status": "agendada",
+      "status": "concluida",
       "competition_slug": "brasileiro-enduro-regularidade-2026",
       "sources": [
         {
@@ -1994,7 +1994,7 @@
       "city": "Paraíba do Sul",
       "state": "RJ",
       "modality": "Downhill",
-      "status": "em_andamento",
+      "status": "concluida",
       "competition_slug": "brasileiro-downhill-2026",
       "official_url": "https://cbc.esp.br/modalidades/evento/busca/mtb/id/1352",
       "sources": [
@@ -2067,11 +2067,11 @@
       "city": "Bela Vista de Goiás",
       "state": "GO",
       "modality": "Paraciclismo",
-      "status": "em_andamento",
+      "status": "concluida",
       "timezone": "America/Sao_Paulo",
       "local_start": "2026-08-01",
       "local_end": "2026-08-02",
-      "status_checked_at": "2026-08-01T08:01:00-04:00",
+      "status_checked_at": "2026-08-03T08:15:00-04:00",
       "official_url": "https://www.cbc.esp.br/modalidades/calendario/busca/paraciclismo",
       "sources": [
         {

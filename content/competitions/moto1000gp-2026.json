@@ -5,7 +5,7 @@
   "country": "Brasil",
   "scope": "Nacional",
   "modality": "Motovelocidade",
-  "status": "em_andamento",
+  "status": "concluida",
   "organizer": "MOTO1000GP / CBM",
   "official_url": "https://m1gp.com.br/",
   "results_url": "https://m1gp.com.br/area-desportiva/resultados-2026-m1gp/",
@@ -681,7 +681,7 @@
       "end_date": "2026-08-02",
       "name": "4ª etapa",
       "location": "Cascavel, PR",
-      "status": "em_andamento",
+      "status": "concluida",
       "winner": "Kevin Fontainha (GP1000) · Mário Salles (GP600) · Maxi Scheib (Sprint GP1000) · Kaka Freire (1000 Evo)",
       "results_url": "https://m1gp.com.br/area-desportiva/resultados-2026-m1gp/"
     },
@@ -807,7 +807,7 @@
     }
   ],
   "source_checked_at": "2026-08-02T20:30:00-04:00",
-  "status_checked_at": "2026-08-02T20:30:00-04:00",
+  "status_checked_at": "2026-08-03T08:15:00-04:00",
   "timezone": "America/Sao_Paulo",
   "local_start": "2026-07-31T00:00:00-03:00",
   "local_end": "2026-08-02T23:59:00-03:00",
