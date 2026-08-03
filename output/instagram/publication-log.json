@@ -1489,5 +1489,46 @@
       "status": "PENDENTE_DIREITOS_DE_IMAGEM_NAO_VERIFICADOS",
       "imageAudit": "Não gerar nem publicar parcialmente: o Reel documental exige de cinco a sete fotos reais da etapa e rights_verified=true; as cinco imagens disponíveis ainda não têm autorização de republicação verificável."
     }
+  },
+  {
+    "url": "https://tvduasrodas.com/materias/venda-moto-usada-transferencia-digital-documentos/",
+    "type": "article",
+    "title": "Como transferir moto usada: documentos, vistoria e comunicação de venda",
+    "detectedAt": "2026-08-03T14:32:00-04:00",
+    "validation": {
+      "source": "Artigo original TVDUASRODAS com referências oficiais registradas no pacote editorial; consulta em 03/08/2026",
+      "publicUrl": "CONFIRMADA_NO_DOMINIO_PUBLICO",
+      "rights_verified": true,
+      "rights_basis": "Cinco ilustrações editoriais originais geradas por IA exclusivamente para esta publicação social; não retratam pessoas, documentos ou transações reais.",
+      "imageAudit": "O recibo reel-build.json confirmou cinco imagens locais e cinco hashes SHA-256 distintos; créditos e URL canônica estão registrados em todas as cenas."
+    },
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
+    "stories": {
+      "status": "PUBLICADO",
+      "file": "output/instagram/2026-08-03/transferencia-moto-usada/story.mp4",
+      "poster": "output/instagram/2026-08-03/transferencia-moto-usada/story-poster.jpg",
+      "format": "1080x1920 H.264/AAC",
+      "durationSeconds": 14,
+      "soundtrack": "rock_instrumental_original",
+      "publishedAt": "2026-08-03T14:44:00-04:00",
+      "destination": "Instagram @tvduasrodasofc",
+      "publicationConfirmation": "Meta Business Suite listou o Story como ativo às 14:44 Eastern, com 23 horas restantes."
+    },
+    "reel": {
+      "status": "PUBLICADO",
+      "file": "output/instagram/2026-08-03/transferencia-moto-usada/reel.mp4",
+      "cover": "output/instagram/2026-08-03/transferencia-moto-usada/reel-cover.jpg",
+      "format": "1080x1920 H.264/AAC",
+      "durationSeconds": 19.25,
+      "soundtrack": "rock_instrumental_original",
+      "transition": "page_peel_diagonal",
+      "sceneCount": 5,
+      "publishedAt": "2026-08-03T14:42:00-04:00",
+      "destination": "Instagram @tvduasrodasofc",
+      "contentId": "17955673569194910",
+      "publicationConfirmation": "Meta Business Suite exibiu o Reel no Planner às 14:42 Eastern com o ID 17955673569194910."
+    }
   }
 ]
