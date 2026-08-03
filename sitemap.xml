@@ -338,6 +338,9 @@
     <loc>https://tvduasrodas.com/materias/moto1000gp-cascavel-2026-vencedores-resultados/</loc>
     <lastmod>2026-08-02</lastmod>
     <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://tvduasrodas.com/assets/img/uploads/moto1000gp-cascavel-2026-kevin-fontainha.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://tvduasrodas.com/materias/motocross-rondonia-2026-agosto-cerejeiras-corumbiara/</loc>
@@ -940,10 +943,10 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/competicoes/brasileiro-enduro-regularidade-2026/</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://tvduasrodas.com/assets/img/uploads/brasileiro-enduro-regularidade-2026-artwork.svg</image:loc>
+      <image:loc>https://tvduasrodas.com/assets/img/uploads/ibitipoca-off-road-2026-capa.webp</image:loc>
     </image:image>
   </url>
   <url>
@@ -988,7 +991,7 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/competicoes/campeonato-amapaense-de-ciclismo-2026-macapa-ap-2026-08-01/</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
@@ -996,7 +999,7 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/competicoes/campeonato-de-motocross-de-rondonia-2026-cerejeiras-e-corumbiara-ro-2026-08-01/</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://tvduasrodas.com/assets/img/competicoes-eventos-default.svg</image:loc>
@@ -5679,6 +5682,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/atletas/alex-barbosa/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/atletas/alex-junior-malacarne/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.6</priority>
@@ -5724,6 +5732,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/atletas/andre-luis-senter/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/atletas/andre-da-silva-siqueira/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.6</priority>
@@ -5735,6 +5748,11 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/atletas/antony-mendes/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/arthur-dotto/</loc>
     <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
@@ -5769,12 +5787,27 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/atletas/barbara-neves-gonzaga/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/beatriz-infredy/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/atletas/ben-sagae/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://tvduasrodas.com/atletas/benjamin-garib/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/bernardo-emanuel/</loc>
     <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
@@ -5791,6 +5824,11 @@
   <url>
     <loc>https://tvduasrodas.com/atletas/brendon-fernandes-dos-santos/</loc>
     <lastmod>2026-07-26</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/brendon-pereira-de-oliveira/</loc>
+    <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -5816,6 +5854,11 @@
   <url>
     <loc>https://tvduasrodas.com/atletas/bruno-de-souza-oliveira-junior/</loc>
     <lastmod>2026-07-26</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/caio-atila/</loc>
+    <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -5874,7 +5917,17 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/atletas/celso-zagonel/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/atletas/cesar-aponte/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/charleu-augusto-spricigo/</loc>
     <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
@@ -5901,6 +5954,16 @@
   <url>
     <loc>https://tvduasrodas.com/atletas/daniel-trecenti/</loc>
     <lastmod>2026-07-26</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/daniel-zanin/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/danilo-neves/</loc>
+    <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -5935,6 +5998,11 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/atletas/douglas-russo/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/eder-stenzel/</loc>
     <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
@@ -5974,6 +6042,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/atletas/elivelton-soares/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/atletas/elton-azevedo/</loc>
     <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
@@ -5981,6 +6054,16 @@
   <url>
     <loc>https://tvduasrodas.com/atletas/emanuelly-alexandre-adao/</loc>
     <lastmod>2026-07-26</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/emerson-loth-pereira/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/endrew-zuchelli/</loc>
+    <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -6004,6 +6087,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/atletas/erasmo-schwanz/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/atletas/eric-granado/</loc>
     <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
@@ -6016,6 +6104,11 @@
   <url>
     <loc>https://tvduasrodas.com/atletas/ester-freire-dos-santos/</loc>
     <lastmod>2026-07-26</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/evandro-machado/</loc>
+    <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -6204,8 +6297,23 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/atletas/gilliard-dos-santos-nossa/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/giovany-biscaia/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/atletas/giuliana-salvini-morgen/</loc>
     <lastmod>2026-07-26</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/givanildo-candiotto/</loc>
+    <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -6249,6 +6357,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/atletas/guilherme-maschio/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/guilherme-neves/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/atletas/guilherme-ribeiro/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.6</priority>
@@ -6260,6 +6378,16 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/atletas/gurgel-mendonca/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/gustavo-alecrim/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/gustavo-elias-hein/</loc>
     <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
@@ -6289,6 +6417,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/atletas/gustavo-viana/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/atletas/gustavo-xavier-de-oliveira-pereira/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.6</priority>
@@ -6306,6 +6439,11 @@
   <url>
     <loc>https://tvduasrodas.com/atletas/heitor-isaque-do-nascimento/</loc>
     <lastmod>2026-07-26</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/heitor-kluska/</loc>
+    <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -6334,8 +6472,28 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/atletas/herbert-araujo/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/atletas/hercilia-najara-ferreira-de-souza/</loc>
     <lastmod>2026-07-26</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/hermesson-araujo/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/heron-kluska/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/hiago-godoy/</loc>
+    <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -6346,6 +6504,11 @@
   <url>
     <loc>https://tvduasrodas.com/atletas/hiugo-costa/</loc>
     <lastmod>2026-07-26</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/hugo-amaral/</loc>
+    <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -6379,8 +6542,28 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/atletas/jacson-cardoso/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/jarbas-alaor-de-assis-vargas/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/jarbas-antonio-colombo/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/atletas/jarbas-de-carvalho-azevedo/</loc>
     <lastmod>2026-07-26</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/jeferson-salomao/</loc>
+    <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -6409,6 +6592,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/atletas/joao-guilherme/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/joao-pedro-pedreira-bastos/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/atletas/joao-prado/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.6</priority>
@@ -6416,6 +6609,11 @@
   <url>
     <loc>https://tvduasrodas.com/atletas/johann-zarco/</loc>
     <lastmod>2026-07-26</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/jomar-grecco/</loc>
+    <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -6434,8 +6632,23 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/atletas/jose-alberto-scheid/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/jose-leonardo/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/atletas/jose-gabriel-marques-de-almeida/</loc>
     <lastmod>2026-07-26</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/joao-dalla-lana/</loc>
+    <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -6454,7 +6667,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://tvduasrodas.com/atletas/juan-viera/</loc>
+    <loc>https://tvduasrodas.com/atletas/juan-vieira/</loc>
     <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
@@ -6466,6 +6679,11 @@
   <url>
     <loc>https://tvduasrodas.com/atletas/juliano-cocuzzi/</loc>
     <lastmod>2026-07-26</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/juliano-muller/</loc>
+    <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -6529,6 +6747,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/atletas/kessia-pires-tristao/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/atletas/karlis-alberts-reisulis/</loc>
     <lastmod>2026-07-27</lastmod>
     <priority>0.6</priority>
@@ -6536,6 +6759,11 @@
   <url>
     <loc>https://tvduasrodas.com/atletas/lazaro-jesus-moreira/</loc>
     <lastmod>2026-07-26</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/leandro-hendler-hahn/</loc>
+    <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -6554,12 +6782,22 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/atletas/leonardo-rodrigues-costa/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/atletas/liam-everts/</loc>
     <lastmod>2026-07-27</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://tvduasrodas.com/atletas/lincoln-camilo/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/lorena-oliveira/</loc>
     <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
@@ -6586,6 +6824,11 @@
   <url>
     <loc>https://tvduasrodas.com/atletas/luca-marini/</loc>
     <lastmod>2026-07-26</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/lucas-almeida/</loc>
+    <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -6624,6 +6867,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/atletas/lucio-flavio-metzdorf-filho/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/atletas/lucio-otavio-soares/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.6</priority>
@@ -6636,6 +6884,11 @@
   <url>
     <loc>https://tvduasrodas.com/atletas/luis-gustavo-eger-pereira/</loc>
     <lastmod>2026-07-26</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/luiz-fernando/</loc>
+    <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -6709,6 +6962,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/atletas/marcos-vinicyus-feitosa-santos/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/atletas/maria-eduarda-dornelas-queiroz-da-silva/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.6</priority>
@@ -6774,7 +7032,17 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/atletas/medslon-wendel-souza-gallon/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/atletas/michael-tanga/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/michel-dellalibera/</loc>
     <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
@@ -6791,6 +7059,11 @@
   <url>
     <loc>https://tvduasrodas.com/atletas/monara-lucia-alencar-moreira/</loc>
     <lastmod>2026-07-26</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/murillo-neves/</loc>
+    <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -6834,6 +7107,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/atletas/orlando-neto/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/atletas/otavio-pedro-da-silva/</loc>
     <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
@@ -6855,6 +7133,11 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/atletas/paulo-alberto/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/paulo-cesar-richter/</loc>
     <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
@@ -6889,6 +7172,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/atletas/pedro-henrique/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/atletas/pedro-queiroz/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.6</priority>
@@ -6914,12 +7202,27 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/atletas/rafael-capua/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/rafael-studart/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/atletas/raiza-goulao-henrique/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://tvduasrodas.com/atletas/ramiro-gandola/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/raphael-luchi-reblin/</loc>
     <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
@@ -7039,6 +7342,16 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/atletas/sandro-arthur-hoffmann/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/sayuri-murata/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/atletas/seba-salom/</loc>
     <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
@@ -7119,6 +7432,11 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/atletas/tonyson-fabio/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/atletas/toprak-razgatl-oglu/</loc>
     <lastmod>2026-07-26</lastmod>
     <priority>0.6</priority>
@@ -7126,6 +7444,11 @@
   <url>
     <loc>https://tvduasrodas.com/atletas/trevin-nelson/</loc>
     <lastmod>2026-07-26</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/ualison-machado/</loc>
+    <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
@@ -7169,12 +7492,22 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://tvduasrodas.com/atletas/vitor-mota/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/atletas/vladimir-correa/</loc>
     <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://tvduasrodas.com/atletas/wagner-guilherme/</loc>
+    <lastmod>2026-08-02</lastmod>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tvduasrodas.com/atletas/wilson-torres/</loc>
     <lastmod>2026-08-02</lastmod>
     <priority>0.6</priority>
   </url>
@@ -7380,7 +7713,7 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/modalidades/enduro-de-regularidade/</loc>
-    <lastmod>2026-07-30</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -7410,7 +7743,7 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/modalidades/ciclismo-de-estrada-contrarrelogio-e-mountain-bike/</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-08-02</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
