@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "total": 712,
+  "total": 713,
   "counts": {
     "Competição": 22,
     "Configuração da home": 2,
     "Etapa esportiva": 62,
     "Evento": 16,
     "Evento da agenda": 524,
-    "Matéria": 53,
+    "Matéria": 54,
     "Matéria do acervo": 4,
     "Página fixa": 2,
     "Vídeo": 27
@@ -9728,6 +9728,20 @@
       "url": "/videos/veja-como-foi-o-processo-de-customizacao-da-super-moto-do-salao/",
       "edit_url": "/admin/#/collections/videos/entries/veja-como-foi-o-processo-de-customiza%C3%A7%C3%A3o-da-super-moto-do-sal%C3%A3o",
       "source": "content/videos/veja-como-foi-o-processo-de-customização-da-super-moto-do-salão.md"
+    },
+    {
+      "title": "Venda de moto usada: transferência digital, documentos e cuidados",
+      "type": "Matéria",
+      "slug": "venda-moto-usada-transferencia-digital-documentos",
+      "date": "2026-08-03T14:18:00-04:00",
+      "category": "Outro",
+      "city": "",
+      "state": "",
+      "status": "",
+      "summary": "ATPV-e, comunicação de venda, vistoria, recall e comprovantes: veja como organizar a transferência de uma motocicleta usada e reduzir pendências para os dois lados.",
+      "url": "/materias/venda-moto-usada-transferencia-digital-documentos/",
+      "edit_url": "/admin/#/collections/news/entries/venda-moto-usada-transferencia-digital-documentos",
+      "source": "content/news/venda-moto-usada-transferencia-digital-documentos.md"
     },
     {
       "title": "VI Encontro",
