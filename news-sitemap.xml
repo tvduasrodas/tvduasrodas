@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://tvduasrodas.com/materias/venda-moto-usada-transferencia-digital-documentos/</loc>
+  </url>
+  <url>
     <loc>https://tvduasrodas.com/materias/brasileiro-motocross-santa-cruz-2026-vencedores-categorias/</loc>
     <news:news>
       <news:publication>
@@ -79,14 +82,6 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/materias/moto1000gp-cascavel-2026-corridas-sabado-horarios/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>TVDUASRODAS</news:name>
-        <news:language>pt</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-01T13:20:00-04:00</news:publication_date>
-      <news:title>MOTO1000GP tem quatro corridas neste sábado em Cascavel; veja os horários</news:title>
-    </news:news>
   </url>
   <url>
     <loc>https://tvduasrodas.com/materias/onde-assistir-campeonato-brasileiro-motocross-2026-ao-vivo/</loc>
