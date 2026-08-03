@@ -1530,5 +1530,28 @@
       "contentId": "17955673569194910",
       "publicationConfirmation": "Meta Business Suite exibiu o Reel no Planner às 14:42 Eastern com o ID 17955673569194910."
     }
+  },
+  {
+    "url": "https://tvduasrodas.com/evento.html?slug=volta-ciclistica-cidade-brusque-2026",
+    "type": "event",
+    "title": "17ª Volta Ciclística Cidade de Brusque 2026",
+    "detectedAt": "2026-08-03T17:33:00-04:00",
+    "validation": {
+      "source": "CBC e Federação Catarinense de Ciclismo; consulta editorial registrada em 03/08/2026",
+      "publicUrl": "CONFIRMADA_PELA_PUBLICACAO_CANONICA",
+      "rights_verified": false,
+      "rights": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES",
+      "imageAudit": "O cadastro usa somente a arte institucional padrão da TVDUASRODAS. Não há de cinco a sete imagens realmente distintas, atuais e com licença editorial verificável para um Reel documental; a pauta está em monitoramento e não justifica simular a prova com IA."
+    },
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
+    "stories": {
+      "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES"
+    },
+    "reel": {
+      "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES",
+      "imageAudit": "Não gerar nem publicar parcialmente: o Reel exige de cinco a sete imagens realmente distintas e rights_verified=true."
+    }
   }
 ]
