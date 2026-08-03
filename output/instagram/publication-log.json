@@ -1409,6 +1409,16 @@
       "destination": "Instagram @tvduasrodasofc",
       "contentId": "18071928140450930",
       "publicationConfirmation": "Meta Business Suite exibiu o Reel no Planner às 08:48 Eastern com o ID 18071928140450930."
+    },
+    "localCleanup": {
+      "status": "EXCLUIDO_APOS_PUBLICACAO",
+      "deletedAt": "2026-08-03T08:49:00.513204-04:00",
+      "retentionHours": 24.0,
+      "folder": "output/instagram/2026-08-02/taca-brasil-pista-maringa",
+      "fileCount": 49,
+      "bytesFreed": 32879359,
+      "latestPublishedAt": "2026-08-02T08:49:00-04:00",
+      "reason": "Story e Reel confirmados no Instagram há pelo menos 24 horas."
     }
   },
   {
