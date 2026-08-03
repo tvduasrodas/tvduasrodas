@@ -1,12 +1,12 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-08-03T00:16:53.364354+00:00",
+  "generated_at": "2026-08-03T00:19:17.010278+00:00",
   "scope": "Matérias no Google News sitemap das últimas 48 horas e eventos em andamento ou futuros priorizados por data",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/event-sitemap.xml",
-      "last_submitted": "2026-08-03T00:14:58.758Z",
-      "last_downloaded": "2026-08-03T00:14:59.888Z",
+      "last_submitted": "2026-08-03T00:17:24.195Z",
+      "last_downloaded": "2026-08-03T00:17:25.019Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -27,8 +27,8 @@
     },
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-08-03T00:14:58.444Z",
-      "last_downloaded": "2026-08-03T00:15:00.623Z",
+      "last_submitted": "2026-08-03T00:17:24.015Z",
+      "last_downloaded": "2026-08-03T00:17:24.440Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -49,22 +49,22 @@
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-08-03T00:14:58.357Z",
-      "last_downloaded": "2026-08-03T00:14:59.498Z",
+      "last_submitted": "2026-08-03T00:17:23.825Z",
+      "last_downloaded": "2026-08-03T00:17:25.103Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
-      "discovered": 1746,
+      "discovered": 1813,
       "indexed": 0,
       "content": [
         {
           "type": "web",
-          "submitted": "1046",
+          "submitted": "1112",
           "indexed": "0"
         },
         {
           "type": "image",
-          "submitted": "673",
+          "submitted": "674",
           "indexed": "0"
         },
         {
@@ -93,10 +93,11 @@
       "google_canonical": "https://tvduasrodas.com/materias/brasileiro-motocross-santa-cruz-2026-vencedores-categorias/",
       "user_canonical": "https://tvduasrodas.com/materias/brasileiro-motocross-santa-cruz-2026-vencedores-categorias/",
       "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml"
+        "https://tvduasrodas.com/news-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-03T00:15:05.279689+00:00"
+      "inspected_at": "2026-08-03T00:17:30.508062+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/moto1000gp-cascavel-2026-vencedores-resultados/",
@@ -109,10 +110,11 @@
       "google_canonical": "https://tvduasrodas.com/materias/moto1000gp-cascavel-2026-vencedores-resultados/",
       "user_canonical": "https://tvduasrodas.com/materias/moto1000gp-cascavel-2026-vencedores-resultados/",
       "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml"
+        "https://tvduasrodas.com/news-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-03T00:15:11.645217+00:00"
+      "inspected_at": "2026-08-03T00:17:36.740667+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/capital-moto-week-2026-balanco-inovacao-legado/",
@@ -131,7 +133,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-08-03T00:15:17.829042+00:00"
+      "inspected_at": "2026-08-03T00:17:42.969671+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/estrada-aberta-01-08-2026-vento-lateral-caminhoes/",
@@ -150,7 +152,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-08-03T00:15:25.664602+00:00"
+      "inspected_at": "2026-08-03T00:17:49.094578+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/motocross-rondonia-2026-agosto-cerejeiras-corumbiara/",
@@ -162,11 +164,14 @@
       "last_crawl_time": "2026-08-01T20:16:10Z",
       "google_canonical": "https://tvduasrodas.com/materias/motocross-rondonia-2026-agosto-cerejeiras-corumbiara/",
       "user_canonical": "https://tvduasrodas.com/materias/motocross-rondonia-2026-agosto-cerejeiras-corumbiara/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/news-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [
         "https://www.tvduasrodas.com/materias/motocross-rondonia-2026-agosto-cerejeiras-corumbiara/"
       ],
-      "inspected_at": "2026-08-03T00:15:31.818566+00:00"
+      "inspected_at": "2026-08-03T00:17:55.456434+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/ibitipoca-off-road-2026-final-brasileiro-enduro-regularidade/",
@@ -186,7 +191,7 @@
         "https://www.tvduasrodas.com/materias/ibitipoca-off-road-2026-final-brasileiro-enduro-regularidade/",
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-08-03T00:15:37.971280+00:00"
+      "inspected_at": "2026-08-03T00:18:01.638749+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/campeonato-amapaense-ciclismo-2026-estrada-mtb/",
@@ -198,12 +203,15 @@
       "last_crawl_time": "2026-08-01T20:59:07Z",
       "google_canonical": "https://tvduasrodas.com/materias/campeonato-amapaense-ciclismo-2026-estrada-mtb/",
       "user_canonical": "https://tvduasrodas.com/materias/campeonato-amapaense-ciclismo-2026-estrada-mtb/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/news-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [
         "https://www.tvduasrodas.com/materias/campeonato-amapaense-ciclismo-2026-estrada-mtb/",
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-08-03T00:15:44.117753+00:00"
+      "inspected_at": "2026-08-03T00:18:07.871348+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/moto1000gp-cascavel-2026-corridas-sabado-horarios/",
@@ -223,7 +231,7 @@
         "https://www.tvduasrodas.com/materias/moto1000gp-cascavel-2026-corridas-sabado-horarios/",
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-08-03T00:15:50.487461+00:00"
+      "inspected_at": "2026-08-03T00:18:14.222003+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/taca-brasil-de-paraciclismo-de-pista-2026-08-04/",
@@ -242,7 +250,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/evento?slug=taca-brasil-de-paraciclismo-de-pista-2026-08-04"
       ],
-      "inspected_at": "2026-08-03T00:15:56.733171+00:00"
+      "inspected_at": "2026-08-03T00:18:20.594081+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/taca-brasil-ciclismo-pista-maringa-2026/",
@@ -260,7 +268,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-08-03T00:16:03.120578+00:00"
+      "inspected_at": "2026-08-03T00:18:26.765008+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motofest-caiaponia-go-2026-08-05/",
@@ -277,7 +285,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-03T00:16:09.520914+00:00"
+      "inspected_at": "2026-08-03T00:18:32.914786+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/prova-ciclistica-sao-salvador-2026/",
@@ -294,7 +302,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-03T00:16:15.890411+00:00"
+      "inspected_at": "2026-08-03T00:18:39.051172+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/diveneta-mc-cabo-frio-rj-2026-08-06/",
@@ -311,7 +319,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-03T00:16:22.139058+00:00"
+      "inspected_at": "2026-08-03T00:18:45.274984+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/ironman-70-3-rio-de-janeiro-2026/",
@@ -323,11 +331,14 @@
       "last_crawl_time": "2026-07-29T20:19:21Z",
       "google_canonical": "https://tvduasrodas.com/eventos/ironman-70-3-rio-de-janeiro-2026/",
       "user_canonical": "https://tvduasrodas.com/eventos/ironman-70-3-rio-de-janeiro-2026/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-08-03T00:16:28.383263+00:00"
+      "inspected_at": "2026-08-03T00:18:51.674936+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/1-moto-acampamento-raiz-itanhandu-mg-2026-08-07/",
@@ -344,7 +355,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-03T00:16:34.539006+00:00"
+      "inspected_at": "2026-08-03T00:18:57.941537+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/1-motofest-de-monsenhor-joao-alexandre-claudio-mg-claudio-mg-2026-08-07/",
@@ -362,7 +373,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/event-sitemap.xml"
       ],
-      "inspected_at": "2026-08-03T00:16:40.665487+00:00"
+      "inspected_at": "2026-08-03T00:19:04.296933+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/2-motofest-coronel-fabriciano-mg-2026-08-07/",
@@ -379,7 +390,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-03T00:16:46.904655+00:00"
+      "inspected_at": "2026-08-03T00:19:10.603529+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/4-encontro-de-motociclistas-simonesia-mg-2026-08-07/",
@@ -396,7 +407,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-03T00:16:53.276150+00:00"
+      "inspected_at": "2026-08-03T00:19:16.949779+00:00"
     }
   ]
 }
