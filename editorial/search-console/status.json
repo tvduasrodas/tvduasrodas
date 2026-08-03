@@ -1,11 +1,11 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-08-03T21:17:30.757031+00:00",
+  "generated_at": "2026-08-03T21:20:58.846463+00:00",
   "scope": "Matérias no Google News sitemap das últimas 48 horas e eventos em andamento ou futuros priorizados por data",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/event-sitemap.xml",
-      "last_submitted": "2026-08-03T21:15:59.876Z",
+      "last_submitted": "2026-08-03T21:19:29.188Z",
       "last_downloaded": "2026-08-03T15:47:45.778Z",
       "pending": true,
       "warnings": 0,
@@ -27,7 +27,7 @@
     },
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-08-03T21:15:59.779Z",
+      "last_submitted": "2026-08-03T21:19:29.102Z",
       "last_downloaded": "2026-08-03T19:33:59.512Z",
       "pending": true,
       "warnings": 0,
@@ -49,9 +49,9 @@
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-08-03T21:15:59.681Z",
-      "last_downloaded": "2026-08-03T19:33:59.981Z",
-      "pending": true,
+      "last_submitted": "2026-08-03T21:19:28.900Z",
+      "last_downloaded": "2026-08-03T21:19:29.975Z",
+      "pending": false,
       "warnings": 0,
       "errors": 0,
       "discovered": 1817,
@@ -92,11 +92,14 @@
       "last_crawl_time": "2026-08-03T18:23:44Z",
       "google_canonical": "https://tvduasrodas.com/materias/venda-moto-usada-transferencia-digital-documentos/",
       "user_canonical": "https://tvduasrodas.com/materias/venda-moto-usada-transferencia-digital-documentos/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/news-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-08-03T21:16:06.384674+00:00"
+      "inspected_at": "2026-08-03T21:19:35.805890+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/brasileiro-motocross-santa-cruz-2026-vencedores-categorias/",
@@ -113,7 +116,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-03T21:16:12.698092+00:00"
+      "inspected_at": "2026-08-03T21:19:42.154102+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/moto1000gp-cascavel-2026-vencedores-resultados/",
@@ -125,12 +128,9 @@
       "last_crawl_time": "2026-08-02T21:00:52Z",
       "google_canonical": "https://tvduasrodas.com/materias/moto1000gp-cascavel-2026-vencedores-resultados/",
       "user_canonical": "https://tvduasrodas.com/materias/moto1000gp-cascavel-2026-vencedores-resultados/",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-08-03T21:16:19.131931+00:00"
+      "inspected_at": "2026-08-03T21:19:48.629488+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/capital-moto-week-2026-balanco-inovacao-legado/",
@@ -149,7 +149,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-08-03T21:16:27.342957+00:00"
+      "inspected_at": "2026-08-03T21:19:54.861252+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/taca-brasil-de-paraciclismo-de-pista-2026-08-04/",
@@ -161,11 +161,14 @@
       "last_crawl_time": "2026-07-27T06:05:02Z",
       "google_canonical": "https://tvduasrodas.com/eventos/taca-brasil-de-paraciclismo-de-pista-2026-08-04/",
       "user_canonical": "https://tvduasrodas.com/eventos/taca-brasil-de-paraciclismo-de-pista-2026-08-04/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [
         "https://tvduasrodas.com/evento?slug=taca-brasil-de-paraciclismo-de-pista-2026-08-04"
       ],
-      "inspected_at": "2026-08-03T21:16:33.782849+00:00"
+      "inspected_at": "2026-08-03T21:20:01.007815+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/taca-brasil-ciclismo-pista-maringa-2026/",
@@ -177,13 +180,11 @@
       "last_crawl_time": "2026-08-02T11:40:18Z",
       "google_canonical": "https://tvduasrodas.com/eventos/taca-brasil-ciclismo-pista-maringa-2026/",
       "user_canonical": "https://tvduasrodas.com/eventos/taca-brasil-ciclismo-pista-maringa-2026/",
-      "sitemaps": [
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-08-03T21:16:40.128094+00:00"
+      "inspected_at": "2026-08-03T21:20:07.606415+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motofest-caiaponia-go-2026-08-05/",
@@ -195,12 +196,9 @@
       "last_crawl_time": "2026-07-29T09:52:25Z",
       "google_canonical": "https://tvduasrodas.com/eventos/motofest-caiaponia-go-2026-08-05/",
       "user_canonical": "https://tvduasrodas.com/eventos/motofest-caiaponia-go-2026-08-05/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-08-03T21:16:46.464080+00:00"
+      "inspected_at": "2026-08-03T21:20:13.783206+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/prova-ciclistica-sao-salvador-2026/",
@@ -217,7 +215,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-03T21:16:52.802316+00:00"
+      "inspected_at": "2026-08-03T21:20:19.971111+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/diveneta-mc-cabo-frio-rj-2026-08-06/",
@@ -229,12 +227,9 @@
       "last_crawl_time": "2026-08-02T07:07:08Z",
       "google_canonical": "https://tvduasrodas.com/eventos/diveneta-mc-cabo-frio-rj-2026-08-06/",
       "user_canonical": "https://tvduasrodas.com/eventos/diveneta-mc-cabo-frio-rj-2026-08-06/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-08-03T21:16:59.134453+00:00"
+      "inspected_at": "2026-08-03T21:20:26.681853+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/ironman-70-3-rio-de-janeiro-2026/",
@@ -246,14 +241,11 @@
       "last_crawl_time": "2026-07-29T20:19:21Z",
       "google_canonical": "https://tvduasrodas.com/eventos/ironman-70-3-rio-de-janeiro-2026/",
       "user_canonical": "https://tvduasrodas.com/eventos/ironman-70-3-rio-de-janeiro-2026/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-08-03T21:17:05.417682+00:00"
+      "inspected_at": "2026-08-03T21:20:33.071978+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/1-moto-acampamento-raiz-itanhandu-mg-2026-08-07/",
@@ -270,7 +262,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-03T21:17:11.731572+00:00"
+      "inspected_at": "2026-08-03T21:20:39.441508+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/1-motofest-de-monsenhor-joao-alexandre-claudio-mg-claudio-mg-2026-08-07/",
@@ -282,11 +274,13 @@
       "last_crawl_time": "2026-08-01T23:12:40Z",
       "google_canonical": "https://tvduasrodas.com/eventos/1-motofest-de-monsenhor-joao-alexandre-claudio-mg-claudio-mg-2026-08-07/",
       "user_canonical": "https://tvduasrodas.com/eventos/1-motofest-de-monsenhor-joao-alexandre-claudio-mg-claudio-mg-2026-08-07/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml"
+      ],
       "referring_urls": [
         "https://tvduasrodas.com/event-sitemap.xml"
       ],
-      "inspected_at": "2026-08-03T21:17:18.044707+00:00"
+      "inspected_at": "2026-08-03T21:20:45.784980+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/2-motofest-coronel-fabriciano-mg-2026-08-07/",
@@ -298,12 +292,9 @@
       "last_crawl_time": "2026-08-03T05:56:39Z",
       "google_canonical": "https://tvduasrodas.com/eventos/2-motofest-coronel-fabriciano-mg-2026-08-07/",
       "user_canonical": "https://tvduasrodas.com/eventos/2-motofest-coronel-fabriciano-mg-2026-08-07/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-08-03T21:17:24.363730+00:00"
+      "inspected_at": "2026-08-03T21:20:52.301176+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/4-encontro-de-motociclistas-simonesia-mg-2026-08-07/",
@@ -320,7 +311,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-03T21:17:30.670944+00:00"
+      "inspected_at": "2026-08-03T21:20:58.764348+00:00"
     }
   ]
 }
