@@ -246,3 +246,13 @@ Fontes oficiais continuam sendo a referência para datas, locais e programação
 - Fonte primária: https://guararema.sp.gov.br/eventos/5-expo-guararema-moto-clube — consultada em 02/08/2026; confirma datas de 15 e 16 de agosto, Vila de Luís Carlos, início às 10h, entrada solidária e seis shows.
 - Confirmação oficial complementar: https://www.guararema.sp.gov.br/noticias/geral/estancia-turistica-de-guararema-recebe-5-expo-guararema-moto-clube-em-agosto — consultada em 02/08/2026.
 - Imagem: `expo-guararema-moto-clube-2026-ilustracao.webp`, ilustração editorial original gerada por IA pela TVDUASRODAS, sem marcas, texto ou pessoas identificáveis; não retrata o evento real. Geração original PNG 1672×941, 3.141.461 bytes; publicada em WebP 1600×900, qualidade 76, 299.502 bytes. A conversão para WebP não preserva metadados do PNG gerado.
+
+# 17ª Volta Ciclística Cidade de Brusque — Brusque/SC — 2026
+
+- Consulta editorial: 3 de agosto de 2026, 15h25 Eastern.
+- Calendário oficial da CBC: https://www.cbc.esp.br/modalidades/calendario/busca/estrada — confirmou 15 e 16 de agosto, Brusque/SC e enquadramento Classe 2B.
+- Página oficial da Federação Catarinense de Ciclismo: https://www.scciclismo.com.br/evento/7487/17-volta-ciclstica-cidade-de-brusque — confirmou a 17ª edição, programação de três etapas, horários, categorias, locais, inscrições e premiação.
+- O material foi usado para apuração factual. Não foi localizada fotografia ou arte promocional com licença editorial inequívoca para republicação.
+- Imagem publicada: `/assets/img/competicoes-eventos-default.svg`.
+  - Titular/crédito: TVDUASRODAS.
+  - Arte institucional já destinada às páginas estruturais sem fotografia licenciada; não representa documentalmente a prova.
