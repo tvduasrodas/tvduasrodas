@@ -476,20 +476,6 @@
       "source": "content/events/agenda-comunitaria-2026.json#19-encontro-de-motociclistas-boa-esperanca-mg-2026-08-21"
     },
     {
-      "title": "1° Aniversário Insanos MC – Divisão Governador Valadares — MG",
-      "type": "Evento da agenda",
-      "slug": "insanos-mc-governador-valadares-mg-2026-08-01",
-      "date": "2026-08-01",
-      "category": "Encontro de moto clube",
-      "city": "Governador Valadares",
-      "state": "MG",
-      "status": "agendada",
-      "summary": "Encontro de moto clube em Governador Valadares/MG, com data divulgada para 2026-08-01. O flyer foi inspecionado localmente; serviços identificados: café da manhã, shows.",
-      "url": "/eventos/insanos-mc-governador-valadares-mg-2026-08-01/",
-      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
-      "source": "content/events/agenda-comunitaria-2026.json#insanos-mc-governador-valadares-mg-2026-08-01"
-    },
-    {
       "title": "1° Motofest de Monsenhor João Alexandre – Cláudio MG",
       "type": "Evento da agenda",
       "slug": "1-motofest-de-monsenhor-joao-alexandre-claudio-mg-claudio-mg-2026-08-07",
@@ -502,6 +488,20 @@
       "url": "/eventos/1-motofest-de-monsenhor-joao-alexandre-claudio-mg-claudio-mg-2026-08-07/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#1-motofest-de-monsenhor-joao-alexandre-claudio-mg-claudio-mg-2026-08-07"
+    },
+    {
+      "title": "1º Aniversário Insanos MC — Divisão Governador Valadares",
+      "type": "Evento da agenda",
+      "slug": "insanos-mc-governador-valadares-mg-2026-08-01",
+      "date": "2026-08-01",
+      "category": "Encontro de moto clube",
+      "city": "Governador Valadares",
+      "state": "MG",
+      "status": "em_andamento",
+      "summary": "O Insanos MC celebra o 1º aniversário da Divisão Governador Valadares nos dias 1º e 2 de agosto. A programação reúne bonde motociclístico, quatro bandas ao vivo, entrada solidária, camping coberto e café da manhã para motociclistas.",
+      "url": "/eventos/insanos-mc-governador-valadares-mg-2026-08-01/",
+      "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
+      "source": "content/events/agenda-comunitaria-2026.json#insanos-mc-governador-valadares-mg-2026-08-01"
     },
     {
       "title": "1º Aniversário Área 51 Motoclube Caratinga — MG",
