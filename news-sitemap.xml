@@ -2,6 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
     <loc>https://tvduasrodas.com/materias/copa-mundo-mtb-eliminator-sao-paulo-2026-cancelada/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>TVDUASRODAS</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-04T07:32:00-04:00</news:publication_date>
+      <news:title>Copa do Mundo de MTB Eliminator em São Paulo é cancelada</news:title>
+    </news:news>
   </url>
   <url>
     <loc>https://tvduasrodas.com/materias/venda-moto-usada-transferencia-digital-documentos/</loc>
@@ -38,14 +46,6 @@
   </url>
   <url>
     <loc>https://tvduasrodas.com/materias/capital-moto-week-2026-balanco-inovacao-legado/</loc>
-    <news:news>
-      <news:publication>
-        <news:name>TVDUASRODAS</news:name>
-        <news:language>pt</news:language>
-      </news:publication>
-      <news:publication_date>2026-08-02T08:10:00-04:00</news:publication_date>
-      <news:title>Capital Moto Week 2026: inovação, encontros e o legado deixado em Brasília</news:title>
-    </news:news>
   </url>
   <url>
     <loc>https://tvduasrodas.com/materias/estrada-aberta-01-08-2026-vento-lateral-caminhoes/</loc>
