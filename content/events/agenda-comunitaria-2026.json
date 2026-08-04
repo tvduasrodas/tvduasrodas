@@ -8966,6 +8966,39 @@
           "type": "fonte visual específica",
           "supports": "nome, datas, cidade, endereço, programação, estrutura, contatos e organização",
           "checked_at": "2026-07-31T14:00:00-03:00"
+        },
+        {
+          "url": "https://jb-rider.com.br/evento/20260731-3-7-encontro-de-moticiclistas-e-triciclistas-oliveira-fortes-mg",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260731_3__7%20Encontro%20de%20Moticiclistas%20e%20Triciclistas_Oliveira%20Fortes_MG.jpeg",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+        },
+        {
+          "url": "https://mototour.com.br/eventos/imprimir",
+          "label": "7º Encontro de Motociclistas e Triciclistas — De 31 de Julho à 02 de Agosto, Oliveira Fortes /MG",
+          "type": "fonte específica independente",
+          "supports": "data, período, cidade, UF e identidade do evento",
+          "checked_at": "2026-07-26T08:09:22.554428+00:00",
+          "discovery_method": "cruzamento_estruturado_mototour",
+          "relevance_score": 83
+        },
+        {
+          "url": "https://jb-rider.com.br/evento/20260731-3-7-encontro-de-motociclistas-oliveira-fortes-mg",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260731_3__7%20Encontro%20de%20Motociclistas_Oliveira%20Fortes_MG.jpeg",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
         }
       ],
       "research_status": {
@@ -12302,6 +12335,18 @@
           "type": "canal social do realizador",
           "supports": "identidade e contato do realizador",
           "checked_at": "2026-07-31"
+        },
+        {
+          "url": "https://jb-rider.com.br/evento/20260801-2-2-encontro-de-motocicilstas-lavras-novas-mg",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260801_2__2%20Encontro%20de%20Motocicilstas_Lavras%20Novas_MG.jpg",
+          "label": "Flyer ou página específica original do evento",
+          "type": "evidência visual primária",
+          "supports": "data, cidade, identidade e informações legíveis no flyer específico"
         }
       ],
       "research_status": {
