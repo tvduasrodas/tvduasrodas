@@ -1553,5 +1553,41 @@
       "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES",
       "imageAudit": "Não gerar nem publicar parcialmente: o Reel exige de cinco a sete imagens realmente distintas e rights_verified=true."
     }
+  },
+  {
+    "url": "https://tvduasrodas.com/materias/copa-mundo-mtb-eliminator-sao-paulo-2026-cancelada/",
+    "type": "news",
+    "title": "Copa do Mundo de MTB Eliminator em São Paulo é cancelada",
+    "detectedAt": "2026-08-04T08:32:00-04:00",
+    "validation": {
+      "source": "UCI e CBC; consulta editorial registrada em 04/08/2026",
+      "publicUrl": "CONFIRMADA_NO_DOMINIO_PUBLICO",
+      "rights_verified": true,
+      "rights_basis": "Cinco ilustrações editoriais originais geradas por IA exclusivamente para esta pauta social; não documentais e sem reutilização de material de terceiros.",
+      "imageAudit": "reel-build.json confirmou cinco arquivos locais e cinco hashes SHA-256 distintos."
+    },
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
+    "stories": {
+      "status": "PENDENTE_CONFIRMACAO_NAVEGADOR_PARA_PUBLICAR",
+      "file": "output/instagram/2026-08-04/mtb-eliminator-sao-paulo-cancelada/story.mp4",
+      "format": "1080x1920 H.264/AAC",
+      "durationSeconds": 14,
+      "soundtrack": "rock_instrumental_original",
+      "destination": "Instagram @tvduasrodasofc"
+    },
+    "reel": {
+      "status": "CARREGADO_AGUARDANDO_CONFIRMACAO_NAVEGADOR_PARA_PUBLICAR",
+      "file": "output/instagram/2026-08-04/mtb-eliminator-sao-paulo-cancelada/reel.mp4",
+      "cover": "output/instagram/2026-08-04/mtb-eliminator-sao-paulo-cancelada/reel-cover.jpg",
+      "format": "1080x1920 H.264/AAC",
+      "durationSeconds": 19.25,
+      "soundtrack": "rock_instrumental_original",
+      "transition": "page_peel_diagonal",
+      "sceneCount": 5,
+      "destination": "Instagram @tvduasrodasofc",
+      "publicationConfirmation": "Vídeo carregado na tela Create reel do Meta Business Suite; nenhuma publicação foi alegada."
+    }
   }
 ]
