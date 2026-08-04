@@ -1,38 +1,38 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-08-04T00:17:15.145533+00:00",
+  "generated_at": "2026-08-04T11:35:19.190171+00:00",
   "scope": "Matérias no Google News sitemap das últimas 48 horas e eventos em andamento ou futuros priorizados por data",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/event-sitemap.xml",
-      "last_submitted": "2026-08-04T00:14:57.435Z",
-      "last_downloaded": "2026-08-03T15:47:45.778Z",
-      "pending": true,
+      "last_submitted": "2026-08-04T11:31:45.577Z",
+      "last_downloaded": "2026-08-04T11:31:46.829Z",
+      "pending": false,
       "warnings": 0,
       "errors": 0,
-      "discovered": 1142,
+      "discovered": 1144,
       "indexed": 0,
       "content": [
         {
           "type": "web",
-          "submitted": "571",
+          "submitted": "572",
           "indexed": "0"
         },
         {
           "type": "image",
-          "submitted": "571",
+          "submitted": "572",
           "indexed": "0"
         }
       ]
     },
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-08-04T00:14:57.234Z",
-      "last_downloaded": "2026-08-03T19:33:59.512Z",
+      "last_submitted": "2026-08-04T11:31:45.521Z",
+      "last_downloaded": "2026-08-04T00:14:58.289Z",
       "pending": true,
       "warnings": 0,
       "errors": 0,
-      "discovered": 59,
+      "discovered": 58,
       "indexed": 0,
       "content": [
         {
@@ -42,29 +42,29 @@
         },
         {
           "type": "news",
-          "submitted": "5",
+          "submitted": "4",
           "indexed": "0"
         }
       ]
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-08-04T00:14:57.021Z",
-      "last_downloaded": "2026-08-04T00:14:59.596Z",
+      "last_submitted": "2026-08-04T11:31:45.458Z",
+      "last_downloaded": "2026-08-04T11:31:46.724Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
-      "discovered": 1817,
+      "discovered": 1819,
       "indexed": 0,
       "content": [
         {
           "type": "web",
-          "submitted": "1114",
+          "submitted": "1115",
           "indexed": "0"
         },
         {
           "type": "image",
-          "submitted": "676",
+          "submitted": "677",
           "indexed": "0"
         },
         {
@@ -92,14 +92,11 @@
       "last_crawl_time": "2026-08-03T18:23:44Z",
       "google_canonical": "https://tvduasrodas.com/materias/venda-moto-usada-transferencia-digital-documentos/",
       "user_canonical": "https://tvduasrodas.com/materias/venda-moto-usada-transferencia-digital-documentos/",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-08-04T00:15:04.046830+00:00"
+      "inspected_at": "2026-08-04T11:31:51.993998+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/brasileiro-motocross-santa-cruz-2026-vencedores-categorias/",
@@ -116,7 +113,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-04T00:15:10.277991+00:00"
+      "inspected_at": "2026-08-04T11:31:58.263063+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/moto1000gp-cascavel-2026-vencedores-resultados/",
@@ -128,12 +125,9 @@
       "last_crawl_time": "2026-08-02T21:00:52Z",
       "google_canonical": "https://tvduasrodas.com/materias/moto1000gp-cascavel-2026-vencedores-resultados/",
       "user_canonical": "https://tvduasrodas.com/materias/moto1000gp-cascavel-2026-vencedores-resultados/",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-08-04T00:15:19.544389+00:00"
+      "inspected_at": "2026-08-04T11:32:54.564446+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/capital-moto-week-2026-balanco-inovacao-legado/",
@@ -152,7 +146,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-08-04T00:15:25.986230+00:00"
+      "inspected_at": "2026-08-04T11:33:00.825144+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/taca-brasil-de-paraciclismo-de-pista-2026-08-04/",
@@ -171,7 +165,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/evento?slug=taca-brasil-de-paraciclismo-de-pista-2026-08-04"
       ],
-      "inspected_at": "2026-08-04T00:15:41.382101+00:00"
+      "inspected_at": "2026-08-04T11:33:07.630562+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/taca-brasil-ciclismo-pista-maringa-2026/",
@@ -189,7 +183,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-08-04T00:16:11.695998+00:00"
+      "inspected_at": "2026-08-04T11:33:13.913581+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motofest-caiaponia-go-2026-08-05/",
@@ -206,7 +200,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-04T00:16:17.887432+00:00"
+      "inspected_at": "2026-08-04T11:33:41.189573+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/prova-ciclistica-sao-salvador-2026/",
@@ -223,7 +217,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-04T00:16:36.603343+00:00"
+      "inspected_at": "2026-08-04T11:33:47.456712+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/diveneta-mc-cabo-frio-rj-2026-08-06/",
@@ -240,7 +234,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-04T00:16:43.130652+00:00"
+      "inspected_at": "2026-08-04T11:33:53.760373+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/ironman-70-3-rio-de-janeiro-2026/",
@@ -259,7 +253,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-08-04T00:16:49.504832+00:00"
+      "inspected_at": "2026-08-04T11:34:00.046242+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/1-moto-acampamento-raiz-itanhandu-mg-2026-08-07/",
@@ -276,7 +270,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-04T00:16:55.858611+00:00"
+      "inspected_at": "2026-08-04T11:34:42.312454+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/1-motofest-de-monsenhor-joao-alexandre-claudio-mg-claudio-mg-2026-08-07/",
@@ -294,7 +288,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/event-sitemap.xml"
       ],
-      "inspected_at": "2026-08-04T00:17:02.093559+00:00"
+      "inspected_at": "2026-08-04T11:35:06.558709+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/2-motofest-coronel-fabriciano-mg-2026-08-07/",
@@ -311,7 +305,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-04T00:17:08.636363+00:00"
+      "inspected_at": "2026-08-04T11:35:12.808614+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/4-encontro-de-motociclistas-simonesia-mg-2026-08-07/",
@@ -323,9 +317,12 @@
       "last_crawl_time": "2026-08-03T20:03:58Z",
       "google_canonical": "https://tvduasrodas.com/eventos/4-encontro-de-motociclistas-simonesia-mg-2026-08-07/",
       "user_canonical": "https://tvduasrodas.com/eventos/4-encontro-de-motociclistas-simonesia-mg-2026-08-07/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-08-04T00:17:15.031006+00:00"
+      "inspected_at": "2026-08-04T11:35:19.104558+00:00"
     }
   ]
 }
