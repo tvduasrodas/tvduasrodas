@@ -1,6 +1,6 @@
 ---
 title: "Como transportar bicicleta no carro: suporte, placa e regras"
-date: "2026-08-04T14:18:00-04:00"
+date: "2026-08-04T14:08:00-04:00"
 author: "Redação TVDUASRODAS"
 category: "bikes"
 contentType: "article"
