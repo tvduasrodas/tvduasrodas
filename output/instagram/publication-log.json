@@ -1576,8 +1576,8 @@
       "durationSeconds": 14,
       "soundtrack": "rock_instrumental_original",
       "destination": "Instagram @tvduasrodasofc",
-      "lastAttemptAt": "2026-08-04T08:50:00-04:00",
-      "publicationConfirmation": "O arquivo foi aceito em dois compositores Create story, mas o Meta manteve Share desabilitado após o processamento e registrou falha UNAUTHENTICATED no fluxo; nenhuma publicação foi alegada."
+      "lastAttemptAt": "2026-08-04T11:43:00-04:00",
+      "publicationConfirmation": "Nova tentativa de recuperação às 11:43 Eastern: o MP4 foi aceito pelo compositor Create story, permaneceu em Processing media, o botão Share continuou desabilitado e o Meta registrou UNAUTHENTICATED. Bloqueio externo de autenticação/OAuth; nenhuma publicação foi alegada."
     },
     "reel": {
       "status": "PUBLICADO",
