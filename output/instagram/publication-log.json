@@ -1570,14 +1570,14 @@
       "status": "NAO_APLICAVEL_POR_REGRA"
     },
     "stories": {
-      "status": "FALHA_PROCESSAMENTO_META_SHARE_DESABILITADO",
+      "status": "PUBLICADO",
       "file": "output/instagram/2026-08-04/mtb-eliminator-sao-paulo-cancelada/story.mp4",
       "format": "1080x1920 H.264/AAC",
       "durationSeconds": 14,
       "soundtrack": "rock_instrumental_original",
+      "publishedAt": "2026-08-04T14:34:00-04:00",
       "destination": "Instagram @tvduasrodasofc",
-      "lastAttemptAt": "2026-08-04T11:43:00-04:00",
-      "publicationConfirmation": "Nova tentativa de recuperação às 11:43 Eastern: o MP4 foi aceito pelo compositor Create story, permaneceu em Processing media, o botão Share continuou desabilitado e o Meta registrou UNAUTHENTICATED. Bloqueio externo de autenticação/OAuth; nenhuma publicação foi alegada."
+      "publicationConfirmation": "Meta Business Suite confirmou o Story na lista Active às 14:34 Eastern, com 14 segundos e 23 horas restantes."
     },
     "reel": {
       "status": "PUBLICADO",
@@ -1592,6 +1592,29 @@
       "destination": "Instagram @tvduasrodasofc",
       "contentId": "18147101692530710",
       "publicationConfirmation": "Meta Business Suite exibiu o Reel na lista Published às 08:46 Eastern, com o ID 18147101692530710."
+    }
+  },
+  {
+    "url": "https://tvduasrodas.com/materias/como-transportar-bicicleta-carro-regras-suporte/",
+    "type": "article",
+    "title": "Como transportar bicicleta no carro: suporte, placa e regras",
+    "detectedAt": "2026-08-04T14:32:00-04:00",
+    "validation": {
+      "source": "Resolução Contran 955/2022, Senatran, PRF e Poupatempo; referências oficiais registradas na matéria",
+      "publicUrl": "PUBLICACAO_CANONICA_DETECTADA",
+      "rights_verified": false,
+      "rights": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES",
+      "imageAudit": "A matéria contém somente três artes SVG editoriais distintas. O Reel exige de cinco a sete imagens realmente diferentes; não foram encontradas cinco mídias elegíveis nesta janela."
+    },
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
+    "stories": {
+      "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES"
+    },
+    "reel": {
+      "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES",
+      "imageAudit": "Não gerar nem publicar parcialmente: o Reel exige de cinco a sete imagens realmente distintas e rights_verified=true."
     }
   }
 ]
