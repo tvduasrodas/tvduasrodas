@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "total": 715,
+  "total": 716,
   "counts": {
     "Competição": 22,
     "Configuração da home": 2,
     "Etapa esportiva": 62,
     "Evento": 17,
     "Evento da agenda": 524,
-    "Matéria": 55,
+    "Matéria": 56,
     "Matéria do acervo": 4,
     "Página fixa": 2,
     "Vídeo": 27
@@ -4338,6 +4338,20 @@
       "url": "/materias/como-pilotar-moto-na-chuva-com-seguranca/",
       "edit_url": "/admin/#/collections/news/entries/como-pilotar-moto-na-chuva-com-seguranca",
       "source": "content/news/como-pilotar-moto-na-chuva-com-seguranca.md"
+    },
+    {
+      "title": "Como transportar bicicleta no carro: suporte, placa e regras",
+      "type": "Matéria",
+      "slug": "como-transportar-bicicleta-carro-regras-suporte",
+      "date": "2026-08-04T14:18:00-04:00",
+      "category": "bikes",
+      "city": "",
+      "state": "",
+      "status": "",
+      "summary": "A Resolução Contran 955 define como levar bicicletas fora do carro. Veja o que conferir no suporte de teto ou traseiro antes de viajar.",
+      "url": "/materias/como-transportar-bicicleta-carro-regras-suporte/",
+      "edit_url": "/admin/#/collections/news/entries/como-transportar-bicicleta-carro-regras-suporte",
+      "source": "content/news/como-transportar-bicicleta-carro-regras-suporte.md"
     },
     {
       "title": "Companhia do Asfalto MG",
