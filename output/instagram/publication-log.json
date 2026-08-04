@@ -1529,6 +1529,16 @@
       "destination": "Instagram @tvduasrodasofc",
       "contentId": "17955673569194910",
       "publicationConfirmation": "Meta Business Suite exibiu o Reel no Planner às 14:42 Eastern com o ID 17955673569194910."
+    },
+    "localCleanup": {
+      "status": "EXCLUIDO_APOS_PUBLICACAO",
+      "deletedAt": "2026-08-04T14:44:11.756637-04:00",
+      "retentionHours": 24.0,
+      "folder": "output/instagram/2026-08-03/transferencia-moto-usada",
+      "fileCount": 48,
+      "bytesFreed": 25943296,
+      "latestPublishedAt": "2026-08-03T14:44:00-04:00",
+      "reason": "Story e Reel confirmados no Instagram há pelo menos 24 horas."
     }
   },
   {
