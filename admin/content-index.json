@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "total": 714,
+  "total": 715,
   "counts": {
     "Competição": 22,
     "Configuração da home": 2,
     "Etapa esportiva": 62,
     "Evento": 17,
     "Evento da agenda": 524,
-    "Matéria": 54,
+    "Matéria": 55,
     "Matéria do acervo": 4,
     "Página fixa": 2,
     "Vídeo": 27
@@ -4436,6 +4436,20 @@
       "url": "/eventos/copa-do-brasil-de-bmx-03-evento-oficial-cbc-salvador-ba-2026-09-05/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/calendario_categorias_2026",
       "source": "content/calendar/cbm-2026.json#copa-do-brasil-de-bmx-03-evento-oficial-cbc-salvador-ba-2026-09-05"
+    },
+    {
+      "title": "Copa do Mundo de MTB Eliminator em São Paulo é cancelada",
+      "type": "Matéria",
+      "slug": "copa-mundo-mtb-eliminator-sao-paulo-2026-cancelada",
+      "date": "2026-08-04T07:32:00-04:00",
+      "category": "Eventos",
+      "city": "",
+      "state": "",
+      "status": "",
+      "summary": "UCI confirma que a rodada prevista para 16 de agosto em São Paulo não será realizada; etapa de Aalen encerrou a Copa do Mundo de MTB Eliminator 2026.",
+      "url": "/materias/copa-mundo-mtb-eliminator-sao-paulo-2026-cancelada/",
+      "edit_url": "/admin/#/collections/news/entries/copa-mundo-mtb-eliminator-sao-paulo-2026-cancelada",
+      "source": "content/news/copa-mundo-mtb-eliminator-sao-paulo-2026-cancelada.md"
     },
     {
       "title": "Copa Pedal de BMX Racing",
