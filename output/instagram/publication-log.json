@@ -1570,15 +1570,17 @@
       "status": "NAO_APLICAVEL_POR_REGRA"
     },
     "stories": {
-      "status": "PENDENTE_CONFIRMACAO_NAVEGADOR_PARA_PUBLICAR",
+      "status": "FALHA_PROCESSAMENTO_META_SHARE_DESABILITADO",
       "file": "output/instagram/2026-08-04/mtb-eliminator-sao-paulo-cancelada/story.mp4",
       "format": "1080x1920 H.264/AAC",
       "durationSeconds": 14,
       "soundtrack": "rock_instrumental_original",
-      "destination": "Instagram @tvduasrodasofc"
+      "destination": "Instagram @tvduasrodasofc",
+      "lastAttemptAt": "2026-08-04T08:50:00-04:00",
+      "publicationConfirmation": "O arquivo foi aceito em dois compositores Create story, mas o Meta manteve Share desabilitado após o processamento e registrou falha UNAUTHENTICATED no fluxo; nenhuma publicação foi alegada."
     },
     "reel": {
-      "status": "CARREGADO_AGUARDANDO_CONFIRMACAO_NAVEGADOR_PARA_PUBLICAR",
+      "status": "PUBLICADO",
       "file": "output/instagram/2026-08-04/mtb-eliminator-sao-paulo-cancelada/reel.mp4",
       "cover": "output/instagram/2026-08-04/mtb-eliminator-sao-paulo-cancelada/reel-cover.jpg",
       "format": "1080x1920 H.264/AAC",
@@ -1586,8 +1588,10 @@
       "soundtrack": "rock_instrumental_original",
       "transition": "page_peel_diagonal",
       "sceneCount": 5,
+      "publishedAt": "2026-08-04T08:46:00-04:00",
       "destination": "Instagram @tvduasrodasofc",
-      "publicationConfirmation": "Vídeo carregado na tela Create reel do Meta Business Suite; nenhuma publicação foi alegada."
+      "contentId": "18147101692530710",
+      "publicationConfirmation": "Meta Business Suite exibiu o Reel na lista Published às 08:46 Eastern, com o ID 18147101692530710."
     }
   }
 ]
