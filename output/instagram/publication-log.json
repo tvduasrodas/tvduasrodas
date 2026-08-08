@@ -1602,6 +1602,16 @@
       "destination": "Instagram @tvduasrodasofc",
       "contentId": "18147101692530710",
       "publicationConfirmation": "Meta Business Suite exibiu o Reel na lista Published às 08:46 Eastern, com o ID 18147101692530710."
+    },
+    "localCleanup": {
+      "status": "EXCLUIDO_APOS_PUBLICACAO",
+      "deletedAt": "2026-08-08T08:33:09.115311-04:00",
+      "retentionHours": 24.0,
+      "folder": "output/instagram/2026-08-04/mtb-eliminator-sao-paulo-cancelada",
+      "fileCount": 48,
+      "bytesFreed": 39242683,
+      "latestPublishedAt": "2026-08-04T14:34:00-04:00",
+      "reason": "Story e Reel confirmados no Instagram há pelo menos 24 horas."
     }
   },
   {
@@ -1615,6 +1625,30 @@
       "rights_verified": false,
       "rights": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES",
       "imageAudit": "A matéria contém somente três artes SVG editoriais distintas. O Reel exige de cinco a sete imagens realmente diferentes; não foram encontradas cinco mídias elegíveis nesta janela."
+    },
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
+    "stories": {
+      "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES"
+    },
+    "reel": {
+      "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES",
+      "imageAudit": "Não gerar nem publicar parcialmente: o Reel exige de cinco a sete imagens realmente distintas e rights_verified=true."
+    }
+  },
+  {
+    "url": "https://tvduasrodas.com/competicoes/gp-ohvale-brasil-2026/",
+    "type": "competition",
+    "title": "GP Ohvale Brasil 2026: 4ª etapa de 8 e 9 de agosto",
+    "detectedAt": "2026-08-08T08:33:00-04:00",
+    "validation": {
+      "source": "CBM — calendário e página oficial do GP Ohvale Brasil; consulta em 08/08/2026",
+      "publicUrl": "CONFIRMADA_PELA_PUBLICACAO_CANONICA",
+      "rights_verified": false,
+      "rights": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES",
+      "factAudit": "A CBM confirma a 4ª etapa em 8 e 9 de agosto. A página canônica da competição ainda mostra o local como a definir, enquanto notícia oficial anterior cita Registro (SP); a divergência impede afirmar o local na chamada social sem nova confirmação.",
+      "imageAudit": "O acervo local contém apenas uma arte editorial da competição. Não há cinco a sete fotografias atuais e realmente distintas da etapa com licença ou autorização verificável para republicação no Instagram. IA não foi usada para simular cobertura documental de uma etapa em andamento."
     },
     "feed": {
       "status": "NAO_APLICAVEL_POR_REGRA"
