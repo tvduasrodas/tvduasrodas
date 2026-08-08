@@ -1,5 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <url>
+    <loc>https://tvduasrodas.com/materias/seguro-moto-coberturas-franquia-terceiros-perda-total/</loc>
+    <news:news>
+      <news:publication>
+        <news:name>TVDUASRODAS</news:name>
+        <news:language>pt</news:language>
+      </news:publication>
+      <news:publication_date>2026-08-08T14:08:00-04:00</news:publication_date>
+      <news:title>Seguro de moto: coberturas, franquia, terceiros e perda total</news:title>
+    </news:news>
+  </url>
   <url>
     <loc>https://tvduasrodas.com/materias/como-transportar-bicicleta-carro-regras-suporte/</loc>
   </url>
