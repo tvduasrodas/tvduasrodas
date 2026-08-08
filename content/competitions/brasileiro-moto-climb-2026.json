@@ -13,7 +13,8 @@
   "image_credit": "Arte editorial: TVDUASRODAS",
   "featured": false,
   "summary": "Agenda e resultados do campeonato brasileiro de subida de montanha com motocicletas.",
-  "last_updated": "2026-07-26T07:34:37.414943+00:00",
+  "last_updated": "2026-08-08T07:16:18-04:00",
+  "status_checked_at": "2026-08-08T07:16:18-04:00",
   "next_stage": {
     "name": "2ª etapa",
     "start_date": "2026-08-08",
@@ -30,7 +31,7 @@
       "end_date": "2026-08-09",
       "name": "2ª etapa",
       "location": "Morungaba/SP",
-      "status": "agendada"
+      "status": "em_andamento"
     },
     {
       "order": 3,

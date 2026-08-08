@@ -13,7 +13,7 @@
   "image_credit": "Arte editorial: TVDUASRODAS",
   "featured": false,
   "summary": "Motovelocidade de formação para jovens pilotos, com calendário nacional e participação latino-americana.",
-  "last_updated": "2026-08-02T15:24:00-04:00",
+  "last_updated": "2026-08-08T07:16:18-04:00",
   "next_stage": {
     "name": "4ª etapa",
     "start_date": "2026-08-08",
@@ -55,7 +55,7 @@
       "end_date": "2026-08-09",
       "name": "4ª etapa",
       "location": "Registro/SP",
-      "status": "agendada"
+      "status": "em_andamento"
     },
     {
       "order": 5,
@@ -101,7 +101,7 @@
     }
   ],
   "source_checked_at": "2026-08-02T15:24:00-04:00",
-  "status_checked_at": "2026-08-02T15:24:00-04:00",
+  "status_checked_at": "2026-08-08T07:16:18-04:00",
   "timezone": "America/Sao_Paulo",
   "local_start": "2026-08-08T00:00:00-03:00",
   "local_end": "2026-08-09T23:59:59-03:00",

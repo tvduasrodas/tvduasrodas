@@ -13,7 +13,8 @@
   "image_credit": "Foto: Janjão Santiago / CBM · Arte: TVDUASRODAS",
   "featured": false,
   "summary": "Etapas, resultados e classificação do Campeonato Brasileiro de Enduro.",
-  "last_updated": "2026-07-26T07:34:37.414943+00:00",
+  "last_updated": "2026-08-08T07:16:18-04:00",
+  "status_checked_at": "2026-08-08T07:16:18-04:00",
   "next_stage": {
     "name": "4ª etapa",
     "start_date": "2026-08-07",
@@ -32,7 +33,7 @@
       "end_date": "2026-08-09",
       "name": "4ª etapa",
       "location": "Ponta Grossa/PR",
-      "status": "agendada"
+      "status": "em_andamento"
     },
     {
       "order": 5,
