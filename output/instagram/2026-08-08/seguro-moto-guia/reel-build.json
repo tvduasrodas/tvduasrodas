@@ -1,0 +1,44 @@
+{
+  "format": "1080x1920",
+  "video_codec": "H.264",
+  "audio_codec": "AAC",
+  "transition": "page_peel_diagonal",
+  "soundtrack": "rock_instrumental_original",
+  "scene_count": 5,
+  "nominal_duration_seconds": 19.25,
+  "rights_verified": true,
+  "source_manifest": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-08-08\\seguro-moto-guia\\manifest.json",
+  "content_url": "https://tvduasrodas.com/materias/seguro-moto-coberturas-franquia-terceiros-perda-total/",
+  "scenes": [
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-08-08\\seguro-moto-guia\\source\\01-protecao-camadas.png",
+      "sha256": "41dfb469b1c848a8f3a6fdfb533ae80a8dc870c9e87dad3af516a2aba0a4435f",
+      "credit": "Arte editorial gerada por IA / TVDUASRODAS",
+      "source_url": "https://tvduasrodas.com/materias/seguro-moto-coberturas-franquia-terceiros-perda-total/"
+    },
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-08-08\\seguro-moto-guia\\source\\02-comparacao-apolice.png",
+      "sha256": "b20d81fc106c166e765cf68dd9c94f34c6cf540821a2baa61db2fb471d794f80",
+      "credit": "Arte editorial gerada por IA / TVDUASRODAS",
+      "source_url": "https://www.gov.br/susep/pt-br/assuntos/meu-futuro-seguro/seguros-previdencia-e-capitalizacao/seguros/informacoes-importantes"
+    },
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-08-08\\seguro-moto-guia\\source\\03-dano-franquia.png",
+      "sha256": "99059a05971cdeb0a5ef062fe09cb3118415fba8f52e067cd287c5025f8bbc8c",
+      "credit": "Arte editorial gerada por IA / TVDUASRODAS",
+      "source_url": "https://www.gov.br/susep/pt-br/assuntos/meu-futuro-seguro/seguros-previdencia-e-capitalizacao/seguros/seguro-de-automoveis"
+    },
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-08-08\\seguro-moto-guia\\source\\04-terceiros.png",
+      "sha256": "bbf04872253db57c333e5b7884b8d04deb8c6f19825eddea5babc2981d39781f",
+      "credit": "Arte editorial gerada por IA / TVDUASRODAS",
+      "source_url": "https://www.gov.br/susep/pt-br/assuntos/meu-futuro-seguro/seguros-previdencia-e-capitalizacao/seguros/seguro-responsabilidade-civil"
+    },
+    {
+      "image": "C:\\Users\\Wesley\\Documents\\TVDUASRODAS\\tvduasrodas\\output\\instagram\\2026-08-08\\seguro-moto-guia\\source\\05-assistencia.png",
+      "sha256": "83d6a8b1d8e976cae94a5c66ef39ff6c6a8bed0a40a44057c7fe95e6f54f46c3",
+      "credit": "Arte editorial gerada por IA / TVDUASRODAS",
+      "source_url": "https://tvduasrodas.com/materias/seguro-moto-coberturas-franquia-terceiros-perda-total/"
+    }
+  ]
+}

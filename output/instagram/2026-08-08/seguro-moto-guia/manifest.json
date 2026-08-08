@@ -1,0 +1,51 @@
+{
+  "content_url": "https://tvduasrodas.com/materias/seguro-moto-coberturas-franquia-terceiros-perda-total/",
+  "rights_verified": true,
+  "scenes": [
+    {
+      "image": "source/01-protecao-camadas.png",
+      "focus": [0.5, 0.5],
+      "context": "Seguro sem surpresa",
+      "title": "O QUE A APÓLICE PROTEGE?",
+      "detail": "Casco, terceiros e assistência são blocos diferentes.",
+      "credit": "Arte editorial gerada por IA / TVDUASRODAS",
+      "source_url": "https://tvduasrodas.com/materias/seguro-moto-coberturas-franquia-terceiros-perda-total/"
+    },
+    {
+      "image": "source/02-comparacao-apolice.png",
+      "focus": [0.5, 0.5],
+      "context": "Compare o contrato",
+      "title": "PRÊMIO NÃO É FRANQUIA",
+      "detail": "Parcela menor pode vir com franquia maior ou limites menores.",
+      "credit": "Arte editorial gerada por IA / TVDUASRODAS",
+      "source_url": "https://www.gov.br/susep/pt-br/assuntos/meu-futuro-seguro/seguros-previdencia-e-capitalizacao/seguros/informacoes-importantes"
+    },
+    {
+      "image": "source/03-dano-franquia.png",
+      "focus": [0.5, 0.48],
+      "context": "Dano parcial",
+      "title": "SIMULE O VALOR DO BOLSO",
+      "detail": "Veja quando a franquia se aplica e se cabe na reserva.",
+      "credit": "Arte editorial gerada por IA / TVDUASRODAS",
+      "source_url": "https://www.gov.br/susep/pt-br/assuntos/meu-futuro-seguro/seguros-previdencia-e-capitalizacao/seguros/seguro-de-automoveis"
+    },
+    {
+      "image": "source/04-terceiros.png",
+      "focus": [0.5, 0.5],
+      "context": "Responsabilidade civil",
+      "title": "TERCEIROS TÊM LIMITES PRÓPRIOS",
+      "detail": "Danos materiais, corporais e morais podem ter valores separados.",
+      "credit": "Arte editorial gerada por IA / TVDUASRODAS",
+      "source_url": "https://www.gov.br/susep/pt-br/assuntos/meu-futuro-seguro/seguros-previdencia-e-capitalizacao/seguros/seguro-responsabilidade-civil"
+    },
+    {
+      "image": "source/05-assistencia.png",
+      "focus": [0.5, 0.52],
+      "context": "Antes de contratar",
+      "title": "LEIA LIMITES E EXCLUSÕES",
+      "detail": "Guincho, oficina, uso profissional e acessórios exigem conferência.",
+      "credit": "Arte editorial gerada por IA / TVDUASRODAS",
+      "source_url": "https://tvduasrodas.com/materias/seguro-moto-coberturas-franquia-terceiros-perda-total/"
+    }
+  ]
+}

@@ -1660,5 +1660,41 @@
       "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES",
       "imageAudit": "Não gerar nem publicar parcialmente: o Reel exige de cinco a sete imagens realmente distintas e rights_verified=true."
     }
+  },
+  {
+    "url": "https://tvduasrodas.com/materias/seguro-moto-coberturas-franquia-terceiros-perda-total/",
+    "type": "article",
+    "title": "Seguro de moto: coberturas, franquia, terceiros e perda total",
+    "detectedAt": "2026-08-08T14:32:00-04:00",
+    "validation": {
+      "source": "Susep e matéria editorial TVDUASRODAS; consulta em 08/08/2026",
+      "publicUrl": "CONFIRMADA_PELA_PUBLICACAO_CANONICA",
+      "rights_verified": true,
+      "rights_basis": "Cinco ilustrações editoriais originais geradas por IA exclusivamente para esta pauta social; não documentais, sem marcas, dados pessoais ou material de terceiros.",
+      "imageAudit": "reel-build.json confirmou cinco arquivos locais e cinco hashes SHA-256 distintos. Capa e Story foram inspecionados visualmente; 1080x1920, áreas seguras e créditos separados."
+    },
+    "feed": {
+      "status": "NAO_APLICAVEL_POR_REGRA"
+    },
+    "stories": {
+      "status": "PENDENTE_FALHA_CANAL_CONTROLE_META",
+      "file": "output/instagram/2026-08-08/seguro-moto-guia/story.mp4",
+      "poster": "output/instagram/2026-08-08/seguro-moto-guia/story-poster.jpg",
+      "format": "1080x1920 H.264/AAC",
+      "durationSeconds": 14,
+      "soundtrack": "rock_instrumental_original",
+      "failure": "O runtime do navegador retornou agent is not defined; o runtime Computer Use não expôs a documentação obrigatória. Nenhuma publicação foi alegada sem confirmação."
+    },
+    "reel": {
+      "status": "PENDENTE_FALHA_CANAL_CONTROLE_META",
+      "file": "output/instagram/2026-08-08/seguro-moto-guia/reel.mp4",
+      "cover": "output/instagram/2026-08-08/seguro-moto-guia/reel-cover.jpg",
+      "format": "1080x1920 H.264/AAC",
+      "durationSeconds": 19.25,
+      "soundtrack": "rock_instrumental_original",
+      "transition": "page_peel_diagonal",
+      "sceneCount": 5,
+      "failure": "O runtime do navegador retornou agent is not defined; o runtime Computer Use não expôs a documentação obrigatória. Nenhuma publicação foi alegada sem confirmação."
+    }
   }
 ]
