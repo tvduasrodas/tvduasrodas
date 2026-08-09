@@ -1,12 +1,12 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-08-04T18:19:26.010631+00:00",
+  "generated_at": "2026-08-09T18:37:10.896015+00:00",
   "scope": "Matérias no Google News sitemap das últimas 48 horas e eventos em andamento ou futuros priorizados por data",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/event-sitemap.xml",
-      "last_submitted": "2026-08-04T18:17:50.634Z",
-      "last_downloaded": "2026-08-04T18:17:59.788Z",
+      "last_submitted": "2026-08-09T18:35:35.701Z",
+      "last_downloaded": "2026-08-09T18:35:36.214Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -27,9 +27,9 @@
     },
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-08-04T18:17:50.544Z",
-      "last_downloaded": "2026-08-04T18:10:27.077Z",
-      "pending": true,
+      "last_submitted": "2026-08-09T18:35:35.592Z",
+      "last_downloaded": "2026-08-09T18:35:37.326Z",
+      "pending": false,
       "warnings": 0,
       "errors": 0,
       "discovered": 60,
@@ -37,34 +37,34 @@
       "content": [
         {
           "type": "web",
-          "submitted": "56",
+          "submitted": "58",
           "indexed": "0"
         },
         {
           "type": "news",
-          "submitted": "4",
+          "submitted": "2",
           "indexed": "0"
         }
       ]
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-08-04T18:17:50.445Z",
-      "last_downloaded": "2026-08-04T18:17:52.235Z",
+      "last_submitted": "2026-08-09T18:35:35.489Z",
+      "last_downloaded": "2026-08-09T18:35:37.354Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
-      "discovered": 1821,
+      "discovered": 1825,
       "indexed": 0,
       "content": [
         {
           "type": "web",
-          "submitted": "1116",
+          "submitted": "1118",
           "indexed": "0"
         },
         {
           "type": "image",
-          "submitted": "678",
+          "submitted": "680",
           "indexed": "0"
         },
         {
@@ -76,14 +76,14 @@
     }
   ],
   "summary": {
-    "inspected": 15,
-    "indexed": 13,
+    "inspected": 12,
+    "indexed": 8,
     "not_indexed": 0,
-    "processing_or_unknown": 2
+    "processing_or_unknown": 4
   },
   "urls": [
     {
-      "url": "https://tvduasrodas.com/materias/como-transportar-bicicleta-carro-regras-suporte/",
+      "url": "https://tvduasrodas.com/materias/sensor-torque-cadencia-ebike-como-escolher/",
       "verdict": "NEUTRAL",
       "coverage_state": "O Google não reconhece o URL",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED",
@@ -94,10 +94,10 @@
       "user_canonical": "",
       "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-08-04T18:17:57.089855+00:00"
+      "inspected_at": "2026-08-09T18:35:42.278794+00:00"
     },
     {
-      "url": "https://tvduasrodas.com/materias/copa-mundo-mtb-eliminator-sao-paulo-2026-cancelada/",
+      "url": "https://tvduasrodas.com/materias/seguro-moto-coberturas-franquia-terceiros-perda-total/",
       "verdict": "NEUTRAL",
       "coverage_state": "Detectada, mas não indexada no momento",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED",
@@ -107,64 +107,10 @@
       "google_canonical": "",
       "user_canonical": "",
       "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
+        "https://tvduasrodas.com/news-sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-04T18:18:03.426783+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/venda-moto-usada-transferencia-digital-documentos/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-08-03T18:23:44Z",
-      "google_canonical": "https://tvduasrodas.com/materias/venda-moto-usada-transferencia-digital-documentos/",
-      "user_canonical": "https://tvduasrodas.com/materias/venda-moto-usada-transferencia-digital-documentos/",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "inspected_at": "2026-08-04T18:18:09.727239+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/brasileiro-motocross-santa-cruz-2026-vencedores-categorias/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-08-02T21:00:52Z",
-      "google_canonical": "https://tvduasrodas.com/materias/brasileiro-motocross-santa-cruz-2026-vencedores-categorias/",
-      "user_canonical": "https://tvduasrodas.com/materias/brasileiro-motocross-santa-cruz-2026-vencedores-categorias/",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-08-04T18:18:16.037181+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/moto1000gp-cascavel-2026-vencedores-resultados/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-08-02T21:00:52Z",
-      "google_canonical": "https://tvduasrodas.com/materias/moto1000gp-cascavel-2026-vencedores-resultados/",
-      "user_canonical": "https://tvduasrodas.com/materias/moto1000gp-cascavel-2026-vencedores-resultados/",
-      "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-08-04T18:18:22.323469+00:00"
+      "inspected_at": "2026-08-09T18:35:48.793605+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/taca-brasil-de-paraciclismo-de-pista-2026-08-04/",
@@ -183,7 +129,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/evento?slug=taca-brasil-de-paraciclismo-de-pista-2026-08-04"
       ],
-      "inspected_at": "2026-08-04T18:18:28.751301+00:00"
+      "inspected_at": "2026-08-09T18:35:55.179341+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/taca-brasil-ciclismo-pista-maringa-2026/",
@@ -201,41 +147,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-08-04T18:18:35.032471+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/eventos/motofest-caiaponia-go-2026-08-05/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-29T09:52:25Z",
-      "google_canonical": "https://tvduasrodas.com/eventos/motofest-caiaponia-go-2026-08-05/",
-      "user_canonical": "https://tvduasrodas.com/eventos/motofest-caiaponia-go-2026-08-05/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-08-04T18:18:41.488931+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/eventos/prova-ciclistica-sao-salvador-2026/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-08-01T19:13:37Z",
-      "google_canonical": "https://tvduasrodas.com/eventos/prova-ciclistica-sao-salvador-2026/",
-      "user_canonical": "https://tvduasrodas.com/eventos/prova-ciclistica-sao-salvador-2026/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-08-04T18:18:47.808528+00:00"
+      "inspected_at": "2026-08-09T18:36:01.587057+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/diveneta-mc-cabo-frio-rj-2026-08-06/",
@@ -252,7 +164,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-04T18:18:54.251872+00:00"
+      "inspected_at": "2026-08-09T18:36:07.950908+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/ironman-70-3-rio-de-janeiro-2026/",
@@ -271,7 +183,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/sitemap.xml"
       ],
-      "inspected_at": "2026-08-04T18:19:00.532783+00:00"
+      "inspected_at": "2026-08-09T18:36:17.258197+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/1-moto-acampamento-raiz-itanhandu-mg-2026-08-07/",
@@ -288,23 +200,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-04T18:19:06.952740+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/eventos/1-motofest-de-monsenhor-joao-alexandre-claudio-mg-claudio-mg-2026-08-07/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-08-01T23:12:40Z",
-      "google_canonical": "https://tvduasrodas.com/eventos/1-motofest-de-monsenhor-joao-alexandre-claudio-mg-claudio-mg-2026-08-07/",
-      "user_canonical": "https://tvduasrodas.com/eventos/1-motofest-de-monsenhor-joao-alexandre-claudio-mg-claudio-mg-2026-08-07/",
-      "sitemaps": [],
-      "referring_urls": [
-        "https://tvduasrodas.com/event-sitemap.xml"
-      ],
-      "inspected_at": "2026-08-04T18:19:13.235386+00:00"
+      "inspected_at": "2026-08-09T18:36:23.628018+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/2-motofest-coronel-fabriciano-mg-2026-08-07/",
@@ -321,21 +217,75 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-04T18:19:19.521643+00:00"
+      "inspected_at": "2026-08-09T18:36:30.054722+00:00"
     },
     {
-      "url": "https://tvduasrodas.com/eventos/4-encontro-de-motociclistas-simonesia-mg-2026-08-07/",
+      "url": "https://tvduasrodas.com/eventos/5-encontro-estadual-de-motociclistas-jucurutu-rn-2026-08-07/",
+      "verdict": "NEUTRAL",
+      "coverage_state": "Detectada, mas não indexada no momento",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "last_crawl_time": null,
+      "google_canonical": "",
+      "user_canonical": "",
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
+      "referring_urls": [],
+      "inspected_at": "2026-08-09T18:36:36.433681+00:00"
+    },
+    {
+      "url": "https://tvduasrodas.com/eventos/ii-moto-festival-pocos-de-caldas-mg-2026-08-07/",
+      "verdict": "NEUTRAL",
+      "coverage_state": "Detectada, mas não indexada no momento",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "last_crawl_time": null,
+      "google_canonical": "",
+      "user_canonical": "",
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
+      "referring_urls": [],
+      "inspected_at": "2026-08-09T18:36:57.902486+00:00"
+    },
+    {
+      "url": "https://tvduasrodas.com/eventos/moto-acampamento-tres-coracoes-mg-2026-08-07/",
       "verdict": "PASS",
       "coverage_state": "Enviada e indexada",
       "indexing_state": "INDEXING_ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
       "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-08-03T20:03:58Z",
-      "google_canonical": "https://tvduasrodas.com/eventos/4-encontro-de-motociclistas-simonesia-mg-2026-08-07/",
-      "user_canonical": "https://tvduasrodas.com/eventos/4-encontro-de-motociclistas-simonesia-mg-2026-08-07/",
-      "sitemaps": [],
+      "last_crawl_time": "2026-08-03T07:50:26Z",
+      "google_canonical": "https://tvduasrodas.com/eventos/moto-acampamento-tres-coracoes-mg-2026-08-07/",
+      "user_canonical": "https://tvduasrodas.com/eventos/moto-acampamento-tres-coracoes-mg-2026-08-07/",
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-08-04T18:19:25.924246+00:00"
+      "inspected_at": "2026-08-09T18:37:04.399595+00:00"
+    },
+    {
+      "url": "https://tvduasrodas.com/eventos/motofest-caete-mg-2026-08-07/",
+      "verdict": "PASS",
+      "coverage_state": "Enviada e indexada",
+      "indexing_state": "INDEXING_ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "robots_txt_state": "ALLOWED",
+      "last_crawl_time": "2026-08-03T02:41:23Z",
+      "google_canonical": "https://tvduasrodas.com/eventos/motofest-caete-mg-2026-08-07/",
+      "user_canonical": "https://tvduasrodas.com/eventos/motofest-caete-mg-2026-08-07/",
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
+      "referring_urls": [],
+      "inspected_at": "2026-08-09T18:37:10.803490+00:00"
     }
   ]
 }
