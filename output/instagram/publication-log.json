@@ -1704,20 +1704,20 @@
     "detectedAt": "2026-08-09T14:31:56-04:00",
     "validation": {
       "source": "Bosch eBike Systems, Shimano e Resolução Contran 996/2023; referências oficiais registradas na matéria",
-      "publicUrl": "NAO_ELEGIVEL_URL_INDISPONIVEL",
+      "publicUrl": "CONFIRMADA_NO_DOMINIO_PUBLICO",
       "rights_verified": false,
       "rights": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES",
-      "imageAudit": "A URL pública abriu o template genérico da página inicial em vez da matéria. Além disso, o conteúdo contém somente quatro artes SVG distintas, abaixo do mínimo de cinco cenas, e a sessão Meta disponível não contém @tvduasrodasofc."
+      "imageAudit": "Em 09/08/2026 às 17:34 Eastern, a URL pública respondeu HTTP 200 com o título canônico da matéria. O conteúdo contém somente quatro artes SVG distintas, abaixo do mínimo de cinco cenas, e a sessão Meta disponível não contém @tvduasrodasofc."
     },
     "feed": {
       "status": "NAO_APLICAVEL_POR_REGRA"
     },
     "stories": {
-      "status": "NAO_ELEGIVEL_URL_INDISPONIVEL"
+      "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES"
     },
     "reel": {
-      "status": "NAO_ELEGIVEL_URL_INDISPONIVEL",
-      "imageAudit": "Não gerar nem publicar parcialmente: a URL pública não renderiza a matéria; o Reel também exigiria ao menos cinco imagens distintas e rights_verified=true."
+      "status": "PENDENTE_FOTOS_AUTORIZADAS_INSUFICIENTES",
+      "imageAudit": "Não gerar nem publicar parcialmente: embora a URL pública esteja confirmada, o Reel exige ao menos cinco imagens realmente distintas e rights_verified=true; somente quatro artes SVG estão disponíveis."
     }
   }
 ]
