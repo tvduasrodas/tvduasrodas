@@ -8,19 +8,19 @@
   "status": "em_andamento",
   "organizer": "Confederação Brasileira de Motociclismo",
   "official_url": "https://www.cbm.esp.br/modalidades/enduro",
-  "results_url": "https://www.cbm.esp.br/site/public/calendario",
+  "results_url": "https://www.cbm.esp.br/competicoes/cbm/campeonato-brasileiro-de-enduro",
   "cover": "/assets/img/uploads/brasileiro-enduro-2026-capa.webp",
   "image_credit": "Foto: Janjão Santiago / CBM · Arte: TVDUASRODAS",
   "featured": false,
   "summary": "Etapas, resultados e classificação do Campeonato Brasileiro de Enduro.",
-  "last_updated": "2026-08-08T07:16:18-04:00",
-  "status_checked_at": "2026-08-08T07:16:18-04:00",
+  "last_updated": "2026-08-10T17:10:00-04:00",
+  "status_checked_at": "2026-08-10T17:10:00-04:00",
   "next_stage": {
-    "name": "4ª etapa",
-    "start_date": "2026-08-07",
-    "end_date": "2026-08-09",
-    "city": "Ponta Grossa",
-    "state": "PR"
+    "name": "5ª prova",
+    "start_date": "2026-09-18",
+    "end_date": "2026-09-20",
+    "city": "Socorro",
+    "state": "SP"
   },
   "categories": [
     "Enduro"
@@ -28,12 +28,20 @@
   "standings": [],
   "rounds": [
     {
-      "order": 4,
+      "order": 7,
       "start_date": "2026-08-07",
+      "end_date": "2026-08-08",
+      "name": "7ª etapa",
+      "location": "Reserva/PR",
+      "status": "concluida"
+    },
+    {
+      "order": 8,
+      "start_date": "2026-08-09",
       "end_date": "2026-08-09",
-      "name": "4ª etapa",
-      "location": "Ponta Grossa/PR",
-      "status": "em_andamento"
+      "name": "8ª etapa",
+      "location": "Reserva/PR",
+      "status": "cancelada"
     },
     {
       "order": 5,
@@ -53,7 +61,7 @@
     }
   ],
   "related_videos": [],
-  "body": "## Temporada 2026\n\nCampeonato Brasileiro de Enduro 2026 é acompanhada pela TVDUASRODAS na modalidade Enduro, sob organização de Confederação Brasileira de Motociclismo. O status registrado é em_andamento.\n\n## Próxima etapa e calendário\n\nA referência mais recente é 4ª etapa, com data 2026-08-07 e local Ponta Grossa · PR. Alterações de data e local são conferidas nos canais oficiais.\n\n## Classificação e resultados\n\nAs fontes oficiais consultadas ainda não disponibilizaram classificação consolidada para publicação. Quando houver documento oficial, atletas, equipes, categorias, posições, tempos e pontos serão publicados com páginas relacionadas para os competidores identificados.\n\n## Fontes\n\nA apuração registra Canal oficial ou página indicada pela entidade; Resultados oficiais. Cada link permanece visível na página para permitir a conferência dos dados e da data de atualização.",
+  "body": "## Temporada 2026\n\nO Campeonato Brasileiro de Enduro 2026 segue em andamento sob organização da Confederação Brasileira de Motociclismo.\n\n## Próxima etapa e calendário\n\nA próxima prova está prevista para 18 a 20 de setembro, em Socorro (SP). A rodada de agosto foi transferida para Reserva (PR): a 7ª etapa consta como encerrada, enquanto a CBM e a promotora anunciaram o cancelamento da 8ª etapa.\n\n## Classificação e resultados\n\nA página oficial ainda não disponibiliza resultado ou classificação consolidada dessa rodada. Nenhuma posição foi inferida; a página será atualizada quando a tabela oficial estiver disponível.\n\n## Fontes\n\nDatas, situação e resultados são conferidos na página oficial do campeonato e nos comunicados da CBM.",
   "sources": [
     {
       "url": "https://www.cbm.esp.br/modalidades/enduro",
@@ -62,10 +70,16 @@
       "supports": "dados de agenda, identificação e situação do evento"
     },
     {
-      "url": "https://www.cbm.esp.br/site/public/calendario",
-      "label": "Resultados oficiais",
+      "url": "https://www.cbm.esp.br/competicoes/cbm/campeonato-brasileiro-de-enduro",
+      "label": "Campeonato Brasileiro de Enduro 2026 — CBM",
       "type": "fonte primária ou canal oficial",
-      "supports": "dados de agenda, identificação e situação do evento"
+      "supports": "calendário atualizado, situação da rodada e indisponibilidade de resultados"
+    },
+    {
+      "url": "https://www.cbm.esp.br/noticias/2026/08/09/cbm-e-alfa-eventos-anunciam-o-cancelamento-da-8-etapa-do-campeonato-brasileiro-de-enduro-em-reserva",
+      "label": "CBM e Alfa Eventos anunciam cancelamento da 8ª etapa",
+      "type": "fonte primária ou canal oficial",
+      "supports": "cancelamento da 8ª etapa em Reserva"
     },
     {
       "url": "https://sesport.es.gov.br/capixaba-conquista-medalha-de-ouro-no-campeonato-brasileiro-de-enduro",
@@ -84,7 +98,7 @@
       "discovery_method": "busca_editorial_indexada"
     }
   ],
-  "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
+  "source_checked_at": "2026-08-10T21:10:00+00:00",
   "research_status": {
     "required_specific_independent_sources": 2,
     "specific_independent_domains_found": 3,
@@ -99,12 +113,12 @@
   },
   "classification_status": {
     "status": "aguardando_publicacao_oficial",
-    "checked_at": "2026-07-26T07:22:55.818633+00:00",
+    "checked_at": "2026-08-10T21:10:00+00:00",
     "note": "As fontes oficiais consultadas ainda não disponibilizaram classificação consolidada para publicação."
   },
   "calendar_status": {
     "status": "publicado",
-    "checked_at": "2026-07-26T07:22:55.818633+00:00",
-    "note": "Etapas disponíveis na tabela da página."
+    "checked_at": "2026-08-10T21:10:00+00:00",
+    "note": "7ª etapa encerrada; 8ª etapa cancelada; próxima prova prevista em Socorro/SP."
   }
 }

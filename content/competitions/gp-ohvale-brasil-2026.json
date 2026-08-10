@@ -13,11 +13,11 @@
   "image_credit": "Arte editorial: TVDUASRODAS",
   "featured": false,
   "summary": "Motovelocidade de formação para jovens pilotos, com calendário nacional e participação latino-americana.",
-  "last_updated": "2026-08-08T07:16:18-04:00",
+  "last_updated": "2026-08-10T17:10:00-04:00",
   "next_stage": {
-    "name": "4ª etapa",
-    "start_date": "2026-08-08",
-    "end_date": "2026-08-09",
+    "name": "5ª etapa",
+    "start_date": "2026-09-18",
+    "end_date": "2026-09-19",
     "note": "Registro/SP"
   },
   "categories": [
@@ -54,8 +54,8 @@
       "start_date": "2026-08-08",
       "end_date": "2026-08-09",
       "name": "4ª etapa",
-      "location": "Registro/SP",
-      "status": "em_andamento"
+      "location": "A definir",
+      "status": "concluida"
     },
     {
       "order": 5,
@@ -67,7 +67,7 @@
     }
   ],
   "related_videos": [],
-  "body": "## Temporada 2026\n\nGP Ohvale Brasil 2026 é acompanhada pela TVDUASRODAS na modalidade Motovelocidade de base, sob organização de Confederação Brasileira de Motociclismo / GP Ohvale Brasil. O status registrado é em_andamento.\n\n## Próxima etapa e calendário\n\nA 4ª etapa está confirmada para 8 e 9 de agosto, em Registro (SP). A rodada integra também o MotoMini FIM Latin America e prevê duas corridas por categoria. Alterações de programação e acesso devem ser conferidas nos canais oficiais antes do deslocamento.\n\n## Classificação e resultados\n\nAs fontes oficiais consultadas ainda não disponibilizaram classificação consolidada para publicação. Quando houver documento oficial, atletas, equipes, categorias, posições, tempos e pontos serão publicados com páginas relacionadas para os competidores identificados.",
+  "body": "## Temporada 2026\n\nO GP Ohvale Brasil 2026 integra o MotoMini FIM Latin America e segue em andamento como campeonato de formação.\n\n## Próxima etapa e calendário\n\nO calendário do organizador mantém a 4ª etapa em 8 e 9 de agosto, mas não confirma publicamente o local dessa rodada. Registro (SP) aparece como sede da 5ª etapa, prevista para 18 e 19 de setembro.\n\n## Classificação e resultados\n\nA CBM e o organizador ainda não disponibilizaram tabela consolidada da rodada de agosto. Nenhum local, vencedor ou classificação foi inferido; a atualização será feita quando houver documento oficial.",
   "sources": [
     {
       "url": "https://cbm.esp.br/site/public/index.php/competicoes/cbm/gp-ohvale-brasil",
@@ -101,7 +101,7 @@
     }
   ],
   "source_checked_at": "2026-08-02T15:24:00-04:00",
-  "status_checked_at": "2026-08-08T07:16:18-04:00",
+  "status_checked_at": "2026-08-10T17:10:00-04:00",
   "timezone": "America/Sao_Paulo",
   "local_start": "2026-08-08T00:00:00-03:00",
   "local_end": "2026-08-09T23:59:59-03:00",

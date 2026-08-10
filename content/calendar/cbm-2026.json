@@ -279,11 +279,11 @@
       "start_date": "2026-08-07",
       "end_date": "2026-08-09",
       "title": "Campeonato Brasileiro de Enduro",
-      "stage": "4ª prova do calendário revisado",
-      "city": "Ponta Grossa",
+      "stage": "7ª e 8ª etapas — 8ª cancelada",
+      "city": "Reserva",
       "state": "PR",
       "modality": "Enduro",
-      "status": "agendada",
+      "status": "concluida",
       "competition_slug": "brasileiro-enduro-2026",
       "sources": [
         {
@@ -320,8 +320,8 @@
         "editorial_rule": "Dados publicados somente com atribuição ao fato que cada fonte sustenta."
       },
       "organizer": "Alfa Eventos, com supervisão da CBM",
-      "venue": "Ponta Grossa · PR",
-      "full_address": "Ponta Grossa · PR. Rua, número e ponto de referência ainda não foram publicados nas fontes consultadas.",
+      "venue": "Reserva · PR",
+      "full_address": "Reserva · PR. Rua, número e ponto de referência não foram publicados nas fontes oficiais consultadas.",
       "time_label": "De 7 a 9 de agosto; programação detalhada deve ser conferida no regulamento particular",
       "admission_status": "Inscrição, ingresso ou acesso devem ser confirmados com o organizador; as fontes consultadas ainda não detalham essa condição.",
       "parking": "Estacionamento e guarda de bicicletas/motos ainda não foram detalhados pelas fontes consultadas.",
@@ -336,8 +336,8 @@
           "mudanca_de_calendario"
         ]
       },
-      "summary": "Campeonato Brasileiro de Enduro está no calendário de 2026 como 4ª etapa, na modalidade Enduro, com realização prevista para 2026-08-07 a 2026-08-09 em Ponta Grossa/PR. Serviço ainda não publicado permanece sinalizado.",
-      "body": "## Situação verificada\n\nCampeonato Brasileiro de Enduro aparece no calendário monitorado para 2026-08-07 a 2026-08-09. O enquadramento divulgado é 4ª etapa, na modalidade Enduro.\n\n## Local e serviço\n\nA referência disponível é Ponta Grossa · PR. As fontes consultadas ainda não publicaram um serviço completo com rua, número, horário, estacionamento e contato direto. Essas ausências são mantidas de forma explícita para evitar informação inventada.\n\n## Inscrições, categorias e regulamento\n\nInscrições, categorias, percurso, premiação, retirada de kits e regras técnicas devem ser confirmados nos canais vinculados abaixo. A página será atualizada quando o organizador ou a entidade publicar o regulamento específico.\n\n## Fontes cruzadas\n\nForam consultadas: Campeonato Brasileiro de Enduro anuncia mudanças no calendário da temporada 2026 | Enduro | Notícias | Confederação Brasileira de Motociclismo; Calendário | Confederação Brasileira de Motociclismo. Links genéricos de calendário não são tratados, sozinhos, como confirmação suficiente de serviço.",
+      "summary": "A rodada de agosto do Campeonato Brasileiro de Enduro foi transferida para Reserva (PR); a 8ª etapa foi cancelada pela CBM e pela promotora.",
+      "body": "## Situação atual\n\nA rodada de agosto do Campeonato Brasileiro de Enduro foi realizada em Reserva (PR). A 7ª etapa consta como encerrada e a CBM, com a promotora, anunciou o cancelamento da 8ª etapa.\n\n## Próxima prova\n\nA próxima prova está prevista para 18 a 20 de setembro, em Socorro (SP). Resultado e classificação da rodada de Reserva ainda não aparecem na página oficial do campeonato.",
       "last_updated": "2026-07-26T09:27:24.911655+00:00"
     },
     {
@@ -413,7 +413,7 @@
       "stage": "4ª etapa",
       "location": "Local a definir",
       "modality": "Motovelocidade de base",
-      "status": "agendada",
+      "status": "concluida",
       "competition_slug": "gp-ohvale-brasil-2026",
       "sources": [
         {
@@ -2119,7 +2119,7 @@
       "city": "Maringá",
       "state": "PR",
       "modality": "Paraciclismo",
-      "status": "agendada",
+      "status": "concluida",
       "official_url": "https://www.cbc.esp.br/modalidades/calendario/busca/paraciclismo",
       "sources": [
         {
