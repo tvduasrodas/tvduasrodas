@@ -1,12 +1,12 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-08-10T11:59:40.449052+00:00",
+  "generated_at": "2026-08-10T21:22:23.938058+00:00",
   "scope": "Matérias no Google News sitemap das últimas 48 horas e eventos em andamento ou futuros priorizados por data",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/event-sitemap.xml",
-      "last_submitted": "2026-08-10T11:58:24.840Z",
-      "last_downloaded": "2026-08-10T11:58:25.336Z",
+      "last_submitted": "2026-08-10T21:21:12.388Z",
+      "last_downloaded": "2026-08-10T21:21:25.698Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -27,12 +27,12 @@
     },
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-08-10T11:58:24.739Z",
-      "last_downloaded": "2026-08-10T11:58:26.188Z",
+      "last_submitted": "2026-08-10T21:21:12.293Z",
+      "last_downloaded": "2026-08-10T21:21:22.153Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
-      "discovered": 60,
+      "discovered": 59,
       "indexed": 0,
       "content": [
         {
@@ -42,15 +42,15 @@
         },
         {
           "type": "news",
-          "submitted": "2",
+          "submitted": "1",
           "indexed": "0"
         }
       ]
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-08-10T11:58:24.636Z",
-      "last_downloaded": "2026-08-10T11:58:26.019Z",
+      "last_submitted": "2026-08-10T21:21:12.219Z",
+      "last_downloaded": "2026-08-10T21:21:13.478Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -76,28 +76,14 @@
     }
   ],
   "summary": {
-    "inspected": 12,
+    "inspected": 11,
     "indexed": 8,
     "not_indexed": 0,
-    "processing_or_unknown": 4
+    "processing_or_unknown": 3
   },
   "urls": [
     {
       "url": "https://tvduasrodas.com/materias/sensor-torque-cadencia-ebike-como-escolher/",
-      "verdict": "NEUTRAL",
-      "coverage_state": "O Google não reconhece o URL",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
-      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
-      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
-      "last_crawl_time": null,
-      "google_canonical": "",
-      "user_canonical": "",
-      "sitemaps": [],
-      "referring_urls": [],
-      "inspected_at": "2026-08-10T11:58:31.206829+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/materias/seguro-moto-coberturas-franquia-terceiros-perda-total/",
       "verdict": "NEUTRAL",
       "coverage_state": "Detectada, mas não indexada no momento",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED",
@@ -111,7 +97,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-10T11:58:37.382659+00:00"
+      "inspected_at": "2026-08-10T21:21:18.875327+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/sturgis-motorcycle-rally-2026/",
@@ -130,7 +116,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/evento?slug=sturgis-motorcycle-rally-2026"
       ],
-      "inspected_at": "2026-08-10T11:58:43.728362+00:00"
+      "inspected_at": "2026-08-10T21:21:25.415638+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/152o-bh-motopoint-uniao-dos-motoclubes-da-grande-bh-contagem-bh-mg-2026-08-11/",
@@ -148,7 +134,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/event-sitemap.xml"
       ],
-      "inspected_at": "2026-08-10T11:58:49.913154+00:00"
+      "inspected_at": "2026-08-10T21:21:31.825143+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/its-timburi-sp-2026-08-13/",
@@ -165,7 +151,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-10T11:58:56.251940+00:00"
+      "inspected_at": "2026-08-10T21:21:38.345573+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/18-encontro-internacional-de-motos-de-altas-cilindradas-boa-vista-rr-2026-08-14/",
@@ -182,7 +168,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-10T11:59:02.403032+00:00"
+      "inspected_at": "2026-08-10T21:21:44.967864+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/21-encontro-nacional-de-motociclistas-ponte-nova-mg-2026-08-14/",
@@ -199,7 +185,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-10T11:59:08.575629+00:00"
+      "inspected_at": "2026-08-10T21:21:51.438690+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/5o-encontro-de-motociclistas-de-matozinhos-mg-matozinhos-mg-2026-08-14/",
@@ -211,13 +197,11 @@
       "last_crawl_time": "2026-08-01T23:01:10Z",
       "google_canonical": "https://tvduasrodas.com/eventos/5o-encontro-de-motociclistas-de-matozinhos-mg-matozinhos-mg-2026-08-14/",
       "user_canonical": "https://tvduasrodas.com/eventos/5o-encontro-de-motociclistas-de-matozinhos-mg-matozinhos-mg-2026-08-14/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [
         "https://tvduasrodas.com/event-sitemap.xml"
       ],
-      "inspected_at": "2026-08-10T11:59:14.739165+00:00"
+      "inspected_at": "2026-08-10T21:21:57.939257+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/caveiras-brasil-mc-petropolis-rj-2026-08-14/",
@@ -234,7 +218,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-10T11:59:20.926192+00:00"
+      "inspected_at": "2026-08-10T21:22:04.450886+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/guardioes-de-ouro-mc-sao-goncalo-rj-2026-08-14/",
@@ -246,9 +230,12 @@
       "last_crawl_time": "2026-08-02T04:48:52Z",
       "google_canonical": "https://tvduasrodas.com/eventos/guardioes-de-ouro-mc-sao-goncalo-rj-2026-08-14/",
       "user_canonical": "https://tvduasrodas.com/eventos/guardioes-de-ouro-mc-sao-goncalo-rj-2026-08-14/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-08-10T11:59:27.406163+00:00"
+      "inspected_at": "2026-08-10T21:22:10.886427+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/imperial-moto-week-petropolis-rj-2026-08-14/",
@@ -265,7 +252,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-10T11:59:33.772227+00:00"
+      "inspected_at": "2026-08-10T21:22:17.290228+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/lakraio-s-mc-bertioga-sp-2026-08-14/",
@@ -282,7 +269,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-10T11:59:40.166510+00:00"
+      "inspected_at": "2026-08-10T21:22:23.821108+00:00"
     }
   ]
 }
