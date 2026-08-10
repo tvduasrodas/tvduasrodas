@@ -1,12 +1,12 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-08-09T18:37:10.896015+00:00",
+  "generated_at": "2026-08-10T11:59:40.449052+00:00",
   "scope": "Matérias no Google News sitemap das últimas 48 horas e eventos em andamento ou futuros priorizados por data",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/event-sitemap.xml",
-      "last_submitted": "2026-08-09T18:35:35.701Z",
-      "last_downloaded": "2026-08-09T18:35:36.214Z",
+      "last_submitted": "2026-08-10T11:58:24.840Z",
+      "last_downloaded": "2026-08-10T11:58:25.336Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -27,8 +27,8 @@
     },
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-08-09T18:35:35.592Z",
-      "last_downloaded": "2026-08-09T18:35:37.326Z",
+      "last_submitted": "2026-08-10T11:58:24.739Z",
+      "last_downloaded": "2026-08-10T11:58:26.188Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -49,8 +49,8 @@
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-08-09T18:35:35.489Z",
-      "last_downloaded": "2026-08-09T18:35:37.354Z",
+      "last_submitted": "2026-08-10T11:58:24.636Z",
+      "last_downloaded": "2026-08-10T11:58:26.019Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -94,7 +94,7 @@
       "user_canonical": "",
       "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-08-09T18:35:42.278794+00:00"
+      "inspected_at": "2026-08-10T11:58:31.206829+00:00"
     },
     {
       "url": "https://tvduasrodas.com/materias/seguro-moto-coberturas-franquia-terceiros-perda-total/",
@@ -107,120 +107,85 @@
       "google_canonical": "",
       "user_canonical": "",
       "sitemaps": [
-        "https://tvduasrodas.com/news-sitemap.xml"
+        "https://tvduasrodas.com/news-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-09T18:35:48.793605+00:00"
+      "inspected_at": "2026-08-10T11:58:37.382659+00:00"
     },
     {
-      "url": "https://tvduasrodas.com/eventos/taca-brasil-de-paraciclismo-de-pista-2026-08-04/",
+      "url": "https://tvduasrodas.com/eventos/sturgis-motorcycle-rally-2026/",
       "verdict": "PASS",
       "coverage_state": "Enviada e indexada",
       "indexing_state": "INDEXING_ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
       "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-27T06:05:02Z",
-      "google_canonical": "https://tvduasrodas.com/eventos/taca-brasil-de-paraciclismo-de-pista-2026-08-04/",
-      "user_canonical": "https://tvduasrodas.com/eventos/taca-brasil-de-paraciclismo-de-pista-2026-08-04/",
+      "last_crawl_time": "2026-07-28T09:29:50Z",
+      "google_canonical": "https://tvduasrodas.com/eventos/sturgis-motorcycle-rally-2026/",
+      "user_canonical": "https://tvduasrodas.com/eventos/sturgis-motorcycle-rally-2026/",
       "sitemaps": [
         "https://tvduasrodas.com/event-sitemap.xml",
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [
-        "https://tvduasrodas.com/evento?slug=taca-brasil-de-paraciclismo-de-pista-2026-08-04"
+        "https://tvduasrodas.com/evento?slug=sturgis-motorcycle-rally-2026"
       ],
-      "inspected_at": "2026-08-09T18:35:55.179341+00:00"
+      "inspected_at": "2026-08-10T11:58:43.728362+00:00"
     },
     {
-      "url": "https://tvduasrodas.com/eventos/taca-brasil-ciclismo-pista-maringa-2026/",
+      "url": "https://tvduasrodas.com/eventos/152o-bh-motopoint-uniao-dos-motoclubes-da-grande-bh-contagem-bh-mg-2026-08-11/",
       "verdict": "PASS",
       "coverage_state": "Enviada e indexada",
       "indexing_state": "INDEXING_ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
       "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-08-02T11:40:18Z",
-      "google_canonical": "https://tvduasrodas.com/eventos/taca-brasil-ciclismo-pista-maringa-2026/",
-      "user_canonical": "https://tvduasrodas.com/eventos/taca-brasil-ciclismo-pista-maringa-2026/",
+      "last_crawl_time": "2026-08-02T01:30:12Z",
+      "google_canonical": "https://tvduasrodas.com/eventos/152o-bh-motopoint-uniao-dos-motoclubes-da-grande-bh-contagem-bh-mg-2026-08-11/",
+      "user_canonical": "https://tvduasrodas.com/eventos/152o-bh-motopoint-uniao-dos-motoclubes-da-grande-bh-contagem-bh-mg-2026-08-11/",
       "sitemaps": [
-        "https://tvduasrodas.com/sitemap.xml"
+        "https://tvduasrodas.com/event-sitemap.xml"
       ],
       "referring_urls": [
-        "https://tvduasrodas.com/sitemap.xml"
+        "https://tvduasrodas.com/event-sitemap.xml"
       ],
-      "inspected_at": "2026-08-09T18:36:01.587057+00:00"
+      "inspected_at": "2026-08-10T11:58:49.913154+00:00"
     },
     {
-      "url": "https://tvduasrodas.com/eventos/diveneta-mc-cabo-frio-rj-2026-08-06/",
+      "url": "https://tvduasrodas.com/eventos/its-timburi-sp-2026-08-13/",
       "verdict": "PASS",
       "coverage_state": "Enviada e indexada",
       "indexing_state": "INDEXING_ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
       "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-08-02T07:07:08Z",
-      "google_canonical": "https://tvduasrodas.com/eventos/diveneta-mc-cabo-frio-rj-2026-08-06/",
-      "user_canonical": "https://tvduasrodas.com/eventos/diveneta-mc-cabo-frio-rj-2026-08-06/",
+      "last_crawl_time": "2026-07-28T06:42:24Z",
+      "google_canonical": "https://tvduasrodas.com/eventos/its-timburi-sp-2026-08-13/",
+      "user_canonical": "https://tvduasrodas.com/eventos/its-timburi-sp-2026-08-13/",
       "sitemaps": [
         "https://tvduasrodas.com/event-sitemap.xml",
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-09T18:36:07.950908+00:00"
+      "inspected_at": "2026-08-10T11:58:56.251940+00:00"
     },
     {
-      "url": "https://tvduasrodas.com/eventos/ironman-70-3-rio-de-janeiro-2026/",
+      "url": "https://tvduasrodas.com/eventos/18-encontro-internacional-de-motos-de-altas-cilindradas-boa-vista-rr-2026-08-14/",
       "verdict": "PASS",
       "coverage_state": "Enviada e indexada",
       "indexing_state": "INDEXING_ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
       "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-29T20:19:21Z",
-      "google_canonical": "https://tvduasrodas.com/eventos/ironman-70-3-rio-de-janeiro-2026/",
-      "user_canonical": "https://tvduasrodas.com/eventos/ironman-70-3-rio-de-janeiro-2026/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "inspected_at": "2026-08-09T18:36:17.258197+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/eventos/1-moto-acampamento-raiz-itanhandu-mg-2026-08-07/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-26T18:25:19Z",
-      "google_canonical": "https://tvduasrodas.com/eventos/1-moto-acampamento-raiz-itanhandu-mg-2026-08-07/",
-      "user_canonical": "https://tvduasrodas.com/eventos/1-moto-acampamento-raiz-itanhandu-mg-2026-08-07/",
+      "last_crawl_time": "2026-07-28T10:41:09Z",
+      "google_canonical": "https://tvduasrodas.com/eventos/18-encontro-internacional-de-motos-de-altas-cilindradas-boa-vista-rr-2026-08-14/",
+      "user_canonical": "https://tvduasrodas.com/eventos/18-encontro-internacional-de-motos-de-altas-cilindradas-boa-vista-rr-2026-08-14/",
       "sitemaps": [
         "https://tvduasrodas.com/event-sitemap.xml",
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-09T18:36:23.628018+00:00"
+      "inspected_at": "2026-08-10T11:59:02.403032+00:00"
     },
     {
-      "url": "https://tvduasrodas.com/eventos/2-motofest-coronel-fabriciano-mg-2026-08-07/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-08-03T05:56:39Z",
-      "google_canonical": "https://tvduasrodas.com/eventos/2-motofest-coronel-fabriciano-mg-2026-08-07/",
-      "user_canonical": "https://tvduasrodas.com/eventos/2-motofest-coronel-fabriciano-mg-2026-08-07/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-08-09T18:36:30.054722+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/eventos/5-encontro-estadual-de-motociclistas-jucurutu-rn-2026-08-07/",
+      "url": "https://tvduasrodas.com/eventos/21-encontro-nacional-de-motociclistas-ponte-nova-mg-2026-08-14/",
       "verdict": "NEUTRAL",
       "coverage_state": "Detectada, mas não indexada no momento",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED",
@@ -234,10 +199,59 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-09T18:36:36.433681+00:00"
+      "inspected_at": "2026-08-10T11:59:08.575629+00:00"
     },
     {
-      "url": "https://tvduasrodas.com/eventos/ii-moto-festival-pocos-de-caldas-mg-2026-08-07/",
+      "url": "https://tvduasrodas.com/eventos/5o-encontro-de-motociclistas-de-matozinhos-mg-matozinhos-mg-2026-08-14/",
+      "verdict": "PASS",
+      "coverage_state": "Enviada e indexada",
+      "indexing_state": "INDEXING_ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "robots_txt_state": "ALLOWED",
+      "last_crawl_time": "2026-08-01T23:01:10Z",
+      "google_canonical": "https://tvduasrodas.com/eventos/5o-encontro-de-motociclistas-de-matozinhos-mg-matozinhos-mg-2026-08-14/",
+      "user_canonical": "https://tvduasrodas.com/eventos/5o-encontro-de-motociclistas-de-matozinhos-mg-matozinhos-mg-2026-08-14/",
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml"
+      ],
+      "referring_urls": [
+        "https://tvduasrodas.com/event-sitemap.xml"
+      ],
+      "inspected_at": "2026-08-10T11:59:14.739165+00:00"
+    },
+    {
+      "url": "https://tvduasrodas.com/eventos/caveiras-brasil-mc-petropolis-rj-2026-08-14/",
+      "verdict": "PASS",
+      "coverage_state": "Enviada e indexada",
+      "indexing_state": "INDEXING_ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "robots_txt_state": "ALLOWED",
+      "last_crawl_time": "2026-08-02T01:19:54Z",
+      "google_canonical": "https://tvduasrodas.com/eventos/caveiras-brasil-mc-petropolis-rj-2026-08-14/",
+      "user_canonical": "https://tvduasrodas.com/eventos/caveiras-brasil-mc-petropolis-rj-2026-08-14/",
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
+      "referring_urls": [],
+      "inspected_at": "2026-08-10T11:59:20.926192+00:00"
+    },
+    {
+      "url": "https://tvduasrodas.com/eventos/guardioes-de-ouro-mc-sao-goncalo-rj-2026-08-14/",
+      "verdict": "PASS",
+      "coverage_state": "Enviada e indexada",
+      "indexing_state": "INDEXING_ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "robots_txt_state": "ALLOWED",
+      "last_crawl_time": "2026-08-02T04:48:52Z",
+      "google_canonical": "https://tvduasrodas.com/eventos/guardioes-de-ouro-mc-sao-goncalo-rj-2026-08-14/",
+      "user_canonical": "https://tvduasrodas.com/eventos/guardioes-de-ouro-mc-sao-goncalo-rj-2026-08-14/",
+      "sitemaps": [],
+      "referring_urls": [],
+      "inspected_at": "2026-08-10T11:59:27.406163+00:00"
+    },
+    {
+      "url": "https://tvduasrodas.com/eventos/imperial-moto-week-petropolis-rj-2026-08-14/",
       "verdict": "NEUTRAL",
       "coverage_state": "Detectada, mas não indexada no momento",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED",
@@ -251,41 +265,24 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-09T18:36:57.902486+00:00"
+      "inspected_at": "2026-08-10T11:59:33.772227+00:00"
     },
     {
-      "url": "https://tvduasrodas.com/eventos/moto-acampamento-tres-coracoes-mg-2026-08-07/",
+      "url": "https://tvduasrodas.com/eventos/lakraio-s-mc-bertioga-sp-2026-08-14/",
       "verdict": "PASS",
       "coverage_state": "Enviada e indexada",
       "indexing_state": "INDEXING_ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
       "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-08-03T07:50:26Z",
-      "google_canonical": "https://tvduasrodas.com/eventos/moto-acampamento-tres-coracoes-mg-2026-08-07/",
-      "user_canonical": "https://tvduasrodas.com/eventos/moto-acampamento-tres-coracoes-mg-2026-08-07/",
+      "last_crawl_time": "2026-07-29T23:57:37Z",
+      "google_canonical": "https://tvduasrodas.com/eventos/lakraio-s-mc-bertioga-sp-2026-08-14/",
+      "user_canonical": "https://tvduasrodas.com/eventos/lakraio-s-mc-bertioga-sp-2026-08-14/",
       "sitemaps": [
         "https://tvduasrodas.com/event-sitemap.xml",
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-09T18:37:04.399595+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/eventos/motofest-caete-mg-2026-08-07/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-08-03T02:41:23Z",
-      "google_canonical": "https://tvduasrodas.com/eventos/motofest-caete-mg-2026-08-07/",
-      "user_canonical": "https://tvduasrodas.com/eventos/motofest-caete-mg-2026-08-07/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-08-09T18:37:10.803490+00:00"
+      "inspected_at": "2026-08-10T11:59:40.166510+00:00"
     }
   ]
 }
