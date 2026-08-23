@@ -168,6 +168,9 @@ Quando houver lote publicado, concluir **SEO, sitemap, publicação, validação
 
 ## Regra absoluta de não repetição de imagens e vídeos
 
+- Toda nova matéria deve sair com uma capa local e pelo menos duas imagens internas distintas, todas com texto alternativo e legenda. A capa deve ser fotografia real, pertinente e licenciada sempre que houver uma opção editorialmente honesta; diagramas e artes podem complementar a explicação, mas uma pauta não deve ser publicada somente com imagens sintéticas por conveniência.
+- Cada fotografia deve registrar no frontmatter `coverType`, `coverCredit`, `coverSource` e `coverLicense`, além de manter em `editorial/fontes/<slug>/fontes.md` a página de origem, URL do arquivo, autor, licença ou prova de autorização e dados da otimização. Crédito visível não substitui licença.
+- Se nenhuma fotografia real puder ser usada legalmente, a publicação deve registrar a busca e a justificativa no arquivo de fontes, usar arte própria identificada sem aparência documental e preencher `visualException` com a razão objetiva. A exceção é editorial, não um atalho para produzir em escala.
 - É proibido repetir em uma nova publicação qualquer imagem ou vídeo já usado no portal, na Revista, na TV, em programas, competições, eventos, capas, corpo de matéria, redes sociais ou outro conteúdo da TVDUASRODAS. A proibição vale tanto para arquivos idênticos quanto para cópias renomeadas, recomprimidas, recortadas, redimensionadas, convertidas para outro formato ou visualmente equivalentes.
 - A regra inclui material de sites e fontes oficiais, bancos de imprensa, acervo próprio, capturas, ilustrações e imagens geradas por inteligência artificial. Uma imagem gerada por IA para uma publicação não pode ser reaproveitada em outra, mesmo quando o assunto for parecido.
 - A imagem de capa nunca pode ser repetida dentro do corpo da mesma página. Cada posição visual deve usar um arquivo e uma composição distintos.

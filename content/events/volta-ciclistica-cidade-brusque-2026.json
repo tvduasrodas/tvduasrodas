@@ -9,8 +9,8 @@
   "country": "Brasil",
   "scope": "Nacional",
   "region": "Sul",
-  "venue": "River Mall Shopping e circuito entre Brusque e Gaspar",
-  "status": "agendada",
+  "venue": "River Mall Shopping e circuitos em Brusque e no trecho em direção a Gaspar",
+  "status": "concluida",
   "event_type": "Competição de ciclismo de estrada",
   "segment": "Bicicletas",
   "official_url": "https://www.scciclismo.com.br/evento/7487/17-volta-ciclstica-cidade-de-brusque",
@@ -18,37 +18,127 @@
   "image_credit": "Arte institucional: TVDUASRODAS",
   "featured": false,
   "free": false,
-  "summary": "A 17ª Volta Ciclística Cidade de Brusque será disputada em 15 e 16 de agosto, com contrarrelógio e duas etapas de circuito, válida pelo ranking nacional Classe 2B.",
-  "attractions": ["Contrarrelógio individual", "Duas etapas de circuito", "Categorias de base, elite e masters", "Ranking nacional Classe 2B"],
+  "summary": "A 17ª Volta Ciclística Cidade de Brusque — II Troféu Chico Wehmuth foi disputada em 15 e 16 de agosto de 2026, com largada e chegada no River Mall, três etapas e validade para o ranking nacional Classe 2B. Cobertura pós-prova confirma a realização e pódios, embora a página oficial de resultado da FCC ainda estivesse sem classificação completa em 22 de agosto.",
+  "attractions": [
+    "Contrarrelógio individual",
+    "Duas etapas de circuito",
+    "Categorias de base, júnior, sub-30, elite e masters",
+    "Ranking nacional Classe 2B",
+    "II Troféu Chico Wehmuth"
+  ],
   "videos": [],
-  "body": "## Três etapas em dois dias\n\nA 17ª Volta Ciclística Cidade de Brusque está confirmada para 15 e 16 de agosto. A Confederação Brasileira de Ciclismo (CBC) inclui a prova no calendário nacional de estrada como Classe 2B, enquanto a Federação Catarinense de Ciclismo publica o regulamento, as categorias e a programação detalhada.\n\n## Programação divulgada\n\nA retirada antecipada de números está prevista para 14 de agosto, das 18h30 às 20h, no ToolBox Lounge Bar, nos fundos do River Mall Shopping. No sábado, 15 de agosto, o contrarrelógio individual começa às 7h30, em circuito de 6,2 km por volta. À tarde, as baterias do segundo estágio começam às 13h15. No domingo, 16 de agosto, a programação recomeça às 7h15, com circuito que inclui o trecho entre Brusque e Gaspar para a Elite masculina e baterias por categoria ao longo da manhã.\n\n## Categorias, inscrições e serviço\n\nA programação contempla categorias infantis e juvenis, júnior, sub-30, elite, masters masculinos e categorias femininas. A plataforma oficial informa inscrições até 13 de agosto e valores diferentes por filiação e faixa etária, incluindo isenções para categorias de base previstas no regulamento. Como horários e percursos podem ser alterados pela arbitragem, participantes e público devem reconfirmar o serviço no canal oficial antes do deslocamento. Estacionamento, acessibilidade e regras de acesso do público não foram detalhados no material consultado.",
-  "last_updated": "2026-08-03T15:25:00-04:00",
+  "body": "## Prova realizada\n\nA 17ª Volta Ciclística Cidade de Brusque — II Troféu Chico Wehmuth foi disputada em 15 e 16 de agosto de 2026. A página oficial da Federação Catarinense de Ciclismo confirma o River Mall Shopping como base, enquanto cobertura local publicada antes da prova registra organização da Associação Brusquense de Ciclismo (Brucicle), três etapas e validade para o Ranking Nacional Classe 2B.\n\n## Formato esportivo\n\nA programação teve contrarrelógio individual de 6,2 km por volta no sábado pela manhã, circuito urbano à tarde e uma terceira etapa no domingo com trecho em direção ao Centro de Gaspar e retorno a Brusque. As categorias abrangeram base, júnior, sub-30, elite e masters, masculinas e femininas conforme regulamento.\n\n## Evidência pós-prova\n\nNotícia de 21 de agosto registra a participação da equipe de Jaraguá do Sul, quatro pódios e Daniel Fagundes como campeão da Master A2, comprovando que a prova ocorreu. Na consulta de 22 de agosto, porém, a página específica de resultados da FCC ainda mostrava “resultado não disponível”; por isso, esta atualização não apresenta uma classificação geral incompleta como se fosse oficial.\n\n## Serviço histórico\n\nA largada e a chegada ocorreram no River Mall, na Avenida Governador Luiz Henrique da Silveira. A retirada antecipada de números foi anunciada para 14 de agosto, das 18h30 às 20h, no ToolBox Lounge Bar, Avenida Otto Renaux, 445. O material consultado não detalha estacionamento, acessibilidade ou regras de acesso do público.",
+  "last_updated": "2026-08-22T12:00:00-04:00",
   "timezone": "America/Sao_Paulo",
   "local_start": "2026-08-15T06:00:00-03:00",
   "local_end": "2026-08-16T17:00:00-03:00",
   "time_label": "15/8: confirmação a partir das 6h e primeira largada às 7h30; 16/8: programação a partir das 6h e largadas desde 7h15",
   "full_address": "River Mall Shopping, Avenida Governador Luiz Henrique da Silveira, Brusque - SC; retirada antecipada de números na Avenida Otto Renaux, 445",
-  "admission_status": "Participação mediante inscrição; acesso do público não informado no material consultado",
+  "admission_status": "Participação mediante inscrição encerrada; acesso do público não detalhado nas fontes consultadas",
   "parking": "Não informado no material consultado",
-  "organizer": "Associação Brusquense de Ciclismo, com supervisão da Federação Catarinense de Ciclismo e da CBC",
+  "organizer": "Associação Brusquense de Ciclismo (Brucicle), com supervisão da Federação Catarinense de Ciclismo e da CBC",
   "source_url": "https://www.scciclismo.com.br/evento/7487/17-volta-ciclstica-cidade-de-brusque",
   "source_label": "Federação Catarinense de Ciclismo — página oficial da 17ª Volta de Brusque",
-  "verification_status": "fontes_oficiais_sem_imagem_licenciada",
-  "source_checked_at": "2026-08-03T15:25:00-04:00",
-  "status_checked_at": "2026-08-03T15:25:00-04:00",
+  "verification_status": "realizacao_confirmada_por_fonte_pos_evento_com_resultado_oficial_completo_pendente",
+  "source_checked_at": "2026-08-22T12:00:00-04:00",
+  "status_checked_at": "2026-08-22T12:00:00-04:00",
   "relevance_tier": "monitoramento",
   "relevance_score": 62,
   "relevance_confidence": "media",
   "relevance_evaluated_at": "2026-08-03T15:25:00-04:00",
   "relevance_previous_score": 0,
   "relevance_trend": "novo",
-  "relevance_reason_codes": ["17a_edicao", "ranking_nacional_classe_2b", "categorias_diversas", "calendario_cbc"],
-  "coverage_t1_required": false,
-  "relevance_evidence": {"checked_at": "2026-08-03T15:25:00-04:00", "sources": ["https://www.cbc.esp.br/modalidades/calendario/busca/estrada", "https://www.scciclismo.com.br/evento/7487/17-volta-ciclstica-cidade-de-brusque"], "signals": ["17ª edição", "Classe 2B no calendário CBC", "Três etapas e categorias de base, elite e masters"]},
-  "sources": [
-    {"url": "https://www.cbc.esp.br/modalidades/calendario/busca/estrada", "label": "CBC — calendário nacional de estrada 2026", "type": "fonte primária reguladora", "supports": "datas, cidade e classe nacional", "checked_at": "2026-08-03T15:25:00-04:00"},
-    {"url": "https://www.scciclismo.com.br/evento/7487/17-volta-ciclstica-cidade-de-brusque", "label": "Federação Catarinense de Ciclismo — evento e informativo", "type": "fonte primária estadual", "supports": "programação, local, categorias, inscrições e premiação", "checked_at": "2026-08-03T15:25:00-04:00"}
+  "relevance_reason_codes": [
+    "17a_edicao",
+    "ranking_nacional_classe_2b",
+    "categorias_diversas",
+    "calendario_cbc"
   ],
-  "visual_verification": {"type": "pagina_e_informativo_oficiais", "source_url": "https://www.scciclismo.com.br/evento/7487/17-volta-ciclstica-cidade-de-brusque", "checked_at": "2026-08-03T15:25:00-04:00", "fields_confirmed": ["datas", "horarios", "local", "categorias", "inscricoes"], "rights_note": "A página foi usada para conferência factual. Não foi localizada fotografia com licença editorial verificável; o cadastro usa a arte institucional padrão do portal."},
-  "research_status": {"required_specific_independent_sources": 2, "specific_independent_domains_found": 2, "status": "fontes_primarias_cruzadas", "reviewed_at": "2026-08-03T15:25:00-04:00", "editorial_rule": "Cadastro estrutural antecipado, sem fotografia social ou documental sem licença verificável."}
+  "coverage_t1_required": false,
+  "relevance_evidence": {
+    "checked_at": "2026-08-03T15:25:00-04:00",
+    "sources": [
+      "https://www.cbc.esp.br/modalidades/calendario/busca/estrada",
+      "https://www.scciclismo.com.br/evento/7487/17-volta-ciclstica-cidade-de-brusque"
+    ],
+    "signals": [
+      "17ª edição",
+      "Classe 2B no calendário CBC",
+      "Três etapas e categorias de base, elite e masters"
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.cbc.esp.br/modalidades/calendario/busca/estrada",
+      "label": "CBC — calendário nacional de estrada 2026",
+      "type": "fonte primária reguladora",
+      "supports": "datas, cidade e classe nacional",
+      "checked_at": "2026-08-03T15:25:00-04:00"
+    },
+    {
+      "url": "https://www.scciclismo.com.br/evento/7487/17-volta-ciclstica-cidade-de-brusque",
+      "label": "Federação Catarinense de Ciclismo — evento e informativo",
+      "type": "fonte primária estadual",
+      "supports": "programação, local, categorias, inscrições e premiação",
+      "checked_at": "2026-08-03T15:25:00-04:00"
+    },
+    {
+      "url": "https://brusque.portaldacidade.com/noticias/esportes/brusque-recebe-17a-volta-ciclistica-com-atletas-de-todo-o-pais-3837",
+      "label": "Portal da Cidade Brusque — prévia da 17ª Volta Ciclística",
+      "type": "imprensa local específica da edição 2026",
+      "supports": "nome II Troféu Chico Wehmuth, datas, três etapas, River Mall, Brucicle, Classe 2B, categorias e premiação anunciada"
+    },
+    {
+      "url": "https://www.jdv.com.br/volta-ciclistica-brusque-jaragua-do-sul/",
+      "label": "JDV — resultados da equipe de Jaraguá do Sul na Volta de Brusque",
+      "type": "cobertura pós-evento independente da edição 2026",
+      "supports": "realização da 17ª edição, participação de dez ciclistas de Jaraguá, quatro pódios e título de Daniel Fagundes na Master A2"
+    },
+    {
+      "url": "https://www.scciclismo.com.br/resultado-evento/7487/17-volta-ciclstica-cidade-de-brusque",
+      "label": "Federação Catarinense de Ciclismo — página de resultado da prova",
+      "type": "fonte primária estadual pós-evento",
+      "supports": "identidade, local e período oficial; em 22/08/2026 a página informava que o resultado não estava disponível"
+    }
+  ],
+  "visual_verification": {
+    "type": "pagina_e_informativo_oficiais",
+    "source_url": "https://www.scciclismo.com.br/evento/7487/17-volta-ciclstica-cidade-de-brusque",
+    "checked_at": "2026-08-03T15:25:00-04:00",
+    "fields_confirmed": [
+      "datas",
+      "horarios",
+      "local",
+      "categorias",
+      "inscricoes"
+    ],
+    "rights_note": "A página foi usada para conferência factual. Não foi localizada fotografia com licença editorial verificável; o cadastro usa a arte institucional padrão do portal."
+  },
+  "research_status": {
+    "required_specific_independent_sources": 2,
+    "specific_independent_domains_found": 2,
+    "status": "fontes_primarias_cruzadas",
+    "reviewed_at": "2026-08-03T15:25:00-04:00",
+    "editorial_rule": "Cadastro estrutural antecipado, sem fotografia social ou documental sem licença verificável."
+  },
+  "status_basis": "O período oficial terminou em 16 de agosto e cobertura pós-prova de 21 de agosto confirma participação e pódios. A página da FCC ainda não oferecia a classificação geral completa em 22 de agosto.",
+  "contact": "Contato institucional da Federação Catarinense de Ciclismo: (47) 3422-0137; danuza@ciclismosc.com.br",
+  "research": {
+    "queries": [
+      "\"17ª Volta Ciclística Cidade de Brusque\" resultado 2026",
+      "\"Volta Ciclística de Brusque\" pódios agosto 2026",
+      "site:scciclismo.com.br resultado-evento 7487"
+    ],
+    "current_specific_domains_found": 5,
+    "result": "A realização foi confirmada por cobertura pós-prova; há resultados parciais verificáveis, mas a classificação geral oficial da FCC ainda não estava publicada na consulta.",
+    "conflict_handling": "Uma matéria de equipe citou período até 17 de agosto; foram mantidas as datas oficiais de 15 e 16 de agosto publicadas pela FCC, pelo calendário e pela imprensa local pré-prova.",
+    "uncertainties": [
+      "classificação geral oficial completa",
+      "acesso do público",
+      "estacionamento e acessibilidade"
+    ]
+  },
+  "editorial_enrichment_batches": [
+    "a"
+  ]
 }

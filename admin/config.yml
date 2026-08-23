@@ -120,7 +120,13 @@ collections:
       - { label: "Resumo SEO", name: "summary", widget: "text", required: false }
       - { label: "Título SEO", name: "seoTitle", widget: "string", required: false, hint: "Título curto para Google e redes sociais." }
       - { name: "videoId", label: "ID do vídeo (YouTube)", widget: "string", required: false }
-      - { label: "Imagem principal", name: "cover", widget: "image", required: false }
+      - { label: "Imagem principal", name: "cover", widget: "image", required: true, hint: "Use fotografia real e licenciada sempre que houver acesso; artes e diagramas devem complementar a reportagem, não substituir automaticamente a foto de capa." }
+      - { label: "Tipo da capa", name: "coverType", widget: "select", options: [{label: "Fotografia", value: "photo"}, {label: "Arte editorial", value: "artwork"}], default: "photo" }
+      - { label: "Crédito visível da capa", name: "coverCredit", widget: "string", required: true, hint: "Ex.: Foto: Nome / Wikimedia Commons (CC BY-SA 4.0)." }
+      - { label: "Fonte da capa", name: "coverSource", widget: "string", required: true, hint: "URL da página oficial ou do arquivo que comprova origem e licença." }
+      - { label: "Licença/autorização da capa", name: "coverLicense", widget: "string", required: true, hint: "Ex.: CC BY-SA 4.0, domínio público ou autorização escrita arquivada." }
+      - { label: "Exceção visual documentada", name: "visualException", widget: "text", required: false, hint: "Preencha somente quando nenhuma fotografia real puder ser usada legalmente; registre também a busca no arquivo editorial de fontes." }
+      - { label: "Atualizado em", name: "updated_at", widget: "datetime", required: false, format: "YYYY-MM-DDTHH:mm:ssZ" }
       - { label: "Destacar na capa da Revista?", name: "featured", widget: "boolean", required: false, default: false }
       - { label: "Conteúdo", name: "body", widget: "markdown" }
 

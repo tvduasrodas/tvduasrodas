@@ -9,7 +9,12 @@ readingTime: "10 min"
 kicker: "Apólice sem surpresa"
 summary: "Casco, roubo, terceiros, franquia e indenização integral não significam a mesma coisa em todas as apólices. Veja o que comparar antes de contratar um seguro para motocicleta."
 seoTitle: "Seguro de moto: coberturas, franquia e terceiros"
-cover: "/assets/img/uploads/seguro-moto-apolice-capa.svg"
+cover: "/assets/img/uploads/seguro-moto-assistencia-rodoviaria.webp"
+coverCredit: "Foto: Andrew Bone / Wikimedia Commons (CC BY 2.0)"
+coverSource: "https://commons.wikimedia.org/wiki/File:BMW_ADAC_Strassenwacht_(49553331658).jpg"
+coverLicense: "CC BY 2.0"
+coverType: "photo"
+updated_at: "2026-08-22"
 featured: true
 ---
 

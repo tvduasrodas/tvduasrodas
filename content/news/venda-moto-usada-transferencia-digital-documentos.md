@@ -9,7 +9,12 @@ readingTime: "10 min"
 kicker: "Documentação sem atalho"
 summary: "ATPV-e, comunicação de venda, vistoria, recall e comprovantes: veja como organizar a transferência de uma motocicleta usada e reduzir pendências para os dois lados."
 seoTitle: "Venda de moto usada: transferência e documentos"
-cover: "/assets/img/uploads/venda-moto-usada-transferencia-capa.svg"
+cover: "/assets/img/uploads/venda-moto-usada-foto-capa.webp"
+coverType: "photo"
+coverCredit: "Foto ilustrativa: jimmyweee / Wikimedia Commons (CC BY 2.0) — salão de motocicletas; não retrata uma transferência pela CDT."
+coverSource: "https://commons.wikimedia.org/wiki/File:GP_Motorcycles_Showroom_(4490841056).jpg"
+coverLicense: "CC BY 2.0"
+updated_at: "2026-08-22T12:00:00-04:00"
 featured: true
 ---
 

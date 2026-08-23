@@ -20,10 +20,24 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import unquote
 
+from audit_source_depth import evaluate as evaluate_source_depth
+
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE_URL = "https://tvduasrodas.com"
 TODAY = date.today().isoformat()
+LEGACY_PERSON_PAGES = {
+    "brendon-oliveira": ("Brendon Oliveira", "/atletas/brendon-pereira-de-oliveira/"),
+    "charleu-spricigo": ("Charleu Spricigo", "/atletas/charleu-augusto-spricigo/"),
+    "daniel-morandini": ("Daniel Morandini", "/competicoes/brasileiro-enduro-regularidade-2026/"),
+    "emerson-loth-bomba": ("Emerson Loth Bomba", "/atletas/emerson-loth-pereira/"),
+    "fabio-aparecido-santos": ("Fábio Aparecido Santos", "/atletas/fabio-aparecido-dos-santos/"),
+    "jan-pancar": ("Jan Pancar", "/competicoes/mxgp-2026/"),
+    "jeremy-seewer": ("Jeremy Seewer", "/competicoes/mxgp-2026/"),
+    "juan-viera": ("Juan Viera", "/atletas/juan-vieira/"),
+    "kayman-freire": ("Kayman Freire", "/competicoes/moto1000gp-2026/"),
+    "kevin-horgmo": ("Kevin Horgmo", "/competicoes/mxgp-2026/"),
+}
 ORG = {
     "@type": "NewsMediaOrganization",
     "@id": f"{BASE_URL}/#organizacao",
@@ -164,6 +178,26 @@ def esc(value: Any) -> str:
     return html.escape(str("" if value is None else value), quote=True)
 
 
+def truncate_at_word(value: Any, limit: int) -> str:
+    """Limita texto em uma palavra completa, reservando espaço para reticências."""
+    if limit <= 0:
+        return ""
+    text = re.sub(r"\s+", " ", str("" if value is None else value)).strip()
+    if len(text) <= limit:
+        return text
+    if limit == 1:
+        return "…"
+    budget = limit - 1
+    window = text[: budget + 1]
+    if window[budget].isspace():
+        shortened = window[:budget].rstrip()
+    else:
+        prefix = window[:budget]
+        shortened = prefix.rsplit(" ", 1)[0].rstrip() if " " in prefix else ""
+    shortened = shortened.rstrip(" ,;:—-")
+    return f"{shortened}…" if shortened else "…"
+
+
 def slugify(value: str) -> str:
     normalized = unicodedata.normalize("NFD", value)
     ascii_value = "".join(c for c in normalized if unicodedata.category(c) != "Mn")
@@ -206,10 +240,7 @@ def plain_excerpt(value: str, limit: int = 220) -> str:
     text = re.sub(r"<[^>]+>", " ", text)
     text = re.sub(r"[*_`#>|]", "", text)
     text = re.sub(r"\s+", " ", text).strip()
-    if len(text) <= limit:
-        return text
-    shortened = text[: limit + 1].rsplit(" ", 1)[0].rstrip(" ,;:—-")
-    return f"{shortened}…"
+    return truncate_at_word(text, limit)
 
 
 def iso_day(value: Any) -> str:
@@ -457,6 +488,16 @@ def public_editorial_text(text: str) -> str:
             r"A leitura automatizada foi usada como apoio; trechos ambíguos não foram publicados como fato\.",
             "",
         ),
+        (r"\bEsta página registra\b", "Este registro preserva"),
+        (r"\bleitura automatizada\b", "leitura preliminar do material"),
+        (r"\bprocessamento visual\b", "análise do material publicado"),
+        (r"\bFontes cruzadas\b", "Fontes públicas consultadas"),
+        (r"\bfonte específica independente\b", "outra publicação específica"),
+        (r"\bVerificação ainda aberta:\b", "Informações ainda pendentes:"),
+        (r"buscas textual, ampliada e visual/social", "pesquisa em fontes públicas"),
+        (r"\bLeitura visual complementar\b", "Informações adicionais"),
+        (r"\bFonte e atualização\b", "Fontes e contexto"),
+        (r"Use os links de fontes cruzadas abaixo", "Consulte as fontes públicas listadas ao fim da página"),
         (
             r"Canais impressos no material:[^.]*\.",
             "",
@@ -540,8 +581,11 @@ def page_shell(
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="/assets/js/google-consent-defaults.js?v=20260823a"></script>
+  <meta name="google-adsense-account" content="ca-pub-9006646182680550">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9006646182680550" crossorigin="anonymous"></script>
   <title>{esc(title)} | TVDUASRODAS</title>
-  <meta name="description" content="{esc(description[:160])}">
+  <meta name="description" content="{esc(truncate_at_word(description, 160))}">
   <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
   <link rel="canonical" href="{esc(canonical_url)}">
   <link rel="icon" href="/assets/img/logoTVicon_web.ico">
@@ -551,7 +595,7 @@ def page_shell(
   <meta property="og:type" content="{esc(page_type)}">
   <meta property="og:site_name" content="TVDUASRODAS">
   <meta property="og:title" content="{esc(title)}">
-  <meta property="og:description" content="{esc(description[:200])}">
+  <meta property="og:description" content="{esc(truncate_at_word(description, 200))}">
   <meta property="og:url" content="{esc(canonical_url)}">
   <meta property="og:image" content="{esc(image_url)}">
   <meta name="twitter:card" content="summary_large_image">
@@ -571,9 +615,9 @@ def page_shell(
   <main class="section"><div class="container seo-container">{body}</div></main>
   <footer class="site-footer"><div class="container footer-inner"><div class="footer-left">
     <p>© TVDUASRODAS — conteúdo sobre o universo das duas rodas.</p>
-    <p class="footer-small"><a href="/sobre">Sobre</a> · <a href="/contato">Contato</a> · <a href="/sitemap.xml">Sitemap</a></p>
+    <p class="footer-small"><a href="/sobre">Sobre</a> · <a href="/equipe">Equipe</a> · <a href="/contato">Contato</a> · <a href="/politica-editorial">Política editorial</a> · <a href="/politica-de-correcoes">Correções</a> · <a href="/politica-de-privacidade">Privacidade</a> · <a href="/termos">Termos</a> · <a href="/sitemap.xml">Sitemap</a></p>
   </div></div></footer>
-  <script src="/assets/js/ads.js?v=20260726ga1"></script>
+  <script src="/assets/js/ads.js?v=20260823a"></script>
 {scripts}
 </body>
 </html>
@@ -593,45 +637,55 @@ def write_page(path: str, content: str) -> None:
     target.write_text(content, encoding="utf-8", newline="\n")
 
 
-def write_event_aliases() -> int:
-    """Mantém rotas duplicadas acessíveis e aponta cada uma à página canônica."""
-    agenda_path = ROOT / "content/events/agenda-comunitaria-2026.json"
-    if not agenda_path.exists():
-        return 0
-    agenda = json.loads(read_text(agenda_path))
-    written = 0
-    for entry in agenda.get("entries", []):
-        alias = entry.get("slug")
-        canonical = entry.get("duplicate_of")
-        competition = entry.get("competition_slug") if entry.get("reclassified_as") == "competition" else ""
-        if competition:
-            target_url = f"/competicoes/{competition}/"
-        elif canonical:
-            target_url = f"/eventos/{canonical}/"
-        else:
-            continue
-        if not alias:
-            continue
-        title = esc(entry.get("title") or "Evento")
-        output = f"""<!doctype html>
-<html lang="pt-BR">
-<head>
-  <meta charset="utf-8">
-  <meta name="robots" content="noindex,follow">
-  <meta name="description" content="Rota alternativa de {title}; acesse a página canônica completa e atualizada na TVDUASRODAS.">
-  <meta http-equiv="refresh" content="0; url={esc(target_url)}">
-  <link rel="canonical" href="{esc(absolute_url(target_url))}">
-  <title>{title} | TVDUASRODAS</title>
-</head>
-<body>
-  <h1>{title}</h1>
-  <p>Esta página foi consolidada. <a href="{esc(target_url)}">Acesse a versão completa e atualizada do evento</a>.</p>
-</body>
-</html>
-"""
-        write_page(f"/eventos/{alias}/", output)
-        written += 1
-    return written
+def refresh_legacy_person_page(slug: str, name: str, related_url: str) -> None:
+    """Keep historical athlete URLs complete, current and self-canonical."""
+    target = ROOT / "atletas" / slug / "index.html"
+    if not target.exists():
+        raise FileNotFoundError(f"Página histórica de atleta ausente: {target}")
+    content = target.read_text(encoding="utf-8")
+    if "google-consent-defaults.js" not in content:
+        scripts = (
+            '  <script src="/assets/js/google-consent-defaults.js?v=20260823a"></script>\n'
+            '  <meta name="google-adsense-account" content="ca-pub-9006646182680550">\n'
+            '  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9006646182680550" crossorigin="anonymous"></script>\n'
+        )
+        content = re.sub(
+            r'(<meta name="viewport"[^>]*>\s*)',
+            lambda match: match.group(1) + scripts,
+            content,
+            count=1,
+        )
+    marker = 'id="registro-relacionado-legado"'
+    if marker not in content:
+        note = (
+            '<aside class="seo-source" id="registro-relacionado-legado">'
+            '<strong>Endereço histórico preservado</strong><p>Este endereço mantém a forma do nome '
+            'usada em uma classificação publicada anteriormente. Ele continua público, indexável e '
+            'autocanônico; a referência relacionada abaixo permite consultar a grafia atual ou a '
+            f'competição de origem sem apagar este registro. <a href="{esc(related_url)}">'
+            'Consultar o registro relacionado</a>.</p></aside>\n'
+        )
+        content = content.replace("</article></div></main>", note + "</article></div></main>", 1)
+    trust_links = (
+        '<p class="footer-small"><a href="/sobre">Sobre</a> · <a href="/equipe">Equipe</a> · '
+        '<a href="/contato">Contato</a> · <a href="/politica-editorial">Política editorial</a> · '
+        '<a href="/politica-de-correcoes">Correções</a> · '
+        '<a href="/politica-de-privacidade">Privacidade</a> · <a href="/termos">Termos</a> · '
+        '<a href="/sitemap.xml">Sitemap</a></p>'
+    )
+    content = re.sub(
+        r'<p class="footer-small">.*?</p>',
+        trust_links,
+        content,
+        count=1,
+        flags=re.DOTALL,
+    )
+    content = re.sub(
+        r'/assets/js/ads\.js\?v=[^"]+',
+        '/assets/js/ads.js?v=20260823a',
+        content,
+    )
+    target.write_text(unicodedata.normalize("NFC", content), encoding="utf-8", newline="\n")
 
 
 def card(item: dict[str, Any]) -> str:
@@ -651,7 +705,7 @@ def card(item: dict[str, Any]) -> str:
     return (
         f'<article class="seo-card{video_class}">{media}<div><span class="seo-eyebrow">{esc(eyebrow)}</span>'
         f'<h3><a href="{esc(item["url"])}">{esc(item["title"])}</a></h3>'
-        f'<p>{esc(item.get("summary", ""))}</p></div></article>'
+        f'<p>{esc(public_editorial_text(item.get("summary", "")))}</p></div></article>'
     )
 
 
@@ -730,12 +784,99 @@ def relation_blocks(item: dict[str, Any], all_items: list[dict[str, Any]]) -> st
 
 
 def render_research_sources(data: dict[str, Any], *, fallback_url: str = "") -> str:
-    """Mantém a auditoria no registro interno, sem expô-la na página pública."""
-    return ""
+    """Render the public evidence trail without exposing internal workflow notes."""
+    candidates = data.get("sources") if isinstance(data.get("sources"), list) else []
+    candidates = [source for source in candidates if isinstance(source, dict)]
+    for url, label in (
+        (data.get("source_url"), data.get("source_label") or "Fonte do registro"),
+        (fallback_url, "Página oficial"),
+    ):
+        if url:
+            candidates.append({"url": url, "label": label, "supports": "identificação e informações públicas"})
+
+    sources: list[dict[str, str]] = []
+    seen: set[str] = set()
+    for source in candidates:
+        url = str(source.get("url") or "").strip()
+        if not url.startswith(("https://", "http://")) or url in seen:
+            continue
+        seen.add(url)
+        sources.append({
+            "url": url,
+            "label": public_editorial_text(str(source.get("label") or "Fonte pública consultada")),
+            "supports": public_editorial_text(str(source.get("supports") or "")),
+        })
+        if len(sources) == 8:
+            break
+
+    checked = data.get("source_checked_at") or data.get("last_updated")
+    checked_note = (
+        f" <span>Consulta editorial: {esc(br_date(checked))}.</span>"
+        if checked else ""
+    )
+    if not sources:
+        return (
+            '<section class="seo-sources"><h2>Fontes públicas consultadas</h2>'
+            f'<p>A página registra somente os dados disponíveis no acervo editorial.{checked_note}</p></section>'
+        )
+    links = "".join(
+        '<li><a href="{url}" target="_blank" rel="noopener noreferrer">{label}</a>{supports}</li>'.format(
+            url=esc(source["url"]),
+            label=esc(source["label"]),
+            supports=(f' — confirma {esc(source["supports"])}' if source["supports"] else ""),
+        )
+        for source in sources
+    )
+    return (
+        '<section class="seo-sources"><h2>Fontes públicas consultadas</h2>'
+        f'<p>Links usados para conferir os fatos publicados nesta página.{checked_note}</p>'
+        f'<ul>{links}</ul></section>'
+    )
+
+
+def render_verified_facts(data: dict[str, Any]) -> str:
+    """Summarize only populated service fields already present in the record."""
+    location = data.get("full_address") or data.get("street_address") or data.get("venue") or data.get("location")
+    facts = [
+        ("Data", br_date_range(data.get("start_date"), data.get("end_date"))),
+        ("Horário divulgado", data.get("time_label") or data.get("local_start")),
+        ("Local", location),
+        ("Organização", data.get("organizer")),
+        ("Acesso", data.get("admission_status")),
+        ("Estacionamento", data.get("parking")),
+        ("Contato público", data.get("contact")),
+    ]
+    placeholder = re.compile(r"a confirmar|ainda não|não informad|não divulgad|confirme com", re.I)
+    rows = "".join(
+        f'<div><dt>{esc(label)}</dt><dd>{esc(public_editorial_text(str(value)))}</dd></div>'
+        for label, value in facts
+        if value and not placeholder.search(str(value))
+    )
+    attractions = [
+        public_editorial_text(str(value))
+        for value in data.get("attractions", [])
+        if str(value).strip()
+    ][:8]
+    attractions_html = (
+        '<h3>Atrações ou atividades divulgadas</h3><ul>'
+        + "".join(f"<li>{esc(value)}</li>" for value in attractions)
+        + "</ul>"
+        if attractions else ""
+    )
+    if not rows and not attractions_html:
+        return ""
+    return (
+        '<section class="seo-verified"><h2>O que foi verificado</h2>'
+        '<p>Resumo dos dados confirmados nas fontes públicas registradas no acervo editorial.</p>'
+        f'<dl class="seo-facts">{rows}</dl>{attractions_html}</section>'
+    )
 
 
 def classify(item: dict[str, Any]) -> None:
     normalized = normalize(item.get("search_text", ""))
+    # Reused when building hundreds of athlete pages. Caching it here avoids
+    # normalizing the complete editorial corpus once per person.
+    item["_normalized_search_text"] = normalized
     explicit_topics = item.pop("_explicit_topics", [])
     explicit_brands = item.pop("_explicit_brands", [])
     topics_defined = item.pop("_explicit_topics_defined", False)
@@ -767,10 +908,15 @@ def load_content() -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]
         item = {
             "kind": "article", "kind_label": "Matéria", "slug": slug, "title": title,
             "summary": summary, "body": body, "date": meta.get("date", TODAY),
+            "updated_at": meta.get("updated_at") or meta.get("date", TODAY),
             "lastmod": iso_day(meta.get("updated_at") or meta.get("date")),
             "category": category_label(meta.get("category", "Revista")), "author": meta.get("author", "Redação TVDUASRODAS"),
             "ad_category": meta.get("ad_category", ""),
             "image": meta.get("cover", ""), "url": f"/materias/{slugify(slug)}/",
+            "cover_credit": meta.get("coverCredit", ""),
+            "cover_source": meta.get("coverSource", ""),
+            "cover_license": meta.get("coverLicense", ""),
+            "cover_type": meta.get("coverType", ""),
             "_explicit_topics": [
                 value.strip() for value in str(meta.get("topics", "")).split(",")
                 if value.strip() in TOPICS
@@ -836,6 +982,8 @@ def load_content() -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]
                 "number": result.get("number", ""),
                 "nationality": result.get("nationality", ""),
                 "profile_url": result.get("profile_url", ""),
+                "date": result.get("date") or data.get("last_updated", ""),
+                "source_url": result.get("source_url") or data.get("results_url") or data.get("official_url", ""),
             })
         latest_result = data.get("latest_result") or {}
         for result in latest_result.get("classification", []):
@@ -856,6 +1004,8 @@ def load_content() -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]
                 "number": result.get("number", ""),
                 "nationality": result.get("nationality", ""),
                 "profile_url": result.get("profile_url", ""),
+                "date": result.get("date") or latest_result.get("date") or data.get("last_updated", ""),
+                "source_url": result.get("source_url") or data.get("results_url") or data.get("official_url", ""),
             })
 
     for path in sorted((ROOT / "content/events").glob("*.json")):
@@ -871,6 +1021,7 @@ def load_content() -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]
             "category": data.get("event_type", "Evento"), "image": data.get("cover", ""),
             "ad_category": data.get("ad_category", ""),
             "url": f"/eventos/{slug}/", "data": data,
+            "source_kind": "evento",
             "search_text": json.dumps(data, ensure_ascii=False),
         }
         items.append(item)
@@ -879,29 +1030,13 @@ def load_content() -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]
     if community_path.exists():
         community = json.loads(read_text(community_path))
         existing_event_slugs = {item["slug"] for item in items if item["kind"] == "event"}
-        existing_event_keys = {
-            (
-                slugify(re.sub(r"\b2026\b", "", item["title"])),
-                slugify(item["data"].get("city", "")),
-                item["data"].get("start_date", ""),
-            )
-            for item in items if item["kind"] == "event"
-        }
         for data in community.get("entries", []):
-            if data.get("duplicate_of") or data.get("reclassified_as") == "competition":
-                continue
             slug = data.get("slug") or slugify(
                 f"{data.get('title', '')}-{data.get('city', '')}-{data.get('state', '')}-{data.get('start_date', '')}"
             )
-            event_key = (
-                slugify(re.sub(r"\b2026\b", "", data.get("title", ""))),
-                slugify(data.get("city", "")),
-                data.get("start_date", ""),
-            )
-            if not slug or slug in existing_event_slugs or event_key in existing_event_keys:
+            if not slug or slug in existing_event_slugs:
                 continue
             existing_event_slugs.add(slug)
-            existing_event_keys.add(event_key)
             item = {
                 "kind": "event", "kind_label": "Evento", "slug": slug,
                 "title": data.get("title", slug), "summary": format_visible_dates(data.get("summary", "")),
@@ -910,6 +1045,7 @@ def load_content() -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]
                 "category": data.get("event_type", "Evento"), "image": data.get("cover", ""),
                 "ad_category": data.get("ad_category", ""),
                 "url": f"/eventos/{slug}/", "data": data,
+                "source_kind": "agenda",
                 "search_text": json.dumps(data, ensure_ascii=False),
             }
             items.append(item)
@@ -919,24 +1055,35 @@ def load_content() -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]
     for data in calendar.get("entries", []):
         if data.get("competition_slug"):
             continue
-        slug = slugify(f"{data.get('title', '')}-{data.get('start_date', '')}")
-        if not slug or slug in existing:
-            continue
-        modality = data.get("modality", "")
-        item = {
-            "kind": "event", "kind_label": "Evento do calendário", "slug": slug,
-            "title": data.get("title", slug),
-            "summary": format_visible_dates(data.get("summary") or " · ".join(filter(None, (data.get("stage"), data.get("city"), data.get("state"))))),
-            "body": format_visible_dates(data.get("body") or f"## Sobre a prova\n\n{data.get('title')} integra o calendário monitorado pela TVDUASRODAS. Consulte a fonte oficial para confirmar programação, inscrições e alterações."),
-            "date": data.get("start_date", TODAY),
-            "lastmod": iso_day(data.get("last_updated") or data.get("source_checked_at") or data.get("start_date")),
-            "category": modality or "Evento",
-            "image": data.get("cover") or "/assets/img/competicoes-eventos-default.svg",
-            "url": f"/eventos/{slug}/", "data": data,
-            "modalities": [(slugify(modality), modality)] if modality else [],
-            "search_text": json.dumps(data, ensure_ascii=False),
-        }
-        items.append(item)
+        derived_slug = slugify(f"{data.get('title', '')}-{data.get('start_date', '')}")
+        primary_slug = str(data.get("slug") or derived_slug).strip()
+        related_slugs = [
+            str(value).strip() for value in data.get("related_slugs", [])
+            if str(value).strip()
+        ]
+        for slug in dict.fromkeys([primary_slug, *related_slugs]):
+            if not slug or slug in existing:
+                continue
+            existing.add(slug)
+            modality = data.get("modality", "")
+            event_data = dict(data)
+            if slug != primary_slug:
+                event_data["duplicate_of"] = primary_slug
+            item = {
+                "kind": "event", "kind_label": "Evento do calendário", "slug": slug,
+                "title": event_data.get("title", slug),
+                "summary": format_visible_dates(event_data.get("summary") or " · ".join(filter(None, (event_data.get("stage"), event_data.get("city"), event_data.get("state"))))),
+                "body": format_visible_dates(event_data.get("body") or f"## Sobre a prova\n\n{event_data.get('title')} integra o calendário monitorado pela TVDUASRODAS. Consulte a fonte oficial para confirmar programação, inscrições e alterações."),
+                "date": event_data.get("start_date", TODAY),
+                "lastmod": iso_day(event_data.get("last_updated") or event_data.get("source_checked_at") or event_data.get("start_date")),
+                "category": modality or "Evento",
+                "image": event_data.get("cover") or "/assets/img/competicoes-eventos-default.svg",
+                "url": f"/eventos/{slug}/", "data": event_data,
+                "source_kind": "calendario",
+                "modalities": [(slugify(modality), modality)] if modality else [],
+                "search_text": json.dumps(event_data, ensure_ascii=False),
+            }
+            items.append(item)
 
     for path in sorted((ROOT / "content/articles").glob("*.json")):
         data = json.loads(read_text(path))
@@ -961,27 +1108,46 @@ def load_content() -> tuple[list[dict[str, Any]], dict[str, list[dict[str, Any]]
 
 def render_article(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
     canonical = item["url"]
-    image = item.get("image") or "/assets/img/logotv.png"
+    image = item.get("image", "")
     article_schema = {
         "@type": "NewsArticle",
         "@id": f"{absolute_url(canonical)}#artigo",
         "headline": item["title"],
         "description": item["summary"],
         "datePublished": item["date"],
-        "dateModified": item["date"],
+        "dateModified": item["updated_at"],
         "mainEntityOfPage": absolute_url(canonical),
-        "image": [absolute_url(image)],
-        "author": {"@type": "Organization", "name": item["author"]},
+        "author": {
+            "@type": "Organization",
+            "name": item["author"],
+            "url": absolute_url("/equipe"),
+        },
         "publisher": ORG,
         "articleSection": item["category"],
         "inLanguage": "pt-BR",
     }
+    if image:
+        article_schema["image"] = [absolute_url(image)]
+    cover_caption_parts = []
+    if item.get("cover_credit"):
+        cover_caption_parts.append(esc(item["cover_credit"]))
+    if item.get("cover_source"):
+        cover_caption_parts.append(
+            f'<a href="{esc(item["cover_source"])}" target="_blank" '
+            'rel="noopener noreferrer">Fonte da imagem ↗</a>'
+        )
+    if item.get("cover_license"):
+        cover_caption_parts.append(f'Licença: {esc(item["cover_license"])}')
+    cover_caption = (
+        f'<figcaption>{" · ".join(cover_caption_parts)}</figcaption>'
+        if cover_caption_parts else ""
+    )
     body = f"""
 <nav class="seo-breadcrumb"><a href="/">Início</a> › <a href="/materias/">Matérias</a> › {esc(item["category"])}</nav>
 <article class="seo-article">
   <header><span class="seo-eyebrow">{esc(item["category"])}</span><h1>{esc(item["title"])}</h1>
-  <p class="seo-lead">{esc(item["summary"])}</p><p class="seo-meta">Por {esc(item["author"])} · {esc(br_date(item["date"]))}</p></header>
-  {f'<figure class="seo-hero"><img src="{esc(image)}" alt="{esc(item["title"])}"><figcaption>{esc(item["title"])}</figcaption></figure>' if image else ""}
+  <p class="seo-lead">{esc(item["summary"])}</p><p class="seo-meta">Por <a href="/equipe">{esc(item["author"])}</a> · {esc(br_date(item["date"]))}</p></header>
+  {f'<figure class="seo-hero"><img src="{esc(image)}" alt="{esc(item["title"])}">{cover_caption}</figure>' if image else ""}
   <aside class="tdr-ad-slot" data-ad-slot="article-sidebar"{ad_override(item)} aria-label="Publicidade relacionada à matéria"></aside>
   <div class="seo-prose">{markdown(format_visible_dates(item["body"]))}</div>
   <aside class="tdr-ad-slot" data-ad-slot="article-inline"{ad_override(item)} aria-label="Banner relacionado à matéria"></aside>
@@ -990,7 +1156,7 @@ def render_article(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str
     return page_shell(
         title=item["title"], description=item["summary"], canonical=canonical, body=body,
         schemas=[article_schema, breadcrumb_schema([("Início", "/"), ("Matérias", "/materias/"), (item["title"], canonical)])],
-        image=image, page_type="article",
+        image=image or "/assets/img/logotv.png", page_type="article",
     )
 
 
@@ -1199,6 +1365,7 @@ def render_event(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
     data = item["data"]
     canonical = item["url"]
     public_summary = public_editorial_text(item["summary"])
+    is_correction_record = data.get("schema_type") == "WebPage"
     location_name = public_editorial_text(
         data.get("venue") or data.get("location") or data.get("city") or "Local a confirmar"
     )
@@ -1268,11 +1435,25 @@ def render_event(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
             "url": data.get("ticket_url") or data.get("official_url") or absolute_url(canonical),
             "validFrom": offer_valid_from(data, None, item["lastmod"]),
         }
+    if is_correction_record:
+        # This URL documents an unconfirmed legacy claim. Publishing Event
+        # structured data here would falsely tell search engines it is scheduled.
+        schema = {
+            "@type": "WebPage",
+            "@id": f"{absolute_url(canonical)}#pagina",
+            "name": item["title"],
+            "description": public_summary,
+            "url": absolute_url(canonical),
+            "inLanguage": "pt-BR",
+            "isPartOf": {"@id": f"{BASE_URL}/#website"},
+        }
     source_label = {
         "agenda_comunitaria": "Ver divulgação do evento ↗",
         "flyer_inspecionado_visual": "Ver divulgação do evento ↗",
     }.get(data.get("verification_status"), "Visitar site oficial do evento ↗")
-    relations = "" if data.get("verification_status") == "agenda_comunitaria" else relation_blocks(item, all_items)
+    if is_correction_record:
+        source_label = "Consultar portal turístico municipal ↗"
+    relations = relation_blocks(item, all_items)
     time_label = public_editorial_text(data.get("time_label") or "Horário ainda não divulgado")
     full_address = public_editorial_text(
         data.get("full_address")
@@ -1283,17 +1464,91 @@ def render_event(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
         or ("Entrada gratuita" if data.get("free") else "Confirme com a organização")
     )
     parking = public_editorial_text(data.get("parking") or "Ainda não informado pela organização")
-    lifecycle_note = (
+    if is_correction_record:
+        service_html = (
+            '<section class="seo-service">'
+            '<div><span>Situação do registro</span><strong>Evento de 2026 não confirmado</strong>'
+            '<small>URL histórica preservada e indexável</small></div>'
+            f'<div><span>Local citado no cadastro antigo</span><strong>{esc(location_name)}</strong>'
+            f'<small>{esc(" · ".join(filter(None, (data.get("city"), data.get("state")))))}</small></div>'
+            '<div><span>Data no endereço antigo</span><strong>Não usar como confirmação</strong>'
+            '<small>A data do slug faz parte do registro legado, não de uma divulgação verificada.</small></div>'
+            '<div><span>Orientação</span><strong>Consulte as fontes e a nota de correção</strong></div>'
+            '</section>'
+        )
+    else:
+        service_html = (
+            '<section class="seo-service">'
+            f'<div><span>Data e horário</span><strong>{esc(br_date_range(data.get("start_date"), data.get("end_date")))}</strong><small>{esc(time_label)}</small></div>'
+            f'<div><span>Endereço</span><strong>{esc(location_name)}</strong><small>{esc(full_address)}</small></div>'
+            f'<div><span>Acesso</span><strong>{esc(admission)}</strong></div>'
+            f'<div><span>Estacionamento</span><strong>{esc(parking)}</strong></div>'
+            + (f'<div><span>Organização</span><strong>{esc(organizer)}</strong></div>' if organizer_is_known else '')
+            + '</section>'
+        )
+    related_records: list[str] = []
+    duplicate_slug = str(data.get("duplicate_of") or "").strip()
+    if duplicate_slug:
+        duplicate_url = f"/eventos/{duplicate_slug}/"
+        related_records.append(
+            '<p>Esta página preserva a grafia e as informações do registro recebido '
+            'na agenda. O cadastro editorial também o relaciona a outro registro do '
+            'mesmo anúncio; esse vínculo permite comparar os dados e não significa '
+            'que tenham ocorrido dois eventos distintos. '
+            f'<a href="{esc(duplicate_url)}">Consultar o registro de evento relacionado</a>.</p>'
+        )
+    competition_slug = (
+        str(data.get("competition_slug") or "").strip()
+        if data.get("reclassified_as") == "competition"
+        else ""
+    )
+    if competition_slug:
+        competition_url = f"/competicoes/{competition_slug}/"
+        related_records.append(
+            '<p>Este registro preserva a grafia e as informações recebidas na agenda '
+            'comunitária. Ele também está ligado ao calendário esportivo indicado '
+            'abaixo; o vínculo apresenta o contexto da competição e não representa '
+            'um segundo evento. '
+            f'<a href="{esc(competition_url)}">Consultar o calendário relacionado</a>.</p>'
+        )
+    related_record_section = (
+        '<section class="seo-source" id="registro-relacionado">'
+        '<h2>Registro relacionado</h2>'
+        + "".join(related_records)
+        + "</section>"
+        if related_records
+        else ""
+    )
+    official_url = str(data.get("official_url") or "").strip()
+    if is_correction_record:
+        lifecycle_note = (
+            '<aside class="seo-source"><strong>Registro histórico de correção — página preservada</strong>'
+            '<p>Esta URL permanece pública, indexável, autocanônica e presente nos sitemaps. '
+            'A redação não localizou divulgação específica que confirme o evento indicado no '
+            'cadastro antigo; por isso, a página documenta o conflito sem inventar programação, '
+            'local, organização ou realização.</p></aside>'
+        )
+    elif event_completed:
+        lifecycle_note = (
         '<aside class="seo-source"><strong>Evento encerrado — página preservada</strong>'
         '<p>Esta URL continua pública, indexável e disponível no sitemap como registro '
         'histórico. A página pode receber resultados, fotos, vídeos e atualizações '
         'publicadas após o evento.</p></aside>'
-        if event_completed
-        else
-        '<aside class="seo-source"><strong>Confirme antes de ir</strong><p>Programação, '
-        f'endereço e regras podem mudar. <a href="{esc(data.get("official_url", "#"))}" '
-        'target="_blank" rel="noopener noreferrer">Consulte a organização do evento</a>.'
-        '</p></aside>'
+        )
+    else:
+        verification_link = (
+            f'<a href="{esc(official_url)}" target="_blank" rel="noopener noreferrer">Consulte a organização do evento</a>.'
+            if official_url
+            else 'Consulte as fontes públicas listadas nesta página antes do deslocamento.'
+        )
+        lifecycle_note = (
+            '<aside class="seo-source"><strong>Confirme antes de ir</strong><p>Programação, '
+            f'endereço e regras podem mudar. {verification_link}</p></aside>'
+        )
+    source_cta = (
+        f'<div class="ce-actions"><a class="btn btn-primary" href="{esc(official_url)}" target="_blank" rel="noopener">{esc(source_label)}</a></div>'
+        if official_url
+        else ""
     )
     body = f"""
 <nav class="seo-breadcrumb"><a href="/">Início</a> › <a href="/competicoes-eventos">Eventos</a> › {esc(item["title"])}</nav>
@@ -1303,15 +1558,13 @@ def render_event(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
   {('<div class="ce-actions"><a class="btn btn-outline" href="' + esc(data.get("ticket_url")) + '" target="_blank" rel="noopener">Ingressos / acesso ↗</a></div>') if data.get("ticket_url") and data.get("ticket_url") != data.get("official_url") else ''}</header>
   <aside class="tdr-ad-slot" data-ad-slot="detail-billboard" data-ad-category-override="eventos" aria-label="Patrocínio da cobertura do evento"></aside>
   <figure class="seo-hero seo-artwork-hero"><img src="{esc(item["image"])}" alt="{esc(item["title"])}">{('<span class="seo-artwork-hero__label"><small>TVDUASRODAS · Evento</small><strong>' + esc(item["title"]) + '</strong></span>') if 'competicoes-eventos-default' in item["image"] else ''}<figcaption>{esc(data.get("image_credit"))}</figcaption></figure>
-  <section class="seo-service"><div><span>Data e horário</span><strong>{esc(br_date_range(data.get("start_date"), data.get("end_date")))}</strong><small>{esc(time_label)}</small></div>
-  <div><span>Endereço</span><strong>{esc(location_name)}</strong><small>{esc(full_address)}</small></div>
-  <div><span>Acesso</span><strong>{esc(admission)}</strong></div>
-  <div><span>Estacionamento</span><strong>{esc(parking)}</strong></div>
-  {('<div><span>Organização</span><strong>' + esc(organizer) + '</strong></div>') if organizer_is_known else ''}</section>
+  {service_html}
+  {render_verified_facts(data)}
   <div class="seo-prose">{markdown(public_editorial_text(item["body"]))}</div>
+  {related_record_section}
   {lifecycle_note}
-  {render_research_sources(data, fallback_url=data.get("official_url", ""))}
-  <div class="ce-actions"><a class="btn btn-primary" href="{esc(data.get("official_url"))}" target="_blank" rel="noopener">{esc(source_label)}</a></div>
+  {render_research_sources(data, fallback_url=("" if is_correction_record else data.get("official_url", "")))}
+  {source_cta}
   {relations}
 </article>"""
     body = "\n".join(line.rstrip() for line in body.splitlines())
@@ -1349,9 +1602,10 @@ def render_guide(item: dict[str, Any], all_items: list[dict[str, Any]]) -> str:
 def render_person(name: str, records: list[dict[str, Any]], all_items: list[dict[str, Any]]) -> tuple[str, str]:
     slug = slugify(name)
     canonical = f"/atletas/{slug}/"
+    normalized_name = normalize(name)
     mentioned = [
         item for item in all_items
-        if normalize(name) in normalize(item.get("search_text", ""))
+        if normalized_name in item.get("_normalized_search_text", "")
     ]
     first = max(
         records,
@@ -1368,10 +1622,19 @@ def render_person(name: str, records: list[dict[str, Any]], all_items: list[dict
         f"{name}: classificação, equipe e resultados no {competition_name}. "
         f"Veja a posição na {category}, a pontuação publicada e as fontes oficiais."
     )
+    competition_count = len({record["competition"]["url"] for record in records})
+    categories = sorted({str(record.get("category") or "").strip() for record in records if record.get("category")})
+    teams = sorted({str(record.get("team") or "").strip() for record in records if record.get("team")})
+    record_summary = (
+        f"O acervo reúne {len(records)} registro(s) em {competition_count} competição(ões), "
+        f"com {len(categories)} categoria(s) e {len(teams)} equipe(s) identificada(s)."
+    )
     rows = "".join(
         f'<tr><td><a href="{esc(record["competition"]["url"])}">{esc(record["competition"]["title"])}</a></td>'
         f'<td>{esc(record["category"])}</td><td><strong>{esc(record["position"])}</strong></td>'
-        f'<td>{esc(record["team"])}</td><td>{esc(record["result"])}</td></tr>'
+        f'<td>{esc(record["team"])}</td><td>{esc(record["result"])}</td>'
+        f'<td>{esc(br_date(record.get("date")))}</td>'
+        f'<td>{("<a href=\"" + esc(record["source_url"]) + "\" target=\"_blank\" rel=\"noopener noreferrer\">Fonte oficial ↗</a>") if record.get("source_url") else "—"}</td></tr>'
         for record in records
     )
     cards = "".join(card(item) for item in mentioned[:8])
@@ -1415,10 +1678,10 @@ def render_person(name: str, records: list[dict[str, Any]], all_items: list[dict
     body = f"""
 <nav class="seo-breadcrumb"><a href="/">Início</a> › <a href="/atletas/">Atletas e pilotos</a> › {esc(name)}</nav>
 <article class="seo-article"><header><span class="seo-eyebrow">Atleta ou piloto em resultados publicados</span>
-<h1>{esc(name)}</h1><p class="seo-lead">{esc(description)}</p>{official_profile}</header>
+<h1>{esc(name)}</h1><p class="seo-lead">{esc(description)}</p><p>{esc(record_summary)}</p>{official_profile}</header>
 {f'<section class="seo-service seo-athlete-facts">{facts}</section>' if facts else ""}
 <section><h2>Resultados de {esc(name)}</h2><div class="seo-table"><table>
-<thead><tr><th>Competição</th><th>Categoria</th><th>Posição</th><th>Equipe</th><th>Resultado</th></tr></thead><tbody>{rows}</tbody></table></div></section>
+<thead><tr><th>Competição</th><th>Categoria</th><th>Posição</th><th>Equipe</th><th>Resultado</th><th>Data de referência</th><th>Fonte</th></tr></thead><tbody>{rows}</tbody></table></div></section>
 {f'<section><h2>Matérias e páginas relacionadas</h2><div class="seo-grid">{cards}</div></section>' if cards else ""}
 <aside class="seo-source"><strong>Sobre esta página</strong><p>Esta é uma página de referência editorial baseada nas classificações publicadas pelas entidades e organizadores. Não é um perfil oficial da pessoa.</p></aside>
 </article>"""
@@ -1428,11 +1691,58 @@ def render_person(name: str, records: list[dict[str, Any]], all_items: list[dict
     )
 
 
+def render_people_index(collection: list[dict[str, Any]]) -> str:
+    groups: dict[str, list[dict[str, Any]]] = defaultdict(list)
+    for item in sorted(collection, key=lambda value: normalize(value["title"])):
+        initial = normalize(item["title"])[:1].upper() or "#"
+        groups[initial].append(item)
+    alphabet = "".join(
+        f'<a href="/atletas/#{esc(initial)}">{esc(initial)}</a>'
+        for initial in groups
+    )
+    sections = "".join(
+        f'<section id="{esc(initial)}"><h2>{esc(initial)}</h2><p>{len(items)} nome(s) com resultados publicados.</p>'
+        f'<div class="seo-grid">{"".join(card(item) for item in items)}</div></section>'
+        for initial, items in groups.items()
+    )
+    description = (
+        "Índice alfabético de atletas e pilotos citados em classificações oficiais "
+        "publicadas pela TVDUASRODAS."
+    )
+    body = f"""
+<nav class="seo-breadcrumb"><a href="/">Início</a> › Atletas e pilotos</nav>
+<header class="seo-collection-header"><span class="seo-eyebrow">Resultados documentados</span><h1>Atletas e pilotos</h1>
+<p class="seo-lead">{esc(description)}</p>
+<p>Este índice reúne {len(collection)} nomes. Cada perfil agrega todas as posições, categorias, equipes, datas de referência, competições e links de fonte disponíveis no acervo.</p>
+<p>Os nomes são organizados alfabeticamente para facilitar a consulta. As páginas são referências editoriais baseadas em resultados publicados por entidades e organizadores; não são perfis oficiais dos competidores.</p></header>
+<nav class="seo-relations" aria-label="Navegação alfabética">{alphabet}</nav>{sections}"""
+    schema = {
+        "@type": "CollectionPage",
+        "@id": f"{BASE_URL}/atletas/#colecao",
+        "name": "Atletas e pilotos",
+        "description": description,
+        "url": f"{BASE_URL}/atletas/",
+        "hasPart": [
+            {"@type": "Person", "name": item["title"], "url": absolute_url(item["url"])}
+            for item in collection
+        ],
+        "inLanguage": "pt-BR",
+    }
+    return page_shell(
+        title="Atletas e pilotos",
+        description=description,
+        canonical="/atletas/",
+        body=body,
+        schemas=[schema, breadcrumb_schema([("Início", "/"), ("Atletas e pilotos", "/atletas/")])],
+    )
+
+
 def render_collection(
     *, label: str, description: str, canonical: str, collection: list[dict[str, Any]],
     breadcrumb_parent: tuple[str, str] | None = None,
 ) -> str:
-    cards = "".join(card(item) for item in sorted(collection, key=lambda x: (x.get("lastmod", ""), x["title"]), reverse=True))
+    ordered = sorted(collection, key=lambda x: (x.get("lastmod", ""), x["title"]), reverse=True)
+    cards = "".join(card(item) for item in ordered)
     lead_ad = (
         '<aside class="tdr-ad-slot" data-ad-slot="article-inline" aria-label="Publicidade entre as matérias"></aside>'
         if canonical == "/materias/" else ""
@@ -1451,10 +1761,28 @@ def render_collection(
     if breadcrumb_parent:
         crumbs.append(breadcrumb_parent)
     crumbs.append((label, canonical))
+    kinds: dict[str, int] = defaultdict(int)
+    for item in collection:
+        kinds[str(item.get("kind_label") or item.get("kind") or "Conteúdo")] += 1
+    breakdown = ", ".join(
+        f"{count} {kind.lower()}" for kind, count in sorted(kinds.items())
+    )
+    dates = sorted({str(item.get("lastmod") or "") for item in collection if item.get("lastmod")})
+    date_note = (
+        f" O período documentado vai de {br_date(dates[0])} a {br_date(dates[-1])}."
+        if dates else ""
+    )
+    context = (
+        '<section class="seo-collection-context"><h2>Sobre esta coleção</h2>'
+        f'<p>Esta página reúne {len(collection)} item(ns) do acervo público'
+        f'{(" — " + esc(breakdown)) if breakdown else ""}.{esc(date_note)}</p>'
+        '<p>Os cards apontam para páginas canônicas com contexto, data e relações editoriais. '
+        'A coleção é atualizada quando novas matérias, vídeos, eventos, competições ou guias são publicados.</p></section>'
+    )
     body = f"""
 <nav class="seo-breadcrumb">{" › ".join(f'<a href="{url}">{esc(name)}</a>' for name, url in crumbs[:-1])} › {esc(label)}</nav>
 <header class="seo-collection-header"><span class="seo-eyebrow">TVDUASRODAS</span><h1>{esc(label)}</h1><p class="seo-lead">{esc(description)}</p></header>
-{lead_ad}<div class="seo-grid">{cards or '<p>Nenhum conteúdo publicado nesta coleção.</p>'}</div>{closing_ad}"""
+{context}{lead_ad}<div class="seo-grid">{cards or '<p>Nenhum conteúdo publicado nesta coleção.</p>'}</div>{closing_ad}"""
     return page_shell(
         title=label, description=description, canonical=canonical, body=body,
         schemas=[schema, breadcrumb_schema(crumbs)],
@@ -1615,8 +1943,64 @@ def render_video_collection(collection: list[dict[str, Any]]) -> str:
     )
 
 
+def segmented_archive_section(
+    label: str,
+    collection: list[dict[str, Any]],
+    *,
+    batch_size: int = 60,
+) -> str:
+    ordered = sorted(collection, key=lambda item: (item.get("lastmod", ""), item["title"]), reverse=True)
+    chunks = [ordered[index:index + batch_size] for index in range(0, len(ordered), batch_size)] or [[]]
+    groups = "".join(
+        f'<section class="seo-archive-group"><h3>Bloco {number} de {len(chunks)}</h3>'
+        f'<div class="seo-grid">{"".join(card(item) for item in chunk)}</div></section>'
+        for number, chunk in enumerate(chunks, 1)
+    )
+    return (
+        f'<section class="seo-archive-section"><h2>{esc(label)} <small>({len(collection)})</small></h2>'
+        f'<p>Conteúdo segmentado em {len(chunks)} bloco(s) para facilitar navegação e leitura sem retirar nenhuma URL do acervo.</p>'
+        f'{groups}</section>'
+    )
+
+
+def write_event_research_queue(items: list[dict[str, Any]]) -> None:
+    audits = []
+    for item in items:
+        if item.get("kind") != "event":
+            continue
+        audit = evaluate_source_depth(item.get("source_kind", "evento"), item["slug"], item["data"])
+        audits.append({
+            "url": item["url"],
+            "slug": item["slug"],
+            "title": item["title"],
+            "source_kind": item.get("source_kind", "evento"),
+            "lastmod": item["lastmod"],
+            "complete": audit["complete"],
+            "missing": audit["missing"],
+            "source_count": audit["source_count"],
+            "specific_independent_domains": audit["specific_independent_domains"],
+        })
+    queue = [item for item in audits if not item["complete"]]
+    report = {
+        "generated_at": TODAY,
+        "purpose": "Fila editorial para aprofundar eventos já publicados sem retirar URLs do ar.",
+        "total_public_event_pages": len(audits),
+        "complete_records": len(audits) - len(queue),
+        "incomplete_records": len(queue),
+        "queue": sorted(queue, key=lambda item: (len(item["missing"]), item["title"])),
+    }
+    target = ROOT / "editorial" / "review" / "eventos-incompletos.json"
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text(
+        json.dumps(report, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+        newline="\n",
+    )
+
+
 def build(only_slugs: set[str] | None = None) -> None:
     items, people = load_content()
+    write_event_research_queue(items)
     manifest: list[dict[str, Any]] = []
     full_build = not only_slugs
 
@@ -1647,10 +2031,8 @@ def build(only_slugs: set[str] | None = None) -> None:
             }
         manifest.append(manifest_item)
 
-    if full_build:
-        write_event_aliases()
-
     person_index: list[dict[str, Any]] = []
+    current_person_urls: set[str] = set()
     for _, records in sorted(people.items(), key=lambda pair: pair[1][0]["name"]):
         name = records[0]["name"]
         canonical = f"/atletas/{slugify(name)}/"
@@ -1660,12 +2042,28 @@ def build(only_slugs: set[str] | None = None) -> None:
         if selected_person:
             canonical, output = render_person(name, records, items)
             write_page(canonical, output)
+        current_person_urls.add(canonical)
         person_item = {
             "title": name, "url": canonical, "summary": f"{len(records)} resultado(s) publicado(s)",
             "kind_label": "Atleta ou piloto", "search_text": name,
         }
         person_index.append(person_item)
         manifest.append({"url": canonical, "lastmod": max(r["competition"]["lastmod"] for r in records), "priority": "0.6", "kind": "person"})
+
+    for slug, (name, related_url) in LEGACY_PERSON_PAGES.items():
+        canonical = f"/atletas/{slug}/"
+        if canonical in current_person_urls:
+            continue
+        if full_build:
+            refresh_legacy_person_page(slug, name, related_url)
+        person_index.append({
+            "title": name,
+            "url": canonical,
+            "summary": "Registro histórico de classificação preservado, com vínculo para a grafia atual ou para a competição de origem.",
+            "kind_label": "Atleta ou piloto — registro histórico",
+            "search_text": name,
+        })
+        manifest.append({"url": canonical, "lastmod": TODAY, "priority": "0.6", "kind": "person"})
 
     video_items = [i for i in items if i["kind"] == "video"]
     if full_build:
@@ -1693,7 +2091,12 @@ def build(only_slugs: set[str] | None = None) -> None:
         ]),
     ]
     for label, description, canonical, collection in indexes:
-        write_page(canonical, render_collection(label=label, description=description, canonical=canonical, collection=collection))
+        output = (
+            render_people_index(collection)
+            if canonical == "/atletas/"
+            else render_collection(label=label, description=description, canonical=canonical, collection=collection)
+        )
+        write_page(canonical, output)
         manifest.append({"url": canonical, "lastmod": TODAY, "priority": "0.8", "kind": "index"})
 
     for slug, (label, _) in TOPICS.items():
@@ -1735,18 +2138,21 @@ def build(only_slugs: set[str] | None = None) -> None:
             write_page(canonical, render_collection(label=data["label"], description=description, canonical=canonical, collection=data["items"], breadcrumb_parent=("Modalidades", "/modalidades/")))
         manifest.append({"url": canonical, "lastmod": max(i["lastmod"] for i in data["items"]), "priority": "0.7", "kind": "modality"})
 
-    archive_body = """
+    archive_collections = (
+        ("Matérias", [i for i in items if i["kind"] == "article"]),
+        ("Vídeos", [i for i in items if i["kind"] == "video"]),
+        ("Competições", [i for i in items if i["kind"] == "competition"]),
+        ("Eventos", [i for i in items if i["kind"] == "event"]),
+        ("Guias", [i for i in items if i["kind"] == "guide"]),
+    )
+    archive_body = f"""
 <header class="seo-collection-header"><span class="seo-eyebrow">Índice editorial</span><h1>Arquivo completo da TVDUASRODAS</h1>
-<p class="seo-lead">Acesso rastreável a matérias, vídeos, guias, competições, eventos, atletas, marcas, assuntos e modalidades.</p></header>
+<p class="seo-lead">Acesso rastreável a {len(items)} matérias, vídeos, guias, competições e eventos, além dos índices de atletas, marcas, assuntos e modalidades.</p>
+<p>Todo o acervo público continua representado no manifesto e nos sitemaps. Nesta página, os links são agrupados por tipo e segmentados em blocos menores para tornar a consulta mais clara.</p>
+<nav class="seo-relations" aria-label="Índices especializados"><a href="/materias/">Matérias</a><a href="/videos/">Vídeos</a><a href="/atletas/">Atletas</a><a href="/assuntos/">Assuntos</a><a href="/marcas/">Marcas</a><a href="/modalidades/">Modalidades</a></nav></header>
 """ + "".join(
-        f'<section><h2>{esc(label)}</h2><div class="seo-grid">{"".join(card(i) for i in collection)}</div></section>'
-        for label, collection in (
-            ("Matérias", [i for i in items if i["kind"] == "article"]),
-            ("Vídeos", [i for i in items if i["kind"] == "video"]),
-            ("Competições", [i for i in items if i["kind"] == "competition"]),
-            ("Eventos", [i for i in items if i["kind"] == "event"]),
-            ("Guias", [i for i in items if i["kind"] == "guide"]),
-        )
+        segmented_archive_section(label, collection)
+        for label, collection in archive_collections
     )
     archive_schema = {
         "@type": "CollectionPage", "name": "Arquivo completo da TVDUASRODAS",

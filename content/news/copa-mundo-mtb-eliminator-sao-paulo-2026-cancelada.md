@@ -9,7 +9,12 @@ readingTime: "4 min"
 kicker: "Mudança no calendário"
 summary: "UCI confirma que a rodada prevista para 16 de agosto em São Paulo não será realizada; etapa de Aalen encerrou a Copa do Mundo de MTB Eliminator 2026."
 seoTitle: "Copa do Mundo MTB Eliminator São Paulo 2026 cancelada"
-cover: "/assets/img/uploads/mtb-eliminator-sao-paulo-cancelada-capa.svg"
+cover: "/assets/img/uploads/mtb-eliminator-xce-paris-2024-verpoest.webp"
+coverType: "photo"
+coverCredit: "Foto de arquivo: Rz98 / Wikimedia Commons (CC BY-SA 4.0) — XCE Paris 2024; não retrata a etapa cancelada de São Paulo."
+coverSource: "https://commons.wikimedia.org/wiki/File:XCE_Paris_2024_-_026_Verpoest.jpg"
+coverLicense: "CC BY-SA 4.0"
+updated_at: "2026-08-22T12:00:00-04:00"
 featured: true
 topics: "ciclismo, mtb, xce, calendario, servico"
 ---
@@ -17,6 +22,8 @@ topics: "ciclismo, mtb, xce, calendario, servico"
 A rodada de São Paulo da **Copa do Mundo UCI de Mountain Bike Eliminator 2026** foi cancelada. A prova estava prevista para **16 de agosto**, mas a União Ciclística Internacional (UCI) informou que não houve acordo capaz de garantir a realização do evento.
 
 A decisão também mudou o encerramento da temporada: a etapa disputada em **Aalen, na Alemanha, em 11 de julho**, passou a ser a última rodada da série em 2026.
+
+![Jana Lohrmann durante treino da Copa do Mundo de Mountain Bike Eliminator em Paris, em 2024](/assets/img/uploads/mtb-eliminator-xce-paris-2024-lohrmann.webp "Foto de arquivo: Rz98 / Wikimedia Commons (CC BY-SA 4.0) — imagem da etapa de Paris de 2024; não retrata São Paulo nem a temporada de 2026.")
 
 ![Arte editorial com bicicleta de mountain bike, calendário de 16 de agosto e indicação de cancelamento](/assets/img/uploads/mtb-eliminator-sao-paulo-cancelada-servico.svg "Arte: TVDUASRODAS — rodada de São Paulo não será realizada.")
 

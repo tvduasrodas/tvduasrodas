@@ -15,29 +15,39 @@ O texto não reproduz valores de multa nem enquadramento individual. Procediment
 
 A pauta é da família legislação/logística do ciclismo e responde como transportar bicicleta na parte externa de um automóvel. Não repete as oito matérias próprias existentes: transferência de motocicleta usada; custo de propriedade; troca e ajuste de capacete; posição da bicicleta no trânsito urbano; planejamento de parada em viagem; distribuição de bagagem na motocicleta; pontos cegos; e pilotagem na chuva. A categoria `bikes` ainda não havia sido usada por matéria própria na semana de 03 a 09/08/2026.
 
-## Artes publicadas
+## Fotografias — revisão de 22/08/2026
 
-### Capa
+### Capa: bicicletas em suporte de teto na Floresta Nacional de Deschutes
 
-- Arquivo: `/assets/img/uploads/transportar-bicicleta-carro-capa.svg`.
-- Origem/titular: arte vetorial original TVDUASRODAS; 1600 × 900 em `viewBox`.
-- Crédito: Arte: TVDUASRODAS.
-- Restrição: exclusiva desta matéria; não reutilizar.
+- Página do arquivo: https://commons.wikimedia.org/wiki/File:BICYCLES_ON_ROOF_RACK-DESCHUTES_(28154132554).jpg
+- Arquivo original: https://upload.wikimedia.org/wikipedia/commons/d/d6/BICYCLES_ON_ROOF_RACK-DESCHUTES_%2828154132554%29.jpg
+- Assunto e contexto: duas bicicletas presas a um suporte de teto em um automóvel na Floresta Nacional de Deschutes, Estados Unidos.
+- Titular/crédito: U.S. Forest Service, Pacific Northwest Region; crédito/provedora indicado nos metadados: Jocelyn Biro.
+- Situação de direitos: domínio público nos Estados Unidos por ser obra de funcionário do U.S. Department of Agriculture no exercício de suas funções; a página do Wikimedia Commons também registra a origem no Flickr.
+- Atribuição publicada: `Foto: U.S. Forest Service / Jocelyn Biro (domínio público)`.
+- Download: 22/08/2026; JPEG original de 5.312 × 2.988 px e 2.900.776 bytes.
+- Tratamento: `scripts/optimize_image.py`, correção de orientação EXIF, redução proporcional, conversão RGB e WebP, sem recorte ou alteração de conteúdo.
+- Arquivo publicado: `/assets/img/uploads/transportar-bicicleta-carro-foto-capa.webp`, 1.500 × 844 px, qualidade WebP 72, 287.888 bytes.
+- Metadados: o perfil ICC foi preservado; EXIF, XMP e Photoshop não foram incorporados na conversão WebP. Origem e crédito estão preservados neste registro e no crédito visível.
 
-### Três limites
+### Corpo: bicicleta em suporte de teto de um Toyota Prius
 
-- Arquivo: `/assets/img/uploads/transportar-bicicleta-carro-limites.svg`.
-- Origem/titular: infográfico vetorial original TVDUASRODAS; 1400 × 900 em `viewBox`.
-- Crédito: Arte: TVDUASRODAS.
-- Restrição: exclusiva desta matéria; não reutilizar.
+- Página do arquivo: https://commons.wikimedia.org/wiki/File:GIG_Car_Share_car_carrying_a_bicycle.jpg
+- Arquivo original: https://upload.wikimedia.org/wikipedia/commons/c/c0/GIG_Car_Share_car_carrying_a_bicycle.jpg
+- Assunto e contexto: Toyota Prius 2020 com uma bicicleta presa ao suporte de teto, fotografado nos Estados Unidos. A legenda esclarece que é exemplo visual de montagem, não certificação de conformidade às regras brasileiras.
+- Autor e titular: Andrew Kvalheim; trabalho próprio disponibilizado no Wikimedia Commons.
+- Licença: [Creative Commons Atribuição-CompartilhaIgual 4.0 Internacional](https://creativecommons.org/licenses/by-sa/4.0/). A versão otimizada permanece sob CC BY-SA 4.0.
+- Atribuição publicada: `Foto: Andrew Kvalheim / Wikimedia Commons (CC BY-SA 4.0)`.
+- Download: 22/08/2026; JPEG original de 3.788 × 2.524 px e 2.823.821 bytes.
+- Tratamento: `scripts/optimize_image.py`, correção de orientação EXIF, redução proporcional, conversão RGB e WebP, sem recorte ou alteração de conteúdo.
+- Arquivo publicado: `/assets/img/uploads/transportar-bicicleta-carro-suporte-teto.webp`, 1.300 × 866 px, qualidade WebP 75, 246.728 bytes.
+- Metadados: o perfil ICC foi preservado; EXIF e XMP não foram incorporados na conversão WebP. Autoria, fonte, licença e alteração estão preservadas neste registro e na atribuição vinculada abaixo da imagem.
 
-### Sinalização traseira
+Os JPEGs originais permanecem no pacote local de revisão `tmp/adsense-images` e não são publicados no site.
 
-- Arquivo: `/assets/img/uploads/transportar-bicicleta-carro-sinalizacao.svg`.
-- Origem/titular: infográfico vetorial original TVDUASRODAS; 1400 × 900 em `viewBox`.
-- Crédito: Arte: TVDUASRODAS.
-- Restrição: exclusiva desta matéria; não reutilizar.
+## Infográficos autorais mantidos
 
-## Direitos, tratamento e duplicidade
+- `/assets/img/uploads/transportar-bicicleta-carro-limites.svg` — infográfico vetorial original TVDUASRODAS, `viewBox` 1400 × 900; conferência de limites; crédito `Arte: TVDUASRODAS`; exclusivo desta matéria.
+- `/assets/img/uploads/transportar-bicicleta-carro-sinalizacao.svg` — infográfico vetorial original TVDUASRODAS, `viewBox` 1400 × 900; sinalização traseira; crédito `Arte: TVDUASRODAS`; exclusivo desta matéria.
 
-As três artes são SVGs autorais, sem fotografia, marca, logotipo, placa real, pessoa ou veículo identificável. Não houve download, rasterização, recompressão, remoção de metadados ou uso de material de terceiros. Arquivos, títulos e composições foram comparados com `content/news`, demais coleções e `assets/img/uploads`; nenhuma mídia anterior foi reutilizada. Por serem gráficos vetoriais, não se aplica conversão fotográfica pelo `optimize_image.py`; cada arquivo tem menos de 10 KB e preserva nitidez no tamanho de exibição.
+A antiga capa `/assets/img/uploads/transportar-bicicleta-carro-capa.svg` foi substituída pela fotografia em domínio público e não integra mais a matéria. Os dois diagramas permanecem como apoio explicativo autoral.

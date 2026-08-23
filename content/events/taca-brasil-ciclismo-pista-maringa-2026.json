@@ -10,45 +10,137 @@
   "scope": "Internacional",
   "region": "Sul",
   "venue": "Velódromo Municipal de Maringá",
-  "status": "em_andamento",
+  "status": "concluida",
   "event_type": "Competição de ciclismo e paraciclismo de pista",
   "segment": "Bicicletas",
-  "official_url": "https://www.cbc.esp.br/modalidades/eventos/busca/",
+  "official_url": "https://www.cbc.esp.br/modalidades/evento/busca//id/1349",
   "cover": "/assets/img/uploads/taca-brasil-pista-maringa-2026-ilustracao.webp",
   "image_credit": "Ilustração editorial gerada por IA: TVDUASRODAS — não retrata a competição real",
   "featured": false,
   "free": false,
-  "summary": "Maringá recebe de 4 a 9 de agosto dois eventos consecutivos de ciclismo de pista e duas etapas de paraciclismo, com pontos nos calendários da UCI, CBC e COPACI.",
-  "attractions": ["Ciclismo olímpico Elite masculino e feminino", "Paraciclismo de pista", "Duas provas Classe C2 da UCI", "Track American Series e Copa América da COPACI"],
+  "summary": "Maringá recebeu de 4 a 9 de agosto de 2026 a Taça Brasil de Ciclismo e Paraciclismo de Pista e, na sequência, a Track American Series. A página oficial da CBC confirma local, classes UCI, organização e modalidades; coberturas posteriores registram a realização e resultados da semana internacional.",
+  "attractions": [
+    "Ciclismo olímpico Elite masculino e feminino",
+    "Paraciclismo de pista",
+    "Provas UCI Classe C2 e C1",
+    "Track American Series",
+    "Copa América da COPACI"
+  ],
   "videos": [],
-  "body": "## Seis dias de ciclismo de pista em Maringá\n\nA Taça Brasil de Ciclismo de Pista e a Track American Series estão confirmadas para **4 a 9 de agosto de 2026**, no Velódromo Municipal de Maringá (PR). A programação reúne dois eventos consecutivos Classe C2 no calendário da UCI para a Elite masculina e feminina, além de duas etapas de paraciclismo de pista.\n\n## Pontos nacionais e internacionais\n\nA Confederação Brasileira de Ciclismo informa que a segunda etapa da Taça Brasil também integra a Copa América de Ciclismo de Pista da COPACI. As provas distribuem pontos conforme as classes publicadas nos calendários da UCI e da CBC.\n\n## Serviço\n\nA organização é do Instituto Mais Esporte, com chancela e supervisão da CBC e apoio da Secretaria de Esportes de Maringá e do Clube Maringaense de Ciclismo. A página oficial indica início das atividades às 8h; a grade detalhada por prova, condições de acesso do público, estacionamento e acessibilidade devem ser confirmadas diretamente com a organização antes do deslocamento.\n\n*Imagem de capa: ilustração editorial gerada por IA, criada exclusivamente para esta página; não retrata a competição real.*",
-  "last_updated": "2026-08-04T08:10:00-04:00",
+  "body": "## Edição realizada em Maringá\n\nA Confederação Brasileira de Ciclismo publicou a competição para 4 a 9 de agosto de 2026, a partir das 8h, no Velódromo Municipal de Maringá. O endereço oficial é a Vila Olímpica, na Avenida Colombo, Zona 7. A sequência reuniu duas provas Classe C2 da UCI para a Elite masculina e feminina e duas etapas Classe C1 de paraciclismo; a segunda etapa da Taça Brasil integrou a Copa América da COPACI como Track American Series.\n\n## Modalidades e organização\n\nO programa oficial incluiu velocidade individual, keirin, pontos, omnium, madison e eliminação no ciclismo olímpico, além de sprint, quilômetro, scratch, eliminação e perseguição individual no paraciclismo. A organização foi do Instituto Mais Esporte com chancela e supervisão da CBC, apoio da Secretaria de Esportes de Maringá e do Clube Maringaense de Ciclismo.\n\n## Situação confirmada\n\nCoberturas publicadas após 9 de agosto registram provas e resultados, permitindo tratar a edição como realizada. O valor de R$ 100 por etapa e 1 kg de alimento divulgado pela CBC era a inscrição esportiva dos atletas, não ingresso para espectadores. As fontes não informam regra de acesso do público nem estacionamento.",
+  "last_updated": "2026-08-23T00:50:00-04:00",
   "timezone": "America/Sao_Paulo",
   "local_start": "2026-08-04T08:00:00-03:00",
   "local_end": "",
-  "time_label": "4 a 9/8; atividades a partir das 8h, com término diário a confirmar no canal oficial",
-  "full_address": "Velódromo Municipal de Maringá, Maringá - PR",
-  "admission_status": "Não informado no material consultado",
-  "parking": "Não informado no material consultado",
-  "organizer": "Instituto Mais Esporte, com chancela e supervisão da CBC",
+  "time_label": "4 a 9 de agosto de 2026; atividades a partir das 8h",
+  "full_address": "Velódromo Municipal de Maringá, Vila Olímpica, Avenida Colombo, Zona 7, Maringá - PR",
+  "admission_status": "Acesso do público não informado; R$ 100 por etapa mais 1 kg de alimento era a inscrição dos atletas",
+  "parking": "Não informado nas fontes consultadas",
+  "organizer": "Instituto Mais Esporte e Confederação Brasileira de Ciclismo",
   "source_url": "https://www.cbc.esp.br/modalidades/eventos/busca/",
   "source_label": "CBC — Taça Brasil de Ciclismo de Pista e Track American Series",
-  "verification_status": "fonte_oficial_sem_foto_licenciada",
-  "visual_verification": {"type": "consulta_visual_de_fonte_oficial_sem_foto_reutilizavel", "source_url": "https://www.cbc.esp.br/modalidades/eventos/busca/", "checked_at": "2026-08-02T07:16:56-04:00", "fields_confirmed": ["datas", "local", "classes", "organizacao", "modalidades"], "rights_note": "A CBC confirma os dados, mas não apresenta licença editorial explícita para reutilização de imagem. A capa é ilustração original não documental."},
-  "source_checked_at": "2026-08-04T08:10:00-04:00",
-  "status_checked_at": "2026-08-04T08:10:00-04:00",
+  "verification_status": "fonte_oficial_com_servico_e_coberturas_pos_evento_confirmam_realizacao",
+  "visual_verification": {
+    "type": "consulta_visual_de_fonte_oficial_sem_foto_reutilizavel",
+    "source_url": "https://www.cbc.esp.br/modalidades/eventos/busca/",
+    "checked_at": "2026-08-02T07:16:56-04:00",
+    "fields_confirmed": [
+      "datas",
+      "local",
+      "classes",
+      "organizacao",
+      "modalidades"
+    ],
+    "rights_note": "A CBC confirma os dados, mas não apresenta licença editorial explícita para reutilização de imagem. A capa é ilustração original não documental."
+  },
+  "source_checked_at": "2026-08-23T00:50:00-04:00",
+  "status_checked_at": "2026-08-23T00:50:00-04:00",
   "relevance_tier": "alta_relevancia",
   "relevance_score": 70,
   "relevance_confidence": "alta",
   "relevance_evaluated_at": "2026-08-02T07:16:56-04:00",
   "relevance_previous_score": 0,
   "relevance_trend": "novo",
-  "relevance_reason_codes": ["calendario_uci", "chancela_cbc", "copa_america_copaci", "ciclismo_e_paraciclismo", "alcance_internacional"],
-  "coverage_t1_required": true,
-  "relevance_evidence": {"checked_at": "2026-08-02T07:16:56-04:00", "sources": ["https://www.cbc.esp.br/modalidades/eventos/busca/", "https://cbc.esp.br/modalidades/calendario/busca/pista"], "signals": ["Classe C2 UCI", "Copa América COPACI", "Ciclismo olímpico e paralímpico", "Seis dias de programação"]},
-  "sources": [
-    {"url": "https://www.cbc.esp.br/modalidades/eventos/busca/", "label": "CBC — página oficial do evento", "type": "fonte primária", "supports": "datas, local, formato, organização e classes", "checked_at": "2026-08-02T07:16:56-04:00"},
-    {"url": "https://cbc.esp.br/modalidades/calendario/busca/pista", "label": "CBC — calendário oficial de pista", "type": "fonte primária", "supports": "datas e enquadramento UCI/CBC", "checked_at": "2026-08-02T07:16:56-04:00"}
+  "relevance_reason_codes": [
+    "calendario_uci",
+    "chancela_cbc",
+    "copa_america_copaci",
+    "ciclismo_e_paraciclismo",
+    "alcance_internacional"
   ],
-  "research_status": {"required_specific_independent_sources": 2, "specific_independent_domains_found": 1, "status": "fonte_primaria_completa", "reviewed_at": "2026-08-02T07:16:56-04:00", "editorial_rule": "Cadastro antecipado com dados oficiais da CBC; imagem própria não documental por ausência de licença editorial explícita."}
+  "coverage_t1_required": true,
+  "relevance_evidence": {
+    "checked_at": "2026-08-02T07:16:56-04:00",
+    "sources": [
+      "https://www.cbc.esp.br/modalidades/eventos/busca/",
+      "https://cbc.esp.br/modalidades/calendario/busca/pista"
+    ],
+    "signals": [
+      "Classe C2 UCI",
+      "Copa América COPACI",
+      "Ciclismo olímpico e paralímpico",
+      "Seis dias de programação"
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.cbc.esp.br/modalidades/eventos/busca/",
+      "label": "CBC — página oficial do evento",
+      "type": "fonte primária",
+      "supports": "datas, local, formato, organização e classes",
+      "checked_at": "2026-08-02T07:16:56-04:00"
+    },
+    {
+      "url": "https://cbc.esp.br/modalidades/calendario/busca/pista",
+      "label": "CBC — calendário oficial de pista",
+      "type": "fonte primária",
+      "supports": "datas e enquadramento UCI/CBC",
+      "checked_at": "2026-08-02T07:16:56-04:00"
+    },
+    {
+      "url": "https://radiomaringa.com.br/noticia/2793102/maringa-encerra-semana-internacional-de-ciclismo-de-pista-com-saldo-positivo",
+      "label": "Rádio Maringá — balanço da semana internacional de pista",
+      "type": "cobertura_local_pos_evento",
+      "supports": "Confirma que a programação ocorreu de 4 a 9 de agosto no velódromo e registra o encerramento das competições."
+    },
+    {
+      "url": "https://www.perfilnews.com.br/2026/08/07/silvania-costa-conquista-dois-ouros-e-uma-prata-na-taca-brasil-de-ciclismo/",
+      "label": "Perfil News — resultados de Silvânia Costa na Taça Brasil",
+      "type": "cobertura_pos_evento",
+      "supports": "Registra provas realizadas em Maringá e medalhas conquistadas na edição de 2026."
+    }
+  ],
+  "research_status": {
+    "required_specific_independent_sources": 2,
+    "specific_independent_domains_found": 1,
+    "status": "fonte_primaria_completa",
+    "reviewed_at": "2026-08-02T07:16:56-04:00",
+    "editorial_rule": "Cadastro antecipado com dados oficiais da CBC; imagem própria não documental por ausência de licença editorial explícita."
+  },
+  "street_address": "Vila Olímpica, Avenida Colombo, Zona 7",
+  "status_basis": "O período terminou em 9 de agosto e publicações posteriores registram provas, resultados e o encerramento da programação.",
+  "contact": "CBC: +55 (43) 3327-3232; cbc@cbc.esp.br",
+  "research": {
+    "primary_source_url": "https://www.cbc.esp.br/modalidades/evento/busca//id/1349",
+    "queries": [
+      "Taça Brasil Ciclismo Pista Maringá 2026 resultados",
+      "site:cbc.esp.br Taça Brasil Maringá agosto 2026"
+    ],
+    "domains_checked": [
+      "cbc.esp.br",
+      "radiomaringa.com.br",
+      "perfilnews.com.br",
+      "uci.org"
+    ],
+    "result": "servico_oficial_localizado; realizacao_confirmada_por_coberturas_posteriores",
+    "excluded_sources": [
+      "Materiais da edição de 2025 não foram usados para completar o serviço de 2026."
+    ],
+    "uncertainties": [
+      "A CBC não informa acesso nem estacionamento para espectadores."
+    ]
+  },
+  "editorial_enrichment_batches": [
+    "n"
+  ]
 }

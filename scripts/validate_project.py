@@ -9,6 +9,7 @@ import re
 import subprocess
 import sys
 from datetime import date, datetime, timedelta, timezone
+from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
 from xml.etree import ElementTree as ET
@@ -17,9 +18,89 @@ from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 ROOT = Path(__file__).resolve().parents[1]
 EDITORIAL_RULES_V2 = "2026-07-23"
+VISUAL_RULES_V3 = "2026-08-22"
 FRONTMATTER = re.compile(r"\A---\s*\n(.*?)\n---", re.DOTALL)
 FIELD = re.compile(r"^([A-Za-z_][\w-]*):\s*(.*?)\s*$", re.MULTILINE)
 ASSET = re.compile(r"(?:href|src)=[\"']([^\"']+)[\"']", re.IGNORECASE)
+MARKDOWN_IMAGE = re.compile(r"!\[([^\]]*)\]\(([^)\s]+)(?:\s+[^)]*)?\)")
+
+
+class SeoDirectiveParser(HTMLParser):
+    """Extrai canonical, robots e refresh sem depender da ordem dos atributos."""
+
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.canonicals: list[str] = []
+        self.has_meta_refresh = False
+        self.has_robots_meta = False
+        self.robots_directives: set[str] = set()
+
+    def handle_starttag(
+        self,
+        tag: str,
+        attrs: list[tuple[str, str | None]],
+    ) -> None:
+        attributes = {
+            name.casefold(): (value or "").strip()
+            for name, value in attrs
+            if name
+        }
+        if tag.casefold() == "link":
+            rel = set(re.findall(r"[a-z0-9_-]+", attributes.get("rel", "").casefold()))
+            if "canonical" in rel and attributes.get("href"):
+                self.canonicals.append(attributes["href"])
+            return
+        if tag.casefold() != "meta":
+            return
+        if attributes.get("http-equiv", "").casefold() == "refresh":
+            self.has_meta_refresh = True
+        name = attributes.get("name", "").casefold()
+        if name in {"robots", "googlebot", "googlebot-news", "bingbot"}:
+            self.has_robots_meta = True
+            self.robots_directives.update(
+                re.findall(r"[a-z0-9_-]+", attributes.get("content", "").casefold())
+            )
+
+    def handle_startendtag(
+        self,
+        tag: str,
+        attrs: list[tuple[str, str | None]],
+    ) -> None:
+        self.handle_starttag(tag, attrs)
+
+    @property
+    def has_noindex(self) -> bool:
+        return bool({"noindex", "none"} & self.robots_directives)
+
+
+def parse_seo_directives(text: str) -> SeoDirectiveParser:
+    parser = SeoDirectiveParser()
+    parser.feed(text)
+    parser.close()
+    return parser
+
+
+def read_agenda_event_urls(path: Path) -> set[str]:
+    payload = json.loads(path.read_text(encoding="utf-8-sig"))
+    entries = payload.get("entries") if isinstance(payload, dict) else None
+    if not isinstance(entries, list):
+        raise ValueError("a raiz precisa conter a lista 'entries'")
+    slugs: list[str] = []
+    seen: set[str] = set()
+    duplicates: set[str] = set()
+    for index, entry in enumerate(entries):
+        if not isinstance(entry, dict):
+            raise ValueError(f"entrada {index} não é um objeto")
+        slug = str(entry.get("slug") or "").strip()
+        if not slug:
+            raise ValueError(f"entrada {index} não possui slug")
+        if slug in seen:
+            duplicates.add(slug)
+        seen.add(slug)
+        slugs.append(slug)
+    if duplicates:
+        raise ValueError("slugs duplicados: " + ", ".join(sorted(duplicates)[:20]))
+    return {f"https://tvduasrodas.com/eventos/{slug}/" for slug in slugs}
 
 
 def frontmatter(path: Path) -> dict[str, str]:
@@ -112,6 +193,40 @@ def main() -> int:
                     errors.append(
                         f"Publicação comum marcada como programa: {path.relative_to(ROOT)}"
                     )
+                cover = values.get("cover", "")
+                if not cover:
+                    errors.append(f"Matéria sem imagem de capa: {path.relative_to(ROOT)}")
+                elif not cover.startswith("/"):
+                    errors.append(
+                        f"Matéria precisa de capa local: {path.relative_to(ROOT)} -> {cover}"
+                    )
+                visual_reference_date = (values.get("updated_at") or values.get("date", ""))[:10]
+                if visual_reference_date >= VISUAL_RULES_V3:
+                    source = path.read_text(encoding="utf-8-sig")
+                    match = FRONTMATTER.search(source)
+                    body = source[match.end():] if match else source
+                    for field in ("coverType", "coverCredit", "coverSource", "coverLicense"):
+                        if not values.get(field):
+                            errors.append(f"Regra visual: {field} ausente: {path.relative_to(ROOT)}")
+                    cover_source = values.get("coverSource", "")
+                    if cover_source and not cover_source.startswith(("https://", "http://")):
+                        errors.append(
+                            f"Regra visual: coverSource precisa ser URL pública: "
+                            f"{path.relative_to(ROOT)} -> {cover_source}"
+                        )
+                    if values.get("coverType", "").casefold() == "photo":
+                        extension = Path(urlsplit(cover).path).suffix.casefold()
+                        if extension not in {".webp", ".jpg", ".jpeg", ".png", ".avif"}:
+                            errors.append(f"Regra visual: capa fotográfica precisa ser raster: {path.relative_to(ROOT)} -> {cover}")
+                    markdown_images = MARKDOWN_IMAGE.findall(body)
+                    html_images = re.findall(r'<img[^>]+src=["\']([^"\']+)', body, re.IGNORECASE)
+                    body_sources = [src.strip("'\"") for _, src in markdown_images] + html_images
+                    if len(set(body_sources)) < 2:
+                        errors.append(f"Regra visual: matéria precisa de 2 imagens no corpo: {path.relative_to(ROOT)}")
+                    if any(not alt.strip() for alt, _ in markdown_images):
+                        errors.append(f"Regra visual: imagem Markdown com alt vazio: {path.relative_to(ROOT)}")
+                    if cover and cover in body_sources:
+                        errors.append(f"Regra visual: capa repetida no corpo: {path.relative_to(ROOT)}")
             if collection == "videos" and published_date >= EDITORIAL_RULES_V2:
                 if values.get("language") != "pt-BR":
                     errors.append(
@@ -190,6 +305,13 @@ def main() -> int:
             if not target.exists():
                 errors.append(f"Referência local ausente: {path.name} -> {ref}")
 
+    agenda_event_urls: set[str] = set()
+    agenda_path = ROOT / "content" / "events" / "agenda-comunitaria-2026.json"
+    try:
+        agenda_event_urls = read_agenda_event_urls(agenda_path)
+    except (OSError, json.JSONDecodeError, ValueError) as exc:
+        errors.append(f"Agenda comunitária inválida: {exc}")
+
     generated_roots = (
         "materias", "videos", "competicoes", "eventos", "guias",
         "atletas", "assuntos", "marcas", "modalidades",
@@ -201,17 +323,36 @@ def main() -> int:
         if (ROOT / folder).exists()
     )
     generated_canonicals: set[str] = set()
+    indexable_event_urls: set[str] = set()
     for path in generated_html:
         text = path.read_text(encoding="utf-8-sig")
         relative = path.relative_to(ROOT)
+        folder = relative.parts[0]
+        is_event_page = folder == "eventos" and len(relative.parts) == 3
+        seo_directives = parse_seo_directives(text)
         is_redirect = bool(
-            re.search(r'<meta[^>]+http-equiv=["\']refresh["\']', text, re.IGNORECASE)
-            and re.search(r'<meta[^>]+name=["\']robots["\'][^>]+noindex', text, re.IGNORECASE)
+            seo_directives.has_meta_refresh
+            and seo_directives.has_noindex
+            and not is_event_page
         )
+        if not is_redirect:
+            if seo_directives.has_noindex:
+                if is_event_page:
+                    errors.append(f"Evento não pode usar noindex: {relative}")
+                else:
+                    errors.append(f"Página gerada não pode usar noindex: {relative}")
+            for trust_path in (
+                "/politica-de-privacidade",
+                "/termos",
+                "/politica-editorial",
+                "/politica-de-correcoes",
+                "/equipe",
+            ):
+                if f'href="{trust_path}"' not in text and f"href='{trust_path}'" not in text:
+                    errors.append(f"Link institucional ausente: {relative} -> {trust_path}")
         if not is_redirect and "assets/js/ads.js" not in text:
             errors.append(f"Sistema publicitário ausente: {relative}")
         slots = set(re.findall(r'data-ad-slot=["\']([^"\']+)', text))
-        folder = relative.parts[0]
         if not is_redirect and folder in {"materias", "guias"}:
             for required_slot in {"article-sidebar", "article-inline"}:
                 if required_slot not in slots:
@@ -227,40 +368,44 @@ def main() -> int:
             (r'<html[^>]+lang=["\']pt-BR["\']', "idioma pt-BR"),
             (r"<title>\s*.+?</title>", "title"),
             (r'<meta[^>]+name=["\']description["\']', "meta description"),
-            (
-                r'<meta[^>]+name=["\']robots["\'][^>]+(?:index|noindex)',
-                "diretiva robots",
-            ),
             (r"<h1[^>]*>.+?</h1>", "h1"),
         ):
             if not re.search(pattern, text, re.IGNORECASE | re.DOTALL):
                 errors.append(f"{label} ausente: {relative}")
-        canonical_match = re.search(
-            r'<link[^>]+rel=["\']canonical["\'][^>]+href=["\']([^"\']+)',
-            text, re.IGNORECASE,
-        )
-        if not canonical_match:
+        if not seo_directives.has_robots_meta:
+            errors.append(f"diretiva robots ausente: {relative}")
+        canonical_urls = seo_directives.canonicals
+        canonical_url = canonical_urls[0] if len(canonical_urls) == 1 else ""
+        if not canonical_urls:
             errors.append(f"Canonical ausente: {relative}")
-        elif canonical_match.group(1) in generated_canonicals and not is_redirect:
-            errors.append(f"Canonical duplicado: {canonical_match.group(1)}")
+        elif len(canonical_urls) > 1:
+            errors.append(f"Mais de uma canonical declarada: {relative}")
+        elif canonical_url in generated_canonicals and not is_redirect:
+            errors.append(f"Canonical duplicado: {canonical_url}")
         elif not is_redirect:
-            generated_canonicals.add(canonical_match.group(1))
-        if not is_redirect and folder == "eventos" and canonical_match:
+            generated_canonicals.add(canonical_url)
+        if is_event_page:
             expected_canonical = (
                 "https://tvduasrodas.com/"
                 f"{relative.parent.as_posix().strip('/')}/"
             )
-            if canonical_match.group(1) != expected_canonical:
+            if seo_directives.has_meta_refresh:
+                errors.append(f"Evento não pode usar meta refresh: {relative}")
+            if canonical_urls != [expected_canonical]:
                 errors.append(
                     f"Evento sem canonical própria: {relative} -> "
-                    f"{canonical_match.group(1)}"
+                    f"{', '.join(canonical_urls) or 'ausente'}"
                 )
-            if re.search(
-                r'<meta[^>]+name=["\']robots["\'][^>]+noindex',
-                text,
-                re.IGNORECASE,
+            required_robots = {"index", "follow"}
+            if not required_robots.issubset(seo_directives.robots_directives):
+                errors.append(f"Evento sem robots index,follow: {relative}")
+            if (
+                not seo_directives.has_meta_refresh
+                and not seo_directives.has_noindex
+                and required_robots.issubset(seo_directives.robots_directives)
+                and canonical_urls == [expected_canonical]
             ):
-                errors.append(f"Evento publicado com noindex: {relative}")
+                indexable_event_urls.add(expected_canonical)
         if not is_redirect and folder in {"competicoes", "eventos"}:
             internal_markers = (
                 "Fontes cruzadas e atualização",
@@ -355,9 +500,19 @@ def main() -> int:
             if not target.exists():
                 errors.append(f"Link/recurso gerado ausente: {relative} -> {ref}")
 
+    missing_indexable_agenda_events = sorted(agenda_event_urls - indexable_event_urls)
+    if missing_indexable_agenda_events:
+        errors.append(
+            "Eventos da agenda sem HTML indexável e autocanônico: "
+            + ", ".join(missing_indexable_agenda_events[:20])
+        )
+
     manifest_path = ROOT / "content" / "seo-manifest.json"
+    manifest_event_urls: set[str] = set()
     try:
         manifest = json.loads(manifest_path.read_text(encoding="utf-8-sig"))
+        if not isinstance(manifest, list) or not all(isinstance(item, dict) for item in manifest):
+            raise ValueError("a raiz precisa ser uma lista de objetos")
         manifest_urls = [item.get("url", "") for item in manifest]
         if len(manifest_urls) != len(set(manifest_urls)):
             errors.append("Manifesto SEO contém URLs duplicadas")
@@ -366,7 +521,25 @@ def main() -> int:
             target = target / "index.html" if url.endswith("/") else target
             if not target.exists():
                 errors.append(f"Manifesto SEO aponta para arquivo ausente: {url}")
-    except (OSError, json.JSONDecodeError) as exc:
+        manifest_absolute_urls = {f"https://tvduasrodas.com{url}" for url in manifest_urls}
+        manifest_event_urls = {
+            f"https://tvduasrodas.com{item['url']}"
+            for item in manifest
+            if item.get("kind") == "event" and str(item.get("url") or "").startswith("/")
+        }
+        missing_generated_urls = sorted(generated_canonicals - manifest_absolute_urls)
+        if missing_generated_urls:
+            errors.append(
+                "Páginas geradas ausentes do manifesto SEO: "
+                + ", ".join(missing_generated_urls[:20])
+            )
+        missing_agenda_manifest = sorted(agenda_event_urls - manifest_event_urls)
+        if missing_agenda_manifest:
+            errors.append(
+                "Eventos da agenda ausentes do manifesto SEO: "
+                + ", ".join(missing_agenda_manifest[:20])
+            )
+    except (OSError, json.JSONDecodeError, TypeError, ValueError) as exc:
         errors.append(f"Manifesto SEO inválido: {exc}")
 
     config = (ROOT / "admin" / "config.yml").read_text(encoding="utf-8-sig")
@@ -407,6 +580,7 @@ def main() -> int:
     except (OSError, json.JSONDecodeError) as exc:
         errors.append(f"Configuração publicitária inválida: {exc}")
 
+    urls: list[str] = []
     try:
         sitemap = ET.parse(ROOT / "sitemap.xml").getroot()
         namespace = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
@@ -423,6 +597,12 @@ def main() -> int:
             errors.append("sitemap.xml contém fragmento inválido #U")
         if any("?slug=" in url or "?v=" in url for url in urls):
             errors.append("sitemap.xml ainda contém URL dinâmica não canônica")
+        missing_agenda_sitemap = sorted(agenda_event_urls - set(urls))
+        if missing_agenda_sitemap:
+            errors.append(
+                "Eventos da agenda ausentes do sitemap.xml: "
+                + ", ".join(missing_agenda_sitemap[:20])
+            )
         for name in noindex_paths:
             if any(urlsplit(url).path.rstrip("/").endswith(f"/{name}") for url in urls):
                 errors.append(f"Página noindex presente no sitemap: {name}")
@@ -504,6 +684,7 @@ def main() -> int:
     except (OSError, ET.ParseError) as exc:
         errors.append(f"news-sitemap.xml inválido: {exc}")
 
+    event_urls: list[str] = []
     try:
         event_sitemap = ET.parse(ROOT / "event-sitemap.xml").getroot()
         event_namespace = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
@@ -516,14 +697,7 @@ def main() -> int:
         if any(url not in urls for url in event_urls):
             errors.append("event-sitemap.xml possui URL ausente do sitemap principal")
 
-        manifest = json.loads(
-            (ROOT / "content" / "seo-manifest.json").read_text(encoding="utf-8-sig")
-        )
-        expected_event_urls = {
-            f"https://tvduasrodas.com{item['url']}"
-            for item in manifest
-            if item.get("kind") == "event"
-        }
+        expected_event_urls = manifest_event_urls
         if set(event_urls) != expected_event_urls:
             missing = sorted(expected_event_urls - set(event_urls))
             extra = sorted(set(event_urls) - expected_event_urls)
@@ -537,11 +711,17 @@ def main() -> int:
                     "URLs não canônicas no event-sitemap.xml: "
                     + ", ".join(extra[:10])
                 )
-        for url in expected_event_urls:
+        missing_agenda_event_sitemap = sorted(agenda_event_urls - set(event_urls))
+        if missing_agenda_event_sitemap:
+            errors.append(
+                "Eventos da agenda ausentes do event-sitemap.xml: "
+                + ", ".join(missing_agenda_event_sitemap[:20])
+            )
+        for url in expected_event_urls | agenda_event_urls:
             relative = url.removeprefix("https://tvduasrodas.com/").strip("/")
             if not (ROOT / relative / "index.html").exists():
                 errors.append(f"Página permanente de evento ausente: {relative}")
-    except (OSError, ET.ParseError, json.JSONDecodeError) as exc:
+    except (OSError, ET.ParseError) as exc:
         errors.append(f"event-sitemap.xml inválido: {exc}")
 
     published_sources = [

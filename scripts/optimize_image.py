@@ -46,6 +46,7 @@ def main() -> int:
     quality = int(sys.argv[4]) if len(sys.argv) > 4 else 82
 
     with Image.open(source) as opened:
+        icc_profile = opened.info.get("icc_profile")
         image = ImageOps.exif_transpose(opened).convert("RGB")
         original_size = image.size
         if image.width > max_width:
@@ -53,7 +54,10 @@ def main() -> int:
             image = image.resize((max_width, new_height), Image.Resampling.LANCZOS)
 
         target.parent.mkdir(parents=True, exist_ok=True)
-        image.save(target, "WEBP", quality=quality, method=6, optimize=True)
+        save_options = {"quality": quality, "method": 6, "optimize": True}
+        if icc_profile:
+            save_options["icc_profile"] = icc_profile
+        image.save(target, "WEBP", **save_options)
 
     print(
         f"{source.name}: {original_size[0]}x{original_size[1]} "

@@ -9,13 +9,22 @@ readingTime: "8 min"
 kicker: "A assistência começa no pedal"
 summary: "Sensores de torque e cadência percebem movimentos diferentes. Entenda como isso altera arrancadas, subidas, autonomia e a escolha de uma bicicleta elétrica."
 seoTitle: "Sensor de torque ou cadência na e-bike: diferenças"
-cover: "/assets/img/uploads/sensor-torque-cadencia-ebike-capa.svg"
+cover: "/assets/img/uploads/sensor-torque-cadencia-ebike-foto-capa.webp"
+coverCredit: "Foto: Matti Blume / Wikimedia Commons (CC BY-SA 4.0)"
+coverSource: "https://commons.wikimedia.org/wiki/File:Cyclingworld_Europe_2025,_Meerbusch_(P1045051).jpg"
+coverLicense: "CC BY-SA 4.0"
+coverType: "photo"
+updated_at: "2026-08-22"
 featured: true
 ---
 
 Duas bicicletas elétricas com motor de potência parecida podem responder de formas muito diferentes ao primeiro giro do pedal. A explicação costuma estar no sistema de sensores e no modo como o controlador transforma a pedalada em assistência.
 
 O **sensor de cadência** identifica se — e, em sistemas mais completos, quão rápido — o pedivela está girando. O **sensor de torque** mede a força aplicada pelo ciclista. Eles não são motores nem definem sozinhos a qualidade da bicicleta: são entradas do sistema, combinadas com velocidade, software, nível de assistência e, em alguns conjuntos, sensores inerciais.
+
+![Detalhe de um motor central Pendix gDrive 85m instalado no quadro de uma bicicleta elétrica](/assets/img/uploads/sensor-torque-cadencia-ebike-motor-pendix.webp "Motor central Pendix gDrive 85m exposto na Eurobike 2025, em Frankfurt; a foto mostra a integração da unidade motriz, mas não identifica o tipo de sensor utilizado. Foto: Matti Blume / Wikimedia Commons, CC BY-SA 4.0.")
+
+*Foto: [Matti Blume / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Pendix_gDrive_85m_Eurobike_2025,_Frankfurt_am_Main_%28P1048268%29.jpg), sob licença [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Arquivo redimensionado e convertido para WebP.*
 
 ![Diagrama compara o que os sensores de cadência e torque medem em uma e-bike](/assets/img/uploads/sensor-torque-cadencia-ebike-comparacao.svg "Arte: TVDUASRODAS — cadência mede rotação; torque mede força no pedal.")
 
@@ -77,4 +86,4 @@ Quem prioriza sensação natural, controle em baixa velocidade, trilhas técnica
 
 Compare a bicicleta completa: geometria, freios, transmissão, bateria, motor, sensores, software, peso, rede de serviço e peças. O melhor sensor é aquele integrado a um sistema que responde de maneira previsível ao seu corpo e ao percurso — e cuja manutenção continuará possível depois da compra.
 
-**Fontes oficiais:** [Bosch eBike Systems — sensores da Performance Line CX](https://www.bosch-ebike.com/en/products/performance-line-cx), [Bosch — torque na unidade motriz](https://help.bosch-ebike.com/us/help-center/performance-line-cx-for-the-smart-system/asset-asf-01040), [Shimano — sensores usados no Auto Shift](https://bike.shimano.com/technologies/details/auto-shift.html), [Resolução Contran 996/2023](https://www.gov.br/infraestrutura/pt-br/assuntos/transito/conteudo-contran/resolucoes/Resolucao9962023.pdf) e [lista oficial de resoluções do Contran](https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-Senatran/resolucoes-contran).
+**Fontes oficiais:** [Bosch eBike Systems — sensores da Performance Line CX](https://www.bosch-ebike.com/en/products/performance-line-cx), [Bosch — torque na unidade motriz](https://help.bosch-ebike.com/us/help-center/performance-line-cx-for-the-smart-system/asset-asf-01040), [Shimano — sensores usados no Auto Shift](https://bike.shimano.com/technologies/details/auto-shift.html), [Resolução Contran 996/2023](https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucoes/Resolucao9962023.pdf) e [lista oficial de resoluções do Contran](https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-Senatran/resolucoes-contran).

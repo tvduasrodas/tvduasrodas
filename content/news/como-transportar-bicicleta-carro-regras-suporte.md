@@ -9,7 +9,12 @@ readingTime: "8 min"
 kicker: "Bike presa, sinalização visível"
 summary: "A Resolução Contran 955 define como levar bicicletas fora do carro. Veja o que conferir no suporte de teto ou traseiro antes de viajar."
 seoTitle: "Transportar bicicleta no carro: regras e suporte"
-cover: "/assets/img/uploads/transportar-bicicleta-carro-capa.svg"
+cover: "/assets/img/uploads/transportar-bicicleta-carro-foto-capa.webp"
+coverCredit: "Foto: U.S. Forest Service / Jocelyn Biro (domínio público)"
+coverSource: "https://commons.wikimedia.org/wiki/File:BICYCLES_ON_ROOF_RACK-DESCHUTES_(28154132554).jpg"
+coverLicense: "Domínio público — obra do U.S. Department of Agriculture"
+coverType: "photo"
+updated_at: "2026-08-22"
 featured: true
 ---
 
@@ -34,6 +39,10 @@ A bicicleta pode ser transportada no teto, fixada em dispositivo apropriado, int
 No suporte traseiro, a bicicleta **não pode ultrapassar a largura máxima do veículo**. Guidão, pedais e rodas entram nessa conferência. A resolução também proíbe que o conjunto esconda as luzes traseiras ou a placa sem a solução de sinalização prevista.
 
 No teto, além da fixação, a altura total muda. Meça o carro já carregado e leve essa medida visível no painel. Garagens, cancelas, galhos, marquises e entradas cobertas tornam-se riscos reais. Retire acessórios soltos — como caramanhola, bolsa, bomba e ciclocomputador removível — antes de partir.
+
+![Bicicleta presa em suporte de teto sobre um automóvel](/assets/img/uploads/transportar-bicicleta-carro-suporte-teto.webp "Bicicleta instalada em suporte de teto em um automóvel nos Estados Unidos; exemplo visual de montagem, não certificação de conformidade às regras brasileiras. Foto: Andrew Kvalheim / Wikimedia Commons, CC BY-SA 4.0.")
+
+*Foto: [Andrew Kvalheim / Wikimedia Commons](https://commons.wikimedia.org/wiki/File:GIG_Car_Share_car_carrying_a_bicycle.jpg), sob licença [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Arquivo redimensionado e convertido para WebP.*
 
 ## Se encobriu luz ou placa, não basta “dar para ver de lado”
 

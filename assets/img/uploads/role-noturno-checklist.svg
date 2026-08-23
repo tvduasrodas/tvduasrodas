@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Checklist antes de pilotar à noite</title>
+  <desc id="desc">Lista visual com iluminação, viseira, roupa, rota, combustível e descanso.</desc>
+  <rect width="1200" height="675" fill="#0d1220"/>
+  <circle cx="1010" cy="105" r="58" fill="#f2b705"/><circle cx="1038" cy="82" r="58" fill="#0d1220"/>
+  <text x="70" y="105" fill="#fff" font-family="Arial, sans-serif" font-size="44" font-weight="700">ANTES DO ROLÊ NOTURNO</text>
+  <g font-family="Arial, sans-serif" font-size="25" fill="#fff">
+    <g transform="translate(80 180)"><rect width="490" height="105" rx="20" fill="#182238"/><circle cx="48" cy="52" r="25" fill="#ed1c24"/><path d="M36 52l9 10 18-23" fill="none" stroke="#fff" stroke-width="7"/><text x="92" y="47" font-weight="700">Farol, lanterna e setas</text><text x="92" y="78" fill="#b9c5da" font-size="19">limpos e funcionando</text></g>
+    <g transform="translate(630 180)"><rect width="490" height="105" rx="20" fill="#182238"/><circle cx="48" cy="52" r="25" fill="#ed1c24"/><path d="M36 52l9 10 18-23" fill="none" stroke="#fff" stroke-width="7"/><text x="92" y="47" font-weight="700">Viseira adequada</text><text x="92" y="78" fill="#b9c5da" font-size="19">limpa e sem riscos críticos</text></g>
+    <g transform="translate(80 310)"><rect width="490" height="105" rx="20" fill="#182238"/><circle cx="48" cy="52" r="25" fill="#ed1c24"/><path d="M36 52l9 10 18-23" fill="none" stroke="#fff" stroke-width="7"/><text x="92" y="47" font-weight="700">Elementos visíveis</text><text x="92" y="78" fill="#b9c5da" font-size="19">contraste e refletivos ajudam</text></g>
+    <g transform="translate(630 310)"><rect width="490" height="105" rx="20" fill="#182238"/><circle cx="48" cy="52" r="25" fill="#ed1c24"/><path d="M36 52l9 10 18-23" fill="none" stroke="#fff" stroke-width="7"/><text x="92" y="47" font-weight="700">Rota e parada</text><text x="92" y="78" fill="#b9c5da" font-size="19">trechos iluminados e apoio</text></g>
+    <g transform="translate(80 440)"><rect width="490" height="105" rx="20" fill="#182238"/><circle cx="48" cy="52" r="25" fill="#ed1c24"/><path d="M36 52l9 10 18-23" fill="none" stroke="#fff" stroke-width="7"/><text x="92" y="47" font-weight="700">Pneu e combustível</text><text x="92" y="78" fill="#b9c5da" font-size="19">checados antes da saída</text></g>
+    <g transform="translate(630 440)"><rect width="490" height="105" rx="20" fill="#182238"/><circle cx="48" cy="52" r="25" fill="#ed1c24"/><path d="M36 52l9 10 18-23" fill="none" stroke="#fff" stroke-width="7"/><text x="92" y="47" font-weight="700">Sono e atenção</text><text x="92" y="78" fill="#b9c5da" font-size="19">cansaço muda a decisão</text></g>
+  </g>
+  <text x="600" y="620" text-anchor="middle" fill="#f2b705" font-family="Arial, sans-serif" font-size="24" font-weight="700">SE ALGO NÃO ESTÁ CERTO, ADIE A SAÍDA.</text>
+</svg>

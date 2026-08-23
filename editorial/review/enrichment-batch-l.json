@@ -1,0 +1,842 @@
+{
+  "batch": "l",
+  "reviewed_at": "2026-08-22",
+  "entries": [
+    {
+      "slug": "motorock-e-amizade-itauna-mg-2026-07-25",
+      "updates": {
+        "title": "Moto + Rock & Amizade — Dia Nacional do Motociclista 2026",
+        "short_name": "Moto + Rock & Amizade",
+        "city": "Itaúna",
+        "status": "concluida",
+        "summary": "O Moto + Rock & Amizade foi anunciado para 25 de julho de 2026, a partir das 10h, no Restaurante Coqueiros, na MG-431, km 57, em Itaúna/MG. O cadastro específico informa entrada gratuita, rock ao vivo, cardápio com preço biker, espaço kids e troféu para clubes inscritos. Como não foi localizado balanço posterior, o estado concluído decorre apenas do encerramento da data.",
+        "body": "## Serviço recuperado\n\nUma publicação específica de 2026 do Portal Motociclistas Unidos identifica o encontro como comemoração do Dia Nacional do Motociclista. Ela confirma sábado, 25 de julho, às 10h, no Restaurante Coqueiros, Rodovia MG-431, km 57, Condomínio dos Coqueiros, em Itaúna/MG.\n\n## Acesso e atrações\n\nA divulgação informa entrada gratuita, música ao vivo com rock, cardápio com preço biker, lazer para a família, espaço kids e troféu comemorativo para os motoclubes inscritos. O texto não esclarece como era feita a inscrição dos clubes nem informa estacionamento ou contato direto da organização.\n\n## Situação da edição\n\nO vídeo-flyer originalmente associado à agenda não estava mais disponível na revisão. A fonte específica recuperada confirma o serviço anunciado, mas não é um registro pós-evento. Por isso, a página permanece concluída por calendário, sem afirmar que a programação tenha sido integralmente realizada.",
+        "official_url": "https://motociclistasunidos.com.br/evento/moto-rock-amizade/",
+        "verification_status": "servico_2026_confirmado_em_publicacao_especifica; arquivo_visual_original_indisponivel; realizacao_nao_comprovada_por_balanco",
+        "last_updated": "2026-08-22T23:50:00-04:00",
+        "time_label": "25 de julho de 2026, a partir das 10h",
+        "venue": "Restaurante Coqueiros",
+        "street_address": "Rodovia MG-431, km 57, Condomínio dos Coqueiros",
+        "full_address": "Restaurante Coqueiros, Rodovia MG-431, km 57, Condomínio dos Coqueiros, Itaúna - MG",
+        "status_basis": "A data anunciada, 25 de julho de 2026, já terminou; não foi localizado balanço que comprove a realização.",
+        "status_checked_at": "2026-08-22T23:50:00-04:00",
+        "organizer": "Responsável nominal não informado na publicação específica consultada",
+        "contact": "Contato direto da organização não informado na fonte específica",
+        "source_checked_at": "2026-08-22T23:50:00-04:00",
+        "admission_status": "Entrada gratuita, conforme a publicação específica de 2026",
+        "parking": "Não informado na publicação específica de 2026",
+        "attractions": [
+          "Rock ao vivo",
+          "Cardápio com preço biker",
+          "Espaço kids e lazer para a família",
+          "Troféu comemorativo para motoclubes inscritos"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://motociclistasunidos.com.br/evento/moto-rock-amizade/",
+          "label": "Portal Motociclistas Unidos — Moto + Rock & Amizade 2026",
+          "type": "agenda_motociclistica_especifica_da_edicao",
+          "supports": "Confirma nome, data, horário, Restaurante Coqueiros, endereço na MG-431, entrada gratuita, rock ao vivo, cardápio biker, espaço kids e troféu para clubes inscritos; não comprova a realização posterior."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"MOTOROCK e AMIZADE\" Itaúna 2026",
+          "\"Moto Rock & Amizade\" \"25 de julho de 2026\"",
+          "site:itauna.mg.gov.br motorock motociclistas julho 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "motociclistasunidos.com.br",
+          "itauna.mg.gov.br",
+          "mototour.com.br"
+        ],
+        "result": "servico_da_edicao_recuperado_em_fonte_especifica; sem_balanco_pos_evento",
+        "uncertainties": [
+          "Não foi localizado registro independente posterior que confirme a realização.",
+          "Responsável nominal, contato, estacionamento e procedimento de inscrição dos clubes não foram informados."
+        ]
+      }
+    },
+    {
+      "slug": "motorockfest-arrial-d-ajuda-ba-2026-08-26",
+      "updates": {
+        "title": "5º Moto Rock Fest Arraial d’Ajuda",
+        "short_name": "Moto Rock Fest Arraial d’Ajuda",
+        "status": "agendada",
+        "summary": "A 5ª edição do Moto Rock Fest Arraial d’Ajuda está anunciada para 26 a 29 de agosto de 2026, no Parque Central de Arraial d’Ajuda, em Porto Seguro/BA. A divulgação atribuída à Prefeitura confirma shows, exposição de motos, encontro de motoclubes, expositores, alimentação e U2 Audiovisual Experience; horários diários, regra final de entrada e estacionamento ainda não foram publicados.",
+        "body": "## Edição de 2026\n\nFontes específicas e recentes convergem para a 5ª edição entre 26 e 29 de agosto de 2026. Uma publicação local assinada pela Assessoria de Comunicação da Prefeitura de Porto Seguro identifica o Parque Central de Arraial d’Ajuda como local, a AE Produtora como realizadora e Aldo Porto como coordenador, com apoio municipal por meio da Secretaria de Turismo.\n\n## Programação anunciada\n\nA edição prevê shows de bandas locais e nacionais, exposição de motocicletas, encontro de motoclubes, área de expositores, praça de alimentação e convivência. Também são anunciados estandes de montadoras e concessionárias, acessórios e equipamentos, vestuário biker, gastronomia, artesanato e economia criativa. O espetáculo U2 Audiovisual Experience é o único nome artístico destacado nas fontes atuais consultadas.\n\n## Cadastro e divergência da plataforma\n\nA página da Sympla oferece pré-cadastro gratuito e publica os contatos (73) 9811-5774 e (73) 9842-1212. O cabeçalho automático da plataforma mostra 20 a 29 de agosto, enquanto a descrição do próprio cadastro e as publicações locais informam 26 a 29 de agosto; a página usa o período repetido nas fontes editoriais e recomenda confirmação. Pré-cadastro gratuito não foi tratado como garantia de entrada gratuita. Horários, endereço de rua e estacionamento continuam pendentes.",
+        "official_url": "https://motorockfestarraial.com.br/",
+        "verification_status": "edicao_datas_local_organizacao_e_formato_confirmados_em_fontes_especificas; divergencia_no_cabecalho_da_sympla_documentada",
+        "last_updated": "2026-08-22T23:50:00-04:00",
+        "time_label": "De 26 a 29 de agosto de 2026; horários diários ainda não divulgados. O cabeçalho da Sympla exibe uma janela mais ampla, de 20 a 29 de agosto",
+        "venue": "Parque Central de Arraial d’Ajuda",
+        "street_address": "Logradouro e número ainda não publicados nas fontes específicas consultadas",
+        "full_address": "Parque Central de Arraial d’Ajuda, Arraial d’Ajuda, Porto Seguro - BA",
+        "status_basis": "Publicações específicas confirmam 26 a 29 de agosto de 2026, período futuro na checagem; não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-22T23:50:00-04:00",
+        "organizer": "AE Produtora, sob coordenação de Aldo Porto; apoio da Prefeitura de Porto Seguro e da Secretaria Municipal de Turismo",
+        "contact": "(73) 9811-5774; (73) 9842-1212; Instagram @motorockfest_; site motorockfestarraial.com.br",
+        "source_checked_at": "2026-08-22T23:50:00-04:00",
+        "admission_status": "Pré-cadastro gratuito disponível na Sympla; a regra final de entrada não foi detalhada",
+        "parking": "Não informado para a edição de 2026 nas fontes consultadas",
+        "attractions": [
+          "U2 Audiovisual Experience",
+          "Bandas locais e nacionais de rock",
+          "Exposição de motocicletas e encontro de motoclubes",
+          "Montadoras, concessionárias, acessórios e vestuário biker",
+          "Praça de alimentação, gastronomia, artesanato e economia criativa"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://www.sympla.com.br/evento/arraial-d-ajuda-moto-rock-fest-bahia/3354865",
+          "label": "Sympla — pré-cadastro do Moto Rock Fest Arraial d’Ajuda 2026",
+          "type": "pagina_de_cadastro_especifica_da_edicao",
+          "supports": "Confirma na descrição as datas de 26 a 29 de agosto, Arraial d’Ajuda, pré-cadastro gratuito, site, Instagram e dois telefones; o cabeçalho divergente de 20 a 29 foi registrado como ressalva."
+        },
+        {
+          "url": "https://www.oxarope.com/%F0%9F%93%85-arraial-dajuda-recebe-a-5a-edicao-do-moto-rock-fest-porto-seguro-ba/",
+          "label": "oXarope / Ascom Prefeitura de Porto Seguro — 5º Moto Rock Fest",
+          "type": "imprensa_local_com_texto_da_assessoria_municipal",
+          "supports": "Confirma Parque Central, 26 a 29 de agosto, AE Produtora, coordenação de Aldo Porto, apoio municipal, U2 Audiovisual Experience e a estrutura anunciada."
+        },
+        {
+          "url": "https://www.rota51.com/arraial-dajuda-recebe-a-5a-edicao-do-moto-rock-fest-neste-mes/",
+          "label": "Rota51 — Moto Rock Fest Arraial d’Ajuda 2026",
+          "type": "imprensa_local_especifica_da_edicao",
+          "supports": "Corrobora datas, Parque Central, realização, apoio e os principais componentes da programação de 2026."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Moto Rock Fest Arraial d’Ajuda\" 2026",
+          "\"5ª edição\" \"Moto Rock Fest\" \"Parque Central\"",
+          "site:portoseguro.ba.gov.br Moto Rock Fest 2026",
+          "site:sympla.com.br \"Arraial D´Ajuda Moto Rock Fest\""
+        ],
+        "domains_checked": [
+          "motorockfestarraial.com.br",
+          "sympla.com.br",
+          "oxarope.com",
+          "rota51.com",
+          "portoseguro.ba.gov.br",
+          "jb-rider.com.br"
+        ],
+        "result": "edicao_local_datas_organizacao_contatos_e_formato_confirmados_em_multiplas_fontes_especificas",
+        "uncertainties": [
+          "O cabeçalho automático da Sympla diverge da descrição e das demais fontes quanto ao início; o serviço usa 26 de agosto.",
+          "Horários diários, logradouro, regra final de entrada e estacionamento não foram publicados."
+        ]
+      }
+    },
+    {
+      "slug": "majestade-mc-cruzeiro-sp-2026-08-01",
+      "updates": {
+        "status": "concluida",
+        "summary": "A página específica associa o Majestade MC a Cruzeiro/SP em 1º de agosto de 2026 e a extração arquivada mencionava alimento em uma ação ou condição solidária. A imagem original hoje está indisponível e não foi localizada segunda fonte da edição nem registro de realização; horário, local e regra de acesso continuam sem confirmação.",
+        "body": "## Registro preservado\n\nO cadastro específico da agenda JB-RIDER relaciona Majestade MC, Cruzeiro/SP e 1º de agosto de 2026. Como a data já passou, o estado é concluído por calendário, sem afirmar que o encontro tenha ocorrido.\n\n## Referência solidária com limite de confiança\n\nO processamento anterior do flyer registrou menção a alimento, possivelmente como ação ou ingresso solidário. O arquivo visual agora retorna indisponível, e não foi possível recuperar quantidade, destinação ou condição de entrada. Essa menção permanece como dado a confirmar, e não como regra operacional.\n\n## Serviço não recuperado\n\nBuscas pelo nome do clube, município e data não localizaram publicação independente da edição. Horário, espaço, endereço, contato, estacionamento, programação e comprovação pós-evento permanecem pendentes; nenhum dado de evento homônimo foi transplantado.",
+        "official_url": "https://jb-rider.com.br/evento/20260801-majestade-mc-cruzeiro-sp",
+        "verification_status": "pagina_especifica_preservada; imagem_original_indisponivel; referencia_solidaria_sem_detalhe_e_realizacao_nao_confirmada",
+        "last_updated": "2026-08-22T23:50:00-04:00",
+        "time_label": "1º de agosto de 2026; horário não recuperado",
+        "venue": "Local da edição não recuperado em fonte verificável",
+        "street_address": "Endereço da edição não recuperado em fonte verificável",
+        "full_address": "Cruzeiro - SP; endereço detalhado pendente",
+        "status_basis": "A data divulgada, 1º de agosto de 2026, já terminou; isso encerra a janela de agenda, mas não comprova a realização.",
+        "status_checked_at": "2026-08-22T23:50:00-04:00",
+        "organizer": "Majestade MC aparece no cadastro; responsável operacional da edição não confirmado",
+        "contact": "Não localizado em fonte específica verificável",
+        "source_checked_at": "2026-08-22T23:50:00-04:00",
+        "admission_status": "A extração anterior mencionava alimento ou ação solidária, sem quantidade ou condição recuperáveis; não tratado como ingresso confirmado",
+        "parking": "Não informado em fonte recuperável",
+        "attractions": [
+          "Ação relacionada a alimento aparece na extração anterior, sem detalhes verificáveis"
+        ]
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"Majestade MC\" Cruzeiro SP evento agosto 2026",
+          "\"Majestade Moto Clube\" Cruzeiro SP",
+          "\"Majestade MC\" \"1 de agosto\"",
+          "site:cruzeiro.sp.gov.br motociclistas agosto 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "cruzeiro.sp.gov.br",
+          "mototour.com.br",
+          "motofestbrasil.com.br",
+          "instagram.com",
+          "facebook.com"
+        ],
+        "result": "registro_especifico_preservado; arquivo_visual_indisponivel; nenhuma_confirmacao_independente_da_edicao",
+        "uncertainties": [
+          "Não há confirmação independente de realização.",
+          "Local, horário, contato, atrações e condição da referência a alimento não foram recuperados."
+        ]
+      }
+    },
+    {
+      "slug": "missa-dos-motociclistas-catas-altas-mg-2026-07-26",
+      "updates": {
+        "status": "concluida",
+        "summary": "A agenda específica vinculou uma Missa dos Motociclistas a Catas Altas/MG em 26 de julho de 2026. O flyer original hoje está indisponível e as buscas em canais municipais, religiosos e motociclísticos não localizaram horário, igreja, celebrante, concentração ou confirmação de realização da edição.",
+        "body": "## Página mantida\n\nA página da agenda JB-RIDER associa a Missa dos Motociclistas a Catas Altas/MG e à data de 26 de julho de 2026. A janela anunciada terminou, então o estado editorial é concluído por calendário, sem declarar que a celebração tenha sido realizada.\n\n## Pesquisa da edição\n\nForam consultadas combinações do nome, município, data, Prefeitura e canais religiosos. Não apareceu uma publicação independente que identifique a edição de Catas Altas. Resultados sobre missas de motociclistas em outras cidades, inclusive eventos realizados também perto do Dia do Motociclista, foram descartados para evitar mistura de local, paróquia ou programação.\n\n## Informações pendentes\n\nO arquivo visual original não estava mais disponível. Igreja ou espaço, horário, celebrante, formato da mobilização, contato, acesso e estacionamento não puderam ser confirmados. A página continua publicada com essas lacunas explicitadas até surgir fonte própria da edição.",
+        "official_url": "https://jb-rider.com.br/evento/20260726-missa-dos-motociclistas-catas-altas-mg",
+        "verification_status": "pagina_especifica_com_data_e_municipio; flyer_indisponivel_e_sem_segunda_fonte_ou_confirmacao_da_realizacao",
+        "last_updated": "2026-08-22T23:50:00-04:00",
+        "time_label": "26 de julho de 2026; horário não recuperado",
+        "venue": "Igreja ou local da celebração não recuperado em fonte verificável",
+        "street_address": "Endereço não recuperado em fonte verificável",
+        "full_address": "Catas Altas - MG; endereço detalhado pendente",
+        "status_basis": "A data divulgada, 26 de julho de 2026, já terminou; o encerramento por calendário não comprova a realização.",
+        "status_checked_at": "2026-08-22T23:50:00-04:00",
+        "organizer": "Paróquia, moto clube ou responsável da edição não identificado em fonte verificável",
+        "contact": "Não localizado em fonte específica da edição",
+        "source_checked_at": "2026-08-22T23:50:00-04:00",
+        "admission_status": "Não informado em fonte recuperável",
+        "parking": "Não informado em fonte recuperável",
+        "attractions": [
+          "Celebração religiosa indicada pelo nome do evento; formato e programação não recuperados"
+        ]
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"Missa dos Motociclistas\" \"Catas Altas\" 2026",
+          "\"Missa dos Motociclistas de Catas Altas\"",
+          "site:catasaltas.mg.gov.br motociclistas julho 2026",
+          "Catas Altas paróquia missa motociclistas 26 julho 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "catasaltas.mg.gov.br",
+          "arquidiocesebh.org.br",
+          "mototour.com.br",
+          "instagram.com",
+          "facebook.com"
+        ],
+        "result": "data_e_municipio_preservados_da_pagina_especifica; nenhum_servico_ou_balanco_independente_recuperado",
+        "uncertainties": [
+          "Não foi identificada a igreja, paróquia ou organização responsável.",
+          "Não há confirmação independente da realização nem serviço operacional recuperado."
+        ]
+      }
+    },
+    {
+      "slug": "missa-dos-motociclistas-volta-redonda-rj-2026-07-27",
+      "updates": {
+        "status": "concluida",
+        "summary": "A página específica registra uma Missa dos Motociclistas em Volta Redonda/RJ para 27 de julho de 2026. A imagem original hoje está indisponível e não foi encontrada publicação da edição que confirme realização, horário, igreja, concentração, responsável ou serviço ao público.",
+        "body": "## Registro preservado\n\nA agenda JB-RIDER associa a Missa dos Motociclistas a Volta Redonda/RJ em 27 de julho de 2026. A data coincide com o Dia Nacional do Motociclista, mas essa coincidência não identifica por si só local, organização ou formato da celebração. Como a data passou, a página está concluída por calendário, sem afirmar realização.\n\n## Resultado das buscas\n\nConsultas pelo título exato, município, Diocese de Barra do Piraí–Volta Redonda, Prefeitura e data não recuperaram uma publicação específica da edição. Uma notícia municipal antiga sobre conscientização no trânsito e o Dia do Motociclista foi considerada apenas contexto e não foi usada para preencher o evento de 2026.\n\n## Serviço pendente\n\nO flyer vinculado à página não estava mais disponível. Igreja, horário, eventual motociata, ponto de encontro, contato, entrada e estacionamento permanecem sem confirmação. Dados de missas homônimas em outros municípios não foram transferidos.",
+        "official_url": "https://jb-rider.com.br/evento/20260727-missa-dos-motociclistas-volta-redonda-rj",
+        "verification_status": "pagina_especifica_com_data_e_municipio; imagem_indisponivel; nenhuma_fonte_da_edicao_ou_confirmacao_pos_evento_localizada",
+        "last_updated": "2026-08-22T23:50:00-04:00",
+        "time_label": "27 de julho de 2026; horário não recuperado",
+        "venue": "Igreja ou local da celebração não recuperado em fonte verificável",
+        "street_address": "Endereço não recuperado em fonte verificável",
+        "full_address": "Volta Redonda - RJ; endereço detalhado pendente",
+        "status_basis": "A data divulgada, 27 de julho de 2026, já terminou; isso encerra a janela de agenda, mas não comprova a realização.",
+        "status_checked_at": "2026-08-22T23:50:00-04:00",
+        "organizer": "Paróquia, moto clube ou responsável da edição não identificado em fonte verificável",
+        "contact": "Não localizado em fonte específica da edição",
+        "source_checked_at": "2026-08-22T23:50:00-04:00",
+        "admission_status": "Não informado em fonte recuperável",
+        "parking": "Não informado em fonte recuperável",
+        "attractions": [
+          "Celebração religiosa indicada pelo nome do evento; formato e programação não recuperados"
+        ]
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"Missa dos Motociclistas\" \"Volta Redonda\" 2026",
+          "\"27 de julho de 2026\" motociclistas Volta Redonda missa",
+          "site:diocesevr.com.br motociclistas missa 2026",
+          "site:voltaredonda.rj.gov.br motociclistas julho 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "voltaredonda.rj.gov.br",
+          "diocesevr.com.br",
+          "mototour.com.br",
+          "instagram.com",
+          "facebook.com"
+        ],
+        "result": "pagina_especifica_preservada; nenhuma_publicacao_independente_da_edicao_ou_prova_de_realizacao_recuperada",
+        "uncertainties": [
+          "Igreja, responsável, horário e formato da celebração não foram identificados.",
+          "A conclusão por calendário não equivale a confirmação de realização."
+        ]
+      }
+    },
+    {
+      "slug": "moto-casal-e-amigos-itaborai-rj-2026-09-20",
+      "updates": {
+        "title": "1º Aniversário do Moto Casal & Amigos — 17 anos de estrada",
+        "short_name": "Moto Casal & Amigos",
+        "city": "Itaboraí",
+        "status": "agendada",
+        "summary": "O Moto Casal & Amigos — Grupo MOCA anuncia seu 1º aniversário e 17 anos de estrada para 20 de setembro de 2026, a partir das 12h, na sede do Leão das Sombras MC, em Itaboraí/RJ. O flyer confirma almoço gratuito das 12h às 15h, caldos depois do almoço, sorteio ligado à doação de brinquedo e shows de ZR Zona Rock, Rose of Bones e Dinucci.",
+        "body": "## Comemoração e local\n\nO flyer específico de 2026 apresenta a celebração como o 1º aniversário do Moto Casal & Amigos e também destaca 17 anos de estrada. O encontro está marcado para domingo, 20 de setembro, a partir das 12h, na sede do Leão das Sombras MC, Rua São Judas Tadeu, 162, Outeiro das Pedras, Itaboraí/RJ.\n\n## Programação divulgada\n\nO almoço gratuito está anunciado das 12h às 15h, seguido de caldos. A grade musical informa ZR Zona Rock às 12h30, Rose of Bones às 15h e Dinucci às 17h30. O material também promete bebidas a preço especial para motociclistas.\n\n## Ação solidária e lacunas\n\nA peça convida o público a doar um brinquedo para o Natal Solidário 2026 da AMMA e vincula a doação à participação em sorteios de brindes. O brinquedo não foi interpretado como condição de entrada, pois o flyer não afirma isso. Não foram informados contato direto, regra geral de acesso, estacionamento ou término; as buscas não encontraram segunda fonte específica da edição.",
+        "official_url": "https://jb-rider.com.br/evento/20260920-moto-casal-e-amigos-itaborai-rj",
+        "verification_status": "flyer_especifico_legivel_com_data_horario_endereco_grade_alimentacao_e_acao_solidaria; sem_segunda_fonte_da_edicao",
+        "last_updated": "2026-08-22T23:50:00-04:00",
+        "time_label": "20 de setembro de 2026, a partir das 12h; almoço das 12h às 15h; shows às 12h30, 15h e 17h30",
+        "venue": "Sede do Leão das Sombras MC",
+        "street_address": "Rua São Judas Tadeu, 162, Outeiro das Pedras",
+        "full_address": "Sede do Leão das Sombras MC, Rua São Judas Tadeu, 162, Outeiro das Pedras, Itaboraí - RJ",
+        "status_basis": "O flyer específico informa 20 de setembro de 2026, data futura na checagem; não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-22T23:50:00-04:00",
+        "organizer": "Moto Casal & Amigos — Grupo MOCA; evento acolhido na sede do Leão das Sombras MC",
+        "contact": "Contato direto da edição não informado no flyer nem localizado em segunda fonte",
+        "source_checked_at": "2026-08-22T23:50:00-04:00",
+        "admission_status": "Condição geral de entrada não informada; a doação de brinquedo é vinculada ao sorteio, não apresentada como ingresso",
+        "parking": "Não informado no flyer consultado",
+        "attractions": [
+          "ZR Zona Rock — 12h30",
+          "Rose of Bones — 15h",
+          "Dinucci — 17h30",
+          "Almoço gratuito das 12h às 15h e caldos depois do almoço",
+          "Sorteio de brindes para participantes da doação de brinquedo ao Natal Solidário 2026 da AMMA"
+        ]
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"Moto Casal e Amigos\" Itaboraí 2026",
+          "\"Grupo MOCA\" Itaboraí motociclistas",
+          "\"Leão das Sombras MC\" \"20 de setembro\"",
+          "site:itaborai.rj.gov.br motociclistas setembro 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "itaborai.rj.gov.br",
+          "instagram.com",
+          "facebook.com",
+          "mototour.com.br"
+        ],
+        "result": "flyer_da_edicao_fornece_servico_detalhado; nenhuma_segunda_publicacao_especifica_indexada",
+        "uncertainties": [
+          "Contato, entrada geral, estacionamento e horário de término não foram publicados.",
+          "A doação de brinquedo não foi convertida em exigência de entrada."
+        ]
+      }
+    },
+    {
+      "slug": "moto-fera-jacarei-sp-2026-08-15",
+      "updates": {
+        "city": "Jacareí",
+        "status": "concluida",
+        "summary": "A página original cadastrou o Moto Fera em Jacareí/SP para 15 de agosto de 2026 e a extração anterior mencionava área de alimentação. Uma segunda página de 2026 anuncia evento com o mesmo nome e data na Chácara Santo Antônio, em Santa Branca/SP; como a imagem da página de Jacareí está indisponível, não há prova suficiente de que sejam o mesmo encontro e o endereço divergente não foi transferido.",
+        "body": "## Registro e encerramento\n\nA agenda JB-RIDER associa o nome Moto Fera, a cidade de Jacareí/SP e a data de 15 de agosto de 2026. A data já passou, por isso o estado editorial é concluído por calendário, sem confirmação de que o evento tenha ocorrido. A extração anterior do flyer mencionava área de alimentação, mas o arquivo visual hoje retorna indisponível.\n\n## Fonte homônima com município divergente\n\nO site My Love House Rock publicou um “Moto Fera — 15 AGO” em 2026, com rock e motociclismo, porém informa Chácara Santo Antônio, em Santa Branca/SP. A coincidência de nome e data é relevante, mas não basta para alterar a localidade desta página: o flyer original de Jacareí não pôde ser comparado e a fonte externa não menciona Jacareí. Endereço, telefone e e-mail de Santa Branca foram, portanto, deliberadamente não reutilizados aqui.\n\n## Lacunas\n\nNão foi localizado registro pós-evento nem fonte que resolva a divergência municipal. Local de Jacareí, horário, responsável, contato, entrada, estacionamento e programação permanecem pendentes.",
+        "official_url": "https://jb-rider.com.br/evento/20260815-moto-fera-jacarei-sp",
+        "verification_status": "pagina_especifica_de_jacarei_com_imagem_indisponivel; fonte_homonima_de_mesma_data_aponta_santa_branca; correlacao_nao_confirmada",
+        "last_updated": "2026-08-22T23:50:00-04:00",
+        "time_label": "15 de agosto de 2026; horário da página de Jacareí não recuperado",
+        "venue": "Local da página de Jacareí não confirmado; uma fonte homônima da mesma data aponta Santa Branca",
+        "street_address": "Endereço da edição vinculada a Jacareí não recuperado",
+        "full_address": "Jacareí - SP, conforme o cadastro original; localidade em divergência com fonte homônima de Santa Branca",
+        "status_basis": "A data divulgada, 15 de agosto de 2026, já terminou; isso encerra a janela de agenda, mas não comprova a realização.",
+        "status_checked_at": "2026-08-22T23:50:00-04:00",
+        "organizer": "Responsável pela página vinculada a Jacareí não identificado em fonte verificável",
+        "contact": "Não localizado para a página de Jacareí; contatos da divulgação de Santa Branca não foram transferidos",
+        "source_checked_at": "2026-08-22T23:50:00-04:00",
+        "admission_status": "Não informado para a página de Jacareí",
+        "parking": "Não informado para a página de Jacareí",
+        "attractions": [
+          "Área de alimentação aparecia na extração anterior do material de Jacareí, hoje indisponível",
+          "A fonte homônima de Santa Branca menciona rock e motociclismo, sem correlação confirmada com esta página"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://mylovehouserock.com.br/",
+          "label": "My Love House Rock — Moto Fera de 15 de agosto de 2026",
+          "type": "divulgacao_especifica_homonima_com_localidade_divergente",
+          "supports": "Confirma um evento chamado Moto Fera na mesma data, mas o situa em Santa Branca/SP; não confirma vínculo com a página de Jacareí e nenhum endereço ou contato foi transferido."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Moto Fera 2026\" Jacareí 15 agosto",
+          "\"Moto Fera\" \"15 AGO\" motociclistas",
+          "site:jacarei.sp.gov.br \"Moto Fera\"",
+          "site:mylovehouserock.com.br \"MOTO FERA\""
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "mylovehouserock.com.br",
+          "jacarei.sp.gov.br",
+          "santabranca.sp.gov.br",
+          "instagram.com",
+          "facebook.com"
+        ],
+        "result": "homonimo_de_mesma_data_encontrado_em_outro_municipio; divergencia_preservada_sem_transplante_de_servico",
+        "uncertainties": [
+          "Não foi possível comparar os flyers para determinar se houve erro de município no cadastro original.",
+          "Não há confirmação pós-evento nem serviço seguro para a localidade de Jacareí."
+        ]
+      }
+    },
+    {
+      "slug": "moto-fest-lagoinha-sao-jose-do-rio-preto-sp-2026-11-21",
+      "updates": {
+        "title": "Moto Fest Lagoinha 2026",
+        "short_name": "Moto Fest Lagoinha",
+        "city": "São José do Rio Preto",
+        "status": "agendada",
+        "summary": "O flyer do Moto Fest Lagoinha anuncia o encontro em São José do Rio Preto/SP para 21 de novembro de 2026. A peça confirma rock com a banda Solarock, food truck com preço acessível, orientações de pilotagem, deslocamento de motocicletas e uma proposta de amizade e fé; horário, espaço exato, contato, acesso e estacionamento ainda não foram publicados.",
+        "body": "## O que o flyer confirma\n\nO Moto Fest Lagoinha está marcado para 21 de novembro de 2026 em São José do Rio Preto/SP. A arte usa a referência “Lagoinha”, mas não informa rua, número, espaço ou horário; por isso, a página não transforma o nome do evento em endereço.\n\n## Atividades anunciadas\n\nA banda Solarock aparece como atração musical. O material também divulga food truck com preço acessível, orientações de pilotagem e deslocamento de motocicletas, além de convidar o público para um dia de rock, amizade e fé. Logotipos de Lagoinha e Missionários de Cristo Brasil aparecem na peça, sem indicação textual suficiente para definir qual entidade responde pela operação.\n\n## Informações que ainda faltam\n\nO próprio flyer avisa que mais informações serão publicadas. Não foram encontrados horário, local exato, contato, condição de entrada, estacionamento ou segunda fonte específica da edição. Esses campos permanecem abertos, sem reaproveitar serviço de outro encontro em São José do Rio Preto.",
+        "official_url": "https://jb-rider.com.br/evento/20261121-moto-fest-lagoinha-sao-jose-do-rio-preto-sp",
+        "verification_status": "flyer_especifico_legivel_com_data_cidade_banda_e_atividades; local_horario_acesso_e_responsavel_pendentes",
+        "last_updated": "2026-08-22T23:50:00-04:00",
+        "time_label": "21 de novembro de 2026; horário ainda não publicado",
+        "venue": "Lagoinha, em São José do Rio Preto; espaço exato ainda não informado",
+        "street_address": "Rua e número ainda não publicados no flyer consultado",
+        "full_address": "Lagoinha, São José do Rio Preto - SP; endereço detalhado pendente",
+        "status_basis": "O flyer específico informa 21 de novembro de 2026, data futura na checagem; não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-22T23:50:00-04:00",
+        "organizer": "Responsável operacional não identificado; os logotipos Lagoinha e Missionários de Cristo Brasil aparecem no flyer",
+        "contact": "Contato da edição não informado no flyer nem localizado em fonte específica",
+        "source_checked_at": "2026-08-22T23:50:00-04:00",
+        "admission_status": "Não informado no flyer consultado",
+        "parking": "Não informado no flyer consultado",
+        "attractions": [
+          "Solarock",
+          "Food truck com preço acessível",
+          "Orientações de pilotagem",
+          "Deslocamento de motocicletas",
+          "Programação com rock, amizade e fé"
+        ]
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"Moto Fest Lagoinha\" \"21/11/2026\"",
+          "\"Moto Fest Lagoinha\" Solarock",
+          "\"Missionários de Cristo Brasil\" Lagoinha motos",
+          "site:riopreto.sp.gov.br \"Moto Fest Lagoinha\""
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "riopreto.sp.gov.br",
+          "motociclistasunidos.com.br",
+          "motoclub.run",
+          "instagram.com",
+          "facebook.com"
+        ],
+        "result": "flyer_da_edicao_reinspecionado_com_servico_parcial; nenhuma_segunda_fonte_especifica_indexada",
+        "uncertainties": [
+          "“Lagoinha” não foi tratado como endereço completo.",
+          "Horário, espaço, responsável, contato, entrada e estacionamento ainda não foram publicados."
+        ]
+      }
+    },
+    {
+      "slug": "mundicas-mg-o-chamado-da-estrada-nova-pauliceia-gaviao-peixoto-sp-2026-08-09",
+      "updates": {
+        "title": "Mundiças Moto Grupo — O Chamado da Estrada",
+        "short_name": "O Chamado da Estrada",
+        "status": "concluida",
+        "summary": "A página específica associou o Mundiças Moto Grupo e o tema “O Chamado da Estrada” a Nova Pauliceia, em Gavião Peixoto/SP, no dia 9 de agosto de 2026. A extração anterior indicava entrada franca, rock e shows, mas o arquivo original está indisponível e não foi localizada confirmação independente da realização ou do serviço detalhado.",
+        "body": "## Registro da edição\n\nO cadastro JB-RIDER relaciona Mundiças Moto Grupo — O Chamado da Estrada, a localidade de Nova Pauliceia, em Gavião Peixoto/SP, e 9 de agosto de 2026. A sigla “MG” no endereço da página foi mantida como parte do nome original e não foi interpretada como Minas Gerais, pois a própria localidade indicada pertence a São Paulo.\n\n## Acesso e programação com ressalva\n\nA extração arquivada do material registrou entrada franca, rock e shows. O arquivo visual agora está indisponível, portanto nomes de bandas, horários, endereço e eventuais condições não puderam ser revistos. Como a data passou, o estado é concluído por calendário, sem prova de realização.\n\n## Identidade do grupo\n\nUm perfil público do MotoTour identifica o Mundiças Moto Grupo como coletivo fundado em 2012 em Araraquara, com atuação em encontros, irmandade e ações beneficentes. Esse perfil corrobora a existência do nome, mas não confirma responsabilidade, serviço ou realização da edição de Gavião Peixoto. Nenhum endereço ou contato institucional foi convertido em dado do evento.",
+        "official_url": "https://jb-rider.com.br/evento/20260809-mundicas-mg-o-chamado-da-estrada-nova-pauliceia-gaviao-peixoto-sp",
+        "verification_status": "pagina_especifica_com_data_localidade_e_extracao_de_acesso_e_rock; arquivo_indisponivel_e_realizacao_nao_confirmada",
+        "last_updated": "2026-08-22T23:50:00-04:00",
+        "time_label": "9 de agosto de 2026; horário não recuperado",
+        "venue": "Nova Pauliceia; espaço exato não recuperado",
+        "street_address": "Endereço detalhado da edição não recuperado",
+        "full_address": "Nova Pauliceia, Gavião Peixoto - SP; endereço detalhado pendente",
+        "status_basis": "A data divulgada, 9 de agosto de 2026, já terminou; o encerramento por calendário não comprova a realização.",
+        "status_checked_at": "2026-08-22T23:50:00-04:00",
+        "organizer": "Mundiças Moto Grupo aparece no material; responsabilidade operacional da edição não confirmada por segunda fonte",
+        "contact": "Contato da edição não recuperado; o contato do perfil institucional não foi tratado como atendimento do evento",
+        "source_checked_at": "2026-08-22T23:50:00-04:00",
+        "admission_status": "Entrada franca aparecia na extração anterior do material específico, hoje indisponível para nova conferência",
+        "parking": "Não informado em fonte recuperável",
+        "attractions": [
+          "Rock e shows, conforme a extração anterior do material específico",
+          "Programação nominal não recuperada"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://mototour.com.br/motoclubes/moto-grupo-mundicas",
+          "label": "MotoTour — perfil do Mundiças Moto Grupo",
+          "type": "perfil_institucional_contextual",
+          "supports": "Corrobora a existência do grupo, fundação em 2012, base em Araraquara e atuação motociclística e beneficente; não confirma organização nem realização do evento de 2026."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Mundiças\" \"Nova Pauliceia\" motociclistas",
+          "\"O Chamado da Estrada\" \"Gavião Peixoto\"",
+          "\"Mundiças Moto Grupo\" 2026",
+          "site:gaviaopeixoto.sp.gov.br motociclistas agosto 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "mototour.com.br",
+          "gaviaopeixoto.sp.gov.br",
+          "instagram.com",
+          "facebook.com"
+        ],
+        "result": "identidade_do_grupo_corroborada; nenhuma_segunda_fonte_da_edicao_ou_registro_pos_evento_localizado",
+        "uncertainties": [
+          "A responsabilidade operacional do grupo pela edição não foi confirmada por segunda fonte.",
+          "Horário, endereço, bandas, contato, estacionamento e realização permanecem sem comprovação."
+        ]
+      }
+    },
+    {
+      "slug": "niver-triplo-sao-pedro-d-aldeia-rj-2026-08-02",
+      "updates": {
+        "city": "São Pedro da Aldeia",
+        "status": "concluida",
+        "summary": "O cadastro específico marcou “Niver Triplo” em São Pedro da Aldeia/RJ para 2 de agosto de 2026. A extração anterior encontrou a marcação 16h30 e menção a expositores, mas não identificou homenageados ou local; a imagem original hoje está indisponível e não apareceu confirmação independente da edição ou de sua realização.",
+        "body": "## Registro mantido\n\nA agenda JB-RIDER associa o título Niver Triplo, São Pedro da Aldeia/RJ e 2 de agosto de 2026. O nome foi mantido sem inventar os três homenageados, moto clubes ou aniversários envolvidos. Como a data passou, o estado é concluído por calendário, não uma declaração de realização.\n\n## Informações parcialmente recuperadas\n\nO processamento anterior do flyer registrou “16h30” e a presença de expositores, mas não conseguiu relacionar o horário a uma atividade específica. O arquivo de imagem agora retorna indisponível, impedindo nova leitura. Por isso, 16h30 permanece como referência a confirmar, e não como abertura garantida.\n\n## Pesquisa e lacunas\n\nBuscas pelo título, município e data produziram resultados de outros eventos sem relação comprovada. Não foram recuperados local, endereço, homenageados, organizador, contato, regra de acesso, estacionamento, grade artística ou registro pós-evento.",
+        "official_url": "https://jb-rider.com.br/evento/20260802-niver-triplo-sao-pedro-d-aldeia-rj",
+        "verification_status": "pagina_especifica_com_data_cidade_e_extracao_parcial; imagem_indisponivel; homenageados_local_e_realizacao_nao_confirmados",
+        "last_updated": "2026-08-22T23:50:00-04:00",
+        "time_label": "2 de agosto de 2026; a extração anterior registrou 16h30 sem identificar a atividade correspondente",
+        "venue": "Local da edição não recuperado em fonte verificável",
+        "street_address": "Endereço da edição não recuperado em fonte verificável",
+        "full_address": "São Pedro da Aldeia - RJ; endereço detalhado pendente",
+        "status_basis": "A data divulgada, 2 de agosto de 2026, já terminou; isso encerra a janela de agenda, mas não comprova a realização.",
+        "status_checked_at": "2026-08-22T23:50:00-04:00",
+        "organizer": "Organização e homenageados não identificados em fonte verificável",
+        "contact": "Não localizado em fonte específica da edição",
+        "source_checked_at": "2026-08-22T23:50:00-04:00",
+        "admission_status": "Não informado em fonte recuperável",
+        "parking": "Não informado em fonte recuperável",
+        "attractions": [
+          "Expositores aparecem na extração anterior do material",
+          "Programação artística e homenageados não recuperados"
+        ]
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"Niver Triplo\" \"São Pedro da Aldeia\" 2026",
+          "\"Niver Triplo\" motociclistas agosto 2026 RJ",
+          "site:pmspa.rj.gov.br motociclistas 2 agosto 2026",
+          "site:mototour.com.br \"São Pedro da Aldeia\" agosto 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "pmspa.rj.gov.br",
+          "mototour.com.br",
+          "instagram.com",
+          "facebook.com"
+        ],
+        "result": "registro_especifico_preservado; imagem_indisponivel; nenhuma_fonte_independente_da_edicao_localizada",
+        "uncertainties": [
+          "Os três aniversariantes ou entidades homenageadas não foram identificados.",
+          "O significado de 16h30, o local, o serviço e a realização não foram confirmados."
+        ]
+      }
+    },
+    {
+      "slug": "niver-amparo-sp-2026-09-12",
+      "updates": {
+        "title": "Aniversário de Vanessa e William — 100 anos",
+        "short_name": "Aniversário de Vanessa e William",
+        "status": "agendada",
+        "summary": "Vanessa e William anunciam uma festa conjunta de 50 + 50 anos em 12 de setembro de 2026, na sede do Pé Estradeiro MC, em Amparo/SP. O flyer confirma as bandas Vintage e Pão de Queijo, orientação para levar kit churrasco e cooler liberado; horário, entrada, contato e estacionamento não foram informados.",
+        "body": "## Comemoração conjunta\n\nO flyer específico anuncia os aniversários de Vanessa e William, cada um completando 50 anos, com a chamada “50 + 50 = 100 anos”. A festa está marcada para 12 de setembro de 2026 na sede do Pé Estradeiro MC, Rodovia Prefeito Aziz Lian, km 5, SP-107, bairro Duas Pontes, em Amparo/SP.\n\n## Música e formato\n\nAs atrações confirmadas são Vintage, com classic rock e flashback, e a banda Pão de Queijo. O material orienta os convidados a levar kit churrasco e informa que cooler é liberado. Essas orientações não foram interpretadas como condição formal de entrada.\n\n## Corroboração e pendências\n\nUma agenda de 2025 do Pé Estradeiro MC registra a mesma sede e o mesmo endereço, corroborando a identidade do local, mas não serve como programação atual. O flyer de 2026 não informa horário, contato, ingresso, estacionamento ou regras adicionais; nenhuma segunda publicação específica da festa foi localizada.",
+        "official_url": "https://jb-rider.com.br/evento/20260912-niver-amparo-sp",
+        "verification_status": "flyer_especifico_legivel_com_homenageados_data_sede_endereco_bandas_e_orientacoes; sem_segunda_fonte_da_edicao",
+        "last_updated": "2026-08-22T23:50:00-04:00",
+        "time_label": "12 de setembro de 2026; horário ainda não publicado",
+        "venue": "Sede do Pé Estradeiro MC",
+        "street_address": "Rodovia Prefeito Aziz Lian, km 5, SP-107, bairro Duas Pontes",
+        "full_address": "Sede do Pé Estradeiro MC, Rodovia Prefeito Aziz Lian, km 5, SP-107, Duas Pontes, Amparo - SP",
+        "status_basis": "O flyer específico informa 12 de setembro de 2026, data futura na checagem; não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-22T23:50:00-04:00",
+        "organizer": "Vanessa e William são os homenageados; responsável operacional não indicado, com realização na sede do Pé Estradeiro MC",
+        "contact": "Contato da festa não informado no flyer nem localizado em fonte específica",
+        "source_checked_at": "2026-08-22T23:50:00-04:00",
+        "admission_status": "Não informado; levar kit churrasco e cooler liberado são orientações do flyer, não apresentadas como ingresso",
+        "parking": "Não informado no flyer consultado",
+        "attractions": [
+          "Vintage — classic rock e flashback",
+          "Banda Pão de Queijo",
+          "Kit churrasco",
+          "Cooler liberado"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://firesoulswebradio.com/evento/317607/pe-estradeiro-mc-amparo-sp/",
+          "label": "Fire Souls Web Rádio — evento de 2025 na sede do Pé Estradeiro MC",
+          "type": "agenda_historica_do_mesmo_local",
+          "supports": "Corrobora historicamente a sede do Pé Estradeiro MC e o endereço na Rodovia Prefeito Aziz Lian, km 5; não confirma data, bandas ou serviço de 2026."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Vanessa e William\" \"Pé Estradeiro\" 2026",
+          "\"50+50=100 anos\" Amparo rock",
+          "\"Niver\" \"Pé Estradeiro MC\" \"12 de setembro\"",
+          "\"Rodovia Prefeito Aziz Lian\" \"Pé Estradeiro MC\""
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "firesoulswebradio.com",
+          "amparo.sp.gov.br",
+          "instagram.com",
+          "facebook.com"
+        ],
+        "result": "flyer_da_edicao_fornece_servico_principal; fonte_historica_corroborou_identidade_e_endereco_da_sede",
+        "uncertainties": [
+          "Horário, responsável operacional, contato, entrada e estacionamento não foram publicados.",
+          "A fonte histórica de 2025 não foi usada para completar a programação de 2026."
+        ]
+      }
+    },
+    {
+      "slug": "nazarenos-mc-campinas-sp-2026-08-29",
+      "updates": {
+        "title": "5º Moto Culto do MC Nazarenos",
+        "short_name": "5º Moto Culto MC Nazarenos",
+        "status": "agendada",
+        "summary": "O 5º Moto Culto do MC Nazarenos está anunciado para 29 de agosto de 2026, a partir das 11h, na Igreja do Nazareno Swiss Park, em Campinas/SP. O flyer confirma comunhão, sorteio, alimentação gratuita, refrigerante e ceia; o site institucional do moto clube corrobora a identidade do ministério e o endereço, mas entrada e estacionamento ainda não foram informados.",
+        "body": "## Serviço de 2026\n\nO flyer específico anuncia o 5º Moto Culto do MC Nazarenos para sábado, 29 de agosto de 2026, a partir das 11h. O local indicado é a Igreja do Nazareno Swiss Park, Rua Arcebispo Dom Luciano Mendes de Almeida, s/n, Swiss Park, Campinas/SP.\n\n## Atividades confirmadas\n\nA peça lista comunhão, sorteio, alimentação gratuita, refrigerante e ceia. A gratuidade se refere à alimentação; ela não foi convertida em garantia de entrada gratuita porque o flyer não publica uma regra geral de acesso.\n\n## Identidade institucional e lacunas\n\nO site oficial do MC Nazarenos descreve o grupo como ministério cristão ligado ao motociclismo e registra o mesmo endereço em divulgação de uma edição anterior do Moto Culto. Isso corrobora a identidade e a referência de local, mas não transfere atrações históricas para 2026. O canal institucional contato@mcnazarenos.com.br pode auxiliar na confirmação, porém não foi apresentado como atendimento exclusivo da 5ª edição. Estacionamento e horário de término seguem sem informação.",
+        "official_url": "https://jb-rider.com.br/evento/20260829-nazarenos-mc-campinas-sp",
+        "verification_status": "flyer_especifico_legivel_com_edicao_data_horario_local_endereco_e_atividades; identidade_e_endereco_corroborados_pelo_site_do_mc",
+        "last_updated": "2026-08-22T23:50:00-04:00",
+        "time_label": "29 de agosto de 2026, a partir das 11h; término não informado",
+        "venue": "Igreja do Nazareno Swiss Park",
+        "street_address": "Rua Arcebispo Dom Luciano Mendes de Almeida, s/n, Swiss Park",
+        "full_address": "Igreja do Nazareno Swiss Park, Rua Arcebispo Dom Luciano Mendes de Almeida, s/n, Swiss Park, Campinas - SP",
+        "status_basis": "O flyer específico informa 29 de agosto de 2026, data futura na checagem; não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-22T23:50:00-04:00",
+        "organizer": "MC Nazarenos — Moto Clube Cristão; acolhida na Igreja do Nazareno Swiss Park",
+        "contact": "contato@mcnazarenos.com.br — contato institucional do moto clube, não identificado como canal exclusivo da 5ª edição",
+        "source_checked_at": "2026-08-22T23:50:00-04:00",
+        "admission_status": "Condição geral de entrada não informada; a alimentação é anunciada como gratuita",
+        "parking": "Não informado no flyer nem no serviço institucional consultado",
+        "attractions": [
+          "Comunhão",
+          "Sorteio",
+          "Alimentação gratuita",
+          "Refrigerante",
+          "Ceia"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://www.mcnazarenos.com.br/",
+          "label": "Site oficial do MC Nazarenos",
+          "type": "fonte_institucional_do_organizador",
+          "supports": "Corrobora a identidade do MC Nazarenos como ministério motociclístico, o contato institucional e o uso do mesmo endereço em Moto Culto anterior; não confirma a programação de 2026."
+        },
+        {
+          "url": "https://www.waze.com/pt-BR/live-map/directions/igreja-do-nazareno-swiss-park-r.-arcebispo-dom-luciano-mendes-de-almeida-campinas?to=place.w.205063714.2050833750.6893388",
+          "label": "Waze — Igreja do Nazareno Swiss Park",
+          "type": "diretorio_de_localizacao",
+          "supports": "Corrobora o nome da igreja e a Rua Arcebispo Dom Luciano Mendes de Almeida; não confirma data, programação ou acesso do evento."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"5º Moto Culto\" Nazarenos Campinas 2026",
+          "\"Nazarenos MC\" Campinas 29 agosto 2026",
+          "site:mcnazarenos.com.br Moto Culto Swiss Park",
+          "\"Rua Arcebispo Dom Luciano Mendes de Almeida\" \"Igreja do Nazareno\""
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "mcnazarenos.com.br",
+          "nazareno.com.br",
+          "nazarenodistritocampinas.com.br",
+          "waze.com",
+          "instagram.com"
+        ],
+        "result": "flyer_da_edicao_fornece_servico; fonte_institucional_e_diretorio_corroboram_identidade_e_local",
+        "uncertainties": [
+          "A regra geral de entrada, estacionamento e horário de término não foram publicados.",
+          "O e-mail é institucional e pode não ser o canal operacional da 5ª edição."
+        ]
+      }
+    },
+    {
+      "slug": "neblina-mc-peruibe-sp-2026-11-28",
+      "updates": {
+        "title": "21 anos de estrada do Neblina Moto Clube",
+        "short_name": "21 anos do Neblina Moto Clube",
+        "city": "Peruíbe",
+        "status": "agendada",
+        "summary": "O Neblina Moto Clube anuncia seus 21 anos de estrada para 28 e 29 de novembro de 2026, com início às 14h, na Arena Motociclista, em Peruíbe/SP. Flyer e agenda motociclística específica confirmam churrasco fogo de chão gratuito, camping, troféus, brindes, pau de sebo, gincanas, praça de alimentação, expositores e shows de bandas; entrada e estacionamento não foram detalhados.",
+        "body": "## Aniversário e endereço\n\nA comemoração dos 21 anos de estrada do Neblina Moto Clube está marcada para 28 e 29 de novembro de 2026. A abertura aparece às 14h no sábado. O flyer indica a Arena Motociclista, km 346, Rua Lituânia, 2256, bairro São José II, em Peruíbe/SP; como a peça combina uma referência quilométrica e um logradouro, é recomendável confirmar a rota antes da viagem.\n\n## Estrutura anunciada\n\nA programação inclui churrasco fogo de chão gratuito, área de camping, entrega de troféus e brindes, pau de sebo com premiação, gincanas, praça de alimentação, barracas de couro e artesanato e apresentações de bandas. Uma segunda agenda motociclística de 2026 repete data, cidade, horário inicial e esses destaques, reforçando a leitura do flyer.\n\n## Serviço ainda necessário\n\nNão foram publicados nomes e horários das bandas, contato da edição, regra geral de entrada, estrutura do camping, encerramento do domingo ou estacionamento. A gratuidade do churrasco não foi interpretada como gratuidade do acesso.",
+        "official_url": "https://jb-rider.com.br/evento/20261128-2-neblina-mc-peruibe-sp",
+        "verification_status": "flyer_especifico_e_segunda_agenda_de_2026_confirmam_edicao_datas_horario_inicial_cidade_e_estrutura; regras_de_acesso_pendentes",
+        "last_updated": "2026-08-22T23:50:00-04:00",
+        "time_label": "28 e 29 de novembro de 2026; início anunciado às 14h no sábado; demais horários não publicados",
+        "venue": "Arena Motociclista",
+        "street_address": "km 346, Rua Lituânia, 2256, São José II — referência reproduzida do flyer; confirmar rota",
+        "full_address": "Arena Motociclista, km 346, Rua Lituânia, 2256, São José II, Peruíbe - SP; confirmar a referência de rota",
+        "status_basis": "Flyer e agenda específica informam 28 e 29 de novembro de 2026, período futuro na checagem; não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-22T23:50:00-04:00",
+        "organizer": "Neblina Moto Clube",
+        "contact": "Contato da edição não informado nas fontes específicas consultadas",
+        "source_checked_at": "2026-08-22T23:50:00-04:00",
+        "admission_status": "Condição geral de entrada não informada; o churrasco fogo de chão é anunciado como gratuito",
+        "parking": "Não informado nas fontes específicas consultadas",
+        "attractions": [
+          "Churrasco fogo de chão gratuito",
+          "Área de camping",
+          "Troféus e brindes",
+          "Pau de sebo com premiação e gincanas",
+          "Praça de alimentação",
+          "Barracas de couro e artesanato",
+          "Shows de bandas, ainda sem grade nominal"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://motoclub.run/eventos",
+          "label": "MotoClub Brasil — 21 anos de estrada do Neblina Moto Clube",
+          "type": "agenda_motociclistica_especifica_da_edicao",
+          "supports": "Confirma 28 e 29 de novembro, Peruíbe, início às 14h e repete churrasco gratuito, camping, troféus, brindes, gincanas, alimentação, expositores e bandas."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"21 anos de estrada\" \"Neblina Moto Clube\"",
+          "\"Neblina MC\" Peruíbe 28 novembro 2026",
+          "\"Arena Motociclista\" \"Rua Lituânia\" Peruíbe",
+          "site:motoclub.run/eventos Neblina Peruibe"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "motoclub.run",
+          "peruibe.sp.gov.br",
+          "instagram.com",
+          "facebook.com"
+        ],
+        "result": "edicao_datas_horario_inicial_e_estrutura_corroborados_por_duas_publicacoes_especificas_de_2026",
+        "uncertainties": [
+          "A referência “km 346” deve ser confirmada junto com o endereço de rua antes da viagem.",
+          "Contato, entrada, estacionamento, grade de bandas e horários do domingo não foram publicados."
+        ]
+      }
+    },
+    {
+      "slug": "novo-amanha-me-limeira-sp-2026-09-05",
+      "updates": {
+        "title": "2º Aniversário do Novo Amanhã Moto Evangelismo",
+        "short_name": "2º Aniversário Novo Amanhã",
+        "status": "agendada",
+        "summary": "O Novo Amanhã Moto Evangelismo anuncia seu 2º aniversário para 5 de setembro de 2026, a partir das 17h, na Rua Mário Soares de Campos, 111, Cidade Universitária, em Limeira/SP. O flyer confirma coffee break, louvor e adoração, pregação e cantina ao final; acesso, estacionamento e horário de término ainda não foram informados.",
+        "body": "## Segundo aniversário\n\nO flyer específico identifica a celebração como o 2º aniversário do Novo Amanhã Moto Evangelismo. O encontro está marcado para sábado, 5 de setembro de 2026, a partir das 17h, na Rua Mário Soares de Campos, 111, bairro Cidade Universitária, em Limeira/SP.\n\n## Programação divulgada\n\nA peça anuncia coffee break, louvor e adoração, uma pregação descrita no material como mensagem “direto do trono” e cantina ao término. O perfil @novoamanha.me aparece como canal social do grupo.\n\n## Informações pendentes\n\nNão foram localizadas segunda publicação específica da edição, regra de entrada, estacionamento, contato telefônico, programação com horários intermediários ou previsão de término. A página preserva somente o serviço legível no flyer, sem acrescentar atividades típicas de outros moto cultos.",
+        "official_url": "https://jb-rider.com.br/evento/20260905-novo-amanha-me-limeira-sp",
+        "verification_status": "flyer_especifico_legivel_com_edicao_data_horario_endereco_canal_social_e_programacao; sem_segunda_fonte_da_edicao",
+        "last_updated": "2026-08-22T23:50:00-04:00",
+        "time_label": "5 de setembro de 2026, a partir das 17h; término não informado",
+        "venue": "Espaço na Rua Mário Soares de Campos, 111; nome do local não informado",
+        "street_address": "Rua Mário Soares de Campos, 111, Cidade Universitária",
+        "full_address": "Rua Mário Soares de Campos, 111, Cidade Universitária, Limeira - SP",
+        "status_basis": "O flyer específico informa 5 de setembro de 2026, data futura na checagem; não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-22T23:50:00-04:00",
+        "organizer": "Novo Amanhã Moto Evangelismo",
+        "contact": "Instagram @novoamanha.me; telefone ou e-mail da edição não informados",
+        "source_checked_at": "2026-08-22T23:50:00-04:00",
+        "admission_status": "Não informado no flyer consultado",
+        "parking": "Não informado no flyer consultado",
+        "attractions": [
+          "Coffee break",
+          "Louvor e adoração",
+          "Pregação",
+          "Cantina ao final"
+        ]
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"Novo Amanhã Moto Evangelismo\" Limeira 2026",
+          "\"2º Aniversário\" \"Novo Amanhã\" Limeira motos",
+          "\"Rua Mário Soares de Campos, 111\" moto evangelismo",
+          "\"@novoamanha.me\""
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "limeira.sp.gov.br",
+          "instagram.com",
+          "facebook.com",
+          "mototour.com.br"
+        ],
+        "result": "flyer_da_edicao_reinspecionado_com_servico_detalhado; nenhuma_segunda_fonte_especifica_indexada",
+        "uncertainties": [
+          "Nome do espaço, regra de entrada, estacionamento, telefone e término não foram publicados.",
+          "Não foi encontrada confirmação independente além do flyer específico."
+        ]
+      }
+    },
+    {
+      "slug": "motofest-parelhas-rn-2026-09-04",
+      "updates": {
+        "title": "15º Parelhas Moto Fest",
+        "short_name": "Parelhas Moto Fest",
+        "status": "agendada",
+        "summary": "O flyer específico anuncia o 15º Parelhas Moto Fest de 4 a 6 de setembro de 2026, em Parelhas/RN. O portal turístico municipal confirma que o Moto Fest é uma festividade tradicional de setembro organizada por clubes de motociclistas locais, mas ainda não há fonte pública da 15ª edição com espaço, horários, programação, entrada ou estacionamento.",
+        "body": "## Décima quinta edição\n\nA arte específica identifica o 15º Parelhas Moto Fest e reserva os dias 4, 5 e 6 de setembro de 2026 em Parelhas/RN. O material consultado não traz local, horários, grade artística, atrações estruturais ou regras de participação.\n\n## Continuidade reconhecida pelo município\n\nO portal turístico oficial de Parelhas descreve o Moto Fest como festividade organizada por clubes de motociclistas do município e realizada em setembro. O inventário turístico municipal, baseado em pesquisa de campo de 2022, também lista o Moto Fest em setembro e registra Secretaria de Turismo e Clube dos Motociclistas na organização histórica. Essas fontes confirmam a tradição e o enquadramento local, mas não identificam o responsável nominal nem o serviço da 15ª edição.\n\n## Serviço que ainda precisa ser publicado\n\nEspaço, endereço, horários, bandas, camping, contato direto, entrada e estacionamento continuam pendentes. O telefone (84) 3471-2540 e o e-mail sedetur@parelhas.rn.gov.br são canais gerais da Secretaria municipal exibidos no portal turístico; podem auxiliar na confirmação, mas não foram apresentados como atendimento oficial do evento.",
+        "official_url": "https://jb-rider.com.br/evento/20260904-3-motofest-parelhas-rn",
+        "verification_status": "flyer_especifico_confirma_15a_edicao_e_datas; portal_e_inventario_municipais_corroboram_tradicao_em_setembro_sem_servico_atual",
+        "last_updated": "2026-08-22T23:50:00-04:00",
+        "time_label": "De 4 a 6 de setembro de 2026; horários diários ainda não publicados",
+        "venue": "Local da 15ª edição ainda não publicado em fonte verificável",
+        "street_address": "Endereço da 15ª edição ainda não publicado",
+        "full_address": "Parelhas - RN; endereço detalhado pendente",
+        "status_basis": "O flyer específico informa 4 a 6 de setembro de 2026, período futuro na checagem; não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-22T23:50:00-04:00",
+        "organizer": "Clubes de motociclistas do município, conforme o portal turístico; responsável nominal da 15ª edição ainda não confirmado",
+        "contact": "Secretaria municipal de Turismo: (84) 3471-2540 e sedetur@parelhas.rn.gov.br — canais gerais, não confirmados como atendimento da 15ª edição",
+        "source_checked_at": "2026-08-22T23:50:00-04:00",
+        "admission_status": "Não informado para a 15ª edição",
+        "parking": "Não informado para a 15ª edição",
+        "attractions": [
+          "Programação da 15ª edição ainda não publicada nas fontes verificadas"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://www.visiteparelhas.parelhas.rn.gov.br/festa",
+          "label": "Visite Parelhas — festas e eventos culturais",
+          "type": "portal_turistico_oficial_municipal",
+          "supports": "Confirma o Moto Fest como festividade tradicional realizada em setembro e organizada por clubes de motociclistas do município; não fornece serviço da 15ª edição."
+        },
+        {
+          "url": "https://www.visiteparelhas.parelhas.rn.gov.br/INVENTARIOTURISTICOPARELHAS.pdf",
+          "label": "Prefeitura de Parelhas — Inventário Turístico Municipal",
+          "type": "documento_municipal_historico",
+          "supports": "O quadro de eventos programados, com pesquisa de campo de 2022, lista Moto Fest em Parelhas no mês de setembro e atribui organização à Secretaria de Turismo e ao Clube dos Motociclistas; não confirma a edição de 2026."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"15º Parelhas Moto Fest\" 2026",
+          "\"Parelhas Moto Fest\" setembro 2026",
+          "site:visiteparelhas.parelhas.rn.gov.br \"Moto Fest\"",
+          "site:parelhas.rn.gov.br \"Parelhas Moto Fest\""
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "visiteparelhas.parelhas.rn.gov.br",
+          "parelhas.rn.gov.br",
+          "turismo.gov.br",
+          "instagram.com",
+          "facebook.com"
+        ],
+        "result": "edicao_e_datas_confirmadas_no_flyer; tradicao_mes_e_organizacao_historica_corroborados_por_fontes_municipais; servico_2026_pendente",
+        "uncertainties": [
+          "O responsável nominal e a participação da Secretaria na 15ª edição não foram confirmados.",
+          "Local, horários, programação, entrada, camping, estacionamento e contato direto do evento ainda não foram publicados."
+        ]
+      }
+    }
+  ]
+}

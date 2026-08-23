@@ -1,0 +1,699 @@
+{
+  "batch": "a",
+  "reviewed_at": "2026-08-22",
+  "entries": [
+    {
+      "slug": "1-bencao-dos-motociclistas-e-motoristas-aracatuba-sp-2026-07-26",
+      "updates": {
+        "summary": "A 1ª Bênção dos Motociclistas e Motoristas foi divulgada para 26 de julho de 2026, em Araçatuba (SP). O flyer permite ler a marca de horário 09h30, mas não tornou verificáveis o endereço, a atividade associada ao horário, o organizador nem as regras de acesso.",
+        "body": "## O que foi confirmado\n\nO flyer específico da edição de 2026 confirma o nome do evento, Araçatuba (SP), a data de 26 de julho e uma marca de horário às 09h30. Como o texto ao redor desse horário não ficou legível, ele não deve ser apresentado como início da bênção sem nova confirmação.\n\n## Serviço ainda não localizado\n\nAs buscas pelo nome exato, pela data e pela cidade em canais municipais, religiosos e imprensa local não localizaram uma segunda publicação específica da edição. Endereço, ponto de encontro, organizador, contato, acesso e estacionamento continuam não informados; nenhuma igreja, praça ou trajeto foi presumido.\n\n## Situação do registro\n\nO período divulgado já terminou. A página deve permanecer pública como registro histórico e pode receber posteriormente fotos, resultado ou confirmação do organizador. Até isso ocorrer, o texto diferencia os fatos legíveis no flyer das informações ainda ausentes.",
+        "status": "concluida",
+        "verification_status": "edicao_confirmada_em_flyer_sem_segunda_fonte_indexada",
+        "last_updated": "2026-08-22T12:00:00-04:00",
+        "time_label": "Marca de horário 09h30 no flyer; atividade correspondente não legível, confirme com a organização",
+        "venue": "Local da edição de 2026 não confirmado",
+        "full_address": "Endereço não confirmado; referência segura apenas a Araçatuba - SP",
+        "status_basis": "O período divulgado terminou em 26 de julho de 2026. Não foi localizada fonte independente de resultado ou cancelamento; a página é preservada como registro de agenda.",
+        "status_checked_at": "2026-08-22T12:00:00-04:00",
+        "organizer": "Organização da edição de 2026 não identificada nas fontes localizadas",
+        "contact": "Contato da edição de 2026 não identificado nas fontes localizadas",
+        "source_checked_at": "2026-08-22T12:00:00-04:00",
+        "admission_status": "Não informado no flyer nem em segunda fonte específica localizada",
+        "parking": "Não informado no flyer nem em segunda fonte específica localizada",
+        "attractions": [
+          "Bênção de motociclistas e motoristas"
+        ]
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"1ª Bênção dos Motociclistas e Motoristas\" Araçatuba 26 julho 2026",
+          "Araçatuba bênção motociclistas motoristas 26/07/2026",
+          "site:aracatuba.sp.gov.br bênção motociclistas julho 2026"
+        ],
+        "current_specific_domains_found": 1,
+        "result": "Somente a página e o flyer específicos já indexados pela JB-RIDER foram localizados para esta edição.",
+        "uncertainties": [
+          "atividade associada à marca 09h30",
+          "local e endereço",
+          "organizador e contato",
+          "acesso e estacionamento"
+        ],
+        "editorial_guardrail": "Nenhum local religioso ou municipal foi atribuído sem fonte específica da edição de 2026."
+      }
+    },
+    {
+      "slug": "1-comando-motor-fest-guaruja-sp-2026-08-15",
+      "updates": {
+        "summary": "O 1º Comando Motor Fest foi divulgado para 15 e 16 de agosto de 2026, no Guarujá (SP), com camping, estacionamento, rock e expositores mencionados no flyer. Os contatos impressos são (13) 99602-9798 e (13) 99179-0248; endereço e acesso não foram confirmados por uma segunda fonte.",
+        "body": "## Informações legíveis da edição\n\nO flyer específico confirma o 1º Comando Motor Fest no Guarujá nos dias 15 e 16 de agosto de 2026. A arte menciona área de camping, estacionamento, apresentações de rock e expositores e divulga os telefones (13) 99602-9798 e (13) 99179-0248.\n\n## O que continua pendente\n\nNão foi localizada uma publicação independente do organizador, da Prefeitura ou da imprensa local que confirme endereço, horários, cobrança de ingresso, regras de camping ou funcionamento do estacionamento. Uma busca reversa por um dos telefones encontrou associação pública com um estabelecimento do setor de motos, mas isso não prova autoria nem local do evento e, por isso, não foi transformado em serviço.\n\n## Situação do registro\n\nO período anunciado terminou em 16 de agosto. Sem comunicado específico de resultado ou cancelamento, a página permanece como registro de agenda, com os detalhes do flyer e as lacunas claramente separados.",
+        "status": "concluida",
+        "verification_status": "flyer_reinspecionado_sem_segunda_fonte_especifica_indexada",
+        "last_updated": "2026-08-22T12:00:00-04:00",
+        "time_label": "15 e 16 de agosto de 2026; horários diários não confirmados",
+        "venue": "Local da edição de 2026 não confirmado",
+        "full_address": "Endereço não confirmado; referência segura apenas ao Guarujá - SP",
+        "status_basis": "O período divulgado terminou em 16 de agosto de 2026. Não foi localizada fonte independente de resultado ou cancelamento; a página é preservada como registro de agenda.",
+        "status_checked_at": "2026-08-22T12:00:00-04:00",
+        "organizer": "Organização não identificada com segurança no material consultado",
+        "contact": "(13) 99602-9798; (13) 99179-0248",
+        "source_checked_at": "2026-08-22T12:00:00-04:00",
+        "admission_status": "Não informado no flyer nem em segunda fonte específica localizada",
+        "parking": "Estacionamento mencionado no flyer; endereço, preço, capacidade e regras não confirmados",
+        "attractions": [
+          "Área de camping",
+          "Estacionamento",
+          "Shows ou bandas de rock",
+          "Expositores"
+        ]
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"1º Comando Motor Fest\" Guarujá 15 agosto 2026",
+          "\"Comando Motor Fest\" Guarujá 2026",
+          "\"(13) 99602-9798\" evento"
+        ],
+        "current_specific_domains_found": 1,
+        "result": "Não foi localizada segunda fonte específica da edição; os resultados de telefone não comprovam organizador nem endereço do evento.",
+        "uncertainties": [
+          "endereço e horários",
+          "organizador",
+          "ingresso",
+          "regras de camping e estacionamento"
+        ]
+      }
+    },
+    {
+      "slug": "1-encontro-de-motoclubes-paulo-afonso-ba-2026-10-22",
+      "updates": {
+        "summary": "O 1º Encontro de Motoclubes foi divulgado para 22 a 24 de outubro de 2026, em Paulo Afonso (BA), com rock, bandas e área de alimentação indicados no flyer. Local, horários, organizador, contato, acesso e estacionamento ainda não têm confirmação independente.",
+        "body": "## Edição de outubro\n\nO flyer específico confirma o 1º Encontro de Motoclubes em Paulo Afonso, de 22 a 24 de outubro de 2026. A arte permite identificar rock, bandas e área ou praça de alimentação, mas não fornece de forma verificável o endereço, os horários ou os nomes das atrações.\n\n## Evento que não deve ser confundido\n\nAs buscas municipais retornaram o Moto Paulo Afonso 2026 realizado em maio, que é outro evento. Datas, local, programação e organização daquele encontro não foram transferidos para esta página de outubro.\n\n## Confirmação antes da viagem\n\nAté 22 de agosto não foi localizada uma segunda fonte específica desta edição. Permanecem pendentes o local, a programação diária, o organizador, o contato, a entrada e o estacionamento. A página deve continuar indexada e ser atualizada quando surgir publicação do responsável, da Prefeitura ou da imprensa local.",
+        "status": "agendada",
+        "verification_status": "edicao_futura_confirmada_em_flyer_sem_segunda_fonte_indexada",
+        "last_updated": "2026-08-22T12:00:00-04:00",
+        "time_label": "De 22 a 24 de outubro de 2026; horários diários não confirmados",
+        "venue": "Local da edição de outubro de 2026 não confirmado",
+        "full_address": "Endereço não confirmado; referência segura apenas a Paulo Afonso - BA",
+        "status_basis": "Datas futuras presentes no flyer específico. Nenhum comunicado de alteração ou cancelamento foi localizado até 22 de agosto de 2026; reconfirme antes de viajar.",
+        "status_checked_at": "2026-08-22T12:00:00-04:00",
+        "organizer": "Organização da edição de outubro de 2026 não identificada nas fontes localizadas",
+        "contact": "Contato da edição de outubro de 2026 não identificado nas fontes localizadas",
+        "source_checked_at": "2026-08-22T12:00:00-04:00",
+        "admission_status": "Não informado no flyer nem em segunda fonte específica localizada",
+        "parking": "Não informado no flyer nem em segunda fonte específica localizada",
+        "attractions": [
+          "Shows ou bandas de rock",
+          "Área ou praça de alimentação"
+        ]
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"1º Encontro de Motoclubes\" \"Paulo Afonso\" outubro 2026",
+          "Paulo Afonso encontro motoclubes 22 24 outubro 2026",
+          "site:pauloafonso.ba.gov.br motoclubes outubro 2026"
+        ],
+        "current_specific_domains_found": 1,
+        "result": "Somente o flyer atual foi localizado; resultados municipais encontrados tratam do Moto Paulo Afonso de maio, um evento distinto.",
+        "excluded_results": [
+          {
+            "url": "https://pauloafonso.ba.gov.br/com-sucesso-de-publico-e-forte-impacto-social-moto-paulo-afonso-encerra-melhor-edicao-ja-realizada/",
+            "reason": "Refere-se ao Moto Paulo Afonso realizado em maio de 2026, não ao 1º Encontro de Motoclubes de outubro."
+          }
+        ],
+        "uncertainties": [
+          "local e endereço",
+          "horários e nomes das bandas",
+          "organizador e contato",
+          "entrada e estacionamento"
+        ]
+      }
+    },
+    {
+      "slug": "1-encontro-dos-motopapos-nossa-senhora-do-socorro-se-2026-09-12",
+      "updates": {
+        "summary": "O 1º Encontro dos MotoPapos está divulgado para 12 de setembro de 2026, em Nossa Senhora do Socorro (SE). O flyer menciona estacionamento e exibe o CEP municipal 49160-000, mas não permite confirmar local, rua, horário, organizador, contato ou regras de acesso.",
+        "body": "## Data e cidade confirmadas\n\nO flyer específico confirma o 1º Encontro dos MotoPapos em Nossa Senhora do Socorro no dia 12 de setembro de 2026. A arte menciona estacionamento.\n\n## CEP não é endereço do evento\n\nO número 49160-000 aparece no material, mas corresponde ao CEP geral do município e não identifica por si só um espaço, rua ou número. Por isso, ele não foi usado para criar um endereço ou inferir o local.\n\n## Pendências de serviço\n\nBuscas pelo nome, data, cidade e variações do grupo não localizaram outra publicação específica. Horário, endereço, programação, organizador, contato, acesso e condições do estacionamento devem ser confirmados quando houver canal oficial. A página permanece ativa e pronta para receber esses acréscimos.",
+        "status": "agendada",
+        "verification_status": "edicao_futura_confirmada_em_flyer_sem_segunda_fonte_indexada",
+        "last_updated": "2026-08-22T12:00:00-04:00",
+        "time_label": "12 de setembro de 2026; horário não confirmado",
+        "venue": "Local da edição de 2026 não confirmado",
+        "full_address": "Endereço não confirmado; o CEP 49160-000 identifica o município, não o local do evento",
+        "status_basis": "Data futura presente no flyer específico. Nenhum comunicado de alteração ou cancelamento foi localizado até 22 de agosto de 2026; reconfirme antes de viajar.",
+        "status_checked_at": "2026-08-22T12:00:00-04:00",
+        "organizer": "Organização da edição de 2026 não identificada nas fontes localizadas",
+        "contact": "Contato da edição de 2026 não identificado nas fontes localizadas",
+        "source_checked_at": "2026-08-22T12:00:00-04:00",
+        "admission_status": "Não informado no flyer nem em segunda fonte específica localizada",
+        "parking": "Estacionamento mencionado no flyer; local, preço e regras não confirmados",
+        "attractions": []
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"1º Encontro dos MotoPapos\" \"Nossa Senhora do Socorro\" 2026",
+          "MotoPapos Socorro Sergipe 12 setembro 2026",
+          "site:instagram.com MotoPapos Socorro SE 2026"
+        ],
+        "current_specific_domains_found": 1,
+        "result": "Nenhuma segunda fonte específica da edição foi localizada; o CEP do flyer foi tratado somente como referência municipal.",
+        "uncertainties": [
+          "local e endereço",
+          "horário e programação",
+          "organizador e contato",
+          "entrada e regras de estacionamento"
+        ]
+      }
+    },
+    {
+      "slug": "1-moto-rock-fest-chavantes-sp-2026-08-01",
+      "updates": {
+        "summary": "O 1º Moto Rock Fest foi divulgado para 1º de agosto de 2026, em Chavantes (SP). O flyer contém uma marca de horário às 16h, porém o contexto da atividade, o local, o organizador, o contato e a programação não ficaram verificáveis.",
+        "body": "## Leitura segura do flyer\n\nA arte específica confirma o nome 1º Moto Rock Fest, Chavantes (SP) e a data de 1º de agosto de 2026. Uma marca de horário às 16h é legível, mas o texto associado não atingiu segurança suficiente para tratá-la como abertura, show ou concentração.\n\n## Busca complementar\n\nNão foi localizada segunda fonte específica em canais municipais, de imprensa local ou do organizador. Assim, nenhum parque, praça, endereço, banda, regra de entrada ou estrutura foi atribuído ao evento.\n\n## Situação do registro\n\nO período anunciado já terminou. A página deve permanecer pública como histórico e pode ser completada por publicação posterior, fotos, vídeos ou confirmação do responsável.",
+        "status": "concluida",
+        "verification_status": "edicao_confirmada_em_flyer_sem_segunda_fonte_indexada",
+        "last_updated": "2026-08-22T12:00:00-04:00",
+        "time_label": "Marca de horário 16h no flyer; atividade correspondente não legível, confirme com a organização",
+        "venue": "Local da edição de 2026 não confirmado",
+        "full_address": "Endereço não confirmado; referência segura apenas a Chavantes - SP",
+        "status_basis": "O período divulgado terminou em 1º de agosto de 2026. Não foi localizada fonte independente de resultado ou cancelamento; a página é preservada como registro de agenda.",
+        "status_checked_at": "2026-08-22T12:00:00-04:00",
+        "organizer": "Organização da edição de 2026 não identificada nas fontes localizadas",
+        "contact": "Contato da edição de 2026 não identificado nas fontes localizadas",
+        "source_checked_at": "2026-08-22T12:00:00-04:00",
+        "admission_status": "Não informado no flyer nem em segunda fonte específica localizada",
+        "parking": "Não informado no flyer nem em segunda fonte específica localizada",
+        "attractions": [
+          "Programação de moto e rock; nomes das atrações não confirmados"
+        ]
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"1º Moto Rock Fest\" Chavantes 1 agosto 2026",
+          "Moto Rock Fest Chavantes 2026",
+          "site:chavantes.sp.gov.br moto rock agosto 2026"
+        ],
+        "current_specific_domains_found": 1,
+        "result": "Somente o flyer já indexado foi localizado para a edição de Chavantes.",
+        "uncertainties": [
+          "atividade associada às 16h",
+          "local e endereço",
+          "programação",
+          "organizador, contato, acesso e estacionamento"
+        ]
+      }
+    },
+    {
+      "slug": "1-moto-acampamento-raiz-itanhandu-mg-2026-08-07",
+      "updates": {
+        "summary": "O 1º Moto Acampamento Raiz foi divulgado para 7 a 9 de agosto de 2026, em Itanhandu (MG), com estacionamento, chuveiros, espaço para motorhome, rock e piscina mencionados no flyer. O contato impresso é (35) 98465-7329; endereço, horários e regras de acesso não foram confirmados por outra fonte.",
+        "body": "## Estrutura indicada no flyer\n\nO material específico confirma o 1º Moto Acampamento Raiz em Itanhandu, de 7 a 9 de agosto de 2026. A arte menciona estacionamento, chuveiros, espaço para motorhome, shows ou bandas de rock e piscina, além do contato (35) 98465-7329.\n\n## Limites da verificação\n\nNão foi localizada segunda publicação específica que identifique o endereço, os horários, o responsável, a cobrança, a capacidade da área ou as regras para camping, motorhomes, estacionamento e uso da piscina. Esses itens não devem ser ampliados além do que está impresso no flyer.\n\n## Situação do registro\n\nO período divulgado terminou em 9 de agosto. Sem fonte posterior de resultado ou cancelamento, a página permanece como registro histórico com o serviço disponível e as lacunas explicitadas.",
+        "status": "concluida",
+        "verification_status": "flyer_reinspecionado_sem_segunda_fonte_especifica_indexada",
+        "last_updated": "2026-08-22T12:00:00-04:00",
+        "time_label": "De 7 a 9 de agosto de 2026; horários diários não confirmados",
+        "venue": "Local da edição de 2026 não confirmado",
+        "full_address": "Endereço não confirmado; referência segura apenas a Itanhandu - MG",
+        "status_basis": "O período divulgado terminou em 9 de agosto de 2026. Não foi localizada fonte independente de resultado ou cancelamento; a página é preservada como registro de agenda.",
+        "status_checked_at": "2026-08-22T12:00:00-04:00",
+        "organizer": "Organização da edição de 2026 não identificada com segurança no flyer",
+        "contact": "(35) 98465-7329",
+        "source_checked_at": "2026-08-22T12:00:00-04:00",
+        "admission_status": "Não informado no flyer nem em segunda fonte específica localizada",
+        "parking": "Estacionamento mencionado no flyer; endereço, preço, capacidade e regras não confirmados",
+        "attractions": [
+          "Área de acampamento",
+          "Espaço para motorhome",
+          "Chuveiros",
+          "Shows ou bandas de rock",
+          "Piscina",
+          "Estacionamento"
+        ]
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"1º Moto Acampamento Raiz\" Itanhandu 2026",
+          "Moto Acampamento Raiz Itanhandu 7 9 agosto 2026",
+          "\"(35) 98465-7329\""
+        ],
+        "current_specific_domains_found": 1,
+        "result": "O flyer contém serviço útil e telefone, mas nenhuma segunda fonte específica da edição foi localizada.",
+        "uncertainties": [
+          "endereço e horários",
+          "organizador",
+          "entrada",
+          "regras da estrutura anunciada"
+        ]
+      }
+    },
+    {
+      "slug": "1-truck-fest-suzano-sp-2026-09-20",
+      "updates": {
+        "summary": "O 1º Truck Fest está divulgado para 20 de setembro de 2026, em Suzano (SP). A edição, a data e a cidade são legíveis no flyer, mas local, horário, programação, organizador, contato, entrada e estacionamento ainda não têm confirmação segura.",
+        "body": "## Informações confirmadas\n\nO flyer específico sustenta o nome 1º Truck Fest, Suzano (SP) e a data de 20 de setembro de 2026.\n\n## Local não deve ser inferido\n\nO processamento visual recuperou apenas um fragmento que parece começar por “no Parque”, sem nome completo e sem confiança suficiente. Nenhum parque de Suzano foi escolhido por suposição, e as buscas municipais e locais não localizaram uma publicação específica capaz de resolver o endereço.\n\n## Serviço pendente\n\nHorário, atrações, responsável, contato, regras de entrada e estacionamento permanecem não informados. A página deve continuar pública e receber esses dados somente quando uma fonte da própria edição os comprovar.",
+        "status": "agendada",
+        "verification_status": "edicao_futura_confirmada_em_flyer_com_local_ilegivel",
+        "last_updated": "2026-08-22T12:00:00-04:00",
+        "time_label": "20 de setembro de 2026; horário não confirmado",
+        "venue": "Local da edição de 2026 não confirmado; fragmento visual insuficiente para identificar o parque",
+        "full_address": "Endereço não confirmado; referência segura apenas a Suzano - SP",
+        "status_basis": "Data futura presente no flyer específico. Nenhum comunicado de alteração ou cancelamento foi localizado até 22 de agosto de 2026; reconfirme antes de viajar.",
+        "status_checked_at": "2026-08-22T12:00:00-04:00",
+        "organizer": "Organização da edição de 2026 não identificada nas fontes localizadas",
+        "contact": "Contato da edição de 2026 não identificado nas fontes localizadas",
+        "source_checked_at": "2026-08-22T12:00:00-04:00",
+        "admission_status": "Não informado no flyer nem em segunda fonte específica localizada",
+        "parking": "Não informado no flyer nem em segunda fonte específica localizada",
+        "attractions": []
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"1º Truck Fest\" Suzano 20 setembro 2026",
+          "Truck Fest Suzano setembro 2026 parque",
+          "site:suzano.sp.gov.br truck fest 2026"
+        ],
+        "current_specific_domains_found": 1,
+        "result": "Nenhuma segunda fonte específica foi localizada e o fragmento do flyer não permite identificar qual parque seria o local.",
+        "uncertainties": [
+          "local e endereço",
+          "horário e atrações",
+          "organizador e contato",
+          "entrada e estacionamento"
+        ],
+        "editorial_guardrail": "O Parque Max Feffer ou qualquer outro espaço não foi atribuído sem prova da edição."
+      }
+    },
+    {
+      "slug": "10-encontro-nacional-de-motociclistas-januaria-mg-2026-09-11",
+      "updates": {
+        "summary": "O 10º Encontro Nacional de Motociclistas de Januária está divulgado para 11 e 12 de setembro de 2026. Documento homologado pela Prefeitura confirma show da banda Liga Joe em 12 de setembro, na Praça de Eventos, durante o encontro; horários, acesso, estacionamento e restante da programação ainda não foram publicados nas fontes localizadas.",
+        "body": "## Confirmação municipal da edição\n\nAlém do flyer que informa o encontro em 11 e 12 de setembro, a Prefeitura de Januária publicou o processo 100/2026, Inexigibilidade 36/2026, homologado para contratar apresentação da banda Liga Joe em 12 de setembro de 2026, na Praça de Eventos, expressamente “durante o Encontro de Motociclistas”.\n\n## O que a fonte oficial comprova\n\nO documento municipal sustenta a Praça de Eventos para a apresentação de 12 de setembro, a atração Liga Joe e a intermediação da Secretaria Municipal de Cultura e Turismo. Ele não detalha o horário do show, a programação de 11 de setembro, as regras de entrada, o estacionamento, camping ou contato geral da organização.\n\n## Confirmação antes da viagem\n\nA edição agora possui cruzamento entre o flyer atual e uma fonte primária municipal. Mesmo assim, o público deve consultar os canais da Prefeitura e do evento perto da data para horários e orientações operacionais.",
+        "status": "agendada",
+        "official_url": "https://www.januaria.mg.gov.br/portal/editais/0/1/3230/",
+        "verification_status": "flyer_e_fonte_primaria_municipal_cruzados",
+        "last_updated": "2026-08-22T12:00:00-04:00",
+        "time_label": "11 e 12 de setembro de 2026; horário do show de 12/9 e demais horários não divulgados",
+        "venue": "Praça de Eventos",
+        "full_address": "Praça de Eventos, Januária - MG; rua e número não informados na fonte municipal consultada",
+        "status_basis": "Flyer atual e processo municipal homologado confirmam a edição e uma apresentação em 12 de setembro. Nenhum aviso de alteração ou cancelamento foi localizado até 22 de agosto de 2026.",
+        "status_checked_at": "2026-08-22T12:00:00-04:00",
+        "organizer": "Secretaria Municipal de Cultura e Turismo de Januária intermedeia o show de 12/9; realização geral do encontro não detalhada nas fontes",
+        "contact": "Contato geral da edição não informado; canal institucional: Prefeitura Municipal de Januária",
+        "source_checked_at": "2026-08-22T12:00:00-04:00",
+        "admission_status": "Não informado no flyer nem no processo municipal consultado",
+        "parking": "Não informado no flyer nem no processo municipal consultado",
+        "attractions": [
+          "Show da banda Liga Joe em 12 de setembro de 2026"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://www.januaria.mg.gov.br/portal/editais/0/1/3230/",
+          "label": "Prefeitura de Januária — Inexigibilidade 36/2026, show da banda Liga Joe",
+          "type": "fonte primária municipal da edição 2026",
+          "supports": "apresentação da banda Liga Joe em 12/09/2026, na Praça de Eventos, durante o Encontro de Motociclistas; intermediação da Secretaria Municipal de Cultura e Turismo"
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"10º Encontro Nacional de Motociclistas\" Januária 2026",
+          "site:januaria.mg.gov.br encontro motociclistas setembro 2026",
+          "site:januaria.mg.gov.br \"Liga Joe\" 12/09/2026"
+        ],
+        "current_specific_domains_found": 2,
+        "result": "A fonte municipal independente confirma a edição, a Praça de Eventos para a atividade de 12/9 e a banda Liga Joe.",
+        "uncertainties": [
+          "horários",
+          "programação de 11 de setembro",
+          "realização geral e contato",
+          "entrada e estacionamento"
+        ]
+      }
+    },
+    {
+      "slug": "11-encontro-de-motociclistas-e-triciclistas-itarare-sp-2026-09-04",
+      "updates": {
+        "summary": "O 11º Encontro de Motociclistas e Triciclistas de Itararé está divulgado para 4 e 5 de setembro de 2026, com bandas mencionadas no flyer. Não foi localizada segunda fonte da edição atual para confirmar local, organizador, horários, entrada, camping, estacionamento ou contato.",
+        "body": "## Edição de 2026\n\nO flyer específico confirma o 11º Encontro de Motociclistas e Triciclistas em Itararé nos dias 4 e 5 de setembro de 2026. A arte menciona bandas, mas os nomes e horários não ficaram legíveis.\n\n## Histórico não é serviço atual\n\nRegistros antigos ligam a 2ª edição ao Sussegadus Moto Clube e à APAE de Itararé, e notícia local situa a 8ª edição de 2023 na sede da APAE. Essas fontes ajudam a demonstrar continuidade histórica, mas não confirmam que a 11ª edição use o mesmo espaço, responsável, ingresso, camping ou programação. Nenhum desses dados foi transferido para 2026.\n\n## Pendências\n\nAs buscas pelo nome exato e em canais da Prefeitura, imprensa local e redes sociais não localizaram outra publicação da edição. Local, endereço, programação, organizador, contato, entrada e estacionamento permanecem pendentes de fonte atual.",
+        "status": "agendada",
+        "verification_status": "edicao_futura_confirmada_em_flyer_historico_nao_aplicado_ao_servico",
+        "last_updated": "2026-08-22T12:00:00-04:00",
+        "time_label": "4 e 5 de setembro de 2026; horários diários não confirmados",
+        "venue": "Local da 11ª edição de 2026 não confirmado",
+        "full_address": "Endereço da 11ª edição não confirmado; referência segura apenas a Itararé - SP",
+        "status_basis": "Datas futuras presentes no flyer específico. Nenhum comunicado de alteração ou cancelamento foi localizado até 22 de agosto de 2026; reconfirme antes de viajar.",
+        "status_checked_at": "2026-08-22T12:00:00-04:00",
+        "organizer": "Organização da 11ª edição de 2026 não confirmada",
+        "contact": "Contato da 11ª edição de 2026 não identificado nas fontes localizadas",
+        "source_checked_at": "2026-08-22T12:00:00-04:00",
+        "admission_status": "Não informado para a edição de 2026",
+        "parking": "Não informado para a edição de 2026",
+        "attractions": [
+          "Bandas; nomes e horários não legíveis no flyer"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://www.94fmitarare.com.br/noticias/0-52",
+          "label": "94 FM Itararé — APAE promoveu a 8ª edição em 2023",
+          "type": "contexto histórico local; não confirma serviço de 2026",
+          "supports": "existência da 8ª edição em 2023 na sede da APAE; não prova local, organizador ou programação da 11ª edição"
+        },
+        {
+          "url": "https://mototour.com.br/eventos/2o-encontro-de-motociclistas-e-triciclistas_3299",
+          "label": "Mototour — registro da 2ª edição de Itararé",
+          "type": "contexto histórico; não confirma serviço de 2026",
+          "supports": "histórico da 2ª edição com Sussegadus Moto Clube e APAE; não prova que os dados continuem válidos na 11ª edição"
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"11º Encontro de Motociclistas e Triciclistas\" Itararé 2026",
+          "Itararé encontro motociclistas triciclistas 4 5 setembro 2026 APAE",
+          "site:itarare.sp.gov.br motociclistas triciclistas setembro 2026",
+          "site:instagram.com Itararé \"11º Encontro\" motociclistas 2026"
+        ],
+        "current_specific_domains_found": 1,
+        "result": "Não foi localizada segunda fonte específica da 11ª edição; apenas registros verificáveis de edições antigas.",
+        "historical_context_not_applied": [
+          "APAE como local",
+          "Sussegadus Moto Clube como organizador",
+          "ingresso, camping, refeições e contatos antigos"
+        ],
+        "uncertainties": [
+          "local e endereço",
+          "programação",
+          "organizador e contato",
+          "entrada, camping e estacionamento"
+        ]
+      }
+    },
+    {
+      "slug": "11-encontro-de-motociclistas-perdoes-mg-2025-09-12",
+      "updates": {
+        "summary": "O 11º Encontro Nacional de Motociclistas de Perdões ocorreu em 12 e 13 de setembro de 2025, na Praça Adalberto Alves Pereira (Praça da Caridade), com entrada solidária, shows, motociata, Feira da Mineiridade, alimentação e camping gratuito. A edição e as datas foram cruzadas entre o canal municipal e uma agenda regional independente.",
+        "body": "## Edição, datas e local\n\nO 11º Encontro Nacional de Motociclistas de Perdões foi divulgado pela Cultura de Perdões para sexta-feira, 12 de setembro, e sábado, 13 de setembro de 2025, na Praça Adalberto Alves Pereira, conhecida como Praça da Caridade. A agenda regional do Moto Grupo Seguidores de Maria confirma independentemente a 11ª edição, Perdões e os dois dias.\n\n## Programação divulgada\n\nNa sexta-feira, os shows começaram às 18h com a Banda Khazadum, seguiram às 20h com a Banda Krig-Ha Bandolo e às 22h com a Banda Corcel 84. A publicação municipal também anunciou motociata, Feira da Mineiridade, praça de alimentação, camping gratuito, estande de tatuagem e locução de Renata Costa.\n\n![Programação oficial do 11º Encontro de Motociclistas de Perdões](/assets/img/uploads/11-encontro-motociclistas-perdoes-2025-programacao.webp \"Shows de sexta-feira, 12 de setembro de 2025\")\n\n*Arte: Cultura de Perdões / Prefeitura de Perdões / Divulgação.*\n\n## Entrada e contato\n\nA entrada foi solidária, mediante doação de 1 kg de alimento não perecível. O canal de referência é o perfil @culturperdoes. A publicação consultada não detalhou estacionamento.\n\n## Registro histórico\n\nA página permanece pública como registro correto de Perdões (MG), em 2025, sem reutilizar informações da página incorreta anteriormente associada a outra cidade e outra edição.",
+        "status": "concluida",
+        "official_url": "https://www.instagram.com/p/DNTzIBvx9vC/",
+        "verification_status": "fonte_municipal_e_agenda_regional_independente_cruzadas",
+        "last_updated": "2026-08-22T12:00:00-04:00",
+        "time_label": "12 e 13 de setembro de 2025; shows de sexta-feira a partir das 18h",
+        "venue": "Praça Adalberto Alves Pereira (Praça da Caridade)",
+        "full_address": "Praça Adalberto Alves Pereira (Praça da Caridade), Perdões - MG",
+        "status_basis": "A publicação da Cultura de Perdões e a agenda regional confirmam a edição, a cidade e as datas de 12 e 13 de setembro de 2025.",
+        "status_checked_at": "2026-08-22T12:00:00-04:00",
+        "organizer": "Cultura de Perdões / Prefeitura de Perdões",
+        "contact": "Instagram: @culturperdoes",
+        "source_checked_at": "2026-08-22T12:00:00-04:00",
+        "admission_status": "Entrada solidária: 1 kg de alimento não perecível",
+        "parking": "Não informado na publicação consultada",
+        "attractions": [
+          "Banda Khazadum",
+          "Banda Krig-Ha Bandolo",
+          "Banda Corcel 84",
+          "Motociata",
+          "Feira da Mineiridade",
+          "Praça de alimentação",
+          "Camping gratuito",
+          "Estande de tatuagem",
+          "Locução de Renata Costa"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://www.motogruposeguidoresdemaria.com.br/destaque",
+          "label": "Moto Grupo Seguidores de Maria — calendário de encontros de 2025",
+          "type": "agenda regional independente da edição correta",
+          "supports": "11ª edição, cidade de Perdões e datas de 12 e 13 de setembro de 2025"
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"11º Encontro Nacional de Motociclistas de Perdões\" 2025",
+          "\"11º Encontro de Motociclistas de Perdões\" 12 13 setembro",
+          "Perdões MG motociclistas setembro 2025 Cultura"
+        ],
+        "current_specific_domains_found": 2,
+        "result": "A agenda regional independente confirma a identidade, a cidade e as datas já documentadas pelo canal municipal.",
+        "uncertainties": [
+          "estacionamento",
+          "eventuais resultados ou balanço pós-evento"
+        ]
+      }
+    },
+    {
+      "slug": "12-acampamento-nacional-rat-bike-do-brasil-jeceaba-mg-2026-08-15",
+      "updates": {
+        "summary": "O 12º Acampamento Nacional Rat Bike do Brasil foi divulgado para 15 de agosto de 2026, em Jeceaba (MG). A evidência visual confirma a identidade, a data e a cidade, mas não permite publicar com segurança local, horário, programação, organizador, contato, entrada, camping ou estacionamento.",
+        "body": "## Evidência da edição\n\nO vídeo/flyer específico confirma o 12º Acampamento Nacional Rat Bike do Brasil em Jeceaba no dia 15 de agosto de 2026. A agenda também contém uma segunda ficha chamada “Rat Bike Brasil” na mesma cidade e data, mas ambas pertencem ao mesmo domínio e não constituem fontes independentes.\n\n## Serviço não recuperado\n\nO processamento visual não produziu com segurança endereço, horário, atrações, responsável, contato, cobrança, estrutura de camping ou estacionamento. O termo “acampamento” no título não autoriza presumir duração, pernoite ou comodidades.\n\n## Situação do registro\n\nO período anunciado terminou. A página permanece pública como registro histórico e deve receber apenas dados posteriores comprovados pelo organizador, por fonte municipal ou por cobertura local verificável.",
+        "status": "concluida",
+        "verification_status": "video_ou_flyer_inspecionado_sem_segunda_fonte_independente",
+        "last_updated": "2026-08-22T12:00:00-04:00",
+        "time_label": "15 de agosto de 2026; horário não confirmado",
+        "venue": "Local da edição de 2026 não confirmado",
+        "full_address": "Endereço não confirmado; referência segura apenas a Jeceaba - MG",
+        "status_basis": "O período divulgado terminou em 15 de agosto de 2026. Não foi localizada fonte independente de resultado ou cancelamento; a página é preservada como registro de agenda.",
+        "status_checked_at": "2026-08-22T12:00:00-04:00",
+        "organizer": "Organização da edição de 2026 não identificada nas fontes localizadas",
+        "contact": "Contato da edição de 2026 não identificado nas fontes localizadas",
+        "source_checked_at": "2026-08-22T12:00:00-04:00",
+        "admission_status": "Não informado no material visual nem em segunda fonte específica localizada",
+        "parking": "Não informado no material visual nem em segunda fonte específica localizada",
+        "attractions": []
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"12º Acampamento Nacional Rat Bike do Brasil\" Jeceaba 2026",
+          "Rat Bike Brasil Jeceaba 15 agosto 2026",
+          "site:instagram.com Rat Bike Jeceaba 2026"
+        ],
+        "current_specific_domains_found": 1,
+        "result": "Foram localizadas fichas duplicadas no mesmo domínio, sem segunda fonte independente da edição.",
+        "uncertainties": [
+          "local e horário",
+          "programação",
+          "organizador e contato",
+          "entrada, camping e estacionamento"
+        ]
+      }
+    },
+    {
+      "slug": "12-encontro-de-motociclistas-crateus-ce-2026-09-11",
+      "updates": {
+        "summary": "O 12º Encontro de Motociclistas de Crateús está divulgado para 11 e 12 de setembro de 2026. O flyer menciona café da manhã e troféus e contém marcas de horário 19h30 e 00h, mas não permite associá-las com segurança às atividades; local, organizador, entrada e estacionamento seguem sem confirmação.",
+        "body": "## Informações legíveis\n\nO flyer específico confirma o 12º Encontro de Motociclistas em Crateús nos dias 11 e 12 de setembro de 2026. A arte menciona café da manhã e troféus e contém marcas de horário 19h30 e 00h, sem texto legível suficiente para montar uma grade.\n\n## Contato incompleto\n\nO único fragmento de telefone recuperado é 9259-2174. Sem DDD e sem confirmação de que todos os dígitos estejam presentes, ele não deve ser apresentado como canal funcional.\n\n## Resultado excluído da apuração\n\nA mesma agenda possui uma ficha de “Chamas da Caveira MC” em Crateús, mas datada de 11 e 12 de agosto, não de setembro. Ela não comprova a organização deste encontro e seus dados não foram transferidos.\n\n## Pendências\n\nNão foi localizada segunda fonte específica. Local, endereço, programação completa, responsável, contato válido, acesso e estacionamento precisam de confirmação da edição atual.",
+        "status": "agendada",
+        "verification_status": "edicao_futura_confirmada_em_flyer_com_contato_incompleto",
+        "last_updated": "2026-08-22T12:00:00-04:00",
+        "time_label": "11 e 12 de setembro de 2026; marcas 19h30 e 00h no flyer sem atividade correspondente legível",
+        "venue": "Local da edição de 2026 não confirmado",
+        "full_address": "Endereço não confirmado; referência segura apenas a Crateús - CE",
+        "status_basis": "Datas futuras presentes no flyer específico. Nenhum comunicado de alteração ou cancelamento foi localizado até 22 de agosto de 2026; reconfirme antes de viajar.",
+        "status_checked_at": "2026-08-22T12:00:00-04:00",
+        "organizer": "Organização da edição de setembro de 2026 não confirmada",
+        "contact": "Contato não validado: o flyer fornece apenas o fragmento 9259-2174, sem DDD e sem número completo confirmado",
+        "source_checked_at": "2026-08-22T12:00:00-04:00",
+        "admission_status": "Não informado no flyer nem em segunda fonte específica localizada",
+        "parking": "Não informado no flyer nem em segunda fonte específica localizada",
+        "attractions": [
+          "Café da manhã",
+          "Troféus"
+        ]
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"12º Encontro de Motociclistas\" Crateús setembro 2026",
+          "Crateús encontro motociclistas 11 12 setembro 2026",
+          "\"Chamas da Caveira MC\" Crateús 2026"
+        ],
+        "current_specific_domains_found": 1,
+        "result": "Nenhuma segunda fonte específica foi localizada. A ficha de Chamas da Caveira MC encontrada na agenda é de agosto e não foi associada à edição de setembro.",
+        "uncertainties": [
+          "atividade associada aos horários",
+          "local e endereço",
+          "organizador e contato válido",
+          "entrada e estacionamento"
+        ]
+      }
+    },
+    {
+      "slug": "14-encontro-de-motociclstas-rio-bonito-rj-2026-09-04",
+      "updates": {
+        "summary": "O 14º Encontro de Motociclistas de Rio Bonito está divulgado para 4 a 6 de setembro de 2026. A Prefeitura documenta a 13ª edição de 2025 e a tradição do evento, mas ainda não foi localizada fonte municipal ou do organizador que confirme local, programação, estrutura e contato da 14ª edição.",
+        "body": "## Edição de 2026\n\nO flyer atual confirma o 14º Encontro de Motociclistas em Rio Bonito de 4 a 6 de setembro de 2026. Não ficaram legíveis local, horários, atrações, organizador, contato ou regras de acesso.\n\n## Continuidade histórica comprovada\n\nA Prefeitura de Rio Bonito publicou o balanço da 13ª edição, realizada em 2025 e promovida pelo Moto Clube Rio Bonito, registrando 24 anos desde a primeira realização. Essa fonte sustenta a história e a continuidade numérica do encontro, mas não confirma que a edição de 2026 repetirá Praça Fonseca Portela, camping, shows, alimentação ou qualquer outro serviço de 2025.\n\n## O que ainda precisa de fonte atual\n\nAté 22 de agosto, as buscas pelo nome e pelas datas não localizaram segunda publicação específica da 14ª edição. Local, endereço, programação, responsável, contato, entrada, camping e estacionamento permanecem pendentes e devem ser reconfirmados antes do deslocamento.",
+        "status": "agendada",
+        "verification_status": "edicao_futura_em_flyer_com_historico_oficial_nao_aplicado_ao_servico",
+        "last_updated": "2026-08-22T12:00:00-04:00",
+        "time_label": "De 4 a 6 de setembro de 2026; horários diários não confirmados",
+        "venue": "Local da 14ª edição de 2026 não confirmado",
+        "full_address": "Endereço da 14ª edição não confirmado; referência segura apenas a Rio Bonito - RJ",
+        "status_basis": "Datas futuras presentes no flyer específico. Nenhum comunicado de alteração ou cancelamento foi localizado até 22 de agosto de 2026; reconfirme antes de viajar.",
+        "status_checked_at": "2026-08-22T12:00:00-04:00",
+        "organizer": "Organização da 14ª edição de 2026 não confirmada; a Prefeitura atribui apenas a 13ª edição de 2025 ao Moto Clube Rio Bonito",
+        "contact": "Contato da 14ª edição de 2026 não identificado nas fontes localizadas",
+        "source_checked_at": "2026-08-22T12:00:00-04:00",
+        "admission_status": "Não informado para a edição de 2026",
+        "parking": "Não informado para a edição de 2026",
+        "attractions": []
+      },
+      "additional_sources": [
+        {
+          "url": "https://riobonito.rj.gov.br/shows-animam-encontro-nacional-de-motociclista-que-completa-24-anos/",
+          "label": "Prefeitura de Rio Bonito — balanço da 13ª edição de 2025",
+          "type": "contexto histórico oficial; não confirma serviço de 2026",
+          "supports": "13ª edição realizada em 2025, 24 anos desde a primeira realização e promoção pelo Moto Clube Rio Bonito; não prova local, programação ou estrutura da 14ª edição"
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"14º Encontro\" motociclistas \"Rio Bonito\" setembro 2026",
+          "Rio Bonito 14 encontro motociclistas 4 6 setembro 2026",
+          "site:riobonito.rj.gov.br motociclista setembro 2026"
+        ],
+        "current_specific_domains_found": 1,
+        "result": "Somente o flyer atual confirma a 14ª edição; a fonte municipal localizada é da 13ª edição de 2025 e foi usada apenas como contexto histórico.",
+        "historical_context_not_applied": [
+          "Praça Fonseca Portela como local",
+          "Moto Clube Rio Bonito como organizador da edição atual",
+          "camping, café, churrasco, shows, expositores e alimentação de 2025"
+        ],
+        "uncertainties": [
+          "local e endereço",
+          "programação e estrutura",
+          "organizador e contato da edição atual",
+          "entrada e estacionamento"
+        ]
+      }
+    },
+    {
+      "slug": "14-encontro-nacional-sao-joao-del-rei-mg-2026-07-23",
+      "updates": {
+        "summary": "O 14º Encontro Nacional de Motociclistas de São João del-Rei foi divulgado para 23 a 26 de julho de 2026, na Avenida Presidente Tancredo Neves, no Centro Histórico, com entrada franca, 11 bandas, camping com chuveiro quente, alimentação e expositores. O período também consta no calendário cultural municipal repercutido pela imprensa local.",
+        "body": "## Serviço da edição\n\nO 14º Encontro Nacional de Motociclistas de São João del-Rei foi anunciado para 23 a 26 de julho de 2026, na Avenida Presidente Tancredo Neves, no Centro Histórico, com entrada franca. O período foi confirmado por agenda específica, pelo calendário mineiro e por duas matérias locais baseadas no Calendário Cultural divulgado pela Secretaria Municipal de Cultura e Turismo.\n\n## Estrutura e atrações\n\nO flyer informa 11 bandas, incluindo Sete Galo, Velotrol, Lurex Queen e These Days, além de área de camping com chuveiro quente, alimentação, expositores e entrega de troféus para motoclubes e motogrupos.\n\n## Organização e contato\n\nA realização divulgada é de AMEM-SJDR e Anderson Preto. Os contatos impressos são Anderson Preto, (32) 99905-4227, e Cláudia, (32) 99987-8002. O canal oficial indicado é @amem_sjdr.\n\n## Lacunas preservadas\n\nAs fontes consultadas não detalham horários diários nem estacionamento. O período já terminou, e a página continua pública como registro histórico apto a receber resultados, imagens e vídeos posteriores.",
+        "status": "concluida",
+        "official_url": "https://www.instagram.com/amem_sjdr/",
+        "verification_status": "edicao_e_periodo_cruzados_em_fontes_atuais_com_servico_do_flyer",
+        "last_updated": "2026-08-22T12:00:00-04:00",
+        "time_label": "De 23 a 26 de julho de 2026; horários diários não divulgados nas fontes consultadas",
+        "venue": "Avenida Presidente Tancredo Neves",
+        "full_address": "Avenida Presidente Tancredo Neves, Centro Histórico, São João del-Rei - MG",
+        "status_basis": "O calendário cultural municipal repercutido pela imprensa local e as agendas específicas confirmam o período de 23 a 26 de julho de 2026, já encerrado; não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-22T12:00:00-04:00",
+        "organizer": "AMEM-SJDR e Anderson Preto",
+        "contact": "Anderson Preto: (32) 99905-4227; Cláudia: (32) 99987-8002; Instagram: @amem_sjdr",
+        "source_checked_at": "2026-08-22T12:00:00-04:00",
+        "admission_status": "Entrada franca",
+        "parking": "Não informado no material consultado",
+        "attractions": [
+          "11 bandas",
+          "Sete Galo",
+          "Velotrol",
+          "Lurex Queen",
+          "These Days",
+          "Área de camping com chuveiro quente",
+          "Área de alimentação",
+          "Expositores",
+          "Troféus para motoclubes e motogrupos"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://emboabas.com/2026/07/02/com-o-festival-de-serestas-inverno-cultural-da-ufsj-e-outros-eventos-calendario-cultural-especial-de-ferias-e-lancado/",
+          "label": "Rádio Emboabas — Calendário Cultural de férias de São João del-Rei",
+          "type": "imprensa local baseada em calendário municipal da edição 2026",
+          "supports": "14º Encontro Nacional de Motociclistas de 23 a 26 de julho de 2026 e origem da informação na Secretaria Municipal de Cultura e Turismo"
+        },
+        {
+          "url": "https://www.radiocamposdeminas.com.br/news-5695-%E2%80%8Bsao-joao-del-rei-divulga-programacao-cultural-para-as-ferias-de-julho",
+          "label": "Rádio Campos de Minas — programação cultural de julho de 2026",
+          "type": "imprensa local com informações da Prefeitura",
+          "supports": "presença do 14º Encontro Nacional de Motociclistas no calendário cultural municipal de julho de 2026"
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"14º Encontro Nacional de Motociclistas\" \"São João del-Rei\" 2026",
+          "São João del-Rei calendário cultural julho 2026 motociclistas",
+          "site:saojoaodelrei.mg.gov.br encontro motociclistas julho 2026"
+        ],
+        "current_specific_domains_found": 5,
+        "result": "Duas matérias locais que reproduzem o calendário municipal confirmam a edição e o período; o serviço detalhado permanece sustentado pelo flyer e pelas agendas já cadastradas.",
+        "uncertainties": [
+          "horários diários",
+          "estacionamento",
+          "balanço ou resultados pós-evento"
+        ]
+      }
+    },
+    {
+      "slug": "volta-ciclistica-cidade-brusque-2026",
+      "updates": {
+        "summary": "A 17ª Volta Ciclística Cidade de Brusque — II Troféu Chico Wehmuth foi disputada em 15 e 16 de agosto de 2026, com largada e chegada no River Mall, três etapas e validade para o ranking nacional Classe 2B. Cobertura pós-prova confirma a realização e pódios, embora a página oficial de resultado da FCC ainda estivesse sem classificação completa em 22 de agosto.",
+        "body": "## Prova realizada\n\nA 17ª Volta Ciclística Cidade de Brusque — II Troféu Chico Wehmuth foi disputada em 15 e 16 de agosto de 2026. A página oficial da Federação Catarinense de Ciclismo confirma o River Mall Shopping como base, enquanto cobertura local publicada antes da prova registra organização da Associação Brusquense de Ciclismo (Brucicle), três etapas e validade para o Ranking Nacional Classe 2B.\n\n## Formato esportivo\n\nA programação teve contrarrelógio individual de 6,2 km por volta no sábado pela manhã, circuito urbano à tarde e uma terceira etapa no domingo com trecho em direção ao Centro de Gaspar e retorno a Brusque. As categorias abrangeram base, júnior, sub-30, elite e masters, masculinas e femininas conforme regulamento.\n\n## Evidência pós-prova\n\nNotícia de 21 de agosto registra a participação da equipe de Jaraguá do Sul, quatro pódios e Daniel Fagundes como campeão da Master A2, comprovando que a prova ocorreu. Na consulta de 22 de agosto, porém, a página específica de resultados da FCC ainda mostrava “resultado não disponível”; por isso, esta atualização não apresenta uma classificação geral incompleta como se fosse oficial.\n\n## Serviço histórico\n\nA largada e a chegada ocorreram no River Mall, na Avenida Governador Luiz Henrique da Silveira. A retirada antecipada de números foi anunciada para 14 de agosto, das 18h30 às 20h, no ToolBox Lounge Bar, Avenida Otto Renaux, 445. O material consultado não detalha estacionamento, acessibilidade ou regras de acesso do público.",
+        "status": "concluida",
+        "official_url": "https://www.scciclismo.com.br/evento/7487/17-volta-ciclstica-cidade-de-brusque",
+        "verification_status": "realizacao_confirmada_por_fonte_pos_evento_com_resultado_oficial_completo_pendente",
+        "last_updated": "2026-08-22T12:00:00-04:00",
+        "time_label": "15/8: confirmação a partir das 6h e primeira largada às 7h30; 16/8: programação a partir das 6h e largadas desde 7h15",
+        "venue": "River Mall Shopping e circuitos em Brusque e no trecho em direção a Gaspar",
+        "full_address": "River Mall Shopping, Avenida Governador Luiz Henrique da Silveira, Brusque - SC; retirada antecipada de números na Avenida Otto Renaux, 445",
+        "status_basis": "O período oficial terminou em 16 de agosto e cobertura pós-prova de 21 de agosto confirma participação e pódios. A página da FCC ainda não oferecia a classificação geral completa em 22 de agosto.",
+        "status_checked_at": "2026-08-22T12:00:00-04:00",
+        "organizer": "Associação Brusquense de Ciclismo (Brucicle), com supervisão da Federação Catarinense de Ciclismo e da CBC",
+        "contact": "Contato institucional da Federação Catarinense de Ciclismo: (47) 3422-0137; danuza@ciclismosc.com.br",
+        "source_checked_at": "2026-08-22T12:00:00-04:00",
+        "admission_status": "Participação mediante inscrição encerrada; acesso do público não detalhado nas fontes consultadas",
+        "parking": "Não informado no material consultado",
+        "attractions": [
+          "Contrarrelógio individual",
+          "Duas etapas de circuito",
+          "Categorias de base, júnior, sub-30, elite e masters",
+          "Ranking nacional Classe 2B",
+          "II Troféu Chico Wehmuth"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://brusque.portaldacidade.com/noticias/esportes/brusque-recebe-17a-volta-ciclistica-com-atletas-de-todo-o-pais-3837",
+          "label": "Portal da Cidade Brusque — prévia da 17ª Volta Ciclística",
+          "type": "imprensa local específica da edição 2026",
+          "supports": "nome II Troféu Chico Wehmuth, datas, três etapas, River Mall, Brucicle, Classe 2B, categorias e premiação anunciada"
+        },
+        {
+          "url": "https://www.jdv.com.br/volta-ciclistica-brusque-jaragua-do-sul/",
+          "label": "JDV — resultados da equipe de Jaraguá do Sul na Volta de Brusque",
+          "type": "cobertura pós-evento independente da edição 2026",
+          "supports": "realização da 17ª edição, participação de dez ciclistas de Jaraguá, quatro pódios e título de Daniel Fagundes na Master A2"
+        },
+        {
+          "url": "https://www.scciclismo.com.br/resultado-evento/7487/17-volta-ciclstica-cidade-de-brusque",
+          "label": "Federação Catarinense de Ciclismo — página de resultado da prova",
+          "type": "fonte primária estadual pós-evento",
+          "supports": "identidade, local e período oficial; em 22/08/2026 a página informava que o resultado não estava disponível"
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"17ª Volta Ciclística Cidade de Brusque\" resultado 2026",
+          "\"Volta Ciclística de Brusque\" pódios agosto 2026",
+          "site:scciclismo.com.br resultado-evento 7487"
+        ],
+        "current_specific_domains_found": 5,
+        "result": "A realização foi confirmada por cobertura pós-prova; há resultados parciais verificáveis, mas a classificação geral oficial da FCC ainda não estava publicada na consulta.",
+        "conflict_handling": "Uma matéria de equipe citou período até 17 de agosto; foram mantidas as datas oficiais de 15 e 16 de agosto publicadas pela FCC, pelo calendário e pela imprensa local pré-prova.",
+        "uncertainties": [
+          "classificação geral oficial completa",
+          "acesso do público",
+          "estacionamento e acessibilidade"
+        ]
+      }
+    }
+  ]
+}

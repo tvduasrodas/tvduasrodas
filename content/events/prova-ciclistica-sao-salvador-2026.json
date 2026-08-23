@@ -10,51 +10,135 @@
   "scope": "Regional",
   "region": "Sudeste",
   "venue": "Praça do Liceu",
-  "status": "agendada",
+  "status": "concluida",
   "event_type": "Competição de ciclismo de estrada",
   "segment": "Bicicletas",
-  "official_url": "https://www.cbc.esp.br/modalidades/eventos/busca/estrada",
+  "official_url": "https://cbc.esp.br/modalidades/eventos/busca/",
   "cover": "/assets/img/uploads/sao-salvador-2026-ilustracao-editorial.webp",
   "image_credit": "Ilustração editorial gerada por IA: TVDUASRODAS — não retrata a prova real",
   "featured": false,
   "free": false,
-  "summary": "A 81ª Prova Ciclística São Salvador está programada para 5 e 6 de agosto, na Praça do Liceu, em Campos dos Goytacazes, com cinco baterias e categorias de base, masters, elite, paraciclismo e passeio ciclístico.",
-  "attractions": ["Congresso técnico em 5 de agosto", "Cinco baterias no dia 6", "Categorias de base, master, elite e regional", "Cadeirantes e passeio ciclístico"],
+  "summary": "A 81ª Prova Ciclística São Salvador foi concluída em 6 de agosto de 2026, em Campos dos Goytacazes. A FECIERJ publicou os resultados completos, e a cobertura local registrou empate técnico entre Otávio Gonzeli e Euller Magno na elite masculina e vitória de Luciene Ferreira da Silva na elite feminina.",
+  "attractions": [
+    "Resultado completo publicado pela FECIERJ",
+    "Empate técnico entre Otávio Gonzeli e Euller Magno na elite masculina",
+    "Vitória de Luciene Ferreira da Silva na elite feminina",
+    "Categorias de base, master, elite, sub-23, cadeirantes e passeio ciclístico"
+  ],
   "videos": [],
-  "body": "## Corrida de estrada em Campos dos Goytacazes\n\nA 81ª Prova Ciclística São Salvador está confirmada pela Confederação Brasileira de Ciclismo (CBC) para 5 e 6 de agosto, na Praça do Liceu, em Campos dos Goytacazes (RJ). A programação publicada lista o congresso técnico na quarta-feira e as baterias de circuito na quinta-feira.\n\n## Programação divulgada\n\nEm 5 de agosto, a organização prevê congresso técnico a partir das 16h e encerramento da distribuição de kits às 19h30. No dia 6, a secretaria abre às 6h30 e a primeira bateria está marcada para 7h. A tabela da CBC informa cinco largadas, incluindo categorias master, juvenil, infantil, Open, cadeirantes, passeio ciclístico, elite, sub-23 e regional.\n\n## Serviço\n\nA realização é da Rocha Sports, com Rodrigo Rocha e Afonso Celso como responsáveis no cadastro da CBC. Inscrições, regulamento, alterações de horário e condições de acesso devem ser conferidos no canal oficial antes do deslocamento. Estacionamento, área de público, acessibilidade e regras de entrada não foram detalhados no material consultado.\n\n*Imagem de capa: ilustração editorial gerada por IA, criada para esta página; não retrata a prova real.*",
-  "last_updated": "2026-08-01T07:16:55-04:00",
+  "body": "## Prova concluída e resultados oficiais disponíveis\n\nA 81ª Prova Ciclística São Salvador teve congresso técnico em 5 de agosto e baterias em 6 de agosto de 2026, na Praça do Liceu, em Campos dos Goytacazes/RJ. A Confederação Brasileira de Ciclismo publicou o serviço e a programação; a Federação de Ciclismo do Estado do Rio de Janeiro disponibilizou o arquivo completo de resultados após a disputa.\n\n## Destaques da elite\n\nA cobertura do GF Esporte relata um empate técnico inédito na elite masculina: Otávio Augusto Gonzeli e Euller Magno Rabelo completaram os 73 km com o mesmo tempo de 2h34min16s e dividiram o título segundo a apuração por photo finish. Rafael Augusto de Paula Braga e Lauro César Moro Chaman chegaram um décimo depois. Na elite feminina, Luciene Ferreira da Silva venceu os 54,75 km em 2h30min36s, com Nayane Caldeira Manhães em segundo.\n\n## Base e sub-23\n\nJalizan Kemerich de Almeida venceu a sub-23 masculina, e Mayra da Costa e Silva ganhou a sub-23 feminina. Na júnior, os vencedores foram Danilo Silva Araújo Gomes e Sara Silva de Almeida Alves. Os resultados completos de todas as categorias devem ser consultados no PDF oficial da FECIERJ.\n\n## Organização e serviço\n\nA realização foi da Rocha Sports, com Rodrigo Rocha e Afonso Celso como responsáveis no cadastro da CBC. O contato publicado foi (22) 99779-7573. A fonte oficial não detalhou estacionamento nem regra de entrada para o público.",
+  "last_updated": "2026-08-22T21:52:54-04:00",
   "timezone": "America/Sao_Paulo",
   "local_start": "2026-08-05T16:00:00-03:00",
   "local_end": "2026-08-06T12:30:00-03:00",
-  "time_label": "5/8: congresso técnico a partir das 16h; 6/8: baterias a partir das 7h",
+  "time_label": "5 de agosto: congresso técnico a partir das 16h; 6 de agosto: secretaria às 6h30 e baterias a partir das 7h",
   "full_address": "Praça do Liceu, Campos dos Goytacazes - RJ",
-  "admission_status": "Não informado no material consultado",
-  "parking": "Não informado no material consultado",
-  "organizer": "Rocha Sports",
+  "admission_status": "Não informado para o público nas fontes consultadas",
+  "parking": "Não informado nas fontes consultadas",
+  "organizer": "Rocha Sports, com supervisão da FECIERJ e da CBC",
   "source_url": "https://www.cbc.esp.br/modalidades/eventos/busca/estrada",
   "source_label": "CBC — evento e programação da 81ª Prova Ciclística São Salvador",
-  "verification_status": "fonte_oficial_sem_flyer",
+  "verification_status": "cbc_fecierj_e_imprensa_local_confirmadas_com_resultados_publicados",
   "visual_verification": {
     "type": "consulta_visual_de_fonte_oficial_sem_flyer_reutilizavel",
     "source_url": "https://www.cbc.esp.br/modalidades/eventos/busca/estrada",
     "checked_at": "2026-08-01T14:41:35-04:00",
-    "fields_confirmed": ["datas", "local", "horarios", "categorias", "organizacao"],
+    "fields_confirmed": [
+      "datas",
+      "local",
+      "horarios",
+      "categorias",
+      "organizacao"
+    ],
     "rights_note": "A página oficial da CBC confirma os dados do evento, mas não disponibiliza flyer ou fotografia com licença editorial verificável. A capa permanece uma ilustração editorial própria, claramente identificada como não documental."
   },
-  "source_checked_at": "2026-08-01T14:41:35-04:00",
-  "status_checked_at": "2026-08-01T14:41:35-04:00",
+  "source_checked_at": "2026-08-22T21:52:54-04:00",
+  "status_checked_at": "2026-08-22T21:52:54-04:00",
   "relevance_tier": "monitoramento",
   "relevance_score": 60,
   "relevance_confidence": "media",
   "relevance_evaluated_at": "2026-08-01T07:16:55-04:00",
   "relevance_previous_score": 0,
   "relevance_trend": "novo",
-  "relevance_reason_codes": ["edicao_historica", "calendario_cbc", "categorias_diversas", "evento_regional"],
-  "coverage_t1_required": false,
-  "relevance_evidence": {"checked_at": "2026-08-01T07:16:55-04:00", "sources": ["https://www.cbc.esp.br/modalidades/calendario/busca/estrada", "https://www.cbc.esp.br/modalidades/eventos/busca/estrada"], "signals": ["81ª edição identificada pela organização", "Calendário oficial CBC", "Cinco baterias e categorias de base, elite e paraciclismo"]},
-  "sources": [
-    {"url": "https://www.cbc.esp.br/modalidades/calendario/busca/estrada", "label": "CBC — calendário de estrada 2026", "type": "fonte primária", "supports": "datas, cidade e classe do evento", "checked_at": "2026-08-01T07:16:55-04:00"},
-    {"url": "https://www.cbc.esp.br/modalidades/eventos/busca/estrada", "label": "CBC — página do evento e programação", "type": "fonte primária", "supports": "horários, categorias, organização e local", "checked_at": "2026-08-01T07:16:55-04:00"}
+  "relevance_reason_codes": [
+    "edicao_historica",
+    "calendario_cbc",
+    "categorias_diversas",
+    "evento_regional"
   ],
-  "research_status": {"required_specific_independent_sources": 2, "specific_independent_domains_found": 1, "status": "fonte_primaria_completa", "reviewed_at": "2026-08-01T07:16:55-04:00", "editorial_rule": "O cadastro usa a programação oficial da CBC; não foi encontrada imagem com licença editorial verificável, por isso a capa é ilustração original não documental."}
+  "coverage_t1_required": false,
+  "relevance_evidence": {
+    "checked_at": "2026-08-01T07:16:55-04:00",
+    "sources": [
+      "https://www.cbc.esp.br/modalidades/calendario/busca/estrada",
+      "https://www.cbc.esp.br/modalidades/eventos/busca/estrada"
+    ],
+    "signals": [
+      "81ª edição identificada pela organização",
+      "Calendário oficial CBC",
+      "Cinco baterias e categorias de base, elite e paraciclismo"
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.cbc.esp.br/modalidades/calendario/busca/estrada",
+      "label": "CBC — calendário de estrada 2026",
+      "type": "fonte primária",
+      "supports": "datas, cidade e classe do evento",
+      "checked_at": "2026-08-01T07:16:55-04:00"
+    },
+    {
+      "url": "https://www.cbc.esp.br/modalidades/eventos/busca/estrada",
+      "label": "CBC — página do evento e programação",
+      "type": "fonte primária",
+      "supports": "horários, categorias, organização e local",
+      "checked_at": "2026-08-01T07:16:55-04:00"
+    },
+    {
+      "url": "https://fecierj.org.br/resultados/",
+      "label": "FECIERJ — resultados da 81ª São Salvador",
+      "type": "fonte oficial de resultados",
+      "supports": "realização em 6 de agosto de 2026 e publicação do resultado completo da prova"
+    },
+    {
+      "url": "https://fecierj.org.br/wp-content/uploads/2026/08/RESULTADOS-81a-SAO-SALVADOR-2026-2.pdf",
+      "label": "FECIERJ — PDF de resultados completos",
+      "type": "documento oficial de resultados",
+      "supports": "classificações completas da 81ª Prova Ciclística São Salvador de 2026"
+    },
+    {
+      "url": "https://www.gfesporte.com.br/noticias/ciclismo/hist-3ria-sobre-duas-rodas-prova-cicl-stica-s-o-salvador-tem-empate-in-c-dito-na-elite-masculina/28848/",
+      "label": "GF Esporte — cobertura da 81ª São Salvador",
+      "type": "imprensa esportiva local independente",
+      "supports": "realização, chegada da elite, tempos, empate técnico e vencedores de elite, sub-23 e júnior"
+    }
+  ],
+  "research_status": {
+    "required_specific_independent_sources": 2,
+    "specific_independent_domains_found": 1,
+    "status": "fonte_primaria_completa",
+    "reviewed_at": "2026-08-01T07:16:55-04:00",
+    "editorial_rule": "O cadastro usa a programação oficial da CBC; não foi encontrada imagem com licença editorial verificável, por isso a capa é ilustração original não documental."
+  },
+  "status_basis": "A FECIERJ publicou em sua página oficial o resultado completo da 81ª São Salvador, disputada em 6 de agosto de 2026, e a imprensa local cobriu a chegada.",
+  "contact": "(22) 99779-7573",
+  "research": {
+    "queries": [
+      "site:fecierj.org.br/resultados 81ª SÃO SALVADOR 2026",
+      "site:gfesporte.com.br Prova Ciclística São Salvador 2026",
+      "\"81ª Prova Ciclística São Salvador\" resultados 2026"
+    ],
+    "domains_checked": [
+      "cbc.esp.br",
+      "fecierj.org.br",
+      "gfesporte.com.br"
+    ],
+    "result": "servico_oficial_e_resultados_pos_evento_confirmados",
+    "uncertainties": [
+      "O GF Esporte descreve divisão oficial do título por empate técnico, enquanto a listagem nominal também ordena Otávio em primeiro e Euller em segundo; o texto preserva a explicação da apuração por photo finish e remete ao PDF oficial para a classificação integral."
+    ]
+  },
+  "editorial_enrichment_batches": [
+    "c"
+  ]
 }

@@ -1,31 +1,53 @@
 ---
 title: 'Rolê urbano noturno: luzes da cidade em duas rodas'
 date: 2026-01-24T21:01:00-05:00
-author: TVDUASRODAS
+author: Redação TVDUASRODAS
 category: Urbano
 videoId: W1e7F5OibhU
-cover: ''
+cover: '/assets/img/uploads/role-urbano-noturno-nyc.webp'
+coverType: photo
+coverCredit: 'Jess Hawsor / Wikimedia Commons'
+coverSource: 'https://commons.wikimedia.org/wiki/File:NYC_-_motorcycle_parked_on_street_at_night.jpg'
+coverLicense: 'CC BY-SA 4.0'
+updated_at: 2026-08-22
 featured_revista: false
 ---
 
-Rodar de moto à noite pela cidade tem um clima todo especial: menos trânsito, temperaturas mais agradáveis e a iluminação dos prédios, avenidas e pontos turísticos. Mas também exige atenção redobrada.
+Um passeio noturno pode ter temperatura mais amena e vias menos carregadas, mas a menor visibilidade altera a leitura do piso, a percepção de distância e o tempo disponível para reagir. O roteiro precisa começar com a moto, o equipamento e o próprio piloto em condições adequadas.
 
 ## Visibilidade: veja e seja visto
 
-Antes de sair, vale conferir farol alto, baixo, setas e lanterna. Uma lâmpada queimada faz mais diferença à noite do que de dia. Se a moto permitir, vale investir em iluminação de melhor qualidade, sempre dentro da lei.
+Antes de sair, confira farol baixo e alto, lanterna, luz de freio, iluminação da placa e setas. Limpe farol, espelhos e viseira. Adaptações de iluminação precisam respeitar a homologação e as regras aplicáveis; mais brilho sem facho correto pode ofuscar outros usuários e piorar a segurança.
 
-Roupas com detalhes refletivos e capacetes com faixas refletivas ajudam bastante a chamar a atenção de carros, principalmente em cruzamentos e retornos.
+A [Resolução Contran nº 940/2022](https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucoes/Resolucao9402022.pdf) determina viseira no padrão cristal no período noturno e proíbe película na viseira. Confira também selo, estado do capacete e fechamento da cinta jugular.
 
-## Rota do rolê: frio, buracos e trechos desertos
+![Checklist de iluminação, viseira, roupa, rota, combustível e descanso antes do rolê noturno](/assets/img/uploads/role-noturno-checklist.svg)
 
-À noite, buracos e desníveis de asfalto ficam mais difíceis de ver, principalmente em ruas menos iluminadas. Se for rodar com um grupo, combine paradas em postos ou pontos conhecidos e evite se separar demais.
+*Checklist editorial TVDUASRODAS para a saída noturna.*
+
+## Ajuste o ritmo ao alcance da visão
+
+Pilote em velocidade que permita reagir dentro do trecho efetivamente iluminado. Chuva, neblina, reflexo no asfalto, faróis em sentido contrário e viseira riscada encurtam esse campo visual. Aumente a distância à frente e evite permanecer ao lado de carros, ônibus e caminhões, onde pode desaparecer dos espelhos.
+
+![Diagrama sobre campo visual, distância para reagir e rota de escape à noite](/assets/img/uploads/role-noturno-margem.svg)
+
+*Quanto menor o campo visual útil, maior deve ser a margem criada pelo piloto.*
+
+## Rota: piso, apoio e comunicação
+
+Buracos, areia e desníveis ficam mais difíceis de perceber em ruas pouco iluminadas. Prefira trajetos conhecidos e com pontos de apoio abertos, compartilhe o roteiro com alguém e confira autonomia antes da saída. Se o passeio for em grupo, defina destino, paradas e procedimento caso alguém se separe; ninguém deve tentar alcançar o grupo acima do próprio ritmo.
 
 ## Postura no grupo: sem provar nada pra ninguém
 
-Se o rolê for em grupo, alinhe antes o ritmo de pilotagem. A ideia não é “mostrar quem anda mais”, mas curtir a cidade, conversar nos pontos de parada e voltar inteiro para casa.
+Formação não dá prioridade sobre a via. Mantenha distância que permita frear e evite ocupar o ponto cego de outro integrante. Em cruzamentos, cada piloto precisa confirmar que pode prosseguir; não siga o primeiro de forma automática.
 
-> “Rolê bom é o que começa e termina bem. Adrenalina a gente pode deixar para pista fechada, track day ou off-road controlado.”
+O critério editorial é simples: um bom rolê é aquele que começa e termina com segurança. A busca por adrenalina deve ficar para pista fechada, track day ou ambiente off-road controlado.
 
-## Finalizando a noite
+## Sono, frio e decisão de voltar
 
-Ao voltar pra casa, diminua ainda mais o ritmo. Cansaço, sono e pista fria formam uma combinação perigosa. Aproveite o último trecho com calma, já pensando no próximo rolê.
+Cansaço reduz atenção e pode chegar de forma gradual. Bocejo repetido, dificuldade para manter foco e perda de referência do último trecho são sinais para parar em local seguro. Café ou ar frio não substituem descanso. Se não houver condição de continuar, deixe a moto em local permitido e use outra forma de transporte.
+
+## Fontes e créditos
+
+- Regras de capacete e viseira: [Contran, Resolução nº 940/2022](https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucoes/Resolucao9402022.pdf).
+- Foto de capa: Jess Hawsor, CC BY-SA 4.0, via Wikimedia Commons; cena registrada em Nova York e usada como ilustração, não como rota indicada pela matéria.

@@ -12,14 +12,26 @@ Consulta e revisão: 03/08/2026, 14h–14h20, horário Eastern.
 
 O texto diferencia ATPV-e, comunicação de venda e transferência concluída. Procedimentos estaduais, taxas, vistoria, gravame e documentos antigos são apresentados como variáveis que devem ser confirmadas no Detran competente. Não há aconselhamento jurídico individual.
 
+## Fotografia licenciada adicionada em 22/08/2026
+
+- Arquivo publicado: `/assets/img/uploads/venda-moto-usada-foto-capa.webp`.
+- Página de origem: https://commons.wikimedia.org/wiki/File:GP_Motorcycles_Showroom_(4490841056).jpg
+- Arquivo original: https://upload.wikimedia.org/wikipedia/commons/a/a7/GP_Motorcycles_Showroom_%284490841056%29.jpg
+- Autor e atribuição: jimmyweee, `GP Motorcycles Showroom`.
+- Licença: Creative Commons Attribution 2.0 Generic (CC BY 2.0).
+- Contexto: fotografia ilustrativa de um salão de motocicletas; não representa uma transferência brasileira, uma loja específica no Brasil nem o fluxo da CDT.
+- Otimização local: JPEG 1500 × 1000, 868.290 bytes → WebP 1200 × 800, 218.568 bytes, qualidade 78.
+
+A imagem é servida localmente, sem hotlink, e o crédito público identifica autor, origem, licença e caráter ilustrativo.
+
 ## Artes publicadas
 
-### Capa
+### Antiga capa vetorial preservada somente como registro editorial
 
 - Arquivo: `/assets/img/uploads/venda-moto-usada-transferencia-capa.svg`.
 - Origem/titular: arte vetorial original TVDUASRODAS; 1600 × 900 em `viewBox`.
 - Crédito: Arte: TVDUASRODAS.
-- Restrição: exclusiva desta matéria; não reutilizar.
+- Restrição: exclusiva desta matéria; não reutilizar. Deixou de ser a capa pública em 22/08/2026.
 
 ### Fluxo da transferência
 
@@ -37,5 +49,5 @@ O texto diferencia ATPV-e, comunicação de venda e transferência concluída. P
 
 ## Direitos, tratamento e duplicidade
 
-As três artes são SVGs autorais, sem fotografia, marca, logotipo, placa, pessoa ou motocicleta identificável. Não houve download, rasterização, recompressão, remoção de metadados ou uso de material de terceiros. Nomes e composições foram comparados com as coleções editoriais e `assets/img/uploads`; nenhum arquivo anterior foi reutilizado.
+As três artes são SVGs autorais, sem marca, logotipo, placa, pessoa ou motocicleta identificável. A fotografia de capa é a única mídia de terceiro desta pauta e está documentada separadamente acima. Nomes e composições foram comparados com as coleções editoriais e `assets/img/uploads`; nenhum arquivo anterior foi reutilizado.
 

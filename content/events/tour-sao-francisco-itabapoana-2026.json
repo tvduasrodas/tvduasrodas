@@ -9,45 +9,154 @@
   "country": "Brasil",
   "scope": "Nacional",
   "region": "Sudeste",
-  "venue": "Câmara Municipal, RJ-196 em Buena e Praça dos Três Poderes",
-  "status": "agendada",
+  "venue": "Câmara Municipal, RJ-196 e circuito no entorno da Praça dos Três Poderes",
+  "status": "concluida",
   "event_type": "Competição de ciclismo de estrada",
   "segment": "Bicicletas",
-  "official_url": "https://www.cbc.esp.br/modalidades/eventos/busca//pagina/3",
+  "official_url": "https://pmsfi.rj.gov.br/noticia/2o-tour-sao-francisco-supera-expectativas-e-encerra-fim-de-semana-de-grandes-disputas/",
   "cover": "/assets/img/competicoes-eventos-default.svg",
   "image_credit": "Arte institucional: TVDUASRODAS",
   "featured": false,
   "free": false,
-  "summary": "A segunda edição do Tour São Francisco reúne contrarrelógio individual, prova de resistência e circuito entre 7 e 9 de agosto, com pontuação nos rankings da FECIERJ e da CBC.",
-  "attractions": ["Congresso técnico em 7 de agosto", "Contrarrelógio individual em Buena", "Prova de resistência na RJ-196", "Circuito na Praça dos Três Poderes", "Pontuação para os rankings estadual e nacional"],
+  "summary": "O 2º Tour São Francisco foi realizado de 7 a 9 de agosto de 2026 em São Francisco de Itabapoana, com 190 atletas de 62 cidades na abertura e disputas em 25 categorias. A Prefeitura confirmou o encerramento das três etapas, e fontes esportivas registraram Euller Magno e Luciene Ferreira como campeões gerais. O evento valeu pontos para o ranking estadual da FECIERJ e o ranking nacional da CBC.",
+  "attractions": [
+    "Congresso técnico e apresentação das equipes",
+    "Contrarrelógio individual na RJ-196",
+    "Provas de resistência",
+    "Circuito final no entorno da Praça dos Três Poderes",
+    "Disputas em 25 categorias"
+  ],
   "videos": [],
-  "body": "## Competição oficial de estrada\n\nO 2º Tour São Francisco está confirmado para 7, 8 e 9 de agosto em São Francisco de Itabapoana, no Norte Fluminense. A competição integra os calendários da FECIERJ e da Confederação Brasileira de Ciclismo (CBC), com pontuação Classe 1 estadual e Classe 2B nacional.\n\n## Programação divulgada\n\nNa sexta-feira, 7 de agosto, a Câmara Municipal recebe a entrega de numerais das 18h às 18h50 e o congresso técnico às 19h. No sábado, o contrarrelógio individual será na RJ-196, em Buena, com largada prevista para 7h30; à tarde, a mesma rodovia recebe a prova de resistência. No domingo, o circuito está programado para a Praça dos Três Poderes, com largada às 7h30 e premiação final prevista para 14h.\n\n## Participação e serviço\n\nA organização é da Team Master em parceria com a Prefeitura de São Francisco de Itabapoana, FECIERJ e CBC. O regulamento e as condições de participação devem ser consultados no canal oficial antes do deslocamento. Estacionamento, acesso do público e eventuais mudanças de operação não foram detalhados nas fontes consultadas.",
-  "last_updated": "2026-07-30T15:17:22-04:00",
+  "body": "## Tour concluído e resultados verificados\n\nO 2º Tour São Francisco reuniu ciclismo de estrada entre 7 e 9 de agosto de 2026 em São Francisco de Itabapoana. A abertura e o congresso técnico ocorreram na Câmara Municipal. A Prefeitura informou 190 atletas de 62 cidades no início da programação e confirmou que o evento terminou no domingo após disputas em 25 categorias.\n\nA programação esportiva registrada pela Confederação Brasileira de Ciclismo incluiu apresentação e congresso na sexta, contrarrelógio na RJ-196 no sábado e circuito no entorno da Praça dos Três Poderes no domingo. A prova distribuiu pontos para os rankings da Federação de Ciclismo do Estado do Rio de Janeiro e da CBC. A organização foi compartilhada por Team Master, Prefeitura de São Francisco de Itabapoana, FECIERJ e CBC.\n\n## Destaques competitivos\n\nA Andbank Cycling Team confirmou Euller Magno e Luciene Ferreira como vencedores gerais. O GF Esporte também publicou o encerramento com mais de 190 atletas e 25 categorias. A taxa de R$ 300 exibida pela CBC se referia à inscrição esportiva de participantes, já encerrada; as fontes não informam cobrança para espectadores.\n\n## Imagem editorial\n\nNão foi identificada, nesta rodada, uma fotografia com licença de reutilização claramente documentada. A ilustração genérica já usada na página deve permanecer identificada como imagem editorial, e não como fotografia documental desta prova, até que a Prefeitura, a CBC ou uma equipe autorize uma foto específica.",
+  "last_updated": "2026-08-22",
   "timezone": "America/Sao_Paulo",
   "local_start": "2026-08-07T18:00:00-03:00",
   "local_end": "2026-08-09T14:00:00-03:00",
-  "time_label": "7/8: entrega de numerais às 18h e congresso técnico às 19h; 8/8: provas a partir de 7h30 e 14h30; 9/8: circuito às 7h30 e premiação final às 14h",
-  "full_address": "7/8: Câmara Municipal de São Francisco de Itabapoana; 8/8: RJ-196, Buena; 9/8: Praça dos Três Poderes (Portal da Cidade), São Francisco de Itabapoana - RJ",
-  "admission_status": "Participação mediante inscrição e regulamento oficial; condições de acesso do público não informadas nas fontes consultadas",
-  "parking": "Não informado nas fontes consultadas",
-  "organizer": "Team Master, em parceria com a Prefeitura de São Francisco de Itabapoana, FECIERJ e CBC",
+  "time_label": "7 a 9 de agosto de 2026; etapas e congresso conforme programação oficial da CBC",
+  "full_address": "São Francisco de Itabapoana - RJ, com atividades na Câmara Municipal, RJ-196 e entorno da Praça dos Três Poderes",
+  "admission_status": "Inscrições esportivas encerradas; a CBC publicou taxa de R$ 300 por participante. As fontes consultadas não informam cobrança para espectadores.",
+  "parking": "Não informado nas fontes oficiais consultadas.",
+  "organizer": "Team Master, Prefeitura de São Francisco de Itabapoana, FECIERJ e Confederação Brasileira de Ciclismo",
   "source_url": "https://www.cbc.esp.br/modalidades/eventos/busca//pagina/3",
   "source_label": "CBC — calendário e programação do Tour São Francisco de Itabapoana",
-  "verification_status": "fonte_oficial_sem_flyer",
-  "source_checked_at": "2026-07-30T15:17:22-04:00",
-  "status_checked_at": "2026-07-30T15:17:22-04:00",
+  "verification_status": "realizacao_e_resultados_confirmados",
+  "source_checked_at": "2026-08-22",
+  "status_checked_at": "2026-08-22",
   "relevance_tier": "monitoramento",
   "relevance_score": 58,
   "relevance_confidence": "media",
   "relevance_evaluated_at": "2026-07-30T15:17:22-04:00",
   "relevance_previous_score": 0,
   "relevance_trend": "novo",
-  "relevance_reason_codes": ["calendario_cbc", "pontuacao_ranking_nacional", "participacao_interestadual_anunciada", "organizacao_publica_local"],
-  "coverage_t1_required": false,
-  "relevance_evidence": {"checked_at": "2026-07-30T15:17:22-04:00", "sources": ["https://www.cbc.esp.br/modalidades/eventos/busca//pagina/3", "https://pmsfi.rj.gov.br/noticia/inscricoes-abertas-para-o-2o-tour-sao-francisco/"], "signals": ["Evento oficialmente listado pela CBC como Classe 2B", "Prefeitura informa previsão de 300 atletas de 12 estados", "Programação inclui três provas de estrada"]},
-  "sources": [
-    {"url": "https://www.cbc.esp.br/modalidades/eventos/busca//pagina/3", "label": "CBC — evento e programação oficial", "type": "fonte primária", "supports": "datas, horários, locais, modalidades, pontuação e organizadores", "checked_at": "2026-07-30T15:17:22-04:00"},
-    {"url": "https://pmsfi.rj.gov.br/noticia/inscricoes-abertas-para-o-2o-tour-sao-francisco/", "label": "Prefeitura de São Francisco de Itabapoana — inscrições e contexto", "type": "fonte primária da parceira institucional", "supports": "edição, expectativa de atletas, provas e parceria pública", "checked_at": "2026-07-30T15:17:22-04:00"}
+  "relevance_reason_codes": [
+    "calendario_cbc",
+    "pontuacao_ranking_nacional",
+    "participacao_interestadual_anunciada",
+    "organizacao_publica_local"
   ],
-  "research_status": {"required_specific_independent_sources": 2, "specific_independent_domains_found": 2, "status": "fontes_cruzadas", "reviewed_at": "2026-07-30T15:17:22-04:00", "editorial_rule": "Cadastro estrutural feito com fontes oficiais; imagem de prova não foi publicada porque não houve material com licença editorial verificada."}
+  "coverage_t1_required": false,
+  "relevance_evidence": {
+    "checked_at": "2026-07-30T15:17:22-04:00",
+    "sources": [
+      "https://www.cbc.esp.br/modalidades/eventos/busca//pagina/3",
+      "https://pmsfi.rj.gov.br/noticia/inscricoes-abertas-para-o-2o-tour-sao-francisco/"
+    ],
+    "signals": [
+      "Evento oficialmente listado pela CBC como Classe 2B",
+      "Prefeitura informa previsão de 300 atletas de 12 estados",
+      "Programação inclui três provas de estrada"
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.cbc.esp.br/modalidades/eventos/busca//pagina/3",
+      "label": "CBC — evento e programação oficial",
+      "type": "fonte primária",
+      "supports": "datas, horários, locais, modalidades, pontuação e organizadores",
+      "checked_at": "2026-07-30T15:17:22-04:00"
+    },
+    {
+      "url": "https://pmsfi.rj.gov.br/noticia/inscricoes-abertas-para-o-2o-tour-sao-francisco/",
+      "label": "Prefeitura de São Francisco de Itabapoana — inscrições e contexto",
+      "type": "fonte primária da parceira institucional",
+      "supports": "edição, expectativa de atletas, provas e parceria pública",
+      "checked_at": "2026-07-30T15:17:22-04:00"
+    },
+    {
+      "url": "https://www.cbc.esp.br/modalidades/eventos/busca//pagina/2",
+      "label": "Confederação Brasileira de Ciclismo — calendário e programa do Tour São Francisco",
+      "type": "confederacao_esportiva_oficial",
+      "supports": [
+        "datas de 7 a 9 de agosto",
+        "programação das etapas",
+        "organizadores e entidades esportivas",
+        "pontuação em rankings",
+        "taxa de inscrição de participantes"
+      ]
+    },
+    {
+      "url": "https://pmsfi.rj.gov.br/noticia/2o-tour-sao-francisco-comeca-com-190-atletas-de-62-cidades/",
+      "label": "Prefeitura de São Francisco de Itabapoana — abertura com 190 atletas",
+      "type": "prefeitura_oficial",
+      "supports": [
+        "início efetivo do evento",
+        "190 atletas de 62 cidades",
+        "abertura na Câmara Municipal"
+      ]
+    },
+    {
+      "url": "https://pmsfi.rj.gov.br/noticia/2o-tour-sao-francisco-supera-expectativas-e-encerra-fim-de-semana-de-grandes-disputas/",
+      "label": "Prefeitura de São Francisco de Itabapoana — encerramento do 2º Tour",
+      "type": "prefeitura_oficial_pos_evento",
+      "supports": [
+        "conclusão do evento em 9 de agosto",
+        "disputas em 25 categorias",
+        "execução das três etapas"
+      ]
+    },
+    {
+      "url": "https://andbankcyclingteam.com.br/euller-magno-e-luciene-ferreira-conquistam-titulos-gerais-no-tour-sao-francisco/",
+      "label": "Andbank Cycling Team — campeões gerais do Tour São Francisco",
+      "type": "equipe_esportiva",
+      "supports": [
+        "Euller Magno como campeão geral",
+        "Luciene Ferreira como campeã geral",
+        "realização entre 7 e 9 de agosto"
+      ]
+    },
+    {
+      "url": "https://www.gfesporte.com.br/noticias/ciclismo/2ao-tour-s-o-francisco-chega-ao-fim-com-disputas-em-25-categorias/28881/",
+      "label": "GF Esporte — Tour São Francisco chega ao fim",
+      "type": "imprensa_esportiva_regional",
+      "supports": [
+        "encerramento da competição",
+        "mais de 190 atletas",
+        "25 categorias",
+        "resultados esportivos"
+      ]
+    }
+  ],
+  "research_status": {
+    "required_specific_independent_sources": 2,
+    "specific_independent_domains_found": 2,
+    "status": "fontes_cruzadas",
+    "reviewed_at": "2026-07-30T15:17:22-04:00",
+    "editorial_rule": "Cadastro estrutural feito com fontes oficiais; imagem de prova não foi publicada porque não houve material com licença editorial verificada."
+  },
+  "status_basis": "Prefeitura confirmou abertura e encerramento; CBC publicou serviço e regulamento; Andbank Cycling Team e GF Esporte registraram os resultados e campeões gerais.",
+  "research": {
+    "status": "fontes_oficiais_e_resultados_cruzados",
+    "queries": [
+      "2 Tour São Francisco 2026 resultados ciclismo",
+      "site:pmsfi.rj.gov.br Tour São Francisco agosto 2026",
+      "site:cbc.esp.br Tour São Francisco 2026",
+      "Euller Magno Luciene Ferreira Tour São Francisco 2026"
+    ],
+    "visual_evidence": "Nenhuma fotografia específica com licença de reutilização claramente identificada foi selecionada. Manter ilustração editorial genérica com legenda transparente até obter autorização de fonte oficial.",
+    "notes": "Os números de participantes e cidades foram publicados pela Prefeitura. A taxa de R$ 300 da CBC diz respeito à inscrição esportiva, não ao acesso do público.",
+    "checked_at": "2026-08-22"
+  },
+  "editorial_enrichment_batches": [
+    "b"
+  ]
 }

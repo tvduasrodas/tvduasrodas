@@ -40,7 +40,8 @@
         let adCategory = "";
         const institutional = [
             "/sobre", "/contato", "/imprensa", "/politica-de-privacidade",
-            "/termos", "/busca", "/arquivo", "/revista"
+            "/termos", "/equipe", "/politica-editorial", "/politica-de-correcoes",
+            "/busca", "/arquivo", "/revista"
         ].some((segment) => path.includes(segment));
         if (institutional) {
             type = "institutional";
@@ -66,6 +67,7 @@
 
     function ensureDefaultSlot(root = document) {
         if (root !== document || document.querySelector("[data-ad-slot]")) return;
+        if (pageContext().type === "institutional") return;
         const main = document.querySelector("main");
         if (!main) return;
         const container = main.querySelector(".container") || main;

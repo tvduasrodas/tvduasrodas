@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Critérios para avaliar uma moto naked no uso urbano</title>
+  <desc id="desc">Quadro com ergonomia, calor, manobras, freios, autonomia e custo total.</desc>
+  <rect width="1200" height="675" fill="#101217"/>
+  <rect x="55" y="50" width="1090" height="575" rx="28" fill="#191d25" stroke="#ed1c24" stroke-width="4"/>
+  <text x="100" y="125" fill="#fff" font-family="Arial, sans-serif" font-size="42" font-weight="700">NAKED URBANA: O QUE AVALIAR</text>
+  <text x="100" y="168" fill="#c9ced8" font-family="Arial, sans-serif" font-size="24">O melhor conjunto aparece no uso real — não só na ficha técnica.</text>
+  <g font-family="Arial, sans-serif" font-size="25" fill="#fff">
+    <g transform="translate(100 220)"><rect width="315" height="125" rx="18" fill="#252b36"/><circle cx="42" cy="43" r="19" fill="#ed1c24"/><text x="75" y="50" font-weight="700">Ergonomia</text><text x="28" y="91" fill="#c9ced8" font-size="20">Pés, braços e banco</text></g>
+    <g transform="translate(443 220)"><rect width="315" height="125" rx="18" fill="#252b36"/><circle cx="42" cy="43" r="19" fill="#ed1c24"/><text x="75" y="50" font-weight="700">Baixa velocidade</text><text x="28" y="91" fill="#c9ced8" font-size="20">Peso e esterço</text></g>
+    <g transform="translate(786 220)"><rect width="315" height="125" rx="18" fill="#252b36"/><circle cx="42" cy="43" r="19" fill="#ed1c24"/><text x="75" y="50" font-weight="700">Calor</text><text x="28" y="91" fill="#c9ced8" font-size="20">Motor e ventoinha</text></g>
+    <g transform="translate(100 375)"><rect width="315" height="125" rx="18" fill="#252b36"/><circle cx="42" cy="43" r="19" fill="#ed1c24"/><text x="75" y="50" font-weight="700">Frenagem</text><text x="28" y="91" fill="#c9ced8" font-size="20">Modulação e ABS</text></g>
+    <g transform="translate(443 375)"><rect width="315" height="125" rx="18" fill="#252b36"/><circle cx="42" cy="43" r="19" fill="#ed1c24"/><text x="75" y="50" font-weight="700">Autonomia</text><text x="28" y="91" fill="#c9ced8" font-size="20">Consumo observado</text></g>
+    <g transform="translate(786 375)"><rect width="315" height="125" rx="18" fill="#252b36"/><circle cx="42" cy="43" r="19" fill="#ed1c24"/><text x="75" y="50" font-weight="700">Custo total</text><text x="28" y="91" fill="#c9ced8" font-size="20">Seguro e manutenção</text></g>
+  </g>
+  <text x="100" y="570" fill="#f2b705" font-family="Arial, sans-serif" font-size="24" font-weight="700">COMPARE NAS MESMAS CONDIÇÕES E REGISTRE AS IMPRESSÕES.</text>
+</svg>

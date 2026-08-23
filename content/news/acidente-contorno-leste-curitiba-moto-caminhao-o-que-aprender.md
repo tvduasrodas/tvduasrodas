@@ -12,7 +12,7 @@ readingTime: 10 min
 summary: Colisão na BR-116, em Curitiba, terminou com a morte de um motociclista; entenda os fatos confirmados, os riscos entre veículos pesados e o que fazer após um acidente.
 seoTitle: 'Acidente de moto no Contorno Leste: fatos, prevenção e seguro'
 videoId: ''
-cover: /assets/img/uploads/acidente-contorno-leste-registro-editor.webp
+cover: /assets/img/uploads/acidente-contorno-leste-capa-ilustracao.svg
 featured: true
 kicker: Acidente recente
 topics: motos, mobilidade, seguranca
@@ -23,9 +23,9 @@ Um motociclista morreu na tarde de segunda-feira, **27 de julho de 2026**, após
 
 Veículos locais relataram que o motociclista caiu entre caminhões e foi atingido. Uma gravação citada por uma das reportagens indicaria tráfego lento e o deslocamento da moto entre as faixas. Esses elementos, porém, **não substituem o laudo nem permitem concluir causa ou culpa**. Até a publicação desta matéria, não localizamos relatório técnico público definitivo sobre a dinâmica.
 
-![Equipes e pessoas em trecho interditado do Contorno Leste após um acidente](/assets/img/uploads/acidente-contorno-leste-registro-editor.webp "Atendimento em trecho interditado do Contorno Leste.")
+![Ilustração editorial de motocicleta e caminhões em uma rodovia](/assets/img/uploads/acidente-contorno-leste-capa-ilustracao.svg "Arte: TVDUASRODAS — ilustração genérica, sem reprodução da ocorrência real.")
 
-*Foto: arquivo fornecido pelo editor à TVDUASRODAS. A imagem registra o atendimento no Contorno Leste, mas não permite, isoladamente, determinar a dinâmica ou a responsabilidade pelo acidente.*
+*Ilustração editorial: TVDUASRODAS. A arte é genérica, não mostra a ocorrência real e não permite concluir dinâmica ou responsabilidade pelo acidente.*
 
 ## O que está confirmado
 

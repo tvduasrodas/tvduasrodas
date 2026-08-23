@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9006646182680550" crossorigin="anonymous"></script>
+    <script src="/assets/js/google-consent-defaults.js?v=20260823a"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -9,21 +9,20 @@
 
     <meta name="description" content="Fale com a TVDUASRODAS sobre pautas, publicidade, patrocínios e parcerias no universo das duas rodas." />
     <link rel="canonical" href="https://tvduasrodas.com/contato" />
-
     <meta name="robots" content="index, follow" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta charset="UTF-8" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="TVDUASRODAS" />
+    <meta property="og:title" content="Contato e patrocínios | TVDUASRODAS" />
+    <meta property="og:description" content="Canais editoriais, de imprensa e comerciais da TVDUASRODAS." />
+    <meta property="og:url" content="https://tvduasrodas.com/contato" />
 
 
     <link rel="icon" href="assets/img/logoTVicon_web.ico" type="image/x-icon" />
     <link rel="stylesheet" href="assets/css/style.css?v=20260725responsive1" />
 </head>
 <body class="page-internal">
-    <div class="ad-bar">
-        <div class="container ad-bar-inner">
-            <span>Espaço para patrocinador topo · 970x90</span>
-        </div>
-    </div>
+    <div class="ad-bar"><!-- ADS --><!-- END ADS --></div>
 
     <header class="site-header">
         <div class="container header-inner">
@@ -91,7 +90,7 @@
                     </p>
                 </header>
 
-                <!-- FORMULÁRIO (apenas front-end, sem backend por enquanto) -->
+                <!-- FORMULÁRIO PROCESSADO PELO FORMSPREE -->
                 <section class="contact-section">
                     <h2>Envie uma mensagem</h2>
                     <form class="contact-form" action="https://formspree.io/f/mykeqojp" method="post">
@@ -126,17 +125,32 @@
                         </div>
 
                         <button type="submit" class="btn btn-primary">Enviar mensagem</button>
-                        
+                        <p class="footer-small">
+                            Ao enviar, você autoriza o tratamento dos dados para responder à mensagem,
+                            conforme a <a href="politica-de-privacidade.html">Política de Privacidade</a>.
+                            O envio é processado pela <a href="https://formspree.io/legal/privacy-policy/" target="_blank" rel="noopener noreferrer">Formspree</a>.
+                        </p>
                     </form>
                 </section>
 
-                <!-- BLOCO VINDO DO CMS (Contato) -->
                 <section class="contact-cms">
-                    <h2>Informações de contato</h2>
-                    <div id="contact-meta"></div>
-                    <div id="contact-content">
-                        <p>Carregando informações...</p>
-                    </div>
+                    <h2>Canais diretos</h2>
+                    <p>
+                        <strong>Contato geral, editorial e correções:</strong><br />
+                        <a href="mailto:tvduasrodas@gmail.com">tvduasrodas@gmail.com</a>
+                    </p>
+                    <p>
+                        <strong>Imprensa e pedidos de uso de conteúdo:</strong><br />
+                        <a href="mailto:tvduasrodas@gmail.com?subject=Imprensa%20TVDUASRODAS">tvduasrodas@gmail.com</a>
+                    </p>
+                    <p>
+                        <strong>Publicidade e patrocínios:</strong><br />
+                        <a href="mailto:tvduasrodas@gmail.com?subject=Patroc%C3%ADnio%20TVDUASRODAS">tvduasrodas@gmail.com</a>
+                    </p>
+                    <p>
+                        Sugestões de pauta devem incluir contexto e, quando possível, fontes ou documentos.
+                        Para apontar erro factual, veja a <a href="politica-de-correcoes.html">Política de Correções</a>.
+                    </p>
                 </section>
 
 
@@ -157,7 +171,7 @@
                         Para propostas comerciais, entre em contato diretamente pelo e-mail:
                     </p>
                     <p class="contact-email">
-                        <a href="mailto:patrocinio@tvduasrodas.com">patrocinio@tvduasrodas.com</a>
+                        <a href="mailto:tvduasrodas@gmail.com?subject=Patroc%C3%ADnio%20TVDUASRODAS">tvduasrodas@gmail.com</a>
                     </p>
                 </section>
             </div>
@@ -182,92 +196,18 @@
                 <p>© <span>TV Duas Rodas</span> – todos os direitos reservados.</p>
                 <p class="footer-small">Contato direto para parcerias &amp; publicidade.</p>
             </div>
-            <div class="footer-ad">
-                <!-- ADS -->               
-                <!-- END ADS -->
-            </div>
+            <p class="footer-links">
+                <a href="sobre.html">Sobre</a> · <a href="equipe.html">Equipe</a> ·
+                <a href="politica-editorial.html">Política Editorial</a> ·
+                <a href="politica-de-correcoes.html">Correções</a> ·
+                <a href="politica-de-privacidade.html">Privacidade</a> ·
+                <a href="termos.html">Termos</a> · <a href="contato.html" aria-current="page">Contato</a>
+            </p>
         </div>
     </footer>
    
 
-    <script>
-      // 1) COLOQUE A URL RAW DO ARQUIVO content/pages/contato.md AQUI:
-      const RAW_CONTATO_URL =
-          "https://raw.githubusercontent.com/tvduasrodas/tvduasrodas/refs/heads/main/content/pages/contato.md";
-      async function loadContactFromCMS() {
-        const metaEl = document.getElementById("contact-meta");
-        const contentEl = document.getElementById("contact-content");
-        const sponsorEmailLink = document.querySelector(".contact-email a");
-
-        try {
-          const res = await fetch(RAW_CONTATO_URL);
-          if (!res.ok) throw new Error("Erro ao buscar contato: " + res.status);
-
-          const text = await res.text();
-
-          let body = text;
-          let email = "";
-          let whatsapp = "";
-
-          // --- frontmatter ---
-          if (text.startsWith("---")) {
-            const second = text.indexOf("---", 3);
-            if (second !== -1) {
-              const frontmatter = text.slice(3, second).trim();
-              body = text.slice(second + 3).trim();
-
-              frontmatter.split("\n").forEach((line) => {
-                const [key, ...rest] = line.split(":");
-                const value = rest.join(":").trim();
-                if (key === "email") email = value;
-                if (key === "whatsapp") whatsapp = value;
-              });
-            }
-          }
-
-          // Monta bloco de email/whatsapp
-          let metaHtml = "";
-          if (email) {
-            metaHtml += `<p><strong>E-mail:</strong> <a href="mailto:${email}">${email}</a></p>`;
-          }
-          if (whatsapp) {
-            metaHtml += `<p><strong>WhatsApp:</strong> <a href="${whatsapp}" target="_blank" rel="noopener noreferrer">${whatsapp}</a></p>`;
-          }
-
-          if (metaEl) {
-            metaEl.innerHTML = metaHtml || "<p>(Sem dados de contato configurados.)</p>";
-          }
-
-          // Atualiza bloco de patrocínio com o mesmo e-mail, se existir
-          if (sponsorEmailLink && email) {
-            sponsorEmailLink.href = `mailto:${email}`;
-            sponsorEmailLink.textContent = email;
-          }
-
-          // Transforma markdown simples em HTML muito básico
-          const paragraphs = body
-            .split(/\n\s*\n/)
-            .map((p) => `<p>${p.replace(/\n/g, "<br>")}</p>`)
-            .join("");
-
-          if (contentEl) {
-            contentEl.innerHTML = paragraphs || "";
-          }
-        } catch (err) {
-          console.error(err);
-          if (contentEl) {
-            contentEl.innerHTML =
-              "<p>Não foi possível carregar as informações de contato.</p>";
-          }
-        }
-      }
-
-      loadContactFromCMS();
-    </script>
-    <script src="/assets/js/ads.js?v=20260726ga1"></script>
-</body>
-</html>
-
-
+    <script src="assets/js/main.js?v=20260722"></script>
+    <script src="/assets/js/ads.js?v=20260823a"></script>
 </body>
 </html>

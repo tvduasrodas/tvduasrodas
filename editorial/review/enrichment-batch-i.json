@@ -1,0 +1,934 @@
+{
+  "batch": "i",
+  "reviewed_at": "2026-08-22",
+  "entries": [
+    {
+      "slug": "its-timburi-sp-2026-08-13",
+      "updates": {
+        "status": "concluida",
+        "summary": "A página preserva a divulgação de ITS em Timburi/SP para 13 a 15 de agosto de 2026. A agenda corrente da mesma fonte também passou a exibir 15 a 17 de agosto, sem explicar se houve mudança ou se são atividades distintas; por isso, a realização e o período definitivo não podem ser afirmados como confirmados.",
+        "body": "## Registro preservado\n\nO flyer específico vinculado a esta página anuncia ITS em Timburi/SP de 13 a 15 de agosto de 2026 e fornece o telefone (14) 99709-9366. O período já terminou, então a página deve funcionar como registro da divulgação, não como convite atual.\n\n## Conflito de datas\n\nNa checagem de 22 de agosto, a listagem geral da própria JB-RIDER mostrava também ITS em Timburi de 15 a 17 de agosto. Não foi encontrada publicação independente do organizador, da Prefeitura ou da imprensa local que esclareça a divergência. A data do slug e do flyer foi mantida, sem deslocar a página para o outro período.\n\n## Serviço não confirmado\n\nNão foram localizados endereço, horários, programação, responsável nominal, regra de entrada ou estacionamento. O telefone do flyer é o único canal específico disponível e deve ser usado para confirmar qualquer informação remanescente. O simples término da data anunciada não comprova que o evento ocorreu.",
+        "official_url": "https://jb-rider.com.br/evento/20260813-3-its-timburi-sp",
+        "verification_status": "flyer_especifico_com_conflito_de_datas_na_mesma_fonte_e_sem_confirmacao_independente",
+        "last_updated": "2026-08-22T23:35:00-04:00",
+        "time_label": "13 a 15 de agosto de 2026 no flyer desta página; a agenda também exibe 15 a 17 de agosto; horários não confirmados",
+        "venue": "Local da atividade de 2026 não confirmado",
+        "street_address": "Endereço não confirmado",
+        "full_address": "Timburi - SP; endereço detalhado não confirmado",
+        "status_basis": "O período de 13 a 15 de agosto já terminou, mas isso não comprova a realização; a fonte mantém outra listagem para 15 a 17 de agosto.",
+        "status_checked_at": "2026-08-22T23:35:00-04:00",
+        "organizer": "Organização não identificada em fonte verificável",
+        "contact": "(14) 99709-9366, conforme o flyer; confirmar se o canal permanece ativo",
+        "source_checked_at": "2026-08-22T23:35:00-04:00",
+        "admission_status": "Não informado na divulgação localizada",
+        "parking": "Não informado na divulgação localizada",
+        "attractions": [
+          "Programação não confirmada"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://jb-rider.com.br/eventos.php",
+          "label": "JB-RIDER — agenda corrente de eventos",
+          "type": "agenda_mesmo_dominio_com_conflito",
+          "supports": "Mostra uma segunda listagem de ITS em Timburi para 15 a 17 de agosto, documentando a divergência com o flyer de 13 a 15; não constitui fonte independente."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"ITS\" Timburi 2026 motociclistas",
+          "\"(14) 99709-9366\"",
+          "\"ITS Timburi\" agosto 2026",
+          "site:timburi.sp.gov.br motociclistas agosto 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "timburi.sp.gov.br",
+          "facebook.com",
+          "instagram.com"
+        ],
+        "result": "fonte_especifica_unica; conflito_de_datas_no_mesmo_dominio; servico_e_realizacao_nao_confirmados",
+        "uncertainties": [
+          "Não foi possível identificar o significado de ITS ou o organizador sem especulação.",
+          "Não foi encontrada fonte independente que resolva 13–15 versus 15–17 de agosto."
+        ]
+      }
+    },
+    {
+      "slug": "motofest-iati-pe-2026-08-14",
+      "updates": {
+        "title": "12º Iati Moto Fest",
+        "short_name": "Iati Moto Fest",
+        "status": "concluida",
+        "summary": "O 12º Iati Moto Fest foi anunciado para 14 e 15 de agosto de 2026. Reportagem local publicada antes da edição confirma camping, troféus, feijoada, jantar para motociclistas, brindes, encontro de motoclubes e atrações musicais, além de identificar os grupos organizadores e o apoio municipal.",
+        "body": "## Edição confirmada para 14 e 15 de agosto\n\nO Portal Iati publicou em 26 de julho a programação do 12º Moto Fest Iati para os dias 14 e 15 de agosto de 2026. A data coincide com o flyer específico desta página e corrige a incerteza criada por outro cadastro que indicava 7 e 8 de agosto.\n\n## Estrutura e programação anunciadas\n\nA reportagem informa área de camping, entrega de troféus, feijoada, jantar na sexta-feira para motociclistas, brindes, encontro de motoclubes e música. Ela identifica como realizadores Mucambo Moto Clube, Falcão Peregrino Moto Clube, Motonautas M.G., o motociclista independente Diego e o moto casal Eugênio & Erika, com apoio da Secretaria Municipal de Cultura e da Prefeitura de Iati.\n\n## Limites do serviço\n\nNão foram publicados endereço detalhado, horários, estacionamento, contato ou regra de entrada geral. Como o período terminou, a página pode ser marcada como concluída, mas a pesquisa pré-evento não substitui uma confirmação posterior de que todas as atividades ocorreram conforme o anúncio.",
+        "official_url": "https://jb-rider.com.br/evento/20260814-2-motofest-iati-pe",
+        "verification_status": "data_edicao_programa_e_organizadores_confirmados_por_fonte_local_especifica",
+        "last_updated": "2026-08-22T23:35:00-04:00",
+        "time_label": "14 e 15 de agosto de 2026; horários não localizados",
+        "venue": "Local da edição de 2026 não informado nas fontes consultadas",
+        "street_address": "Endereço não confirmado",
+        "full_address": "Iati - PE; endereço detalhado não confirmado",
+        "status_basis": "O período confirmado de 14 e 15 de agosto já terminou; não foi localizada cobertura posterior suficiente para comprovar cada atividade realizada.",
+        "status_checked_at": "2026-08-22T23:35:00-04:00",
+        "organizer": "Mucambo Moto Clube, Falcão Peregrino Moto Clube, Motonautas M.G., motociclista independente Diego e moto casal Eugênio & Erika; apoio da Secretaria Municipal de Cultura e Prefeitura de Iati",
+        "contact": "Contato público específico da edição de 2026 não localizado",
+        "source_checked_at": "2026-08-22T23:35:00-04:00",
+        "admission_status": "Entrada geral não informada; a fonte anuncia feijoada e jantar para motociclistas sem detalhar condições de acesso",
+        "parking": "Não informado nas fontes consultadas",
+        "attractions": [
+          "Encontro de motoclubes e atrações musicais",
+          "Área de camping",
+          "Troféus e brindes",
+          "Feijoada e jantar de sexta-feira para motociclistas, conforme anúncio prévio"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://portaliati.com.br/noticia.php?slug=o-12o-moto-fest-iati-promete-reunir-motociclistas-de-toda-a-regiao-nos-dias-14-e-15-de-agosto",
+          "label": "Portal Iati — 12º Moto Fest Iati em 14 e 15 de agosto",
+          "type": "imprensa_local_especifica",
+          "supports": "Confirma edição, datas, estrutura anunciada, atrações gerais, grupos realizadores e apoio municipal da edição de 2026."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"12º Moto Fest Iati\" 2026",
+          "\"Moto Fest Iati\" \"14 e 15 de agosto\"",
+          "site:iati.pe.gov.br Moto Fest 2026",
+          "site:portaliati.com.br Moto Fest Iati 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "portaliati.com.br",
+          "iati.pe.gov.br"
+        ],
+        "result": "edicao_de_14_e_15_de_agosto_corrobora_por_dominio_independente; organizadores_e_programacao_geral_identificados",
+        "uncertainties": [
+          "Endereço, horários, contato e estacionamento não foram publicados nas fontes localizadas.",
+          "Não foi localizada cobertura pós-evento para confirmar a execução integral do programa."
+        ]
+      }
+    },
+    {
+      "slug": "motofest-iati-pe-2026-08-07",
+      "updates": {
+        "status": "concluida",
+        "summary": "Este registro de 7 e 8 de agosto de 2026 é preservado porque possui flyer próprio, mas a publicação independente encontrada para o 12º Iati Moto Fest confirma a edição nos dias 14 e 15. Não há base para afirmar que um segundo evento ocorreu em 7 e 8 de agosto.",
+        "body": "## Data não corroborada\n\nO flyer associado a esta URL indica Iati Moto Fest em 7 e 8 de agosto e menciona troféus. Entretanto, uma reportagem local específica, publicada antes do evento, identifica o 12º Iati Moto Fest nos dias 14 e 15 de agosto de 2026, período também presente em outra página da agenda.\n\n## Como interpretar esta página\n\nA URL permanece pública como registro da divulgação conflitante. Ela não deve apresentar 7 e 8 de agosto como realização confirmada, nem copiar camping, alimentação, organizadores ou programação da edição de 14 e 15 como se fossem válidos para a data antiga.\n\n## Serviço pendente\n\nNão foram encontrados endereço, horários, contato, entrada ou estacionamento específicos para 7 e 8 de agosto. O período passou, mas o término da data não comprova a ocorrência de um evento separado.",
+        "official_url": "https://jb-rider.com.br/evento/20260807-2-motofest-iati-pe",
+        "verification_status": "registro_de_data_conflitante_preservado_sem_confirmacao_de_evento_separado",
+        "last_updated": "2026-08-22T23:35:00-04:00",
+        "time_label": "7 e 8 de agosto de 2026 no flyer desta página; fonte independente confirma o 12º evento em 14 e 15 de agosto",
+        "venue": "Local não confirmado para o registro de 7 e 8 de agosto",
+        "street_address": "Endereço não confirmado",
+        "full_address": "Iati - PE; endereço detalhado não confirmado para esta data",
+        "status_basis": "O período do flyer terminou, mas a data não foi corroborada; a fonte independente encontrada situa a edição de 2026 em 14 e 15 de agosto.",
+        "status_checked_at": "2026-08-22T23:35:00-04:00",
+        "organizer": "Organização não confirmada para 7 e 8 de agosto",
+        "contact": "Contato específico para esta data não localizado",
+        "source_checked_at": "2026-08-22T23:35:00-04:00",
+        "admission_status": "Não informado para esta data",
+        "parking": "Não informado para esta data",
+        "attractions": [
+          "Troféus mencionados no flyer conflitante; realização não corroborada"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://portaliati.com.br/noticia.php?slug=o-12o-moto-fest-iati-promete-reunir-motociclistas-de-toda-a-regiao-nos-dias-14-e-15-de-agosto",
+          "label": "Portal Iati — edição de 2026 em 14 e 15 de agosto",
+          "type": "imprensa_local_especifica_com_data_conflitante",
+          "supports": "Confirma o 12º Iati Moto Fest em 14 e 15 de agosto, contrariando a data de 7 e 8 do flyer desta página."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Moto Fest Iati\" \"7 e 8 de agosto\" 2026",
+          "\"Moto Fest Iati\" \"14 e 15 de agosto\" 2026",
+          "\"12º Moto Fest Iati\" 2026",
+          "site:iati.pe.gov.br Moto Fest agosto 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "portaliati.com.br",
+          "iati.pe.gov.br"
+        ],
+        "result": "data_de_7_e_8_nao_corrobora; fonte_independente_confirma_edicao_em_14_e_15; pagina_preservada_com_aviso",
+        "uncertainties": [
+          "Não foi localizado aviso formal de adiamento que explique os dois flyers.",
+          "Não há evidência de que tenham ocorrido dois eventos distintos em Iati."
+        ]
+      }
+    },
+    {
+      "slug": "motofest-iacu-ba-2026-10-09",
+      "updates": {
+        "status": "agendada",
+        "summary": "A agenda comunitária anuncia o Iaçu Moto Fest de 9 a 11 de outubro de 2026, com bandas. A própria listagem associa Guardiões a Iaçu nas mesmas datas, mas nenhuma publicação atual do organizador ou do município confirmou local, horários, entrada ou programação nominal.",
+        "body": "## Divulgação para outubro\n\nO flyer específico desta página informa Iaçu/BA, 9 a 11 de outubro de 2026 e presença de bandas. A agenda geral também mostra Guardiões MG em Iaçu no mesmo período, sinal de possível vínculo com o grupo, mas não esclarece formalmente o papel de organizador.\n\n## Continuidade apenas histórica\n\nO Jornal da Chapada noticiou uma atividade dos Guardiões de Iaçu em novembro de 2025. Isso corrobora a existência do grupo e sua atuação local, mas não confirma o local, a programação ou os responsáveis pela edição de outubro de 2026. A agenda ainda exibe outra referência a Moto Fest em Iaçu em agosto, sem explicação suficiente para combinar os cadastros.\n\n## Antes de viajar\n\nEndereço, horários, contato, entrada, estacionamento, camping e nomes das bandas continuam pendentes. Como não foi localizado aviso de cancelamento, o evento permanece agendado, condicionado à confirmação em canal atual da organização.",
+        "official_url": "https://jb-rider.com.br/evento/20261009-3-motofest-iacu-ba",
+        "verification_status": "flyer_especifico_de_2026_com_associacao_indireta_ao_grupo_e_sem_segunda_fonte_da_edicao",
+        "last_updated": "2026-08-22T23:35:00-04:00",
+        "time_label": "9 a 11 de outubro de 2026; horários não confirmados",
+        "venue": "Local da edição de outubro de 2026 ainda não confirmado",
+        "street_address": "Endereço não confirmado",
+        "full_address": "Iaçu - BA; endereço detalhado pendente",
+        "status_basis": "O flyer específico indica 9 a 11 de outubro, período futuro na checagem; não foi localizado comunicado de cancelamento.",
+        "status_checked_at": "2026-08-22T23:35:00-04:00",
+        "organizer": "Organização ainda não confirmada; a agenda associa Guardiões a Iaçu nas mesmas datas",
+        "contact": "Contato da edição de 2026 não localizado",
+        "source_checked_at": "2026-08-22T23:35:00-04:00",
+        "admission_status": "Não informado para a edição de 2026",
+        "parking": "Não informado para a edição de 2026",
+        "attractions": [
+          "Bandas; nomes e horários ainda não confirmados"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://jb-rider.com.br/eventos.php",
+          "label": "JB-RIDER — listagem corrente de Iaçu e Guardiões",
+          "type": "agenda_mesmo_dominio",
+          "supports": "Associa Guardiões a Iaçu no período de 9 a 11 de outubro e mostra outra referência a Moto Fest em agosto; não é confirmação independente."
+        },
+        {
+          "url": "https://jornaldachapada.com.br/2025/11/01/chapada-regiao-vibra-com-a-primeira-noite-da-1a-feijoada-guardioes-de-iacu/",
+          "label": "Jornal da Chapada — Guardiões de Iaçu em 2025",
+          "type": "imprensa_local_historica",
+          "supports": "Comprova a atuação local do grupo Guardiões de Iaçu em evento motociclístico de 2025; não confirma serviço da edição de outubro de 2026."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Iaçu Moto Fest\" 2026",
+          "\"Guardioes de Iaçu\" outubro 2026",
+          "\"Moto Fest\" Iaçu \"9 a 11 de outubro\"",
+          "site:iacu.ba.gov.br motociclismo 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "iacu.ba.gov.br",
+          "jornaldachapada.com.br",
+          "facebook.com",
+          "instagram.com"
+        ],
+        "result": "flyer_especifico_para_outubro; identidade_historica_do_grupo_local; servico_2026_sem_corroboração_independente",
+        "uncertainties": [
+          "O responsável formal pela edição de outubro não foi confirmado.",
+          "A referência separada a agosto não foi combinada com esta página."
+        ]
+      }
+    },
+    {
+      "slug": "motofest-iguaba-grande-rj-2026-09-04",
+      "updates": {
+        "title": "Encontro Nacional de Motociclistas de Iguaba Grande",
+        "short_name": "Encontro de Motociclistas de Iguaba Grande",
+        "status": "agendada",
+        "summary": "O calendário municipal de Iguaba Grande inclui o Encontro Nacional de Motociclistas nos dias 4 e 5 de setembro de 2026, datas que coincidem com o flyer da agenda. O material anuncia rock e bandas, mas endereço, horários, organização, entrada e estacionamento ainda não foram confirmados.",
+        "body": "## Datas no calendário municipal\n\nReportagem local sobre o calendário oficial apresentado pela Prefeitura de Iguaba Grande lista o Encontro Nacional de Motociclistas em 4 e 5 de setembro de 2026. As datas coincidem com o flyer específico cadastrado como Iguaba Grande Moto Fest, que anuncia rock e bandas.\n\n## Nome e divergência externa\n\nA denominação usada no calendário municipal foi adotada como título editorial, sem alterar o slug público. Um calendário motociclístico externo exibe uma referência diferente, em 23 de setembro, para um “16º Encontro Nacional”; como não explica a relação entre os registros, essa data não foi misturada ao serviço desta página.\n\n## Serviço ainda pendente\n\nNão foram localizados endereço, horários, organizador, contato, regra de entrada, estacionamento, camping ou grade de bandas. A data segue futura e não há aviso de cancelamento, mas o leitor deve conferir uma publicação atual antes do deslocamento.",
+        "official_url": "https://jb-rider.com.br/evento/20260904-2-motofest-iguaba-grande-rj",
+        "verification_status": "datas_corrobora_por_calendario_municipal_divulgado; servico_operacional_pendente",
+        "last_updated": "2026-08-22T23:35:00-04:00",
+        "time_label": "4 e 5 de setembro de 2026; horários não confirmados",
+        "venue": "Local da edição de 2026 ainda não confirmado",
+        "street_address": "Endereço não confirmado",
+        "full_address": "Iguaba Grande - RJ; endereço detalhado pendente",
+        "status_basis": "O calendário municipal divulgado e o flyer específico coincidem em 4 e 5 de setembro, período futuro na checagem; não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-22T23:35:00-04:00",
+        "organizer": "Organização não confirmada; evento incluído no calendário municipal de Iguaba Grande",
+        "contact": "Contato da edição de 2026 não localizado",
+        "source_checked_at": "2026-08-22T23:35:00-04:00",
+        "admission_status": "Não informado para a edição de 2026",
+        "parking": "Não informado para a edição de 2026",
+        "attractions": [
+          "Rock e bandas; grade nominal ainda não publicada em fonte localizada"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://girocostadosol.com.br/iguaba-grande-apresenta-calendario-de-eventos-2026-confira-o-que-vai-rolar/",
+          "label": "Giro Costa do Sol — calendário de eventos 2026 de Iguaba Grande",
+          "type": "imprensa_local_sobre_calendario_municipal",
+          "supports": "Confirma que o calendário municipal inclui o Encontro Nacional de Motociclistas em 4 e 5 de setembro de 2026."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Encontro Nacional de Motociclistas\" \"Iguaba Grande\" 2026",
+          "\"Iguaba Grande Moto Fest\" setembro 2026",
+          "site:iguaba.rj.gov.br motociclistas 2026",
+          "\"4 e 5 de setembro\" Iguaba motociclistas"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "girocostadosol.com.br",
+          "iguaba.rj.gov.br",
+          "calendariomoto.com"
+        ],
+        "result": "datas_corrobora_por_fonte_local_sobre_calendario_municipal; detalhes_operacionais_nao_publicados",
+        "excluded_sources": [
+          "CalendarioMoto exibe 23 de setembro para um 16º encontro, sem explicar relação com 4 e 5 de setembro; a data não foi usada no serviço."
+        ],
+        "uncertainties": [
+          "Local, horários, responsável e condições de acesso continuam pendentes.",
+          "Não foi localizada publicação própria do organizador."
+        ]
+      }
+    },
+    {
+      "slug": "motofest-iguatu-ce-2026-07-30",
+      "updates": {
+        "title": "12º Iguatu Moto Fest",
+        "short_name": "Iguatu Moto Fest",
+        "status": "concluida",
+        "summary": "O 12º Iguatu Moto Fest ocorreu de 30 de julho a 2 de agosto de 2026 no Parque de Exposições do Rotary Club, em Iguatu/CE. Fontes atuais confirmam edição, apoio municipal, acesso gratuito e solidário mediante 1 kg de alimento, atrações como Shamangra e Pholhas e a arrecadação posterior de cinco toneladas de alimentos.",
+        "body": "## Edição de 2026 confirmada\n\nO lançamento do 12º Iguatu Moto Fest definiu 30 de julho a 2 de agosto no Parque de Exposições do Rotary Club. O perfil institucional do Coletivo Iguatu Moto Fest confirma a continuidade da iniciativa e oferece canais públicos de contato.\n\n## Atrações, acesso e realização\n\nA reportagem de lançamento anunciou 11 atrações, incluindo Shamangra e Pholhas, e informou acesso gratuito mediante 1 kg de alimento não perecível. Agendas das atrações também corroboram as apresentações. Depois da edição, o Jornal A Praça informou que o encontro ocorreu no Parque do Rotary Club e arrecadou cinco toneladas de alimentos, destinadas a ação social. A mesma cobertura identifica Vinicius Mendonça como presidente do Iguatu MotoFest 2026.\n\n## Serviço documentado com limites\n\nO endereço cadastral do coletivo na Praça dos Motociclistas não foi tratado como endereço do evento: as fontes atuais situam a edição no Parque de Exposições do Rotary Club, mas não fornecem número de rua. Horários completos, estacionamento e regras operacionais do acesso não foram encontrados e permanecem sem confirmação.",
+        "official_url": "https://linktr.ee/iguatumotofest",
+        "verification_status": "edicao_local_realizacao_organizacao_atracoes_e_resultado_social_confirmados_por_fontes_atuais",
+        "last_updated": "2026-08-22T23:35:00-04:00",
+        "time_label": "30 de julho a 2 de agosto de 2026; horários completos não localizados",
+        "venue": "Parque de Exposições do Rotary Club",
+        "street_address": "Número e logradouro do acesso ao parque não confirmados nas fontes consultadas",
+        "full_address": "Parque de Exposições do Rotary Club, Iguatu - CE; endereço viário detalhado não confirmado",
+        "status_basis": "Cobertura pós-evento confirma a realização no Parque do Rotary Club e a arrecadação de alimentos após o período de 30 de julho a 2 de agosto.",
+        "status_checked_at": "2026-08-22T23:35:00-04:00",
+        "organizer": "Coletivo Iguatu Moto Fest; Vinicius Mendonça, presidente da edição de 2026; parceria com o Rotary Club e apoio municipal",
+        "contact": "iguatumotofest@gmail.com; (88) 8131-3738, conforme perfil institucional consultado",
+        "source_checked_at": "2026-08-22T23:35:00-04:00",
+        "admission_status": "Entrada gratuita e solidária mediante 1 kg de alimento não perecível, conforme a reportagem de lançamento",
+        "parking": "Não informado nas fontes consultadas",
+        "attractions": [
+          "Shamangra, em 1º de agosto",
+          "Pholhas",
+          "Onze atrações anunciadas no lançamento; grade completa não recomposta sem fonte específica"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://mapacultural.pacajus.ce.gov.br/agente/165376/",
+          "label": "Mapa Cultural do Ceará — Coletivo Iguatu Moto Fest",
+          "type": "perfil_institucional_do_organizador",
+          "supports": "Confirma o coletivo, a 12ª edição em 2026 e os canais públicos de contato; o endereço cadastral não foi usado como local do evento."
+        },
+        {
+          "url": "https://www.jornalapraca.com.br/iguatu-motofest-2026-e-lancado-em-evento-no-rotary/",
+          "label": "Jornal A Praça — lançamento do Iguatu Moto Fest 2026",
+          "type": "imprensa_local_especifica_pre_evento",
+          "supports": "Confirma 12ª edição, datas, Parque de Exposições do Rotary Club, 11 atrações, acesso gratuito mediante 1 kg de alimento e apoio municipal."
+        },
+        {
+          "url": "https://www.jornalapraca.com.br/iguatu-motofest-arrecada-5-toneladas-de-alimentos/",
+          "label": "Jornal A Praça — arrecadação após o Iguatu Moto Fest",
+          "type": "imprensa_local_pos_evento",
+          "supports": "Confirma a realização no Parque do Rotary Club, a arrecadação de cinco toneladas de alimentos e a presidência de Vinicius Mendonça em 2026."
+        },
+        {
+          "url": "https://www.mariuttiteam.com/shamangra",
+          "label": "Mariutti Team — agenda da Shamangra",
+          "type": "agenda_oficial_de_artista",
+          "supports": "Confirma apresentação da Shamangra no Iguatu Moto Fest em 1º de agosto de 2026."
+        },
+        {
+          "url": "https://tocaonde.com.br/events/16936-iguatu-moto-fest-iguatu",
+          "label": "Toca Onde — Pholhas no Iguatu Moto Fest",
+          "type": "agenda_de_show_especifica",
+          "supports": "Corrobora período, Parque de Exposições Rotary e apresentação da banda Pholhas."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Iguatu Moto Fest 2026\"",
+          "\"12º Iguatu Moto Fest\" Rotary",
+          "\"Iguatu Motofest\" julho agosto 2026",
+          "\"Iguatu Moto Fest\" alimentos 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "mapacultural.pacajus.ce.gov.br",
+          "jornalapraca.com.br",
+          "mariuttiteam.com",
+          "tocaonde.com.br",
+          "biblioteca.mpf.mp.br"
+        ],
+        "result": "edicao_2026_confirmada_antes_e_depois_do_evento; organizacao_local_atracoes_e_resultado_social_documentados",
+        "excluded_sources": [
+          "O endereço da Praça dos Motociclistas é cadastro institucional do coletivo e não foi transferido como local do evento.",
+          "Documentos de incentivo cultural foram usados apenas como contexto institucional, não como prova de programação ou repasse."
+        ],
+        "uncertainties": [
+          "Horários completos, estacionamento, regras operacionais e endereço viário do parque não foram localizados."
+        ]
+      }
+    },
+    {
+      "slug": "ilha-mc-ilha-do-governador-rj-2026-07-28",
+      "updates": {
+        "status": "concluida",
+        "summary": "A página preserva um flyer do Ilha MC para 28 de julho de 2026 na Ilha do Governador, mas a agenda corrente passou a exibir uma atividade do mesmo clube em 15 de agosto. Sem fonte independente que explique a mudança, a data de 28 de julho não deve ser apresentada como realização confirmada.",
+        "body": "## Flyer desta URL\n\nO material específico vinculado à página identifica Ilha MC, Ilha do Governador/RJ e 28 de julho de 2026, sem serviço operacional legível. O período já terminou, mas não foi encontrada cobertura posterior que confirme a realização.\n\n## Segunda data na mesma fonte\n\nA agenda corrente e uma página específica da JB-RIDER exibem Ilha MC na Ilha do Governador em 15 de agosto de 2026. Não há aviso de adiamento, cancelamento ou explicação que permita substituir automaticamente a data do slug. Os dois registros foram mantidos separados.\n\n## Lacunas\n\nHorário, local, endereço, contato, entrada, estacionamento e programação de 28 de julho continuam sem confirmação. Informações de encontros antigos do clube não foram reaproveitadas como serviço de 2026.",
+        "official_url": "https://jb-rider.com.br/evento/20260728-ilha-mc-ilha-do-governador-rj",
+        "verification_status": "flyer_de_28_julho_preservado_com_data_alternativa_na_mesma_fonte_e_sem_confirmacao_independente",
+        "last_updated": "2026-08-22T23:35:00-04:00",
+        "time_label": "28 de julho de 2026 no flyer desta página; a mesma agenda também lista 15 de agosto; horários não confirmados",
+        "venue": "Local da atividade de 28 de julho não confirmado",
+        "street_address": "Endereço não confirmado",
+        "full_address": "Ilha do Governador, Rio de Janeiro - RJ; endereço detalhado não confirmado",
+        "status_basis": "A data de 28 de julho já terminou, mas não foi corroborada; a mesma fonte registra o clube em 15 de agosto sem explicar a relação.",
+        "status_checked_at": "2026-08-22T23:35:00-04:00",
+        "organizer": "Ilha MC, conforme identificação do flyer",
+        "contact": "Contato específico da atividade não localizado",
+        "source_checked_at": "2026-08-22T23:35:00-04:00",
+        "admission_status": "Não informado na divulgação localizada",
+        "parking": "Não informado na divulgação localizada",
+        "attractions": [
+          "Programação não confirmada"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://jb-rider.com.br/evento/20260815-ilha-mc-ilha-do-governador-rio-de-janeiro-rj",
+          "label": "JB-RIDER — Ilha MC em 15 de agosto de 2026",
+          "type": "registro_mesmo_dominio_com_data_alternativa",
+          "supports": "Documenta uma segunda data para o mesmo clube e localidade, sem esclarecer se houve mudança; não confirma 28 de julho."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Ilha MC\" \"28 de julho\" 2026",
+          "\"Ilha MC\" \"15 de agosto\" 2026",
+          "\"Ilha Moto Clube\" Ilha do Governador 2026",
+          "motociclistas Ilha do Governador julho 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "motonline.com.br",
+          "facebook.com",
+          "instagram.com"
+        ],
+        "result": "registro_de_28_julho_nao_corrobora; segunda_data_de_15_agosto_localizada_no_mesmo_dominio",
+        "excluded_sources": [
+          "Registros antigos do Ilha MC foram excluídos do serviço porque não tratam da atividade de 2026."
+        ],
+        "uncertainties": [
+          "Não foi encontrado comunicado que explique se 15 de agosto substituiu 28 de julho.",
+          "A realização em 28 de julho não foi confirmada."
+        ]
+      }
+    },
+    {
+      "slug": "imperador-do-asfalto-mc-porto-real-rj-2026-07-26",
+      "updates": {
+        "status": "concluida",
+        "summary": "Um flyer específico divulgou atividade do Imperador do Asfalto MC em Porto Real/RJ para 26 de julho de 2026, com rock. A data já passou, mas nenhuma fonte independente confirmou a realização, o local, os horários ou as condições de acesso.",
+        "body": "## Registro da divulgação\n\nA página e o flyer da JB-RIDER identificam o Imperador do Asfalto MC em Porto Real/RJ no dia 26 de julho de 2026 e mencionam rock. O registro permanece público como histórico do que foi anunciado.\n\n## Situação editorial\n\nA janela divulgada terminou. Isso permite retirar o caráter de serviço futuro, mas não prova que a atividade ocorreu: as buscas não localizaram publicação do organizador, da Prefeitura ou de imprensa local específica para a data.\n\n## Informações ausentes\n\nNome do evento, local, endereço, horário, contato, entrada, estacionamento e nomes de bandas não foram confirmados. Nenhum dado de outra edição foi usado para preencher essas lacunas.",
+        "official_url": "https://jb-rider.com.br/evento/20260726-imperador-do-asfalto-mc-porto-real-rj",
+        "verification_status": "flyer_especifico_com_data_encerrada_sem_confirmacao_independente_da_realizacao",
+        "last_updated": "2026-08-22T23:35:00-04:00",
+        "time_label": "26 de julho de 2026; horário não confirmado",
+        "venue": "Local da atividade de 2026 não confirmado",
+        "street_address": "Endereço não confirmado",
+        "full_address": "Porto Real - RJ; endereço detalhado não confirmado",
+        "status_basis": "A data anunciada já terminou; não foi localizada confirmação independente de realização ou cancelamento.",
+        "status_checked_at": "2026-08-22T23:35:00-04:00",
+        "organizer": "Imperador do Asfalto MC, conforme o flyer",
+        "contact": "Contato específico da atividade de 2026 não localizado",
+        "source_checked_at": "2026-08-22T23:35:00-04:00",
+        "admission_status": "Não informado na divulgação localizada",
+        "parking": "Não informado na divulgação localizada",
+        "attractions": [
+          "Rock; bandas e horários não confirmados"
+        ]
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"Imperador do Asfalto MC\" Porto Real 2026",
+          "\"Imperador do Asfalto\" \"26 de julho\"",
+          "motociclistas Porto Real 26 julho 2026",
+          "site:portoreal.rj.gov.br motociclistas 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "portoreal.rj.gov.br",
+          "facebook.com",
+          "instagram.com"
+        ],
+        "result": "fonte_especifica_unica; data_encerrada; realizacao_e_servico_nao_corroborados",
+        "uncertainties": [
+          "Não foi localizada segunda fonte específica da atividade.",
+          "Todo o serviço além de data, cidade, grupo e referência genérica a rock permanece desconhecido."
+        ]
+      }
+    },
+    {
+      "slug": "indian-soul-mc-franca-sp-2026-09-26",
+      "updates": {
+        "status": "agendada",
+        "summary": "A página anuncia atividade do Indian Soul MC em Franca/SP para 26 de setembro de 2026, com área de camping. A agenda corrente também exibe 25 e 26 de setembro; a identidade do clube e contatos públicos são corroborados, mas período definitivo, local, horários e condições de acesso ainda precisam de confirmação.",
+        "body": "## Data da página e divergência\n\nO flyer específico desta URL informa 26 de setembro de 2026 e área de camping. Na checagem atual, a listagem geral da mesma agenda também apresenta Indian Soul MC em Franca nos dias 25 e 26. Sem comunicado do clube explicando a diferença, a URL de 26 de setembro foi preservada e o período de dois dias aparece apenas como informação a confirmar.\n\n## Identidade do motoclube\n\nPerfil público do Indian Soul Brazil informa sede em Franca, presidência de Rogelio e fundação em 25 de setembro de 2016, com telefone e e-mail. Documento oficial da Câmara Municipal corrobora a existência e os objetivos associativos do grupo. A proximidade com a data de fundação não autoriza chamar o evento de aniversário sem texto específico.\n\n## Serviço pendente\n\nLocal, endereço, horários, programação, entrada, estacionamento e estrutura do camping não foram publicados em fonte atual localizada. Os contatos do perfil podem ajudar na confirmação, mas sua vigência deve ser verificada antes do uso.",
+        "official_url": "https://jb-rider.com.br/evento/20260926-indian-soul-mc-franca-sp",
+        "verification_status": "identidade_do_clube_corrobora_com_conflito_de_um_ou_dois_dias_e_servico_pendente",
+        "last_updated": "2026-08-22T23:35:00-04:00",
+        "time_label": "26 de setembro de 2026 no flyer desta página; a agenda também exibe 25 e 26 de setembro; horários não confirmados",
+        "venue": "Local da atividade de 2026 ainda não confirmado",
+        "street_address": "Endereço não confirmado",
+        "full_address": "Franca - SP; endereço detalhado pendente",
+        "status_basis": "A data permanece futura e não foi localizado aviso de cancelamento; existe divergência entre 26 de setembro e 25–26 de setembro na mesma agenda.",
+        "status_checked_at": "2026-08-22T23:35:00-04:00",
+        "organizer": "Indian Soul Brazil / Indian Soul MC, conforme flyer e perfil público do clube",
+        "contact": "(16) 99125-2444; rogeliomkt@hotmail.com, conforme perfil público consultado; confirmar vigência",
+        "source_checked_at": "2026-08-22T23:35:00-04:00",
+        "admission_status": "Não informado para a atividade de 2026",
+        "parking": "Não informado para a atividade de 2026",
+        "attractions": [
+          "Área de camping; estrutura e regras ainda não confirmadas",
+          "Programação não confirmada"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://mototour.com.br/motoclubes/indian-soul-brazil",
+          "label": "MotoTour — perfil Indian Soul Brazil",
+          "type": "perfil_publico_do_motoclube",
+          "supports": "Corrobora identidade em Franca, presidente, data de fundação e canais públicos; não confirma o serviço do encontro de 2026."
+        },
+        {
+          "url": "https://sapl.franca.sp.leg.br/media/sapl/public/materialegislativa/2021/2031/pl_indian_soul_brazil_-_utilidade_publica.pdf",
+          "label": "Câmara Municipal de Franca — documento sobre Indian Soul Brazil",
+          "type": "documento_institucional_oficial",
+          "supports": "Comprova a existência e os objetivos da associação; não confirma data, local ou programação de 2026."
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos.php",
+          "label": "JB-RIDER — agenda corrente do Indian Soul MC",
+          "type": "agenda_mesmo_dominio_com_conflito",
+          "supports": "Mostra também 25 e 26 de setembro, documentando a divergência com o flyer de um dia; não é fonte independente."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Indian Soul MC\" Franca setembro 2026",
+          "\"Indian Soul Brazil\" Franca 2026",
+          "\"Indian Soul MC\" \"26 de setembro\"",
+          "site:franca.sp.leg.br \"Indian Soul Brazil\""
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "mototour.com.br",
+          "sapl.franca.sp.leg.br",
+          "facebook.com",
+          "instagram.com"
+        ],
+        "result": "identidade_institucional_corrobora; data_de_26_setembro_tem_conflito_com_25_26_no_mesmo_dominio; servico_nao_confirmado",
+        "excluded_sources": [
+          "A data de fundação do clube não foi usada para rotular a atividade como aniversário."
+        ],
+        "uncertainties": [
+          "Não foi localizada publicação própria atual que resolva o período.",
+          "A vigência dos contatos públicos precisa ser confirmada."
+        ]
+      }
+    },
+    {
+      "slug": "motofest-inhapi-al-2026-11-13",
+      "updates": {
+        "status": "agendada",
+        "summary": "O Inhapi Moto Fest aparece em flyer específico para 13 a 15 de novembro de 2026. A listagem corrente também traz uma versão de 13 a 14, e as fontes municipais encontradas tratam apenas da edição de 2025; por isso, período definitivo, organização e serviço de 2026 permanecem pendentes.",
+        "body": "## Divulgação de 2026\n\nO flyer vinculado à página anuncia Inhapi Moto Fest de 13 a 15 de novembro de 2026. A agenda geral, porém, também exibe um recorte de 13 a 14 de novembro. Como não foi encontrado comunicado atual do organizador ou da Prefeitura, a página mantém o período do seu flyer e informa a divergência.\n\n## Histórico oficial sem transferência de serviço\n\nDocumentos municipais de 2025 registram o projeto III Inhapi Moto Fest e o proponente José Roberto Garcia, enquanto a transparência municipal menciona atração contratada para a edição daquele ano. Esses registros comprovam continuidade histórica, não responsáveis, local ou programação de 2026; nenhum desses dados antigos foi copiado para o serviço atual.\n\n## Informações que faltam\n\nEndereço, horários, organizador de 2026, contato, entrada, estacionamento, camping e atrações continuam sem confirmação. Como a data é futura e não há aviso de cancelamento, o evento permanece agendado com recomendação de confirmação prévia.",
+        "official_url": "https://jb-rider.com.br/evento/20261113-3-motofest-inhapi-al",
+        "verification_status": "flyer_especifico_de_2026_com_conflito_de_duracao_e_apenas_historico_municipal",
+        "last_updated": "2026-08-22T23:35:00-04:00",
+        "time_label": "13 a 15 de novembro de 2026 no flyer desta página; a agenda também mostra 13 e 14; horários não confirmados",
+        "venue": "Local da edição de 2026 ainda não confirmado",
+        "street_address": "Endereço não confirmado",
+        "full_address": "Inhapi - AL; endereço detalhado pendente",
+        "status_basis": "O flyer específico indica 13 a 15 de novembro, período futuro na checagem; não foi localizado comunicado de cancelamento, mas a duração diverge na agenda.",
+        "status_checked_at": "2026-08-22T23:35:00-04:00",
+        "organizer": "Organização da edição de 2026 não confirmada",
+        "contact": "Contato da edição de 2026 não localizado",
+        "source_checked_at": "2026-08-22T23:35:00-04:00",
+        "admission_status": "Não informado para a edição de 2026",
+        "parking": "Não informado para a edição de 2026",
+        "attractions": [
+          "Programação da edição de 2026 ainda não confirmada"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://inhapi.al.gov.br/wp-content/uploads/2025/05/PORTARIA-N%C2%B0-119-2025-Resultado-Final-Analise-de-Merito-Abertura-da-habilitacao.pdf",
+          "label": "Prefeitura de Inhapi — resultado de mérito cultural de 2025",
+          "type": "documento_municipal_historico",
+          "supports": "Registra o projeto III Inhapi Moto Fest e seu proponente em 2025; não confirma organização ou serviço de 2026."
+        },
+        {
+          "url": "https://inhapi.al.gov.br/wp-content/uploads/2025/06/PORTARIA-N%C2%B0-124-2025-Resultado-Final-Habilitacao-Convocacao-TEC.pdf",
+          "label": "Prefeitura de Inhapi — habilitação cultural de 2025",
+          "type": "documento_municipal_historico",
+          "supports": "Corrobora o projeto de 2025 e a continuidade do nome; não prova os dados operacionais da edição de 2026."
+        },
+        {
+          "url": "https://portaldatransparencia.inf.br/inhapi/transparencia/index.php?link=134",
+          "label": "Transparência de Inhapi — contratação para o Motofest de 2025",
+          "type": "transparencia_municipal_historica",
+          "supports": "Documenta a realização municipal e uma atração somente em 2025; essas informações não foram transferidas para 2026."
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos.php",
+          "label": "JB-RIDER — agenda corrente de Inhapi",
+          "type": "agenda_mesmo_dominio_com_conflito",
+          "supports": "Documenta a divergência entre 13–15 e 13–14 de novembro; não é fonte independente."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Inhapi Moto Fest\" 2026",
+          "\"Motofest Inhapi\" novembro 2026",
+          "site:inhapi.al.gov.br Motofest 2026",
+          "site:inhapi.al.gov.br \"Inhapi Moto Fest\""
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "inhapi.al.gov.br",
+          "portaldatransparencia.inf.br",
+          "facebook.com",
+          "instagram.com"
+        ],
+        "result": "flyer_especifico_para_2026; duracao_divergente_na_agenda; fontes_municipais_localizadas_sao_somente_de_2025",
+        "excluded_sources": [
+          "Proponente, local e atração de 2025 não foram tratados como vigentes em 2026."
+        ],
+        "uncertainties": [
+          "Não foi localizado canal próprio atual do organizador.",
+          "A duração correta e todo o serviço operacional precisam de confirmação."
+        ]
+      }
+    },
+    {
+      "slug": "irmaos-das-sombras-mc-rio-de-janerio-rj-2026-08-01",
+      "updates": {
+        "title": "Irmãos das Sombras MC — Rio de Janeiro",
+        "short_name": "Irmãos das Sombras MC",
+        "city": "Rio de Janeiro",
+        "status": "concluida",
+        "summary": "Esta URL preserva um cadastro duplicado da atividade dos Irmãos das Sombras MC em 1º de agosto de 2026. “Rio de Janerio” é erro de grafia no slug e na fonte; a versão geograficamente mais precisa aponta Senador Vasconcelos, no Rio de Janeiro, sem confirmar endereço, horário ou realização.",
+        "body": "## Duplicata preservada\n\nAs duas páginas da agenda usam o mesmo flyer, a mesma data e a mesma fonte. Esta versão conserva a URL com a grafia “Rio de Janerio”, mas aponta como referência canônica a página de Senador Vasconcelos, sem remover ou desindexar o registro.\n\n## O que o material informa\n\nO flyer associa Irmãos das Sombras MC a 1º de agosto de 2026 e menciona sorteios. A data já terminou, mas não foi encontrada publicação independente que confirme a realização ou detalhe a atividade.\n\n## Contexto separado do serviço\n\nUma divulgação de aniversário em 2024 situa o motoclube em Senador Vasconcelos. Outra página registra sede aberta do grupo em Campo Grande em abril de 2026, com endereço próprio daquele encontro. Esses locais históricos e distintos não foram copiados como endereço da atividade de 1º de agosto.",
+        "official_url": "https://jb-rider.com.br/evento/20260801-irmaos-das-sombras-mc-rio-de-janerio-rj",
+        "verification_status": "duplicata_preservada_com_correcao_geografica_e_sem_confirmacao_independente_da_realizacao",
+        "last_updated": "2026-08-22T23:35:00-04:00",
+        "time_label": "1º de agosto de 2026; horário não confirmado",
+        "venue": "Local da atividade de 2026 não confirmado",
+        "street_address": "Endereço não confirmado",
+        "full_address": "Senador Vasconcelos, Rio de Janeiro - RJ; endereço detalhado não confirmado",
+        "status_basis": "A data anunciada já terminou; o mesmo flyer aparece em duas URLs e não houve confirmação independente de realização.",
+        "status_checked_at": "2026-08-22T23:35:00-04:00",
+        "organizer": "Irmãos das Sombras MC, conforme o flyer",
+        "contact": "Contato específico da atividade de 1º de agosto não localizado",
+        "source_checked_at": "2026-08-22T23:35:00-04:00",
+        "admission_status": "Não informado na divulgação localizada",
+        "parking": "Não informado na divulgação localizada",
+        "attractions": [
+          "Sorteios; condições não confirmadas"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://firesoulswebradio.com/evento/312468/5-aniversario-do-mc-irmaos-das-sombras-rio-de-janeiro-rj",
+          "label": "Fire Souls Web Radio — aniversário dos Irmãos das Sombras em 2024",
+          "type": "agenda_historica_do_motoclube",
+          "supports": "Corrobora a associação histórica do grupo a Senador Vasconcelos; endereço e serviço de 2024 não foram transferidos para 2026."
+        },
+        {
+          "url": "https://motofestbrasil.com.br/motofest/sede-aberta-irmaos-das-sombras-mc-campo-grande-rj",
+          "label": "MotoFest Brasil — sede aberta dos Irmãos das Sombras em abril de 2026",
+          "type": "outro_evento_do_mesmo_grupo",
+          "supports": "Corrobora a atividade do motoclube em 2026, mas descreve outro encontro, em Campo Grande e em abril; seus dados não valem para 1º de agosto."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Irmãos das Sombras MC\" \"1 de agosto\" 2026",
+          "\"Irmaos das Sombras\" Senador Vasconcelos 2026",
+          "\"Irmãos das Sombras MC\" Rio de Janeiro",
+          "\"Irmãos das Sombras\" Campo Grande 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "firesoulswebradio.com",
+          "motofestbrasil.com.br",
+          "facebook.com",
+          "instagram.com"
+        ],
+        "result": "duplicata_exata_identificada; grafia_e_localidade_corrigidas; nenhuma_segunda_fonte_da_atividade_de_1_agosto",
+        "excluded_sources": [
+          "Endereços dos eventos de 2024 e abril de 2026 foram excluídos do serviço de 1º de agosto."
+        ],
+        "uncertainties": [
+          "A realização e o endereço da atividade de 1º de agosto não foram confirmados."
+        ]
+      }
+    },
+    {
+      "slug": "irmaos-das-sombras-mc-senador-vasconcelos-rio-de-janeiro-rj-2026-08-01",
+      "updates": {
+        "title": "Irmãos das Sombras MC — Senador Vasconcelos",
+        "short_name": "Irmãos das Sombras MC",
+        "city": "Rio de Janeiro",
+        "status": "concluida",
+        "summary": "A página canônica preserva a divulgação dos Irmãos das Sombras MC em Senador Vasconcelos, Rio de Janeiro, para 1º de agosto de 2026, com sorteios. A data já passou, mas não foi localizada confirmação independente da realização nem endereço, horário ou condições de acesso.",
+        "body": "## Identificação normalizada\n\nO mesmo flyer foi cadastrado em duas URLs. Esta versão mantém a referência geográfica mais completa — Senador Vasconcelos, no município do Rio de Janeiro — e serve como página canônica, enquanto a URL com “Rio de Janerio” permanece preservada como duplicata.\n\n## O que foi divulgado\n\nA fonte específica informa 1º de agosto de 2026 e menciona sorteios. O período terminou, mas isso não comprova a ocorrência; nenhuma publicação atual do grupo ou cobertura local foi localizada para essa data.\n\n## Dados históricos não transferidos\n\nUma agenda de 2024 confirma a presença histórica do motoclube em Senador Vasconcelos. Já uma sede aberta em abril de 2026 ocorreu em Campo Grande, com outro endereço e outro programa. Nenhum desses serviços foi usado para preencher a atividade de agosto.",
+        "official_url": "https://jb-rider.com.br/evento/20260801-irmaos-das-sombras-mc-rio-de-janerio-rj",
+        "verification_status": "pagina_canonica_com_localidade_normalizada_e_sem_confirmacao_independente_da_realizacao",
+        "last_updated": "2026-08-22T23:35:00-04:00",
+        "time_label": "1º de agosto de 2026; horário não confirmado",
+        "venue": "Local da atividade de 2026 não confirmado",
+        "street_address": "Endereço não confirmado",
+        "full_address": "Senador Vasconcelos, Rio de Janeiro - RJ; endereço detalhado não confirmado",
+        "status_basis": "A data anunciada já terminou; não foi localizada confirmação independente de realização ou cancelamento.",
+        "status_checked_at": "2026-08-22T23:35:00-04:00",
+        "organizer": "Irmãos das Sombras MC, conforme o flyer",
+        "contact": "Contato específico da atividade de 1º de agosto não localizado",
+        "source_checked_at": "2026-08-22T23:35:00-04:00",
+        "admission_status": "Não informado na divulgação localizada",
+        "parking": "Não informado na divulgação localizada",
+        "attractions": [
+          "Sorteios; condições não confirmadas"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://firesoulswebradio.com/evento/312468/5-aniversario-do-mc-irmaos-das-sombras-rio-de-janeiro-rj",
+          "label": "Fire Souls Web Radio — aniversário dos Irmãos das Sombras em 2024",
+          "type": "agenda_historica_do_motoclube",
+          "supports": "Corrobora a associação histórica do grupo a Senador Vasconcelos; endereço e serviço de 2024 não foram transferidos para 2026."
+        },
+        {
+          "url": "https://motofestbrasil.com.br/motofest/sede-aberta-irmaos-das-sombras-mc-campo-grande-rj",
+          "label": "MotoFest Brasil — sede aberta dos Irmãos das Sombras em abril de 2026",
+          "type": "outro_evento_do_mesmo_grupo",
+          "supports": "Demonstra atividade do motoclube em 2026, mas trata de evento diferente em Campo Grande; endereço e programação não foram transferidos."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Irmãos das Sombras MC\" \"1 de agosto\" 2026",
+          "\"Irmaos das Sombras\" Senador Vasconcelos 2026",
+          "\"Irmãos das Sombras MC\" Rio de Janeiro",
+          "\"Irmãos das Sombras\" Campo Grande 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "firesoulswebradio.com",
+          "motofestbrasil.com.br",
+          "facebook.com",
+          "instagram.com"
+        ],
+        "result": "pagina_canonica_definida_por_localidade; identidade_historica_corrobora; atividade_de_1_agosto_sem_segunda_fonte",
+        "excluded_sources": [
+          "Endereços de 2024 e de outro evento em abril de 2026 não foram usados como local desta atividade."
+        ],
+        "uncertainties": [
+          "Local exato, horários, acesso e realização em 1º de agosto não foram confirmados."
+        ]
+      }
+    },
+    {
+      "slug": "jaguar-negro-mc-e-the-steel-skulls-mc-belo-horizonte-mg-2026-08-08",
+      "updates": {
+        "title": "Jaguar Negro MC e The Steel Skulls MC",
+        "short_name": "Jaguar Negro MC e The Steel Skulls MC",
+        "status": "concluida",
+        "summary": "Flyer e vídeo específicos associam Jaguar Negro MC e The Steel Skulls MC a uma atividade em Belo Horizonte/MG em 8 de agosto de 2026. A data já passou, mas nenhuma fonte independente confirmou a realização ou forneceu local, horário, contato, entrada e programação.",
+        "body": "## Material específico\n\nA agenda JB-RIDER mantém página, flyer e vídeo para Jaguar Negro MC e The Steel Skulls MC em Belo Horizonte no dia 8 de agosto de 2026. As mídias confirmam a identificação e a data do anúncio, mas pertencem ao mesmo domínio.\n\n## Situação do registro\n\nComo a data terminou, a página deve ser tratada como histórico da divulgação. Não foi localizada publicação dos grupos, da Prefeitura ou de imprensa local que confirme a realização, e o encerramento do calendário não é prova de que a atividade ocorreu.\n\n## Lacunas\n\nNome formal do encontro, local, endereço, horário, contato, entrada, estacionamento e atrações não puderam ser confirmados. Não foram reaproveitadas informações de eventos com nomes semelhantes.",
+        "official_url": "https://jb-rider.com.br/evento/20260808-jaguar-negro-mc-e-the-steel-skulls-mc-belo-horizonte-mg",
+        "verification_status": "midias_especificas_do_mesmo_dominio_com_data_encerrada_e_sem_confirmacao_independente",
+        "last_updated": "2026-08-22T23:35:00-04:00",
+        "time_label": "8 de agosto de 2026; horário não confirmado",
+        "venue": "Local da atividade de 2026 não confirmado",
+        "street_address": "Endereço não confirmado",
+        "full_address": "Belo Horizonte - MG; endereço detalhado não confirmado",
+        "status_basis": "A data divulgada já terminou; não foi localizada confirmação independente de realização ou cancelamento.",
+        "status_checked_at": "2026-08-22T23:35:00-04:00",
+        "organizer": "Jaguar Negro MC e The Steel Skulls MC, conforme identificação das mídias",
+        "contact": "Contato específico da atividade não localizado",
+        "source_checked_at": "2026-08-22T23:35:00-04:00",
+        "admission_status": "Não informado nas mídias consultadas",
+        "parking": "Não informado nas mídias consultadas",
+        "attractions": [
+          "Programação não confirmada"
+        ]
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"Jaguar Negro MC\" \"Steel Skulls\" 2026",
+          "\"The Steel Skulls MC\" Belo Horizonte",
+          "\"Jaguar Negro Moto Clube\" Belo Horizonte",
+          "motociclistas Belo Horizonte 8 agosto 2026 Jaguar"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "belohorizonte.mg.gov.br",
+          "facebook.com",
+          "instagram.com",
+          "youtube.com"
+        ],
+        "result": "pagina_flyer_e_video_no_mesmo_dominio; nenhuma_fonte_independente_da_atividade",
+        "uncertainties": [
+          "A realização e todo o serviço operacional permanecem sem confirmação independente."
+        ]
+      }
+    },
+    {
+      "slug": "motofest-juazeiro-do-norte-ce-2026-08-28",
+      "updates": {
+        "title": "7º Motofest Amigos Kariri",
+        "short_name": "Motofest Amigos Kariri",
+        "status": "agendada",
+        "summary": "O 7º Motofest Amigos Kariri está divulgado para 28 a 30 de agosto de 2026 em Juazeiro do Norte/CE. Documentos estaduais atuais confirmam a edição e a Associação Amigos Kariri Motoclube como proponente; o flyer anuncia camping, café da manhã, rock, bandas, troféus e ação com alimento, mas ainda não informa local ou horários.",
+        "body": "## Identidade e edição de 2026\n\nO flyer específico informa 28 a 30 de agosto em Juazeiro do Norte. Documentos do Mapa Cultural do Ceará registram a proposta “Motofest Amigos Kariri – 7ª Edição”, apresentada pela Associação Amigos Kariri Motoclube — AKMC, o que confirma nome, edição, município e identidade do responsável.\n\n## Estrutura anunciada\n\nA divulgação menciona área de camping, café da manhã, rock, bandas, troféus e ação ou ingresso solidário com alimento. A quantidade exigida e se a doação funciona como condição geral de entrada não estão legíveis; por isso, a página deve manter linguagem cautelosa.\n\n## Limites das fontes\n\nO resultado do edital cultural mostra a proposta como desclassificada naquele processo, portanto não serve para afirmar financiamento público nem cancelamento do evento. O estatuto municipal confirma a sede da associação, mas esse endereço não foi tratado como local do Motofest. Endereço do encontro, horários, contato, estacionamento e grade nominal ainda precisam ser publicados.",
+        "official_url": "https://jb-rider.com.br/evento/20260828-3-motofest-juazeiro-do-norte-ce",
+        "verification_status": "edicao_e_organizador_confirmados_em_documentos_atuais_com_servico_parcial_no_flyer",
+        "last_updated": "2026-08-22T23:35:00-04:00",
+        "time_label": "28 a 30 de agosto de 2026; horários não confirmados",
+        "venue": "Local da edição de 2026 ainda não confirmado",
+        "street_address": "Endereço do evento não confirmado",
+        "full_address": "Juazeiro do Norte - CE; endereço detalhado do evento pendente",
+        "status_basis": "Flyer e documentação estadual atual coincidem na edição em Juazeiro do Norte; o período é futuro e não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-22T23:35:00-04:00",
+        "organizer": "Associação Amigos Kariri Motoclube — AKMC",
+        "contact": "Contato específico da edição de 2026 não localizado",
+        "source_checked_at": "2026-08-22T23:35:00-04:00",
+        "admission_status": "O flyer menciona ação ou ingresso solidário com alimento, mas quantidade e obrigatoriedade não foram confirmadas",
+        "parking": "Não informado para a edição de 2026",
+        "attractions": [
+          "Rock e bandas; nomes e horários ainda não confirmados",
+          "Área de camping",
+          "Café da manhã",
+          "Troféus",
+          "Ação solidária com alimento; condições a confirmar"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://mapacultural.cedro.ce.gov.br/files/opportunity/7302/ranking-4-edital-de-apoio-a-festivais-culturais-do-ceara-inscritos-mapa-cultural.pdf",
+          "label": "Mapa Cultural do Ceará — inscritos no edital de festivais",
+          "type": "documento_estadual_atual",
+          "supports": "Confirma a Associação Amigos Kariri Motoclube como entidade inscrita no processo estadual de festivais de 2026."
+        },
+        {
+          "url": "https://mapacultural.pentecoste.ce.gov.br/files/opportunity/7302/resultado-preliminar-4-edital-de-apoio-a-festivais-culturais-do-ceara.pdf",
+          "label": "Mapa Cultural do Ceará — resultado de mérito do 4º edital",
+          "type": "documento_estadual_atual_da_proposta",
+          "supports": "Identifica “Motofest Amigos Kariri – 7ª Edição”, AKMC e Juazeiro do Norte; a desclassificação no edital impede afirmar financiamento, mas não equivale a cancelamento do evento."
+        },
+        {
+          "url": "https://camarajuazeiro.ce.gov.br/wp-content/uploads/2024/01/lei_n5490_de_19_de_junho_de_2023.pdf",
+          "label": "Câmara de Juazeiro do Norte — lei e estatuto da AKMC",
+          "type": "documento_institucional_oficial",
+          "supports": "Corrobora a identidade e os objetivos da Associação Amigos Kariri Motoclube; o endereço cadastral não foi usado como local do evento."
+        },
+        {
+          "url": "https://jb-rider.com.br/evento/20260828-3-amigos-kariri-mc-juazeiro-do-norte-ce",
+          "label": "JB-RIDER — cadastro alternativo Amigos Kariri MC",
+          "type": "registro_mesmo_dominio",
+          "supports": "Corrobora a associação do nome Amigos Kariri às datas de 28 a 30 de agosto, sem constituir domínio independente."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Motofest Amigos Kariri\" 2026",
+          "\"7ª Edição\" \"Amigos Kariri\"",
+          "\"Juazeiro do Norte Moto Fest\" 2026",
+          "site:mapacultural.ce.gov.br \"Amigos Kariri\""
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "mapacultural.cedro.ce.gov.br",
+          "mapacultural.pentecoste.ce.gov.br",
+          "camarajuazeiro.ce.gov.br"
+        ],
+        "result": "edicao_nome_municipio_e_entidade_corrobora_em_documentacao_estadual; servico_parcial_no_flyer",
+        "excluded_sources": [
+          "A sede estatutária da AKMC não foi usada como local do evento.",
+          "A participação no edital não foi descrita como patrocínio; o resultado não foi interpretado como cancelamento."
+        ],
+        "uncertainties": [
+          "Local, horários, contato, estacionamento e grade de bandas ainda não foram localizados.",
+          "As condições da doação de alimento precisam ser confirmadas."
+        ]
+      }
+    },
+    {
+      "slug": "km-125-mc-campos-dos-goytacazes-rj-2026-09-18",
+      "updates": {
+        "status": "agendada",
+        "summary": "O encontro do KM 125 MC está divulgado para 18 e 19 de setembro de 2026 na Rua Dr. Edgar Alvarenga, 200, em Campos dos Goytacazes/RJ. O flyer anuncia camping, chuveiros, café da manhã, rock, shows e bandas; registros municipais históricos ajudam a normalizar o bairro como Parque Tropical, mas não substituem o serviço atual.",
+        "body": "## Serviço do flyer de 2026\n\nA divulgação específica informa 18 e 19 de setembro e o endereço Rua Dr. Edgar Alvarenga, 200, em Campos dos Goytacazes. Ela anuncia área de camping, chuveiros, café da manhã e programação de rock com shows e bandas.\n\n## Endereço normalizado com fonte pública\n\nDocumento municipal atualiza a grafia da Rua Dr. Edgar Alvarenga e a situa no Parque Tropical. Um Diário Oficial de 2023 também registra aniversário do KM125 na mesma rua, reforçando a ligação histórica entre o grupo e a localidade. Esses documentos não foram usados para definir horários, atrações ou edição do encontro de 2026.\n\n## Informações ainda necessárias\n\nHorários, contato, regra de entrada, estacionamento, capacidade e funcionamento de camping e chuveiros, café da manhã e nomes das bandas continuam sem confirmação independente. A data é futura e não há aviso de cancelamento localizado.",
+        "official_url": "https://jb-rider.com.br/evento/20260918-2-km-125-mc-campos-dos-goytacazes-rj",
+        "verification_status": "flyer_especifico_com_endereco_e_estrutura_parcial; localidade_corrobora_por_registros_municipais",
+        "last_updated": "2026-08-22T23:35:00-04:00",
+        "time_label": "18 e 19 de setembro de 2026; horários não confirmados",
+        "venue": "Encontro do KM 125 MC",
+        "street_address": "Rua Dr. Edgar Alvarenga, 200, Parque Tropical",
+        "full_address": "Rua Dr. Edgar Alvarenga, 200, Parque Tropical, Campos dos Goytacazes - RJ",
+        "status_basis": "O flyer específico indica 18 e 19 de setembro, período futuro na checagem; não foi localizado comunicado de cancelamento.",
+        "status_checked_at": "2026-08-22T23:35:00-04:00",
+        "organizer": "KM 125 MC",
+        "contact": "Contato específico da edição de 2026 não localizado",
+        "source_checked_at": "2026-08-22T23:35:00-04:00",
+        "admission_status": "Não informado para a edição de 2026",
+        "parking": "Não informado para a edição de 2026",
+        "attractions": [
+          "Rock, shows e bandas; nomes e horários ainda não confirmados",
+          "Área de camping e chuveiros; condições a confirmar",
+          "Café da manhã; horário e condições a confirmar"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://campos.rj.gov.br/app/assets/diario-oficial/link/6002",
+          "label": "Diário Oficial de Campos — 19º aniversário do KM125 em 2023",
+          "type": "documento_municipal_historico",
+          "supports": "Corrobora a ligação histórica do KM125 com a Rua Edgar Alvarenga e o Parque Tropical; não confirma serviço da edição de 2026."
+        },
+        {
+          "url": "https://www.campos.rj.gov.br/app/assets/diario-oficial/link/6611",
+          "label": "Prefeitura de Campos — registro da Rua Dr. Edgar Alvarenga",
+          "type": "documento_municipal_geografico",
+          "supports": "Confirma que a Rua Dr. Edgar Alvarenga fica no Parque Tropical; o número 200 permanece apoiado pelo flyer atual."
+        },
+        {
+          "url": "https://motonline.com.br/noticia/caros-amigos-motociclistas-e-triciclistasii/",
+          "label": "Motonline — histórico do encontro do KM 125 MC",
+          "type": "imprensa_especializada_historica",
+          "supports": "Documenta a atuação histórica do KM 125 MC em encontro motociclístico; contatos e serviço antigos não foram transferidos para 2026."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"KM 125 MC\" Campos 2026",
+          "\"Rua Dr. Edgar Alvarenga, 200\"",
+          "\"KM125\" \"Edgar Alvarenga\"",
+          "site:campos.rj.gov.br \"KM125\""
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "campos.rj.gov.br",
+          "motonline.com.br",
+          "facebook.com",
+          "instagram.com"
+        ],
+        "result": "flyer_2026_confirma_data_endereco_e_estrutura; bairro_e_continuidade_corrobora_por_fontes_historicas_oficiais",
+        "excluded_sources": [
+          "Telefones, horários e programas de edições antigas não foram transferidos para 2026."
+        ],
+        "uncertainties": [
+          "Não foi localizada segunda publicação específica da edição de 2026.",
+          "Horários, entrada, estacionamento e operação da estrutura precisam de confirmação."
+        ]
+      }
+    }
+  ]
+}

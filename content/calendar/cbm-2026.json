@@ -2062,7 +2062,11 @@
     {
       "start_date": "2026-08-01",
       "end_date": "2026-08-02",
-      "title": "GP Goiás de Paraciclismo",
+      "title": "GP Goiás de Paraciclismo 2026",
+      "slug": "gp-goias-de-paraciclismo-2026-08-01",
+      "related_slugs": [
+        "gp-goias-de-paraciclismo-2026-2026-08-01"
+      ],
       "stage": "Evento oficial CBC",
       "city": "Bela Vista de Goiás",
       "state": "GO",
@@ -2071,7 +2075,7 @@
       "timezone": "America/Sao_Paulo",
       "local_start": "2026-08-01",
       "local_end": "2026-08-02",
-      "status_checked_at": "2026-08-03T08:15:00-04:00",
+      "status_checked_at": "2026-08-23T03:30:00-04:00",
       "official_url": "https://www.cbc.esp.br/modalidades/calendario/busca/paraciclismo",
       "sources": [
         {
@@ -2079,9 +2083,21 @@
           "label": "Canal oficial ou página indicada pela entidade",
           "type": "fonte primária ou canal oficial",
           "supports": "dados de agenda, identificação e situação do evento"
+        },
+        {
+          "url": "https://www.emxeventos.com.br/",
+          "label": "EMX Eventos — inscrição do GP Goiás de Paraciclismo",
+          "type": "plataforma_de_inscricao_especifica",
+          "supports": "Corrobora Bela Vista de Goiás e identifica as disputas de CRI e resistência."
+        },
+        {
+          "url": "https://stirunners.fotop.com/fotos/?lang=pt",
+          "label": "STI Runners/Fotop — arquivo do GP Goiás de Paraciclismo",
+          "type": "registro_fotografico_pos_evento",
+          "supports": "Registra o evento em 1º e 2 de agosto de 2026, em Bela Vista de Goiás; não fornece resultados oficiais."
         }
       ],
-      "source_checked_at": "2026-08-01T08:01:00-04:00",
+      "source_checked_at": "2026-08-23T03:30:00-04:00",
       "research_status": {
         "required_specific_independent_sources": 2,
         "specific_independent_domains_found": 0,
@@ -2094,22 +2110,50 @@
         "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
         "editorial_rule": "Página mantida ativa, sem inventar serviço; prioridade diária até surgir uma segunda fonte específica."
       },
-      "organizer": "Organizador local com homologação ou inclusão no calendário da Confederação Brasileira de Ciclismo",
-      "venue": "Bela Vista de Goiás · GO",
-      "full_address": "Bela Vista de Goiás · GO. Rua, número e ponto de referência ainda não foram publicados nas fontes consultadas.",
-      "time_label": "Horários de largada, abertura, credenciamento ou programação ainda não foram publicados nas fontes específicas consultadas.",
-      "admission_status": "Inscrição, ingresso ou acesso devem ser confirmados com o organizador; as fontes consultadas ainda não detalham essa condição.",
-      "parking": "Estacionamento e guarda de bicicletas/motos ainda não foram detalhados pelas fontes consultadas.",
-      "contact": "Use os links de fontes cruzadas abaixo; telefone ou e-mail específico não foi publicado nas páginas consultadas.",
+      "organizer": "Responsável local não recuperado; competição incluída no calendário oficial da CBC",
+      "venue": "Percursos em Bela Vista de Goiás; pontos de largada não recuperados",
+      "full_address": "Bela Vista de Goiás - GO; largadas e percursos não identificados",
+      "time_label": "1º e 2 de agosto de 2026; horários não recuperados",
+      "admission_status": "Inscrições e valores não recuperados; acesso de espectadores não informado",
+      "parking": "Não informado; pontos de prova não foram recuperados",
+      "contact": "Canais da CBC e da EMX Eventos; contato específico não recuperado",
       "visual_verification": {
         "type": "fontes_textuais_sem_flyer_publico",
         "source_url": "https://www.cbc.esp.br/modalidades/calendario/busca/paraciclismo",
         "checked_at": "2026-07-26T06:50:59.846775+00:00",
         "note": "Nenhum flyer público específico foi localizado nos resultados indexados; a ausência foi registrada, sem inventar serviço."
       },
-      "summary": "O GP Goiás de Paraciclismo está em andamento em Bela Vista de Goiás/GO, com datas oficiais de 1 a 2 de agosto de 2026 no calendário da CBC. O serviço detalhado ainda não foi publicado pela organização.",
-      "body": "## Situação\n\nO GP Goiás de Paraciclismo está em andamento em Bela Vista de Goiás/GO, com realização prevista para 1 e 2 de agosto de 2026. A modalidade indicada pela CBC é o paraciclismo.\n\n## Local e serviço\n\nA referência publicada é Bela Vista de Goiás/GO. Rua, número, horário, estacionamento e contato direto ainda não foram informados pela organização.\n\n## Inscrições e regulamento\n\nInscrições, categorias, percurso, premiação, retirada de kits e regras técnicas devem ser confirmados no canal oficial antes do deslocamento.",
-      "last_updated": "2026-08-01T08:01:00-04:00"
+      "summary": "O GP Goiás de Paraciclismo integrou o calendário oficial da CBC em 1º e 2 de agosto de 2026, em Bela Vista de Goiás/GO, na classe C4. A plataforma de inscrição identifica provas de contrarrelógio individual e resistência, e um arquivo fotográfico posterior registra o evento na mesma data e cidade.",
+      "body": "## Confirmação federativa\n\nO calendário oficial da Confederação Brasileira de Ciclismo registra o GP Goiás de Paraciclismo em 1º e 2 de agosto de 2026, em Bela Vista de Goiás, como competição oficial da classe C4.\n\n## Formato recuperado\n\nA EMX Eventos publicou a inscrição com a descrição \"CRI e Resistência\", confirmando prova de contrarrelógio individual e prova de resistência. Um arquivo fotográfico datado de 1º e 2 de agosto, na mesma cidade, constitui rastro posterior do evento, mas não fornece resultados oficiais, percurso ou classificação.\n\n## Limites\n\nNão foram recuperados regulamento particular, endereço de largada, horários, categorias, valor de inscrição, acesso de espectadores ou estacionamento. O estado concluído combina o encerramento da data com o registro posterior, sem inventar resultados esportivos.",
+      "last_updated": "2026-08-23T03:30:00-04:00",
+      "short_name": "GP Goiás de Paraciclismo",
+      "verification_status": "evento_classe_e_cidade_confirmados_pela_cbc; modalidades_confirmadas_na_inscricao; rastro_fotografico_posterior_localizado; resultados_nao_recuperados",
+      "street_address": "Não informado nas fontes públicas consultadas",
+      "status_basis": "A data oficial terminou e há registro fotográfico posterior associado ao evento na mesma cidade e período.",
+      "attractions": [
+        "Contrarrelógio individual — CRI",
+        "Prova de resistência",
+        "Competição oficial de paraciclismo — classe C4"
+      ],
+      "research": {
+        "queries": [
+          "\"GP Goiás de Paraciclismo\" 2026",
+          "site:cbc.esp.br paraciclismo \"Bela Vista de Goiás\""
+        ],
+        "domains_checked": [
+          "cbc.esp.br",
+          "emxeventos.com.br",
+          "stirunners.fotop.com"
+        ],
+        "result": "calendario_formato_e_rastro_posterior_confirmados; resultados_e_percurso_ausentes",
+        "uncertainties": [
+          "Regulamento, largadas, horários e resultados oficiais não foram localizados.",
+          "Organizador local, valores, acesso do público e estacionamento não foram identificados."
+        ]
+      },
+      "editorial_enrichment_batches": [
+        "o"
+      ]
     },
     {
       "start_date": "2026-08-04",
@@ -2187,12 +2231,16 @@
     {
       "start_date": "2026-11-29",
       "end_date": "2026-11-29",
-      "title": "Circuito do Estreito",
+      "title": "Circuito do Estreito — XCO",
+      "slug": "circuito-do-estreito-2026-11-29",
+      "related_slugs": [
+        "circuito-do-estreito-xco-2026-11-29"
+      ],
       "stage": "XCO",
       "city": "Luzilândia",
       "state": "PI",
       "modality": "Ciclismo MTB",
-      "status": "data_alterada_em_verificacao",
+      "status": "agendada",
       "official_url": "https://www.cbc.esp.br/modalidades/calendario/busca/mtb",
       "sources": [
         {
@@ -2210,7 +2258,7 @@
           "supports": "dados de agenda, identificação e situação do evento"
         }
       ],
-      "source_checked_at": "2026-07-26T09:27:24.911655+00:00",
+      "source_checked_at": "2026-08-22T22:31:50-04:00",
       "research_status": {
         "required_specific_independent_sources": 2,
         "specific_independent_domains_found": 2,
@@ -2218,13 +2266,13 @@
         "reviewed_at": "2026-07-26T09:27:24.911655+00:00",
         "editorial_rule": "Dados publicados somente com atribuição ao fato que cada fonte sustenta."
       },
-      "organizer": "Norte Crono, com homologação esportiva indicada pela CBC",
-      "venue": "Luzilândia · PI",
-      "full_address": "Luzilândia · PI. Rua, número e ponto de referência ainda não foram publicados nas fontes consultadas.",
-      "time_label": "A listagem atual da CBC mostra 29 de novembro; o índice anterior ainda exibe 22 e 23 de agosto",
-      "admission_status": "Inscrição, ingresso ou acesso devem ser confirmados com o organizador; as fontes consultadas ainda não detalham essa condição.",
-      "parking": "Estacionamento e guarda de bicicletas/motos ainda não foram detalhados pelas fontes consultadas.",
-      "contact": "Use os links de fontes cruzadas abaixo; telefone ou e-mail específico não foi publicado nas páginas consultadas.",
+      "organizer": "Organizador operacional de 2026 ainda não identificado; evento listado como oficial CBC",
+      "venue": "Circuito em Luzilândia; ponto de largada ainda não confirmado",
+      "full_address": "Luzilândia - PI; endereço detalhado pendente",
+      "time_label": "29 de novembro de 2026; horário de largada ainda não publicado",
+      "admission_status": "Inscrição e valores ainda não publicados em fonte específica de 2026",
+      "parking": "Não informado para a edição de 2026",
+      "contact": "Contato e canal de inscrição da edição de 2026 ainda não localizados",
       "visual_verification": {
         "type": "divergencia_temporal_documentada_entre_calendario_vivo_e_indice",
         "source_url": "https://www.cbc.esp.br/modalidades/calendario/busca/mtb",
@@ -2236,10 +2284,44 @@
           "alteracao_de_data"
         ]
       },
-      "summary": "Circuito do Estreito está no calendário de 2026 como XCO, na modalidade Ciclismo MTB, com realização prevista para 2026-08-22 a 2026-08-23 em Luzilândia/PI. Serviço ainda não publicado permanece sinalizado.",
-      "body": "## Situação verificada\n\nCircuito do Estreito aparece no calendário monitorado para 2026-08-22 a 2026-08-23. O enquadramento divulgado é XCO, na modalidade Ciclismo MTB.\n\n## Local e serviço\n\nA referência disponível é Luzilândia · PI. As fontes consultadas ainda não publicaram um serviço completo com rua, número, horário, estacionamento e contato direto. Essas ausências são mantidas de forma explícita para evitar informação inventada.\n\n## Inscrições, categorias e regulamento\n\nInscrições, categorias, percurso, premiação, retirada de kits e regras técnicas devem ser confirmados nos canais vinculados abaixo. A página será atualizada quando o organizador ou a entidade publicar o regulamento específico.\n\n## Fontes cruzadas\n\nForam consultadas: Canal oficial ou página indicada pela entidade. Links genéricos de calendário não são tratados, sozinhos, como confirmação suficiente de serviço.",
-      "last_updated": "2026-07-26T09:27:24.911655+00:00",
-      "note": "Alteração detectada em 26/07/2026: a página viva da CBC passou a listar 29/11/2026, enquanto cópias indexadas ainda exibem 22 e 23/08. A data nova foi adotada com alerta até publicação do regulamento 2026 pela Norte Crono."
+      "summary": "O calendário atual de MTB da Confederação Brasileira de Ciclismo lista o Circuito do Estreito — XCO para 29 de novembro de 2026 em Luzilândia/PI. Uma versão anterior do calendário mostrava 22 e 23 de agosto; a data mais recente foi adotada, enquanto regulamento, endereço, horários e inscrições seguem pendentes.",
+      "body": "## Data atual no calendário oficial\n\nA consulta à modalidade MTB da Confederação Brasileira de Ciclismo apresenta o Circuito do Estreito — XCO em Luzilândia/PI no dia 29 de novembro de 2026, classificado como evento oficial CBC e categoria XC3. Essa informação coincide com a data contida no slug público.\n\n## Mudança identificada\n\nUma página geral da própria CBC ainda apareceu em resultado anterior com 22 e 23 de agosto. Como o calendário específico de MTB, consultado mais recentemente, exibe 29 de novembro, a página deve tratar novembro como data atual e registrar que houve alteração ou divergência no calendário, em vez de combinar os dois períodos.\n\n## Serviço ainda não publicado\n\nNão foi localizado regulamento específico de 2026, endereço do circuito, horário de largada, organizador operacional, canal de inscrição, valores, estacionamento ou estrutura de apoio. Um regulamento Norte Crono recuperado nas buscas é de 2025 e descreve prova de corrida de rua, não o XCO de 2026; foi excluído do serviço.",
+      "last_updated": "2026-08-22T22:31:50-04:00",
+      "note": "Alteração detectada em 26/07/2026: a página viva da CBC passou a listar 29/11/2026, enquanto cópias indexadas ainda exibem 22 e 23/08. A data nova foi adotada com alerta até publicação do regulamento 2026 pela Norte Crono.",
+      "short_name": "Circuito do Estreito",
+      "verification_status": "calendario_oficial_atual_confirma_29_novembro; data_anterior_divergente_documentada; servico_pendente",
+      "street_address": "Endereço do percurso e da largada ainda não publicado",
+      "status_basis": "O calendário atual da modalidade MTB na CBC lista 29 de novembro de 2026; não foi localizado aviso de cancelamento, mas uma versão anterior mostrava agosto.",
+      "status_checked_at": "2026-08-22T22:31:50-04:00",
+      "attractions": [
+        "Prova de mountain bike cross-country olímpico (XCO), categoria XC3 no calendário CBC"
+      ],
+      "research": {
+        "queries": [
+          "site:cbc.esp.br \"Circuito do Estreito\" 2026",
+          "\"Circuito do Estreito\" XCO Luzilândia 2026",
+          "\"Circuito do Estreito\" \"29/11/2026\"",
+          "site:nortecrono.com.br \"Circuito do Estreito\" 2026"
+        ],
+        "domains_checked": [
+          "cbc.esp.br",
+          "nortecrono.com.br"
+        ],
+        "result": "data_atual_29_novembro_confirmada_no_calendario_mtb_da_cbc; registro_anterior_de_agosto_identificado",
+        "corrections": [
+          "Usar 29 de novembro de 2026 como data atual, mantendo nota transparente sobre a listagem anterior de 22 e 23 de agosto."
+        ],
+        "excluded_sources": [
+          "O regulamento Norte Crono recuperado é de 2025 e descreve uma corrida de rua de 5 km; não foi usado para o XCO de 2026."
+        ],
+        "uncertainties": [
+          "A CBC ainda não apresenta regulamento, endereço ou horários na página consultada.",
+          "O organizador operacional e o canal de inscrição de 2026 não foram confirmados."
+        ]
+      },
+      "editorial_enrichment_batches": [
+        "f"
+      ]
     },
     {
       "start_date": "2026-08-23",
@@ -3017,13 +3099,17 @@
     },
     {
       "start_date": "2026-09-06",
-      "title": "GP de Ciclismo de Estrada",
+      "title": "GP de Ciclismo de Estrada 2026 — adiado",
+      "slug": "gp-de-ciclismo-de-estrada-2026-09-06",
+      "related_slugs": [
+        "gp-de-ciclismo-de-estrada-2026-adiado-2026-09-06"
+      ],
       "stage": "Evento oficial CBC",
       "state": "SP",
       "location": "Cidade a definir",
       "modality": "Ciclismo de Estrada",
-      "status": "agendada",
-      "official_url": "https://www.cbc.esp.br/modalidades/calendario/busca/estrada",
+      "status": "adiada",
+      "official_url": "https://www.cbc.esp.br/modalidades/calendario/www.apcrono.com.br",
       "sources": [
         {
           "url": "https://www.cbc.esp.br/modalidades/calendario/busca/estrada",
@@ -3038,9 +3124,15 @@
           "supports": "data e edição, categorias, percurso ou regulamento",
           "relevance_score": 20,
           "discovery_method": "busca_editorial_indexada"
+        },
+        {
+          "url": "https://www.cbc.esp.br/modalidades/calendario/www.apcrono.com.br",
+          "label": "CBC — calendário oficial com aviso de adiamento",
+          "type": "fonte_primaria_federativa",
+          "supports": "Marca o GP de Ciclismo de Estrada como adiado, informa nova data em breve e mantém São Paulo/local a definir."
         }
       ],
-      "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
+      "source_checked_at": "2026-08-23T03:30:00-04:00",
       "research_status": {
         "required_specific_independent_sources": 2,
         "specific_independent_domains_found": 0,
@@ -3053,31 +3145,61 @@
         "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
         "editorial_rule": "Página mantida ativa, sem inventar serviço; prioridade diária até surgir uma segunda fonte específica."
       },
-      "organizer": "Organizador local com homologação ou inclusão no calendário da Confederação Brasileira de Ciclismo",
-      "venue": "Cidade a definir",
-      "full_address": "Cidade, endereço e ponto de referência ainda não foram publicados nas fontes consultadas.",
-      "time_label": "Horários de largada, abertura, credenciamento ou programação ainda não foram publicados nas fontes específicas consultadas.",
-      "admission_status": "Inscrição, ingresso ou acesso devem ser confirmados com o organizador; as fontes consultadas ainda não detalham essa condição.",
-      "parking": "Estacionamento e guarda de bicicletas/motos ainda não foram detalhados pelas fontes consultadas.",
-      "contact": "Use os links de fontes cruzadas abaixo; telefone ou e-mail específico não foi publicado nas páginas consultadas.",
+      "organizer": "Organizador local ainda não divulgado; prova do calendário oficial da Confederação Brasileira de Ciclismo",
+      "venue": "A definir no estado de São Paulo",
+      "full_address": "São Paulo - SP/estado; município e percurso ainda a definir",
+      "time_label": "Adiado; data anterior de 6 de setembro de 2026; nova data em breve segundo a CBC",
+      "admission_status": "Inscrições e acesso aguardam nova data e regulamento",
+      "parking": "Não informado; local ainda a definir",
+      "contact": "Canais oficiais da CBC em cbc.esp.br",
       "visual_verification": {
         "type": "fontes_textuais_sem_flyer_publico",
         "source_url": "https://www.cbc.esp.br/modalidades/calendario/busca/estrada",
         "checked_at": "2026-07-26T06:51:16.329134+00:00",
         "note": "Nenhum flyer público específico foi localizado nos resultados indexados; a ausência foi registrada, sem inventar serviço."
       },
-      "summary": "GP de Ciclismo de Estrada está no calendário de 2026 como Evento oficial CBC, na modalidade Ciclismo de Estrada, com realização prevista para 2026-09-06. Serviço ainda não publicado permanece sinalizado.",
-      "body": "## Situação verificada\n\nGP de Ciclismo de Estrada aparece no calendário monitorado para 2026-09-06. O enquadramento divulgado é Evento oficial CBC, na modalidade Ciclismo de Estrada.\n\n## Local e serviço\n\nA referência disponível é Cidade a definir. As fontes consultadas ainda não publicaram um serviço completo com rua, número, horário, estacionamento e contato direto. Essas ausências são mantidas de forma explícita para evitar informação inventada.\n\n## Inscrições, categorias e regulamento\n\nInscrições, categorias, percurso, premiação, retirada de kits e regras técnicas devem ser confirmados nos canais vinculados abaixo. A página será atualizada quando o organizador ou a entidade publicar o regulamento específico.\n\n## Fontes cruzadas\n\nForam consultadas: Canal oficial ou página indicada pela entidade; Calendário | CBC - Confederação Brasileira de Ciclismo; 75ª Prova Ciclística Internacional 9 de Julho resgata participação dos amadores e celebra tradição do ciclismo brasileiro - Prefeitura de São Paulo - Prefeitura. Links genéricos de calendário não são tratados, sozinhos, como confirmação suficiente de serviço.",
-      "last_updated": "2026-07-26T07:34:37.403973+00:00"
+      "summary": "A Confederação Brasileira de Ciclismo marcou como adiado o GP de Ciclismo de Estrada que tinha 6 de setembro de 2026 como data anterior e local ainda a definir em São Paulo. O calendário informa “nova data em breve”; não há cidade, percurso, regulamento ou inscrições vigentes para publicar.",
+      "body": "## Situação: prova adiada\n\nA versão atual do calendário oficial da CBC exibe a marca [ADIADO] no GP de Ciclismo de Estrada e a mensagem [NOVA DATA EM BREVE]. A ficha anterior indicava 6 de setembro de 2026, estado de São Paulo, cidade a definir, competição oficial válida na classe 5.\n\n## O que ainda falta\n\nA CBC não publicou nova data, município, percurso, horários, categorias, regulamento particular, inscrições, valores ou estrutura para espectadores. Assim, o dia 6 de setembro é mantido apenas como referência da data anterior, não como convocação vigente.\n\n## Próxima atualização\n\nA página permanece preservada com estado adiado. O serviço deve ser atualizado somente quando o calendário oficial divulgar nova data e, depois, o regulamento específico; não foi usado local de outra prova paulista.",
+      "last_updated": "2026-08-23T03:30:00-04:00",
+      "short_name": "GP de Ciclismo de Estrada — adiado",
+      "verification_status": "adiamento_confirmado_no_calendario_oficial_cbc; nova_data_e_local_pendentes",
+      "street_address": "Não informado; prova adiada",
+      "status_basis": "O calendário oficial da CBC marca a prova como adiada e informa nova data em breve.",
+      "status_checked_at": "2026-08-23T03:30:00-04:00",
+      "attractions": [
+        "Competição oficial de ciclismo de estrada — classe 5",
+        "Programação suspensa até divulgação da nova data"
+      ],
+      "research": {
+        "queries": [
+          "site:cbc.esp.br \"GP de Ciclismo de Estrada\" 2026",
+          "\"[ADIADO] GP de Ciclismo de Estrada\""
+        ],
+        "domains_checked": [
+          "cbc.esp.br"
+        ],
+        "result": "adiamento_oficial_confirmado; nova_data_e_servico_nao_publicados",
+        "uncertainties": [
+          "Não há nova data, cidade ou percurso.",
+          "Regulamento, inscrições, acesso de espectadores e estacionamento aguardam nova publicação."
+        ]
+      },
+      "editorial_enrichment_batches": [
+        "o"
+      ]
     },
     {
       "start_date": "2026-09-06",
-      "title": "GP de Paraciclismo de Estrada",
+      "title": "GP de Paraciclismo de Estrada 2026 — adiado",
+      "slug": "gp-de-paraciclismo-de-estrada-2026-09-06",
+      "related_slugs": [
+        "gp-de-paraciclismo-de-estrada-2026-adiado-2026-09-06"
+      ],
       "stage": "Evento oficial CBC",
       "state": "SP",
       "location": "Cidade a definir",
       "modality": "Paraciclismo",
-      "status": "agendada",
+      "status": "adiada",
       "official_url": "https://www.cbc.esp.br/modalidades/calendario/busca/paraciclismo",
       "sources": [
         {
@@ -3085,9 +3207,15 @@
           "label": "Canal oficial ou página indicada pela entidade",
           "type": "fonte primária ou canal oficial",
           "supports": "dados de agenda, identificação e situação do evento"
+        },
+        {
+          "url": "https://www.cbc.esp.br/modalidades/calendario/www.apcrono.com.br",
+          "label": "CBC — visão geral atualizada do calendário",
+          "type": "calendario_oficial_geral",
+          "supports": "Corrobora a sinalização de adiamento e a ausência de nova data e local definidos."
         }
       ],
-      "source_checked_at": "2026-07-26T07:36:36.795524+00:00",
+      "source_checked_at": "2026-08-23T03:30:00-04:00",
       "research_status": {
         "required_specific_independent_sources": 2,
         "specific_independent_domains_found": 0,
@@ -3100,22 +3228,48 @@
         "reviewed_at": "2026-07-26T07:36:36.795524+00:00",
         "editorial_rule": "Página mantida ativa, sem inventar serviço; prioridade diária até surgir uma segunda fonte específica."
       },
-      "organizer": "Organizador local com homologação ou inclusão no calendário da Confederação Brasileira de Ciclismo",
-      "venue": "Cidade a definir",
-      "full_address": "Cidade, endereço e ponto de referência ainda não foram publicados nas fontes consultadas.",
-      "time_label": "Horários de largada, abertura, credenciamento ou programação ainda não foram publicados nas fontes específicas consultadas.",
-      "admission_status": "Inscrição, ingresso ou acesso devem ser confirmados com o organizador; as fontes consultadas ainda não detalham essa condição.",
-      "parking": "Estacionamento e guarda de bicicletas/motos ainda não foram detalhados pelas fontes consultadas.",
-      "contact": "Use os links de fontes cruzadas abaixo; telefone ou e-mail específico não foi publicado nas páginas consultadas.",
+      "organizer": "Organizador local ainda não divulgado; prova do calendário oficial da Confederação Brasileira de Ciclismo",
+      "venue": "A definir no estado de São Paulo",
+      "full_address": "Estado de São Paulo; município e percurso ainda a definir",
+      "time_label": "Adiado; data anterior de 6 de setembro de 2026; nova data em breve segundo a CBC",
+      "admission_status": "Inscrições e acesso aguardam nova data e regulamento",
+      "parking": "Não informado; local ainda a definir",
+      "contact": "Canais oficiais da CBC em cbc.esp.br",
       "visual_verification": {
         "type": "fontes_textuais_sem_flyer_publico",
         "source_url": "https://www.cbc.esp.br/modalidades/calendario/busca/paraciclismo",
         "checked_at": "2026-07-26T06:51:19.127161+00:00",
         "note": "Nenhum flyer público específico foi localizado nos resultados indexados; a ausência foi registrada, sem inventar serviço."
       },
-      "summary": "GP de Paraciclismo de Estrada está no calendário de 2026 como Evento oficial CBC, na modalidade Paraciclismo, com realização prevista para 2026-09-06. Serviço ainda não publicado permanece sinalizado.",
-      "body": "## Situação verificada\n\nGP de Paraciclismo de Estrada aparece no calendário monitorado para 2026-09-06. O enquadramento divulgado é Evento oficial CBC, na modalidade Paraciclismo.\n\n## Local e serviço\n\nA referência disponível é Cidade a definir. As fontes consultadas ainda não publicaram um serviço completo com rua, número, horário, estacionamento e contato direto. Essas ausências são mantidas de forma explícita para evitar informação inventada.\n\n## Inscrições, categorias e regulamento\n\nInscrições, categorias, percurso, premiação, retirada de kits e regras técnicas devem ser confirmados nos canais vinculados abaixo. A página será atualizada quando o organizador ou a entidade publicar o regulamento específico.\n\n## Fontes cruzadas\n\nForam consultadas: Canal oficial ou página indicada pela entidade; Eventos | CBC - Confederação Brasileira de Ciclismo; Indaiatuba se destaca no paraciclismo e tem representantes convocados para a Copa do Mundo na Itália | Prefeitura Municipal de Indaiatuba. Links genéricos de calendário não são tratados, sozinhos, como confirmação suficiente de serviço.",
-      "last_updated": "2026-07-26T07:34:37.403973+00:00"
+      "summary": "A CBC marcou como adiado o GP de Paraciclismo de Estrada que tinha 6 de setembro de 2026 como data anterior e município ainda a definir no estado de São Paulo. A nova data será anunciada; não há percurso, regulamento, inscrições nem serviço de público confirmado.",
+      "body": "## Situação: prova adiada\n\nO calendário oficial de paraciclismo da Confederação Brasileira de Ciclismo mostra [ADIADO] e [NOVA DATA EM BREVE] para o GP de Paraciclismo de Estrada. A referência anterior era 6 de setembro de 2026, no estado de São Paulo, com cidade a definir, competição oficial da classe C4.\n\n## Serviço pendente\n\nAinda não foram publicados nova data, município, percurso, horários, classes funcionais atendidas, regulamento particular, inscrições, valores ou condições para espectadores. A data antiga permanece apenas como histórico da programação que foi adiada.\n\n## Critério editorial\n\nA página e sua URL são preservadas com estado adiado. Nenhum local ou programa de outra etapa de paraciclismo foi transferido para esta prova.",
+      "last_updated": "2026-08-23T03:30:00-04:00",
+      "short_name": "GP de Paraciclismo de Estrada — adiado",
+      "verification_status": "adiamento_confirmado_no_calendario_oficial_cbc; nova_data_municipio_percurso_e_regulamento_pendentes",
+      "street_address": "Não informado; prova adiada",
+      "status_basis": "A busca oficial de paraciclismo da CBC marca a prova como adiada e informa nova data em breve.",
+      "status_checked_at": "2026-08-23T03:30:00-04:00",
+      "attractions": [
+        "Competição oficial de paraciclismo de estrada — classe C4",
+        "Programação suspensa até divulgação da nova data"
+      ],
+      "research": {
+        "queries": [
+          "site:cbc.esp.br \"GP de Paraciclismo de Estrada\" 2026",
+          "\"[ADIADO] GP de Paraciclismo de Estrada\""
+        ],
+        "domains_checked": [
+          "cbc.esp.br"
+        ],
+        "result": "adiamento_oficial_confirmado; nova_data_e_servico_nao_publicados",
+        "uncertainties": [
+          "Não há nova data, município, percurso ou regulamento.",
+          "Inscrições, valores, acesso de espectadores e estacionamento aguardam nova publicação."
+        ]
+      },
+      "editorial_enrichment_batches": [
+        "o"
+      ]
     },
     {
       "start_date": "2026-09-18",
@@ -3715,7 +3869,7 @@
           "supports": "dados de agenda, identificação e situação do evento"
         }
       ],
-      "source_checked_at": "2026-07-26T09:27:24.911655+00:00",
+      "source_checked_at": "2026-08-22T12:00:00-04:00",
       "research_status": {
         "required_specific_independent_sources": 2,
         "specific_independent_domains_found": 2,
@@ -3723,13 +3877,13 @@
         "reviewed_at": "2026-07-26T09:27:24.911655+00:00",
         "editorial_rule": "Dados publicados somente com atribuição ao fato que cada fonte sustenta."
       },
-      "organizer": "CBC, com homologação esportiva da UCI e apoio local",
-      "venue": "Indaiatuba · SP",
-      "full_address": "Indaiatuba · SP. Rua, número e ponto de referência ainda não foram publicados nas fontes consultadas.",
-      "time_label": "16 a 18 de outubro; programa de provas aguardando guia técnico",
-      "admission_status": "Inscrição, ingresso ou acesso devem ser confirmados com o organizador; as fontes consultadas ainda não detalham essa condição.",
-      "parking": "Estacionamento e guarda de bicicletas/motos ainda não foram detalhados pelas fontes consultadas.",
-      "contact": "Use os links de fontes cruzadas abaixo; telefone ou e-mail específico não foi publicado nas páginas consultadas.",
+      "organizer": "Confederação Brasileira de Ciclismo — evento oficial CBC; realizador local ainda não informado",
+      "venue": "Indaiatuba - SP; velódromo da edição ainda não confirmado",
+      "full_address": "Endereço da edição de outubro ainda não publicado nas fontes oficiais consultadas",
+      "time_label": "De 16 a 18 de outubro de 2026; horários das provas aguardam regulamento específico",
+      "admission_status": "Acesso do público e condições de inscrição ainda não publicados para esta edição",
+      "parking": "Não informado para a edição de outubro de 2026",
+      "contact": "Contato institucional CBC: +55 (43) 3327-3232 e cbc@cbc.esp.br; contato específico do evento ainda não publicado",
       "visual_verification": {
         "type": "pagina_uci_cruzada_com_calendario_cbc",
         "source_url": "https://www.uci.org/competition-details/2026/PAR/78876",
@@ -3740,9 +3894,45 @@
           "temporada"
         ]
       },
-      "summary": "Campeonato Brasileiro de Paraciclismo de Pista 2026 está no calendário de 2026 como Campeonato nacional, na modalidade Paraciclismo, com realização prevista para 2026-10-16 a 2026-10-18 em Indaiatuba/SP. Serviço ainda não publicado permanece sinalizado.",
-      "body": "## Situação verificada\n\nCampeonato Brasileiro de Paraciclismo de Pista 2026 aparece no calendário monitorado para 2026-10-16 a 2026-10-18. O enquadramento divulgado é Campeonato nacional, na modalidade Paraciclismo.\n\n## Local e serviço\n\nA referência disponível é Indaiatuba · SP. As fontes consultadas ainda não publicaram um serviço completo com rua, número, horário, estacionamento e contato direto. Essas ausências são mantidas de forma explícita para evitar informação inventada.\n\n## Inscrições, categorias e regulamento\n\nInscrições, categorias, percurso, premiação, retirada de kits e regras técnicas devem ser confirmados nos canais vinculados abaixo. A página será atualizada quando o organizador ou a entidade publicar o regulamento específico.\n\n## Fontes cruzadas\n\nForam consultadas: Canal oficial ou página indicada pela entidade; Campeonato Brasileiro de Paraciclismo de Pista 2026 | UCI; Calendário | CBC - Confederação Brasileira de Ciclismo. Links genéricos de calendário não são tratados, sozinhos, como confirmação suficiente de serviço.",
-      "last_updated": "2026-07-26T09:27:24.911655+00:00"
+      "summary": "O Campeonato Brasileiro de Paraciclismo de Pista 2026 está confirmado no calendário atual da CBC para 16 a 18 de outubro, em Indaiatuba (SP), como evento oficial CBC de classe CN. A UCI mantém página específica da competição; velódromo, horários, regulamento, inscrições e serviço ao público ainda não foram publicados para esta edição.",
+      "body": "## Confirmação federativa\n\nO calendário de Paraciclismo da Confederação Brasileira de Ciclismo lista o Campeonato Brasileiro de Paraciclismo de Pista 2026 de 16 a 18 de outubro, em Indaiatuba, na categoria “Oficiais CBC” e classe CN. A UCI também mantém uma página específica com o nome da competição na temporada 2026.\n\n## Serviço aguardando regulamento\n\nNa consulta de 22 de agosto, a área oficial de regulamentos da CBC ainda não apresentava um regulamento identificado especificamente para este campeonato. Por isso, horários das provas, categorias detalhadas, inscrições, confirmação de participantes, retirada de credenciais e contato da secretaria permanecem pendentes.\n\n## Local não presumido\n\nIndaiatuba recebeu outra competição de paraciclismo em fevereiro de 2026 no Velódromo Municipal Joraci Mariano de Barros. Essa fonte trata do Pan-Americano, não do Brasileiro de outubro; o nome e o endereço do velódromo não foram transferidos para esta página sem confirmação específica da edição atual. Acesso do público e estacionamento também não estão informados.",
+      "last_updated": "2026-08-22T12:00:00-04:00",
+      "verification_status": "calendarios_cbc_e_uci_cruzados_servico_aguardando_regulamento_2026",
+      "status_basis": "O calendário atual da CBC mantém o evento de 16 a 18 de outubro de 2026 em Indaiatuba, classe CN, e a UCI possui página específica. Nenhum aviso de alteração ou cancelamento foi localizado.",
+      "status_checked_at": "2026-08-22T12:00:00-04:00",
+      "attractions": [
+        "Campeonato nacional de paraciclismo de pista",
+        "Evento oficial CBC — classe CN"
+      ],
+      "research": {
+        "queries": [
+          "site:cbc.esp.br \"Campeonato Brasileiro de Paraciclismo de Pista 2026\"",
+          "site:uci.org/competition-details/2026/PAR/78876",
+          "\"Campeonato Brasileiro de Paraciclismo de Pista 2026\" Indaiatuba outubro",
+          "site:indaiatuba.sp.gov.br paraciclismo pista outubro 2026"
+        ],
+        "current_specific_domains_found": 2,
+        "result": "CBC e UCI confirmam a identidade da competição, e a CBC fornece datas, cidade e classe. Regulamento e serviço específico ainda não foram localizados.",
+        "excluded_results": [
+          {
+            "url": "https://indaiatuba.sp.gov.br/comunicacao/imprensa/noticias/35161/",
+            "reason": "Refere-se ao Campeonato Pan-Americano de fevereiro de 2026; o velódromo, o endereço e o horário dessa competição não comprovam o serviço do Brasileiro de outubro."
+          },
+          {
+            "url": "https://www.cbc.esp.br/modalidades/evento/id/1271",
+            "reason": "Página específica da edição de 2025; local, programação e regulamento daquele ano não foram transferidos para 2026."
+          }
+        ],
+        "uncertainties": [
+          "velódromo e endereço da edição",
+          "horários e programa de provas",
+          "regulamento, inscrições e categorias detalhadas",
+          "realizador local, acesso do público e estacionamento"
+        ]
+      },
+      "editorial_enrichment_batches": [
+        "e"
+      ]
     },
     {
       "start_date": "2026-11-22",
@@ -3876,7 +4066,11 @@
     },
     {
       "start_date": "2026-11-29",
-      "title": "Copa Recife de BMX",
+      "title": "Copa Recife de BMX 2026",
+      "slug": "copa-recife-de-bmx-2026-11-29",
+      "related_slugs": [
+        "copa-recife-de-bmx-2026-2026-11-29"
+      ],
       "stage": "Ranking CBC",
       "city": "Recife",
       "state": "PE",
@@ -3897,9 +4091,15 @@
           "label": "Canal oficial ou página indicada pela entidade",
           "type": "fonte primária ou canal oficial",
           "supports": "dados de agenda, identificação e situação do evento"
+        },
+        {
+          "url": "https://www.cbc.esp.br/modalidades/calendario/busca/",
+          "label": "CBC — calendário nacional de ciclismo",
+          "type": "calendario_oficial_geral",
+          "supports": "Oferece o contexto oficial da listagem; não acrescenta pista, horários ou regulamento à ficha da prova."
         }
       ],
-      "source_checked_at": "2026-07-26T09:27:24.911655+00:00",
+      "source_checked_at": "2026-08-23T03:30:00-04:00",
       "research_status": {
         "required_specific_independent_sources": 2,
         "specific_independent_domains_found": 2,
@@ -3907,22 +4107,49 @@
         "reviewed_at": "2026-07-26T09:27:24.911655+00:00",
         "editorial_rule": "Dados publicados somente com atribuição ao fato que cada fonte sustenta."
       },
-      "organizer": "Organização local de Recife, com homologação no ranking CBC",
-      "venue": "Recife · PE",
-      "full_address": "Recife · PE. Rua, número e ponto de referência ainda não foram publicados nas fontes consultadas.",
-      "time_label": "Horários de largada, abertura, credenciamento ou programação ainda não foram publicados nas fontes específicas consultadas.",
-      "admission_status": "Inscrição, ingresso ou acesso devem ser confirmados com o organizador; as fontes consultadas ainda não detalham essa condição.",
-      "parking": "Estacionamento e guarda de bicicletas/motos ainda não foram detalhados pelas fontes consultadas.",
-      "contact": "Use os links de fontes cruzadas abaixo; telefone ou e-mail específico não foi publicado nas páginas consultadas.",
+      "organizer": "Organizador local não divulgado; prova incluída no calendário oficial da Confederação Brasileira de Ciclismo",
+      "venue": "Pista a confirmar em Recife/PE",
+      "full_address": "Recife - PE; pista e endereço pendentes",
+      "time_label": "29 de novembro de 2026; horários ainda não divulgados",
+      "admission_status": "Inscrições, valores e acesso de espectadores ainda não informados",
+      "parking": "Não informado; a pista ainda não foi divulgada",
+      "contact": "Canais da CBC em cbc.esp.br; contato local ainda não informado",
       "visual_verification": {
         "type": "material_visual_indexado",
         "source_url": "https://www.cbc.esp.br/modalidades/calendario/instagram.com",
         "checked_at": "2026-07-26T06:51:32.664122+00:00",
         "note": "Canal visual localizado na pesquisa; detalhes devem ser reconferidos quando o regulamento final for publicado."
       },
-      "summary": "Copa Recife de BMX está no calendário de 2026 como Ranking CBC, na modalidade BMX Racing, com realização prevista para 2026-11-29 em Recife/PE. Serviço ainda não publicado permanece sinalizado.",
-      "body": "## Situação verificada\n\nCopa Recife de BMX aparece no calendário monitorado para 2026-11-29. O enquadramento divulgado é Ranking CBC, na modalidade BMX Racing.\n\n## Local e serviço\n\nA referência disponível é Recife · PE. As fontes consultadas ainda não publicaram um serviço completo com rua, número, horário, estacionamento e contato direto. Essas ausências são mantidas de forma explícita para evitar informação inventada.\n\n## Inscrições, categorias e regulamento\n\nInscrições, categorias, percurso, premiação, retirada de kits e regras técnicas devem ser confirmados nos canais vinculados abaixo. A página será atualizada quando o organizador ou a entidade publicar o regulamento específico.\n\n## Fontes cruzadas\n\nForam consultadas: Canal oficial ou página indicada pela entidade; Calendário | CBC - Confederação Brasileira de Ciclismo; Portal de Serviços - Home. Links genéricos de calendário não são tratados, sozinhos, como confirmação suficiente de serviço.",
-      "last_updated": "2026-07-26T09:27:24.911655+00:00"
+      "summary": "A Confederação Brasileira de Ciclismo mantém a Copa Recife de BMX no calendário oficial para 29 de novembro de 2026, em Recife/PE, na modalidade BMX Racing, válida pelo Ranking CBC na classe C5. Pista, horários, regulamento, inscrições e acesso do público ainda não foram publicados na ficha indexada.",
+      "body": "## Confirmação oficial\n\nO calendário da Confederação Brasileira de Ciclismo lista a Copa Recife de BMX para 29 de novembro de 2026, em Recife/PE. A prova aparece em BMX Racing, com caráter oficial, pontuação para o Ranking CBC e classificação C5.\n\n## Serviço ainda pendente\n\nA ficha pública consultada não identifica a pista, endereço, horários de treino e competição, categorias, regulamento, inscrições, valores, entrada de espectadores ou estacionamento. Também não foi localizada publicação específica do organizador local que permita completar esses campos com segurança.\n\n## Situação\n\nA data permanece futura e não há aviso de cancelamento ou adiamento na listagem oficial consultada. A página segue agendada e deve ser atualizada quando a CBC ou o responsável local publicar o regulamento particular.",
+      "last_updated": "2026-08-23T03:30:00-04:00",
+      "short_name": "Copa Recife de BMX",
+      "verification_status": "data_cidade_modalidade_ranking_e_classe_confirmados_no_calendario_oficial_cbc; servico_local_pendente",
+      "street_address": "Não informado no calendário oficial consultado",
+      "status_basis": "A prova consta sem marca de cancelamento ou adiamento no calendário oficial da CBC para 29 de novembro.",
+      "status_checked_at": "2026-08-23T03:30:00-04:00",
+      "attractions": [
+        "Provas de BMX Racing",
+        "Pontuação para o Ranking CBC — classe C5"
+      ],
+      "research": {
+        "queries": [
+          "site:cbc.esp.br \"Copa Recife de BMX\" 2026",
+          "\"Copa Recife de BMX\" \"29 de novembro\""
+        ],
+        "domains_checked": [
+          "cbc.esp.br",
+          "apbmx.com.br"
+        ],
+        "result": "evento_confirmado_em_fonte_primaria; regulamento_e_servico_local_ainda_ausentes",
+        "uncertainties": [
+          "Não foi identificada a pista nem o organizador local.",
+          "Horários, categorias, inscrições, acesso e estacionamento ainda não foram publicados."
+        ]
+      },
+      "editorial_enrichment_batches": [
+        "o"
+      ]
     },
     {
       "start_date": "2026-12-03",

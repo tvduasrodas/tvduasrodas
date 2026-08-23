@@ -1,0 +1,2661 @@
+{
+  "generated_at": "2026-08-23",
+  "purpose": "Fila editorial para aprofundar eventos já publicados sem retirar URLs do ar.",
+  "total_public_event_pages": 645,
+  "complete_records": 447,
+  "incomplete_records": 198,
+  "queue": [
+    {
+      "url": "/eventos/1-bencao-dos-motociclistas-e-motoristas-aracatuba-sp-2026-07-26/",
+      "slug": "1-bencao-dos-motociclistas-e-motoristas-aracatuba-sp-2026-07-26",
+      "title": "1 Bencao dos Motociclistas e Motoristas",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/1-comando-motor-fest-guaruja-sp-2026-08-15/",
+      "slug": "1-comando-motor-fest-guaruja-sp-2026-08-15",
+      "title": "1 Comando Motor Fest",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/1-encontro-de-motoclubes-paulo-afonso-ba-2026-10-22/",
+      "slug": "1-encontro-de-motoclubes-paulo-afonso-ba-2026-10-22",
+      "title": "1 Encontro de Motoclubes",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/1-encontro-dos-motopapos-nossa-senhora-do-socorro-se-2026-09-12/",
+      "slug": "1-encontro-dos-motopapos-nossa-senhora-do-socorro-se-2026-09-12",
+      "title": "1 Encontro dos MotoPapos",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/1-moto-rock-fest-chavantes-sp-2026-08-01/",
+      "slug": "1-moto-rock-fest-chavantes-sp-2026-08-01",
+      "title": "1 Moto Rock Fest",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/1-moto-acampamento-raiz-itanhandu-mg-2026-08-07/",
+      "slug": "1-moto-acampamento-raiz-itanhandu-mg-2026-08-07",
+      "title": "1 Moto acampamento Raiz",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/1-truck-fest-suzano-sp-2026-09-20/",
+      "slug": "1-truck-fest-suzano-sp-2026-09-20",
+      "title": "1 Truck Fest",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/classicos-estradeiros-mg-rio-de-janeiro-rj-2026-10-11/",
+      "slug": "classicos-estradeiros-mg-rio-de-janeiro-rj-2026-10-11",
+      "title": "10º Aniversário dos Clássicos Estradeiros",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 6,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/autoridade-mc-ubaporanga-mg-2026-09-04/",
+      "slug": "autoridade-mc-ubaporanga-mg-2026-09-04",
+      "title": "10º Moto Fest do Autoridade Brasil MC",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 4,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/12-acampamento-nacional-rat-bike-do-brasil-jeceaba-mg-2026-08-15/",
+      "slug": "12-acampamento-nacional-rat-bike-do-brasil-jeceaba-mg-2026-08-15",
+      "title": "12 Acampamento Nacional Rat Bike do Brasil",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 3,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/12-encontro-de-motociclistas-crateus-ce-2026-09-11/",
+      "slug": "12-encontro-de-motociclistas-crateus-ce-2026-09-11",
+      "title": "12 Encontro de Motociclistas de Crateus",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/14-encontro-nacional-sao-joao-del-rei-mg-2026-07-23/",
+      "slug": "14-encontro-nacional-sao-joao-del-rei-mg-2026-07-23",
+      "title": "14º Encontro Nacional de Motociclistas de São João del-Rei",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "fonte_primaria"
+      ],
+      "source_count": 4,
+      "specific_independent_domains": 4
+    },
+    {
+      "url": "/eventos/mg-somos-livres-cachoeiras-de-macacu-rj-2026-09-06/",
+      "slug": "mg-somos-livres-cachoeiras-de-macacu-rj-2026-09-06",
+      "title": "17 anos do MG Somos Livres",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/17o-encontro-nacional-de-motociclistas-de-mariana-e-19o-aniversario-do-vira-latas-motoclube-mariana-mg-2026-08-28/",
+      "slug": "17o-encontro-nacional-de-motociclistas-de-mariana-e-19o-aniversario-do-vira-latas-motoclube-mariana-mg-2026-08-28",
+      "title": "17º Encontro Nacional de Motociclistas de Mariana e 19 anos do Vira Latas MC",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 4,
+      "specific_independent_domains": 4
+    },
+    {
+      "url": "/eventos/caveiras-de-fogo-mc-cachoeiras-de-macacu-rj-2026-09-04/",
+      "slug": "caveiras-de-fogo-mc-cachoeiras-de-macacu-rj-2026-09-04",
+      "title": "19º Aniversário do Caveiras de Fogo MC",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/moto-casal-e-amigos-itaborai-rj-2026-09-20/",
+      "slug": "moto-casal-e-amigos-itaborai-rj-2026-09-20",
+      "title": "1º Aniversário do Moto Casal & Amigos — 17 anos de estrada",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/motofest-caete-mg-2026-08-08/",
+      "slug": "motofest-caete-mg-2026-08-08",
+      "title": "1º Moto Fest Caeté Moto Grupo",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-30",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/motofest-atilio-vivacqua-es-2026-11-13/",
+      "slug": "motofest-atilio-vivacqua-es-2026-11-13",
+      "title": "1º Motofest Atílio Vivácqua 2026",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/guardioes-mg-iacu-ba-2026-10-09/",
+      "slug": "guardioes-mg-iacu-ba-2026-10-09",
+      "title": "1º Motofest dos Guardiões 2026",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 3,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/guardioes-mc-iacu-ba-2026-10-10/",
+      "slug": "guardioes-mc-iacu-ba-2026-10-10",
+      "title": "1º Motofest dos Guardiões 2026 — programação de 10 de outubro",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 3,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/catracas-motorock-ipatinga-mg-ipatinga-mg-2026-08-22/",
+      "slug": "catracas-motorock-ipatinga-mg-ipatinga-mg-2026-08-22",
+      "title": "1º Motorock Catraca's MC — Ipatinga/MG",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 3,
+      "specific_independent_domains": 3
+    },
+    {
+      "url": "/eventos/motorock-bertopolis-mg-2026-08-23/",
+      "slug": "motorock-bertopolis-mg-2026-08-23",
+      "title": "1º Motorock de Bertópolis",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/uai-uberaba-mg-2026-09-13/",
+      "slug": "uai-uberaba-mg-2026-09-13",
+      "title": "1º aniversário do Moto Grupo UAI",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/2-encontro-de-motocicilstas-lavras-novas-mg-2026-08-01/",
+      "slug": "2-encontro-de-motocicilstas-lavras-novas-mg-2026-08-01",
+      "title": "2 Encontro de Motocicilstas",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/2-encontro-de-motociclistas-nova-resende-mg-2026-07-25/",
+      "slug": "2-encontro-de-motociclistas-nova-resende-mg-2026-07-25",
+      "title": "2 Encontro de Motociclistas de Nova Resende",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/2-moto-cafe-tres-marias-mg-2026-07-26/",
+      "slug": "2-moto-cafe-tres-marias-mg-2026-07-26",
+      "title": "2 MOTO CAFE de Tres Marias",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/ganchos-do-asfalto-mg-santissimo-rio-de-janeiro-rj-2026-10-17/",
+      "slug": "ganchos-do-asfalto-mg-santissimo-rio-de-janeiro-rj-2026-10-17",
+      "title": "21 anos do Ganchos do Asfalto MG",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/22-anos-mantra-mc-sao-joao-da-boa-vista-sp-2026-08-14/",
+      "slug": "22-anos-mantra-mc-sao-joao-da-boa-vista-sp-2026-08-14",
+      "title": "22 Anos",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/discriminados-mc-santa-rita-de-jacutinga-mg-2026-11-20/",
+      "slug": "discriminados-mc-santa-rita-de-jacutinga-mg-2026-11-20",
+      "title": "25º aniversário do Discriminados Moto Clube",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/25o-aniversario-do-foragidos-mc-tres-coracoes-tres-coracoes-mg-2026-08-22/",
+      "slug": "25o-aniversario-do-foragidos-mc-tres-coracoes-tres-coracoes-mg-2026-08-22",
+      "title": "25º aniversário do Foragidos MC em Três Corações",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 2
+    },
+    {
+      "url": "/eventos/26-encontro-nacional-de-motociclistas-pedra-bela-sp-2026-09-11/",
+      "slug": "26-encontro-nacional-de-motociclistas-pedra-bela-sp-2026-09-11",
+      "title": "26º Encontro Nacional de Motociclistas de Pedra Bela — registro em verificação",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 6,
+      "specific_independent_domains": 4
+    },
+    {
+      "url": "/eventos/28o-aniversario-do-mc-estradeiros-da-liberdade-santos-santos-sp-2026-08-30/",
+      "slug": "28o-aniversario-do-mc-estradeiros-da-liberdade-santos-santos-sp-2026-08-30",
+      "title": "28º aniversário do MC Estradeiros da Liberdade",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 3,
+      "specific_independent_domains": 3
+    },
+    {
+      "url": "/eventos/novo-amanha-me-limeira-sp-2026-09-05/",
+      "slug": "novo-amanha-me-limeira-sp-2026-09-05",
+      "title": "2º Aniversário do Novo Amanhã Moto Evangelismo",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/2-encontro-de-motociclista-santa-fe-do-sul-sp-2026-08-30/",
+      "slug": "2-encontro-de-motociclista-santa-fe-do-sul-sp-2026-08-30",
+      "title": "2º Encontro de Motociclistas de Santa Fé do Sul",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/cavera-do-asfalto-mc-jaboticabal-sp-2026-08-29/",
+      "slug": "cavera-do-asfalto-mc-jaboticabal-sp-2026-08-29",
+      "title": "2º Encontro de Motociclistas e Triciclistas — 40 anos do Cavera do Asfalto MC",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/aguias-do-redentor-mc-itamarandiba-mg-2026-08-22/",
+      "slug": "aguias-do-redentor-mc-itamarandiba-mg-2026-08-22",
+      "title": "2º Itamarandiba Motorock",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/2-moto-cafe-paraguacu-paulista-sp-2026-09-20/",
+      "slug": "2-moto-cafe-paraguacu-paulista-sp-2026-09-20",
+      "title": "2º Moto Café de Paraguaçu Paulista",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/2-motoshow-presidente-alves-sp-2026-10-10/",
+      "slug": "2-motoshow-presidente-alves-sp-2026-10-10",
+      "title": "2º MotoShow de Presidente Alves",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/2-motofest-vicosa-mg-2026-09-03/",
+      "slug": "2-motofest-vicosa-mg-2026-09-03",
+      "title": "2º Motofest de Viçosa",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/tour-sao-francisco-itabapoana-2026/",
+      "slug": "tour-sao-francisco-itabapoana-2026",
+      "title": "2º Tour São Francisco 2026",
+      "source_kind": "evento",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 7,
+      "specific_independent_domains": 4
+    },
+    {
+      "url": "/eventos/3-encontro-de-motociclistas-penedo-mg-2026-07-30/",
+      "slug": "3-encontro-de-motociclistas-penedo-mg-2026-07-30",
+      "title": "3 Encontro de Motociclistas de Penedo",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/motofest-alagoinhas-ba-2026-08-28/",
+      "slug": "motofest-alagoinhas-ba-2026-08-28",
+      "title": "3º Alagoinhas Moto Fest",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/caveiras-do-asfalto-missao-velha-ce-2026-09-26/",
+      "slug": "caveiras-do-asfalto-missao-velha-ce-2026-09-26",
+      "title": "3º Aniversário da Família Caveiras do Asfalto",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/3-cafe-rock-cafelandia-sp-2026-08-15/",
+      "slug": "3-cafe-rock-cafelandia-sp-2026-08-15",
+      "title": "3º Café Rock de Cafelândia",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/frances-moto-fest-praia-do-frances-marechal-deodoro-al-2026-09-25/",
+      "slug": "frances-moto-fest-praia-do-frances-marechal-deodoro-al-2026-09-25",
+      "title": "3º Francês Moto Fest 2026",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/4-festival-da-pimenta-e-motorock-uru-sp-2026-10-30/",
+      "slug": "4-festival-da-pimenta-e-motorock-uru-sp-2026-10-30",
+      "title": "4 Festival da Pimenta e MotoRock de Uru",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/4-missa-do-motociclistas-e-triciclista-bebedouro-sp-2026-11-08/",
+      "slug": "4-missa-do-motociclistas-e-triciclista-bebedouro-sp-2026-11-08",
+      "title": "4 Missa do Motociclistas e Triciclista",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/4o-motofest-vem-pro-ride-belo-horizonte-belo-horizonte-mg-2026-08-29/",
+      "slug": "4o-motofest-vem-pro-ride-belo-horizonte-belo-horizonte-mg-2026-08-29",
+      "title": "4º Motofest Vem pro Ride 2026 — Belo Horizonte/MG",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 3,
+      "specific_independent_domains": 3
+    },
+    {
+      "url": "/eventos/5-encontro-de-motociclistas-cravinhos-sp-2026-08-23/",
+      "slug": "5-encontro-de-motociclistas-cravinhos-sp-2026-08-23",
+      "title": "5 Encontro de Motociclistas de Cravinhos",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/guerreiros-alados-mc-braganca-paulista-sp-2026-11-29/",
+      "slug": "guerreiros-alados-mc-braganca-paulista-sp-2026-11-29",
+      "title": "5º Aniversário do Guerreiros Alados MC",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/motofest-divino-mg-2026-12-04/",
+      "slug": "motofest-divino-mg-2026-12-04",
+      "title": "5º Divino Moto Fest",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/5o-aniversario-do-valentinas-do-asfalto-mc-minas-gerais-belo-horizonte-mg-belo-horizonte-mg-2026-08-23/",
+      "slug": "5o-aniversario-do-valentinas-do-asfalto-mc-minas-gerais-belo-horizonte-mg-belo-horizonte-mg-2026-08-23",
+      "title": "5º aniversário das Valentinas do Asfalto — Belo Horizonte/MG",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 4,
+      "specific_independent_domains": 4
+    },
+    {
+      "url": "/eventos/guardiao-do-destino-mf-salto-de-pirapora-sp-2026-08-22/",
+      "slug": "guardiao-do-destino-mf-salto-de-pirapora-sp-2026-08-22",
+      "title": "6º Aniversário do Guardião do Destino MF",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/mc-renascidos-da-irmandade-belford-roxo-rj-2026-08-22/",
+      "slug": "mc-renascidos-da-irmandade-belford-roxo-rj-2026-08-22",
+      "title": "6º aniversário do MC Renascidos da Irmandade",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/7o-encontro-de-motos-e-de-carros-classicos-de-rio-acima-rio-acima-mg-2026-08-15/",
+      "slug": "7o-encontro-de-motos-e-de-carros-classicos-de-rio-acima-rio-acima-mg-2026-08-15",
+      "title": "7º Encontro de Motos e Carros Clássicos de Rio Acima/MG",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 3,
+      "specific_independent_domains": 3
+    },
+    {
+      "url": "/eventos/mc-rota-110-jeremoabo-ba-2026-09-11/",
+      "slug": "mc-rota-110-jeremoabo-ba-2026-09-11",
+      "title": "7º Moto Fest do MC Rota 110",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/9-encontro-de-motociclistas-e-triciclistas-lutecia-sp-2026-11-07/",
+      "slug": "9-encontro-de-motociclistas-e-triciclistas-lutecia-sp-2026-11-07",
+      "title": "9 Encontro de Motociclistas e Triciclistas",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/9-passeio-dia-do-motociclista-maceio-al-2026-07-26/",
+      "slug": "9-passeio-dia-do-motociclista-maceio-al-2026-07-26",
+      "title": "9 Passeio Dia do Motociclista",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/mc-os-mamutes-e-road-rhino-mc-rio-de-janeiro-rj-2026-09-13/",
+      "slug": "mc-os-mamutes-e-road-rhino-mc-rio-de-janeiro-rj-2026-09-13",
+      "title": "9 anos dos Os Mamutes MC e 1 ano do Road Rhino MC",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 4,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/amm-duque-de-caxias-rj-2026-08-02/",
+      "slug": "amm-duque-de-caxias-rj-2026-08-02",
+      "title": "AMM",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/aguais-de-cristo-mc-belo-horizonte-mg-2026-08-15/",
+      "slug": "aguais-de-cristo-mc-belo-horizonte-mg-2026-08-15",
+      "title": "Aguais de Cristo MC",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/amigos-do-asfalto-mc-ibatiba-es-2026-08-08/",
+      "slug": "amigos-do-asfalto-mc-ibatiba-es-2026-08-08",
+      "title": "Amigos do Asfalto MC — encontro em Ibatiba",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/amigos-do-pedrinho-virginia-mg-2026-09-25/",
+      "slug": "amigos-do-pedrinho-virginia-mg-2026-09-25",
+      "title": "Amigos do Pedrinho — Encontro de Motociclismo de Virgínia",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/amigos-na-estrada-mc-sao-jose-do-vale-do-rio-preto-rj-2026-08-23/",
+      "slug": "amigos-na-estrada-mc-sao-jose-do-vale-do-rio-preto-rj-2026-08-23",
+      "title": "Amigos na Estrada MC",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 3,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/amigos-na-estrada-mc-sao-jose-do-vale-rio-preto-rj-2026-08-23/",
+      "slug": "amigos-na-estrada-mc-sao-jose-do-vale-rio-preto-rj-2026-08-23",
+      "title": "Amigos na Estrada MC",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/zapata-mc-embu-guacu-sp-2026-09-19/",
+      "slug": "zapata-mc-embu-guacu-sp-2026-09-19",
+      "title": "Aniversário das facções do Zapata MC em Embu-Guaçu",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/aniversario-santificados-mc-contagem-contagem-mg-2026-08-16/",
+      "slug": "aniversario-santificados-mc-contagem-contagem-mg-2026-08-16",
+      "title": "Aniversário do Santificados MC — Contagem/MG",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 3,
+      "specific_independent_domains": 2
+    },
+    {
+      "url": "/eventos/motofest-araraquara-sp-2026-08-16/",
+      "slug": "motofest-araraquara-sp-2026-08-16",
+      "title": "Araraquara Moto Fest",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/autoridade-mc-uboranga-mg-2026-09-04/",
+      "slug": "autoridade-mc-uboranga-mg-2026-09-04",
+      "title": "Autoridade MC",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/beneficente-votorantim-sp-2026-07-25/",
+      "slug": "beneficente-votorantim-sp-2026-07-25",
+      "title": "BENEFICENTE",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/beneficente-gdr-jaci-sp-2026-08-02/",
+      "slug": "beneficente-gdr-jaci-sp-2026-08-02",
+      "title": "BENEFICENTE GDR",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/bandidas-brasil-itaguai-rj-2026-10-24/",
+      "slug": "bandidas-brasil-itaguai-rj-2026-10-24",
+      "title": "Bandidas Brasil",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/baroes-do-vento-mg-cosmopolis-sp-2026-11-13/",
+      "slug": "baroes-do-vento-mg-cosmopolis-sp-2026-11-13",
+      "title": "Baroes do Vento MG",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/motofest-barreirinhas-ma-2026-11-06/",
+      "slug": "motofest-barreirinhas-ma-2026-11-06",
+      "title": "Barreirinhas Moto Fest",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/motofest-blumenau-sc-2026-07-31/",
+      "slug": "motofest-blumenau-sc-2026-07-31",
+      "title": "Blumenau Moto Fest",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-29",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/bodes-do-asfalto-mc-praia-grande-sp-2026-08-01/",
+      "slug": "bodes-do-asfalto-mc-praia-grande-sp-2026-08-01",
+      "title": "Bodes do Asfalto MC de Praia Grande",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/cafe-beneficente-presidente-prudente-sp-2026-07-26/",
+      "slug": "cafe-beneficente-presidente-prudente-sp-2026-07-26",
+      "title": "CAFE BENEFICENTE",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/cachorro-grande-mg-niteroi-rj-2026-07-31/",
+      "slug": "cachorro-grande-mg-niteroi-rj-2026-07-31",
+      "title": "Cachorro Grande MG",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/motofest-caiaponia-go-2026-08-05/",
+      "slug": "motofest-caiaponia-go-2026-08-05",
+      "title": "Caiapônia Moto Fest",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 3,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/campeonato-brasileiro-de-paraciclismo-de-pista-2026-2026-10-16/",
+      "slug": "campeonato-brasileiro-de-paraciclismo-de-pista-2026-2026-10-16",
+      "title": "Campeonato Brasileiro de Paraciclismo de Pista 2026",
+      "source_kind": "calendario",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/cena-camping-cachoeira-de-natuba-pb-cachoeira-de-natuba-pb-2026-08-22/",
+      "slug": "cena-camping-cachoeira-de-natuba-pb-cachoeira-de-natuba-pb-2026-08-22",
+      "title": "Cena Camping — Cachoeira de Natuba/PB",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 3,
+      "specific_independent_domains": 3
+    },
+    {
+      "url": "/eventos/circuito-do-estreito-2026-11-29/",
+      "slug": "circuito-do-estreito-2026-11-29",
+      "title": "Circuito do Estreito — XCO",
+      "source_kind": "calendario",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/circuito-do-estreito-xco-2026-11-29/",
+      "slug": "circuito-do-estreito-xco-2026-11-29",
+      "title": "Circuito do Estreito — XCO",
+      "source_kind": "calendario",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/classicos-estraderios-mg-rio-de-janeiro-rj-2026-10-11/",
+      "slug": "classicos-estraderios-mg-rio-de-janeiro-rj-2026-10-11",
+      "title": "Classicos Estraderios MG",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/classics-estradeiros-mg-rio-de-janeiro-rj-2026-10-11/",
+      "slug": "classics-estradeiros-mg-rio-de-janeiro-rj-2026-10-11",
+      "title": "Classics Estradeiros MG",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/companhia-do-asfalto-mg-itaborai-rj-2026-08-16/",
+      "slug": "companhia-do-asfalto-mg-itaborai-rj-2026-08-16",
+      "title": "Companhia do Asfalto MG — Itaboraí",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/confraria-das-aguias-mg-skulls-on-the-ride-mc-contagem-mg-2026-08-08/",
+      "slug": "confraria-das-aguias-mg-skulls-on-the-ride-mc-contagem-mg-2026-08-08",
+      "title": "Confraria das Águias MG e Skulls On The Ride MC",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/motofest-correntina-ba-2026-08-14/",
+      "slug": "motofest-correntina-ba-2026-08-14",
+      "title": "Correntina Moto Fest",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/desalmado-mg-nova-iguacu-rj-2026-08-01/",
+      "slug": "desalmado-mg-nova-iguacu-rj-2026-08-01",
+      "title": "Desalmado MG",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/dia-dos-motociclistas-alagoinhas-ba-2026-07-26/",
+      "slug": "dia-dos-motociclistas-alagoinhas-ba-2026-07-26",
+      "title": "Dia dos Motociclistas",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/discipulo-e-honta-mc-rio-de-janeiro-rj-2026-08-08/",
+      "slug": "discipulo-e-honta-mc-rio-de-janeiro-rj-2026-08-08",
+      "title": "Discipulo e Honta MC",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/peaky-blinders-mg-terezinha-pe-2026-09-06/",
+      "slug": "peaky-blinders-mg-terezinha-pe-2026-09-06",
+      "title": "Encontro Peaky Blinders MG em Terezinha — 6 de setembro de 2026",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/rat-bike-salto-grande-sp-2026-09-05/",
+      "slug": "rat-bike-salto-grande-sp-2026-09-05",
+      "title": "Encontro Rat Bike em Salto Grande — 5 a 7 de setembro de 2026",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/resiliencia-mc-fervedouro-mg-2026-11-21/",
+      "slug": "resiliencia-mc-fervedouro-mg-2026-11-21",
+      "title": "Encontro Resiliência MC em Fervedouro — 21 e 22 de novembro de 2026",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/rock-chopper-mc-rio-das-ostras-rj-2026-10-17/",
+      "slug": "rock-chopper-mc-rio-das-ostras-rj-2026-10-17",
+      "title": "Encontro Rock Chopper MC em Rio das Ostras — 17 de outubro de 2026",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/rota-064-mc-rio-verde-go-2026-09-19/",
+      "slug": "rota-064-mc-rio-verde-go-2026-09-19",
+      "title": "Encontro Rota 064 MC em Rio Verde — 19 e 20 de setembro de 2026",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/serra-branca-mc-sume-pb-2026-07-26/",
+      "slug": "serra-branca-mc-sume-pb-2026-07-26",
+      "title": "Encontro Serra Branca MC em Sumé — 26 de julho de 2026",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/sicarios-mc-ipuiuna-mg-2026-08-15/",
+      "slug": "sicarios-mc-ipuiuna-mg-2026-08-15",
+      "title": "Encontro Sicários MC em Ipuiúna — 15 e 16 de agosto de 2026",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/solidario-jaci-sp-2026-08-02/",
+      "slug": "solidario-jaci-sp-2026-08-02",
+      "title": "Encontro Solidário em Jaci — 2 de agosto de 2026",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/yamaha-vmax-mairipora-sp-2026-07-25/",
+      "slug": "yamaha-vmax-mairipora-sp-2026-07-25",
+      "title": "Encontro Yamaha VMAX em Mairiporã — 25 de julho de 2026",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/encontro-de-motociclistas-iguaba-grande-rj-2026-09-04/",
+      "slug": "encontro-de-motociclistas-iguaba-grande-rj-2026-09-04",
+      "title": "Encontro de Motociclistas",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/encoontro-de-motociclistas-sume-pb-2026-07-26/",
+      "slug": "encoontro-de-motociclistas-sume-pb-2026-07-26",
+      "title": "Encontro de Motociclistas de Sumé",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/espirito-de-agua-mc-contagem-mg-2026-08-22/",
+      "slug": "espirito-de-agua-mc-contagem-mg-2026-08-22",
+      "title": "Espirito de Agua MC",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/evneto-em-conjunto-sao-pedro-d-aldeia-rj-2026-08-02/",
+      "slug": "evneto-em-conjunto-sao-pedro-d-aldeia-rj-2026-08-02",
+      "title": "Evento em conjunto — São Pedro d’Aldeia",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/fmc-sao-paulo-sp-2026-07-25/",
+      "slug": "fmc-sao-paulo-sp-2026-07-25",
+      "title": "FMC",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/festival-gorila-carmo-do-paranaiba-mg-2026-07-26/",
+      "slug": "festival-gorila-carmo-do-paranaiba-mg-2026-07-26",
+      "title": "Festival Gorila",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/gp-goias-de-paraciclismo-2026-08-01/",
+      "slug": "gp-goias-de-paraciclismo-2026-08-01",
+      "title": "GP Goiás de Paraciclismo 2026",
+      "source_kind": "calendario",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "fonte_primaria"
+      ],
+      "source_count": 3,
+      "specific_independent_domains": 2
+    },
+    {
+      "url": "/eventos/gp-goias-de-paraciclismo-2026-2026-08-01/",
+      "slug": "gp-goias-de-paraciclismo-2026-2026-08-01",
+      "title": "GP Goiás de Paraciclismo 2026",
+      "source_kind": "calendario",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "fonte_primaria"
+      ],
+      "source_count": 3,
+      "specific_independent_domains": 2
+    },
+    {
+      "url": "/eventos/gp-de-ciclismo-de-estrada-2026-09-06/",
+      "slug": "gp-de-ciclismo-de-estrada-2026-09-06",
+      "title": "GP de Ciclismo de Estrada 2026 — adiado",
+      "source_kind": "calendario",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 3,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/gp-de-ciclismo-de-estrada-2026-adiado-2026-09-06/",
+      "slug": "gp-de-ciclismo-de-estrada-2026-adiado-2026-09-06",
+      "title": "GP de Ciclismo de Estrada 2026 — adiado",
+      "source_kind": "calendario",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 3,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/gp-de-paraciclismo-de-estrada-2026-09-06/",
+      "slug": "gp-de-paraciclismo-de-estrada-2026-09-06",
+      "title": "GP de Paraciclismo de Estrada 2026 — adiado",
+      "source_kind": "calendario",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/gp-de-paraciclismo-de-estrada-2026-adiado-2026-09-06/",
+      "slug": "gp-de-paraciclismo-de-estrada-2026-adiado-2026-09-06",
+      "title": "GP de Paraciclismo de Estrada 2026 — adiado",
+      "source_kind": "calendario",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/garras-sobre-rodas-rio-de-janeiro-rj-2026-08-15/",
+      "slug": "garras-sobre-rodas-rio-de-janeiro-rj-2026-08-15",
+      "title": "Garras Sobre Rodas",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/guardiao-noturno-mc-mage-rj-2026-08-16/",
+      "slug": "guardiao-noturno-mc-mage-rj-2026-08-16",
+      "title": "Guardiao Noturno MC",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/guardioes-do-horizonte-mc-porto-da-folha-se-2026-08-08/",
+      "slug": "guardioes-do-horizonte-mc-porto-da-folha-se-2026-08-08",
+      "title": "Guardioes do Horizonte MC",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/its-timburi-sp-2026-08-13/",
+      "slug": "its-timburi-sp-2026-08-13",
+      "title": "ITS",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 3,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/motofest-iguatu-pr-2026-07-30/",
+      "slug": "motofest-iguatu-pr-2026-07-30",
+      "title": "Iguatu Moto Fest",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/ilha-mc-ilha-do-governador-rio-de-janeiro-rj-2026-08-15/",
+      "slug": "ilha-mc-ilha-do-governador-rio-de-janeiro-rj-2026-08-15",
+      "title": "Ilha MC",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/ilha-mc-ilha-do-governador-rj-2026-07-28/",
+      "slug": "ilha-mc-ilha-do-governador-rj-2026-07-28",
+      "title": "Ilha MC de Ilha do Governador — 28 de julho",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 3,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/imperador-do-asfalto-mc-porto-real-rj-2026-07-26/",
+      "slug": "imperador-do-asfalto-mc-porto-real-rj-2026-07-26",
+      "title": "Imperador do Asfalto MC",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/irmaos-das-sombras-mc-senador-vasconcelos-rio-de-janerio-rj-2026-08-01/",
+      "slug": "irmaos-das-sombras-mc-senador-vasconcelos-rio-de-janerio-rj-2026-08-01",
+      "title": "Irmaos das Sombras MC",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/jaguar-negro-mc-the-steel-skulls-mc-belo-horizonte-mg-2026-08-08/",
+      "slug": "jaguar-negro-mc-the-steel-skulls-mc-belo-horizonte-mg-2026-08-08",
+      "title": "Jaguar Negro MC",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 1,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/jaguar-negro-mc-e-the-steel-skulls-mc-belo-horizonte-mg-2026-08-08/",
+      "slug": "jaguar-negro-mc-e-the-steel-skulls-mc-belo-horizonte-mg-2026-08-08",
+      "title": "Jaguar Negro MC e The Steel Skulls MC",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 3,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/kveiras-do-amanhecer-belo-horizonte-mg-2026-07-25/",
+      "slug": "kveiras-do-amanhecer-belo-horizonte-mg-2026-07-25",
+      "title": "Kveiras do Amanhecer",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 1,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/lady-rider-mg-jacana-sao-paulo-sp-2026-08-15/",
+      "slug": "lady-rider-mg-jacana-sao-paulo-sp-2026-08-15",
+      "title": "Lady Rider MG",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 3,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/mc-anjos-da-estrada-belo-horizonte-mg-2026-08-22/",
+      "slug": "mc-anjos-da-estrada-belo-horizonte-mg-2026-08-22",
+      "title": "MC Anjos da Estrada",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 3,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/mc-brucutu-s-bom-jesus-do-amparo-mg-2026-09-04/",
+      "slug": "mc-brucutu-s-bom-jesus-do-amparo-mg-2026-09-04",
+      "title": "MC Brucutu’s",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/mc-campos-compos-dos-goytacazes-rj-2026-07-24/",
+      "slug": "mc-campos-compos-dos-goytacazes-rj-2026-07-24",
+      "title": "MC Campos",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/mc-ponta-negra-marica-rj-2026-10-31/",
+      "slug": "mc-ponta-negra-marica-rj-2026-10-31",
+      "title": "MC Ponta Negra",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/motocafe-santopolis-do-aguapei-sp-2026-09-20/",
+      "slug": "motocafe-santopolis-do-aguapei-sp-2026-09-20",
+      "title": "MOTOCAFE",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/motofest-lagoinha-sao-jose-do-rio-preto-sp-2026-11-21/",
+      "slug": "motofest-lagoinha-sao-jose-do-rio-preto-sp-2026-11-21",
+      "title": "MOTOFEST LAGOINHA",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/motorock-uru-sp-2026-10-30/",
+      "slug": "motorock-uru-sp-2026-10-30",
+      "title": "MOTOROCK",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 1,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/majestade-mc-cruzeiro-sp-2026-08-01/",
+      "slug": "majestade-mc-cruzeiro-sp-2026-08-01",
+      "title": "Majestade MC",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/missa-dos-motociclistas-catas-altas-mg-2026-07-26/",
+      "slug": "missa-dos-motociclistas-catas-altas-mg-2026-07-26",
+      "title": "Missa dos Motociclistas de Catas Altas",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/missa-dos-motociclistas-volta-redonda-rj-2026-07-27/",
+      "slug": "missa-dos-motociclistas-volta-redonda-rj-2026-07-27",
+      "title": "Missa dos Motociclistas de Volta Redonda",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/moto-cafe-santopolis-do-aguapei-sp-2026-09-20/",
+      "slug": "moto-cafe-santopolis-do-aguapei-sp-2026-09-20",
+      "title": "Moto Café 2026 de Santópolis do Aguapeí",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 4,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/moto-fest-lagoinha-sao-jose-do-rio-preto-sp-2026-11-21/",
+      "slug": "moto-fest-lagoinha-sao-jose-do-rio-preto-sp-2026-11-21",
+      "title": "Moto Fest Lagoinha 2026",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 4,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/moto-rock-marechal-floriano-es-marechal-floriano-es-2026-08-15/",
+      "slug": "moto-rock-marechal-floriano-es-marechal-floriano-es-2026-08-15",
+      "title": "Moto Rock dos Búfalos — Marechal Floriano/ES",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 4,
+      "specific_independent_domains": 3
+    },
+    {
+      "url": "/eventos/motocafe-jales-sp-2026-07-25/",
+      "slug": "motocafe-jales-sp-2026-07-25",
+      "title": "Motocafé em Jales — 25 de julho de 2026",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/motorock-macaubas-ba-2026-08-07/",
+      "slug": "motorock-macaubas-ba-2026-08-07",
+      "title": "Motorock Macaúbas — 7 e 8 de agosto de 2026",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/motorock-macaubas-ba-2026-08-08/",
+      "slug": "motorock-macaubas-ba-2026-08-08",
+      "title": "Motorock Macaúbas — 8 de agosto de 2026",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/motorock-turmalina-mg-2026-07-25/",
+      "slug": "motorock-turmalina-mg-2026-07-25",
+      "title": "Motorock em Turmalina — 25 de julho de 2026",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/mundicas-o-chamado-da-estrada-nova-pauliceia-sp-2026-08-09/",
+      "slug": "mundicas-o-chamado-da-estrada-nova-pauliceia-sp-2026-08-09",
+      "title": "Mundicas",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/niver-triplo-sao-pedro-d-aldeia-rj-2026-08-02/",
+      "slug": "niver-triplo-sao-pedro-d-aldeia-rj-2026-08-02",
+      "title": "NIVER TRIPLO",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/nostalgia-mc-caes-de-zorba-mc-santa-barbara-d-oeste-sp-2026-09-18/",
+      "slug": "nostalgia-mc-caes-de-zorba-mc-santa-barbara-d-oeste-sp-2026-09-18",
+      "title": "Nostalgia MC",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/old-scooters-day-2026-sorocaba-sp-sorocaba-sp-2026-08-22/",
+      "slug": "old-scooters-day-2026-sorocaba-sp-sorocaba-sp-2026-08-22",
+      "title": "Old Scooters Day 2026 — Sorocaba/SP",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 4,
+      "specific_independent_domains": 3
+    },
+    {
+      "url": "/eventos/os-mutantes-mc-e-road-rhino-mc-rio-de-janeiro-rj-2026-09-13/",
+      "slug": "os-mutantes-mc-e-road-rhino-mc-rio-de-janeiro-rj-2026-09-13",
+      "title": "Os Mutantes MC e Road Rhino MC",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/pererecas-mc-belford-roxo-rio-de-janeiro-rj-2026-07-25/",
+      "slug": "pererecas-mc-belford-roxo-rio-de-janeiro-rj-2026-07-25",
+      "title": "Pererecas MC",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/moto-festival-pocos-de-caldas-mg-2026-08-07/",
+      "slug": "moto-festival-pocos-de-caldas-mg-2026-08-07",
+      "title": "Poços de Caldas Moto Festival",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-29",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/rat-bike-brasil-jeceaba-mg-2026-08-15/",
+      "slug": "rat-bike-brasil-jeceaba-mg-2026-08-15",
+      "title": "Rat Bike Brasil",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/raca-livre-mg-sao-carlos-sp-2026-09-05/",
+      "slug": "raca-livre-mg-sao-carlos-sp-2026-09-05",
+      "title": "Raça Livre MG em São Carlos — 5 a 7 de setembro de 2026",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/rock-chopper-mc-saquarema-rj-2026-08-15/",
+      "slug": "rock-chopper-mc-saquarema-rj-2026-08-15",
+      "title": "Rock Chopper MC",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/smj-moto-fest-santa-maria-de-jetiba-santa-maria-de-jetiba-es-2026-08-28/",
+      "slug": "smj-moto-fest-santa-maria-de-jetiba-santa-maria-de-jetiba-es-2026-08-28",
+      "title": "SMJ Moto Fest 2026 — Santa Maria de Jetibá/ES",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 3,
+      "specific_independent_domains": 3
+    },
+    {
+      "url": "/eventos/moto-fest-senador-amaral-mg-2026-08-28/",
+      "slug": "moto-fest-senador-amaral-mg-2026-08-28",
+      "title": "Senador Amaral Moto Fest",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/motofest-serra-es-2026-07-31/",
+      "slug": "motofest-serra-es-2026-07-31",
+      "title": "Serra Moto Fest",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/speed-night-fest-brigui-sp-2026-08-08/",
+      "slug": "speed-night-fest-brigui-sp-2026-08-08",
+      "title": "Speed Night Fest — “Brigui/SP”, 8 de agosto de 2026",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/terapia-na-estrada-macae-rj-2026-08-15/",
+      "slug": "terapia-na-estrada-macae-rj-2026-08-15",
+      "title": "Terapia na Estrada de Macaé — 15 de agosto de 2026",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/terapia-na-estrada-macae-rj-2026-08-08/",
+      "slug": "terapia-na-estrada-macae-rj-2026-08-08",
+      "title": "Terapia na Estrada de Macaé — 8 de agosto de 2026",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 1,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/v-encontro-nacional-ijaci-mg-2026-08-28/",
+      "slug": "v-encontro-nacional-ijaci-mg-2026-08-28",
+      "title": "V Encontro Nacional",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/motociata-dumont-sp-2026-10-12/",
+      "slug": "motociata-dumont-sp-2026-10-12",
+      "title": "V Motociata de Dumont",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-22",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/11o-niver-kranios-kromados-mc-saquarema-rj-saquarema-rj-2026-08-22/",
+      "slug": "11o-niver-kranios-kromados-mc-saquarema-rj-saquarema-rj-2026-08-22",
+      "title": "11º aniversário do Moto Clube Kranios Kromados",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 2
+    },
+    {
+      "url": "/eventos/cancelado-13o-aniversario-do-revolucionarios-de-minas-mc-cancelado-uba-mg-2026-08-15/",
+      "slug": "cancelado-13o-aniversario-do-revolucionarios-de-minas-mc-cancelado-uba-mg-2026-08-15",
+      "title": "13º aniversário do Revolucionários de Minas MC — cancelado",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 2
+    },
+    {
+      "url": "/eventos/152o-bh-motopoint-uniao-dos-motoclubes-da-grande-bh-contagem-bh-mg-2026-08-11/",
+      "slug": "152o-bh-motopoint-uniao-dos-motoclubes-da-grande-bh-contagem-bh-mg-2026-08-11",
+      "title": "152º BH Motopoint — União dos Motoclubes da Grande BH",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 3,
+      "specific_independent_domains": 2
+    },
+    {
+      "url": "/eventos/niver-do-predadores-das-gerais-16-anos-belo-horizonte-belo-horizonte-mg-2026-08-02/",
+      "slug": "niver-do-predadores-das-gerais-16-anos-belo-horizonte-belo-horizonte-mg-2026-08-02",
+      "title": "16 anos do Predadores das Gerais — Belo Horizonte/MG",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 3,
+      "specific_independent_domains": 3
+    },
+    {
+      "url": "/eventos/19o-aniversario-irados-porcos-selvagens-ouro-preto-ouro-preto-mg-2026-08-21/",
+      "slug": "19o-aniversario-irados-porcos-selvagens-ouro-preto-ouro-preto-mg-2026-08-21",
+      "title": "19º aniversário do Moto Clube Irados Porcos Selvagens",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 2
+    },
+    {
+      "url": "/eventos/1o-inimutaba-motofest-inimutaba-mg-2026-08-15/",
+      "slug": "1o-inimutaba-motofest-inimutaba-mg-2026-08-15",
+      "title": "1º Inimutaba Motofest",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 2
+    },
+    {
+      "url": "/eventos/1o-moto-encontro-amigos-do-asfalto-litoral-norte-imbe-imbe-rs-2026-08-08/",
+      "slug": "1o-moto-encontro-amigos-do-asfalto-litoral-norte-imbe-imbe-rs-2026-08-08",
+      "title": "1º Moto Encontro Amigos do Asfalto Litoral Norte",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 3,
+      "specific_independent_domains": 3
+    },
+    {
+      "url": "/eventos/1-motofest-de-monsenhor-joao-alexandre-claudio-mg-claudio-mg-2026-08-07/",
+      "slug": "1-motofest-de-monsenhor-joao-alexandre-claudio-mg-claudio-mg-2026-08-07",
+      "title": "1º Motofest de Monsenhor João Alexandre",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 2
+    },
+    {
+      "url": "/eventos/1o-motopoint-os-pe-vermeio-do-asfalto-itatiaiucu-itatiaiucu-mg-2026-08-16/",
+      "slug": "1o-motopoint-os-pe-vermeio-do-asfalto-itatiaiucu-itatiaiucu-mg-2026-08-16",
+      "title": "1º Motopoint Os Pé Vermeio do Asfalto",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 3,
+      "specific_independent_domains": 3
+    },
+    {
+      "url": "/eventos/cancelado-2o-passos-moto-festival-cancelado-passos-mg-2026-08-21/",
+      "slug": "cancelado-2o-passos-moto-festival-cancelado-passos-mg-2026-08-21",
+      "title": "2º Passos Moto Festival 2026 — cancelado",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 4,
+      "specific_independent_domains": 3
+    },
+    {
+      "url": "/eventos/5-dragon-moto-fest-5-aniversario-dragoes-de-minas-belo-horizonte-belo-horizonte-mg-2026-08-22/",
+      "slug": "5-dragon-moto-fest-5-aniversario-dragoes-de-minas-belo-horizonte-belo-horizonte-mg-2026-08-22",
+      "title": "5º Dragon Moto Fest — 5º aniversário dos Dragões de Minas",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 2
+    },
+    {
+      "url": "/eventos/5o-encontro-de-motociclistas-de-matozinhos-mg-matozinhos-mg-2026-08-14/",
+      "slug": "5o-encontro-de-motociclistas-de-matozinhos-mg-matozinhos-mg-2026-08-14",
+      "title": "5º Encontro de Motociclistas de Matozinhos/MG",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 4,
+      "specific_independent_domains": 4
+    },
+    {
+      "url": "/eventos/5o-moto-fest-bom-sucesso-bom-sucesso-mg-2026-08-21/",
+      "slug": "5o-moto-fest-bom-sucesso-bom-sucesso-mg-2026-08-21",
+      "title": "5º Moto Fest de Bom Sucesso/MG",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 4,
+      "specific_independent_domains": 4
+    },
+    {
+      "url": "/eventos/7-aniv-do-mc-levante-viii-e-de-4-anos-do-mg-rangers-wild-west-belo-horizonte-belo-horizonte-mg-2026-08-08/",
+      "slug": "7-aniv-do-mc-levante-viii-e-de-4-anos-do-mg-rangers-wild-west-belo-horizonte-belo-horizonte-mg-2026-08-08",
+      "title": "7 anos do MC Levante VIII e 4 anos do MG Rangers Wild West — Belo Horizonte/MG",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 2
+    },
+    {
+      "url": "/eventos/8o-aniversario-do-mc-ronin-of-road-itabira-itabira-mg-2026-08-16/",
+      "slug": "8o-aniversario-do-mc-ronin-of-road-itabira-itabira-mg-2026-08-16",
+      "title": "8º aniversário do MC Ronin of the Road — Itabira/MG",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 3,
+      "specific_independent_domains": 3
+    },
+    {
+      "url": "/eventos/celebracao-de-aniversarios-de-mcs-contagem-contagem-mg-2026-08-08/",
+      "slug": "celebracao-de-aniversarios-de-mcs-contagem-contagem-mg-2026-08-08",
+      "title": "Celebração de aniversários de motoclubes — Contagem/MG",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 2
+    },
+    {
+      "url": "/eventos/copa-recife-de-bmx-2026-11-29/",
+      "slug": "copa-recife-de-bmx-2026-11-29",
+      "title": "Copa Recife de BMX 2026",
+      "source_kind": "calendario",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria"
+      ],
+      "source_count": 3,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/copa-recife-de-bmx-2026-2026-11-29/",
+      "slug": "copa-recife-de-bmx-2026-2026-11-29",
+      "title": "Copa Recife de BMX 2026",
+      "source_kind": "calendario",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria"
+      ],
+      "source_count": 3,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/motofest-extrema-mg-2026-07-31/",
+      "slug": "motofest-extrema-mg-2026-07-31",
+      "title": "Extrema Moto Fest",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-29",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria"
+      ],
+      "source_count": 0,
+      "specific_independent_domains": 0
+    },
+    {
+      "url": "/eventos/moto-cafe-paraguacu-paulista-sp-2026-09-20/",
+      "slug": "moto-cafe-paraguacu-paulista-sp-2026-09-20",
+      "title": "MOTO CAFE",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria"
+      ],
+      "source_count": 0,
+      "specific_independent_domains": 0
+    },
+    {
+      "url": "/eventos/motoshow-2026-tres-lagoas-ms-2026-07-31/",
+      "slug": "motoshow-2026-tres-lagoas-ms-2026-07-31",
+      "title": "Motoshow 2026",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria"
+      ],
+      "source_count": 1,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/mutum-moto-rock-mutum-mg-2026-08-14/",
+      "slug": "mutum-moto-rock-mutum-mg-2026-08-14",
+      "title": "Mutum Moto Rock 2026 — Mutum/MG",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 4,
+      "specific_independent_domains": 4
+    },
+    {
+      "url": "/eventos/motofest-paranavai-pr-2026-09-04/",
+      "slug": "motofest-paranavai-pr-2026-09-04",
+      "title": "Paranavaí Moto Fest",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-29",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria"
+      ],
+      "source_count": 0,
+      "specific_independent_domains": 0
+    },
+    {
+      "url": "/eventos/motofest-resende-rj-2026-09-20/",
+      "slug": "motofest-resende-rj-2026-09-20",
+      "title": "Resende Moto Fest",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-29",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria"
+      ],
+      "source_count": 1,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/santa-barbara-motofest-santa-barbara-do-monte-verde-mg-2026-08-14/",
+      "slug": "santa-barbara-motofest-santa-barbara-do-monte-verde-mg-2026-08-14",
+      "title": "Santa Bárbara Motofest 2026 — Santa Bárbara do Monte Verde/MG",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 3,
+      "specific_independent_domains": 3
+    },
+    {
+      "url": "/eventos/1o-aniversario-area-51-motoclube-caratinga-caratinga-mg-2026-08-16/",
+      "slug": "1o-aniversario-area-51-motoclube-caratinga-caratinga-mg-2026-08-16",
+      "title": "1º aniversário do Área 51 MC Caratinga",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/moto-fest-vargem-bonita-cancelado-vargem-bonita-mg-2026-08-08/",
+      "slug": "moto-fest-vargem-bonita-cancelado-vargem-bonita-mg-2026-08-08",
+      "title": "Moto Fest Vargem Bonita 2026 — cancelado",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 1,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/motopoint-centenario-de-sao-joao-evangelista-sao-joao-evangelista-mg-2026-08-01/",
+      "slug": "motopoint-centenario-de-sao-joao-evangelista-sao-joao-evangelista-mg-2026-08-01",
+      "title": "Motopoint Centenário de São João Evangelista/MG",
+      "source_kind": "agenda",
+      "lastmod": "2026-08-23",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 1,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/capital-moto-week-brasilia-df-2026-07-23/",
+      "slug": "capital-moto-week-brasilia-df-2026-07-23",
+      "title": "Capital Moto Week",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "organizacao",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 1,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/4-motofest-divinopolis-mg-2026-07-24/",
+      "slug": "4-motofest-divinopolis-mg-2026-07-24",
+      "title": "4º Divinópolis Moto Fest",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-29",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "data_da_checagem",
+        "horario_local",
+        "organizacao",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 2,
+      "specific_independent_domains": 1
+    },
+    {
+      "url": "/eventos/14-encontro-nacional-de-motociclistas-sao-joao-del-rei-mg-2026-07-23/",
+      "slug": "14-encontro-nacional-de-motociclistas-sao-joao-del-rei-mg-2026-07-23",
+      "title": "14 Encontro Nacional de Motociclistas",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "data_da_checagem",
+        "horario_local",
+        "organizacao",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 0,
+      "specific_independent_domains": 0
+    },
+    {
+      "url": "/eventos/14-encontro-nacional-de-motociclistas-sao-joao-del-rei-mg-2026-07-24/",
+      "slug": "14-encontro-nacional-de-motociclistas-sao-joao-del-rei-mg-2026-07-24",
+      "title": "14 Encontro Nacional de Motociclistas",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "data_da_checagem",
+        "horario_local",
+        "organizacao",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 0,
+      "specific_independent_domains": 0
+    },
+    {
+      "url": "/eventos/4-encotnro-nacional-de-motociclistas-ouro-preto-mg-2026-07-24/",
+      "slug": "4-encotnro-nacional-de-motociclistas-ouro-preto-mg-2026-07-24",
+      "title": "4 Encotnro Nacional de Motociclistas",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "data_da_checagem",
+        "horario_local",
+        "organizacao",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 0,
+      "specific_independent_domains": 0
+    },
+    {
+      "url": "/eventos/amem-sjdr-sao-joao-del-rei-mg-2026-07-23/",
+      "slug": "amem-sjdr-sao-joao-del-rei-mg-2026-07-23",
+      "title": "AMEM SJDR",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "data_da_checagem",
+        "horario_local",
+        "organizacao",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 0,
+      "specific_independent_domains": 0
+    },
+    {
+      "url": "/eventos/bike-fest-poa-sp-2026-07-25/",
+      "slug": "bike-fest-poa-sp-2026-07-25",
+      "title": "Bike Fest",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-25",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "data_da_checagem",
+        "horario_local",
+        "organizacao",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 0,
+      "specific_independent_domains": 0
+    },
+    {
+      "url": "/eventos/falcoes-mc-guarulhos-sp-2026-07-23/",
+      "slug": "falcoes-mc-guarulhos-sp-2026-07-23",
+      "title": "Falcoes MC",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "data_da_checagem",
+        "horario_local",
+        "organizacao",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 0,
+      "specific_independent_domains": 0
+    },
+    {
+      "url": "/eventos/moto-rock-festival-baependi-mg-2026-07-24/",
+      "slug": "moto-rock-festival-baependi-mg-2026-07-24",
+      "title": "MOTO ROCK FESTIVAL",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "data_da_checagem",
+        "horario_local",
+        "organizacao",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 0,
+      "specific_independent_domains": 0
+    },
+    {
+      "url": "/eventos/piratas-de-angra-mc-angra-dos-reis-rj-2026-07-23/",
+      "slug": "piratas-de-angra-mc-angra-dos-reis-rj-2026-07-23",
+      "title": "Piratas de Angra MC",
+      "source_kind": "agenda",
+      "lastmod": "2026-07-26",
+      "complete": false,
+      "missing": [
+        "duas_fontes_especificas_independentes",
+        "fonte_primaria",
+        "data_da_checagem",
+        "horario_local",
+        "organizacao",
+        "evidencia_visual_ou_justificativa"
+      ],
+      "source_count": 0,
+      "specific_independent_domains": 0
+    }
+  ]
+}

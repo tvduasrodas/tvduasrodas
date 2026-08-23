@@ -1,0 +1,780 @@
+{
+  "batch": "b",
+  "reviewed_at": "2026-08-22",
+  "entries": [
+    {
+      "slug": "18-encontro-internacional-de-motos-de-altas-cilindradas-boa-vista-rr-2026-08-14",
+      "updates": {
+        "summary": "O 18º Encontro Internacional de Motos de Altas Cilindradas foi anunciado para 14 e 15 de agosto de 2026 no estacionamento do Estádio Canarinho, em Boa Vista. A programação reuniu Mamonas O Legado e Dubdogz na sexta-feira e o tributo aos fundadores do Charlie Brown Jr. e Rodrigo Teaser no sábado. O acesso foi convertido em ingresso solidário, mediante troca antecipada de alimentos.",
+        "body": "## Edição de 2026 verificada\n\nO Roraima Moto Clube anunciou a 18ª edição para os dias 14 e 15 de agosto no estacionamento do Estádio Canarinho. A Folha de Boa Vista confirmou o local e o show de Rodrigo Teaser; o g1 Roraima detalhou a programação e a mudança do modelo de acesso. Na sexta-feira foram anunciados Mamonas O Legado e Dubdogz. No sábado, Thiago Castanho e Marcão Britto apresentariam o tributo aos fundadores do Charlie Brown Jr., seguido de Rodrigo Teaser com o espetáculo dedicado a Michael Jackson.\n\n## Acesso solidário\n\nSegundo o g1, a organização substituiu a venda de ingressos pela troca antecipada de alimentos: 3 kg de alimentos não perecíveis para um dia ou 5 kg para os dois dias. A troca foi divulgada até 13 de agosto, das 10h às 22h, no próprio Estádio Canarinho. Quem havia comprado ingresso na fase inicial teria o valor devolvido. Essas regras são mantidas aqui como registro da edição encerrada e não devem ser apresentadas como serviço vigente.\n\n## Organização e situação\n\nO evento foi promovido pela Associação dos Motociclistas Roraima Moto Clube. Documento oficial da Assembleia Legislativa de Roraima identifica a entidade executora e registra apoio público destinado à realização do encontro. O período divulgado terminou em 15 de agosto; cobertura local posterior também registrou apresentação no evento. Não foi localizada uma página permanente do organizador com programação arquivada, por isso os dados de serviço são atribuídos às fontes jornalísticas e ao documento público.",
+        "status": "concluida",
+        "venue": "Estacionamento do Estádio Canarinho",
+        "full_address": "Estacionamento do Estádio Canarinho, Boa Vista - RR",
+        "organizer": "Associação dos Motociclistas Roraima Moto Clube (Roraima Moto Clube)",
+        "admission_status": "Ingresso solidário com troca antecipada: 3 kg de alimentos não perecíveis para um dia ou 5 kg para os dois dias, conforme divulgação do g1. A troca foi anunciada até 13 de agosto de 2026; regra preservada apenas como histórico da edição.",
+        "parking": "O encontro ocupou o estacionamento do Estádio Canarinho. As fontes consultadas não informam uma operação separada de estacionamento para o público.",
+        "attractions": [
+          "Mamonas O Legado",
+          "Dubdogz",
+          "Thiago Castanho e Marcão Britto em tributo aos fundadores do Charlie Brown Jr.",
+          "Rodrigo Teaser em tributo a Michael Jackson"
+        ],
+        "verification_status": "fontes_cruzadas_com_periodo_encerrado",
+        "status_basis": "Datas, local, atrações e regra de acesso foram confirmados por g1 Roraima e Folha de Boa Vista; a entidade executora consta em documento oficial da Assembleia Legislativa. O período anunciado terminou em 15 de agosto de 2026.",
+        "last_updated": "2026-08-22",
+        "status_checked_at": "2026-08-22",
+        "source_checked_at": "2026-08-22"
+      },
+      "additional_sources": [
+        {
+          "url": "https://g1.globo.com/rr/roraima/noticia/2026/08/01/tradicional-encontro-de-motos-deve-reunir-14-mil-pessoas-em-roraima-sempre-foi-do-rock.ghtml",
+          "label": "g1 Roraima — encontro de motos e ingresso solidário",
+          "type": "imprensa_regional",
+          "supports": [
+            "datas de 14 e 15 de agosto de 2026",
+            "Estádio Canarinho",
+            "programação por dia",
+            "troca antecipada de 3 kg ou 5 kg de alimentos",
+            "organização pelo Roraima Moto Clube"
+          ]
+        },
+        {
+          "url": "https://www.folhabv.com.br/cotidiano/roraima-motoclube-confirma-show-em-tributo-a-michael-jackson-no-encontro-internacional-de-motos-de-altas-cilindradas/",
+          "label": "Folha de Boa Vista — Rodrigo Teaser confirmado no 18º encontro",
+          "type": "imprensa_local",
+          "supports": [
+            "18ª edição",
+            "datas de 14 e 15 de agosto",
+            "estacionamento do Estádio Canarinho",
+            "show de Rodrigo Teaser no dia 15",
+            "promoção pelo Roraima Moto Clube"
+          ]
+        },
+        {
+          "url": "https://diarios.al.rr.leg.br/wp-content/uploads/2026/01/DIARIO-ALE-RR-ED.-4585-04.02.2026.pdf",
+          "label": "Diário da Assembleia Legislativa de Roraima — apoio ao 18º encontro",
+          "type": "documento_publico_oficial",
+          "supports": [
+            "nome jurídico da associação executora",
+            "finalidade pública vinculada à realização do 18º encontro",
+            "registro de apoio público ao evento"
+          ]
+        }
+      ],
+      "research": {
+        "status": "fontes_cruzadas",
+        "queries": [
+          "18 Encontro Internacional Motos Altas Cilindradas Boa Vista 2026",
+          "Roraima Moto Clube 14 15 agosto 2026 Canarinho",
+          "site:al.rr.leg.br 18 encontro motos altas cilindradas 2026"
+        ],
+        "notes": "A previsão de 14 mil pessoas e 40 toneladas divulgada antes do evento não foi convertida em resultado realizado. O texto distingue a primeira fase de venda da regra posterior de ingresso solidário e não apresenta a troca, encerrada em 13 de agosto, como serviço atual.",
+        "checked_at": "2026-08-22"
+      }
+    },
+    {
+      "slug": "1-irmaos-de-alma-alto-paraiso-de-goias-go-2026-07-31",
+      "updates": {
+        "summary": "O encontro Irmãos de Alma foi divulgado para 31 de julho a 2 de agosto de 2026 na Casa Borba, às margens da GO-239, em Alto Paraíso de Goiás. O cartaz informa abertura às 16h na sexta e às 14h no sábado, música ao vivo, fogueira, cerveja e costelão gratuito no sábado. A existência e o endereço do local foram cruzados com cadastro oficial municipal, mas não apareceu uma segunda fonte específica da edição.",
+        "body": "## Informações preservadas do cartaz\n\nA edição divulgada como 1º Irmãos de Alma estava marcada de 31 de julho a 2 de agosto de 2026 na Casa Borba, na GO-239, km 11, em Alto Paraíso de Goiás. O material informa recepção a partir das 16h na sexta-feira e das 14h no sábado, além de fogueira, música ao vivo, cerveja e costelão gratuito no sábado. A organização é atribuída a Irmãos de Alma S.O. Old School e o contato publicado é (61) 99806-8256.\n\n## O que foi possível confirmar\n\nO cadastro oficial de meios de hospedagem da Prefeitura de Alto Paraíso de Goiás lista a Casa Borba na Rodovia GO-239, sentido São Jorge. Essa fonte confirma a identidade e a localização do estabelecimento, mas não confirma a realização do encontro. Buscas pelo nome do evento, pelas datas, pelo organizador e pelo telefone não localizaram comunicado do organizador, notícia municipal ou cobertura independente da edição de 2026.\n\nComo o período divulgado terminou em 2 de agosto, a página pode permanecer como registro histórico. Não há base para afirmar público, resultado, valor de ingresso, estacionamento ou programação adicional. Esses campos devem continuar pendentes até surgir fonte específica da edição.",
+        "status": "concluida",
+        "time_label": "Sexta-feira a partir das 16h; sábado a partir das 14h, conforme o cartaz",
+        "venue": "Casa Borba",
+        "street_address": "Rodovia GO-239, km 11, sentido São Jorge",
+        "full_address": "Casa Borba, Rodovia GO-239, km 11, Alto Paraíso de Goiás - GO",
+        "organizer": "Irmãos de Alma S.O. Old School",
+        "contact": "(61) 99806-8256 (contato publicado no cartaz da edição)",
+        "admission_status": "Não informado no material localizado. O costelão de sábado foi divulgado como gratuito, o que não equivale a confirmar entrada gratuita no evento.",
+        "parking": "Não informado no cartaz nem na fonte municipal consultada.",
+        "attractions": [
+          "Fogueira",
+          "Música ao vivo",
+          "Cerveja",
+          "Costelão gratuito no sábado"
+        ],
+        "verification_status": "cartaz_primario_com_endereco_do_local_cruzado",
+        "status_basis": "A agenda e os serviços vêm do cartaz específico; o cadastro municipal confirma somente a Casa Borba e sua localização. O período anunciado terminou em 2 de agosto de 2026.",
+        "last_updated": "2026-08-22",
+        "status_checked_at": "2026-08-22",
+        "source_checked_at": "2026-08-22"
+      },
+      "additional_sources": [
+        {
+          "url": "https://altoparaiso.go.gov.br/wp-content/uploads/migration/Noticia20240605095549.pdf",
+          "label": "Prefeitura de Alto Paraíso de Goiás — cadastro municipal de hospedagem",
+          "type": "documento_municipal_oficial",
+          "supports": [
+            "existência da Casa Borba",
+            "localização na Rodovia GO-239 no sentido de São Jorge"
+          ]
+        }
+      ],
+      "research": {
+        "status": "confirmacao_parcial_sem_segunda_fonte_do_evento",
+        "queries": [
+          "Irmãos de Alma Casa Borba 31 julho 2026",
+          "Irmãos de Alma Old School Alto Paraíso GO-239",
+          "\"Casa Borba\" motociclistas evento"
+        ],
+        "notes": "A fonte municipal é usada somente para validar o local; não prova que o encontro ocorreu. Não foram encontrados comunicado independente, resultado ou serviço adicional específico da edição de 2026.",
+        "checked_at": "2026-08-22"
+      }
+    },
+    {
+      "slug": "2-biker-fest-feraz-de-vasconcelos-sp-2026-07-25",
+      "updates": {
+        "title": "2ª Zapata Biker Fest",
+        "summary": "A 2ª Zapata Biker Fest foi divulgada para 25 de julho de 2026, a partir das 14h, em Ferraz de Vasconcelos. O site oficial do Zapata Moto Clube confirma a segunda edição e a data; uma agenda independente de tributos ao Queen confirma a participação da Classical Queen. O cartaz registra entrada gratuita com pedido de alimento solidário, mas o endereço da edição não ficou verificável nas fontes textuais.",
+        "body": "## Edição e organizador confirmados\n\nO nome correto da edição é 2ª Zapata Biker Fest. O site oficial do Zapata Moto Clube exibe o evento em Ferraz de Vasconcelos no dia 25 de julho de 2026. O próprio clube informa sua origem em Ferraz e sua trajetória desde 1963, o que sustenta a identificação do organizador sem depender apenas do agregador de eventos.\n\nO cartaz arquivado na pauta indica início às 14h, entrada gratuita e ação solidária com alimento. A agenda QueenNet, publicada na semana do evento e baseada nas comunicações das bandas, registra a Classical Queen na 2ª Zapata Biker Fest nessa mesma data e cidade.\n\n## Limite da verificação\n\nA Prefeitura de Ferraz publicou informações sobre a primeira Zapata Biker Fest, realizada em 2022, mas aquela notícia pertence a outra edição. O endereço e a programação de 2022 não foram transferidos para 2026. Como o site do organizador não traz endereço textual da segunda edição e o cartaz disponível não permite confirmá-lo com segurança, o local exato, estacionamento e canais de contato permanecem pendentes. O período anunciado já terminou; a página fica como registro da edição, sem estimar público ou resultado.",
+        "status": "concluida",
+        "official_url": "https://www.zapatamc.com.br/",
+        "time_label": "A partir das 14h, conforme o cartaz",
+        "organizer": "Zapata Moto Clube",
+        "admission_status": "Entrada divulgada como gratuita; o cartaz solicita alimento solidário. Não foi localizada orientação textual adicional sobre quantidade ou item aceito.",
+        "parking": "Não informado nas fontes específicas da edição de 2026.",
+        "attractions": [
+          "Classical Queen",
+          "Rock e apresentações de bandas conforme o cartaz"
+        ],
+        "verification_status": "duas_fontes_especificas_independentes",
+        "status_basis": "O site oficial do Zapata Moto Clube confirma nome, cidade e data; a agenda QueenNet confirma a apresentação da Classical Queen na mesma edição. O período anunciado terminou em 25 de julho de 2026.",
+        "last_updated": "2026-08-22",
+        "status_checked_at": "2026-08-22",
+        "source_checked_at": "2026-08-22"
+      },
+      "additional_sources": [
+        {
+          "url": "https://www.zapatamc.com.br/",
+          "label": "Zapata Moto Clube — página oficial",
+          "type": "organizador_oficial",
+          "supports": [
+            "nome 2ª Zapata Biker Fest",
+            "Ferraz de Vasconcelos",
+            "data de 25 de julho de 2026",
+            "identificação do Zapata Moto Clube"
+          ]
+        },
+        {
+          "url": "https://queennet.com.br/23/07/2026/noticias/eventos-queen/agenda-de-shows-cover-e-tributo-semana-24-e-31-de-julho-de-2026/",
+          "label": "QueenNet — agenda de shows cover de 24 a 31 de julho",
+          "type": "agenda_musical_independente",
+          "supports": [
+            "Classical Queen na 2ª Zapata Biker Fest",
+            "data de 25 de julho de 2026",
+            "cidade de Ferraz de Vasconcelos"
+          ]
+        }
+      ],
+      "research": {
+        "status": "fontes_cruzadas",
+        "queries": [
+          "2 Zapata Biker Fest Ferraz 25 julho 2026",
+          "site:zapatamc.com.br Biker Fest 2026",
+          "Classical Queen Zapata Biker Fest 2026"
+        ],
+        "rejected_sources": [
+          {
+            "url": "https://ferrazdevasconcelos.sp.gov.br/web/cultura-e-turismo/ferraz-promove-1-zapata-biker-fest/",
+            "reason": "Notícia oficial da primeira edição, em 2022. Não serve para atribuir local, horários ou programação à segunda edição de 2026."
+          }
+        ],
+        "notes": "A grafia Feraz do registro original foi corrigida para Ferraz de Vasconcelos e o título para 2ª Zapata Biker Fest, conforme a página do organizador.",
+        "checked_at": "2026-08-22"
+      }
+    },
+    {
+      "slug": "2-encontro-de-motociclista-santa-fe-do-sul-sp-2026-08-30",
+      "updates": {
+        "title": "2º Encontro de Motociclistas de Santa Fé do Sul",
+        "summary": "O cartaz da 2ª edição em Santa Fé do Sul anuncia o encontro para 30 de agosto de 2026, a partir das 9h. Até 22 de agosto, buscas em fontes municipais, imprensa local e pelo nome exato do evento não localizaram uma segunda publicação específica da edição. Endereço, organizador, entrada e estacionamento ainda precisam de confirmação antes de serem apresentados como serviço ao público.",
+        "body": "## O que está documentado\n\nO material específico da edição registra o 2º Encontro de Motociclistas de Santa Fé do Sul para domingo, 30 de agosto de 2026, com início às 9h. Essa é a informação segura que pode ser mantida na agenda neste momento.\n\n## Informações ainda pendentes\n\nForam pesquisados o nome completo do encontro, a data, combinações com Prefeitura de Santa Fé do Sul, turismo, cultura, motoclube e imprensa regional. Não apareceu comunicado oficial ou reportagem independente que identifique endereço, responsável, telefone, regra de entrada, estacionamento ou programação. A página não deve preencher esses campos por analogia com encontros anteriores da cidade.\n\nUma notícia de 2019 menciona outro evento motociclístico em Santa Fé do Sul, com formato e organização próprios. Ela foi descartada como fonte de serviço para 2026. Até que o organizador ou a Prefeitura publique confirmação específica, o status editorial deve indicar fonte única, sem transformar a ausência de notícia em cancelamento e sem prometer atrações não legíveis no cartaz.",
+        "time_label": "A partir das 9h, conforme o cartaz",
+        "admission_status": "Não informado na fonte específica localizada.",
+        "parking": "Não informado na fonte específica localizada.",
+        "verification_status": "cartaz_primario_sem_segunda_fonte_indexada",
+        "status_basis": "A data e o horário vêm do cartaz específico da edição; não foi localizada confirmação independente até 22 de agosto de 2026.",
+        "last_updated": "2026-08-22",
+        "status_checked_at": "2026-08-22",
+        "source_checked_at": "2026-08-22"
+      },
+      "additional_sources": [],
+      "research": {
+        "status": "sem_segunda_fonte_especifica",
+        "queries": [
+          "2 Encontro Motociclistas Santa Fé do Sul 30 agosto 2026",
+          "site:santafedosul.sp.gov.br motociclistas agosto 2026",
+          "Santa Fé do Sul moto encontro 2026 9h"
+        ],
+        "rejected_sources": [
+          {
+            "url": "https://www.informamais.com.br/Site/Paginas/Santa-Fe-do-Sul--Secretario-de-Turismo-Alex-Sandro-destaca-programacao-cultural-do-Sonho-de-Natal/4692",
+            "reason": "Conteúdo de 2019 sobre outro encontro e outra programação; não comprova qualquer serviço da edição de 2026."
+          }
+        ],
+        "notes": "A inexistência de uma segunda fonte indexada não foi tratada como cancelamento. A entrada deve permanecer com aviso de verificação pendente.",
+        "checked_at": "2026-08-22"
+      }
+    },
+    {
+      "slug": "2-encontro-de-motociclistas-nova-resende-mg-2026-07-25",
+      "updates": {
+        "summary": "O cartaz da 2ª edição de Nova Resende divulga o encontro para 25 e 26 de julho de 2026, com camping, bandas e entrega de troféus. O período já terminou, mas não foi localizada cobertura independente ou publicação oficial desta edição. A notícia da primeira edição, realizada em 2025, foi consultada apenas como histórico e nenhum endereço ou programa daquele ano foi reaproveitado.",
+        "body": "## Registro da segunda edição\n\nO cartaz específico arquivado pela pauta anuncia o 2º Encontro de Motociclistas de Nova Resende para 25 e 26 de julho de 2026. O material destaca área de camping, bandas e troféus. Como as datas já passaram, a página pode permanecer publicada como memória da agenda, com status de período encerrado.\n\n## Verificação e limites\n\nAs buscas combinaram título, datas, município, Prefeitura, turismo, cultura e imprensa regional. Não foi localizada uma segunda fonte de 2026 que confirmasse endereço, horários, organizador, contato, entrada, estacionamento ou resultado. O Jornal Panorama Minas publicou uma matéria detalhada sobre o primeiro encontro, ocorrido em 24 e 25 de outubro de 2025. Essa reportagem confirma que houve uma edição anterior, mas pertence a outro ano e não autoriza transferir praça, shows ou responsáveis para 2026.\n\nPor isso, o texto preserva apenas o que o cartaz da segunda edição declara. Não há base para afirmar que o evento ocorreu exatamente como programado, quantificar público ou apresentar serviço atual.",
+        "status": "concluida",
+        "time_label": "Horários não informados no material localizado",
+        "admission_status": "Não informado na fonte específica localizada.",
+        "parking": "Não informado; a menção a camping não comprova estacionamento para visitantes.",
+        "attractions": [
+          "Bandas",
+          "Camping",
+          "Entrega de troféus"
+        ],
+        "verification_status": "cartaz_primario_sem_segunda_fonte_indexada",
+        "status_basis": "O cartaz confirma a agenda de 25 e 26 de julho; o status concluída indica apenas que o período anunciado terminou, não que público ou execução tenham sido comprovados.",
+        "last_updated": "2026-08-22",
+        "status_checked_at": "2026-08-22",
+        "source_checked_at": "2026-08-22"
+      },
+      "additional_sources": [],
+      "research": {
+        "status": "sem_segunda_fonte_especifica",
+        "queries": [
+          "2 Encontro Motociclistas Nova Resende 25 26 julho 2026",
+          "site:novaresende.mg.gov.br encontro motociclistas 2026",
+          "Nova Resende motociclismo julho 2026 bandas camping"
+        ],
+        "rejected_sources": [
+          {
+            "url": "https://jornalpanoramaminas.com.br/nova-resende-promove-seu-1o-encontro-de-motociclistas-com-intensa-programacao-de-shows/",
+            "reason": "Reportagem sobre a primeira edição, em outubro de 2025; não comprova local, programação nem organização da segunda edição de julho de 2026."
+          }
+        ],
+        "notes": "A matéria de 2025 serve somente para contextualizar a numeração. Nenhum dado operacional daquela edição foi incorporado.",
+        "checked_at": "2026-08-22"
+      }
+    },
+    {
+      "slug": "2-encotnro-de-motociclistas-nhandeara-sp-2026-08-15",
+      "updates": {
+        "title": "2º Encontro de Motociclistas de Nhandeara",
+        "summary": "O 2º Encontro de Motociclistas de Nhandeara foi divulgado para 15 e 16 de agosto de 2026 no Recinto de Exposições. A FETI registrou camping, espaço infantil, praça de alimentação, expositores, bandas Freelancer e Match, apresentação de Aldo Rosa, dinamômetro e sorteios. A agenda da Freelancer confirma sua participação no domingo, mas há divergência entre as fontes sobre a forma de acesso, registrada abaixo sem escolher uma versão.",
+        "body": "## Serviço confirmado por fontes cruzadas\n\nA FETI publicou o 2º Encontro de Motociclistas de Nhandeara para 15 e 16 de agosto de 2026 no Recinto de Exposições de Nhandeara. A página descreve camping, espaço infantil gratuito, praça de alimentação com food trucks, expositores de marcas de motocicletas, bandas Freelancer e Match, apresentação de wheeling com Aldo Rosa, dinamômetro e sorteios. Também vincula a arrecadação ao Fundo Social.\n\nA agenda pública da banda Freelancer, reproduzida pelo TocaOnde a partir da comunicação do grupo, lista a apresentação de domingo, 16 de agosto, às 8h, no mesmo 2º Encontro de Nhandeara. Essa segunda fonte ajuda a confirmar edição, cidade, data e uma das atrações.\n\n## Divergência sobre entrada\n\nA FETI informou acesso mediante 1 kg de alimento não perecível, exceto sal, ou contribuição de R$ 10 em benefício do Fundo Social. Já a agenda da Freelancer marcou sua apresentação de domingo como entrada franca. Como as publicações divergem, ambas as versões são preservadas como registro; não é correto resumir todo o evento como gratuito. O contato público associado ao evento na agenda da banda é o perfil @alemaonhande. O período terminou em 16 de agosto e não foram localizados números de público ou balanço oficial.",
+        "status": "concluida",
+        "official_url": "https://www.fetimoto.com.br/eventos/2-encontro-de-motociclistas-de-nhandeara-9091",
+        "time_label": "15 e 16 de agosto; a agenda da Freelancer indica apresentação no domingo, às 8h",
+        "venue": "Recinto de Exposições de Nhandeara",
+        "full_address": "Recinto de Exposições de Nhandeara, Nhandeara - SP",
+        "contact": "@alemaonhande (perfil citado pela agenda da banda como referência do evento)",
+        "admission_status": "A FETI publicou 1 kg de alimento não perecível, exceto sal, ou R$ 10 para o Fundo Social; a agenda da Freelancer marcou a apresentação de domingo como entrada franca. Divergência documental preservada.",
+        "parking": "Não foi localizada orientação específica de estacionamento. A existência de camping no recinto não deve ser apresentada como confirmação de vagas para o público.",
+        "attractions": [
+          "Bandas Freelancer e Match",
+          "Aldo Rosa — apresentação de wheeling",
+          "Dinamômetro",
+          "Expositores de motocicletas",
+          "Food trucks e praça de alimentação",
+          "Camping",
+          "Espaço infantil gratuito",
+          "Sorteios"
+        ],
+        "verification_status": "fontes_cruzadas_com_divergencia_de_acesso_documentada",
+        "status_basis": "FETI e agenda pública da Freelancer coincidem em edição, cidade e fim de semana. O período terminou em 16 de agosto; as regras de acesso divergem e foram explicitadas.",
+        "last_updated": "2026-08-22",
+        "status_checked_at": "2026-08-22",
+        "source_checked_at": "2026-08-22"
+      },
+      "additional_sources": [
+        {
+          "url": "https://www.fetimoto.com.br/eventos/2-encontro-de-motociclistas-de-nhandeara-9091",
+          "label": "FETI — 2º Encontro de Motociclistas de Nhandeara",
+          "type": "federacao_motociclistica",
+          "supports": [
+            "datas de 15 e 16 de agosto",
+            "Recinto de Exposições",
+            "programação e estrutura",
+            "contribuição ao Fundo Social",
+            "regra de 1 kg de alimento ou R$ 10"
+          ]
+        },
+        {
+          "url": "https://tocaonde.com.br/events/29874-freelancer-jaboticabar-sao-jose-do-rio-preto",
+          "label": "TocaOnde — agenda de agosto da banda Freelancer",
+          "type": "agenda_de_artista",
+          "supports": [
+            "participação da Freelancer",
+            "2º Encontro de Nhandeara",
+            "domingo, 16 de agosto de 2026",
+            "horário de 8h para a apresentação listada",
+            "perfil de referência @alemaonhande"
+          ]
+        }
+      ],
+      "research": {
+        "status": "fontes_cruzadas_com_conflito_documentado",
+        "queries": [
+          "2 Encontro Motociclistas Nhandeara 15 16 agosto 2026",
+          "Freelancer Nhandeara 16 agosto 2026 encontro",
+          "site:nhandeara.sp.gov.br motociclistas agosto 2026"
+        ],
+        "notes": "A divergência de acesso é relevante: a FETI descreve doação ou R$ 10 para o evento, enquanto a publicação ligada à banda chama o compromisso de domingo de entrada franca. O texto não reconcilia artificialmente as duas versões.",
+        "checked_at": "2026-08-22"
+      }
+    },
+    {
+      "slug": "2-moto-cafe-tres-marias-mg-2026-07-26",
+      "updates": {
+        "summary": "O 2º Moto Café de Três Marias foi anunciado em cartaz para 26 de julho de 2026, a partir das 8h. O período já terminou, porém não foi localizada segunda fonte específica, cobertura de realização ou comunicado oficial com endereço, organizador, entrada e estacionamento. Um encontro maior marcado para o fim de agosto na mesma cidade é outro evento e não foi usado para completar esta página.",
+        "body": "## Informação específica disponível\n\nO cartaz do 2º Moto Café de Três Marias registra a data de 26 de julho de 2026 e início às 8h. Como o dia anunciado já passou, a página pode permanecer no acervo como agenda encerrada, sempre deixando claro que o status decorre do calendário e não de um balanço de realização.\n\n## Busca e separação de eventos\n\nForam feitas buscas pelo título exato, data, cidade, Prefeitura, turismo, cultura, motoclubes e imprensa regional. Não surgiu uma segunda publicação específica que permitisse acrescentar local, endereço, responsável, contato, ingresso, estacionamento, atrações ou resultado.\n\nOs resultados também mostram um encontro motociclístico distinto em Três Marias, anunciado para vários dias no final de agosto de 2026. Ele tem outra numeração e outra janela de datas. Nenhum dado desse evento posterior foi transferido para o 2º Moto Café de 26 de julho. Até aparecer fonte do organizador, o serviço deve ficar restrito à data e ao horário legíveis no cartaz.",
+        "status": "concluida",
+        "time_label": "A partir das 8h, conforme o cartaz",
+        "admission_status": "Não informado na fonte específica localizada.",
+        "parking": "Não informado na fonte específica localizada.",
+        "verification_status": "cartaz_primario_sem_segunda_fonte_indexada",
+        "status_basis": "Data e horário vêm do cartaz específico. O status concluída indica somente que 26 de julho de 2026 passou; não há comprovação independente de resultado.",
+        "last_updated": "2026-08-22",
+        "status_checked_at": "2026-08-22",
+        "source_checked_at": "2026-08-22"
+      },
+      "additional_sources": [],
+      "research": {
+        "status": "sem_segunda_fonte_especifica",
+        "queries": [
+          "2 Moto Café Três Marias 26 julho 2026",
+          "site:tresmarias.mg.gov.br moto café 2026",
+          "Três Marias motociclistas 26/07/2026 8h"
+        ],
+        "notes": "Resultados referentes a outro encontro em Três Marias no final de agosto foram separados e não utilizados. Não foram localizados endereço ou responsável da edição do Moto Café.",
+        "checked_at": "2026-08-22"
+      }
+    },
+    {
+      "slug": "2-moto-rock-espinosa-mg-2026-08-21",
+      "updates": {
+        "title": "2º Espinosa Moto Rock",
+        "summary": "O 2º Espinosa Moto Rock foi confirmado para 21 e 22 de agosto de 2026 na Praça da Liberdade, em Espinosa. A Prefeitura publicou o chamamento e o resultado final para os espaços temporários de alimentação e bebidas; o Jornal Panorama Minas confirmou as datas, o local e Rock Beats como primeira atração anunciada. Horários, entrada e estacionamento não estavam informados nas fontes consultadas.",
+        "body": "## Confirmação oficial da edição\n\nA Prefeitura de Espinosa publicou em 7 de agosto o chamamento público do 2º Espinosa Moto Rock, voltado à ocupação temporária de espaços para comercialização de alimentos e bebidas. O resultado final foi publicado em 14 de agosto. Esses documentos confirmam que o Município preparou a estrutura comercial da edição de 2026, sem depender apenas do vídeo-cartaz arquivado na pauta.\n\nO Jornal Panorama Minas, citando a Prefeitura, anunciou o evento para 21 e 22 de agosto na Praça da Liberdade e apresentou Rock Beats como a primeira atração confirmada. As fontes permitem registrar praça, período, organização municipal, atração e existência de área de alimentação e bebidas.\n\n## Serviço ainda não publicado\n\nAté a verificação de 22 de agosto, as páginas oficiais consultadas não informavam horários de abertura, regra de entrada, estacionamento, telefone de atendimento ou programação completa. Esses itens não foram inferidos. Como a consulta ocorreu no último dia anunciado, a página deve refletir que o evento estava dentro de sua janela programada, sem declarar encerramento ou público antes de uma publicação posterior da Prefeitura.",
+        "official_url": "https://espinosa.mg.gov.br/2026/08/07/edital-001-2026-chamamento-publico-espinosa-moto-rock/",
+        "time_label": "21 e 22 de agosto de 2026; horários não publicados nas fontes consultadas",
+        "venue": "Praça da Liberdade",
+        "full_address": "Praça da Liberdade, Espinosa - MG",
+        "organizer": "Prefeitura Municipal de Espinosa",
+        "admission_status": "Não informado nas fontes oficiais e jornalística consultadas.",
+        "parking": "Não informado nas fontes consultadas.",
+        "attractions": [
+          "Rock Beats",
+          "Espaços temporários de alimentação e bebidas selecionados por chamamento público"
+        ],
+        "verification_status": "fontes_oficiais_e_imprensa_local_cruzadas",
+        "status_basis": "Chamamento e resultado final da Prefeitura comprovam a preparação da edição; imprensa local confirma datas, Praça da Liberdade e Rock Beats. A checagem ocorreu em 22 de agosto, último dia programado.",
+        "last_updated": "2026-08-22",
+        "status_checked_at": "2026-08-22",
+        "source_checked_at": "2026-08-22"
+      },
+      "additional_sources": [
+        {
+          "url": "https://espinosa.mg.gov.br/2026/08/07/edital-001-2026-chamamento-publico-espinosa-moto-rock/",
+          "label": "Prefeitura de Espinosa — chamamento público do Espinosa Moto Rock",
+          "type": "prefeitura_oficial",
+          "supports": [
+            "nome 2º Espinosa Moto Rock",
+            "edição de 2026",
+            "preparação de espaços para alimentação e bebidas",
+            "participação administrativa da Prefeitura"
+          ]
+        },
+        {
+          "url": "https://espinosa.mg.gov.br/2026/08/14/resultado-final-edital-de-chamamento-publico-no-001-2026-espinosa-moto-rock-2026/",
+          "label": "Prefeitura de Espinosa — resultado final do chamamento",
+          "type": "prefeitura_oficial",
+          "supports": [
+            "conclusão da seleção de espaços temporários para o evento",
+            "continuidade da preparação da edição de 2026"
+          ]
+        },
+        {
+          "url": "https://jornalpanoramaminas.com.br/espinosa-anuncia-rock-beats-como-primeira-atracao-do-2o-moto-rock/",
+          "label": "Jornal Panorama Minas — Rock Beats no 2º Moto Rock",
+          "type": "imprensa_local",
+          "supports": [
+            "datas de 21 e 22 de agosto",
+            "Praça da Liberdade",
+            "Rock Beats como atração anunciada",
+            "fonte municipal da programação"
+          ]
+        }
+      ],
+      "research": {
+        "status": "fontes_cruzadas",
+        "queries": [
+          "2 Espinosa Moto Rock 21 22 agosto 2026",
+          "site:espinosa.mg.gov.br Moto Rock 2026",
+          "Rock Beats Espinosa Moto Rock 2026"
+        ],
+        "notes": "Os documentos públicos tratam da seleção de comerciantes e não publicam o serviço completo ao visitante. O texto não deduz gratuidade, horário ou estacionamento a partir do chamamento.",
+        "checked_at": "2026-08-22"
+      }
+    },
+    {
+      "slug": "2-motoshow-presidente-alves-sp-2026-10-10",
+      "updates": {
+        "title": "2º MotoShow de Presidente Alves",
+        "summary": "O cartaz da 2ª edição anuncia o MotoShow de Presidente Alves para 10 e 11 de outubro de 2026, com shows de rock. A pesquisa em canais municipais e imprensa regional encontrou documentação oficial apenas da primeira edição, realizada em 2025. Por segurança, endereço, horários, organizador, entrada, estacionamento e atrações nominais de 2025 não foram transferidos para a edição atual.",
+        "body": "## Agenda de 2026\n\nO material específico da segunda edição informa o 2º MotoShow de Presidente Alves nos dias 10 e 11 de outubro de 2026 e anuncia programação de rock. A data ainda é futura em relação à verificação de 22 de agosto.\n\n## Pesquisa em fontes oficiais\n\nO arquivo de publicações do Município foi consultado junto com buscas pelo título, datas e combinações com turismo, cultura e motoclube. A documentação municipal localizada se refere ao 1º MotoShow, realizado em novembro de 2025, com local e programação próprios. Como uma segunda edição pode mudar praça, horários, atrações e responsáveis, nenhum desses dados históricos foi reutilizado.\n\nAté surgir um comunicado específico da Prefeitura ou do organizador, a página deve manter o endereço, o contato, a entrada e o estacionamento como pendentes. A falta de segunda fonte não comprova cancelamento; indica somente que o cartaz continua sendo a única referência pública indexada da edição de outubro.",
+        "time_label": "10 e 11 de outubro de 2026; horários não informados no material localizado",
+        "admission_status": "Não informado na fonte específica da edição de 2026.",
+        "parking": "Não informado na fonte específica da edição de 2026.",
+        "attractions": [
+          "Shows de rock, sem atrações nominais verificadas"
+        ],
+        "verification_status": "cartaz_primario_sem_segunda_fonte_indexada",
+        "status_basis": "O cartaz sustenta datas e formato geral. O arquivo oficial localizado pertence à primeira edição de 2025 e foi excluído do serviço de 2026.",
+        "last_updated": "2026-08-22",
+        "status_checked_at": "2026-08-22",
+        "source_checked_at": "2026-08-22"
+      },
+      "additional_sources": [],
+      "research": {
+        "status": "sem_segunda_fonte_especifica",
+        "queries": [
+          "2 MotoShow Presidente Alves 10 11 outubro 2026",
+          "site:presidentealves.sp.gov.br MotoShow 2026",
+          "Presidente Alves Moto Show outubro 2026"
+        ],
+        "rejected_sources": [
+          {
+            "url": "https://mail.presidentealves.sp.gov.br/res/site/pdf/pdf/1065.pdf",
+            "reason": "Documento municipal relativo ao 1º MotoShow de 2025; local e programação não podem ser atribuídos à segunda edição de outubro de 2026."
+          }
+        ],
+        "notes": "A busca no arquivo municipal não revelou publicação específica da segunda edição até a data de revisão.",
+        "checked_at": "2026-08-22"
+      }
+    },
+    {
+      "slug": "2-moto-cafe-paraguacu-paulista-sp-2026-09-20",
+      "updates": {
+        "title": "2º Moto Café de Paraguaçu Paulista",
+        "summary": "O 2º Moto Café de Paraguaçu Paulista foi anunciado em cartaz para 20 de setembro de 2026. Não foi encontrada segunda fonte específica da edição com endereço, horário, organização, ingresso, estacionamento ou atrações. Um plano municipal registra um 1º Moto Café realizado em 2017, mas esse histórico não foi usado para preencher o serviço de 2026.",
+        "body": "## Informação confirmada pelo cartaz\n\nA fonte específica disponível anuncia o 2º Moto Café de Paraguaçu Paulista para 20 de setembro de 2026. A data é futura em relação à revisão de 22 de agosto.\n\n## O que ainda precisa ser publicado\n\nBuscas pelo título e pela data foram combinadas com os portais da Prefeitura, turismo, cultura, agenda municipal, motoclubes e imprensa regional. Não apareceu comunicado independente com local, endereço, horário, responsável, telefone, acesso, estacionamento ou programação.\n\nO plano municipal de turismo registra um evento chamado 1º Moto Café em 2017, com um organizador e formato daquele ano. Trata-se de histórico distante e não há evidência suficiente de que a numeração atual seja continuação direta com o mesmo local ou responsável. Por isso, nenhuma informação de 2017 foi transferida. A página deve permanecer publicada, mas com serviço pendente e fonte única, até a organização divulgar dados verificáveis da edição de setembro de 2026.",
+        "time_label": "Horário não informado na fonte específica localizada",
+        "admission_status": "Não informado na fonte específica localizada.",
+        "parking": "Não informado na fonte específica localizada.",
+        "verification_status": "cartaz_primario_sem_segunda_fonte_indexada",
+        "status_basis": "A data de 20 de setembro vem do cartaz específico; fontes históricas de 2017 foram excluídas do serviço por não comprovarem continuidade operacional.",
+        "last_updated": "2026-08-22",
+        "status_checked_at": "2026-08-22",
+        "source_checked_at": "2026-08-22"
+      },
+      "additional_sources": [],
+      "research": {
+        "status": "sem_segunda_fonte_especifica",
+        "queries": [
+          "2 Moto Café Paraguaçu Paulista 20 setembro 2026",
+          "site:paraguacupaulista.sp.gov.br moto café 2026",
+          "Paraguaçu Paulista motociclistas setembro 2026"
+        ],
+        "rejected_sources": [
+          {
+            "url": "https://sapl3.paraguacupaulista.sp.leg.br/media/sapl/public/norma_juridica_import/4354_texto_integral.pdf",
+            "reason": "Plano municipal que menciona o 1º Moto Café de 2017; não comprova que local, organizador ou programação se repetem em 2026."
+          }
+        ],
+        "notes": "Nenhuma segunda publicação indexada da edição de 20 de setembro foi localizada. A página não deve apresentar os dados do evento de 2017 como atuais.",
+        "checked_at": "2026-08-22"
+      }
+    },
+    {
+      "slug": "2-rock-fest-dois-corregos-sp-2026-08-08",
+      "updates": {
+        "title": "2º Rock Fest de Dois Córregos",
+        "summary": "O cartaz da 2ª edição divulga o Rock Fest de Dois Córregos para 8 e 9 de agosto de 2026, com entrada gratuita, estacionamento, camping, chuveiros, praça de alimentação e bandas. A página oficial de Turismo confirma o caráter beneficente do Moto Rock local e sua ligação com o Moto Clube Descendentes, mas não confirma os dados operacionais da edição de agosto; por isso o vínculo é mantido apenas como contexto.",
+        "body": "## Serviço do cartaz de 2026\n\nA fonte específica da segunda edição informa o 2º Rock Fest de Dois Córregos nos dias 8 e 9 de agosto de 2026. O cartaz anuncia entrada gratuita, estacionamento, área de camping, chuveiros, praça de alimentação e apresentações de bandas. O período divulgado já terminou, e esses itens ficam preservados como registro do que foi anunciado.\n\n## Contexto oficial e limite da confirmação\n\nA página oficial de Turismo de Dois Córregos descreve o Moto Rock do município como evento beneficente organizado pelo Moto Clube Descendentes. A mesma página apresenta o encontro como recorrente, mas sua descrição genérica não identifica esta segunda edição nem confirma datas, endereço ou programação de agosto de 2026. Assim, ela serve para explicar a tradição motociclística local, não para completar lacunas do cartaz.\n\nTambém foi localizada uma página histórica da primeira edição, em 2025. O endereço, a campanha de doação e os horários daquele ano foram descartados. Não foram encontrados resultado, público ou cobertura independente da segunda edição. O status concluída significa apenas que a janela anunciada terminou.",
+        "status": "concluida",
+        "time_label": "8 e 9 de agosto de 2026; horários não informados no material localizado",
+        "admission_status": "Entrada gratuita, conforme o cartaz da segunda edição.",
+        "parking": "Estacionamento anunciado no cartaz; não foram publicados capacidade, acesso ou condições.",
+        "attractions": [
+          "Bandas",
+          "Praça de alimentação",
+          "Camping",
+          "Chuveiros"
+        ],
+        "verification_status": "cartaz_2026_com_contexto_oficial_do_evento_recorrente",
+        "status_basis": "O serviço vem do cartaz específico da segunda edição. A fonte municipal confirma apenas o contexto beneficente do evento motociclístico local; o período terminou em 9 de agosto.",
+        "last_updated": "2026-08-22",
+        "status_checked_at": "2026-08-22",
+        "source_checked_at": "2026-08-22"
+      },
+      "additional_sources": [
+        {
+          "url": "https://sites.google.com/administracao.doiscorregos.sp.gov.br/turismodoiscrregos/eventos-dois-corregos",
+          "label": "Turismo Dois Córregos — eventos do município",
+          "type": "turismo_municipal_oficial",
+          "supports": [
+            "existência do Moto Rock local como evento recorrente",
+            "caráter beneficente",
+            "vínculo geral do Moto Rock com o Moto Clube Descendentes"
+          ]
+        }
+      ],
+      "research": {
+        "status": "confirmacao_parcial_sem_segunda_fonte_da_edicao",
+        "queries": [
+          "2 Rock Fest Dois Córregos 8 9 agosto 2026",
+          "site:doiscorregos.sp.gov.br Rock Fest motociclistas 2026",
+          "Descendentes MC Dois Córregos Rock Fest 2026"
+        ],
+        "rejected_sources": [
+          {
+            "url": "https://allevents.in/s%C3%A3o-carlos/1%C2%B0-dois-corregos-rock-fest/200028625693546",
+            "reason": "Página da primeira edição, em 2025. Endereço, campanha solidária e horários não foram transferidos para 2026."
+          }
+        ],
+        "notes": "A página de Turismo usa a denominação genérica Moto Rock e não publica a ficha da segunda edição. Por isso, ela não foi usada para preencher local ou organizador da edição sem ressalva.",
+        "checked_at": "2026-08-22"
+      }
+    },
+    {
+      "slug": "2-motofest-itapevi-sp-2026-07-26",
+      "updates": {
+        "title": "2º Itapevi Moto Fest",
+        "summary": "O 2º Itapevi Moto Fest foi realizado em 26 de julho de 2026, das 8h às 16h, no estacionamento do Parque da Cidade. A programação gratuita reuniu exposição de motos clássicas, antigas e customizadas, rock e o Burning Fest. Segundo o Portal Itapevi, mais de 10 mil pessoas e cerca de 2.800 motociclistas participaram; o resultado é atribuído à publicação local, não tratado como contagem própria.",
+        "body": "## Realização confirmada\n\nO 2º Itapevi Moto Fest ocorreu em 26 de julho de 2026, das 8h às 16h, no estacionamento do Parque da Cidade, na Rua Professor Dimarães Antonio Sandei, em Cidade Saúde. O Jornal A Rua publicou o serviço antes do encontro, com entrada gratuita, exposição de motos clássicas e customizadas, shows de rock, DJs e a realização conjunta do Burning Fest.\n\nO Portal Itapevi publicou o balanço depois do evento e informou mais de 10 mil pessoas e aproximadamente 2.800 motociclistas. A cobertura também cita estrutura com banheiros, ambulância e presença da Guarda Civil Municipal. Esses números ficam claramente atribuídos à fonte local.\n\n## Acesso e circulação\n\nA programação foi gratuita. Para motociclistas que participariam da área de exposição e encontro, a divulgação prévia exigia habilitação categoria A e documentação regular do veículo, além de proibir manobras perigosas. O evento ocupou o estacionamento do Parque da Cidade; as matérias não explicam onde visitantes poderiam estacionar separadamente, portanto não se deve anunciar estacionamento disponível sem ressalva. A Prefeitura de Itapevi é identificada como realizadora nas coberturas.",
+        "status": "concluida",
+        "time_label": "26 de julho de 2026, das 8h às 16h",
+        "venue": "Estacionamento do Parque da Cidade",
+        "street_address": "Rua Professor Dimarães Antonio Sandei — Cidade Saúde",
+        "full_address": "Estacionamento do Parque da Cidade, Rua Professor Dimarães Antonio Sandei, Cidade Saúde, Itapevi - SP",
+        "organizer": "Prefeitura de Itapevi",
+        "admission_status": "Entrada gratuita. Para motociclistas participantes, a divulgação exigia CNH categoria A e documentação regular do veículo.",
+        "parking": "O evento utilizou o estacionamento do Parque da Cidade. As fontes não informam operação separada de estacionamento para visitantes.",
+        "attractions": [
+          "Exposição de motos clássicas, antigas e customizadas",
+          "Shows de rock e DJs",
+          "Burning Fest com churrasco",
+          "Confraternização de motociclistas"
+        ],
+        "verification_status": "realizacao_confirmada_por_fontes_locais_independentes",
+        "status_basis": "Serviço pré-evento publicado pelo Jornal A Rua e balanço pós-evento publicado pelo Portal Itapevi coincidem em data, local e formato; a segunda fonte confirma realização e divulga público.",
+        "last_updated": "2026-08-22",
+        "status_checked_at": "2026-08-22",
+        "source_checked_at": "2026-08-22"
+      },
+      "additional_sources": [
+        {
+          "url": "https://jornalarua.com/2026/07/16/parque-da-cidade-recebe-2o-itapevi-moto-fest-e-burning-fest-com-churrasco-rock-e-exposicao-de-motos/",
+          "label": "Jornal A Rua — serviço do 2º Itapevi Moto Fest",
+          "type": "imprensa_local",
+          "supports": [
+            "data de 26 de julho",
+            "horário das 8h às 16h",
+            "estacionamento do Parque da Cidade e endereço",
+            "entrada gratuita",
+            "exposição, rock, DJs e Burning Fest",
+            "regras para motociclistas participantes"
+          ]
+        },
+        {
+          "url": "https://portalitapevi.com.br/2o-itapevi-moto-fest-reune-mais-de-10-mil-pessoas-e-2-800-motociclistas/",
+          "label": "Portal Itapevi — balanço do 2º Itapevi Moto Fest",
+          "type": "imprensa_local_pos_evento",
+          "supports": [
+            "realização do evento",
+            "mais de 10 mil pessoas segundo a publicação",
+            "cerca de 2.800 motociclistas segundo a publicação",
+            "estrutura de segurança e atendimento",
+            "organização municipal"
+          ]
+        },
+        {
+          "url": "https://www.portalviva.com.br/noticia/itapevi-realiza-2%C2%BA-moto-fest-neste-domingo-com-rock-ao-vivo-churrasco-e-entrada-gratuita",
+          "label": "Portal Viva — anúncio do 2º Moto Fest de Itapevi",
+          "type": "imprensa_regional",
+          "supports": [
+            "entrada gratuita",
+            "rock ao vivo e churrasco",
+            "data e realização em Itapevi"
+          ]
+        }
+      ],
+      "research": {
+        "status": "realizacao_e_servico_confirmados",
+        "queries": [
+          "2 Itapevi Moto Fest 26 julho 2026",
+          "Itapevi Moto Fest 2026 10 mil 2800 motociclistas",
+          "Parque da Cidade Itapevi Moto Fest Burning Fest 2026"
+        ],
+        "notes": "Os números de público são atribuídos ao Portal Itapevi. Não foi encontrada metodologia de contagem; por isso são apresentados como estimativa publicada, não como medição independente da TVDUASRODAS.",
+        "checked_at": "2026-08-22"
+      }
+    },
+    {
+      "slug": "tour-sao-francisco-itabapoana-2026",
+      "updates": {
+        "summary": "O 2º Tour São Francisco foi realizado de 7 a 9 de agosto de 2026 em São Francisco de Itabapoana, com 190 atletas de 62 cidades na abertura e disputas em 25 categorias. A Prefeitura confirmou o encerramento das três etapas, e fontes esportivas registraram Euller Magno e Luciene Ferreira como campeões gerais. O evento valeu pontos para o ranking estadual da FECIERJ e o ranking nacional da CBC.",
+        "body": "## Tour concluído e resultados verificados\n\nO 2º Tour São Francisco reuniu ciclismo de estrada entre 7 e 9 de agosto de 2026 em São Francisco de Itabapoana. A abertura e o congresso técnico ocorreram na Câmara Municipal. A Prefeitura informou 190 atletas de 62 cidades no início da programação e confirmou que o evento terminou no domingo após disputas em 25 categorias.\n\nA programação esportiva registrada pela Confederação Brasileira de Ciclismo incluiu apresentação e congresso na sexta, contrarrelógio na RJ-196 no sábado e circuito no entorno da Praça dos Três Poderes no domingo. A prova distribuiu pontos para os rankings da Federação de Ciclismo do Estado do Rio de Janeiro e da CBC. A organização foi compartilhada por Team Master, Prefeitura de São Francisco de Itabapoana, FECIERJ e CBC.\n\n## Destaques competitivos\n\nA Andbank Cycling Team confirmou Euller Magno e Luciene Ferreira como vencedores gerais. O GF Esporte também publicou o encerramento com mais de 190 atletas e 25 categorias. A taxa de R$ 300 exibida pela CBC se referia à inscrição esportiva de participantes, já encerrada; as fontes não informam cobrança para espectadores.\n\n## Imagem editorial\n\nNão foi identificada, nesta rodada, uma fotografia com licença de reutilização claramente documentada. A ilustração genérica já usada na página deve permanecer identificada como imagem editorial, e não como fotografia documental desta prova, até que a Prefeitura, a CBC ou uma equipe autorize uma foto específica.",
+        "status": "concluida",
+        "official_url": "https://pmsfi.rj.gov.br/noticia/2o-tour-sao-francisco-supera-expectativas-e-encerra-fim-de-semana-de-grandes-disputas/",
+        "time_label": "7 a 9 de agosto de 2026; etapas e congresso conforme programação oficial da CBC",
+        "venue": "Câmara Municipal, RJ-196 e circuito no entorno da Praça dos Três Poderes",
+        "full_address": "São Francisco de Itabapoana - RJ, com atividades na Câmara Municipal, RJ-196 e entorno da Praça dos Três Poderes",
+        "organizer": "Team Master, Prefeitura de São Francisco de Itabapoana, FECIERJ e Confederação Brasileira de Ciclismo",
+        "admission_status": "Inscrições esportivas encerradas; a CBC publicou taxa de R$ 300 por participante. As fontes consultadas não informam cobrança para espectadores.",
+        "parking": "Não informado nas fontes oficiais consultadas.",
+        "attractions": [
+          "Congresso técnico e apresentação das equipes",
+          "Contrarrelógio individual na RJ-196",
+          "Provas de resistência",
+          "Circuito final no entorno da Praça dos Três Poderes",
+          "Disputas em 25 categorias"
+        ],
+        "verification_status": "realizacao_e_resultados_confirmados",
+        "status_basis": "Prefeitura confirmou abertura e encerramento; CBC publicou serviço e regulamento; Andbank Cycling Team e GF Esporte registraram os resultados e campeões gerais.",
+        "last_updated": "2026-08-22",
+        "status_checked_at": "2026-08-22",
+        "source_checked_at": "2026-08-22"
+      },
+      "additional_sources": [
+        {
+          "url": "https://www.cbc.esp.br/modalidades/eventos/busca//pagina/2",
+          "label": "Confederação Brasileira de Ciclismo — calendário e programa do Tour São Francisco",
+          "type": "confederacao_esportiva_oficial",
+          "supports": [
+            "datas de 7 a 9 de agosto",
+            "programação das etapas",
+            "organizadores e entidades esportivas",
+            "pontuação em rankings",
+            "taxa de inscrição de participantes"
+          ]
+        },
+        {
+          "url": "https://pmsfi.rj.gov.br/noticia/2o-tour-sao-francisco-comeca-com-190-atletas-de-62-cidades/",
+          "label": "Prefeitura de São Francisco de Itabapoana — abertura com 190 atletas",
+          "type": "prefeitura_oficial",
+          "supports": [
+            "início efetivo do evento",
+            "190 atletas de 62 cidades",
+            "abertura na Câmara Municipal"
+          ]
+        },
+        {
+          "url": "https://pmsfi.rj.gov.br/noticia/2o-tour-sao-francisco-supera-expectativas-e-encerra-fim-de-semana-de-grandes-disputas/",
+          "label": "Prefeitura de São Francisco de Itabapoana — encerramento do 2º Tour",
+          "type": "prefeitura_oficial_pos_evento",
+          "supports": [
+            "conclusão do evento em 9 de agosto",
+            "disputas em 25 categorias",
+            "execução das três etapas"
+          ]
+        },
+        {
+          "url": "https://andbankcyclingteam.com.br/euller-magno-e-luciene-ferreira-conquistam-titulos-gerais-no-tour-sao-francisco/",
+          "label": "Andbank Cycling Team — campeões gerais do Tour São Francisco",
+          "type": "equipe_esportiva",
+          "supports": [
+            "Euller Magno como campeão geral",
+            "Luciene Ferreira como campeã geral",
+            "realização entre 7 e 9 de agosto"
+          ]
+        },
+        {
+          "url": "https://www.gfesporte.com.br/noticias/ciclismo/2ao-tour-s-o-francisco-chega-ao-fim-com-disputas-em-25-categorias/28881/",
+          "label": "GF Esporte — Tour São Francisco chega ao fim",
+          "type": "imprensa_esportiva_regional",
+          "supports": [
+            "encerramento da competição",
+            "mais de 190 atletas",
+            "25 categorias",
+            "resultados esportivos"
+          ]
+        }
+      ],
+      "research": {
+        "status": "fontes_oficiais_e_resultados_cruzados",
+        "queries": [
+          "2 Tour São Francisco 2026 resultados ciclismo",
+          "site:pmsfi.rj.gov.br Tour São Francisco agosto 2026",
+          "site:cbc.esp.br Tour São Francisco 2026",
+          "Euller Magno Luciene Ferreira Tour São Francisco 2026"
+        ],
+        "visual_evidence": "Nenhuma fotografia específica com licença de reutilização claramente identificada foi selecionada. Manter ilustração editorial genérica com legenda transparente até obter autorização de fonte oficial.",
+        "notes": "Os números de participantes e cidades foram publicados pela Prefeitura. A taxa de R$ 300 da CBC diz respeito à inscrição esportiva, não ao acesso do público.",
+        "checked_at": "2026-08-22"
+      }
+    },
+    {
+      "slug": "2-motofest-vicosa-mg-2026-09-03",
+      "updates": {
+        "title": "2º Motofest de Viçosa",
+        "summary": "O cartaz do 2º Motofest de Viçosa, Minas Gerais, anuncia o evento para 3 a 5 de setembro de 2026. Não foi localizada uma segunda fonte específica com endereço, horários, organização, entrada, estacionamento ou atrações. Resultados sobre Viçosa do Ceará e sobre outro encontro motociclístico marcado para 11 a 13 de setembro em Viçosa-MG foram descartados para evitar mistura de cidades e eventos.",
+        "body": "## Agenda registrada\n\nO material específico disponível anuncia o 2º Motofest de Viçosa, em Minas Gerais, entre 3 e 5 de setembro de 2026. As datas são futuras em relação à revisão de 22 de agosto.\n\n## Pesquisa e prevenção de homônimos\n\nAs buscas combinaram título, datas, Viçosa-MG, Prefeitura, turismo, cultura, motoclubes e imprensa regional. Não apareceu comunicado independente que permitisse preencher local, endereço, horários, organizador, telefone, ingresso, estacionamento ou programação.\n\nParte dos resultados se refere a um Motofest de Viçosa do Ceará, em outro estado e outra edição. Outro resultado lista o 10º Encontro Nacional de Motociclistas de Viçosa-MG para 11 a 13 de setembro, com numeração e datas diferentes. Nenhuma dessas páginas foi usada para completar o 2º Motofest de 3 a 5 de setembro. A página deve permanecer publicada com aviso de fonte única até que o organizador divulgue serviço verificável.",
+        "time_label": "3 a 5 de setembro de 2026; horários não informados na fonte específica localizada",
+        "admission_status": "Não informado na fonte específica localizada.",
+        "parking": "Não informado na fonte específica localizada.",
+        "verification_status": "cartaz_primario_sem_segunda_fonte_indexada",
+        "status_basis": "Somente o cartaz específico sustenta as datas. Fontes de Viçosa-CE e de outro encontro em Viçosa-MG foram excluídas.",
+        "last_updated": "2026-08-22",
+        "status_checked_at": "2026-08-22",
+        "source_checked_at": "2026-08-22"
+      },
+      "additional_sources": [],
+      "research": {
+        "status": "sem_segunda_fonte_especifica",
+        "queries": [
+          "2 Motofest Viçosa MG 3 4 5 setembro 2026",
+          "site:vicosa.mg.gov.br Motofest 2026",
+          "Viçosa MG motociclistas setembro 2026 Motofest"
+        ],
+        "rejected_sources": [
+          {
+            "url": "https://vicosadoceara.com/1o-vicosa-moto-fest-de-5-a-7-de-setembro/",
+            "reason": "Evento de Viçosa do Ceará e de outra edição; município e estado não correspondem ao registro de Viçosa-MG."
+          },
+          {
+            "url": "https://mototour.com.br/eventos/imprimir",
+            "reason": "Lista outro evento em Viçosa-MG, o 10º Encontro Nacional, marcado para 11 a 13 de setembro; não comprova o 2º Motofest de 3 a 5 de setembro."
+          }
+        ],
+        "notes": "A desambiguação de cidade e datas é essencial. Nenhum dado dos eventos homônimos foi incorporado.",
+        "checked_at": "2026-08-22"
+      }
+    },
+    {
+      "slug": "3-cafe-rock-cafelandia-sp-2026-08-15",
+      "updates": {
+        "title": "3º Café Rock de Cafelândia",
+        "summary": "O cartaz do 3º Café Rock de Cafelândia anuncia o evento para 15 de agosto de 2026, com programação de rock. O dia divulgado já passou, mas não foi localizada segunda fonte específica nem balanço de realização. A agenda municipal estava sem item correspondente na consulta e um encontro de carros e motos anunciado para 16 de agosto é outro evento, cujos dados não foram misturados.",
+        "body": "## Registro da terceira edição\n\nA fonte específica disponível anuncia o 3º Café Rock de Cafelândia para 15 de agosto de 2026 e indica programação de rock. Como a data já passou, a página pode permanecer no histórico com status de período encerrado. Esse status não significa confirmação de público ou de que toda a programação foi executada.\n\n## Verificação e eventos separados\n\nForam pesquisados o nome exato, a data, Prefeitura de Cafelândia, turismo, cultura, agenda municipal, motoclubes e imprensa regional. A agenda pública do Município não apresentava item correspondente na consulta de 22 de agosto, mas a ausência no calendário não comprova cancelamento. Não foi localizada reportagem pós-evento nem publicação do organizador com endereço, horário, entrada, estacionamento ou atrações nominais.\n\nO agregador também exibe um encontro de carros e motos em Cafelândia no dia 16 de agosto. Por ter outro título e outra data, ele foi tratado como evento separado e nenhum dado foi trazido para o 3º Café Rock. Até surgir fonte específica, o serviço deve ficar limitado ao que o cartaz informa.",
+        "status": "concluida",
+        "time_label": "15 de agosto de 2026; horário não informado na fonte específica localizada",
+        "admission_status": "Não informado na fonte específica localizada.",
+        "parking": "Não informado na fonte específica localizada.",
+        "attractions": [
+          "Programação de rock sem atrações nominais verificadas"
+        ],
+        "verification_status": "cartaz_primario_sem_segunda_fonte_indexada",
+        "status_basis": "A data vem do cartaz; o status concluída indica somente que 15 de agosto passou. A ausência de item na agenda municipal não foi tratada como cancelamento ou confirmação de realização.",
+        "last_updated": "2026-08-22",
+        "status_checked_at": "2026-08-22",
+        "source_checked_at": "2026-08-22"
+      },
+      "additional_sources": [],
+      "research": {
+        "status": "sem_segunda_fonte_especifica",
+        "queries": [
+          "3 Café Rock Cafelândia 15 agosto 2026",
+          "site:cafelandia.sp.gov.br Café Rock 2026",
+          "Cafelândia SP rock motociclistas 15/08/2026"
+        ],
+        "consulted_without_confirmation": [
+          {
+            "url": "https://www.cafelandia.sp.gov.br/portal/agenda",
+            "result": "Nenhum item correspondente apareceu na agenda municipal consultada; ausência não usada como evidência de cancelamento."
+          }
+        ],
+        "notes": "O encontro de carros e motos do dia 16 de agosto foi mantido separado por ter título e data próprios.",
+        "checked_at": "2026-08-22"
+      }
+    }
+  ]
+}

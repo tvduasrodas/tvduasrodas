@@ -1,0 +1,729 @@
+{
+  "batch": "e",
+  "reviewed_at": "2026-08-22",
+  "entries": [
+    {
+      "slug": "beneficente-gdr-jaci-sp-2026-08-02",
+      "updates": {
+        "summary": "A ação BENEFICENTE GDR foi divulgada para 2 de agosto de 2026, em Jaci (SP). A página e o flyer específicos confirmam nome, data e município, mas as buscas atuais não localizaram organizador, endereço, horário, contato, finalidade da arrecadação ou segunda fonte independente da edição.",
+        "body": "## Informações confirmadas\n\nO flyer específico identifica BENEFICENTE GDR em Jaci (SP) no dia 2 de agosto de 2026. Nenhum horário, local detalhado, contato ou item de programação ficou legível com segurança.\n\n## Pesquisa complementar\n\nBuscas pelo nome exato, pela data e pelo município em canais locais e institucionais não localizaram outra publicação específica. A sigla GDR não foi expandida porque nenhuma fonte da edição explica seu significado; também não foi atribuída uma entidade beneficiada sem comprovação.\n\n## Situação do registro\n\nO período anunciado já terminou. Isso não comprova, por si só, que a atividade ocorreu: não foi localizada cobertura posterior nem aviso de cancelamento. A página deve continuar pública como registro de agenda e ser completada se surgir manifestação do responsável.",
+        "status": "concluida",
+        "verification_status": "edicao_confirmada_em_flyer_sem_segunda_fonte_indexada",
+        "last_updated": "2026-08-22T12:00:00-04:00",
+        "time_label": "2 de agosto de 2026; horário não confirmado",
+        "venue": "Local da edição de 2026 não confirmado",
+        "full_address": "Endereço não confirmado; referência segura apenas a Jaci - SP",
+        "status_basis": "O período divulgado terminou em 2 de agosto de 2026. Não foi localizada fonte independente de realização ou cancelamento; a página é preservada como registro de agenda.",
+        "status_checked_at": "2026-08-22T12:00:00-04:00",
+        "organizer": "Organização da edição de 2026 não identificada nas fontes localizadas",
+        "contact": "Contato da edição de 2026 não identificado nas fontes localizadas",
+        "source_checked_at": "2026-08-22T12:00:00-04:00",
+        "admission_status": "Não informado no flyer nem em segunda fonte específica localizada",
+        "parking": "Não informado no flyer nem em segunda fonte específica localizada",
+        "attractions": []
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"BENEFICENTE GDR\" Jaci 2 agosto 2026",
+          "\"Beneficente GDR\" Jaci moto",
+          "site:jaci.sp.gov.br GDR beneficente agosto 2026"
+        ],
+        "current_specific_domains_found": 1,
+        "result": "Somente a página e o flyer específicos já indexados pela JB-RIDER foram localizados para esta edição.",
+        "uncertainties": [
+          "significado de GDR e entidade beneficiada",
+          "local, endereço e horário",
+          "organizador e contato",
+          "acesso, estacionamento e comprovação de realização"
+        ],
+        "editorial_guardrail": "A natureza exata da ação e o destino de eventual arrecadação não foram presumidos a partir da palavra beneficente."
+      }
+    },
+    {
+      "slug": "bandidas-brasil-itaguai-rj-2026-10-24",
+      "updates": {
+        "summary": "Bandidas Brasil está divulgado para 24 de outubro de 2026, em Itaguaí (RJ), com bandas ou shows de rock indicados no flyer. Local, horário, nomes das atrações, responsável, contato, entrada e estacionamento ainda não têm confirmação independente.",
+        "body": "## Edição de outubro\n\nO flyer específico e a agenda atual da JB-RIDER mantêm Bandidas Brasil em Itaguaí no dia 24 de outubro de 2026. A arte permite identificar bandas e rock, mas não fornece de forma verificável local, horário ou nomes da programação.\n\n## Duplicidade no mesmo domínio\n\nA agenda exibe no mesmo dia e cidade as formas “Bandidas Brasil” e “Bandidas Brasil MC”. Elas parecem registros relacionados, porém uma fonte independente não foi localizada para confirmar se são duplicatas ou atividades distintas; por isso, nenhum segundo evento ou programação foi criado.\n\n## Confirmação necessária\n\nAté 22 de agosto não foi encontrado canal do organizador, Prefeitura ou imprensa local específico desta edição. A página permanece ativa, mas o serviço deve ser reconfirmado antes de qualquer deslocamento.",
+        "status": "agendada",
+        "verification_status": "edicao_futura_em_flyer_com_duplicidade_no_mesmo_dominio",
+        "last_updated": "2026-08-22T12:00:00-04:00",
+        "time_label": "24 de outubro de 2026; horário não confirmado",
+        "venue": "Local da edição de 2026 não confirmado",
+        "full_address": "Endereço não confirmado; referência segura apenas a Itaguaí - RJ",
+        "status_basis": "Data futura presente no flyer e na agenda atual. Nenhum comunicado de alteração ou cancelamento foi localizado até 22 de agosto de 2026; reconfirme antes de viajar.",
+        "status_checked_at": "2026-08-22T12:00:00-04:00",
+        "organizer": "Bandidas Brasil (nome destacado na arte; responsável formal não confirmado)",
+        "contact": "Contato da edição de 2026 não identificado nas fontes localizadas",
+        "source_checked_at": "2026-08-22T12:00:00-04:00",
+        "admission_status": "Não informado no flyer nem em segunda fonte específica localizada",
+        "parking": "Não informado no flyer nem em segunda fonte específica localizada",
+        "attractions": [
+          "Shows ou bandas de rock; nomes e horários não confirmados"
+        ]
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"Bandidas Brasil\" Itaguaí 24 outubro 2026 motociclistas",
+          "\"Bandidas Brasil MC\" Itaguaí 2026",
+          "site:instagram.com \"Bandidas Brasil\" Itaguaí"
+        ],
+        "current_specific_domains_found": 1,
+        "result": "A edição aparece em duas fichas nominais do mesmo domínio, sem segunda fonte independente indexada.",
+        "uncertainties": [
+          "relação entre Bandidas Brasil e Bandidas Brasil MC",
+          "local e horário",
+          "bandas e programação",
+          "contato, entrada e estacionamento"
+        ]
+      }
+    },
+    {
+      "slug": "baroes-do-vento-mg-cosmopolis-sp-2026-11-13",
+      "updates": {
+        "summary": "Barões do Vento MG está divulgado para 13 a 15 de novembro de 2026, na Rodovia Professor Zeferino Vaz, 2200, em Cosmópolis (SP). O flyer menciona camping, chuveiros, café da manhã, alimentação, rock, expositores, troféus, sorteios, piscina e estacionamento; preços, regras e programação diária seguem sem segunda fonte.",
+        "body": "## Serviço legível no flyer\n\nO material da edição confirma o período de 13 a 15 de novembro e o endereço Rodovia Professor Zeferino Vaz, 2200, em Cosmópolis. Também menciona área de camping, chuveiros, café da manhã, praça de alimentação, bandas ou shows de rock, expositores, troféus, brindes ou sorteios, piscina e estacionamento.\n\n## Horário e estrutura\n\nA marca 16h00 é legível, mas a atividade correspondente não ficou clara; ela não deve ser tratada automaticamente como abertura. O flyer não torna verificáveis preço de entrada, capacidade, regras de camping, gratuidade das refeições, condições da piscina ou funcionamento do estacionamento.\n\n## Verificação externa\n\nNão foi localizada uma publicação independente da organização, da Prefeitura ou da imprensa local para a edição de novembro. Outro festival de 2026 aparece no mesmo endereço e identifica um nome de espaço, mas esse resultado não prova o local nominal deste encontro e não foi usado para batizá-lo.",
+        "status": "agendada",
+        "verification_status": "flyer_com_servico_ampliado_sem_segunda_fonte_especifica",
+        "last_updated": "2026-08-22T12:00:00-04:00",
+        "time_label": "Marca de horário 16h00 no flyer; atividade correspondente não legível, confirme com a organização",
+        "venue": "Rodovia Professor Zeferino Vaz, 2200",
+        "full_address": "Rodovia Professor Zeferino Vaz, 2200, Centro, Cosmópolis - SP",
+        "status_basis": "Período futuro presente no flyer e na agenda atual. Nenhum comunicado de alteração ou cancelamento foi localizado até 22 de agosto de 2026; reconfirme antes de viajar.",
+        "status_checked_at": "2026-08-22T12:00:00-04:00",
+        "organizer": "Barões do Vento MG",
+        "contact": "Contato da edição de 2026 não identificado nas fontes localizadas",
+        "source_checked_at": "2026-08-22T12:00:00-04:00",
+        "admission_status": "Não informado no flyer nem em segunda fonte específica localizada",
+        "parking": "Estacionamento mencionado no flyer; preço, capacidade, acesso e regras não confirmados",
+        "attractions": [
+          "Área de camping",
+          "Chuveiros",
+          "Café da manhã",
+          "Praça de alimentação",
+          "Shows ou bandas de rock",
+          "Expositores",
+          "Troféus",
+          "Brindes ou sorteios",
+          "Piscina",
+          "Estacionamento"
+        ]
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"Barões do Vento MG\" Cosmópolis 13 novembro 2026",
+          "\"Barões do Vento\" \"Zeferino Vaz\"",
+          "site:cosmopolis.sp.gov.br \"Barões do Vento\""
+        ],
+        "current_specific_domains_found": 1,
+        "result": "O flyer contém serviço substancial, mas não foi localizada segunda fonte específica da edição.",
+        "excluded_results": [
+          {
+            "url": "https://cybertrip.com.br/pacote/farofa-trance-05-06-de-setembro-tarde-data_05-09-2026h13_00p255/44291",
+            "reason": "Refere-se ao Farofa Trance de setembro de 2026 no mesmo endereço; não confirma nome do espaço, serviço ou organização do encontro de novembro."
+          }
+        ],
+        "uncertainties": [
+          "atividade associada às 16h00",
+          "nome oficial do espaço",
+          "programação diária e contatos",
+          "preços e regras da estrutura anunciada"
+        ]
+      }
+    },
+    {
+      "slug": "motofest-barreirinhas-ma-2026-11-06",
+      "updates": {
+        "summary": "O Barreirinhas Moto Fest está divulgado para 6 a 8 de novembro de 2026, em Barreirinhas (MA). A edição, as datas e a cidade aparecem na ficha específica e na agenda atual, mas local, horários, programação, organização, contato, entrada e estacionamento ainda não foram publicados em fonte independente.",
+        "body": "## Data e município\n\nA ficha específica e a agenda atual da JB-RIDER mantêm o Moto Fest de Barreirinhas entre 6 e 8 de novembro de 2026. Nenhum detalhe adicional de serviço ficou legível no material disponível.\n\n## Busca local\n\nForam pesquisados o nome do evento, as datas e o município, inclusive no portal da Prefeitura e em combinações com motociclistas e motoclubes. Não apareceu publicação específica da edição em canal do organizador, órgão municipal ou imprensa local.\n\n## Informações pendentes\n\nLocal, endereço, horários, bandas, atividades, responsável, contato, entrada e estacionamento permanecem sem confirmação. Nenhum dado de outros eventos realizados em Barreirinhas foi reaproveitado nesta página.",
+        "status": "agendada",
+        "verification_status": "edicao_futura_confirmada_em_agenda_sem_segunda_fonte_indexada",
+        "last_updated": "2026-08-22T12:00:00-04:00",
+        "time_label": "De 6 a 8 de novembro de 2026; horários diários não confirmados",
+        "venue": "Local da edição de 2026 não confirmado",
+        "full_address": "Endereço não confirmado; referência segura apenas a Barreirinhas - MA",
+        "status_basis": "Datas futuras presentes na ficha específica e na agenda atual. Nenhum comunicado de alteração ou cancelamento foi localizado até 22 de agosto de 2026; reconfirme antes de viajar.",
+        "status_checked_at": "2026-08-22T12:00:00-04:00",
+        "organizer": "Organização da edição de 2026 não identificada nas fontes localizadas",
+        "contact": "Contato da edição de 2026 não identificado nas fontes localizadas",
+        "source_checked_at": "2026-08-22T12:00:00-04:00",
+        "admission_status": "Não informado no material consultado",
+        "parking": "Não informado no material consultado",
+        "attractions": []
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"Barreirinhas Moto Fest\" 2026",
+          "Barreirinhas MA motociclistas 6 8 novembro 2026",
+          "site:barreirinhas.ma.gov.br moto fest 2026"
+        ],
+        "current_specific_domains_found": 1,
+        "result": "Somente a ficha e a listagem do mesmo domínio de agenda foram localizadas para a edição de novembro.",
+        "uncertainties": [
+          "local e endereço",
+          "horários e programação",
+          "organizador e contato",
+          "entrada e estacionamento"
+        ]
+      }
+    },
+    {
+      "slug": "motofest-belo-jardim-pe-2026-09-04",
+      "updates": {
+        "summary": "O Belo Jardim Moto Fest está divulgado para 4 a 6 de setembro de 2026, em Belo Jardim (PE). A Prefeitura reconhece o Motofest entre as festividades culturais do município, mas sua página é geral e não confirma local, programação, organização ou serviço da edição de 2026.",
+        "body": "## Edição de setembro\n\nA página específica da JB-RIDER confirma o nome Moto Fest, Belo Jardim e o período de 4 a 6 de setembro de 2026. O material em vídeo associado não forneceu texto verificável de local, horário, atrações, contato ou acesso.\n\n## Contexto oficial sem transferência de serviço\n\nA página de Turismo da Prefeitura inclui o Belo Jardim Motofest entre as festividades culturais do município. Ela comprova a existência do evento na tradição local, mas não informa ano, data ou serviço e, portanto, não confirma esta edição nem autoriza reutilizar endereço ou programação histórica.\n\n## Pendências\n\nAté 22 de agosto não foi localizada outra fonte específica da edição. Local, horários, organizador, contato, entrada, camping e estacionamento devem ser confirmados antes da viagem.",
+        "status": "agendada",
+        "verification_status": "edicao_futura_em_agenda_com_contexto_municipal_nao_especifico",
+        "last_updated": "2026-08-22T12:00:00-04:00",
+        "time_label": "De 4 a 6 de setembro de 2026; horários diários não confirmados",
+        "venue": "Local da edição de 2026 não confirmado",
+        "full_address": "Endereço não confirmado; referência segura apenas a Belo Jardim - PE",
+        "status_basis": "Datas futuras presentes na página específica. Nenhum comunicado de alteração ou cancelamento foi localizado até 22 de agosto de 2026; reconfirme antes de viajar.",
+        "status_checked_at": "2026-08-22T12:00:00-04:00",
+        "organizer": "Organização da edição de 2026 não identificada nas fontes localizadas",
+        "contact": "Contato da edição de 2026 não identificado nas fontes localizadas",
+        "source_checked_at": "2026-08-22T12:00:00-04:00",
+        "admission_status": "Não informado para a edição de 2026",
+        "parking": "Não informado para a edição de 2026",
+        "attractions": []
+      },
+      "additional_sources": [
+        {
+          "url": "https://belojardim.pe.gov.br/turismo/festas/",
+          "label": "Prefeitura de Belo Jardim — página municipal de festividades",
+          "type": "contexto institucional; não confirma o serviço de 2026",
+          "supports": "reconhecimento do Belo Jardim Motofest entre as festividades culturais locais; não informa edição, datas, local ou programação de 2026"
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Belo Jardim Moto Fest\" 2026",
+          "Belo Jardim PE motociclistas 4 setembro 2026",
+          "site:belojardim.pe.gov.br \"Moto Fest\" 2026"
+        ],
+        "current_specific_domains_found": 1,
+        "context_domains_found": 1,
+        "result": "A edição de 2026 só foi localizada na agenda; a Prefeitura oferece contexto institucional geral, sem serviço atual.",
+        "historical_context_not_applied": [
+          "locais de edições anteriores",
+          "programação e motoclubes de edições antigas",
+          "regras de entrada, camping e estacionamento"
+        ],
+        "uncertainties": [
+          "local e endereço",
+          "horários e atrações",
+          "organizador e contato",
+          "entrada e estacionamento"
+        ]
+      }
+    },
+    {
+      "slug": "motofest-bezerros-pe-2026-07-30",
+      "updates": {
+        "summary": "A 23ª edição do Bezerros Moto Fest foi realizada na Praça da Matriz, com programação gratuita e cobertura local em 31 de julho e 1º de agosto de 2026. No sábado tocaram Rolê Alternativo, Patrícia Vasconcelos, IRA! e Visão Noturna; as fontes divergem sobre o encerramento anunciado, em 1º ou 2 de agosto.",
+        "body": "## Realização confirmada\n\nCobertura local da 23ª edição registra o Bezerros Moto Fest na Praça da Matriz em 31 de julho e mostra os shows realizados no palco da Rua da Matriz em 1º de agosto. No sábado, a programação reuniu Rolê Alternativo, Patrícia Vasconcelos, IRA! e Visão Noturna.\n\n## Local, acesso e organização\n\nA prévia publicada em 15 de julho informa programação gratuita e atribui a promoção a Bezerros Moto Fest, Máxima Comunicação e Motoclube Renegados do Asfalto. O perfil @bezerrosmotofest é o canal do evento ligado pela cobertura local. Rua, número, telefone, e-mail e estacionamento não foram detalhados.\n\n## Divergência de data final\n\nA ficha e o flyer arquivados indicam 30 de julho a 1º de agosto, enquanto duas matérias locais anteriores anunciam 30 de julho a 2 de agosto. Há comprovação de atividade em 31 de julho e 1º de agosto, mas não foi localizada publicação sobre 2 de agosto. A divergência permanece explícita e a data final não deve ser alterada automaticamente sem fonte do organizador.",
+        "status": "concluida",
+        "official_url": "https://www.instagram.com/bezerrosmotofest/",
+        "verification_status": "realizacao_confirmada_por_cobertura_local_com_conflito_de_data_final",
+        "last_updated": "2026-08-22T12:00:00-04:00",
+        "time_label": "Programação noturna confirmada em 31 de julho e 1º de agosto; horários individuais dos shows não publicados no texto consultado",
+        "venue": "Praça da Matriz",
+        "full_address": "Praça da Matriz, Bezerros - PE; número não informado nas fontes consultadas",
+        "status_basis": "Cobertura local de 31 de julho e 1º de agosto confirma a realização da 23ª edição. As fontes divergem sobre encerramento em 1º ou 2 de agosto.",
+        "status_checked_at": "2026-08-22T12:00:00-04:00",
+        "organizer": "Bezerros Moto Fest, Máxima Comunicação e Motoclube Renegados do Asfalto",
+        "contact": "Instagram do evento: @bezerrosmotofest; telefone e e-mail não localizados",
+        "source_checked_at": "2026-08-22T12:00:00-04:00",
+        "admission_status": "Programação gratuita, segundo prévia local específica da 23ª edição",
+        "parking": "Não informado nas fontes específicas consultadas",
+        "attractions": [
+          "Rolê Alternativo",
+          "Patrícia Vasconcelos",
+          "IRA!",
+          "Visão Noturna",
+          "Shows de rock"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://bezerroshoje.com.br/bezerros-ja-vive-o-clima-do-moto-fest-2026-data-definida-expectativa-em-alta-e-rumores-de-atracao-nacional/",
+          "label": "Bezerros Hoje — prévia da 23ª edição",
+          "type": "imprensa local específica da edição 2026",
+          "supports": "23ª edição, anúncio de 30 de julho a 2 de agosto, Praça da Matriz, gratuidade e promoção por Bezerros Moto Fest, Máxima Comunicação e Renegados do Asfalto"
+        },
+        {
+          "url": "https://bezerroshoje.com.br/banda-ira-e-confirmada-no-bezerros-moto-fest-2026-programacao-completa-segue-aguardada/",
+          "label": "Bezerros Hoje — confirmação de IRA!",
+          "type": "imprensa local específica da edição 2026",
+          "supports": "presença da banda IRA!, Praça da Matriz e período anunciado de 30 de julho a 2 de agosto"
+        },
+        {
+          "url": "https://bezerroshoje.com.br/assista-aos-shows-da-23a-edicao-do-bezerros-moto-fest-na-noite-deste-sabado-1o/",
+          "label": "Bezerros Hoje — cobertura dos shows de 1º de agosto",
+          "type": "cobertura pós-evento local da edição 2026",
+          "supports": "realização da 23ª edição no palco da Rua da Matriz e apresentações de Rolê Alternativo, Patrícia Vasconcelos, IRA! e Visão Noturna"
+        }
+      ],
+      "research": {
+        "queries": [
+          "site:bezerroshoje.com.br \"Bezerros Moto Fest 2026\"",
+          "site:bezerros.pe.gov.br \"Moto Fest\" 2026",
+          "\"23ª edição do Bezerros Moto Fest\" agosto 2026"
+        ],
+        "current_specific_domains_found": 2,
+        "result": "A imprensa local confirmou a realização, o local, a gratuidade, os promotores e atrações do sábado. Permanece conflito entre o flyer e as prévias sobre a data final.",
+        "conflict_handling": "Foi mantido o conflito 01/08 versus 02/08 em vez de mudar silenciosamente a data final; a cobertura encontrada comprova programação até 01/08.",
+        "uncertainties": [
+          "existência de programação em 2 de agosto",
+          "grade completa de 30 e 31 de julho",
+          "horários individuais dos shows",
+          "estacionamento e acessibilidade"
+        ]
+      }
+    },
+    {
+      "slug": "black-skull-mc-mesqueita-rj-2026-07-26",
+      "updates": {
+        "summary": "Black Skull MC foi divulgado para 26 de julho de 2026 com referência a “Mesqueita/RJ” e rock no flyer. Como a grafia oficial do município é Mesquita e nenhuma segunda fonte da edição foi localizada, cidade, local e vínculo com outros clubes de nome semelhante precisam de validação antes de qualquer correção estrutural.",
+        "body": "## O que o flyer sustenta\n\nO material específico confirma o nome Black Skull MC, a data de 26 de julho de 2026 e a menção a rock. Horário, endereço, programação, contato, entrada e estacionamento não ficaram legíveis.\n\n## Grafia do município\n\nA ficha usa “Mesqueita”, enquanto IBGE e Prefeitura registram o município fluminense como Mesquita. Sem outra fonte que associe esta edição ao município correto, a provável falha de digitação foi sinalizada, não usada para inventar um endereço ou alterar o slug.\n\n## Homônimos excluídos\n\nAs buscas retornaram clubes Black Skull em São Paulo e no exterior, sem vínculo demonstrado com este evento. Esses resultados não foram usados para atribuir sede, presidente, contato ou programação. O período anunciado terminou sem cobertura posterior localizada.",
+        "status": "concluida",
+        "verification_status": "flyer_sem_segunda_fonte_com_grafia_municipal_a_validar",
+        "last_updated": "2026-08-22T12:00:00-04:00",
+        "time_label": "26 de julho de 2026; horário não confirmado",
+        "venue": "Local da edição de 2026 não confirmado",
+        "full_address": "Endereço não confirmado; a ficha usa “Mesqueita/RJ”, grafia que precisa ser validada em relação a Mesquita - RJ",
+        "status_basis": "O período divulgado terminou em 26 de julho de 2026. Não foi localizada fonte independente de realização ou cancelamento; a página é preservada como registro de agenda.",
+        "status_checked_at": "2026-08-22T12:00:00-04:00",
+        "organizer": "Black Skull MC (nome no flyer; identidade do grupo responsável não confirmada por segunda fonte)",
+        "contact": "Contato da edição de 2026 não identificado nas fontes localizadas",
+        "source_checked_at": "2026-08-22T12:00:00-04:00",
+        "admission_status": "Não informado no flyer nem em segunda fonte específica localizada",
+        "parking": "Não informado no flyer nem em segunda fonte específica localizada",
+        "attractions": [
+          "Rock; programação e artistas não confirmados"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://www.ibge.gov.br/cidades-e-estados/rj/mesquita.html",
+          "label": "IBGE Cidades — Mesquita/RJ",
+          "type": "referência geográfica oficial; não confirma o evento",
+          "supports": "grafia oficial Mesquita e identificação do município do Rio de Janeiro; não prova que esta edição ocorreu ali"
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Black Skull MC\" Mesquita RJ 2026",
+          "\"Black Skull MC\" Mesqueita 26 julho 2026",
+          "site:instagram.com \"Black Skull MC\" Mesquita"
+        ],
+        "current_specific_domains_found": 1,
+        "result": "Somente o flyer da agenda foi localizado para a edição; fontes oficiais confirmam apenas a grafia geográfica Mesquita, não o evento.",
+        "excluded_results": [
+          {
+            "url": "https://www.corrieredellospettacolo.net/2025/06/29/black-skull-mc-un-anno-fratellanza-e-crescita-sotto-il-segno-gremium/",
+            "reason": "Trata de um Black Skull MC na Itália em 2025, sem relação comprovada com a ficha fluminense."
+          }
+        ],
+        "uncertainties": [
+          "município correto da edição",
+          "identidade do grupo responsável",
+          "local, horário e programação",
+          "entrada, contato e estacionamento"
+        ]
+      }
+    },
+    {
+      "slug": "bodes-do-asfalto-mc-praia-grande-sp-2026-08-01",
+      "updates": {
+        "summary": "Bodes do Asfalto MC de Praia Grande foi divulgado para 1º de agosto de 2026, em Praia Grande (SP). O flyer confirma identidade, data e cidade, mas não tornou verificáveis local, horário, programação, contato, entrada ou estacionamento, e nenhuma segunda fonte específica foi localizada.",
+        "body": "## Registro da edição\n\nO flyer específico identifica Bodes do Asfalto MC em Praia Grande no dia 1º de agosto de 2026. Nenhum endereço, horário ou atração ficou legível com segurança.\n\n## Limite dos resultados encontrados\n\nAs buscas retornaram listagens gerais e referências a outras facções ou atividades do Bodes do Asfalto, sem publicação específica deste encontro. Sedes, contatos e serviços de outros capítulos ou anos não foram transferidos para a página de Praia Grande.\n\n## Situação\n\nO período divulgado já terminou, mas não foi localizada cobertura de realização ou cancelamento. A página permanece pública como registro histórico e deve ser ampliada somente com material diretamente ligado a esta edição.",
+        "status": "concluida",
+        "verification_status": "edicao_confirmada_em_flyer_sem_segunda_fonte_indexada",
+        "last_updated": "2026-08-22T12:00:00-04:00",
+        "time_label": "1º de agosto de 2026; horário não confirmado",
+        "venue": "Local da edição de 2026 não confirmado",
+        "full_address": "Endereço não confirmado; referência segura apenas a Praia Grande - SP",
+        "status_basis": "O período divulgado terminou em 1º de agosto de 2026. Não foi localizada fonte independente de realização ou cancelamento; a página é preservada como registro de agenda.",
+        "status_checked_at": "2026-08-22T12:00:00-04:00",
+        "organizer": "Bodes do Asfalto MC (capítulo ou responsável local não confirmado por segunda fonte)",
+        "contact": "Contato da edição de 2026 não identificado nas fontes localizadas",
+        "source_checked_at": "2026-08-22T12:00:00-04:00",
+        "admission_status": "Não informado no flyer nem em segunda fonte específica localizada",
+        "parking": "Não informado no flyer nem em segunda fonte específica localizada",
+        "attractions": []
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"Bodes do Asfalto MC\" \"Praia Grande\" 2026",
+          "Bodes do Asfalto Praia Grande 1 agosto 2026",
+          "site:instagram.com Bodes do Asfalto Praia Grande"
+        ],
+        "current_specific_domains_found": 1,
+        "result": "Nenhuma segunda fonte específica da edição foi localizada; referências gerais ao clube não foram tratadas como serviço atual.",
+        "uncertainties": [
+          "capítulo e responsável local",
+          "local e horário",
+          "programação e contato",
+          "entrada e estacionamento"
+        ]
+      }
+    },
+    {
+      "slug": "brazilian-custom-mc-guaicara-sp-2026-08-02",
+      "updates": {
+        "summary": "Brazilian Custom MC foi divulgado para 2 de agosto de 2026, em Guaiçara (SP), com bandas ou rock indicados no flyer. As marcas 08h30 e 00h30 aparecem na arte, mas a atividade correspondente, o local, o contato, a entrada e o estacionamento não foram confirmados.",
+        "body": "## Leitura segura da arte\n\nO flyer confirma Brazilian Custom MC, a data de 2 de agosto de 2026 e o município de Guaiçara. A arte menciona bandas ou rock e contém as marcas 08h30 e 00h30, sem texto suficiente para identificar se representam abertura, café, show ou encerramento.\n\n## Normalização geográfica\n\nA forma oficial do município, confirmada pelo IBGE, é Guaiçara. Essa referência corrige apenas a grafia geográfica; o portal municipal não publicou informação específica deste encontro.\n\n## Pendências e situação\n\nNão foi localizada segunda fonte da edição. Local, programação, responsável formal, contato, acesso e estacionamento continuam pendentes. O período anunciado terminou sem cobertura posterior ou cancelamento localizado.",
+        "status": "concluida",
+        "verification_status": "flyer_com_horarios_sem_contexto_e_sem_segunda_fonte",
+        "last_updated": "2026-08-22T12:00:00-04:00",
+        "time_label": "Marcas 08h30 e 00h30 no flyer; atividades correspondentes não legíveis, confirme com a organização",
+        "venue": "Local da edição de 2026 não confirmado",
+        "full_address": "Endereço não confirmado; referência segura apenas a Guaiçara - SP",
+        "status_basis": "O período divulgado terminou em 2 de agosto de 2026. Não foi localizada fonte independente de realização ou cancelamento; a página é preservada como registro de agenda.",
+        "status_checked_at": "2026-08-22T12:00:00-04:00",
+        "organizer": "Brazilian Custom MC",
+        "contact": "Contato da edição de 2026 não identificado nas fontes localizadas",
+        "source_checked_at": "2026-08-22T12:00:00-04:00",
+        "admission_status": "Não informado no flyer nem em segunda fonte específica localizada",
+        "parking": "Não informado no flyer nem em segunda fonte específica localizada",
+        "attractions": [
+          "Shows ou bandas de rock; nomes e horários não confirmados"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://www.ibge.gov.br/cidades-e-estados/sp/guaicara.html",
+          "label": "IBGE Cidades — Guaiçara/SP",
+          "type": "referência geográfica oficial; não confirma o evento",
+          "supports": "grafia oficial Guaiçara e identificação do município paulista; não prova serviço ou realização desta edição"
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Brazilian Custom MC\" Guaiçara 2 agosto 2026",
+          "\"Brazilian Custom MC\" Guaicara 2026",
+          "site:guaicara.sp.gov.br \"Brazilian Custom\""
+        ],
+        "current_specific_domains_found": 1,
+        "result": "Somente o flyer específico foi localizado para a edição; o IBGE foi usado apenas para normalizar a grafia do município.",
+        "uncertainties": [
+          "atividade associada às marcas 08h30 e 00h30",
+          "local e endereço",
+          "programação e contato",
+          "entrada e estacionamento"
+        ]
+      }
+    },
+    {
+      "slug": "bufalos-mg-marechal-floriano-es-2026-08-15",
+      "updates": {
+        "summary": "Búfalos MG foi divulgado para 15 de agosto de 2026, em Marechal Floriano (ES). Fontes locais antigas comprovam a existência e atuação do grupo no município, mas não confirmam local, horário, programação, organização formal ou realização desta edição de 2026.",
+        "body": "## Edição de 2026\n\nO flyer específico confirma o nome Búfalos MG, Marechal Floriano e a data de 15 de agosto de 2026. Nenhum local, horário, contato ou atração ficou legível com segurança.\n\n## Contexto histórico do grupo\n\nA Prefeitura registrou Búfalos MC-Marechal Floriano entre os realizadores de um Moto Rock em 2017. Em 2020, reportagem local identificou o Búfalos MG como grupo de Marechal Floriano e citou Jair Lucena como diretor naquele período. Isso sustenta a presença histórica do grupo na cidade, mas não comprova responsáveis, sede, contatos ou serviço em 2026.\n\n## Situação atual\n\nO período anunciado já terminou. Não foi localizada cobertura posterior nem aviso de cancelamento, e os dados de 2017 e 2020 não foram reaproveitados como programação da edição atual.",
+        "status": "concluida",
+        "verification_status": "flyer_atual_com_contexto_historico_local_nao_aplicado_ao_servico",
+        "last_updated": "2026-08-22T12:00:00-04:00",
+        "time_label": "15 de agosto de 2026; horário não confirmado",
+        "venue": "Local da edição de 2026 não confirmado",
+        "full_address": "Endereço não confirmado; referência segura apenas a Marechal Floriano - ES",
+        "status_basis": "O período divulgado terminou em 15 de agosto de 2026. Não foi localizada fonte independente de realização ou cancelamento; a página é preservada como registro de agenda.",
+        "status_checked_at": "2026-08-22T12:00:00-04:00",
+        "organizer": "Búfalos MG (nome da ficha; responsabilidade formal pela edição de 2026 não confirmada)",
+        "contact": "Contato da edição de 2026 não identificado nas fontes localizadas",
+        "source_checked_at": "2026-08-22T12:00:00-04:00",
+        "admission_status": "Não informado para a edição de 2026",
+        "parking": "Não informado para a edição de 2026",
+        "attractions": []
+      },
+      "additional_sources": [
+        {
+          "url": "https://www.marechalfloriano.es.gov.br/vem-ai-o-1o-moto-rock-em-marechal-floriano/",
+          "label": "Prefeitura de Marechal Floriano — 1º Moto Rock de 2017",
+          "type": "contexto histórico oficial; não confirma a edição de 2026",
+          "supports": "atuação histórica do Búfalos MC-Marechal Floriano como um dos realizadores de evento motociclístico local em 2017"
+        },
+        {
+          "url": "https://www.montanhascapixabas.com.br/passeio-envolvera-mais-de-300-motociclistas-capixabas-neste-domingo-16-de-vitoria-a-pedra-azul/",
+          "label": "Montanhas Capixabas — participação do Búfalos MG em passeio de 2020",
+          "type": "contexto histórico local; não confirma a edição de 2026",
+          "supports": "existência do grupo Búfalos MG em Marechal Floriano e identificação de Jair Lucena como diretor em 2020"
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Búfalos MG\" Marechal Floriano 15 agosto 2026",
+          "\"Bufalos MG\" Marechal Floriano motociclistas",
+          "site:marechalfloriano.es.gov.br Búfalos moto"
+        ],
+        "current_specific_domains_found": 1,
+        "historical_context_domains_found": 2,
+        "result": "Não foi localizada segunda fonte específica de 2026; duas fontes locais sustentam apenas a presença histórica do grupo no município.",
+        "historical_context_not_applied": [
+          "Praça José Henrique Pereira como local",
+          "bandas, camping e café de 2017",
+          "Jair Lucena como responsável atual",
+          "rotas e horários do passeio de 2020"
+        ],
+        "uncertainties": [
+          "local e horário",
+          "responsável e contato atuais",
+          "programação",
+          "entrada e estacionamento"
+        ]
+      }
+    },
+    {
+      "slug": "cafe-beneficente-presidente-prudente-sp-2026-07-26",
+      "updates": {
+        "summary": "O Café Beneficente foi divulgado para 26 de julho de 2026, em Presidente Prudente (SP), com café da manhã e bandas indicados no flyer. Local, horário, finalidade da arrecadação, entidade beneficiada, organização, contato, entrada e estacionamento não foram confirmados por segunda fonte.",
+        "body": "## Informações legíveis\n\nO flyer específico confirma um Café Beneficente em Presidente Prudente no dia 26 de julho de 2026 e menciona café da manhã e bandas. Os nomes dos artistas, o horário e o local não ficaram legíveis com segurança.\n\n## Natureza beneficente\n\nNenhuma fonte da edição localizada explica quem seria beneficiado, se haveria doação obrigatória, venda de convites ou outra forma de arrecadação. Esses detalhes não foram deduzidos a partir do título.\n\n## Resultados excluídos\n\nAs buscas encontraram outros cafés e bingos beneficentes em Presidente Prudente, com datas e responsáveis diferentes. Eles não foram associados a esta ficha. O período terminou sem cobertura posterior ou cancelamento específico localizado.",
+        "status": "concluida",
+        "verification_status": "flyer_com_atracoes_basicas_sem_segunda_fonte_especifica",
+        "last_updated": "2026-08-22T12:00:00-04:00",
+        "time_label": "26 de julho de 2026; horário não confirmado",
+        "venue": "Local da edição de 2026 não confirmado",
+        "full_address": "Endereço não confirmado; referência segura apenas a Presidente Prudente - SP",
+        "status_basis": "O período divulgado terminou em 26 de julho de 2026. Não foi localizada fonte independente de realização ou cancelamento; a página é preservada como registro de agenda.",
+        "status_checked_at": "2026-08-22T12:00:00-04:00",
+        "organizer": "Organização da edição de 2026 não identificada nas fontes localizadas",
+        "contact": "Contato da edição de 2026 não identificado nas fontes localizadas",
+        "source_checked_at": "2026-08-22T12:00:00-04:00",
+        "admission_status": "Não informado; não há confirmação de ingresso, doação ou contribuição obrigatória",
+        "parking": "Não informado no flyer nem em segunda fonte específica localizada",
+        "attractions": [
+          "Café da manhã",
+          "Bandas; nomes e horários não confirmados"
+        ]
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"Café Beneficente\" Presidente Prudente 26 julho 2026 motociclistas",
+          "\"CAFE BENEFICENTE\" \"Presidente Prudente\" moto",
+          "site:presidenteprudente.sp.gov.br café beneficente julho 2026"
+        ],
+        "current_specific_domains_found": 1,
+        "result": "Somente o flyer da agenda foi localizado; resultados locais encontrados tratam de ações beneficentes diferentes.",
+        "excluded_results": [
+          {
+            "url": "https://portalprudentino.com.br/noticia/noticias/presidente-prudente-noticias/2o-cha-bingo-beneficente-do-fundo-social-sorteia-tv-e-smartphone",
+            "reason": "Refere-se ao 2º Chá Bingo do Fundo Social realizado em 23 de maio de 2026, não ao evento motociclístico de 26 de julho."
+          }
+        ],
+        "uncertainties": [
+          "entidade beneficiada e forma de contribuição",
+          "local e horário",
+          "bandas, organizador e contato",
+          "entrada e estacionamento"
+        ]
+      }
+    },
+    {
+      "slug": "cachorro-grande-mg-niteroi-rj-2026-07-31",
+      "updates": {
+        "summary": "Cachorro Grande MG foi divulgado para 31 de julho de 2026, em Niterói (RJ). O flyer confirma nome, data e cidade, mas não tornou verificáveis local, horário, programação, contato, entrada ou estacionamento, e as buscas não localizaram uma segunda fonte específica.",
+        "body": "## Registro da edição\n\nA arte específica identifica Cachorro Grande MG em Niterói no dia 31 de julho de 2026. Nenhum detalhe de local, horário, atração ou serviço ficou legível com confiança.\n\n## Busca e homônimos\n\nO nome produz resultados ambíguos relacionados a música, animais e outros grupos, sem vínculo demonstrado com esta edição. Nenhum endereço, integrante, telefone ou programação de homônimo foi transferido para a página.\n\n## Situação\n\nO período anunciado terminou e não foi localizada cobertura posterior nem aviso de cancelamento. A URL deve permanecer pública como registro de agenda, com as lacunas explicitadas até surgir fonte do responsável ou imprensa local.",
+        "status": "concluida",
+        "verification_status": "edicao_confirmada_em_flyer_sem_segunda_fonte_indexada",
+        "last_updated": "2026-08-22T12:00:00-04:00",
+        "time_label": "31 de julho de 2026; horário não confirmado",
+        "venue": "Local da edição de 2026 não confirmado",
+        "full_address": "Endereço não confirmado; referência segura apenas a Niterói - RJ",
+        "status_basis": "O período divulgado terminou em 31 de julho de 2026. Não foi localizada fonte independente de realização ou cancelamento; a página é preservada como registro de agenda.",
+        "status_checked_at": "2026-08-22T12:00:00-04:00",
+        "organizer": "Cachorro Grande MG (nome destacado no flyer; responsável formal não confirmado)",
+        "contact": "Contato da edição de 2026 não identificado nas fontes localizadas",
+        "source_checked_at": "2026-08-22T12:00:00-04:00",
+        "admission_status": "Não informado no flyer nem em segunda fonte específica localizada",
+        "parking": "Não informado no flyer nem em segunda fonte específica localizada",
+        "attractions": []
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"Cachorro Grande MG\" Niterói 31 julho 2026",
+          "\"Cachorro Grande MG\" Niteroi motociclistas",
+          "site:instagram.com \"Cachorro Grande MG\" Niterói"
+        ],
+        "current_specific_domains_found": 1,
+        "result": "Nenhuma segunda fonte específica da edição foi localizada; resultados homônimos não foram aproveitados.",
+        "uncertainties": [
+          "identidade do grupo responsável",
+          "local e horário",
+          "programação e contato",
+          "entrada e estacionamento"
+        ]
+      }
+    },
+    {
+      "slug": "cadaver-mc-mage-rj-2026-09-12",
+      "updates": {
+        "summary": "Cadáver MC está divulgado para 12 de setembro de 2026, às 16h, em Magé (RJ), com expositores e troféus. O flyer traz uma leitura parcial de endereço na Rua 5, 811, Jardim Novo Horizonte, Piabetá; como o OCR contém ruído, número e referência devem ser reconfirmados antes da viagem.",
+        "body": "## Serviço legível\n\nO flyer específico confirma Cadáver MC em Magé no dia 12 de setembro de 2026, contém a marca 16h e menciona expositores e troféus. A sequência central do endereço é legível como Rua 5, 811, Jardim Novo Horizonte, Piabetá.\n\n## Endereço com leitura parcial\n\nO texto extraído também contém fragmentos espúrios antes e depois do endereço. Eles foram removidos da redação, mas o número 811 e a referência de Piabetá continuam marcados para reconfirmação; não foi localizada segunda publicação da edição que valide o ponto exato.\n\n## Evento antigo não reutilizado\n\nUma página de 2023 documenta outro evento do Cadáver Brasil MC em Magé, na Avenida Automóvel Clube, em Fragoso. Esse endereço, os contatos, as bandas e a oferta de churrasco daquela edição não foram transferidos para 2026.",
+        "status": "agendada",
+        "verification_status": "flyer_com_endereco_parcial_e_sem_segunda_fonte_especifica",
+        "last_updated": "2026-08-22T12:00:00-04:00",
+        "time_label": "12 de setembro de 2026, marca de horário 16h no flyer",
+        "venue": "Referência parcial no flyer: Rua 5, 811, Jardim Novo Horizonte, Piabetá",
+        "full_address": "Leitura parcial do flyer: Rua 5, 811, Jardim Novo Horizonte, Piabetá, Magé - RJ; reconfirme número e ponto de acesso",
+        "status_basis": "Data futura presente no flyer e na agenda atual. Nenhum comunicado de alteração ou cancelamento foi localizado até 22 de agosto de 2026; endereço parcial deve ser reconfirmado.",
+        "status_checked_at": "2026-08-22T12:00:00-04:00",
+        "organizer": "Cadáver MC",
+        "contact": "Contato da edição de 2026 não identificado nas fontes localizadas",
+        "source_checked_at": "2026-08-22T12:00:00-04:00",
+        "admission_status": "Não informado no flyer nem em segunda fonte específica localizada",
+        "parking": "Não informado no flyer nem em segunda fonte específica localizada",
+        "attractions": [
+          "Expositores",
+          "Troféus"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://firesoulswebradio.com/evento/304303/churrasco-0800-mc-cadaver-brasil-mage-rj",
+          "label": "Fire Souls Web Radio — evento do Cadáver Brasil MC em 2023",
+          "type": "contexto histórico de outra edição; não confirma serviço de 2026",
+          "supports": "realização de um evento distinto do Cadáver Brasil MC em Magé em 23 de abril de 2023; não prova endereço, contatos ou programação de 2026"
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Cadáver MC\" Magé 12 setembro 2026",
+          "\"Cadaver MC\" \"Rua 5\" Piabetá",
+          "\"Rua 5, 811\" \"Jardim Novo Horizonte\" Magé"
+        ],
+        "current_specific_domains_found": 1,
+        "historical_context_domains_found": 1,
+        "result": "A edição atual só aparece no flyer da agenda. Buscas geográficas sustentam a existência da Rua 5 no bairro, mas não confirmam o número 811 nem o evento.",
+        "historical_context_not_applied": [
+          "Avenida Automóvel Clube, 1680, Fragoso",
+          "contatos publicados em 2023",
+          "churrasco, bandas e horários de 2023"
+        ],
+        "uncertainties": [
+          "número 811 e ponto exato de acesso",
+          "atividade correspondente às 16h",
+          "contato e entrada",
+          "estacionamento"
+        ]
+      }
+    },
+    {
+      "slug": "motofest-caiaponia-go-2026-08-05",
+      "updates": {
+        "summary": "Esta página registra um Moto Fest divulgado para 5 e 6 de agosto de 2026, em Caiapônia (GO), com shows. A agenda atual do mesmo domínio, porém, lista um Moto Fest na cidade para 5 e 6 de setembro; sem fonte independente, não é possível afirmar se houve correção, adiamento, duplicidade ou dois eventos.",
+        "body": "## Registro preservado\n\nA ficha e o flyer vinculados a esta URL indicam Moto Fest em Caiapônia nos dias 5 e 6 de agosto de 2026 e mencionam shows, sem nomes, horários ou local legíveis. Como a URL já está publicada, o conteúdo permanece como registro e não deve ser removido ou desindexado.\n\n## Conflito na própria agenda\n\nNa consulta de 22 de agosto, a agenda corrente da JB-RIDER exibia Moto Fest em Caiapônia nos dias 5 e 6 de setembro de 2026. Nenhuma fonte do organizador, Prefeitura ou imprensa local foi localizada para esclarecer se setembro substituiu agosto ou corresponde a outra ficha.\n\n## Tratamento editorial\n\nA data desta página não foi movida silenciosamente. O período de agosto terminou, mas isso não comprova realização. Local, programação, responsável, contato, entrada e estacionamento continuam pendentes; a divergência deve ser resolvida por fonte específica antes de alterar datas ou criar serviço de setembro.",
+        "status": "concluida",
+        "verification_status": "conflito_de_datas_no_mesmo_dominio_sem_confirmacao_independente",
+        "last_updated": "2026-08-22T12:00:00-04:00",
+        "time_label": "Ficha arquivada: 5 e 6 de agosto de 2026; agenda atual: 5 e 6 de setembro de 2026; horários não confirmados",
+        "venue": "Local da edição não confirmado",
+        "full_address": "Endereço não confirmado; referência segura apenas a Caiapônia - GO",
+        "status_basis": "O período de agosto associado a esta URL terminou, mas a agenda atual do mesmo domínio mostra 5 e 6 de setembro. Sem fonte independente, realização, correção ou adiamento permanecem indeterminados.",
+        "status_checked_at": "2026-08-22T12:00:00-04:00",
+        "organizer": "Organização não identificada nas fontes localizadas",
+        "contact": "Contato da edição não identificado nas fontes localizadas",
+        "source_checked_at": "2026-08-22T12:00:00-04:00",
+        "admission_status": "Não informado no material consultado",
+        "parking": "Não informado no material consultado",
+        "attractions": [
+          "Shows; nomes e horários não confirmados"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://jb-rider.com.br/eventos.php",
+          "label": "Agenda atual JB-RIDER — listagem de Caiapônia em setembro",
+          "type": "fonte do mesmo domínio usada para registrar conflito de data",
+          "supports": "listagem corrente de Moto Fest em Caiapônia nos dias 5 e 6 de setembro de 2026; não esclarece a relação com a ficha de agosto"
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Caiapônia Moto Fest\" 2026",
+          "Caiapônia GO Moto Fest agosto 2026 5 6",
+          "Caiapônia GO Moto Fest setembro 2026 5 6",
+          "site:caiaponia.go.gov.br Moto Fest 2026"
+        ],
+        "current_specific_domains_found": 1,
+        "result": "Foram localizadas duas referências de data no mesmo domínio — agosto na ficha arquivada e setembro na agenda atual — sem confirmação externa.",
+        "conflict_handling": "A página de agosto foi preservada e o conflito foi explicitado; setembro não foi tratado como correção, adiamento ou nova edição sem fonte independente.",
+        "uncertainties": [
+          "relação entre as datas de agosto e setembro",
+          "realização da ficha de agosto",
+          "local, horários e programação",
+          "organizador, contato, entrada e estacionamento"
+        ]
+      }
+    },
+    {
+      "slug": "campeonato-brasileiro-de-paraciclismo-de-pista-2026-2026-10-16",
+      "updates": {
+        "summary": "O Campeonato Brasileiro de Paraciclismo de Pista 2026 está confirmado no calendário atual da CBC para 16 a 18 de outubro, em Indaiatuba (SP), como evento oficial CBC de classe CN. A UCI mantém página específica da competição; velódromo, horários, regulamento, inscrições e serviço ao público ainda não foram publicados para esta edição.",
+        "body": "## Confirmação federativa\n\nO calendário de Paraciclismo da Confederação Brasileira de Ciclismo lista o Campeonato Brasileiro de Paraciclismo de Pista 2026 de 16 a 18 de outubro, em Indaiatuba, na categoria “Oficiais CBC” e classe CN. A UCI também mantém uma página específica com o nome da competição na temporada 2026.\n\n## Serviço aguardando regulamento\n\nNa consulta de 22 de agosto, a área oficial de regulamentos da CBC ainda não apresentava um regulamento identificado especificamente para este campeonato. Por isso, horários das provas, categorias detalhadas, inscrições, confirmação de participantes, retirada de credenciais e contato da secretaria permanecem pendentes.\n\n## Local não presumido\n\nIndaiatuba recebeu outra competição de paraciclismo em fevereiro de 2026 no Velódromo Municipal Joraci Mariano de Barros. Essa fonte trata do Pan-Americano, não do Brasileiro de outubro; o nome e o endereço do velódromo não foram transferidos para esta página sem confirmação específica da edição atual. Acesso do público e estacionamento também não estão informados.",
+        "status": "agendada",
+        "official_url": "https://www.cbc.esp.br/modalidades/calendario/busca/paraciclismo",
+        "verification_status": "calendarios_cbc_e_uci_cruzados_servico_aguardando_regulamento_2026",
+        "last_updated": "2026-08-22T12:00:00-04:00",
+        "time_label": "De 16 a 18 de outubro de 2026; horários das provas aguardam regulamento específico",
+        "venue": "Indaiatuba - SP; velódromo da edição ainda não confirmado",
+        "full_address": "Endereço da edição de outubro ainda não publicado nas fontes oficiais consultadas",
+        "status_basis": "O calendário atual da CBC mantém o evento de 16 a 18 de outubro de 2026 em Indaiatuba, classe CN, e a UCI possui página específica. Nenhum aviso de alteração ou cancelamento foi localizado.",
+        "status_checked_at": "2026-08-22T12:00:00-04:00",
+        "organizer": "Confederação Brasileira de Ciclismo — evento oficial CBC; realizador local ainda não informado",
+        "contact": "Contato institucional CBC: +55 (43) 3327-3232 e cbc@cbc.esp.br; contato específico do evento ainda não publicado",
+        "source_checked_at": "2026-08-22T12:00:00-04:00",
+        "admission_status": "Acesso do público e condições de inscrição ainda não publicados para esta edição",
+        "parking": "Não informado para a edição de outubro de 2026",
+        "attractions": [
+          "Campeonato nacional de paraciclismo de pista",
+          "Evento oficial CBC — classe CN"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://www.cbc.esp.br/modalidades/calendario/busca/paraciclismo",
+          "label": "CBC — calendário oficial de Paraciclismo 2026",
+          "type": "fonte primária federativa atual",
+          "supports": "nome da competição, datas de 16 a 18 de outubro de 2026, Indaiatuba/SP, categoria Oficiais CBC e classe CN"
+        },
+        {
+          "url": "https://www.uci.org/competition-details/2026/PAR/78876",
+          "label": "UCI — Campeonato Brasileiro de Paraciclismo de Pista 2026",
+          "type": "página específica da entidade internacional na temporada 2026",
+          "supports": "identidade da competição e presença de página específica no calendário UCI de paraciclismo; a renderização consultada não expôs serviço detalhado"
+        }
+      ],
+      "research": {
+        "queries": [
+          "site:cbc.esp.br \"Campeonato Brasileiro de Paraciclismo de Pista 2026\"",
+          "site:uci.org/competition-details/2026/PAR/78876",
+          "\"Campeonato Brasileiro de Paraciclismo de Pista 2026\" Indaiatuba outubro",
+          "site:indaiatuba.sp.gov.br paraciclismo pista outubro 2026"
+        ],
+        "current_specific_domains_found": 2,
+        "result": "CBC e UCI confirmam a identidade da competição, e a CBC fornece datas, cidade e classe. Regulamento e serviço específico ainda não foram localizados.",
+        "excluded_results": [
+          {
+            "url": "https://indaiatuba.sp.gov.br/comunicacao/imprensa/noticias/35161/",
+            "reason": "Refere-se ao Campeonato Pan-Americano de fevereiro de 2026; o velódromo, o endereço e o horário dessa competição não comprovam o serviço do Brasileiro de outubro."
+          },
+          {
+            "url": "https://www.cbc.esp.br/modalidades/evento/id/1271",
+            "reason": "Página específica da edição de 2025; local, programação e regulamento daquele ano não foram transferidos para 2026."
+          }
+        ],
+        "uncertainties": [
+          "velódromo e endereço da edição",
+          "horários e programa de provas",
+          "regulamento, inscrições e categorias detalhadas",
+          "realizador local, acesso do público e estacionamento"
+        ]
+      }
+    }
+  ]
+}

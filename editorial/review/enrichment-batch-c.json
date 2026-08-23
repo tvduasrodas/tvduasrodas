@@ -1,0 +1,822 @@
+{
+  "batch": "c",
+  "reviewed_at": "2026-08-22",
+  "entries": [
+    {
+      "slug": "3-encontro-de-motociclistas-penedo-mg-2026-07-30",
+      "updates": {
+        "status": "concluida",
+        "summary": "A divulgação comunitária registra o 3º Encontro de Motociclistas de Penedo entre 30 de julho e 2 de agosto de 2026. A pesquisa não encontrou uma fonte independente da edição nem corroborou a indicação geográfica Penedo/MG; endereço, horários, organização, entrada e estacionamento continuam sem confirmação.",
+        "body": "## O que está documentado\n\nO flyer específico arquivado na agenda JB-RIDER identifica um 3º Encontro de Motociclistas de Penedo, com período de 30 de julho a 2 de agosto de 2026. Como o período já terminou, a página deve ser tratada como registro histórico da divulgação, e não como serviço vigente.\n\n## Limites da verificação\n\nBuscas pelo nome exato, pelas datas e por canais municipais ou de organizadores não localizaram publicação independente da edição. Os resultados recuperados para Penedo/AL e para Penedo/RJ tratam de outras localidades e outros eventos; por isso, nenhum endereço, programação ou responsável foi transferido. Também não foi possível corroborar a combinação Penedo/MG fora do material de origem.\n\n## Serviço ainda não confirmado\n\nNão há fonte atual verificável para local, horários diários, ingresso, estacionamento, camping, contato ou atrações. Esses campos permanecem explicitamente pendentes para evitar que informação de outra cidade ou edição seja apresentada como fato.",
+        "official_url": "https://jb-rider.com.br/evento/20260730-4-3-encontro-de-motociclistas-penedo-mg",
+        "verification_status": "flyer_especifico_sem_corroboração_independente_com_localidade_pendente",
+        "last_updated": "2026-08-22T21:52:54-04:00",
+        "time_label": "Horários da edição de 2026 não confirmados nas fontes consultadas",
+        "venue": "Local da edição de 2026 não confirmado",
+        "street_address": "Endereço não confirmado",
+        "full_address": "A referência Penedo - MG consta no flyer, mas não foi corroborada por fonte independente",
+        "status_basis": "O período divulgado, de 30 de julho a 2 de agosto de 2026, já terminou; não foi localizado comunicado específico de cancelamento nem confirmação independente da realização.",
+        "status_checked_at": "2026-08-22T21:52:54-04:00",
+        "organizer": "Organização não identificada em fonte verificável da edição de 2026",
+        "contact": "Contato não localizado para a edição de 2026",
+        "source_checked_at": "2026-08-22T21:52:54-04:00",
+        "admission_status": "Não informado em fonte verificável da edição de 2026",
+        "parking": "Não informado em fonte verificável da edição de 2026"
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"3º Encontro de Motociclistas\" Penedo 2026",
+          "\"3 Encontro de Motociclistas\" Penedo MG",
+          "\"30/07/2026\" Penedo motociclistas",
+          "site:instagram.com Penedo motociclistas 30 de julho 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "penedo.al.gov.br",
+          "instagram.com"
+        ],
+        "result": "sem_segunda_fonte_especifica; localidade_nao_corroborada",
+        "uncertainties": [
+          "Não foi encontrada publicação independente da edição de 2026.",
+          "Resultados sobre Penedo/AL e Penedo/RJ foram descartados por não provarem o evento identificado como Penedo/MG."
+        ]
+      }
+    },
+    {
+      "slug": "4-festival-da-pimenta-e-motorock-uru-sp-2026-10-30",
+      "updates": {
+        "status": "agendada",
+        "summary": "O 4º Festival da Pimenta e MotoRock aparece na agenda comunitária de Uru/SP com início em 30 de outubro de 2026. Há registros duplicados no mesmo portal, um encerrando em 31 de outubro e outro em 1º de novembro; o período, o local e o programa precisam ser confirmados pela organização.",
+        "body": "## Data publicada\n\nA agenda JB-RIDER mantém registros específicos do 4º Festival da Pimenta e MotoRock em Uru/SP a partir de 30 de outubro de 2026. O nome do evento sustenta a presença de rock, mas as fontes consultadas não permitem detalhar bandas, gastronomia ou outras atividades.\n\n## Divergência que precisa de confirmação\n\nA própria agenda apresenta duas durações para a edição: 30 e 31 de outubro em uma listagem e 30 de outubro a 1º de novembro em outra. Como não foi localizada publicação da Prefeitura de Uru, do organizador ou de imprensa local que resolva a divergência, a página preserva a janela mais ampla já cadastrada e alerta o leitor para confirmar o último dia antes de viajar.\n\n## Informações ainda pendentes\n\nEndereço, horários, responsável, contato, entrada, estacionamento e programação detalhada não foram confirmados em fonte independente. Dados de festivais de pimenta ou MotoRocks de outras cidades e anos não foram reaproveitados.",
+        "verification_status": "agenda_especifica_sem_segunda_fonte_independente_e_com_divergencia_de_termino",
+        "last_updated": "2026-08-22T21:52:54-04:00",
+        "time_label": "De 30 de outubro a 1º de novembro no cadastro principal; há outra listagem encerrando em 31 de outubro; horários não divulgados",
+        "venue": "Local da edição de 2026 não confirmado",
+        "street_address": "Endereço não confirmado",
+        "full_address": "Uru - SP; endereço detalhado não confirmado",
+        "status_basis": "O evento permanece listado para uma data futura na agenda específica consultada; não foi localizado aviso de cancelamento, mas também não houve confirmação independente do organizador.",
+        "status_checked_at": "2026-08-22T21:52:54-04:00",
+        "organizer": "Organização da edição de 2026 não identificada",
+        "contact": "Contato da edição de 2026 não localizado",
+        "source_checked_at": "2026-08-22T21:52:54-04:00",
+        "admission_status": "Não informado para a edição de 2026",
+        "parking": "Não informado para a edição de 2026",
+        "attractions": [
+          "Rock; programação detalhada ainda não confirmada"
+        ]
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "site:uru.sp.gov.br Festival da Pimenta 2026",
+          "site:uru.sp.gov.br MotoRock 2026",
+          "\"Festival da Pimenta e MotoRock\" Uru",
+          "\"MotoRock\" Uru 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "uru.sp.gov.br",
+          "instagram.com"
+        ],
+        "result": "somente_fonte_da_agenda; divergencia_interna_30_31_outubro_versus_30_outubro_1_novembro",
+        "uncertainties": [
+          "Não foi localizado canal oficial da edição de 2026.",
+          "Não há base para escolher um dos dois encerramentos sem manifestação do organizador."
+        ]
+      }
+    },
+    {
+      "slug": "4-missa-do-motociclistas-e-triciclista-bebedouro-sp-2026-11-08",
+      "updates": {
+        "status": "agendada",
+        "summary": "O flyer da 4ª Missa dos Motociclistas e Triciclistas de Bebedouro/SP marca 8 de novembro de 2026, traz a referência de 9h30 e menciona café da manhã. A paróquia ou local, a organização, a entrada e o estacionamento não foram confirmados em uma segunda fonte.",
+        "body": "## Informação disponível\n\nO material específico da agenda comunitária identifica a 4ª Missa dos Motociclistas e Triciclistas para 8 de novembro de 2026, em Bebedouro/SP. O cartaz contém a marca de horário 9h30 e menção a café da manhã; como a atividade correspondente ao horário não ficou explicitada em texto verificável, recomenda-se confirmar se ele indica concentração, café ou celebração.\n\n## Busca em fontes religiosas e locais\n\nForam consultadas buscas pelo nome exato, canais diocesanos e resultados locais, sem localizar uma publicação da edição correta. Missas de motociclistas em Vinhedo, Barretos, São Pedro e outras cidades foram descartadas e não serviram para completar endereço ou programa.\n\n## Antes de participar\n\nO local da celebração, o celebrante ou responsável, regras de acesso, contato e estacionamento permanecem não informados. A página deve manter esse aviso até que a organização ou a paróquia publique o serviço completo.",
+        "official_url": "https://jb-rider.com.br/evento/20261108-4-missa-do-motociclistas-e-triciclista-bebedouro-sp",
+        "verification_status": "flyer_especifico_sem_confirmacao_diocesana_ou_local_independente",
+        "last_updated": "2026-08-22T21:52:54-04:00",
+        "time_label": "O flyer traz 9h30; confirme com a organização se o horário corresponde ao café, à concentração ou à missa",
+        "venue": "Igreja ou local da celebração não confirmado",
+        "street_address": "Endereço não confirmado",
+        "full_address": "Bebedouro - SP; igreja e endereço detalhado não confirmados",
+        "status_basis": "A data é futura e permanece no flyer específico; não foi localizado cancelamento nem confirmação independente da paróquia ou organização.",
+        "status_checked_at": "2026-08-22T21:52:54-04:00",
+        "organizer": "Paróquia ou organização da edição de 2026 não identificada",
+        "contact": "Contato não localizado para a edição de 2026",
+        "source_checked_at": "2026-08-22T21:52:54-04:00",
+        "admission_status": "Não informado para a edição de 2026",
+        "parking": "Não informado para a edição de 2026",
+        "attractions": [
+          "Missa de motociclistas e triciclistas",
+          "Café da manhã indicado no flyer"
+        ]
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"Missa dos Motociclistas\" Bebedouro 2026",
+          "\"4ª Missa dos Motociclistas\" Bebedouro",
+          "site:diocesebarretos.com.br motociclistas Bebedouro",
+          "site:instagram.com Missa Motociclistas Bebedouro 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "diocesebarretos.com.br",
+          "instagram.com"
+        ],
+        "result": "sem_segunda_fonte_especifica",
+        "uncertainties": [
+          "Igreja, organizador e significado exato do horário de 9h30 não foram confirmados.",
+          "Resultados de missas em outras cidades foram excluídos."
+        ]
+      }
+    },
+    {
+      "slug": "5-cerol-to-fora-frutal-mg-2026-08-01",
+      "updates": {
+        "status": "concluida",
+        "summary": "O flyer registra o evento identificado como 5º Cerol Tô Fora em Frutal/MG em 1º de agosto de 2026, com referências de 8h30 e 13h. Uma página institucional local comprova a existência da campanha em Frutal, mas não confirma o serviço desta edição; local, formato, organização e acesso seguem pendentes.",
+        "body": "## Registro da edição\n\nO cartaz específico arquivado pela agenda JB-RIDER identifica a 5ª ação Cerol Tô Fora em Frutal/MG no dia 1º de agosto de 2026. O material contém as marcas de horário 8h30 e 13h, mas a atividade associada a cada horário não ficou legível o bastante para ser descrita com segurança.\n\n## Contexto local, sem mistura de edições\n\nA página de notícias da Guarda Mirim Aprendizagem registra participação da Guarda Mirim de Frutal em uma campanha Cerol Tô Fora. Essa referência ajuda a demonstrar que a iniciativa existe no município, mas não apresenta data ou serviço que comprovem a 5ª edição de 2026. Por isso, não foi usada para atribuir organizador, roteiro, ponto de encontro ou programação.\n\n## Pendências verificadas\n\nNão foram encontrados endereço, responsável, contato, regras de participação, estacionamento ou descrição inequívoca do formato da ação. Como a data já passou, a página fica como registro histórico da divulgação, com as lacunas explicitadas.",
+        "official_url": "https://jb-rider.com.br/evento/20260801-5-cerol-to-fora-frutal-mg",
+        "verification_status": "flyer_especifico_com_contexto_institucional_local_nao_especifico_da_edicao",
+        "last_updated": "2026-08-22T21:52:54-04:00",
+        "time_label": "O flyer traz 8h30 e 13h; as atividades correspondentes não foram confirmadas",
+        "venue": "Local da ação de 2026 não confirmado",
+        "street_address": "Endereço não confirmado",
+        "full_address": "Frutal - MG; endereço detalhado não confirmado",
+        "status_basis": "A data divulgada, 1º de agosto de 2026, já passou; não foi localizada confirmação independente da realização ou comunicado de cancelamento.",
+        "status_checked_at": "2026-08-22T21:52:54-04:00",
+        "organizer": "Organização da edição de 2026 não confirmada",
+        "contact": "Contato da edição de 2026 não localizado",
+        "source_checked_at": "2026-08-22T21:52:54-04:00",
+        "admission_status": "Não informado para a edição de 2026",
+        "parking": "Não informado para a edição de 2026"
+      },
+      "additional_sources": [
+        {
+          "url": "https://gmaprendizagem.org.br/noticias/",
+          "label": "Guarda Mirim Aprendizagem — referência à campanha Cerol Tô Fora em Frutal",
+          "type": "contexto institucional local, não específico da edição",
+          "supports": "existência de campanha com o mesmo nome em Frutal; não confirma data, local, programa ou organização da edição de 2026"
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Cerol Tô Fora\" Frutal 2026",
+          "\"Cerol To Fora\" Frutal motociclistas agosto",
+          "site:frutal.mg.gov.br Cerol",
+          "site:instagram.com Cerol Tô Fora Frutal"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "frutal.mg.gov.br",
+          "gmaprendizagem.org.br",
+          "instagram.com"
+        ],
+        "result": "contexto_local_encontrado_sem_confirmacao_da_edicao_2026",
+        "uncertainties": [
+          "A natureza exata da atividade e o responsável pela 5ª edição não foram estabelecidos.",
+          "Os horários do flyer não puderam ser ligados a atividades específicas."
+        ]
+      }
+    },
+    {
+      "slug": "5-encontro-de-motociclistas-cravinhos-sp-2026-08-23",
+      "updates": {
+        "status": "agendada",
+        "summary": "O 5º Encontro de Motociclistas de Cravinhos/SP está divulgado para 23 de agosto de 2026 no flyer específico. Até a revisão de 22 de agosto, não foi localizada confirmação independente da Prefeitura, do organizador ou da imprensa local; endereço, horário e acesso precisam ser conferidos antes do deslocamento.",
+        "body": "## Divulgação localizada\n\nO flyer específico e a listagem atual da agenda JB-RIDER mantêm o 5º Encontro de Motociclistas de Cravinhos para 23 de agosto de 2026. A pesquisa foi refeita na véspera da data anunciada.\n\n## Checagem de última hora\n\nNão apareceu publicação específica da Prefeitura de Cravinhos, de um moto clube organizador ou de imprensa local confiável com local, horário ou eventual alteração. Resultados de quintas edições em outras cidades foram descartados.\n\n## Confirme antes de sair\n\nA página não deve prometer programação, entrada, estacionamento ou estrutura que não estejam publicados. Quem pretende comparecer precisa confirmar diretamente com o responsável pelo flyer ou por um canal local antes da viagem.",
+        "official_url": "https://jb-rider.com.br/evento/20260823-5-encontro-de-motociclistas-cravinhos-sp",
+        "verification_status": "flyer_especifico_sem_confirmacao_independente_na_vespera",
+        "last_updated": "2026-08-22T21:52:54-04:00",
+        "time_label": "23 de agosto de 2026; horário não confirmado",
+        "venue": "Local da edição de 2026 não confirmado",
+        "street_address": "Endereço não confirmado",
+        "full_address": "Cravinhos - SP; endereço detalhado não confirmado",
+        "status_basis": "A data é futura e continua na fonte específica consultada em 22 de agosto; não foi localizado cancelamento, mas falta confirmação independente de última hora.",
+        "status_checked_at": "2026-08-22T21:52:54-04:00",
+        "organizer": "Organização da edição de 2026 não identificada",
+        "contact": "Contato da edição de 2026 não localizado",
+        "source_checked_at": "2026-08-22T21:52:54-04:00",
+        "admission_status": "Não informado para a edição de 2026",
+        "parking": "Não informado para a edição de 2026"
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "site:cravinhos.sp.gov.br motociclistas 23 agosto 2026",
+          "\"5º Encontro de Motociclistas\" Cravinhos 2026",
+          "\"Encontro de Motociclistas\" Cravinhos 23/08/2026",
+          "site:instagram.com 5º Encontro de Motociclistas Cravinhos"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "cravinhos.sp.gov.br",
+          "instagram.com"
+        ],
+        "result": "somente_flyer_especifico; sem_confirmacao_independente_na_vespera",
+        "uncertainties": [
+          "Não foi possível verificar local, horário, organizador ou situação operacional na véspera."
+        ]
+      }
+    },
+    {
+      "slug": "5-moto-almoco-show-piratuba-sc-2026-09-06",
+      "updates": {
+        "status": "agendada",
+        "summary": "A data de 6 de setembro de 2026 para o 5º Moto Almoço Show de Piratuba/SC é corroborada pelas agendas JB-RIDER e Fire Souls. A Fire Souls registra 10h59, um horário atípico que deve ser confirmado; local, organização, ingresso e estacionamento da edição atual não foram publicados nas fontes encontradas.",
+        "body": "## Data corroborada\n\nDuas agendas em domínios diferentes identificam o 5º Moto Almoço Show em Piratuba/SC no dia 6 de setembro de 2026. A listagem Fire Souls apresenta 10h59 como horário, informação preservada com ressalva por ser uma marca incomum e não haver canal oficial localizado para confirmá-la.\n\n## O que não foi transferido\n\nPáginas de venda e divulgação da 4ª edição, realizada em 2025, citam o Parque de Eventos. Esse local não foi reaproveitado para 2026, porque não há prova de que a quinta edição ocorrerá no mesmo endereço. Programação, cardápio, ingresso e estrutura da edição anterior também ficaram fora do serviço atual.\n\n## Serviço pendente\n\nA organização, o endereço, o contato, as regras de acesso, o estacionamento e as atrações detalhadas ainda precisam de publicação específica da edição de 2026.",
+        "verification_status": "duas_agendas_independentes_sem_canal_oficial_localizado",
+        "last_updated": "2026-08-22T21:52:54-04:00",
+        "time_label": "6 de setembro de 2026; a Fire Souls lista 10h59, horário que deve ser confirmado com a organização",
+        "venue": "Local da quinta edição não confirmado",
+        "street_address": "Endereço não confirmado para 2026",
+        "full_address": "Piratuba - SC; endereço da quinta edição não confirmado",
+        "status_basis": "Duas agendas atuais mantêm o evento em 6 de setembro de 2026 e não foi localizado aviso de cancelamento; ainda falta confirmação do organizador.",
+        "status_checked_at": "2026-08-22T21:52:54-04:00",
+        "organizer": "Organização da quinta edição não identificada em fonte atual",
+        "contact": "Contato da edição de 2026 não localizado",
+        "source_checked_at": "2026-08-22T21:52:54-04:00",
+        "admission_status": "Não informado para a edição de 2026",
+        "parking": "Não informado para a edição de 2026"
+      },
+      "additional_sources": [
+        {
+          "url": "https://www.firesoulswebradio.com/eventos/",
+          "label": "Fire Souls Web Radio — agenda de eventos",
+          "type": "agenda independente",
+          "supports": "nome do 5º Almoço Show, Piratuba/SC, data de 6 de setembro de 2026 e horário listado de 10h59"
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"DIA 06/09/2026\" \"5º ALMOÇO SHOW\" Piratuba",
+          "\"5º Moto Almoço Show\" Piratuba 2026",
+          "site:piratuba.sc.gov.br Moto Almoço Show 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "firesoulswebradio.com",
+          "piratuba.sc.gov.br",
+          "ticketmais.com.br",
+          "allevents.in"
+        ],
+        "result": "data_e_cidade_corrobadas_por_duas_agendas; servico_operacional_pendente",
+        "excluded_sources": [
+          {
+            "url": "https://ticketmais.com.br/evento/busca?q=vip",
+            "reason": "resultado da 4ª edição de 2025; não prova o local ou o serviço de 2026"
+          },
+          {
+            "url": "https://allevents.in/erechim/4-moto-almo%C3%87o-show/200028752098024",
+            "reason": "página histórica de 2025; nenhum dado operacional foi transferido"
+          }
+        ],
+        "uncertainties": [
+          "O horário 10h59 aparece na listagem independente, mas precisa de confirmação do organizador.",
+          "Não foi localizado canal oficial da quinta edição."
+        ]
+      }
+    },
+    {
+      "slug": "5-moto-encontro-da-casa-rural-barrra-do-ribeiro-rs-2026-07-25",
+      "updates": {
+        "title": "5º Moto Encontro da Casa Rural e 4º Aniversário da A LIGA",
+        "short_name": "5º Moto Encontro da Casa Rural",
+        "city": "Barra do Ribeiro",
+        "status": "concluida",
+        "summary": "Divulgado para 25 e 26 de julho de 2026 na Casa Rural, BR-116, km 334, em Douradilho, Barra do Ribeiro/RS, o encontro teve entrada solidária de 1 kg de alimento para a APAE, shows de rock, expositores, restaurante, camping gratuito com chuveiro quente e estacionamento setorizado.",
+        "body": "## Serviço verificado\n\nO 5º Moto Encontro da Casa Rural e o 4º Aniversário da A LIGA foram divulgados para 25 e 26 de julho de 2026, com início às 8h do sábado, na Casa Rural, BR-116, km 334, em Douradilho, Barra do Ribeiro/RS. O cadastro detalhado do Portal Motociclistas Unidos e a agenda Rota Biker corroboram o local.\n\n## Entrada solidária e estrutura\n\nA entrada anunciada era 1 kg de alimento não perecível destinado à APAE de Barra do Ribeiro. A estrutura publicada incluía restaurante com buffet e churrasco, lanches e bebidas, banheiros, pontos de água quente e erva-mate, expositores, sorteios, camping gratuito com chuveiro quente e churrasqueiras coletivas.\n\n## Acesso e estacionamento\n\nO serviço previa acesso frontal exclusivo para motos. Triciclos, carros de apoio e motorhomes poderiam usar a área do camping; demais veículos teriam estacionamento ao lado do evento. A organização também divulgou a regra Zoeira Tô Fora.\n\n## Realização\n\nA organização foi atribuída à Casa Rural, Skull Riders M.G. e M.C. Irmandade do Sul, com apoio da A LIGA. A programação incluía shows de rock nos dois dias e convite especial da banda Stay-o-Rock.",
+        "official_url": "https://motociclistasunidos.com.br/evento/5-moto-encontro-da-casa-rural-e-4-aniver-a-liga/",
+        "verification_status": "servico_detalhado_corrobado_por_duas_fontes_especializadas_independentes",
+        "last_updated": "2026-08-22T21:52:54-04:00",
+        "time_label": "25 e 26 de julho de 2026; início às 8h no sábado",
+        "venue": "Casa Rural",
+        "street_address": "BR-116, km 334, Douradilho",
+        "full_address": "Casa Rural, BR-116, km 334, Douradilho, Barra do Ribeiro - RS, CEP 96790-000",
+        "status_basis": "As fontes específicas confirmam o período de 25 e 26 de julho de 2026, já encerrado; não foi localizado comunicado de cancelamento.",
+        "status_checked_at": "2026-08-22T21:52:54-04:00",
+        "organizer": "Casa Rural, Skull Riders M.G. e M.C. Irmandade do Sul; apoio da A LIGA",
+        "source_checked_at": "2026-08-22T21:52:54-04:00",
+        "admission_status": "Entrada solidária: 1 kg de alimento não perecível destinado à APAE de Barra do Ribeiro",
+        "parking": "Motos com acesso frontal exclusivo; triciclos, carros de apoio e motorhomes na área do camping; veículos com estacionamento ao lado do evento",
+        "attractions": [
+          "Shows de rock nos dois dias",
+          "Convite especial da banda Stay-o-Rock",
+          "Expositores e sorteios",
+          "Restaurante com buffet e churrasco",
+          "Camping gratuito com chuveiro quente e churrasqueiras coletivas",
+          "Comemoração do Dia do Motociclista e de um ano do Monumento Rota Biker"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://motociclistasunidos.com.br/evento/5-moto-encontro-da-casa-rural-e-4-aniver-a-liga/",
+          "label": "Portal Motociclistas Unidos — página específica do evento",
+          "type": "fonte especializada com serviço detalhado",
+          "supports": "datas, horário inicial, endereço, entrada solidária, organização, estrutura, camping, estacionamento, atrações e regra de convivência"
+        },
+        {
+          "url": "https://monumentobikers.com.br/eventos/",
+          "label": "Rota Biker — agenda do 5º Moto Encontro Casa Rural",
+          "type": "agenda especializada independente",
+          "supports": "identidade do evento e localização na BR-116, km 334, em Barra do Ribeiro/RS"
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"5º Moto Encontro da Casa Rural\" 2026 Barra do Ribeiro",
+          "site:motociclistasunidos.com.br 5 Moto Encontro Casa Rural",
+          "site:monumentobikers.com.br 5 Moto Encontro Casa Rural"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "motociclistasunidos.com.br",
+          "monumentobikers.com.br"
+        ],
+        "result": "servico_completo_e_correcao_do_nome_da_cidade",
+        "corrections": [
+          "Barrra do Ribeiro corrigido para Barra do Ribeiro com base em duas fontes específicas.",
+          "O nome completo inclui o 4º Aniversário da A LIGA."
+        ],
+        "uncertainties": [
+          "Não foi publicado contato direto da organização na página consultada."
+        ]
+      }
+    },
+    {
+      "slug": "5-praia-rock-chopper-mc-saquarema-rj-2026-08-15",
+      "updates": {
+        "title": "5º Praia Rock Chopper MC",
+        "short_name": "Praia Rock Chopper",
+        "city": "Saquarema",
+        "status": "concluida",
+        "summary": "O 5º Praia Rock Chopper MC foi anunciado para 15 e 16 de agosto de 2026, a partir das 13h, na Rua 1, Loteamento Barra Nova, nº 678, em Saquarema/RJ, com bandas de rock, exposição de motos e veículos customizados, gastronomia e estandes temáticos.",
+        "body": "## Serviço confirmado\n\nA Prefeitura de Saquarema e O Dia publicaram o 5º Praia Rock Chopper MC para 15 e 16 de agosto de 2026, a partir das 13h, na Rua 1, Loteamento Barra Nova, nº 678, no bairro Barra Nova. As duas fontes tratam da edição correta e coincidem em datas, horário e endereço.\n\n## Programação e estrutura\n\nA divulgação informou apresentações de bandas de rock, exposição de motocicletas e veículos personalizados, área gastronômica com food trucks, bares e cerveja artesanal, além de estandes de acessórios, roupas e artigos ligados à cultura motociclística. Também foi citado um espaço voltado a visitantes e famílias.\n\n## Organização e apoio\n\nO encontro foi promovido pelo Praia Rock Chopper MC com apoio da Prefeitura de Saquarema, por meio da Secretaria Municipal de Cultura, Inclusão, Ciência e Tecnologia. As fontes não publicaram regra de ingresso nem orientação específica de estacionamento, portanto esses itens permanecem como não informados.",
+        "official_url": "https://www.saquarema.rj.gov.br/praia-rock-chopper-reune-motociclistas-bandas-de-rock-e-visitantes-em-saquarema/",
+        "verification_status": "fonte_municipal_e_imprensa_local_independente_confirmadas",
+        "last_updated": "2026-08-22T21:52:54-04:00",
+        "time_label": "15 e 16 de agosto de 2026, a partir das 13h",
+        "venue": "Praia Rock Chopper, Barra Nova",
+        "street_address": "Rua 1, Loteamento Barra Nova, nº 678, Barra Nova",
+        "full_address": "Rua 1, Loteamento Barra Nova, nº 678, Barra Nova, Saquarema - RJ",
+        "status_basis": "O período confirmado por fonte municipal e imprensa local, 15 e 16 de agosto de 2026, já terminou; não foi localizado comunicado de cancelamento.",
+        "status_checked_at": "2026-08-22T21:52:54-04:00",
+        "organizer": "Praia Rock Chopper MC, com apoio da Prefeitura de Saquarema",
+        "source_checked_at": "2026-08-22T21:52:54-04:00",
+        "admission_status": "Não informado nas fontes consultadas",
+        "parking": "Não informado nas fontes consultadas",
+        "attractions": [
+          "Bandas de rock ao vivo",
+          "Exposição de motocicletas e veículos personalizados",
+          "Food trucks, bares e cerveja artesanal",
+          "Estandes de acessórios, roupas e artigos temáticos",
+          "Espaço para visitantes e famílias"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://www.saquarema.rj.gov.br/praia-rock-chopper-reune-motociclistas-bandas-de-rock-e-visitantes-em-saquarema/",
+          "label": "Prefeitura de Saquarema — notícia oficial do Praia Rock Chopper",
+          "type": "fonte municipal primária",
+          "supports": "edição, datas, horário, endereço, apoio municipal, perfil do público, atrações e estrutura divulgada"
+        },
+        {
+          "url": "https://odia.ig.com.br/saquarema/2026/08/7286239-praia-rock-chopper-acontece-na-cidade-de-saquarema-em-agosto.html",
+          "label": "O Dia — Praia Rock Chopper em Saquarema",
+          "type": "imprensa local independente",
+          "supports": "datas, início às 13h, endereço e conjunto de atrações da quinta edição"
+        }
+      ],
+      "research": {
+        "queries": [
+          "site:saquarema.rj.gov.br Praia Rock Chopper 2026",
+          "site:odia.ig.com.br/saquarema Praia Rock Chopper 2026",
+          "\"5º Praia Rock Chopper MC\" 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "saquarema.rj.gov.br",
+          "odia.ig.com.br"
+        ],
+        "result": "edicao_confirmada_por_fonte_oficial_e_imprensa_local",
+        "corrections": [
+          "A cidade foi normalizada de Rock Chopper MC - Saquarema para Saquarema.",
+          "O título truncado 5 Praia foi corrigido para 5º Praia Rock Chopper MC."
+        ],
+        "uncertainties": [
+          "Ingresso e estacionamento não foram descritos nas fontes consultadas."
+        ]
+      }
+    },
+    {
+      "slug": "expo-guararema-moto-clube-2026",
+      "updates": {
+        "status": "concluida",
+        "summary": "A 5ª Expo Guararema Moto Clube ocorreu em 15 e 16 de agosto de 2026 na Vila de Luís Carlos, com seis shows de rock, exposição de motos e triciclos e entrada solidária de uma pasta ou escova de dente; uma galeria posterior com milhares de fotos e vídeos confirma a realização.",
+        "body": "## Evento realizado na Vila de Luís Carlos\n\nA Prefeitura de Guararema confirmou a 5ª Expo Guararema Moto Clube para 15 e 16 de agosto de 2026, na Vila de Luís Carlos. A entrada solidária foi uma pasta de dente ou uma escova de dente, destinada ao Fundo Social de Solidariedade. A Gazeta de Guararema reproduziu o serviço em domínio jornalístico local, e uma galeria da Fotop publicada após o evento reúne material dos dois dias, corroborando a realização.\n\n## Programação musical\n\nNo sábado, a programação começou às 10h com The Wallrus, seguida por Red Rock às 13h e Kadillac Dinossauro às 16h. No domingo, tocaram Four Side às 10h, Highway to Rock às 13h e The Chronicles às 16h, com tributo a Creedence Clearwater Revival.\n\n## Motos, triciclos e ação solidária\n\nAlém dos seis shows, a edição reuniu exposição de motos e triciclos e espaços de convivência para motociclistas, expositores e visitantes. A realização foi do Guararema Moto Clube, com apoio da Prefeitura, por meio da Secretaria Municipal de Cultura e Turismo. A divulgação oficial não detalhou estacionamento.",
+        "official_url": "https://guararema.sp.gov.br/noticias/geral/estancia-turistica-de-guararema-recebe-5-expo-guararema-moto-clube-em-agosto",
+        "verification_status": "fonte_municipal_imprensa_local_e_evidencia_pos_evento_confirmadas",
+        "last_updated": "2026-08-22T21:52:54-04:00",
+        "time_label": "15 e 16 de agosto de 2026; shows às 10h, 13h e 16h nos dois dias",
+        "venue": "Vila de Luís Carlos",
+        "full_address": "Vila de Luís Carlos, Guararema - SP",
+        "status_basis": "As datas já terminaram e a galeria pós-evento da Fotop, com álbuns de 15 e 16 de agosto, confirma que a quinta edição ocorreu.",
+        "status_checked_at": "2026-08-22T21:52:54-04:00",
+        "organizer": "Guararema Moto Clube, com apoio da Prefeitura de Guararema",
+        "contact": "Instagram do Guararema Moto Clube: @guararemamotoclube",
+        "source_checked_at": "2026-08-22T21:52:54-04:00",
+        "admission_status": "Entrada solidária: uma pasta de dente ou uma escova de dente para o Fundo Social de Solidariedade",
+        "parking": "Não informado na divulgação oficial consultada",
+        "attractions": [
+          "Exposição de motos e triciclos",
+          "The Wallrus",
+          "Red Rock",
+          "Kadillac Dinossauro",
+          "Four Side",
+          "Highway to Rock",
+          "The Chronicles com tributo a Creedence Clearwater Revival"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://gazetadeguararema.com.br/estancia-turistica-de-guararema-recebe-5a-expo-guararema-moto-clube-em-agosto/",
+          "label": "Gazeta de Guararema — 5ª Expo Guararema Moto Clube",
+          "type": "imprensa local; republicação identificada da Prefeitura",
+          "supports": "datas, local, entrada solidária, organização e programação; o texto declara a Prefeitura como fonte"
+        },
+        {
+          "url": "https://danielaraujo.fotop.com/fotos/eventos?evento=310186",
+          "label": "Fotop — galeria da 5ª Expo Guararema Moto Clube",
+          "type": "evidência documental pós-evento",
+          "supports": "realização em Guararema nos dias 15 e 16 de agosto de 2026, com álbuns, 9.701 fotos e 19 vídeos publicados"
+        },
+        {
+          "url": "https://www.firesoulswebradio.com/eventos/",
+          "label": "Fire Souls Web Radio — agenda da 5ª Expo Guararema",
+          "type": "agenda independente",
+          "supports": "identidade do evento e data de 15 de agosto de 2026 em Guararema/SP"
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Estância Turística de Guararema recebe 5ª Expo Guararema Moto Clube em agosto\"",
+          "site:gazetadeguararema.com.br 5ª Expo Guararema Moto Clube 2026",
+          "\"5ª EXPO GUARAREMA MOTO CLUBE\" 15 16 agosto 2026 fotos"
+        ],
+        "domains_checked": [
+          "guararema.sp.gov.br",
+          "gazetadeguararema.com.br",
+          "firesoulswebradio.com",
+          "fotop.com"
+        ],
+        "result": "servico_oficial_confirmado_e_realizacao_corrobada_por_galeria_pos_evento",
+        "uncertainties": [
+          "A Gazeta declara a Prefeitura como fonte; por isso, foi classificada como republicação, não apuração independente do serviço.",
+          "Estacionamento não foi detalhado."
+        ]
+      }
+    },
+    {
+      "slug": "7-aniversario-mc-ponta-negra-marica-rj-2026-10-31",
+      "updates": {
+        "status": "agendada",
+        "summary": "A agenda comunitária registra o 7º aniversário do Ponta Negra Moto Clube em Maricá/RJ entre 31 de outubro e 1º de novembro de 2026. Não foi localizada publicação independente da edição atual; endereço, horário, programa, entrada e estacionamento continuam pendentes.",
+        "body": "## Data anunciada\n\nO flyer específico e a agenda JB-RIDER registram o 7º aniversário do Ponta Negra Moto Clube em Maricá/RJ, com janela de 31 de outubro a 1º de novembro de 2026. A mesma agenda também mantém uma entrada resumida apenas para 31 de outubro.\n\n## Continuidade do evento\n\nO portal Viagem do Rock preserva um álbum da 6ª edição, o que comprova a existência e a continuidade do aniversário do clube, mas não publica serviço da 7ª edição. Endereço e programação de anos anteriores não foram transformados em informação atual.\n\n## Informações pendentes\n\nNão foi encontrado anúncio do organizador, da Prefeitura de Maricá ou de imprensa local com local, horários, contato, ingresso, estacionamento ou atrações de 2026. A página deve manter essas lacunas claras e orientar a confirmação antes da viagem.",
+        "official_url": "https://jb-rider.com.br/evento/20261031-2-7-aniversario-mc-ponta-negra-marica-rj",
+        "verification_status": "flyer_atual_com_registro_historico_do_clube_sem_segunda_fonte_da_edicao",
+        "last_updated": "2026-08-22T21:52:54-04:00",
+        "time_label": "31 de outubro e 1º de novembro de 2026; horários não confirmados",
+        "venue": "Local da sétima edição não confirmado",
+        "street_address": "Endereço não confirmado para 2026",
+        "full_address": "Maricá - RJ; endereço da sétima edição não confirmado",
+        "status_basis": "A data é futura e permanece na agenda específica; não foi localizado cancelamento nem confirmação independente do organizador.",
+        "status_checked_at": "2026-08-22T21:52:54-04:00",
+        "organizer": "Ponta Negra Moto Clube",
+        "contact": "Contato da sétima edição não localizado",
+        "source_checked_at": "2026-08-22T21:52:54-04:00",
+        "admission_status": "Não informado para a edição de 2026",
+        "parking": "Não informado para a edição de 2026"
+      },
+      "additional_sources": [
+        {
+          "url": "https://viagemdorock.com.br/albuns/",
+          "label": "Viagem do Rock — álbum do 6º aniversário do Ponta Negra Moto Clube",
+          "type": "registro histórico independente",
+          "supports": "existência da edição anterior e continuidade do evento; não confirma local, datas ou programa da sétima edição de 2026"
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"7º Aniversário\" \"Ponta Negra Moto Clube\" 2026",
+          "\"MC Ponta Negra\" Maricá outubro 2026",
+          "site:viagemdorock.com.br Ponta Negra Moto Clube"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "marica.rj.gov.br",
+          "viagemdorock.com.br",
+          "instagram.com"
+        ],
+        "result": "edicao_atual_somente_na_agenda; continuidade_historica_confirmada",
+        "uncertainties": [
+          "A fonte histórica não permite reutilizar sede, endereço ou programação na edição atual.",
+          "A duração de dois dias ainda não foi confirmada pelo clube em canal localizado."
+        ]
+      }
+    },
+    {
+      "slug": "7-jere-moto-fest-jeremoabo-ba-2026-09-11",
+      "updates": {
+        "status": "agendada",
+        "summary": "O 7º Jere Moto Fest está divulgado para 11 e 12 de setembro de 2026 em Jeremoabo/BA. A agenda atual traz uma entrada paralela do MC Rota 110 na mesma cidade e data, e o histórico do evento identifica o Moto Clube Rota 110 como organizador; local, horários, entrada e atrações da sétima edição não foram confirmados.",
+        "body": "## Edição de 2026\n\nA agenda JB-RIDER registra o 7º Jere Moto Fest em Jeremoabo/BA nos dias 11 e 12 de setembro de 2026. No mesmo conjunto de listagens aparece MC Rota 110 em Jeremoabo na mesma data, reforçando a associação com o clube.\n\n## Identidade do organizador\n\nA página histórica do Mototour descreve o Jere Moto Fest como comemoração do Moto Clube Rota 110 e o identifica como organizador. Um documento municipal de 2022 também inclui o Jere Moto Fest no calendário local. Essas referências sustentam a continuidade e a identidade do evento, mas não provam serviço operacional de 2026.\n\n## Sem transferência de edição antiga\n\nPraça do Forró, entrada franca, camping, café da manhã, feijoada e demais atrações aparecem apenas no registro histórico. Nenhum desses itens foi apresentado como atual, pois não foi localizada publicação específica da sétima edição em canal oficial do clube ou do município.",
+        "official_url": "https://jb-rider.com.br/evento/20260911-2-7-jere-moto-fest-jeremoabo-ba",
+        "verification_status": "agenda_atual_com_organizador_correlacionado_sem_servico_oficial_2026",
+        "last_updated": "2026-08-22T21:52:54-04:00",
+        "time_label": "11 e 12 de setembro de 2026; horários não confirmados",
+        "venue": "Local da sétima edição não confirmado",
+        "street_address": "Endereço não confirmado para 2026",
+        "full_address": "Jeremoabo - BA; endereço da sétima edição não confirmado",
+        "status_basis": "A agenda atual mantém o evento em data futura e não foi localizado aviso de cancelamento; o serviço ainda carece de confirmação oficial do organizador.",
+        "status_checked_at": "2026-08-22T21:52:54-04:00",
+        "organizer": "Moto Clube Rota 110, identificado por correlação da agenda atual e pelo histórico do evento",
+        "contact": "Contato atual da sétima edição não localizado",
+        "source_checked_at": "2026-08-22T21:52:54-04:00",
+        "admission_status": "Não informado para a edição de 2026",
+        "parking": "Não informado para a edição de 2026"
+      },
+      "additional_sources": [
+        {
+          "url": "https://mototour.com.br/jere-moto-fest",
+          "label": "Mototour — histórico do Jere Moto Fest",
+          "type": "fonte histórica especializada",
+          "supports": "identidade do Moto Clube Rota 110 como organizador histórico; não confirma local, entrada, contato ou programação de 2026"
+        },
+        {
+          "url": "https://www.jeremoabo.ba.gov.br/Handler.ashx?f=f&name=EDITALPE061-20222%C2%BACHAMADA.pdf&query=b5916ebe-d447-434b-8cff-7732804b8ae3.pdf",
+          "label": "Prefeitura de Jeremoabo — documento municipal de 2022",
+          "type": "fonte institucional histórica",
+          "supports": "presença do Jere Moto Fest no calendário municipal histórico; não confirma serviço da edição de 2026"
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"7º Jere Moto Fest\" 2026 Jeremoabo",
+          "\"Jere Moto Fest\" \"Rota 110\"",
+          "site:jeremoabo.ba.gov.br Jere Moto Fest 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "mototour.com.br",
+          "jeremoabo.ba.gov.br",
+          "instagram.com"
+        ],
+        "result": "data_atual_na_agenda_e_identidade_historica_do_organizador; servico_2026_pendente",
+        "uncertainties": [
+          "A Praça do Forró e a entrada gratuita são dados de edição antiga e não foram transferidos.",
+          "Não foi localizado anúncio oficial da sétima edição."
+        ]
+      }
+    },
+    {
+      "slug": "7-62-mc-araguari-sc-2026-10-10",
+      "updates": {
+        "title": "Inauguração da base do 7.62 Moto Clube",
+        "short_name": "Inauguração da base do 7.62 MC",
+        "city": "Araquari",
+        "status": "agendada",
+        "summary": "A divulgação se refere à inauguração da base do 7.62 Moto Clube em Araquari/SC, em 10 de outubro de 2026, às 15h. A agenda Fire Souls corrige a cidade grafada como Araguari no cadastro original; o endereço da base, a entrada e o estacionamento ainda não foram publicados nas fontes localizadas.",
+        "body": "## Correção de identidade e cidade\n\nA Fire Souls lista de forma explícita a Inauguração da Base do 7.62 MC para 10 de outubro de 2026, às 15h, em Araquari/SC. Essa formulação corresponde à data e ao clube do flyer arquivado e corrige Araguari-SC, combinação geográfica equivocada, para Araquari-SC.\n\n## Canal do clube\n\nPublicações jornalísticas anteriores incorporam manifestações do perfil @7.62motoclube e identificam o canal como pertencente ao 7.62 Moto Clube. Esse registro serve apenas para validar a identidade do canal, não para provar detalhes da inauguração.\n\n## Serviço ainda incompleto\n\nO endereço da nova base, regras de entrada, estacionamento e contato específico do evento não foram encontrados. O flyer indica shows e área de camping, mas esses itens devem ser reconfirmados com o clube antes do deslocamento.",
+        "official_url": "https://www.instagram.com/7.62motoclube/",
+        "verification_status": "duas_agendas_independentes_com_correcao_de_cidade_e_identidade_do_evento",
+        "last_updated": "2026-08-22T21:52:54-04:00",
+        "time_label": "10 de outubro de 2026, às 15h, segundo a Fire Souls",
+        "venue": "Base do 7.62 Moto Clube — endereço detalhado ainda não publicado",
+        "street_address": "Endereço da base não confirmado",
+        "full_address": "Araquari - SC; endereço detalhado da base não confirmado",
+        "status_basis": "A data futura aparece em duas agendas de domínios distintos e não foi localizado aviso de cancelamento; o endereço ainda precisa ser confirmado pelo clube.",
+        "status_checked_at": "2026-08-22T21:52:54-04:00",
+        "organizer": "7.62 Moto Clube",
+        "contact": "Instagram @7.62motoclube; confirme o endereço da base diretamente com o clube",
+        "source_checked_at": "2026-08-22T21:52:54-04:00",
+        "admission_status": "Não informado para a inauguração de 2026",
+        "parking": "Não informado para a inauguração de 2026",
+        "attractions": [
+          "Inauguração da base do 7.62 Moto Clube",
+          "Shows indicados no flyer; confirme a programação",
+          "Área de camping indicada no flyer; confirme regras e disponibilidade"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://www.firesoulswebradio.com/eventos/",
+          "label": "Fire Souls Web Radio — inauguração da base do 7.62 MC",
+          "type": "agenda independente",
+          "supports": "identidade do evento, data de 10 de outubro de 2026, horário de 15h e cidade correta Araquari/SC"
+        },
+        {
+          "url": "https://scc10.com.br/seguranca/identificado-motociclista-que-morreu-na-br-470-dor-imensa/",
+          "label": "SCC10 — incorporação do perfil do 7.62 Moto Clube",
+          "type": "verificação histórica da identidade do canal social",
+          "supports": "associação do perfil @7.62motoclube ao 7.62 Moto Clube; não confirma o evento de 2026"
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"INAUGURAÇÃO DA BASE DO 7.62 MC\" Araquari",
+          "\"7.62 MC\" Araquari 2026",
+          "site:instagram.com/7.62motoclube Araquari"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "firesoulswebradio.com",
+          "instagram.com",
+          "scc10.com.br"
+        ],
+        "result": "cidade_e_identidade_corrigidas_por_fonte_independente_atual",
+        "corrections": [
+          "Araguari-SC foi corrigido para Araquari-SC.",
+          "O evento foi identificado como inauguração da base, não aniversário genérico."
+        ],
+        "uncertainties": [
+          "Endereço da base e regras de acesso ainda não foram publicados nas fontes localizadas."
+        ]
+      }
+    },
+    {
+      "slug": "prova-ciclistica-sao-salvador-2026",
+      "updates": {
+        "status": "concluida",
+        "summary": "A 81ª Prova Ciclística São Salvador foi concluída em 6 de agosto de 2026, em Campos dos Goytacazes. A FECIERJ publicou os resultados completos, e a cobertura local registrou empate técnico entre Otávio Gonzeli e Euller Magno na elite masculina e vitória de Luciene Ferreira da Silva na elite feminina.",
+        "body": "## Prova concluída e resultados oficiais disponíveis\n\nA 81ª Prova Ciclística São Salvador teve congresso técnico em 5 de agosto e baterias em 6 de agosto de 2026, na Praça do Liceu, em Campos dos Goytacazes/RJ. A Confederação Brasileira de Ciclismo publicou o serviço e a programação; a Federação de Ciclismo do Estado do Rio de Janeiro disponibilizou o arquivo completo de resultados após a disputa.\n\n## Destaques da elite\n\nA cobertura do GF Esporte relata um empate técnico inédito na elite masculina: Otávio Augusto Gonzeli e Euller Magno Rabelo completaram os 73 km com o mesmo tempo de 2h34min16s e dividiram o título segundo a apuração por photo finish. Rafael Augusto de Paula Braga e Lauro César Moro Chaman chegaram um décimo depois. Na elite feminina, Luciene Ferreira da Silva venceu os 54,75 km em 2h30min36s, com Nayane Caldeira Manhães em segundo.\n\n## Base e sub-23\n\nJalizan Kemerich de Almeida venceu a sub-23 masculina, e Mayra da Costa e Silva ganhou a sub-23 feminina. Na júnior, os vencedores foram Danilo Silva Araújo Gomes e Sara Silva de Almeida Alves. Os resultados completos de todas as categorias devem ser consultados no PDF oficial da FECIERJ.\n\n## Organização e serviço\n\nA realização foi da Rocha Sports, com Rodrigo Rocha e Afonso Celso como responsáveis no cadastro da CBC. O contato publicado foi (22) 99779-7573. A fonte oficial não detalhou estacionamento nem regra de entrada para o público.",
+        "official_url": "https://cbc.esp.br/modalidades/eventos/busca/",
+        "verification_status": "cbc_fecierj_e_imprensa_local_confirmadas_com_resultados_publicados",
+        "last_updated": "2026-08-22T21:52:54-04:00",
+        "time_label": "5 de agosto: congresso técnico a partir das 16h; 6 de agosto: secretaria às 6h30 e baterias a partir das 7h",
+        "venue": "Praça do Liceu",
+        "full_address": "Praça do Liceu, Campos dos Goytacazes - RJ",
+        "status_basis": "A FECIERJ publicou em sua página oficial o resultado completo da 81ª São Salvador, disputada em 6 de agosto de 2026, e a imprensa local cobriu a chegada.",
+        "status_checked_at": "2026-08-22T21:52:54-04:00",
+        "organizer": "Rocha Sports, com supervisão da FECIERJ e da CBC",
+        "contact": "(22) 99779-7573",
+        "source_checked_at": "2026-08-22T21:52:54-04:00",
+        "admission_status": "Não informado para o público nas fontes consultadas",
+        "parking": "Não informado nas fontes consultadas",
+        "attractions": [
+          "Resultado completo publicado pela FECIERJ",
+          "Empate técnico entre Otávio Gonzeli e Euller Magno na elite masculina",
+          "Vitória de Luciene Ferreira da Silva na elite feminina",
+          "Categorias de base, master, elite, sub-23, cadeirantes e passeio ciclístico"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://fecierj.org.br/resultados/",
+          "label": "FECIERJ — resultados da 81ª São Salvador",
+          "type": "fonte oficial de resultados",
+          "supports": "realização em 6 de agosto de 2026 e publicação do resultado completo da prova"
+        },
+        {
+          "url": "https://fecierj.org.br/wp-content/uploads/2026/08/RESULTADOS-81a-SAO-SALVADOR-2026-2.pdf",
+          "label": "FECIERJ — PDF de resultados completos",
+          "type": "documento oficial de resultados",
+          "supports": "classificações completas da 81ª Prova Ciclística São Salvador de 2026"
+        },
+        {
+          "url": "https://www.gfesporte.com.br/noticias/ciclismo/hist-3ria-sobre-duas-rodas-prova-cicl-stica-s-o-salvador-tem-empate-in-c-dito-na-elite-masculina/28848/",
+          "label": "GF Esporte — cobertura da 81ª São Salvador",
+          "type": "imprensa esportiva local independente",
+          "supports": "realização, chegada da elite, tempos, empate técnico e vencedores de elite, sub-23 e júnior"
+        }
+      ],
+      "research": {
+        "queries": [
+          "site:fecierj.org.br/resultados 81ª SÃO SALVADOR 2026",
+          "site:gfesporte.com.br Prova Ciclística São Salvador 2026",
+          "\"81ª Prova Ciclística São Salvador\" resultados 2026"
+        ],
+        "domains_checked": [
+          "cbc.esp.br",
+          "fecierj.org.br",
+          "gfesporte.com.br"
+        ],
+        "result": "servico_oficial_e_resultados_pos_evento_confirmados",
+        "uncertainties": [
+          "O GF Esporte descreve divisão oficial do título por empate técnico, enquanto a listagem nominal também ordena Otávio em primeiro e Euller em segundo; o texto preserva a explicação da apuração por photo finish e remete ao PDF oficial para a classificação integral."
+        ]
+      }
+    },
+    {
+      "slug": "9-encontro-de-motociclistas-e-triciclistas-lutecia-sp-2026-11-06",
+      "updates": {
+        "status": "agendada",
+        "summary": "O 9º Encontro de Motociclistas e Triciclistas de Lutécia/SP aparece na agenda para 6 a 8 de novembro de 2026, mas uma listagem duplicada indica apenas 7 e 8 de novembro. Não foi localizada fonte oficial da nona edição para confirmar início, local, organização ou serviço.",
+        "body": "## Divulgação da nona edição\n\nO flyer específico mantém o 9º Encontro de Motociclistas e Triciclistas de Lutécia/SP entre 6 e 8 de novembro de 2026. A mesma agenda também exibe uma duplicata com 7 e 8 de novembro, por isso o dia de abertura precisa ser confirmado diretamente com o responsável.\n\n## Histórico local documentado\n\nO Diário do Vale registrou a oitava edição em 2025, realizada pela Prefeitura de Lutécia com apoio da Câmara, comércio e grupo Amigos da Praça. Documentos públicos também registram a contratação relativa à edição anterior. Essas fontes comprovam a continuidade do encontro, mas não autorizam transferir para 2026 a Praça Arlindo Eiras, o contato, a entrada ou a programação de 2025.\n\n## Pendências da edição atual\n\nNão foi encontrado anúncio municipal ou publicação local específica da nona edição com endereço, horário, responsável, contato, ingresso ou estacionamento. O flyer indica rock e acessórios, mas a programação detalhada ainda precisa de confirmação.",
+        "official_url": "https://jb-rider.com.br/evento/20261106-3-9-encontro-de-motociclistas-e-triciclistas-lutecia-sp",
+        "verification_status": "flyer_atual_com_historico_local_sem_fonte_oficial_da_nona_edicao",
+        "last_updated": "2026-08-22T21:52:54-04:00",
+        "time_label": "Cadastro principal: 6 a 8 de novembro de 2026; duplicata: 7 e 8 de novembro; horários não confirmados",
+        "venue": "Local da nona edição não confirmado",
+        "street_address": "Endereço não confirmado para 2026",
+        "full_address": "Lutécia - SP; endereço da nona edição não confirmado",
+        "status_basis": "O evento permanece em data futura na agenda, sem cancelamento localizado; a divergência do dia inicial e a ausência de publicação oficial exigem confirmação.",
+        "status_checked_at": "2026-08-22T21:52:54-04:00",
+        "organizer": "Organização da nona edição não confirmada; a Prefeitura organizou a edição de 2025",
+        "contact": "Contato da nona edição não localizado; o número de 2025 não foi reutilizado",
+        "source_checked_at": "2026-08-22T21:52:54-04:00",
+        "admission_status": "Não informado para a nona edição",
+        "parking": "Não informado para a nona edição",
+        "attractions": [
+          "Rock indicado no flyer",
+          "Expositores ou acessórios indicados no flyer; detalhes ainda não confirmados"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://odiariodovale.com/lutecia-anuncia-data-do-8o-encontro-de-motociclistas-e-triciclistas/",
+          "label": "O Diário do Vale — 8º Encontro de Lutécia em 2025",
+          "type": "imprensa local histórica",
+          "supports": "continuidade do encontro e organização da edição de 2025; não confirma data, local, contato ou programa da nona edição"
+        },
+        {
+          "url": "https://www.dosp.com.br/impressao.php?i=NzIzNDg0",
+          "label": "Diário Oficial dos Municípios — contratação da 8ª edição",
+          "type": "fonte pública histórica",
+          "supports": "participação municipal na edição de 2025; não confirma serviço de 2026"
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"9º Encontro de Motociclistas e Triciclistas\" Lutécia 2026",
+          "site:lutecia.sp.gov.br motociclistas 2026",
+          "site:odiariodovale.com Lutécia motociclistas"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "lutecia.sp.gov.br",
+          "odiariodovale.com",
+          "dosp.com.br"
+        ],
+        "result": "edicao_atual_somente_no_flyer; historico_local_confirmado; divergencia_de_inicio",
+        "uncertainties": [
+          "A Praça Arlindo Eiras, o contato e a organização municipal pertencem à edição de 2025 e não foram tratados como serviço atual.",
+          "As duas listagens JB-RIDER divergem entre início em 6 ou 7 de novembro."
+        ]
+      }
+    },
+    {
+      "slug": "9-passeio-dia-do-motociclista-maceio-al-2026-07-26",
+      "updates": {
+        "status": "concluida",
+        "summary": "O flyer registra o 9º Passeio Dia do Motociclista em Maceió/AL em 26 de julho de 2026, com marca de 6h, rock, brindes ou sorteios e os contatos (82) 99178-6285 e (82) 8887-7174. Não foi localizada fonte independente que confirme o ponto de encontro, a organização ou a realização.",
+        "body": "## Informações do flyer\n\nO material específico arquivado na agenda JB-RIDER identifica o 9º Passeio Dia do Motociclista para 26 de julho de 2026, em Maceió/AL. O flyer traz a marca de 6h, menção a rock, brindes ou sorteios e dois telefones: (82) 99178-6285 e (82) 8887-7174. A atividade ligada ao horário não ficou descrita com clareza, portanto ele deve ser tratado como referência a confirmar.\n\n## Checagem independente\n\nBuscas no portal da Prefeitura de Maceió, imprensa local, redes sociais indexadas e pelos números de telefone não localizaram publicação específica da nona edição. Uma reportagem de 2026 sobre passeio do Dia do Motociclista em Arapiraca foi excluída porque trata de outra cidade e não há prova de que seja o mesmo evento.\n\n## Registro histórico com lacunas\n\nO ponto de concentração, roteiro, responsável, regras de participação, estacionamento e confirmação pós-evento não foram encontrados. Como a data já passou, a página permanece publicada como registro da divulgação, sem transformar informações de eventos semelhantes em fatos locais.",
+        "official_url": "https://jb-rider.com.br/evento/20260726-9-passeio-dia-do-motociclista-maceio-al",
+        "verification_status": "flyer_especifico_sem_confirmacao_independente_e_com_homonimo_descartado",
+        "last_updated": "2026-08-22T21:52:54-04:00",
+        "time_label": "O flyer traz 6h; confirme se o horário se refere à concentração ou à saída",
+        "venue": "Ponto de encontro da edição de 2026 não confirmado",
+        "street_address": "Endereço não confirmado",
+        "full_address": "Maceió - AL; ponto de concentração não confirmado",
+        "status_basis": "A data divulgada, 26 de julho de 2026, já passou; não foi localizada confirmação independente da realização nem comunicado de cancelamento.",
+        "status_checked_at": "2026-08-22T21:52:54-04:00",
+        "organizer": "Organização da nona edição não identificada",
+        "contact": "Telefones impressos no flyer: (82) 99178-6285 e (82) 8887-7174; validade atual não confirmada",
+        "source_checked_at": "2026-08-22T21:52:54-04:00",
+        "admission_status": "Não informado para a edição de 2026",
+        "parking": "Não informado para a edição de 2026",
+        "attractions": [
+          "Rock indicado no flyer",
+          "Brindes ou sorteios indicados no flyer"
+        ]
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"9º Passeio Dia do Motociclista\" Maceió 2026",
+          "\"Passeio Dia do Motociclista\" Maceió 26 julho 2026",
+          "site:maceio.al.gov.br motociclista julho 2026 passeio",
+          "\"(82) 99178-6285\"",
+          "\"(82) 8887-7174\""
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "maceio.al.gov.br",
+          "globoplay.globo.com",
+          "instagram.com"
+        ],
+        "result": "sem_segunda_fonte_especifica; evento_de_arapiraca_descartado",
+        "excluded_sources": [
+          {
+            "url": "https://globoplay.globo.com/v/14815198/",
+            "reason": "reportagem sobre passeio em Arapiraca/AL; não há prova de vínculo com o cadastro de Maceió"
+          }
+        ],
+        "uncertainties": [
+          "Não foi possível confirmar ponto de encontro, organizador ou realização.",
+          "A validade atual dos telefones impressos no flyer não foi corroborada."
+        ]
+      }
+    }
+  ]
+}

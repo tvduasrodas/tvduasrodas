@@ -29,10 +29,13 @@ STATIC_PAGES = [
     ("/revista", "0.9"),
     ("/tv", "0.9"),
     ("/sobre", "0.5"),
+    ("/equipe", "0.5"),
     ("/contato", "0.5"),
     ("/imprensa", "0.5"),
     ("/termos", "0.3"),
     ("/politica-de-privacidade", "0.3"),
+    ("/politica-editorial", "0.4"),
+    ("/politica-de-correcoes", "0.4"),
     ("/guia-scooters-eletricas", "0.7"),
     ("/review-naked-300", "0.7"),
     ("/role-urbano-noturno", "0.7"),
@@ -43,15 +46,18 @@ STATIC_PAGES = [
 # Update this date when a standalone static page receives a material edit.
 # Dynamic collection pages derive their dates from content automatically.
 STATIC_LASTMOD_OVERRIDES = {
-    "/sobre": "2026-07-22",
-    "/contato": "2026-07-22",
-    "/imprensa": "2026-07-22",
-    "/politica-de-privacidade": "2026-07-22",
-    "/termos": "2026-07-22",
-    "/guia-scooters-eletricas": "2026-07-22",
-    "/review-naked-300": "2026-07-22",
-    "/role-urbano-noturno": "2026-07-22",
-    "/viagem-serra-mirantes": "2026-07-22",
+    "/sobre": "2026-08-22",
+    "/equipe": "2026-08-22",
+    "/contato": "2026-08-22",
+    "/imprensa": "2026-08-22",
+    "/politica-de-privacidade": "2026-08-22",
+    "/termos": "2026-08-22",
+    "/politica-editorial": "2026-08-22",
+    "/politica-de-correcoes": "2026-08-22",
+    "/guia-scooters-eletricas": "2026-08-22",
+    "/review-naked-300": "2026-08-22",
+    "/role-urbano-noturno": "2026-08-22",
+    "/viagem-serra-mirantes": "2026-08-22",
 }
 
 

@@ -1,38 +1,50 @@
 ---
-title: 'Frenagem correta: fator decisivo em acidentes com motociclistas'
+title: 'Frenagem de motocicleta: controle, ABS/CBS e treino seguro'
 date: 2026-01-26T16:26:00-05:00
-author: Duas Rodas News
-category: tests
+author: Redação TVDUASRODAS
+category: Segurança
 videoId: 4-mkhw1okBU
-cover: ''
+cover: '/assets/img/uploads/frenagem-moto-brembo-cc0.webp'
+coverType: photo
+coverCredit: 'Hu Nhu / Wikimedia Commons'
+coverSource: 'https://commons.wikimedia.org/wiki/File:Brembo_motorcycle_brake.jpg'
+coverLicense: 'CC0 1.0'
+updated_at: 2026-08-22
 featured: false
 ---
 
-## Frenagem correta: um fator decisivo para reduzir acidentes com motociclistas
+Frenar uma motocicleta com controle envolve percepção, aderência, condição mecânica e técnica. Não existe uma receita que elimine o risco em todos os pisos e velocidades. Este guia organiza fundamentos apresentados no vídeo do curso Domínio Pilotagem e indica onde buscar confirmação técnica para cada motocicleta.
 
-A frenagem incorreta continua sendo um dos principais fatores por trás dos acidentes envolvendo motociclistas, tanto no trânsito urbano quanto em estradas e rodovias. Falta de técnica, reação tardia e uso inadequado dos freios são erros comuns que, muitas vezes, resultam em quedas graves ou colisões que poderiam ser evitadas.
+## Antecipar é parte da frenagem
 
-Pensando nisso, este conteúdo traz uma contribuição essencial para a segurança sobre duas rodas: ensinar, de forma clara e prática, a maneira correta de frear a motocicleta. O objetivo é simples, mas extremamente importante — ajudar o maior número possível de pessoas a entender, de uma vez por todas, como executar uma frenagem eficiente e segura, colaborando diretamente para a redução dessas estatísticas alarmantes de acidentes.
+Manter distância, observar cruzamentos, coberturas visuais e possíveis rotas de escape oferece tempo para reduzir de forma progressiva. Quanto mais tarde o risco é percebido, menor fica a margem para dosar os comandos e estabilizar a moto.
 
-## Muito além de apertar os freios
+![Sequência editorial de uma frenagem controlada](/assets/img/uploads/frenagem-moto-sequencia.svg)
 
-É importante destacar que uma frenagem eficiente vai muito além de apenas apertar os manetes. Existem diversos fatores que influenciam diretamente o resultado, como o comportamento corporal do piloto, a distribuição do peso, a sustentação com as pernas, a postura correta sobre a motocicleta e a leitura antecipada do tráfego.
+*A sequência é um lembrete visual, não substitui treinamento presencial nem o manual da moto.*
 
-Esses elementos fazem toda a diferença para manter a estabilidade da moto, especialmente em situações de emergência, onde cada segundo e cada movimento contam.
+## Comandos progressivos e postura estável
 
-## Foco nos fundamentos essenciais
+Em linha reta e com a moto estabilizada, a transferência de peso aumenta a carga sobre a roda dianteira. O acionamento progressivo permite que pneu e suspensão recebam essa carga sem um golpe abrupto. O freio traseiro também participa do equilíbrio, mas a proporção efetiva depende da motocicleta, da carga, do piso e do sistema de frenagem.
 
-Neste material, a escolha foi focar nos fundamentos principais da frenagem, deixando de lado alguns aspectos mais avançados para que o conteúdo não se tornasse excessivamente longo ou complexo. Ainda assim, as técnicas apresentadas representam um avanço significativo para quem busca pilotar com mais consciência, controle e segurança.
+Sustente o corpo com pernas e tronco em vez de travar os braços. Mantenha o olhar orientado para a área segura. Se a moto estiver inclinada, a aderência disponível já está dividida com a curva; reduza a inclinação quando houver espaço e segurança para isso.
 
-Ao compreender e aplicar esses princípios básicos, o motociclista passa a realizar frenagens mais progressivas e controladas, reduzindo drasticamente o risco de perda de controle da motocicleta.
+## ABS e CBS ajudam, mas não anulam a física
 
-## Segurança para o piloto e o garupa
+O ABS atua para evitar o travamento das rodas dentro das condições de funcionamento do sistema; CBS distribui parte do esforço entre os freios conforme o projeto. A [Resolução Contran nº 915/2022](https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucoes/Resolucao9152022.pdf) consolida os requisitos brasileiros para ABS ou frenagem combinada em motocicletas. Para saber o que existe na sua moto e como os avisos do painel funcionam, consulte o manual do proprietário do modelo e ano corretos.
 
-Seguir essas orientações é um passo importante para preservar a própria vida e também a de quem vai na garupa. Pilotar bem não significa apenas acelerar com habilidade, mas saber frear no momento certo e da forma correta, mantendo o controle da motocicleta em qualquer situação.
+ABS não compensa pneu inadequado, manutenção vencida, excesso de velocidade ou pouca distância. Em piso com baixa aderência, a distância pode aumentar mesmo sem travamento.
 
-Para quem deseja aprofundar ainda mais os conhecimentos e desenvolver técnicas avançadas de pilotagem defensiva ou esportiva, a recomendação é buscar formação especializada com profissionais qualificados.
+![Fatores que mudam a aderência e a distância de frenagem](/assets/img/uploads/frenagem-moto-aderencia.svg)
 
-## Créditos e conteúdo original
+*Piso, pneus, carga, curva, visibilidade e manutenção mudam a margem disponível.*
 
-Curso de pilotagem
-Domínio Pilotagem
+## Como treinar com responsabilidade
+
+Pratique somente em ambiente fechado e autorizado, com equipamento completo e instrutor qualificado. Comece em baixa velocidade, aumente a exigência de forma gradual e interrompa o exercício se houver falha mecânica, pneu frio ou contaminante no piso. Com garupa ou bagagem, o comportamento muda e requer margem adicional.
+
+## Fontes e créditos
+
+- Vídeo incorporado e orientação técnica: curso **Domínio Pilotagem**.
+- Requisitos de sistemas de frenagem: [Contran, Resolução nº 915/2022](https://www.gov.br/transportes/pt-br/assuntos/transito/conteudo-contran/resolucoes/Resolucao9152022.pdf).
+- Foto de capa: Hu Nhu, CC0 1.0, via Wikimedia Commons.

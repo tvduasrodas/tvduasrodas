@@ -1,0 +1,1627 @@
+{
+  "batch": "m",
+  "reviewed_at": "2026-08-23",
+  "entries": [
+    {
+      "slug": "peaky-blinders-mg-terezinha-pe-2026-09-06",
+      "updates": {
+        "title": "Encontro Peaky Blinders MG em Terezinha — 6 de setembro de 2026",
+        "short_name": "Peaky Blinders MG em Terezinha",
+        "city": "Terezinha",
+        "status": "agendada",
+        "summary": "Um flyer específico anuncia encontro do Peaky Blinders MG em Terezinha/PE para 6 de setembro de 2026. A revisão confirmou somente nome, cidade e data: local detalhado, horário, entrada, estacionamento, contato e programação ainda não aparecem de forma verificável nas fontes públicas localizadas.",
+        "body": "## O que foi confirmado\n\nA página específica e o flyer arquivado pelo JB Rider associam o Peaky Blinders MG a um evento em Terezinha, Pernambuco, no domingo, 6 de setembro de 2026. Esses são os únicos dados de serviço legíveis e convergentes recuperados para esta edição.\n\n## Informações ainda pendentes\n\nNão foi localizada publicação específica do organizador, da Prefeitura de Terezinha ou de imprensa local que informe local, endereço, horário, programação, regra de entrada, estacionamento ou contato. Buscas pelo nome do grupo combinado com a cidade também não produziram uma segunda fonte independente da edição.\n\n## Orientação ao público\n\nA página é preservada como registro da agenda, mas os dados insuficientes não devem ser convertidos em suposições. Quem pretende viajar deve aguardar uma comunicação verificável da organização e conferir o flyer original antes de sair.",
+        "official_url": "https://jb-rider.com.br/evento/20260906-peaky-blinders-mg-terezinha-pe",
+        "verification_status": "data_cidade_e_nome_confirmados_em_flyer_especifico; sem_segunda_fonte_independente; servico_incompleto",
+        "last_updated": "2026-08-23T00:30:00-04:00",
+        "time_label": "6 de setembro de 2026; horário não informado",
+        "venue": "Local ainda não informado em fonte pública verificável",
+        "street_address": "Endereço ainda não informado em fonte pública verificável",
+        "full_address": "Terezinha - PE; local detalhado pendente de confirmação",
+        "status_basis": "A data específica de 6 de setembro de 2026 é futura na checagem e não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-23T00:30:00-04:00",
+        "organizer": "Peaky Blinders MG, conforme o flyer específico",
+        "contact": "Contato da edição não localizado em fonte pública verificável",
+        "source_checked_at": "2026-08-23T00:30:00-04:00",
+        "admission_status": "Não informado para a edição de 2026",
+        "parking": "Não informado para a edição de 2026",
+        "attractions": []
+      },
+      "additional_sources": [
+        {
+          "url": "https://jb-rider.com.br/evento/20260906-peaky-blinders-mg-terezinha-pe",
+          "label": "JB Rider — Peaky Blinders MG em Terezinha",
+          "type": "agenda_especifica_da_edicao",
+          "supports": "Confirma o registro do evento para Terezinha/PE em 6 de setembro de 2026; não fornece serviço detalhado verificável."
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260906___Peaky%20Blinders%20MG_Terezinha_PE.jpg",
+          "label": "Flyer arquivado — Peaky Blinders MG",
+          "type": "flyer_especifico_da_edicao",
+          "supports": "É a peça visual específica usada para confirmar nome, município e data; os demais campos não ficaram legíveis ou não foram publicados."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Peaky Blinders Moto Grupo\" Pernambuco",
+          "\"Peaky Blinders MG\" motociclistas Terezinha PE",
+          "\"Peaky Blinders\" Terezinha 6 setembro 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "terezinha.pe.gov.br",
+          "mototour.com.br"
+        ],
+        "result": "edicao_localizada_apenas_em_pagina_e_flyer_do_mesmo_indice",
+        "uncertainties": [
+          "Não foi localizada segunda fonte independente específica da edição.",
+          "Local, horário, entrada, estacionamento, contato e programação permanecem desconhecidos."
+        ]
+      }
+    },
+    {
+      "slug": "pentecostes-mc-potirendaba-sp-2026-09-05",
+      "updates": {
+        "title": "Encontro Pentecostes MC em Potirendaba — 5 e 6 de setembro de 2026",
+        "short_name": "Pentecostes MC em Potirendaba",
+        "city": "Potirendaba",
+        "status": "agendada",
+        "summary": "O Pentecostes MC aparece em flyer específico para 5 e 6 de setembro de 2026, em Potirendaba/SP, com indicação de atividade gratuita. Não foram localizados local detalhado, horários, contato, estacionamento ou programação desta edição em uma segunda fonte independente.",
+        "body": "## Serviço recuperado\n\nO cadastro e o flyer específicos do JB Rider informam encontro do Pentecostes MC em Potirendaba, nos dias 5 e 6 de setembro de 2026. A arte indica gratuidade, mas não esclarece eventual condição de acesso.\n\n## Contexto verificado\n\nUma reportagem regional do Diário da Região cita o Pentecostes entre grupos de motociclistas atuantes na região de São José do Rio Preto em uma ação solidária. Essa fonte ajuda a confirmar a existência regional do nome, porém não anuncia nem detalha a edição de Potirendaba.\n\n## Lacunas da edição\n\nLocal, endereço, horários, atrações, contato e estacionamento não foram encontrados em fonte pública específica. Esses dados permanecem explicitamente pendentes; informações de outros encontros do grupo não foram transportadas para esta página.",
+        "official_url": "https://jb-rider.com.br/evento/20260905-2-pentecostes-mc-potirendaba-sp",
+        "verification_status": "datas_cidade_e_indicacao_de_gratuidade_em_flyer_especifico; identidade_regional_contextual; servico_incompleto",
+        "last_updated": "2026-08-23T00:30:00-04:00",
+        "time_label": "5 e 6 de setembro de 2026; horários não informados",
+        "venue": "Local ainda não informado em fonte pública específica",
+        "street_address": "Endereço ainda não informado em fonte pública específica",
+        "full_address": "Potirendaba - SP; local detalhado pendente de confirmação",
+        "status_basis": "As datas de 5 e 6 de setembro de 2026 são futuras na checagem e não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-23T00:30:00-04:00",
+        "organizer": "Pentecostes MC, conforme o flyer específico",
+        "contact": "Contato da edição não localizado",
+        "source_checked_at": "2026-08-23T00:30:00-04:00",
+        "admission_status": "Gratuidade indicada no flyer; condições de acesso não detalhadas",
+        "parking": "Não informado para a edição de 2026",
+        "attractions": []
+      },
+      "additional_sources": [
+        {
+          "url": "https://jb-rider.com.br/evento/20260905-2-pentecostes-mc-potirendaba-sp",
+          "label": "JB Rider — Pentecostes MC em Potirendaba",
+          "type": "agenda_especifica_da_edicao",
+          "supports": "Confirma Potirendaba e o período de 5 a 6 de setembro de 2026."
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260905_2__Pentecostes%20MC_Potirendaba_SP.jpeg",
+          "label": "Flyer arquivado — Pentecostes MC",
+          "type": "flyer_especifico_da_edicao",
+          "supports": "Sustenta nome, datas, município e a indicação de gratuidade; não detalha de modo verificável o restante do serviço."
+        },
+        {
+          "url": "https://www.diariodaregiao.com.br/artigo/motociclistas-de-rio-preto-arrecadam-lacres-e-tampinhas-para-o-hospital-do-amor-em-barretos.1772799637549",
+          "label": "Diário da Região — ação solidária de motociclistas de Rio Preto",
+          "type": "imprensa_regional_contextual",
+          "supports": "Cita o Pentecostes entre grupos de motociclistas da região; não confirma nem fornece serviço para o encontro de Potirendaba de 2026."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Pentecostes MC\" Potirendaba 2026",
+          "\"Pentecostes Moto Clube\" Potirendaba",
+          "site:potirendaba.sp.gov.br Pentecostes motociclistas setembro 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "diariodaregiao.com.br",
+          "potirendaba.sp.gov.br"
+        ],
+        "result": "edicao_confirmada_por_flyer; identidade_regional_encontrada; nenhum_servico_independente_da_edicao",
+        "uncertainties": [
+          "A reportagem regional não é anúncio desta edição.",
+          "Local, horários, programação, contato, estacionamento e condições da gratuidade continuam pendentes."
+        ]
+      }
+    },
+    {
+      "slug": "pepe-legal-mc-mooca-sao-paulo-sp-2026-08-15",
+      "updates": {
+        "title": "Pepe Legal MC na Mooca — 15 de agosto de 2026",
+        "short_name": "Pepe Legal MC na Mooca",
+        "city": "São Paulo",
+        "status": "concluida",
+        "summary": "Um flyer específico marcou uma atividade do Pepe Legal MC na Mooca, em São Paulo, para 15 de agosto de 2026. O site oficial confirma a história do clube no bairro e informa que o moto clube foi consagrado em 15 de agosto de 2006, mas não publica serviço desta edição; o estado concluído decorre apenas do calendário.",
+        "body": "## Registro de 2026\n\nO flyer arquivado associa o Pepe Legal MC à Mooca em 15 de agosto de 2026. Não foram recuperados na peça local, horário, acesso, estacionamento, contato ou programação legíveis.\n\n## O que o site oficial comprova\n\nA página histórica do Pepe Legal informa que a Escuderia Pepe Legal nasceu em 1966, na Mooca, e que o Moto Clube Pepe Legal foi consagrado em 15 de agosto de 2006. Essa coincidência de data oferece contexto, mas não autoriza chamar a atividade de aniversário nem atribuir programação sem um anúncio específico. O endereço da sede publicado pelo clube também não foi tratado como local do evento.\n\n## Situação e limites\n\nComo 15 de agosto já terminou, o cadastro foi atualizado para concluído por calendário. Não foi encontrado balanço posterior que prove realização. O contato oficial é feito pelo site; a própria página de contato esclarece que assuntos de bar, bandas e programação não são administrados por aquele formulário.",
+        "official_url": "https://www.pepelegalmotoclube.com/",
+        "verification_status": "flyer_2026_confirma_data_e_bairro; site_oficial_confirma_historia_na_mooca; servico_e_realizacao_nao_comprovados",
+        "last_updated": "2026-08-23T00:30:00-04:00",
+        "time_label": "15 de agosto de 2026; horário não informado",
+        "venue": "Local da atividade não confirmado; a sede oficial não foi presumida como local",
+        "street_address": "Endereço do evento não informado",
+        "full_address": "Mooca, São Paulo - SP; endereço da atividade pendente",
+        "status_basis": "A data anunciada, 15 de agosto de 2026, já terminou; não foi localizado registro posterior que comprove a realização.",
+        "status_checked_at": "2026-08-23T00:30:00-04:00",
+        "organizer": "Pepe Legal Moto Clube",
+        "contact": "Formulário e canais oficiais em pepelegalmotoclube.com; o clube informa que o formulário não trata de bar, bandas ou programação",
+        "source_checked_at": "2026-08-23T00:30:00-04:00",
+        "admission_status": "Não informado para a atividade de 2026",
+        "parking": "Não informado para a atividade de 2026",
+        "attractions": []
+      },
+      "additional_sources": [
+        {
+          "url": "https://jb-rider.com.br/eventos/20260815___Pepe%20Legal%20MC_Mooca%20-%20Sao%20Paulo_SP.jpeg",
+          "label": "Flyer arquivado — Pepe Legal MC na Mooca",
+          "type": "flyer_especifico_da_edicao",
+          "supports": "Confirma o nome, a referência à Mooca e a data de 15 de agosto de 2026; não oferece serviço detalhado legível."
+        },
+        {
+          "url": "https://www.pepelegalmotoclube.com/curiosidade",
+          "label": "Pepe Legal Moto Clube — história oficial",
+          "type": "site_oficial_do_motoclube",
+          "supports": "Confirma a origem na Mooca e a consagração do moto clube em 15 de agosto de 2006; não anuncia a atividade de 2026."
+        },
+        {
+          "url": "https://www.pepelegalmotoclube.com/contato",
+          "label": "Pepe Legal Moto Clube — contato oficial",
+          "type": "contato_oficial_contextual",
+          "supports": "Oferece formulário e canais institucionais e delimita que o contato não administra bar, bandas ou programação; não comprova serviço da edição."
+        }
+      ],
+      "research": {
+        "queries": [
+          "site:pepelegalmotoclube.com 15 agosto 2026 evento",
+          "\"Pepe Legal MC\" Mooca 2026",
+          "\"Pepe Legal Moto Clube\" \"15 de agosto\""
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "pepelegalmotoclube.com",
+          "mototour.com.br"
+        ],
+        "result": "data_e_bairro_no_flyer; contexto_historico_oficial; sem_servico_ou_balanco_da_edicao",
+        "uncertainties": [
+          "Não foi possível afirmar se a atividade celebrava aniversário do clube.",
+          "Sede, horário, acesso, estacionamento e programação não foram confirmados para 2026."
+        ]
+      }
+    },
+    {
+      "slug": "perdidos-do-asfalto-mc-matozinhos-mg-2026-08-14",
+      "updates": {
+        "title": "5º Encontro de Motociclistas de Matozinhos",
+        "short_name": "5º Encontro de Motociclistas de Matozinhos",
+        "city": "Matozinhos",
+        "status": "concluida",
+        "summary": "O 5º Encontro de Motociclistas de Matozinhos ocorreu em 14 e 15 de agosto de 2026, no entorno da Praça do Rosário, com entrada gratuita, shows de rock, praça de alimentação e exposição de motos. A Prefeitura publicou chamamento para barracas e, depois das datas, registrou que o encontro movimentou o fim de semana.",
+        "body": "## Edição confirmada\n\nA Prefeitura de Matozinhos publicou o resultado do chamamento para barracas do 5º Encontro de Motos e confirmou 14 e 15 de agosto no entorno da Praça do Rosário. Uma matéria regional específica informa entrada gratuita e situa o encontro na Rua Visconde do Rio das Velhas, no Centro, com realização atribuída ao grupo Perdidos no Asfalto.\n\n## Programação divulgada\n\nNa sexta-feira, 14 de agosto, a agenda previa Drenna às 20h e Gordini às 22h. No sábado, 15, foram anunciados Bocas às 12h, M. Provisória às 14h, Rock Noisy às 16h, Shy of the Rock às 18h, U2 G.Home às 20h e Nah às 22h. A cobertura também descreveu praça de alimentação e exposição de motocicletas.\n\n## Verificação posterior e divergência\n\nO índice oficial de notícias passou a exibir, em 17 de agosto, a publicação “5º Encontro de Motociclistas agita fim de semana em Matozinhos”, evidência posterior da realização. A Fetimoto mostra 14 a 16 de agosto no cabeçalho, mas o texto da mesma página e a fonte municipal primária trabalham com 14 e 15; a página adota o período oficial. Estacionamento e contato direto não foram publicados.",
+        "official_url": "https://www.matozinhos.mg.gov.br/noticias/cultura-e-turismo/prefeitura-informa-sobre-resultado-do-chamamento-publico-para-barracas-no-5-encontro-de-motos",
+        "verification_status": "datas_local_e_estrutura_confirmados_por_prefeitura_e_imprensa; realizacao_confirmada_por_registro_oficial_posterior; divergencia_secundaria_documentada",
+        "last_updated": "2026-08-23T00:30:00-04:00",
+        "time_label": "14 de agosto: 20h e 22h; 15 de agosto: atrações das 12h às 22h",
+        "venue": "Entorno da Praça do Rosário",
+        "street_address": "Rua Visconde do Rio das Velhas, Centro",
+        "full_address": "Entorno da Praça do Rosário, Rua Visconde do Rio das Velhas, Centro, Matozinhos - MG",
+        "status_basis": "As datas terminaram e o portal da Prefeitura publicou registro posterior de que o encontro movimentou o fim de semana.",
+        "status_checked_at": "2026-08-23T00:30:00-04:00",
+        "organizer": "Perdidos no Asfalto, segundo a divulgação regional; Prefeitura de Matozinhos responsável pelo chamamento público das barracas",
+        "contact": "Contato direto da edição não publicado nas fontes específicas consultadas",
+        "source_checked_at": "2026-08-23T00:30:00-04:00",
+        "admission_status": "Entrada gratuita, segundo a matéria regional específica",
+        "parking": "Não informado nas fontes específicas consultadas",
+        "attractions": [
+          "Drenna",
+          "Gordini",
+          "Bocas",
+          "M. Provisória",
+          "Rock Noisy",
+          "Shy of the Rock",
+          "U2 G.Home",
+          "Nah",
+          "Praça de alimentação",
+          "Exposição de motocicletas"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://www.matozinhos.mg.gov.br/noticias/cultura-e-turismo/prefeitura-informa-sobre-resultado-do-chamamento-publico-para-barracas-no-5-encontro-de-motos",
+          "label": "Prefeitura de Matozinhos — resultado do chamamento do 5º Encontro",
+          "type": "fonte_municipal_especifica_da_edicao",
+          "supports": "Confirma a quinta edição, 14 e 15 de agosto de 2026 e ocupação do entorno da Praça do Rosário."
+        },
+        {
+          "url": "https://setelagoas.com.br/agenda/festas-e-shows/282719-matozinhos-recebe-a-5a-edicao-do-encontro-de-motociclistas-neste-fim-de-semana/",
+          "label": "SeteLagoas.com.br — 5º Encontro de Motociclistas",
+          "type": "imprensa_regional_especifica_da_edicao",
+          "supports": "Confirma gratuidade, endereço, programação por horário, grupo responsável, praça de alimentação e exposição de motos."
+        },
+        {
+          "url": "https://matozinhos.mg.gov.br/noticias/cultura-e-turismo",
+          "label": "Prefeitura de Matozinhos — notícias de Cultura e Turismo",
+          "type": "indice_oficial_pos_evento",
+          "supports": "Registra em 17 de agosto a notícia posterior sobre o encontro ter movimentado o fim de semana, sustentando a realização."
+        },
+        {
+          "url": "https://www.fetimoto.com.br/eventos/5-encontro-de-motociclistas-de-matozinhos-7265",
+          "label": "Fetimoto — 5º Encontro de Motociclistas de Matozinhos",
+          "type": "agenda_motociclistica_especifica",
+          "supports": "Corrobora a edição e a programação, mas traz cabeçalho de 14 a 16 em conflito com o texto interno e com a Prefeitura; a divergência foi documentada."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"5º Encontro de Motociclistas\" Matozinhos 2026",
+          "site:matozinhos.mg.gov.br encontro motos agosto 2026",
+          "Perdidos no Asfalto Matozinhos 14 15 agosto 2026"
+        ],
+        "domains_checked": [
+          "matozinhos.mg.gov.br",
+          "setelagoas.com.br",
+          "fetimoto.com.br",
+          "jb-rider.com.br"
+        ],
+        "result": "servico_completo_e_realizacao_confirmados; conflito_secundario_de_data_resolvido_pela_fonte_municipal",
+        "uncertainties": [
+          "Estacionamento e contato direto da organização não foram informados.",
+          "A Fetimoto estende o cabeçalho até 16 de agosto, mas a fonte municipal e o texto da própria agenda informam 14 e 15."
+        ]
+      }
+    },
+    {
+      "slug": "motofest-petrolandia-pe-2026-09-25",
+      "updates": {
+        "title": "2º Moto Fest Petrolândia 2026",
+        "short_name": "Moto Fest Petrolândia",
+        "city": "Petrolândia",
+        "status": "agendada",
+        "summary": "O 2º Moto Fest Petrolândia está anunciado para 25 e 26 de setembro de 2026, na Orla Fluvial. O calendário oficial do Biquíni confirma o show de 26 de setembro; a programação mais recente também lista Vapor Barato, Estrada Norte e Geração Replay, embora uma publicação anterior cite Os Brasas no lugar desta última atração.",
+        "body": "## Datas e local\n\nFontes locais específicas anunciam a segunda edição para sexta-feira e sábado, 25 e 26 de setembro, na Orla Fluvial de Petrolândia. O calendário oficial da banda Biquíni confirma a apresentação no dia 26 e publica como referência a Rua Engenheiro Brandão Cavalcante, 435, Quadra 02.\n\n## Programação e estrutura\n\nA grade mais recente consultada informa Vapor Barato e Estrada Norte na sexta, além de Biquíni e Geração Replay no sábado. Uma matéria anterior trazia Os Brasas no lugar de Geração Replay; como a mudança não foi explicada, o público deve conferir a grade final. A divulgação descreve ainda exposição de veículos, área de camping, expositores, food trucks e proposta familiar.\n\n## O que falta confirmar\n\nHorários de cada show, regra de entrada, capacidade e estacionamento não foram detalhados nas fontes recuperadas. A data do Biquíni e o local estão confirmados em canal oficial do artista, mas as demais atrações dependem da divulgação local mais recente.",
+        "official_url": "https://biquini.com.br/calendario-de-shows/",
+        "verification_status": "datas_local_e_headliner_confirmados; programacao_local_com_alteracao_nao_explicada; acesso_e_horarios_pendentes",
+        "last_updated": "2026-08-23T00:30:00-04:00",
+        "time_label": "25 e 26 de setembro de 2026; horários dos shows ainda não publicados",
+        "venue": "Orla Fluvial de Petrolândia",
+        "street_address": "Rua Engenheiro Brandão Cavalcante, 435, Quadra 02",
+        "full_address": "Orla Fluvial, Rua Engenheiro Brandão Cavalcante, 435, Quadra 02, Petrolândia - PE, CEP 56460-000",
+        "status_basis": "As datas de 25 e 26 de setembro de 2026 são futuras e continuam publicadas no calendário oficial do Biquíni; não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-23T00:30:00-04:00",
+        "organizer": "Responsável nominal não identificado nas fontes específicas consultadas",
+        "contact": "Contato direto da organização não localizado",
+        "source_checked_at": "2026-08-23T00:30:00-04:00",
+        "admission_status": "Não informado para a edição de 2026",
+        "parking": "Não informado para a edição de 2026",
+        "attractions": [
+          "Biquíni",
+          "Vapor Barato",
+          "Estrada Norte",
+          "Geração Replay na programação mais recente",
+          "Exposição de veículos",
+          "Área de camping",
+          "Expositores e food trucks"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://biquini.com.br/calendario-de-shows/",
+          "label": "Biquíni — calendário oficial de shows",
+          "type": "calendario_oficial_do_artista",
+          "supports": "Confirma Biquíni no 2º Moto Fest Petrolândia em 26 de setembro de 2026, na Orla, e publica a referência de endereço."
+        },
+        {
+          "url": "https://petrolandianoticias.com.br/moto-fest-petrolandia-2026-anuncia-atracoes-e-promete-movimentar-a-orla-fluvial-em-setembro/",
+          "label": "Petrolândia Notícias — anúncio do Moto Fest 2026",
+          "type": "imprensa_local_especifica_da_edicao",
+          "supports": "Confirma datas, Orla Fluvial, Biquíni, Vapor Barato, Estrada Norte e estrutura; cita Os Brasas em uma versão anterior da grade."
+        },
+        {
+          "url": "https://www.chicosabetudo.com.br/cultura/petrolandia-veja-a-programacao-completa-da-festa-do-padroeiro-0826",
+          "label": "Chico Sabe Tudo — programação cultural de Petrolândia",
+          "type": "imprensa_local_com_programacao_atualizada",
+          "supports": "Apresenta a grade mais recente do Moto Fest com Vapor Barato, Estrada Norte, Biquíni e Geração Replay."
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260925_2__MOTOFEST_Petrolandia_PE.jpg",
+          "label": "Flyer arquivado — Moto Fest Petrolândia",
+          "type": "flyer_especifico_da_edicao",
+          "supports": "Corrobora a identificação da edição e o período de 25 a 26 de setembro."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Moto Fest Petrolândia 2026\"",
+          "\"2º Moto Fest\" Petrolândia Biquíni",
+          "site:biquini.com.br Petrolândia 26 setembro 2026"
+        ],
+        "domains_checked": [
+          "biquini.com.br",
+          "petrolandianoticias.com.br",
+          "chicosabetudo.com.br",
+          "jb-rider.com.br"
+        ],
+        "result": "evento_e_headliner_confirmados; versoes_divergentes_de_uma_atracao_documentadas",
+        "uncertainties": [
+          "Os Brasas aparecem na notícia anterior, enquanto Geração Replay consta na programação local mais recente.",
+          "Horários, entrada, estacionamento, organizador nominal e contato permanecem pendentes."
+        ]
+      }
+    },
+    {
+      "slug": "motofest-pojuca-ba-2026-08-21",
+      "updates": {
+        "title": "V Pojuca Motofest — Aves de Rapina",
+        "short_name": "Pojuca Motofest 2026",
+        "city": "Pojuca",
+        "status": "agendada",
+        "summary": "O V Pojuca Motofest acontece de 21 a 23 de agosto de 2026, na Praça ACM, com programação oficial publicada pela Prefeitura. A grade inclui Gian Apolo, Último de Nós, Hátria, Diana Marinho e Adão Negro; na sexta, a fonte municipal atribui 23h simultaneamente a DJ Dymer e Post Memories, conflito mantido como alerta.",
+        "body": "## Evento em andamento\n\nA Prefeitura de Pojuca confirma a quinta edição do Pojuca Motofest, ligada ao Moto Clube Aves de Rapina, de sexta-feira a domingo, 21 a 23 de agosto, na Praça ACM. Na data desta revisão, 23 de agosto, o período oficial ainda não havia terminado; por isso o estado permanece agendado.\n\n## Programação oficial\n\nNa sexta, a publicação lista DJ Dymer às 18h, Gian Apolo às 18h30, DJ Dymer às 20h30, Último de Nós às 21h e, às 23h, tanto DJ Dymer quanto Post Memories. No sábado, aparecem som mecânico às 11h, Hátria às 18h, Diana Marinho às 20h, Adão Negro às 22h e DJ Dymer à meia-noite. A fonte confirma que o evento segue no domingo, mas não apresenta uma grade dominical.\n\n## Organização e lacunas\n\nUma lei municipal de 2023 instituiu em agosto o Dia Municipal do Moto Clube Aves de Rapina, o que confirma o vínculo histórico do grupo com o calendário local, sem substituir o anúncio da edição. Entrada, estacionamento, contato e eventual programação de domingo não foram detalhados na publicação de 2026.",
+        "official_url": "https://www.pojuca.ba.gov.br/noticia?noticia=2758",
+        "verification_status": "edicao_datas_local_e_programacao_confirmados_pela_prefeitura; evento_dentro_da_janela_oficial; conflito_de_horario_documentado",
+        "last_updated": "2026-08-23T00:30:00-04:00",
+        "time_label": "21 a 23 de agosto de 2026; sexta a partir das 18h e sábado a partir das 11h; programação de domingo não publicada",
+        "venue": "Praça ACM",
+        "street_address": "Endereço de rua não detalhado na publicação oficial",
+        "full_address": "Praça ACM, Pojuca - BA",
+        "status_basis": "A checagem ocorreu em 23 de agosto, ainda dentro do período oficial de 21 a 23 de agosto de 2026; não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-23T00:30:00-04:00",
+        "organizer": "Moto Clube Aves de Rapina, com divulgação oficial da Prefeitura de Pojuca",
+        "contact": "Contato direto da edição não informado na publicação municipal",
+        "source_checked_at": "2026-08-23T00:30:00-04:00",
+        "admission_status": "Não informado na publicação oficial de 2026",
+        "parking": "Não informado na publicação oficial de 2026",
+        "attractions": [
+          "Gian Apolo",
+          "Último de Nós",
+          "Post Memories",
+          "Hátria",
+          "Diana Marinho",
+          "Adão Negro",
+          "DJ Dymer"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://www.pojuca.ba.gov.br/noticia?noticia=2758",
+          "label": "Prefeitura de Pojuca — programação do V Pojuca Motofest",
+          "type": "fonte_municipal_especifica_da_edicao",
+          "supports": "Confirma quinta edição, 21 a 23 de agosto, Praça ACM e a grade publicada para sexta e sábado."
+        },
+        {
+          "url": "https://www.pojuca.ba.gov.br/pdf/publicacoes/60578268161.pdf",
+          "label": "Prefeitura de Pojuca — lei do Dia Municipal do Moto Clube Aves de Rapina",
+          "type": "documento_oficial_contextual",
+          "supports": "Confirma a institucionalização municipal, desde 2023, de uma data anual do Moto Clube Aves de Rapina em agosto; não acrescenta serviço à edição de 2026."
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260821_3__MOTOFEST_Pojuca_BA.jpg",
+          "label": "Flyer arquivado — Pojuca Motofest",
+          "type": "flyer_especifico_da_edicao",
+          "supports": "Corrobora o período de 21 a 23 de agosto e a identificação da edição."
+        }
+      ],
+      "research": {
+        "queries": [
+          "site:pojuca.ba.gov.br Motofest 2026",
+          "\"V Pojuca Motofest\"",
+          "Aves de Rapina Pojuca 21 23 agosto 2026"
+        ],
+        "domains_checked": [
+          "pojuca.ba.gov.br",
+          "jb-rider.com.br",
+          "mototour.com.br"
+        ],
+        "result": "servico_e_programacao_confirmados_em_fonte_municipal_primaria; evento_em_curso_na_data_da_revisao",
+        "uncertainties": [
+          "A publicação oficial associa dois itens ao mesmo horário de 23h na sexta-feira.",
+          "Não foram publicados grade de domingo, entrada, estacionamento ou contato direto."
+        ]
+      }
+    },
+    {
+      "slug": "motofest-poco-fundo-mg-2026-09-05",
+      "updates": {
+        "title": "Poço Fundo Moto Fest 2026",
+        "short_name": "Poço Fundo Moto Fest",
+        "city": "Poço Fundo",
+        "status": "agendada",
+        "summary": "O Poço Fundo Moto Fest está anunciado para 5 e 6 de setembro de 2026, na Praça da Avenida José Evilásio Assi, com dez bandas, wheeling, praça de alimentação, expositores e camping com banho quente e café da manhã. As fontes divergem no encerramento e um cabeçalho estende o período até dia 7; essas diferenças exigem confirmação final.",
+        "body": "## Serviço da edição\n\nA página específica da Fetimoto atribui a realização à UP MCs — União Pocofundense de Motoclubes — e situa o encontro na Praça da Avenida José Evilásio Assi. O texto interno informa 5 e 6 de setembro, dez bandas, apresentação de wheeling, praça de alimentação, expositores de motocicletas e peças e camping com chuveiro quente e café da manhã.\n\n## Ação solidária\n\nA mesma divulgação vincula a edição a uma campanha para a AUPI, associação de inclusão. São mencionadas doações por QR Code, brinquedos terapêuticos, roupas para bazar, alimentos e produtos de limpeza; modalidades e ponto de entrega devem ser confirmados na própria peça.\n\n## Divergências verificadas\n\nO cabeçalho da Fetimoto exibe 5 a 7 de setembro, embora o texto descreva 5 e 6. O RiderMaps informa início às 10h do dia 5 e fim às 22h do dia 6, enquanto a agenda da Fetimoto menciona funcionamento até meia-noite. A página preserva o período de 5 e 6, repetido no texto e no flyer, e alerta para a diferença de horário. Entrada e estacionamento não foram esclarecidos.",
+        "official_url": "https://www.fetimoto.com.br/eventos/poco-fundo-moto-fest-8954",
+        "verification_status": "local_estrutura_organizador_e_programacao_confirmados; divergencias_de_data_final_e_horario_documentadas",
+        "last_updated": "2026-08-23T00:30:00-04:00",
+        "time_label": "5 de setembro a partir das 10h; término anunciado para 6 de setembro, às 22h no RiderMaps e à meia-noite na Fetimoto",
+        "venue": "Praça da Avenida José Evilásio Assi",
+        "street_address": "Avenida José Evilásio Assi; número não informado",
+        "full_address": "Praça da Avenida José Evilásio Assi, Poço Fundo - MG",
+        "status_basis": "O período anunciado em setembro de 2026 é futuro e não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-23T00:30:00-04:00",
+        "organizer": "UP MCs — União Pocofundense de Motoclubes",
+        "contact": "(35) 99874-1147, conforme o flyer; confirmar disponibilidade",
+        "source_checked_at": "2026-08-23T00:30:00-04:00",
+        "admission_status": "Não informado de forma verificável nas fontes consultadas",
+        "parking": "Não informado para a edição de 2026",
+        "attractions": [
+          "Dez bandas anunciadas",
+          "Apresentação de wheeling",
+          "Praça de alimentação",
+          "Expositores de motos e peças",
+          "Camping com chuveiro quente e café da manhã",
+          "Campanha solidária para a AUPI"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://www.fetimoto.com.br/eventos/poco-fundo-moto-fest-8954",
+          "label": "Fetimoto — Poço Fundo Moto Fest 2026",
+          "type": "agenda_motociclistica_especifica_da_edicao",
+          "supports": "Confirma praça, organização, atrações, camping, campanha solidária e horários; contém divergência entre cabeçalho e texto sobre o dia final."
+        },
+        {
+          "url": "https://ridermaps.app/es/events/3547a272-d105-4797-9a9f-05da3452f6b1",
+          "label": "RiderMaps — Poço Fundo Moto Fest",
+          "type": "agenda_especifica_da_edicao",
+          "supports": "Corrobora início em 5 de setembro às 10h e informa encerramento em 6 de setembro às 22h, horário diferente do divulgado pela Fetimoto."
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260905_2__MOTOFEST_Poco%20Fundo_MG.jpeg",
+          "label": "Flyer arquivado — Poço Fundo Moto Fest",
+          "type": "flyer_especifico_da_edicao",
+          "supports": "Corrobora o telefone, o período principal de 5 a 6 de setembro, camping, shows e wheeling."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Poço Fundo Moto Fest\" 2026",
+          "\"União Pocofundense de Motoclubes\" setembro 2026",
+          "\"Avenida José Evilásio Assi\" moto fest"
+        ],
+        "domains_checked": [
+          "fetimoto.com.br",
+          "ridermaps.app",
+          "jb-rider.com.br",
+          "pocofundo.mg.gov.br"
+        ],
+        "result": "servico_amplo_recuperado; divergencias_de_fim_e_horario_expostas",
+        "uncertainties": [
+          "O cabeçalho da Fetimoto mostra 5 a 7, mas seu texto e as demais peças trabalham com 5 e 6.",
+          "O encerramento aparece às 22h no RiderMaps e à meia-noite na Fetimoto.",
+          "Entrada e estacionamento não foram informados."
+        ]
+      }
+    },
+    {
+      "slug": "professores-mc-vila-velhas-es-2026-10-17",
+      "updates": {
+        "title": "Encontro Professores MC em Vila Velha — 17 de outubro de 2026",
+        "short_name": "Professores MC em Vila Velha",
+        "city": "Vila Velha",
+        "status": "agendada",
+        "summary": "Um vídeo-flyer anuncia atividade do Professores MC em Vila Velha/ES para 17 de outubro de 2026. Um diretório nacional de motoclubes corrobora o nome do grupo e a cidade no singular, permitindo corrigir a grafia “Vila Velhas”; local, horário, acesso, contato e programação continuam sem confirmação pública específica.",
+        "body": "## Registro disponível\n\nA edição foi encontrada em um vídeo-flyer arquivado pelo JB Rider, com a data de 17 de outubro de 2026 e a referência “Vila Velhas”. Um diretório de motoclubes lista Professores Motoclube em Vila Velha, Espírito Santo, o que sustenta a normalização do nome do município para sua forma oficial no singular.\n\n## Limite da checagem\n\nO diretório confirma identidade e cidade do grupo, mas não anuncia este encontro. Não foram localizados página do organizador, publicação municipal ou notícia local com local, endereço, horário, entrada, estacionamento, atrações ou contato da edição.\n\n## Uso responsável\n\nA data e a cidade permanecem publicadas porque constam da peça específica; nenhuma informação de outros eventos do Professores MC foi transplantada para preencher as lacunas. O público deve confirmar o serviço antes de viajar.",
+        "official_url": "https://jb-rider.com.br/eventos/20261017___Professores%20MC_Vila%20Velhas_ES.mp4",
+        "verification_status": "data_em_video_flyer; cidade_normalizada_por_diretorio_de_motoclubes; sem_servico_independente_da_edicao",
+        "last_updated": "2026-08-23T00:30:00-04:00",
+        "time_label": "17 de outubro de 2026; horário não informado",
+        "venue": "Local ainda não informado em fonte pública específica",
+        "street_address": "Endereço ainda não informado em fonte pública específica",
+        "full_address": "Vila Velha - ES; local detalhado pendente",
+        "status_basis": "A data de 17 de outubro de 2026 é futura e não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-23T00:30:00-04:00",
+        "organizer": "Professores MC",
+        "contact": "Contato da edição não localizado",
+        "source_checked_at": "2026-08-23T00:30:00-04:00",
+        "admission_status": "Não informado para a edição de 2026",
+        "parking": "Não informado para a edição de 2026",
+        "attractions": []
+      },
+      "additional_sources": [
+        {
+          "url": "https://jb-rider.com.br/eventos/20261017___Professores%20MC_Vila%20Velhas_ES.mp4",
+          "label": "Vídeo-flyer arquivado — Professores MC",
+          "type": "video_flyer_especifico_da_edicao",
+          "supports": "Sustenta nome, data e referência geográfica da atividade; não oferece serviço completo verificável."
+        },
+        {
+          "url": "https://motociclismodobrasil.com.br/motoclubes/Motoclubes_es.html",
+          "label": "Motociclismo do Brasil — motoclubes do Espírito Santo",
+          "type": "diretorio_contextual_de_motoclubes",
+          "supports": "Lista Professores Motoclube em Vila Velha e sustenta a grafia correta da cidade; não confirma a edição de outubro de 2026."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Professores MC\" \"Vila Velha\" 2026",
+          "\"Professores Motoclube\" Espírito Santo",
+          "site:vilavelha.es.gov.br Professores motoclube outubro 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "motociclismodobrasil.com.br",
+          "vilavelha.es.gov.br"
+        ],
+        "result": "data_em_video_flyer_e_identidade_local_contextual; servico_da_edicao_nao_localizado",
+        "uncertainties": [
+          "A fonte contextual não anuncia o encontro de 17 de outubro.",
+          "Local, horário, acesso, estacionamento, programação e contato não foram confirmados."
+        ]
+      }
+    },
+    {
+      "slug": "rabugentos-mc-rio-de-janeiro-rj-2026-11-08",
+      "updates": {
+        "title": "Encontro Rabugentos MC no Rio de Janeiro — 8 de novembro de 2026",
+        "short_name": "Rabugentos MC no Rio de Janeiro",
+        "city": "Rio de Janeiro",
+        "status": "agendada",
+        "summary": "O Rabugentos MC anuncia encontro no Rio de Janeiro em 8 de novembro de 2026, a partir das 12h, com rock e quatro telefones de contato no flyer. Uma listagem federativa corrobora a existência do Rabugentos MC no estado, mas local, endereço, entrada e estacionamento desta edição ainda não foram publicados de forma verificável.",
+        "body": "## Informações do flyer\n\nA peça específica arquivada para 2026 informa domingo, 8 de novembro, às 12h, no Rio de Janeiro, e associa a atividade ao Rabugentos MC. Também anuncia rock e apresenta quatro números de contato.\n\n## Identidade contextual\n\nA página de emblemas da Federação de Motoclubes mostra “Rabugentos MC RJ”, o que corrobora a identidade do grupo no estado. A listagem não contém anúncio, endereço ou programação para esta edição e foi usada somente como contexto.\n\n## Serviço pendente\n\nNão foi possível confirmar local, endereço, regra de entrada, estacionamento, nomes de bandas ou duração. Os telefones foram transcritos do flyer e devem ser usados para confirmação direta antes do deslocamento.",
+        "official_url": "https://jb-rider.com.br/evento/20261108-rabugentos-mc-rio-de-janeiro-rj",
+        "verification_status": "data_horario_cidade_rock_e_contatos_em_flyer; identidade_estadual_contextual; local_e_acesso_pendentes",
+        "last_updated": "2026-08-23T00:30:00-04:00",
+        "time_label": "8 de novembro de 2026, a partir das 12h",
+        "venue": "Local ainda não informado em fonte pública específica",
+        "street_address": "Endereço ainda não informado em fonte pública específica",
+        "full_address": "Rio de Janeiro - RJ; local detalhado pendente",
+        "status_basis": "A data de 8 de novembro de 2026 é futura e não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-23T00:30:00-04:00",
+        "organizer": "Rabugentos MC",
+        "contact": "(21) 97945-9419; (21) 96958-1364; (21) 97705-9232; (21) 96494-9097, conforme o flyer",
+        "source_checked_at": "2026-08-23T00:30:00-04:00",
+        "admission_status": "Não informado para a edição de 2026",
+        "parking": "Não informado para a edição de 2026",
+        "attractions": [
+          "Rock ao vivo; bandas ainda não identificadas"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://jb-rider.com.br/evento/20261108-rabugentos-mc-rio-de-janeiro-rj",
+          "label": "JB Rider — Rabugentos MC no Rio de Janeiro",
+          "type": "agenda_especifica_da_edicao",
+          "supports": "Confirma a data e vincula o flyer específico à cidade do Rio de Janeiro."
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20261108___Rabugentos%20MC_Rio%20de%20Janeiro_RJ.jpeg",
+          "label": "Flyer arquivado — Rabugentos MC",
+          "type": "flyer_especifico_da_edicao",
+          "supports": "Confirma 12h, rock e os quatro telefones publicados; não informa local detalhado, acesso ou estacionamento."
+        },
+        {
+          "url": "https://fmb.credenciando.com.br/motoclubes_emblemas.php",
+          "label": "Federação de Motoclubes — emblemas de motoclubes",
+          "type": "fonte_federativa_contextual",
+          "supports": "Lista Rabugentos MC RJ e corrobora a identidade estadual; não anuncia a edição de novembro."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Rabugentos MC\" Rio de Janeiro 8 novembro 2026",
+          "\"Rabugentos Moto Clube\" RJ 2026",
+          "\"97945-9419\" motociclistas"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "fmb.credenciando.com.br",
+          "mototour.com.br"
+        ],
+        "result": "servico_parcial_no_flyer_e_identidade_contextual; local_e_regras_ausentes",
+        "uncertainties": [
+          "A fonte federativa não é anúncio da edição.",
+          "Local, endereço, entrada, estacionamento, bandas e duração não foram confirmados."
+        ]
+      }
+    },
+    {
+      "slug": "raca-livre-mg-sao-carlos-sp-2026-09-05",
+      "updates": {
+        "title": "Raça Livre MG em São Carlos — 5 a 7 de setembro de 2026",
+        "short_name": "Raça Livre MG em São Carlos",
+        "city": "São Carlos",
+        "status": "agendada",
+        "summary": "O flyer específico de Raça Livre MG anuncia o encontro em São Carlos, de 5 a 7 de setembro de 2026, com camping, chuveiros, rock, bandas e café da manhã. O material não informa local, endereço, horários, ingresso, organização, contato ou estacionamento, e nenhuma segunda fonte independente da mesma edição foi localizada. Um evento chamado Motorcycles Rock aparece na mesma cidade e período, mas não há fonte que vincule os dois; por isso, nenhum dado dele foi transferido para esta página.",
+        "body": "## O que está confirmado\n\nO flyer específico de Raça Livre MG anuncia a programação em São Carlos entre 5 e 7 de setembro de 2026. O material divulga camping, chuveiros, rock, bandas e café da manhã. Esses são os únicos itens de serviço atribuídos a esta edição porque aparecem diretamente na peça vinculada à página.\n\n## Informações ainda pendentes\n\nO flyer consultado não apresenta o local nem o endereço, os horários de abertura e encerramento, regras de ingresso, nome da organização, contato ou orientação de estacionamento. Também não foi localizada uma segunda fonte independente que confirme ou amplie o serviço da edição Raça Livre MG. Até que o responsável publique esses dados, a página deve ser tratada como uma agenda preliminar e o visitante deve evitar planejar o deslocamento com base em informações de outros eventos.\n\n## Separação editorial\n\nSympla e RocknGo divulgam o Motorcycles Rock em São Carlos no mesmo período, mas suas páginas não citam Raça Livre MG nem demonstram vínculo entre os eventos. Por esse motivo, local, endereço, horários, produtor, ingressos, atrações e demais serviços do Motorcycles Rock foram excluídos desta ficha. A URL e o slug próprios de Raça Livre MG permanecem preservados.",
+        "verification_status": "flyer_especifico_confirmado; segunda_fonte_independente_nao_localizada; dados_de_evento_distinto_nao_utilizados",
+        "last_updated": "2026-08-23T00:30:00-04:00",
+        "time_label": "5 a 7 de setembro de 2026; horários não informados no flyer",
+        "status_basis": "O flyer específico anuncia datas futuras de 5 a 7 de setembro de 2026; não há segunda fonte independente com atualização da edição.",
+        "status_checked_at": "2026-08-23T00:30:00-04:00",
+        "source_checked_at": "2026-08-23T00:30:00-04:00",
+        "attractions": [
+          "Camping",
+          "Chuveiros",
+          "Rock",
+          "Bandas",
+          "Café da manhã"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://jb-rider.com.br/eventos/20260905_3__Raca%20Livre%20MG_Sao%20Carlos_SP.jpeg",
+          "label": "Flyer arquivado — Raça Livre MG em São Carlos",
+          "type": "flyer_especifico_da_pagina",
+          "supports": "Confirma o rótulo Raça Livre MG, São Carlos e 5 a 7 de setembro, além de camping, chuveiros, rock, bandas e café da manhã."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Raça Livre MG\" \"São Carlos\" 2026",
+          "\"Motorcycles Rock 2026\" São Carlos",
+          "\"Sítio Chaparral\" 5 setembro 2026 motocicletas"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "sympla.com.br",
+          "rockngo.com.br",
+          "saocarlos.sp.gov.br"
+        ],
+        "result": "flyer_especifico_confirmado; segunda_fonte_independente_nao_localizada; motorcycles_rock_excluido_por_falta_de_vinculo",
+        "uncertainties": [
+          "Nenhuma segunda fonte independente da edição Raça Livre MG foi localizada.",
+          "Local, endereço, horários, ingresso, organização, contato e estacionamento não aparecem no flyer específico.",
+          "As páginas do Motorcycles Rock não citam Raça Livre MG e não podem ser usadas para completar esta ficha."
+        ],
+        "excluded_sources": [
+          {
+            "url": "https://www.sympla.com.br/evento/motorcycles-rock-2026-sao-carlos-sp/3442709",
+            "label": "Sympla — Motorcycles Rock 2026 em São Carlos",
+            "type": "evento_distinto_sem_vinculo_comprovado",
+            "reason": "A página anuncia o Motorcycles Rock e não cita Raça Livre MG; seus dados de local, endereço, horários, produtor, ingressos e atrações não foram transferidos."
+          },
+          {
+            "url": "https://rockngo.com.br/event/motorcycles-rock-sao-carlos-2026/",
+            "label": "RocknGo — Motorcycles Rock São Carlos 2026",
+            "type": "evento_distinto_sem_vinculo_comprovado",
+            "reason": "A agenda musical descreve o Motorcycles Rock e não demonstra relação com Raça Livre MG; bandas e demais atrações não foram utilizadas nesta ficha."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "rafard-mc-mombuca-sp-2026-10-16",
+      "updates": {
+        "title": "19º Encontro de Motociclistas de Mombuca — Rafard MC",
+        "short_name": "Encontro de Mombuca — Rafard MC",
+        "city": "Mombuca",
+        "status": "cancelada",
+        "summary": "O encontro do Rafard MC em Mombuca, originalmente anunciado para 16 a 18 de outubro de 2026, está marcado como “CANCELADO” na agenda atual do Mototour. A página permanece preservada para registrar a mudança; camping, chuveiros, café da manhã, praça de alimentação, rock e expositores pertencem apenas ao anúncio original e não devem ser tratados como programação ativa.",
+        "body": "## Atualização de situação\n\nA página de impressão da agenda Mototour lista “De 16 à 18 de Outubro | Mombuca/SP | CANCELADO 19º Encontro De Motociclista”. Essa indicação posterior e explícita prevalece sobre o flyer inicial, que continuava disponível com as datas.\n\n## O que havia sido anunciado\n\nA arte vinculada ao Rafard MC anunciava camping, chuveiros, café da manhã, praça de alimentação, rock, bandas e expositores para 16 a 18 de outubro. Esses itens são mantidos somente como memória da divulgação cancelada, sem sugerir que ocorrerão. Local detalhado, entrada, contato e estacionamento não foram recuperados.\n\n## Contexto do grupo\n\nO Mototour mantém uma ficha do Rafard Moto Clube em Rafard/SP. Uma notícia histórica de 2012 registra participação do Rafard MC e da Facção Mombuca em encontro local, mas endereço e programação daquela edição antiga não foram reaproveitados. Não se recomenda deslocamento para as datas canceladas.",
+        "official_url": "https://mototour.com.br/eventos/imprimir",
+        "verification_status": "cancelamento_explicito_em_agenda_motociclistica_atual; flyer_original_preservado_como_historico",
+        "last_updated": "2026-08-23T00:30:00-04:00",
+        "time_label": "Cancelado; a divulgação original indicava 16 a 18 de outubro de 2026",
+        "venue": "Mombuca; local detalhado da divulgação cancelada não identificado",
+        "street_address": "Endereço não informado na divulgação recuperada",
+        "full_address": "Mombuca - SP; evento cancelado e local detalhado não confirmado",
+        "status_basis": "A agenda atual do Mototour marca explicitamente como cancelado o 19º Encontro de Motociclistas de Mombuca de 16 a 18 de outubro.",
+        "status_checked_at": "2026-08-23T00:30:00-04:00",
+        "organizer": "Rafard MC, conforme o flyer original",
+        "contact": "Contato da edição não localizado; evento marcado como cancelado",
+        "source_checked_at": "2026-08-23T00:30:00-04:00",
+        "admission_status": "Não se aplica como serviço ativo; evento cancelado",
+        "parking": "Não informado na divulgação original; evento cancelado",
+        "attractions": [
+          "Camping — somente na divulgação original cancelada",
+          "Chuveiros e café da manhã — somente na divulgação original cancelada",
+          "Praça de alimentação — somente na divulgação original cancelada",
+          "Rock e bandas — somente na divulgação original cancelada",
+          "Expositores — somente na divulgação original cancelada"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://mototour.com.br/eventos/imprimir",
+          "label": "Mototour — agenda de eventos para impressão",
+          "type": "agenda_motociclistica_com_aviso_de_cancelamento",
+          "supports": "Marca explicitamente como cancelado o 19º Encontro de Mombuca, originalmente datado de 16 a 18 de outubro."
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20261016_3__Rafard%20MC_Mombuca_SP.jpg",
+          "label": "Flyer original arquivado — Rafard MC em Mombuca",
+          "type": "flyer_da_divulgacao_cancelada",
+          "supports": "Documenta as datas e a estrutura inicialmente anunciadas; não contradiz o aviso posterior de cancelamento."
+        },
+        {
+          "url": "https://mototour.com.br/motoclubes/pag/233",
+          "label": "Mototour — Rafard Moto Clube",
+          "type": "diretorio_contextual_de_motoclube",
+          "supports": "Confirma a existência do Rafard Moto Clube em Rafard/SP; não acrescenta serviço à edição cancelada."
+        },
+        {
+          "url": "https://www.jornalosemanario.com.br/encontro-de-motos-mombuca/",
+          "label": "O Semanário — encontro de motos em Mombuca em 2012",
+          "type": "imprensa_local_historica",
+          "supports": "Confirma atuação histórica do Rafard MC com a Facção Mombuca; dados de 2012 não foram transferidos para 2026."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"19º Encontro\" Mombuca 2026 cancelado",
+          "\"Rafard MC\" Mombuca outubro 2026",
+          "site:mototour.com.br Mombuca CANCELADO outubro"
+        ],
+        "domains_checked": [
+          "mototour.com.br",
+          "jb-rider.com.br",
+          "jornalosemanario.com.br",
+          "mombuca.sp.gov.br"
+        ],
+        "result": "cancelamento_confirmado; pagina_e_historico_preservados_sem_tratar_programacao_como_ativa",
+        "uncertainties": [
+          "Não foi localizado comunicado próprio do organizador com justificativa.",
+          "Local, contato, entrada e estacionamento do anúncio original não foram confirmados."
+        ]
+      }
+    },
+    {
+      "slug": "rat-bike-salto-grande-sp-2026-09-05",
+      "updates": {
+        "title": "Encontro Rat Bike em Salto Grande — 5 a 7 de setembro de 2026",
+        "short_name": "Rat Bike em Salto Grande",
+        "city": "Salto Grande",
+        "status": "agendada",
+        "summary": "Um vídeo-flyer específico anuncia o Rat Bike em Salto Grande/SP de 5 a 7 de setembro de 2026, com área de camping e os telefones (18) 98158-0884 e (14) 99849-7688. Não foi localizada segunda fonte independente com local, horários, entrada, estacionamento ou programação.",
+        "body": "## Dados recuperados\n\nO vídeo-flyer arquivado e a agenda geral do JB Rider associam o Rat Bike a Salto Grande, São Paulo, entre 5 e 7 de setembro de 2026. A peça indica área de camping e publica dois números de telefone.\n\n## O que não foi confirmado\n\nNão foram encontrados local, endereço, horários, atrações, regra de entrada, condições do camping ou estacionamento em fonte pública independente. As buscas pelos números e pelo nome combinado com a cidade não recuperaram página própria do organizador.\n\n## Confirmação recomendada\n\nOs telefones foram transcritos sem atribuir nome aos responsáveis, pois o vídeo não permitiu verificar essa relação. Antes de viajar ou contar com camping, confirme diretamente datas, infraestrutura e acesso.",
+        "official_url": "https://jb-rider.com.br/eventos/20260905_3__Rat%20Bike_Salto%20Grande_SP.mp4",
+        "verification_status": "datas_cidade_camping_e_telefones_em_video_flyer; sem_segunda_fonte_independente",
+        "last_updated": "2026-08-23T00:30:00-04:00",
+        "time_label": "5 a 7 de setembro de 2026; horários não informados",
+        "venue": "Local ainda não informado em fonte pública específica",
+        "street_address": "Endereço ainda não informado em fonte pública específica",
+        "full_address": "Salto Grande - SP; local detalhado pendente",
+        "status_basis": "O período de 5 a 7 de setembro de 2026 é futuro e não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-23T00:30:00-04:00",
+        "organizer": "Rat Bike, conforme o vídeo-flyer",
+        "contact": "(18) 98158-0884; (14) 99849-7688, conforme o vídeo-flyer",
+        "source_checked_at": "2026-08-23T00:30:00-04:00",
+        "admission_status": "Não informado para a edição de 2026",
+        "parking": "Não informado para a edição de 2026",
+        "attractions": [
+          "Área de camping; condições ainda não detalhadas"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://jb-rider.com.br/eventos/20260905_3__Rat%20Bike_Salto%20Grande_SP.mp4",
+          "label": "Vídeo-flyer arquivado — Rat Bike em Salto Grande",
+          "type": "video_flyer_especifico_da_edicao",
+          "supports": "Confirma datas, cidade, camping e dois telefones; não permite recuperar serviço completo."
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos.php",
+          "label": "JB Rider — agenda geral de eventos",
+          "type": "indice_de_flyers",
+          "supports": "Corrobora a listagem do Rat Bike em Salto Grande de 5 a 7 de setembro; o próprio índice orienta confirmar informações com os organizadores."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Rat Bike\" \"Salto Grande\" 2026",
+          "\"98158-0884\" moto",
+          "\"99849-7688\" motociclistas"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "saltogrande.sp.gov.br",
+          "mototour.com.br"
+        ],
+        "result": "video_flyer_especifico_sem_corroboração_independente",
+        "uncertainties": [
+          "Local, horário, atrações, entrada, estacionamento e condições do camping não foram encontrados.",
+          "Os nomes dos responsáveis pelos telefones não ficaram verificáveis."
+        ]
+      }
+    },
+    {
+      "slug": "resiliencia-mc-fervedouro-mg-2026-11-21",
+      "updates": {
+        "title": "Encontro Resiliência MC em Fervedouro — 21 e 22 de novembro de 2026",
+        "short_name": "Resiliência MC em Fervedouro",
+        "city": "Fervedouro",
+        "status": "agendada",
+        "summary": "O Resiliência MC aparece em flyer específico para 21 e 22 de novembro de 2026, em Fervedouro/MG. Nenhuma segunda fonte independente da edição foi localizada, e local, horários, atrações, entrada, estacionamento e contato permanecem pendentes.",
+        "body": "## Registro da agenda\n\nA página e o flyer específicos do JB Rider anunciam o Resiliência MC em Fervedouro nos dias 21 e 22 de novembro de 2026. A peça permite confirmar nome, município e período, mas não oferece serviço adicional legível.\n\n## Pesquisa sem transferência indevida\n\nBuscas pelo nome do grupo e pela cidade não localizaram anúncio do organizador, Prefeitura ou imprensa local. Resultados referentes a grupos homônimos de outras cidades, especialmente eventos no Rio de Janeiro, foram descartados porque não comprovam esta edição mineira.\n\n## Campos pendentes\n\nLocal, endereço, horários, programação, entrada, estacionamento e contato continuam desconhecidos. A página é mantida com transparência e deve ser atualizada somente quando surgir fonte específica.",
+        "official_url": "https://jb-rider.com.br/evento/20261121-resiliencia-mc-fervedouro-mg",
+        "verification_status": "nome_datas_e_cidade_em_flyer_especifico; sem_segunda_fonte; servico_incompleto",
+        "last_updated": "2026-08-23T00:30:00-04:00",
+        "time_label": "21 e 22 de novembro de 2026; horários não informados",
+        "venue": "Local ainda não informado em fonte pública específica",
+        "street_address": "Endereço ainda não informado em fonte pública específica",
+        "full_address": "Fervedouro - MG; local detalhado pendente",
+        "status_basis": "As datas de 21 e 22 de novembro de 2026 são futuras e não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-23T00:30:00-04:00",
+        "organizer": "Resiliência MC, conforme o flyer específico",
+        "contact": "Contato da edição não localizado",
+        "source_checked_at": "2026-08-23T00:30:00-04:00",
+        "admission_status": "Não informado para a edição de 2026",
+        "parking": "Não informado para a edição de 2026",
+        "attractions": []
+      },
+      "additional_sources": [
+        {
+          "url": "https://jb-rider.com.br/evento/20261121-resiliencia-mc-fervedouro-mg",
+          "label": "JB Rider — Resiliência MC em Fervedouro",
+          "type": "agenda_especifica_da_edicao",
+          "supports": "Confirma o registro em Fervedouro para 21 e 22 de novembro de 2026."
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20261121___Resiliencia%20MC_Fervedouro_MG.jpeg",
+          "label": "Flyer arquivado — Resiliência MC",
+          "type": "flyer_especifico_da_edicao",
+          "supports": "Sustenta nome, datas e município; não contém serviço detalhado verificável."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Resiliência MC\" Fervedouro 2026",
+          "\"Resiliencia Moto Clube\" Fervedouro",
+          "site:fervedouro.mg.gov.br motociclistas novembro 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "fervedouro.mg.gov.br",
+          "mototour.com.br"
+        ],
+        "result": "edicao_localizada_apenas_no_indice_e_flyer_do_mesmo_dominio",
+        "uncertainties": [
+          "Não foi localizada segunda fonte independente específica da edição.",
+          "Resultados de grupos homônimos de outras cidades não foram usados.",
+          "Todo o serviço além de nome, cidade e datas permanece pendente."
+        ]
+      }
+    },
+    {
+      "slug": "rock-chopper-mc-rio-das-ostras-rj-2026-10-17",
+      "updates": {
+        "title": "Encontro Rock Chopper MC em Rio das Ostras — 17 de outubro de 2026",
+        "short_name": "Rock Chopper MC em Rio das Ostras",
+        "city": "Rio das Ostras",
+        "status": "agendada",
+        "summary": "Um flyer específico anuncia atividade do Rock Chopper MC em Rio das Ostras/RJ para 17 de outubro de 2026 e indica rock. Local, horário, bandas, acesso, estacionamento e contato não foram confirmados em segunda fonte; resultados de eventos do grupo em Saquarema e de outros encontros de Rio das Ostras foram descartados.",
+        "body": "## O que a peça confirma\n\nO cadastro específico do JB Rider vincula o Rock Chopper MC a Rio das Ostras no sábado, 17 de outubro de 2026. O flyer anuncia rock, sem nomes de atrações ou horários legíveis.\n\n## Checagem de edição\n\nA pesquisa encontrou referências a outras atividades do Rock Chopper, inclusive em Saquarema, e a encontros motociclísticos diferentes em Rio das Ostras. Nenhum desses resultados informa simultaneamente a cidade e a data desta página, portanto seus endereços e programações não foram reaproveitados.\n\n## Serviço ainda aberto\n\nLocal, endereço, hora de início, bandas, entrada, estacionamento e contato dependem de nova publicação específica. O registro permanece na agenda sem preencher as lacunas por inferência.",
+        "official_url": "https://jb-rider.com.br/evento/20261017-rock-chopper-mc-rio-das-ostras-rj",
+        "verification_status": "data_cidade_e_rock_em_flyer_especifico; sem_corroboração_independente_da_edicao",
+        "last_updated": "2026-08-23T00:30:00-04:00",
+        "time_label": "17 de outubro de 2026; horário não informado",
+        "venue": "Local ainda não informado em fonte pública específica",
+        "street_address": "Endereço ainda não informado em fonte pública específica",
+        "full_address": "Rio das Ostras - RJ; local detalhado pendente",
+        "status_basis": "A data de 17 de outubro de 2026 é futura e não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-23T00:30:00-04:00",
+        "organizer": "Rock Chopper MC",
+        "contact": "Contato da edição não localizado",
+        "source_checked_at": "2026-08-23T00:30:00-04:00",
+        "admission_status": "Não informado para a edição de 2026",
+        "parking": "Não informado para a edição de 2026",
+        "attractions": [
+          "Rock; bandas ainda não divulgadas de forma verificável"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://jb-rider.com.br/evento/20261017-rock-chopper-mc-rio-das-ostras-rj",
+          "label": "JB Rider — Rock Chopper MC em Rio das Ostras",
+          "type": "agenda_especifica_da_edicao",
+          "supports": "Confirma Rio das Ostras e 17 de outubro de 2026."
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20261017___Rock%20Chopper%20MC_Rio%20das%20Ostras_RJ.jpg",
+          "label": "Flyer arquivado — Rock Chopper MC",
+          "type": "flyer_especifico_da_edicao",
+          "supports": "Corrobora nome, cidade, data e a indicação genérica de rock; não detalha o restante do serviço."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Rock Chopper MC\" \"Rio das Ostras\" 2026",
+          "\"Rock Chopper\" \"17 de outubro\"",
+          "site:riodasostras.rj.gov.br Rock Chopper outubro 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "riodasostras.rj.gov.br",
+          "mototour.com.br",
+          "fetimoto.com.br"
+        ],
+        "result": "edicao_apenas_em_flyer; resultados_de_outras_edicoes_descartados",
+        "uncertainties": [
+          "Não foi localizada segunda fonte da edição de Rio das Ostras em 17 de outubro.",
+          "Local, horário, bandas, acesso, estacionamento e contato permanecem desconhecidos."
+        ]
+      }
+    },
+    {
+      "slug": "ronin-mc-itabira-mg-2026-08-16",
+      "updates": {
+        "title": "8º Aniversário do MC Ronin of the Road — Itabira",
+        "short_name": "8º Aniversário Ronin of the Road",
+        "city": "Itabira",
+        "status": "concluida",
+        "summary": "O 8º aniversário do MC Ronin of the Road ocorreu em 16 de agosto de 2026, das 10h às 22h, na Praça do Campestre, em Itabira/MG. Reportagem publicada depois do evento confirma Tio Chico, Savassi, praça de alimentação e participação de motociclistas de vários estados; segundo os organizadores, mais de cinco mil pessoas passaram pelo encontro.",
+        "body": "## Realização confirmada\n\nUma reportagem da Rádio Pontal publicada em 19 de agosto registra a realização do aniversário no domingo, 16, na Praça do Campestre. A matéria relata ambiente familiar, motociclistas de diferentes cidades mineiras e visitantes do Rio de Janeiro e Espírito Santo, além de atribuir aos organizadores público superior a cinco mil pessoas. O número é mantido com essa atribuição, não como medição independente.\n\n## Música e estrutura\n\nAs bandas Tio Chico e Savassi se apresentaram, e a reportagem confirma praça de alimentação completa. O serviço prévio da edição informava funcionamento das 10h às 22h, expositores e troféus; estes dois últimos itens estavam no flyer, enquanto o balanço posterior se concentra em público, música e alimentação.\n\n## Organização local\n\nO evento celebrou oito anos do Ronin of the Road e teve parceria da Associação Comunitária dos Moradores do Bairro Campestre, a Acobac. Marcos Freitas é citado como presidente do moto clube. Entrada, estacionamento e contato direto da edição não foram especificados nas fontes consultadas.",
+        "official_url": "https://radiopontal.com.br/aniversario-do-moto-clube-ronin-of-the-road-une-rock-familia-e-atrai-motociclistas-de-varios-estados-a-itabira/",
+        "verification_status": "realizacao_local_atracoes_e_estrutura_confirmados_por_reportagem_pos_evento; publico_atribuido_a_organizadores",
+        "last_updated": "2026-08-23T00:30:00-04:00",
+        "time_label": "16 de agosto de 2026, das 10h às 22h",
+        "venue": "Praça do Campestre",
+        "street_address": "Praça do Campestre, bairro Campestre",
+        "full_address": "Praça do Campestre, bairro Campestre, Itabira - MG",
+        "status_basis": "Reportagem publicada em 19 de agosto documenta a realização do encontro no dia 16.",
+        "status_checked_at": "2026-08-23T00:30:00-04:00",
+        "organizer": "MC Ronin of the Road, em parceria com a Acobac; Marcos Freitas é citado como presidente do moto clube",
+        "contact": "Contato direto da edição não informado nas fontes consultadas",
+        "source_checked_at": "2026-08-23T00:30:00-04:00",
+        "admission_status": "Não informado nas fontes específicas consultadas",
+        "parking": "Não informado nas fontes específicas consultadas",
+        "attractions": [
+          "Tio Chico",
+          "Savassi",
+          "Praça de alimentação",
+          "Expositores anunciados no flyer",
+          "Troféus anunciados no flyer"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://radiopontal.com.br/aniversario-do-moto-clube-ronin-of-the-road-une-rock-familia-e-atrai-motociclistas-de-varios-estados-a-itabira/",
+          "label": "Rádio Pontal — balanço do aniversário do Ronin of the Road",
+          "type": "imprensa_local_pos_evento",
+          "supports": "Confirma realização, Praça do Campestre, Tio Chico, Savassi, alimentação, parceria com a Acobac, presidente e público atribuído aos organizadores."
+        },
+        {
+          "url": "https://tvduasrodas.com/eventos/8o-aniversario-do-mc-ronin-of-road-itabira-itabira-mg-2026-08-16/",
+          "label": "TVDUASRODAS — serviço prévio do 8º aniversário",
+          "type": "pagina_editorial_especifica_da_edicao",
+          "supports": "Registra antes do evento data, horário das 10h às 22h, Praça do Campestre e canais sociais; não substitui a confirmação posterior independente."
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260816___Ronin%20MC_Itabira_MG.jpeg",
+          "label": "Flyer arquivado — Ronin MC em Itabira",
+          "type": "flyer_especifico_da_edicao",
+          "supports": "Corrobora a data e anuncia shows, expositores, troféus e alimentação."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Ronin of the Road\" Itabira 16 agosto 2026",
+          "\"8º aniversário\" Ronin Itabira 2026",
+          "site:radiopontal.com.br Ronin Itabira"
+        ],
+        "domains_checked": [
+          "radiopontal.com.br",
+          "tvduasrodas.com",
+          "jb-rider.com.br",
+          "itabira.mg.gov.br"
+        ],
+        "result": "realizacao_e_servico_confirmados_por_fonte_pos_evento_independente",
+        "uncertainties": [
+          "O público superior a cinco mil pessoas é estimativa atribuída aos organizadores.",
+          "Entrada, estacionamento e contato direto da edição não foram informados."
+        ]
+      }
+    },
+    {
+      "slug": "rota-064-mc-rio-verde-go-2026-09-19",
+      "updates": {
+        "title": "Encontro Rota 064 MC em Rio Verde — 19 e 20 de setembro de 2026",
+        "short_name": "Rota 064 MC em Rio Verde",
+        "city": "Rio Verde",
+        "status": "agendada",
+        "summary": "Um flyer específico anuncia o Rota 064 MC em Rio Verde/GO para 19 e 20 de setembro de 2026 e indica área de alimentação. Não foi localizada fonte independente da edição com local, horários, atrações, entrada, estacionamento ou contato; resultados empresariais homônimos foram descartados por falta de vínculo com o moto clube.",
+        "body": "## Dados confirmados\n\nA página e o flyer específicos do JB Rider vinculam o Rota 064 MC a Rio Verde nos dias 19 e 20 de setembro de 2026. A peça sugere área ou praça de alimentação, mas não permite recuperar um programa detalhado.\n\n## Homônimos descartados\n\nAs buscas localizaram cadastro empresarial em Rio Verde com “Rota 064” no nome, porém nenhuma fonte estabeleceu relação com o moto clube ou com este encontro. Esse resultado não foi usado para preencher organizador, endereço ou contato.\n\n## Serviço pendente\n\nLocal, horário, atrações, regra de entrada, estacionamento e contato continuam sem confirmação pública específica. A disponibilidade de alimentação também deve ser reconfirmada antes do deslocamento.",
+        "official_url": "https://jb-rider.com.br/evento/20260919-2-rota-064-mc-rio-verde-go",
+        "verification_status": "nome_datas_cidade_e_alimentacao_em_flyer; sem_segunda_fonte_independente; homonimo_empresarial_descartado",
+        "last_updated": "2026-08-23T00:30:00-04:00",
+        "time_label": "19 e 20 de setembro de 2026; horários não informados",
+        "venue": "Local ainda não informado em fonte pública específica",
+        "street_address": "Endereço ainda não informado em fonte pública específica",
+        "full_address": "Rio Verde - GO; local detalhado pendente",
+        "status_basis": "As datas de 19 e 20 de setembro de 2026 são futuras e não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-23T00:30:00-04:00",
+        "organizer": "Rota 064 MC, conforme o flyer específico",
+        "contact": "Contato da edição não localizado",
+        "source_checked_at": "2026-08-23T00:30:00-04:00",
+        "admission_status": "Não informado para a edição de 2026",
+        "parking": "Não informado para a edição de 2026",
+        "attractions": [
+          "Área de alimentação indicada no flyer; formato não detalhado"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://jb-rider.com.br/evento/20260919-2-rota-064-mc-rio-verde-go",
+          "label": "JB Rider — Rota 064 MC em Rio Verde",
+          "type": "agenda_especifica_da_edicao",
+          "supports": "Confirma Rio Verde e 19 a 20 de setembro de 2026."
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260919_2__Rota%20064%20MC_Rio%20Verde_GO.jpg",
+          "label": "Flyer arquivado — Rota 064 MC",
+          "type": "flyer_especifico_da_edicao",
+          "supports": "Corrobora nome, datas, município e indicação de área de alimentação; não detalha o restante do serviço."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Rota 064 MC\" \"Rio Verde\" 2026",
+          "\"Rota 064 Moto Clube\" Goiás",
+          "site:rioverde.go.gov.br Rota 064 setembro 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "rioverde.go.gov.br",
+          "mototour.com.br",
+          "cnpj.biz"
+        ],
+        "result": "edicao_apenas_em_flyer; homonimo_comercial_sem_vinculo_descartado",
+        "uncertainties": [
+          "Não foi localizada segunda fonte independente da edição.",
+          "Local, horários, programação, acesso, estacionamento e contato permanecem desconhecidos."
+        ]
+      }
+    },
+    {
+      "slug": "salvador-moto-salvador-ba-2026-12-03",
+      "updates": {
+        "title": "Salvador Moto — 3 a 5 de dezembro de 2026",
+        "short_name": "Salvador Moto 2026",
+        "city": "Salvador",
+        "status": "agendada",
+        "summary": "Um flyer específico registra Salvador Moto na capital baiana de 3 a 5 de dezembro de 2026. Existe um perfil público do Salvador Moto Grupo com histórico e sede no Rio Vermelho, mas nenhuma fonte liga explicitamente esse perfil à edição; por isso sede, responsável e contato não foram transferidos como serviço do evento.",
+        "body": "## Registro da edição\n\nA página e o flyer específicos do JB Rider anunciam “Salvador Moto” em Salvador de 3 a 5 de dezembro de 2026. A peça recuperada confirma apenas nome, cidade e período.\n\n## Perfil homônimo\n\nO Moto Fest Brasil mantém um perfil chamado Salvador Moto Grupo, com sede declarada no Largo da Mariquita, Rio Vermelho, e presidente identificado. O perfil não menciona o encontro de dezembro, e nenhuma outra fonte estabelece que o grupo seja o organizador desta página. Sede, nome do presidente e canais do perfil não foram tratados como local ou contato do evento.\n\n## Lacunas\n\nLocal, endereço, horários, programação, entrada, estacionamento, organização e contato da edição continuam pendentes. A página preserva o anúncio sem completar essas informações por associação nominal.",
+        "official_url": "https://jb-rider.com.br/evento/20261203-3-salvador-moto-salvador-ba",
+        "verification_status": "nome_datas_e_cidade_em_flyer_especifico; perfil_homonimo_contextual_sem_vinculo_comprovado; servico_incompleto",
+        "last_updated": "2026-08-23T00:30:00-04:00",
+        "time_label": "3 a 5 de dezembro de 2026; horários não informados",
+        "venue": "Local ainda não informado; a sede do perfil homônimo não foi presumida como local",
+        "street_address": "Endereço do evento não informado",
+        "full_address": "Salvador - BA; local detalhado pendente",
+        "status_basis": "O período de 3 a 5 de dezembro de 2026 é futuro e não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-23T00:30:00-04:00",
+        "organizer": "Não identificado; vínculo com o perfil Salvador Moto Grupo não confirmado",
+        "contact": "Contato da edição não localizado",
+        "source_checked_at": "2026-08-23T00:30:00-04:00",
+        "admission_status": "Não informado para a edição de 2026",
+        "parking": "Não informado para a edição de 2026",
+        "attractions": []
+      },
+      "additional_sources": [
+        {
+          "url": "https://jb-rider.com.br/evento/20261203-3-salvador-moto-salvador-ba",
+          "label": "JB Rider — Salvador Moto 2026",
+          "type": "agenda_especifica_da_edicao",
+          "supports": "Confirma Salvador e o período de 3 a 5 de dezembro de 2026."
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20261203_3__SALVADOR%20MOTO_Salvador_BA.jpeg",
+          "label": "Flyer arquivado — Salvador Moto",
+          "type": "flyer_especifico_da_edicao",
+          "supports": "Corrobora nome, cidade e datas; não traz serviço detalhado verificável."
+        },
+        {
+          "url": "https://motofestbrasil.com.br/salvador_moto_grupo845947",
+          "label": "Moto Fest Brasil — perfil Salvador Moto Grupo",
+          "type": "perfil_contextual_homonimo",
+          "supports": "Apresenta histórico, sede e presidência de um grupo homônimo em Salvador; não anuncia a edição de dezembro nem comprova vínculo organizacional."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Salvador Moto\" dezembro 2026",
+          "\"Salvador Moto Grupo\" 3 5 dezembro",
+          "site:salvador.ba.gov.br \"Salvador Moto\" 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "motofestbrasil.com.br",
+          "salvador.ba.gov.br",
+          "mototour.com.br"
+        ],
+        "result": "edicao_em_flyer; perfil_homonimo_encontrado_sem_ligacao_especifica",
+        "uncertainties": [
+          "Não foi possível confirmar que o Salvador Moto Grupo organiza esta edição.",
+          "Local, horários, atrações, entrada, estacionamento e contato permanecem pendentes."
+        ]
+      }
+    },
+    {
+      "slug": "santana-motofest-santana-do-ipanema-al-2026-09-04",
+      "updates": {
+        "title": "Santana Motofest 2026",
+        "short_name": "Santana Motofest",
+        "city": "Santana do Ipanema",
+        "status": "agendada",
+        "summary": "O flyer específico do Santana Motofest informa 4 a 7 de setembro de 2026 em Santana do Ipanema/AL, enquanto a listagem geral do mesmo índice mostra 4 a 6. A Prefeitura possui registro oficial da edição de 2025, mas ainda não foi localizada publicação municipal específica de 2026; local, horários, atrações, acesso, estacionamento e organização permanecem pendentes.",
+        "body": "## Datas publicadas\n\nA peça específica arquivada para o Santana Motofest indica 4 a 7 de setembro de 2026. Na agenda geral do JB Rider, a mesma referência aparece como 4 a 6, sem explicação para a diferença. A página mantém o intervalo do flyer específico e alerta que o último dia precisa ser confirmado.\n\n## Histórico oficial sem transferência\n\nA Prefeitura de Santana do Ipanema publicou a programação da sétima edição, realizada em 2025. Esse documento confirma a continuidade histórica do Motofest no município, mas não é fonte de local, atrações, camping, acesso ou horários para 2026. Nenhum desses dados antigos foi reaproveitado.\n\n## Pendências da edição\n\nAté a revisão, o portal municipal consultado não apresentava notícia específica do Motofest 2026. Local, horários, programação, entrada, estacionamento, organizador nominal e contato continuam pendentes, e o período final deve ser verificado em nova comunicação.",
+        "official_url": "https://jb-rider.com.br/evento/20260904-4-santana-motofest-santana-do-ipanema-al",
+        "verification_status": "edicao_2026_em_flyer; divergencia_de_data_final_no_mesmo_indice; fonte_municipal_apenas_historica",
+        "last_updated": "2026-08-23T00:30:00-04:00",
+        "time_label": "4 a 7 de setembro de 2026 no flyer específico; a agenda geral exibe 4 a 6; horários não informados",
+        "venue": "Local da edição de 2026 ainda não informado em fonte específica",
+        "street_address": "Endereço da edição de 2026 ainda não informado",
+        "full_address": "Santana do Ipanema - AL; local detalhado pendente",
+        "status_basis": "O início em 4 de setembro de 2026 é futuro; não foi localizado aviso de cancelamento, mas o último dia diverge entre as peças.",
+        "status_checked_at": "2026-08-23T00:30:00-04:00",
+        "organizer": "Responsável nominal da edição de 2026 não identificado",
+        "contact": "Contato da edição de 2026 não localizado",
+        "source_checked_at": "2026-08-23T00:30:00-04:00",
+        "admission_status": "Não informado para a edição de 2026",
+        "parking": "Não informado para a edição de 2026",
+        "attractions": []
+      },
+      "additional_sources": [
+        {
+          "url": "https://jb-rider.com.br/evento/20260904-4-santana-motofest-santana-do-ipanema-al",
+          "label": "JB Rider — Santana Motofest 2026",
+          "type": "agenda_especifica_da_edicao",
+          "supports": "Confirma a edição em Santana do Ipanema e a referência de setembro de 2026."
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260904_4__SANTANA%20MOTOFEST_Santana%20do%20Ipanema_AL.jpeg",
+          "label": "Flyer arquivado — Santana Motofest",
+          "type": "flyer_especifico_da_edicao",
+          "supports": "Indica 4 a 7 de setembro de 2026; a agenda geral do domínio mostra 4 a 6, divergência registrada."
+        },
+        {
+          "url": "https://santanadoipanema.al.gov.br/noticia/Prefeitura-de-Santana-do-Ipanema-divulga-programa%C3%A7%C3%A3o-oficial-do-VII-Motofest",
+          "label": "Prefeitura de Santana do Ipanema — VII Motofest de 2025",
+          "type": "fonte_municipal_historica",
+          "supports": "Confirma a existência histórica do Motofest municipal em 2025; não sustenta serviço ou programação da edição de 2026."
+        },
+        {
+          "url": "https://santanadoipanema.al.gov.br/noticias-santana-do-ipanema",
+          "label": "Prefeitura de Santana do Ipanema — índice de notícias",
+          "type": "portal_municipal_consultado",
+          "supports": "Foi consultado em busca de publicação de 2026, sem notícia específica localizada até a revisão; não acrescenta serviço."
+        }
+      ],
+      "research": {
+        "queries": [
+          "site:santanadoipanema.al.gov.br Motofest 2026",
+          "\"Santana Motofest 2026\"",
+          "\"Motofest\" \"4 de setembro\" \"Santana do Ipanema\""
+        ],
+        "domains_checked": [
+          "santanadoipanema.al.gov.br",
+          "jb-rider.com.br",
+          "mototour.com.br",
+          "fetimoto.com.br"
+        ],
+        "result": "flyer_2026_encontrado; divergencia_de_fim; nenhuma_fonte_municipal_atual_da_edicao",
+        "uncertainties": [
+          "O flyer específico termina em 7 de setembro, enquanto a agenda geral termina em 6.",
+          "Nenhum dado de serviço de 2025 foi transferido para 2026.",
+          "Local, horários, atrações, entrada, estacionamento, organização e contato permanecem pendentes."
+        ]
+      }
+    },
+    {
+      "slug": "solidario-jaci-sp-2026-08-02",
+      "updates": {
+        "title": "Encontro Solidário em Jaci — 2 de agosto de 2026",
+        "short_name": "Encontro Solidário em Jaci",
+        "city": "Jaci",
+        "status": "concluida",
+        "summary": "Um flyer específico registrou um encontro identificado como “Solidário” em Jaci/SP para 2 de agosto de 2026. Não foram localizados beneficiário, forma de doação, local, horário, organização, atrações, entrada, estacionamento ou balanço posterior; o estado concluído deriva somente do fim da data.",
+        "body": "## Registro disponível\n\nA página e o flyer específicos do JB Rider associam uma atividade denominada “Solidário” a Jaci no domingo, 2 de agosto de 2026. A peça recuperada não permite confirmar quem organizou a ação nem qual instituição ou causa seria beneficiada.\n\n## O que não pode ser presumido\n\nO termo “solidário” não informa, por si só, se havia entrada mediante alimento, arrecadação financeira, campanha beneficente ou acesso gratuito. Buscas no portal municipal e por combinações exatas de nome, cidade e data não localizaram uma segunda fonte específica; outros eventos solidários da região foram descartados.\n\n## Situação\n\nA data já terminou, mas não foi encontrado registro posterior que demonstre a realização. Local, horário, programação, entrada, estacionamento, contato e destino da eventual arrecadação permanecem desconhecidos.",
+        "official_url": "https://jb-rider.com.br/evento/20260802-solidario-jaci-sp",
+        "verification_status": "nome_cidade_e_data_em_flyer_especifico; concluido_apenas_por_calendario; realizacao_e_finalidade_nao_comprovadas",
+        "last_updated": "2026-08-23T00:30:00-04:00",
+        "time_label": "2 de agosto de 2026; horário não informado",
+        "venue": "Local não informado em fonte pública específica",
+        "street_address": "Endereço não informado em fonte pública específica",
+        "full_address": "Jaci - SP; local detalhado não confirmado",
+        "status_basis": "A data anunciada, 2 de agosto de 2026, já terminou; não foi localizado balanço que comprove a realização.",
+        "status_checked_at": "2026-08-23T00:30:00-04:00",
+        "organizer": "Responsável não identificado na fonte específica",
+        "contact": "Contato da edição não localizado",
+        "source_checked_at": "2026-08-23T00:30:00-04:00",
+        "admission_status": "Não informado; o caráter solidário não permite inferir regra de entrada",
+        "parking": "Não informado",
+        "attractions": []
+      },
+      "additional_sources": [
+        {
+          "url": "https://jb-rider.com.br/evento/20260802-solidario-jaci-sp",
+          "label": "JB Rider — Solidário em Jaci",
+          "type": "agenda_especifica_da_edicao",
+          "supports": "Confirma Jaci e a data de 2 de agosto de 2026; não informa serviço detalhado."
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260802___SOLIDARIO_Jaci_SP.jpeg",
+          "label": "Flyer arquivado — Solidário em Jaci",
+          "type": "flyer_especifico_da_edicao",
+          "supports": "Sustenta nome, cidade e data; não permite confirmar beneficiário, forma de arrecadação ou demais dados."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Solidário\" Jaci motociclistas 2 agosto 2026",
+          "\"evento solidário\" Jaci SP agosto 2026 moto",
+          "site:jaci.sp.gov.br motociclistas agosto 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "jaci.sp.gov.br",
+          "mototour.com.br"
+        ],
+        "result": "edicao_apenas_em_flyer; encerramento_por_calendario_sem_prova_de_realizacao",
+        "uncertainties": [
+          "Não foram identificados organizador, beneficiário ou mecanismo solidário.",
+          "Local, horário, atrações, entrada, estacionamento e contato não foram encontrados.",
+          "Não foi localizado balanço posterior."
+        ]
+      }
+    },
+    {
+      "slug": "sem-fronteiras-mg-santa-cruz-rj-2026-09-26",
+      "updates": {
+        "title": "Encontro Sem Fronteiras MG em Santa Cruz — 26 de setembro de 2026",
+        "short_name": "Sem Fronteiras MG em Santa Cruz",
+        "city": "Santa Cruz",
+        "status": "agendada",
+        "summary": "O Sem Fronteiras MG aparece em flyer específico para 26 de setembro de 2026, às 13h, em Santa Cruz, no Rio de Janeiro. Um diretório de motoclubes corrobora a existência de um Sem Fronteiras MG no estado, mas não anuncia esta edição; local, atrações, entrada, estacionamento e contato continuam pendentes.",
+        "body": "## Serviço confirmado\n\nA página por cidade e o flyer específico do JB Rider informam atividade do Sem Fronteiras MG em Santa Cruz/RJ no sábado, 26 de setembro de 2026, às 13h. Não foi possível associar o horário a uma grade mais detalhada.\n\n## Identidade contextual\n\nO diretório da União Brasileira de Motociclistas lista Sem Fronteiras MG no Rio de Janeiro. A referência corrobora a existência do nome no estado, mas não contém data, local ou contato do encontro de setembro e não foi usada como anúncio.\n\n## Informações pendentes\n\nLocal, endereço, duração, atrações, regra de entrada, estacionamento e contato não foram localizados em segunda fonte específica. Nenhum dado de outro encontro do grupo foi transferido.",
+        "official_url": "https://jb-rider.com.br/evento/20260926-sem-fronteiras-mg-santa-cruz-rj",
+        "verification_status": "data_horario_e_bairro_em_flyer_especifico; identidade_estadual_contextual; servico_incompleto",
+        "last_updated": "2026-08-23T00:30:00-04:00",
+        "time_label": "26 de setembro de 2026, às 13h",
+        "venue": "Local ainda não informado em fonte pública específica",
+        "street_address": "Endereço ainda não informado em fonte pública específica",
+        "full_address": "Santa Cruz, Rio de Janeiro - RJ; local detalhado pendente",
+        "status_basis": "A data de 26 de setembro de 2026 é futura e não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-23T00:30:00-04:00",
+        "organizer": "Sem Fronteiras MG",
+        "contact": "Contato da edição não localizado",
+        "source_checked_at": "2026-08-23T00:30:00-04:00",
+        "admission_status": "Não informado para a edição de 2026",
+        "parking": "Não informado para a edição de 2026",
+        "attractions": []
+      },
+      "additional_sources": [
+        {
+          "url": "https://jb-rider.com.br/cidade/santa-cruz-rj",
+          "label": "JB Rider — eventos em Santa Cruz/RJ",
+          "type": "indice_geografico_da_agenda",
+          "supports": "Corrobora a listagem do Sem Fronteiras MG em Santa Cruz para 26 de setembro."
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260926___Sem%20Fronteiras%20MG_Santa%20Cruz_RJ.jpeg",
+          "label": "Flyer arquivado — Sem Fronteiras MG",
+          "type": "flyer_especifico_da_edicao",
+          "supports": "Confirma o nome, a data, Santa Cruz e o horário de 13h; não detalha o restante do serviço."
+        },
+        {
+          "url": "https://www.ubamotoclube.com.br/site/?aspx=Consultar",
+          "label": "União Brasileira de Motociclistas — consulta de motoclubes",
+          "type": "diretorio_contextual_de_motoclube",
+          "supports": "Lista Sem Fronteiras MG no Rio de Janeiro e sustenta a identidade estadual; não anuncia o evento de 2026."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Sem Fronteiras MG\" \"Santa Cruz\" 2026",
+          "\"Sem Fronteiras Moto Grupo\" Rio de Janeiro",
+          "\"Sem Fronteiras MG\" \"26 de setembro\""
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "ubamotoclube.com.br",
+          "mototour.com.br",
+          "rio.rj.gov.br"
+        ],
+        "result": "servico_parcial_em_flyer_e_identidade_contextual; nenhum_local_ou_programacao_independente",
+        "uncertainties": [
+          "O diretório não é anúncio da edição.",
+          "Local, duração, atrações, acesso, estacionamento e contato não foram confirmados."
+        ]
+      }
+    },
+    {
+      "slug": "serra-branca-mc-sume-pb-2026-07-26",
+      "updates": {
+        "title": "Encontro Serra Branca MC em Sumé — 26 de julho de 2026",
+        "short_name": "Serra Branca MC em Sumé",
+        "city": "Sumé",
+        "status": "concluida",
+        "summary": "Um flyer específico registrou atividade do Serra Branca MC em Sumé/PB para 26 de julho de 2026. A leitura automatizada detectou “10h” e “00h”, mas não permite associar com segurança esses horários a início ou término; local, programa, acesso, estacionamento, contato e realização posterior não foram confirmados.",
+        "body": "## Registro da edição\n\nA página e o flyer específicos do JB Rider vinculam o Serra Branca MC a Sumé em 26 de julho de 2026. A grafia do município foi normalizada com acento, sem alterar o endereço da página.\n\n## Horários ambíguos\n\nA peça contém sinais legíveis de “10h” e “00h”, mas a disposição não foi recuperada com qualidade suficiente para afirmar se são abertura, atração ou encerramento. Em vez de criar uma grade, a página registra a ambiguidade e recomenda consulta à arte original.\n\n## Situação e lacunas\n\nA data já terminou, porém não foi localizada publicação posterior que comprove a realização. Local, endereço, atrações, entrada, estacionamento, organização operacional e contato continuam desconhecidos; resultados sobre a cidade Serra Branca ou equipes esportivas homônimas foram descartados.",
+        "official_url": "https://jb-rider.com.br/evento/20260726-serra-branca-mc-sume-pb",
+        "verification_status": "nome_cidade_e_data_em_flyer; horarios_ambiguos; concluido_por_calendario_sem_prova_de_realizacao",
+        "last_updated": "2026-08-23T00:30:00-04:00",
+        "time_label": "26 de julho de 2026; o flyer contém referências a 10h e 0h, sem contexto legível suficiente",
+        "venue": "Local não informado em fonte pública específica",
+        "street_address": "Endereço não informado em fonte pública específica",
+        "full_address": "Sumé - PB; local detalhado não confirmado",
+        "status_basis": "A data anunciada, 26 de julho de 2026, já terminou; não foi localizado balanço posterior.",
+        "status_checked_at": "2026-08-23T00:30:00-04:00",
+        "organizer": "Serra Branca MC, conforme o flyer específico",
+        "contact": "Contato da edição não localizado",
+        "source_checked_at": "2026-08-23T00:30:00-04:00",
+        "admission_status": "Não informado",
+        "parking": "Não informado",
+        "attractions": []
+      },
+      "additional_sources": [
+        {
+          "url": "https://jb-rider.com.br/evento/20260726-serra-branca-mc-sume-pb",
+          "label": "JB Rider — Serra Branca MC em Sumé",
+          "type": "agenda_especifica_da_edicao",
+          "supports": "Confirma Sumé e a data de 26 de julho de 2026."
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260726___Serra%20Branca%20MC_Sume_PB.jpg",
+          "label": "Flyer arquivado — Serra Branca MC",
+          "type": "flyer_especifico_da_edicao",
+          "supports": "Corrobora nome, cidade e data; contém referências horárias sem contexto legível suficiente."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Serra Branca MC\" Sumé 2026",
+          "\"Serra Branca Moto Clube\" Sumé",
+          "site:sume.pb.gov.br motociclistas julho 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "sume.pb.gov.br",
+          "mototour.com.br"
+        ],
+        "result": "edicao_apenas_em_flyer; horarios_nao_interpretados; sem_balanco_posterior",
+        "uncertainties": [
+          "Não foi possível atribuir as referências 10h e 0h a atividades específicas.",
+          "Local, programação, acesso, estacionamento e contato não foram encontrados.",
+          "Não há comprovação pública posterior de realização."
+        ]
+      }
+    },
+    {
+      "slug": "sicarios-mc-ipuiuna-mg-2026-08-15",
+      "updates": {
+        "title": "Encontro Sicários MC em Ipuiúna — 15 e 16 de agosto de 2026",
+        "short_name": "Sicários MC em Ipuiúna",
+        "city": "Ipuiúna",
+        "status": "concluida",
+        "summary": "Um flyer específico marcou encontro do Sicários MC em Ipuiúna/MG para 15 e 16 de agosto de 2026. Não foram encontrados local, horários, atrações, entrada, estacionamento, contato ou registro pós-evento em segunda fonte; o estado concluído decorre apenas do encerramento do período.",
+        "body": "## Registro recuperado\n\nA página e o flyer do JB Rider associam o Sicários MC a Ipuiúna nos dias 15 e 16 de agosto de 2026. Nome, município e datas são os únicos elementos confirmados de forma específica.\n\n## Pesquisa por fontes adicionais\n\nBuscas pelo nome exato junto à cidade e ao período não localizaram anúncio municipal, canal identificável do organizador ou matéria local. Resultados de grupos chamados Sicários em outros estados e países foram descartados porque não demonstram relação com a edição mineira.\n\n## Estado da página\n\nComo o período terminou, o cadastro passa a concluído por calendário, sem afirmar que o encontro ocorreu. Local, horário, programação, entrada, estacionamento e contato continuam pendentes e não devem ser preenchidos com dados de homônimos.",
+        "official_url": "https://jb-rider.com.br/evento/20260815-2-sicarios-mc-ipuiuna-mg",
+        "verification_status": "nome_datas_e_cidade_em_flyer_especifico; concluido_por_calendario; sem_comprovacao_de_realizacao",
+        "last_updated": "2026-08-23T00:30:00-04:00",
+        "time_label": "15 e 16 de agosto de 2026; horários não informados",
+        "venue": "Local não informado em fonte pública específica",
+        "street_address": "Endereço não informado em fonte pública específica",
+        "full_address": "Ipuiúna - MG; local detalhado não confirmado",
+        "status_basis": "O período de 15 a 16 de agosto de 2026 já terminou; não foi localizado balanço posterior.",
+        "status_checked_at": "2026-08-23T00:30:00-04:00",
+        "organizer": "Sicários MC, conforme o flyer específico",
+        "contact": "Contato da edição não localizado",
+        "source_checked_at": "2026-08-23T00:30:00-04:00",
+        "admission_status": "Não informado",
+        "parking": "Não informado",
+        "attractions": []
+      },
+      "additional_sources": [
+        {
+          "url": "https://jb-rider.com.br/evento/20260815-2-sicarios-mc-ipuiuna-mg",
+          "label": "JB Rider — Sicários MC em Ipuiúna",
+          "type": "agenda_especifica_da_edicao",
+          "supports": "Confirma Ipuiúna e o período de 15 a 16 de agosto de 2026."
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260815_2__Sicarios%20MC_Ipuiuna_MG.jpg",
+          "label": "Flyer arquivado — Sicários MC",
+          "type": "flyer_especifico_da_edicao",
+          "supports": "Corrobora nome, município e datas; não contém serviço detalhado verificável."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Sicários MC\" Ipuiúna 2026",
+          "\"Sicarios Moto Clube\" Ipuiuna",
+          "site:ipuiuna.mg.gov.br motociclistas agosto 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "ipuiuna.mg.gov.br",
+          "mototour.com.br"
+        ],
+        "result": "edicao_localizada_apenas_em_flyer; periodo_encerrado_sem_registro_posterior",
+        "uncertainties": [
+          "Não foi localizada segunda fonte independente da edição.",
+          "Local, horários, atrações, acesso, estacionamento e contato permanecem desconhecidos.",
+          "Não foi possível comprovar a realização."
+        ]
+      }
+    },
+    {
+      "slug": "sinistro-mc-belfod-roxo-rj-2026-07-31",
+      "updates": {
+        "title": "Encontro Sinistro MC em Belford Roxo — 31 de julho de 2026",
+        "short_name": "Sinistro MC em Belford Roxo",
+        "city": "Belford Roxo",
+        "status": "concluida",
+        "summary": "Um flyer específico registrou atividade do Sinistro MC em Belford Roxo/RJ para 31 de julho de 2026. A grafia “Belfod Roxo” da peça foi normalizada para o nome oficial do município, sem alterar a URL; local, horário, acesso, atrações, estacionamento, contato e realização não foram confirmados.",
+        "body": "## Registro e correção geográfica\n\nA página específica do JB Rider anuncia o Sinistro MC para 31 de julho de 2026 e traz a forma “Belfod Roxo”. O portal oficial do município confirma a grafia Belford Roxo; a correção é somente geográfica e não acrescenta serviço à edição.\n\n## Pesquisa da edição\n\nNão foi localizada publicação do organizador, da Prefeitura ou da imprensa local ligando o Sinistro MC à data. Resultados de atividades homônimas fora do município foram descartados.\n\n## Situação\n\nA data já terminou, mas não há balanço posterior que permita afirmar realização. Local, endereço, horário, atrações, entrada, estacionamento, organização operacional e contato permanecem desconhecidos.",
+        "official_url": "https://jb-rider.com.br/evento/20260731-sinistro-mc-belfod-roxo-rj",
+        "verification_status": "data_e_nome_em_flyer; grafia_do_municipio_normalizada_por_fonte_oficial; concluido_por_calendario_sem_realizacao_comprovada",
+        "last_updated": "2026-08-23T00:30:00-04:00",
+        "time_label": "31 de julho de 2026; horário não informado",
+        "venue": "Local não informado em fonte pública específica",
+        "street_address": "Endereço não informado em fonte pública específica",
+        "full_address": "Belford Roxo - RJ; local detalhado não confirmado",
+        "status_basis": "A data anunciada, 31 de julho de 2026, já terminou; não foi localizado balanço posterior.",
+        "status_checked_at": "2026-08-23T00:30:00-04:00",
+        "organizer": "Sinistro MC, conforme o flyer específico",
+        "contact": "Contato da edição não localizado",
+        "source_checked_at": "2026-08-23T00:30:00-04:00",
+        "admission_status": "Não informado",
+        "parking": "Não informado",
+        "attractions": []
+      },
+      "additional_sources": [
+        {
+          "url": "https://jb-rider.com.br/evento/20260731-sinistro-mc-belfod-roxo-rj",
+          "label": "JB Rider — Sinistro MC em Belfod Roxo",
+          "type": "agenda_especifica_da_edicao",
+          "supports": "Confirma o rótulo do evento e a data de 31 de julho de 2026, ainda com a grafia truncada da cidade."
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260731___Sinistro%20MC_Belfod%20Roxo_RJ.jpg",
+          "label": "Flyer arquivado — Sinistro MC",
+          "type": "flyer_especifico_da_edicao",
+          "supports": "Corrobora nome, data e referência geográfica; não contém serviço detalhado verificável."
+        },
+        {
+          "url": "https://prefeituradebelfordroxo.rj.gov.br/",
+          "label": "Prefeitura de Belford Roxo — portal oficial",
+          "type": "fonte_oficial_geografica",
+          "supports": "Confirma a grafia oficial Belford Roxo usada na correção editorial; não anuncia nem comprova o evento."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Sinistro MC\" \"Belford Roxo\" 2026",
+          "\"Sinistro Moto Clube\" Belford Roxo",
+          "site:prefeituradebelfordroxo.rj.gov.br Sinistro motociclistas julho 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "prefeituradebelfordroxo.rj.gov.br",
+          "mototour.com.br"
+        ],
+        "result": "flyer_especifico_sem_servico; grafia_municipal_corrigida; sem_balanco_posterior",
+        "uncertainties": [
+          "A fonte municipal é usada apenas para a grafia geográfica.",
+          "Local, horário, atrações, entrada, estacionamento e contato não foram localizados.",
+          "Não foi possível comprovar realização."
+        ]
+      }
+    },
+    {
+      "slug": "speed-night-fest-brigui-sp-2026-08-08",
+      "updates": {
+        "title": "Speed Night Fest — “Brigui/SP”, 8 de agosto de 2026",
+        "short_name": "Speed Night Fest",
+        "city": "Brigui",
+        "status": "concluida",
+        "summary": "Um flyer específico registra o Speed Night Fest para 8 de agosto de 2026 e apresenta a localidade como “Brigui/SP”. Não foi localizada fonte independente que confirme se a grafia está completa ou se se refere a Birigui; a cidade foi mantida como na origem para evitar uma correção inventada, e nenhum serviço adicional foi confirmado.",
+        "body": "## Registro original\n\nA página e o flyer específicos do JB Rider informam Speed Night Fest em 8 de agosto de 2026, usando “Brigui/SP” como localidade. A peça não oferece endereço, horário, programação, organizador, entrada, estacionamento ou contato legíveis.\n\n## Localidade não resolvida\n\nA forma “Brigui” pode ser grafia truncada, mas buscas exatas e buscas combinadas com Birigui não recuperaram anúncio independente desta edição. Sem vínculo documental, a página não troca a cidade por uma hipótese. O título deixa o termo entre aspas para evidenciar que veio da fonte.\n\n## Situação\n\nA data já terminou, portanto o cadastro fica concluído por calendário. Não foi encontrado balanço posterior que comprove a realização, e nenhuma programação de eventos homônimos foi importada.",
+        "official_url": "https://jb-rider.com.br/evento/20260808-speed-night-fest-brigui-sp",
+        "verification_status": "nome_e_data_em_flyer; localidade_com_grafia_nao_resolvida; concluido_por_calendario_sem_realizacao_comprovada",
+        "last_updated": "2026-08-23T00:30:00-04:00",
+        "time_label": "8 de agosto de 2026; horário não informado",
+        "venue": "Local não informado em fonte pública específica",
+        "street_address": "Endereço não informado em fonte pública específica",
+        "full_address": "“Brigui” - SP, conforme o flyer; município e local detalhado ainda não confirmados",
+        "status_basis": "A data anunciada, 8 de agosto de 2026, já terminou; não foi localizado balanço posterior.",
+        "status_checked_at": "2026-08-23T00:30:00-04:00",
+        "organizer": "Responsável não identificado na fonte específica",
+        "contact": "Contato da edição não localizado",
+        "source_checked_at": "2026-08-23T00:30:00-04:00",
+        "admission_status": "Não informado",
+        "parking": "Não informado",
+        "attractions": []
+      },
+      "additional_sources": [
+        {
+          "url": "https://jb-rider.com.br/evento/20260808-speed-night-fest-brigui-sp",
+          "label": "JB Rider — Speed Night Fest em “Brigui”",
+          "type": "agenda_especifica_da_edicao",
+          "supports": "Confirma o nome, a grafia de localidade usada pela origem e a data de 8 de agosto de 2026."
+        },
+        {
+          "url": "https://jb-rider.com.br/eventos/20260808___Speed%20Night%20Fest_Brigui_SP.jpg",
+          "label": "Flyer arquivado — Speed Night Fest",
+          "type": "flyer_especifico_da_edicao",
+          "supports": "Corrobora nome, data e a forma “Brigui/SP”; não contém serviço detalhado verificável."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Speed Night Fest\" Brigui 2026",
+          "\"Speed Night Fest\" Birigui 8 agosto 2026",
+          "\"Speed Night\" Birigui moto 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "birigui.sp.gov.br",
+          "mototour.com.br",
+          "sympla.com.br"
+        ],
+        "result": "flyer_especifico_sem_corroboração; grafia_da_localidade_mantida_sem_inferencia",
+        "uncertainties": [
+          "Não foi possível demonstrar que “Brigui” significa Birigui.",
+          "Local, horário, programação, entrada, estacionamento, organizador e contato não foram encontrados.",
+          "Não foi localizado balanço posterior."
+        ]
+      }
+    },
+    {
+      "slug": "steel-goose-mc-araruama-rj-2026-11-28",
+      "updates": {
+        "title": "Encontro Steel Goose em Araruama — 28 de novembro de 2026",
+        "short_name": "Steel Goose em Araruama",
+        "city": "Araruama",
+        "status": "agendada",
+        "summary": "Um vídeo-flyer anuncia atividade do Steel Goose em Araruama/RJ para 28 de novembro de 2026. O site oficial confirma a história e a estrutura nacional do moto grupo, e a Prefeitura registra sua participação no Araruama Moto Rock em junho, mas nenhuma dessas fontes publica o serviço do encontro de novembro; local, horário, acesso, estacionamento e atrações seguem pendentes.",
+        "body": "## Edição de novembro\n\nO vídeo-flyer arquivado pelo JB Rider associa o Steel Goose MC a Araruama em 28 de novembro de 2026. A peça confirma somente grupo, cidade e data de forma aproveitável.\n\n## Identidade e presença local\n\nO site oficial do Steel Goose informa fundação em 1992, presença por capítulos e realização de encontros, viagens e eventos. Em fonte municipal específica de junho de 2026, a Prefeitura de Araruama incluiu o Steel Goose entre motoclubes participantes do Araruama Moto Rock, comprovando presença recente do grupo na cidade. Esse evento de junho é diferente e seus local, programação e estrutura não foram transferidos para novembro.\n\n## Serviço ainda não publicado\n\nNão foram localizados local, endereço, horário, regra de entrada, estacionamento, contato direto ou atrações da atividade de 28 de novembro. Os canais oficiais do grupo são a referência mais segura para uma futura confirmação, mas o site institucional não contém anúncio da edição na data revisada.",
+        "official_url": "https://jb-rider.com.br/eventos/20261128___Steel%20Goose%20MC_Araruama_RJ.mp4",
+        "verification_status": "data_e_cidade_em_video_flyer; identidade_oficial_e_presenca_local_confirmadas; servico_de_novembro_nao_publicado",
+        "last_updated": "2026-08-23T00:30:00-04:00",
+        "time_label": "28 de novembro de 2026; horário não informado",
+        "venue": "Local ainda não informado em fonte pública específica da edição",
+        "street_address": "Endereço ainda não informado em fonte pública específica da edição",
+        "full_address": "Araruama - RJ; local detalhado pendente",
+        "status_basis": "A data de 28 de novembro de 2026 é futura e não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-23T00:30:00-04:00",
+        "organizer": "Steel Goose Moto Group, conforme o vídeo-flyer e o site oficial do grupo",
+        "contact": "Canais institucionais no site oficial e Instagram @steelgooseoficial; contato específico da edição não publicado",
+        "source_checked_at": "2026-08-23T00:30:00-04:00",
+        "admission_status": "Não informado para a edição de novembro de 2026",
+        "parking": "Não informado para a edição de novembro de 2026",
+        "attractions": []
+      },
+      "additional_sources": [
+        {
+          "url": "https://jb-rider.com.br/eventos/20261128___Steel%20Goose%20MC_Araruama_RJ.mp4",
+          "label": "Vídeo-flyer arquivado — Steel Goose em Araruama",
+          "type": "video_flyer_especifico_da_edicao",
+          "supports": "Confirma Steel Goose, Araruama e 28 de novembro de 2026; não contém serviço completo verificável."
+        },
+        {
+          "url": "https://sites.google.com/steelgoose.com/site",
+          "label": "Steel Goose — site oficial",
+          "type": "site_oficial_do_motogrupo",
+          "supports": "Confirma a identidade, a fundação em 1992, a estrutura por capítulos e os canais oficiais; não anuncia a atividade de novembro."
+        },
+        {
+          "url": "https://sites.google.com/steelgoose.com/site/sobre-n%C3%B3s/organiza%C3%A7%C3%A3o",
+          "label": "Steel Goose — organização oficial",
+          "type": "pagina_institucional_do_motogrupo",
+          "supports": "Documenta a estrutura organizacional do grupo; não fornece local ou programação para 28 de novembro."
+        },
+        {
+          "url": "https://www.araruama.rj.gov.br/public/noticia/motoclubes-de-diferentes-regioes-prometem-movimentar-a-cidade-no-araruama-moto-rock-2026",
+          "label": "Prefeitura de Araruama — Araruama Moto Rock 2026",
+          "type": "fonte_municipal_contextual",
+          "supports": "Cita o Steel Goose entre os motoclubes presentes na cidade em junho de 2026; trata de outro evento e não sustenta o serviço de novembro."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Steel Goose\" Araruama \"28 de novembro\" 2026",
+          "site:steelgoose.com Araruama novembro 2026",
+          "site:araruama.rj.gov.br \"Steel Goose\" 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "sites.google.com/steelgoose.com",
+          "araruama.rj.gov.br",
+          "mototour.com.br"
+        ],
+        "result": "edicao_em_video_flyer; grupo_e_presenca_local_confirmados_por_fontes_primarias_contextuais; servico_de_novembro_ausente",
+        "uncertainties": [
+          "O evento municipal de junho não é a atividade de 28 de novembro.",
+          "Local, horário, atrações, entrada, estacionamento e contato específico ainda não foram publicados."
+        ]
+      }
+    }
+  ]
+}

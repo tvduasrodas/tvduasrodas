@@ -1,0 +1,790 @@
+{
+  "batch": "h",
+  "reviewed_at": "2026-08-22",
+  "entries": [
+    {
+      "slug": "exitus-brasil-mc-marica-rj-2026-11-08",
+      "updates": {
+        "status": "agendada",
+        "summary": "A mídia específica da agenda associa o Exitus Brasil MC a Maricá/RJ em 8 de novembro de 2026. Não foi localizada uma segunda publicação da edição que confirme horário, endereço, programação, acesso, estacionamento ou contato; a leitura automática “00H” foi descartada por ser ambígua.",
+        "body": "## O que está confirmado\n\nO arquivo específico arquivado pela agenda JB-RIDER identifica Exitus Brasil MC, Maricá/RJ e a data de 8 de novembro de 2026. A data ainda é futura na checagem de 22 de agosto, e não foi localizado comunicado de cancelamento.\n\n## Contexto institucional\n\nUm cadastro público derivado da Receita Federal registra uma associação chamada Associação de Motociclista Exitus Brasil Moto Clube, ativa e sediada em São Gonçalo/RJ. Esse registro comprova a existência institucional do nome, mas não confirma que a associação seja a responsável pelo encontro de Maricá nem fornece o serviço da edição de 2026.\n\n## Serviço pendente\n\nO vídeo-flyer não pôde ser verificado quadro a quadro nas ferramentas disponíveis. A extração anterior mencionava rock, mas não identificava banda ou programação; a marcação “00H” não foi usada como horário. Local exato, contato, entrada, estacionamento e demais regras devem ser confirmados em uma nova publicação do responsável antes do deslocamento.",
+        "official_url": "https://jb-rider.com.br/eventos/20261108___Exitus%20Brasil%20MC_Marica_RJ.mp4",
+        "verification_status": "midia_especifica_de_2026_sem_servico_legivel_e_sem_segunda_fonte_do_evento",
+        "last_updated": "2026-08-22T22:55:07-04:00",
+        "time_label": "8 de novembro de 2026; horário não confirmado — a leitura automática “00H” foi descartada",
+        "venue": "Local da edição de 2026 ainda não confirmado",
+        "street_address": "Endereço da edição de 2026 ainda não confirmado",
+        "full_address": "Maricá - RJ; endereço detalhado pendente",
+        "status_basis": "A mídia específica indica 8 de novembro de 2026, data futura na checagem; não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-22T22:55:07-04:00",
+        "organizer": "Organização da edição de 2026 ainda não confirmada; o material usa o nome Exitus Brasil MC",
+        "contact": "Contato da edição de 2026 não localizado em fonte verificável",
+        "source_checked_at": "2026-08-22T22:55:07-04:00",
+        "admission_status": "Não informado para a edição de 2026",
+        "parking": "Não informado para a edição de 2026",
+        "attractions": [
+          "Rock é mencionado na extração do material, sem bandas ou grade confirmadas"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://casadosdados.com.br/solucao/cnpj/associacao-de-motociclista-exitus-brasil-moto-clube-53014875000109",
+          "label": "Casa dos Dados — Associação de Motociclista Exitus Brasil Moto Clube",
+          "type": "cadastro_publico_contextual",
+          "supports": "Corrobora a existência e a situação ativa de associação com esse nome no RJ; não comprova organização, local nem serviço do evento de 2026."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Exitus Brasil MC\" Maricá 2026",
+          "\"Exitus Brasil Moto Clube\" evento",
+          "\"8 de novembro de 2026\" motociclistas Maricá"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "casadosdados.com.br",
+          "cnpj.biz",
+          "marica.rj.gov.br"
+        ],
+        "result": "data_nome_e_cidade_presentes_na_midia_especifica; identidade_institucional_contextual; servico_2026_pendente",
+        "uncertainties": [
+          "Não foi encontrada segunda fonte específica da edição de 2026.",
+          "Horário, local, responsável, contato, acesso e estacionamento não foram confirmados."
+        ]
+      }
+    },
+    {
+      "slug": "fmc-sao-paulo-sp-2026-07-25",
+      "updates": {
+        "status": "concluida",
+        "summary": "O cadastro específico marcou “FMC” em São Paulo/SP para 25 de julho de 2026. O arquivo visual original hoje retorna indisponível e não foi encontrada confirmação independente da realização; a sigla não foi expandida porque as buscas não identificaram com segurança a organização.",
+        "body": "## Registro preservado\n\nA página específica da agenda JB-RIDER associa a sigla FMC a São Paulo/SP e à data de 25 de julho de 2026. Como a janela anunciada terminou, o estado editorial passa a concluído por calendário, sem afirmar que o encontro tenha efetivamente ocorrido.\n\n## Limite da verificação\n\nO arquivo de imagem vinculado ao cadastro não estava mais disponível na checagem, e nenhuma publicação independente da edição foi localizada. A extração armazenada mencionava rock e shows, mas não trazia nomes de atrações. “FMC” pode designar diferentes entidades; nenhuma expansão da sigla ou autoria foi atribuída sem prova.\n\n## Serviço não recuperado\n\nHorário, endereço, contato, entrada, estacionamento e programação nominal continuam pendentes. Informações de federações ou eventos com siglas parecidas não foram transferidas para esta página.",
+        "official_url": "https://jb-rider.com.br/evento/20260725-fmc-sao-paulo-sp",
+        "verification_status": "registro_especifico_com_imagem_indisponivel_sigla_ambigua_e_sem_confirmacao_da_realizacao",
+        "last_updated": "2026-08-22T22:55:07-04:00",
+        "time_label": "25 de julho de 2026; horário não recuperado",
+        "venue": "Local da edição não recuperado em fonte verificável",
+        "street_address": "Endereço não recuperado em fonte verificável",
+        "full_address": "São Paulo - SP; endereço detalhado pendente",
+        "status_basis": "A data divulgada, 25 de julho de 2026, já terminou; isso encerra a janela de agenda, mas não comprova a realização.",
+        "status_checked_at": "2026-08-22T22:55:07-04:00",
+        "organizer": "Não identificado; a sigla FMC foi mantida sem expansão",
+        "contact": "Não localizado em fonte específica verificável",
+        "source_checked_at": "2026-08-22T22:55:07-04:00",
+        "admission_status": "Não informado no material recuperável",
+        "parking": "Não informado no material recuperável",
+        "attractions": [
+          "Rock e shows aparecem na extração do material original; atrações nominais não foram confirmadas"
+        ]
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"FMC\" \"São Paulo\" \"25 de julho\" motociclistas 2026",
+          "\"FMC\" moto clube São Paulo evento 2026",
+          "site:federacaomc.org.br evento julho 2026 São Paulo"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "federacaomc.org.br",
+          "motofestbrasil.com.br",
+          "mototour.com.br"
+        ],
+        "result": "pagina_especifica_preservada; imagem_origem_indisponivel; sigla_e_realizacao_nao_corroboradas",
+        "uncertainties": [
+          "A entidade representada pela sigla FMC não foi identificada com segurança.",
+          "Não há confirmação independente de que o evento ocorreu nem serviço operacional recuperado."
+        ]
+      }
+    },
+    {
+      "slug": "fenicios-mc-rio-de-janeiro-rj-2026-09-19",
+      "updates": {
+        "title": "13º Aniversário do Fenícios MC",
+        "short_name": "13º Aniversário do Fenícios MC",
+        "status": "agendada",
+        "summary": "O flyer da edição confirma o 13º aniversário do Fenícios MC em 19 de setembro de 2026, mas não informa cidade, endereço, horário ou programação. A agenda mantém cadastros paralelos para Rio de Janeiro e Maricá na mesma data; por isso, esta página foi preservada sem transformar nenhuma das duas localidades em serviço confirmado.",
+        "body": "## Edição confirmada\n\nO flyer específico anuncia o 13º aniversário do Fenícios MC e pede para reservar 19 de setembro de 2026. A data permanece futura na checagem, sem aviso de cancelamento localizado.\n\n## Localidade em divergência\n\nO próprio flyer não informa cidade. A agenda de origem possui dois registros do Fenícios MC na mesma data, um associado ao Rio de Janeiro e outro a Maricá. Documentos municipais e divulgações de aniversários anteriores comprovam a presença histórica do grupo em Maricá, mas não autorizam copiar para 2026 o endereço nem concluir que esta edição ocorrerá ali. Esta página permanece publicada com a localidade declarada como pendente enquanto a informação é verificada.\n\n## Serviço pendente\n\nHorário, local, atrações, contato, entrada e estacionamento não aparecem no flyer consultado. O leitor deve aguardar uma publicação do organizador com o serviço da 13ª edição antes de viajar.",
+        "official_url": "https://jb-rider.com.br/evento/20260919-fenicios-mc-rio-de-janeiro-rj",
+        "verification_status": "flyer_especifico_confirma_13o_aniversario_e_data_mas_omite_cidade; cadastros_rio_e_marica_em_conflito",
+        "last_updated": "2026-08-22T22:55:07-04:00",
+        "time_label": "19 de setembro de 2026; horário ainda não publicado",
+        "venue": "Local da 13ª edição não informado no flyer",
+        "street_address": "Endereço da 13ª edição não informado no flyer",
+        "full_address": "Localidade em verificação entre Rio de Janeiro e Maricá - RJ; o flyer não informa cidade",
+        "status_basis": "O flyer específico informa 19 de setembro de 2026, data futura na checagem; não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-22T22:55:07-04:00",
+        "organizer": "Fenícios MC",
+        "contact": "Contato da 13ª edição não localizado em fonte verificável",
+        "source_checked_at": "2026-08-22T22:55:07-04:00",
+        "admission_status": "Não informado para a 13ª edição",
+        "parking": "Não informado para a 13ª edição",
+        "attractions": [
+          "Comemoração de 13 anos; programação ainda não publicada no flyer consultado"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://static.marica.rj.gov.br/arquivos/site/2021/11/PP_23-2021.pdf",
+          "label": "Prefeitura de Maricá — Pregão Presencial 23/2021",
+          "type": "documento_municipal_historico",
+          "supports": "Documenta um aniversário anterior do Fenícios Moto Clube em Maricá; serve apenas para histórico e não confirma cidade, endereço ou serviço de 2026."
+        },
+        {
+          "url": "https://firesoulswebradio.com/evento/318537/12-aniversario-do-fenicios-mc-marica-rj/",
+          "label": "Fire Souls Web Rádio — 12º aniversário do Fenícios MC em 2025",
+          "type": "agenda_historica_especifica",
+          "supports": "Corrobora que a 12ª edição foi divulgada em Maricá em 2025; não transfere local ou programação para o 13º aniversário de 2026."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"13º aniversário\" \"Fenícios MC\" 2026",
+          "\"Fenícios MC\" \"19 de setembro de 2026\"",
+          "site:marica.rj.gov.br \"Fenícios Moto Clube\"",
+          "\"12 aniversário\" \"Fenícios MC\" Maricá"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "marica.rj.gov.br",
+          "firesoulswebradio.com",
+          "viagemdorock.com.br"
+        ],
+        "result": "edicao_e_data_confirmadas_no_flyer; cidade_omitida; conflito_entre_cadastros_rio_e_marica_documentado",
+        "uncertainties": [
+          "A cidade e o endereço da edição de 2026 não estão no flyer.",
+          "Fontes históricas de Maricá não foram usadas como serviço atual."
+        ]
+      }
+    },
+    {
+      "slug": "ferramentas-mc-rio-de-janerio-rj-2026-08-01",
+      "updates": {
+        "city": "Rio de Janeiro",
+        "status": "concluida",
+        "summary": "A página específica cadastrou o Ferramentas MC no Rio de Janeiro/RJ em 1º de agosto de 2026. A grafia da cidade foi corrigida sem alterar o endereço da página, mas a imagem original está indisponível e não apareceu uma segunda fonte da edição que confirme realização ou serviço.",
+        "body": "## Registro e correção\n\nA agenda JB-RIDER associa o Ferramentas MC ao Rio de Janeiro/RJ em 1º de agosto de 2026. O erro “Janerio” foi corrigido no texto e na cidade exibida, sem retirar a página original. Como a data já passou, o estado é concluído por calendário, e não uma confirmação de realização.\n\n## O que a pesquisa acrescenta\n\nUma matéria de 2014 do Jornal de Lavras registra a trajetória do Ferramentas Moto Clube e sua origem no Rio de Janeiro. Ela confirma o histórico do grupo, mas não anuncia a edição de 2026. Foram encontrados eventos de outras datas e municípios com o mesmo nome; endereços e programas dessas páginas foram deliberadamente excluídos.\n\n## Serviço pendente\n\nA imagem específica da edição não estava mais disponível. Horário, endereço, atrações, responsável, contato, entrada e estacionamento não foram recuperados em fonte verificável.",
+        "official_url": "https://jb-rider.com.br/evento/20260801-ferramentas-mc-rio-de-janerio-rj",
+        "verification_status": "pagina_especifica_com_data_encerrada_e_grafia_da_cidade_corrigida; imagem_indisponivel_e_realizacao_nao_confirmada",
+        "last_updated": "2026-08-22T22:55:07-04:00",
+        "time_label": "1º de agosto de 2026; horário não recuperado",
+        "venue": "Local da edição não recuperado em fonte verificável",
+        "street_address": "Endereço da edição não recuperado em fonte verificável",
+        "full_address": "Rio de Janeiro - RJ; endereço detalhado pendente",
+        "status_basis": "A data divulgada, 1º de agosto de 2026, já terminou; o encerramento por calendário não comprova a realização.",
+        "status_checked_at": "2026-08-22T22:55:07-04:00",
+        "organizer": "Ferramentas MC aparece no cadastro; responsável operacional da edição de 2026 não confirmado",
+        "contact": "Não localizado em fonte específica da edição",
+        "source_checked_at": "2026-08-22T22:55:07-04:00",
+        "admission_status": "Não informado em fonte recuperável",
+        "parking": "Não informado em fonte recuperável",
+        "attractions": [
+          "Programação da edição de 2026 não recuperada"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://www.jornaldelavras.com.br/index.php?c=9620&catn=3&p=10&scatn=42&tc=4",
+          "label": "Jornal de Lavras — histórico do Ferramentas Moto Clube",
+          "type": "imprensa_local_historica",
+          "supports": "Corrobora a existência e a origem carioca do moto clube em relato histórico; não confirma a edição, local ou programação de 2026."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Ferramentas MC\" \"1 de agosto de 2026\"",
+          "\"Ferramentas Moto Clube\" Rio de Janeiro evento 2026",
+          "site:motofestbrasil.com.br \"Ferramentas MC\""
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "jornaldelavras.com.br",
+          "motofestbrasil.com.br",
+          "mototour.com.br"
+        ],
+        "result": "pagina_especifica_preservada; grafia_municipal_corrigida; apenas_historico_do_clube_encontrado",
+        "uncertainties": [
+          "Não foi encontrada confirmação independente da realização em 2026.",
+          "Materiais de outros eventos do Ferramentas MC não foram reaproveitados."
+        ]
+      }
+    },
+    {
+      "slug": "festival-gorila-carmo-do-paranaiba-mg-2026-07-26",
+      "updates": {
+        "city": "Carmo do Paranaíba",
+        "status": "concluida",
+        "summary": "A agenda específica marcou o Festival Gorila em Carmo do Paranaíba/MG para 26 de julho de 2026 e a extração do material mencionou rock. A imagem hoje está indisponível e não foi localizada publicação independente da edição que confirme realização, local ou programação.",
+        "body": "## Registro preservado\n\nA página da agenda JB-RIDER relaciona Festival Gorila, Carmo do Paranaíba/MG e 26 de julho de 2026. A grafia municipal foi normalizada com acento sem mudar o endereço da página. Como a data terminou, o estado é concluído por calendário, não uma afirmação de que o festival aconteceu.\n\n## Limites da pesquisa\n\nO arquivo visual original não estava mais disponível na checagem. A extração armazenada reconheceu rock, mas não trouxe nomes de bandas, endereço, horário ou responsável. Referências históricas ao Festival Gorila na cidade não foram usadas para preencher a edição de 2026.\n\n## Serviço ainda ausente\n\nNão foram confirmados local, contato, entrada, estacionamento ou atrações nominais. A página continua publicada com essas lacunas declaradas até surgir uma fonte específica da edição.",
+        "official_url": "https://jb-rider.com.br/evento/20260726-festival-gorila-carmo-do-paranaiba-mg",
+        "verification_status": "pagina_especifica_com_data_encerrada_imagem_indisponivel_e_sem_confirmacao_independente_da_realizacao",
+        "last_updated": "2026-08-22T22:55:07-04:00",
+        "time_label": "26 de julho de 2026; horário não recuperado",
+        "venue": "Local da edição não recuperado em fonte verificável",
+        "street_address": "Endereço da edição não recuperado em fonte verificável",
+        "full_address": "Carmo do Paranaíba - MG; endereço detalhado pendente",
+        "status_basis": "A data divulgada, 26 de julho de 2026, já terminou; isso encerra a janela de agenda, mas não confirma a realização.",
+        "status_checked_at": "2026-08-22T22:55:07-04:00",
+        "organizer": "Organização da edição de 2026 não identificada em fonte verificável",
+        "contact": "Não localizado em fonte específica da edição",
+        "source_checked_at": "2026-08-22T22:55:07-04:00",
+        "admission_status": "Não informado em fonte recuperável",
+        "parking": "Não informado em fonte recuperável",
+        "attractions": [
+          "Rock é o único elemento identificado na extração do material; grade e bandas não foram confirmadas"
+        ]
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"Festival Gorila\" \"Carmo do Paranaíba\" 2026",
+          "\"Festival Gorila\" \"26 de julho\" MG",
+          "site:carmodoparanaiba.mg.gov.br \"Festival Gorila\""
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "carmodoparanaiba.mg.gov.br",
+          "vakinha.com.br",
+          "motofestbrasil.com.br"
+        ],
+        "result": "registro_especifico_encontrado; nenhuma_segunda_fonte_da_edicao; imagem_origem_indisponivel",
+        "uncertainties": [
+          "A realização e o serviço de 2026 não foram confirmados por fonte independente.",
+          "Referências históricas ao nome não foram tratadas como programação atual."
+        ]
+      }
+    },
+    {
+      "slug": "frances-moto-fest-praia-do-frances-marechal-deodoro-al-2026-09-25",
+      "updates": {
+        "title": "3º Francês Moto Fest 2026",
+        "short_name": "Francês Moto Fest",
+        "city": "Marechal Deodoro",
+        "status": "agendada",
+        "summary": "A terceira edição do Francês Moto Fest está anunciada para 25 e 26 de setembro de 2026, na Praia do Francês, em Marechal Deodoro/AL. O flyer confirma camping, passeio pelo centro histórico, rock, forró, bandas das décadas de 1960 a 1980, brindes e dois contatos, mas ainda não informa espaço exato, horários, entrada ou estacionamento.",
+        "body": "## Terceira edição\n\nO flyer específico identifica o Francês Moto Fest 2026 como terceira edição e informa 25 e 26 de setembro na Praia do Francês, em Marechal Deodoro/AL. A Prefeitura de Marechal Deodoro aparece no material como apoiadora, mas o flyer não nomeia formalmente a entidade realizadora.\n\n## Atividades anunciadas\n\nA divulgação lista recepção aos motociclistas, área de camping, passeio pelo centro histórico da cidade, shows de rock, forró, bandas com repertório dos anos 1960, 1970 e 1980 e distribuição de brindes. Foram publicados os contatos de Adriano Pacheco e Fábio Cavalcanti.\n\n## O que ainda falta\n\nO espaço exato na Praia do Francês, endereço, horários diários, regras de entrada e estacionamento não aparecem no material consultado. Esses campos permanecem como pendentes em vez de receber dados de outras edições.",
+        "official_url": "https://jb-rider.com.br/evento/20260925-2-frances-moto-fest-praia-do-frances-marechal-deodoro-al",
+        "verification_status": "flyer_especifico_da_3a_edicao_com_datas_atividades_e_contatos; local_exato_horarios_e_acesso_pendentes",
+        "last_updated": "2026-08-22T22:55:07-04:00",
+        "time_label": "25 e 26 de setembro de 2026; horários diários ainda não publicados",
+        "venue": "Praia do Francês — espaço exato ainda não informado",
+        "street_address": "Endereço do espaço ainda não informado",
+        "full_address": "Praia do Francês, Marechal Deodoro - AL; espaço e endereço detalhado pendentes",
+        "status_basis": "O flyer específico informa 25 e 26 de setembro de 2026, período futuro na checagem; não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-22T22:55:07-04:00",
+        "organizer": "Organização não identificada nominalmente no flyer; Prefeitura de Marechal Deodoro aparece como apoiadora",
+        "contact": "Adriano Pacheco: (82) 9 9974-8576; Fábio Cavalcanti: (82) 9 9618-8789",
+        "source_checked_at": "2026-08-22T22:55:07-04:00",
+        "admission_status": "Não informado no flyer da terceira edição",
+        "parking": "Não informado no flyer da terceira edição",
+        "attractions": [
+          "Recepção aos motociclistas",
+          "Área de camping",
+          "Passeio pelo centro histórico de Marechal Deodoro",
+          "Shows de rock",
+          "Forró",
+          "Bandas com repertório dos anos 1960, 1970 e 1980",
+          "Brindes"
+        ]
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"Francês Moto Fest 2026\"",
+          "\"3º Francês Moto Fest\" Marechal Deodoro",
+          "site:marechaldeodoro.al.gov.br \"Moto Fest\" 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "marechaldeodoro.al.gov.br",
+          "motofestbrasil.com.br",
+          "mototour.com.br"
+        ],
+        "result": "flyer_especifico_legivel_com_edicao_datas_atividades_apoio_e_contatos; sem_segunda_fonte_da_edicao",
+        "uncertainties": [
+          "O organizador formal não foi identificado no flyer.",
+          "Espaço exato, horários, entrada e estacionamento continuam pendentes."
+        ]
+      }
+    },
+    {
+      "slug": "ganchos-do-asfalto-mg-santissimo-rio-de-janeiro-rj-2026-10-17",
+      "updates": {
+        "title": "21 anos do Ganchos do Asfalto MG",
+        "short_name": "21 anos do Ganchos do Asfalto",
+        "city": "Rio de Janeiro",
+        "status": "agendada",
+        "summary": "O Ganchos do Asfalto MG comemora 21 anos em 17 de outubro de 2026, a partir das 15h, em Santíssimo, Rio de Janeiro/RJ. O flyer informa endereço completo e shows de Rosa Trio e Corvos; entrada, estacionamento e contato ainda não foram publicados.",
+        "body": "## Comemoração de 21 anos\n\nO flyer específico anuncia 21 anos de estrada, amizade e liberdade do Ganchos do Asfalto MG para 17 de outubro de 2026, com início às 15h. O endereço divulgado é Rua Teixeira Campos, 1, esquina com a Rua Oscar de Souza, em Santíssimo, no Rio de Janeiro.\n\n## Música\n\nRosa Trio e Corvos aparecem como as bandas confirmadas. A chamada também destaca rock, amizade e irmandade.\n\n## Informações pendentes\n\nO material não informa contato, regra de entrada, estacionamento, alimentação ou horário de encerramento. Esses itens devem ser confirmados com o responsável antes da viagem.",
+        "official_url": "https://jb-rider.com.br/evento/20261017-ganchos-do-asfalto-mg-rio-de-janeiro-rj",
+        "verification_status": "flyer_especifico_com_aniversario_data_horario_endereco_e_bandas; acesso_e_contato_pendentes",
+        "last_updated": "2026-08-22T22:55:07-04:00",
+        "time_label": "17 de outubro de 2026, a partir das 15h; encerramento não informado",
+        "venue": "Endereço divulgado para a comemoração do Ganchos do Asfalto MG",
+        "street_address": "Rua Teixeira Campos, 1, esquina com a Rua Oscar de Souza",
+        "neighborhood": "Santíssimo",
+        "full_address": "Rua Teixeira Campos, 1, esquina com a Rua Oscar de Souza, Santíssimo, Rio de Janeiro - RJ",
+        "status_basis": "O flyer específico informa 17 de outubro de 2026, data futura na checagem; não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-22T22:55:07-04:00",
+        "organizer": "Ganchos do Asfalto MG",
+        "contact": "Não informado no flyer consultado",
+        "source_checked_at": "2026-08-22T22:55:07-04:00",
+        "admission_status": "Não informado no flyer consultado",
+        "parking": "Não informado no flyer consultado",
+        "attractions": [
+          "Rosa Trio",
+          "Corvos",
+          "Rock",
+          "Comemoração de 21 anos do Ganchos do Asfalto MG"
+        ]
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"21 anos\" \"Ganchos do Asfalto\" 2026",
+          "\"Rua Teixeira Campos, 1\" \"Ganchos do Asfalto\"",
+          "\"Ganchos do Asfalto MG\" \"17 de outubro\""
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "google.com",
+          "motofestbrasil.com.br",
+          "mototour.com.br"
+        ],
+        "result": "flyer_especifico_legivel_com_servico_principal; nenhuma_segunda_fonte_especifica_localizada",
+        "uncertainties": [
+          "Contato, entrada, estacionamento e horário de encerramento não foram publicados.",
+          "Não foi encontrada corroboração independente da edição."
+        ]
+      }
+    },
+    {
+      "slug": "griffon-s-mc-goiana-mg-2026-08-08",
+      "updates": {
+        "title": "Griffon’s MC",
+        "short_name": "Griffon’s MC",
+        "city": "Goianá",
+        "status": "concluida",
+        "summary": "O registro específico marcou o Griffon’s MC em Goianá/MG para 8 de agosto de 2026, às 13h, com indicação genérica de shows ou bandas. A grafia oficial do município foi confirmada pelo IBGE, mas a imagem da edição está indisponível e não houve confirmação independente da realização.",
+        "body": "## Data e localidade\n\nA agenda JB-RIDER relaciona Griffon’s MC, 8 de agosto de 2026 e o município mineiro de Goianá. O IBGE confirma a grafia oficial “Goianá”; o endereço original da página permanece preservado apesar da correção exibida. Como a data terminou, o estado é concluído por calendário, sem equivaler a uma prova de realização.\n\n## Material incompleto\n\nA extração armazenada identificou 13h e referência a shows ou bandas de rock. O arquivo visual original, porém, não estava mais disponível na checagem, e não foi possível recuperar nomes de atrações, endereço ou contato.\n\n## Confirmações que faltam\n\nLocal exato, entrada, estacionamento, responsável operacional e registro pós-evento continuam sem fonte verificável. Dados de outros encontros na região não foram reaproveitados.",
+        "official_url": "https://jb-rider.com.br/evento/20260808-griffon-s-mc-goiana-mg",
+        "verification_status": "registro_especifico_com_horario_e_municipio_corrigido_pelo_ibge; imagem_indisponivel_e_realizacao_nao_confirmada",
+        "last_updated": "2026-08-22T22:55:07-04:00",
+        "time_label": "8 de agosto de 2026, às 13h, conforme extração do material original",
+        "venue": "Local da edição não recuperado em fonte verificável",
+        "street_address": "Endereço da edição não recuperado em fonte verificável",
+        "full_address": "Goianá - MG; endereço detalhado pendente",
+        "status_basis": "A data divulgada, 8 de agosto de 2026, já terminou; isso encerra a janela de agenda, mas não comprova a realização.",
+        "status_checked_at": "2026-08-22T22:55:07-04:00",
+        "organizer": "Griffon’s MC aparece no cadastro; responsável operacional não confirmado",
+        "contact": "Não recuperado em fonte específica da edição",
+        "source_checked_at": "2026-08-22T22:55:07-04:00",
+        "admission_status": "Não informado no material recuperável",
+        "parking": "Não informado no material recuperável",
+        "attractions": [
+          "Shows ou bandas de rock mencionados na extração; nomes não confirmados"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://www.ibge.gov.br/cidades-e-estados/mg/goiana.html",
+          "label": "IBGE — Goianá/MG",
+          "type": "fonte_oficial_de_localidade",
+          "supports": "Confirma a grafia oficial do município de Goianá; não informa nada sobre o evento."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Griffon's MC\" Goianá 2026",
+          "\"Griffon s MC\" \"8 de agosto\" MG",
+          "site:ibge.gov.br/cidades-e-estados/mg goiana"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "ibge.gov.br",
+          "goiana.mg.gov.br",
+          "motofestbrasil.com.br"
+        ],
+        "result": "registro_especifico_e_horario_preservados; grafia_municipal_corrigida; sem_segunda_fonte_da_edicao",
+        "uncertainties": [
+          "A imagem original e o serviço detalhado não estavam disponíveis.",
+          "A realização não foi confirmada por fonte independente."
+        ]
+      }
+    },
+    {
+      "slug": "guardiao-noturno-mc-mage-rj-2026-08-16",
+      "updates": {
+        "city": "Magé",
+        "status": "concluida",
+        "summary": "O cadastro do Guardião Noturno MC em Magé/RJ indicava 16 de agosto de 2026, às 10h, com camping, rock e piscina. A grafia da cidade foi normalizada, mas a imagem original está indisponível e não foi encontrada confirmação independente de que o evento ocorreu.",
+        "body": "## Registro da agenda\n\nA página específica associa o Guardião Noturno MC a Magé/RJ em 16 de agosto de 2026, com indicação de início às 10h. O estado anterior ainda aparecia como agendado; como a data terminou, foi corrigido para concluído por calendário, sem afirmar realização.\n\n## Estrutura indicada\n\nA extração do material original mencionava área de camping, rock e piscina. Como o arquivo visual hoje está indisponível, não foi possível confirmar regras de uso, bandas, endereço ou condições de acesso.\n\n## Lacunas mantidas\n\nLocal exato, contato, entrada, estacionamento, responsável operacional e registro pós-evento não foram encontrados em fonte verificável. Nenhum dado de outra edição foi transferido.",
+        "official_url": "https://jb-rider.com.br/evento/20260816-guardiao-noturno-mc-mage-rj",
+        "verification_status": "registro_especifico_com_data_horario_e_estrutura_extraida; imagem_indisponivel_e_realizacao_nao_confirmada",
+        "last_updated": "2026-08-22T22:55:07-04:00",
+        "time_label": "16 de agosto de 2026, às 10h, conforme extração do material original",
+        "venue": "Local da edição não recuperado em fonte verificável",
+        "street_address": "Endereço da edição não recuperado em fonte verificável",
+        "full_address": "Magé - RJ; endereço detalhado pendente",
+        "status_basis": "A data divulgada, 16 de agosto de 2026, já terminou; o estado concluído encerra a janela de agenda, mas não comprova realização.",
+        "status_checked_at": "2026-08-22T22:55:07-04:00",
+        "organizer": "Guardião Noturno MC aparece no cadastro; responsável operacional não confirmado",
+        "contact": "Não recuperado em fonte específica da edição",
+        "source_checked_at": "2026-08-22T22:55:07-04:00",
+        "admission_status": "Não informado no material recuperável",
+        "parking": "Não informado no material recuperável",
+        "attractions": [
+          "Área de camping",
+          "Rock; bandas não identificadas",
+          "Piscina; regras de uso não informadas"
+        ]
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"Guardião Noturno MC\" Magé 2026",
+          "\"Guardiao Noturno MC\" \"16 de agosto\"",
+          "site:mage.rj.gov.br motociclistas agosto 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "mage.rj.gov.br",
+          "motofestbrasil.com.br",
+          "mototour.com.br"
+        ],
+        "result": "registro_especifico_preservado_e_status_corrigido_pelo_calendario; nenhuma_corroboracao_da_realizacao",
+        "uncertainties": [
+          "A imagem original, o local e o contato não foram recuperados.",
+          "Camping, piscina e música vieram da extração anterior e não têm detalhamento operacional."
+        ]
+      }
+    },
+    {
+      "slug": "guardiao-do-destino-mf-salto-de-pirapora-sp-2026-08-22",
+      "updates": {
+        "title": "6º Aniversário do Guardião do Destino MF",
+        "short_name": "6º Aniversário do Guardião do Destino",
+        "status": "agendada",
+        "summary": "O 6º aniversário do Guardião do Destino MF foi anunciado para 22 de agosto de 2026, a partir das 13h, no Jardim dos Ipês, em Salto de Pirapora/SP. O flyer traz endereço, shows de André Barbosa e Dino’s Rock Acústico, expositores, alimentação, troféus e arrecadação de ração; não informa contato, estacionamento nem condição geral de entrada.",
+        "body": "## Serviço confirmado no flyer\n\nO Guardião do Destino MF anuncia seu 6º aniversário para 22 de agosto de 2026, a partir das 13h, na Rua Maria Madalena Bernardino, 97, Jardim dos Ipês (Itinga), em Salto de Pirapora/SP. A checagem ocorreu no próprio dia divulgado; sem fonte em tempo real ou horário de encerramento, a página permanece como agendada em vez de presumir realização ou término.\n\n## Música, estrutura e ação solidária\n\nAndré Barbosa e Dino’s Rock Acústico aparecem como atrações. O material também anuncia troféus para moto clubes e moto grupos, bebidas a preço justo, espetinhos, porções, expositores e artesanato. Há uma campanha de arrecadação de ração para cães e gatos em apoio ao projeto identificado no flyer como ONG Valorize, com referência ao perfil @projeto_eu_valorizo.\n\n## O que conferir\n\nA divulgação não informa contato, estacionamento, horário de encerramento nem se a doação de ração é requisito de entrada. O apoio de grupos e do projeto social não foi confundido com a realização do evento.",
+        "official_url": "https://jb-rider.com.br/evento/20260822-guardiao-do-destino-mf-salto-de-pirapora-sp",
+        "verification_status": "flyer_especifico_com_edicao_data_horario_endereco_programa_e_acao_solidaria; sem_confirmacao_em_tempo_real",
+        "last_updated": "2026-08-22T22:55:07-04:00",
+        "time_label": "22 de agosto de 2026, a partir das 13h; encerramento não informado",
+        "venue": "Endereço divulgado no Jardim dos Ipês (Itinga)",
+        "street_address": "Rua Maria Madalena Bernardino, 97",
+        "neighborhood": "Jardim dos Ipês (Itinga)",
+        "full_address": "Rua Maria Madalena Bernardino, 97, Jardim dos Ipês (Itinga), Salto de Pirapora - SP",
+        "status_basis": "A checagem ocorreu em 22 de agosto, mesma data do evento e após o horário inicial divulgado; sem confirmação em tempo real ou encerramento informado, o estado permanece agendado.",
+        "status_checked_at": "2026-08-22T22:55:07-04:00",
+        "organizer": "Guardião do Destino MF",
+        "contact": "Não informado no flyer consultado",
+        "source_checked_at": "2026-08-22T22:55:07-04:00",
+        "admission_status": "Entrada geral não informada; o flyer divulga arrecadação de ração para cães e gatos sem dizer que seja condição de acesso",
+        "parking": "Não informado no flyer consultado",
+        "attractions": [
+          "André Barbosa",
+          "Dino’s Rock Acústico",
+          "Troféus para moto clubes e moto grupos",
+          "Expositores e artesanato",
+          "Espetinhos, porções e bebidas",
+          "Arrecadação de ração para cães e gatos"
+        ]
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"6º Aniversário\" \"Guardião do Destino MF\"",
+          "\"Rua Maria Madalena Bernardino, 97\" evento",
+          "\"projeto_eu_valorizo\" Salto de Pirapora"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "saltodepirapora.sp.gov.br",
+          "instagram.com",
+          "motofestbrasil.com.br"
+        ],
+        "result": "flyer_especifico_legivel_com_servico_detalhado; nenhuma_confirmacao_independente_ou_em_tempo_real_localizada",
+        "uncertainties": [
+          "A realização e o encerramento não foram confirmados em tempo real.",
+          "Contato, estacionamento e regra geral de entrada não aparecem no flyer."
+        ]
+      }
+    },
+    {
+      "slug": "guardioes-mc-iacu-ba-2026-10-10",
+      "updates": {
+        "title": "1º Motofest dos Guardiões 2026 — programação de 10 de outubro",
+        "short_name": "1º Motofest dos Guardiões",
+        "city": "Iaçu",
+        "status": "agendada",
+        "summary": "Este cadastro preserva o flyer de 10 de outubro do 1º Motofest dos Guardiões, em Iaçu/BA, com a banda Rock Nibs. Um segundo flyer da mesma edição anuncia o período geral de 9 a 11 de outubro; as duas páginas foram mantidas e relacionadas, preservando o registro específico da programação diária.",
+        "body": "## Programação de 10 de outubro\n\nO flyer desta página anuncia o 1º Motofest dos Guardiões 2026 em Iaçu/BA para 10 de outubro e destaca a banda Rock Nibs. Os logotipos identificam a realização dos Guardiões de Iaçu e apoio da Prefeitura, da Secretaria Municipal de Cultura, Turismo e Comércio e da representação local da AMO-BA.\n\n## Relação com o cadastro de três dias\n\nOutro flyer com o mesmo nome, identidade visual, cidade e apoiadores informa 9, 10 e 11 de outubro. A evidência indica que este registro de 10 de outubro representa uma data de programação dentro da janela maior, e não um evento diferente. A página foi mantida e passou a explicar essa relação.\n\n## Serviço pendente\n\nNenhum dos dois materiais informa local exato, horários, contato, entrada ou estacionamento. Rock Nibs só foi atribuído ao dia 10, como mostra o flyer específico; não se presume apresentação nos demais dias.",
+        "official_url": "https://jb-rider.com.br/evento/20261010-guardioes-mc-iacu-ba",
+        "verification_status": "flyer_especifico_de_programacao_em_10_outubro_vinculado_a_janela_geral_9_a_11; pagina_preservada",
+        "last_updated": "2026-08-22T22:55:07-04:00",
+        "time_label": "Programação com Rock Nibs em 10 de outubro; horário não publicado. Flyer complementar anuncia o evento de 9 a 11 de outubro",
+        "venue": "Local do 1º Motofest dos Guardiões ainda não informado",
+        "street_address": "Endereço ainda não informado nos flyers da edição",
+        "full_address": "Iaçu - BA; endereço detalhado pendente",
+        "status_basis": "Os flyers específicos indicam 9 a 11 de outubro de 2026 e programação em 10 de outubro, período futuro na checagem; não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-22T22:55:07-04:00",
+        "organizer": "Guardiões de Iaçu - BA; apoios municipais e da AMO-BA aparecem nos flyers",
+        "contact": "Não informado nos flyers consultados",
+        "source_checked_at": "2026-08-22T22:55:07-04:00",
+        "admission_status": "Não informado nos flyers consultados",
+        "parking": "Não informado nos flyers consultados",
+        "attractions": [
+          "Rock Nibs — flyer de 10 de outubro"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://jb-rider.com.br/evento/20261009-3-guardioes-mg-iacu-ba",
+          "label": "JB-RIDER — flyer complementar do 1º Motofest dos Guardiões",
+          "type": "flyer_companheiro_da_mesma_edicao",
+          "supports": "Confirma o mesmo nome, cidade e identidade visual e amplia a janela geral para 9, 10 e 11 de outubro; não informa horários ou local."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"1º Motofest dos Guardiões\" Iaçu 2026",
+          "\"Rock Nibs\" Iaçu outubro 2026",
+          "site:iacu.ba.gov.br Motofest Guardiões 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "iacu.ba.gov.br",
+          "instagram.com",
+          "facebook.com"
+        ],
+        "result": "dois_flyers_da_mesma_edicao_relacionados; registro_de_10_outubro_interpretado_como_programacao_dentro_da_janela_9_a_11",
+        "uncertainties": [
+          "Local, horários, contato, entrada e estacionamento não foram publicados.",
+          "Não foi encontrada publicação municipal específica da edição além dos logotipos de apoio nos flyers."
+        ]
+      }
+    },
+    {
+      "slug": "guardioes-mg-iacu-ba-2026-10-09",
+      "updates": {
+        "title": "1º Motofest dos Guardiões 2026",
+        "short_name": "1º Motofest dos Guardiões",
+        "city": "Iaçu",
+        "status": "agendada",
+        "summary": "O flyer geral do 1º Motofest dos Guardiões anuncia a edição em Iaçu/BA de 9 a 11 de outubro de 2026. Um flyer complementar da mesma identidade divulga Rock Nibs em 10 de outubro; as duas páginas foram mantidas e conectadas, sem presumir horários, local ou atrações para os outros dias.",
+        "body": "## Período geral\n\nO flyer desta página anuncia o 1º Motofest dos Guardiões 2026 em Iaçu/BA nos dias 9, 10 e 11 de outubro. Os logotipos apontam realização dos Guardiões de Iaçu e apoio da Prefeitura, da Secretaria Municipal de Cultura, Turismo e Comércio e da representação local da AMO-BA.\n\n## Flyer complementar\n\nUm segundo cadastro com o mesmo nome, cidade, edição e apoiadores destaca a banda Rock Nibs em 10 de outubro. A combinação das duas peças permite registrar a janela completa e uma atração do sábado, mas não autoriza distribuir a banda pelos três dias. A página original permanece acessível apesar da grafia “MG” em seu endereço.\n\n## Informações ainda necessárias\n\nLocal, horários diários, contato, entrada, estacionamento e demais atrações não aparecem nas peças consultadas. A página deve ser atualizada quando a organização publicar o serviço completo.",
+        "official_url": "https://jb-rider.com.br/evento/20261009-3-guardioes-mg-iacu-ba",
+        "verification_status": "flyer_geral_confirma_1o_motofest_e_periodo_9_a_11; flyer_companheiro_confirma_rock_nibs_em_10; pagina_preservada",
+        "last_updated": "2026-08-22T22:55:07-04:00",
+        "time_label": "De 9 a 11 de outubro de 2026; horários diários não publicados. Rock Nibs é divulgado para 10 de outubro",
+        "venue": "Local do 1º Motofest dos Guardiões ainda não informado",
+        "street_address": "Endereço ainda não informado nos flyers da edição",
+        "full_address": "Iaçu - BA; endereço detalhado pendente",
+        "status_basis": "O flyer geral informa 9 a 11 de outubro de 2026, período futuro na checagem; não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-22T22:55:07-04:00",
+        "organizer": "Guardiões de Iaçu - BA; apoios municipais e da AMO-BA aparecem nos flyers",
+        "contact": "Não informado nos flyers consultados",
+        "source_checked_at": "2026-08-22T22:55:07-04:00",
+        "admission_status": "Não informado nos flyers consultados",
+        "parking": "Não informado nos flyers consultados",
+        "attractions": [
+          "Rock Nibs — divulgado especificamente para 10 de outubro"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://jb-rider.com.br/evento/20261010-guardioes-mc-iacu-ba",
+          "label": "JB-RIDER — flyer de programação do 1º Motofest dos Guardiões em 10 de outubro",
+          "type": "flyer_companheiro_da_mesma_edicao",
+          "supports": "Confirma o mesmo evento em Iaçu e identifica Rock Nibs no material datado de 10 de outubro; não informa horário ou endereço."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"1º Motofest dos Guardiões\" \"9 10 e 11\"",
+          "\"Guardiões de Iaçu\" Motofest 2026",
+          "site:iacu.ba.gov.br Motofest outubro 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "iacu.ba.gov.br",
+          "instagram.com",
+          "facebook.com"
+        ],
+        "result": "flyer_geral_e_flyer_de_programacao_relacionados_com_identidade_visual_datas_e_apoios_coincidentes",
+        "uncertainties": [
+          "A sigla “MG” no endereço original da página não foi usada para alterar a identidade visual; o flyer identifica Guardiões de Iaçu - BA.",
+          "Serviço completo e publicação municipal específica não foram encontrados."
+        ]
+      }
+    },
+    {
+      "slug": "guardioes-do-horizonte-mc-porto-da-folha-se-2026-08-08",
+      "updates": {
+        "status": "concluida",
+        "summary": "O registro específico marcou o Guardiões do Horizonte MC em Porto da Folha/SE para 8 de agosto de 2026, às 18h, com área de camping. A imagem original hoje está indisponível e não foi encontrada confirmação independente da realização, do local ou das regras de acesso.",
+        "body": "## Registro preservado\n\nA agenda JB-RIDER associa o Guardiões do Horizonte MC a Porto da Folha/SE em 8 de agosto de 2026, com marcação de 18h. Como a data terminou, o estado é concluído por calendário, sem afirmar que o encontro efetivamente ocorreu.\n\n## Camping sem detalhes operacionais\n\nA extração do material original menciona área de camping, mas não informa endereço, reserva, estrutura, custo ou regras de uso. O arquivo visual vinculado não estava mais disponível na checagem.\n\n## Lacunas\n\nNão foram localizados contato, responsável operacional, entrada, estacionamento, atrações nominais ou registro pós-evento em fonte verificável. Nenhum serviço de outra edição foi transplantado.",
+        "official_url": "https://jb-rider.com.br/evento/20260808-guardioes-do-horizonte-mc-porto-da-folha-se",
+        "verification_status": "registro_especifico_com_data_horario_e_camping_extraidos; imagem_indisponivel_e_realizacao_nao_confirmada",
+        "last_updated": "2026-08-22T22:55:07-04:00",
+        "time_label": "8 de agosto de 2026, às 18h, conforme extração do material original",
+        "venue": "Local da edição não recuperado em fonte verificável",
+        "street_address": "Endereço da edição não recuperado em fonte verificável",
+        "full_address": "Porto da Folha - SE; endereço detalhado pendente",
+        "status_basis": "A data divulgada, 8 de agosto de 2026, já terminou; isso encerra a janela de agenda, mas não comprova a realização.",
+        "status_checked_at": "2026-08-22T22:55:07-04:00",
+        "organizer": "Guardiões do Horizonte MC aparece no cadastro; responsável operacional não confirmado",
+        "contact": "Não recuperado em fonte específica da edição",
+        "source_checked_at": "2026-08-22T22:55:07-04:00",
+        "admission_status": "Não informado no material recuperável",
+        "parking": "Não informado no material recuperável",
+        "attractions": [
+          "Área de camping mencionada sem detalhes operacionais",
+          "Programação artística não identificada"
+        ]
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"Guardiões do Horizonte MC\" \"Porto da Folha\" 2026",
+          "\"Guardioes do Horizonte\" \"8 de agosto\" Sergipe",
+          "site:portodafolha.se.gov.br motociclistas 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "portodafolha.se.gov.br",
+          "motofestbrasil.com.br",
+          "mototour.com.br"
+        ],
+        "result": "registro_especifico_preservado; nenhuma_segunda_fonte_ou_confirmacao_pos_evento_localizada",
+        "uncertainties": [
+          "Não há comprovação independente da realização.",
+          "Local, camping, contato, acesso e programação carecem de detalhes."
+        ]
+      }
+    },
+    {
+      "slug": "guerreiros-alados-mc-braganca-paulista-sp-2026-11-29",
+      "updates": {
+        "title": "5º Aniversário do Guerreiros Alados MC",
+        "short_name": "5 anos do Guerreiros Alados MC",
+        "city": "Bragança Paulista",
+        "status": "agendada",
+        "summary": "O Guerreiros Alados MC anuncia sua comemoração de cinco anos para 29 de novembro de 2026, na Chácara Recanto da Alegria, em Bragança Paulista/SP. O flyer confirma apresentação de Chris Possetti, DJ Jhonny e as bandas Mr. Noow e 1/4 de Rock; horário, entrada, contato e estacionamento permanecem sem informação.",
+        "body": "## Aniversário de cinco anos\n\nO flyer específico anuncia os cinco anos do Guerreiros Alados MC em 29 de novembro de 2026, na Chácara Recanto da Alegria, em Bragança Paulista/SP. A orientação reproduzida no material é seguir pela Estrada Fernando Frias Fernandes, sentido Agudo, por quatro quilômetros após o marco descrito como “Arcor”. Como se trata de referência de rota e não de número predial, convém confirmar o ponto antes de sair.\n\n## Programação divulgada\n\nChris Possetti aparece na apresentação, DJ Jhonny na discotecagem e Mr. Noow e 1/4 de Rock como bandas.\n\n## Serviço pendente\n\nO flyer não informa horário de início ou fim, contato, condição de entrada, estacionamento ou camping. Esses itens não foram completados com dados de outras festas.",
+        "official_url": "https://jb-rider.com.br/evento/20261129-guerreiros-alados-mc-braganca-paulista-sp",
+        "verification_status": "flyer_especifico_com_aniversario_data_local_referencia_de_rota_e_atracoes; horario_acesso_e_contato_pendentes",
+        "last_updated": "2026-08-22T22:55:07-04:00",
+        "time_label": "29 de novembro de 2026; horário ainda não publicado",
+        "venue": "Chácara Recanto da Alegria",
+        "street_address": "Estrada Fernando Frias Fernandes, sentido Agudo; 4 km após o marco “Arcor”, conforme o flyer",
+        "full_address": "Chácara Recanto da Alegria, Estrada Fernando Frias Fernandes, sentido Agudo, Bragança Paulista - SP; confirmar o ponto indicado no flyer",
+        "status_basis": "O flyer específico informa 29 de novembro de 2026, data futura na checagem; não foi localizado aviso de cancelamento.",
+        "status_checked_at": "2026-08-22T22:55:07-04:00",
+        "organizer": "Guerreiros Alados MC",
+        "contact": "Não informado no flyer consultado",
+        "source_checked_at": "2026-08-22T22:55:07-04:00",
+        "admission_status": "Não informado no flyer consultado",
+        "parking": "Não informado no flyer consultado",
+        "attractions": [
+          "Chris Possetti — apresentação",
+          "DJ Jhonny",
+          "Mr. Noow",
+          "1/4 de Rock"
+        ]
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"Guerreiros Alados MC\" \"29 de novembro de 2026\"",
+          "\"Chácara Recanto da Alegria\" \"Guerreiros Alados\"",
+          "\"Mr. Noow\" \"1/4 de Rock\" Bragança"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "braganca.sp.gov.br",
+          "instagram.com",
+          "facebook.com"
+        ],
+        "result": "flyer_especifico_legivel_com_local_referencia_e_programacao; nenhuma_segunda_fonte_da_edicao_localizada",
+        "uncertainties": [
+          "A referência “Arcor” foi reproduzida do flyer e precisa ser confirmada como ponto de rota.",
+          "Horário, contato, entrada, estacionamento e camping não foram informados."
+        ]
+      }
+    },
+    {
+      "slug": "ii-moto-festival-pocos-de-caldas-mg-2026-08-07",
+      "updates": {
+        "title": "II Poços Moto Festival",
+        "short_name": "Poços Moto Festival",
+        "city": "Poços de Caldas",
+        "status": "concluida",
+        "summary": "O II Poços Moto Festival foi realizado de 7 a 9 de agosto de 2026 no estacionamento do Estádio Municipal Dr. Ronaldo Junqueira, em Poços de Caldas/MG. A Prefeitura registrou cerca de 3,5 mil pessoas, 1,3 mil motocicletas e 3,5 toneladas de alimentos arrecadados; a cobertura prévia confirmou entrada com 2 kg de alimento, dez bandas, expositores, alimentação e estacionamento fechado com segurança.",
+        "body": "## Evento realizado\n\nA Prefeitura de Poços de Caldas confirmou a realização do II Poços Moto Festival entre 7 e 9 de agosto de 2026. O encontro ocupou o estacionamento do Estádio Municipal Dr. Ronaldo Junqueira, o Ronaldão. A divulgação prévia informava entrada mediante entrega de 2 kg de alimento não perecível, estacionamento fechado com segurança, dez bandas, praça de alimentação, expositores e concessionárias.\n\n## Resultado solidário\n\nO balanço municipal registrou público aproximado de 3.500 pessoas, cerca de 1.300 motocicletas e 3.500 kg de alimentos arrecadados. O Jornal Mantiqueira corroborou os números e detalhou a participação de 12 moto clubes na organização.\n\n## Organização e limites do serviço\n\nHumberto Perez aparece como coordenador, acompanhado pelos clubes Canibais, Carrascos, Ciganos, Esquadrão Quadrangular, Irons N’ Bones, Moto Clube Adventista, Musashi, Navajo, Pregadores do Asfalto, Rota X, Tartarugas do Asfalto e Liberdade. As fontes atuais não publicam número predial, horários diários nem contato; dados da primeira edição não foram copiados.",
+        "official_url": "https://pocosdecaldas.mg.gov.br/noticias/ii-pocos-moto-festival-reune-publico-de-35-mil-pessoas-e-arrecada-35-toneladas-de-alimentos/",
+        "verification_status": "realizacao_confirmada_por_prefeitura_e_imprensa_local_com_local_acesso_programa_e_balanco_pos_evento",
+        "last_updated": "2026-08-22T22:55:07-04:00",
+        "time_label": "De 7 a 9 de agosto de 2026; horários diários não recuperados nas fontes atuais",
+        "venue": "Estacionamento do Estádio Municipal Dr. Ronaldo Junqueira (Ronaldão)",
+        "street_address": "Número e logradouro não informados nas fontes específicas consultadas",
+        "full_address": "Estacionamento do Estádio Municipal Dr. Ronaldo Junqueira (Ronaldão), Poços de Caldas - MG",
+        "status_basis": "A Prefeitura de Poços de Caldas e a imprensa local publicaram balanços pós-evento que confirmam a realização de 7 a 9 de agosto de 2026.",
+        "status_checked_at": "2026-08-22T22:55:07-04:00",
+        "organizer": "Coordenação de Humberto Perez com Canibais, Carrascos, Ciganos, Esquadrão Quadrangular, Irons N’ Bones, Moto Clube Adventista, Musashi, Navajo, Pregadores do Asfalto, Rota X, Tartarugas do Asfalto e Liberdade; apoio da Prefeitura",
+        "contact": "Contato da edição não localizado nas fontes atuais consultadas",
+        "source_checked_at": "2026-08-22T22:55:07-04:00",
+        "admission_status": "Entrada divulgada mediante entrega de 2 kg de alimento não perecível",
+        "parking": "Estacionamento fechado com segurança, conforme a cobertura prévia da edição",
+        "attractions": [
+          "Dez bandas",
+          "Praça de alimentação",
+          "Expositores",
+          "Concessionárias",
+          "Ação solidária de arrecadação de alimentos"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://pocosdecaldas.mg.gov.br/noticias/ii-pocos-moto-festival-reune-publico-de-35-mil-pessoas-e-arrecada-35-toneladas-de-alimentos/",
+          "label": "Prefeitura de Poços de Caldas — balanço do II Poços Moto Festival",
+          "type": "prefeitura_pos_evento",
+          "supports": "Confirma a realização de 7 a 9 de agosto de 2026 e registra aproximadamente 3.500 pessoas, 1.300 motocicletas e 3.500 kg de alimentos."
+        },
+        {
+          "url": "https://portaldepocos.com.br/moto-pocos-festival-deve-reunir-cerca-de-3-mil-visitantes-ate-domingo-em-pocos/",
+          "label": "Portal de Poços — serviço do II Poços Moto Festival",
+          "type": "imprensa_local_pre_evento",
+          "supports": "Confirma o estacionamento do Ronaldão, entrada com 2 kg de alimento, dez bandas, alimentação, expositores, concessionárias e estacionamento fechado com segurança."
+        },
+        {
+          "url": "https://www.jornalmantiqueira.com.br/2026/08/21/ii-pocos-moto-festival-reune-3-500-pessoas-mais-de-1-300-motocicletas-e-arrecada-35-toneladas-de-alimentos/",
+          "label": "Jornal Mantiqueira — balanço e organizadores do II Poços Moto Festival",
+          "type": "imprensa_local_pos_evento",
+          "supports": "Corrobora público, motocicletas e arrecadação e identifica os 12 moto clubes envolvidos na organização."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"II Poços Moto Festival\" 2026",
+          "site:pocosdecaldas.mg.gov.br \"II Poços Moto Festival\"",
+          "\"II Poços Moto Festival\" Ronaldão 7 9 agosto",
+          "\"II Poços Moto Festival\" 3500 pessoas"
+        ],
+        "domains_checked": [
+          "pocosdecaldas.mg.gov.br",
+          "portaldepocos.com.br",
+          "jornalmantiqueira.com.br",
+          "esportepocos.blogspot.com",
+          "jb-rider.com.br"
+        ],
+        "result": "realizacao_local_acesso_programa_e_resultado_confirmados_por_tres_fontes_especificas_da_edicao",
+        "uncertainties": [
+          "As fontes atuais não informam horários diários nem contato da edição.",
+          "O número predial não foi preenchido com dados de 2025."
+        ]
+      }
+    }
+  ]
+}

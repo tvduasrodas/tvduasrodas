@@ -1,0 +1,915 @@
+{
+  "batch": "j",
+  "reviewed_at": "2026-08-22",
+  "entries": [
+    {
+      "slug": "kveiras-do-amanhecer-belo-horizonte-mg-2026-07-25",
+      "updates": {
+        "status": "concluida",
+        "summary": "A página preserva a divulgação de Kveiras do Amanhecer em Belo Horizonte/MG para 25 de julho de 2026. A mídia específica confirma nome, cidade e data, mas não foi localizada uma publicação independente do organizador com endereço, horário, programação ou confirmação posterior de realização.",
+        "body": "## Registro preservado\n\nA divulgação específica vinculada à página apresenta Kveiras do Amanhecer em Belo Horizonte/MG, com data de 25 de julho de 2026. A fonte disponível é um arquivo de vídeo hospedado na agenda JB-RIDER. A grafia **Kveiras** foi mantida exatamente como publicada: as buscas por variações não forneceram base para alterar o nome para outra palavra.\n\n## Serviço não confirmado\n\nNão foram identificados local, rua, horário, responsável nominal, contato, regra de entrada, estacionamento ou atrações em fonte verificável da edição de 2026. Esses campos permanecem explicitamente pendentes para evitar que dados de outro encontro sejam atribuídos a esta página.\n\n## Situação da data\n\nA data anunciada já terminou no fuso de Belo Horizonte. Isso permite classificar a agenda como concluída no tempo, mas não comprova que a atividade efetivamente ocorreu. Não foi encontrado balanço, álbum ou comunicado posterior do organizador.",
+        "official_url": "https://jb-rider.com.br/eventos/20260725___Kveiras%20do%20Amanhecer_Belo%20Horizonte_MG.mp4",
+        "verification_status": "midia_especifica_unica_sem_fonte_do_organizador_ou_confirmacao_independente",
+        "last_updated": "2026-08-22T23:30:00-04:00",
+        "time_label": "Horário não confirmado para a edição de 25 de julho de 2026",
+        "venue": "Local da atividade de 2026 não confirmado",
+        "street_address": "Endereço não confirmado",
+        "full_address": "Belo Horizonte - MG; endereço detalhado não confirmado",
+        "status_basis": "A data divulgada, 25 de julho de 2026, já terminou; não foi localizada confirmação posterior de que o encontro ocorreu.",
+        "status_checked_at": "2026-08-22T23:30:00-04:00",
+        "organizer": "Organização não identificada em fonte verificável",
+        "contact": "Contato da edição de 2026 não localizado",
+        "source_checked_at": "2026-08-22T23:30:00-04:00",
+        "admission_status": "Não informado na divulgação localizada",
+        "parking": "Não informado na divulgação localizada",
+        "attractions": [
+          "Programação não confirmada"
+        ]
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"Kveiras do Amanhecer\" Belo Horizonte 2026",
+          "\"Kveiras do Amanhecer\" motociclistas",
+          "\"Caveiras do Amanhecer\" Belo Horizonte 25 julho 2026",
+          "site:instagram.com \"Kveiras do Amanhecer\""
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "instagram.com",
+          "facebook.com"
+        ],
+        "result": "fonte_especifica_unica_em_video; servico_e_realizacao_nao_confirmados",
+        "uncertainties": [
+          "Não foi possível identificar organizador ou natureza da atividade sem especulação.",
+          "Não há base verificável para corrigir ou expandir a grafia Kveiras.",
+          "O término da data não constitui prova de realização."
+        ]
+      }
+    },
+    {
+      "slug": "lady-rider-mg-jacana-sao-paulo-sp-2026-08-15",
+      "updates": {
+        "status": "concluida",
+        "summary": "Lady Rider MG foi divulgada para 15 de agosto de 2026 no Jaçanã, distrito de São Paulo/SP, com acessórios e troféus mencionados no flyer. Horário, endereço detalhado, acesso, estacionamento e confirmação de realização não foram encontrados em fonte independente.",
+        "body": "## O que a divulgação confirma\n\nO flyer específico e a agenda corrente da JB-RIDER registram Lady Rider MG em 15 de agosto de 2026, no Jaçanã, em São Paulo/SP. A arte menciona acessórios e troféus, mas não fornece, de forma verificável, a programação completa.\n\n## Local e serviço pendentes\n\nJaçanã é a referência territorial disponível; rua, número, nome do espaço, horário, contato, ingresso e estacionamento não foram confirmados. A sigla **MG** faz parte do nome exibido e não foi expandida, pois não foi localizada uma fonte do grupo que explique seu significado.\n\n## Situação da data\n\nA data anunciada já terminou. A classificação como concluída é apenas temporal: não foi localizada publicação posterior que comprove realização, público, atrações ou eventual cancelamento.",
+        "official_url": "https://jb-rider.com.br/evento/20260815-lady-rider-mg-jacana-sao-paulo-sp",
+        "verification_status": "flyer_especifico_e_repeticao_na_mesma_agenda_sem_fonte_independente",
+        "last_updated": "2026-08-22T23:30:00-04:00",
+        "time_label": "Horário não confirmado para 15 de agosto de 2026",
+        "venue": "Local da atividade de 2026 não confirmado",
+        "street_address": "Endereço não confirmado",
+        "full_address": "Jaçanã, São Paulo - SP; endereço detalhado não confirmado",
+        "status_basis": "A data divulgada, 15 de agosto de 2026, já terminou; não foi localizada confirmação independente de realização.",
+        "status_checked_at": "2026-08-22T23:30:00-04:00",
+        "organizer": "Lady Rider MG, conforme o flyer; responsável jurídico ou nominal não identificado",
+        "contact": "Contato da edição de 2026 não localizado",
+        "source_checked_at": "2026-08-22T23:30:00-04:00",
+        "admission_status": "Não informado na divulgação localizada",
+        "parking": "Não informado na divulgação localizada",
+        "attractions": [
+          "Acessórios mencionados no flyer",
+          "Troféus mencionados no flyer"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://jb-rider.com.br/eventos.php",
+          "label": "JB-RIDER — agenda corrente de eventos",
+          "type": "agenda_mesmo_dominio",
+          "supports": "Repete Lady Rider MG no Jaçanã em 15 de agosto de 2026; não é uma fonte independente nem acrescenta endereço ou horário."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Lady Rider MG\" Jaçanã 2026",
+          "\"Lady Rider MG\" \"15 de agosto\"",
+          "site:instagram.com \"Lady Rider MG\" Jaçanã",
+          "site:facebook.com \"Lady Rider MG\" Jaçanã"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "instagram.com",
+          "facebook.com"
+        ],
+        "result": "flyer_especifico_e_duplicata_no_mesmo_dominio; sem_confirmacao_independente",
+        "uncertainties": [
+          "Não foi identificado endereço, horário ou contato da edição.",
+          "Não foi possível expandir a sigla MG com segurança.",
+          "Não foi localizada prova posterior de realização."
+        ]
+      }
+    },
+    {
+      "slug": "motofest-lambari-mg-2026-08-14",
+      "updates": {
+        "status": "concluida",
+        "title": "13º Lambari Moto Fest 2026",
+        "short_name": "Lambari Moto Fest",
+        "end_date": "2026-08-15",
+        "summary": "O site oficial identifica a 13ª edição do Lambari Moto Fest em 14 e 15 de agosto de 2026, ao lado do Palácio do Cassino do Lago, com seis shows, camping gratuito, café da manhã, dinamômetro e Globo da Morte. Agendas especializadas ainda exibem término em 16 de agosto; a divergência foi mantida visível e o período oficial de 14 a 15 prevalece no serviço editorial.",
+        "body": "## Edição, datas e divergência\n\nO site oficial apresenta o **13º Lambari Moto Fest 2026** e informa realização em 14 e 15 de agosto. A programação nominal também se concentra nesses dois dias. JB-RIDER, Feti Moto e Mototour exibem o intervalo de 14 a 16 de agosto. Como a fonte primária do evento é mais específica e foi atualizada para 2026, o serviço adota 14 e 15 de agosto, sem apagar o conflito: não foi localizada programação oficial para o domingo, dia 16.\n\n## Local, acesso e ação solidária\n\nA organização situa o encontro ao lado do Palácio do Cassino do Lago. O Mototour registra Praça Edmundo Lins, Centro, como referência. O mesmo portal informa entrada franca, enquanto o site oficial determina a doação de 1 kg de alimento não perecível por participante, destinada ao Hospital São Vicente de Paulo de Lambari. A relação exata entre gratuidade e doação deve ser confirmada com a organização.\n\n## Programação oficial\n\nNa sexta-feira, 14 de agosto, o site oficial anuncia Curva D’Hill às 20h e Rural Willys às 22h. No sábado, 15 de agosto, aparecem The Stents às 18h, Cinner às 20h, Sete Galo às 22h e Boca de Sino às 24h. A página também lista David Locutor, dinamômetro e Globo da Morte.\n\n## Estrutura e contato\n\nA organização informa camping gratuito e café da manhã incluído para participantes. Os canais oficiais publicados são Alessandro Amaro, +55 35 98802-8978; Gilberto, +55 35 99761-3278; Jesuel (Jô), +55 35 98421-1247; e contato@lambarimotofest.com.br. Não foi encontrada regra específica de estacionamento.\n\n## Situação da data\n\nO período oficial terminou. Não foi localizada, durante esta revisão, uma fonte posterior independente que documente o balanço final; por isso, “concluída” indica somente que a janela anunciada passou.",
+        "official_url": "https://www.lambarimotofest.com.br/",
+        "verification_status": "site_oficial_com_programacao_e_servico; conflito_de_data_final_com_agendas_especializadas",
+        "last_updated": "2026-08-22T23:30:00-04:00",
+        "time_label": "14/08: Curva D’Hill 20h e Rural Willys 22h; 15/08: The Stents 18h, Cinner 20h, Sete Galo 22h e Boca de Sino 24h",
+        "venue": "Entorno do Palácio do Cassino do Lago",
+        "street_address": "Praça Edmundo Lins, Centro, segundo o Mototour; confirmar o ponto de acesso com a organização",
+        "full_address": "Ao lado do Palácio do Cassino do Lago, região central de Lambari - MG",
+        "status_basis": "O site oficial encerra a edição em 15 de agosto; agendas secundárias exibem 16 de agosto, mas não publicam programação oficial para esse dia. O término do período não comprova a realização.",
+        "status_checked_at": "2026-08-22T23:30:00-04:00",
+        "organizer": "Moto Clube Serra das Águas",
+        "contact": "Alessandro Amaro: +55 35 98802-8978; Gilberto: +55 35 99761-3278; Jesuel (Jô): +55 35 98421-1247; contato@lambarimotofest.com.br",
+        "source_checked_at": "2026-08-22T23:30:00-04:00",
+        "admission_status": "Entrada franca segundo o Mototour; o site oficial determina doação de 1 kg de alimento não perecível por participante; confirmar a regra de acesso",
+        "parking": "Estacionamento não informado nas fontes consultadas",
+        "attractions": [
+          "Curva D’Hill — 14 de agosto, 20h",
+          "Rural Willys — 14 de agosto, 22h",
+          "The Stents — 15 de agosto, 18h",
+          "Cinner — 15 de agosto, 20h",
+          "Sete Galo — 15 de agosto, 22h",
+          "Boca de Sino — 15 de agosto, 24h",
+          "David Locutor",
+          "Dinamômetro",
+          "Globo da Morte",
+          "Camping gratuito e café da manhã"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://www.lambarimotofest.com.br/",
+          "label": "Lambari Moto Fest — site oficial da edição 2026",
+          "type": "site_oficial_do_evento",
+          "supports": "Confirma 13ª edição, datas de 14 e 15 de agosto, local ao lado do Palácio do Cassino do Lago, grade de shows, contatos, camping, café da manhã, doação, dinamômetro e Globo da Morte."
+        },
+        {
+          "url": "https://www.fetimoto.com.br/eventos/13-lambari-moto-fest-9090",
+          "label": "Feti Moto — 13º Lambari Moto Fest",
+          "type": "agenda_especializada_da_edicao",
+          "supports": "Identifica o Moto Clube Serra das Águas, o local junto ao Cassino do Lago, as atrações e o intervalo de 14 a 16 de agosto, registrando a divergência de data final."
+        },
+        {
+          "url": "https://mototour.com.br/13-lambari-moto-fest",
+          "label": "Mototour — 13º Lambari Moto Fest",
+          "type": "portal_especializado_da_edicao",
+          "supports": "Registra Praça Edmundo Lins como referência, entrada franca, estrutura, organizador e contatos; também exibe 14 a 16 de agosto."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"13º Lambari Moto Fest\" 2026",
+          "\"Lambari Moto Fest\" \"14 a 16\" 2026",
+          "site:lambari.mg.gov.br \"Moto Fest\" 2026",
+          "site:instagram.com \"Lambari MotoFest 2026\""
+        ],
+        "domains_checked": [
+          "lambarimotofest.com.br",
+          "fetimoto.com.br",
+          "mototour.com.br",
+          "jb-rider.com.br",
+          "lambari.mg.gov.br",
+          "instagram.com"
+        ],
+        "result": "edicao_confirmada_em_site_oficial_com_programacao_completa; data_final_diverge_em_fontes_secundarias",
+        "uncertainties": [
+          "O site oficial encerra em 15 de agosto, enquanto três agendas exibem 16 de agosto.",
+          "A fonte oficial não publicou programação para 16 de agosto.",
+          "O Mototour informa entrada franca e o site oficial determina doação; a operacionalização dessa regra não foi esclarecida.",
+          "Não foi localizado balanço posterior independente da realização."
+        ]
+      }
+    },
+    {
+      "slug": "lobos-cinzentos-mc-salvador-ba-2026-08-08",
+      "updates": {
+        "status": "concluida",
+        "summary": "O flyer registra Lobos Cinzentos MC em Salvador/BA em 8 de agosto de 2026, às 19h30. Diretórios motociclísticos corroboram a identidade do clube em Salvador e fornecem contato, mas não confirmam endereço, programação ou realização desta edição.",
+        "body": "## Serviço da edição\n\nA divulgação específica anuncia Lobos Cinzentos MC em Salvador/BA, no dia 8 de agosto de 2026, às 19h30. Não foram localizados nome do espaço, rua, atrações, ingresso ou estacionamento em uma publicação própria do evento.\n\n## Identidade e contato do clube\n\nO diretório Motociclismo do Brasil mantém uma ficha de Lobos Cinzentos em Salvador, com Ricardo de Luna Freire Lima como presidente, telefone (71) 98295-0046 e e-mail lunafreire@bol.com.br. A listagem estadual do mesmo portal também associa o clube a Salvador. Esses dados corroboram a identidade, mas a ficha cadastral não transforma o endereço do clube em local do evento.\n\n## Situação da data\n\nA data já terminou e não foi localizado registro posterior específico. A página permanece como histórico da divulgação; “concluída” não significa que a realização tenha sido comprovada.",
+        "official_url": "https://jb-rider.com.br/evento/20260808-lobos-cinzentos-mc-salvador-ba",
+        "verification_status": "flyer_da_edicao_com_identidade_do_clube_corrobada; servico_e_realizacao_sem_confirmacao_independente",
+        "last_updated": "2026-08-22T23:30:00-04:00",
+        "time_label": "8 de agosto de 2026, às 19h30, conforme o flyer",
+        "venue": "Local da atividade de 2026 não confirmado",
+        "street_address": "Endereço do evento não confirmado",
+        "full_address": "Salvador - BA; o endereço cadastral do clube não foi tratado como local do evento",
+        "status_basis": "A data anunciada já terminou; não foi localizado comunicado posterior que comprove realização ou cancelamento.",
+        "status_checked_at": "2026-08-22T23:30:00-04:00",
+        "organizer": "Lobos Cinzentos MC; presidente cadastrado: Ricardo de Luna Freire Lima",
+        "contact": "(71) 98295-0046; lunafreire@bol.com.br, conforme cadastro do clube; confirmar atualidade e relação com o evento",
+        "source_checked_at": "2026-08-22T23:30:00-04:00",
+        "admission_status": "Não informado na divulgação localizada",
+        "parking": "Não informado na divulgação localizada",
+        "attractions": [
+          "Programação não confirmada"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://motociclismodobrasil.com.br/motoclubes/motoclube_4600.html",
+          "label": "Motociclismo do Brasil — ficha de Lobos Cinzentos",
+          "type": "diretorio_de_motoclube",
+          "supports": "Corrobora nome, cidade, presidente, telefone e e-mail do clube; não confirma a edição de 8 de agosto nem seu local."
+        },
+        {
+          "url": "https://motociclismodobrasil.com.br/motoclubes/Motoclubes_ba.html",
+          "label": "Motociclismo do Brasil — motoclubes da Bahia",
+          "type": "diretorio_estadual",
+          "supports": "Lista Lobos Cinzentos em Salvador, reforçando a associação geográfica; não fornece serviço da edição de 2026."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Lobos Cinzentos MC\" Salvador 8 agosto 2026",
+          "\"Lobos Cinzentos\" Salvador moto clube",
+          "site:instagram.com \"Lobos Cinzentos\" Salvador",
+          "site:facebook.com \"Lobos Cinzentos MC\" Salvador"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "motociclismodobrasil.com.br",
+          "blogspot.com",
+          "instagram.com",
+          "facebook.com"
+        ],
+        "result": "identidade_e_contato_do_clube_corrobados; edicao_atual_permanece_com_fonte_especifica_unica",
+        "uncertainties": [
+          "O endereço cadastral do clube não é prova do local da atividade.",
+          "Não foi encontrada programação ou regra de acesso da edição.",
+          "Não foi localizada confirmação posterior de realização."
+        ]
+      }
+    },
+    {
+      "slug": "lobos-mc-carlopolis-pr-2026-10-10",
+      "updates": {
+        "status": "agendada",
+        "title": "Lobos MC da Fronteira",
+        "short_name": "Lobos MC",
+        "summary": "Lobos MC da Fronteira tem encontro divulgado em Carlópolis/PR para 10 de outubro de 2026, com camping, café da manhã, bandas, troféus e estacionamento mencionados no flyer. Imprensa local e o registro da edição anterior corroboram a identidade do clube, mas local exato, horário e acesso de 2026 ainda precisam ser confirmados.",
+        "body": "## Data e identidade\n\nO flyer específico anuncia Lobos MC em Carlópolis/PR em 10 de outubro de 2026. A Tribuna do Vale identifica o grupo local como **Lobos MC da Fronteira** e também como Associação de Motociclistas Lobos da Fronteira, permitindo ampliar o nome sem alterar o slug preservado.\n\n## Estrutura anunciada\n\nA arte de 2026 menciona estacionamento, área de camping, café da manhã, bandas e troféus. O telefone publicado é (43) 99909-2933. Horário, endereço, regra de entrada, bandas e condições de uso do camping ou do estacionamento não foram divulgados de forma verificável.\n\n## Continuidade sem inferência de edição\n\nUma agenda histórica registra o 9º aniversário do MC Lobos da Fronteira em Carlópolis em 11 de outubro de 2025. Isso demonstra continuidade do encontro, mas não autoriza chamar a programação de 2026 de 10º aniversário nem reaproveitar horário ou local do ano anterior.\n\n## Antes de viajar\n\nComo a data ainda é futura, confirme diretamente pelo telefone do flyer eventuais mudanças, endereço, ingresso e estrutura disponível.",
+        "official_url": "https://jb-rider.com.br/evento/20261010-lobos-mc-carlopolis-pr",
+        "verification_status": "flyer_da_edicao_com_identidade_local_e_continuidade_historica_corrobadas; servico_parcial",
+        "last_updated": "2026-08-22T23:30:00-04:00",
+        "time_label": "10 de outubro de 2026; horário não confirmado",
+        "venue": "Local da edição de 2026 ainda não confirmado",
+        "street_address": "Endereço não confirmado",
+        "full_address": "Carlópolis - PR; endereço detalhado não confirmado",
+        "status_basis": "Data futura divulgada no flyer específico; não foi localizado aviso de cancelamento ou mudança até a revisão.",
+        "status_checked_at": "2026-08-22T23:30:00-04:00",
+        "organizer": "Associação de Motociclistas Lobos da Fronteira de Carlópolis / Lobos MC da Fronteira",
+        "contact": "(43) 99909-2933, conforme o flyer de 2026; confirmar atualidade",
+        "source_checked_at": "2026-08-22T23:30:00-04:00",
+        "admission_status": "Não informado na divulgação localizada",
+        "parking": "Estacionamento mencionado no flyer; localização, preço, capacidade e regras não informados",
+        "attractions": [
+          "Área de camping",
+          "Café da manhã",
+          "Bandas não nomeadas no material disponível",
+          "Troféus"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://tribunadovale.com.br/2025/09/08/reivindicacoes-priorizam-as-areas-de-infraestrutura-viaria-e-producao-agricola/",
+          "label": "Tribuna do Vale — representação de entidades de Carlópolis",
+          "type": "imprensa_local_sobre_o_organizador",
+          "supports": "Identifica Lobos MC da Fronteira e a Associação de Motociclistas Lobos da Fronteira como entidade de Carlópolis; não fornece serviço do encontro de 2026."
+        },
+        {
+          "url": "https://firesoulswebradio.com/evento/316845/dia-11102025-9aniversario-do-mc-lobos-da-fronteira-carlopolis-pr/",
+          "label": "Fire Souls Web Radio — 9º aniversário dos Lobos da Fronteira em 2025",
+          "type": "agenda_historica_da_edicao_anterior",
+          "supports": "Documenta evento do mesmo clube em Carlópolis em 11 de outubro de 2025, sustentando continuidade; nenhum horário ou local foi transferido para 2026."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Lobos MC da Fronteira\" Carlópolis 2026",
+          "\"Lobos da Fronteira\" Carlópolis 10 outubro 2026",
+          "site:tribunadovale.com.br \"Lobos MC da Fronteira\"",
+          "site:firesoulswebradio.com \"Lobos da Fronteira\" Carlópolis"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "tribunadovale.com.br",
+          "firesoulswebradio.com",
+          "instagram.com",
+          "facebook.com"
+        ],
+        "result": "edicao_2026_confirmada_por_flyer; identidade_do_organizador_e_edicao_anterior_corrobadas",
+        "uncertainties": [
+          "Não foi localizado endereço ou horário da edição de 2026.",
+          "Não há base para inferir que 2026 seja oficialmente o 10º aniversário.",
+          "Ingresso e regras de camping/estacionamento permanecem pendentes."
+        ]
+      }
+    },
+    {
+      "slug": "lobos-do-asfalto-mc-jardim-america-rio-de-janeiro-rj-2026-09-06",
+      "updates": {
+        "status": "agendada",
+        "title": "Lobos do Asfalto MC de Jardim América",
+        "short_name": "Lobos do Asfalto MC",
+        "summary": "O Lobos do Asfalto MC de Jardim América tem encontro divulgado para 6 de setembro de 2026, às 14h, com bandas e troféus. Outras fontes confirmam a atuação do clube no bairro, mas o endereço e a programação de um encontro mensal diferente não foram reaproveitados nesta edição.",
+        "body": "## Serviço confirmado no flyer\n\nA arte específica anuncia o Lobos do Asfalto MC em Jardim América, Rio de Janeiro/RJ, em 6 de setembro de 2026, às 14h. Bandas e troféus são mencionados, sem nomes, horários individuais ou regras de participação.\n\n## Identidade do clube\n\nUma agenda de 2026 documenta um encontro mensal do Lobos do Asfalto MC em Jardim América, e uma notícia da Prefeitura do Rio já identificava integrante do clube no bairro. Essas fontes reforçam identidade e atuação local.\n\n## O que não foi transferido\n\nO encontro mensal de 26 de junho de 2026 e uma festa de 2014 ocorreram na Praça Itapitanga, mas nenhuma fonte consultada afirma que a atividade de 6 de setembro usará o mesmo espaço. Por isso, Praça Itapitanga, Motoroad Band, alimentação gratuita e demais serviços de outras datas não integram o serviço desta página.\n\n## Antes de ir\n\nLocal, ingresso, estacionamento, contato e nomes das bandas continuam pendentes. A data permanece futura e deve ser reconfirmada com o organizador.",
+        "official_url": "https://jb-rider.com.br/evento/20260906-lobos-do-asfalto-mc-jardim-america-rio-de-janeiro-rj",
+        "verification_status": "flyer_da_edicao_com_identidade_e_atividade_local_corrobadas; endereco_e_programacao_pendentes",
+        "last_updated": "2026-08-22T23:30:00-04:00",
+        "time_label": "6 de setembro de 2026, às 14h, conforme o flyer",
+        "venue": "Local da edição de 6 de setembro ainda não confirmado",
+        "street_address": "Endereço não confirmado",
+        "full_address": "Jardim América, Rio de Janeiro - RJ; endereço detalhado não confirmado",
+        "status_basis": "Data futura divulgada no flyer específico; não foi localizado aviso de cancelamento ou alteração.",
+        "status_checked_at": "2026-08-22T23:30:00-04:00",
+        "organizer": "Lobos do Asfalto Moto Clube de Jardim América",
+        "contact": "Contato específico da edição de 2026 não localizado",
+        "source_checked_at": "2026-08-22T23:30:00-04:00",
+        "admission_status": "Não informado para a edição de 6 de setembro",
+        "parking": "Não informado para a edição de 6 de setembro",
+        "attractions": [
+          "Bandas não nomeadas no flyer disponível",
+          "Troféus"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://motofestbrasil.com.br/motofest/0800-mensal-lobos-do-asfalto-moto-clube",
+          "label": "Motofest Brasil — 0800 mensal Lobos do Asfalto, junho de 2026",
+          "type": "atividade_atual_do_mesmo_organizador_em_outra_data",
+          "supports": "Confirma atividade do Lobos do Asfalto MC em Jardim América em 2026; local, banda e alimentação dessa outra data não foram transferidos para 6 de setembro."
+        },
+        {
+          "url": "https://prefeitura.rio/parques-e-jardins/prefeitura-vai-reformar-quatro-areas-de-lazer-na-zona-norte/",
+          "label": "Prefeitura do Rio — áreas de lazer em Jardim América",
+          "type": "fonte_publica_historica_sobre_o_clube",
+          "supports": "Registra, em 2022, um morador de Jardim América como membro do clube Lobos do Asfalto; serve apenas para identidade e vínculo territorial."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Lobos do Asfalto\" \"Jardim América\" 6 setembro 2026",
+          "\"Lobos do Asfalto MC\" Jardim América 2026",
+          "site:instagram.com \"Lobos do Asfalto\" Jardim América",
+          "site:facebook.com \"Lobos do Asfalto MC\" \"Jardim América\""
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "motofestbrasil.com.br",
+          "prefeitura.rio",
+          "firesoulswebradio.com",
+          "motonline.com.br",
+          "instagram.com",
+          "facebook.com"
+        ],
+        "result": "flyer_da_edicao_e_identidade_local_corrobada; servico_especifico_ainda_incompleto",
+        "uncertainties": [
+          "Praça Itapitanga aparece em outras datas, não na divulgação de 6 de setembro.",
+          "Bandas, acesso, estacionamento e contato da edição permanecem sem confirmação.",
+          "Nenhum serviço histórico foi reaproveitado."
+        ]
+      }
+    },
+    {
+      "slug": "motofest-luis-eduardo-magalhaes-ba-2026-08-21",
+      "updates": {
+        "status": "concluida",
+        "title": "LEM Moto Fest 2026",
+        "short_name": "LEM Moto Fest",
+        "city": "Luís Eduardo Magalhães",
+        "summary": "A página oficial do LEM Rock Clube confirma o LEM Moto Fest 2026 na Avenida Kiichiro Murata, Jardim Imperial, em Luís Eduardo Magalhães/BA, com início em 21 de agosto às 8h e término cadastrado em 22 de agosto à 0h. O texto chama a programação de dois dias, mas não publica grade de bandas nem esclarece a aparente diferença entre essa descrição e o intervalo de horário.",
+        "body": "## Fonte oficial e local\n\nO LEM Rock Clube publicou uma página específica para o **LEM Moto Fest 2026**. O endereço informado é Avenida Kiichiro Murata, Jardim Imperial, Luís Eduardo Magalhães/BA, CEP 47850-000. O texto apresenta o encontro como programação de 21 e 22 de agosto, com motociclistas, música, amizade e cultura de estrada.\n\n## Horário e ressalva\n\nO cadastro oficial marca início em 21 de agosto de 2026 às 8h e término em 22 de agosto às 0h. Esse intervalo termina no começo do dia 22, embora o texto fale em “dois dias”. Como não há grade detalhada, o horário é reproduzido exatamente e a inconsistência permanece sinalizada, sem estender a programação por conta própria.\n\n## Acesso e atrações\n\nA página informa que ingressos não estão à venda. Essa mensagem não prova entrada gratuita, esgotamento ou cancelamento; a regra de acesso continua não confirmada. Também não foram publicados nomes ou horários de bandas, estacionamento ou estrutura para viajantes.\n\n## Organização e contato\n\nO LEM Rock Clube é uma associação sem fins lucrativos que promove eventos e fortalece a cena de rock do oeste baiano. A página de contato lista Rodrigo Faedo, (77) 99191-8136; Catu Viana, (77) 99980-6060; Carlos Souza, (77) 99976-6345; e Marcos Serrer, (77) 99992-0535.\n\n## Situação da data\n\nO intervalo cadastrado terminou no fuso da Bahia. Não foi localizada cobertura posterior independente durante a revisão; portanto, a classificação como concluída não comprova realização.",
+        "official_url": "https://www.lemrockclube.com.br/event-details/lem-moto-fest-2026",
+        "verification_status": "pagina_oficial_da_edicao_com_endereco_e_horario; descricao_de_dois_dias_diverge_do_fim_a_meia_noite",
+        "last_updated": "2026-08-22T23:30:00-04:00",
+        "time_label": "21 de agosto de 2026, 8h, a 22 de agosto de 2026, 0h, conforme o cadastro oficial; o texto também descreve dois dias",
+        "venue": "Avenida Kiichiro Murata",
+        "street_address": "Avenida Kiichiro Murata, Jardim Imperial",
+        "full_address": "Avenida Kiichiro Murata, Jardim Imperial, Luís Eduardo Magalhães - BA, CEP 47850-000",
+        "status_basis": "O intervalo oficial encerrou às 0h de 22 de agosto; não foi localizada confirmação posterior de realização.",
+        "status_checked_at": "2026-08-22T23:30:00-04:00",
+        "organizer": "LEM Rock Clube",
+        "contact": "Rodrigo Faedo: (77) 99191-8136; Catu Viana: (77) 99980-6060; Carlos Souza: (77) 99976-6345; Marcos Serrer: (77) 99992-0535",
+        "source_checked_at": "2026-08-22T23:30:00-04:00",
+        "admission_status": "A página diz que ingressos não estão à venda; não foi possível concluir se a entrada era gratuita, encerrada ou controlada de outra forma",
+        "parking": "Não informado na página oficial consultada",
+        "attractions": [
+          "Encontro de motociclistas",
+          "Música, sem atrações nomeadas na página oficial",
+          "Confraternização da comunidade de duas rodas"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://www.lemrockclube.com.br/event-details/lem-moto-fest-2026",
+          "label": "LEM Rock Clube — LEM Moto Fest 2026",
+          "type": "pagina_oficial_da_edicao",
+          "supports": "Confirma nome, datas, intervalo de horário, Avenida Kiichiro Murata, bairro, CEP e descrição geral do encontro."
+        },
+        {
+          "url": "https://www.lemrockclube.com.br/contato",
+          "label": "LEM Rock Clube — contato da diretoria",
+          "type": "pagina_oficial_do_organizador",
+          "supports": "Fornece os quatro contatos de diretoria usados como canais do organizador; não acrescenta programação da edição."
+        },
+        {
+          "url": "https://www.lemrockclube.com.br/event-list",
+          "label": "LEM Rock Clube — agenda oficial",
+          "type": "agenda_oficial_do_organizador",
+          "supports": "Mantém o LEM Moto Fest 2026 listado para 21 de agosto na Avenida Kiichiro Murata."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"LEM Moto Fest 2026\"",
+          "\"LEM Moto Fest\" \"21 e 22 de agosto\"",
+          "site:lemrockclube.com.br \"LEM MOTO FEST 2026\"",
+          "site:luiseduardomagalhaes.ba.gov.br \"Moto Fest\" 2026"
+        ],
+        "domains_checked": [
+          "lemrockclube.com.br",
+          "jb-rider.com.br",
+          "luiseduardomagalhaes.ba.gov.br",
+          "instagram.com",
+          "facebook.com"
+        ],
+        "result": "edicao_confirmada_em_pagina_oficial; servico_basico_confirmado; programacao_e_acesso_pendentes",
+        "uncertainties": [
+          "O texto descreve dois dias, mas o horário cadastrado termina às 0h do dia 22.",
+          "“Ingressos não estão à venda” não esclarece a regra de acesso.",
+          "Não foram encontrados nomes de atrações nem balanço posterior independente."
+        ]
+      }
+    },
+    {
+      "slug": "motofest-labrea-am-2026-08-07",
+      "updates": {
+        "status": "concluida",
+        "title": "1º EBA Sul do Amazonas — Expedição Transamazônica 2026",
+        "short_name": "Lábrea Moto Fest / EBA Sul do Amazonas",
+        "city": "Lábrea",
+        "summary": "O evento divulgado como Lábrea Moto Fest corresponde ao 1º EBA Sul do Amazonas e à Expedição Transamazônica 2026, promovidos pelo Moto Clube Bodes do Asfalto em Lábrea/AM. O site oficial e a imprensa indicam 7 a 9 de agosto, homenagem a João Gonçalves Filho (Gaú), programação maçônica e partida rumo a Cabedelo/PB; um calendário oficial do motoclube encerra o EBA em 8 de agosto, divergência mantida no texto.",
+        "body": "## Identificação da edição\n\nO site da organização apresenta o **1º EBA Sul do Amazonas — Expedição Transamazônica 2026**, em Lábrea/AM. A proposta marca os 50 anos da jornada de João Gonçalves Filho, o Gaú, e prepara uma partida de Lábrea até Cabedelo/PB. O Correio da Amazônia também usa o nome 1º Lábrea Moto Fest Internacional e descreve a expedição como confraternização de mototurismo, não competição.\n\n## Datas e divergência\n\nO site oficial estrutura a programação em 7, 8 e 9 de agosto, e a reportagem local confirma o intervalo de 7 a 9. Já o calendário de eventos oficiais do Moto Clube Bodes do Asfalto lista o 1º EBA Sul do Amazonas de 7 a 8 de agosto. O período de 7 a 9 foi mantido por estar sustentado pelo site específico e pela imprensa, mas a divergência não foi ocultada.\n\n## Programação e locais\n\nA página oficial lista um “esquenta por adesão” às 18h no Centro Social Maçônico de Lábrea; uma grande festa às 19h no Salão de Eventos da Loja Maçônica, com homenagens, música, alimentação e bebidas; show de Wilmen dos Anjos às 19h, com rock nacional e internacional; e a partida Lábrea/AM–Cabedelo/PB. A extração pública não preserva com segurança a associação de cada cartão a um dos três dias, por isso não foi criada uma grade diária além do que a fonte permite.\n\n## Inscrições e contato\n\nO site passou a informar inscrições encerradas. Ele exibia “Inscrição EBA” por R$ 240 por pessoa, com acesso e kit, e “Inscrição Expedição” por R$ 150 por pessoa, com acesso à expedição e ao EBA, kit e troféu. Os valores foram reproduzidos exatamente, sem tentar explicar a diferença. O coordenador Michales Malagueta aparece com WhatsApp +55 97 99152-4160; Wesley Palomeque é vice-coordenador e Francisco Albuquerque, secretário.\n\n## Situação da data\n\nO período divulgado terminou. As fontes encontradas eram de divulgação e planejamento; nenhuma cobertura posterior conclusiva foi localizada, então a classificação temporal não prova realização.",
+        "official_url": "https://bodessulamazonas.com.br/",
+        "verification_status": "site_oficial_e_imprensa_da_edicao_com_programacao; calendario_do_motoclube_diverge_na_data_final",
+        "last_updated": "2026-08-22T23:30:00-04:00",
+        "time_label": "Site oficial: esquenta às 18h; grande festa e show às 19h; programação associada a 7, 8 e 9 de agosto, com a distribuição diária a reconfirmar",
+        "venue": "Centro Social Maçônico de Lábrea e Salão de Eventos da Loja Maçônica, conforme a atividade",
+        "street_address": "Ruas e números dos locais não informados na página oficial",
+        "full_address": "Lábrea - AM; atividades no Centro Social Maçônico e no Salão de Eventos da Loja Maçônica",
+        "status_basis": "O período de 7 a 9 de agosto já terminou; um calendário oficial encerra em 8 de agosto e não foi localizado balanço posterior de realização.",
+        "status_checked_at": "2026-08-22T23:30:00-04:00",
+        "organizer": "Moto Clube Bodes do Asfalto — Lábrea/AM",
+        "contact": "Michales Malagueta, coordenador: +55 97 99152-4160; Wesley Palomeque, vice-coordenador; Francisco Albuquerque, secretário",
+        "source_checked_at": "2026-08-22T23:30:00-04:00",
+        "admission_status": "Inscrições encerradas; site oficial exibia EBA por R$ 240/pessoa e Expedição por R$ 150/pessoa, com benefícios distintos",
+        "parking": "Não informado nas fontes consultadas",
+        "attractions": [
+          "Esquenta por adesão às 18h",
+          "Grande festa com homenagens, alimentação e bebidas às 19h",
+          "Wilmen dos Anjos — rock nacional e internacional, às 19h",
+          "Homenagem a João Gonçalves Filho (Gaú)",
+          "Partida da Expedição Transamazônica de Lábrea/AM para Cabedelo/PB"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://bodessulamazonas.com.br/",
+          "label": "Bodes do Asfalto Sul do Amazonas — site oficial do evento",
+          "type": "site_oficial_da_edicao",
+          "supports": "Confirma identidade, propósito, dias 7/8/9, programação, locais nomeados, inscrições, preços, equipe e partida para Cabedelo."
+        },
+        {
+          "url": "https://correiodaamazonia.com/labrea-recebe-encontro-internacional-de-motociclistas-em-homenagem-a-pioneiro-da-transamazonica/",
+          "label": "Correio da Amazônia — Lábrea recebe encontro internacional",
+          "type": "imprensa_regional_da_edicao",
+          "supports": "Confirma 1º Lábrea Moto Fest Internacional, período de 7 a 9 de agosto, promoção pelos Bodes do Asfalto, homenagem a Gaú e caráter não competitivo."
+        },
+        {
+          "url": "https://cavaleirosdeacobh.com.br/site/eventos-oficiais-mcbda/bVyltX1SK1Q-3/atr.aspx",
+          "label": "Calendário de eventos oficiais do Moto Clube Bodes do Asfalto",
+          "type": "calendario_oficial_do_motoclube",
+          "supports": "Lista o 1º EBA Sul do Amazonas em Lábrea de 7 a 8 de agosto e Michales Malagueta, Wesley Palomeque e Dércio com o telefone (97) 99152-4160, documentando a divergência de término."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"Lábrea Moto Fest\" 2026 agosto",
+          "\"1º EBA Sul do Amazonas\" 2026",
+          "\"Expedição Transamazônica 2026\" Lábrea",
+          "site:labrea.am.gov.br motociclistas agosto 2026"
+        ],
+        "domains_checked": [
+          "bodessulamazonas.com.br",
+          "correiodaamazonia.com",
+          "cavaleirosdeacobh.com.br",
+          "jb-rider.com.br",
+          "labrea.am.gov.br"
+        ],
+        "result": "edicao_e_programacao_confirmadas_em_site_oficial_e_imprensa; conflito_de_data_final_documentado",
+        "uncertainties": [
+          "Site específico e imprensa indicam 7–9; calendário do motoclube indica 7–8.",
+          "A associação entre cada cartão de programação e cada dia não ficou preservada no texto público extraído.",
+          "Os preços foram mantidos como publicados, embora a inscrição da expedição apareça menor que a do EBA.",
+          "Não foi localizada cobertura posterior conclusiva."
+        ]
+      }
+    },
+    {
+      "slug": "mc-aguias-de-cristo-divino-mg-2026-07-25",
+      "updates": {
+        "status": "concluida",
+        "title": "MC Águias de Cristo",
+        "short_name": "Águias de Cristo MC",
+        "summary": "O flyer preservado anuncia o MC Águias de Cristo em Divino/MG em 25 de julho de 2026. Fontes oficiais confirmam a identidade e a presença nacional do motoclube, mas não foi localizada publicação do núcleo de Divino com local, horário, programação ou confirmação de realização.",
+        "body": "## Registro da edição\n\nA arte específica vinculada à página anuncia o MC Águias de Cristo em Divino/MG para 25 de julho de 2026. Nenhum endereço, horário, atração, regra de acesso ou estacionamento da edição foi confirmado em fonte independente.\n\n## Identidade do motoclube\n\nA loja oficial descreve o Águias de Cristo como motoclube evangélico iniciado em Nova Friburgo e hoje presente em várias cidades, estados e países. A página oficial do núcleo de Belo Horizonte também mostra atividades atuais em Minas Gerais, mas não lista este encontro de Divino. Esses dados ajudam a identificar a organização; não autorizam usar endereço, telefone ou programação de outro núcleo como serviço local.\n\n## Contato e situação\n\nO canal nacional publicado é +55 21 98829-0396. O contato do núcleo de Divino não foi localizado. A data já terminou, porém não houve confirmação posterior específica de realização; a página continua como registro da divulgação.",
+        "official_url": "https://jb-rider.com.br/evento/20260725-mc-aguias-de-cristo-divino-mg",
+        "verification_status": "flyer_da_edicao_com_identidade_nacional_oficial; nucleo_local_e_servico_nao_confirmados",
+        "last_updated": "2026-08-22T23:30:00-04:00",
+        "time_label": "Horário não confirmado para 25 de julho de 2026",
+        "venue": "Local da atividade de 2026 não confirmado",
+        "street_address": "Endereço não confirmado",
+        "full_address": "Divino - MG; endereço detalhado não confirmado",
+        "status_basis": "A data divulgada já terminou; não foi localizada confirmação posterior do núcleo de Divino.",
+        "status_checked_at": "2026-08-22T23:30:00-04:00",
+        "organizer": "Águias de Cristo MC, conforme o flyer; núcleo ou responsável de Divino não identificado",
+        "contact": "Canal nacional Águias de Cristo: +55 21 98829-0396; confirmar encaminhamento ao núcleo de Divino",
+        "source_checked_at": "2026-08-22T23:30:00-04:00",
+        "admission_status": "Não informado na divulgação da edição",
+        "parking": "Não informado na divulgação da edição",
+        "attractions": [
+          "Programação da edição não confirmada"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://www.lojaaguiasdecristo.com.br/",
+          "label": "Águias de Cristo — loja e apresentação oficial",
+          "type": "site_oficial_do_motoclube",
+          "supports": "Confirma identidade, origem, alcance nacional/internacional e telefone geral do motoclube; não confirma a edição de Divino."
+        },
+        {
+          "url": "https://aguiasdecristobhof.wixsite.com/aguias-de-cristo-bh",
+          "label": "Águias de Cristo BH — página oficial do núcleo de Belo Horizonte",
+          "type": "canal_oficial_de_outro_nucleo",
+          "supports": "Mostra atividade atual da organização em Minas Gerais; não lista o encontro de Divino e nenhum serviço foi transferido."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"MC Águias de Cristo\" Divino MG 25 julho 2026",
+          "\"Águias de Cristo\" Divino MG motociclistas",
+          "site:lojaaguiasdecristo.com.br Divino",
+          "site:instagram.com \"Águias de Cristo\" Divino MG"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "lojaaguiasdecristo.com.br",
+          "aguiasdecristobhof.wixsite.com",
+          "instagram.com",
+          "facebook.com"
+        ],
+        "result": "identidade_nacional_confirmada; edicao_de_divino_permanece_com_fonte_especifica_unica",
+        "uncertainties": [
+          "Não foi identificado o núcleo ou responsável local de Divino.",
+          "Contatos e endereços de outros núcleos não são serviço desta edição.",
+          "Não foi localizada confirmação posterior de realização."
+        ]
+      }
+    },
+    {
+      "slug": "mc-anjos-da-estrada-belo-horizonte-mg-2026-08-22",
+      "updates": {
+        "status": "concluida",
+        "summary": "MC Anjos da Estrada foi divulgado em Belo Horizonte/MG para 22 de agosto de 2026, com rock e shows. O flyer contém vários horários, mas a atividade correspondente a cada um não pôde ser estabelecida; local, atrações nominais, acesso e confirmação de realização seguem sem fonte independente.",
+        "body": "## Informações legíveis\n\nA divulgação específica anuncia MC Anjos da Estrada em Belo Horizonte/MG em 22 de agosto de 2026. A arte contém referências a rock e shows e apresenta os horários 21h00, 01h00, 12h00, 14h00, 16h00 e 19h00.\n\n## Limite da leitura\n\nNão foi possível associar com segurança cada horário a uma atração, etapa ou virada de dia. Eles são mantidos como transcrição parcial do flyer, não como uma grade montada editorialmente. Também não foram confirmados endereço, nomes de bandas, ingresso, estacionamento ou contato.\n\n## Situação da data\n\nNo momento da checagem, já era 23 de agosto no fuso de Belo Horizonte. A data, portanto, foi encerrada temporalmente, mas não foi localizado registro pós-evento que confirme realização, horário efetivo ou eventual mudança.",
+        "official_url": "https://jb-rider.com.br/evento/20260822-mc-anjos-da-estrada-belo-horizonte-mg",
+        "verification_status": "flyer_especifico_com_horarios_ambiguos_e_sem_confirmacao_independente",
+        "last_updated": "2026-08-22T23:30:00-04:00",
+        "time_label": "Flyer apresenta 21h00, 01h00, 12h00, 14h00, 16h00 e 19h00; a atividade correspondente a cada horário não foi confirmada",
+        "venue": "Local da atividade de 2026 não confirmado",
+        "street_address": "Endereço não confirmado",
+        "full_address": "Belo Horizonte - MG; endereço detalhado não confirmado",
+        "status_basis": "A data local de 22 de agosto já terminou; não foi localizada confirmação posterior de realização.",
+        "status_checked_at": "2026-08-22T23:30:00-04:00",
+        "organizer": "MC Anjos da Estrada, conforme o flyer; responsável nominal não identificado",
+        "contact": "Contato da edição de 2026 não localizado",
+        "source_checked_at": "2026-08-22T23:30:00-04:00",
+        "admission_status": "Não informado na divulgação localizada",
+        "parking": "Não informado na divulgação localizada",
+        "attractions": [
+          "Rock",
+          "Shows ou bandas não identificados nominalmente"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://jb-rider.com.br/eventos.php",
+          "label": "JB-RIDER — agenda corrente de eventos",
+          "type": "agenda_mesmo_dominio",
+          "supports": "Mantém MC Anjos da Estrada listado em Belo Horizonte em 22 de agosto de 2026; não é fonte independente e não resolve os horários."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"MC Anjos da Estrada\" Belo Horizonte 22 agosto 2026",
+          "\"Anjos da Estrada\" Belo Horizonte motociclistas 2026",
+          "site:instagram.com \"MC Anjos da Estrada\" Belo Horizonte",
+          "site:facebook.com \"MC Anjos da Estrada\" Belo Horizonte"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "instagram.com",
+          "facebook.com"
+        ],
+        "result": "fonte_especifica_unica; horarios_parciais_sem_correspondencia_segura; realizacao_nao_confirmada",
+        "uncertainties": [
+          "A relação entre os seis horários e as atividades do evento não pôde ser determinada.",
+          "Não foram identificados local, atrações nominais ou contato.",
+          "O fim da data não prova realização."
+        ]
+      }
+    },
+    {
+      "slug": "mc-brucutu-s-bom-jesus-do-amparo-mg-2026-09-04",
+      "updates": {
+        "status": "agendada",
+        "title": "MC Brucutu’s",
+        "short_name": "MC Brucutu’s",
+        "summary": "MC Brucutu’s tem encontro divulgado em Bom Jesus do Amparo/MG de 4 a 6 de setembro de 2026. A edição permanece agendada, mas endereço, horários, programação, contato, ingresso e estrutura ainda não foram confirmados fora do flyer específico.",
+        "body": "## Registro da divulgação\n\nO flyer específico vinculado à página anuncia MC Brucutu’s em Bom Jesus do Amparo/MG de 4 a 6 de setembro de 2026. A apóstrofe foi normalizada editorialmente a partir do nome apresentado, sem alterar o slug existente.\n\n## Serviço pendente\n\nNão foram localizados local, rua, horário de abertura, atrações, contato, regra de entrada, estacionamento ou camping em fonte pública verificável da edição. Buscas pelo nome com e sem apóstrofe não encontraram canal do organizador ou publicação municipal que acrescente serviço.\n\n## Situação\n\nO encontro continua com data futura. A ausência de detalhes não significa cancelamento; significa apenas que os campos devem permanecer pendentes até divulgação verificável. Nenhum dado de outro evento em Bom Jesus do Amparo foi transferido.",
+        "official_url": "https://jb-rider.com.br/evento/20260904-3-mc-brucutu-s-bom-jesus-do-amparo-mg",
+        "verification_status": "flyer_especifico_unico; edicao_futura_com_servico_ainda_nao_publicado",
+        "last_updated": "2026-08-22T23:30:00-04:00",
+        "time_label": "4 a 6 de setembro de 2026; horários não confirmados",
+        "venue": "Local da edição de 2026 ainda não confirmado",
+        "street_address": "Endereço não confirmado",
+        "full_address": "Bom Jesus do Amparo - MG; endereço detalhado não confirmado",
+        "status_basis": "Período futuro divulgado no flyer; não foi localizado aviso de cancelamento ou alteração.",
+        "status_checked_at": "2026-08-22T23:30:00-04:00",
+        "organizer": "MC Brucutu’s, conforme o flyer; responsável nominal não identificado",
+        "contact": "Contato da edição de 2026 não localizado",
+        "source_checked_at": "2026-08-22T23:30:00-04:00",
+        "admission_status": "Não informado na divulgação localizada",
+        "parking": "Não informado na divulgação localizada",
+        "attractions": [
+          "Programação ainda não confirmada"
+        ]
+      },
+      "additional_sources": [],
+      "research": {
+        "queries": [
+          "\"MC Brucutu's\" 2026 \"Bom Jesus do Amparo\"",
+          "\"MC Brucutus\" \"Bom Jesus do Amparo\"",
+          "\"Brucutu s\" motoclube Bom Jesus do Amparo",
+          "site:instagram.com Brucutu motoclube \"Bom Jesus do Amparo\""
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "bomjesusdoamparo.mg.gov.br",
+          "instagram.com",
+          "facebook.com"
+        ],
+        "result": "flyer_especifico_unico; nenhuma_fonte_adicional_com_servico_da_edicao",
+        "uncertainties": [
+          "Não foi localizado canal público do organizador.",
+          "Local, horários, programação e regras permanecem pendentes.",
+          "A grafia com apóstrofe é normalização do nome, não criação de nova página."
+        ]
+      }
+    },
+    {
+      "slug": "mc-campos-campos-dos-goytacazes-rj-2026-07-24",
+      "updates": {
+        "status": "concluida",
+        "title": "Moto Club de Campos",
+        "short_name": "MC Campos",
+        "summary": "O flyer anuncia MC Campos em Campos dos Goytacazes/RJ em 24 e 25 de julho de 2026. Um diretório motociclístico corrobora a identidade do Moto Club de Campos e fornece canais de contato, mas endereço cadastral, história e contato do clube não confirmam o local nem a realização desta edição.",
+        "body": "## Registro da edição\n\nA divulgação específica anuncia MC Campos em Campos dos Goytacazes/RJ nos dias 24 e 25 de julho de 2026. Horários, local, atrações, acesso e estacionamento não foram encontrados em fonte própria da edição.\n\n## Identidade do organizador\n\nO portal ACCassola mantém cadastro de **Moto Club de Campos** em Campos dos Goytacazes e relata que a história do grupo remonta a 1932. O cadastro publica motoclube.decampos@gmail.com, telefone (22) 99982-2824 e uma página no Facebook. Isso permite enriquecer a identidade e o contato, sem transformar a sede cadastral da Avenida Presidente Vargas em local do evento.\n\n## Situação da data\n\nO período terminou e não foi localizado balanço, álbum ou comunicado posterior específico. A página fica preservada como registro da divulgação; a condição “concluída” é temporal e não comprova realização.",
+        "official_url": "https://jb-rider.com.br/evento/20260724-2-mc-campos-campos-dos-goytacazes-rj",
+        "verification_status": "flyer_da_edicao_com_identidade_e_contato_do_clube_corrobados; servico_e_realizacao_nao_confirmados",
+        "last_updated": "2026-08-22T23:30:00-04:00",
+        "time_label": "24 e 25 de julho de 2026; horários não confirmados",
+        "venue": "Local da edição de 2026 não confirmado",
+        "street_address": "Endereço do evento não confirmado",
+        "full_address": "Campos dos Goytacazes - RJ; o endereço cadastral do clube não foi tratado como local do evento",
+        "status_basis": "O período divulgado já terminou; não foi localizada confirmação posterior de realização.",
+        "status_checked_at": "2026-08-22T23:30:00-04:00",
+        "organizer": "Moto Club de Campos, divulgado no flyer como MC Campos",
+        "contact": "motoclube.decampos@gmail.com; (22) 99982-2824; facebook.com/profile.php?id=100063506323108, conforme cadastro do clube; confirmar atualidade",
+        "source_checked_at": "2026-08-22T23:30:00-04:00",
+        "admission_status": "Não informado na divulgação da edição",
+        "parking": "Não informado na divulgação da edição",
+        "attractions": [
+          "Programação da edição não confirmada"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://accassola.com.br/moto-clubes-e-grupos.php?_tipo=1&f7554b8022be9a0d6b967bd8f3e0f38e=",
+          "label": "ACCassola — cadastro do Moto Club de Campos",
+          "type": "diretorio_de_motoclube",
+          "supports": "Corrobora nome, cidade, histórico, e-mail, Facebook e telefone do clube; o endereço cadastral não foi usado como local do evento."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"MC Campos\" Campos dos Goytacazes 24 julho 2026",
+          "\"Moto Club de Campos\" 2026",
+          "\"motoclube.decampos@gmail.com\"",
+          "site:campos.rj.gov.br motociclistas julho 2026"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "accassola.com.br",
+          "campos.rj.gov.br",
+          "facebook.com",
+          "instagram.com"
+        ],
+        "result": "identidade_e_contato_do_clube_corrobados; edicao_permanece_sem_servico_independente",
+        "uncertainties": [
+          "Não foi localizada publicação do clube sobre a edição de 24–25 de julho.",
+          "A sede ou endereço cadastral não é prova do local do evento.",
+          "Não houve confirmação posterior de realização."
+        ]
+      }
+    },
+    {
+      "slug": "mc-eu-gata-e-cao-fiel-macae-rj-2026-08-22",
+      "updates": {
+        "status": "concluida",
+        "title": "MC Eu, Gata e Cão Fiel",
+        "short_name": "Eu, Gata e Cão Fiel MC",
+        "city": "Macaé",
+        "summary": "O flyer registra MC Eu, Gata e Cão Fiel em Macaé/RJ em 22 de agosto de 2026, às 13h. Diretório estadual e reportagem histórica confirmam a identidade e a trajetória do clube, mas não foi localizada fonte independente com local, programação ou confirmação de realização desta edição.",
+        "body": "## Serviço da edição\n\nA divulgação específica anuncia o MC Eu, Gata e Cão Fiel em Macaé/RJ no dia 22 de agosto de 2026, às 13h. Endereço, atrações, acesso, estacionamento e contato da edição não foram confirmados.\n\n## Identidade e trajetória\n\nO diretório Motociclismo do Brasil lista **Eu, Gata e Cão Fiel MC** em Macaé. Uma reportagem de O Dia, publicada em 2022, informa que o grupo foi criado em abril de 2005 e identifica Paulo Gomide e Marilena Carvalho como fundadores e presidentes naquele momento. Essa reportagem trata do aniversário de 2022, portanto seu local, horário, bandas e parceiros não foram usados no serviço de 2026.\n\n## Situação da data\n\nNo momento da checagem, já era 23 de agosto em Macaé. A data terminou, mas não foi localizada cobertura posterior específica da atividade; a página permanece como registro da divulgação, sem afirmar realização.",
+        "official_url": "https://jb-rider.com.br/evento/20260822-mc-eu-gata-e-cao-fiel-macae-rj",
+        "verification_status": "flyer_da_edicao_com_identidade_e_historico_do_clube_corrobados; servico_e_realizacao_nao_confirmados",
+        "last_updated": "2026-08-22T23:30:00-04:00",
+        "time_label": "22 de agosto de 2026, às 13h, conforme o flyer",
+        "venue": "Local da edição de 2026 não confirmado",
+        "street_address": "Endereço do evento não confirmado",
+        "full_address": "Macaé - RJ; nenhum endereço de edição anterior foi transferido",
+        "status_basis": "A data local de 22 de agosto já terminou; não foi localizada confirmação posterior de realização.",
+        "status_checked_at": "2026-08-22T23:30:00-04:00",
+        "organizer": "Eu, Gata e Cão Fiel MC",
+        "contact": "Contato atual da edição de 2026 não localizado",
+        "source_checked_at": "2026-08-22T23:30:00-04:00",
+        "admission_status": "Não informado na divulgação localizada",
+        "parking": "Não informado na divulgação localizada",
+        "attractions": [
+          "Programação da edição não confirmada"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://motociclismodobrasil.com.br/motoclubes/Motoclubes_rj.html",
+          "label": "Motociclismo do Brasil — motoclubes do Rio de Janeiro",
+          "type": "diretorio_estadual",
+          "supports": "Lista Eu, Gata e Cão Fiel MC em Macaé, corroborando nome e cidade; não confirma a edição de 2026."
+        },
+        {
+          "url": "https://odia.ig.com.br/macae/2022/04/6390658-moto-clube-eu-gata-e-cao-fiel-comemora-17-anos-neste-sabado-em-evento-de-rock-e-cerveja.html",
+          "label": "O Dia — 17 anos do Moto Clube Eu, Gata e Cão Fiel",
+          "type": "imprensa_local_historica_sobre_o_clube",
+          "supports": "Documenta origem em abril de 2005 e liderança do clube em 2022; local, bandas e horário daquela edição não foram transferidos."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"MC Eu, Gata e Cão Fiel\" Macaé 22 agosto 2026",
+          "\"Eu, Gata e Cão Fiel\" Macaé",
+          "site:macae.rj.gov.br \"Gata e Cão Fiel\"",
+          "site:instagram.com \"Eu Gata e Cão Fiel\""
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "motociclismodobrasil.com.br",
+          "odia.ig.com.br",
+          "ostrascycle.com.br",
+          "macae.rj.gov.br",
+          "instagram.com",
+          "facebook.com"
+        ],
+        "result": "identidade_e_historico_do_clube_corrobados; edicao_atual_sem_fonte_independente_de_servico",
+        "uncertainties": [
+          "Não foi encontrado endereço nem contato atual da edição.",
+          "Serviços e atrações de 2022 não valem para 2026.",
+          "Não foi localizada confirmação posterior de realização."
+        ]
+      }
+    },
+    {
+      "slug": "mc-macae-macae-rj-2026-08-22",
+      "updates": {
+        "status": "concluida",
+        "title": "Moto Clube de Macaé",
+        "short_name": "MC Macaé",
+        "city": "Macaé",
+        "summary": "O flyer anuncia o MC Macaé em Macaé/RJ para 22 de agosto de 2026. Um cadastro atual corrobora o nome Moto Clube de Macaé e publica Instagram e telefone do clube, mas não confirma local, horário, programação ou realização desta edição.",
+        "body": "## Registro da edição\n\nA divulgação específica anuncia MC Macaé em Macaé/RJ no dia 22 de agosto de 2026. A arte disponível não permitiu confirmar horário, local, atrações, ingresso ou estacionamento.\n\n## Identidade e contato\n\nO portal ACCassola mantém cadastro de **Moto Clube de Macaé**, com Instagram @mc_macaerj e telefone (21) 99949-2071. O cadastro também contém um endereço do clube, mas não declara que a atividade de 22 de agosto ocorreria ali; por isso, ele não foi convertido em local do evento.\n\n## Situação da data\n\nNo momento da revisão, já era 23 de agosto no fuso de Macaé. A agenda foi encerrada temporalmente, mas não foi encontrado registro posterior específico que comprove realização ou eventual cancelamento.",
+        "official_url": "https://jb-rider.com.br/evento/20260822-mc-macae-macae-rj",
+        "verification_status": "flyer_da_edicao_com_identidade_e_contato_do_clube_corrobados; servico_e_realizacao_nao_confirmados",
+        "last_updated": "2026-08-22T23:30:00-04:00",
+        "time_label": "22 de agosto de 2026; horário não confirmado",
+        "venue": "Local da edição de 2026 não confirmado",
+        "street_address": "Endereço do evento não confirmado",
+        "full_address": "Macaé - RJ; o endereço cadastral do clube não foi tratado como local do evento",
+        "status_basis": "A data local de 22 de agosto já terminou; não foi localizada confirmação posterior de realização.",
+        "status_checked_at": "2026-08-22T23:30:00-04:00",
+        "organizer": "Moto Clube de Macaé",
+        "contact": "Instagram @mc_macaerj; (21) 99949-2071, conforme cadastro do clube; confirmar atualidade e relação com a edição",
+        "source_checked_at": "2026-08-22T23:30:00-04:00",
+        "admission_status": "Não informado na divulgação localizada",
+        "parking": "Não informado na divulgação localizada",
+        "attractions": [
+          "Programação da edição não confirmada"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://accassola.com.br/moto-clubes-e-grupos.php?_tipo=1&f7554b8022be9a0d6b967bd8f3e0f38e=",
+          "label": "ACCassola — cadastro do Moto Clube de Macaé",
+          "type": "diretorio_de_motoclube",
+          "supports": "Corrobora nome, cidade, Instagram e telefone do clube; o endereço cadastral não foi usado como local da edição."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"MC Macaé\" \"22 de agosto\" 2026",
+          "\"Moto Clube de Macaé\" 2026",
+          "\"mc_macaerj\" \"22 de agosto\" 2026",
+          "site:macae.rj.gov.br \"Moto Clube de Macaé\""
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "accassola.com.br",
+          "instagram.com",
+          "facebook.com",
+          "macae.rj.gov.br"
+        ],
+        "result": "identidade_e_contato_do_clube_corrobados; edicao_sem_servico_independente",
+        "uncertainties": [
+          "Não foi localizada publicação acessível do Instagram sobre a edição.",
+          "O endereço cadastral não confirma o local do encontro.",
+          "Não foi encontrada comprovação posterior de realização."
+        ]
+      }
+    },
+    {
+      "slug": "mc-mal-encarado-castelo-es-2026-10-09",
+      "updates": {
+        "status": "agendada",
+        "summary": "O MC Mal Encarado tem encontro divulgado em Castelo/ES de 9 a 11 de outubro de 2026, com bandas e rock mencionados no flyer. Imprensa estadual documenta uma edição anterior do mesmo clube em Castelo, mas local, horários, atrações nominais, contato e acesso de 2026 ainda não foram confirmados.",
+        "body": "## Serviço da edição de 2026\n\nO flyer específico e a agenda comunitária anunciam MC Mal Encarado em Castelo/ES de 9 a 11 de outubro de 2026. A arte menciona bandas e shows de rock, sem nomes ou horários verificáveis.\n\n## Continuidade histórica\n\nUma reportagem da ES Brasil sobre o calendário motociclístico do estado registrou o 3º Encontro do Mal Encarado MC em Castelo em um outubro anterior. A fonte corrobora a presença do clube na cidade e a continuidade do encontro, mas não permite inferir a numeração de 2026 nem reutilizar serviço daquela edição.\n\n## Informações pendentes\n\nLocal, rua, horário de abertura, bandas, contato, ingresso, estacionamento e estrutura para viajantes não foram localizados em fonte pública da edição atual. Nenhuma praça ou programação histórica foi transferida.\n\n## Antes de viajar\n\nA data permanece futura. A página deve conservar o anúncio e orientar nova confirmação quando o organizador publicar o serviço completo.",
+        "official_url": "https://jb-rider.com.br/evento/20261009-3-mc-mal-encarado-castelo-es",
+        "verification_status": "flyer_da_edicao_com_continuidade_historica_corrobada; servico_atual_incompleto",
+        "last_updated": "2026-08-22T23:30:00-04:00",
+        "time_label": "9 a 11 de outubro de 2026; horários não confirmados",
+        "venue": "Local da edição de 2026 ainda não confirmado",
+        "street_address": "Endereço não confirmado",
+        "full_address": "Castelo - ES; endereço detalhado não confirmado",
+        "status_basis": "Período futuro divulgado no flyer e mantido na agenda; não foi localizado aviso de cancelamento ou mudança.",
+        "status_checked_at": "2026-08-22T23:30:00-04:00",
+        "organizer": "MC Mal Encarado",
+        "contact": "Contato da edição de 2026 não localizado",
+        "source_checked_at": "2026-08-22T23:30:00-04:00",
+        "admission_status": "Não informado na divulgação localizada",
+        "parking": "Não informado na divulgação localizada",
+        "attractions": [
+          "Bandas não nomeadas no material disponível",
+          "Shows de rock"
+        ]
+      },
+      "additional_sources": [
+        {
+          "url": "https://esbrasil.com.br/moto-fest-paixao-uniao-calendario-motoclubes-es/",
+          "label": "ES Brasil — calendário de encontros de motoclubes no Espírito Santo",
+          "type": "imprensa_estadual_historica",
+          "supports": "Documenta edição anterior do Mal Encarado MC em Castelo, corroborando identidade e continuidade; não fornece serviço de 2026."
+        }
+      ],
+      "research": {
+        "queries": [
+          "\"MC Mal Encarado\" Castelo 9 outubro 2026",
+          "\"Mal Encarado MC\" Castelo moto fest",
+          "site:castelo.es.gov.br \"Mal Encarado\"",
+          "site:instagram.com \"Mal Encarado MC\" Castelo"
+        ],
+        "domains_checked": [
+          "jb-rider.com.br",
+          "esbrasil.com.br",
+          "castelo.es.gov.br",
+          "instagram.com",
+          "facebook.com"
+        ],
+        "result": "edicao_2026_confirmada_por_flyer; continuidade_historica_corrobada; servico_atual_pendente",
+        "uncertainties": [
+          "Não há base para numerar a edição de 2026 a partir do evento anterior.",
+          "Local, atrações nominais, ingresso, estacionamento e contato não foram publicados em fonte encontrada.",
+          "Nenhum serviço histórico foi reaproveitado."
+        ]
+      }
+    }
+  ]
+}
