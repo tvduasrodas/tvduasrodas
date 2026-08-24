@@ -3178,34 +3178,6 @@
       "source": "content/events/agenda-comunitaria-2026.json#araruama-mc-araruama-rj-2026-10-18"
     },
     {
-      "title": "Arena Cross 2026 - SUPER FINAL Etapa 4 - 15/08",
-      "type": "Configuração da home",
-      "slug": "hero-player",
-      "date": "",
-      "category": "",
-      "city": "",
-      "state": "",
-      "status": "",
-      "summary": "",
-      "url": "/",
-      "edit_url": "/admin/#/collections/home/entries/hero_player",
-      "source": "content/home/hero-player.md"
-    },
-    {
-      "title": "Arena Cross 2026 - SUPER FINAL Etapa 4 - 15/08",
-      "type": "Configuração da home",
-      "slug": "live-status",
-      "date": "",
-      "category": "",
-      "city": "",
-      "state": "",
-      "status": "",
-      "summary": "",
-      "url": "/",
-      "edit_url": "/admin/#/collections/home/entries/live_status",
-      "source": "content/home/live-status.md"
-    },
-    {
       "title": "Arena Cross Brasil 2026",
       "type": "Competição",
       "slug": "arena-cross-brasil-2026",
@@ -9770,6 +9742,34 @@
       "url": "/eventos/turma-de-cachorro-loco-mc-maua-sp-2026-08-29/",
       "edit_url": "/admin/#/collections/consolidated_agendas/entries/agenda_comunitaria_2026",
       "source": "content/events/agenda-comunitaria-2026.json#turma-de-cachorro-loco-mc-maua-sp-2026-08-29"
+    },
+    {
+      "title": "TVDUASRODAS",
+      "type": "Configuração da home",
+      "slug": "hero-player",
+      "date": "",
+      "category": "",
+      "city": "",
+      "state": "",
+      "status": "",
+      "summary": "",
+      "url": "/",
+      "edit_url": "/admin/#/collections/home/entries/hero_player",
+      "source": "content/home/hero-player.md"
+    },
+    {
+      "title": "TVDUASRODAS",
+      "type": "Configuração da home",
+      "slug": "live-status",
+      "date": "",
+      "category": "",
+      "city": "",
+      "state": "",
+      "status": "",
+      "summary": "",
+      "url": "/",
+      "edit_url": "/admin/#/collections/home/entries/live_status",
+      "source": "content/home/live-status.md"
     },
     {
       "title": "TVDUASRODAS.COM",
