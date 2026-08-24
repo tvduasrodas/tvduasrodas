@@ -1,5 +1,5 @@
 ---
-title: Arena Cross 2026 - SUPER FINAL Etapa 4 - 15/08
+title: TVDUASRODAS
 featured: true
-youtube_url: https://www.youtube.com/watch?v=S7tXCIPNU34
+youtube_url: https://www.youtube.com/watch?v=7nAj1D2TrWU
 ---
