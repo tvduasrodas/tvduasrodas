@@ -1,12 +1,12 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-08-24T17:24:54.378826+00:00",
+  "generated_at": "2026-08-25T11:43:55.535920+00:00",
   "scope": "Matérias no Google News sitemap das últimas 48 horas e eventos em andamento ou futuros priorizados por data",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/event-sitemap.xml",
-      "last_submitted": "2026-08-24T17:23:50.212Z",
-      "last_downloaded": "2026-08-24T17:23:51.238Z",
+      "last_submitted": "2026-08-25T11:42:51.510Z",
+      "last_downloaded": "2026-08-25T11:42:52.906Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -27,8 +27,8 @@
     },
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-08-24T17:23:50.113Z",
-      "last_downloaded": "2026-08-24T17:23:51.089Z",
+      "last_submitted": "2026-08-25T11:42:51.399Z",
+      "last_downloaded": "2026-08-25T11:42:51.926Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -44,8 +44,8 @@
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-08-24T17:23:50.020Z",
-      "last_downloaded": "2026-08-24T17:23:51.207Z",
+      "last_submitted": "2026-08-25T11:42:51.285Z",
+      "last_downloaded": "2026-08-25T11:42:52.877Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -92,7 +92,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-24T17:23:56.721587+00:00"
+      "inspected_at": "2026-08-25T11:42:58.038124+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/campeonato-de-motocross-de-rondonia-2026-cerejeiras-e-corumbiara-ro-2026-08-01/",
@@ -109,7 +109,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-24T17:24:03.116742+00:00"
+      "inspected_at": "2026-08-25T11:43:04.451888+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motorockfest-arrial-d-ajuda-ba-2026-08-26/",
@@ -121,9 +121,12 @@
       "last_crawl_time": "2026-07-29T16:54:10Z",
       "google_canonical": "https://tvduasrodas.com/eventos/motorockfest-arrial-d-ajuda-ba-2026-08-26/",
       "user_canonical": "https://tvduasrodas.com/eventos/motorockfest-arrial-d-ajuda-ba-2026-08-26/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-08-24T17:24:09.473804+00:00"
+      "inspected_at": "2026-08-25T11:43:10.678676+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/biker-fest-buzios-rj-2026-08-27/",
@@ -140,7 +143,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-24T17:24:15.965102+00:00"
+      "inspected_at": "2026-08-25T11:43:17.501009+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motofest-maceio-al-2026-08-27/",
@@ -149,12 +152,15 @@
       "indexing_state": "INDEXING_ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
       "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-08-12T14:09:40Z",
+      "last_crawl_time": "2026-08-22T20:35:22Z",
       "google_canonical": "https://tvduasrodas.com/eventos/motofest-maceio-al-2026-08-27/",
       "user_canonical": "https://tvduasrodas.com/eventos/motofest-maceio-al-2026-08-27/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-08-24T17:24:22.288196+00:00"
+      "inspected_at": "2026-08-25T11:43:23.710184+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/ralladuz-mc-tres-marias-mg-2026-08-27/",
@@ -171,7 +177,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-24T17:24:28.685169+00:00"
+      "inspected_at": "2026-08-25T11:43:29.933983+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/vi-encontro-tres-marias-mg-2026-08-27/",
@@ -188,7 +194,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-24T17:24:35.058641+00:00"
+      "inspected_at": "2026-08-25T11:43:36.216532+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/17o-encontro-nacional-de-motociclistas-de-mariana-e-19o-aniversario-do-vira-latas-motoclube-mariana-mg-2026-08-28/",
@@ -200,14 +206,11 @@
       "last_crawl_time": "2026-08-02T00:59:13Z",
       "google_canonical": "https://tvduasrodas.com/eventos/17o-encontro-nacional-de-motociclistas-de-mariana-e-19o-aniversario-do-vira-latas-motoclube-mariana-mg-2026-08-28/",
       "user_canonical": "https://tvduasrodas.com/eventos/17o-encontro-nacional-de-motociclistas-de-mariana-e-19o-aniversario-do-vira-latas-motoclube-mariana-mg-2026-08-28/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [
         "https://tvduasrodas.com/event-sitemap.xml"
       ],
-      "inspected_at": "2026-08-24T17:24:41.454866+00:00"
+      "inspected_at": "2026-08-25T11:43:42.636896+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/anjos-de-pedra-mg-itau-de-minas-mg-2026-08-28/",
@@ -219,12 +222,9 @@
       "last_crawl_time": "2026-08-03T07:29:13Z",
       "google_canonical": "https://tvduasrodas.com/eventos/anjos-de-pedra-mg-itau-de-minas-mg-2026-08-28/",
       "user_canonical": "https://tvduasrodas.com/eventos/anjos-de-pedra-mg-itau-de-minas-mg-2026-08-28/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-08-24T17:24:47.834949+00:00"
+      "inspected_at": "2026-08-25T11:43:48.801049+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/encontro-nacional-de-motociclistas-e-triciclistas-ijaci-mg-2026-08-28/",
@@ -241,7 +241,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-08-24T17:24:54.247879+00:00"
+      "inspected_at": "2026-08-25T11:43:55.219979+00:00"
     }
   ]
 }
