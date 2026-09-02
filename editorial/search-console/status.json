@@ -1,12 +1,12 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-09-01T15:28:59.074097+00:00",
+  "generated_at": "2026-09-02T15:07:07.512503+00:00",
   "scope": "Matérias no Google News sitemap das últimas 48 horas e eventos em andamento ou futuros priorizados por data",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/event-sitemap.xml",
-      "last_submitted": "2026-09-01T15:27:55.297Z",
-      "last_downloaded": "2026-09-01T15:27:56.079Z",
+      "last_submitted": "2026-09-02T15:06:01.618Z",
+      "last_downloaded": "2026-09-02T15:06:03.812Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -27,9 +27,9 @@
     },
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-09-01T15:27:54.896Z",
-      "last_downloaded": "2026-08-31T18:00:11.567Z",
-      "pending": true,
+      "last_submitted": "2026-09-02T15:06:01.428Z",
+      "last_downloaded": "2026-09-02T15:06:03.404Z",
+      "pending": false,
       "warnings": 0,
       "errors": 0,
       "discovered": 58,
@@ -44,8 +44,8 @@
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-09-01T15:27:54.447Z",
-      "last_downloaded": "2026-09-01T15:27:55.688Z",
+      "last_submitted": "2026-09-02T15:06:01.046Z",
+      "last_downloaded": "2026-09-02T15:06:04.480Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -87,12 +87,9 @@
       "last_crawl_time": "2026-08-02T21:05:25Z",
       "google_canonical": "https://tvduasrodas.com/competicoes/campeonato-amapaense-de-ciclismo-2026-macapa-ap-2026-08-01/",
       "user_canonical": "https://tvduasrodas.com/competicoes/campeonato-amapaense-de-ciclismo-2026-macapa-ap-2026-08-01/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-09-01T15:28:01.876702+00:00"
+      "inspected_at": "2026-09-02T15:06:08.558878+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/2-motofest-vicosa-mg-2026-09-03/",
@@ -104,9 +101,12 @@
       "last_crawl_time": "2026-08-11T08:54:32Z",
       "google_canonical": "https://tvduasrodas.com/eventos/2-motofest-vicosa-mg-2026-09-03/",
       "user_canonical": "https://tvduasrodas.com/eventos/2-motofest-vicosa-mg-2026-09-03/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-09-01T15:28:08.302577+00:00"
+      "inspected_at": "2026-09-02T15:06:15.006642+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motoimp-2026-imperatriz-ma-2026-09-03/",
@@ -118,12 +118,9 @@
       "last_crawl_time": "2026-08-03T06:30:37Z",
       "google_canonical": "https://tvduasrodas.com/eventos/motoimp-2026-imperatriz-ma-2026-09-03/",
       "user_canonical": "https://tvduasrodas.com/eventos/motoimp-2026-imperatriz-ma-2026-09-03/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-09-01T15:28:14.789204+00:00"
+      "inspected_at": "2026-09-02T15:06:21.849505+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/11-encontro-de-motociclistas-e-triciclistas-itarare-sp-2026-09-04/",
@@ -135,9 +132,12 @@
       "last_crawl_time": "2026-07-29T01:19:49Z",
       "google_canonical": "https://tvduasrodas.com/eventos/11-encontro-de-motociclistas-e-triciclistas-itarare-sp-2026-09-04/",
       "user_canonical": "https://tvduasrodas.com/eventos/11-encontro-de-motociclistas-e-triciclistas-itarare-sp-2026-09-04/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-09-01T15:28:20.989569+00:00"
+      "inspected_at": "2026-09-02T15:06:28.281295+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/14-encontro-de-motociclstas-rio-bonito-rj-2026-09-04/",
@@ -149,9 +149,12 @@
       "last_crawl_time": "2026-08-12T17:29:50Z",
       "google_canonical": "https://tvduasrodas.com/eventos/14-encontro-de-motociclstas-rio-bonito-rj-2026-09-04/",
       "user_canonical": "https://tvduasrodas.com/eventos/14-encontro-de-motociclstas-rio-bonito-rj-2026-09-04/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-09-01T15:28:27.358608+00:00"
+      "inspected_at": "2026-09-02T15:06:34.749783+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/25-motofest-paranavai-pr-2026-09-04/",
@@ -163,12 +166,9 @@
       "last_crawl_time": "2026-08-17T05:58:40Z",
       "google_canonical": "https://tvduasrodas.com/eventos/25-motofest-paranavai-pr-2026-09-04/",
       "user_canonical": "https://tvduasrodas.com/eventos/25-motofest-paranavai-pr-2026-09-04/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-09-01T15:28:33.805776+00:00"
+      "inspected_at": "2026-09-02T15:06:41.455988+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/3-trike-fest-timbe-do-sul-sc-2026-09-04/",
@@ -180,9 +180,12 @@
       "last_crawl_time": "2026-08-16T10:08:56Z",
       "google_canonical": "https://tvduasrodas.com/eventos/3-trike-fest-timbe-do-sul-sc-2026-09-04/",
       "user_canonical": "https://tvduasrodas.com/eventos/3-trike-fest-timbe-do-sul-sc-2026-09-04/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-09-01T15:28:40.167596+00:00"
+      "inspected_at": "2026-09-02T15:06:47.885392+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/autoridade-mc-ubaporanga-mg-2026-09-04/",
@@ -194,9 +197,12 @@
       "last_crawl_time": "2026-08-21T17:09:11Z",
       "google_canonical": "https://tvduasrodas.com/eventos/autoridade-mc-ubaporanga-mg-2026-09-04/",
       "user_canonical": "https://tvduasrodas.com/eventos/autoridade-mc-ubaporanga-mg-2026-09-04/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-09-01T15:28:46.353324+00:00"
+      "inspected_at": "2026-09-02T15:06:54.454754+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/autoridade-mc-uboranga-mg-2026-09-04/",
@@ -208,9 +214,12 @@
       "last_crawl_time": "2026-08-21T17:09:11Z",
       "google_canonical": "https://tvduasrodas.com/eventos/autoridade-mc-ubaporanga-mg-2026-09-04/",
       "user_canonical": "https://tvduasrodas.com/eventos/autoridade-mc-ubaporanga-mg-2026-09-04/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-09-01T15:28:52.585559+00:00"
+      "inspected_at": "2026-09-02T15:07:00.750832+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/barra-fest-rock-barra-bonita-sp-2026-09-04/",
@@ -222,9 +231,12 @@
       "last_crawl_time": "2026-08-03T08:22:26Z",
       "google_canonical": "https://tvduasrodas.com/eventos/barra-fest-rock-barra-bonita-sp-2026-09-04/",
       "user_canonical": "https://tvduasrodas.com/eventos/barra-fest-rock-barra-bonita-sp-2026-09-04/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-09-01T15:28:58.972204+00:00"
+      "inspected_at": "2026-09-02T15:07:07.285479+00:00"
     }
   ]
 }
