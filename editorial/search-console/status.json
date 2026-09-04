@@ -1,12 +1,12 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-09-03T15:00:57.961809+00:00",
+  "generated_at": "2026-09-04T14:58:04.618964+00:00",
   "scope": "Matérias no Google News sitemap das últimas 48 horas e eventos em andamento ou futuros priorizados por data",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/event-sitemap.xml",
-      "last_submitted": "2026-09-03T14:59:51.702Z",
-      "last_downloaded": "2026-09-03T14:59:52.431Z",
+      "last_submitted": "2026-09-04T14:57:00.204Z",
+      "last_downloaded": "2026-09-04T14:57:04.620Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -27,8 +27,8 @@
     },
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-09-03T14:59:51.334Z",
-      "last_downloaded": "2026-09-03T14:59:52.199Z",
+      "last_submitted": "2026-09-04T14:57:00.004Z",
+      "last_downloaded": "2026-09-04T14:57:03.491Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -44,8 +44,8 @@
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-09-03T14:59:51.224Z",
-      "last_downloaded": "2026-09-03T14:59:51.877Z",
+      "last_submitted": "2026-09-04T14:56:59.883Z",
+      "last_downloaded": "2026-09-04T14:57:04.176Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -92,7 +92,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-09-03T14:59:58.341351+00:00"
+      "inspected_at": "2026-09-04T14:57:06.847890+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/2-motofest-vicosa-mg-2026-09-03/",
@@ -104,9 +104,12 @@
       "last_crawl_time": "2026-08-11T08:54:32Z",
       "google_canonical": "https://tvduasrodas.com/eventos/2-motofest-vicosa-mg-2026-09-03/",
       "user_canonical": "https://tvduasrodas.com/eventos/2-motofest-vicosa-mg-2026-09-03/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-09-03T15:00:04.773533+00:00"
+      "inspected_at": "2026-09-04T14:57:13.525999+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motoimp-2026-imperatriz-ma-2026-09-03/",
@@ -118,12 +121,9 @@
       "last_crawl_time": "2026-08-03T06:30:37Z",
       "google_canonical": "https://tvduasrodas.com/eventos/motoimp-2026-imperatriz-ma-2026-09-03/",
       "user_canonical": "https://tvduasrodas.com/eventos/motoimp-2026-imperatriz-ma-2026-09-03/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-09-03T15:00:11.122823+00:00"
+      "inspected_at": "2026-09-04T14:57:19.777431+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/11-encontro-de-motociclistas-e-triciclistas-itarare-sp-2026-09-04/",
@@ -135,9 +135,12 @@
       "last_crawl_time": "2026-09-03T09:42:41Z",
       "google_canonical": "https://tvduasrodas.com/eventos/11-encontro-de-motociclistas-e-triciclistas-itarare-sp-2026-09-04/",
       "user_canonical": "https://tvduasrodas.com/eventos/11-encontro-de-motociclistas-e-triciclistas-itarare-sp-2026-09-04/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-09-03T15:00:17.904732+00:00"
+      "inspected_at": "2026-09-04T14:57:26.388659+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/14-encontro-de-motociclstas-rio-bonito-rj-2026-09-04/",
@@ -154,7 +157,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-09-03T15:00:24.672910+00:00"
+      "inspected_at": "2026-09-04T14:57:32.711594+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/25-motofest-paranavai-pr-2026-09-04/",
@@ -166,9 +169,12 @@
       "last_crawl_time": "2026-08-17T05:58:40Z",
       "google_canonical": "https://tvduasrodas.com/eventos/25-motofest-paranavai-pr-2026-09-04/",
       "user_canonical": "https://tvduasrodas.com/eventos/25-motofest-paranavai-pr-2026-09-04/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-09-03T15:00:31.618638+00:00"
+      "inspected_at": "2026-09-04T14:57:38.936099+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/3-trike-fest-timbe-do-sul-sc-2026-09-04/",
@@ -185,7 +191,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-09-03T15:00:38.045751+00:00"
+      "inspected_at": "2026-09-04T14:57:45.261459+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/autoridade-mc-ubaporanga-mg-2026-09-04/",
@@ -197,12 +203,9 @@
       "last_crawl_time": "2026-08-21T17:09:11Z",
       "google_canonical": "https://tvduasrodas.com/eventos/autoridade-mc-ubaporanga-mg-2026-09-04/",
       "user_canonical": "https://tvduasrodas.com/eventos/autoridade-mc-ubaporanga-mg-2026-09-04/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-09-03T15:00:44.452453+00:00"
+      "inspected_at": "2026-09-04T14:57:51.558633+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/autoridade-mc-uboranga-mg-2026-09-04/",
@@ -214,9 +217,12 @@
       "last_crawl_time": "2026-08-21T17:09:11Z",
       "google_canonical": "https://tvduasrodas.com/eventos/autoridade-mc-ubaporanga-mg-2026-09-04/",
       "user_canonical": "https://tvduasrodas.com/eventos/autoridade-mc-ubaporanga-mg-2026-09-04/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-09-03T15:00:50.990407+00:00"
+      "inspected_at": "2026-09-04T14:57:57.923853+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/barra-fest-rock-barra-bonita-sp-2026-09-04/",
@@ -228,9 +234,12 @@
       "last_crawl_time": "2026-08-03T08:22:26Z",
       "google_canonical": "https://tvduasrodas.com/eventos/barra-fest-rock-barra-bonita-sp-2026-09-04/",
       "user_canonical": "https://tvduasrodas.com/eventos/barra-fest-rock-barra-bonita-sp-2026-09-04/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-09-03T15:00:57.823718+00:00"
+      "inspected_at": "2026-09-04T14:58:04.289833+00:00"
     }
   ]
 }
