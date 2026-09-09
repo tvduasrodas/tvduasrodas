@@ -1,12 +1,12 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-09-08T15:07:14.873075+00:00",
+  "generated_at": "2026-09-09T15:07:35.920210+00:00",
   "scope": "Matérias no Google News sitemap das últimas 48 horas e eventos em andamento ou futuros priorizados por data",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/event-sitemap.xml",
-      "last_submitted": "2026-09-08T15:06:10.074Z",
-      "last_downloaded": "2026-09-08T15:06:10.900Z",
+      "last_submitted": "2026-09-09T15:06:30.906Z",
+      "last_downloaded": "2026-09-09T15:06:32.823Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -27,8 +27,8 @@
     },
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-09-08T15:06:09.815Z",
-      "last_downloaded": "2026-09-08T15:06:12.466Z",
+      "last_submitted": "2026-09-09T15:06:30.705Z",
+      "last_downloaded": "2026-09-09T15:06:32.804Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -44,8 +44,8 @@
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-09-08T15:06:09.658Z",
-      "last_downloaded": "2026-09-08T15:06:11.875Z",
+      "last_submitted": "2026-09-09T15:06:29.026Z",
+      "last_downloaded": "2026-09-09T15:06:34.192Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -92,7 +92,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-09-08T15:06:16.722015+00:00"
+      "inspected_at": "2026-09-09T15:06:37.377570+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/10-encontro-nacional-de-motociclistas-januaria-mg-2026-09-11/",
@@ -104,12 +104,9 @@
       "last_crawl_time": "2026-07-28T06:38:17Z",
       "google_canonical": "https://tvduasrodas.com/eventos/10-encontro-nacional-de-motociclistas-januaria-mg-2026-09-11/",
       "user_canonical": "https://tvduasrodas.com/eventos/10-encontro-nacional-de-motociclistas-januaria-mg-2026-09-11/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-09-08T15:06:23.101515+00:00"
+      "inspected_at": "2026-09-09T15:06:43.643878+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/12-encontro-de-motociclistas-crateus-ce-2026-09-11/",
@@ -126,7 +123,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-09-08T15:06:29.487070+00:00"
+      "inspected_at": "2026-09-09T15:06:49.895423+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/12-encontro-de-motociclistas-perdoes-mg-2026-09-11/",
@@ -138,9 +135,12 @@
       "last_crawl_time": "2026-07-28T00:03:20Z",
       "google_canonical": "https://tvduasrodas.com/eventos/12-encontro-de-motociclistas-perdoes-mg-2026-09-11/",
       "user_canonical": "https://tvduasrodas.com/eventos/12-encontro-de-motociclistas-perdoes-mg-2026-09-11/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-09-08T15:06:35.950629+00:00"
+      "inspected_at": "2026-09-09T15:06:56.386098+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/7-encontro-nacional-de-motociclistas-fama-mg-2026-09-11/",
@@ -157,7 +157,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-09-08T15:06:42.311585+00:00"
+      "inspected_at": "2026-09-09T15:07:03.224414+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/7-encontro-nacional-fama-mg-2026-09-11/",
@@ -169,14 +169,11 @@
       "last_crawl_time": "2026-08-02T17:56:15Z",
       "google_canonical": "https://tvduasrodas.com/eventos/7-encontro-nacional-de-motociclistas-fama-mg-2026-09-11/",
       "user_canonical": "https://tvduasrodas.com/eventos/7-encontro-nacional-de-motociclistas-fama-mg-2026-09-11/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [
         "https://tvduasrodas.com/eventos/7-encontro-nacional-de-motociclistas-fama-mg-2026-09-11/"
       ],
-      "inspected_at": "2026-09-08T15:06:48.870821+00:00"
+      "inspected_at": "2026-09-09T15:07:09.759815+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/7-jere-moto-fest-jeremoabo-ba-2026-09-11/",
@@ -193,7 +190,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-09-08T15:06:55.202879+00:00"
+      "inspected_at": "2026-09-09T15:07:16.149870+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/castelao-mc-conceicao-dos-ouros-mg-2026-09-11/",
@@ -210,7 +207,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-09-08T15:07:01.481692+00:00"
+      "inspected_at": "2026-09-09T15:07:22.770944+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/chamas-na-caveira-mc-crateus-ce-2026-09-11/",
@@ -227,7 +224,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-09-08T15:07:08.093438+00:00"
+      "inspected_at": "2026-09-09T15:07:29.180598+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/corvos-mc-perdoes-mg-2026-09-11/",
@@ -239,12 +236,9 @@
       "last_crawl_time": "2026-08-17T08:43:42Z",
       "google_canonical": "https://tvduasrodas.com/eventos/corvos-mc-perdoes-mg-2026-09-11/",
       "user_canonical": "https://tvduasrodas.com/eventos/corvos-mc-perdoes-mg-2026-09-11/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-09-08T15:07:14.769382+00:00"
+      "inspected_at": "2026-09-09T15:07:35.677448+00:00"
     }
   ]
 }
