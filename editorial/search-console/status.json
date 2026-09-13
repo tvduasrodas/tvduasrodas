@@ -1,12 +1,12 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-09-12T14:07:46.579933+00:00",
+  "generated_at": "2026-09-13T14:56:11.694743+00:00",
   "scope": "Matérias no Google News sitemap das últimas 48 horas e eventos em andamento ou futuros priorizados por data",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/event-sitemap.xml",
-      "last_submitted": "2026-09-12T14:06:43.561Z",
-      "last_downloaded": "2026-09-12T14:06:44.288Z",
+      "last_submitted": "2026-09-13T14:55:07.451Z",
+      "last_downloaded": "2026-09-13T14:55:08.242Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -27,8 +27,8 @@
     },
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-09-12T14:06:43.476Z",
-      "last_downloaded": "2026-09-12T14:06:44.829Z",
+      "last_submitted": "2026-09-13T14:55:07.345Z",
+      "last_downloaded": "2026-09-13T14:55:07.972Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -44,8 +44,8 @@
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-09-12T14:06:43.340Z",
-      "last_downloaded": "2026-09-12T14:06:45.231Z",
+      "last_submitted": "2026-09-13T14:55:07.183Z",
+      "last_downloaded": "2026-09-13T14:55:08.409Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -92,55 +92,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-09-12T14:06:50.018866+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/eventos/10-encontro-nacional-de-motociclistas-januaria-mg-2026-09-11/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-28T06:38:17Z",
-      "google_canonical": "https://tvduasrodas.com/eventos/10-encontro-nacional-de-motociclistas-januaria-mg-2026-09-11/",
-      "user_canonical": "https://tvduasrodas.com/eventos/10-encontro-nacional-de-motociclistas-januaria-mg-2026-09-11/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-09-12T14:06:56.327238+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/eventos/12-encontro-de-motociclistas-crateus-ce-2026-09-11/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-28T07:07:01Z",
-      "google_canonical": "https://tvduasrodas.com/eventos/12-encontro-de-motociclistas-crateus-ce-2026-09-11/",
-      "user_canonical": "https://tvduasrodas.com/eventos/12-encontro-de-motociclistas-crateus-ce-2026-09-11/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-09-12T14:07:02.564008+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/eventos/12-encontro-de-motociclistas-perdoes-mg-2026-09-11/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-28T00:03:20Z",
-      "google_canonical": "https://tvduasrodas.com/eventos/12-encontro-de-motociclistas-perdoes-mg-2026-09-11/",
-      "user_canonical": "https://tvduasrodas.com/eventos/12-encontro-de-motociclistas-perdoes-mg-2026-09-11/",
-      "sitemaps": [],
-      "referring_urls": [],
-      "inspected_at": "2026-09-12T14:07:08.776659+00:00"
+      "inspected_at": "2026-09-13T14:55:14.126947+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/7-encontro-nacional-de-motociclistas-fama-mg-2026-09-11/",
@@ -157,7 +109,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-09-12T14:07:14.913414+00:00"
+      "inspected_at": "2026-09-13T14:55:20.547965+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/7-encontro-nacional-fama-mg-2026-09-11/",
@@ -176,24 +128,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/eventos/7-encontro-nacional-de-motociclistas-fama-mg-2026-09-11/"
       ],
-      "inspected_at": "2026-09-12T14:07:21.227356+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/eventos/7-jere-moto-fest-jeremoabo-ba-2026-09-11/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-08-20T11:23:40Z",
-      "google_canonical": "https://tvduasrodas.com/eventos/7-jere-moto-fest-jeremoabo-ba-2026-09-11/",
-      "user_canonical": "https://tvduasrodas.com/eventos/7-jere-moto-fest-jeremoabo-ba-2026-09-11/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-09-12T14:07:27.414704+00:00"
+      "inspected_at": "2026-09-13T14:55:26.957179+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/castelao-mc-conceicao-dos-ouros-mg-2026-09-11/",
@@ -210,41 +145,109 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-09-12T14:07:33.566877+00:00"
+      "inspected_at": "2026-09-13T14:55:33.361308+00:00"
     },
     {
-      "url": "https://tvduasrodas.com/eventos/chamas-na-caveira-mc-crateus-ce-2026-09-11/",
+      "url": "https://tvduasrodas.com/eventos/moto-rock-in-pira-piracicaba-sp-2026-09-11/",
       "verdict": "PASS",
       "coverage_state": "Enviada e indexada",
       "indexing_state": "INDEXING_ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
       "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-27T23:33:20Z",
-      "google_canonical": "https://tvduasrodas.com/eventos/chamas-na-caveira-mc-crateus-ce-2026-09-11/",
-      "user_canonical": "https://tvduasrodas.com/eventos/chamas-na-caveira-mc-crateus-ce-2026-09-11/",
+      "last_crawl_time": "2026-07-26T10:47:16Z",
+      "google_canonical": "https://tvduasrodas.com/eventos/moto-rock-in-pira-piracicaba-sp-2026-09-11/",
+      "user_canonical": "https://tvduasrodas.com/eventos/moto-rock-in-pira-piracicaba-sp-2026-09-11/",
       "sitemaps": [
         "https://tvduasrodas.com/event-sitemap.xml",
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-09-12T14:07:39.976755+00:00"
+      "inspected_at": "2026-09-13T14:55:39.806317+00:00"
     },
     {
-      "url": "https://tvduasrodas.com/eventos/corvos-mc-perdoes-mg-2026-09-11/",
+      "url": "https://tvduasrodas.com/eventos/ultra-moto-fest-sao-lourenco-mg-2026-09-11/",
       "verdict": "PASS",
       "coverage_state": "Enviada e indexada",
       "indexing_state": "INDEXING_ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
       "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-08-17T08:43:42Z",
-      "google_canonical": "https://tvduasrodas.com/eventos/corvos-mc-perdoes-mg-2026-09-11/",
-      "user_canonical": "https://tvduasrodas.com/eventos/corvos-mc-perdoes-mg-2026-09-11/",
+      "last_crawl_time": "2026-08-29T03:33:06Z",
+      "google_canonical": "https://tvduasrodas.com/eventos/ultra-moto-fest-sao-lourenco-mg-2026-09-11/",
+      "user_canonical": "https://tvduasrodas.com/eventos/ultra-moto-fest-sao-lourenco-mg-2026-09-11/",
       "sitemaps": [
         "https://tvduasrodas.com/event-sitemap.xml",
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-09-12T14:07:46.373896+00:00"
+      "inspected_at": "2026-09-13T14:55:46.170120+00:00"
+    },
+    {
+      "url": "https://tvduasrodas.com/eventos/caes-do-litoral-mc-guaruja-sp-2026-09-12/",
+      "verdict": "PASS",
+      "coverage_state": "Enviada e indexada",
+      "indexing_state": "INDEXING_ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "robots_txt_state": "ALLOWED",
+      "last_crawl_time": "2026-08-12T22:12:10Z",
+      "google_canonical": "https://tvduasrodas.com/eventos/caes-do-litoral-mc-guaruja-sp-2026-09-12/",
+      "user_canonical": "https://tvduasrodas.com/eventos/caes-do-litoral-mc-guaruja-sp-2026-09-12/",
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
+      "referring_urls": [],
+      "inspected_at": "2026-09-13T14:55:52.528723+00:00"
+    },
+    {
+      "url": "https://tvduasrodas.com/eventos/kurupira-mc-pirassununga-sp-2026-09-12/",
+      "verdict": "PASS",
+      "coverage_state": "Enviada e indexada",
+      "indexing_state": "INDEXING_ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "robots_txt_state": "ALLOWED",
+      "last_crawl_time": "2026-07-28T15:03:18Z",
+      "google_canonical": "https://tvduasrodas.com/eventos/kurupira-mc-pirassununga-sp-2026-09-12/",
+      "user_canonical": "https://tvduasrodas.com/eventos/kurupira-mc-pirassununga-sp-2026-09-12/",
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
+      "referring_urls": [],
+      "inspected_at": "2026-09-13T14:55:58.891393+00:00"
+    },
+    {
+      "url": "https://tvduasrodas.com/eventos/barbaros-mc-mage-rj-2026-09-13/",
+      "verdict": "PASS",
+      "coverage_state": "Enviada e indexada",
+      "indexing_state": "INDEXING_ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "robots_txt_state": "ALLOWED",
+      "last_crawl_time": "2026-08-13T21:03:12Z",
+      "google_canonical": "https://tvduasrodas.com/eventos/barbaros-mc-mage-rj-2026-09-13/",
+      "user_canonical": "https://tvduasrodas.com/eventos/barbaros-mc-mage-rj-2026-09-13/",
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
+      "referring_urls": [],
+      "inspected_at": "2026-09-13T14:56:05.198658+00:00"
+    },
+    {
+      "url": "https://tvduasrodas.com/eventos/bodes-do-asfalto-mc-marica-rj-2026-09-13/",
+      "verdict": "PASS",
+      "coverage_state": "Enviada e indexada",
+      "indexing_state": "INDEXING_ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "robots_txt_state": "ALLOWED",
+      "last_crawl_time": "2026-08-11T05:33:54Z",
+      "google_canonical": "https://tvduasrodas.com/eventos/bodes-do-asfalto-mc-marica-rj-2026-09-13/",
+      "user_canonical": "https://tvduasrodas.com/eventos/bodes-do-asfalto-mc-marica-rj-2026-09-13/",
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
+      "referring_urls": [],
+      "inspected_at": "2026-09-13T14:56:11.570820+00:00"
     }
   ]
 }
