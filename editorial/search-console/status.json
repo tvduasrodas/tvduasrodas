@@ -1,12 +1,12 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-09-17T15:33:15.858328+00:00",
+  "generated_at": "2026-09-18T14:59:54.955034+00:00",
   "scope": "Matérias no Google News sitemap das últimas 48 horas e eventos em andamento ou futuros priorizados por data",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/event-sitemap.xml",
-      "last_submitted": "2026-09-17T15:32:12.417Z",
-      "last_downloaded": "2026-09-17T15:32:23.658Z",
+      "last_submitted": "2026-09-18T14:58:50.728Z",
+      "last_downloaded": "2026-09-18T14:58:51.638Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -27,8 +27,8 @@
     },
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-09-17T15:32:12.341Z",
-      "last_downloaded": "2026-09-17T15:32:12.987Z",
+      "last_submitted": "2026-09-18T14:58:50.636Z",
+      "last_downloaded": "2026-09-18T14:58:52.108Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -44,8 +44,8 @@
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-09-17T15:32:12.255Z",
-      "last_downloaded": "2026-09-17T15:32:13.410Z",
+      "last_submitted": "2026-09-18T14:58:50.539Z",
+      "last_downloaded": "2026-09-18T14:58:51.948Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -92,7 +92,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-09-17T15:32:18.817004+00:00"
+      "inspected_at": "2026-09-18T14:58:57.265597+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/amigos-de-ruta-foz-do-iguacu-pr-2026-09-17/",
@@ -109,7 +109,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-09-17T15:32:25.331974+00:00"
+      "inspected_at": "2026-09-18T14:59:03.658617+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motofest-caruaru-pe-2026-09-17/",
@@ -123,7 +123,7 @@
       "user_canonical": "https://tvduasrodas.com/eventos/motofest-caruaru-pe-2026-09-17/",
       "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-09-17T15:32:31.774957+00:00"
+      "inspected_at": "2026-09-18T14:59:10.066989+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/7-encontro-de-motociclistas-lavras-mg-2026-09-18/",
@@ -140,7 +140,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-09-17T15:32:37.967087+00:00"
+      "inspected_at": "2026-09-18T14:59:16.450301+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/campeonato-brasileiro-de-estrada-masters-e-sub-30-2026-09-18/",
@@ -157,7 +157,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-09-17T15:32:44.234180+00:00"
+      "inspected_at": "2026-09-18T14:59:22.834374+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/km-125-mc-campos-dos-goytacazes-rj-2026-09-18/",
@@ -174,7 +174,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-09-17T15:32:50.591130+00:00"
+      "inspected_at": "2026-09-18T14:59:29.197490+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/mg-traidores-ubatuba-sp-2026-09-18/",
@@ -191,7 +191,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-09-17T15:32:56.984885+00:00"
+      "inspected_at": "2026-09-18T14:59:35.579481+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/mg-uniao-ouro-fino-mg-2026-09-18/",
@@ -203,12 +203,9 @@
       "last_crawl_time": "2026-08-03T03:27:16Z",
       "google_canonical": "https://tvduasrodas.com/eventos/mg-uniao-ouro-fino-mg-2026-09-18/",
       "user_canonical": "https://tvduasrodas.com/eventos/mg-uniao-ouro-fino-mg-2026-09-18/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-09-17T15:33:03.128044+00:00"
+      "inspected_at": "2026-09-18T14:59:42.063152+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/moto-amigo-mondai-sc-2026-09-18/",
@@ -225,7 +222,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-09-17T15:33:09.502191+00:00"
+      "inspected_at": "2026-09-18T14:59:48.457345+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motoqueiros-da-pedra-mg-itapolis-sp-2026-09-18/",
@@ -242,7 +239,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-09-17T15:33:15.697620+00:00"
+      "inspected_at": "2026-09-18T14:59:54.827847+00:00"
     }
   ]
 }
