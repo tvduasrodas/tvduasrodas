@@ -1,13 +1,13 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-09-25T15:49:57.098690+00:00",
+  "generated_at": "2026-09-26T14:59:27.969944+00:00",
   "scope": "Matérias no Google News sitemap das últimas 48 horas e eventos em andamento ou futuros priorizados por data",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/event-sitemap.xml",
-      "last_submitted": "2026-09-25T15:48:51.255Z",
-      "last_downloaded": "2026-09-24T15:49:07.572Z",
-      "pending": true,
+      "last_submitted": "2026-09-26T14:58:24.564Z",
+      "last_downloaded": "2026-09-26T14:58:26.353Z",
+      "pending": false,
       "warnings": 0,
       "errors": 0,
       "discovered": 1290,
@@ -27,9 +27,9 @@
     },
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-09-25T15:48:51.112Z",
-      "last_downloaded": "2026-09-24T15:49:08.221Z",
-      "pending": true,
+      "last_submitted": "2026-09-26T14:58:24.421Z",
+      "last_downloaded": "2026-09-26T14:58:25.552Z",
+      "pending": false,
       "warnings": 0,
       "errors": 0,
       "discovered": 58,
@@ -44,9 +44,9 @@
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-09-25T15:48:51.027Z",
-      "last_downloaded": "2026-09-24T15:49:07.952Z",
-      "pending": true,
+      "last_submitted": "2026-09-26T14:58:24.337Z",
+      "last_downloaded": "2026-09-26T14:58:26.497Z",
+      "pending": false,
       "warnings": 0,
       "errors": 0,
       "discovered": 1987,
@@ -87,9 +87,12 @@
       "last_crawl_time": "2026-08-02T21:05:25Z",
       "google_canonical": "https://tvduasrodas.com/competicoes/campeonato-amapaense-de-ciclismo-2026-macapa-ap-2026-08-01/",
       "user_canonical": "https://tvduasrodas.com/competicoes/campeonato-amapaense-de-ciclismo-2026-macapa-ap-2026-08-01/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-09-25T15:48:58.187120+00:00"
+      "inspected_at": "2026-09-26T14:58:31.180790+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/sao-fidelis-mc-sao-fidelis-rj-2026-09-24/",
@@ -106,7 +109,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-09-25T15:49:04.667468+00:00"
+      "inspected_at": "2026-09-26T14:58:37.544770+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/7-encontro-de-motociclistas-lavras-mg-2026-09-25/",
@@ -123,7 +126,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-09-25T15:49:11.172072+00:00"
+      "inspected_at": "2026-09-26T14:58:43.799610+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/amigos-do-pedrinho-virginia-mg-2026-09-25/",
@@ -140,7 +143,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-09-25T15:49:17.794448+00:00"
+      "inspected_at": "2026-09-26T14:58:49.976562+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/bohemios-mc-boraceia-sp-2026-09-25/",
@@ -154,24 +157,7 @@
       "user_canonical": "https://tvduasrodas.com/eventos/bohemios-mc-boraceia-sp-2026-09-25/",
       "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-09-25T15:49:24.257295+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/eventos/cimtb-3-congonhas-2026-09-25/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-07-28T02:19:22Z",
-      "google_canonical": "https://tvduasrodas.com/eventos/cimtb-3-congonhas-2026-09-25/",
-      "user_canonical": "https://tvduasrodas.com/eventos/cimtb-3-congonhas-2026-09-25/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
-      "referring_urls": [],
-      "inspected_at": "2026-09-25T15:49:31.203566+00:00"
+      "inspected_at": "2026-09-26T14:58:56.394057+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/destemidos-do-asfalto-itanagra-ba-2026-09-25/",
@@ -183,9 +169,12 @@
       "last_crawl_time": "2026-08-02T05:13:43Z",
       "google_canonical": "https://tvduasrodas.com/eventos/destemidos-do-asfalto-itanagra-ba-2026-09-25/",
       "user_canonical": "https://tvduasrodas.com/eventos/destemidos-do-asfalto-itanagra-ba-2026-09-25/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-09-25T15:49:37.750780+00:00"
+      "inspected_at": "2026-09-26T14:59:02.575611+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/frances-moto-fest-praia-do-frances-marechal-deodoro-al-2026-09-25/",
@@ -197,12 +186,9 @@
       "last_crawl_time": "2026-08-10T21:21:18Z",
       "google_canonical": "https://tvduasrodas.com/eventos/frances-moto-fest-praia-do-frances-marechal-deodoro-al-2026-09-25/",
       "user_canonical": "https://tvduasrodas.com/eventos/frances-moto-fest-praia-do-frances-marechal-deodoro-al-2026-09-25/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-09-25T15:49:44.121879+00:00"
+      "inspected_at": "2026-09-26T14:59:08.988669+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/moto-amigo-mondai-sc-2026-09-25/",
@@ -219,7 +205,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-09-25T15:49:50.489192+00:00"
+      "inspected_at": "2026-09-26T14:59:15.319409+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motofest-petrolandia-pe-2026-09-25/",
@@ -231,9 +217,29 @@
       "last_crawl_time": "2026-09-14T13:57:27Z",
       "google_canonical": "https://tvduasrodas.com/eventos/motofest-petrolandia-pe-2026-09-25/",
       "user_canonical": "https://tvduasrodas.com/eventos/motofest-petrolandia-pe-2026-09-25/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-09-25T15:49:56.868450+00:00"
+      "inspected_at": "2026-09-26T14:59:21.500497+00:00"
+    },
+    {
+      "url": "https://tvduasrodas.com/eventos/tiao-e-deja-moto-casal-pirassununga-sp-2026-09-25/",
+      "verdict": "PASS",
+      "coverage_state": "Enviada e indexada",
+      "indexing_state": "INDEXING_ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "robots_txt_state": "ALLOWED",
+      "last_crawl_time": "2026-07-26T11:33:14Z",
+      "google_canonical": "https://tvduasrodas.com/eventos/tiao-e-deja-moto-casal-pirassununga-sp-2026-09-25/",
+      "user_canonical": "https://tvduasrodas.com/eventos/tiao-e-deja-moto-casal-pirassununga-sp-2026-09-25/",
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
+      "referring_urls": [],
+      "inspected_at": "2026-09-26T14:59:27.850815+00:00"
     }
   ]
 }
