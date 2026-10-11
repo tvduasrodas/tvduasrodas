@@ -1,13 +1,13 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-10-10T16:15:05.521387+00:00",
+  "generated_at": "2026-10-11T16:39:47.443674+00:00",
   "scope": "Matérias no Google News sitemap das últimas 48 horas e eventos em andamento ou futuros priorizados por data",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/event-sitemap.xml",
-      "last_submitted": "2026-10-10T16:13:58.549Z",
+      "last_submitted": "2026-10-11T16:38:42.723Z",
       "last_downloaded": "2026-10-10T16:14:00.345Z",
-      "pending": false,
+      "pending": true,
       "warnings": 0,
       "errors": 0,
       "discovered": 1290,
@@ -27,7 +27,7 @@
     },
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-10-10T16:13:58.347Z",
+      "last_submitted": "2026-10-11T16:38:42.643Z",
       "last_downloaded": "2026-10-09T17:56:33.912Z",
       "pending": true,
       "warnings": 0,
@@ -44,8 +44,8 @@
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-10-10T16:13:58.148Z",
-      "last_downloaded": "2026-10-09T17:54:36.243Z",
+      "last_submitted": "2026-10-11T16:38:42.570Z",
+      "last_downloaded": "2026-10-10T16:14:00.638Z",
       "pending": true,
       "warnings": 0,
       "errors": 0,
@@ -87,9 +87,12 @@
       "last_crawl_time": "2026-08-02T21:05:25Z",
       "google_canonical": "https://tvduasrodas.com/competicoes/campeonato-amapaense-de-ciclismo-2026-macapa-ap-2026-08-01/",
       "user_canonical": "https://tvduasrodas.com/competicoes/campeonato-amapaense-de-ciclismo-2026-macapa-ap-2026-08-01/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-10-10T16:14:05.444339+00:00"
+      "inspected_at": "2026-10-11T16:38:49.303314+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/13-encontro-nacional-e-motociclistas-pompeu-mg-2026-10-09/",
@@ -106,7 +109,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-10-10T16:14:12.331085+00:00"
+      "inspected_at": "2026-10-11T16:38:55.868150+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/2-moto-fest-serra-de-sao-bento-rn-2026-10-09/",
@@ -118,9 +121,12 @@
       "last_crawl_time": "2026-09-21T11:38:24Z",
       "google_canonical": "https://tvduasrodas.com/eventos/2-moto-fest-serra-de-sao-bento-rn-2026-10-09/",
       "user_canonical": "https://tvduasrodas.com/eventos/2-moto-fest-serra-de-sao-bento-rn-2026-10-09/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-10-10T16:14:19.192313+00:00"
+      "inspected_at": "2026-10-11T16:39:02.005049+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/guardioes-mg-iacu-ba-2026-10-09/",
@@ -134,7 +140,7 @@
       "user_canonical": "https://tvduasrodas.com/eventos/guardioes-mg-iacu-ba-2026-10-09/",
       "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-10-10T16:14:25.484119+00:00"
+      "inspected_at": "2026-10-11T16:39:08.347439+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/mc-mal-encarado-castelo-es-2026-10-09/",
@@ -148,7 +154,7 @@
       "user_canonical": "https://tvduasrodas.com/eventos/mc-mal-encarado-castelo-es-2026-10-09/",
       "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-10-10T16:14:31.913574+00:00"
+      "inspected_at": "2026-10-11T16:39:14.825772+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/moto-praia-ilheus-ba-2026-10-09/",
@@ -165,7 +171,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-10-10T16:14:38.755754+00:00"
+      "inspected_at": "2026-10-11T16:39:20.941702+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/moto-week-macae-rj-2026-10-09/",
@@ -182,21 +188,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-10-10T16:14:45.544454+00:00"
-    },
-    {
-      "url": "https://tvduasrodas.com/eventos/motofest-capim-branco-mg-2026-10-09/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "robots_txt_state": "ALLOWED",
-      "last_crawl_time": "2026-08-17T21:55:33Z",
-      "google_canonical": "https://tvduasrodas.com/eventos/motofest-capim-branco-mg-2026-10-09/",
-      "user_canonical": "https://tvduasrodas.com/eventos/motofest-capim-branco-mg-2026-10-09/",
-      "sitemaps": [],
-      "referring_urls": [],
-      "inspected_at": "2026-10-10T16:14:52.409115+00:00"
+      "inspected_at": "2026-10-11T16:39:27.452468+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motofest-iacu-ba-2026-10-09/",
@@ -208,12 +200,9 @@
       "last_crawl_time": "2026-09-22T01:31:23Z",
       "google_canonical": "https://tvduasrodas.com/eventos/motofest-iacu-ba-2026-10-09/",
       "user_canonical": "https://tvduasrodas.com/eventos/motofest-iacu-ba-2026-10-09/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-10-10T16:14:58.853590+00:00"
+      "inspected_at": "2026-10-11T16:39:34.073039+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/nater-rock-natercia-mg-2026-10-09/",
@@ -225,12 +214,26 @@
       "last_crawl_time": "2026-08-11T04:58:04Z",
       "google_canonical": "https://tvduasrodas.com/eventos/nater-rock-natercia-mg-2026-10-09/",
       "user_canonical": "https://tvduasrodas.com/eventos/nater-rock-natercia-mg-2026-10-09/",
+      "sitemaps": [],
+      "referring_urls": [],
+      "inspected_at": "2026-10-11T16:39:40.799888+00:00"
+    },
+    {
+      "url": "https://tvduasrodas.com/eventos/trovoes-do-asfalto-mc-manhuacu-mg-2026-10-09/",
+      "verdict": "PASS",
+      "coverage_state": "Enviada e indexada",
+      "indexing_state": "INDEXING_ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "robots_txt_state": "ALLOWED",
+      "last_crawl_time": "2026-08-06T18:02:23Z",
+      "google_canonical": "https://tvduasrodas.com/eventos/trovoes-do-asfalto-mc-manhuacu-mg-2026-10-09/",
+      "user_canonical": "https://tvduasrodas.com/eventos/trovoes-do-asfalto-mc-manhuacu-mg-2026-10-09/",
       "sitemaps": [
         "https://tvduasrodas.com/event-sitemap.xml",
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-10-10T16:15:05.351038+00:00"
+      "inspected_at": "2026-10-11T16:39:47.184698+00:00"
     }
   ]
 }
