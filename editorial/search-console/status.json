@@ -1,13 +1,13 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-10-13T18:18:35.999981+00:00",
+  "generated_at": "2026-10-14T15:51:58.108292+00:00",
   "scope": "Matérias no Google News sitemap das últimas 48 horas e eventos em andamento ou futuros priorizados por data",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/event-sitemap.xml",
-      "last_submitted": "2026-10-13T18:17:28.237Z",
-      "last_downloaded": "2026-10-12T20:17:18.658Z",
-      "pending": true,
+      "last_submitted": "2026-10-14T15:50:50.502Z",
+      "last_downloaded": "2026-10-14T15:50:51.181Z",
+      "pending": false,
       "warnings": 0,
       "errors": 0,
       "discovered": 1290,
@@ -27,9 +27,9 @@
     },
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-10-13T18:17:27.651Z",
-      "last_downloaded": "2026-10-11T17:08:13.489Z",
-      "pending": true,
+      "last_submitted": "2026-10-14T15:50:50.316Z",
+      "last_downloaded": "2026-10-14T15:50:52.217Z",
+      "pending": false,
       "warnings": 0,
       "errors": 0,
       "discovered": 58,
@@ -44,8 +44,8 @@
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-10-13T18:17:27.351Z",
-      "last_downloaded": "2026-10-13T18:17:28.921Z",
+      "last_submitted": "2026-10-14T15:50:50.021Z",
+      "last_downloaded": "2026-10-14T15:50:52.072Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -87,9 +87,12 @@
       "last_crawl_time": "2026-08-02T21:05:25Z",
       "google_canonical": "https://tvduasrodas.com/competicoes/campeonato-amapaense-de-ciclismo-2026-macapa-ap-2026-08-01/",
       "user_canonical": "https://tvduasrodas.com/competicoes/campeonato-amapaense-de-ciclismo-2026-macapa-ap-2026-08-01/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-10-13T18:17:35.193109+00:00"
+      "inspected_at": "2026-10-14T15:50:57.073635+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/campeonato-brasileiro-de-paraciclismo-de-pista-2026-2026-10-16/",
@@ -101,12 +104,9 @@
       "last_crawl_time": "2026-09-23T12:23:22Z",
       "google_canonical": "https://tvduasrodas.com/eventos/campeonato-brasileiro-de-paraciclismo-de-pista-2026-2026-10-16/",
       "user_canonical": "https://tvduasrodas.com/eventos/campeonato-brasileiro-de-paraciclismo-de-pista-2026-2026-10-16/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-10-13T18:17:41.394356+00:00"
+      "inspected_at": "2026-10-14T15:51:03.472586+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/festival-moto-brasil-2026/",
@@ -118,14 +118,11 @@
       "last_crawl_time": "2026-09-17T01:08:37Z",
       "google_canonical": "https://tvduasrodas.com/eventos/festival-moto-brasil-2026/",
       "user_canonical": "https://tvduasrodas.com/eventos/festival-moto-brasil-2026/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [
         "https://tvduasrodas.com/evento?slug=festival-moto-brasil-2026"
       ],
-      "inspected_at": "2026-10-13T18:17:47.597497+00:00"
+      "inspected_at": "2026-10-14T15:51:09.890150+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/alis-libertatis-mc-candido-mota-sp-2026-10-17/",
@@ -137,9 +134,12 @@
       "last_crawl_time": "2026-10-10T13:52:28Z",
       "google_canonical": "https://tvduasrodas.com/eventos/alis-libertatis-mc-candido-mota-sp-2026-10-17/",
       "user_canonical": "https://tvduasrodas.com/eventos/alis-libertatis-mc-candido-mota-sp-2026-10-17/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-10-13T18:17:54.219083+00:00"
+      "inspected_at": "2026-10-14T15:51:16.051813+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/ganchos-do-asfalto-mg-rio-de-janeiro-rj-2026-10-17/",
@@ -156,7 +156,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-10-13T18:18:00.678952+00:00"
+      "inspected_at": "2026-10-14T15:51:25.452372+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/ganchos-do-asfalto-mg-santissimo-rio-de-janeiro-rj-2026-10-17/",
@@ -168,9 +168,12 @@
       "last_crawl_time": "2026-09-24T13:20:09Z",
       "google_canonical": "https://tvduasrodas.com/eventos/ganchos-do-asfalto-mg-santissimo-rio-de-janeiro-rj-2026-10-17/",
       "user_canonical": "https://tvduasrodas.com/eventos/ganchos-do-asfalto-mg-santissimo-rio-de-janeiro-rj-2026-10-17/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-10-13T18:18:06.872187+00:00"
+      "inspected_at": "2026-10-14T15:51:31.832352+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/mc-os-independentes-rio-de-janeiro-rj-2026-10-17/",
@@ -184,7 +187,7 @@
       "user_canonical": "https://tvduasrodas.com/eventos/mc-os-independentes-rio-de-janeiro-rj-2026-10-17/",
       "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-10-13T18:18:13.530908+00:00"
+      "inspected_at": "2026-10-14T15:51:38.385650+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/nacionaes-le-mc-boituva-sp-2026-10-17/",
@@ -196,12 +199,9 @@
       "last_crawl_time": "2026-10-08T00:10:38Z",
       "google_canonical": "https://tvduasrodas.com/eventos/nacionaes-le-mc-boituva-sp-2026-10-17/",
       "user_canonical": "https://tvduasrodas.com/eventos/nacionaes-le-mc-boituva-sp-2026-10-17/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-10-13T18:18:19.955844+00:00"
+      "inspected_at": "2026-10-14T15:51:44.826838+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/professores-mc-vila-velhas-es-2026-10-17/",
@@ -218,7 +218,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-10-13T18:18:29.181274+00:00"
+      "inspected_at": "2026-10-14T15:51:51.351921+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/rock-chopper-mc-rio-das-ostras-rj-2026-10-17/",
@@ -230,12 +230,9 @@
       "last_crawl_time": "2026-09-22T00:46:24Z",
       "google_canonical": "https://tvduasrodas.com/eventos/rock-chopper-mc-rio-das-ostras-rj-2026-10-17/",
       "user_canonical": "https://tvduasrodas.com/eventos/rock-chopper-mc-rio-das-ostras-rj-2026-10-17/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-10-13T18:18:35.914672+00:00"
+      "inspected_at": "2026-10-14T15:51:57.967732+00:00"
     }
   ]
 }
