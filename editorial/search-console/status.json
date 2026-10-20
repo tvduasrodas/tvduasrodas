@@ -1,12 +1,12 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-10-19T17:29:18.726646+00:00",
+  "generated_at": "2026-10-20T15:40:03.904909+00:00",
   "scope": "Matérias no Google News sitemap das últimas 48 horas e eventos em andamento ou futuros priorizados por data",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/event-sitemap.xml",
-      "last_submitted": "2026-10-19T17:28:14.297Z",
-      "last_downloaded": "2026-10-19T17:28:15.370Z",
+      "last_submitted": "2026-10-20T15:38:57.601Z",
+      "last_downloaded": "2026-10-20T15:38:58.216Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -27,9 +27,9 @@
     },
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-10-19T17:28:14.110Z",
-      "last_downloaded": "2026-10-18T14:33:39.898Z",
-      "pending": true,
+      "last_submitted": "2026-10-20T15:38:57.420Z",
+      "last_downloaded": "2026-10-20T15:39:02.042Z",
+      "pending": false,
       "warnings": 0,
       "errors": 0,
       "discovered": 58,
@@ -44,8 +44,8 @@
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-10-19T17:28:14.014Z",
-      "last_downloaded": "2026-10-19T17:28:15.990Z",
+      "last_submitted": "2026-10-20T15:38:57.314Z",
+      "last_downloaded": "2026-10-20T15:38:57.950Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -87,9 +87,12 @@
       "last_crawl_time": "2026-08-02T21:05:25Z",
       "google_canonical": "https://tvduasrodas.com/competicoes/campeonato-amapaense-de-ciclismo-2026-macapa-ap-2026-08-01/",
       "user_canonical": "https://tvduasrodas.com/competicoes/campeonato-amapaense-de-ciclismo-2026-macapa-ap-2026-08-01/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-10-19T17:28:20.827201+00:00"
+      "inspected_at": "2026-10-20T15:39:04.518089+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/1-encontro-de-motoclubes-paulo-afonso-ba-2026-10-22/",
@@ -101,9 +104,12 @@
       "last_crawl_time": "2026-09-24T04:28:19Z",
       "google_canonical": "https://tvduasrodas.com/eventos/1-encontro-de-motoclubes-paulo-afonso-ba-2026-10-22/",
       "user_canonical": "https://tvduasrodas.com/eventos/1-encontro-de-motoclubes-paulo-afonso-ba-2026-10-22/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-10-19T17:28:27.329407+00:00"
+      "inspected_at": "2026-10-20T15:39:11.120887+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/guardioes-do-destino-mc-luisburgo-mg-2026-10-23/",
@@ -120,7 +126,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-10-19T17:28:33.812269+00:00"
+      "inspected_at": "2026-10-20T15:39:18.050241+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/pinga-oleo-mc-peruibe-sp-2026-10-23/",
@@ -132,9 +138,12 @@
       "last_crawl_time": "2026-09-29T22:06:07Z",
       "google_canonical": "https://tvduasrodas.com/eventos/pinga-oleo-mc-peruibe-sp-2026-10-23/",
       "user_canonical": "https://tvduasrodas.com/eventos/pinga-oleo-mc-peruibe-sp-2026-10-23/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-10-19T17:28:40.385550+00:00"
+      "inspected_at": "2026-10-20T15:39:24.697357+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/bandidas-brasil-itaguai-rj-2026-10-24/",
@@ -148,7 +157,7 @@
       "user_canonical": "https://tvduasrodas.com/eventos/bandidas-brasil-itaguai-rj-2026-10-24/",
       "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-10-19T17:28:46.796116+00:00"
+      "inspected_at": "2026-10-20T15:39:31.693743+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/old-indians-mc-sao-jose-dos-campos-sp-2026-10-24/",
@@ -160,9 +169,12 @@
       "last_crawl_time": "2026-08-27T09:21:51Z",
       "google_canonical": "https://tvduasrodas.com/eventos/old-indians-mc-sao-jose-dos-campos-sp-2026-10-24/",
       "user_canonical": "https://tvduasrodas.com/eventos/old-indians-mc-sao-jose-dos-campos-sp-2026-10-24/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-10-19T17:28:53.218002+00:00"
+      "inspected_at": "2026-10-20T15:39:38.125959+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/scorpyon-mc-queimados-rj-2026-10-24/",
@@ -179,7 +191,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-10-19T17:28:59.333565+00:00"
+      "inspected_at": "2026-10-20T15:39:44.587701+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/barbaros-mc-mage-rj-2026-10-25/",
@@ -191,11 +203,14 @@
       "last_crawl_time": "2026-08-29T04:46:05Z",
       "google_canonical": "https://tvduasrodas.com/eventos/barbaros-mc-mage-rj-2026-10-25/",
       "user_canonical": "https://tvduasrodas.com/eventos/barbaros-mc-mage-rj-2026-10-25/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [
         "https://tvduasrodas.com/arquivo"
       ],
-      "inspected_at": "2026-10-19T17:29:05.828926+00:00"
+      "inspected_at": "2026-10-20T15:39:50.939524+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/20-encontro-de-motociclistas-motonave-navegantes-sc-2026-10-30/",
@@ -207,12 +222,9 @@
       "last_crawl_time": "2026-09-14T01:01:41Z",
       "google_canonical": "https://tvduasrodas.com/eventos/20-encontro-de-motociclistas-motonave-navegantes-sc-2026-10-30/",
       "user_canonical": "https://tvduasrodas.com/eventos/20-encontro-de-motociclistas-motonave-navegantes-sc-2026-10-30/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-10-19T17:29:12.233843+00:00"
+      "inspected_at": "2026-10-20T15:39:57.152288+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/4-festival-da-pimenta-e-motorock-uru-sp-2026-10-30/",
@@ -226,7 +238,7 @@
       "user_canonical": "https://tvduasrodas.com/eventos/4-festival-da-pimenta-e-motorock-uru-sp-2026-10-30/",
       "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-10-19T17:29:18.632366+00:00"
+      "inspected_at": "2026-10-20T15:40:03.768323+00:00"
     }
   ]
 }
