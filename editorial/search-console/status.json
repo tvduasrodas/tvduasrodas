@@ -1,12 +1,12 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-10-20T15:40:03.904909+00:00",
+  "generated_at": "2026-10-21T15:58:32.569421+00:00",
   "scope": "Matérias no Google News sitemap das últimas 48 horas e eventos em andamento ou futuros priorizados por data",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/event-sitemap.xml",
-      "last_submitted": "2026-10-20T15:38:57.601Z",
-      "last_downloaded": "2026-10-20T15:38:58.216Z",
+      "last_submitted": "2026-10-21T15:57:27.463Z",
+      "last_downloaded": "2026-10-21T15:57:29.197Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -27,8 +27,8 @@
     },
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-10-20T15:38:57.420Z",
-      "last_downloaded": "2026-10-20T15:39:02.042Z",
+      "last_submitted": "2026-10-21T15:57:27.350Z",
+      "last_downloaded": "2026-10-21T15:57:28.216Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -44,8 +44,8 @@
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-10-20T15:38:57.314Z",
-      "last_downloaded": "2026-10-20T15:38:57.950Z",
+      "last_submitted": "2026-10-21T15:57:27.232Z",
+      "last_downloaded": "2026-10-21T15:57:27.908Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -92,7 +92,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-10-20T15:39:04.518089+00:00"
+      "inspected_at": "2026-10-21T15:57:33.933565+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/1-encontro-de-motoclubes-paulo-afonso-ba-2026-10-22/",
@@ -109,7 +109,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-10-20T15:39:11.120887+00:00"
+      "inspected_at": "2026-10-21T15:57:40.340903+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/guardioes-do-destino-mc-luisburgo-mg-2026-10-23/",
@@ -126,7 +126,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-10-20T15:39:18.050241+00:00"
+      "inspected_at": "2026-10-21T15:57:46.867894+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/pinga-oleo-mc-peruibe-sp-2026-10-23/",
@@ -138,12 +138,9 @@
       "last_crawl_time": "2026-09-29T22:06:07Z",
       "google_canonical": "https://tvduasrodas.com/eventos/pinga-oleo-mc-peruibe-sp-2026-10-23/",
       "user_canonical": "https://tvduasrodas.com/eventos/pinga-oleo-mc-peruibe-sp-2026-10-23/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-10-20T15:39:24.697357+00:00"
+      "inspected_at": "2026-10-21T15:57:53.257580+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/bandidas-brasil-itaguai-rj-2026-10-24/",
@@ -155,9 +152,12 @@
       "last_crawl_time": "2026-08-17T09:58:41Z",
       "google_canonical": "https://tvduasrodas.com/eventos/bandidas-brasil-itaguai-rj-2026-10-24/",
       "user_canonical": "https://tvduasrodas.com/eventos/bandidas-brasil-itaguai-rj-2026-10-24/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-10-20T15:39:31.693743+00:00"
+      "inspected_at": "2026-10-21T15:57:59.638679+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/old-indians-mc-sao-jose-dos-campos-sp-2026-10-24/",
@@ -169,12 +169,9 @@
       "last_crawl_time": "2026-08-27T09:21:51Z",
       "google_canonical": "https://tvduasrodas.com/eventos/old-indians-mc-sao-jose-dos-campos-sp-2026-10-24/",
       "user_canonical": "https://tvduasrodas.com/eventos/old-indians-mc-sao-jose-dos-campos-sp-2026-10-24/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-10-20T15:39:38.125959+00:00"
+      "inspected_at": "2026-10-21T15:58:06.165078+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/scorpyon-mc-queimados-rj-2026-10-24/",
@@ -191,7 +188,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-10-20T15:39:44.587701+00:00"
+      "inspected_at": "2026-10-21T15:58:12.410542+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/barbaros-mc-mage-rj-2026-10-25/",
@@ -210,7 +207,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/arquivo"
       ],
-      "inspected_at": "2026-10-20T15:39:50.939524+00:00"
+      "inspected_at": "2026-10-21T15:58:18.972556+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/20-encontro-de-motociclistas-motonave-navegantes-sc-2026-10-30/",
@@ -222,9 +219,12 @@
       "last_crawl_time": "2026-09-14T01:01:41Z",
       "google_canonical": "https://tvduasrodas.com/eventos/20-encontro-de-motociclistas-motonave-navegantes-sc-2026-10-30/",
       "user_canonical": "https://tvduasrodas.com/eventos/20-encontro-de-motociclistas-motonave-navegantes-sc-2026-10-30/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-10-20T15:39:57.152288+00:00"
+      "inspected_at": "2026-10-21T15:58:25.596572+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/4-festival-da-pimenta-e-motorock-uru-sp-2026-10-30/",
@@ -236,9 +236,12 @@
       "last_crawl_time": "2026-08-17T13:37:05Z",
       "google_canonical": "https://tvduasrodas.com/eventos/4-festival-da-pimenta-e-motorock-uru-sp-2026-10-30/",
       "user_canonical": "https://tvduasrodas.com/eventos/4-festival-da-pimenta-e-motorock-uru-sp-2026-10-30/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-10-20T15:40:03.768323+00:00"
+      "inspected_at": "2026-10-21T15:58:32.197628+00:00"
     }
   ]
 }
