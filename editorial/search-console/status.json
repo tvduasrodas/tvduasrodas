@@ -1,12 +1,12 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-10-28T17:10:28.478353+00:00",
+  "generated_at": "2026-10-29T17:26:55.184236+00:00",
   "scope": "Matérias no Google News sitemap das últimas 48 horas e eventos em andamento ou futuros priorizados por data",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/event-sitemap.xml",
-      "last_submitted": "2026-10-28T17:09:22.665Z",
-      "last_downloaded": "2026-10-28T17:09:24.942Z",
+      "last_submitted": "2026-10-29T17:25:50.119Z",
+      "last_downloaded": "2026-10-29T17:25:53.902Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -27,8 +27,8 @@
     },
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-10-28T17:09:22.482Z",
-      "last_downloaded": "2026-10-28T17:09:24.079Z",
+      "last_submitted": "2026-10-29T17:25:49.953Z",
+      "last_downloaded": "2026-10-29T17:25:55.805Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -44,8 +44,8 @@
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-10-28T17:09:22.118Z",
-      "last_downloaded": "2026-10-28T17:09:23.760Z",
+      "last_submitted": "2026-10-29T17:25:49.559Z",
+      "last_downloaded": "2026-10-29T17:25:53.388Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -72,9 +72,9 @@
   ],
   "summary": {
     "inspected": 10,
-    "indexed": 7,
+    "indexed": 6,
     "not_indexed": 0,
-    "processing_or_unknown": 3
+    "processing_or_unknown": 4
   },
   "urls": [
     {
@@ -87,12 +87,9 @@
       "last_crawl_time": "2026-08-02T21:05:25Z",
       "google_canonical": "https://tvduasrodas.com/competicoes/campeonato-amapaense-de-ciclismo-2026-macapa-ap-2026-08-01/",
       "user_canonical": "https://tvduasrodas.com/competicoes/campeonato-amapaense-de-ciclismo-2026-macapa-ap-2026-08-01/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-10-28T17:09:29.571109+00:00"
+      "inspected_at": "2026-10-29T17:25:57.678284+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/20-encontro-de-motociclistas-motonave-navegantes-sc-2026-10-30/",
@@ -104,15 +101,18 @@
       "last_crawl_time": "2026-10-23T14:04:45Z",
       "google_canonical": "https://tvduasrodas.com/eventos/20-encontro-de-motociclistas-motonave-navegantes-sc-2026-10-30/",
       "user_canonical": "https://tvduasrodas.com/eventos/20-encontro-de-motociclistas-motonave-navegantes-sc-2026-10-30/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-10-28T17:09:36.187751+00:00"
+      "inspected_at": "2026-10-29T17:26:04.025882+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/4-festival-da-pimenta-e-motorock-uru-sp-2026-10-30/",
-      "verdict": "PASS",
-      "coverage_state": "Enviada e indexada",
-      "indexing_state": "INDEXING_ALLOWED",
+      "verdict": "NEUTRAL",
+      "coverage_state": "Excluída pela tag \"noindex\"",
+      "indexing_state": "BLOCKED_BY_META_TAG",
       "page_fetch_state": "SUCCESSFUL",
       "robots_txt_state": "ALLOWED",
       "last_crawl_time": "2026-08-17T13:37:05Z",
@@ -123,7 +123,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-10-28T17:09:43.095454+00:00"
+      "inspected_at": "2026-10-29T17:26:10.480984+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/aos-olhos-de-um-motociclista-bom-principio-rs-2026-10-30/",
@@ -135,12 +135,9 @@
       "last_crawl_time": "2026-09-23T11:24:41Z",
       "google_canonical": "https://tvduasrodas.com/eventos/aos-olhos-de-um-motociclista-bom-principio-rs-2026-10-30/",
       "user_canonical": "https://tvduasrodas.com/eventos/aos-olhos-de-um-motociclista-bom-principio-rs-2026-10-30/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-10-28T17:09:49.575547+00:00"
+      "inspected_at": "2026-10-29T17:26:16.947135+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/moiru-mc-bertioga-sp-2026-10-30/",
@@ -152,12 +149,9 @@
       "last_crawl_time": "2026-10-15T23:19:34Z",
       "google_canonical": "https://tvduasrodas.com/eventos/moiru-mc-bertioga-sp-2026-10-30/",
       "user_canonical": "https://tvduasrodas.com/eventos/moiru-mc-bertioga-sp-2026-10-30/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-10-28T17:09:55.757114+00:00"
+      "inspected_at": "2026-10-29T17:26:23.153665+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motorock-uru-sp-2026-10-30/",
@@ -171,7 +165,7 @@
       "user_canonical": "https://tvduasrodas.com/eventos/4-festival-da-pimenta-e-motorock-uru-sp-2026-10-30/",
       "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-10-28T17:10:02.570910+00:00"
+      "inspected_at": "2026-10-29T17:26:29.384378+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/7-aniversario-mc-ponta-negra-marica-rj-2026-10-31/",
@@ -188,7 +182,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-10-28T17:10:08.886204+00:00"
+      "inspected_at": "2026-10-29T17:26:35.883448+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/mc-ponta-negra-marica-rj-2026-10-31/",
@@ -200,11 +194,14 @@
       "last_crawl_time": "2026-08-03T09:41:19Z",
       "google_canonical": "https://tvduasrodas.com/eventos/7-aniversario-mc-ponta-negra-marica-rj-2026-10-31/",
       "user_canonical": "https://tvduasrodas.com/eventos/7-aniversario-mc-ponta-negra-marica-rj-2026-10-31/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [
         "https://tvduasrodas.com/eventos/7-aniversario-mc-ponta-negra-marica-rj-2026-10-31/"
       ],
-      "inspected_at": "2026-10-28T17:10:15.698950+00:00"
+      "inspected_at": "2026-10-29T17:26:42.242272+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/mc-terroristas-do-asfalto-campo-belo-mg-2026-10-31/",
@@ -216,12 +213,9 @@
       "last_crawl_time": "2026-10-28T00:29:12Z",
       "google_canonical": "https://tvduasrodas.com/eventos/mc-terroristas-do-asfalto-campo-belo-mg-2026-10-31/",
       "user_canonical": "https://tvduasrodas.com/eventos/mc-terroristas-do-asfalto-campo-belo-mg-2026-10-31/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-10-28T17:10:21.907291+00:00"
+      "inspected_at": "2026-10-29T17:26:48.628602+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motofest-carbonita-mg-2026-10-31/",
@@ -233,9 +227,12 @@
       "last_crawl_time": "2026-08-03T04:10:19Z",
       "google_canonical": "https://tvduasrodas.com/eventos/motofest-carbonita-mg-2026-10-31/",
       "user_canonical": "https://tvduasrodas.com/eventos/motofest-carbonita-mg-2026-10-31/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-10-28T17:10:28.113149+00:00"
+      "inspected_at": "2026-10-29T17:26:55.070104+00:00"
     }
   ]
 }
