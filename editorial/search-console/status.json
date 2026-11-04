@@ -1,12 +1,12 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-11-03T18:27:53.781678+00:00",
+  "generated_at": "2026-11-04T18:39:08.565523+00:00",
   "scope": "Matérias no Google News sitemap das últimas 48 horas e eventos em andamento ou futuros priorizados por data",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/event-sitemap.xml",
-      "last_submitted": "2026-11-03T18:26:49.875Z",
-      "last_downloaded": "2026-11-03T18:26:50.609Z",
+      "last_submitted": "2026-11-04T18:38:04.288Z",
+      "last_downloaded": "2026-11-04T18:38:14.336Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -27,8 +27,8 @@
     },
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-11-03T18:26:49.803Z",
-      "last_downloaded": "2026-11-03T18:27:00.581Z",
+      "last_submitted": "2026-11-04T18:38:04.174Z",
+      "last_downloaded": "2026-11-04T18:38:05.107Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -44,8 +44,8 @@
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-11-03T18:26:49.730Z",
-      "last_downloaded": "2026-11-03T18:26:50.990Z",
+      "last_submitted": "2026-11-04T18:38:04.073Z",
+      "last_downloaded": "2026-11-04T18:38:05.106Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -92,7 +92,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-11-03T18:26:56.650060+00:00"
+      "inspected_at": "2026-11-04T18:38:10.791794+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/eicma-2026/",
@@ -111,7 +111,7 @@
       "referring_urls": [
         "https://tvduasrodas.com/evento?slug=eicma-2026"
       ],
-      "inspected_at": "2026-11-03T18:27:03.139791+00:00"
+      "inspected_at": "2026-11-04T18:38:17.162908+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/9-encontro-de-motociclistas-e-triciclistas-lutecia-sp-2026-11-06/",
@@ -128,7 +128,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-11-03T18:27:09.495426+00:00"
+      "inspected_at": "2026-11-04T18:38:23.534564+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motofest-barreirinhas-ma-2026-11-06/",
@@ -145,7 +145,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-11-03T18:27:15.668297+00:00"
+      "inspected_at": "2026-11-04T18:38:29.884919+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motofest-tombos-mg-2026-11-06/",
@@ -157,9 +157,12 @@
       "last_crawl_time": "2026-11-02T21:24:22Z",
       "google_canonical": "https://tvduasrodas.com/eventos/motofest-tombos-mg-2026-11-06/",
       "user_canonical": "https://tvduasrodas.com/eventos/motofest-tombos-mg-2026-11-06/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-11-03T18:27:22.142819+00:00"
+      "inspected_at": "2026-11-04T18:38:36.244727+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/9-encontro-de-motociclistas-e-triciclistas-lutecia-sp-2026-11-07/",
@@ -176,7 +179,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-11-03T18:27:28.426791+00:00"
+      "inspected_at": "2026-11-04T18:38:42.623341+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/4-missa-do-motociclistas-e-triciclista-bebedouro-sp-2026-11-08/",
@@ -193,7 +196,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-11-03T18:27:34.731612+00:00"
+      "inspected_at": "2026-11-04T18:38:48.977192+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/exitus-brasil-mc-marica-rj-2026-11-08/",
@@ -210,7 +213,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-11-03T18:27:41.171514+00:00"
+      "inspected_at": "2026-11-04T18:38:55.329471+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/rabugentos-mc-rio-de-janeiro-rj-2026-11-08/",
@@ -227,7 +230,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-11-03T18:27:47.342837+00:00"
+      "inspected_at": "2026-11-04T18:39:01.664172+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/rota-oeste-mg-rio-de-janeiro-rj-2026-11-08/",
@@ -244,7 +247,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-11-03T18:27:53.682397+00:00"
+      "inspected_at": "2026-11-04T18:39:07.998140+00:00"
     }
   ]
 }
