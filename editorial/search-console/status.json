@@ -1,12 +1,12 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-11-13T18:31:59.269274+00:00",
+  "generated_at": "2026-11-14T17:06:37.693889+00:00",
   "scope": "Matérias no Google News sitemap das últimas 48 horas e eventos em andamento ou futuros priorizados por data",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/event-sitemap.xml",
-      "last_submitted": "2026-11-13T18:30:55.243Z",
-      "last_downloaded": "2026-11-13T18:30:56.334Z",
+      "last_submitted": "2026-11-14T17:05:35.039Z",
+      "last_downloaded": "2026-11-14T17:05:35.552Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -27,8 +27,8 @@
     },
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-11-13T18:30:55.036Z",
-      "last_downloaded": "2026-11-13T18:30:56.474Z",
+      "last_submitted": "2026-11-14T17:05:34.738Z",
+      "last_downloaded": "2026-11-14T17:05:36.463Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -44,8 +44,8 @@
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-11-13T18:30:54.742Z",
-      "last_downloaded": "2026-11-13T18:30:55.773Z",
+      "last_submitted": "2026-11-14T17:05:34.436Z",
+      "last_downloaded": "2026-11-14T17:05:36.628Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -87,12 +87,9 @@
       "last_crawl_time": "2026-08-02T21:05:25Z",
       "google_canonical": "https://tvduasrodas.com/competicoes/campeonato-amapaense-de-ciclismo-2026-macapa-ap-2026-08-01/",
       "user_canonical": "https://tvduasrodas.com/competicoes/campeonato-amapaense-de-ciclismo-2026-macapa-ap-2026-08-01/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-11-13T18:31:01.743308+00:00"
+      "inspected_at": "2026-11-14T17:05:41.337079+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/indomaveis-motors-cascavel-pr-2026-11-12/",
@@ -104,9 +101,12 @@
       "last_crawl_time": "2026-09-19T10:55:30Z",
       "google_canonical": "https://tvduasrodas.com/eventos/indomaveis-motors-cascavel-pr-2026-11-12/",
       "user_canonical": "https://tvduasrodas.com/eventos/indomaveis-motors-cascavel-pr-2026-11-12/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-11-13T18:31:07.952229+00:00"
+      "inspected_at": "2026-11-14T17:05:47.536146+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/4-encontro-de-motociclistas-corrego-do-bom-jesus-mg-2026-11-13/",
@@ -123,7 +123,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-11-13T18:31:14.497830+00:00"
+      "inspected_at": "2026-11-14T17:05:53.700227+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/baroes-do-vento-mg-cosmopolis-sp-2026-11-13/",
@@ -140,7 +140,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-11-13T18:31:20.876679+00:00"
+      "inspected_at": "2026-11-14T17:06:00.168984+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/lendario-mc-corrego-do-bom-jesus-mg-2026-11-13/",
@@ -157,7 +157,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-11-13T18:31:27.364552+00:00"
+      "inspected_at": "2026-11-14T17:06:06.507377+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motofest-atilio-vivacqua-es-2026-11-13/",
@@ -174,7 +174,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-11-13T18:31:33.688060+00:00"
+      "inspected_at": "2026-11-14T17:06:12.852494+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motofest-inhapi-al-2026-11-13/",
@@ -186,12 +186,9 @@
       "last_crawl_time": "2026-11-09T00:31:57Z",
       "google_canonical": "https://tvduasrodas.com/eventos/motofest-inhapi-al-2026-11-13/",
       "user_canonical": "https://tvduasrodas.com/eventos/motofest-inhapi-al-2026-11-13/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-11-13T18:31:39.960303+00:00"
+      "inspected_at": "2026-11-14T17:06:19.202139+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/liberty-mc-poa-sp-2026-11-14/",
@@ -208,7 +205,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-11-13T18:31:46.242648+00:00"
+      "inspected_at": "2026-11-14T17:06:25.313059+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/zapata-mc-ferraz-de-vasconcelos-sp-2026-11-14/",
@@ -225,7 +222,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-11-13T18:31:52.524107+00:00"
+      "inspected_at": "2026-11-14T17:06:31.437254+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motofest-campina-grande-pb-2026-11-19/",
@@ -242,7 +239,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-11-13T18:31:58.868479+00:00"
+      "inspected_at": "2026-11-14T17:06:37.536813+00:00"
     }
   ]
 }
