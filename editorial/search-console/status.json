@@ -1,12 +1,12 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-11-19T19:32:06.779373+00:00",
+  "generated_at": "2026-11-20T19:06:36.648125+00:00",
   "scope": "Matérias no Google News sitemap das últimas 48 horas e eventos em andamento ou futuros priorizados por data",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/event-sitemap.xml",
-      "last_submitted": "2026-11-19T19:28:41.856Z",
-      "last_downloaded": "2026-11-19T19:28:43.181Z",
+      "last_submitted": "2026-11-20T19:05:33.828Z",
+      "last_downloaded": "2026-11-20T19:05:34.752Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -27,8 +27,8 @@
     },
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-11-19T19:28:41.480Z",
-      "last_downloaded": "2026-11-19T19:29:36.420Z",
+      "last_submitted": "2026-11-20T19:05:33.686Z",
+      "last_downloaded": "2026-11-20T19:05:34.563Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -44,11 +44,11 @@
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-11-19T19:28:41.292Z",
-      "last_downloaded": "2026-11-18T19:23:48.058Z",
-      "pending": true,
+      "last_submitted": "2026-11-20T19:05:33.507Z",
+      "last_downloaded": "2026-11-20T19:05:35.602Z",
+      "pending": false,
       "warnings": 0,
-      "errors": 1,
+      "errors": 0,
       "discovered": 1987,
       "indexed": 0,
       "content": [
@@ -92,7 +92,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-11-19T19:29:35.674067+00:00"
+      "inspected_at": "2026-11-20T19:05:40.266725+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motofest-campina-grande-pb-2026-11-19/",
@@ -109,7 +109,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-11-19T19:30:28.955119+00:00"
+      "inspected_at": "2026-11-20T19:05:46.475832+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/3-ita-moto-fest-itamaraju-ba-2026-11-20/",
@@ -121,12 +121,9 @@
       "last_crawl_time": "2026-09-22T01:23:53Z",
       "google_canonical": "https://tvduasrodas.com/eventos/3-ita-moto-fest-itamaraju-ba-2026-11-20/",
       "user_canonical": "https://tvduasrodas.com/eventos/3-ita-moto-fest-itamaraju-ba-2026-11-20/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-11-19T19:30:35.141619+00:00"
+      "inspected_at": "2026-11-20T19:05:52.867122+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/5-moto-fe-santa-fe-do-sul-sp-2026-11-20/",
@@ -143,7 +140,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-11-19T19:30:41.343363+00:00"
+      "inspected_at": "2026-11-20T19:05:59.052566+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/cano-quente-mc-jaragua-do-sul-sc-2026-11-20/",
@@ -155,12 +152,9 @@
       "last_crawl_time": "2026-10-28T02:00:45Z",
       "google_canonical": "https://tvduasrodas.com/eventos/cano-quente-mc-jaragua-do-sul-sc-2026-11-20/",
       "user_canonical": "https://tvduasrodas.com/eventos/cano-quente-mc-jaragua-do-sul-sc-2026-11-20/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-11-19T19:30:47.519772+00:00"
+      "inspected_at": "2026-11-20T19:06:05.442920+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/cobras-de-farmacia-mc-porto-feliz-sp-2026-11-20/",
@@ -177,7 +171,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-11-19T19:30:53.771760+00:00"
+      "inspected_at": "2026-11-20T19:06:11.596619+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/discriminados-mc-santa-rita-de-jacutinga-mg-2026-11-20/",
@@ -189,12 +183,9 @@
       "last_crawl_time": "2026-10-12T09:38:53Z",
       "google_canonical": "https://tvduasrodas.com/eventos/discriminados-mc-santa-rita-de-jacutinga-mg-2026-11-20/",
       "user_canonical": "https://tvduasrodas.com/eventos/discriminados-mc-santa-rita-de-jacutinga-mg-2026-11-20/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-11-19T19:30:59.984680+00:00"
+      "inspected_at": "2026-11-20T19:06:17.750917+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/excomungados-mc-turmalina-mg-2026-11-20/",
@@ -211,7 +202,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-11-19T19:31:06.312763+00:00"
+      "inspected_at": "2026-11-20T19:06:23.909430+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/mc-anjos-sobre-rodas-boa-esperanca-es-2026-11-20/",
@@ -228,7 +219,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-11-19T19:31:12.744999+00:00"
+      "inspected_at": "2026-11-20T19:06:30.064658+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/cavaleiros-sobre-rodas-mc-colina-sp-2026-11-21/",
@@ -245,7 +236,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-11-19T19:32:06.229152+00:00"
+      "inspected_at": "2026-11-20T19:06:36.267007+00:00"
     }
   ]
 }
