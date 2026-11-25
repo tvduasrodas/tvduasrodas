@@ -1,12 +1,12 @@
 {
   "property": "sc-domain:tvduasrodas.com",
-  "generated_at": "2026-11-24T21:11:14.421913+00:00",
+  "generated_at": "2026-11-25T20:29:27.810706+00:00",
   "scope": "Matérias no Google News sitemap das últimas 48 horas e eventos em andamento ou futuros priorizados por data",
   "sitemaps": [
     {
       "url": "https://tvduasrodas.com/event-sitemap.xml",
-      "last_submitted": "2026-11-24T21:10:11.737Z",
-      "last_downloaded": "2026-11-24T21:10:13.009Z",
+      "last_submitted": "2026-11-25T20:28:24.286Z",
+      "last_downloaded": "2026-11-25T20:28:24.696Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -27,8 +27,8 @@
     },
     {
       "url": "https://tvduasrodas.com/news-sitemap.xml",
-      "last_submitted": "2026-11-24T21:10:11.280Z",
-      "last_downloaded": "2026-11-24T21:10:12.894Z",
+      "last_submitted": "2026-11-25T20:28:24.212Z",
+      "last_downloaded": "2026-11-25T20:28:25.876Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -44,8 +44,8 @@
     },
     {
       "url": "https://tvduasrodas.com/sitemap.xml",
-      "last_submitted": "2026-11-24T21:10:11.062Z",
-      "last_downloaded": "2026-11-24T21:10:12.317Z",
+      "last_submitted": "2026-11-25T20:28:24.146Z",
+      "last_downloaded": "2026-11-25T20:28:25.756Z",
       "pending": false,
       "warnings": 0,
       "errors": 0,
@@ -92,7 +92,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-11-24T21:10:18.094718+00:00"
+      "inspected_at": "2026-11-25T20:28:30.754873+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motorcycle-live-2026/",
@@ -104,14 +104,11 @@
       "last_crawl_time": "2026-08-04T21:11:00Z",
       "google_canonical": "https://tvduasrodas.com/eventos/motorcycle-live-2026/",
       "user_canonical": "https://tvduasrodas.com/eventos/motorcycle-live-2026/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [
         "https://tvduasrodas.com/evento?slug=motorcycle-live-2026"
       ],
-      "inspected_at": "2026-11-24T21:10:24.213097+00:00"
+      "inspected_at": "2026-11-25T20:28:37.064454+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/21-guaranhuns-garanhuns-pe-2026-11-27/",
@@ -125,7 +122,7 @@
       "user_canonical": "https://tvduasrodas.com/eventos/21-guaranhuns-garanhuns-pe-2026-11-27/",
       "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-11-24T21:10:30.562375+00:00"
+      "inspected_at": "2026-11-25T20:28:43.379003+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/mc-guaras-do-asfalto-garanhuns-pe-2026-11-27/",
@@ -142,7 +139,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-11-24T21:10:36.747141+00:00"
+      "inspected_at": "2026-11-25T20:28:49.695496+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motofest-garanhuns-pe-2026-11-27/",
@@ -159,7 +156,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-11-24T21:10:42.919233+00:00"
+      "inspected_at": "2026-11-25T20:28:56.021923+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motofest-uirauna-pb-2026-11-27/",
@@ -171,12 +168,9 @@
       "last_crawl_time": "2026-09-22T00:29:05Z",
       "google_canonical": "https://tvduasrodas.com/eventos/motofest-uirauna-pb-2026-11-27/",
       "user_canonical": "https://tvduasrodas.com/eventos/motofest-uirauna-pb-2026-11-27/",
-      "sitemaps": [
-        "https://tvduasrodas.com/event-sitemap.xml",
-        "https://tvduasrodas.com/sitemap.xml"
-      ],
+      "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-11-24T21:10:49.018671+00:00"
+      "inspected_at": "2026-11-25T20:29:02.345055+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/motorock-pesqueira-pe-2026-11-27/",
@@ -193,7 +187,7 @@
         "https://tvduasrodas.com/sitemap.xml"
       ],
       "referring_urls": [],
-      "inspected_at": "2026-11-24T21:10:55.205666+00:00"
+      "inspected_at": "2026-11-25T20:29:08.646381+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/16-maratona-de-mtb-cabra-da-peste-2026-11-28/",
@@ -205,9 +199,12 @@
       "last_crawl_time": "2026-11-18T02:54:17Z",
       "google_canonical": "https://tvduasrodas.com/eventos/16-maratona-de-mtb-cabra-da-peste-2026-11-28/",
       "user_canonical": "https://tvduasrodas.com/eventos/16-maratona-de-mtb-cabra-da-peste-2026-11-28/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-11-24T21:11:01.456570+00:00"
+      "inspected_at": "2026-11-25T20:29:14.967813+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/alta-voltagem-mc-ibitinga-sp-2026-11-28/",
@@ -219,9 +216,12 @@
       "last_crawl_time": "2026-09-27T12:39:52Z",
       "google_canonical": "https://tvduasrodas.com/eventos/alta-voltagem-mc-ibitinga-sp-2026-11-28/",
       "user_canonical": "https://tvduasrodas.com/eventos/alta-voltagem-mc-ibitinga-sp-2026-11-28/",
-      "sitemaps": [],
+      "sitemaps": [
+        "https://tvduasrodas.com/event-sitemap.xml",
+        "https://tvduasrodas.com/sitemap.xml"
+      ],
       "referring_urls": [],
-      "inspected_at": "2026-11-24T21:11:07.694363+00:00"
+      "inspected_at": "2026-11-25T20:29:21.283410+00:00"
     },
     {
       "url": "https://tvduasrodas.com/eventos/dragoes-da-alvorada-mg-santa-terezinha-de-itaipu-pr-2026-11-28/",
@@ -235,7 +235,7 @@
       "user_canonical": "https://tvduasrodas.com/eventos/dragoes-da-alvorada-mg-santa-terezinha-de-itaipu-pr-2026-11-28/",
       "sitemaps": [],
       "referring_urls": [],
-      "inspected_at": "2026-11-24T21:11:14.156221+00:00"
+      "inspected_at": "2026-11-25T20:29:27.626810+00:00"
     }
   ]
 }
